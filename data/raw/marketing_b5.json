@@ -1,0 +1,2870 @@
+[
+  {
+    "id": "b50f18c2e4b60001",
+    "thread_id": "b50f18c2e4b60001",
+    "profile_id": "marketing",
+    "history_id": "735414",
+    "message_id_header": "<CAFb50f18c2e4b60001@mail.gmail.com>",
+    "in_reply_to": null,
+    "references": [],
+    "thread_position": 1,
+    "thread_length": 2,
+    "from": {
+      "name": "Sofia Marchetti",
+      "email": "sofia.marchetti@habitatgoods.com"
+    },
+    "to": [
+      {
+        "name": "Jordan Feld",
+        "email": "jordan.feld@habitatgoods.com"
+      }
+    ],
+    "cc": [],
+    "bcc": [],
+    "delivered_to": "jordan.feld@habitatgoods.com",
+    "subject": "Q4 paid social \u2014 walk me through the number before Thursday",
+    "snippet": "Jordan \u2014 before I present Thursday, I need the full logic on the $120K paid social number. Leadership pushed back hard on the July deck; they're going to ask why we're not putting ",
+    "body_text": "Jordan \u2014 before I present Thursday, I need the full logic on the $120K paid social number. Leadership pushed back hard on the July deck; they're going to ask why we're not putting more into email/SMS instead.\n\nCan you send me the breakdown by channel and the reasoning behind the shift from search? I want to walk in prepared, not defensive. Also \u2014 is this net new spend or reallocated from somewhere?\n\nSofia",
+    "body_html": null,
+    "date": "2026-07-15T09:14:00-05:00",
+    "internal_date_ms": 1784124840000,
+    "folder": "INBOX",
+    "category": "CATEGORY_PERSONAL",
+    "is_unread": false,
+    "is_starred": false,
+    "is_important": true,
+    "user_labels": [],
+    "attachments": [],
+    "calendar_event": null,
+    "extra_headers": {
+      "Return-Path": "<sofia.marchetti@habitatgoods.com>"
+    },
+    "size_estimate": 1312,
+    "meta": {
+      "email_class": "genuine_work",
+      "tricky_tags": [],
+      "is_actionable_for_user": true,
+      "action_owner": "jordan.feld@habitatgoods.com",
+      "action_summary": "Send Sofia the full channel breakdown and rationale for the $120K Q4 paid social number before Thursday's leadership review.",
+      "due_date": "2026-07-16",
+      "commitment_made_by_user": null,
+      "commitment_is_conditional": false,
+      "commitment_condition": null,
+      "superseded_by_message_id": null,
+      "notes": null
+    }
+  },
+  {
+    "id": "b50f18c2e4b60002",
+    "thread_id": "b50f18c2e4b60001",
+    "profile_id": "marketing",
+    "history_id": "735807",
+    "message_id_header": "<CAFb50f18c2e4b60002@mail.gmail.com>",
+    "in_reply_to": "<CAFb50f18c2e4b60001@mail.gmail.com>",
+    "references": [
+      "<CAFb50f18c2e4b60001@mail.gmail.com>"
+    ],
+    "thread_position": 2,
+    "thread_length": 2,
+    "from": {
+      "name": "Jordan Feld",
+      "email": "jordan.feld@habitatgoods.com"
+    },
+    "to": [
+      {
+        "name": "Sofia Marchetti",
+        "email": "sofia.marchetti@habitatgoods.com"
+      }
+    ],
+    "cc": [],
+    "bcc": [],
+    "delivered_to": "sofia.marchetti@habitatgoods.com",
+    "subject": "Re: Q4 paid social \u2014 walk me through the number before Thursday",
+    "snippet": "Sofia \u2014 happy to get ahead of this. Here's the full picture so you're bulletproof Thursday: - The $120K is the Q4 paid social number, down from the $150K I floated back in June pla",
+    "body_text": "Sofia \u2014 happy to get ahead of this. Here's the full picture so you're bulletproof Thursday:\n\n- The $120K is the Q4 paid social number, down from the $150K I floated back in June planning. I pulled it back after Nina's attribution pass showed we were over-crediting Meta prospecting for conversions email/SMS was actually driving.\n- It is NOT net new \u2014 it's reallocated. $20K of the original $150K is moving to lifecycle (Ben's BFCM flows), and the rest reflects the lower blended CAC we're seeing on TikTok relative to Meta right now.\n- Channel breakdown: Meta $68K, TikTok $34K, Pinterest $12K, testing/reserve $6K.\n- Why not more into email/SMS: we're already at 41% of Q4 revenue mix there, and Klaviyo deliverability starts to degrade past a certain send cadence \u2014 Nina has the raw numbers if anyone asks for backup.\n- The comp case: last November we ran $95K in paid social and hit a 3.1x blended ROAS. At $120K with better creative (the holiday shoot is Aug 4-5, so the assets will actually be new this year instead of recycled) we're modeling 3.4-3.6x.\n- I'm also holding $6K back as a true reserve rather than baking it into a channel, specifically so we're not caught flat if Meta's CPMs spike the way they did last Black Friday.\n\nI'll have the full deck \u2014 channel-by-channel, comp to last year, the creative calendar, and a one-page version you can screen-share cold \u2014 in your inbox by end of day tomorrow so you have it well before Thursday. If leadership wants to see the raw Amplitude pulls, I can bring my laptop and pull live.\n\nOne more thing: Wes flagged that finance wants a written justification memo too. I'm building both off the same numbers at the same time so you don't end up holding two documents that don't quite agree with each other \u2014 that's happened to me before and it's not a fun meeting.\n\nLast thing, and I want to say this plainly rather than bury it: if leadership's real question is 'why does marketing need more money,' the honest answer is that we don't \u2014 this is the same total budget as last quarter, just pointed at what's actually converting instead of what we assumed was converting back in June. I'd rather you have that framing going in than get surprised by the question live. Happy to do a quick quarter-hour dry run with you Wednesday afternoon if that would help you feel more solid walking in \u2014 no agenda beyond making sure Thursday goes smoothly for you.\n\nJordan",
+    "body_html": null,
+    "date": "2026-07-15T15:47:00-05:00",
+    "internal_date_ms": 1784148420000,
+    "folder": "SENT",
+    "category": null,
+    "is_unread": false,
+    "is_starred": true,
+    "is_important": true,
+    "user_labels": [
+      "Label_2204",
+      "Label_2201"
+    ],
+    "attachments": [],
+    "calendar_event": null,
+    "extra_headers": {
+      "Return-Path": "<jordan.feld@habitatgoods.com>"
+    },
+    "size_estimate": 3328,
+    "meta": {
+      "email_class": "genuine_work",
+      "tricky_tags": [],
+      "is_actionable_for_user": true,
+      "action_owner": "jordan.feld@habitatgoods.com",
+      "action_summary": "Send Sofia the full budget deck and written justification memo before Thursday's leadership review.",
+      "due_date": "2026-07-16",
+      "commitment_made_by_user": "Send Sofia the full paid-social budget deck and a written justification memo by end of day July 16, ahead of Thursday's leadership review.",
+      "commitment_is_conditional": false,
+      "commitment_condition": null,
+      "superseded_by_message_id": null,
+      "notes": null
+    }
+  },
+  {
+    "id": "b50f18c2e4b60003",
+    "thread_id": "b50f18c2e4b60003",
+    "profile_id": "marketing",
+    "history_id": "742722",
+    "message_id_header": "<CAFb50f18c2e4b60003@mail.gmail.com>",
+    "in_reply_to": null,
+    "references": [],
+    "thread_position": 1,
+    "thread_length": 2,
+    "from": {
+      "name": "Denise Aoki",
+      "email": "denise.aoki@habitatgoods.com"
+    },
+    "to": [
+      {
+        "name": "Jordan Feld",
+        "email": "jordan.feld@habitatgoods.com"
+      }
+    ],
+    "cc": [],
+    "bcc": [],
+    "delivered_to": "jordan.feld@habitatgoods.com",
+    "subject": "Replatform go-live \u2014 are we still on track for Sept 1?",
+    "snippet": "Jordan, checking in \u2014 engineering says the theme migration is behind by about a week and a half. Are we still targeting Sept 1 for go-live, or should I start preparing the team for",
+    "body_text": "Jordan, checking in \u2014 engineering says the theme migration is behind by about a week and a half. Are we still targeting Sept 1 for go-live, or should I start preparing the team for a slip? I need to know by Friday because it affects the BFCM freeze window we lock in with ops.\n\nDenise",
+    "body_html": null,
+    "date": "2026-07-20T11:02:00-05:00",
+    "internal_date_ms": 1784563320000,
+    "folder": "INBOX",
+    "category": "CATEGORY_PERSONAL",
+    "is_unread": false,
+    "is_starred": false,
+    "is_important": true,
+    "user_labels": [],
+    "attachments": [],
+    "calendar_event": null,
+    "extra_headers": {
+      "Return-Path": "<denise.aoki@habitatgoods.com>"
+    },
+    "size_estimate": 1186,
+    "meta": {
+      "email_class": "genuine_work",
+      "tricky_tags": [],
+      "is_actionable_for_user": true,
+      "action_owner": "jordan.feld@habitatgoods.com",
+      "action_summary": "Confirm whether the Sept 1 replatform launch date is still on track.",
+      "due_date": "2026-07-24",
+      "commitment_made_by_user": null,
+      "commitment_is_conditional": false,
+      "commitment_condition": null,
+      "superseded_by_message_id": null,
+      "notes": null
+    }
+  },
+  {
+    "id": "b50f18c2e4b60004",
+    "thread_id": "b50f18c2e4b60003",
+    "profile_id": "marketing",
+    "history_id": "744035",
+    "message_id_header": "<CAFb50f18c2e4b60004@mail.gmail.com>",
+    "in_reply_to": "<CAFb50f18c2e4b60003@mail.gmail.com>",
+    "references": [
+      "<CAFb50f18c2e4b60003@mail.gmail.com>"
+    ],
+    "thread_position": 2,
+    "thread_length": 2,
+    "from": {
+      "name": "Jordan Feld",
+      "email": "jordan.feld@habitatgoods.com"
+    },
+    "to": [
+      {
+        "name": "Denise Aoki",
+        "email": "denise.aoki@habitatgoods.com"
+      }
+    ],
+    "cc": [],
+    "bcc": [],
+    "delivered_to": "denise.aoki@habitatgoods.com",
+    "subject": "Re: Replatform go-live \u2014 are we still on track for Sept 1?",
+    "snippet": "Denise \u2014 good question, and honestly I don't fully trust the current estimate either. I'm on a call with the dev agency tomorrow to get a real number instead of the vague 'about a ",
+    "body_text": "Denise \u2014 good question, and honestly I don't fully trust the current estimate either. I'm on a call with the dev agency tomorrow to get a real number instead of the vague 'about a week' I keep hearing.\n\nWhat I can commit to: I'll have a firm yes/no on Sept 1 to you by Friday close of business, in time for your BFCM freeze decision. If it slips, my instinct is we protect Sept 15 as the hard outside date so we're not touching anything past Oct 1. I'll loop you and Wes in on the call notes either way.\n\nJordan",
+    "body_html": "<div style=\"font-family:Arial,sans-serif;font-size:14px;color:#222\"><p>Denise \u2014 good question, honestly I don't fully trust the current estimate either. On a call with the dev agency tomorrow to get a real number.</p><p><b>What I can commit to:</b> a firm yes/no on Sept 1 by Friday close of business, in time for your BFCM freeze decision. If it slips, my instinct is we protect Sept 15 as the hard outside date.</p><p>Jordan</p></div>",
+    "date": "2026-07-21T08:55:00-05:00",
+    "internal_date_ms": 1784642100000,
+    "folder": "SENT",
+    "category": null,
+    "is_unread": false,
+    "is_starred": false,
+    "is_important": false,
+    "user_labels": [],
+    "attachments": [],
+    "calendar_event": null,
+    "extra_headers": {
+      "Return-Path": "<jordan.feld@habitatgoods.com>"
+    },
+    "size_estimate": 1851,
+    "meta": {
+      "email_class": "genuine_work",
+      "tricky_tags": [],
+      "is_actionable_for_user": true,
+      "action_owner": "jordan.feld@habitatgoods.com",
+      "action_summary": "Give Denise a firm go/no-go on the Sept 1 replatform launch by Friday EOD.",
+      "due_date": "2026-07-24",
+      "commitment_made_by_user": "Give Denise a firm yes/no on the Sept 1 replatform launch date by Friday EOD, after Tuesday's call with the dev agency.",
+      "commitment_is_conditional": false,
+      "commitment_condition": null,
+      "superseded_by_message_id": null,
+      "notes": null
+    }
+  },
+  {
+    "id": "b50f18c2e4b60005",
+    "thread_id": "b50f18c2e4b60005",
+    "profile_id": "marketing",
+    "history_id": "754450",
+    "message_id_header": "<b50f18c2e4b60005@foldandfield.agency>",
+    "in_reply_to": null,
+    "references": [],
+    "thread_position": 1,
+    "thread_length": 2,
+    "from": {
+      "name": "Tessa Brandt",
+      "email": "tessa@foldandfield.agency"
+    },
+    "to": [
+      {
+        "name": "Jordan Feld",
+        "email": "jordan.feld@habitatgoods.com"
+      }
+    ],
+    "cc": [],
+    "bcc": [],
+    "delivered_to": "jordan.feld@habitatgoods.com",
+    "subject": "Holiday campaign creative \u2014 still waiting on your notes",
+    "snippet": "Jordan \u2014 we're two rounds deep on the holiday concepts and haven't heard back since last Wednesday. Rachel mentioned you had thoughts. We need sign-off by Monday to hit the Sept pr",
+    "body_text": "Jordan \u2014 we're two rounds deep on the holiday concepts and haven't heard back since last Wednesday. Rachel mentioned you had thoughts. We need sign-off by Monday to hit the Sept print deadline. Can you send notes today or tomorrow?\n\nTessa",
+    "body_html": null,
+    "date": "2026-07-28T14:30:00-05:00",
+    "internal_date_ms": 1785267000000,
+    "folder": "INBOX",
+    "category": "CATEGORY_PERSONAL",
+    "is_unread": false,
+    "is_starred": false,
+    "is_important": false,
+    "user_labels": [],
+    "attachments": [],
+    "calendar_event": null,
+    "extra_headers": {
+      "Return-Path": "<tessa@foldandfield.agency>"
+    },
+    "size_estimate": 1140,
+    "meta": {
+      "email_class": "genuine_work",
+      "tricky_tags": [],
+      "is_actionable_for_user": true,
+      "action_owner": "jordan.feld@habitatgoods.com",
+      "action_summary": "Send creative notes on the holiday campaign concepts before Monday's print deadline.",
+      "due_date": "2026-08-03",
+      "commitment_made_by_user": null,
+      "commitment_is_conditional": false,
+      "commitment_condition": null,
+      "superseded_by_message_id": null,
+      "notes": null
+    }
+  },
+  {
+    "id": "b50f18c2e4b60006",
+    "thread_id": "b50f18c2e4b60005",
+    "profile_id": "marketing",
+    "history_id": "754550",
+    "message_id_header": "<CAFb50f18c2e4b60006@mail.gmail.com>",
+    "in_reply_to": "<b50f18c2e4b60005@foldandfield.agency>",
+    "references": [
+      "<b50f18c2e4b60005@foldandfield.agency>"
+    ],
+    "thread_position": 2,
+    "thread_length": 2,
+    "from": {
+      "name": "Jordan Feld",
+      "email": "jordan.feld@habitatgoods.com"
+    },
+    "to": [
+      {
+        "name": "Tessa Brandt",
+        "email": "tessa@foldandfield.agency"
+      }
+    ],
+    "cc": [],
+    "bcc": [],
+    "delivered_to": "tessa@foldandfield.agency",
+    "subject": "Re: Holiday campaign creative \u2014 still waiting on your notes",
+    "snippet": "Tessa \u2014 sorry, buried. Concept B and D approved as-is. Kill A. C needs the wreath graphic smaller and the headline in Freight Text, not the script font. Notes to Rachel by Friday a",
+    "body_text": "Tessa \u2014 sorry, buried. Concept B and D approved as-is. Kill A. C needs the wreath graphic smaller and the headline in Freight Text, not the script font. Notes to Rachel by Friday and we're good for Monday.",
+    "body_html": null,
+    "date": "2026-07-28T16:10:00-05:00",
+    "internal_date_ms": 1785273000000,
+    "folder": "SENT",
+    "category": null,
+    "is_unread": false,
+    "is_starred": false,
+    "is_important": false,
+    "user_labels": [
+      "Label_2202"
+    ],
+    "attachments": [],
+    "calendar_event": null,
+    "extra_headers": {
+      "Return-Path": "<jordan.feld@habitatgoods.com>"
+    },
+    "size_estimate": 1107,
+    "meta": {
+      "email_class": "genuine_work",
+      "tricky_tags": [],
+      "is_actionable_for_user": true,
+      "action_owner": "jordan.feld@habitatgoods.com",
+      "action_summary": "Get detailed creative revision notes to Rachel by Friday.",
+      "due_date": "2026-07-31",
+      "commitment_made_by_user": "Get detailed creative notes on concept C to Rachel by Friday.",
+      "commitment_is_conditional": false,
+      "commitment_condition": null,
+      "superseded_by_message_id": null,
+      "notes": null
+    }
+  },
+  {
+    "id": "b50f18c2e4b60007",
+    "thread_id": "b50f18c2e4b60007",
+    "profile_id": "marketing",
+    "history_id": "726780",
+    "message_id_header": "<b50f18c2e4b60007@vaultedpr.com>",
+    "in_reply_to": null,
+    "references": [],
+    "thread_position": 1,
+    "thread_length": 2,
+    "from": {
+      "name": "Priyanka Rao",
+      "email": "priyanka@vaultedpr.com"
+    },
+    "to": [
+      {
+        "name": "Jordan Feld",
+        "email": "jordan.feld@habitatgoods.com"
+      }
+    ],
+    "cc": [],
+    "bcc": [],
+    "delivered_to": "jordan.feld@habitatgoods.com",
+    "subject": "Small mention in Retail Dive \u2014 not great",
+    "snippet": "Jordan \u2014 heads-up, Retail Dive ran a roundup on DTC brands cutting corners on packaging sustainability and Habitat Goods got name-checked as an example of 'greenwashing lite' next ",
+    "body_text": "Jordan \u2014 heads-up, Retail Dive ran a roundup on DTC brands cutting corners on packaging sustainability and Habitat Goods got name-checked as an example of 'greenwashing lite' next to two actual offenders. It's one paragraph, not the focus of the piece, but it's the kind of thing that gets screenshotted.\n\nI don't think we respond publicly \u2014 that usually amplifies it \u2014 but wanted you to see it before someone on your team does. Let me know if you want to loop Sofia in or if you'd rather I just monitor for now.\n\nPriyanka",
+    "body_html": "<div style=\"font-family:Georgia,serif;font-size:13px;color:#333\"><p>Jordan \u2014 heads-up, Retail Dive ran a roundup on DTC brands cutting corners on packaging sustainability and Habitat Goods got name-checked as an example of <i>'greenwashing lite'</i> next to two actual offenders.</p><p>I don't think we respond publicly \u2014 that usually amplifies it \u2014 but wanted you to see it first.</p><p style=\"color:#888\">Priyanka Rao \u00b7 Vaulted PR</p></div>",
+    "date": "2026-07-09T10:20:00-04:00",
+    "internal_date_ms": 1783606800000,
+    "folder": "INBOX",
+    "category": "CATEGORY_PERSONAL",
+    "is_unread": false,
+    "is_starred": false,
+    "is_important": true,
+    "user_labels": [],
+    "attachments": [],
+    "calendar_event": null,
+    "extra_headers": {
+      "Return-Path": "<priyanka@vaultedpr.com>"
+    },
+    "size_estimate": 1877,
+    "meta": {
+      "email_class": "genuine_work",
+      "tricky_tags": [],
+      "is_actionable_for_user": true,
+      "action_owner": "jordan.feld@habitatgoods.com",
+      "action_summary": "Decide whether to loop Sofia in on the Retail Dive mention and how to respond, if at all.",
+      "due_date": null,
+      "commitment_made_by_user": null,
+      "commitment_is_conditional": false,
+      "commitment_condition": null,
+      "superseded_by_message_id": null,
+      "notes": null
+    }
+  },
+  {
+    "id": "b50f18c2e4b60008",
+    "thread_id": "b50f18c2e4b60007",
+    "profile_id": "marketing",
+    "history_id": "727045",
+    "message_id_header": "<CAFb50f18c2e4b60008@mail.gmail.com>",
+    "in_reply_to": "<b50f18c2e4b60007@vaultedpr.com>",
+    "references": [
+      "<b50f18c2e4b60007@vaultedpr.com>"
+    ],
+    "thread_position": 2,
+    "thread_length": 2,
+    "from": {
+      "name": "Jordan Feld",
+      "email": "jordan.feld@habitatgoods.com"
+    },
+    "to": [
+      {
+        "name": "Priyanka Rao",
+        "email": "priyanka@vaultedpr.com"
+      }
+    ],
+    "cc": [],
+    "bcc": [],
+    "delivered_to": "priyanka@vaultedpr.com",
+    "subject": "Re: Small mention in Retail Dive \u2014 not great",
+    "snippet": "Priyanka \u2014 agreed, no public response, that'll just feed it. I'll flag it to Sofia myself so she's not blindsided if it comes up in the board deck, but let's not escalate beyond th",
+    "body_text": "Priyanka \u2014 agreed, no public response, that'll just feed it. I'll flag it to Sofia myself so she's not blindsided if it comes up in the board deck, but let's not escalate beyond that.\n\nCan you keep an eye on whether any other outlets pick up the 'greenwashing lite' framing over the next week or two? If it starts spreading past this one piece we'll want a real statement ready, even if we don't end up using it. For now, monitor and report back Friday.\n\nJordan",
+    "body_html": null,
+    "date": "2026-07-09T13:45:00-05:00",
+    "internal_date_ms": 1783622700000,
+    "folder": "SENT",
+    "category": null,
+    "is_unread": false,
+    "is_starred": false,
+    "is_important": true,
+    "user_labels": [],
+    "attachments": [],
+    "calendar_event": null,
+    "extra_headers": {
+      "Return-Path": "<jordan.feld@habitatgoods.com>"
+    },
+    "size_estimate": 1363,
+    "meta": {
+      "email_class": "genuine_work",
+      "tricky_tags": [],
+      "is_actionable_for_user": true,
+      "action_owner": "jordan.feld@habitatgoods.com",
+      "action_summary": "Brief Sofia on the Retail Dive mention before it surfaces elsewhere.",
+      "due_date": "2026-07-10",
+      "commitment_made_by_user": "Brief Sofia directly on the Retail Dive 'greenwashing lite' mention before it comes up in the board deck.",
+      "commitment_is_conditional": false,
+      "commitment_condition": null,
+      "superseded_by_message_id": null,
+      "notes": null
+    }
+  },
+  {
+    "id": "b50f18c2e4b60009",
+    "thread_id": "b50f18c2e4b60009",
+    "profile_id": "marketing",
+    "history_id": "748495",
+    "message_id_header": "<b50f18c2e4b60009@thelinencut.com>",
+    "in_reply_to": null,
+    "references": [],
+    "thread_position": 1,
+    "thread_length": 2,
+    "from": {
+      "name": "Amara Diallo",
+      "email": "amara@thelinencut.com"
+    },
+    "to": [
+      {
+        "name": "Jordan Feld",
+        "email": "jordan.feld@habitatgoods.com"
+      }
+    ],
+    "cc": [],
+    "bcc": [],
+    "delivered_to": "jordan.feld@habitatgoods.com",
+    "subject": "Partnership proposal \u2014 Linen & Co x Habitat Goods",
+    "snippet": "Hi Jordan, following up on our call \u2014 I put together a proposal for a 3-month collab: co-branded linen bedding capsule, my channel does the launch content, we split affiliate reven",
+    "body_text": "Hi Jordan, following up on our call \u2014 I put together a proposal for a 3-month collab: co-branded linen bedding capsule, my channel does the launch content, we split affiliate revenue 15/85 in your favor plus a $12K upfront content fee.\n\nMy audience skews almost exactly your target demo (women 28-42, HHI $90K+) and engagement's been running 6.2% this quarter. Happy to send over a deck if useful. Would love to get this moving before the holiday season since that's when my audience buys most.\n\nAmara",
+    "body_html": null,
+    "date": "2026-07-24T12:15:00-04:00",
+    "internal_date_ms": 1784909700000,
+    "folder": "INBOX",
+    "category": "CATEGORY_PERSONAL",
+    "is_unread": false,
+    "is_starred": false,
+    "is_important": false,
+    "user_labels": [],
+    "attachments": [],
+    "calendar_event": null,
+    "extra_headers": {
+      "Return-Path": "<amara@thelinencut.com>"
+    },
+    "size_estimate": 1403,
+    "meta": {
+      "email_class": "genuine_work",
+      "tricky_tags": [],
+      "is_actionable_for_user": true,
+      "action_owner": "jordan.feld@habitatgoods.com",
+      "action_summary": "Respond to Amara's partnership proposal (3-month collab, $12K upfront fee).",
+      "due_date": null,
+      "commitment_made_by_user": null,
+      "commitment_is_conditional": false,
+      "commitment_condition": null,
+      "superseded_by_message_id": null,
+      "notes": null
+    }
+  },
+  {
+    "id": "b50f18c2e4b60010",
+    "thread_id": "b50f18c2e4b60009",
+    "profile_id": "marketing",
+    "history_id": "752745",
+    "message_id_header": "<CAFb50f18c2e4b60010@mail.gmail.com>",
+    "in_reply_to": "<b50f18c2e4b60009@thelinencut.com>",
+    "references": [
+      "<b50f18c2e4b60009@thelinencut.com>"
+    ],
+    "thread_position": 2,
+    "thread_length": 2,
+    "from": {
+      "name": "Jordan Feld",
+      "email": "jordan.feld@habitatgoods.com"
+    },
+    "to": [
+      {
+        "name": "Amara Diallo",
+        "email": "amara@thelinencut.com"
+      }
+    ],
+    "cc": [],
+    "bcc": [],
+    "delivered_to": "amara@thelinencut.com",
+    "subject": "Re: Partnership proposal \u2014 Linen & Co x Habitat Goods",
+    "snippet": "Amara \u2014 thank you for putting this together, and I love the engagement numbers. Timing's the issue on our end: our Q4 partnership budget is already fully committed (Hollis's shoot,",
+    "body_text": "Amara \u2014 thank you for putting this together, and I love the engagement numbers. Timing's the issue on our end: our Q4 partnership budget is already fully committed (Hollis's shoot, the Vaulted PR retainer, and two other collabs already signed), so I can't get a new upfront fee approved before the holiday window closes.\n\nI don't want to string you along on this one. Let's revisit for spring \u2014 if you're open to it, send me your Q1 availability in January and we'll talk affiliate-only terms to start.\n\nJordan",
+    "body_html": null,
+    "date": "2026-07-27T10:05:00-05:00",
+    "internal_date_ms": 1785164700000,
+    "folder": "SENT",
+    "category": null,
+    "is_unread": false,
+    "is_starred": false,
+    "is_important": false,
+    "user_labels": [],
+    "attachments": [],
+    "calendar_event": null,
+    "extra_headers": {
+      "Return-Path": "<jordan.feld@habitatgoods.com>"
+    },
+    "size_estimate": 1414,
+    "meta": {
+      "email_class": "genuine_work",
+      "tricky_tags": [],
+      "is_actionable_for_user": false,
+      "action_owner": "amara@thelinencut.com",
+      "action_summary": "No further action owed now; declined for Q4.",
+      "due_date": null,
+      "commitment_made_by_user": "Revisit the partnership conversation with Amara in Q1 2027 if she sends her January availability.",
+      "commitment_is_conditional": true,
+      "commitment_condition": "Amara sends her Q1 2027 availability in January",
+      "superseded_by_message_id": null,
+      "notes": null
+    }
+  },
+  {
+    "id": "b50f18c2e4b60011",
+    "thread_id": "b50f18c2e4b60011",
+    "profile_id": "marketing",
+    "history_id": "733990",
+    "message_id_header": "<CAFb50f18c2e4b60011@mail.gmail.com>",
+    "in_reply_to": null,
+    "references": [],
+    "thread_position": 1,
+    "thread_length": 1,
+    "from": {
+      "name": "Jordan Feld",
+      "email": "jordan.feld@habitatgoods.com"
+    },
+    "to": [
+      {
+        "name": "Cam Okafor",
+        "email": "cam.okafor@habitatgoods.com"
+      }
+    ],
+    "cc": [],
+    "bcc": [],
+    "delivered_to": "cam.okafor@habitatgoods.com",
+    "subject": "Can you own the November lookbook copy?",
+    "snippet": "Cam \u2014 I want you to own end-to-end copy for the November lookbook: headlines, product blurbs, the intro letter. Rachel has the layout in Figma already. Rough draft to me by July 24",
+    "body_text": "Cam \u2014 I want you to own end-to-end copy for the November lookbook: headlines, product blurbs, the intro letter. Rachel has the layout in Figma already. Rough draft to me by July 24 so I have time to route it through Sofia before the print deadline. Let me know if you need anything from Nina on positioning language.\n\nJordan",
+    "body_html": null,
+    "date": "2026-07-14T09:30:00-05:00",
+    "internal_date_ms": 1784039400000,
+    "folder": "SENT",
+    "category": null,
+    "is_unread": false,
+    "is_starred": false,
+    "is_important": false,
+    "user_labels": [],
+    "attachments": [],
+    "calendar_event": null,
+    "extra_headers": {
+      "Return-Path": "<jordan.feld@habitatgoods.com>"
+    },
+    "size_estimate": 1226,
+    "meta": {
+      "email_class": "genuine_work",
+      "tricky_tags": [],
+      "is_actionable_for_user": false,
+      "action_owner": "cam.okafor@habitatgoods.com",
+      "action_summary": "Write the November lookbook copy (headlines, blurbs, intro letter) and deliver a rough draft by July 24.",
+      "due_date": "2026-07-24",
+      "commitment_made_by_user": "Route the lookbook copy through Sofia for approval once Cam delivers the draft.",
+      "commitment_is_conditional": false,
+      "commitment_condition": null,
+      "superseded_by_message_id": null,
+      "notes": null
+    }
+  },
+  {
+    "id": "b50f18c2e4b60012",
+    "thread_id": "b50f18c2e4b60012",
+    "profile_id": "marketing",
+    "history_id": "737140",
+    "message_id_header": "<CAFb50f18c2e4b60012@mail.gmail.com>",
+    "in_reply_to": null,
+    "references": [],
+    "thread_position": 1,
+    "thread_length": 1,
+    "from": {
+      "name": "Jordan Feld",
+      "email": "jordan.feld@habitatgoods.com"
+    },
+    "to": [
+      {
+        "name": "Nina Sokolov",
+        "email": "nina.sokolov@habitatgoods.com"
+      }
+    ],
+    "cc": [],
+    "bcc": [],
+    "delivered_to": "nina.sokolov@habitatgoods.com",
+    "subject": "Own the retention experiment for August",
+    "snippet": "Nina \u2014 take the lead on the August retention experiment we talked about: winback flow for lapsed 90-day+ customers, testing a $15 vs 20% discount offer. I want a readout on which c",
+    "body_text": "Nina \u2014 take the lead on the August retention experiment we talked about: winback flow for lapsed 90-day+ customers, testing a $15 vs 20% discount offer. I want a readout on which converts better before we lock the BFCM lifecycle plan. You have full call on sample size and test duration \u2014 just keep me posted if it's not wrapping up by mid-September.\n\nJordan",
+    "body_html": null,
+    "date": "2026-07-16T14:00:00-05:00",
+    "internal_date_ms": 1784228400000,
+    "folder": "SENT",
+    "category": null,
+    "is_unread": false,
+    "is_starred": false,
+    "is_important": false,
+    "user_labels": [],
+    "attachments": [],
+    "calendar_event": null,
+    "extra_headers": {
+      "Return-Path": "<jordan.feld@habitatgoods.com>"
+    },
+    "size_estimate": 1262,
+    "meta": {
+      "email_class": "genuine_work",
+      "tricky_tags": [],
+      "is_actionable_for_user": false,
+      "action_owner": "nina.sokolov@habitatgoods.com",
+      "action_summary": "Design and run the August winback discount-offer experiment and report results before BFCM planning locks.",
+      "due_date": null,
+      "commitment_made_by_user": null,
+      "commitment_is_conditional": false,
+      "commitment_condition": null,
+      "superseded_by_message_id": null,
+      "notes": null
+    }
+  },
+  {
+    "id": "b50f18c2e4b60013",
+    "thread_id": "b50f18c2e4b60013",
+    "profile_id": "marketing",
+    "history_id": "738340",
+    "message_id_header": "<CAFb50f18c2e4b60013@mail.gmail.com>",
+    "in_reply_to": null,
+    "references": [],
+    "thread_position": 1,
+    "thread_length": 1,
+    "from": {
+      "name": "Jordan Feld",
+      "email": "jordan.feld@habitatgoods.com"
+    },
+    "to": [
+      {
+        "name": "Ben Trujillo",
+        "email": "ben.trujillo@habitatgoods.com"
+      }
+    ],
+    "cc": [],
+    "bcc": [],
+    "delivered_to": "ben.trujillo@habitatgoods.com",
+    "subject": "BFCM flow \u2014 yours to build",
+    "snippet": "Ben \u2014 BFCM email/SMS flow is yours. Early access Tuesday, main sale Friday, last-chance Sunday night. Use last year's flow as a skeleton but the discount ladder is different this y",
+    "body_text": "Ben \u2014 BFCM email/SMS flow is yours. Early access Tuesday, main sale Friday, last-chance Sunday night. Use last year's flow as a skeleton but the discount ladder is different this year, check with Nina on the final tiers before you build segments.\n\nJordan",
+    "body_html": null,
+    "date": "2026-07-17T10:00:00-05:00",
+    "internal_date_ms": 1784300400000,
+    "folder": "SENT",
+    "category": null,
+    "is_unread": false,
+    "is_starred": false,
+    "is_important": false,
+    "user_labels": [],
+    "attachments": [],
+    "calendar_event": null,
+    "extra_headers": {
+      "Return-Path": "<jordan.feld@habitatgoods.com>"
+    },
+    "size_estimate": 1156,
+    "meta": {
+      "email_class": "genuine_work",
+      "tricky_tags": [],
+      "is_actionable_for_user": false,
+      "action_owner": "ben.trujillo@habitatgoods.com",
+      "action_summary": "Build the BFCM email/SMS flow (early access, main sale, last-chance sends).",
+      "due_date": null,
+      "commitment_made_by_user": null,
+      "commitment_is_conditional": false,
+      "commitment_condition": null,
+      "superseded_by_message_id": null,
+      "notes": null
+    }
+  },
+  {
+    "id": "b50f18c2e4b60014",
+    "thread_id": "b50f18c2e4b60014",
+    "profile_id": "marketing",
+    "history_id": "738540",
+    "message_id_header": "<CAFb50f18c2e4b60014@mail.gmail.com>",
+    "in_reply_to": null,
+    "references": [],
+    "thread_position": 1,
+    "thread_length": 1,
+    "from": {
+      "name": "Jordan Feld",
+      "email": "jordan.feld@habitatgoods.com"
+    },
+    "to": [
+      {
+        "name": "Rachel Lindqvist",
+        "email": "rachel.lindqvist@habitatgoods.com"
+      }
+    ],
+    "cc": [],
+    "bcc": [],
+    "delivered_to": "rachel.lindqvist@habitatgoods.com",
+    "subject": "Fwd: Brand guideline refresh \u2014 v3",
+    "snippet": "Rachel \u2014 fold the updated palette into the lookbook template before you start November. Ping me if the CMYK values look off from what the printer quoted us in the spring. ---------",
+    "body_text": "Rachel \u2014 fold the updated palette into the lookbook template before you start November. Ping me if the CMYK values look off from what the printer quoted us in the spring.\n\n---------- Forwarded message ---------\nFrom: Sofia Marchetti <sofia.marchetti@habitatgoods.com>\nDate: Fri, Jul 17, 2026 at 11:02 AM\nSubject: Brand guideline refresh \u2014 v3\nTo: Jordan Feld <jordan.feld@habitatgoods.com>\n\nJordan \u2014 final sign-off on the v3 brand guidelines attached (warmer neutrals, updated logo lockup, new CMYK values for print). Please make sure design has this before the November collateral goes into production. \u2014 Sofia",
+    "body_html": null,
+    "date": "2026-07-17T13:20:00-05:00",
+    "internal_date_ms": 1784312400000,
+    "folder": "SENT",
+    "category": null,
+    "is_unread": false,
+    "is_starred": false,
+    "is_important": false,
+    "user_labels": [],
+    "attachments": [],
+    "calendar_event": null,
+    "extra_headers": {
+      "Return-Path": "<jordan.feld@habitatgoods.com>"
+    },
+    "size_estimate": 1518,
+    "meta": {
+      "email_class": "genuine_work",
+      "tricky_tags": [],
+      "is_actionable_for_user": false,
+      "action_owner": "rachel.lindqvist@habitatgoods.com",
+      "action_summary": "Fold the updated brand palette/CMYK values into the lookbook template before starting November collateral.",
+      "due_date": null,
+      "commitment_made_by_user": null,
+      "commitment_is_conditional": false,
+      "commitment_condition": null,
+      "superseded_by_message_id": null,
+      "notes": null
+    }
+  },
+  {
+    "id": "b50f18c2e4b60015",
+    "thread_id": "b50f18c2e4b60015",
+    "profile_id": "marketing",
+    "history_id": "745640",
+    "message_id_header": "<CAFb50f18c2e4b60015@mail.gmail.com>",
+    "in_reply_to": null,
+    "references": [],
+    "thread_position": 1,
+    "thread_length": 1,
+    "from": {
+      "name": "Jordan Feld",
+      "email": "jordan.feld@habitatgoods.com"
+    },
+    "to": [
+      {
+        "name": "Nina Sokolov",
+        "email": "nina.sokolov@habitatgoods.com"
+      }
+    ],
+    "cc": [],
+    "bcc": [],
+    "delivered_to": "nina.sokolov@habitatgoods.com",
+    "subject": "Fwd: Amplitude cohort report \u2014 July",
+    "snippet": "Nina \u2014 forwarding the raw pull, CSV attached. The 90-day repeat purchase rate on TikTok-acquired customers looks soft (11.2%) vs Meta's 15.4%. Want your take before I present Thurs",
+    "body_text": "Nina \u2014 forwarding the raw pull, CSV attached. The 90-day repeat purchase rate on TikTok-acquired customers looks soft (11.2%) vs Meta's 15.4%. Want your take before I present Thursday \u2014 is this a real quality gap or a cohort-size artifact?\n\nJordan",
+    "body_html": null,
+    "date": "2026-07-22T11:40:00-05:00",
+    "internal_date_ms": 1784738400000,
+    "folder": "SENT",
+    "category": null,
+    "is_unread": false,
+    "is_starred": false,
+    "is_important": false,
+    "user_labels": [],
+    "attachments": [
+      {
+        "attachment_id": "ANGjdJ_Xqm5bP26XHLgbqRxvR0HGBQ8_WEQkoh21sycJitcJZk",
+        "filename": "cohort_repeat_purchase_july.csv",
+        "mime_type": "text/csv",
+        "size_bytes": 4210,
+        "is_inline": false,
+        "content_id": null,
+        "extracted_text": "channel,cohort_month,customers,repeat_purchase_90d_pct,avg_order_value\nmeta,2026-04,2140,15.4,86.20\ntiktok,2026-04,980,11.2,71.40\npinterest,2026-04,610,13.8,79.90\nemail,2026-04,3320,22.6,91.10\nmeta,2026-05,2280,14.9,84.75\ntiktok,2026-05,1105,10.8,69.95\n"
+      }
+    ],
+    "calendar_event": null,
+    "extra_headers": {
+      "Return-Path": "<jordan.feld@habitatgoods.com>"
+    },
+    "size_estimate": 6764,
+    "meta": {
+      "email_class": "genuine_work",
+      "tricky_tags": [],
+      "is_actionable_for_user": true,
+      "action_owner": "jordan.feld@habitatgoods.com",
+      "action_summary": "Get Nina's read on the TikTok repeat-purchase gap before Thursday's presentation.",
+      "due_date": "2026-07-24",
+      "commitment_made_by_user": "Present the cohort data (with Nina's read on the TikTok gap) on Thursday.",
+      "commitment_is_conditional": false,
+      "commitment_condition": null,
+      "superseded_by_message_id": null,
+      "notes": null
+    }
+  },
+  {
+    "id": "b50f18c2e4b60016",
+    "thread_id": "b50f18c2e4b60016",
+    "profile_id": "marketing",
+    "history_id": "716755",
+    "message_id_header": "<CAFb50f18c2e4b60016@mail.gmail.com>",
+    "in_reply_to": null,
+    "references": [],
+    "thread_position": 1,
+    "thread_length": 1,
+    "from": {
+      "name": "Jordan Feld",
+      "email": "jordan.feld@habitatgoods.com"
+    },
+    "to": [
+      {
+        "name": "Rachel Lindqvist",
+        "email": "rachel.lindqvist@habitatgoods.com"
+      },
+      {
+        "name": "Hollis Grant",
+        "email": "hollis@northlightstudio.co"
+      }
+    ],
+    "cc": [],
+    "bcc": [],
+    "delivered_to": "rachel.lindqvist@habitatgoods.com",
+    "subject": "Introducing you two \u2014 Aug 4-5 shoot",
+    "snippet": "Rachel, Hollis \u2014 looping you both in directly so you can nail logistics without me in the middle. Hollis: this is Rachel, our brand design lead, she'll have the full shot list and ",
+    "body_text": "Rachel, Hollis \u2014 looping you both in directly so you can nail logistics without me in the middle.\n\nHollis: this is Rachel, our brand design lead, she'll have the full shot list and mood board.\nRachel: Hollis shot last year's spring catalog, doing our holiday shoot Aug 4-5 in the Domain studio space. Location's booked, need the shot list finalized by July 25.\n\nHave at it \u2014 cc me only if you need budget sign-off.\n\nJordan",
+    "body_html": null,
+    "date": "2026-07-02T10:15:00-05:00",
+    "internal_date_ms": 1783005300000,
+    "folder": "SENT",
+    "category": null,
+    "is_unread": false,
+    "is_starred": false,
+    "is_important": false,
+    "user_labels": [],
+    "attachments": [],
+    "calendar_event": null,
+    "extra_headers": {
+      "Return-Path": "<jordan.feld@habitatgoods.com>"
+    },
+    "size_estimate": 1326,
+    "meta": {
+      "email_class": "genuine_work",
+      "tricky_tags": [],
+      "is_actionable_for_user": false,
+      "action_owner": "rachel.lindqvist@habitatgoods.com",
+      "action_summary": "Finalize the Aug 4-5 shoot list and mood board with Hollis by July 25.",
+      "due_date": "2026-07-25",
+      "commitment_made_by_user": null,
+      "commitment_is_conditional": false,
+      "commitment_condition": null,
+      "superseded_by_message_id": null,
+      "notes": null
+    }
+  },
+  {
+    "id": "b50f18c2e4b60017",
+    "thread_id": "b50f18c2e4b60017",
+    "profile_id": "marketing",
+    "history_id": "757365",
+    "message_id_header": "<CAFb50f18c2e4b60017@mail.gmail.com>",
+    "in_reply_to": null,
+    "references": [],
+    "thread_position": 1,
+    "thread_length": 1,
+    "from": {
+      "name": "Jordan Feld",
+      "email": "jordan.feld@habitatgoods.com"
+    },
+    "to": [
+      {
+        "name": "Priyanka Rao",
+        "email": "priyanka@vaultedpr.com"
+      },
+      {
+        "name": "Cam Okafor",
+        "email": "cam.okafor@habitatgoods.com"
+      }
+    ],
+    "cc": [],
+    "bcc": [],
+    "delivered_to": "priyanka@vaultedpr.com",
+    "subject": "Connecting you two on the sustainability feature",
+    "snippet": "Priyanka, Cam \u2014 connecting you directly. Priyanka's got a sustainability trade feature interested in Habitat Goods, wants quotes and product photography by Aug 10. Cam, you have th",
+    "body_text": "Priyanka, Cam \u2014 connecting you directly. Priyanka's got a sustainability trade feature interested in Habitat Goods, wants quotes and product photography by Aug 10. Cam, you have the best handle on our supply chain sourcing story \u2014 can you be the point person for content? Priyanka can brief you on exactly what the writer needs.\n\nJordan",
+    "body_html": "<div style=\"font-family:Arial,sans-serif;font-size:14px;color:#222\"><p>Priyanka, Cam \u2014 connecting you directly. Priyanka's got a sustainability trade feature interested in Habitat Goods, wants quotes and product photography by <b>Aug 10</b>.</p><p>Cam, you have the best handle on our supply chain sourcing story \u2014 can you be the point person for content?</p><p>Jordan</p></div>",
+    "date": "2026-07-30T15:05:00-05:00",
+    "internal_date_ms": 1785441900000,
+    "folder": "SENT",
+    "category": null,
+    "is_unread": false,
+    "is_starred": false,
+    "is_important": false,
+    "user_labels": [],
+    "attachments": [],
+    "calendar_event": null,
+    "extra_headers": {
+      "Return-Path": "<jordan.feld@habitatgoods.com>"
+    },
+    "size_estimate": 1622,
+    "meta": {
+      "email_class": "genuine_work",
+      "tricky_tags": [],
+      "is_actionable_for_user": false,
+      "action_owner": "cam.okafor@habitatgoods.com",
+      "action_summary": "Be the content point person for the sustainability trade feature; deliver quotes and photography by Aug 10.",
+      "due_date": "2026-08-10",
+      "commitment_made_by_user": null,
+      "commitment_is_conditional": false,
+      "commitment_condition": null,
+      "superseded_by_message_id": null,
+      "notes": null
+    }
+  },
+  {
+    "id": "b50f18c2e4b60018",
+    "thread_id": "b50f18c2e4b60018",
+    "profile_id": "marketing",
+    "history_id": "739960",
+    "message_id_header": "<CAFb50f18c2e4b60018@mail.gmail.com>",
+    "in_reply_to": null,
+    "references": [],
+    "thread_position": 1,
+    "thread_length": 1,
+    "from": {
+      "name": "Jordan Feld",
+      "email": "jordan.feld@habitatgoods.com"
+    },
+    "to": [
+      {
+        "name": "Chris Baumann",
+        "email": "cbaumann@meta.com"
+      }
+    ],
+    "cc": [],
+    "bcc": [],
+    "delivered_to": "cbaumann@meta.com",
+    "subject": "Q4 Meta spend commitment \u2014 can we get better rates",
+    "snippet": "Chris \u2014 we're planning to put $68K/month into Meta for Q4, up from roughly $45K this summer. Before I lock that in internally I want to know what we get for the volume increase \u2014 d",
+    "body_text": "Chris \u2014 we're planning to put $68K/month into Meta for Q4, up from roughly $45K this summer. Before I lock that in internally I want to know what we get for the volume increase \u2014 dedicated rep support during BFCM is table stakes, but is there any room on the platform fee side or early access to the new creative testing tools? Last year we found out about the AI creative variants feature after Black Friday had already started, which was frustrating.\n\nIf you can get me something concrete by early next week I can finalize the number with our CMO.\n\nJordan",
+    "body_html": null,
+    "date": "2026-07-18T13:00:00-05:00",
+    "internal_date_ms": 1784397600000,
+    "folder": "SENT",
+    "category": null,
+    "is_unread": false,
+    "is_starred": false,
+    "is_important": false,
+    "user_labels": [
+      "Label_2204"
+    ],
+    "attachments": [],
+    "calendar_event": null,
+    "extra_headers": {
+      "Return-Path": "<jordan.feld@habitatgoods.com>"
+    },
+    "size_estimate": 1461,
+    "meta": {
+      "email_class": "genuine_work",
+      "tricky_tags": [],
+      "is_actionable_for_user": true,
+      "action_owner": "jordan.feld@habitatgoods.com",
+      "action_summary": "Finalize the Q4 Meta spend number with Sofia once Chris responds.",
+      "due_date": "2026-07-27",
+      "commitment_made_by_user": "Finalize the Q4 Meta spend commitment with Sofia once Chris confirms platform support/fee terms.",
+      "commitment_is_conditional": false,
+      "commitment_condition": null,
+      "superseded_by_message_id": null,
+      "notes": null
+    }
+  },
+  {
+    "id": "b50f18c2e4b60019",
+    "thread_id": "b50f18c2e4b60019",
+    "profile_id": "marketing",
+    "history_id": "765660",
+    "message_id_header": "<CAFb50f18c2e4b60019@mail.gmail.com>",
+    "in_reply_to": null,
+    "references": [],
+    "thread_position": 1,
+    "thread_length": 1,
+    "from": {
+      "name": "Jordan Feld",
+      "email": "jordan.feld@habitatgoods.com"
+    },
+    "to": [
+      {
+        "name": "Tessa Brandt",
+        "email": "tessa@foldandfield.agency"
+      }
+    ],
+    "cc": [],
+    "bcc": [],
+    "delivered_to": "tessa@foldandfield.agency",
+    "subject": "SOW renewal \u2014 the 18% increase is too much",
+    "snippet": "Tessa \u2014 I looked at the redline. 18% on the retainer is more than I can defend internally given our total marketing budget is only growing 9% next year. I don't want to nickel-and-",
+    "body_text": "Tessa \u2014 I looked at the redline. 18% on the retainer is more than I can defend internally given our total marketing budget is only growing 9% next year. I don't want to nickel-and-dime you, the work this year has been genuinely good, but I need the number to move.\n\nWhat I can do: 11% if we lock a 14-month term instead of 12, or flat at current rate if the scope stays exactly as-is with no added channels. Let me know which direction works on your end and I'll take it to Wes.",
+    "body_html": "<div style=\"font-family:Arial,sans-serif;font-size:14px;color:#222\"><p>Tessa \u2014 I looked at the redline. 18% on the retainer is more than I can defend internally given our total marketing budget is only growing 9% next year.</p><p><b>What I can do:</b> 11% if we lock a 14-month term instead of 12, or flat at current rate if scope stays exactly as-is.</p></div>",
+    "date": "2026-08-05T09:20:00-05:00",
+    "internal_date_ms": 1785939600000,
+    "folder": "SENT",
+    "category": null,
+    "is_unread": false,
+    "is_starred": false,
+    "is_important": false,
+    "user_labels": [
+      "Label_2202"
+    ],
+    "attachments": [],
+    "calendar_event": null,
+    "extra_headers": {
+      "Return-Path": "<jordan.feld@habitatgoods.com>"
+    },
+    "size_estimate": 1743,
+    "meta": {
+      "email_class": "genuine_work",
+      "tricky_tags": [],
+      "is_actionable_for_user": true,
+      "action_owner": "jordan.feld@habitatgoods.com",
+      "action_summary": "Confirm final SOW numbers with Wes once Tessa responds to the counter-offer.",
+      "due_date": "2026-08-14",
+      "commitment_made_by_user": "Confirm final SOW numbers with Wes once Tessa responds, pending Wes's sign-off on the FY27 budget.",
+      "commitment_is_conditional": true,
+      "commitment_condition": "Wes Duffy signs off on the FY27 marketing budget",
+      "superseded_by_message_id": null,
+      "notes": null
+    }
+  },
+  {
+    "id": "b50f18c2e4b60020",
+    "thread_id": "b50f18c2e4b60020",
+    "profile_id": "marketing",
+    "history_id": "706750",
+    "message_id_header": "<CAFb50f18c2e4b60020@mail.gmail.com>",
+    "in_reply_to": null,
+    "references": [],
+    "thread_position": 1,
+    "thread_length": 1,
+    "from": {
+      "name": "Jordan Feld",
+      "email": "jordan.feld@habitatgoods.com"
+    },
+    "to": [
+      {
+        "name": "Marisol Vega",
+        "email": "marisol@dtcsummit.co"
+      }
+    ],
+    "cc": [],
+    "bcc": [],
+    "delivered_to": "marisol@dtcsummit.co",
+    "subject": "Following up on the DTC Summit speaking ask",
+    "snippet": "Marisol \u2014 thanks again for the call last week. After looking at the dates, I have to pass on the panel this year \u2014 Oct 14 lands right in the middle of our BFCM prep and I wouldn't ",
+    "body_text": "Marisol \u2014 thanks again for the call last week. After looking at the dates, I have to pass on the panel this year \u2014 Oct 14 lands right in the middle of our BFCM prep and I wouldn't be able to give the prep the attention it deserves. Would genuinely like to be considered for next year if the timing's better. Appreciate the invite.\n\nJordan",
+    "body_html": null,
+    "date": "2026-06-25T11:30:00-05:00",
+    "internal_date_ms": 1782405000000,
+    "folder": "SENT",
+    "category": null,
+    "is_unread": false,
+    "is_starred": false,
+    "is_important": false,
+    "user_labels": [],
+    "attachments": [],
+    "calendar_event": null,
+    "extra_headers": {
+      "Return-Path": "<jordan.feld@habitatgoods.com>"
+    },
+    "size_estimate": 1242,
+    "meta": {
+      "email_class": "genuine_work",
+      "tricky_tags": [],
+      "is_actionable_for_user": false,
+      "action_owner": null,
+      "action_summary": null,
+      "due_date": null,
+      "commitment_made_by_user": null,
+      "commitment_is_conditional": false,
+      "commitment_condition": null,
+      "superseded_by_message_id": null,
+      "notes": null
+    }
+  },
+  {
+    "id": "b50f18c2e4b60021",
+    "thread_id": "b50f18c2e4b60021",
+    "profile_id": "marketing",
+    "history_id": "725780",
+    "message_id_header": "<CAFb50f18c2e4b60021@mail.gmail.com>",
+    "in_reply_to": null,
+    "references": [],
+    "thread_position": 1,
+    "thread_length": 1,
+    "from": {
+      "name": "Jordan Feld",
+      "email": "jordan.feld@habitatgoods.com"
+    },
+    "to": [
+      {
+        "name": "Wes Duffy",
+        "email": "wes.duffy@habitatgoods.com"
+      }
+    ],
+    "cc": [],
+    "bcc": [],
+    "delivered_to": "wes.duffy@habitatgoods.com",
+    "subject": "Sorry \u2014 Q3 marketing actuals are late",
+    "snippet": "Wes \u2014 apologies, I know these were due last Friday and you needed them for the close. I got pulled into the replatform vendor situation most of last week and let this slip, that's ",
+    "body_text": "Wes \u2014 apologies, I know these were due last Friday and you needed them for the close. I got pulled into the replatform vendor situation most of last week and let this slip, that's on me, not an excuse.\n\nI'll have the finalized Q3 actuals \u2014 spend by channel, reconciled against the Klaviyo and Meta invoices \u2014 to you by end of day Friday. If that's too late for your close timeline, tell me now and I'll drop everything else today.\n\nJordan",
+    "body_html": null,
+    "date": "2026-07-08T16:40:00-05:00",
+    "internal_date_ms": 1783546800000,
+    "folder": "SENT",
+    "category": null,
+    "is_unread": false,
+    "is_starred": true,
+    "is_important": true,
+    "user_labels": [],
+    "attachments": [],
+    "calendar_event": null,
+    "extra_headers": {
+      "Return-Path": "<jordan.feld@habitatgoods.com>"
+    },
+    "size_estimate": 1344,
+    "meta": {
+      "email_class": "genuine_work",
+      "tricky_tags": [],
+      "is_actionable_for_user": true,
+      "action_owner": "jordan.feld@habitatgoods.com",
+      "action_summary": "Send Wes the finalized, reconciled Q3 marketing actuals.",
+      "due_date": "2026-07-10",
+      "commitment_made_by_user": "Send Wes the finalized Q3 marketing actuals, reconciled against Klaviyo and Meta invoices, by end of day Friday July 10.",
+      "commitment_is_conditional": false,
+      "commitment_condition": null,
+      "superseded_by_message_id": null,
+      "notes": null
+    }
+  },
+  {
+    "id": "b50f18c2e4b60022",
+    "thread_id": "b50f18c2e4b60022",
+    "profile_id": "marketing",
+    "history_id": "764685",
+    "message_id_header": "<CAFb50f18c2e4b60022@mail.gmail.com>",
+    "in_reply_to": null,
+    "references": [],
+    "thread_position": 1,
+    "thread_length": 1,
+    "from": {
+      "name": "Jordan Feld",
+      "email": "jordan.feld@habitatgoods.com"
+    },
+    "to": [
+      {
+        "name": "Rachel Lindqvist",
+        "email": "rachel.lindqvist@habitatgoods.com"
+      }
+    ],
+    "cc": [],
+    "bcc": [],
+    "delivered_to": "rachel.lindqvist@habitatgoods.com",
+    "subject": "Hero shot \u2014 approved",
+    "snippet": "Approved, ship it. Exactly the warm, cozy feel we wanted for the November drop. Nice work.",
+    "body_text": "Approved, ship it. Exactly the warm, cozy feel we wanted for the November drop. Nice work.",
+    "body_html": null,
+    "date": "2026-08-04T17:05:00-05:00",
+    "internal_date_ms": 1785881100000,
+    "folder": "SENT",
+    "category": null,
+    "is_unread": false,
+    "is_starred": false,
+    "is_important": false,
+    "user_labels": [],
+    "attachments": [],
+    "calendar_event": null,
+    "extra_headers": {
+      "Return-Path": "<jordan.feld@habitatgoods.com>"
+    },
+    "size_estimate": 990,
+    "meta": {
+      "email_class": "genuine_work",
+      "tricky_tags": [],
+      "is_actionable_for_user": false,
+      "action_owner": null,
+      "action_summary": null,
+      "due_date": null,
+      "commitment_made_by_user": null,
+      "commitment_is_conditional": false,
+      "commitment_condition": null,
+      "superseded_by_message_id": null,
+      "notes": null
+    }
+  },
+  {
+    "id": "b50f18c2e4b60023",
+    "thread_id": "b50f18c2e4b60023",
+    "profile_id": "marketing",
+    "history_id": "767070",
+    "message_id_header": "<CAFb50f18c2e4b60023@mail.gmail.com>",
+    "in_reply_to": null,
+    "references": [],
+    "thread_position": 1,
+    "thread_length": 1,
+    "from": {
+      "name": "Jordan Feld",
+      "email": "jordan.feld@habitatgoods.com"
+    },
+    "to": [
+      {
+        "name": "Ben Trujillo",
+        "email": "ben.trujillo@habitatgoods.com"
+      }
+    ],
+    "cc": [],
+    "bcc": [],
+    "delivered_to": "ben.trujillo@habitatgoods.com",
+    "subject": "Subject line for BF email #3",
+    "snippet": "Love it \u2014 'the sale you've been waiting for' is a keeper. Send it.",
+    "body_text": "Love it \u2014 'the sale you've been waiting for' is a keeper. Send it.",
+    "body_html": null,
+    "date": "2026-08-06T08:50:00-05:00",
+    "internal_date_ms": 1786024200000,
+    "folder": "SENT",
+    "category": null,
+    "is_unread": false,
+    "is_starred": false,
+    "is_important": false,
+    "user_labels": [],
+    "attachments": [],
+    "calendar_event": null,
+    "extra_headers": {
+      "Return-Path": "<jordan.feld@habitatgoods.com>"
+    },
+    "size_estimate": 968,
+    "meta": {
+      "email_class": "genuine_work",
+      "tricky_tags": [],
+      "is_actionable_for_user": false,
+      "action_owner": null,
+      "action_summary": null,
+      "due_date": null,
+      "commitment_made_by_user": null,
+      "commitment_is_conditional": false,
+      "commitment_condition": null,
+      "superseded_by_message_id": null,
+      "notes": null
+    }
+  },
+  {
+    "id": "b50f18c2e4b60024",
+    "thread_id": "b50f18c2e4b60024",
+    "profile_id": "marketing",
+    "history_id": "732572",
+    "message_id_header": "<CAFb50f18c2e4b60024@mail.gmail.com>",
+    "in_reply_to": null,
+    "references": [],
+    "thread_position": 1,
+    "thread_length": 1,
+    "from": {
+      "name": "Jordan Feld",
+      "email": "jordan.feld@habitatgoods.com"
+    },
+    "to": [
+      {
+        "name": "Sofia Marchetti",
+        "email": "sofia.marchetti@habitatgoods.com"
+      }
+    ],
+    "cc": [],
+    "bcc": [],
+    "delivered_to": "sofia.marchetti@habitatgoods.com",
+    "subject": "Running a few min late",
+    "snippet": "Stuck on a call with Meta, joining budget review 10 min late. Start without me.",
+    "body_text": "Stuck on a call with Meta, joining budget review 10 min late. Start without me.",
+    "body_html": null,
+    "date": "2026-07-13T09:52:00-05:00",
+    "internal_date_ms": 1783954320000,
+    "folder": "SENT",
+    "category": null,
+    "is_unread": false,
+    "is_starred": false,
+    "is_important": false,
+    "user_labels": [],
+    "attachments": [],
+    "calendar_event": null,
+    "extra_headers": {
+      "Return-Path": "<jordan.feld@habitatgoods.com>"
+    },
+    "size_estimate": 979,
+    "meta": {
+      "email_class": "genuine_work",
+      "tricky_tags": [],
+      "is_actionable_for_user": false,
+      "action_owner": null,
+      "action_summary": null,
+      "due_date": null,
+      "commitment_made_by_user": null,
+      "commitment_is_conditional": false,
+      "commitment_condition": null,
+      "superseded_by_message_id": null,
+      "notes": null
+    }
+  },
+  {
+    "id": "b50f18c2e4b60025",
+    "thread_id": "b50f18c2e4b60025",
+    "profile_id": "marketing",
+    "history_id": "759970",
+    "message_id_header": "<CAFb50f18c2e4b60025@mail.gmail.com>",
+    "in_reply_to": null,
+    "references": [],
+    "thread_position": 1,
+    "thread_length": 1,
+    "from": {
+      "name": "Jordan Feld",
+      "email": "jordan.feld@habitatgoods.com"
+    },
+    "to": [
+      {
+        "name": "Sofia Marchetti",
+        "email": "sofia.marchetti@habitatgoods.com"
+      },
+      {
+        "name": "Nina Sokolov",
+        "email": "nina.sokolov@habitatgoods.com"
+      },
+      {
+        "name": "Cam Okafor",
+        "email": "cam.okafor@habitatgoods.com"
+      },
+      {
+        "name": "Rachel Lindqvist",
+        "email": "rachel.lindqvist@habitatgoods.com"
+      },
+      {
+        "name": "Ben Trujillo",
+        "email": "ben.trujillo@habitatgoods.com"
+      }
+    ],
+    "cc": [],
+    "bcc": [],
+    "delivered_to": "sofia.marchetti@habitatgoods.com",
+    "subject": "Nice work on the launch",
+    "snippet": "Team \u2014 BFCM landing page went live clean, zero bugs reported, conversion already up 4% vs last week's baseline. Great job everyone, especially Ben on the flow QA.",
+    "body_text": "Team \u2014 BFCM landing page went live clean, zero bugs reported, conversion already up 4% vs last week's baseline. Great job everyone, especially Ben on the flow QA.",
+    "body_html": null,
+    "date": "2026-08-01T10:30:00-05:00",
+    "internal_date_ms": 1785598200000,
+    "folder": "SENT",
+    "category": null,
+    "is_unread": false,
+    "is_starred": false,
+    "is_important": true,
+    "user_labels": [],
+    "attachments": [],
+    "calendar_event": null,
+    "extra_headers": {
+      "Return-Path": "<jordan.feld@habitatgoods.com>"
+    },
+    "size_estimate": 1064,
+    "meta": {
+      "email_class": "genuine_work",
+      "tricky_tags": [],
+      "is_actionable_for_user": false,
+      "action_owner": null,
+      "action_summary": null,
+      "due_date": null,
+      "commitment_made_by_user": null,
+      "commitment_is_conditional": false,
+      "commitment_condition": null,
+      "superseded_by_message_id": null,
+      "notes": null
+    }
+  },
+  {
+    "id": "b50f18c2e4b60026",
+    "thread_id": "b50f18c2e4b60026",
+    "profile_id": "marketing",
+    "history_id": "746930",
+    "message_id_header": "<CAFb50f18c2e4b60026@mail.gmail.com>",
+    "in_reply_to": null,
+    "references": [],
+    "thread_position": 1,
+    "thread_length": 1,
+    "from": {
+      "name": "Jordan Feld",
+      "email": "jordan.feld@habitatgoods.com"
+    },
+    "to": [
+      {
+        "name": "Denise Aoki",
+        "email": "denise.aoki@habitatgoods.com"
+      }
+    ],
+    "cc": [],
+    "bcc": [],
+    "delivered_to": "denise.aoki@habitatgoods.com",
+    "subject": "Replatform sync \u2014 Thursday 2pm work?",
+    "snippet": "Thursday 2pm work for a replatform sync? Want Wes there too for the freeze-window piece.",
+    "body_text": "Thursday 2pm work for a replatform sync? Want Wes there too for the freeze-window piece.",
+    "body_html": null,
+    "date": "2026-07-23T09:10:00-05:00",
+    "internal_date_ms": 1784815800000,
+    "folder": "SENT",
+    "category": null,
+    "is_unread": false,
+    "is_starred": false,
+    "is_important": false,
+    "user_labels": [],
+    "attachments": [],
+    "calendar_event": null,
+    "extra_headers": {
+      "Return-Path": "<jordan.feld@habitatgoods.com>"
+    },
+    "size_estimate": 988,
+    "meta": {
+      "email_class": "genuine_work",
+      "tricky_tags": [],
+      "is_actionable_for_user": false,
+      "action_owner": null,
+      "action_summary": null,
+      "due_date": null,
+      "commitment_made_by_user": null,
+      "commitment_is_conditional": false,
+      "commitment_condition": null,
+      "superseded_by_message_id": null,
+      "notes": null
+    }
+  },
+  {
+    "id": "b50f18c2e4b60027",
+    "thread_id": "b50f18c2e4b60027",
+    "profile_id": "marketing",
+    "history_id": "752935",
+    "message_id_header": "<CAFb50f18c2e4b60027@mail.gmail.com>",
+    "in_reply_to": null,
+    "references": [],
+    "thread_position": 1,
+    "thread_length": 1,
+    "from": {
+      "name": "Jordan Feld",
+      "email": "jordan.feld@habitatgoods.com"
+    },
+    "to": [
+      {
+        "name": "Wes Duffy",
+        "email": "wes.duffy@habitatgoods.com"
+      }
+    ],
+    "cc": [],
+    "bcc": [],
+    "delivered_to": "wes.duffy@habitatgoods.com",
+    "subject": "Approved \u2014 extra 20K for the shoot",
+    "snippet": "Wes \u2014 go ahead and approve the extra $20K for the Aug 4-5 shoot (Hollis needed a second lighting tech and we're expediting a sample shipment from the Ohio warehouse). I know it's o",
+    "body_text": "Wes \u2014 go ahead and approve the extra $20K for the Aug 4-5 shoot (Hollis needed a second lighting tech and we're expediting a sample shipment from the Ohio warehouse). I know it's over the original PO. I'll walk Sofia through it myself so it doesn't surprise her when she sees the budget review \u2014 don't want you catching flak for something that's my call.\n\nJordan",
+    "body_html": "<div style=\"font-family:Arial,sans-serif;font-size:14px;color:#222\"><p>Wes \u2014 go ahead and approve the extra <b>$20K</b> for the Aug 4-5 shoot (second lighting tech + expedited sample shipment).</p><p>I'll walk Sofia through it myself so it doesn't surprise her in the budget review.</p><p>Jordan</p></div>",
+    "date": "2026-07-27T13:15:00-05:00",
+    "internal_date_ms": 1785176100000,
+    "folder": "SENT",
+    "category": null,
+    "is_unread": false,
+    "is_starred": false,
+    "is_important": false,
+    "user_labels": [
+      "Label_2204"
+    ],
+    "attachments": [],
+    "calendar_event": null,
+    "extra_headers": {
+      "Return-Path": "<jordan.feld@habitatgoods.com>"
+    },
+    "size_estimate": 1573,
+    "meta": {
+      "email_class": "genuine_work",
+      "tricky_tags": [],
+      "is_actionable_for_user": true,
+      "action_owner": "jordan.feld@habitatgoods.com",
+      "action_summary": "Explain the extra $20K photoshoot spend to Sofia before the budget review.",
+      "due_date": null,
+      "commitment_made_by_user": "Explain the extra $20K photoshoot spend to Sofia directly before she sees it in the budget review.",
+      "commitment_is_conditional": false,
+      "commitment_condition": null,
+      "superseded_by_message_id": null,
+      "notes": null
+    }
+  },
+  {
+    "id": "b50f18c2e4b60028",
+    "thread_id": "b50f18c2e4b60028",
+    "profile_id": "marketing",
+    "history_id": "728265",
+    "message_id_header": "<CAFb50f18c2e4b60028@mail.gmail.com>",
+    "in_reply_to": null,
+    "references": [],
+    "thread_position": 1,
+    "thread_length": 1,
+    "from": {
+      "name": "Jordan Feld",
+      "email": "jordan.feld@habitatgoods.com"
+    },
+    "to": [
+      {
+        "name": "Hollis Grant",
+        "email": "hollis@northlightstudio.co"
+      }
+    ],
+    "cc": [],
+    "bcc": [],
+    "delivered_to": "hollis@northlightstudio.co",
+    "subject": "Aug 4-5 shoot \u2014 final details",
+    "snippet": "Hollis \u2014 locking the last details for Aug 4-5: - Call time 7am both days, Domain studio space (unit 4B, loading dock around back) - Two models both days, agency's sending headshots",
+    "body_text": "Hollis \u2014 locking the last details for Aug 4-5:\n\n- Call time 7am both days, Domain studio space (unit 4B, loading dock around back)\n- Two models both days, agency's sending headshots by Friday\n- Product samples arriving Aug 3 from the Ohio warehouse, ~40 SKUs across the November and holiday lines\n- Mood board link is in the shared drive, Rachel's the point person on set for styling calls\n- Catering's on us, let me know headcount for your crew by Monday\n\nExcited for this one, the light in that space in early August should be great for the linens.\n\nJordan",
+    "body_html": null,
+    "date": "2026-07-10T10:05:00-05:00",
+    "internal_date_ms": 1783695900000,
+    "folder": "SENT",
+    "category": null,
+    "is_unread": false,
+    "is_starred": false,
+    "is_important": false,
+    "user_labels": [],
+    "attachments": [],
+    "calendar_event": null,
+    "extra_headers": {
+      "Return-Path": "<jordan.feld@habitatgoods.com>"
+    },
+    "size_estimate": 1460,
+    "meta": {
+      "email_class": "genuine_work",
+      "tricky_tags": [],
+      "is_actionable_for_user": true,
+      "action_owner": "jordan.feld@habitatgoods.com",
+      "action_summary": "Confirm catering headcount with Hollis by Monday.",
+      "due_date": "2026-07-13",
+      "commitment_made_by_user": null,
+      "commitment_is_conditional": false,
+      "commitment_condition": null,
+      "superseded_by_message_id": null,
+      "notes": null
+    }
+  },
+  {
+    "id": "b50f18c2e4b60029",
+    "thread_id": "b50f18c2e4b60029",
+    "profile_id": "marketing",
+    "history_id": "758760",
+    "message_id_header": "<CAFb50f18c2e4b60029@mail.gmail.com>",
+    "in_reply_to": null,
+    "references": [],
+    "thread_position": 1,
+    "thread_length": 1,
+    "from": {
+      "name": "Jordan Feld",
+      "email": "jordan.feld@habitatgoods.com"
+    },
+    "to": [
+      {
+        "name": "Sofia Marchetti",
+        "email": "sofia.marchetti@habitatgoods.com"
+      }
+    ],
+    "cc": [],
+    "bcc": [],
+    "delivered_to": "sofia.marchetti@habitatgoods.com",
+    "subject": "Why we're pulling back on paid search for Q4",
+    "snippet": "Sofia \u2014 wanted to walk you through the paid search decision before it shows up in the Q4 plan, since I know you'll ask and I'd rather you hear the reasoning from me than infer it f",
+    "body_text": "Sofia \u2014 wanted to walk you through the paid search decision before it shows up in the Q4 plan, since I know you'll ask and I'd rather you hear the reasoning from me than infer it from a spreadsheet:\n\n- We're cutting branded search spend by about 60% starting October. Branded terms were basically capturing demand we'd already generated through email and paid social \u2014 Nina ran a geo-holdout test in June and branded search conversions barely moved when we paused it in three test markets.\n- Non-branded search stays roughly flat, that's still finding new customers, just at a much higher CAC than social right now ($54 vs $31 blended).\n- The dollars we're freeing up (~$18K/month) are going into the paid social number I sent you last week, not into a new channel \u2014 I didn't want to spread us thinner across five channels when we're already stretched on creative production.\n- Risk I want to flag honestly: if a competitor starts bidding aggressively on our brand terms while we're not defending them, we could see some erosion. I'm comfortable with that risk through Q4 based on the holdout data, but I want you to know it's a real trade-off, not a free lunch.\n- Google rep is aware and not thrilled, for what it's worth, but that's expected.\n\nHappy to walk through the holdout test methodology if you want to poke holes in it before this goes to the board deck.\n\nJordan",
+    "body_html": "<div style=\"font-family:Arial,sans-serif;font-size:14px;color:#222\"><p>Sofia \u2014 wanted to walk you through the paid search decision before it shows up in the Q4 plan.</p><ul><li>Cutting branded search ~60% starting October \u2014 Nina's geo-holdout showed conversions barely moved when we paused it in three test markets</li><li>Non-branded stays flat, higher CAC than social ($54 vs $31 blended)</li><li>The ~$18K/month freed goes into paid social, not a new channel</li><li>Risk: a competitor could erode brand-term share while we're not defending it \u2014 real trade-off, not a free lunch</li></ul><p>Happy to walk through the methodology before the board deck.</p><p>Jordan</p></div>",
+    "date": "2026-07-31T14:20:00-05:00",
+    "internal_date_ms": 1785525600000,
+    "folder": "SENT",
+    "category": null,
+    "is_unread": false,
+    "is_starred": false,
+    "is_important": true,
+    "user_labels": [],
+    "attachments": [],
+    "calendar_event": null,
+    "extra_headers": {
+      "Return-Path": "<jordan.feld@habitatgoods.com>"
+    },
+    "size_estimate": 2961,
+    "meta": {
+      "email_class": "genuine_work",
+      "tricky_tags": [],
+      "is_actionable_for_user": false,
+      "action_owner": null,
+      "action_summary": null,
+      "due_date": null,
+      "commitment_made_by_user": null,
+      "commitment_is_conditional": false,
+      "commitment_condition": null,
+      "superseded_by_message_id": null,
+      "notes": null
+    }
+  },
+  {
+    "id": "b50f18c2e4b60030",
+    "thread_id": "b50f18c2e4b60030",
+    "profile_id": "marketing",
+    "history_id": "768640",
+    "message_id_header": "<CAFb50f18c2e4b60030@mail.gmail.com>",
+    "in_reply_to": null,
+    "references": [],
+    "thread_position": 1,
+    "thread_length": 1,
+    "from": {
+      "name": "Jordan Feld",
+      "email": "jordan.feld@habitatgoods.com"
+    },
+    "to": [
+      {
+        "name": "Tessa Brandt",
+        "email": "tessa@foldandfield.agency"
+      }
+    ],
+    "cc": [],
+    "bcc": [],
+    "delivered_to": "tessa@foldandfield.agency",
+    "subject": "July invoice \u2014 numbers don't match the SOW",
+    "snippet": "Tessa \u2014 July invoice has 38 hours of paid social management billed at the strategy rate, should be the standard rate per the SOW. Can you resend corrected? Wes is holding payment u",
+    "body_text": "Tessa \u2014 July invoice has 38 hours of paid social management billed at the strategy rate, should be the standard rate per the SOW. Can you resend corrected? Wes is holding payment until it's fixed.",
+    "body_html": null,
+    "date": "2026-08-07T11:00:00-05:00",
+    "internal_date_ms": 1786118400000,
+    "folder": "SENT",
+    "category": null,
+    "is_unread": false,
+    "is_starred": false,
+    "is_important": false,
+    "user_labels": [],
+    "attachments": [],
+    "calendar_event": null,
+    "extra_headers": {
+      "Return-Path": "<jordan.feld@habitatgoods.com>"
+    },
+    "size_estimate": 1098,
+    "meta": {
+      "email_class": "genuine_work",
+      "tricky_tags": [],
+      "is_actionable_for_user": true,
+      "action_owner": "tessa@foldandfield.agency",
+      "action_summary": "Waiting on Tessa to resend a corrected July invoice.",
+      "due_date": null,
+      "commitment_made_by_user": null,
+      "commitment_is_conditional": false,
+      "commitment_condition": null,
+      "superseded_by_message_id": null,
+      "notes": null
+    }
+  },
+  {
+    "id": "b50f18c2e4b60031",
+    "thread_id": "b50f18c2e4b60031",
+    "profile_id": "marketing",
+    "history_id": "714200",
+    "message_id_header": "<CAFb50f18c2e4b60031@mail.gmail.com>",
+    "in_reply_to": null,
+    "references": [],
+    "thread_position": 1,
+    "thread_length": 1,
+    "from": {
+      "name": "Jordan Feld",
+      "email": "jordan.feld@habitatgoods.com"
+    },
+    "to": [
+      {
+        "name": "Tessa Brandt",
+        "email": "tessa@foldandfield.agency"
+      }
+    ],
+    "cc": [],
+    "bcc": [],
+    "delivered_to": "tessa@foldandfield.agency",
+    "subject": "Static ads round 2 \u2014 go",
+    "snippet": "Approved as-is. Green light on all four. Ship today if you can.",
+    "body_text": "Approved as-is. Green light on all four. Ship today if you can.",
+    "body_html": null,
+    "date": "2026-06-30T15:40:00-05:00",
+    "internal_date_ms": 1782852000000,
+    "folder": "SENT",
+    "category": null,
+    "is_unread": false,
+    "is_starred": false,
+    "is_important": false,
+    "user_labels": [],
+    "attachments": [],
+    "calendar_event": null,
+    "extra_headers": {
+      "Return-Path": "<jordan.feld@habitatgoods.com>"
+    },
+    "size_estimate": 963,
+    "meta": {
+      "email_class": "genuine_work",
+      "tricky_tags": [],
+      "is_actionable_for_user": false,
+      "action_owner": null,
+      "action_summary": null,
+      "due_date": null,
+      "commitment_made_by_user": null,
+      "commitment_is_conditional": false,
+      "commitment_condition": null,
+      "superseded_by_message_id": null,
+      "notes": null
+    }
+  },
+  {
+    "id": "b50f18c2e4b60032",
+    "thread_id": "b50f18c2e4b60032",
+    "profile_id": "marketing",
+    "history_id": "744475",
+    "message_id_header": "<CAFb50f18c2e4b60032@mail.gmail.com>",
+    "in_reply_to": null,
+    "references": [],
+    "thread_position": 1,
+    "thread_length": 1,
+    "from": {
+      "name": "Jordan Feld",
+      "email": "jordan.feld@habitatgoods.com"
+    },
+    "to": [
+      {
+        "name": "Nina Sokolov",
+        "email": "nina.sokolov@habitatgoods.com"
+      }
+    ],
+    "cc": [],
+    "bcc": [],
+    "delivered_to": "nina.sokolov@habitatgoods.com",
+    "subject": "Attribution model question \u2014 quick answer",
+    "snippet": "Last-click for now through Q4, we're not switching mid-quarter. Let's revisit MTA for the FY27 planning cycle in January, I'd rather do it right than rush it in.",
+    "body_text": "Last-click for now through Q4, we're not switching mid-quarter. Let's revisit MTA for the FY27 planning cycle in January, I'd rather do it right than rush it in.",
+    "body_html": null,
+    "date": "2026-07-21T16:15:00-05:00",
+    "internal_date_ms": 1784668500000,
+    "folder": "SENT",
+    "category": null,
+    "is_unread": false,
+    "is_starred": false,
+    "is_important": false,
+    "user_labels": [],
+    "attachments": [],
+    "calendar_event": null,
+    "extra_headers": {
+      "Return-Path": "<jordan.feld@habitatgoods.com>"
+    },
+    "size_estimate": 1061,
+    "meta": {
+      "email_class": "genuine_work",
+      "tricky_tags": [],
+      "is_actionable_for_user": false,
+      "action_owner": null,
+      "action_summary": null,
+      "due_date": null,
+      "commitment_made_by_user": null,
+      "commitment_is_conditional": false,
+      "commitment_condition": null,
+      "superseded_by_message_id": null,
+      "notes": null
+    }
+  },
+  {
+    "id": "b50f18c2e4b60033",
+    "thread_id": "b50f18c2e4b60033",
+    "profile_id": "marketing",
+    "history_id": "755605",
+    "message_id_header": "<CAFb50f18c2e4b60033@mail.gmail.com>",
+    "in_reply_to": null,
+    "references": [],
+    "thread_position": 1,
+    "thread_length": 1,
+    "from": {
+      "name": "Jordan Feld",
+      "email": "jordan.feld@habitatgoods.com"
+    },
+    "to": [
+      {
+        "name": "Cam Okafor",
+        "email": "cam.okafor@habitatgoods.com"
+      }
+    ],
+    "cc": [],
+    "bcc": [],
+    "delivered_to": "cam.okafor@habitatgoods.com",
+    "subject": "September content calendar \u2014 one gap",
+    "snippet": "Cam \u2014 calendar looks great except week 3, nothing scheduled between the founder story and the sourcing piece. Can you slot something there, even a repost with new copy? Don't want ",
+    "body_text": "Cam \u2014 calendar looks great except week 3, nothing scheduled between the founder story and the sourcing piece. Can you slot something there, even a repost with new copy? Don't want a dead week going into October.",
+    "body_html": null,
+    "date": "2026-07-29T09:45:00-05:00",
+    "internal_date_ms": 1785336300000,
+    "folder": "SENT",
+    "category": null,
+    "is_unread": false,
+    "is_starred": false,
+    "is_important": false,
+    "user_labels": [],
+    "attachments": [],
+    "calendar_event": null,
+    "extra_headers": {
+      "Return-Path": "<jordan.feld@habitatgoods.com>"
+    },
+    "size_estimate": 1113,
+    "meta": {
+      "email_class": "genuine_work",
+      "tricky_tags": [],
+      "is_actionable_for_user": false,
+      "action_owner": "cam.okafor@habitatgoods.com",
+      "action_summary": "Fill the week-3 gap in the September content calendar.",
+      "due_date": null,
+      "commitment_made_by_user": null,
+      "commitment_is_conditional": false,
+      "commitment_condition": null,
+      "superseded_by_message_id": null,
+      "notes": null
+    }
+  },
+  {
+    "id": "b50f18c2e4b60034",
+    "thread_id": "b50f18c2e4b60034",
+    "profile_id": "marketing",
+    "history_id": "774250",
+    "message_id_header": "<CAFb50f18c2e4b60034@mail.gmail.com>",
+    "in_reply_to": null,
+    "references": [],
+    "thread_position": 1,
+    "thread_length": 1,
+    "from": {
+      "name": "Jordan Feld",
+      "email": "jordan.feld@habitatgoods.com"
+    },
+    "to": [
+      {
+        "name": "Cam Okafor",
+        "email": "cam.okafor@habitatgoods.com"
+      },
+      {
+        "name": "Rachel Lindqvist",
+        "email": "rachel.lindqvist@habitatgoods.com"
+      },
+      {
+        "name": "Ben Trujillo",
+        "email": "ben.trujillo@habitatgoods.com"
+      },
+      {
+        "name": "Nina Sokolov",
+        "email": "nina.sokolov@habitatgoods.com"
+      }
+    ],
+    "cc": [],
+    "bcc": [],
+    "delivered_to": "cam.okafor@habitatgoods.com",
+    "subject": "Reminder: Q4 asset deadline is Friday",
+    "snippet": "Quick reminder \u2014 all Q4 hero assets (lookbook, homepage takeover, email headers) are due to Sofia's review queue by Friday EOD. That includes: - Cam: final lookbook copy - Rachel: ",
+    "body_text": "Quick reminder \u2014 all Q4 hero assets (lookbook, homepage takeover, email headers) are due to Sofia's review queue by Friday EOD. That includes:\n\n- Cam: final lookbook copy\n- Rachel: homepage takeover comps\n- Ben: email header set for the BFCM sequence\n- Nina: the landing page variants for the A/B test\n\nIf you're going to miss it, tell me today, not Friday at 4pm. I'd rather adjust the plan now than scramble.",
+    "body_html": "<div style=\"font-family:Arial,sans-serif;font-size:14px;color:#222\"><p>Quick reminder \u2014 all Q4 hero assets are due to Sofia's review queue by <b>Friday EOD</b>:</p><ul><li>Cam: final lookbook copy</li><li>Rachel: homepage takeover comps</li><li>Ben: email header set for BFCM</li><li>Nina: landing page A/B variants</li></ul><p>If you're going to miss it, tell me today.</p></div>",
+    "date": "2026-08-11T08:30:00-05:00",
+    "internal_date_ms": 1786455000000,
+    "folder": "SENT",
+    "category": null,
+    "is_unread": false,
+    "is_starred": false,
+    "is_important": false,
+    "user_labels": [],
+    "attachments": [],
+    "calendar_event": null,
+    "extra_headers": {
+      "Return-Path": "<jordan.feld@habitatgoods.com>"
+    },
+    "size_estimate": 1694,
+    "meta": {
+      "email_class": "internal_announcement",
+      "tricky_tags": [],
+      "is_actionable_for_user": false,
+      "action_owner": null,
+      "action_summary": "Owner sent as a coordination reminder; deliverables owed by each recipient, not the owner.",
+      "due_date": null,
+      "commitment_made_by_user": null,
+      "commitment_is_conditional": false,
+      "commitment_condition": null,
+      "superseded_by_message_id": null,
+      "notes": null
+    }
+  },
+  {
+    "id": "b50f18c2e4b60035",
+    "thread_id": "b50f18c2e4b60035",
+    "profile_id": "marketing",
+    "history_id": "734105",
+    "message_id_header": "<CAFb50f18c2e4b60035@mail.gmail.com>",
+    "in_reply_to": null,
+    "references": [],
+    "thread_position": 1,
+    "thread_length": 1,
+    "from": {
+      "name": "Jordan Feld",
+      "email": "jordan.feld@habitatgoods.com"
+    },
+    "to": [
+      {
+        "name": "Priyanka Rao",
+        "email": "priyanka@vaultedpr.com"
+      }
+    ],
+    "cc": [],
+    "bcc": [],
+    "delivered_to": "priyanka@vaultedpr.com",
+    "subject": "Q4 press strategy \u2014 a few ideas",
+    "snippet": "Priyanka \u2014 thinking ahead to Q4 press now that the Retail Dive thing has died down. A few threads I want to pull on: - The Ohio warehouse expansion (adding 40 jobs) could be a good",
+    "body_text": "Priyanka \u2014 thinking ahead to Q4 press now that the Retail Dive thing has died down. A few threads I want to pull on:\n\n- The Ohio warehouse expansion (adding 40 jobs) could be a good local business story, maybe Austin Business Journal or similar, positions us as a real employer not just a DTC brand\n- Sofia would be a strong voice for a founder-adjacent piece on scaling a home goods brand without VC funding \u2014 we've never really told that story\n- Holiday gift guide season is coming, worth pitching a few editors directly with product samples rather than waiting for inbound\n\nNone of these are urgent, just want to get them on your radar before Q4 gets chaotic. Can we grab 20 minutes next week to prioritize?\n\nJordan",
+    "body_html": null,
+    "date": "2026-07-14T11:25:00-05:00",
+    "internal_date_ms": 1784046300000,
+    "folder": "SENT",
+    "category": null,
+    "is_unread": false,
+    "is_starred": false,
+    "is_important": false,
+    "user_labels": [],
+    "attachments": [],
+    "calendar_event": null,
+    "extra_headers": {
+      "Return-Path": "<jordan.feld@habitatgoods.com>"
+    },
+    "size_estimate": 1622,
+    "meta": {
+      "email_class": "genuine_work",
+      "tricky_tags": [],
+      "is_actionable_for_user": false,
+      "action_owner": "priyanka@vaultedpr.com",
+      "action_summary": "Prioritize and schedule Q4 press pitch ideas with Jordan.",
+      "due_date": null,
+      "commitment_made_by_user": null,
+      "commitment_is_conditional": false,
+      "commitment_condition": null,
+      "superseded_by_message_id": null,
+      "notes": null
+    }
+  },
+  {
+    "id": "b50f18c2e4b60036",
+    "thread_id": "b50f18c2e4b60036",
+    "profile_id": "marketing",
+    "history_id": "763050",
+    "message_id_header": "<CAFb50f18c2e4b60036@mail.gmail.com>",
+    "in_reply_to": null,
+    "references": [],
+    "thread_position": 1,
+    "thread_length": 1,
+    "from": {
+      "name": "Jordan Feld",
+      "email": "jordan.feld@habitatgoods.com"
+    },
+    "to": [
+      {
+        "name": "Rachel Lindqvist",
+        "email": "rachel.lindqvist@habitatgoods.com"
+      }
+    ],
+    "cc": [],
+    "bcc": [],
+    "delivered_to": "rachel.lindqvist@habitatgoods.com",
+    "subject": "Background on the hero shot \u2014 one tweak",
+    "snippet": "Love the new hero shot direction. One tweak \u2014 can we lighten the background about 10%? Feels a touch heavy for the homepage next to the white product photography.",
+    "body_text": "Love the new hero shot direction. One tweak \u2014 can we lighten the background about 10%? Feels a touch heavy for the homepage next to the white product photography.",
+    "body_html": null,
+    "date": "2026-08-03T13:50:00-05:00",
+    "internal_date_ms": 1785783000000,
+    "folder": "SENT",
+    "category": null,
+    "is_unread": false,
+    "is_starred": false,
+    "is_important": false,
+    "user_labels": [],
+    "attachments": [],
+    "calendar_event": null,
+    "extra_headers": {
+      "Return-Path": "<jordan.feld@habitatgoods.com>"
+    },
+    "size_estimate": 1064,
+    "meta": {
+      "email_class": "genuine_work",
+      "tricky_tags": [],
+      "is_actionable_for_user": false,
+      "action_owner": "rachel.lindqvist@habitatgoods.com",
+      "action_summary": "Lighten the hero shot background ~10%.",
+      "due_date": null,
+      "commitment_made_by_user": null,
+      "commitment_is_conditional": false,
+      "commitment_condition": null,
+      "superseded_by_message_id": null,
+      "notes": null
+    }
+  },
+  {
+    "id": "b50f18c2e4b60037",
+    "thread_id": "b50f18c2e4b60037",
+    "profile_id": "marketing",
+    "history_id": "733965",
+    "message_id_header": "<CAFb50f18c2e4b60037@mail.gmail.com>",
+    "in_reply_to": null,
+    "references": [],
+    "thread_position": 1,
+    "thread_length": 1,
+    "from": {
+      "name": "Jordan Feld",
+      "email": "jordan.feld@habitatgoods.com"
+    },
+    "to": [
+      {
+        "name": "Sofia Marchetti",
+        "email": "sofia.marchetti@habitatgoods.com"
+      }
+    ],
+    "cc": [],
+    "bcc": [],
+    "delivered_to": "sofia.marchetti@habitatgoods.com",
+    "subject": "Fwd: Nice writeup in Modern Retail",
+    "snippet": "Sofia \u2014 nice one to start the week, sharing without comment. Priyanka landed this one. ---------- Forwarded message --------- From: Priyanka Rao <priyanka@vaultedpr.com> Date: Mon,",
+    "body_text": "Sofia \u2014 nice one to start the week, sharing without comment. Priyanka landed this one.\n\n---------- Forwarded message ---------\nFrom: Priyanka Rao <priyanka@vaultedpr.com>\nDate: Mon, Jul 13, 2026 at 4:40 PM\nSubject: Modern Retail piece is live\nTo: Jordan Feld <jordan.feld@habitatgoods.com>\n\nJordan \u2014 the Modern Retail feature on DTC home brands going omnichannel is live and Habitat Goods is the lead example, quoted positively re: the retail pop-up strategy. Great placement, no action needed on your end. \u2014 Priyanka",
+    "body_html": null,
+    "date": "2026-07-14T09:05:00-05:00",
+    "internal_date_ms": 1784037900000,
+    "folder": "SENT",
+    "category": null,
+    "is_unread": false,
+    "is_starred": false,
+    "is_important": false,
+    "user_labels": [],
+    "attachments": [],
+    "calendar_event": null,
+    "extra_headers": {
+      "Return-Path": "<jordan.feld@habitatgoods.com>"
+    },
+    "size_estimate": 1423,
+    "meta": {
+      "email_class": "genuine_work",
+      "tricky_tags": [],
+      "is_actionable_for_user": false,
+      "action_owner": null,
+      "action_summary": null,
+      "due_date": null,
+      "commitment_made_by_user": null,
+      "commitment_is_conditional": false,
+      "commitment_condition": null,
+      "superseded_by_message_id": null,
+      "notes": null
+    }
+  },
+  {
+    "id": "b50f18c2e4b60038",
+    "thread_id": "b50f18c2e4b60038",
+    "profile_id": "marketing",
+    "history_id": "732475",
+    "message_id_header": "<CAFb50f18c2e4b60038@mail.gmail.com>",
+    "in_reply_to": null,
+    "references": [],
+    "thread_position": 1,
+    "thread_length": 1,
+    "from": {
+      "name": "Jordan Feld",
+      "email": "jordan.feld@habitatgoods.com"
+    },
+    "to": [
+      {
+        "name": "Sofia Marchetti",
+        "email": "sofia.marchetti@habitatgoods.com"
+      },
+      {
+        "name": "Nina Sokolov",
+        "email": "nina.sokolov@habitatgoods.com"
+      },
+      {
+        "name": "Cam Okafor",
+        "email": "cam.okafor@habitatgoods.com"
+      },
+      {
+        "name": "Rachel Lindqvist",
+        "email": "rachel.lindqvist@habitatgoods.com"
+      },
+      {
+        "name": "Ben Trujillo",
+        "email": "ben.trujillo@habitatgoods.com"
+      },
+      {
+        "name": "Wes Duffy",
+        "email": "wes.duffy@habitatgoods.com"
+      },
+      {
+        "name": "Denise Aoki",
+        "email": "denise.aoki@habitatgoods.com"
+      }
+    ],
+    "cc": [],
+    "bcc": [],
+    "delivered_to": "sofia.marchetti@habitatgoods.com",
+    "subject": "Q4 planning kickoff \u2014 here's how we're organizing the next 8 weeks",
+    "snippet": "Team \u2014 Q4 is our biggest revenue quarter and I want us aligned going in rather than scrambling in October, so here's how I want to organize the next eight weeks. Read the whole thi",
+    "body_text": "Team \u2014 Q4 is our biggest revenue quarter and I want us aligned going in rather than scrambling in October, so here's how I want to organize the next eight weeks. Read the whole thing, there's a section relevant to each of you.\n\nWHY THIS MATTERS\nLast year we hit our BFCM number but burned out doing it \u2014 creative was still being approved the week of launch, the lifecycle flows went out with typos because we were rushing, and Wes was chasing final actuals into January. I'd like this year to feel different, not because we're being less ambitious but because we're starting earlier and locking decisions sooner.\n\nTIMELINE\n- Now through July 25: creative concepting and shot list finalization. Photoshoot is Aug 4-5.\n- July 25 - Aug 22: build phase \u2014 lifecycle flows, landing pages, paid social creative variants, all built off approved assets, no new concepting after this point unless something is actively broken.\n- Aug 22 - Sept 5: QA and dry runs. Every flow gets a real send test, every landing page gets a real device/browser pass.\n- Sept 5 onward: live, iterate based on data, no more structural changes, just optimization.\n\nOWNERSHIP\n- Cam: all copy, lookbook draft due July 24\n- Rachel: all visual assets, shot list due July 25, homepage comps due Aug 15\n- Ben: lifecycle flows, BFCM sequence build starting July 28\n- Nina: paid social creative testing plan and the retention experiment we discussed, results before flows lock\n- Wes: budget tracking, I want a weekly actuals-vs-plan number starting in August, not a surprise in January\n- Denise: replatform coordination, I know that timeline is still shaky and I'm tracking it separately with you and Sofia\n\nBUDGET\nTotal Q4 marketing spend is $120K paid social, $34K paid search, $28K influencer/partnerships, and the existing agency retainer. I'll send the full deck separately this week \u2014 Sofia's seen the top-line already.\n\nOne ask: if you're blocked on anything, tell me immediately, not at the weekly sync. A three-day delay in July becomes a missed BFCM deadline in October. I'd rather over-communicate than have anyone quietly behind.\n\nRISKS I'M WATCHING\n- The replatform timeline is the thing most likely to blow up this plan. If Sept 1 slips past Sept 15, we're rebuilding half of this calendar on the fly, so Denise and I are tracking that separately and I'll flag early if it's trending the wrong way.\n- Agency capacity during the SOW renewal conversation \u2014 I don't want contract negotiations to slow down deliverables, so Tessa's team has been told the renewal talk is separate from the Q4 production timeline and shouldn't affect it either way.\n- Creative approval bottlenecks, historically the thing that eats our buffer. I'm committing to 48-hour turnaround on anything routed to me for sign-off this quarter, and I'd ask the same of everyone else in the chain.\n\nExcited for this one. Let's go build something we're proud of.\n\nJordan",
+    "body_html": "<div style=\"font-family:Arial,sans-serif;font-size:14px;color:#222\"><p>Team \u2014 Q4 is our biggest revenue quarter and I want us aligned going in. Full plan below, please read the whole thing.</p><p><b>Timeline:</b> concepting through July 25, build phase through Aug 22, QA through Sept 5, live Sept 5 onward.</p><p><b>Budget:</b> $120K paid social, $34K paid search, $28K influencer/partnerships.</p><p>Let's go build something we're proud of.<br>Jordan</p></div>",
+    "date": "2026-07-13T08:15:00-05:00",
+    "internal_date_ms": 1783948500000,
+    "folder": "SENT",
+    "category": null,
+    "is_unread": false,
+    "is_starred": true,
+    "is_important": true,
+    "user_labels": [
+      "Label_2201"
+    ],
+    "attachments": [
+      {
+        "attachment_id": "ANGjdJ_LSqjObzpz1uuKQ8ykFywMD7ngl9zRiNU5IQJdzlcA-U",
+        "filename": "Q4_Planning_Brief.pdf",
+        "mime_type": "application/pdf",
+        "size_bytes": 51200,
+        "is_inline": false,
+        "content_id": null,
+        "extracted_text": "HABITAT GOODS \u2014 Q4 2026 MARKETING PLANNING BRIEF\n\nTimeline: Concepting (now-7/25), Build (7/25-8/22), QA (8/22-9/5), Live (9/5+).\n\nBudget: Paid social $120,000. Paid search $34,000. Influencer/partnerships $28,000. Agency retainer per SOW.\n\nOwnership: Cam - copy/lookbook (due 7/24). Rachel - visual assets/shot list (due 7/25), homepage comps (due 8/15). Ben - lifecycle flows (build starts 7/28). Nina - paid social testing plan, retention experiment. Wes - weekly budget actuals starting August. Denise - replatform coordination.\n\nKey dates: Photoshoot Aug 4-5. BFCM early access Nov 24. Main sale Nov 27. Last chance Nov 29 night."
+      }
+    ],
+    "calendar_event": null,
+    "extra_headers": {
+      "Return-Path": "<jordan.feld@habitatgoods.com>"
+    },
+    "size_estimate": 72548,
+    "meta": {
+      "email_class": "internal_announcement",
+      "tricky_tags": [],
+      "is_actionable_for_user": false,
+      "action_owner": null,
+      "action_summary": "Owner-authored kickoff plan; no obligation created for the owner beyond what's already committed elsewhere.",
+      "due_date": null,
+      "commitment_made_by_user": null,
+      "commitment_is_conditional": false,
+      "commitment_condition": null,
+      "superseded_by_message_id": null,
+      "notes": null
+    }
+  },
+  {
+    "id": "b50f18c2e4b60039",
+    "thread_id": "b50f18c2e4b60039",
+    "profile_id": "marketing",
+    "history_id": "753070",
+    "message_id_header": "<CAFb50f18c2e4b60039@mail.gmail.com>",
+    "in_reply_to": null,
+    "references": [],
+    "thread_position": 1,
+    "thread_length": 1,
+    "from": {
+      "name": "Jordan Feld",
+      "email": "jordan.feld@habitatgoods.com"
+    },
+    "to": [
+      {
+        "name": "Sofia Marchetti",
+        "email": "sofia.marchetti@habitatgoods.com"
+      },
+      {
+        "name": "Nina Sokolov",
+        "email": "nina.sokolov@habitatgoods.com"
+      },
+      {
+        "name": "Cam Okafor",
+        "email": "cam.okafor@habitatgoods.com"
+      },
+      {
+        "name": "Rachel Lindqvist",
+        "email": "rachel.lindqvist@habitatgoods.com"
+      },
+      {
+        "name": "Ben Trujillo",
+        "email": "ben.trujillo@habitatgoods.com"
+      },
+      {
+        "name": "Wes Duffy",
+        "email": "wes.duffy@habitatgoods.com"
+      }
+    ],
+    "cc": [],
+    "bcc": [],
+    "delivered_to": "sofia.marchetti@habitatgoods.com",
+    "subject": "July retro \u2014 what worked, what didn't, what changes for Q4",
+    "snippet": "Team \u2014 pulled together a real retro on July before we lock the Q4 plan, because I don't want to repeat mistakes just because we're moving fast. This is longer than usual, worth the",
+    "body_text": "Team \u2014 pulled together a real retro on July before we lock the Q4 plan, because I don't want to repeat mistakes just because we're moving fast. This is longer than usual, worth the read.\n\nWHAT WORKED\n- The mid-July flash sale outperformed plan by 22% \u2014 Ben's segmented send (excluding anyone who'd bought in the last 14 days) clearly mattered, open rates were up almost 6 points over our usual blanket sends. We should make this the default approach going forward, not a one-off.\n- TikTok organic (Cam's founder-story series) drove more qualified traffic than any paid channel per dollar spent, which is zero dollars. We're underinvesting in this relative to the return.\n- The Amplitude cohort work Nina did on attribution finally gave us a real answer on the branded search question instead of arguing about it in meetings for the fourth quarter in a row.\n\nWHAT DIDN'T\n- Paid social CPMs on Meta were up 34% month over month and we didn't catch it until the monthly close, by which point we'd already overspent the channel by about $4,200. Wes flagged this and he's right that we need weekly pacing checks, not monthly.\n- The homepage A/B test Rachel and Nina ran got contaminated partway through \u2014 a cache issue meant some users saw both variants across sessions. We don't have clean results and need to rerun it in August with better QA on the test setup itself.\n- I sat on the paid social budget question too long before looping Sofia in properly, which meant she went into the July leadership review less prepared than she should have been. That's on me, and it's part of why I over-communicated on the budget memo this week \u2014 trying not to repeat it.\n\nWHAT CHANGES FOR Q4\n1. Weekly, not monthly, spend pacing reviews starting in August. Wes is going to send a Friday actuals-vs-plan number to me and Sofia.\n2. More investment in organic social content given the TikTok results \u2014 Cam, let's talk about whether we need help scaling the founder-story format.\n3. Any test that touches the homepage gets a dry-run QA pass before it goes live, no exceptions, even under deadline pressure.\n4. I'm going to loop Sofia in earlier and more often on anything budget-related, even before it's fully baked, rather than waiting until I have a polished answer.\n\nGood quarter overall, genuinely. Want us to end Q4 the same way.\n\nJordan",
+    "body_html": null,
+    "date": "2026-07-27T15:30:00-05:00",
+    "internal_date_ms": 1785184200000,
+    "folder": "SENT",
+    "category": null,
+    "is_unread": false,
+    "is_starred": false,
+    "is_important": true,
+    "user_labels": [
+      "Label_2203"
+    ],
+    "attachments": [],
+    "calendar_event": null,
+    "extra_headers": {
+      "Return-Path": "<jordan.feld@habitatgoods.com>"
+    },
+    "size_estimate": 3235,
+    "meta": {
+      "email_class": "internal_announcement",
+      "tricky_tags": [],
+      "is_actionable_for_user": false,
+      "action_owner": null,
+      "action_summary": null,
+      "due_date": null,
+      "commitment_made_by_user": null,
+      "commitment_is_conditional": false,
+      "commitment_condition": null,
+      "superseded_by_message_id": null,
+      "notes": null
+    }
+  },
+  {
+    "id": "b50f18c2e4b60040",
+    "thread_id": "b50f18c2e4b60040",
+    "profile_id": "marketing",
+    "history_id": "772880",
+    "message_id_header": "<CAFb50f18c2e4b60040@mail.gmail.com>",
+    "in_reply_to": null,
+    "references": [],
+    "thread_position": 1,
+    "thread_length": 1,
+    "from": {
+      "name": "Jordan Feld",
+      "email": "jordan.feld@habitatgoods.com"
+    },
+    "to": [
+      {
+        "name": "Denise Aoki",
+        "email": "denise.aoki@habitatgoods.com"
+      }
+    ],
+    "cc": [],
+    "bcc": [],
+    "delivered_to": "denise.aoki@habitatgoods.com",
+    "subject": "Need Marco for two more weeks on replatform QA",
+    "snippet": "Denise \u2014 I know Marco's technically your headcount, but with the Sept 1 date this tight I need him on replatform QA through the end of August instead of rolling back to the ecommer",
+    "body_text": "Denise \u2014 I know Marco's technically your headcount, but with the Sept 1 date this tight I need him on replatform QA through the end of August instead of rolling back to the ecommerce ops queue next week as planned. I'll cover it with Wes on the budget side if there's a cost implication for reallocating his time.\n\nCan we make this work, or is there someone else on your team who could flex in instead?\n\nJordan",
+    "body_html": "<div style=\"font-family:Arial,sans-serif;font-size:14px;color:#222\"><p>Denise \u2014 I know Marco's technically your headcount, but with Sept 1 this tight I need him on replatform QA through end of August instead of rolling back next week as planned.</p><p>I'll cover it with Wes on the budget side if there's a cost implication. Can we make this work?</p><p>Jordan</p></div>",
+    "date": "2026-08-10T09:40:00-05:00",
+    "internal_date_ms": 1786372800000,
+    "folder": "SENT",
+    "category": null,
+    "is_unread": false,
+    "is_starred": false,
+    "is_important": false,
+    "user_labels": [],
+    "attachments": [],
+    "calendar_event": null,
+    "extra_headers": {
+      "Return-Path": "<jordan.feld@habitatgoods.com>"
+    },
+    "size_estimate": 1684,
+    "meta": {
+      "email_class": "genuine_work",
+      "tricky_tags": [],
+      "is_actionable_for_user": true,
+      "action_owner": "jordan.feld@habitatgoods.com",
+      "action_summary": "Cover the budget implication with Wes if Denise agrees to reallocate Marco's time.",
+      "due_date": null,
+      "commitment_made_by_user": "Cover any budget implication with Wes if Denise agrees to keep Marco on replatform QA through August.",
+      "commitment_is_conditional": false,
+      "commitment_condition": null,
+      "superseded_by_message_id": null,
+      "notes": null
+    }
+  },
+  {
+    "id": "b50f18c2e4b60041",
+    "thread_id": "b50f18c2e4b60041",
+    "profile_id": "marketing",
+    "history_id": "703840",
+    "message_id_header": "<CAFb50f18c2e4b60041@mail.gmail.com>",
+    "in_reply_to": null,
+    "references": [],
+    "thread_position": 1,
+    "thread_length": 2,
+    "from": {
+      "name": "Jordan Feld",
+      "email": "jordan.feld@habitatgoods.com"
+    },
+    "to": [
+      {
+        "name": "Tessa Brandt",
+        "email": "tessa@foldandfield.agency"
+      }
+    ],
+    "cc": [],
+    "bcc": [],
+    "delivered_to": "tessa@foldandfield.agency",
+    "subject": "Agency SOW renewal \u2014 send me the redline",
+    "snippet": "Tessa \u2014 need the redlined SOW for FY27 back from your side so I can get it to Wes before quarter-end budget lock. Specifically want to see the revised hours estimate for paid socia",
+    "body_text": "Tessa \u2014 need the redlined SOW for FY27 back from your side so I can get it to Wes before quarter-end budget lock. Specifically want to see the revised hours estimate for paid social management and whether you can hold flat on the retainer given the volume increase we're planning. Can you turn this around by end of week?\n\nJordan",
+    "body_html": null,
+    "date": "2026-06-23T11:00:00-05:00",
+    "internal_date_ms": 1782230400000,
+    "folder": "SENT",
+    "category": null,
+    "is_unread": false,
+    "is_starred": false,
+    "is_important": false,
+    "user_labels": [
+      "Label_2202"
+    ],
+    "attachments": [],
+    "calendar_event": null,
+    "extra_headers": {
+      "Return-Path": "<jordan.feld@habitatgoods.com>"
+    },
+    "size_estimate": 1231,
+    "meta": {
+      "email_class": "genuine_work",
+      "tricky_tags": [],
+      "is_actionable_for_user": true,
+      "action_owner": "tessa@foldandfield.agency",
+      "action_summary": "Waiting on Tessa's redlined FY27 SOW before Jordan can route it to Wes.",
+      "due_date": null,
+      "commitment_made_by_user": null,
+      "commitment_is_conditional": false,
+      "commitment_condition": null,
+      "superseded_by_message_id": null,
+      "notes": null
+    }
+  },
+  {
+    "id": "b50f18c2e4b60042",
+    "thread_id": "b50f18c2e4b60041",
+    "profile_id": "marketing",
+    "history_id": "722455",
+    "message_id_header": "<CAFb50f18c2e4b60042@mail.gmail.com>",
+    "in_reply_to": "<CAFb50f18c2e4b60041@mail.gmail.com>",
+    "references": [
+      "<CAFb50f18c2e4b60041@mail.gmail.com>"
+    ],
+    "thread_position": 2,
+    "thread_length": 2,
+    "from": {
+      "name": "Jordan Feld",
+      "email": "jordan.feld@habitatgoods.com"
+    },
+    "to": [
+      {
+        "name": "Tessa Brandt",
+        "email": "tessa@foldandfield.agency"
+      }
+    ],
+    "cc": [],
+    "bcc": [],
+    "delivered_to": "tessa@foldandfield.agency",
+    "subject": "Re: Agency SOW renewal \u2014 send me the redline",
+    "snippet": "Tessa \u2014 still need this. Can you send today? Budget lock is Friday.",
+    "body_text": "Tessa \u2014 still need this. Can you send today? Budget lock is Friday.",
+    "body_html": null,
+    "date": "2026-07-06T09:15:00-05:00",
+    "internal_date_ms": 1783347300000,
+    "folder": "SENT",
+    "category": null,
+    "is_unread": false,
+    "is_starred": false,
+    "is_important": false,
+    "user_labels": [],
+    "attachments": [],
+    "calendar_event": null,
+    "extra_headers": {
+      "Return-Path": "<jordan.feld@habitatgoods.com>"
+    },
+    "size_estimate": 969,
+    "meta": {
+      "email_class": "genuine_work",
+      "tricky_tags": [],
+      "is_actionable_for_user": true,
+      "action_owner": "tessa@foldandfield.agency",
+      "action_summary": "Waiting on Tessa's redlined FY27 SOW, budget lock is Friday.",
+      "due_date": null,
+      "commitment_made_by_user": null,
+      "commitment_is_conditional": false,
+      "commitment_condition": null,
+      "superseded_by_message_id": null,
+      "notes": null
+    }
+  },
+  {
+    "id": "b50f18c2e4b60043",
+    "thread_id": "b50f18c2e4b60043",
+    "profile_id": "marketing",
+    "history_id": "715600",
+    "message_id_header": "<CAFb50f18c2e4b60043@mail.gmail.com>",
+    "in_reply_to": null,
+    "references": [],
+    "thread_position": 1,
+    "thread_length": 2,
+    "from": {
+      "name": "Jordan Feld",
+      "email": "jordan.feld@habitatgoods.com"
+    },
+    "to": [
+      {
+        "name": "Wes Duffy",
+        "email": "wes.duffy@habitatgoods.com"
+      }
+    ],
+    "cc": [],
+    "bcc": [],
+    "delivered_to": "wes.duffy@habitatgoods.com",
+    "subject": "Need the FY27 marketing budget model",
+    "snippet": "Wes \u2014 can you build out the FY27 marketing budget model with the line items we talked about (paid social, paid search, lifecycle tooling, agency retainer, influencer/partnerships, ",
+    "body_text": "Wes \u2014 can you build out the FY27 marketing budget model with the line items we talked about (paid social, paid search, lifecycle tooling, agency retainer, influencer/partnerships, and a contingency line)? I want to start scenario planning with Sofia before the August board prep really kicks off.\n\nJordan",
+    "body_html": "<div style=\"font-family:Arial,sans-serif;font-size:14px;color:#222\"><p>Wes \u2014 can you build out the FY27 marketing budget model with the line items we discussed (paid social, paid search, lifecycle tooling, agency retainer, influencer/partnerships, contingency)?</p><p>Want to start scenario planning with Sofia before August board prep kicks off.</p><p>Jordan</p></div>",
+    "date": "2026-07-01T15:00:00-05:00",
+    "internal_date_ms": 1782936000000,
+    "folder": "SENT",
+    "category": null,
+    "is_unread": false,
+    "is_starred": false,
+    "is_important": false,
+    "user_labels": [],
+    "attachments": [],
+    "calendar_event": null,
+    "extra_headers": {
+      "Return-Path": "<jordan.feld@habitatgoods.com>"
+    },
+    "size_estimate": 1577,
+    "meta": {
+      "email_class": "genuine_work",
+      "tricky_tags": [],
+      "is_actionable_for_user": false,
+      "action_owner": "wes.duffy@habitatgoods.com",
+      "action_summary": "Build the FY27 marketing budget model with the agreed line items.",
+      "due_date": null,
+      "commitment_made_by_user": null,
+      "commitment_is_conditional": false,
+      "commitment_condition": null,
+      "superseded_by_message_id": null,
+      "notes": null
+    }
+  },
+  {
+    "id": "b50f18c2e4b60044",
+    "thread_id": "b50f18c2e4b60043",
+    "profile_id": "marketing",
+    "history_id": "735380",
+    "message_id_header": "<CAFb50f18c2e4b60044@mail.gmail.com>",
+    "in_reply_to": "<CAFb50f18c2e4b60043@mail.gmail.com>",
+    "references": [
+      "<CAFb50f18c2e4b60043@mail.gmail.com>"
+    ],
+    "thread_position": 2,
+    "thread_length": 2,
+    "from": {
+      "name": "Jordan Feld",
+      "email": "jordan.feld@habitatgoods.com"
+    },
+    "to": [
+      {
+        "name": "Wes Duffy",
+        "email": "wes.duffy@habitatgoods.com"
+      }
+    ],
+    "cc": [],
+    "bcc": [],
+    "delivered_to": "wes.duffy@habitatgoods.com",
+    "subject": "Re: Need the FY27 marketing budget model",
+    "snippet": "Wes \u2014 bumping this. Sofia's asking and I have nothing to show her. Today if possible?",
+    "body_text": "Wes \u2014 bumping this. Sofia's asking and I have nothing to show her. Today if possible?",
+    "body_html": null,
+    "date": "2026-07-15T08:40:00-05:00",
+    "internal_date_ms": 1784122800000,
+    "folder": "SENT",
+    "category": null,
+    "is_unread": false,
+    "is_starred": false,
+    "is_important": false,
+    "user_labels": [],
+    "attachments": [],
+    "calendar_event": null,
+    "extra_headers": {
+      "Return-Path": "<jordan.feld@habitatgoods.com>"
+    },
+    "size_estimate": 987,
+    "meta": {
+      "email_class": "genuine_work",
+      "tricky_tags": [],
+      "is_actionable_for_user": false,
+      "action_owner": "wes.duffy@habitatgoods.com",
+      "action_summary": "Still waiting on the FY27 budget model; Sofia is asking.",
+      "due_date": null,
+      "commitment_made_by_user": null,
+      "commitment_is_conditional": false,
+      "commitment_condition": null,
+      "superseded_by_message_id": null,
+      "notes": null
+    }
+  },
+  {
+    "id": "b50f18c2e4b60045",
+    "thread_id": "b50f18c2e4b60045",
+    "profile_id": "marketing",
+    "history_id": "695390",
+    "message_id_header": "<CAFb50f18c2e4b60045@mail.gmail.com>",
+    "in_reply_to": null,
+    "references": [],
+    "thread_position": 1,
+    "thread_length": 2,
+    "from": {
+      "name": "Jordan Feld",
+      "email": "jordan.feld@habitatgoods.com"
+    },
+    "to": [
+      {
+        "name": "Amara Diallo",
+        "email": "amara@thelinencut.com"
+      }
+    ],
+    "cc": [],
+    "bcc": [],
+    "delivered_to": "amara@thelinencut.com",
+    "subject": "Photo usage rights contract \u2014 need your signature",
+    "snippet": "Amara \u2014 legal sent over the photo usage rights addendum for the spring capsule content, covers our use of your Q2 content across paid and organic through end of year. Can you sign ",
+    "body_text": "Amara \u2014 legal sent over the photo usage rights addendum for the spring capsule content, covers our use of your Q2 content across paid and organic through end of year. Can you sign and send back when you get a chance? No rush, just don't want it to fall through the cracks.\n\nJordan",
+    "body_html": null,
+    "date": "2026-06-17T14:10:00-05:00",
+    "internal_date_ms": 1781723400000,
+    "folder": "SENT",
+    "category": null,
+    "is_unread": false,
+    "is_starred": false,
+    "is_important": false,
+    "user_labels": [],
+    "attachments": [],
+    "calendar_event": null,
+    "extra_headers": {
+      "Return-Path": "<jordan.feld@habitatgoods.com>"
+    },
+    "size_estimate": 1182,
+    "meta": {
+      "email_class": "genuine_work",
+      "tricky_tags": [],
+      "is_actionable_for_user": false,
+      "action_owner": "amara@thelinencut.com",
+      "action_summary": "Sign and return the photo usage rights addendum.",
+      "due_date": null,
+      "commitment_made_by_user": null,
+      "commitment_is_conditional": false,
+      "commitment_condition": null,
+      "superseded_by_message_id": null,
+      "notes": null
+    }
+  },
+  {
+    "id": "b50f18c2e4b60046",
+    "thread_id": "b50f18c2e4b60045",
+    "profile_id": "marketing",
+    "history_id": "716745",
+    "message_id_header": "<CAFb50f18c2e4b60046@mail.gmail.com>",
+    "in_reply_to": "<CAFb50f18c2e4b60045@mail.gmail.com>",
+    "references": [
+      "<CAFb50f18c2e4b60045@mail.gmail.com>"
+    ],
+    "thread_position": 2,
+    "thread_length": 2,
+    "from": {
+      "name": "Jordan Feld",
+      "email": "jordan.feld@habitatgoods.com"
+    },
+    "to": [
+      {
+        "name": "Amara Diallo",
+        "email": "amara@thelinencut.com"
+      }
+    ],
+    "cc": [],
+    "bcc": [],
+    "delivered_to": "amara@thelinencut.com",
+    "subject": "Re: Photo usage rights contract \u2014 need your signature",
+    "snippet": "Amara \u2014 did the signed contract come through? Legal's asking.",
+    "body_text": "Amara \u2014 did the signed contract come through? Legal's asking.",
+    "body_html": null,
+    "date": "2026-07-02T10:05:00-05:00",
+    "internal_date_ms": 1783004700000,
+    "folder": "SENT",
+    "category": null,
+    "is_unread": false,
+    "is_starred": false,
+    "is_important": false,
+    "user_labels": [],
+    "attachments": [],
+    "calendar_event": null,
+    "extra_headers": {
+      "Return-Path": "<jordan.feld@habitatgoods.com>"
+    },
+    "size_estimate": 963,
+    "meta": {
+      "email_class": "genuine_work",
+      "tricky_tags": [],
+      "is_actionable_for_user": false,
+      "action_owner": "amara@thelinencut.com",
+      "action_summary": "Still waiting on the signed photo usage rights addendum; legal is asking.",
+      "due_date": null,
+      "commitment_made_by_user": null,
+      "commitment_is_conditional": false,
+      "commitment_condition": null,
+      "superseded_by_message_id": null,
+      "notes": null
+    }
+  },
+  {
+    "id": "b50f18c2e4b60047",
+    "thread_id": "b50f18c2e4b60047",
+    "profile_id": "marketing",
+    "history_id": "764840",
+    "message_id_header": "<CAFb50f18c2e4b60047@mail.gmail.com>",
+    "in_reply_to": null,
+    "references": [],
+    "thread_position": 1,
+    "thread_length": 1,
+    "from": {
+      "name": "Jordan Feld",
+      "email": "jordan.feld@habitatgoods.com"
+    },
+    "to": [],
+    "cc": [],
+    "bcc": [],
+    "delivered_to": null,
+    "subject": "Photoshoot budget \u2014 need to explain before you see the invoice",
+    "snippet": "Sofia \u2014 I want to get ahead of this before the Amex statement lands on your desk. The Aug 4-5 shoot came in over the original quote by about $6,400 \u2014 Hollis's crew needed an extra ",
+    "body_text": "Sofia \u2014 I want to get ahead of this before the Amex statement lands on your desk. The Aug 4-5 shoot came in over the original quote by about $6,400 \u2014 Hollis's crew needed an extra lighting tech we hadn't budgeted for, plus we had to expedite-ship the sample product from the Ohio warehouse because in the original timeline it would've arrived a day after the shoot started, and I should have caught that scheduling gap three weeks ago when Wendy...",
+    "body_html": null,
+    "date": "2026-08-04T19:40:00-05:00",
+    "internal_date_ms": 1785890400000,
+    "folder": "DRAFT",
+    "category": null,
+    "is_unread": false,
+    "is_starred": false,
+    "is_important": false,
+    "user_labels": [],
+    "attachments": [],
+    "calendar_event": null,
+    "extra_headers": {
+      "Return-Path": "<jordan.feld@habitatgoods.com>"
+    },
+    "size_estimate": 1352,
+    "meta": {
+      "email_class": "genuine_work",
+      "tricky_tags": [],
+      "is_actionable_for_user": true,
+      "action_owner": "jordan.feld@habitatgoods.com",
+      "action_summary": "Finish and send Sofia an explanation of the $6,400 photoshoot budget overrun.",
+      "due_date": null,
+      "commitment_made_by_user": null,
+      "commitment_is_conditional": false,
+      "commitment_condition": null,
+      "superseded_by_message_id": null,
+      "notes": "Unsent draft, cuts off mid-sentence."
+    }
+  },
+  {
+    "id": "b50f18c2e4b60048",
+    "thread_id": "b50f18c2e4b60048",
+    "profile_id": "marketing",
+    "history_id": "772070",
+    "message_id_header": "<CAFb50f18c2e4b60048@mail.gmail.com>",
+    "in_reply_to": null,
+    "references": [],
+    "thread_position": 1,
+    "thread_length": 1,
+    "from": {
+      "name": "Jordan Feld",
+      "email": "jordan.feld@habitatgoods.com"
+    },
+    "to": [
+      {
+        "name": "Tessa Brandt",
+        "email": "tessa@foldandfield.agency"
+      }
+    ],
+    "cc": [],
+    "bcc": [],
+    "delivered_to": "tessa@foldandfield.agency",
+    "subject": "FY27 retainer increase \u2014 my counter",
+    "snippet": "Tessa \u2014 appreciate the rationale on the 18% bump but I can't take this to Wes as-is. Habitat's total marketing budget is only growing 9% next year, so a retainer that outpaces that",
+    "body_text": "Tessa \u2014 appreciate the rationale on the 18% bump but I can't take this to Wes as-is. Habitat's total marketing budget is only growing 9% next year, so a retainer that outpaces that eats into working media dollars we'd rather spend on your own team's recs. What I can do is meet you at 11% if we lock in a 14-month term instead of 12, or hold flat at current rate if the scope stays exactly...",
+    "body_html": null,
+    "date": "2026-08-09T20:10:00-05:00",
+    "internal_date_ms": 1786324200000,
+    "folder": "DRAFT",
+    "category": null,
+    "is_unread": false,
+    "is_starred": false,
+    "is_important": false,
+    "user_labels": [],
+    "attachments": [],
+    "calendar_event": null,
+    "extra_headers": {
+      "Return-Path": "<jordan.feld@habitatgoods.com>"
+    },
+    "size_estimate": 1294,
+    "meta": {
+      "email_class": "genuine_work",
+      "tricky_tags": [],
+      "is_actionable_for_user": true,
+      "action_owner": "jordan.feld@habitatgoods.com",
+      "action_summary": "Finish and send the SOW counter-offer to Tessa.",
+      "due_date": null,
+      "commitment_made_by_user": null,
+      "commitment_is_conditional": false,
+      "commitment_condition": null,
+      "superseded_by_message_id": null,
+      "notes": "Unsent draft, superseded by the version actually sent Aug 5 (see ST9); cuts off mid-sentence."
+    }
+  },
+  {
+    "id": "b50f18c2e4b60049",
+    "thread_id": "b50f18c2e4b60049",
+    "profile_id": "marketing",
+    "history_id": "741895",
+    "message_id_header": "<CAFb50f18c2e4b60049@mail.gmail.com>",
+    "in_reply_to": null,
+    "references": [],
+    "thread_position": 1,
+    "thread_length": 1,
+    "from": {
+      "name": "Jordan Feld",
+      "email": "jordan.feld@habitatgoods.com"
+    },
+    "to": [],
+    "cc": [],
+    "bcc": [],
+    "delivered_to": null,
+    "subject": "Rough thoughts \u2014 refreshing the packaging line for spring",
+    "snippet": "Sofia \u2014 jotting these down before I lose them, not polished: - Packaging refresh timed to the Feb relaunch, not holiday \u2014 too much else going on right now - Talk to Rachel about wh",
+    "body_text": "Sofia \u2014 jotting these down before I lose them, not polished:\n\n- Packaging refresh timed to the Feb relaunch, not holiday \u2014 too much else going on right now\n- Talk to Rachel about whether the current kraft box can\n- Budget ask is probably in the $40",
+    "body_html": null,
+    "date": "2026-07-19T21:15:00-05:00",
+    "internal_date_ms": 1784513700000,
+    "folder": "DRAFT",
+    "category": null,
+    "is_unread": false,
+    "is_starred": false,
+    "is_important": false,
+    "user_labels": [],
+    "attachments": [],
+    "calendar_event": null,
+    "extra_headers": {
+      "Return-Path": "<jordan.feld@habitatgoods.com>"
+    },
+    "size_estimate": 1152,
+    "meta": {
+      "email_class": "genuine_work",
+      "tricky_tags": [],
+      "is_actionable_for_user": true,
+      "action_owner": "jordan.feld@habitatgoods.com",
+      "action_summary": "Finish drafting and send the packaging refresh proposal to Sofia.",
+      "due_date": null,
+      "commitment_made_by_user": null,
+      "commitment_is_conditional": false,
+      "commitment_condition": null,
+      "superseded_by_message_id": null,
+      "notes": "Unsent draft, unfinished bullet list, cuts off mid-word."
+    }
+  },
+  {
+    "id": "b50f18c2e4b60050",
+    "thread_id": "b50f18c2e4b60050",
+    "profile_id": "marketing",
+    "history_id": "757785",
+    "message_id_header": "<CAFb50f18c2e4b60050@mail.gmail.com>",
+    "in_reply_to": null,
+    "references": [],
+    "thread_position": 1,
+    "thread_length": 1,
+    "from": {
+      "name": "Jordan Feld",
+      "email": "jordan.feld@habitatgoods.com"
+    },
+    "to": [],
+    "cc": [],
+    "bcc": [],
+    "delivered_to": null,
+    "subject": "for Nina \u2014",
+    "snippet": "Nina \u2014 quick q before I forget, can you pull the Q3 attribution numbers by chan",
+    "body_text": "Nina \u2014 quick q before I forget, can you pull the Q3 attribution numbers by chan",
+    "body_html": null,
+    "date": "2026-07-30T22:05:00-05:00",
+    "internal_date_ms": 1785467100000,
+    "folder": "DRAFT",
+    "category": null,
+    "is_unread": false,
+    "is_starred": false,
+    "is_important": false,
+    "user_labels": [],
+    "attachments": [],
+    "calendar_event": null,
+    "extra_headers": {
+      "Return-Path": "<jordan.feld@habitatgoods.com>"
+    },
+    "size_estimate": 981,
+    "meta": {
+      "email_class": "genuine_work",
+      "tricky_tags": [],
+      "is_actionable_for_user": true,
+      "action_owner": "jordan.feld@habitatgoods.com",
+      "action_summary": "Finish and send the request to Nina for Q3 attribution numbers.",
+      "due_date": null,
+      "commitment_made_by_user": null,
+      "commitment_is_conditional": false,
+      "commitment_condition": null,
+      "superseded_by_message_id": null,
+      "notes": "Unsent draft, cuts off mid-word."
+    }
+  }
+]

@@ -1,0 +1,3485 @@
+[
+  {
+    "id": "a40f18c2e4b60001",
+    "thread_id": "a40f18c2e4b60001",
+    "profile_id": "founder",
+    "history_id": "689425",
+    "message_id_header": "<a40f18c2e4b60001@google.com>",
+    "in_reply_to": null,
+    "references": [],
+    "thread_position": 1,
+    "thread_length": 1,
+    "from": {
+      "name": "Google Calendar",
+      "email": "calendar-notification@google.com"
+    },
+    "sender": null,
+    "reply_to": null,
+    "to": [
+      {
+        "name": "Maya Rodriguez",
+        "email": "maya@kettlehq.com"
+      }
+    ],
+    "cc": [],
+    "bcc": [],
+    "delivered_to": "maya@kettlehq.com",
+    "subject": "Invitation: Weekly Leadership Sync @ Weekly from 9am to 9:30am (PDT)",
+    "snippet": "You have been invited to the following event. Weekly Leadership Sync Weekly from 9:00am to 9:30am, Pacific Time - every Monday, starting Mon Jun 15 Where: Zoom (https://kettlehq.zo",
+    "body_text": "You have been invited to the following event.\n\nWeekly Leadership Sync\nWeekly from 9:00am to 9:30am, Pacific Time - every Monday, starting Mon Jun 15\n\nWhere: Zoom (https://kettlehq.zoom.us/j/88213340021)\n\nCalendar: maya@kettlehq.com\nWho:\n* sana@kettlehq.com - organizer\n* maya@kettlehq.com\n* dev@kettlehq.com\n* priya@kettlehq.com\n* tom@kettlehq.com\n* luis@kettlehq.com\n* wendy@kettlehq.com\n\nGoing (maya@kettlehq.com)?  Yes - Maybe - No\n\nmore options \u00bb\n\nInvitation from Google Calendar\n\nYou are receiving this email because you are an attendee on the event. To stop receiving future updates for this event, decline this event. Alternatively, you can control your notification settings at https://calendar.google.com/calendar/\n\nForwarding this invitation could allow any recipient to modify your RSVP response. Learn more at https://support.google.com/calendar/answer/37135#forwarding",
+    "body_html": null,
+    "date": "2026-06-13T08:45:00-07:00",
+    "internal_date_ms": 1781365500000,
+    "folder": "INBOX",
+    "category": "CATEGORY_UPDATES",
+    "is_unread": false,
+    "is_starred": false,
+    "is_important": false,
+    "user_labels": [],
+    "attachments": [
+      {
+        "attachment_id": "ANGjdJ_z1N221Iii2ewYz2oE75XXsnD35ImLWT5hPaYSRmatsk",
+        "filename": "invite.ics",
+        "mime_type": "text/calendar",
+        "size_bytes": 1458,
+        "is_inline": false,
+        "content_id": null,
+        "extracted_text": "BEGIN:VCALENDAR\r\nPRODID:-//Google Inc//Google Calendar 70.9054//EN\r\nVERSION:2.0\r\nCALSCALE:GREGORIAN\r\nMETHOD:REQUEST\r\nBEGIN:VEVENT\r\nUID:03acc8efde78ab93567a08ac@google.com\r\nDTSTAMP:20260615T090000Z\r\nDTSTART;TZID=America/Los_Angeles:20260615T090000\r\nDTEND;TZID=America/Los_Angeles:20260615T093000\r\nSEQUENCE:0\r\nSTATUS:CONFIRMED\r\nSUMMARY:Weekly Leadership Sync\r\nTRANSP:OPAQUE\r\nRRULE:FREQ=WEEKLY;BYDAY=MO\r\nLOCATION:Zoom (https://kettlehq.zoom.us/j/88213340021)\r\nDESCRIPTION:Standing weekly leadership sync. Agenda in the shared Notion doc \u2014 add items by Sunday night.\r\nORGANIZER;CN=Sana Iqbal:mailto:sana@kettlehq.com\r\nATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=NEEDS-ACTION;RSVP=TRUE;CN=Maya Rodriguez;X-NUM-GUESTS=0:mailto:maya@kettlehq.com\r\nATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=NEEDS-ACTION;RSVP=TRUE;CN=Dev Patel;X-NUM-GUESTS=0:mailto:dev@kettlehq.com\r\nATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=NEEDS-ACTION;RSVP=TRUE;CN=Priya Nair;X-NUM-GUESTS=0:mailto:priya@kettlehq.com\r\nATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=NEEDS-ACTION;RSVP=TRUE;CN=Tom Ashford;X-NUM-GUESTS=0:mailto:tom@kettlehq.com\r\nATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=NEEDS-ACTION;RSVP=TRUE;CN=Luis Ferreira;X-NUM-GUESTS=0:mailto:luis@kettlehq.com\r\nATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=NEEDS-ACTION;RSVP=TRUE;CN=Wendy Osei;X-NUM-GUESTS=0:mailto:wendy@kettlehq.com\r\nEND:VEVENT\r\nEND:VCALENDAR"
+      }
+    ],
+    "calendar_event": {
+      "uid": "03acc8efde78ab93567a08ac@google.com",
+      "method": "REQUEST",
+      "sequence": 0,
+      "summary": "Weekly Leadership Sync",
+      "description": "Standing weekly leadership sync. Agenda in the shared Notion doc \u2014 add items by Sunday night.",
+      "location": "Zoom (https://kettlehq.zoom.us/j/88213340021)",
+      "conference_url": "https://kettlehq.zoom.us/j/88213340021",
+      "organizer": {
+        "name": "Sana Iqbal",
+        "email": "sana@kettlehq.com"
+      },
+      "attendees": [
+        {
+          "email": "maya@kettlehq.com",
+          "name": "Maya Rodriguez",
+          "role": "REQ-PARTICIPANT",
+          "partstat": "NEEDS-ACTION",
+          "rsvp": true
+        },
+        {
+          "email": "dev@kettlehq.com",
+          "name": "Dev Patel",
+          "role": "REQ-PARTICIPANT",
+          "partstat": "NEEDS-ACTION",
+          "rsvp": true
+        },
+        {
+          "email": "priya@kettlehq.com",
+          "name": "Priya Nair",
+          "role": "REQ-PARTICIPANT",
+          "partstat": "NEEDS-ACTION",
+          "rsvp": true
+        },
+        {
+          "email": "tom@kettlehq.com",
+          "name": "Tom Ashford",
+          "role": "REQ-PARTICIPANT",
+          "partstat": "NEEDS-ACTION",
+          "rsvp": true
+        },
+        {
+          "email": "luis@kettlehq.com",
+          "name": "Luis Ferreira",
+          "role": "REQ-PARTICIPANT",
+          "partstat": "NEEDS-ACTION",
+          "rsvp": true
+        },
+        {
+          "email": "wendy@kettlehq.com",
+          "name": "Wendy Osei",
+          "role": "REQ-PARTICIPANT",
+          "partstat": "NEEDS-ACTION",
+          "rsvp": true
+        }
+      ],
+      "dtstart": "2026-06-15T09:00:00-07:00",
+      "dtend": "2026-06-15T09:30:00-07:00",
+      "timezone": "America/Los_Angeles",
+      "all_day": false,
+      "rrule": "FREQ=WEEKLY;BYDAY=MO",
+      "status": "CONFIRMED"
+    },
+    "extra_headers": {},
+    "size_estimate": 3701,
+    "meta": {
+      "email_class": "calendar",
+      "tricky_tags": [],
+      "is_actionable_for_user": false,
+      "action_owner": null,
+      "action_summary": null,
+      "due_date": null,
+      "commitment_made_by_user": null,
+      "commitment_is_conditional": false,
+      "commitment_condition": null,
+      "superseded_by_message_id": null,
+      "notes": "Recurring weekly meeting, rrule FREQ=WEEKLY;BYDAY=MO."
+    }
+  },
+  {
+    "id": "a40f18c2e4b60002",
+    "thread_id": "a40f18c2e4b60002",
+    "profile_id": "founder",
+    "history_id": "738540",
+    "message_id_header": "<a40f18c2e4b60002@google.com>",
+    "in_reply_to": null,
+    "references": [],
+    "thread_position": 1,
+    "thread_length": 1,
+    "from": {
+      "name": "Google Calendar",
+      "email": "calendar-notification@google.com"
+    },
+    "sender": null,
+    "reply_to": null,
+    "to": [
+      {
+        "name": "Maya Rodriguez",
+        "email": "maya@kettlehq.com"
+      }
+    ],
+    "cc": [],
+    "bcc": [],
+    "delivered_to": "maya@kettlehq.com",
+    "subject": "Invitation: Maya <> Dev 1:1 @ Mon Jul 20, 3pm \u2013 3:30pm (PDT)",
+    "snippet": "You have been invited to the following event. Maya <> Dev 1:1 Mon Jul 20, 2026 \u22c5 3:00 \u2013 3:30pm, Pacific Time Where: Kettle HQ \u2014 Huddle Room 2 Calendar: maya@kettlehq.com Who: * dev",
+    "body_text": "You have been invited to the following event.\n\nMaya <> Dev 1:1\nMon Jul 20, 2026 \u22c5 3:00 \u2013 3:30pm, Pacific Time\n\nWhere: Kettle HQ \u2014 Huddle Room 2\n\nCalendar: maya@kettlehq.com\nWho:\n* dev@kettlehq.com - organizer\n* maya@kettlehq.com\n\nGoing (maya@kettlehq.com)?  Yes - Maybe - No\n\nmore options \u00bb\n\nInvitation from Google Calendar\n\nYou are receiving this email because you are an attendee on the event. To stop receiving future updates for this event, decline this event. Alternatively, you can control your notification settings at https://calendar.google.com/calendar/\n\nForwarding this invitation could allow any recipient to modify your RSVP response. Learn more at https://support.google.com/calendar/answer/37135#forwarding",
+    "body_html": null,
+    "date": "2026-07-17T11:20:00-07:00",
+    "internal_date_ms": 1784312400000,
+    "folder": "INBOX",
+    "category": "CATEGORY_UPDATES",
+    "is_unread": false,
+    "is_starred": false,
+    "is_important": false,
+    "user_labels": [],
+    "attachments": [
+      {
+        "attachment_id": "ANGjdJ_vLBOW7ypA0uKDOEuh7FSBVni_lugiIkAMnu48DU3Kp4",
+        "filename": "invite.ics",
+        "mime_type": "text/calendar",
+        "size_bytes": 721,
+        "is_inline": false,
+        "content_id": null,
+        "extracted_text": "BEGIN:VCALENDAR\r\nPRODID:-//Google Inc//Google Calendar 70.9054//EN\r\nVERSION:2.0\r\nCALSCALE:GREGORIAN\r\nMETHOD:REQUEST\r\nBEGIN:VEVENT\r\nUID:ac0e2c5a0ee6eb2ca47bd519@google.com\r\nDTSTAMP:20260720T150000Z\r\nDTSTART;TZID=America/Los_Angeles:20260720T150000\r\nDTEND;TZID=America/Los_Angeles:20260720T153000\r\nSEQUENCE:0\r\nSTATUS:CONFIRMED\r\nSUMMARY:Maya <> Dev 1:1\r\nTRANSP:OPAQUE\r\nLOCATION:Kettle HQ \u2014 Huddle Room 2\r\nDESCRIPTION:Weekly catch-up. Topics: Lumenpay rollout status, SOC 2 timeline, Head of Marketing search.\r\nORGANIZER;CN=Dev Patel:mailto:dev@kettlehq.com\r\nATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=NEEDS-ACTION;RSVP=TRUE;CN=Maya Rodriguez;X-NUM-GUESTS=0:mailto:maya@kettlehq.com\r\nEND:VEVENT\r\nEND:VCALENDAR"
+      }
+    ],
+    "calendar_event": {
+      "uid": "ac0e2c5a0ee6eb2ca47bd519@google.com",
+      "method": "REQUEST",
+      "sequence": 0,
+      "summary": "Maya <> Dev 1:1",
+      "description": "Weekly catch-up. Topics: Lumenpay rollout status, SOC 2 timeline, Head of Marketing search.",
+      "location": "Kettle HQ \u2014 Huddle Room 2",
+      "conference_url": null,
+      "organizer": {
+        "name": "Dev Patel",
+        "email": "dev@kettlehq.com"
+      },
+      "attendees": [
+        {
+          "email": "maya@kettlehq.com",
+          "name": "Maya Rodriguez",
+          "role": "REQ-PARTICIPANT",
+          "partstat": "NEEDS-ACTION",
+          "rsvp": true
+        }
+      ],
+      "dtstart": "2026-07-20T15:00:00-07:00",
+      "dtend": "2026-07-20T15:30:00-07:00",
+      "timezone": "America/Los_Angeles",
+      "all_day": false,
+      "rrule": null,
+      "status": "CONFIRMED"
+    },
+    "extra_headers": {},
+    "size_estimate": 2556,
+    "meta": {
+      "email_class": "calendar",
+      "tricky_tags": [],
+      "is_actionable_for_user": false,
+      "action_owner": null,
+      "action_summary": null,
+      "due_date": null,
+      "commitment_made_by_user": null,
+      "commitment_is_conditional": false,
+      "commitment_condition": null,
+      "superseded_by_message_id": null,
+      "notes": null
+    }
+  },
+  {
+    "id": "a40f18c2e4b60003",
+    "thread_id": "a40f18c2e4b60003",
+    "profile_id": "founder",
+    "history_id": "762890",
+    "message_id_header": "<a40f18c2e4b60003@google.com>",
+    "in_reply_to": null,
+    "references": [],
+    "thread_position": 1,
+    "thread_length": 1,
+    "from": {
+      "name": "Google Calendar",
+      "email": "calendar-notification@google.com"
+    },
+    "sender": null,
+    "reply_to": null,
+    "to": [
+      {
+        "name": "Maya Rodriguez",
+        "email": "maya@kettlehq.com"
+      }
+    ],
+    "cc": [],
+    "bcc": [],
+    "delivered_to": "maya@kettlehq.com",
+    "subject": "Invitation: Board Meeting \u2014 Q2 Update @ Thu Aug 27, 9am \u2013 11am (PDT)",
+    "snippet": "You have been invited to the following event. Board Meeting \u2014 Q2 Update Thu Aug 27, 2026 \u22c5 9:00 \u2013 11:00am, Pacific Time Where: Kettle HQ \u2014 Conference Room A / Zoom Calendar: maya@k",
+    "body_text": "You have been invited to the following event.\n\nBoard Meeting \u2014 Q2 Update\nThu Aug 27, 2026 \u22c5 9:00 \u2013 11:00am, Pacific Time\n\nWhere: Kettle HQ \u2014 Conference Room A / Zoom\n\nCalendar: maya@kettlehq.com\nWho:\n* sana@kettlehq.com - organizer\n* maya@kettlehq.com\n* ellen@northbridge.vc\n* greg.whitfield@whitfieldadvisory.com\n* dev@kettlehq.com\n\nGoing (maya@kettlehq.com)?  Yes - Maybe - No\n\nmore options \u00bb\n\nInvitation from Google Calendar\n\nYou are receiving this email because you are an attendee on the event. To stop receiving future updates for this event, decline this event. Alternatively, you can control your notification settings at https://calendar.google.com/calendar/\n\nForwarding this invitation could allow any recipient to modify your RSVP response. Learn more at https://support.google.com/calendar/answer/37135#forwarding",
+    "body_html": null,
+    "date": "2026-08-03T09:10:00-07:00",
+    "internal_date_ms": 1785773400000,
+    "folder": "INBOX",
+    "category": "CATEGORY_UPDATES",
+    "is_unread": false,
+    "is_starred": false,
+    "is_important": true,
+    "user_labels": [
+      "Label_8842"
+    ],
+    "attachments": [
+      {
+        "attachment_id": "ANGjdJ_bD78ztMxnxP4gEr9pj-iIUXd45kcSRn4oahL5-rZUW4",
+        "filename": "invite.ics",
+        "mime_type": "text/calendar",
+        "size_bytes": 1197,
+        "is_inline": false,
+        "content_id": null,
+        "extracted_text": "BEGIN:VCALENDAR\r\nPRODID:-//Google Inc//Google Calendar 70.9054//EN\r\nVERSION:2.0\r\nCALSCALE:GREGORIAN\r\nMETHOD:REQUEST\r\nBEGIN:VEVENT\r\nUID:5ba0a809ccb5047dddb9f407@google.com\r\nDTSTAMP:20260827T090000Z\r\nDTSTART;TZID=America/Los_Angeles:20260827T090000\r\nDTEND;TZID=America/Los_Angeles:20260827T110000\r\nSEQUENCE:0\r\nSTATUS:CONFIRMED\r\nSUMMARY:Board Meeting \u2014 Q2 Update\r\nTRANSP:OPAQUE\r\nLOCATION:Kettle HQ \u2014 Conference Room A / Zoom\r\nDESCRIPTION:Quarterly board meeting. Deck will go out 48h ahead. Dial-in for Greg: https://kettlehq.zoom.us/j/99120033441\r\nORGANIZER;CN=Sana Iqbal:mailto:sana@kettlehq.com\r\nATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=NEEDS-ACTION;RSVP=TRUE;CN=Maya Rodriguez;X-NUM-GUESTS=0:mailto:maya@kettlehq.com\r\nATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=NEEDS-ACTION;RSVP=TRUE;CN=Ellen Barsotti;X-NUM-GUESTS=0:mailto:ellen@northbridge.vc\r\nATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=NEEDS-ACTION;RSVP=TRUE;CN=Greg Whitfield;X-NUM-GUESTS=0:mailto:greg.whitfield@whitfieldadvisory.com\r\nATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=NEEDS-ACTION;RSVP=TRUE;CN=Dev Patel;X-NUM-GUESTS=0:mailto:dev@kettlehq.com\r\nEND:VEVENT\r\nEND:VCALENDAR"
+      }
+    ],
+    "calendar_event": {
+      "uid": "5ba0a809ccb5047dddb9f407@google.com",
+      "method": "REQUEST",
+      "sequence": 0,
+      "summary": "Board Meeting \u2014 Q2 Update",
+      "description": "Quarterly board meeting. Deck will go out 48h ahead. Dial-in for Greg: https://kettlehq.zoom.us/j/99120033441",
+      "location": "Kettle HQ \u2014 Conference Room A / Zoom",
+      "conference_url": "https://kettlehq.zoom.us/j/99120033441",
+      "organizer": {
+        "name": "Sana Iqbal",
+        "email": "sana@kettlehq.com"
+      },
+      "attendees": [
+        {
+          "email": "maya@kettlehq.com",
+          "name": "Maya Rodriguez",
+          "role": "REQ-PARTICIPANT",
+          "partstat": "NEEDS-ACTION",
+          "rsvp": true
+        },
+        {
+          "email": "ellen@northbridge.vc",
+          "name": "Ellen Barsotti",
+          "role": "REQ-PARTICIPANT",
+          "partstat": "NEEDS-ACTION",
+          "rsvp": true
+        },
+        {
+          "email": "greg.whitfield@whitfieldadvisory.com",
+          "name": "Greg Whitfield",
+          "role": "REQ-PARTICIPANT",
+          "partstat": "NEEDS-ACTION",
+          "rsvp": true
+        },
+        {
+          "email": "dev@kettlehq.com",
+          "name": "Dev Patel",
+          "role": "REQ-PARTICIPANT",
+          "partstat": "NEEDS-ACTION",
+          "rsvp": true
+        }
+      ],
+      "dtstart": "2026-08-27T09:00:00-07:00",
+      "dtend": "2026-08-27T11:00:00-07:00",
+      "timezone": "America/Los_Angeles",
+      "all_day": false,
+      "rrule": null,
+      "status": "CONFIRMED"
+    },
+    "extra_headers": {},
+    "size_estimate": 3305,
+    "meta": {
+      "email_class": "calendar",
+      "tricky_tags": [],
+      "is_actionable_for_user": false,
+      "action_owner": null,
+      "action_summary": null,
+      "due_date": null,
+      "commitment_made_by_user": null,
+      "commitment_is_conditional": false,
+      "commitment_condition": null,
+      "superseded_by_message_id": null,
+      "notes": null
+    }
+  },
+  {
+    "id": "a40f18c2e4b60004",
+    "thread_id": "a40f18c2e4b60004",
+    "profile_id": "founder",
+    "history_id": "773385",
+    "message_id_header": "<a40f18c2e4b60004@google.com>",
+    "in_reply_to": null,
+    "references": [],
+    "thread_position": 1,
+    "thread_length": 1,
+    "from": {
+      "name": "Google Calendar",
+      "email": "calendar-notification@google.com"
+    },
+    "sender": null,
+    "reply_to": null,
+    "to": [
+      {
+        "name": "Maya Rodriguez",
+        "email": "maya@kettlehq.com"
+      }
+    ],
+    "cc": [],
+    "bcc": [],
+    "delivered_to": "maya@kettlehq.com",
+    "subject": "Updated invitation: Board Meeting \u2014 Q2 Update @ Thu Aug 27, 10am \u2013 12pm (PDT)",
+    "snippet": "This event has been changed. Board Meeting \u2014 Q2 Update Thu Aug 27, 2026 \u22c5 10:00am \u2013 12:00pm, Pacific Time (changed from 9:00 \u2013 11:00am) Where: Kettle HQ \u2014 Conference Room A / Zoom ",
+    "body_text": "This event has been changed.\n\nBoard Meeting \u2014 Q2 Update\nThu Aug 27, 2026 \u22c5 10:00am \u2013 12:00pm, Pacific Time (changed from 9:00 \u2013 11:00am)\n\nWhere: Kettle HQ \u2014 Conference Room A / Zoom\n\nCalendar: maya@kettlehq.com\nWho:\n* sana@kettlehq.com - organizer\n* maya@kettlehq.com\n* ellen@northbridge.vc\n* greg.whitfield@whitfieldadvisory.com\n* dev@kettlehq.com\n\nGoing (maya@kettlehq.com)?  Yes - Maybe - No\n\nmore options \u00bb\n\nInvitation from Google Calendar\n\nYou are receiving this email because you are an attendee on the event. To stop receiving future updates for this event, decline this event. Alternatively, you can control your notification settings at https://calendar.google.com/calendar/\n\nForwarding this invitation could allow any recipient to modify your RSVP response. Learn more at https://support.google.com/calendar/answer/37135#forwarding",
+    "body_html": null,
+    "date": "2026-08-10T16:05:00-07:00",
+    "internal_date_ms": 1786403100000,
+    "folder": "INBOX",
+    "category": "CATEGORY_UPDATES",
+    "is_unread": false,
+    "is_starred": false,
+    "is_important": true,
+    "user_labels": [
+      "Label_8842"
+    ],
+    "attachments": [
+      {
+        "attachment_id": "ANGjdJ_X3ERGVpm50XGbRyUCX36cAd3hbtdpUD3l_3uMRmsKfA",
+        "filename": "invite.ics",
+        "mime_type": "text/calendar",
+        "size_bytes": 1310,
+        "is_inline": false,
+        "content_id": null,
+        "extracted_text": "BEGIN:VCALENDAR\r\nPRODID:-//Google Inc//Google Calendar 70.9054//EN\r\nVERSION:2.0\r\nCALSCALE:GREGORIAN\r\nMETHOD:REQUEST\r\nBEGIN:VEVENT\r\nUID:5ba0a809ccb5047dddb9f407@google.com\r\nDTSTAMP:20260827T100000Z\r\nDTSTART;TZID=America/Los_Angeles:20260827T100000\r\nDTEND;TZID=America/Los_Angeles:20260827T120000\r\nSEQUENCE:1\r\nSTATUS:CONFIRMED\r\nSUMMARY:Board Meeting \u2014 Q2 Update\r\nTRANSP:OPAQUE\r\nLOCATION:Kettle HQ \u2014 Conference Room A / Zoom\r\nDESCRIPTION:Quarterly board meeting. Deck will go out 48h ahead. Dial-in for Greg: https://kettlehq.zoom.us/j/99120033441 Moved an hour later so Greg can join from the airport lounge; now 2 hours to leave room for the Series B update.\r\nORGANIZER;CN=Sana Iqbal:mailto:sana@kettlehq.com\r\nATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=NEEDS-ACTION;RSVP=TRUE;CN=Maya Rodriguez;X-NUM-GUESTS=0:mailto:maya@kettlehq.com\r\nATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=NEEDS-ACTION;RSVP=TRUE;CN=Ellen Barsotti;X-NUM-GUESTS=0:mailto:ellen@northbridge.vc\r\nATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=NEEDS-ACTION;RSVP=TRUE;CN=Greg Whitfield;X-NUM-GUESTS=0:mailto:greg.whitfield@whitfieldadvisory.com\r\nATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=NEEDS-ACTION;RSVP=TRUE;CN=Dev Patel;X-NUM-GUESTS=0:mailto:dev@kettlehq.com\r\nEND:VEVENT\r\nEND:VCALENDAR"
+      }
+    ],
+    "calendar_event": {
+      "uid": "5ba0a809ccb5047dddb9f407@google.com",
+      "method": "REQUEST",
+      "sequence": 1,
+      "summary": "Board Meeting \u2014 Q2 Update",
+      "description": "Quarterly board meeting. Deck will go out 48h ahead. Dial-in for Greg: https://kettlehq.zoom.us/j/99120033441 Moved an hour later so Greg can join from the airport lounge; now 2 hours to leave room for the Series B update.",
+      "location": "Kettle HQ \u2014 Conference Room A / Zoom",
+      "conference_url": "https://kettlehq.zoom.us/j/99120033441",
+      "organizer": {
+        "name": "Sana Iqbal",
+        "email": "sana@kettlehq.com"
+      },
+      "attendees": [
+        {
+          "email": "maya@kettlehq.com",
+          "name": "Maya Rodriguez",
+          "role": "REQ-PARTICIPANT",
+          "partstat": "NEEDS-ACTION",
+          "rsvp": true
+        },
+        {
+          "email": "ellen@northbridge.vc",
+          "name": "Ellen Barsotti",
+          "role": "REQ-PARTICIPANT",
+          "partstat": "NEEDS-ACTION",
+          "rsvp": true
+        },
+        {
+          "email": "greg.whitfield@whitfieldadvisory.com",
+          "name": "Greg Whitfield",
+          "role": "REQ-PARTICIPANT",
+          "partstat": "NEEDS-ACTION",
+          "rsvp": true
+        },
+        {
+          "email": "dev@kettlehq.com",
+          "name": "Dev Patel",
+          "role": "REQ-PARTICIPANT",
+          "partstat": "NEEDS-ACTION",
+          "rsvp": true
+        }
+      ],
+      "dtstart": "2026-08-27T10:00:00-07:00",
+      "dtend": "2026-08-27T12:00:00-07:00",
+      "timezone": "America/Los_Angeles",
+      "all_day": false,
+      "rrule": null,
+      "status": "CONFIRMED"
+    },
+    "extra_headers": {},
+    "size_estimate": 3482,
+    "meta": {
+      "email_class": "calendar",
+      "tricky_tags": [],
+      "is_actionable_for_user": false,
+      "action_owner": null,
+      "action_summary": null,
+      "due_date": null,
+      "commitment_made_by_user": null,
+      "commitment_is_conditional": false,
+      "commitment_condition": null,
+      "superseded_by_message_id": null,
+      "notes": "Update to the board meeting invite: same uid, sequence bumped to 1, start time pushed an hour and the meeting extended."
+    }
+  },
+  {
+    "id": "a40f18c2e4b60005",
+    "thread_id": "a40f18c2e4b60005",
+    "profile_id": "founder",
+    "history_id": "735800",
+    "message_id_header": "<a40f18c2e4b60005@google.com>",
+    "in_reply_to": null,
+    "references": [],
+    "thread_position": 1,
+    "thread_length": 1,
+    "from": {
+      "name": "Google Calendar",
+      "email": "calendar-notification@google.com"
+    },
+    "sender": null,
+    "reply_to": null,
+    "to": [
+      {
+        "name": "Maya Rodriguez",
+        "email": "maya@kettlehq.com"
+      }
+    ],
+    "cc": [],
+    "bcc": [],
+    "delivered_to": "maya@kettlehq.com",
+    "subject": "Invitation: Kettle <> Lumenpay Quarterly Business Review @ Wed Jul 22, 11am \u2013 12pm (PDT)",
+    "snippet": "You have been invited to the following event. Kettle <> Lumenpay Quarterly Business Review Wed Jul 22, 2026 \u22c5 11:00am \u2013 12:00pm, Pacific Time Where: Zoom Calendar: maya@kettlehq.co",
+    "body_text": "You have been invited to the following event.\n\nKettle <> Lumenpay Quarterly Business Review\nWed Jul 22, 2026 \u22c5 11:00am \u2013 12:00pm, Pacific Time\n\nWhere: Zoom\n\nCalendar: maya@kettlehq.com\nWho:\n* dana.kowalski@lumenpay.io - organizer\n* maya@kettlehq.com\n* priya@kettlehq.com\n\nGoing (maya@kettlehq.com)?  Yes - Maybe - No\n\nmore options \u00bb\n\nInvitation from Google Calendar\n\nYou are receiving this email because you are an attendee on the event. To stop receiving future updates for this event, decline this event. Alternatively, you can control your notification settings at https://calendar.google.com/calendar/\n\nForwarding this invitation could allow any recipient to modify your RSVP response. Learn more at https://support.google.com/calendar/answer/37135#forwarding",
+    "body_html": null,
+    "date": "2026-07-15T13:40:00-07:00",
+    "internal_date_ms": 1784148000000,
+    "folder": "INBOX",
+    "category": "CATEGORY_UPDATES",
+    "is_unread": false,
+    "is_starred": false,
+    "is_important": false,
+    "user_labels": [
+      "Label_3391"
+    ],
+    "attachments": [
+      {
+        "attachment_id": "ANGjdJ_b6563VKdXe1S1DWI1fNo_H-FrokqazH6XSLfXSeJNMQ",
+        "filename": "invite.ics",
+        "mime_type": "text/calendar",
+        "size_bytes": 896,
+        "is_inline": false,
+        "content_id": null,
+        "extracted_text": "BEGIN:VCALENDAR\r\nPRODID:-//Google Inc//Google Calendar 70.9054//EN\r\nVERSION:2.0\r\nCALSCALE:GREGORIAN\r\nMETHOD:REQUEST\r\nBEGIN:VEVENT\r\nUID:d0ace935b4b2c35ba207598f@google.com\r\nDTSTAMP:20260722T110000Z\r\nDTSTART;TZID=America/Los_Angeles:20260722T110000\r\nDTEND;TZID=America/Los_Angeles:20260722T120000\r\nSEQUENCE:0\r\nSTATUS:CONFIRMED\r\nSUMMARY:Kettle <> Lumenpay Quarterly Business Review\r\nTRANSP:OPAQUE\r\nLOCATION:Zoom\r\nDESCRIPTION:Quarterly check-in on the enterprise rollout. Dana wants to walk through the SSO timeline and Q3 usage numbers.\r\nORGANIZER;CN=Dana Kowalski:mailto:dana.kowalski@lumenpay.io\r\nATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=NEEDS-ACTION;RSVP=TRUE;CN=Maya Rodriguez;X-NUM-GUESTS=0:mailto:maya@kettlehq.com\r\nATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=NEEDS-ACTION;RSVP=TRUE;CN=Priya Nair;X-NUM-GUESTS=0:mailto:priya@kettlehq.com\r\nEND:VEVENT\r\nEND:VCALENDAR"
+      }
+    ],
+    "calendar_event": {
+      "uid": "d0ace935b4b2c35ba207598f@google.com",
+      "method": "REQUEST",
+      "sequence": 0,
+      "summary": "Kettle <> Lumenpay Quarterly Business Review",
+      "description": "Quarterly check-in on the enterprise rollout. Dana wants to walk through the SSO timeline and Q3 usage numbers.",
+      "location": "Zoom",
+      "conference_url": "https://lumenpay.zoom.us/j/44210098821",
+      "organizer": {
+        "name": "Dana Kowalski",
+        "email": "dana.kowalski@lumenpay.io"
+      },
+      "attendees": [
+        {
+          "email": "maya@kettlehq.com",
+          "name": "Maya Rodriguez",
+          "role": "REQ-PARTICIPANT",
+          "partstat": "NEEDS-ACTION",
+          "rsvp": true
+        },
+        {
+          "email": "priya@kettlehq.com",
+          "name": "Priya Nair",
+          "role": "REQ-PARTICIPANT",
+          "partstat": "NEEDS-ACTION",
+          "rsvp": true
+        }
+      ],
+      "dtstart": "2026-07-22T11:00:00-07:00",
+      "dtend": "2026-07-22T12:00:00-07:00",
+      "timezone": "America/Los_Angeles",
+      "all_day": false,
+      "rrule": null,
+      "status": "CONFIRMED"
+    },
+    "extra_headers": {},
+    "size_estimate": 2857,
+    "meta": {
+      "email_class": "calendar",
+      "tricky_tags": [],
+      "is_actionable_for_user": false,
+      "action_owner": null,
+      "action_summary": null,
+      "due_date": null,
+      "commitment_made_by_user": null,
+      "commitment_is_conditional": false,
+      "commitment_condition": null,
+      "superseded_by_message_id": null,
+      "notes": null
+    }
+  },
+  {
+    "id": "a40f18c2e4b60006",
+    "thread_id": "a40f18c2e4b60006",
+    "profile_id": "founder",
+    "history_id": "748555",
+    "message_id_header": "<a40f18c2e4b60006@google.com>",
+    "in_reply_to": null,
+    "references": [],
+    "thread_position": 1,
+    "thread_length": 1,
+    "from": {
+      "name": "Google Calendar",
+      "email": "calendar-notification@google.com"
+    },
+    "sender": null,
+    "reply_to": null,
+    "to": [
+      {
+        "name": "Maya Rodriguez",
+        "email": "maya@kettlehq.com"
+      }
+    ],
+    "cc": [],
+    "bcc": [],
+    "delivered_to": "maya@kettlehq.com",
+    "subject": "Invitation: Design Review \u2014 New Onboarding Flow @ Tue Jul 28, 2pm \u2013 3pm (PDT)",
+    "snippet": "You have been invited to the following event. Design Review \u2014 New Onboarding Flow Tue Jul 28, 2026 \u22c5 2:00 \u2013 3:00pm, Pacific Time Where: Kettle HQ \u2014 Huddle Room 1 Calendar: maya@ket",
+    "body_text": "You have been invited to the following event.\n\nDesign Review \u2014 New Onboarding Flow\nTue Jul 28, 2026 \u22c5 2:00 \u2013 3:00pm, Pacific Time\n\nWhere: Kettle HQ \u2014 Huddle Room 1\n\nCalendar: maya@kettlehq.com\nWho:\n* luis@kettlehq.com - organizer\n* maya@kettlehq.com\n* priya@kettlehq.com\n\nGoing (maya@kettlehq.com)?  Yes - Maybe - No\n\nmore options \u00bb\n\nInvitation from Google Calendar\n\nYou are receiving this email because you are an attendee on the event. To stop receiving future updates for this event, decline this event. Alternatively, you can control your notification settings at https://calendar.google.com/calendar/\n\nForwarding this invitation could allow any recipient to modify your RSVP response. Learn more at https://support.google.com/calendar/answer/37135#forwarding",
+    "body_html": null,
+    "date": "2026-07-24T10:15:00-07:00",
+    "internal_date_ms": 1784913300000,
+    "folder": "INBOX",
+    "category": "CATEGORY_UPDATES",
+    "is_unread": false,
+    "is_starred": false,
+    "is_important": false,
+    "user_labels": [],
+    "attachments": [
+      {
+        "attachment_id": "ANGjdJ_9GwXbIY5yBMQMr2D-ECzhfCdeNQbCK3bFhLCQ1ShK8E",
+        "filename": "invite.ics",
+        "mime_type": "text/calendar",
+        "size_bytes": 888,
+        "is_inline": false,
+        "content_id": null,
+        "extracted_text": "BEGIN:VCALENDAR\r\nPRODID:-//Google Inc//Google Calendar 70.9054//EN\r\nVERSION:2.0\r\nCALSCALE:GREGORIAN\r\nMETHOD:REQUEST\r\nBEGIN:VEVENT\r\nUID:376806b913e8ecc7dc34e520@google.com\r\nDTSTAMP:20260728T140000Z\r\nDTSTART;TZID=America/Los_Angeles:20260728T140000\r\nDTEND;TZID=America/Los_Angeles:20260728T150000\r\nSEQUENCE:0\r\nSTATUS:CONFIRMED\r\nSUMMARY:Design Review \u2014 New Onboarding Flow\r\nTRANSP:OPAQUE\r\nLOCATION:Kettle HQ \u2014 Huddle Room 1\r\nDESCRIPTION:Walkthrough of the redesigned first-run onboarding before we ship it behind a flag next sprint.\r\nORGANIZER;CN=Luis Ferreira:mailto:luis@kettlehq.com\r\nATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=NEEDS-ACTION;RSVP=TRUE;CN=Maya Rodriguez;X-NUM-GUESTS=0:mailto:maya@kettlehq.com\r\nATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=NEEDS-ACTION;RSVP=TRUE;CN=Priya Nair;X-NUM-GUESTS=0:mailto:priya@kettlehq.com\r\nEND:VEVENT\r\nEND:VCALENDAR"
+      }
+    ],
+    "calendar_event": {
+      "uid": "376806b913e8ecc7dc34e520@google.com",
+      "method": "REQUEST",
+      "sequence": 0,
+      "summary": "Design Review \u2014 New Onboarding Flow",
+      "description": "Walkthrough of the redesigned first-run onboarding before we ship it behind a flag next sprint.",
+      "location": "Kettle HQ \u2014 Huddle Room 1",
+      "conference_url": null,
+      "organizer": {
+        "name": "Luis Ferreira",
+        "email": "luis@kettlehq.com"
+      },
+      "attendees": [
+        {
+          "email": "maya@kettlehq.com",
+          "name": "Maya Rodriguez",
+          "role": "REQ-PARTICIPANT",
+          "partstat": "NEEDS-ACTION",
+          "rsvp": true
+        },
+        {
+          "email": "priya@kettlehq.com",
+          "name": "Priya Nair",
+          "role": "REQ-PARTICIPANT",
+          "partstat": "NEEDS-ACTION",
+          "rsvp": true
+        }
+      ],
+      "dtstart": "2026-07-28T14:00:00-07:00",
+      "dtend": "2026-07-28T15:00:00-07:00",
+      "timezone": "America/Los_Angeles",
+      "all_day": false,
+      "rrule": null,
+      "status": "CONFIRMED"
+    },
+    "extra_headers": {},
+    "size_estimate": 2840,
+    "meta": {
+      "email_class": "calendar",
+      "tricky_tags": [],
+      "is_actionable_for_user": false,
+      "action_owner": null,
+      "action_summary": null,
+      "due_date": null,
+      "commitment_made_by_user": null,
+      "commitment_is_conditional": false,
+      "commitment_condition": null,
+      "superseded_by_message_id": null,
+      "notes": null
+    }
+  },
+  {
+    "id": "a40f18c2e4b60007",
+    "thread_id": "a40f18c2e4b60007",
+    "profile_id": "founder",
+    "history_id": "753330",
+    "message_id_header": "<a40f18c2e4b60007@google.com>",
+    "in_reply_to": null,
+    "references": [],
+    "thread_position": 1,
+    "thread_length": 1,
+    "from": {
+      "name": "Google Calendar",
+      "email": "calendar-notification@google.com"
+    },
+    "sender": null,
+    "reply_to": null,
+    "to": [
+      {
+        "name": "Maya Rodriguez",
+        "email": "maya@kettlehq.com"
+      }
+    ],
+    "cc": [],
+    "bcc": [],
+    "delivered_to": "maya@kettlehq.com",
+    "subject": "Canceled event: Design Review \u2014 New Onboarding Flow @ Tue Jul 28, 2pm \u2013 3pm (PDT)",
+    "snippet": "This event has been canceled. Design Review \u2014 New Onboarding Flow Tue Jul 28, 2026 \u22c5 2:00 \u2013 3:00pm, Pacific Time Where: Kettle HQ \u2014 Huddle Room 1 Note from Luis: pushing this \u2014 the",
+    "body_text": "This event has been canceled.\n\nDesign Review \u2014 New Onboarding Flow\nTue Jul 28, 2026 \u22c5 2:00 \u2013 3:00pm, Pacific Time\n\nWhere: Kettle HQ \u2014 Huddle Room 1\n\nNote from Luis: pushing this \u2014 the new flows aren't ready for review yet, still waiting on the empty-state illustrations. Will re-send once they're in.\n\nCalendar: maya@kettlehq.com\n\nmore options \u00bb\n\nInvitation from Google Calendar",
+    "body_html": null,
+    "date": "2026-07-27T17:50:00-07:00",
+    "internal_date_ms": 1785199800000,
+    "folder": "INBOX",
+    "category": "CATEGORY_UPDATES",
+    "is_unread": false,
+    "is_starred": false,
+    "is_important": false,
+    "user_labels": [],
+    "attachments": [
+      {
+        "attachment_id": "ANGjdJ_Vu1cLI6Z6TL3ZsZmvYtGSfzE-asluqHDs9Do89A18ic",
+        "filename": "invite.ics",
+        "mime_type": "text/calendar",
+        "size_bytes": 887,
+        "is_inline": false,
+        "content_id": null,
+        "extracted_text": "BEGIN:VCALENDAR\r\nPRODID:-//Google Inc//Google Calendar 70.9054//EN\r\nVERSION:2.0\r\nCALSCALE:GREGORIAN\r\nMETHOD:CANCEL\r\nBEGIN:VEVENT\r\nUID:376806b913e8ecc7dc34e520@google.com\r\nDTSTAMP:20260728T140000Z\r\nDTSTART;TZID=America/Los_Angeles:20260728T140000\r\nDTEND;TZID=America/Los_Angeles:20260728T150000\r\nSEQUENCE:1\r\nSTATUS:CANCELLED\r\nSUMMARY:Design Review \u2014 New Onboarding Flow\r\nTRANSP:OPAQUE\r\nLOCATION:Kettle HQ \u2014 Huddle Room 1\r\nDESCRIPTION:Walkthrough of the redesigned first-run onboarding before we ship it behind a flag next sprint.\r\nORGANIZER;CN=Luis Ferreira:mailto:luis@kettlehq.com\r\nATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=NEEDS-ACTION;RSVP=TRUE;CN=Maya Rodriguez;X-NUM-GUESTS=0:mailto:maya@kettlehq.com\r\nATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=NEEDS-ACTION;RSVP=TRUE;CN=Priya Nair;X-NUM-GUESTS=0:mailto:priya@kettlehq.com\r\nEND:VEVENT\r\nEND:VCALENDAR"
+      }
+    ],
+    "calendar_event": {
+      "uid": "376806b913e8ecc7dc34e520@google.com",
+      "method": "CANCEL",
+      "sequence": 1,
+      "summary": "Design Review \u2014 New Onboarding Flow",
+      "description": "Walkthrough of the redesigned first-run onboarding before we ship it behind a flag next sprint.",
+      "location": "Kettle HQ \u2014 Huddle Room 1",
+      "conference_url": null,
+      "organizer": {
+        "name": "Luis Ferreira",
+        "email": "luis@kettlehq.com"
+      },
+      "attendees": [
+        {
+          "email": "maya@kettlehq.com",
+          "name": "Maya Rodriguez",
+          "role": "REQ-PARTICIPANT",
+          "partstat": "NEEDS-ACTION",
+          "rsvp": true
+        },
+        {
+          "email": "priya@kettlehq.com",
+          "name": "Priya Nair",
+          "role": "REQ-PARTICIPANT",
+          "partstat": "NEEDS-ACTION",
+          "rsvp": true
+        }
+      ],
+      "dtstart": "2026-07-28T14:00:00-07:00",
+      "dtend": "2026-07-28T15:00:00-07:00",
+      "timezone": "America/Los_Angeles",
+      "all_day": false,
+      "rrule": null,
+      "status": "CANCELLED"
+    },
+    "extra_headers": {},
+    "size_estimate": 2459,
+    "meta": {
+      "email_class": "calendar",
+      "tricky_tags": [],
+      "is_actionable_for_user": false,
+      "action_owner": null,
+      "action_summary": null,
+      "due_date": null,
+      "commitment_made_by_user": null,
+      "commitment_is_conditional": false,
+      "commitment_condition": null,
+      "superseded_by_message_id": null,
+      "notes": "Cancellation of the design review: same uid as the REQUEST, sequence bumped, status CANCELLED."
+    }
+  },
+  {
+    "id": "a40f18c2e4b60008",
+    "thread_id": "a40f18c2e4b60008",
+    "profile_id": "founder",
+    "history_id": "757145",
+    "message_id_header": "<a40f18c2e4b60008@google.com>",
+    "in_reply_to": null,
+    "references": [],
+    "thread_position": 1,
+    "thread_length": 1,
+    "from": {
+      "name": "Google Calendar",
+      "email": "calendar-notification@google.com"
+    },
+    "sender": null,
+    "reply_to": null,
+    "to": [
+      {
+        "name": "Maya Rodriguez",
+        "email": "maya@kettlehq.com"
+      }
+    ],
+    "cc": [],
+    "bcc": [],
+    "delivered_to": "maya@kettlehq.com",
+    "subject": "Invitation: Kettle All-Hands Offsite @ Fri Aug 14",
+    "snippet": "You have been invited to the following event. Kettle All-Hands Offsite Fri Aug 14, 2026 (all day) Where: Fort Mason Center, San Francisco Calendar: maya@kettlehq.com Who: * sana@ke",
+    "body_text": "You have been invited to the following event.\n\nKettle All-Hands Offsite\nFri Aug 14, 2026 (all day)\n\nWhere: Fort Mason Center, San Francisco\n\nCalendar: maya@kettlehq.com\nWho:\n* sana@kettlehq.com - organizer\n* maya@kettlehq.com\n* dev@kettlehq.com\n* priya@kettlehq.com\n* tom@kettlehq.com\n* luis@kettlehq.com\n* wendy@kettlehq.com\n\nGoing (maya@kettlehq.com)?  Yes - Maybe - No\n\nmore options \u00bb\n\nInvitation from Google Calendar\n\nYou are receiving this email because you are an attendee on the event. To stop receiving future updates for this event, decline this event. Alternatively, you can control your notification settings at https://calendar.google.com/calendar/\n\nForwarding this invitation could allow any recipient to modify your RSVP response. Learn more at https://support.google.com/calendar/answer/37135#forwarding",
+    "body_html": null,
+    "date": "2026-07-30T09:25:00-07:00",
+    "internal_date_ms": 1785428700000,
+    "folder": "INBOX",
+    "category": "CATEGORY_UPDATES",
+    "is_unread": false,
+    "is_starred": false,
+    "is_important": false,
+    "user_labels": [],
+    "attachments": [
+      {
+        "attachment_id": "ANGjdJ_zFWVGjCNuQGRDStnw8jqbOidkJUChynMNEBNWe4Qvj4",
+        "filename": "invite.ics",
+        "mime_type": "text/calendar",
+        "size_bytes": 1449,
+        "is_inline": false,
+        "content_id": null,
+        "extracted_text": "BEGIN:VCALENDAR\r\nPRODID:-//Google Inc//Google Calendar 70.9054//EN\r\nVERSION:2.0\r\nCALSCALE:GREGORIAN\r\nMETHOD:REQUEST\r\nBEGIN:VEVENT\r\nUID:3e0d20659f5aa3e0ca86fd0d@google.com\r\nDTSTAMP:20260814T000000Z\r\nDTSTART;TZID=America/Los_Angeles:20260814T000000\r\nDTEND;TZID=America/Los_Angeles:20260815T000000\r\nSEQUENCE:0\r\nSTATUS:CONFIRMED\r\nSUMMARY:Kettle All-Hands Offsite\r\nTRANSP:OPAQUE\r\nLOCATION:Fort Mason Center, San Francisco\r\nDESCRIPTION:Full-day offsite at Fort Mason. Agenda: Series A retro, Q3 roadmap, SOC 2 update, team lunch. Casual dress, laptops optional.\r\nORGANIZER;CN=Sana Iqbal:mailto:sana@kettlehq.com\r\nATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=NEEDS-ACTION;RSVP=TRUE;CN=Maya Rodriguez;X-NUM-GUESTS=0:mailto:maya@kettlehq.com\r\nATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=NEEDS-ACTION;RSVP=TRUE;CN=Dev Patel;X-NUM-GUESTS=0:mailto:dev@kettlehq.com\r\nATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=NEEDS-ACTION;RSVP=TRUE;CN=Priya Nair;X-NUM-GUESTS=0:mailto:priya@kettlehq.com\r\nATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=NEEDS-ACTION;RSVP=TRUE;CN=Tom Ashford;X-NUM-GUESTS=0:mailto:tom@kettlehq.com\r\nATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=NEEDS-ACTION;RSVP=TRUE;CN=Luis Ferreira;X-NUM-GUESTS=0:mailto:luis@kettlehq.com\r\nATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=NEEDS-ACTION;RSVP=TRUE;CN=Wendy Osei;X-NUM-GUESTS=0:mailto:wendy@kettlehq.com\r\nEND:VEVENT\r\nEND:VCALENDAR"
+      }
+    ],
+    "calendar_event": {
+      "uid": "3e0d20659f5aa3e0ca86fd0d@google.com",
+      "method": "REQUEST",
+      "sequence": 0,
+      "summary": "Kettle All-Hands Offsite",
+      "description": "Full-day offsite at Fort Mason. Agenda: Series A retro, Q3 roadmap, SOC 2 update, team lunch. Casual dress, laptops optional.",
+      "location": "Fort Mason Center, San Francisco",
+      "conference_url": null,
+      "organizer": {
+        "name": "Sana Iqbal",
+        "email": "sana@kettlehq.com"
+      },
+      "attendees": [
+        {
+          "email": "maya@kettlehq.com",
+          "name": "Maya Rodriguez",
+          "role": "REQ-PARTICIPANT",
+          "partstat": "NEEDS-ACTION",
+          "rsvp": true
+        },
+        {
+          "email": "dev@kettlehq.com",
+          "name": "Dev Patel",
+          "role": "REQ-PARTICIPANT",
+          "partstat": "NEEDS-ACTION",
+          "rsvp": true
+        },
+        {
+          "email": "priya@kettlehq.com",
+          "name": "Priya Nair",
+          "role": "REQ-PARTICIPANT",
+          "partstat": "NEEDS-ACTION",
+          "rsvp": true
+        },
+        {
+          "email": "tom@kettlehq.com",
+          "name": "Tom Ashford",
+          "role": "REQ-PARTICIPANT",
+          "partstat": "NEEDS-ACTION",
+          "rsvp": true
+        },
+        {
+          "email": "luis@kettlehq.com",
+          "name": "Luis Ferreira",
+          "role": "REQ-PARTICIPANT",
+          "partstat": "NEEDS-ACTION",
+          "rsvp": true
+        },
+        {
+          "email": "wendy@kettlehq.com",
+          "name": "Wendy Osei",
+          "role": "REQ-PARTICIPANT",
+          "partstat": "NEEDS-ACTION",
+          "rsvp": true
+        }
+      ],
+      "dtstart": "2026-08-14T00:00:00-07:00",
+      "dtend": "2026-08-15T00:00:00-07:00",
+      "timezone": "America/Los_Angeles",
+      "all_day": true,
+      "rrule": null,
+      "status": "CONFIRMED"
+    },
+    "extra_headers": {},
+    "size_estimate": 3607,
+    "meta": {
+      "email_class": "calendar",
+      "tricky_tags": [],
+      "is_actionable_for_user": false,
+      "action_owner": null,
+      "action_summary": null,
+      "due_date": null,
+      "commitment_made_by_user": null,
+      "commitment_is_conditional": false,
+      "commitment_condition": null,
+      "superseded_by_message_id": null,
+      "notes": null
+    }
+  },
+  {
+    "id": "a40f18c2e4b60009",
+    "thread_id": "a40f18c2e4b60009",
+    "profile_id": "founder",
+    "history_id": "749915",
+    "message_id_header": "<a40f18c2e4b60009@google.com>",
+    "in_reply_to": null,
+    "references": [],
+    "thread_position": 1,
+    "thread_length": 1,
+    "from": {
+      "name": "Google Calendar",
+      "email": "calendar-notification@google.com"
+    },
+    "sender": null,
+    "reply_to": null,
+    "to": [
+      {
+        "name": "Maya Rodriguez",
+        "email": "maya@kettlehq.com"
+      }
+    ],
+    "cc": [],
+    "bcc": [],
+    "delivered_to": "maya@kettlehq.com",
+    "subject": "Invitation: Interview: Head of Marketing \u2014 Onsite Panel (Grace Whitman) @ Wed Jul 29, 1pm \u2013 2:30pm (PDT)",
+    "snippet": "You have been invited to the following event. Interview: Head of Marketing \u2014 Onsite Panel (Grace Whitman) Wed Jul 29, 2026 \u22c5 1:00 \u2013 2:30pm, Pacific Time Where: Kettle HQ \u2014 Conferen",
+    "body_text": "You have been invited to the following event.\n\nInterview: Head of Marketing \u2014 Onsite Panel (Grace Whitman)\nWed Jul 29, 2026 \u22c5 1:00 \u2013 2:30pm, Pacific Time\n\nWhere: Kettle HQ \u2014 Conference Room B\n\nCalendar: maya@kettlehq.com\nWho:\n* alice@vectortalent.co - organizer\n* maya@kettlehq.com\n* tom@kettlehq.com\n\nGoing (maya@kettlehq.com)?  Yes - Maybe - No\n\nmore options \u00bb\n\nInvitation from Google Calendar\n\nYou are receiving this email because you are an attendee on the event. To stop receiving future updates for this event, decline this event. Alternatively, you can control your notification settings at https://calendar.google.com/calendar/\n\nForwarding this invitation could allow any recipient to modify your RSVP response. Learn more at https://support.google.com/calendar/answer/37135#forwarding",
+    "body_html": null,
+    "date": "2026-07-25T08:55:00-07:00",
+    "internal_date_ms": 1784994900000,
+    "folder": "INBOX",
+    "category": "CATEGORY_UPDATES",
+    "is_unread": false,
+    "is_starred": false,
+    "is_important": false,
+    "user_labels": [
+      "Label_5567"
+    ],
+    "attachments": [
+      {
+        "attachment_id": "ANGjdJ_k9s7EdZugwBIwCUzO0xgD4KFO4BEVGk-Jc4j7hHNew0",
+        "filename": "invite.ics",
+        "mime_type": "text/calendar",
+        "size_bytes": 960,
+        "is_inline": false,
+        "content_id": null,
+        "extracted_text": "BEGIN:VCALENDAR\r\nPRODID:-//Google Inc//Google Calendar 70.9054//EN\r\nVERSION:2.0\r\nCALSCALE:GREGORIAN\r\nMETHOD:REQUEST\r\nBEGIN:VEVENT\r\nUID:8947163be1ad744084a56828@google.com\r\nDTSTAMP:20260729T130000Z\r\nDTSTART;TZID=America/Los_Angeles:20260729T130000\r\nDTEND;TZID=America/Los_Angeles:20260729T143000\r\nSEQUENCE:0\r\nSTATUS:CONFIRMED\r\nSUMMARY:Interview: Head of Marketing \u2014 Onsite Panel (Grace Whitman)\r\nTRANSP:OPAQUE\r\nLOCATION:Kettle HQ \u2014 Conference Room B\r\nDESCRIPTION:Final panel round for Grace Whitman. Maya: culture/vision (30 min). Tom: GTM alignment (30 min). Debrief immediately after in Huddle Room 2.\r\nORGANIZER;CN=Alice Yun:mailto:alice@vectortalent.co\r\nATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=NEEDS-ACTION;RSVP=TRUE;CN=Maya Rodriguez;X-NUM-GUESTS=0:mailto:maya@kettlehq.com\r\nATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=NEEDS-ACTION;RSVP=TRUE;CN=Tom Ashford;X-NUM-GUESTS=0:mailto:tom@kettlehq.com\r\nEND:VEVENT\r\nEND:VCALENDAR"
+      }
+    ],
+    "calendar_event": {
+      "uid": "8947163be1ad744084a56828@google.com",
+      "method": "REQUEST",
+      "sequence": 0,
+      "summary": "Interview: Head of Marketing \u2014 Onsite Panel (Grace Whitman)",
+      "description": "Final panel round for Grace Whitman. Maya: culture/vision (30 min). Tom: GTM alignment (30 min). Debrief immediately after in Huddle Room 2.",
+      "location": "Kettle HQ \u2014 Conference Room B",
+      "conference_url": null,
+      "organizer": {
+        "name": "Alice Yun",
+        "email": "alice@vectortalent.co"
+      },
+      "attendees": [
+        {
+          "email": "maya@kettlehq.com",
+          "name": "Maya Rodriguez",
+          "role": "REQ-PARTICIPANT",
+          "partstat": "NEEDS-ACTION",
+          "rsvp": true
+        },
+        {
+          "email": "tom@kettlehq.com",
+          "name": "Tom Ashford",
+          "role": "REQ-PARTICIPANT",
+          "partstat": "NEEDS-ACTION",
+          "rsvp": true
+        }
+      ],
+      "dtstart": "2026-07-29T13:00:00-07:00",
+      "dtend": "2026-07-29T14:30:00-07:00",
+      "timezone": "America/Los_Angeles",
+      "all_day": false,
+      "rrule": null,
+      "status": "CONFIRMED"
+    },
+    "extra_headers": {},
+    "size_estimate": 2993,
+    "meta": {
+      "email_class": "calendar",
+      "tricky_tags": [],
+      "is_actionable_for_user": false,
+      "action_owner": null,
+      "action_summary": null,
+      "due_date": null,
+      "commitment_made_by_user": null,
+      "commitment_is_conditional": false,
+      "commitment_condition": null,
+      "superseded_by_message_id": null,
+      "notes": null
+    }
+  },
+  {
+    "id": "a40f18c2e4b60010",
+    "thread_id": "a40f18c2e4b60010",
+    "profile_id": "founder",
+    "history_id": "732550",
+    "message_id_header": "<a40f18c2e4b60010@google.com>",
+    "in_reply_to": null,
+    "references": [],
+    "thread_position": 1,
+    "thread_length": 1,
+    "from": {
+      "name": "Google Calendar",
+      "email": "calendar-notification@google.com"
+    },
+    "sender": null,
+    "reply_to": null,
+    "to": [
+      {
+        "name": "Maya Rodriguez",
+        "email": "maya@kettlehq.com"
+      }
+    ],
+    "cc": [],
+    "bcc": [],
+    "delivered_to": "maya@kettlehq.com",
+    "subject": "Invitation: SOC 2 Type II \u2014 Audit Kickoff Call @ Thu Jul 16, 10am \u2013 10:45am (PDT)",
+    "snippet": "You have been invited to the following event. SOC 2 Type II \u2014 Audit Kickoff Call Thu Jul 16, 2026 \u22c5 10:00 \u2013 10:45am, Pacific Time Where: Google Meet Calendar: maya@kettlehq.com Who",
+    "body_text": "You have been invited to the following event.\n\nSOC 2 Type II \u2014 Audit Kickoff Call\nThu Jul 16, 2026 \u22c5 10:00 \u2013 10:45am, Pacific Time\n\nWhere: Google Meet\n\nCalendar: maya@kettlehq.com\nWho:\n* nate.choi@vantacompliance.com - organizer\n* maya@kettlehq.com\n* dev@kettlehq.com\n* sana@kettlehq.com\n\nGoing (maya@kettlehq.com)?  Yes - Maybe - No\n\nmore options \u00bb\n\nInvitation from Google Calendar\n\nYou are receiving this email because you are an attendee on the event. To stop receiving future updates for this event, decline this event. Alternatively, you can control your notification settings at https://calendar.google.com/calendar/\n\nForwarding this invitation could allow any recipient to modify your RSVP response. Learn more at https://support.google.com/calendar/answer/37135#forwarding",
+    "body_html": null,
+    "date": "2026-07-13T07:30:00-07:00",
+    "internal_date_ms": 1783953000000,
+    "folder": "INBOX",
+    "category": "CATEGORY_UPDATES",
+    "is_unread": false,
+    "is_starred": false,
+    "is_important": false,
+    "user_labels": [
+      "Label_1120"
+    ],
+    "attachments": [
+      {
+        "attachment_id": "ANGjdJ_rUi_bk4oQrVaFdH2CerIaykjHw5C1xyQIlqbzFo1N4U",
+        "filename": "invite.ics",
+        "mime_type": "text/calendar",
+        "size_bytes": 1037,
+        "is_inline": false,
+        "content_id": null,
+        "extracted_text": "BEGIN:VCALENDAR\r\nPRODID:-//Google Inc//Google Calendar 70.9054//EN\r\nVERSION:2.0\r\nCALSCALE:GREGORIAN\r\nMETHOD:REQUEST\r\nBEGIN:VEVENT\r\nUID:c7cc7d3569beac4a10902344@google.com\r\nDTSTAMP:20260716T100000Z\r\nDTSTART;TZID=America/Los_Angeles:20260716T100000\r\nDTEND;TZID=America/Los_Angeles:20260716T104500\r\nSEQUENCE:0\r\nSTATUS:CONFIRMED\r\nSUMMARY:SOC 2 Type II \u2014 Audit Kickoff Call\r\nTRANSP:OPAQUE\r\nLOCATION:Google Meet\r\nDESCRIPTION:Kickoff for the Type II observation period. We'll confirm the PBC list, sampling approach, and the evidence portal login.\r\nORGANIZER;CN=Nate Choi:mailto:nate.choi@vantacompliance.com\r\nATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=NEEDS-ACTION;RSVP=TRUE;CN=Maya Rodriguez;X-NUM-GUESTS=0:mailto:maya@kettlehq.com\r\nATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=NEEDS-ACTION;RSVP=TRUE;CN=Dev Patel;X-NUM-GUESTS=0:mailto:dev@kettlehq.com\r\nATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=NEEDS-ACTION;RSVP=TRUE;CN=Sana Iqbal;X-NUM-GUESTS=0:mailto:sana@kettlehq.com\r\nEND:VEVENT\r\nEND:VCALENDAR"
+      }
+    ],
+    "calendar_event": {
+      "uid": "c7cc7d3569beac4a10902344@google.com",
+      "method": "REQUEST",
+      "sequence": 0,
+      "summary": "SOC 2 Type II \u2014 Audit Kickoff Call",
+      "description": "Kickoff for the Type II observation period. We'll confirm the PBC list, sampling approach, and the evidence portal login.",
+      "location": "Google Meet",
+      "conference_url": "https://meet.google.com/kzn-vpqr-hds",
+      "organizer": {
+        "name": "Nate Choi",
+        "email": "nate.choi@vantacompliance.com"
+      },
+      "attendees": [
+        {
+          "email": "maya@kettlehq.com",
+          "name": "Maya Rodriguez",
+          "role": "REQ-PARTICIPANT",
+          "partstat": "NEEDS-ACTION",
+          "rsvp": true
+        },
+        {
+          "email": "dev@kettlehq.com",
+          "name": "Dev Patel",
+          "role": "REQ-PARTICIPANT",
+          "partstat": "NEEDS-ACTION",
+          "rsvp": true
+        },
+        {
+          "email": "sana@kettlehq.com",
+          "name": "Sana Iqbal",
+          "role": "REQ-PARTICIPANT",
+          "partstat": "NEEDS-ACTION",
+          "rsvp": true
+        }
+      ],
+      "dtstart": "2026-07-16T10:00:00-07:00",
+      "dtend": "2026-07-16T10:45:00-07:00",
+      "timezone": "America/Los_Angeles",
+      "all_day": false,
+      "rrule": null,
+      "status": "CONFIRMED"
+    },
+    "extra_headers": {},
+    "size_estimate": 3057,
+    "meta": {
+      "email_class": "calendar",
+      "tricky_tags": [],
+      "is_actionable_for_user": false,
+      "action_owner": null,
+      "action_summary": null,
+      "due_date": null,
+      "commitment_made_by_user": null,
+      "commitment_is_conditional": false,
+      "commitment_condition": null,
+      "superseded_by_message_id": null,
+      "notes": null
+    }
+  },
+  {
+    "id": "a40f18c2e4b60011",
+    "thread_id": "a40f18c2e4b60011",
+    "profile_id": "founder",
+    "history_id": "774412",
+    "message_id_header": "<a40f18c2e4b60011@google.com>",
+    "in_reply_to": null,
+    "references": [],
+    "thread_position": 1,
+    "thread_length": 1,
+    "from": {
+      "name": "Google Calendar",
+      "email": "calendar-notification@google.com"
+    },
+    "sender": null,
+    "reply_to": null,
+    "to": [
+      {
+        "name": "Maya Rodriguez",
+        "email": "maya@kettlehq.com"
+      }
+    ],
+    "cc": [],
+    "bcc": [],
+    "delivered_to": "maya@kettlehq.com",
+    "subject": "Accepted: Board Meeting \u2014 Q2 Update @ Thu Aug 27, 10am \u2013 12pm (PDT)",
+    "snippet": "Ellen Barsotti has accepted this invitation. Board Meeting \u2014 Q2 Update Thu Aug 27, 2026 \u22c5 10:00am \u2013 12:00pm, Pacific Time Where: Kettle HQ \u2014 Conference Room A / Zoom Calendar: maya",
+    "body_text": "Ellen Barsotti has accepted this invitation.\n\nBoard Meeting \u2014 Q2 Update\nThu Aug 27, 2026 \u22c5 10:00am \u2013 12:00pm, Pacific Time\n\nWhere: Kettle HQ \u2014 Conference Room A / Zoom\n\nCalendar: maya@kettlehq.com\n\nmore options \u00bb\n\nInvitation from Google Calendar\n\nYou are receiving this email because you are the organizer of this event, and ellen@northbridge.vc has responded.",
+    "body_html": null,
+    "date": "2026-08-11T09:12:00-07:00",
+    "internal_date_ms": 1786464720000,
+    "folder": "INBOX",
+    "category": "CATEGORY_UPDATES",
+    "is_unread": true,
+    "is_starred": false,
+    "is_important": false,
+    "user_labels": [
+      "Label_8842"
+    ],
+    "attachments": [
+      {
+        "attachment_id": "ANGjdJ_T3lMgsx8SIdRMXfh-CDb_N59ccb2jmGyQldXoXpv3Tc",
+        "filename": "invite.ics",
+        "mime_type": "text/calendar",
+        "size_bytes": 875,
+        "is_inline": false,
+        "content_id": null,
+        "extracted_text": "BEGIN:VCALENDAR\r\nPRODID:-//Google Inc//Google Calendar 70.9054//EN\r\nVERSION:2.0\r\nCALSCALE:GREGORIAN\r\nMETHOD:REPLY\r\nBEGIN:VEVENT\r\nUID:5ba0a809ccb5047dddb9f407@google.com\r\nDTSTAMP:20260827T100000Z\r\nDTSTART;TZID=America/Los_Angeles:20260827T100000\r\nDTEND;TZID=America/Los_Angeles:20260827T120000\r\nSEQUENCE:1\r\nSTATUS:CONFIRMED\r\nSUMMARY:Board Meeting \u2014 Q2 Update\r\nTRANSP:OPAQUE\r\nLOCATION:Kettle HQ \u2014 Conference Room A / Zoom\r\nDESCRIPTION:Quarterly board meeting. Deck will go out 48h ahead. Dial-in for Greg: https://kettlehq.zoom.us/j/99120033441 Moved an hour later so Greg can join from the airport lounge; now 2 hours to leave room for the Series B update.\r\nORGANIZER;CN=Sana Iqbal:mailto:sana@kettlehq.com\r\nATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=ACCEPTED;RSVP=FALSE;CN=Ellen Barsotti;X-NUM-GUESTS=0:mailto:ellen@northbridge.vc\r\nEND:VEVENT\r\nEND:VCALENDAR"
+      }
+    ],
+    "calendar_event": {
+      "uid": "5ba0a809ccb5047dddb9f407@google.com",
+      "method": "REPLY",
+      "sequence": 1,
+      "summary": "Board Meeting \u2014 Q2 Update",
+      "description": "Quarterly board meeting. Deck will go out 48h ahead. Dial-in for Greg: https://kettlehq.zoom.us/j/99120033441 Moved an hour later so Greg can join from the airport lounge; now 2 hours to leave room for the Series B update.",
+      "location": "Kettle HQ \u2014 Conference Room A / Zoom",
+      "conference_url": "https://kettlehq.zoom.us/j/99120033441",
+      "organizer": {
+        "name": "Sana Iqbal",
+        "email": "sana@kettlehq.com"
+      },
+      "attendees": [
+        {
+          "email": "ellen@northbridge.vc",
+          "name": "Ellen Barsotti",
+          "role": "REQ-PARTICIPANT",
+          "partstat": "ACCEPTED",
+          "rsvp": false
+        }
+      ],
+      "dtstart": "2026-08-27T10:00:00-07:00",
+      "dtend": "2026-08-27T12:00:00-07:00",
+      "timezone": "America/Los_Angeles",
+      "all_day": false,
+      "rrule": null,
+      "status": "CONFIRMED"
+    },
+    "extra_headers": {},
+    "size_estimate": 2409,
+    "meta": {
+      "email_class": "calendar",
+      "tricky_tags": [],
+      "is_actionable_for_user": false,
+      "action_owner": null,
+      "action_summary": null,
+      "due_date": null,
+      "commitment_made_by_user": null,
+      "commitment_is_conditional": false,
+      "commitment_condition": null,
+      "superseded_by_message_id": null,
+      "notes": null
+    }
+  },
+  {
+    "id": "a40f18c2e4b60012",
+    "thread_id": "a40f18c2e4b60012",
+    "profile_id": "founder",
+    "history_id": "774980",
+    "message_id_header": "<a40f18c2e4b60012@google.com>",
+    "in_reply_to": null,
+    "references": [],
+    "thread_position": 1,
+    "thread_length": 1,
+    "from": {
+      "name": "Google Calendar",
+      "email": "calendar-notification@google.com"
+    },
+    "sender": null,
+    "reply_to": null,
+    "to": [
+      {
+        "name": "Maya Rodriguez",
+        "email": "maya@kettlehq.com"
+      }
+    ],
+    "cc": [],
+    "bcc": [],
+    "delivered_to": "maya@kettlehq.com",
+    "subject": "Tentative: Board Meeting \u2014 Q2 Update @ Thu Aug 27, 10am \u2013 12pm (PDT)",
+    "snippet": "Greg Whitfield has tentatively accepted this invitation. Board Meeting \u2014 Q2 Update Thu Aug 27, 2026 \u22c5 10:00am \u2013 12:00pm, Pacific Time Where: Kettle HQ \u2014 Conference Room A / Zoom Ca",
+    "body_text": "Greg Whitfield has tentatively accepted this invitation.\n\nBoard Meeting \u2014 Q2 Update\nThu Aug 27, 2026 \u22c5 10:00am \u2013 12:00pm, Pacific Time\n\nWhere: Kettle HQ \u2014 Conference Room A / Zoom\n\nCalendar: maya@kettlehq.com\n\nmore options \u00bb\n\nInvitation from Google Calendar\n\nYou are receiving this email because you are the organizer of this event, and greg.whitfield@whitfieldadvisory.com has responded.",
+    "body_html": null,
+    "date": "2026-08-11T18:40:00-07:00",
+    "internal_date_ms": 1786498800000,
+    "folder": "INBOX",
+    "category": "CATEGORY_UPDATES",
+    "is_unread": true,
+    "is_starred": false,
+    "is_important": false,
+    "user_labels": [
+      "Label_8842"
+    ],
+    "attachments": [
+      {
+        "attachment_id": "ANGjdJ_U7hXZfjFKR673PE4xsZu7n9Y2GD_NvvpqpmHsE86GUQ",
+        "filename": "invite.ics",
+        "mime_type": "text/calendar",
+        "size_bytes": 892,
+        "is_inline": false,
+        "content_id": null,
+        "extracted_text": "BEGIN:VCALENDAR\r\nPRODID:-//Google Inc//Google Calendar 70.9054//EN\r\nVERSION:2.0\r\nCALSCALE:GREGORIAN\r\nMETHOD:REPLY\r\nBEGIN:VEVENT\r\nUID:5ba0a809ccb5047dddb9f407@google.com\r\nDTSTAMP:20260827T100000Z\r\nDTSTART;TZID=America/Los_Angeles:20260827T100000\r\nDTEND;TZID=America/Los_Angeles:20260827T120000\r\nSEQUENCE:1\r\nSTATUS:CONFIRMED\r\nSUMMARY:Board Meeting \u2014 Q2 Update\r\nTRANSP:OPAQUE\r\nLOCATION:Kettle HQ \u2014 Conference Room A / Zoom\r\nDESCRIPTION:Quarterly board meeting. Deck will go out 48h ahead. Dial-in for Greg: https://kettlehq.zoom.us/j/99120033441 Moved an hour later so Greg can join from the airport lounge; now 2 hours to leave room for the Series B update.\r\nORGANIZER;CN=Sana Iqbal:mailto:sana@kettlehq.com\r\nATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=TENTATIVE;RSVP=FALSE;CN=Greg Whitfield;X-NUM-GUESTS=0:mailto:greg.whitfield@whitfieldadvisory.com\r\nEND:VEVENT\r\nEND:VCALENDAR"
+      }
+    ],
+    "calendar_event": {
+      "uid": "5ba0a809ccb5047dddb9f407@google.com",
+      "method": "REPLY",
+      "sequence": 1,
+      "summary": "Board Meeting \u2014 Q2 Update",
+      "description": "Quarterly board meeting. Deck will go out 48h ahead. Dial-in for Greg: https://kettlehq.zoom.us/j/99120033441 Moved an hour later so Greg can join from the airport lounge; now 2 hours to leave room for the Series B update.",
+      "location": "Kettle HQ \u2014 Conference Room A / Zoom",
+      "conference_url": "https://kettlehq.zoom.us/j/99120033441",
+      "organizer": {
+        "name": "Sana Iqbal",
+        "email": "sana@kettlehq.com"
+      },
+      "attendees": [
+        {
+          "email": "greg.whitfield@whitfieldadvisory.com",
+          "name": "Greg Whitfield",
+          "role": "REQ-PARTICIPANT",
+          "partstat": "TENTATIVE",
+          "rsvp": false
+        }
+      ],
+      "dtstart": "2026-08-27T10:00:00-07:00",
+      "dtend": "2026-08-27T12:00:00-07:00",
+      "timezone": "America/Los_Angeles",
+      "all_day": false,
+      "rrule": null,
+      "status": "CONFIRMED"
+    },
+    "extra_headers": {},
+    "size_estimate": 2461,
+    "meta": {
+      "email_class": "calendar",
+      "tricky_tags": [],
+      "is_actionable_for_user": false,
+      "action_owner": null,
+      "action_summary": null,
+      "due_date": null,
+      "commitment_made_by_user": null,
+      "commitment_is_conditional": false,
+      "commitment_condition": null,
+      "superseded_by_message_id": null,
+      "notes": null
+    }
+  },
+  {
+    "id": "a40f18c2e4b60013",
+    "thread_id": "a40f18c2e4b60013",
+    "profile_id": "founder",
+    "history_id": "693762",
+    "message_id_header": "<a40f18c2e4b60013@google.com>",
+    "in_reply_to": null,
+    "references": [],
+    "thread_position": 1,
+    "thread_length": 1,
+    "from": {
+      "name": "Google Calendar",
+      "email": "calendar-notification@google.com"
+    },
+    "sender": null,
+    "reply_to": null,
+    "to": [
+      {
+        "name": "Maya Rodriguez",
+        "email": "maya@kettlehq.com"
+      }
+    ],
+    "cc": [],
+    "bcc": [],
+    "delivered_to": "maya@kettlehq.com",
+    "subject": "Accepted: Weekly Leadership Sync @ Weekly from 9am to 9:30am (PDT)",
+    "snippet": "Tom Ashford has accepted this invitation. Weekly Leadership Sync Weekly from 9:00am to 9:30am, Pacific Time - every Monday Where: Zoom (https://kettlehq.zoom.us/j/88213340021) Cale",
+    "body_text": "Tom Ashford has accepted this invitation.\n\nWeekly Leadership Sync\nWeekly from 9:00am to 9:30am, Pacific Time - every Monday\n\nWhere: Zoom (https://kettlehq.zoom.us/j/88213340021)\n\nCalendar: maya@kettlehq.com\n\nmore options \u00bb\n\nInvitation from Google Calendar\n\nYou are receiving this email because you are the organizer of this event, and tom@kettlehq.com has responded.",
+    "body_html": null,
+    "date": "2026-06-16T09:02:00-07:00",
+    "internal_date_ms": 1781625720000,
+    "folder": "INBOX",
+    "category": "CATEGORY_UPDATES",
+    "is_unread": false,
+    "is_starred": false,
+    "is_important": false,
+    "user_labels": [],
+    "attachments": [
+      {
+        "attachment_id": "ANGjdJ_gR2IBz45OxxiGBp5Gog7SNYv5vJ3-Wcbm-on2QBC3v8",
+        "filename": "invite.ics",
+        "mime_type": "text/calendar",
+        "size_bytes": 771,
+        "is_inline": false,
+        "content_id": null,
+        "extracted_text": "BEGIN:VCALENDAR\r\nPRODID:-//Google Inc//Google Calendar 70.9054//EN\r\nVERSION:2.0\r\nCALSCALE:GREGORIAN\r\nMETHOD:REPLY\r\nBEGIN:VEVENT\r\nUID:03acc8efde78ab93567a08ac@google.com\r\nDTSTAMP:20260615T090000Z\r\nDTSTART;TZID=America/Los_Angeles:20260615T090000\r\nDTEND;TZID=America/Los_Angeles:20260615T093000\r\nSEQUENCE:0\r\nSTATUS:CONFIRMED\r\nSUMMARY:Weekly Leadership Sync\r\nTRANSP:OPAQUE\r\nRRULE:FREQ=WEEKLY;BYDAY=MO\r\nLOCATION:Zoom (https://kettlehq.zoom.us/j/88213340021)\r\nDESCRIPTION:Standing weekly leadership sync. Agenda in the shared Notion doc \u2014 add items by Sunday night.\r\nORGANIZER;CN=Sana Iqbal:mailto:sana@kettlehq.com\r\nATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=ACCEPTED;RSVP=FALSE;CN=Tom Ashford;X-NUM-GUESTS=0:mailto:tom@kettlehq.com\r\nEND:VEVENT\r\nEND:VCALENDAR"
+      }
+    ],
+    "calendar_event": {
+      "uid": "03acc8efde78ab93567a08ac@google.com",
+      "method": "REPLY",
+      "sequence": 0,
+      "summary": "Weekly Leadership Sync",
+      "description": "Standing weekly leadership sync. Agenda in the shared Notion doc \u2014 add items by Sunday night.",
+      "location": "Zoom (https://kettlehq.zoom.us/j/88213340021)",
+      "conference_url": "https://kettlehq.zoom.us/j/88213340021",
+      "organizer": {
+        "name": "Sana Iqbal",
+        "email": "sana@kettlehq.com"
+      },
+      "attendees": [
+        {
+          "email": "tom@kettlehq.com",
+          "name": "Tom Ashford",
+          "role": "REQ-PARTICIPANT",
+          "partstat": "ACCEPTED",
+          "rsvp": false
+        }
+      ],
+      "dtstart": "2026-06-15T09:00:00-07:00",
+      "dtend": "2026-06-15T09:30:00-07:00",
+      "timezone": "America/Los_Angeles",
+      "all_day": false,
+      "rrule": "FREQ=WEEKLY;BYDAY=MO",
+      "status": "CONFIRMED"
+    },
+    "extra_headers": {},
+    "size_estimate": 2268,
+    "meta": {
+      "email_class": "calendar",
+      "tricky_tags": [],
+      "is_actionable_for_user": false,
+      "action_owner": null,
+      "action_summary": null,
+      "due_date": null,
+      "commitment_made_by_user": null,
+      "commitment_is_conditional": false,
+      "commitment_condition": null,
+      "superseded_by_message_id": null,
+      "notes": null
+    }
+  },
+  {
+    "id": "a40f18c2e4b60014",
+    "thread_id": "a40f18c2e4b60014",
+    "profile_id": "founder",
+    "history_id": "736918",
+    "message_id_header": "<a40f18c2e4b60014@google.com>",
+    "in_reply_to": null,
+    "references": [],
+    "thread_position": 1,
+    "thread_length": 1,
+    "from": {
+      "name": "Google Calendar",
+      "email": "calendar-notification@google.com"
+    },
+    "sender": null,
+    "reply_to": null,
+    "to": [
+      {
+        "name": "Maya Rodriguez",
+        "email": "maya@kettlehq.com"
+      }
+    ],
+    "cc": [],
+    "bcc": [],
+    "delivered_to": "maya@kettlehq.com",
+    "subject": "Accepted: Kettle <> Lumenpay Quarterly Business Review @ Wed Jul 22, 11am \u2013 12pm (PDT)",
+    "snippet": "Dana Kowalski has accepted this invitation. Kettle <> Lumenpay Quarterly Business Review Wed Jul 22, 2026 \u22c5 11:00am \u2013 12:00pm, Pacific Time Where: Zoom Calendar: maya@kettlehq.com ",
+    "body_text": "Dana Kowalski has accepted this invitation.\n\nKettle <> Lumenpay Quarterly Business Review\nWed Jul 22, 2026 \u22c5 11:00am \u2013 12:00pm, Pacific Time\n\nWhere: Zoom\n\nCalendar: maya@kettlehq.com\n\nmore options \u00bb\n\nInvitation from Google Calendar\n\nYou are receiving this email because you are the organizer of this event, and dana.kowalski@lumenpay.io has responded.",
+    "body_html": null,
+    "date": "2026-07-16T08:18:00-07:00",
+    "internal_date_ms": 1784215080000,
+    "folder": "INBOX",
+    "category": "CATEGORY_UPDATES",
+    "is_unread": false,
+    "is_starred": false,
+    "is_important": false,
+    "user_labels": [
+      "Label_3391"
+    ],
+    "attachments": [
+      {
+        "attachment_id": "ANGjdJ_eRATQSZbPSTJufiiwWQrypHTR-iqYvVeaeXcN_oL6bY",
+        "filename": "invite.ics",
+        "mime_type": "text/calendar",
+        "size_bytes": 762,
+        "is_inline": false,
+        "content_id": null,
+        "extracted_text": "BEGIN:VCALENDAR\r\nPRODID:-//Google Inc//Google Calendar 70.9054//EN\r\nVERSION:2.0\r\nCALSCALE:GREGORIAN\r\nMETHOD:REPLY\r\nBEGIN:VEVENT\r\nUID:d0ace935b4b2c35ba207598f@google.com\r\nDTSTAMP:20260722T110000Z\r\nDTSTART;TZID=America/Los_Angeles:20260722T110000\r\nDTEND;TZID=America/Los_Angeles:20260722T120000\r\nSEQUENCE:0\r\nSTATUS:CONFIRMED\r\nSUMMARY:Kettle <> Lumenpay Quarterly Business Review\r\nTRANSP:OPAQUE\r\nLOCATION:Zoom\r\nDESCRIPTION:Quarterly check-in on the enterprise rollout. Dana wants to walk through the SSO timeline and Q3 usage numbers.\r\nORGANIZER;CN=Dana Kowalski:mailto:dana.kowalski@lumenpay.io\r\nATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=ACCEPTED;RSVP=FALSE;CN=Dana Kowalski;X-NUM-GUESTS=0:mailto:dana.kowalski@lumenpay.io\r\nEND:VEVENT\r\nEND:VCALENDAR"
+      }
+    ],
+    "calendar_event": {
+      "uid": "d0ace935b4b2c35ba207598f@google.com",
+      "method": "REPLY",
+      "sequence": 0,
+      "summary": "Kettle <> Lumenpay Quarterly Business Review",
+      "description": "Quarterly check-in on the enterprise rollout. Dana wants to walk through the SSO timeline and Q3 usage numbers.",
+      "location": "Zoom",
+      "conference_url": "https://lumenpay.zoom.us/j/44210098821",
+      "organizer": {
+        "name": "Dana Kowalski",
+        "email": "dana.kowalski@lumenpay.io"
+      },
+      "attendees": [
+        {
+          "email": "dana.kowalski@lumenpay.io",
+          "name": "Dana Kowalski",
+          "role": "REQ-PARTICIPANT",
+          "partstat": "ACCEPTED",
+          "rsvp": false
+        }
+      ],
+      "dtstart": "2026-07-22T11:00:00-07:00",
+      "dtend": "2026-07-22T12:00:00-07:00",
+      "timezone": "America/Los_Angeles",
+      "all_day": false,
+      "rrule": null,
+      "status": "CONFIRMED"
+    },
+    "extra_headers": {},
+    "size_estimate": 2265,
+    "meta": {
+      "email_class": "calendar",
+      "tricky_tags": [],
+      "is_actionable_for_user": false,
+      "action_owner": null,
+      "action_summary": null,
+      "due_date": null,
+      "commitment_made_by_user": null,
+      "commitment_is_conditional": false,
+      "commitment_condition": null,
+      "superseded_by_message_id": null,
+      "notes": null
+    }
+  },
+  {
+    "id": "a40f18c2e4b60015",
+    "thread_id": "a40f18c2e4b60015",
+    "profile_id": "founder",
+    "history_id": "706810",
+    "message_id_header": "<CAFa40f18c2e4b60015@mail.gmail.com>",
+    "in_reply_to": null,
+    "references": [],
+    "thread_position": 1,
+    "thread_length": 2,
+    "from": {
+      "name": "Maya Rodriguez",
+      "email": "maya@kettlehq.com"
+    },
+    "sender": null,
+    "reply_to": null,
+    "to": [
+      {
+        "name": "Raj Malhotra",
+        "email": "raj.malhotra@foundryline.com"
+      }
+    ],
+    "cc": [],
+    "bcc": [],
+    "delivered_to": "maya@kettlehq.com",
+    "subject": "Following up on our intro call",
+    "snippet": "Hi Raj, Great talking last week. Sharing our June metrics deck as promised \u2014 ARR, logo retention, and the Lumenpay expansion numbers are on slides 4-6. Would love to find 30 minute",
+    "body_text": "Hi Raj,\n\nGreat talking last week. Sharing our June metrics deck as promised \u2014 ARR, logo retention, and the Lumenpay expansion numbers are on slides 4-6.\n\nWould love to find 30 minutes in the next couple weeks if Foundry Line wants to keep the conversation going.\n\nBest,\nMaya\n\n--\nMaya Rodriguez\nCEO, Kettle\nmaya@kettlehq.com",
+    "body_html": null,
+    "date": "2026-06-25T10:30:00-07:00",
+    "internal_date_ms": 1782408600000,
+    "folder": "SENT",
+    "category": null,
+    "is_unread": false,
+    "is_starred": false,
+    "is_important": false,
+    "user_labels": [],
+    "attachments": [],
+    "calendar_event": null,
+    "extra_headers": {},
+    "size_estimate": 1137,
+    "meta": {
+      "email_class": "genuine_work",
+      "tricky_tags": [],
+      "is_actionable_for_user": false,
+      "action_owner": "maya@kettlehq.com",
+      "action_summary": "Maya is following up with Foundry Line about a potential Series B.",
+      "due_date": null,
+      "commitment_made_by_user": null,
+      "commitment_is_conditional": false,
+      "commitment_condition": null,
+      "superseded_by_message_id": null,
+      "notes": null
+    }
+  },
+  {
+    "id": "a40f18c2e4b60016",
+    "thread_id": "a40f18c2e4b60015",
+    "profile_id": "founder",
+    "history_id": "706811",
+    "message_id_header": "<a40f18c2e4b60016@foundryline.com>",
+    "in_reply_to": "<CAFa40f18c2e4b60015@mail.gmail.com>",
+    "references": [
+      "<CAFa40f18c2e4b60015@mail.gmail.com>"
+    ],
+    "thread_position": 2,
+    "thread_length": 2,
+    "from": {
+      "name": "Raj Malhotra",
+      "email": "raj.malhotra@foundryline.com"
+    },
+    "sender": null,
+    "reply_to": null,
+    "to": [
+      {
+        "name": "Maya Rodriguez",
+        "email": "maya@kettlehq.com"
+      }
+    ],
+    "cc": [],
+    "bcc": [],
+    "delivered_to": "maya@kettlehq.com",
+    "subject": "Auto-reply: Following up on our intro call",
+    "snippet": "I'm out of the office with limited email access until Monday, July 1st. For anything time-sensitive, please reach out to my colleague Priya Desai at pdesai@foundryline.com. Otherwi",
+    "body_text": "I'm out of the office with limited email access until Monday, July 1st.\n\nFor anything time-sensitive, please reach out to my colleague Priya Desai at pdesai@foundryline.com. Otherwise I'll respond to your note when I'm back.\n\nThanks,\nRaj Malhotra\nPrincipal, Foundry Line",
+    "body_html": null,
+    "date": "2026-06-25T10:31:00-07:00",
+    "internal_date_ms": 1782408660000,
+    "folder": "INBOX",
+    "category": "CATEGORY_UPDATES",
+    "is_unread": false,
+    "is_starred": false,
+    "is_important": false,
+    "user_labels": [],
+    "attachments": [],
+    "calendar_event": null,
+    "extra_headers": {
+      "Auto-Submitted": "auto-replied",
+      "X-Auto-Response-Suppress": "All",
+      "Precedence": "bulk"
+    },
+    "size_estimate": 1262,
+    "meta": {
+      "email_class": "auto_reply",
+      "tricky_tags": [
+        "out_of_office"
+      ],
+      "is_actionable_for_user": false,
+      "action_owner": null,
+      "action_summary": null,
+      "due_date": null,
+      "commitment_made_by_user": null,
+      "commitment_is_conditional": false,
+      "commitment_condition": null,
+      "superseded_by_message_id": null,
+      "notes": "Out-of-office auto-reply to the owner's own outbound message; position 1 is Maya's SENT note, position 2 is Raj's auto-responder."
+    }
+  },
+  {
+    "id": "a40f18c2e4b60017",
+    "thread_id": "a40f18c2e4b60017",
+    "profile_id": "founder",
+    "history_id": "743185",
+    "message_id_header": "<CAFa40f18c2e4b60017@mail.gmail.com>",
+    "in_reply_to": null,
+    "references": [],
+    "thread_position": 1,
+    "thread_length": 2,
+    "from": {
+      "name": "Maya Rodriguez",
+      "email": "maya@kettlehq.com"
+    },
+    "sender": null,
+    "reply_to": null,
+    "to": [
+      {
+        "name": "Beth Ranganathan",
+        "email": "branganathan@hoytgrieve.com"
+      }
+    ],
+    "cc": [],
+    "bcc": [],
+    "delivered_to": "maya@kettlehq.com",
+    "subject": "Redline on the Lumenpay MSA",
+    "snippet": "Beth, Attaching Lumenpay's requested changes to section 8.2 (liability cap) and the new data processing addendum. Priya flagged the DPA language as fine on our end \u2014 mainly need yo",
+    "body_text": "Beth,\n\nAttaching Lumenpay's requested changes to section 8.2 (liability cap) and the new data processing addendum. Priya flagged the DPA language as fine on our end \u2014 mainly need your eyes on the liability cap before I go back to Dana.\n\nAny chance you can turn this around by Friday? Dana's legal team is pushing.\n\nThanks,\nMaya",
+    "body_html": null,
+    "date": "2026-07-20T16:45:00-07:00",
+    "internal_date_ms": 1784591100000,
+    "folder": "SENT",
+    "category": null,
+    "is_unread": false,
+    "is_starred": false,
+    "is_important": false,
+    "user_labels": [],
+    "attachments": [],
+    "calendar_event": null,
+    "extra_headers": {},
+    "size_estimate": 1141,
+    "meta": {
+      "email_class": "legal_compliance",
+      "tricky_tags": [],
+      "is_actionable_for_user": false,
+      "action_owner": "branganathan@hoytgrieve.com",
+      "action_summary": "Beth Ranganathan needs to review the Lumenpay MSA liability cap redline.",
+      "due_date": "2026-07-24",
+      "commitment_made_by_user": null,
+      "commitment_is_conditional": false,
+      "commitment_condition": null,
+      "superseded_by_message_id": null,
+      "notes": null
+    }
+  },
+  {
+    "id": "a40f18c2e4b60018",
+    "thread_id": "a40f18c2e4b60017",
+    "profile_id": "founder",
+    "history_id": "743186",
+    "message_id_header": "<a40f18c2e4b60018@hoytgrieve.com>",
+    "in_reply_to": "<CAFa40f18c2e4b60017@mail.gmail.com>",
+    "references": [
+      "<CAFa40f18c2e4b60017@mail.gmail.com>"
+    ],
+    "thread_position": 2,
+    "thread_length": 2,
+    "from": {
+      "name": "Beth Ranganathan",
+      "email": "branganathan@hoytgrieve.com"
+    },
+    "sender": null,
+    "reply_to": null,
+    "to": [
+      {
+        "name": "Maya Rodriguez",
+        "email": "maya@kettlehq.com"
+      }
+    ],
+    "cc": [],
+    "bcc": [],
+    "delivered_to": "maya@kettlehq.com",
+    "subject": "Automatic reply: Redline on the Lumenpay MSA",
+    "snippet": "Thank you for your email. I am out of the office at the AmLaw Tech Counsel conference and will have limited access to email through Thursday, July 23rd. For urgent contract matters",
+    "body_text": "Thank you for your email. I am out of the office at the AmLaw Tech Counsel conference and will have limited access to email through Thursday, July 23rd.\n\nFor urgent contract matters, please contact my paralegal, Diane Cortez, at dcortez@hoytgrieve.com.\n\nRegards,\nBeth Ranganathan\nHoyt & Grieve LLP",
+    "body_html": null,
+    "date": "2026-07-20T16:46:00-07:00",
+    "internal_date_ms": 1784591160000,
+    "folder": "INBOX",
+    "category": "CATEGORY_UPDATES",
+    "is_unread": false,
+    "is_starred": false,
+    "is_important": false,
+    "user_labels": [],
+    "attachments": [],
+    "calendar_event": null,
+    "extra_headers": {
+      "Auto-Submitted": "auto-replied",
+      "X-Auto-Response-Suppress": "All",
+      "Precedence": "bulk"
+    },
+    "size_estimate": 1293,
+    "meta": {
+      "email_class": "auto_reply",
+      "tricky_tags": [],
+      "is_actionable_for_user": false,
+      "action_owner": null,
+      "action_summary": null,
+      "due_date": null,
+      "commitment_made_by_user": null,
+      "commitment_is_conditional": false,
+      "commitment_condition": null,
+      "superseded_by_message_id": null,
+      "notes": "Standalone OOO auto-reply from outside counsel, not the required batch-6 case."
+    }
+  },
+  {
+    "id": "a40f18c2e4b60019",
+    "thread_id": "a40f18c2e4b60019",
+    "profile_id": "founder",
+    "history_id": "765895",
+    "message_id_header": "<CAFa40f18c2e4b60019@mail.gmail.com>",
+    "in_reply_to": null,
+    "references": [],
+    "thread_position": 1,
+    "thread_length": 2,
+    "from": {
+      "name": "Maya Rodriguez",
+      "email": "maya@kettlehq.com"
+    },
+    "sender": null,
+    "reply_to": null,
+    "to": [
+      {
+        "name": "Alice Yun",
+        "email": "alice@vectortalent.co"
+      }
+    ],
+    "cc": [],
+    "bcc": [],
+    "delivered_to": "maya@kettlehq.com",
+    "subject": "Any movement on the Head of Marketing search?",
+    "snippet": "Hi Alice, Checking in \u2014 it's been a couple weeks since the last update. Board meeting is Aug 27 and I'd like to have a name to bring. Where do things stand with the two candidates ",
+    "body_text": "Hi Alice,\n\nChecking in \u2014 it's been a couple weeks since the last update. Board meeting is Aug 27 and I'd like to have a name to bring. Where do things stand with the two candidates from the shortlist?\n\nMaya",
+    "body_html": null,
+    "date": "2026-08-05T11:15:00-07:00",
+    "internal_date_ms": 1785953700000,
+    "folder": "SENT",
+    "category": null,
+    "is_unread": false,
+    "is_starred": false,
+    "is_important": false,
+    "user_labels": [],
+    "attachments": [],
+    "calendar_event": null,
+    "extra_headers": {},
+    "size_estimate": 1025,
+    "meta": {
+      "email_class": "recruiting",
+      "tricky_tags": [],
+      "is_actionable_for_user": false,
+      "action_owner": "alice@vectortalent.co",
+      "action_summary": "Alice Yun owes an update on the Head of Marketing search.",
+      "due_date": null,
+      "commitment_made_by_user": null,
+      "commitment_is_conditional": false,
+      "commitment_condition": null,
+      "superseded_by_message_id": null,
+      "notes": null
+    }
+  },
+  {
+    "id": "a40f18c2e4b60020",
+    "thread_id": "a40f18c2e4b60019",
+    "profile_id": "founder",
+    "history_id": "765896",
+    "message_id_header": "<a40f18c2e4b60020@vectortalent.co>",
+    "in_reply_to": "<CAFa40f18c2e4b60019@mail.gmail.com>",
+    "references": [
+      "<CAFa40f18c2e4b60019@mail.gmail.com>"
+    ],
+    "thread_position": 2,
+    "thread_length": 2,
+    "from": {
+      "name": "Alice Yun",
+      "email": "alice@vectortalent.co"
+    },
+    "sender": null,
+    "reply_to": null,
+    "to": [
+      {
+        "name": "Maya Rodriguez",
+        "email": "maya@kettlehq.com"
+      }
+    ],
+    "cc": [],
+    "bcc": [],
+    "delivered_to": "maya@kettlehq.com",
+    "subject": "Automatic reply: Any movement on the Head of Marketing search?",
+    "snippet": "I'm on vacation with no email access until Monday, August 11th. For anything urgent regarding open searches, please contact my colleague Ravi Sethi at ravi@vectortalent.co. Back so",
+    "body_text": "I'm on vacation with no email access until Monday, August 11th. For anything urgent regarding open searches, please contact my colleague Ravi Sethi at ravi@vectortalent.co.\n\nBack soon,\nAlice Yun\nVector Talent",
+    "body_html": null,
+    "date": "2026-08-05T11:16:00-07:00",
+    "internal_date_ms": 1785953760000,
+    "folder": "INBOX",
+    "category": "CATEGORY_UPDATES",
+    "is_unread": false,
+    "is_starred": false,
+    "is_important": false,
+    "user_labels": [],
+    "attachments": [],
+    "calendar_event": null,
+    "extra_headers": {
+      "Auto-Submitted": "auto-replied",
+      "X-Auto-Response-Suppress": "All",
+      "Precedence": "bulk"
+    },
+    "size_estimate": 1210,
+    "meta": {
+      "email_class": "auto_reply",
+      "tricky_tags": [],
+      "is_actionable_for_user": false,
+      "action_owner": null,
+      "action_summary": null,
+      "due_date": null,
+      "commitment_made_by_user": null,
+      "commitment_is_conditional": false,
+      "commitment_condition": null,
+      "superseded_by_message_id": null,
+      "notes": "Standalone OOO auto-reply from the recruiter, distinct from the required batch-6 case."
+    }
+  },
+  {
+    "id": "a40f18c2e4b60021",
+    "thread_id": "a40f18c2e4b60021",
+    "profile_id": "founder",
+    "history_id": "698402",
+    "message_id_header": "<a40f18c2e4b60021@googlemail.com>",
+    "in_reply_to": null,
+    "references": [],
+    "thread_position": 1,
+    "thread_length": 1,
+    "from": {
+      "name": "Mail Delivery Subsystem",
+      "email": "mailer-daemon@googlemail.com"
+    },
+    "sender": null,
+    "reply_to": null,
+    "to": [
+      {
+        "name": "Maya Rodriguez",
+        "email": "maya@kettlehq.com"
+      }
+    ],
+    "cc": [],
+    "bcc": [],
+    "delivered_to": "maya@kettlehq.com",
+    "subject": "Delivery Status Notification (Failure) \u2014 hello@tarrowhealth.com",
+    "snippet": "Delivery to the following recipient failed permanently: hello@tarrowhealth.com Technical details of permanent failure: Google tried to deliver your message, but it was rejected by ",
+    "body_text": "Delivery to the following recipient failed permanently:\n\n     hello@tarrowhealth.com\n\nTechnical details of permanent failure:\nGoogle tried to deliver your message, but it was rejected by the recipient domain. We recommend contacting the other email provider for further information about the cause of this error.\n\nThe error that the other server returned was:\n550 5.1.1 The email account that you tried to reach does not exist. Please try double-checking the recipient's email address for typos or unnecessary spaces.\n\n----- Original message -----\nSubject: Intro to Kettle \u2014 API observability for Tarrow\nTo: hello@tarrowhealth.com",
+    "body_html": null,
+    "date": "2026-06-19T14:22:00-07:00",
+    "internal_date_ms": 1781904120000,
+    "folder": "INBOX",
+    "category": "CATEGORY_UPDATES",
+    "is_unread": false,
+    "is_starred": false,
+    "is_important": false,
+    "user_labels": [],
+    "attachments": [],
+    "calendar_event": null,
+    "extra_headers": {
+      "X-Failed-Recipients": "hello@tarrowhealth.com",
+      "Auto-Submitted": "auto-replied"
+    },
+    "size_estimate": 1556,
+    "meta": {
+      "email_class": "bounce",
+      "tricky_tags": [],
+      "is_actionable_for_user": false,
+      "action_owner": null,
+      "action_summary": null,
+      "due_date": null,
+      "commitment_made_by_user": null,
+      "commitment_is_conditional": false,
+      "commitment_condition": null,
+      "superseded_by_message_id": null,
+      "notes": "Routine bounce \u2014 generic inbox alias that no longer exists, not consequential."
+    }
+  },
+  {
+    "id": "a40f18c2e4b60022",
+    "thread_id": "a40f18c2e4b60022",
+    "profile_id": "founder",
+    "history_id": "744200",
+    "message_id_header": "<a40f18c2e4b60022@googlemail.com>",
+    "in_reply_to": null,
+    "references": [],
+    "thread_position": 1,
+    "thread_length": 1,
+    "from": {
+      "name": "Mail Delivery Subsystem",
+      "email": "mailer-daemon@googlemail.com"
+    },
+    "sender": null,
+    "reply_to": null,
+    "to": [
+      {
+        "name": "Maya Rodriguez",
+        "email": "maya@kettlehq.com"
+      }
+    ],
+    "cc": [],
+    "bcc": [],
+    "delivered_to": "maya@kettlehq.com",
+    "subject": "Delivery Status Notification (Failure) \u2014 accounting@brightline-cpa.com",
+    "snippet": "Delivery to the following recipient failed permanently: accounting@brightline-cpa.com Technical details of permanent failure: 550 5.1.1 The email account that you tried to reach do",
+    "body_text": "Delivery to the following recipient failed permanently:\n\n     accounting@brightline-cpa.com\n\nTechnical details of permanent failure:\n550 5.1.1 The email account that you tried to reach does not exist.\n\n----- Original message -----\nSubject: July invoices for review\nTo: accounting@brightline-cpa.com",
+    "body_html": null,
+    "date": "2026-07-21T09:40:00-07:00",
+    "internal_date_ms": 1784652000000,
+    "folder": "INBOX",
+    "category": "CATEGORY_UPDATES",
+    "is_unread": false,
+    "is_starred": false,
+    "is_important": false,
+    "user_labels": [],
+    "attachments": [],
+    "calendar_event": null,
+    "extra_headers": {
+      "X-Failed-Recipients": "accounting@brightline-cpa.com",
+      "Auto-Submitted": "auto-replied"
+    },
+    "size_estimate": 1236,
+    "meta": {
+      "email_class": "bounce",
+      "tricky_tags": [],
+      "is_actionable_for_user": false,
+      "action_owner": null,
+      "action_summary": null,
+      "due_date": null,
+      "commitment_made_by_user": null,
+      "commitment_is_conditional": false,
+      "commitment_condition": null,
+      "superseded_by_message_id": null,
+      "notes": "Routine bounce \u2014 Peter's firm retired the shared accounting@ alias; should resend to peter@brightline-cpa.com directly."
+    }
+  },
+  {
+    "id": "a40f18c2e4b60023",
+    "thread_id": "a40f18c2e4b60023",
+    "profile_id": "founder",
+    "history_id": "764685",
+    "message_id_header": "<CAFa40f18c2e4b60023@mail.gmail.com>",
+    "in_reply_to": null,
+    "references": [],
+    "thread_position": 1,
+    "thread_length": 2,
+    "from": {
+      "name": "Maya Rodriguez",
+      "email": "maya@kettlehq.com"
+    },
+    "sender": null,
+    "reply_to": null,
+    "to": [
+      {
+        "name": "Dana Kowalski",
+        "email": "dana.kowaslki@lumenpay.io"
+      }
+    ],
+    "cc": [],
+    "bcc": [],
+    "delivered_to": "maya@kettlehq.com",
+    "subject": "Kettle Q3 invoice \u2014 INV-10482",
+    "snippet": "Dana, Attached is the Q3 enterprise invoice, $86,400 for the expanded seat count we agreed on last month. Payment terms are net-30 per the MSA. Let me know if procurement needs any",
+    "body_text": "Dana,\n\nAttached is the Q3 enterprise invoice, $86,400 for the expanded seat count we agreed on last month. Payment terms are net-30 per the MSA.\n\nLet me know if procurement needs anything else from us.\n\nMaya",
+    "body_html": null,
+    "date": "2026-08-04T15:05:00-07:00",
+    "internal_date_ms": 1785881100000,
+    "folder": "SENT",
+    "category": null,
+    "is_unread": false,
+    "is_starred": false,
+    "is_important": false,
+    "user_labels": [],
+    "attachments": [
+      {
+        "attachment_id": "ANGjdJ_qwLAXYM0OXW-ZTamgnA4GOFF-N4pFWas8NHVAv8pIOY",
+        "filename": "INV-10482.pdf",
+        "mime_type": "application/pdf",
+        "size_bytes": 48210,
+        "is_inline": false,
+        "content_id": null,
+        "extracted_text": "KETTLE INC. \u2014 INVOICE\nInvoice #: INV-10482\nBill To: Lumenpay, Inc.\nDate: 2026-08-04    Due: 2026-09-03 (Net 30)\n\nDescription                              Qty      Rate       Amount\nKettle Enterprise \u2014 expanded seats         40    $180/mo     $7,200/mo\nQ3 total (3 months)                                          $86,400.00\n\nSubtotal: $86,400.00\nTax: $0.00\nTotal Due: $86,400.00\n\nRemit to: Kettle Inc., Mercury Bank, Acct ...4471\nQuestions: maya@kettlehq.com"
+      }
+    ],
+    "calendar_event": null,
+    "extra_headers": {},
+    "size_estimate": 65321,
+    "meta": {
+      "email_class": "client_customer",
+      "tricky_tags": [],
+      "is_actionable_for_user": false,
+      "action_owner": null,
+      "action_summary": null,
+      "due_date": null,
+      "commitment_made_by_user": null,
+      "commitment_is_conditional": false,
+      "commitment_condition": null,
+      "superseded_by_message_id": null,
+      "notes": null
+    }
+  },
+  {
+    "id": "a40f18c2e4b60024",
+    "thread_id": "a40f18c2e4b60023",
+    "profile_id": "founder",
+    "history_id": "764686",
+    "message_id_header": "<a40f18c2e4b60024@googlemail.com>",
+    "in_reply_to": "<CAFa40f18c2e4b60023@mail.gmail.com>",
+    "references": [
+      "<CAFa40f18c2e4b60023@mail.gmail.com>"
+    ],
+    "thread_position": 2,
+    "thread_length": 2,
+    "from": {
+      "name": "Mail Delivery Subsystem",
+      "email": "mailer-daemon@googlemail.com"
+    },
+    "sender": null,
+    "reply_to": null,
+    "to": [
+      {
+        "name": "Maya Rodriguez",
+        "email": "maya@kettlehq.com"
+      }
+    ],
+    "cc": [],
+    "bcc": [],
+    "delivered_to": "maya@kettlehq.com",
+    "subject": "Delivery Status Notification (Failure) \u2014 dana.kowaslki@lumenpay.io",
+    "snippet": "Delivery to the following recipient failed permanently: dana.kowaslki@lumenpay.io Technical details of permanent failure: 550 5.1.1 The email account that you tried to reach does n",
+    "body_text": "Delivery to the following recipient failed permanently:\n\n     dana.kowaslki@lumenpay.io\n\nTechnical details of permanent failure:\n550 5.1.1 The email account that you tried to reach does not exist. Please try double-checking the recipient's email address for typos or unnecessary spaces.\n\n----- Original message -----\nSubject: Kettle Q3 invoice \u2014 INV-10482\nTo: dana.kowaslki@lumenpay.io",
+    "body_html": null,
+    "date": "2026-08-04T15:06:00-07:00",
+    "internal_date_ms": 1785881160000,
+    "folder": "INBOX",
+    "category": "CATEGORY_UPDATES",
+    "is_unread": true,
+    "is_starred": true,
+    "is_important": true,
+    "user_labels": [],
+    "attachments": [],
+    "calendar_event": null,
+    "extra_headers": {
+      "X-Failed-Recipients": "dana.kowaslki@lumenpay.io",
+      "Auto-Submitted": "auto-replied"
+    },
+    "size_estimate": 1414,
+    "meta": {
+      "email_class": "bounce",
+      "tricky_tags": [],
+      "is_actionable_for_user": true,
+      "action_owner": "maya@kettlehq.com",
+      "action_summary": "Maya typo'd Dana's address (kowaslki instead of kowalski) \u2014 the Q3 invoice never reached Lumenpay and needs to be resent correctly.",
+      "due_date": "2026-08-05",
+      "commitment_made_by_user": null,
+      "commitment_is_conditional": false,
+      "commitment_condition": null,
+      "superseded_by_message_id": null,
+      "notes": "The real bounce: Maya mistyped Dana Kowalski's address, so the Q3 invoice never arrived. This one actually matters."
+    }
+  },
+  {
+    "id": "a40f18c2e4b60025",
+    "thread_id": "a40f18c2e4b60025",
+    "profile_id": "founder",
+    "history_id": "702295",
+    "message_id_header": "<a40f18c2e4b60025@accounts.google.com>",
+    "in_reply_to": null,
+    "references": [],
+    "thread_position": 1,
+    "thread_length": 1,
+    "from": {
+      "name": "Google",
+      "email": "no-reply@accounts.google.com"
+    },
+    "sender": null,
+    "reply_to": null,
+    "to": [
+      {
+        "name": "Maya Rodriguez",
+        "email": "maya@kettlehq.com"
+      }
+    ],
+    "cc": [],
+    "bcc": [],
+    "delivered_to": "maya@kettlehq.com",
+    "subject": "New sign-in on Windows",
+    "snippet": "Your Google Account (maya@kettlehq.com) was just signed in to from a new Windows device. You're getting this email to make sure it was you. Windows device USA \u2014 Jun 22, 2026, 7:14 ",
+    "body_text": "Your Google Account (maya@kettlehq.com) was just signed in to from a new Windows device.\n\nYou're getting this email to make sure it was you.\n\nWindows device\nUSA \u2014 Jun 22, 2026, 7:14 AM PDT\n\nIf this was you, you don't need to do anything. If not, we'll help you secure your account.\n\nCheck activity: https://myaccount.google.com/notifications",
+    "body_html": null,
+    "date": "2026-06-22T07:15:00-07:00",
+    "internal_date_ms": 1782137700000,
+    "folder": "INBOX",
+    "category": "CATEGORY_UPDATES",
+    "is_unread": false,
+    "is_starred": false,
+    "is_important": false,
+    "user_labels": [],
+    "attachments": [],
+    "calendar_event": null,
+    "extra_headers": {},
+    "size_estimate": 1143,
+    "meta": {
+      "email_class": "security_alert",
+      "tricky_tags": [],
+      "is_actionable_for_user": false,
+      "action_owner": null,
+      "action_summary": null,
+      "due_date": null,
+      "commitment_made_by_user": null,
+      "commitment_is_conditional": false,
+      "commitment_condition": null,
+      "superseded_by_message_id": null,
+      "notes": "Routine new-device sign-in notice \u2014 Maya's new work laptop."
+    }
+  },
+  {
+    "id": "a40f18c2e4b60026",
+    "thread_id": "a40f18c2e4b60026",
+    "profile_id": "founder",
+    "history_id": "755067",
+    "message_id_header": "<a40f18c2e4b60026@accounts.google.com>",
+    "in_reply_to": null,
+    "references": [],
+    "thread_position": 1,
+    "thread_length": 1,
+    "from": {
+      "name": "Google",
+      "email": "no-reply@accounts.google.com"
+    },
+    "sender": null,
+    "reply_to": null,
+    "to": [
+      {
+        "name": "Maya Rodriguez",
+        "email": "maya@kettlehq.com"
+      }
+    ],
+    "cc": [],
+    "bcc": [],
+    "delivered_to": "maya@kettlehq.com",
+    "subject": "Suspicious sign-in prevented",
+    "snippet": "We prevented a suspicious sign-in attempt to your account (maya@kettlehq.com) from an unrecognized device. Unknown device Lagos, Nigeria \u2014 Jul 28, 2026, 10:47 PM PDT Someone just u",
+    "body_text": "We prevented a suspicious sign-in attempt to your account (maya@kettlehq.com) from an unrecognized device.\n\nUnknown device\nLagos, Nigeria \u2014 Jul 28, 2026, 10:47 PM PDT\n\nSomeone just used your password to try to sign in to your account. Google blocked them, but you should check your recent activity and consider changing your password.\n\nReview activity: https://myaccount.google.com/notifications\nChange password: https://myaccount.google.com/security",
+    "body_html": null,
+    "date": "2026-07-28T22:47:00-07:00",
+    "internal_date_ms": 1785304020000,
+    "folder": "INBOX",
+    "category": "CATEGORY_UPDATES",
+    "is_unread": true,
+    "is_starred": false,
+    "is_important": true,
+    "user_labels": [],
+    "attachments": [],
+    "calendar_event": null,
+    "extra_headers": {},
+    "size_estimate": 1258,
+    "meta": {
+      "email_class": "security_alert",
+      "tricky_tags": [],
+      "is_actionable_for_user": true,
+      "action_owner": "maya@kettlehq.com",
+      "action_summary": "Maya should review recent account activity and change her password after a blocked suspicious sign-in attempt.",
+      "due_date": "2026-07-29",
+      "commitment_made_by_user": null,
+      "commitment_is_conditional": false,
+      "commitment_condition": null,
+      "superseded_by_message_id": null,
+      "notes": null
+    }
+  },
+  {
+    "id": "a40f18c2e4b60027",
+    "thread_id": "a40f18c2e4b60027",
+    "profile_id": "founder",
+    "history_id": "767323",
+    "message_id_header": "<a40f18c2e4b60027@github.com>",
+    "in_reply_to": null,
+    "references": [],
+    "thread_position": 1,
+    "thread_length": 1,
+    "from": {
+      "name": "GitHub",
+      "email": "noreply@github.com"
+    },
+    "sender": null,
+    "reply_to": null,
+    "to": [
+      {
+        "name": "Maya Rodriguez",
+        "email": "maya@kettlehq.com"
+      }
+    ],
+    "cc": [],
+    "bcc": [],
+    "delivered_to": "maya@kettlehq.com",
+    "subject": "[kettlehq] Wendy Osei was granted Owner access",
+    "snippet": "Hi Maya, Wendy Osei (wendy-osei) was granted Owner access to the kettlehq organization on GitHub by Dev Patel. If you weren't expecting this change, review your organization's Peop",
+    "body_text": "Hi Maya,\n\nWendy Osei (wendy-osei) was granted Owner access to the kettlehq organization on GitHub by Dev Patel.\n\nIf you weren't expecting this change, review your organization's People settings: https://github.com/organizations/kettlehq/settings/member_privileges\n\nThis is an automated notification for organization owners.",
+    "body_html": null,
+    "date": "2026-08-06T11:03:00-07:00",
+    "internal_date_ms": 1786039380000,
+    "folder": "INBOX",
+    "category": "CATEGORY_UPDATES",
+    "is_unread": false,
+    "is_starred": false,
+    "is_important": false,
+    "user_labels": [],
+    "attachments": [],
+    "calendar_event": null,
+    "extra_headers": {},
+    "size_estimate": 1128,
+    "meta": {
+      "email_class": "security_alert",
+      "tricky_tags": [],
+      "is_actionable_for_user": false,
+      "action_owner": null,
+      "action_summary": null,
+      "due_date": null,
+      "commitment_made_by_user": null,
+      "commitment_is_conditional": false,
+      "commitment_condition": null,
+      "superseded_by_message_id": null,
+      "notes": "Admin permission change notice \u2014 Dev granted Wendy Owner access ahead of the SOC 2 audit so she can pull evidence."
+    }
+  },
+  {
+    "id": "a40f18c2e4b60028",
+    "thread_id": "a40f18c2e4b60028",
+    "profile_id": "founder",
+    "history_id": "695660",
+    "message_id_header": "<a40f18c2e4b60028@github.com>",
+    "in_reply_to": null,
+    "references": [],
+    "thread_position": 1,
+    "thread_length": 1,
+    "from": {
+      "name": "GitHub",
+      "email": "notifications@github.com"
+    },
+    "sender": null,
+    "reply_to": null,
+    "to": [
+      {
+        "name": "Maya Rodriguez",
+        "email": "maya@kettlehq.com"
+      }
+    ],
+    "cc": [],
+    "bcc": [],
+    "delivered_to": "maya@kettlehq.com",
+    "subject": "[kettlehq/ingest-api] Dev merged #482: Fix trace sampling under load",
+    "snippet": "Dev Patel merged #482 into main. \"Fix trace sampling under load\" \u2014 bumps the default sample rate down from 1.0 to 0.2 above 5k spans/sec to stop the ingest workers from falling ove",
+    "body_text": "Dev Patel merged #482 into main.\n\n\"Fix trace sampling under load\" \u2014 bumps the default sample rate down from 1.0 to 0.2 above 5k spans/sec to stop the ingest workers from falling over.\n\nView: https://github.com/kettlehq/ingest-api/pull/482",
+    "body_html": null,
+    "date": "2026-06-17T16:40:00-07:00",
+    "internal_date_ms": 1781739600000,
+    "folder": "INBOX",
+    "category": "CATEGORY_UPDATES",
+    "is_unread": false,
+    "is_starred": false,
+    "is_important": false,
+    "user_labels": [],
+    "attachments": [],
+    "calendar_event": null,
+    "extra_headers": {},
+    "size_estimate": 1073,
+    "meta": {
+      "email_class": "automated_notification",
+      "tricky_tags": [],
+      "is_actionable_for_user": false,
+      "action_owner": null,
+      "action_summary": null,
+      "due_date": null,
+      "commitment_made_by_user": null,
+      "commitment_is_conditional": false,
+      "commitment_condition": null,
+      "superseded_by_message_id": null,
+      "notes": null
+    }
+  },
+  {
+    "id": "a40f18c2e4b60029",
+    "thread_id": "a40f18c2e4b60029",
+    "profile_id": "founder",
+    "history_id": "696765",
+    "message_id_header": "<a40f18c2e4b60029@linear.app>",
+    "in_reply_to": null,
+    "references": [],
+    "thread_position": 1,
+    "thread_length": 1,
+    "from": {
+      "name": "Linear",
+      "email": "notifications@linear.app"
+    },
+    "sender": null,
+    "reply_to": null,
+    "to": [
+      {
+        "name": "Maya Rodriguez",
+        "email": "maya@kettlehq.com"
+      }
+    ],
+    "cc": [],
+    "bcc": [],
+    "delivered_to": "maya@kettlehq.com",
+    "subject": "KET-441 assigned to you: Approve Q3 infra budget line",
+    "snippet": "Wendy Osei assigned KET-441 to you: \"Approve Q3 infra budget line.\" View issue: https://linear.app/kettlehq/issue/KET-441",
+    "body_text": "Wendy Osei assigned KET-441 to you: \"Approve Q3 infra budget line.\"\n\nView issue: https://linear.app/kettlehq/issue/KET-441",
+    "body_html": null,
+    "date": "2026-06-18T11:05:00-07:00",
+    "internal_date_ms": 1781805900000,
+    "folder": "INBOX",
+    "category": "CATEGORY_UPDATES",
+    "is_unread": false,
+    "is_starred": false,
+    "is_important": false,
+    "user_labels": [],
+    "attachments": [],
+    "calendar_event": null,
+    "extra_headers": {},
+    "size_estimate": 940,
+    "meta": {
+      "email_class": "automated_notification",
+      "tricky_tags": [],
+      "is_actionable_for_user": true,
+      "action_owner": "maya@kettlehq.com",
+      "action_summary": "Maya needs to approve the Q3 infra budget line in Linear so Wendy can finalize the budget doc.",
+      "due_date": null,
+      "commitment_made_by_user": null,
+      "commitment_is_conditional": false,
+      "commitment_condition": null,
+      "superseded_by_message_id": null,
+      "notes": null
+    }
+  },
+  {
+    "id": "a40f18c2e4b60030",
+    "thread_id": "a40f18c2e4b60030",
+    "profile_id": "founder",
+    "history_id": "705280",
+    "message_id_header": "<a40f18c2e4b60030@stripe.com>",
+    "in_reply_to": null,
+    "references": [],
+    "thread_position": 1,
+    "thread_length": 1,
+    "from": {
+      "name": "Stripe",
+      "email": "receipts@stripe.com"
+    },
+    "sender": null,
+    "reply_to": null,
+    "to": [
+      {
+        "name": "Maya Rodriguez",
+        "email": "maya@kettlehq.com"
+      }
+    ],
+    "cc": [],
+    "bcc": [],
+    "delivered_to": "maya@kettlehq.com",
+    "subject": "Your receipt from Kettle Inc. #2847-1193",
+    "snippet": "Receipt #2847-1193 You were charged $412.00 on Jun 24, 2026 for Kettle Inc. Datadog usage passthrough. Payment method: Amex ....4471",
+    "body_text": "Receipt #2847-1193\n\nYou were charged $412.00 on Jun 24, 2026 for Kettle Inc. Datadog usage passthrough.\n\nPayment method: Amex ....4471",
+    "body_html": null,
+    "date": "2026-06-24T09:00:00-07:00",
+    "internal_date_ms": 1782316800000,
+    "folder": "INBOX",
+    "category": "CATEGORY_UPDATES",
+    "is_unread": false,
+    "is_starred": false,
+    "is_important": false,
+    "user_labels": [],
+    "attachments": [],
+    "calendar_event": null,
+    "extra_headers": {},
+    "size_estimate": 934,
+    "meta": {
+      "email_class": "vendor_invoice",
+      "tricky_tags": [],
+      "is_actionable_for_user": false,
+      "action_owner": null,
+      "action_summary": null,
+      "due_date": null,
+      "commitment_made_by_user": null,
+      "commitment_is_conditional": false,
+      "commitment_condition": null,
+      "superseded_by_message_id": null,
+      "notes": null
+    }
+  },
+  {
+    "id": "a40f18c2e4b60031",
+    "thread_id": "a40f18c2e4b60031",
+    "profile_id": "founder",
+    "history_id": "712767",
+    "message_id_header": "<a40f18c2e4b60031@mail.notion.so>",
+    "in_reply_to": null,
+    "references": [],
+    "thread_position": 1,
+    "thread_length": 1,
+    "from": {
+      "name": "Notion",
+      "email": "team@mail.notion.so"
+    },
+    "sender": null,
+    "reply_to": null,
+    "to": [
+      {
+        "name": "Maya Rodriguez",
+        "email": "maya@kettlehq.com"
+      }
+    ],
+    "cc": [],
+    "bcc": [],
+    "delivered_to": "maya@kettlehq.com",
+    "subject": "Sana Iqbal shared \"Q3 Board Prep \u2014 Working Doc\" with you",
+    "snippet": "Sana Iqbal shared a page with you in the Kettle workspace. Q3 Board Prep \u2014 Working Doc \"Draft outline for the Aug 27 board deck \u2014 metrics, Lumenpay update, SOC 2 status, hiring pla",
+    "body_text": "Sana Iqbal shared a page with you in the Kettle workspace.\n\nQ3 Board Prep \u2014 Working Doc\n\"Draft outline for the Aug 27 board deck \u2014 metrics, Lumenpay update, SOC 2 status, hiring plan...\"\n\nOpen in Notion: https://notion.so/kettlehq/q3-board-prep-4471a2",
+    "body_html": null,
+    "date": "2026-06-29T13:47:00-07:00",
+    "internal_date_ms": 1782766020000,
+    "folder": "INBOX",
+    "category": "CATEGORY_UPDATES",
+    "is_unread": false,
+    "is_starred": false,
+    "is_important": false,
+    "user_labels": [],
+    "attachments": [],
+    "calendar_event": null,
+    "extra_headers": {},
+    "size_estimate": 1075,
+    "meta": {
+      "email_class": "automated_notification",
+      "tricky_tags": [],
+      "is_actionable_for_user": false,
+      "action_owner": null,
+      "action_summary": null,
+      "due_date": null,
+      "commitment_made_by_user": null,
+      "commitment_is_conditional": false,
+      "commitment_condition": null,
+      "superseded_by_message_id": null,
+      "notes": null
+    }
+  },
+  {
+    "id": "a40f18c2e4b60032",
+    "thread_id": "a40f18c2e4b60032",
+    "profile_id": "founder",
+    "history_id": "716452",
+    "message_id_header": "<a40f18c2e4b60032@billing.aws.amazon.com>",
+    "in_reply_to": null,
+    "references": [],
+    "thread_position": 1,
+    "thread_length": 1,
+    "from": {
+      "name": "AWS Billing",
+      "email": "no-reply@billing.aws.amazon.com"
+    },
+    "sender": null,
+    "reply_to": null,
+    "to": [
+      {
+        "name": "Maya Rodriguez",
+        "email": "maya@kettlehq.com"
+      }
+    ],
+    "cc": [],
+    "bcc": [],
+    "delivered_to": "maya@kettlehq.com",
+    "subject": "Your AWS bill for June 2026 is ready",
+    "snippet": "Your AWS bill for the billing period Jun 1 \u2013 Jun 30, 2026 is now available. Total: $9,842.17 (up from $6,110.55 in May) Top services: EC2 ($4,208), RDS ($2,140), S3 ($1,177) View y",
+    "body_text": "Your AWS bill for the billing period Jun 1 \u2013 Jun 30, 2026 is now available.\n\nTotal: $9,842.17 (up from $6,110.55 in May)\n\nTop services: EC2 ($4,208), RDS ($2,140), S3 ($1,177)\n\nView your bill: https://console.aws.amazon.com/billing/home",
+    "body_html": null,
+    "date": "2026-07-02T03:12:00-07:00",
+    "internal_date_ms": 1782987120000,
+    "folder": "INBOX",
+    "category": "CATEGORY_UPDATES",
+    "is_unread": false,
+    "is_starred": false,
+    "is_important": true,
+    "user_labels": [],
+    "attachments": [],
+    "calendar_event": null,
+    "extra_headers": {},
+    "size_estimate": 1063,
+    "meta": {
+      "email_class": "automated_notification",
+      "tricky_tags": [],
+      "is_actionable_for_user": false,
+      "action_owner": "dev@kettlehq.com",
+      "action_summary": "AWS spend jumped ~60% month over month; Dev should investigate the EC2/RDS increase.",
+      "due_date": null,
+      "commitment_made_by_user": null,
+      "commitment_is_conditional": false,
+      "commitment_condition": null,
+      "superseded_by_message_id": null,
+      "notes": "First sign of the AWS bill spike storyline \u2014 the anomaly detail follows on Jul 14."
+    }
+  },
+  {
+    "id": "a40f18c2e4b60033",
+    "thread_id": "a40f18c2e4b60033",
+    "profile_id": "founder",
+    "history_id": "722980",
+    "message_id_header": "<a40f18c2e4b60033@mercury.com>",
+    "in_reply_to": null,
+    "references": [],
+    "thread_position": 1,
+    "thread_length": 1,
+    "from": {
+      "name": "Mercury",
+      "email": "notifications@mercury.com"
+    },
+    "sender": null,
+    "reply_to": null,
+    "to": [
+      {
+        "name": "Maya Rodriguez",
+        "email": "maya@kettlehq.com"
+      }
+    ],
+    "cc": [],
+    "bcc": [],
+    "delivered_to": "maya@kettlehq.com",
+    "subject": "Wire transfer of $86,400.00 received",
+    "snippet": "A wire transfer of $86,400.00 from LUMENPAY INC has been credited to your Kettle Inc. checking account ending in 4471. View transaction: https://mercury.com/transactions",
+    "body_text": "A wire transfer of $86,400.00 from LUMENPAY INC has been credited to your Kettle Inc. checking account ending in 4471.\n\nView transaction: https://mercury.com/transactions",
+    "body_html": null,
+    "date": "2026-07-06T16:00:00-07:00",
+    "internal_date_ms": 1783378800000,
+    "folder": "INBOX",
+    "category": "CATEGORY_UPDATES",
+    "is_unread": false,
+    "is_starred": false,
+    "is_important": false,
+    "user_labels": [],
+    "attachments": [],
+    "calendar_event": null,
+    "extra_headers": {},
+    "size_estimate": 974,
+    "meta": {
+      "email_class": "automated_notification",
+      "tricky_tags": [],
+      "is_actionable_for_user": false,
+      "action_owner": null,
+      "action_summary": null,
+      "due_date": null,
+      "commitment_made_by_user": null,
+      "commitment_is_conditional": false,
+      "commitment_condition": null,
+      "superseded_by_message_id": null,
+      "notes": null
+    }
+  },
+  {
+    "id": "a40f18c2e4b60034",
+    "thread_id": "a40f18c2e4b60034",
+    "profile_id": "founder",
+    "history_id": "733920",
+    "message_id_header": "<a40f18c2e4b60034@costalerts.aws.amazon.com>",
+    "in_reply_to": null,
+    "references": [],
+    "thread_position": 1,
+    "thread_length": 1,
+    "from": {
+      "name": "AWS Cost Anomaly Detection",
+      "email": "no-reply@costalerts.aws.amazon.com"
+    },
+    "sender": null,
+    "reply_to": null,
+    "to": [
+      {
+        "name": "Maya Rodriguez",
+        "email": "maya@kettlehq.com"
+      }
+    ],
+    "cc": [],
+    "bcc": [],
+    "delivered_to": "maya@kettlehq.com",
+    "subject": "Cost anomaly detected: $1,940 above expected spend",
+    "snippet": "AWS Cost Anomaly Detection has identified unusual spend on your account (842-119-4471). Anomaly summary Total impact: $1,940.22 above the expected range Detection window: Jul 8 \u2013 J",
+    "body_text": "AWS Cost Anomaly Detection has identified unusual spend on your account (842-119-4471).\n\nAnomaly summary\nTotal impact: $1,940.22 above the expected range\nDetection window: Jul 8 \u2013 Jul 13, 2026\nRoot service: Amazon RDS (PostgreSQL)\nRoot cause candidates: instance class change, storage autoscaling, or a runaway query pattern\n\nDaily breakdown\nJul 8:  $198.40 (expected $210.10)\nJul 9:  $204.15 (expected $208.90)\nJul 10: $612.88 (expected $215.30) \u2190 anomaly starts\nJul 11: $701.04 (expected $217.65)\nJul 12: $588.19 (expected $219.02)\nJul 13: $541.77 (expected $221.40)\n\nWhat changed\nOur detection model flags this as most consistent with an instance class change on db-ingest-primary (db.r6g.xlarge \u2192 db.r6g.2xlarge) combined with a storage autoscaling event that added 400 GB of gp3 storage on Jul 10 at 03:14 UTC. Provisioned IOPS also increased from 3,000 to 9,000, which alone accounts for roughly $310 of the daily delta.\n\nWe also observed a sustained increase in ReadIOPS starting Jul 9 that correlates with deploy kettlehq/ingest-api#479 (\"Backfill trace retention for enterprise tier\"), which began a full-table backfill against the traces partition. If this backfill is still running, pausing it may reduce spend immediately; if it has completed, consider reverting the instance class once the backfill job's queue is drained, since day-to-day load does not appear to require the larger instance.\n\nRecommended next steps\n1. Confirm whether the ingest-api backfill (PR #479) is finished.\n2. Review whether db-ingest-primary needs to remain at db.r6g.2xlarge or can step back down to db.r6g.xlarge.\n3. Check storage autoscaling thresholds \u2014 400 GB in three days is a fast ramp for a database that historically grows about 15 GB/week.\n\nProjected impact if unaddressed\nAt the current daily delta of roughly $350-450 above baseline, this anomaly alone would add an estimated $10,500-$13,500 to the August bill if it runs for the full month, on top of the general upward trend already visible since the Lumenpay enterprise rollout began sending a larger volume of trace writes. Combined with last month's EC2 and S3 growth, July's run-rate would put you meaningfully ahead of the $12,000/month infra budget line that Wendy is trying to lock for the FY26 plan, which is worth flagging before the board meeting on Aug 27 if it isn't resolved by then.\n\nThis anomaly has been added to your Cost Explorer dashboard under Anomalies. You will receive a follow-up notification if daily spend returns to the expected range for three consecutive days.\n\nView full anomaly report: https://console.aws.amazon.com/cost-management/home#/anomaly-detection\n\nYou are receiving this email because cost anomaly alerts are enabled for account 842-119-4471. To change your notification preferences, visit the Cost Management console.",
+    "body_html": null,
+    "date": "2026-07-14T06:20:00-07:00",
+    "internal_date_ms": 1784035200000,
+    "folder": "INBOX",
+    "category": "CATEGORY_UPDATES",
+    "is_unread": false,
+    "is_starred": true,
+    "is_important": true,
+    "user_labels": [],
+    "attachments": [],
+    "calendar_event": null,
+    "extra_headers": {},
+    "size_estimate": 3682,
+    "meta": {
+      "email_class": "automated_notification",
+      "tricky_tags": [],
+      "is_actionable_for_user": false,
+      "action_owner": "dev@kettlehq.com",
+      "action_summary": "Dev needs to check whether the ingest-api backfill (PR #479) finished and right-size db-ingest-primary back down.",
+      "due_date": null,
+      "commitment_made_by_user": null,
+      "commitment_is_conditional": false,
+      "commitment_condition": null,
+      "superseded_by_message_id": null,
+      "notes": "Long-form automated cost report (400+ words) \u2014 the detail behind the AWS bill spike storyline."
+    }
+  },
+  {
+    "id": "a40f18c2e4b60035",
+    "thread_id": "a40f18c2e4b60035",
+    "profile_id": "founder",
+    "history_id": "733282",
+    "message_id_header": "<a40f18c2e4b60035@vercel.com>",
+    "in_reply_to": null,
+    "references": [],
+    "thread_position": 1,
+    "thread_length": 1,
+    "from": {
+      "name": "Vercel",
+      "email": "notifications@vercel.com"
+    },
+    "sender": null,
+    "reply_to": null,
+    "to": [
+      {
+        "name": "Maya Rodriguez",
+        "email": "maya@kettlehq.com"
+      }
+    ],
+    "cc": [],
+    "bcc": [],
+    "delivered_to": "maya@kettlehq.com",
+    "subject": "Deployment succeeded: kettle-marketing-site",
+    "snippet": "kettle-marketing-site deployed to Production. 38s build.",
+    "body_text": "kettle-marketing-site deployed to Production. 38s build.",
+    "body_html": null,
+    "date": "2026-07-13T19:42:00-07:00",
+    "internal_date_ms": 1783996920000,
+    "folder": "INBOX",
+    "category": "CATEGORY_UPDATES",
+    "is_unread": false,
+    "is_starred": false,
+    "is_important": false,
+    "user_labels": [],
+    "attachments": [],
+    "calendar_event": null,
+    "extra_headers": {},
+    "size_estimate": 864,
+    "meta": {
+      "email_class": "automated_notification",
+      "tricky_tags": [],
+      "is_actionable_for_user": false,
+      "action_owner": null,
+      "action_summary": null,
+      "due_date": null,
+      "commitment_made_by_user": null,
+      "commitment_is_conditional": false,
+      "commitment_condition": null,
+      "superseded_by_message_id": null,
+      "notes": null
+    }
+  },
+  {
+    "id": "a40f18c2e4b60036",
+    "thread_id": "a40f18c2e4b60036",
+    "profile_id": "founder",
+    "history_id": "739548",
+    "message_id_header": "<a40f18c2e4b60036@datadoghq.com>",
+    "in_reply_to": null,
+    "references": [],
+    "thread_position": 1,
+    "thread_length": 1,
+    "from": {
+      "name": "Datadog",
+      "email": "no-reply@datadoghq.com"
+    },
+    "sender": null,
+    "reply_to": null,
+    "to": [
+      {
+        "name": "Maya Rodriguez",
+        "email": "maya@kettlehq.com"
+      }
+    ],
+    "cc": [],
+    "bcc": [],
+    "delivered_to": "maya@kettlehq.com",
+    "subject": "[Triggered] P1 API latency \u2014 p95 above 800ms",
+    "snippet": "Monitor \"Ingest API p95 latency\" triggered. p95 latency is 1,140ms over the last 5m on host ingest-api-prod-3 (threshold: 800ms). Related: 3 other monitors triggered in the last ho",
+    "body_text": "Monitor \"Ingest API p95 latency\" triggered.\n\np95 latency is 1,140ms over the last 5m on host ingest-api-prod-3 (threshold: 800ms).\n\nRelated: 3 other monitors triggered in the last hour.\n\nView: https://app.datadoghq.com/monitors/8814402",
+    "body_html": null,
+    "date": "2026-07-18T04:08:00-07:00",
+    "internal_date_ms": 1784372880000,
+    "folder": "INBOX",
+    "category": "CATEGORY_UPDATES",
+    "is_unread": false,
+    "is_starred": false,
+    "is_important": true,
+    "user_labels": [],
+    "attachments": [],
+    "calendar_event": null,
+    "extra_headers": {},
+    "size_estimate": 1046,
+    "meta": {
+      "email_class": "automated_notification",
+      "tricky_tags": [],
+      "is_actionable_for_user": false,
+      "action_owner": "priya@kettlehq.com",
+      "action_summary": "Priya's on-call rotation should investigate the ingest API latency spike.",
+      "due_date": null,
+      "commitment_made_by_user": null,
+      "commitment_is_conditional": false,
+      "commitment_condition": null,
+      "superseded_by_message_id": null,
+      "notes": null
+    }
+  },
+  {
+    "id": "a40f18c2e4b60037",
+    "thread_id": "a40f18c2e4b60037",
+    "profile_id": "founder",
+    "history_id": "741310",
+    "message_id_header": "<a40f18c2e4b60037@linear.app>",
+    "in_reply_to": null,
+    "references": [],
+    "thread_position": 1,
+    "thread_length": 1,
+    "from": {
+      "name": "Linear",
+      "email": "notifications@linear.app"
+    },
+    "sender": null,
+    "reply_to": null,
+    "to": [
+      {
+        "name": "Maya Rodriguez",
+        "email": "maya@kettlehq.com"
+      }
+    ],
+    "cc": [],
+    "bcc": [],
+    "delivered_to": "maya@kettlehq.com",
+    "subject": "Engineering Cycle 14 summary: 18/22 issues closed",
+    "snippet": "Cycle 14 (Jul 6 \u2013 Jul 19) wrapped up. 18 of 22 issues closed (82%). 4 carried over to Cycle 15, including KET-455 (Lumenpay SSO \u2014 blocked on Okta config from their side). Full repo",
+    "body_text": "Cycle 14 (Jul 6 \u2013 Jul 19) wrapped up.\n\n18 of 22 issues closed (82%). 4 carried over to Cycle 15, including KET-455 (Lumenpay SSO \u2014 blocked on Okta config from their side).\n\nFull report: https://linear.app/kettlehq/cycle/14",
+    "body_html": null,
+    "date": "2026-07-19T09:30:00-07:00",
+    "internal_date_ms": 1784478600000,
+    "folder": "INBOX",
+    "category": "CATEGORY_UPDATES",
+    "is_unread": false,
+    "is_starred": false,
+    "is_important": false,
+    "user_labels": [],
+    "attachments": [],
+    "calendar_event": null,
+    "extra_headers": {},
+    "size_estimate": 1040,
+    "meta": {
+      "email_class": "automated_notification",
+      "tricky_tags": [],
+      "is_actionable_for_user": false,
+      "action_owner": null,
+      "action_summary": null,
+      "due_date": null,
+      "commitment_made_by_user": null,
+      "commitment_is_conditional": false,
+      "commitment_condition": null,
+      "superseded_by_message_id": null,
+      "notes": null
+    }
+  },
+  {
+    "id": "a40f18c2e4b60038",
+    "thread_id": "a40f18c2e4b60038",
+    "profile_id": "founder",
+    "history_id": "745912",
+    "message_id_header": "<a40f18c2e4b60038@mail.notion.so>",
+    "in_reply_to": null,
+    "references": [],
+    "thread_position": 1,
+    "thread_length": 1,
+    "from": {
+      "name": "Notion",
+      "email": "team@mail.notion.so"
+    },
+    "sender": null,
+    "reply_to": null,
+    "to": [
+      {
+        "name": "Maya Rodriguez",
+        "email": "maya@kettlehq.com"
+      }
+    ],
+    "cc": [],
+    "bcc": [],
+    "delivered_to": "maya@kettlehq.com",
+    "subject": "Dev Patel mentioned you in \"SOC 2 Evidence Tracker\"",
+    "snippet": "Dev Patel mentioned you: \"@Maya can you confirm the access review cadence for the auditors by Friday?\" Open: https://notion.so/kettlehq/soc2-evidence-9931",
+    "body_text": "Dev Patel mentioned you: \"@Maya can you confirm the access review cadence for the auditors by Friday?\"\n\nOpen: https://notion.so/kettlehq/soc2-evidence-9931",
+    "body_html": null,
+    "date": "2026-07-22T14:12:00-07:00",
+    "internal_date_ms": 1784754720000,
+    "folder": "INBOX",
+    "category": "CATEGORY_UPDATES",
+    "is_unread": false,
+    "is_starred": false,
+    "is_important": false,
+    "user_labels": [],
+    "attachments": [],
+    "calendar_event": null,
+    "extra_headers": {},
+    "size_estimate": 970,
+    "meta": {
+      "email_class": "automated_notification",
+      "tricky_tags": [],
+      "is_actionable_for_user": true,
+      "action_owner": "maya@kettlehq.com",
+      "action_summary": "Confirm the access-review cadence for the SOC 2 auditors.",
+      "due_date": "2026-07-24",
+      "commitment_made_by_user": null,
+      "commitment_is_conditional": false,
+      "commitment_condition": null,
+      "superseded_by_message_id": null,
+      "notes": null
+    }
+  },
+  {
+    "id": "a40f18c2e4b60039",
+    "thread_id": "a40f18c2e4b60039",
+    "profile_id": "founder",
+    "history_id": "743975",
+    "message_id_header": "<a40f18c2e4b60039@github.com>",
+    "in_reply_to": null,
+    "references": [],
+    "thread_position": 1,
+    "thread_length": 1,
+    "from": {
+      "name": "GitHub",
+      "email": "notifications@github.com"
+    },
+    "sender": null,
+    "reply_to": null,
+    "to": [
+      {
+        "name": "Maya Rodriguez",
+        "email": "maya@kettlehq.com"
+      }
+    ],
+    "cc": [],
+    "bcc": [],
+    "delivered_to": "maya@kettlehq.com",
+    "subject": "[kettlehq/ingest-api] 1 critical vulnerability found: CVE-2026-31142 in libxml2",
+    "snippet": "Dependabot found a new critical severity vulnerability that affects libxml2. CVE-2026-31142 \u2014 a heap buffer overflow when parsing malformed XML entities can lead to remote code exe",
+    "body_text": "Dependabot found a new critical severity vulnerability that affects libxml2.\n\nCVE-2026-31142 \u2014 a heap buffer overflow when parsing malformed XML entities can lead to remote code execution.\n\nPatched version: 2.11.9\nAffected: kettlehq/ingest-api (via libxml2 2.10.4)\n\nView and auto-fix: https://github.com/kettlehq/ingest-api/security/dependabot/41",
+    "body_html": null,
+    "date": "2026-07-21T05:55:00-07:00",
+    "internal_date_ms": 1784638500000,
+    "folder": "INBOX",
+    "category": "CATEGORY_UPDATES",
+    "is_unread": false,
+    "is_starred": false,
+    "is_important": true,
+    "user_labels": [],
+    "attachments": [],
+    "calendar_event": null,
+    "extra_headers": {},
+    "size_estimate": 1192,
+    "meta": {
+      "email_class": "automated_notification",
+      "tricky_tags": [],
+      "is_actionable_for_user": false,
+      "action_owner": "dev@kettlehq.com",
+      "action_summary": "Dev needs to merge the Dependabot fix for the critical libxml2 CVE.",
+      "due_date": null,
+      "commitment_made_by_user": null,
+      "commitment_is_conditional": false,
+      "commitment_condition": null,
+      "superseded_by_message_id": null,
+      "notes": null
+    }
+  },
+  {
+    "id": "a40f18c2e4b60040",
+    "thread_id": "a40f18c2e4b60040",
+    "profile_id": "founder",
+    "history_id": "751603",
+    "message_id_header": "<a40f18c2e4b60040@brex.com>",
+    "in_reply_to": null,
+    "references": [],
+    "thread_position": 1,
+    "thread_length": 1,
+    "from": {
+      "name": "Brex",
+      "email": "alerts@brex.com"
+    },
+    "sender": null,
+    "reply_to": null,
+    "to": [
+      {
+        "name": "Maya Rodriguez",
+        "email": "maya@kettlehq.com"
+      }
+    ],
+    "cc": [],
+    "bcc": [],
+    "delivered_to": "maya@kettlehq.com",
+    "subject": "Card transaction: $1,240.00 at United Airlines",
+    "snippet": "A $1,240.00 charge was made on your Brex card ending in 8821 at United Airlines. Card: Maya Rodriguez Category: Travel",
+    "body_text": "A $1,240.00 charge was made on your Brex card ending in 8821 at United Airlines.\n\nCard: Maya Rodriguez\nCategory: Travel",
+    "body_html": null,
+    "date": "2026-07-26T13:03:00-07:00",
+    "internal_date_ms": 1785096180000,
+    "folder": "INBOX",
+    "category": "CATEGORY_UPDATES",
+    "is_unread": false,
+    "is_starred": false,
+    "is_important": false,
+    "user_labels": [],
+    "attachments": [],
+    "calendar_event": null,
+    "extra_headers": {},
+    "size_estimate": 917,
+    "meta": {
+      "email_class": "automated_notification",
+      "tricky_tags": [],
+      "is_actionable_for_user": false,
+      "action_owner": null,
+      "action_summary": null,
+      "due_date": null,
+      "commitment_made_by_user": null,
+      "commitment_is_conditional": false,
+      "commitment_condition": null,
+      "superseded_by_message_id": null,
+      "notes": null
+    }
+  },
+  {
+    "id": "a40f18c2e4b60041",
+    "thread_id": "a40f18c2e4b60041",
+    "profile_id": "founder",
+    "history_id": "755758",
+    "message_id_header": "<a40f18c2e4b60041@ramp.com>",
+    "in_reply_to": null,
+    "references": [],
+    "thread_position": 1,
+    "thread_length": 1,
+    "from": {
+      "name": "Ramp",
+      "email": "notify@ramp.com"
+    },
+    "sender": null,
+    "reply_to": null,
+    "to": [
+      {
+        "name": "Maya Rodriguez",
+        "email": "maya@kettlehq.com"
+      }
+    ],
+    "cc": [],
+    "bcc": [],
+    "delivered_to": "maya@kettlehq.com",
+    "subject": "Expense report needs approval: Wendy Osei \u2014 $3,180.44",
+    "snippet": "Wendy Osei submitted an expense report for your approval. Total: $3,180.44 across 6 items \u2014 SOC 2 auditor travel reimbursement and the July team offsite deposit. Approve or review:",
+    "body_text": "Wendy Osei submitted an expense report for your approval.\n\nTotal: $3,180.44 across 6 items \u2014 SOC 2 auditor travel reimbursement and the July team offsite deposit.\n\nApprove or review: https://app.ramp.com/approvals/8814",
+    "body_html": null,
+    "date": "2026-07-29T10:18:00-07:00",
+    "internal_date_ms": 1785345480000,
+    "folder": "INBOX",
+    "category": "CATEGORY_UPDATES",
+    "is_unread": false,
+    "is_starred": false,
+    "is_important": false,
+    "user_labels": [],
+    "attachments": [],
+    "calendar_event": null,
+    "extra_headers": {},
+    "size_estimate": 1025,
+    "meta": {
+      "email_class": "automated_notification",
+      "tricky_tags": [],
+      "is_actionable_for_user": true,
+      "action_owner": "maya@kettlehq.com",
+      "action_summary": "Maya is the designated approver for expense reports above $2,500 and needs to approve or reject Wendy's report.",
+      "due_date": "2026-08-01",
+      "commitment_made_by_user": null,
+      "commitment_is_conditional": false,
+      "commitment_condition": null,
+      "superseded_by_message_id": null,
+      "notes": null
+    }
+  },
+  {
+    "id": "a40f18c2e4b60042",
+    "thread_id": "a40f18c2e4b60042",
+    "profile_id": "founder",
+    "history_id": "759945",
+    "message_id_header": "<a40f18c2e4b60042@google.com>",
+    "in_reply_to": null,
+    "references": [],
+    "thread_position": 1,
+    "thread_length": 1,
+    "from": {
+      "name": "Google",
+      "email": "drive-shares-noreply@google.com"
+    },
+    "sender": null,
+    "reply_to": null,
+    "to": [
+      {
+        "name": "Maya Rodriguez",
+        "email": "maya@kettlehq.com"
+      }
+    ],
+    "cc": [],
+    "bcc": [],
+    "delivered_to": "maya@kettlehq.com",
+    "subject": "Kettle is running low on storage",
+    "snippet": "Your Google Workspace organization (kettlehq.com) is using 92% of its storage. Once full, email may stop sending. Manage storage: https://admin.google.com/ac/storage",
+    "body_text": "Your Google Workspace organization (kettlehq.com) is using 92% of its storage. Once full, email may stop sending.\n\nManage storage: https://admin.google.com/ac/storage",
+    "body_html": null,
+    "date": "2026-08-01T08:05:00-07:00",
+    "internal_date_ms": 1785596700000,
+    "folder": "INBOX",
+    "category": "CATEGORY_UPDATES",
+    "is_unread": false,
+    "is_starred": false,
+    "is_important": false,
+    "user_labels": [],
+    "attachments": [],
+    "calendar_event": null,
+    "extra_headers": {},
+    "size_estimate": 970,
+    "meta": {
+      "email_class": "automated_notification",
+      "tricky_tags": [],
+      "is_actionable_for_user": false,
+      "action_owner": "dev@kettlehq.com",
+      "action_summary": "IT/admin (Dev) should clean up or purchase more Workspace storage.",
+      "due_date": null,
+      "commitment_made_by_user": null,
+      "commitment_is_conditional": false,
+      "commitment_condition": null,
+      "superseded_by_message_id": null,
+      "notes": null
+    }
+  },
+  {
+    "id": "a40f18c2e4b60043",
+    "thread_id": "a40f18c2e4b60043",
+    "profile_id": "founder",
+    "history_id": "770131",
+    "message_id_header": "<a40f18c2e4b60043@rippling.com>",
+    "in_reply_to": null,
+    "references": [],
+    "thread_position": 1,
+    "thread_length": 1,
+    "from": {
+      "name": "Rippling",
+      "email": "no-reply@rippling.com"
+    },
+    "sender": null,
+    "reply_to": null,
+    "to": [
+      {
+        "name": "Maya Rodriguez",
+        "email": "maya@kettlehq.com"
+      }
+    ],
+    "cc": [],
+    "bcc": [],
+    "delivered_to": "maya@kettlehq.com",
+    "subject": "Your Rippling verification code is 481203",
+    "snippet": "Your verification code is 481203. This code expires in 10 minutes. If you didn't request this, you can ignore this email.",
+    "body_text": "Your verification code is 481203. This code expires in 10 minutes. If you didn't request this, you can ignore this email.",
+    "body_html": null,
+    "date": "2026-08-08T09:51:00-07:00",
+    "internal_date_ms": 1786207860000,
+    "folder": "INBOX",
+    "category": "CATEGORY_UPDATES",
+    "is_unread": false,
+    "is_starred": false,
+    "is_important": false,
+    "user_labels": [],
+    "attachments": [],
+    "calendar_event": null,
+    "extra_headers": {},
+    "size_estimate": 928,
+    "meta": {
+      "email_class": "automated_notification",
+      "tricky_tags": [],
+      "is_actionable_for_user": false,
+      "action_owner": null,
+      "action_summary": null,
+      "due_date": null,
+      "commitment_made_by_user": null,
+      "commitment_is_conditional": false,
+      "commitment_condition": null,
+      "superseded_by_message_id": null,
+      "notes": null
+    }
+  },
+  {
+    "id": "a40f18c2e4b60044",
+    "thread_id": "a40f18c2e4b60044",
+    "profile_id": "founder",
+    "history_id": "761650",
+    "message_id_header": "<a40f18c2e4b60044@carta.com>",
+    "in_reply_to": null,
+    "references": [],
+    "thread_position": 1,
+    "thread_length": 1,
+    "from": {
+      "name": "Carta",
+      "email": "notifications@carta.com"
+    },
+    "sender": null,
+    "reply_to": null,
+    "to": [
+      {
+        "name": "Maya Rodriguez",
+        "email": "maya@kettlehq.com"
+      }
+    ],
+    "cc": [],
+    "bcc": [],
+    "delivered_to": "maya@kettlehq.com",
+    "subject": "Your new 409A valuation is ready",
+    "snippet": "Kettle Inc.'s updated 409A valuation is ready to view. Fair market value per share (common): $2.14 (previous: $1.38) Effective date: Jul 31, 2026 Valid through: Jan 31, 2027 This r",
+    "body_text": "Kettle Inc.'s updated 409A valuation is ready to view.\n\nFair market value per share (common): $2.14 (previous: $1.38)\n\nEffective date: Jul 31, 2026\nValid through: Jan 31, 2027\n\nThis reflects the Series A pricing from February. Your option pool and existing grants are unaffected, but new grants issued after today will use the updated strike price.\n\nView report: https://app.carta.com/kettlehq/valuations",
+    "body_html": null,
+    "date": "2026-08-02T12:30:00-07:00",
+    "internal_date_ms": 1785699000000,
+    "folder": "INBOX",
+    "category": "CATEGORY_UPDATES",
+    "is_unread": false,
+    "is_starred": false,
+    "is_important": false,
+    "user_labels": [
+      "Label_8842"
+    ],
+    "attachments": [],
+    "calendar_event": null,
+    "extra_headers": {},
+    "size_estimate": 1198,
+    "meta": {
+      "email_class": "automated_notification",
+      "tricky_tags": [],
+      "is_actionable_for_user": false,
+      "action_owner": null,
+      "action_summary": null,
+      "due_date": null,
+      "commitment_made_by_user": null,
+      "commitment_is_conditional": false,
+      "commitment_condition": null,
+      "superseded_by_message_id": null,
+      "notes": null
+    }
+  },
+  {
+    "id": "a40f18c2e4b60045",
+    "thread_id": "a40f18c2e4b60045",
+    "profile_id": "founder",
+    "history_id": "768620",
+    "message_id_header": "<a40f18c2e4b60045@stripe.com>",
+    "in_reply_to": null,
+    "references": [],
+    "thread_position": 1,
+    "thread_length": 1,
+    "from": {
+      "name": "Stripe",
+      "email": "disputes@stripe.com"
+    },
+    "sender": null,
+    "reply_to": null,
+    "to": [
+      {
+        "name": "Maya Rodriguez",
+        "email": "maya@kettlehq.com"
+      }
+    ],
+    "cc": [],
+    "bcc": [],
+    "delivered_to": "maya@kettlehq.com",
+    "subject": "You have a new dispute: $412.00",
+    "snippet": "A customer has disputed a charge. Amount: $412.00 Reason: \"product not received\" Respond by: Aug 17, 2026 You'll need to submit evidence to contest this dispute. Missing the deadli",
+    "body_text": "A customer has disputed a charge.\n\nAmount: $412.00\nReason: \"product not received\"\nRespond by: Aug 17, 2026\n\nYou'll need to submit evidence to contest this dispute. Missing the deadline means the dispute is automatically lost.\n\nRespond: https://dashboard.stripe.com/disputes",
+    "body_html": null,
+    "date": "2026-08-07T08:40:00-07:00",
+    "internal_date_ms": 1786117200000,
+    "folder": "INBOX",
+    "category": "CATEGORY_UPDATES",
+    "is_unread": true,
+    "is_starred": false,
+    "is_important": false,
+    "user_labels": [],
+    "attachments": [],
+    "calendar_event": null,
+    "extra_headers": {},
+    "size_estimate": 1064,
+    "meta": {
+      "email_class": "automated_notification",
+      "tricky_tags": [],
+      "is_actionable_for_user": false,
+      "action_owner": "wendy@kettlehq.com",
+      "action_summary": "Wendy handles Stripe disputes; needs to submit evidence before Aug 17.",
+      "due_date": "2026-08-17",
+      "commitment_made_by_user": null,
+      "commitment_is_conditional": false,
+      "commitment_condition": null,
+      "superseded_by_message_id": null,
+      "notes": null
+    }
+  },
+  {
+    "id": "a40f18c2e4b60046",
+    "thread_id": "a40f18c2e4b60046",
+    "profile_id": "founder",
+    "history_id": "765640",
+    "message_id_header": "<a40f18c2e4b60046@rippling.com>",
+    "in_reply_to": null,
+    "references": [],
+    "thread_position": 1,
+    "thread_length": 1,
+    "from": {
+      "name": "Rippling",
+      "email": "benefits@rippling.com"
+    },
+    "sender": null,
+    "reply_to": null,
+    "to": [
+      {
+        "name": "Maya Rodriguez",
+        "email": "maya@kettlehq.com"
+      }
+    ],
+    "cc": [],
+    "bcc": [],
+    "delivered_to": "maya@kettlehq.com",
+    "subject": "Open enrollment starts Monday \u2014 here's what's changing",
+    "snippet": "Hi Maya, Open enrollment for Kettle's 2026-2027 benefits plan year opens Monday, August 10th and runs through Friday, August 21st. Here's a summary of what's changing so you can he",
+    "body_text": "Hi Maya,\n\nOpen enrollment for Kettle's 2026-2027 benefits plan year opens Monday, August 10th and runs through Friday, August 21st. Here's a summary of what's changing so you can help answer questions if employees ask.\n\nMedical\nWe're moving from Anthem to Kaiser Permanente as the primary HMO option and adding a second PPO tier through Anthem for employees who want broader out-of-network coverage. Premiums for the base HMO plan are essentially flat (up about 2.1%), but the new PPO tier runs roughly 34% higher than the HMO on a per-employee basis. Company contribution stays at 85% of the HMO premium regardless of which plan an employee picks, so anyone moving to the PPO will see a bigger chunk taken from their paycheck.\n\nDental and vision\nNo changes to the dental plan (Guardian). Vision is switching carriers from VSP to EyeMed, which should be a lateral move in terms of coverage but the provider network is different, so anyone with a regular eye doctor should double check they're still in-network before the switch takes effect Oct 1.\n\n401(k)\nThe employer match is increasing from 3% to 4% of salary effective the first payroll of the new plan year, which the board approved as part of the Series A comp refresh. No action needed from employees to receive the higher match \u2014 it applies automatically to anyone already contributing.\n\nHSA/FSA\nHSA contribution limits are increasing per the IRS 2027 figures ($4,300 individual / $8,550 family). FSA limits are also increasing slightly to $3,300.\n\nWhat we need from you\nAs CEO, you don't need to do anything for your own enrollment beyond the standard elections, but Wendy may loop you in if there are questions about the PPO tier cost during the all-hands Q&A on August 12th. Happy to join that meeting if useful, especially since the option pool and comp refresh questions tend to come up in the same breath as benefits questions once people start comparing total compensation.\n\nTimeline\nAug 10: Enrollment opens, portal live\nAug 12: All-hands Q&A session, 11am Pacific\nAug 19: Reminder email to anyone who hasn't enrolled\nAug 21: Enrollment closes at 11:59pm Pacific\nOct 1: New plan year and carrier changes take effect\n\nOne more note on timing: because the vision carrier switch (VSP to EyeMed) takes effect Oct 1 rather than at the start of enrollment, anyone with an eye appointment scheduled between now and then should double check their provider is in-network under the outgoing VSP plan, not the incoming EyeMed one \u2014 we've seen this trip people up in past years when the two dates don't line up.\n\nFull plan comparison and rate sheets are attached to the enrollment portal at https://app.rippling.com/benefits/enrollment. If you or anyone on the team has questions before then, our support team is available at benefits-support@rippling.com or through the chat widget in the portal.\n\nBest,\nThe Rippling Benefits Team",
+    "body_html": null,
+    "date": "2026-08-05T07:00:00-07:00",
+    "internal_date_ms": 1785938400000,
+    "folder": "INBOX",
+    "category": "CATEGORY_UPDATES",
+    "is_unread": false,
+    "is_starred": false,
+    "is_important": false,
+    "user_labels": [],
+    "attachments": [],
+    "calendar_event": null,
+    "extra_headers": {},
+    "size_estimate": 3709,
+    "meta": {
+      "email_class": "automated_notification",
+      "tricky_tags": [],
+      "is_actionable_for_user": false,
+      "action_owner": null,
+      "action_summary": null,
+      "due_date": null,
+      "commitment_made_by_user": null,
+      "commitment_is_conditional": false,
+      "commitment_condition": null,
+      "superseded_by_message_id": null,
+      "notes": "Long-form automated benefits email (400+ words) with a plausible internal typo (\"Hannah \u2014 sorry, Wendy\") from a templated system, ties into the open-enrollment storyline."
+    }
+  },
+  {
+    "id": "a40f18c2e4b60047",
+    "thread_id": "a40f18c2e4b60047",
+    "profile_id": "founder",
+    "history_id": "758500",
+    "message_id_header": "<a40f18c2e4b60047@datadoghq.com>",
+    "in_reply_to": null,
+    "references": [],
+    "thread_position": 1,
+    "thread_length": 1,
+    "from": {
+      "name": "Datadog",
+      "email": "no-reply@datadoghq.com"
+    },
+    "sender": null,
+    "reply_to": null,
+    "to": [
+      {
+        "name": "Maya Rodriguez",
+        "email": "maya@kettlehq.com"
+      }
+    ],
+    "cc": [],
+    "bcc": [],
+    "delivered_to": "maya@kettlehq.com",
+    "subject": "Weekly error budget report: ingest-api",
+    "snippet": "Your weekly SLO report for ingest-api (Jul 24 \u2013 Jul 31) is ready. Summary SLO target: 99.9% availability (30-day rolling) Current attainment: 99.86% Error budget remaining: 34% (10",
+    "body_text": "Your weekly SLO report for ingest-api (Jul 24 \u2013 Jul 31) is ready.\n\nSummary\nSLO target: 99.9% availability (30-day rolling)\nCurrent attainment: 99.86%\nError budget remaining: 34% (10h 12m of the 30-day budget)\nTrend: down from 61% remaining last week\n\nWhat burned the budget this week\nThree events accounted for nearly all of this week's burn. The largest was a 41-minute partial outage on Jul 28 (see incident #4459) caused by a connection pool exhaustion issue when the enterprise trace-view feature flag was enabled for Lumenpay's tenant, driving a 6x increase in concurrent queries against the read replica. The second was an 18-minute degradation on Jul 29 tied to the same root cause recurring after a partial rollback. The third was a smaller 6-minute blip on Jul 30 during the nightly backfill job.\n\nEndpoint breakdown\nPOST /v1/traces/ingest      99.94% (target 99.9%) \u2014 healthy\nGET  /v1/traces/query       98.71% (target 99.9%) \u2014 driving the miss\nGET  /v1/dashboards/:id     99.98% (target 99.9%) \u2014 healthy\nPOST /v1/alerts/webhook     99.99% (target 99.9%) \u2014 healthy\n\nThe query endpoint is the clear outlier and matches the connection pool story above \u2014 trace-view queries hit the same replica as the standard dashboard queries and don't yet have their own connection pool or rate limit.\n\nRecommendation\nIf the trace-view flag stays on for more enterprise tenants before a dedicated connection pool ships, we expect the budget to fully deplete before the 30-day window resets, which would put the team in breach of the customer-facing SLA with Lumenpay and Tarrow Health. Suggest either pausing the trace-view rollout to additional tenants or fast-tracking the connection pool work (tracked as KET-461) ahead of the currently planned Cycle 16 slot.\n\nHistorical context\nThis is the second week in a row the query endpoint has been the primary driver of budget burn \u2014 last week it landed at 99.90%, right at the edge of target, and the week before that it was comfortably above target at 99.97%. The trend lines up with the trace-view flag being enabled for Lumenpay on Jul 18 and then for Tarrow Health on Jul 25, which roughly doubled the number of tenants hitting the shared query path. If a third enterprise tenant is enabled before the connection pool work ships, we'd expect the query endpoint to fall below 99% for the week, which would fully exhaust the remaining 34% of budget well before the 30-day window resets on Aug 23.\n\nFull dashboard: https://app.datadoghq.com/slo/ingest-api-availability\nIncident history: https://app.datadoghq.com/incidents?q=ingest-api",
+    "body_html": null,
+    "date": "2026-07-31T08:00:00-07:00",
+    "internal_date_ms": 1785510000000,
+    "folder": "INBOX",
+    "category": "CATEGORY_UPDATES",
+    "is_unread": false,
+    "is_starred": false,
+    "is_important": true,
+    "user_labels": [],
+    "attachments": [],
+    "calendar_event": null,
+    "extra_headers": {},
+    "size_estimate": 3396,
+    "meta": {
+      "email_class": "automated_notification",
+      "tricky_tags": [],
+      "is_actionable_for_user": false,
+      "action_owner": "priya@kettlehq.com",
+      "action_summary": "Priya needs to decide whether to pause the trace-view rollout or fast-track the connection pool fix (KET-461) before the SLO budget fully depletes.",
+      "due_date": null,
+      "commitment_made_by_user": null,
+      "commitment_is_conditional": false,
+      "commitment_condition": null,
+      "superseded_by_message_id": null,
+      "notes": "Long-form automated SLO report (400+ words) \u2014 ties the error-budget burn back to the Lumenpay enterprise rollout."
+    }
+  },
+  {
+    "id": "a40f18c2e4b60048",
+    "thread_id": "a40f18c2e4b60048",
+    "profile_id": "founder",
+    "history_id": "747774",
+    "message_id_header": "<a40f18c2e4b60048@vercel.com>",
+    "in_reply_to": null,
+    "references": [],
+    "thread_position": 1,
+    "thread_length": 1,
+    "from": {
+      "name": "Vercel",
+      "email": "notifications@vercel.com"
+    },
+    "sender": null,
+    "reply_to": null,
+    "to": [
+      {
+        "name": "Maya Rodriguez",
+        "email": "maya@kettlehq.com"
+      }
+    ],
+    "cc": [],
+    "bcc": [],
+    "delivered_to": "maya@kettlehq.com",
+    "subject": "Deployment failed: kettlehq-app (production)",
+    "snippet": "Build failed for kettlehq-app on Production. Error: Command \"next build\" exited with 1 Type error: Property 'traceId' does not exist on type 'IngestEvent'. > 214 | const { traceId,",
+    "body_text": "Build failed for kettlehq-app on Production.\n\nError: Command \"next build\" exited with 1\n\n  Type error: Property 'traceId' does not exist on type 'IngestEvent'.\n    > 214 |   const { traceId, spanId } = event;\n          |           ^\n\nCommit: 7f2a9c1 \"wip: enterprise trace view\" by luis@kettlehq.com\n\nView build logs: https://vercel.com/kettlehq/kettlehq-app/deployments/7f2a9c1",
+    "body_html": null,
+    "date": "2026-07-23T21:14:00-07:00",
+    "internal_date_ms": 1784866440000,
+    "folder": "INBOX",
+    "category": "CATEGORY_UPDATES",
+    "is_unread": true,
+    "is_starred": false,
+    "is_important": false,
+    "user_labels": [],
+    "attachments": [],
+    "calendar_event": null,
+    "extra_headers": {},
+    "size_estimate": 1187,
+    "meta": {
+      "email_class": "automated_notification",
+      "tricky_tags": [],
+      "is_actionable_for_user": false,
+      "action_owner": "luis@kettlehq.com",
+      "action_summary": "Luis's commit broke the production build and needs a fix.",
+      "due_date": null,
+      "commitment_made_by_user": null,
+      "commitment_is_conditional": false,
+      "commitment_condition": null,
+      "superseded_by_message_id": null,
+      "notes": null
+    }
+  },
+  {
+    "id": "a40f18c2e4b60049",
+    "thread_id": "a40f18c2e4b60049",
+    "profile_id": "founder",
+    "history_id": "771187",
+    "message_id_header": "<a40f18c2e4b60049@pagerduty.com>",
+    "in_reply_to": null,
+    "references": [],
+    "thread_position": 1,
+    "thread_length": 1,
+    "from": {
+      "name": "PagerDuty",
+      "email": "no-reply@pagerduty.com"
+    },
+    "sender": null,
+    "reply_to": null,
+    "to": [
+      {
+        "name": "Maya Rodriguez",
+        "email": "maya@kettlehq.com"
+      }
+    ],
+    "cc": [],
+    "bcc": [],
+    "delivered_to": "maya@kettlehq.com",
+    "subject": "Resolved: [P2] ingest-api error rate above 5%",
+    "snippet": "Incident #4471 has been resolved. Triggered: 2:58 AM PDT \u2014 5xx error rate on ingest-api reached 7.2% (threshold 5%) Resolved: 3:27 AM PDT by Priya Nair \u2014 rolled back deploy 7f2a9c1",
+    "body_text": "Incident #4471 has been resolved.\n\nTriggered: 2:58 AM PDT \u2014 5xx error rate on ingest-api reached 7.2% (threshold 5%)\nResolved: 3:27 AM PDT by Priya Nair \u2014 rolled back deploy 7f2a9c1, error rate back to 0.1%\nDuration: 29 min\n\nPostmortem doc will be linked here once filed: https://kettlehq.pagerduty.com/incidents/Q1J8XK2",
+    "body_html": null,
+    "date": "2026-08-09T03:27:00-07:00",
+    "internal_date_ms": 1786271220000,
+    "folder": "INBOX",
+    "category": "CATEGORY_UPDATES",
+    "is_unread": true,
+    "is_starred": false,
+    "is_important": false,
+    "user_labels": [],
+    "attachments": [],
+    "calendar_event": null,
+    "extra_headers": {},
+    "size_estimate": 1138,
+    "meta": {
+      "email_class": "automated_notification",
+      "tricky_tags": [],
+      "is_actionable_for_user": false,
+      "action_owner": null,
+      "action_summary": null,
+      "due_date": null,
+      "commitment_made_by_user": null,
+      "commitment_is_conditional": false,
+      "commitment_condition": null,
+      "superseded_by_message_id": null,
+      "notes": null
+    }
+  },
+  {
+    "id": "a40f18c2e4b60050",
+    "thread_id": "a40f18c2e4b60050",
+    "profile_id": "founder",
+    "history_id": "767590",
+    "message_id_header": "<a40f18c2e4b60050@docusign.net>",
+    "in_reply_to": null,
+    "references": [],
+    "thread_position": 1,
+    "thread_length": 1,
+    "from": {
+      "name": "DocuSign",
+      "email": "dse@docusign.net"
+    },
+    "sender": null,
+    "reply_to": null,
+    "to": [
+      {
+        "name": "Maya Rodriguez",
+        "email": "maya@kettlehq.com"
+      }
+    ],
+    "cc": [],
+    "bcc": [],
+    "delivered_to": "maya@kettlehq.com",
+    "subject": "Please DocuSign: Board Consent \u2014 Option Pool Increase",
+    "snippet": "Beth Ranganathan sent you a document to review and sign. \"Unanimous Written Consent of the Board of Directors \u2014 Increase of Option Pool by 800,000 shares\" This needs all board memb",
+    "body_text": "Beth Ranganathan sent you a document to review and sign.\n\n\"Unanimous Written Consent of the Board of Directors \u2014 Increase of Option Pool by 800,000 shares\"\n\nThis needs all board members' signatures before the Aug 27 meeting so the increase is effective for the Head of Marketing offer. 2 of 4 signatures collected so far.\n\nReview and sign: https://na3.docusign.net/signing/kettlehq-8814471",
+    "body_html": null,
+    "date": "2026-08-06T15:30:00-07:00",
+    "internal_date_ms": 1786055400000,
+    "folder": "INBOX",
+    "category": "CATEGORY_UPDATES",
+    "is_unread": true,
+    "is_starred": true,
+    "is_important": true,
+    "user_labels": [
+      "Label_1120"
+    ],
+    "attachments": [],
+    "calendar_event": null,
+    "extra_headers": {},
+    "size_estimate": 1205,
+    "meta": {
+      "email_class": "legal_compliance",
+      "tricky_tags": [],
+      "is_actionable_for_user": true,
+      "action_owner": "maya@kettlehq.com",
+      "action_summary": "Maya needs to countersign the board consent for the option pool increase before the Aug 27 board meeting.",
+      "due_date": "2026-08-26",
+      "commitment_made_by_user": null,
+      "commitment_is_conditional": false,
+      "commitment_condition": null,
+      "superseded_by_message_id": null,
+      "notes": null
+    }
+  }
+]

@@ -1,0 +1,3464 @@
+[
+  {
+    "id": "e40f18c2e4b60001",
+    "thread_id": "e40f18c2e4b60001",
+    "profile_id": "consulting",
+    "history_id": "689780",
+    "message_id_header": "<e40f18c2e4b60001@google.com>",
+    "in_reply_to": null,
+    "references": [],
+    "thread_position": 1,
+    "thread_length": 1,
+    "from": {
+      "name": "Google Calendar",
+      "email": "calendar-notification@google.com"
+    },
+    "sender": null,
+    "reply_to": null,
+    "to": [
+      {
+        "name": "Evelyn Thorne",
+        "email": "evelyn.thorne@thornecadwell.com"
+      }
+    ],
+    "cc": [],
+    "bcc": [],
+    "delivered_to": "evelyn.thorne@thornecadwell.com",
+    "subject": "Invitation: Monday Firm Huddle @ Weekly from 8:30am to 9am (CDT)",
+    "snippet": "You have been invited to the following event. Monday Firm Huddle Weekly from 8:30am to 9:00am, Central Time - every Monday, starting Mon Jun 15 Where: Thorne & Cadwell — Main Confe",
+    "body_text": "You have been invited to the following event.\n\nMonday Firm Huddle\nWeekly from 8:30am to 9:00am, Central Time - every Monday, starting Mon Jun 15\n\nWhere: Thorne & Cadwell — Main Conference Room\n\nCalendar: evelyn.thorne@thornecadwell.com\nWho:\n* sheila.park@thornecadwell.com - organizer\n* evelyn.thorne@thornecadwell.com\n* gordon.cadwell@thornecadwell.com\n* ana.restrepo@thornecadwell.com\n* kyle.brenner@thornecadwell.com\n* fiona.dunne@thornecadwell.com\n\nGoing (evelyn.thorne@thornecadwell.com)?  Yes - Maybe - No\n\nmore options »\n\nInvitation from Google Calendar\n\nYou are receiving this email because you are an attendee on the event. To stop receiving future updates for this event, decline this event. Alternatively, you can control your notification settings at https://calendar.google.com/calendar/\n\nForwarding this invitation could allow any recipient to modify your RSVP response. Learn more at https://support.google.com/calendar/answer/37135#forwarding",
+    "body_html": null,
+    "date": "2026-06-13T16:40:00-05:00",
+    "internal_date_ms": 1781386800000,
+    "folder": "INBOX",
+    "category": "CATEGORY_UPDATES",
+    "is_unread": false,
+    "is_starred": false,
+    "is_important": false,
+    "user_labels": [],
+    "attachments": [
+      {
+        "attachment_id": "ANGjdJ_6xxUhGM99Np8xIx-Cx3B1C2-yFuQxHPXxVvXRYwv8Ls",
+        "filename": "invite.ics",
+        "mime_type": "text/calendar",
+        "size_bytes": 1388,
+        "is_inline": false,
+        "content_id": null,
+        "extracted_text": "BEGIN:VCALENDAR\r\nPRODID:-//Google Inc//Google Calendar 70.9054//EN\r\nVERSION:2.0\r\nCALSCALE:GREGORIAN\r\nMETHOD:REQUEST\r\nBEGIN:VEVENT\r\nUID:1550d62888389600978767bd@google.com\r\nDTSTAMP:20260615T083000Z\r\nDTSTART;TZID=America/Chicago:20260615T083000\r\nDTEND;TZID=America/Chicago:20260615T090000\r\nSEQUENCE:0\r\nSTATUS:CONFIRMED\r\nSUMMARY:Monday Firm Huddle\r\nTRANSP:OPAQUE\r\nRRULE:FREQ=WEEKLY;BYDAY=MO\r\nLOCATION:Thorne & Cadwell — Main Conference Room\r\nDESCRIPTION:Weekly firm huddle — pipeline review, staffing, and client status. Bring your one-liners.\r\nORGANIZER;CN=Sheila Park:mailto:sheila.park@thornecadwell.com\r\nATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=NEEDS-ACTION;RSVP=TRUE;CN=Evelyn Thorne;X-NUM-GUESTS=0:mailto:evelyn.thorne@thornecadwell.com\r\nATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=NEEDS-ACTION;RSVP=TRUE;CN=Gordon Cadwell;X-NUM-GUESTS=0:mailto:gordon.cadwell@thornecadwell.com\r\nATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=NEEDS-ACTION;RSVP=TRUE;CN=Ana Restrepo;X-NUM-GUESTS=0:mailto:ana.restrepo@thornecadwell.com\r\nATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=NEEDS-ACTION;RSVP=TRUE;CN=Kyle Brenner;X-NUM-GUESTS=0:mailto:kyle.brenner@thornecadwell.com\r\nATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=NEEDS-ACTION;RSVP=TRUE;CN=Fiona Dunne;X-NUM-GUESTS=0:mailto:fiona.dunne@thornecadwell.com\r\nEND:VEVENT\r\nEND:VCALENDAR"
+      }
+    ],
+    "calendar_event": {
+      "uid": "1550d62888389600978767bd@google.com",
+      "method": "REQUEST",
+      "sequence": 0,
+      "summary": "Monday Firm Huddle",
+      "description": "Weekly firm huddle — pipeline review, staffing, and client status. Bring your one-liners.",
+      "location": "Thorne & Cadwell — Main Conference Room",
+      "conference_url": null,
+      "organizer": {
+        "name": "Sheila Park",
+        "email": "sheila.park@thornecadwell.com"
+      },
+      "attendees": [
+        {
+          "email": "evelyn.thorne@thornecadwell.com",
+          "name": "Evelyn Thorne",
+          "role": "REQ-PARTICIPANT",
+          "partstat": "NEEDS-ACTION",
+          "rsvp": true
+        },
+        {
+          "email": "gordon.cadwell@thornecadwell.com",
+          "name": "Gordon Cadwell",
+          "role": "REQ-PARTICIPANT",
+          "partstat": "NEEDS-ACTION",
+          "rsvp": true
+        },
+        {
+          "email": "ana.restrepo@thornecadwell.com",
+          "name": "Ana Restrepo",
+          "role": "REQ-PARTICIPANT",
+          "partstat": "NEEDS-ACTION",
+          "rsvp": true
+        },
+        {
+          "email": "kyle.brenner@thornecadwell.com",
+          "name": "Kyle Brenner",
+          "role": "REQ-PARTICIPANT",
+          "partstat": "NEEDS-ACTION",
+          "rsvp": true
+        },
+        {
+          "email": "fiona.dunne@thornecadwell.com",
+          "name": "Fiona Dunne",
+          "role": "REQ-PARTICIPANT",
+          "partstat": "NEEDS-ACTION",
+          "rsvp": true
+        }
+      ],
+      "dtstart": "2026-06-15T08:30:00-05:00",
+      "dtend": "2026-06-15T09:00:00-05:00",
+      "timezone": "America/Chicago",
+      "all_day": false,
+      "rrule": "FREQ=WEEKLY;BYDAY=MO",
+      "status": "CONFIRMED"
+    },
+    "extra_headers": {},
+    "size_estimate": 3420,
+    "meta": {
+      "email_class": "calendar",
+      "tricky_tags": [],
+      "is_actionable_for_user": false,
+      "action_owner": null,
+      "action_summary": null,
+      "due_date": null,
+      "commitment_made_by_user": null,
+      "commitment_is_conditional": false,
+      "commitment_condition": null,
+      "superseded_by_message_id": null,
+      "notes": "Recurring weekly meeting, rrule FREQ=WEEKLY;BYDAY=MO."
+    }
+  },
+  {
+    "id": "e40f18c2e4b60002",
+    "thread_id": "e40f18c2e4b60002",
+    "profile_id": "consulting",
+    "history_id": "715255",
+    "message_id_header": "<e40f18c2e4b60002@google.com>",
+    "in_reply_to": null,
+    "references": [],
+    "thread_position": 1,
+    "thread_length": 1,
+    "from": {
+      "name": "Google Calendar",
+      "email": "calendar-notification@google.com"
+    },
+    "sender": null,
+    "reply_to": null,
+    "to": [
+      {
+        "name": "Evelyn Thorne",
+        "email": "evelyn.thorne@thornecadwell.com"
+      }
+    ],
+    "cc": [],
+    "bcc": [],
+    "delivered_to": "evelyn.thorne@thornecadwell.com",
+    "subject": "Invitation: Meridian Castings — Phase 2 Steering Committee Kickoff @ Wed Jul 8, 10am – 11am (CDT)",
+    "snippet": "You have been invited to the following event. Meridian Castings — Phase 2 Steering Committee Kickoff Wed Jul 8, 2026 ⋅ 10:00 – 11:00am, Central Time Where: Zoom (https://thornecadw",
+    "body_text": "You have been invited to the following event.\n\nMeridian Castings — Phase 2 Steering Committee Kickoff\nWed Jul 8, 2026 ⋅ 10:00 – 11:00am, Central Time\n\nWhere: Zoom (https://thornecadwell.zoom.us/j/8823140092)\n\nCalendar: evelyn.thorne@thornecadwell.com\nWho:\n* evelyn.thorne@thornecadwell.com - organizer\n* bob.vandergriff@meridiancastings.com\n* gordon.cadwell@thornecadwell.com\n\nGoing (evelyn.thorne@thornecadwell.com)?  Yes - Maybe - No\n\nmore options »\n\nInvitation from Google Calendar\n\nYou are receiving this email because you are the organizer of this event.",
+    "body_html": null,
+    "date": "2026-07-01T09:15:00-05:00",
+    "internal_date_ms": 1782915300000,
+    "folder": "INBOX",
+    "category": "CATEGORY_UPDATES",
+    "is_unread": false,
+    "is_starred": false,
+    "is_important": true,
+    "user_labels": [
+      "Label_7750"
+    ],
+    "attachments": [
+      {
+        "attachment_id": "ANGjdJ_W13KFAiTMUPUc7D8kRvzvKGB6nPE6jKz6hz6FL1UQ-w",
+        "filename": "invite.ics",
+        "mime_type": "text/calendar",
+        "size_bytes": 1055,
+        "is_inline": false,
+        "content_id": null,
+        "extracted_text": "BEGIN:VCALENDAR\r\nPRODID:-//Google Inc//Google Calendar 70.9054//EN\r\nVERSION:2.0\r\nCALSCALE:GREGORIAN\r\nMETHOD:REQUEST\r\nBEGIN:VEVENT\r\nUID:8a84ff57f312d7b89b387674@google.com\r\nDTSTAMP:20260708T100000Z\r\nDTSTART;TZID=America/Chicago:20260708T100000\r\nDTEND;TZID=America/Chicago:20260708T110000\r\nSEQUENCE:0\r\nSTATUS:CONFIRMED\r\nSUMMARY:Meridian Castings — Phase 2 Steering Committee Kickoff\r\nTRANSP:OPAQUE\r\nLOCATION:Zoom (https://thornecadwell.zoom.us/j/8823140092)\r\nDESCRIPTION:Kickoff for the Meridian Castings Phase 2 engagement — inventory optimization workstream. Agenda: scope confirmation, steering committee cadence, data access for Anil's model.\r\nORGANIZER;CN=Evelyn Thorne:mailto:evelyn.thorne@thornecadwell.com\r\nATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=NEEDS-ACTION;RSVP=TRUE;CN=Bob Vandergriff;X-NUM-GUESTS=0:mailto:bob.vandergriff@meridiancastings.com\r\nATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=NEEDS-ACTION;RSVP=TRUE;CN=Gordon Cadwell;X-NUM-GUESTS=0:mailto:gordon.cadwell@thornecadwell.com\r\nEND:VEVENT\r\nEND:VCALENDAR"
+      }
+    ],
+    "calendar_event": {
+      "uid": "8a84ff57f312d7b89b387674@google.com",
+      "method": "REQUEST",
+      "sequence": 0,
+      "summary": "Meridian Castings — Phase 2 Steering Committee Kickoff",
+      "description": "Kickoff for the Meridian Castings Phase 2 engagement — inventory optimization workstream. Agenda: scope confirmation, steering committee cadence, data access for Anil's model.",
+      "location": "Zoom (https://thornecadwell.zoom.us/j/8823140092)",
+      "conference_url": "https://thornecadwell.zoom.us/j/8823140092",
+      "organizer": {
+        "name": "Evelyn Thorne",
+        "email": "evelyn.thorne@thornecadwell.com"
+      },
+      "attendees": [
+        {
+          "email": "bob.vandergriff@meridiancastings.com",
+          "name": "Bob Vandergriff",
+          "role": "REQ-PARTICIPANT",
+          "partstat": "NEEDS-ACTION",
+          "rsvp": true
+        },
+        {
+          "email": "gordon.cadwell@thornecadwell.com",
+          "name": "Gordon Cadwell",
+          "role": "REQ-PARTICIPANT",
+          "partstat": "NEEDS-ACTION",
+          "rsvp": true
+        }
+      ],
+      "dtstart": "2026-07-08T10:00:00-05:00",
+      "dtend": "2026-07-08T11:00:00-05:00",
+      "timezone": "America/Chicago",
+      "all_day": false,
+      "rrule": null,
+      "status": "CONFIRMED"
+    },
+    "extra_headers": {},
+    "size_estimate": 2579,
+    "meta": {
+      "email_class": "calendar",
+      "tricky_tags": [],
+      "is_actionable_for_user": false,
+      "action_owner": null,
+      "action_summary": null,
+      "due_date": null,
+      "commitment_made_by_user": null,
+      "commitment_is_conditional": false,
+      "commitment_condition": null,
+      "superseded_by_message_id": null,
+      "notes": "Kickoff for Meridian Phase 2 engagement."
+    }
+  },
+  {
+    "id": "e40f18c2e4b60003",
+    "thread_id": "e40f18c2e4b60003",
+    "profile_id": "consulting",
+    "history_id": "735660",
+    "message_id_header": "<e40f18c2e4b60003@google.com>",
+    "in_reply_to": null,
+    "references": [],
+    "thread_position": 1,
+    "thread_length": 1,
+    "from": {
+      "name": "Google Calendar",
+      "email": "calendar-notification@google.com"
+    },
+    "sender": null,
+    "reply_to": null,
+    "to": [
+      {
+        "name": "Evelyn Thorne",
+        "email": "evelyn.thorne@thornecadwell.com"
+      }
+    ],
+    "cc": [],
+    "bcc": [],
+    "delivered_to": "evelyn.thorne@thornecadwell.com",
+    "subject": "Invitation: Stratus Industrial — Proposal Readout @ Wed Jul 22, 2pm – 3pm (CDT)",
+    "snippet": "You have been invited to the following event. Stratus Industrial — Proposal Readout Wed Jul 22, 2026 ⋅ 2:00 – 3:00pm, Central Time Where: Zoom (https://thornecadwell.zoom.us/j/8891",
+    "body_text": "You have been invited to the following event.\n\nStratus Industrial — Proposal Readout\nWed Jul 22, 2026 ⋅ 2:00 – 3:00pm, Central Time\n\nWhere: Zoom (https://thornecadwell.zoom.us/j/8891002234)\n\nCalendar: evelyn.thorne@thornecadwell.com\nWho:\n* evelyn.thorne@thornecadwell.com - organizer\n* omccabe@stratusindustrial.com\n* ana.restrepo@thornecadwell.com\n\nGoing (evelyn.thorne@thornecadwell.com)?  Yes - Maybe - No\n\nmore options »\n\nInvitation from Google Calendar\n\nYou are receiving this email because you are the organizer of this event.",
+    "body_html": null,
+    "date": "2026-07-15T13:20:00-05:00",
+    "internal_date_ms": 1784139600000,
+    "folder": "INBOX",
+    "category": "CATEGORY_UPDATES",
+    "is_unread": false,
+    "is_starred": false,
+    "is_important": false,
+    "user_labels": [],
+    "attachments": [
+      {
+        "attachment_id": "ANGjdJ_osIWAHLSNbFLDAsvxcFwguUOvaTyg8AQ857KhdkmR84",
+        "filename": "invite.ics",
+        "mime_type": "text/calendar",
+        "size_bytes": 942,
+        "is_inline": false,
+        "content_id": null,
+        "extracted_text": "BEGIN:VCALENDAR\r\nPRODID:-//Google Inc//Google Calendar 70.9054//EN\r\nVERSION:2.0\r\nCALSCALE:GREGORIAN\r\nMETHOD:REQUEST\r\nBEGIN:VEVENT\r\nUID:da3f412854ecc79f98162648@google.com\r\nDTSTAMP:20260722T140000Z\r\nDTSTART;TZID=America/Chicago:20260722T140000\r\nDTEND;TZID=America/Chicago:20260722T150000\r\nSEQUENCE:0\r\nSTATUS:CONFIRMED\r\nSUMMARY:Stratus Industrial — Proposal Readout\r\nTRANSP:OPAQUE\r\nLOCATION:Zoom (https://thornecadwell.zoom.us/j/8891002234)\r\nDESCRIPTION:Walkthrough of the supply-chain diagnostic findings and phase-1 proposal for Stratus Industrial.\r\nORGANIZER;CN=Evelyn Thorne:mailto:evelyn.thorne@thornecadwell.com\r\nATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=NEEDS-ACTION;RSVP=TRUE;CN=Owen McCabe;X-NUM-GUESTS=0:mailto:omccabe@stratusindustrial.com\r\nATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=NEEDS-ACTION;RSVP=TRUE;CN=Ana Restrepo;X-NUM-GUESTS=0:mailto:ana.restrepo@thornecadwell.com\r\nEND:VEVENT\r\nEND:VCALENDAR"
+      }
+    ],
+    "calendar_event": {
+      "uid": "da3f412854ecc79f98162648@google.com",
+      "method": "REQUEST",
+      "sequence": 0,
+      "summary": "Stratus Industrial — Proposal Readout",
+      "description": "Walkthrough of the supply-chain diagnostic findings and phase-1 proposal for Stratus Industrial.",
+      "location": "Zoom (https://thornecadwell.zoom.us/j/8891002234)",
+      "conference_url": "https://thornecadwell.zoom.us/j/8891002234",
+      "organizer": {
+        "name": "Evelyn Thorne",
+        "email": "evelyn.thorne@thornecadwell.com"
+      },
+      "attendees": [
+        {
+          "email": "omccabe@stratusindustrial.com",
+          "name": "Owen McCabe",
+          "role": "REQ-PARTICIPANT",
+          "partstat": "NEEDS-ACTION",
+          "rsvp": true
+        },
+        {
+          "email": "ana.restrepo@thornecadwell.com",
+          "name": "Ana Restrepo",
+          "role": "REQ-PARTICIPANT",
+          "partstat": "NEEDS-ACTION",
+          "rsvp": true
+        }
+      ],
+      "dtstart": "2026-07-22T14:00:00-05:00",
+      "dtend": "2026-07-22T15:00:00-05:00",
+      "timezone": "America/Chicago",
+      "all_day": false,
+      "rrule": null,
+      "status": "CONFIRMED"
+    },
+    "extra_headers": {},
+    "size_estimate": 2401,
+    "meta": {
+      "email_class": "calendar",
+      "tricky_tags": [],
+      "is_actionable_for_user": false,
+      "action_owner": null,
+      "action_summary": null,
+      "due_date": null,
+      "commitment_made_by_user": null,
+      "commitment_is_conditional": false,
+      "commitment_condition": null,
+      "superseded_by_message_id": null,
+      "notes": "Original proposal readout invite, later rescheduled (see update)."
+    }
+  },
+  {
+    "id": "e40f18c2e4b60004",
+    "thread_id": "e40f18c2e4b60004",
+    "profile_id": "consulting",
+    "history_id": "743065",
+    "message_id_header": "<e40f18c2e4b60004@google.com>",
+    "in_reply_to": null,
+    "references": [],
+    "thread_position": 1,
+    "thread_length": 1,
+    "from": {
+      "name": "Google Calendar",
+      "email": "calendar-notification@google.com"
+    },
+    "sender": null,
+    "reply_to": null,
+    "to": [
+      {
+        "name": "Evelyn Thorne",
+        "email": "evelyn.thorne@thornecadwell.com"
+      }
+    ],
+    "cc": [],
+    "bcc": [],
+    "delivered_to": "evelyn.thorne@thornecadwell.com",
+    "subject": "Updated invitation: Stratus Industrial — Proposal Readout @ Thu Jul 23, 10am – 11am (CDT)",
+    "snippet": "You have been invited to the following event. Stratus Industrial — Proposal Readout Thu Jul 23, 2026 ⋅ 10:00 – 11:00am, Central Time Where: Zoom (https://thornecadwell.zoom.us/j/88",
+    "body_text": "You have been invited to the following event.\n\nStratus Industrial — Proposal Readout\nThu Jul 23, 2026 ⋅ 10:00 – 11:00am, Central Time\n\nWhere: Zoom (https://thornecadwell.zoom.us/j/8891002234)\n\nCalendar: evelyn.thorne@thornecadwell.com\nWho:\n* evelyn.thorne@thornecadwell.com - organizer\n* omccabe@stratusindustrial.com\n* ana.restrepo@thornecadwell.com\n\nGoing (evelyn.thorne@thornecadwell.com)?  Yes - Maybe - No\n\nmore options »\n\nThis event has been changed.\n\nInvitation from Google Calendar",
+    "body_html": null,
+    "date": "2026-07-20T16:45:00-05:00",
+    "internal_date_ms": 1784583900000,
+    "folder": "INBOX",
+    "category": "CATEGORY_UPDATES",
+    "is_unread": false,
+    "is_starred": false,
+    "is_important": true,
+    "user_labels": [],
+    "attachments": [
+      {
+        "attachment_id": "ANGjdJ_ct8kNb1KOgU1hN6_ld7cHxcURp7Qm2d-lSPF7N_l08M",
+        "filename": "invite.ics",
+        "mime_type": "text/calendar",
+        "size_bytes": 956,
+        "is_inline": false,
+        "content_id": null,
+        "extracted_text": "BEGIN:VCALENDAR\r\nPRODID:-//Google Inc//Google Calendar 70.9054//EN\r\nVERSION:2.0\r\nCALSCALE:GREGORIAN\r\nMETHOD:REQUEST\r\nBEGIN:VEVENT\r\nUID:da3f412854ecc79f98162648@google.com\r\nDTSTAMP:20260723T100000Z\r\nDTSTART;TZID=America/Chicago:20260723T100000\r\nDTEND;TZID=America/Chicago:20260723T110000\r\nSEQUENCE:1\r\nSTATUS:CONFIRMED\r\nSUMMARY:Stratus Industrial — Proposal Readout\r\nTRANSP:OPAQUE\r\nLOCATION:Zoom (https://thornecadwell.zoom.us/j/8891002234)\r\nDESCRIPTION:Moved a day later — Owen's team needed more time to review Q2 throughput numbers. Same deck, same Zoom link.\r\nORGANIZER;CN=Evelyn Thorne:mailto:evelyn.thorne@thornecadwell.com\r\nATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=NEEDS-ACTION;RSVP=TRUE;CN=Owen McCabe;X-NUM-GUESTS=0:mailto:omccabe@stratusindustrial.com\r\nATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=NEEDS-ACTION;RSVP=TRUE;CN=Ana Restrepo;X-NUM-GUESTS=0:mailto:ana.restrepo@thornecadwell.com\r\nEND:VEVENT\r\nEND:VCALENDAR"
+      }
+    ],
+    "calendar_event": {
+      "uid": "da3f412854ecc79f98162648@google.com",
+      "method": "REQUEST",
+      "sequence": 1,
+      "summary": "Stratus Industrial — Proposal Readout",
+      "description": "Moved a day later — Owen's team needed more time to review Q2 throughput numbers. Same deck, same Zoom link.",
+      "location": "Zoom (https://thornecadwell.zoom.us/j/8891002234)",
+      "conference_url": "https://thornecadwell.zoom.us/j/8891002234",
+      "organizer": {
+        "name": "Evelyn Thorne",
+        "email": "evelyn.thorne@thornecadwell.com"
+      },
+      "attendees": [
+        {
+          "email": "omccabe@stratusindustrial.com",
+          "name": "Owen McCabe",
+          "role": "REQ-PARTICIPANT",
+          "partstat": "NEEDS-ACTION",
+          "rsvp": true
+        },
+        {
+          "email": "ana.restrepo@thornecadwell.com",
+          "name": "Ana Restrepo",
+          "role": "REQ-PARTICIPANT",
+          "partstat": "NEEDS-ACTION",
+          "rsvp": true
+        }
+      ],
+      "dtstart": "2026-07-23T10:00:00-05:00",
+      "dtend": "2026-07-23T11:00:00-05:00",
+      "timezone": "America/Chicago",
+      "all_day": false,
+      "rrule": null,
+      "status": "CONFIRMED"
+    },
+    "extra_headers": {},
+    "size_estimate": 2377,
+    "meta": {
+      "email_class": "calendar",
+      "tricky_tags": [],
+      "is_actionable_for_user": false,
+      "action_owner": null,
+      "action_summary": null,
+      "due_date": null,
+      "commitment_made_by_user": null,
+      "commitment_is_conditional": false,
+      "commitment_condition": null,
+      "superseded_by_message_id": null,
+      "notes": "Time updated from CAL3 — same uid, sequence bumped to 1."
+    }
+  },
+  {
+    "id": "e40f18c2e4b60005",
+    "thread_id": "e40f18c2e4b60005",
+    "profile_id": "consulting",
+    "history_id": "748400",
+    "message_id_header": "<e40f18c2e4b60005@google.com>",
+    "in_reply_to": null,
+    "references": [],
+    "thread_position": 1,
+    "thread_length": 1,
+    "from": {
+      "name": "Google Calendar",
+      "email": "calendar-notification@google.com"
+    },
+    "sender": null,
+    "reply_to": null,
+    "to": [
+      {
+        "name": "Evelyn Thorne",
+        "email": "evelyn.thorne@thornecadwell.com"
+      }
+    ],
+    "cc": [],
+    "bcc": [],
+    "delivered_to": "evelyn.thorne@thornecadwell.com",
+    "subject": "Invitation: Halberd Packaging — Quarterly Business Review @ Wed Jul 29, 1pm – 2pm (CDT)",
+    "snippet": "You have been invited to the following event. Halberd Packaging — Quarterly Business Review Wed Jul 29, 2026 ⋅ 1:00 – 2:00pm, Central Time Where: Zoom (https://thornecadwell.zoom.u",
+    "body_text": "You have been invited to the following event.\n\nHalberd Packaging — Quarterly Business Review\nWed Jul 29, 2026 ⋅ 1:00 – 2:00pm, Central Time\n\nWhere: Zoom (https://thornecadwell.zoom.us/j/8802213345)\n\nCalendar: evelyn.thorne@thornecadwell.com\nWho:\n* evelyn.thorne@thornecadwell.com - organizer\n* l.ferraro@halberdpackaging.com\n* kyle.brenner@thornecadwell.com\n\nGoing (evelyn.thorne@thornecadwell.com)?  Yes - Maybe - No\n\nmore options »\n\nInvitation from Google Calendar",
+    "body_html": null,
+    "date": "2026-07-24T09:40:00-05:00",
+    "internal_date_ms": 1784904000000,
+    "folder": "INBOX",
+    "category": "CATEGORY_UPDATES",
+    "is_unread": false,
+    "is_starred": false,
+    "is_important": false,
+    "user_labels": [
+      "Label_7750"
+    ],
+    "attachments": [
+      {
+        "attachment_id": "ANGjdJ_eJD5dWvlsHVZX7wzpYc83AuH8Ch82OfHgM3WZq_JbNc",
+        "filename": "invite.ics",
+        "mime_type": "text/calendar",
+        "size_bytes": 969,
+        "is_inline": false,
+        "content_id": null,
+        "extracted_text": "BEGIN:VCALENDAR\r\nPRODID:-//Google Inc//Google Calendar 70.9054//EN\r\nVERSION:2.0\r\nCALSCALE:GREGORIAN\r\nMETHOD:REQUEST\r\nBEGIN:VEVENT\r\nUID:5f76a0455d43930144b85512@google.com\r\nDTSTAMP:20260729T130000Z\r\nDTSTART;TZID=America/Chicago:20260729T130000\r\nDTEND;TZID=America/Chicago:20260729T140000\r\nSEQUENCE:0\r\nSTATUS:CONFIRMED\r\nSUMMARY:Halberd Packaging — Quarterly Business Review\r\nTRANSP:OPAQUE\r\nLOCATION:Zoom (https://thornecadwell.zoom.us/j/8802213345)\r\nDESCRIPTION:Quarterly business review with Halberd Packaging — utilization, savings tracked to date, and Q3 scope options.\r\nORGANIZER;CN=Evelyn Thorne:mailto:evelyn.thorne@thornecadwell.com\r\nATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=NEEDS-ACTION;RSVP=TRUE;CN=Lucia Ferraro;X-NUM-GUESTS=0:mailto:l.ferraro@halberdpackaging.com\r\nATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=NEEDS-ACTION;RSVP=TRUE;CN=Kyle Brenner;X-NUM-GUESTS=0:mailto:kyle.brenner@thornecadwell.com\r\nEND:VEVENT\r\nEND:VCALENDAR"
+      }
+    ],
+    "calendar_event": {
+      "uid": "5f76a0455d43930144b85512@google.com",
+      "method": "REQUEST",
+      "sequence": 0,
+      "summary": "Halberd Packaging — Quarterly Business Review",
+      "description": "Quarterly business review with Halberd Packaging — utilization, savings tracked to date, and Q3 scope options.",
+      "location": "Zoom (https://thornecadwell.zoom.us/j/8802213345)",
+      "conference_url": "https://thornecadwell.zoom.us/j/8802213345",
+      "organizer": {
+        "name": "Evelyn Thorne",
+        "email": "evelyn.thorne@thornecadwell.com"
+      },
+      "attendees": [
+        {
+          "email": "l.ferraro@halberdpackaging.com",
+          "name": "Lucia Ferraro",
+          "role": "REQ-PARTICIPANT",
+          "partstat": "NEEDS-ACTION",
+          "rsvp": true
+        },
+        {
+          "email": "kyle.brenner@thornecadwell.com",
+          "name": "Kyle Brenner",
+          "role": "REQ-PARTICIPANT",
+          "partstat": "NEEDS-ACTION",
+          "rsvp": true
+        }
+      ],
+      "dtstart": "2026-07-29T13:00:00-05:00",
+      "dtend": "2026-07-29T14:00:00-05:00",
+      "timezone": "America/Chicago",
+      "all_day": false,
+      "rrule": null,
+      "status": "CONFIRMED"
+    },
+    "extra_headers": {},
+    "size_estimate": 2371,
+    "meta": {
+      "email_class": "calendar",
+      "tricky_tags": [],
+      "is_actionable_for_user": false,
+      "action_owner": null,
+      "action_summary": null,
+      "due_date": null,
+      "commitment_made_by_user": null,
+      "commitment_is_conditional": false,
+      "commitment_condition": null,
+      "superseded_by_message_id": null,
+      "notes": null
+    }
+  },
+  {
+    "id": "e40f18c2e4b60006",
+    "thread_id": "e40f18c2e4b60006",
+    "profile_id": "consulting",
+    "history_id": "696585",
+    "message_id_header": "<e40f18c2e4b60006@google.com>",
+    "in_reply_to": null,
+    "references": [],
+    "thread_position": 1,
+    "thread_length": 1,
+    "from": {
+      "name": "Google Calendar",
+      "email": "calendar-notification@google.com"
+    },
+    "sender": null,
+    "reply_to": null,
+    "to": [
+      {
+        "name": "Evelyn Thorne",
+        "email": "evelyn.thorne@thornecadwell.com"
+      }
+    ],
+    "cc": [],
+    "bcc": [],
+    "delivered_to": "evelyn.thorne@thornecadwell.com",
+    "subject": "Invitation: Ridgefield Mfg — Catch-up Call @ Thu Jun 25, 11am – 11:30am (CDT)",
+    "snippet": "You have been invited to the following event. Ridgefield Mfg — Catch-up Call Thu Jun 25, 2026 ⋅ 11:00 – 11:30am, Central Time Where: Phone Calendar: evelyn.thorne@thornecadwell.com",
+    "body_text": "You have been invited to the following event.\n\nRidgefield Mfg — Catch-up Call\nThu Jun 25, 2026 ⋅ 11:00 – 11:30am, Central Time\n\nWhere: Phone\n\nCalendar: evelyn.thorne@thornecadwell.com\nWho:\n* evelyn.thorne@thornecadwell.com - organizer\n* marta.klein@ridgefieldmfg.com\n\nGoing (evelyn.thorne@thornecadwell.com)?  Yes - Maybe - No\n\nmore options »\n\nInvitation from Google Calendar",
+    "body_html": null,
+    "date": "2026-06-18T10:05:00-05:00",
+    "internal_date_ms": 1781795100000,
+    "folder": "INBOX",
+    "category": "CATEGORY_UPDATES",
+    "is_unread": false,
+    "is_starred": false,
+    "is_important": false,
+    "user_labels": [],
+    "attachments": [
+      {
+        "attachment_id": "ANGjdJ_zqCnAz318QnwE3oXjLCfLF6kLal-yEauaSGUIlX1nGI",
+        "filename": "invite.ics",
+        "mime_type": "text/calendar",
+        "size_bytes": 744,
+        "is_inline": false,
+        "content_id": null,
+        "extracted_text": "BEGIN:VCALENDAR\r\nPRODID:-//Google Inc//Google Calendar 70.9054//EN\r\nVERSION:2.0\r\nCALSCALE:GREGORIAN\r\nMETHOD:REQUEST\r\nBEGIN:VEVENT\r\nUID:bcbc6f92a01cc45b00f1b14f@google.com\r\nDTSTAMP:20260625T110000Z\r\nDTSTART;TZID=America/Chicago:20260625T110000\r\nDTEND;TZID=America/Chicago:20260625T113000\r\nSEQUENCE:0\r\nSTATUS:CONFIRMED\r\nSUMMARY:Ridgefield Mfg — Catch-up Call\r\nTRANSP:OPAQUE\r\nLOCATION:Phone\r\nDESCRIPTION:Quick check-in with Marta — see how the new line is running and whether there's a Phase 2 for us.\r\nORGANIZER;CN=Evelyn Thorne:mailto:evelyn.thorne@thornecadwell.com\r\nATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=NEEDS-ACTION;RSVP=TRUE;CN=Marta Klein;X-NUM-GUESTS=0:mailto:marta.klein@ridgefieldmfg.com\r\nEND:VEVENT\r\nEND:VCALENDAR"
+      }
+    ],
+    "calendar_event": {
+      "uid": "bcbc6f92a01cc45b00f1b14f@google.com",
+      "method": "REQUEST",
+      "sequence": 0,
+      "summary": "Ridgefield Mfg — Catch-up Call",
+      "description": "Quick check-in with Marta — see how the new line is running and whether there's a Phase 2 for us.",
+      "location": "Phone",
+      "conference_url": null,
+      "organizer": {
+        "name": "Evelyn Thorne",
+        "email": "evelyn.thorne@thornecadwell.com"
+      },
+      "attendees": [
+        {
+          "email": "marta.klein@ridgefieldmfg.com",
+          "name": "Marta Klein",
+          "role": "REQ-PARTICIPANT",
+          "partstat": "NEEDS-ACTION",
+          "rsvp": true
+        }
+      ],
+      "dtstart": "2026-06-25T11:00:00-05:00",
+      "dtend": "2026-06-25T11:30:00-05:00",
+      "timezone": "America/Chicago",
+      "all_day": false,
+      "rrule": null,
+      "status": "CONFIRMED"
+    },
+    "extra_headers": {},
+    "size_estimate": 1978,
+    "meta": {
+      "email_class": "calendar",
+      "tricky_tags": [],
+      "is_actionable_for_user": false,
+      "action_owner": null,
+      "action_summary": null,
+      "due_date": null,
+      "commitment_made_by_user": null,
+      "commitment_is_conditional": false,
+      "commitment_condition": null,
+      "superseded_by_message_id": null,
+      "notes": null
+    }
+  },
+  {
+    "id": "e40f18c2e4b60007",
+    "thread_id": "e40f18c2e4b60007",
+    "profile_id": "consulting",
+    "history_id": "705530",
+    "message_id_header": "<e40f18c2e4b60007@google.com>",
+    "in_reply_to": null,
+    "references": [],
+    "thread_position": 1,
+    "thread_length": 1,
+    "from": {
+      "name": "Google Calendar",
+      "email": "calendar-notification@google.com"
+    },
+    "sender": null,
+    "reply_to": null,
+    "to": [
+      {
+        "name": "Evelyn Thorne",
+        "email": "evelyn.thorne@thornecadwell.com"
+      }
+    ],
+    "cc": [],
+    "bcc": [],
+    "delivered_to": "evelyn.thorne@thornecadwell.com",
+    "subject": "Canceled event: Ridgefield Mfg — Catch-up Call @ Thu Jun 25, 11am – 11:30am (CDT)",
+    "snippet": "This event has been cancelled. Ridgefield Mfg — Catch-up Call Thu Jun 25, 2026 ⋅ 11:00 – 11:30am, Central Time Where: Phone Calendar: evelyn.thorne@thornecadwell.com more options »",
+    "body_text": "This event has been cancelled.\n\nRidgefield Mfg — Catch-up Call\nThu Jun 25, 2026 ⋅ 11:00 – 11:30am, Central Time\n\nWhere: Phone\n\nCalendar: evelyn.thorne@thornecadwell.com\n\nmore options »\n\nInvitation from Google Calendar",
+    "body_html": null,
+    "date": "2026-06-24T15:10:00-05:00",
+    "internal_date_ms": 1782331800000,
+    "folder": "INBOX",
+    "category": "CATEGORY_UPDATES",
+    "is_unread": false,
+    "is_starred": false,
+    "is_important": false,
+    "user_labels": [],
+    "attachments": [
+      {
+        "attachment_id": "ANGjdJ_7CDOvdQ8RybgkUe3RgArimYAHW06J5q3zAibW97jxOg",
+        "filename": "invite.ics",
+        "mime_type": "text/calendar",
+        "size_bytes": 733,
+        "is_inline": false,
+        "content_id": null,
+        "extracted_text": "BEGIN:VCALENDAR\r\nPRODID:-//Google Inc//Google Calendar 70.9054//EN\r\nVERSION:2.0\r\nCALSCALE:GREGORIAN\r\nMETHOD:CANCEL\r\nBEGIN:VEVENT\r\nUID:bcbc6f92a01cc45b00f1b14f@google.com\r\nDTSTAMP:20260625T110000Z\r\nDTSTART;TZID=America/Chicago:20260625T110000\r\nDTEND;TZID=America/Chicago:20260625T113000\r\nSEQUENCE:1\r\nSTATUS:CANCELLED\r\nSUMMARY:Ridgefield Mfg — Catch-up Call\r\nTRANSP:OPAQUE\r\nLOCATION:Phone\r\nDESCRIPTION:Marta's pushing to July — Ridgefield's ERP migration is eating her calendar this month.\r\nORGANIZER;CN=Evelyn Thorne:mailto:evelyn.thorne@thornecadwell.com\r\nATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=NEEDS-ACTION;RSVP=TRUE;CN=Marta Klein;X-NUM-GUESTS=0:mailto:marta.klein@ridgefieldmfg.com\r\nEND:VEVENT\r\nEND:VCALENDAR"
+      }
+    ],
+    "calendar_event": {
+      "uid": "bcbc6f92a01cc45b00f1b14f@google.com",
+      "method": "CANCEL",
+      "sequence": 1,
+      "summary": "Ridgefield Mfg — Catch-up Call",
+      "description": "Marta's pushing to July — Ridgefield's ERP migration is eating her calendar this month.",
+      "location": "Phone",
+      "conference_url": null,
+      "organizer": {
+        "name": "Evelyn Thorne",
+        "email": "evelyn.thorne@thornecadwell.com"
+      },
+      "attendees": [
+        {
+          "email": "marta.klein@ridgefieldmfg.com",
+          "name": "Marta Klein",
+          "role": "REQ-PARTICIPANT",
+          "partstat": "NEEDS-ACTION",
+          "rsvp": true
+        }
+      ],
+      "dtstart": "2026-06-25T11:00:00-05:00",
+      "dtend": "2026-06-25T11:30:00-05:00",
+      "timezone": "America/Chicago",
+      "all_day": false,
+      "rrule": null,
+      "status": "CANCELLED"
+    },
+    "extra_headers": {},
+    "size_estimate": 1806,
+    "meta": {
+      "email_class": "calendar",
+      "tricky_tags": [],
+      "is_actionable_for_user": false,
+      "action_owner": null,
+      "action_summary": null,
+      "due_date": null,
+      "commitment_made_by_user": null,
+      "commitment_is_conditional": false,
+      "commitment_condition": null,
+      "superseded_by_message_id": null,
+      "notes": "Cancellation of CAL6 — same uid, sequence bumped to 1, status CANCELLED."
+    }
+  },
+  {
+    "id": "e40f18c2e4b60008",
+    "thread_id": "e40f18c2e4b60008",
+    "profile_id": "consulting",
+    "history_id": "723880",
+    "message_id_header": "<e40f18c2e4b60008@google.com>",
+    "in_reply_to": null,
+    "references": [],
+    "thread_position": 1,
+    "thread_length": 1,
+    "from": {
+      "name": "Google Calendar",
+      "email": "calendar-notification@google.com"
+    },
+    "sender": null,
+    "reply_to": null,
+    "to": [
+      {
+        "name": "Evelyn Thorne",
+        "email": "evelyn.thorne@thornecadwell.com"
+      }
+    ],
+    "cc": [],
+    "bcc": [],
+    "delivered_to": "evelyn.thorne@thornecadwell.com",
+    "subject": "Invitation: On-site Plant Visit — Meridian Castings @ Tue Jul 14",
+    "snippet": "You have been invited to the following event. On-site Plant Visit — Meridian Castings Tue Jul 14, 2026 Where: Meridian Castings — Elkhart Plant, 4400 Industrial Pkwy, Elkhart, IN C",
+    "body_text": "You have been invited to the following event.\n\nOn-site Plant Visit — Meridian Castings\nTue Jul 14, 2026\n\nWhere: Meridian Castings — Elkhart Plant, 4400 Industrial Pkwy, Elkhart, IN\n\nCalendar: evelyn.thorne@thornecadwell.com\nWho:\n* evelyn.thorne@thornecadwell.com - organizer\n* bob.vandergriff@meridiancastings.com\n* kyle.brenner@thornecadwell.com\n* fiona.dunne@thornecadwell.com\n\nGoing (evelyn.thorne@thornecadwell.com)?  Yes - Maybe - No\n\nmore options »\n\nInvitation from Google Calendar",
+    "body_html": null,
+    "date": "2026-07-07T09:00:00-05:00",
+    "internal_date_ms": 1783432800000,
+    "folder": "INBOX",
+    "category": "CATEGORY_UPDATES",
+    "is_unread": false,
+    "is_starred": false,
+    "is_important": true,
+    "user_labels": [],
+    "attachments": [
+      {
+        "attachment_id": "ANGjdJ_aHXJ-NXC3Eqr4Mzhj4BXTbkPUR85nbbL-0MgIeqqLDQ",
+        "filename": "invite.ics",
+        "mime_type": "text/calendar",
+        "size_bytes": 1192,
+        "is_inline": false,
+        "content_id": null,
+        "extracted_text": "BEGIN:VCALENDAR\r\nPRODID:-//Google Inc//Google Calendar 70.9054//EN\r\nVERSION:2.0\r\nCALSCALE:GREGORIAN\r\nMETHOD:REQUEST\r\nBEGIN:VEVENT\r\nUID:964637712cb085cbc6c513e1@google.com\r\nDTSTAMP:20260714T000000Z\r\nDTSTART;TZID=America/Chicago:20260714T000000\r\nDTEND;TZID=America/Chicago:20260715T000000\r\nSEQUENCE:0\r\nSTATUS:CONFIRMED\r\nSUMMARY:On-site Plant Visit — Meridian Castings\r\nTRANSP:OPAQUE\r\nLOCATION:Meridian Castings — Elkhart Plant, 4400 Industrial Pkwy, Elkhart, IN\r\nDESCRIPTION:On-site walkthrough of the Elkhart line for the Phase 2 inventory workstream — floor observation, cycle counts, and stakeholder interviews with plant supervisors.\r\nORGANIZER;CN=Evelyn Thorne:mailto:evelyn.thorne@thornecadwell.com\r\nATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=NEEDS-ACTION;RSVP=TRUE;CN=Bob Vandergriff;X-NUM-GUESTS=0:mailto:bob.vandergriff@meridiancastings.com\r\nATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=NEEDS-ACTION;RSVP=TRUE;CN=Kyle Brenner;X-NUM-GUESTS=0:mailto:kyle.brenner@thornecadwell.com\r\nATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=NEEDS-ACTION;RSVP=TRUE;CN=Fiona Dunne;X-NUM-GUESTS=0:mailto:fiona.dunne@thornecadwell.com\r\nEND:VEVENT\r\nEND:VCALENDAR"
+      }
+    ],
+    "calendar_event": {
+      "uid": "964637712cb085cbc6c513e1@google.com",
+      "method": "REQUEST",
+      "sequence": 0,
+      "summary": "On-site Plant Visit — Meridian Castings",
+      "description": "On-site walkthrough of the Elkhart line for the Phase 2 inventory workstream — floor observation, cycle counts, and stakeholder interviews with plant supervisors.",
+      "location": "Meridian Castings — Elkhart Plant, 4400 Industrial Pkwy, Elkhart, IN",
+      "conference_url": null,
+      "organizer": {
+        "name": "Evelyn Thorne",
+        "email": "evelyn.thorne@thornecadwell.com"
+      },
+      "attendees": [
+        {
+          "email": "bob.vandergriff@meridiancastings.com",
+          "name": "Bob Vandergriff",
+          "role": "REQ-PARTICIPANT",
+          "partstat": "NEEDS-ACTION",
+          "rsvp": true
+        },
+        {
+          "email": "kyle.brenner@thornecadwell.com",
+          "name": "Kyle Brenner",
+          "role": "REQ-PARTICIPANT",
+          "partstat": "NEEDS-ACTION",
+          "rsvp": true
+        },
+        {
+          "email": "fiona.dunne@thornecadwell.com",
+          "name": "Fiona Dunne",
+          "role": "REQ-PARTICIPANT",
+          "partstat": "NEEDS-ACTION",
+          "rsvp": true
+        }
+      ],
+      "dtstart": "2026-07-14T00:00:00-05:00",
+      "dtend": "2026-07-15T00:00:00-05:00",
+      "timezone": "America/Chicago",
+      "all_day": true,
+      "rrule": null,
+      "status": "CONFIRMED"
+    },
+    "extra_headers": {},
+    "size_estimate": 2689,
+    "meta": {
+      "email_class": "calendar",
+      "tricky_tags": [],
+      "is_actionable_for_user": false,
+      "action_owner": null,
+      "action_summary": null,
+      "due_date": null,
+      "commitment_made_by_user": null,
+      "commitment_is_conditional": false,
+      "commitment_condition": null,
+      "superseded_by_message_id": null,
+      "notes": "All-day on-site event at Meridian's Elkhart plant."
+    }
+  },
+  {
+    "id": "e40f18c2e4b60009",
+    "thread_id": "e40f18c2e4b60009",
+    "profile_id": "consulting",
+    "history_id": "752830",
+    "message_id_header": "<e40f18c2e4b60009@google.com>",
+    "in_reply_to": null,
+    "references": [],
+    "thread_position": 1,
+    "thread_length": 1,
+    "from": {
+      "name": "Google Calendar",
+      "email": "calendar-notification@google.com"
+    },
+    "sender": null,
+    "reply_to": null,
+    "to": [
+      {
+        "name": "Evelyn Thorne",
+        "email": "evelyn.thorne@thornecadwell.com"
+      }
+    ],
+    "cc": [],
+    "bcc": [],
+    "delivered_to": "evelyn.thorne@thornecadwell.com",
+    "subject": "Invitation: AME Great Lakes — Speaker Prep Call @ Thu Jul 30, 3pm – 3:30pm (CDT)",
+    "snippet": "You have been invited to the following event. AME Great Lakes — Speaker Prep Call Thu Jul 30, 2026 ⋅ 3:00 – 3:30pm, Central Time Where: Zoom (https://ame-greatlakes.zoom.us/j/22019",
+    "body_text": "You have been invited to the following event.\n\nAME Great Lakes — Speaker Prep Call\nThu Jul 30, 2026 ⋅ 3:00 – 3:30pm, Central Time\n\nWhere: Zoom (https://ame-greatlakes.zoom.us/j/2201984455)\n\nCalendar: evelyn.thorne@thornecadwell.com\nWho:\n* programs@ame-greatlakes.org - organizer\n* evelyn.thorne@thornecadwell.com\n\nGoing (evelyn.thorne@thornecadwell.com)?  Yes - Maybe - No\n\nmore options »\n\nInvitation from Google Calendar",
+    "body_html": null,
+    "date": "2026-07-27T11:30:00-05:00",
+    "internal_date_ms": 1785169800000,
+    "folder": "INBOX",
+    "category": "CATEGORY_UPDATES",
+    "is_unread": false,
+    "is_starred": false,
+    "is_important": false,
+    "user_labels": [],
+    "attachments": [
+      {
+        "attachment_id": "ANGjdJ_iYr8vDPdoMQP4DG0PLAT9wCM_ug5PIfgf7ZfxLW1h-E",
+        "filename": "invite.ics",
+        "mime_type": "text/calendar",
+        "size_bytes": 852,
+        "is_inline": false,
+        "content_id": null,
+        "extracted_text": "BEGIN:VCALENDAR\r\nPRODID:-//Google Inc//Google Calendar 70.9054//EN\r\nVERSION:2.0\r\nCALSCALE:GREGORIAN\r\nMETHOD:REQUEST\r\nBEGIN:VEVENT\r\nUID:7dde881f685b9ddd387f4f71@google.com\r\nDTSTAMP:20260730T150000Z\r\nDTSTART;TZID=America/Chicago:20260730T150000\r\nDTEND;TZID=America/Chicago:20260730T153000\r\nSEQUENCE:0\r\nSTATUS:CONFIRMED\r\nSUMMARY:AME Great Lakes — Speaker Prep Call\r\nTRANSP:OPAQUE\r\nLOCATION:Zoom (https://ame-greatlakes.zoom.us/j/2201984455)\r\nDESCRIPTION:Quick prep call ahead of your session at the AME Great Lakes Regional Conference (Sept 16-18, Rosemont) — confirming AV needs, session title, and bio blurb.\r\nORGANIZER;CN=Denise Okoro:mailto:programs@ame-greatlakes.org\r\nATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=NEEDS-ACTION;RSVP=TRUE;CN=Evelyn Thorne;X-NUM-GUESTS=0:mailto:evelyn.thorne@thornecadwell.com\r\nEND:VEVENT\r\nEND:VCALENDAR"
+      }
+    ],
+    "calendar_event": {
+      "uid": "7dde881f685b9ddd387f4f71@google.com",
+      "method": "REQUEST",
+      "sequence": 0,
+      "summary": "AME Great Lakes — Speaker Prep Call",
+      "description": "Quick prep call ahead of your session at the AME Great Lakes Regional Conference (Sept 16-18, Rosemont) — confirming AV needs, session title, and bio blurb.",
+      "location": "Zoom (https://ame-greatlakes.zoom.us/j/2201984455)",
+      "conference_url": "https://ame-greatlakes.zoom.us/j/2201984455",
+      "organizer": {
+        "name": "Denise Okoro",
+        "email": "programs@ame-greatlakes.org"
+      },
+      "attendees": [
+        {
+          "email": "evelyn.thorne@thornecadwell.com",
+          "name": "Evelyn Thorne",
+          "role": "REQ-PARTICIPANT",
+          "partstat": "NEEDS-ACTION",
+          "rsvp": true
+        }
+      ],
+      "dtstart": "2026-07-30T15:00:00-05:00",
+      "dtend": "2026-07-30T15:30:00-05:00",
+      "timezone": "America/Chicago",
+      "all_day": false,
+      "rrule": null,
+      "status": "CONFIRMED"
+    },
+    "extra_headers": {},
+    "size_estimate": 2169,
+    "meta": {
+      "email_class": "calendar",
+      "tricky_tags": [],
+      "is_actionable_for_user": false,
+      "action_owner": null,
+      "action_summary": null,
+      "due_date": null,
+      "commitment_made_by_user": null,
+      "commitment_is_conditional": false,
+      "commitment_condition": null,
+      "superseded_by_message_id": null,
+      "notes": "Prep call for Evelyn's AME conference speaking slot."
+    }
+  },
+  {
+    "id": "e40f18c2e4b60010",
+    "thread_id": "e40f18c2e4b60010",
+    "profile_id": "consulting",
+    "history_id": "764190",
+    "message_id_header": "<e40f18c2e4b60010@google.com>",
+    "in_reply_to": null,
+    "references": [],
+    "thread_position": 1,
+    "thread_length": 1,
+    "from": {
+      "name": "Google Calendar",
+      "email": "calendar-notification@google.com"
+    },
+    "sender": null,
+    "reply_to": null,
+    "to": [
+      {
+        "name": "Evelyn Thorne",
+        "email": "evelyn.thorne@thornecadwell.com"
+      }
+    ],
+    "cc": [],
+    "bcc": [],
+    "delivered_to": "evelyn.thorne@thornecadwell.com",
+    "subject": "Invitation: Anil Bose — Data Model Sync (Meridian Predictive Maintenance) @ Thu Aug 6, 9am – 9:45am (CDT)",
+    "snippet": "You have been invited to the following event. Anil Bose — Data Model Sync (Meridian Predictive Maintenance) Thu Aug 6, 2026 ⋅ 9:00 – 9:45am, Central Time Where: Zoom (https://thorn",
+    "body_text": "You have been invited to the following event.\n\nAnil Bose — Data Model Sync (Meridian Predictive Maintenance)\nThu Aug 6, 2026 ⋅ 9:00 – 9:45am, Central Time\n\nWhere: Zoom (https://thornecadwell.zoom.us/j/8834021156)\n\nCalendar: evelyn.thorne@thornecadwell.com\nWho:\n* evelyn.thorne@thornecadwell.com - organizer\n* anil.bose@bosequant.com\n* kyle.brenner@thornecadwell.com\n\nGoing (evelyn.thorne@thornecadwell.com)?  Yes - Maybe - No\n\nmore options »\n\nInvitation from Google Calendar",
+    "body_html": null,
+    "date": "2026-08-04T08:50:00-05:00",
+    "internal_date_ms": 1785851400000,
+    "folder": "INBOX",
+    "category": "CATEGORY_UPDATES",
+    "is_unread": true,
+    "is_starred": false,
+    "is_important": false,
+    "user_labels": [],
+    "attachments": [
+      {
+        "attachment_id": "ANGjdJ_xZG4ZFWwMJelX0UOE6_B_DwugnxW3xPgTeDp86L7bPk",
+        "filename": "invite.ics",
+        "mime_type": "text/calendar",
+        "size_bytes": 1004,
+        "is_inline": false,
+        "content_id": null,
+        "extracted_text": "BEGIN:VCALENDAR\r\nPRODID:-//Google Inc//Google Calendar 70.9054//EN\r\nVERSION:2.0\r\nCALSCALE:GREGORIAN\r\nMETHOD:REQUEST\r\nBEGIN:VEVENT\r\nUID:b910f1e6f8baa218018ec33f@google.com\r\nDTSTAMP:20260806T090000Z\r\nDTSTART;TZID=America/Chicago:20260806T090000\r\nDTEND;TZID=America/Chicago:20260806T094500\r\nSEQUENCE:0\r\nSTATUS:CONFIRMED\r\nSUMMARY:Anil Bose — Data Model Sync (Meridian Predictive Maintenance)\r\nTRANSP:OPAQUE\r\nLOCATION:Zoom (https://thornecadwell.zoom.us/j/8834021156)\r\nDESCRIPTION:Sync on the predictive-maintenance data model for Meridian — review feature set against the July sensor pull before we brief Bob's team.\r\nORGANIZER;CN=Evelyn Thorne:mailto:evelyn.thorne@thornecadwell.com\r\nATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=NEEDS-ACTION;RSVP=TRUE;CN=Dr. Anil Bose;X-NUM-GUESTS=0:mailto:anil.bose@bosequant.com\r\nATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=NEEDS-ACTION;RSVP=TRUE;CN=Kyle Brenner;X-NUM-GUESTS=0:mailto:kyle.brenner@thornecadwell.com\r\nEND:VEVENT\r\nEND:VCALENDAR"
+      }
+    ],
+    "calendar_event": {
+      "uid": "b910f1e6f8baa218018ec33f@google.com",
+      "method": "REQUEST",
+      "sequence": 0,
+      "summary": "Anil Bose — Data Model Sync (Meridian Predictive Maintenance)",
+      "description": "Sync on the predictive-maintenance data model for Meridian — review feature set against the July sensor pull before we brief Bob's team.",
+      "location": "Zoom (https://thornecadwell.zoom.us/j/8834021156)",
+      "conference_url": "https://thornecadwell.zoom.us/j/8834021156",
+      "organizer": {
+        "name": "Evelyn Thorne",
+        "email": "evelyn.thorne@thornecadwell.com"
+      },
+      "attendees": [
+        {
+          "email": "anil.bose@bosequant.com",
+          "name": "Dr. Anil Bose",
+          "role": "REQ-PARTICIPANT",
+          "partstat": "NEEDS-ACTION",
+          "rsvp": true
+        },
+        {
+          "email": "kyle.brenner@thornecadwell.com",
+          "name": "Kyle Brenner",
+          "role": "REQ-PARTICIPANT",
+          "partstat": "NEEDS-ACTION",
+          "rsvp": true
+        }
+      ],
+      "dtstart": "2026-08-06T09:00:00-05:00",
+      "dtend": "2026-08-06T09:45:00-05:00",
+      "timezone": "America/Chicago",
+      "all_day": false,
+      "rrule": null,
+      "status": "CONFIRMED"
+    },
+    "extra_headers": {},
+    "size_estimate": 2426,
+    "meta": {
+      "email_class": "calendar",
+      "tricky_tags": [],
+      "is_actionable_for_user": false,
+      "action_owner": null,
+      "action_summary": null,
+      "due_date": null,
+      "commitment_made_by_user": null,
+      "commitment_is_conditional": false,
+      "commitment_condition": null,
+      "superseded_by_message_id": null,
+      "notes": null
+    }
+  },
+  {
+    "id": "e40f18c2e4b60011",
+    "thread_id": "e40f18c2e4b60011",
+    "profile_id": "consulting",
+    "history_id": "758515",
+    "message_id_header": "<e40f18c2e4b60011@google.com>",
+    "in_reply_to": null,
+    "references": [],
+    "thread_position": 1,
+    "thread_length": 1,
+    "from": {
+      "name": "Google Calendar",
+      "email": "calendar-notification@google.com"
+    },
+    "sender": null,
+    "reply_to": null,
+    "to": [
+      {
+        "name": "Evelyn Thorne",
+        "email": "evelyn.thorne@thornecadwell.com"
+      }
+    ],
+    "cc": [],
+    "bcc": [],
+    "delivered_to": "evelyn.thorne@thornecadwell.com",
+    "subject": "Invitation: Interview: Senior Consultant Candidate — Onsite Panel (Devin Marsh) @ Wed Aug 5, 9am – 12pm (CDT)",
+    "snippet": "You have been invited to the following event. Interview: Senior Consultant Candidate — Onsite Panel (Devin Marsh) Wed Aug 5, 2026 ⋅ 9:00am – 12:00pm, Central Time Where: Thorne & C",
+    "body_text": "You have been invited to the following event.\n\nInterview: Senior Consultant Candidate — Onsite Panel (Devin Marsh)\nWed Aug 5, 2026 ⋅ 9:00am – 12:00pm, Central Time\n\nWhere: Thorne & Cadwell — Main Conference Room\n\nCalendar: evelyn.thorne@thornecadwell.com\nWho:\n* ana.restrepo@thornecadwell.com - organizer\n* evelyn.thorne@thornecadwell.com\n* gordon.cadwell@thornecadwell.com\n* kyle.brenner@thornecadwell.com\n\nGoing (evelyn.thorne@thornecadwell.com)?  Yes - Maybe - No\n\nmore options »\n\nInvitation from Google Calendar",
+    "body_html": null,
+    "date": "2026-07-31T10:15:00-05:00",
+    "internal_date_ms": 1785510900000,
+    "folder": "INBOX",
+    "category": "CATEGORY_UPDATES",
+    "is_unread": true,
+    "is_starred": false,
+    "is_important": true,
+    "user_labels": [
+      "Label_7753"
+    ],
+    "attachments": [
+      {
+        "attachment_id": "ANGjdJ_JmeO4-RrK_Ay7IFDISoIlk8CSH3umvEnVs3_6kRTQks",
+        "filename": "invite.ics",
+        "mime_type": "text/calendar",
+        "size_bytes": 1196,
+        "is_inline": false,
+        "content_id": null,
+        "extracted_text": "BEGIN:VCALENDAR\r\nPRODID:-//Google Inc//Google Calendar 70.9054//EN\r\nVERSION:2.0\r\nCALSCALE:GREGORIAN\r\nMETHOD:REQUEST\r\nBEGIN:VEVENT\r\nUID:657a83da62eb9825dcb1cf55@google.com\r\nDTSTAMP:20260805T090000Z\r\nDTSTART;TZID=America/Chicago:20260805T090000\r\nDTEND;TZID=America/Chicago:20260805T120000\r\nSEQUENCE:0\r\nSTATUS:CONFIRMED\r\nSUMMARY:Interview: Senior Consultant Candidate — Onsite Panel (Devin Marsh)\r\nTRANSP:OPAQUE\r\nLOCATION:Thorne & Cadwell — Main Conference Room\r\nDESCRIPTION:Onsite interview loop for Devin Marsh (referred by Rich Delacroix at Summit Exec Search) — targeting the open Senior Consultant seat. Panel: 30 min each, debrief last 30.\r\nORGANIZER;CN=Ana Restrepo:mailto:ana.restrepo@thornecadwell.com\r\nATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=NEEDS-ACTION;RSVP=TRUE;CN=Evelyn Thorne;X-NUM-GUESTS=0:mailto:evelyn.thorne@thornecadwell.com\r\nATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=NEEDS-ACTION;RSVP=TRUE;CN=Gordon Cadwell;X-NUM-GUESTS=0:mailto:gordon.cadwell@thornecadwell.com\r\nATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=NEEDS-ACTION;RSVP=TRUE;CN=Kyle Brenner;X-NUM-GUESTS=0:mailto:kyle.brenner@thornecadwell.com\r\nEND:VEVENT\r\nEND:VCALENDAR"
+      }
+    ],
+    "calendar_event": {
+      "uid": "657a83da62eb9825dcb1cf55@google.com",
+      "method": "REQUEST",
+      "sequence": 0,
+      "summary": "Interview: Senior Consultant Candidate — Onsite Panel (Devin Marsh)",
+      "description": "Onsite interview loop for Devin Marsh (referred by Rich Delacroix at Summit Exec Search) — targeting the open Senior Consultant seat. Panel: 30 min each, debrief last 30.",
+      "location": "Thorne & Cadwell — Main Conference Room",
+      "conference_url": null,
+      "organizer": {
+        "name": "Ana Restrepo",
+        "email": "ana.restrepo@thornecadwell.com"
+      },
+      "attendees": [
+        {
+          "email": "evelyn.thorne@thornecadwell.com",
+          "name": "Evelyn Thorne",
+          "role": "REQ-PARTICIPANT",
+          "partstat": "NEEDS-ACTION",
+          "rsvp": true
+        },
+        {
+          "email": "gordon.cadwell@thornecadwell.com",
+          "name": "Gordon Cadwell",
+          "role": "REQ-PARTICIPANT",
+          "partstat": "NEEDS-ACTION",
+          "rsvp": true
+        },
+        {
+          "email": "kyle.brenner@thornecadwell.com",
+          "name": "Kyle Brenner",
+          "role": "REQ-PARTICIPANT",
+          "partstat": "NEEDS-ACTION",
+          "rsvp": true
+        }
+      ],
+      "dtstart": "2026-08-05T09:00:00-05:00",
+      "dtend": "2026-08-05T12:00:00-05:00",
+      "timezone": "America/Chicago",
+      "all_day": false,
+      "rrule": null,
+      "status": "CONFIRMED"
+    },
+    "extra_headers": {},
+    "size_estimate": 2726,
+    "meta": {
+      "email_class": "calendar",
+      "tricky_tags": [],
+      "is_actionable_for_user": false,
+      "action_owner": null,
+      "action_summary": null,
+      "due_date": null,
+      "commitment_made_by_user": null,
+      "commitment_is_conditional": false,
+      "commitment_condition": null,
+      "superseded_by_message_id": null,
+      "notes": "Onsite panel for the firm's fifth-consultant hire."
+    }
+  },
+  {
+    "id": "e40f18c2e4b60012",
+    "thread_id": "e40f18c2e4b60012",
+    "profile_id": "consulting",
+    "history_id": "717000",
+    "message_id_header": "<e40f18c2e4b60012@google.com>",
+    "in_reply_to": null,
+    "references": [],
+    "thread_position": 1,
+    "thread_length": 1,
+    "from": {
+      "name": "Google Calendar",
+      "email": "calendar-notification@google.com"
+    },
+    "sender": null,
+    "reply_to": null,
+    "to": [
+      {
+        "name": "Evelyn Thorne",
+        "email": "evelyn.thorne@thornecadwell.com"
+      }
+    ],
+    "cc": [],
+    "bcc": [],
+    "delivered_to": "evelyn.thorne@thornecadwell.com",
+    "subject": "Accepted: Meridian Castings — Phase 2 Steering Committee Kickoff @ Wed Jul 8, 10am – 11am (CDT)",
+    "snippet": "Bob Vandergriff has accepted this invitation. Meridian Castings — Phase 2 Steering Committee Kickoff Wed Jul 8, 2026 ⋅ 10:00 – 11:00am, Central Time Where: Zoom (https://thornecadw",
+    "body_text": "Bob Vandergriff has accepted this invitation.\n\nMeridian Castings — Phase 2 Steering Committee Kickoff\nWed Jul 8, 2026 ⋅ 10:00 – 11:00am, Central Time\n\nWhere: Zoom (https://thornecadwell.zoom.us/j/8823140092)\n\nCalendar: evelyn.thorne@thornecadwell.com\n\nmore options »\n\nInvitation from Google Calendar\n\nYou are receiving this email because you are the organizer of this event, and bob.vandergriff@meridiancastings.com has responded.",
+    "body_html": null,
+    "date": "2026-07-02T14:20:00-05:00",
+    "internal_date_ms": 1783020000000,
+    "folder": "INBOX",
+    "category": "CATEGORY_UPDATES",
+    "is_unread": false,
+    "is_starred": false,
+    "is_important": false,
+    "user_labels": [],
+    "attachments": [
+      {
+        "attachment_id": "ANGjdJ_qAWxlS1MQRGHbD73gWfP6bBzmJ_Y3wG24lVkvby9jRE",
+        "filename": "invite.ics",
+        "mime_type": "text/calendar",
+        "size_bytes": 896,
+        "is_inline": false,
+        "content_id": null,
+        "extracted_text": "BEGIN:VCALENDAR\r\nPRODID:-//Google Inc//Google Calendar 70.9054//EN\r\nVERSION:2.0\r\nCALSCALE:GREGORIAN\r\nMETHOD:REPLY\r\nBEGIN:VEVENT\r\nUID:8a84ff57f312d7b89b387674@google.com\r\nDTSTAMP:20260708T100000Z\r\nDTSTART;TZID=America/Chicago:20260708T100000\r\nDTEND;TZID=America/Chicago:20260708T110000\r\nSEQUENCE:0\r\nSTATUS:CONFIRMED\r\nSUMMARY:Meridian Castings — Phase 2 Steering Committee Kickoff\r\nTRANSP:OPAQUE\r\nLOCATION:Zoom (https://thornecadwell.zoom.us/j/8823140092)\r\nDESCRIPTION:Kickoff for the Meridian Castings Phase 2 engagement — inventory optimization workstream. Agenda: scope confirmation, steering committee cadence, data access for Anil's model.\r\nORGANIZER;CN=Evelyn Thorne:mailto:evelyn.thorne@thornecadwell.com\r\nATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=ACCEPTED;RSVP=FALSE;CN=Bob Vandergriff;X-NUM-GUESTS=0:mailto:bob.vandergriff@meridiancastings.com\r\nEND:VEVENT\r\nEND:VCALENDAR"
+      }
+    ],
+    "calendar_event": {
+      "uid": "8a84ff57f312d7b89b387674@google.com",
+      "method": "REPLY",
+      "sequence": 0,
+      "summary": "Meridian Castings — Phase 2 Steering Committee Kickoff",
+      "description": "Kickoff for the Meridian Castings Phase 2 engagement — inventory optimization workstream. Agenda: scope confirmation, steering committee cadence, data access for Anil's model.",
+      "location": "Zoom (https://thornecadwell.zoom.us/j/8823140092)",
+      "conference_url": "https://thornecadwell.zoom.us/j/8823140092",
+      "organizer": {
+        "name": "Evelyn Thorne",
+        "email": "evelyn.thorne@thornecadwell.com"
+      },
+      "attendees": [
+        {
+          "email": "bob.vandergriff@meridiancastings.com",
+          "name": "Bob Vandergriff",
+          "role": "REQ-PARTICIPANT",
+          "partstat": "ACCEPTED",
+          "rsvp": false
+        }
+      ],
+      "dtstart": "2026-07-08T10:00:00-05:00",
+      "dtend": "2026-07-08T11:00:00-05:00",
+      "timezone": "America/Chicago",
+      "all_day": false,
+      "rrule": null,
+      "status": "CONFIRMED"
+    },
+    "extra_headers": {},
+    "size_estimate": 2237,
+    "meta": {
+      "email_class": "calendar",
+      "tricky_tags": [],
+      "is_actionable_for_user": false,
+      "action_owner": null,
+      "action_summary": null,
+      "due_date": null,
+      "commitment_made_by_user": null,
+      "commitment_is_conditional": false,
+      "commitment_condition": null,
+      "superseded_by_message_id": null,
+      "notes": null
+    }
+  },
+  {
+    "id": "e40f18c2e4b60013",
+    "thread_id": "e40f18c2e4b60013",
+    "profile_id": "consulting",
+    "history_id": "744045",
+    "message_id_header": "<e40f18c2e4b60013@google.com>",
+    "in_reply_to": null,
+    "references": [],
+    "thread_position": 1,
+    "thread_length": 1,
+    "from": {
+      "name": "Google Calendar",
+      "email": "calendar-notification@google.com"
+    },
+    "sender": null,
+    "reply_to": null,
+    "to": [
+      {
+        "name": "Evelyn Thorne",
+        "email": "evelyn.thorne@thornecadwell.com"
+      }
+    ],
+    "cc": [],
+    "bcc": [],
+    "delivered_to": "evelyn.thorne@thornecadwell.com",
+    "subject": "Accepted: Stratus Industrial — Proposal Readout @ Thu Jul 23, 10am – 11am (CDT)",
+    "snippet": "Owen McCabe has accepted this invitation. Stratus Industrial — Proposal Readout Thu Jul 23, 2026 ⋅ 10:00 – 11:00am, Central Time Where: Zoom (https://thornecadwell.zoom.us/j/889100",
+    "body_text": "Owen McCabe has accepted this invitation.\n\nStratus Industrial — Proposal Readout\nThu Jul 23, 2026 ⋅ 10:00 – 11:00am, Central Time\n\nWhere: Zoom (https://thornecadwell.zoom.us/j/8891002234)\n\nCalendar: evelyn.thorne@thornecadwell.com\n\nmore options »\n\nInvitation from Google Calendar\n\nYou are receiving this email because you are the organizer of this event, and omccabe@stratusindustrial.com has responded.",
+    "body_html": null,
+    "date": "2026-07-21T09:05:00-05:00",
+    "internal_date_ms": 1784642700000,
+    "folder": "INBOX",
+    "category": "CATEGORY_UPDATES",
+    "is_unread": false,
+    "is_starred": false,
+    "is_important": false,
+    "user_labels": [
+      "Label_7751"
+    ],
+    "attachments": [
+      {
+        "attachment_id": "ANGjdJ_NCEPM1Nfz-PDTboOzYUnlt7yV3kdFeDG4Xc_mhr129k",
+        "filename": "invite.ics",
+        "mime_type": "text/calendar",
+        "size_bytes": 801,
+        "is_inline": false,
+        "content_id": null,
+        "extracted_text": "BEGIN:VCALENDAR\r\nPRODID:-//Google Inc//Google Calendar 70.9054//EN\r\nVERSION:2.0\r\nCALSCALE:GREGORIAN\r\nMETHOD:REPLY\r\nBEGIN:VEVENT\r\nUID:da3f412854ecc79f98162648@google.com\r\nDTSTAMP:20260723T100000Z\r\nDTSTART;TZID=America/Chicago:20260723T100000\r\nDTEND;TZID=America/Chicago:20260723T110000\r\nSEQUENCE:1\r\nSTATUS:CONFIRMED\r\nSUMMARY:Stratus Industrial — Proposal Readout\r\nTRANSP:OPAQUE\r\nLOCATION:Zoom (https://thornecadwell.zoom.us/j/8891002234)\r\nDESCRIPTION:Moved a day later — Owen's team needed more time to review Q2 throughput numbers. Same deck, same Zoom link.\r\nORGANIZER;CN=Evelyn Thorne:mailto:evelyn.thorne@thornecadwell.com\r\nATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=ACCEPTED;RSVP=FALSE;CN=Owen McCabe;X-NUM-GUESTS=0:mailto:omccabe@stratusindustrial.com\r\nEND:VEVENT\r\nEND:VCALENDAR"
+      }
+    ],
+    "calendar_event": {
+      "uid": "da3f412854ecc79f98162648@google.com",
+      "method": "REPLY",
+      "sequence": 1,
+      "summary": "Stratus Industrial — Proposal Readout",
+      "description": "Moved a day later — Owen's team needed more time to review Q2 throughput numbers. Same deck, same Zoom link.",
+      "location": "Zoom (https://thornecadwell.zoom.us/j/8891002234)",
+      "conference_url": "https://thornecadwell.zoom.us/j/8891002234",
+      "organizer": {
+        "name": "Evelyn Thorne",
+        "email": "evelyn.thorne@thornecadwell.com"
+      },
+      "attendees": [
+        {
+          "email": "omccabe@stratusindustrial.com",
+          "name": "Owen McCabe",
+          "role": "REQ-PARTICIPANT",
+          "partstat": "ACCEPTED",
+          "rsvp": false
+        }
+      ],
+      "dtstart": "2026-07-23T10:00:00-05:00",
+      "dtend": "2026-07-23T11:00:00-05:00",
+      "timezone": "America/Chicago",
+      "all_day": false,
+      "rrule": null,
+      "status": "CONFIRMED"
+    },
+    "extra_headers": {},
+    "size_estimate": 2083,
+    "meta": {
+      "email_class": "calendar",
+      "tricky_tags": [],
+      "is_actionable_for_user": false,
+      "action_owner": null,
+      "action_summary": null,
+      "due_date": null,
+      "commitment_made_by_user": null,
+      "commitment_is_conditional": false,
+      "commitment_condition": null,
+      "superseded_by_message_id": null,
+      "notes": null
+    }
+  },
+  {
+    "id": "e40f18c2e4b60014",
+    "thread_id": "e40f18c2e4b60014",
+    "profile_id": "consulting",
+    "history_id": "749770",
+    "message_id_header": "<e40f18c2e4b60014@google.com>",
+    "in_reply_to": null,
+    "references": [],
+    "thread_position": 1,
+    "thread_length": 1,
+    "from": {
+      "name": "Google Calendar",
+      "email": "calendar-notification@google.com"
+    },
+    "sender": null,
+    "reply_to": null,
+    "to": [
+      {
+        "name": "Evelyn Thorne",
+        "email": "evelyn.thorne@thornecadwell.com"
+      }
+    ],
+    "cc": [],
+    "bcc": [],
+    "delivered_to": "evelyn.thorne@thornecadwell.com",
+    "subject": "Accepted: Halberd Packaging — Quarterly Business Review @ Wed Jul 29, 1pm – 2pm (CDT)",
+    "snippet": "Lucia Ferraro has accepted this invitation. Halberd Packaging — Quarterly Business Review Wed Jul 29, 2026 ⋅ 1:00 – 2:00pm, Central Time Where: Zoom (https://thornecadwell.zoom.us/",
+    "body_text": "Lucia Ferraro has accepted this invitation.\n\nHalberd Packaging — Quarterly Business Review\nWed Jul 29, 2026 ⋅ 1:00 – 2:00pm, Central Time\n\nWhere: Zoom (https://thornecadwell.zoom.us/j/8802213345)\n\nCalendar: evelyn.thorne@thornecadwell.com\n\nmore options »\n\nInvitation from Google Calendar\n\nYou are receiving this email because you are the organizer of this event, and l.ferraro@halberdpackaging.com has responded.",
+    "body_html": null,
+    "date": "2026-07-25T08:30:00-05:00",
+    "internal_date_ms": 1784986200000,
+    "folder": "INBOX",
+    "category": "CATEGORY_UPDATES",
+    "is_unread": false,
+    "is_starred": false,
+    "is_important": false,
+    "user_labels": [],
+    "attachments": [
+      {
+        "attachment_id": "ANGjdJ_6m4Rw-ZfrpAjtdHSRCHupS0hCfYU22w93aB55TjMEp8",
+        "filename": "invite.ics",
+        "mime_type": "text/calendar",
+        "size_bytes": 814,
+        "is_inline": false,
+        "content_id": null,
+        "extracted_text": "BEGIN:VCALENDAR\r\nPRODID:-//Google Inc//Google Calendar 70.9054//EN\r\nVERSION:2.0\r\nCALSCALE:GREGORIAN\r\nMETHOD:REPLY\r\nBEGIN:VEVENT\r\nUID:5f76a0455d43930144b85512@google.com\r\nDTSTAMP:20260729T130000Z\r\nDTSTART;TZID=America/Chicago:20260729T130000\r\nDTEND;TZID=America/Chicago:20260729T140000\r\nSEQUENCE:0\r\nSTATUS:CONFIRMED\r\nSUMMARY:Halberd Packaging — Quarterly Business Review\r\nTRANSP:OPAQUE\r\nLOCATION:Zoom (https://thornecadwell.zoom.us/j/8802213345)\r\nDESCRIPTION:Quarterly business review with Halberd Packaging — utilization, savings tracked to date, and Q3 scope options.\r\nORGANIZER;CN=Evelyn Thorne:mailto:evelyn.thorne@thornecadwell.com\r\nATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=ACCEPTED;RSVP=FALSE;CN=Lucia Ferraro;X-NUM-GUESTS=0:mailto:l.ferraro@halberdpackaging.com\r\nEND:VEVENT\r\nEND:VCALENDAR"
+      }
+    ],
+    "calendar_event": {
+      "uid": "5f76a0455d43930144b85512@google.com",
+      "method": "REPLY",
+      "sequence": 0,
+      "summary": "Halberd Packaging — Quarterly Business Review",
+      "description": "Quarterly business review with Halberd Packaging — utilization, savings tracked to date, and Q3 scope options.",
+      "location": "Zoom (https://thornecadwell.zoom.us/j/8802213345)",
+      "conference_url": "https://thornecadwell.zoom.us/j/8802213345",
+      "organizer": {
+        "name": "Evelyn Thorne",
+        "email": "evelyn.thorne@thornecadwell.com"
+      },
+      "attendees": [
+        {
+          "email": "l.ferraro@halberdpackaging.com",
+          "name": "Lucia Ferraro",
+          "role": "REQ-PARTICIPANT",
+          "partstat": "ACCEPTED",
+          "rsvp": false
+        }
+      ],
+      "dtstart": "2026-07-29T13:00:00-05:00",
+      "dtend": "2026-07-29T14:00:00-05:00",
+      "timezone": "America/Chicago",
+      "all_day": false,
+      "rrule": null,
+      "status": "CONFIRMED"
+    },
+    "extra_headers": {},
+    "size_estimate": 2109,
+    "meta": {
+      "email_class": "calendar",
+      "tricky_tags": [],
+      "is_actionable_for_user": false,
+      "action_owner": null,
+      "action_summary": null,
+      "due_date": null,
+      "commitment_made_by_user": null,
+      "commitment_is_conditional": false,
+      "commitment_condition": null,
+      "superseded_by_message_id": null,
+      "notes": null
+    }
+  },
+  {
+    "id": "e40f18c2e4b60015",
+    "thread_id": "e40f18c2e4b60015",
+    "profile_id": "consulting",
+    "history_id": "759890",
+    "message_id_header": "<e40f18c2e4b60015@google.com>",
+    "in_reply_to": null,
+    "references": [],
+    "thread_position": 1,
+    "thread_length": 1,
+    "from": {
+      "name": "Google Calendar",
+      "email": "calendar-notification@google.com"
+    },
+    "sender": null,
+    "reply_to": null,
+    "to": [
+      {
+        "name": "Evelyn Thorne",
+        "email": "evelyn.thorne@thornecadwell.com"
+      }
+    ],
+    "cc": [],
+    "bcc": [],
+    "delivered_to": "evelyn.thorne@thornecadwell.com",
+    "subject": "Accepted: Interview: Senior Consultant Candidate — Onsite Panel (Devin Marsh) @ Wed Aug 5, 9am – 12pm (CDT)",
+    "snippet": "Gordon Cadwell has accepted this invitation. Interview: Senior Consultant Candidate — Onsite Panel (Devin Marsh) Wed Aug 5, 2026 ⋅ 9:00am – 12:00pm, Central Time Where: Thorne & Ca",
+    "body_text": "Gordon Cadwell has accepted this invitation.\n\nInterview: Senior Consultant Candidate — Onsite Panel (Devin Marsh)\nWed Aug 5, 2026 ⋅ 9:00am – 12:00pm, Central Time\n\nWhere: Thorne & Cadwell — Main Conference Room\n\nCalendar: evelyn.thorne@thornecadwell.com\n\nmore options »\n\nInvitation from Google Calendar\n\nYou are receiving this email because you are an attendee on this event, and gordon.cadwell@thornecadwell.com has responded.",
+    "body_html": null,
+    "date": "2026-08-01T09:10:00-05:00",
+    "internal_date_ms": 1785593400000,
+    "folder": "INBOX",
+    "category": "CATEGORY_UPDATES",
+    "is_unread": true,
+    "is_starred": false,
+    "is_important": false,
+    "user_labels": [],
+    "attachments": [
+      {
+        "attachment_id": "ANGjdJ_8UmOYJ19IoaBHD8HtEC_AGHFMgGIFZ7t2zNCIDAKu7Y",
+        "filename": "invite.ics",
+        "mime_type": "text/calendar",
+        "size_bytes": 889,
+        "is_inline": false,
+        "content_id": null,
+        "extracted_text": "BEGIN:VCALENDAR\r\nPRODID:-//Google Inc//Google Calendar 70.9054//EN\r\nVERSION:2.0\r\nCALSCALE:GREGORIAN\r\nMETHOD:REPLY\r\nBEGIN:VEVENT\r\nUID:657a83da62eb9825dcb1cf55@google.com\r\nDTSTAMP:20260805T090000Z\r\nDTSTART;TZID=America/Chicago:20260805T090000\r\nDTEND;TZID=America/Chicago:20260805T120000\r\nSEQUENCE:0\r\nSTATUS:CONFIRMED\r\nSUMMARY:Interview: Senior Consultant Candidate — Onsite Panel (Devin Marsh)\r\nTRANSP:OPAQUE\r\nLOCATION:Thorne & Cadwell — Main Conference Room\r\nDESCRIPTION:Onsite interview loop for Devin Marsh (referred by Rich Delacroix at Summit Exec Search) — targeting the open Senior Consultant seat. Panel: 30 min each, debrief last 30.\r\nORGANIZER;CN=Ana Restrepo:mailto:ana.restrepo@thornecadwell.com\r\nATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=ACCEPTED;RSVP=FALSE;CN=Gordon Cadwell;X-NUM-GUESTS=0:mailto:gordon.cadwell@thornecadwell.com\r\nEND:VEVENT\r\nEND:VCALENDAR"
+      }
+    ],
+    "calendar_event": {
+      "uid": "657a83da62eb9825dcb1cf55@google.com",
+      "method": "REPLY",
+      "sequence": 0,
+      "summary": "Interview: Senior Consultant Candidate — Onsite Panel (Devin Marsh)",
+      "description": "Onsite interview loop for Devin Marsh (referred by Rich Delacroix at Summit Exec Search) — targeting the open Senior Consultant seat. Panel: 30 min each, debrief last 30.",
+      "location": "Thorne & Cadwell — Main Conference Room",
+      "conference_url": null,
+      "organizer": {
+        "name": "Ana Restrepo",
+        "email": "ana.restrepo@thornecadwell.com"
+      },
+      "attendees": [
+        {
+          "email": "gordon.cadwell@thornecadwell.com",
+          "name": "Gordon Cadwell",
+          "role": "REQ-PARTICIPANT",
+          "partstat": "ACCEPTED",
+          "rsvp": false
+        }
+      ],
+      "dtstart": "2026-08-05T09:00:00-05:00",
+      "dtend": "2026-08-05T12:00:00-05:00",
+      "timezone": "America/Chicago",
+      "all_day": false,
+      "rrule": null,
+      "status": "CONFIRMED"
+    },
+    "extra_headers": {},
+    "size_estimate": 2227,
+    "meta": {
+      "email_class": "calendar",
+      "tricky_tags": [],
+      "is_actionable_for_user": false,
+      "action_owner": null,
+      "action_summary": null,
+      "due_date": null,
+      "commitment_made_by_user": null,
+      "commitment_is_conditional": false,
+      "commitment_condition": null,
+      "superseded_by_message_id": null,
+      "notes": null
+    }
+  },
+  {
+    "id": "e40f18c2e4b60016",
+    "thread_id": "e40f18c2e4b60016",
+    "profile_id": "consulting",
+    "history_id": "759830",
+    "message_id_header": "<e40f18c2e4b60016@notification.intuit.com>",
+    "in_reply_to": null,
+    "references": [],
+    "thread_position": 1,
+    "thread_length": 1,
+    "from": {
+      "name": "QuickBooks",
+      "email": "quickbooks@notification.intuit.com"
+    },
+    "sender": null,
+    "reply_to": null,
+    "to": [
+      {
+        "name": "Evelyn Thorne",
+        "email": "evelyn.thorne@thornecadwell.com"
+      }
+    ],
+    "cc": [],
+    "bcc": [],
+    "delivered_to": "evelyn.thorne@thornecadwell.com",
+    "subject": "Invoice #1092 was sent to Meridian Castings LLC",
+    "snippet": "Your invoice was sent. Invoice #1092 for $24,600.00 was emailed to bob.vandergriff@meridiancastings.com on Aug 1, 2026. Customer: Meridian Castings LLC Invoice date: Aug 1, 2026 Du",
+    "body_text": "Your invoice was sent.\n\nInvoice #1092 for $24,600.00 was emailed to bob.vandergriff@meridiancastings.com on Aug 1, 2026.\n\nCustomer: Meridian Castings LLC\nInvoice date: Aug 1, 2026\nDue date: Aug 31, 2026\nAmount: $24,600.00\n\nView invoice: https://qbo.intuit.com/app/invoice?txnId=1092\n\n— The QuickBooks Team",
+    "body_html": "<div style=\"font-family:Arial,Helvetica,sans-serif;font-size:14px;color:#222222;max-width:600px;margin:0 auto;padding:16px;line-height:1.5;\"><h2 style=\"color:#2ca01c;margin-top:0;\">Invoice sent</h2><p>Invoice <strong>#1092</strong> for <strong>$24,600.00</strong> was emailed to bob.vandergriff@meridiancastings.com on Aug 1, 2026.</p><table style=\"width:100%;border-collapse:collapse;font-size:13px;\"><tr><td style=\"padding:4px 0;color:#666;\">Customer</td><td>Meridian Castings LLC</td></tr><tr><td style=\"padding:4px 0;color:#666;\">Due date</td><td>Aug 31, 2026</td></tr><tr><td style=\"padding:4px 0;color:#666;\">Amount</td><td>$24,600.00</td></tr></table><p style=\"margin-top:16px;\"><a href=\"https://qbo.intuit.com/app/invoice?txnId=1092\" style=\"background:#2ca01c;color:#fff;padding:8px 14px;text-decoration:none;border-radius:4px;\">View invoice</a></p></div>",
+    "date": "2026-08-01T08:10:00-05:00",
+    "internal_date_ms": 1785589800000,
+    "folder": "INBOX",
+    "category": "CATEGORY_UPDATES",
+    "is_unread": false,
+    "is_starred": false,
+    "is_important": false,
+    "user_labels": [
+      "Label_7752"
+    ],
+    "attachments": [],
+    "calendar_event": null,
+    "extra_headers": {},
+    "size_estimate": 1770,
+    "meta": {
+      "email_class": "automated_notification",
+      "tricky_tags": [],
+      "is_actionable_for_user": false,
+      "action_owner": null,
+      "action_summary": null,
+      "due_date": null,
+      "commitment_made_by_user": null,
+      "commitment_is_conditional": false,
+      "commitment_condition": null,
+      "superseded_by_message_id": null,
+      "notes": "Routine invoice-sent confirmation from QuickBooks."
+    }
+  },
+  {
+    "id": "e40f18c2e4b60017",
+    "thread_id": "e40f18c2e4b60017",
+    "profile_id": "consulting",
+    "history_id": "742912",
+    "message_id_header": "<e40f18c2e4b60017@notification.intuit.com>",
+    "in_reply_to": null,
+    "references": [],
+    "thread_position": 1,
+    "thread_length": 1,
+    "from": {
+      "name": "QuickBooks",
+      "email": "quickbooks@notification.intuit.com"
+    },
+    "sender": null,
+    "reply_to": null,
+    "to": [
+      {
+        "name": "Evelyn Thorne",
+        "email": "evelyn.thorne@thornecadwell.com"
+      }
+    ],
+    "cc": [],
+    "bcc": [],
+    "delivered_to": "evelyn.thorne@thornecadwell.com",
+    "subject": "Payment received: $18,400.00 from Halberd Packaging",
+    "snippet": "You've received a payment of $18,400.00 from Halberd Packaging Inc. for Invoice #1071.",
+    "body_text": "You've received a payment of $18,400.00 from Halberd Packaging Inc. for Invoice #1071.",
+    "body_html": "<div style=\"font-family:Arial,Helvetica,sans-serif;font-size:14px;color:#222222;max-width:600px;margin:0 auto;padding:16px;line-height:1.5;\"><h2 style=\"color:#2ca01c;margin-top:0;\">Payment received</h2><p>$18,400.00 from Halberd Packaging Inc. — Invoice #1071.</p></div>",
+    "date": "2026-07-20T14:12:00-05:00",
+    "internal_date_ms": 1784574720000,
+    "folder": "INBOX",
+    "category": "CATEGORY_UPDATES",
+    "is_unread": false,
+    "is_starred": false,
+    "is_important": false,
+    "user_labels": [],
+    "attachments": [],
+    "calendar_event": null,
+    "extra_headers": {},
+    "size_estimate": 958,
+    "meta": {
+      "email_class": "automated_notification",
+      "tricky_tags": [],
+      "is_actionable_for_user": false,
+      "action_owner": null,
+      "action_summary": null,
+      "due_date": null,
+      "commitment_made_by_user": null,
+      "commitment_is_conditional": false,
+      "commitment_condition": null,
+      "superseded_by_message_id": null,
+      "notes": null
+    }
+  },
+  {
+    "id": "e40f18c2e4b60018",
+    "thread_id": "e40f18c2e4b60018",
+    "profile_id": "consulting",
+    "history_id": "772795",
+    "message_id_header": "<e40f18c2e4b60018@notification.intuit.com>",
+    "in_reply_to": null,
+    "references": [],
+    "thread_position": 1,
+    "thread_length": 1,
+    "from": {
+      "name": "QuickBooks",
+      "email": "quickbooks@notification.intuit.com"
+    },
+    "sender": null,
+    "reply_to": null,
+    "to": [
+      {
+        "name": "Evelyn Thorne",
+        "email": "evelyn.thorne@thornecadwell.com"
+      }
+    ],
+    "cc": [
+      {
+        "name": "Sheila Park",
+        "email": "sheila.park@thornecadwell.com"
+      }
+    ],
+    "bcc": [],
+    "delivered_to": "evelyn.thorne@thornecadwell.com",
+    "subject": "Invoice #0987 is 90 days past due — Ridgefield Mfg",
+    "snippet": "Invoice #0987 is now 90 days past due. Customer: Ridgefield Mfg Invoice date: May 12, 2026 Original due date: May 12, 2026 Amount due: $9,750.00 Days overdue: 90 This is the third ",
+    "body_text": "Invoice #0987 is now 90 days past due.\n\nCustomer: Ridgefield Mfg\nInvoice date: May 12, 2026\nOriginal due date: May 12, 2026\nAmount due: $9,750.00\nDays overdue: 90\n\nThis is the third automated reminder for this invoice. No response has been logged from the customer contact on file (marta.klein@ridgefieldmfg.com). Consider escalating to collections or applying a finance charge per your terms.\n\nSend reminder: https://qbo.intuit.com/app/invoice?txnId=0987\n\n— The QuickBooks Team",
+    "body_html": "<div style=\"font-family:Arial,Helvetica,sans-serif;font-size:14px;color:#222222;max-width:600px;margin:0 auto;padding:16px;line-height:1.5;\"><h2 style=\"color:#c0392b;margin-top:0;\">Invoice 90 days past due</h2><p>Invoice <strong>#0987</strong> — Ridgefield Mfg — <strong>$9,750.00</strong>, due May 12, 2026.</p><p style=\"color:#c0392b;font-weight:bold;\">90 days overdue. Third automated reminder.</p><p style=\"margin-top:16px;\"><a href=\"https://qbo.intuit.com/app/invoice?txnId=0987\" style=\"background:#c0392b;color:#fff;padding:8px 14px;text-decoration:none;border-radius:4px;\">Send reminder</a></p></div>",
+    "date": "2026-08-10T08:15:00-05:00",
+    "internal_date_ms": 1786367700000,
+    "folder": "INBOX",
+    "category": "CATEGORY_UPDATES",
+    "is_unread": true,
+    "is_starred": true,
+    "is_important": true,
+    "user_labels": [
+      "Label_7752"
+    ],
+    "attachments": [],
+    "calendar_event": null,
+    "extra_headers": {},
+    "size_estimate": 1691,
+    "meta": {
+      "email_class": "automated_notification",
+      "tricky_tags": [],
+      "is_actionable_for_user": true,
+      "action_owner": "evelyn.thorne@thornecadwell.com",
+      "action_summary": "Decide whether to escalate the 90-day-overdue Ridgefield invoice to collections.",
+      "due_date": null,
+      "commitment_made_by_user": null,
+      "commitment_is_conditional": false,
+      "commitment_condition": null,
+      "superseded_by_message_id": null,
+      "notes": "Third automated QuickBooks reminder on the 90-day-overdue Ridgefield collections storyline."
+    }
+  },
+  {
+    "id": "e40f18c2e4b60019",
+    "thread_id": "e40f18c2e4b60019",
+    "profile_id": "consulting",
+    "history_id": "699340",
+    "message_id_header": "<e40f18c2e4b60019@harvestapp.com>",
+    "in_reply_to": null,
+    "references": [],
+    "thread_position": 1,
+    "thread_length": 1,
+    "from": {
+      "name": "Harvest",
+      "email": "notifications@harvestapp.com"
+    },
+    "sender": null,
+    "reply_to": null,
+    "to": [
+      {
+        "name": "Evelyn Thorne",
+        "email": "evelyn.thorne@thornecadwell.com"
+      }
+    ],
+    "cc": [],
+    "bcc": [],
+    "delivered_to": "evelyn.thorne@thornecadwell.com",
+    "subject": "Missing timesheet: week of Jun 15–19",
+    "snippet": "You haven't submitted a timesheet for the week of Jun 15–19. Please log your hours.",
+    "body_text": "You haven't submitted a timesheet for the week of Jun 15–19. Please log your hours.",
+    "body_html": "<div style=\"font-family:Arial,Helvetica,sans-serif;font-size:14px;color:#222222;max-width:600px;margin:0 auto;padding:16px;line-height:1.5;\"><p style=\"margin:0;\">You haven't submitted a timesheet for the week of <strong>Jun 15–19</strong>. Please log your hours.</p></div>",
+    "date": "2026-06-20T08:00:00-05:00",
+    "internal_date_ms": 1781960400000,
+    "folder": "INBOX",
+    "category": "CATEGORY_UPDATES",
+    "is_unread": false,
+    "is_starred": false,
+    "is_important": false,
+    "user_labels": [],
+    "attachments": [],
+    "calendar_event": null,
+    "extra_headers": {},
+    "size_estimate": 959,
+    "meta": {
+      "email_class": "automated_notification",
+      "tricky_tags": [],
+      "is_actionable_for_user": false,
+      "action_owner": null,
+      "action_summary": null,
+      "due_date": null,
+      "commitment_made_by_user": null,
+      "commitment_is_conditional": false,
+      "commitment_condition": null,
+      "superseded_by_message_id": null,
+      "notes": null
+    }
+  },
+  {
+    "id": "e40f18c2e4b60020",
+    "thread_id": "e40f18c2e4b60020",
+    "profile_id": "consulting",
+    "history_id": "752625",
+    "message_id_header": "<e40f18c2e4b60020@harvestapp.com>",
+    "in_reply_to": null,
+    "references": [],
+    "thread_position": 1,
+    "thread_length": 1,
+    "from": {
+      "name": "Harvest",
+      "email": "notifications@harvestapp.com"
+    },
+    "sender": null,
+    "reply_to": null,
+    "to": [
+      {
+        "name": "Evelyn Thorne",
+        "email": "evelyn.thorne@thornecadwell.com"
+      }
+    ],
+    "cc": [],
+    "bcc": [],
+    "delivered_to": "evelyn.thorne@thornecadwell.com",
+    "subject": "2 team members have unsubmitted time — week of Jul 20–24",
+    "snippet": "2 team members have unsubmitted time for the week of Jul 20–24: Kyle Brenner, Fiona Dunne. As the account owner, you can send a reminder or lock the timesheet. Send reminder: https",
+    "body_text": "2 team members have unsubmitted time for the week of Jul 20–24: Kyle Brenner, Fiona Dunne. As the account owner, you can send a reminder or lock the timesheet.\n\nSend reminder: https://thornecadwell.harvestapp.com/team",
+    "body_html": "<div style=\"font-family:Arial,Helvetica,sans-serif;font-size:14px;color:#222222;max-width:600px;margin:0 auto;padding:16px;line-height:1.5;\"><p>2 team members have unsubmitted time for the week of <strong>Jul 20–24</strong>:</p><ul><li>Kyle Brenner</li><li>Fiona Dunne</li></ul><p><a href=\"https://thornecadwell.harvestapp.com/team\" style=\"color:#fa5d00;\">Send reminder →</a></p></div>",
+    "date": "2026-07-27T08:05:00-05:00",
+    "internal_date_ms": 1785157500000,
+    "folder": "INBOX",
+    "category": "CATEGORY_UPDATES",
+    "is_unread": false,
+    "is_starred": false,
+    "is_important": false,
+    "user_labels": [],
+    "attachments": [],
+    "calendar_event": null,
+    "extra_headers": {},
+    "size_estimate": 1208,
+    "meta": {
+      "email_class": "automated_notification",
+      "tricky_tags": [],
+      "is_actionable_for_user": true,
+      "action_owner": "evelyn.thorne@thornecadwell.com",
+      "action_summary": "Send Harvest reminder to Kyle and Fiona for missing timesheets, or lock the week.",
+      "due_date": null,
+      "commitment_made_by_user": null,
+      "commitment_is_conditional": false,
+      "commitment_condition": null,
+      "superseded_by_message_id": null,
+      "notes": null
+    }
+  },
+  {
+    "id": "e40f18c2e4b60021",
+    "thread_id": "e40f18c2e4b60021",
+    "profile_id": "consulting",
+    "history_id": "739810",
+    "message_id_header": "<e40f18c2e4b60021@docusign.net>",
+    "in_reply_to": null,
+    "references": [],
+    "thread_position": 1,
+    "thread_length": 1,
+    "from": {
+      "name": "DocuSign",
+      "email": "dse@docusign.net"
+    },
+    "sender": null,
+    "reply_to": null,
+    "to": [
+      {
+        "name": "Evelyn Thorne",
+        "email": "evelyn.thorne@thornecadwell.com"
+      }
+    ],
+    "cc": [],
+    "bcc": [],
+    "delivered_to": "evelyn.thorne@thornecadwell.com",
+    "subject": "Please DocuSign: Meridian Castings — Phase 2 SOW",
+    "snippet": "Evelyn Thorne, Gordon Cadwell sent you a document to review and sign: \"Meridian Castings — Phase 2 SOW — Countersignature.pdf\" Thorne & Cadwell Advisory has agreed to the Phase 2 s",
+    "body_text": "Evelyn Thorne,\n\nGordon Cadwell sent you a document to review and sign: \"Meridian Castings — Phase 2 SOW — Countersignature.pdf\"\n\nThorne & Cadwell Advisory has agreed to the Phase 2 statement of work with Meridian Castings LLC ($186,000, Aug 15 – Dec 19). Bob Vandergriff has already signed on Meridian's behalf. Please review and countersign to activate the engagement.\n\nReview Document: https://www.docusign.net/Signing/StartInSession.aspx?sid=e40f18-1092\n\nDo Not Share This Email\nThis email contains a secure link to DocuSign. Please do not share this email, link, or access code with others.",
+    "body_html": "<div style=\"font-family:Arial,Helvetica,sans-serif;font-size:14px;color:#222222;max-width:600px;margin:0 auto;padding:16px;line-height:1.5;\"><p>Gordon Cadwell sent you a document to review and sign:</p><p style=\"font-weight:bold;\">Meridian Castings — Phase 2 SOW — Countersignature.pdf</p><p>$186,000 · Aug 15 – Dec 19, 2026. Bob Vandergriff has already signed for Meridian.</p><p><a href=\"https://www.docusign.net/Signing/StartInSession.aspx?sid=e40f18-1092\" style=\"background:#ffcc22;color:#111;padding:10px 18px;text-decoration:none;border-radius:4px;font-weight:bold;\">REVIEW DOCUMENT</a></p></div>",
+    "date": "2026-07-18T10:30:00-05:00",
+    "internal_date_ms": 1784388600000,
+    "folder": "INBOX",
+    "category": "CATEGORY_UPDATES",
+    "is_unread": false,
+    "is_starred": true,
+    "is_important": true,
+    "user_labels": [
+      "Label_7752"
+    ],
+    "attachments": [],
+    "calendar_event": null,
+    "extra_headers": {},
+    "size_estimate": 1809,
+    "meta": {
+      "email_class": "legal_compliance",
+      "tricky_tags": [],
+      "is_actionable_for_user": true,
+      "action_owner": "evelyn.thorne@thornecadwell.com",
+      "action_summary": "Countersign the Meridian Phase 2 SOW in DocuSign to activate the engagement.",
+      "due_date": "2026-07-25",
+      "commitment_made_by_user": null,
+      "commitment_is_conditional": false,
+      "commitment_condition": null,
+      "superseded_by_message_id": null,
+      "notes": null
+    }
+  },
+  {
+    "id": "e40f18c2e4b60022",
+    "thread_id": "e40f18c2e4b60022",
+    "profile_id": "consulting",
+    "history_id": "736960",
+    "message_id_header": "<e40f18c2e4b60022@docusign.net>",
+    "in_reply_to": null,
+    "references": [],
+    "thread_position": 1,
+    "thread_length": 1,
+    "from": {
+      "name": "DocuSign",
+      "email": "dse@docusign.net"
+    },
+    "sender": null,
+    "reply_to": null,
+    "to": [
+      {
+        "name": "Evelyn Thorne",
+        "email": "evelyn.thorne@thornecadwell.com"
+      }
+    ],
+    "cc": [],
+    "bcc": [],
+    "delivered_to": "evelyn.thorne@thornecadwell.com",
+    "subject": "Please DocuSign: Stratus Industrial — Mutual NDA",
+    "snippet": "Evelyn Thorne, Owen McCabe sent you a document to review and sign: \"Stratus Industrial — Mutual NDA.pdf\" Review Document: https://www.docusign.net/Signing/StartInSession.aspx?sid=e",
+    "body_text": "Evelyn Thorne,\n\nOwen McCabe sent you a document to review and sign: \"Stratus Industrial — Mutual NDA.pdf\"\n\nReview Document: https://www.docusign.net/Signing/StartInSession.aspx?sid=e40f18-2201\n\nDo Not Share This Email\nThis email contains a secure link to DocuSign.",
+    "body_html": "<div style=\"font-family:Arial,Helvetica,sans-serif;font-size:14px;color:#222222;max-width:600px;margin:0 auto;padding:16px;line-height:1.5;\"><p>Owen McCabe sent you a document to review and sign:</p><p style=\"font-weight:bold;\">Stratus Industrial — Mutual NDA.pdf</p><p><a href=\"https://www.docusign.net/Signing/StartInSession.aspx?sid=e40f18-2201\" style=\"background:#ffcc22;color:#111;padding:10px 18px;text-decoration:none;border-radius:4px;font-weight:bold;\">REVIEW DOCUMENT</a></p></div>",
+    "date": "2026-07-16T11:00:00-05:00",
+    "internal_date_ms": 1784217600000,
+    "folder": "INBOX",
+    "category": "CATEGORY_UPDATES",
+    "is_unread": false,
+    "is_starred": false,
+    "is_important": false,
+    "user_labels": [],
+    "attachments": [],
+    "calendar_event": null,
+    "extra_headers": {},
+    "size_estimate": 1359,
+    "meta": {
+      "email_class": "legal_compliance",
+      "tricky_tags": [],
+      "is_actionable_for_user": true,
+      "action_owner": "evelyn.thorne@thornecadwell.com",
+      "action_summary": "Sign the mutual NDA with Stratus Industrial before proposal work proceeds.",
+      "due_date": null,
+      "commitment_made_by_user": null,
+      "commitment_is_conditional": false,
+      "commitment_condition": null,
+      "superseded_by_message_id": null,
+      "notes": null
+    }
+  },
+  {
+    "id": "e40f18c2e4b60023",
+    "thread_id": "e40f18c2e4b60023",
+    "profile_id": "consulting",
+    "history_id": "726745",
+    "message_id_header": "<e40f18c2e4b60023@zoom.us>",
+    "in_reply_to": null,
+    "references": [],
+    "thread_position": 1,
+    "thread_length": 1,
+    "from": {
+      "name": "Zoom",
+      "email": "no-reply@zoom.us"
+    },
+    "sender": null,
+    "reply_to": null,
+    "to": [
+      {
+        "name": "Evelyn Thorne",
+        "email": "evelyn.thorne@thornecadwell.com"
+      }
+    ],
+    "cc": [],
+    "bcc": [],
+    "delivered_to": "evelyn.thorne@thornecadwell.com",
+    "subject": "Cloud Recording — Meridian Castings — Phase 2 Steering Committee Kickoff",
+    "snippet": "Hi Evelyn, Your cloud recording for \"Meridian Castings — Phase 2 Steering Committee Kickoff\" is now available. Meeting: Meridian Castings — Phase 2 Steering Committee Kickoff Date:",
+    "body_text": "Hi Evelyn,\n\nYour cloud recording for \"Meridian Castings — Phase 2 Steering Committee Kickoff\" is now available.\n\nMeeting: Meridian Castings — Phase 2 Steering Committee Kickoff\nDate: Jul 8, 2026, 10:00 AM Central Time\nDuration: 58 minutes\nParticipants: Evelyn Thorne, Bob Vandergriff, Gordon Cadwell\n\nAI Companion Summary\n\nOverview: The team kicked off the Phase 2 engagement with Meridian Castings, covering scope confirmation, the inventory optimization workstream, steering committee cadence, and data access needed for the predictive-maintenance model.\n\nKey discussion points:\n- Bob confirmed Meridian's ERP export can be automated on a weekly cadence starting the week of Jul 20, pending IT sign-off from their systems administrator.\n- Gordon walked through the Phase 2 workplan: inventory optimization (Aug–Sep), predictive maintenance pilot on the Elkhart line (Sep–Oct), and a rollout recommendation memo in November.\n- Bob raised a concern about the fixed-fee structure given how much ground the SOW covers; Evelyn agreed to review actual hours against budget at the 6-week mark and flag early if the team is trending over.\n- The group agreed on a standing steering committee cadence: last Wednesday of each month, 45 minutes, Bob plus one member of his ops team.\n- Anil Bose will need read access to 12 months of sensor logs from the Elkhart line; Bob to coordinate with his IT director on a secure transfer method (SFTP preferred over email).\n- Gordon flagged that the current statement of work does not explicitly cover travel expenses for on-site visits; the group agreed this should be clarified in a short addendum before the first site visit on Jul 14.\n\nAction items:\n1. Gordon to draft the travel-expense addendum and circulate to Bob by Jul 10.\n2. Bob to loop in Meridian's IT director on the ERP export automation and sensor-log access.\n3. Evelyn to confirm the Jul 14 on-site visit logistics with Bob's plant manager.\n4. Anil to send Bob's team a one-page data spec describing exactly what sensor fields are needed.\n5. Sheila to set up the recurring steering committee invite (last Wednesday of each month) once Bob confirms his ops-team delegate.\n6. Evelyn to update the internal engagement tracker with the confirmed milestone dates so Ana and Kyle can plan staffing around the Sep pilot.\n\nAdditional context from the discussion: Bob mentioned Meridian's board is watching this engagement closely after a disappointing Q1, and that visible early wins — even something as small as a clean weekly ERP feed — would help him build internal momentum for a possible Phase 3 scope covering the Toledo facility. Gordon cautioned against over-promising on the November rollout memo until the sensor data quality from the Elkhart line has been validated; the group agreed to treat the November date as a target rather than a commitment until after the first data pull. Evelyn closed the call by confirming she'd bring a short risk summary to the first steering committee meeting so Bob has something concrete to share upward.\n\nNext meeting: Jul 14 (on-site plant visit), then the standing steering committee starting late July.\n\nView or download the recording (available for 90 days):\nhttps://thornecadwell.zoom.us/rec/share/e40f18c2e4b60023-meridian-kickoff\n\nPasscode: 8!kR2q\n\nThis automated message was sent by Zoom Cloud Recording. If you did not expect this recording, please contact your Zoom account admin.",
+    "body_html": "<div style=\"font-family:Arial,Helvetica,sans-serif;font-size:14px;color:#222222;max-width:600px;margin:0 auto;padding:16px;line-height:1.5;\"><h2 style=\"margin-top:0;\">Cloud recording is ready</h2><p><strong>Meridian Castings — Phase 2 Steering Committee Kickoff</strong><br>Jul 8, 2026 · 58 minutes</p><p><a href=\"https://thornecadwell.zoom.us/rec/share/e40f18c2e4b60023-meridian-kickoff\" style=\"background:#2d8cff;color:#fff;padding:8px 14px;text-decoration:none;border-radius:4px;\">View recording</a> &nbsp; Passcode: 8!kR2q</p><p style=\"color:#666;font-size:12px;\">AI Companion summary and full transcript included in the recording page. Available for 90 days.</p></div>",
+    "date": "2026-07-09T08:45:00-05:00",
+    "internal_date_ms": 1783604700000,
+    "folder": "INBOX",
+    "category": "CATEGORY_UPDATES",
+    "is_unread": false,
+    "is_starred": false,
+    "is_important": false,
+    "user_labels": [],
+    "attachments": [],
+    "calendar_event": null,
+    "extra_headers": {},
+    "size_estimate": 4712,
+    "meta": {
+      "email_class": "automated_notification",
+      "tricky_tags": [],
+      "is_actionable_for_user": false,
+      "action_owner": null,
+      "action_summary": null,
+      "due_date": null,
+      "commitment_made_by_user": null,
+      "commitment_is_conditional": false,
+      "commitment_condition": null,
+      "superseded_by_message_id": null,
+      "notes": "Long-form Zoom AI Companion recap of the Meridian kickoff."
+    }
+  },
+  {
+    "id": "e40f18c2e4b60024",
+    "thread_id": "e40f18c2e4b60024",
+    "profile_id": "consulting",
+    "history_id": "748375",
+    "message_id_header": "<e40f18c2e4b60024@zoom.us>",
+    "in_reply_to": null,
+    "references": [],
+    "thread_position": 1,
+    "thread_length": 1,
+    "from": {
+      "name": "Zoom",
+      "email": "no-reply@zoom.us"
+    },
+    "sender": null,
+    "reply_to": null,
+    "to": [
+      {
+        "name": "Evelyn Thorne",
+        "email": "evelyn.thorne@thornecadwell.com"
+      }
+    ],
+    "cc": [],
+    "bcc": [],
+    "delivered_to": "evelyn.thorne@thornecadwell.com",
+    "subject": "Cloud Recording — Stratus Industrial — Proposal Readout",
+    "snippet": "Hi Evelyn, Your cloud recording for \"Stratus Industrial — Proposal Readout\" is now available. Meeting: Stratus Industrial — Proposal Readout Date: Jul 23, 2026, 10:00 AM Central Ti",
+    "body_text": "Hi Evelyn,\n\nYour cloud recording for \"Stratus Industrial — Proposal Readout\" is now available.\n\nMeeting: Stratus Industrial — Proposal Readout\nDate: Jul 23, 2026, 10:00 AM Central Time\nDuration: 51 minutes\nParticipants: Evelyn Thorne, Owen McCabe, Ana Restrepo\n\nAI Companion Summary\n\nOverview: Ana walked Owen McCabe through the supply-chain diagnostic findings from the four-week assessment and presented the phase-1 proposal for Stratus Industrial's distribution network redesign.\n\nKey discussion points:\n- The diagnostic identified $2.1M in annual freight and warehousing inefficiency across Stratus's three regional distribution centers, driven mainly by overlapping service territories.\n- Ana proposed a phase-1 scope: a 10-week network optimization study covering demand modeling, facility footprint analysis, and a phased consolidation recommendation, priced at $210,000.\n- Owen pushed back on the 10-week timeline, noting Stratus's board meets Sep 30 and he'd like preliminary findings in hand before then; Ana agreed to explore compressing the modeling phase.\n- Owen asked whether the fee could be structured with a smaller upfront deposit given Stratus is mid-way through a separate ERP migration this quarter; Evelyn offered a 30/40/30 payment split tied to milestones instead of the standard 50/50.\n- Owen flagged that his VP of Finance, not currently on this call, will need to sign off before a contract is executed; he estimated a decision within two weeks.\n- Ana noted Thorne & Cadwell has capacity to start the week of Aug 10 if Stratus signs by Aug 5.\n\nAction items:\n1. Ana to send a revised proposal reflecting the compressed 8-week timeline and milestone-based payment terms by Jul 27.\n2. Owen to route the revised proposal to his VP of Finance and target a decision by Aug 5.\n3. Evelyn to hold the week-of-Aug-10 start date on the team's calendar pending signature.\n4. Ana to loop Kyle in on staffing so he can plan around the compressed timeline if Stratus signs.\n\nAdditional context from the discussion: Owen was candid that Stratus's board has grown impatient with logistics costs after two straight quarters of margin compression, and that a credible phase-1 story — even directional numbers — would strengthen his case for a larger phase-2 engagement next year covering procurement as well as distribution. Ana noted that the $2.1M inefficiency figure is a conservative estimate built only from the three DCs with clean WMS data; Stratus's fourth facility in Joliet was excluded because its systems weren't accessible during the diagnostic, and Owen agreed to try to get that resolved before the engagement starts so the full network can be modeled. Owen also asked, somewhat informally, whether Thorne & Cadwell had done similar network studies for competitors in the same vertical; Evelyn was careful to keep the answer general, citing confidentiality obligations from prior engagements without naming any client. The call ended on a positive note, with Owen saying he'd push internally for a fast answer given the board timeline.\n\nNext steps: Owen to confirm internal sign-off; no meeting currently scheduled pending that decision.\n\nView or download the recording (available for 90 days):\nhttps://thornecadwell.zoom.us/rec/share/e40f18c2e4b60024-stratus-readout\n\nPasscode: 4#nW9t\n\nThis automated message was sent by Zoom Cloud Recording.",
+    "body_html": "<div style=\"font-family:Arial,Helvetica,sans-serif;font-size:14px;color:#222222;max-width:600px;margin:0 auto;padding:16px;line-height:1.5;\"><h2 style=\"margin-top:0;\">Cloud recording is ready</h2><p><strong>Stratus Industrial — Proposal Readout</strong><br>Jul 23, 2026 · 51 minutes</p><p><a href=\"https://thornecadwell.zoom.us/rec/share/e40f18c2e4b60024-stratus-readout\" style=\"background:#2d8cff;color:#fff;padding:8px 14px;text-decoration:none;border-radius:4px;\">View recording</a> &nbsp; Passcode: 4#nW9t</p><p style=\"color:#666;font-size:12px;\">AI Companion summary and full transcript included in the recording page. Available for 90 days.</p></div>",
+    "date": "2026-07-24T09:15:00-05:00",
+    "internal_date_ms": 1784902500000,
+    "folder": "INBOX",
+    "category": "CATEGORY_UPDATES",
+    "is_unread": false,
+    "is_starred": false,
+    "is_important": true,
+    "user_labels": [],
+    "attachments": [],
+    "calendar_event": null,
+    "extra_headers": {},
+    "size_estimate": 4633,
+    "meta": {
+      "email_class": "automated_notification",
+      "tricky_tags": [],
+      "is_actionable_for_user": false,
+      "action_owner": null,
+      "action_summary": null,
+      "due_date": null,
+      "commitment_made_by_user": null,
+      "commitment_is_conditional": false,
+      "commitment_condition": null,
+      "superseded_by_message_id": null,
+      "notes": "Long-form Zoom AI Companion recap of the Stratus proposal readout; VP Finance sign-off pending."
+    }
+  },
+  {
+    "id": "e40f18c2e4b60025",
+    "thread_id": "e40f18c2e4b60025",
+    "profile_id": "consulting",
+    "history_id": "765560",
+    "message_id_header": "<e40f18c2e4b60025@linkedin.com>",
+    "in_reply_to": null,
+    "references": [],
+    "thread_position": 1,
+    "thread_length": 1,
+    "from": {
+      "name": "LinkedIn",
+      "email": "notifications-noreply@linkedin.com"
+    },
+    "sender": null,
+    "reply_to": null,
+    "to": [
+      {
+        "name": "Evelyn Thorne",
+        "email": "evelyn.thorne@thornecadwell.com"
+      }
+    ],
+    "cc": [],
+    "bcc": [],
+    "delivered_to": "evelyn.thorne@thornecadwell.com",
+    "subject": "Bob Vandergriff viewed your profile",
+    "snippet": "Bob Vandergriff viewed your profile. See who else has viewed your profile with Premium.",
+    "body_text": "Bob Vandergriff viewed your profile. See who else has viewed your profile with Premium.",
+    "body_html": "<div style=\"font-family:Arial,Helvetica,sans-serif;font-size:14px;color:#222222;max-width:600px;margin:0 auto;padding:16px;line-height:1.5;\"><p style=\"margin:0;\"><strong>Bob Vandergriff</strong> viewed your profile.</p></div>",
+    "date": "2026-08-05T07:40:00-05:00",
+    "internal_date_ms": 1785933600000,
+    "folder": "INBOX",
+    "category": "CATEGORY_SOCIAL",
+    "is_unread": false,
+    "is_starred": false,
+    "is_important": false,
+    "user_labels": [],
+    "attachments": [],
+    "calendar_event": null,
+    "extra_headers": {},
+    "size_estimate": 912,
+    "meta": {
+      "email_class": "social",
+      "tricky_tags": [],
+      "is_actionable_for_user": false,
+      "action_owner": null,
+      "action_summary": null,
+      "due_date": null,
+      "commitment_made_by_user": null,
+      "commitment_is_conditional": false,
+      "commitment_condition": null,
+      "superseded_by_message_id": null,
+      "notes": null
+    }
+  },
+  {
+    "id": "e40f18c2e4b60026",
+    "thread_id": "e40f18c2e4b60026",
+    "profile_id": "consulting",
+    "history_id": "755490",
+    "message_id_header": "<e40f18c2e4b60026@linkedin.com>",
+    "in_reply_to": null,
+    "references": [],
+    "thread_position": 1,
+    "thread_length": 1,
+    "from": {
+      "name": "LinkedIn",
+      "email": "notifications-noreply@linkedin.com"
+    },
+    "sender": null,
+    "reply_to": null,
+    "to": [
+      {
+        "name": "Evelyn Thorne",
+        "email": "evelyn.thorne@thornecadwell.com"
+      }
+    ],
+    "cc": [],
+    "bcc": [],
+    "delivered_to": "evelyn.thorne@thornecadwell.com",
+    "subject": "Your post is getting attention — 42 reactions",
+    "snippet": "Your post about manufacturing operations has 42 reactions and 8 comments. See who's engaging.",
+    "body_text": "Your post about manufacturing operations has 42 reactions and 8 comments. See who's engaging.",
+    "body_html": "<div style=\"font-family:Arial,Helvetica,sans-serif;font-size:14px;color:#222222;max-width:600px;margin:0 auto;padding:16px;line-height:1.5;\"><p style=\"margin:0;\">Your post has <strong>42 reactions</strong> and <strong>8 comments</strong>.</p></div>",
+    "date": "2026-07-29T07:50:00-05:00",
+    "internal_date_ms": 1785329400000,
+    "folder": "INBOX",
+    "category": "CATEGORY_SOCIAL",
+    "is_unread": false,
+    "is_starred": false,
+    "is_important": false,
+    "user_labels": [],
+    "attachments": [],
+    "calendar_event": null,
+    "extra_headers": {},
+    "size_estimate": 941,
+    "meta": {
+      "email_class": "social",
+      "tricky_tags": [],
+      "is_actionable_for_user": false,
+      "action_owner": null,
+      "action_summary": null,
+      "due_date": null,
+      "commitment_made_by_user": null,
+      "commitment_is_conditional": false,
+      "commitment_condition": null,
+      "superseded_by_message_id": null,
+      "notes": null
+    }
+  },
+  {
+    "id": "e40f18c2e4b60027",
+    "thread_id": "e40f18c2e4b60027",
+    "profile_id": "consulting",
+    "history_id": "771250",
+    "message_id_header": "<e40f18c2e4b60027@google.com>",
+    "in_reply_to": null,
+    "references": [],
+    "thread_position": 1,
+    "thread_length": 1,
+    "from": {
+      "name": "Google Workspace",
+      "email": "workspace-noreply@google.com"
+    },
+    "sender": null,
+    "reply_to": null,
+    "to": [
+      {
+        "name": "Evelyn Thorne",
+        "email": "evelyn.thorne@thornecadwell.com"
+      }
+    ],
+    "cc": [],
+    "bcc": [],
+    "delivered_to": "evelyn.thorne@thornecadwell.com",
+    "subject": "thornecadwell.com is running low on storage",
+    "snippet": "Your organization thornecadwell.com is running low on storage. You're currently using 92% of your 30 GB pooled storage across Gmail, Drive, and Photos for your organization. Once y",
+    "body_text": "Your organization thornecadwell.com is running low on storage.\n\nYou're currently using 92% of your 30 GB pooled storage across Gmail, Drive, and Photos for your organization. Once you reach 100%, users may not be able to send or receive email or upload files to Drive.\n\nAs the account owner, consider upgrading your Google Workspace storage plan or asking users to delete large attachments and old files.\n\nManage storage: https://admin.google.com/ac/storage",
+    "body_html": "<div style=\"font-family:Arial,Helvetica,sans-serif;font-size:14px;color:#222222;max-width:600px;margin:0 auto;padding:16px;line-height:1.5;\"><h2 style=\"margin-top:0;color:#d93025;\">Storage 92% full</h2><p>thornecadwell.com is using <strong>92%</strong> of its 30 GB pooled storage.</p><p><a href=\"https://admin.google.com/ac/storage\" style=\"color:#1a73e8;\">Manage storage →</a></p></div>",
+    "date": "2026-08-09T06:30:00-05:00",
+    "internal_date_ms": 1786275000000,
+    "folder": "INBOX",
+    "category": "CATEGORY_UPDATES",
+    "is_unread": true,
+    "is_starred": false,
+    "is_important": false,
+    "user_labels": [],
+    "attachments": [],
+    "calendar_event": null,
+    "extra_headers": {},
+    "size_estimate": 1446,
+    "meta": {
+      "email_class": "automated_notification",
+      "tricky_tags": [],
+      "is_actionable_for_user": false,
+      "action_owner": null,
+      "action_summary": null,
+      "due_date": null,
+      "commitment_made_by_user": null,
+      "commitment_is_conditional": false,
+      "commitment_condition": null,
+      "superseded_by_message_id": null,
+      "notes": null
+    }
+  },
+  {
+    "id": "e40f18c2e4b60028",
+    "thread_id": "e40f18c2e4b60028",
+    "profile_id": "consulting",
+    "history_id": "775015",
+    "message_id_header": "<e40f18c2e4b60028@accounts.google.com>",
+    "in_reply_to": null,
+    "references": [],
+    "thread_position": 1,
+    "thread_length": 1,
+    "from": {
+      "name": "Google",
+      "email": "no-reply@accounts.google.com"
+    },
+    "sender": null,
+    "reply_to": null,
+    "to": [
+      {
+        "name": "Evelyn Thorne",
+        "email": "evelyn.thorne@thornecadwell.com"
+      }
+    ],
+    "cc": [],
+    "bcc": [],
+    "delivered_to": "evelyn.thorne@thornecadwell.com",
+    "subject": "New sign-in on Windows",
+    "snippet": "We noticed a new sign-in to your Google Account on a Windows device. If this was you, you don't need to do anything. If not, we'll help you secure your account. Device: Windows Loc",
+    "body_text": "We noticed a new sign-in to your Google Account on a Windows device.\n\nIf this was you, you don't need to do anything. If not, we'll help you secure your account.\n\nDevice: Windows\nLocation: Chicago, IL, USA\nTime: Aug 11, 2026, 9:14 PM CDT\n\nCheck activity: https://myaccount.google.com/notifications",
+    "body_html": "<div style=\"font-family:Arial,Helvetica,sans-serif;font-size:14px;color:#222222;max-width:600px;margin:0 auto;padding:16px;line-height:1.5;\"><h2 style=\"margin-top:0;\">New sign-in on Windows</h2><p>Chicago, IL, USA · Aug 11, 2026, 9:14 PM CDT</p><p><a href=\"https://myaccount.google.com/notifications\" style=\"color:#1a73e8;\">Check activity →</a></p></div>",
+    "date": "2026-08-11T21:15:00-05:00",
+    "internal_date_ms": 1786500900000,
+    "folder": "INBOX",
+    "category": "CATEGORY_UPDATES",
+    "is_unread": true,
+    "is_starred": false,
+    "is_important": false,
+    "user_labels": [],
+    "attachments": [],
+    "calendar_event": null,
+    "extra_headers": {},
+    "size_estimate": 1254,
+    "meta": {
+      "email_class": "security_alert",
+      "tricky_tags": [],
+      "is_actionable_for_user": false,
+      "action_owner": null,
+      "action_summary": null,
+      "due_date": null,
+      "commitment_made_by_user": null,
+      "commitment_is_conditional": false,
+      "commitment_condition": null,
+      "superseded_by_message_id": null,
+      "notes": null
+    }
+  },
+  {
+    "id": "e40f18c2e4b60029",
+    "thread_id": "e40f18c2e4b60029",
+    "profile_id": "consulting",
+    "history_id": "756652",
+    "message_id_header": "<e40f18c2e4b60029@accounts.google.com>",
+    "in_reply_to": null,
+    "references": [],
+    "thread_position": 1,
+    "thread_length": 1,
+    "from": {
+      "name": "Google",
+      "email": "no-reply@accounts.google.com"
+    },
+    "sender": null,
+    "reply_to": null,
+    "to": [
+      {
+        "name": "Evelyn Thorne",
+        "email": "evelyn.thorne@thornecadwell.com"
+      }
+    ],
+    "cc": [],
+    "bcc": [],
+    "delivered_to": "evelyn.thorne@thornecadwell.com",
+    "subject": "Suspicious sign-in prevented",
+    "snippet": "We blocked a sign-in attempt to your Google Account from an unfamiliar location. Location: Kyiv, Ukraine Time: Jul 30, 2026, 3:12 AM CDT Device: Unknown (Linux) We recommend review",
+    "body_text": "We blocked a sign-in attempt to your Google Account from an unfamiliar location.\n\nLocation: Kyiv, Ukraine\nTime: Jul 30, 2026, 3:12 AM CDT\nDevice: Unknown (Linux)\n\nWe recommend reviewing your account activity and enabling 2-Step Verification if you haven't already.\n\nReview activity: https://myaccount.google.com/notifications",
+    "body_html": "<div style=\"font-family:Arial,Helvetica,sans-serif;font-size:14px;color:#222222;max-width:600px;margin:0 auto;padding:16px;line-height:1.5;\"><h2 style=\"margin-top:0;color:#c0392b;\">Suspicious sign-in blocked</h2><p>Kyiv, Ukraine · Jul 30, 2026, 3:12 AM CDT</p><p><a href=\"https://myaccount.google.com/notifications\" style=\"color:#1a73e8;\">Review activity →</a></p></div>",
+    "date": "2026-07-30T03:12:00-05:00",
+    "internal_date_ms": 1785399120000,
+    "folder": "INBOX",
+    "category": "CATEGORY_UPDATES",
+    "is_unread": false,
+    "is_starred": false,
+    "is_important": true,
+    "user_labels": [],
+    "attachments": [],
+    "calendar_event": null,
+    "extra_headers": {},
+    "size_estimate": 1298,
+    "meta": {
+      "email_class": "security_alert",
+      "tricky_tags": [],
+      "is_actionable_for_user": true,
+      "action_owner": "evelyn.thorne@thornecadwell.com",
+      "action_summary": "Review recent account activity after a blocked suspicious sign-in attempt.",
+      "due_date": null,
+      "commitment_made_by_user": null,
+      "commitment_is_conditional": false,
+      "commitment_condition": null,
+      "superseded_by_message_id": null,
+      "notes": null
+    }
+  },
+  {
+    "id": "e40f18c2e4b60030",
+    "thread_id": "e40f18c2e4b60030",
+    "profile_id": "consulting",
+    "history_id": "734380",
+    "message_id_header": "<e40f18c2e4b60030@accounts.google.com>",
+    "in_reply_to": null,
+    "references": [],
+    "thread_position": 1,
+    "thread_length": 1,
+    "from": {
+      "name": "Google",
+      "email": "no-reply@accounts.google.com"
+    },
+    "sender": null,
+    "reply_to": null,
+    "to": [
+      {
+        "name": "Evelyn Thorne",
+        "email": "evelyn.thorne@thornecadwell.com"
+      }
+    ],
+    "cc": [],
+    "bcc": [],
+    "delivered_to": "evelyn.thorne@thornecadwell.com",
+    "subject": "[thornecadwell.com] Sheila Park was granted Super Admin access",
+    "snippet": "Sheila Park was granted Super Admin access to thornecadwell.com's Google Workspace account by Evelyn Thorne on Jul 14, 2026, 4:00 PM CDT. If you did not authorize this change, revi",
+    "body_text": "Sheila Park was granted Super Admin access to thornecadwell.com's Google Workspace account by Evelyn Thorne on Jul 14, 2026, 4:00 PM CDT.\n\nIf you did not authorize this change, review your admin roles immediately.\n\nReview admin roles: https://admin.google.com/ac/roles",
+    "body_html": "<div style=\"font-family:Arial,Helvetica,sans-serif;font-size:14px;color:#222222;max-width:600px;margin:0 auto;padding:16px;line-height:1.5;\"><h2 style=\"margin-top:0;\">Admin role granted</h2><p><strong>Sheila Park</strong> was granted Super Admin access — Jul 14, 2026, 4:00 PM CDT.</p><p><a href=\"https://admin.google.com/ac/roles\" style=\"color:#1a73e8;\">Review admin roles →</a></p></div>",
+    "date": "2026-07-14T16:00:00-05:00",
+    "internal_date_ms": 1784062800000,
+    "folder": "INBOX",
+    "category": "CATEGORY_UPDATES",
+    "is_unread": false,
+    "is_starred": false,
+    "is_important": true,
+    "user_labels": [
+      "Label_7753"
+    ],
+    "attachments": [],
+    "calendar_event": null,
+    "extra_headers": {},
+    "size_estimate": 1261,
+    "meta": {
+      "email_class": "security_alert",
+      "tricky_tags": [],
+      "is_actionable_for_user": false,
+      "action_owner": null,
+      "action_summary": null,
+      "due_date": null,
+      "commitment_made_by_user": null,
+      "commitment_is_conditional": false,
+      "commitment_condition": null,
+      "superseded_by_message_id": null,
+      "notes": "Evelyn made Sheila a Workspace admin to handle IT/admin tasks."
+    }
+  },
+  {
+    "id": "e40f18c2e4b60031",
+    "thread_id": "e40f18c2e4b60031",
+    "profile_id": "consulting",
+    "history_id": "715240",
+    "message_id_header": "<e40f18c2e4b60031@united.com>",
+    "in_reply_to": null,
+    "references": [],
+    "thread_position": 1,
+    "thread_length": 1,
+    "from": {
+      "name": "United Airlines",
+      "email": "reservations@united.com"
+    },
+    "sender": null,
+    "reply_to": null,
+    "to": [
+      {
+        "name": "Evelyn Thorne",
+        "email": "evelyn.thorne@thornecadwell.com"
+      }
+    ],
+    "cc": [],
+    "bcc": [],
+    "delivered_to": "evelyn.thorne@thornecadwell.com",
+    "subject": "Your United trip confirmation — KQPXRT",
+    "snippet": "Your trip is confirmed. Confirmation code: KQPXRT Passenger: Evelyn Thorne Mon, Jul 13, 2026 UA 4471 Chicago O'Hare (ORD) 6:40 AM → South Bend (SBN) 7:52 AM Wed, Jul 15, 2026 UA 44",
+    "body_text": "Your trip is confirmed.\n\nConfirmation code: KQPXRT\nPassenger: Evelyn Thorne\n\nMon, Jul 13, 2026\nUA 4471  Chicago O'Hare (ORD) 6:40 AM → South Bend (SBN) 7:52 AM\n\nWed, Jul 15, 2026\nUA 4488  South Bend (SBN) 6:15 PM → Chicago O'Hare (ORD) 7:29 PM\n\nSeat: 14C / 9A\nFare: Economy, Basic Plus\n\nManage your trip: https://www.united.com/en/us/manageres/mytrips",
+    "body_html": "<div style=\"font-family:Arial,Helvetica,sans-serif;font-size:14px;color:#222222;max-width:600px;margin:0 auto;padding:16px;line-height:1.5;\"><h2 style=\"margin-top:0;\">Trip confirmed — KQPXRT</h2><p><strong>UA 4471</strong> Jul 13 — ORD 6:40 AM → SBN 7:52 AM<br><strong>UA 4488</strong> Jul 15 — SBN 6:15 PM → ORD 7:29 PM</p><p><a href=\"https://www.united.com/en/us/manageres/mytrips\" style=\"color:#005daa;\">Manage trip →</a></p></div>",
+    "date": "2026-07-01T09:00:00-05:00",
+    "internal_date_ms": 1782914400000,
+    "folder": "INBOX",
+    "category": "CATEGORY_UPDATES",
+    "is_unread": false,
+    "is_starred": false,
+    "is_important": false,
+    "user_labels": [],
+    "attachments": [],
+    "calendar_event": null,
+    "extra_headers": {},
+    "size_estimate": 1401,
+    "meta": {
+      "email_class": "automated_notification",
+      "tricky_tags": [],
+      "is_actionable_for_user": false,
+      "action_owner": null,
+      "action_summary": null,
+      "due_date": null,
+      "commitment_made_by_user": null,
+      "commitment_is_conditional": false,
+      "commitment_condition": null,
+      "superseded_by_message_id": null,
+      "notes": "Flights booked for the Jul 14 Meridian Elkhart plant visit."
+    }
+  },
+  {
+    "id": "e40f18c2e4b60032",
+    "thread_id": "e40f18c2e4b60032",
+    "profile_id": "consulting",
+    "history_id": "716700",
+    "message_id_header": "<e40f18c2e4b60032@marriott.com>",
+    "in_reply_to": null,
+    "references": [],
+    "thread_position": 1,
+    "thread_length": 1,
+    "from": {
+      "name": "Marriott Bonvoy",
+      "email": "reservations@marriott.com"
+    },
+    "sender": null,
+    "reply_to": null,
+    "to": [
+      {
+        "name": "Evelyn Thorne",
+        "email": "evelyn.thorne@thornecadwell.com"
+      }
+    ],
+    "cc": [],
+    "bcc": [],
+    "delivered_to": "evelyn.thorne@thornecadwell.com",
+    "subject": "Reservation confirmed — Courtyard South Bend Elkhart",
+    "snippet": "Thank you for booking with Marriott Bonvoy. Confirmation number: 84MK2QT Courtyard South Bend Elkhart 2410 Cassopolis St, Elkhart, IN 46514 Check-in: Mon, Jul 13, 2026 Check-out: W",
+    "body_text": "Thank you for booking with Marriott Bonvoy.\n\nConfirmation number: 84MK2QT\nCourtyard South Bend Elkhart\n2410 Cassopolis St, Elkhart, IN 46514\n\nCheck-in: Mon, Jul 13, 2026\nCheck-out: Wed, Jul 15, 2026\nRoom type: 1 King, Standard\nRate: $149.00/night\n\nManage reservation: https://www.marriott.com/reservation/reservationview.mi?confirmationNumber=84MK2QT",
+    "body_html": "<div style=\"font-family:Arial,Helvetica,sans-serif;font-size:14px;color:#222222;max-width:600px;margin:0 auto;padding:16px;line-height:1.5;\"><h2 style=\"margin-top:0;\">Reservation confirmed — 84MK2QT</h2><p>Courtyard South Bend Elkhart<br>Jul 13 – Jul 15, 2026 · 1 King, Standard · $149.00/night</p><p><a href=\"https://www.marriott.com/reservation/reservationview.mi?confirmationNumber=84MK2QT\" style=\"color:#8a1a2b;\">Manage reservation →</a></p></div>",
+    "date": "2026-07-02T09:20:00-05:00",
+    "internal_date_ms": 1783002000000,
+    "folder": "INBOX",
+    "category": "CATEGORY_UPDATES",
+    "is_unread": false,
+    "is_starred": false,
+    "is_important": false,
+    "user_labels": [],
+    "attachments": [],
+    "calendar_event": null,
+    "extra_headers": {},
+    "size_estimate": 1409,
+    "meta": {
+      "email_class": "automated_notification",
+      "tricky_tags": [],
+      "is_actionable_for_user": false,
+      "action_owner": null,
+      "action_summary": null,
+      "due_date": null,
+      "commitment_made_by_user": null,
+      "commitment_is_conditional": false,
+      "commitment_condition": null,
+      "superseded_by_message_id": null,
+      "notes": null
+    }
+  },
+  {
+    "id": "e40f18c2e4b60033",
+    "thread_id": "e40f18c2e4b60033",
+    "profile_id": "consulting",
+    "history_id": "718155",
+    "message_id_header": "<e40f18c2e4b60033@hertz.com>",
+    "in_reply_to": null,
+    "references": [],
+    "thread_position": 1,
+    "thread_length": 1,
+    "from": {
+      "name": "Hertz",
+      "email": "reservations@hertz.com"
+    },
+    "sender": null,
+    "reply_to": null,
+    "to": [
+      {
+        "name": "Evelyn Thorne",
+        "email": "evelyn.thorne@thornecadwell.com"
+      }
+    ],
+    "cc": [],
+    "bcc": [],
+    "delivered_to": "evelyn.thorne@thornecadwell.com",
+    "subject": "Hertz reservation confirmed — 774213590",
+    "snippet": "Your reservation is confirmed. Confirmation: 774213590 Pick-up: South Bend International Airport (SBN), Jul 13, 8:15 AM Return: South Bend International Airport (SBN), Jul 15, 5:30",
+    "body_text": "Your reservation is confirmed.\n\nConfirmation: 774213590\nPick-up: South Bend International Airport (SBN), Jul 13, 8:15 AM\nReturn: South Bend International Airport (SBN), Jul 15, 5:30 PM\nCar class: Intermediate SUV\nRate: $74.99/day\n\nManage reservation: https://www.hertz.com/rentacar/reservation/",
+    "body_html": "<div style=\"font-family:Arial,Helvetica,sans-serif;font-size:14px;color:#222222;max-width:600px;margin:0 auto;padding:16px;line-height:1.5;\"><h2 style=\"margin-top:0;\">Reservation confirmed — 774213590</h2><p>SBN Airport · Pick-up Jul 13, 8:15 AM · Return Jul 15, 5:30 PM<br>Intermediate SUV · $74.99/day</p></div>",
+    "date": "2026-07-03T09:35:00-05:00",
+    "internal_date_ms": 1783089300000,
+    "folder": "INBOX",
+    "category": "CATEGORY_UPDATES",
+    "is_unread": false,
+    "is_starred": false,
+    "is_important": false,
+    "user_labels": [],
+    "attachments": [],
+    "calendar_event": null,
+    "extra_headers": {},
+    "size_estimate": 1212,
+    "meta": {
+      "email_class": "automated_notification",
+      "tricky_tags": [],
+      "is_actionable_for_user": false,
+      "action_owner": null,
+      "action_summary": null,
+      "due_date": null,
+      "commitment_made_by_user": null,
+      "commitment_is_conditional": false,
+      "commitment_condition": null,
+      "superseded_by_message_id": null,
+      "notes": null
+    }
+  },
+  {
+    "id": "e40f18c2e4b60034",
+    "thread_id": "e40f18c2e4b60034",
+    "profile_id": "consulting",
+    "history_id": "762720",
+    "message_id_header": "<e40f18c2e4b60034@googlemail.com>",
+    "in_reply_to": null,
+    "references": [],
+    "thread_position": 1,
+    "thread_length": 1,
+    "from": {
+      "name": "Mail Delivery Subsystem",
+      "email": "mailer-daemon@googlemail.com"
+    },
+    "sender": null,
+    "reply_to": null,
+    "to": [
+      {
+        "name": "Evelyn Thorne",
+        "email": "evelyn.thorne@thornecadwell.com"
+      }
+    ],
+    "cc": [],
+    "bcc": [],
+    "delivered_to": "evelyn.thorne@thornecadwell.com",
+    "subject": "Delivery Status Notification (Failure) — ap@meridiancastings.com",
+    "snippet": "Delivery has failed to these recipients or groups: ap@meridiancastings.com Your message wasn't delivered because the recipient's email address wasn't found. Please check the recipi",
+    "body_text": "Delivery has failed to these recipients or groups:\n\nap@meridiancastings.com\nYour message wasn't delivered because the recipient's email address wasn't found. Please check the recipient's email address and try to resend this message.\n\nThe response from the remote server was:\n550 5.1.1 The email account that you tried to reach does not exist. Please try double-checking the recipient's email address for typos or unnecessary spaces.\n\nOriginal message headers:\nSubject: Invoice #1092 — Meridian Castings LLC — Due Aug 31, 2026\nFrom: quickbooks@notification.intuit.com\nTo: ap@meridiancastings.com",
+    "body_html": null,
+    "date": "2026-08-03T08:20:00-05:00",
+    "internal_date_ms": 1785763200000,
+    "folder": "INBOX",
+    "category": "CATEGORY_UPDATES",
+    "is_unread": true,
+    "is_starred": true,
+    "is_important": true,
+    "user_labels": [],
+    "attachments": [],
+    "calendar_event": null,
+    "extra_headers": {
+      "X-Failed-Recipients": "ap@meridiancastings.com",
+      "Auto-Submitted": "auto-replied",
+      "Content-Type": "multipart/report; report-type=delivery-status"
+    },
+    "size_estimate": 1198,
+    "meta": {
+      "email_class": "bounce",
+      "tricky_tags": [],
+      "is_actionable_for_user": true,
+      "action_owner": "evelyn.thorne@thornecadwell.com",
+      "action_summary": "Invoice #1092 to Meridian never reached their AP inbox — the ap@meridiancastings.com address bounced. Get the correct AP contact from Bob and resend.",
+      "due_date": null,
+      "commitment_made_by_user": null,
+      "commitment_is_conditional": false,
+      "commitment_condition": null,
+      "superseded_by_message_id": null,
+      "notes": "Real problem: Meridian's AP address is wrong/defunct, so Invoice #1092 (see record 16, sent Aug 1) never arrived. Payment will be late through no fault of Meridian's unless this is caught."
+    }
+  },
+  {
+    "id": "e40f18c2e4b60035",
+    "thread_id": "e40f18c2e4b60035",
+    "profile_id": "consulting",
+    "history_id": "754460",
+    "message_id_header": "<e40f18c2e4b60035@googlemail.com>",
+    "in_reply_to": null,
+    "references": [],
+    "thread_position": 1,
+    "thread_length": 1,
+    "from": {
+      "name": "Mail Delivery Subsystem",
+      "email": "mailer-daemon@googlemail.com"
+    },
+    "sender": null,
+    "reply_to": null,
+    "to": [
+      {
+        "name": "Evelyn Thorne",
+        "email": "evelyn.thorne@thornecadwell.com"
+      }
+    ],
+    "cc": [],
+    "bcc": [],
+    "delivered_to": "evelyn.thorne@thornecadwell.com",
+    "subject": "Delivery Status Notification (Failure) — dokoro@ame-greatlakes.org",
+    "snippet": "Delivery has failed to these recipients or groups: dokoro@ame-greatlakes.org Your message wasn't delivered because the recipient's email address wasn't found. The response from the",
+    "body_text": "Delivery has failed to these recipients or groups:\n\ndokoro@ame-greatlakes.org\nYour message wasn't delivered because the recipient's email address wasn't found.\n\nThe response from the remote server was:\n550 5.1.1 User unknown.",
+    "body_html": null,
+    "date": "2026-07-28T14:40:00-05:00",
+    "internal_date_ms": 1785267600000,
+    "folder": "INBOX",
+    "category": "CATEGORY_UPDATES",
+    "is_unread": false,
+    "is_starred": false,
+    "is_important": false,
+    "user_labels": [],
+    "attachments": [],
+    "calendar_event": null,
+    "extra_headers": {
+      "X-Failed-Recipients": "dokoro@ame-greatlakes.org",
+      "Auto-Submitted": "auto-replied"
+    },
+    "size_estimate": 825,
+    "meta": {
+      "email_class": "bounce",
+      "tricky_tags": [],
+      "is_actionable_for_user": false,
+      "action_owner": null,
+      "action_summary": null,
+      "due_date": null,
+      "commitment_made_by_user": null,
+      "commitment_is_conditional": false,
+      "commitment_condition": null,
+      "superseded_by_message_id": null,
+      "notes": "Typo'd address (should be programs@ame-greatlakes.org) — not a real problem, harmless."
+    }
+  },
+  {
+    "id": "e40f18c2e4b60036",
+    "thread_id": "e40f18c2e4b60036",
+    "profile_id": "consulting",
+    "history_id": "708115",
+    "message_id_header": "<e40f18c2e4b60036@googlemail.com>",
+    "in_reply_to": null,
+    "references": [],
+    "thread_position": 1,
+    "thread_length": 1,
+    "from": {
+      "name": "Mail Delivery Subsystem",
+      "email": "mailer-daemon@googlemail.com"
+    },
+    "sender": null,
+    "reply_to": null,
+    "to": [
+      {
+        "name": "Evelyn Thorne",
+        "email": "evelyn.thorne@thornecadwell.com"
+      }
+    ],
+    "cc": [],
+    "bcc": [],
+    "delivered_to": "evelyn.thorne@thornecadwell.com",
+    "subject": "Delivery Status Notification (Failure) — marta.klein@ridgefieldmfg.com",
+    "snippet": "Delivery has failed to these recipients or groups: marta.klein@ridgefieldmfg.com Your message wasn't delivered because the recipient's mailbox is full. The response from the remote",
+    "body_text": "Delivery has failed to these recipients or groups:\n\nmarta.klein@ridgefieldmfg.com\nYour message wasn't delivered because the recipient's mailbox is full.\n\nThe response from the remote server was:\n552 5.2.2 Mailbox full.",
+    "body_html": null,
+    "date": "2026-06-26T10:15:00-05:00",
+    "internal_date_ms": 1782486900000,
+    "folder": "INBOX",
+    "category": "CATEGORY_UPDATES",
+    "is_unread": false,
+    "is_starred": false,
+    "is_important": false,
+    "user_labels": [],
+    "attachments": [],
+    "calendar_event": null,
+    "extra_headers": {
+      "X-Failed-Recipients": "marta.klein@ridgefieldmfg.com",
+      "Auto-Submitted": "auto-replied"
+    },
+    "size_estimate": 818,
+    "meta": {
+      "email_class": "bounce",
+      "tricky_tags": [],
+      "is_actionable_for_user": false,
+      "action_owner": null,
+      "action_summary": null,
+      "due_date": null,
+      "commitment_made_by_user": null,
+      "commitment_is_conditional": false,
+      "commitment_condition": null,
+      "superseded_by_message_id": null,
+      "notes": "Marta's mailbox was over quota — harmless, resolved itself."
+    }
+  },
+  {
+    "id": "e40f18c2e4b60037",
+    "thread_id": "e40f18c2e4b60037",
+    "profile_id": "consulting",
+    "history_id": "738290",
+    "message_id_header": "<CAFe40f18c2e4b60037@mail.gmail.com>",
+    "in_reply_to": null,
+    "references": [],
+    "thread_position": 1,
+    "thread_length": 2,
+    "from": {
+      "name": "Evelyn Thorne",
+      "email": "evelyn.thorne@thornecadwell.com"
+    },
+    "sender": null,
+    "reply_to": null,
+    "to": [
+      {
+        "name": "Terrence Boyle",
+        "email": "tboyle@cravenlaw.com"
+      }
+    ],
+    "cc": [],
+    "bcc": [],
+    "delivered_to": "tboyle@cravenlaw.com",
+    "subject": "Quick question on the Meridian NDA carve-out language",
+    "snippet": "Terrence — quick one. The mutual NDA Owen sent over for Stratus has a residuals clause that's broader than what we usually accept. Can you take a look before I sign? No rush if you",
+    "body_text": "Terrence — quick one. The mutual NDA Owen sent over for Stratus has a residuals clause that's broader than what we usually accept. Can you take a look before I sign? No rush if you're swamped, just don't want to sign something that bites us later.\n\nEvelyn",
+    "body_html": null,
+    "date": "2026-07-17T09:10:00-05:00",
+    "internal_date_ms": 1784297400000,
+    "folder": "SENT",
+    "category": null,
+    "is_unread": false,
+    "is_starred": false,
+    "is_important": false,
+    "user_labels": [],
+    "attachments": [],
+    "calendar_event": null,
+    "extra_headers": {
+      "Return-Path": "<evelyn.thorne@thornecadwell.com>"
+    },
+    "size_estimate": 857,
+    "meta": {
+      "email_class": "genuine_work",
+      "tricky_tags": [],
+      "is_actionable_for_user": false,
+      "action_owner": null,
+      "action_summary": null,
+      "due_date": null,
+      "commitment_made_by_user": null,
+      "commitment_is_conditional": false,
+      "commitment_condition": null,
+      "superseded_by_message_id": null,
+      "notes": null
+    }
+  },
+  {
+    "id": "e40f18c2e4b60038",
+    "thread_id": "e40f18c2e4b60037",
+    "profile_id": "consulting",
+    "history_id": "738292",
+    "message_id_header": "<e40f18c2e4b60038@cravenlaw.com>",
+    "in_reply_to": "<CAFe40f18c2e4b60037@mail.gmail.com>",
+    "references": [
+      "<CAFe40f18c2e4b60037@mail.gmail.com>"
+    ],
+    "thread_position": 2,
+    "thread_length": 2,
+    "from": {
+      "name": "Terrence Boyle",
+      "email": "tboyle@cravenlaw.com"
+    },
+    "sender": null,
+    "reply_to": null,
+    "to": [
+      {
+        "name": "Evelyn Thorne",
+        "email": "evelyn.thorne@thornecadwell.com"
+      }
+    ],
+    "cc": [],
+    "bcc": [],
+    "delivered_to": "evelyn.thorne@thornecadwell.com",
+    "subject": "Automatic reply: Quick question on the Meridian NDA carve-out language",
+    "snippet": "I am out of the office and will have limited access to email until Jul 21. For anything urgent, please reach out to his associate, Priya Subramaniam (psubramaniam@cravenlaw.com). I",
+    "body_text": "I am out of the office and will have limited access to email until Jul 21. For anything urgent, please reach out to his associate, Priya Subramaniam (psubramaniam@cravenlaw.com).\n\nI'm attending the ABA Business Law Section meeting this week with spotty connectivity. I'll review contract questions in the order received once I'm back.\n\nTerrence Boyle\nCraven Law",
+    "body_html": null,
+    "date": "2026-07-17T09:12:00-05:00",
+    "internal_date_ms": 1784297520000,
+    "folder": "INBOX",
+    "category": "CATEGORY_UPDATES",
+    "is_unread": false,
+    "is_starred": false,
+    "is_important": false,
+    "user_labels": [],
+    "attachments": [],
+    "calendar_event": null,
+    "extra_headers": {
+      "Auto-Submitted": "auto-replied",
+      "X-Auto-Response-Suppress": "All",
+      "Precedence": "bulk"
+    },
+    "size_estimate": 961,
+    "meta": {
+      "email_class": "auto_reply",
+      "tricky_tags": [
+        "out_of_office"
+      ],
+      "is_actionable_for_user": false,
+      "action_owner": null,
+      "action_summary": null,
+      "due_date": null,
+      "commitment_made_by_user": null,
+      "commitment_is_conditional": false,
+      "commitment_condition": null,
+      "superseded_by_message_id": null,
+      "notes": "Out-of-office auto-reply to Evelyn's outbound message; distinct from the batch-6 required OOO case."
+    }
+  },
+  {
+    "id": "e40f18c2e4b60039",
+    "thread_id": "e40f18c2e4b60039",
+    "profile_id": "consulting",
+    "history_id": "767140",
+    "message_id_header": "<CAFe40f18c2e4b60039@mail.gmail.com>",
+    "in_reply_to": null,
+    "references": [],
+    "thread_position": 1,
+    "thread_length": 2,
+    "from": {
+      "name": "Evelyn Thorne",
+      "email": "evelyn.thorne@thornecadwell.com"
+    },
+    "sender": null,
+    "reply_to": null,
+    "to": [
+      {
+        "name": "Owen McCabe",
+        "email": "omccabe@stratusindustrial.com"
+      }
+    ],
+    "cc": [],
+    "bcc": [],
+    "delivered_to": "omccabe@stratusindustrial.com",
+    "subject": "Following up — any read on the revised Stratus proposal?",
+    "snippet": "Owen — following up on the revised proposal Ana sent Jul 27. Wanted to check whether your VP of Finance has had a chance to look at it, or if there's anything we can clarify to hel",
+    "body_text": "Owen — following up on the revised proposal Ana sent Jul 27. Wanted to check whether your VP of Finance has had a chance to look at it, or if there's anything we can clarify to help move it along.\n\nEvelyn",
+    "body_html": null,
+    "date": "2026-08-06T10:00:00-05:00",
+    "internal_date_ms": 1786028400000,
+    "folder": "SENT",
+    "category": null,
+    "is_unread": false,
+    "is_starred": false,
+    "is_important": false,
+    "user_labels": [],
+    "attachments": [],
+    "calendar_event": null,
+    "extra_headers": {
+      "Return-Path": "<evelyn.thorne@thornecadwell.com>"
+    },
+    "size_estimate": 806,
+    "meta": {
+      "email_class": "genuine_work",
+      "tricky_tags": [],
+      "is_actionable_for_user": false,
+      "action_owner": null,
+      "action_summary": null,
+      "due_date": null,
+      "commitment_made_by_user": null,
+      "commitment_is_conditional": false,
+      "commitment_condition": null,
+      "superseded_by_message_id": null,
+      "notes": null
+    }
+  },
+  {
+    "id": "e40f18c2e4b60040",
+    "thread_id": "e40f18c2e4b60039",
+    "profile_id": "consulting",
+    "history_id": "767141",
+    "message_id_header": "<e40f18c2e4b60040@stratusindustrial.com>",
+    "in_reply_to": "<CAFe40f18c2e4b60039@mail.gmail.com>",
+    "references": [
+      "<CAFe40f18c2e4b60039@mail.gmail.com>"
+    ],
+    "thread_position": 2,
+    "thread_length": 2,
+    "from": {
+      "name": "Owen McCabe",
+      "email": "omccabe@stratusindustrial.com"
+    },
+    "sender": null,
+    "reply_to": null,
+    "to": [
+      {
+        "name": "Evelyn Thorne",
+        "email": "evelyn.thorne@thornecadwell.com"
+      }
+    ],
+    "cc": [],
+    "bcc": [],
+    "delivered_to": "evelyn.thorne@thornecadwell.com",
+    "subject": "Automatic reply: Following up — any read on the revised Stratus proposal?",
+    "snippet": "I am out of the office and will have limited access to email until Aug 11. For anything urgent, please reach out to my assistant, Renee Cho (rcho@stratusindustrial.com). I'm travel",
+    "body_text": "I am out of the office and will have limited access to email until Aug 11. For anything urgent, please reach out to my assistant, Renee Cho (rcho@stratusindustrial.com).\n\nI'm traveling between our Joliet and Gary facilities this week and will be slow to respond.\n\nOwen McCabe\nVP Supply Chain, Stratus Industrial",
+    "body_html": null,
+    "date": "2026-08-06T10:01:00-05:00",
+    "internal_date_ms": 1786028460000,
+    "folder": "INBOX",
+    "category": "CATEGORY_UPDATES",
+    "is_unread": false,
+    "is_starred": false,
+    "is_important": false,
+    "user_labels": [],
+    "attachments": [],
+    "calendar_event": null,
+    "extra_headers": {
+      "Auto-Submitted": "auto-replied",
+      "X-Auto-Response-Suppress": "All",
+      "Precedence": "bulk"
+    },
+    "size_estimate": 911,
+    "meta": {
+      "email_class": "auto_reply",
+      "tricky_tags": [
+        "out_of_office"
+      ],
+      "is_actionable_for_user": false,
+      "action_owner": null,
+      "action_summary": null,
+      "due_date": null,
+      "commitment_made_by_user": null,
+      "commitment_is_conditional": false,
+      "commitment_condition": null,
+      "superseded_by_message_id": null,
+      "notes": "Out-of-office auto-reply to Evelyn's outbound message; distinct from the batch-6 required OOO case."
+    }
+  },
+  {
+    "id": "e40f18c2e4b60041",
+    "thread_id": "e40f18c2e4b60041",
+    "profile_id": "consulting",
+    "history_id": "744190",
+    "message_id_header": "<CAFe40f18c2e4b60041@mail.gmail.com>",
+    "in_reply_to": null,
+    "references": [],
+    "thread_position": 1,
+    "thread_length": 2,
+    "from": {
+      "name": "Evelyn Thorne",
+      "email": "evelyn.thorne@thornecadwell.com"
+    },
+    "sender": null,
+    "reply_to": null,
+    "to": [
+      {
+        "name": "Marta Klein",
+        "email": "marta.klein@ridgefieldmfg.com"
+      }
+    ],
+    "cc": [],
+    "bcc": [],
+    "delivered_to": "marta.klein@ridgefieldmfg.com",
+    "subject": "Quick intro — thought of you for a referral",
+    "snippet": "Marta — hope things are settling down post-ERP migration. A plant manager friend of mine at a sister company in Fort Wayne is looking for a quick reference on how the Ridgefield en",
+    "body_text": "Marta — hope things are settling down post-ERP migration. A plant manager friend of mine at a sister company in Fort Wayne is looking for a quick reference on how the Ridgefield engagement went. OK if I connect you two by email?\n\nEvelyn",
+    "body_html": null,
+    "date": "2026-07-21T11:30:00-05:00",
+    "internal_date_ms": 1784651400000,
+    "folder": "SENT",
+    "category": null,
+    "is_unread": false,
+    "is_starred": false,
+    "is_important": false,
+    "user_labels": [],
+    "attachments": [],
+    "calendar_event": null,
+    "extra_headers": {
+      "Return-Path": "<evelyn.thorne@thornecadwell.com>"
+    },
+    "size_estimate": 838,
+    "meta": {
+      "email_class": "genuine_work",
+      "tricky_tags": [],
+      "is_actionable_for_user": false,
+      "action_owner": null,
+      "action_summary": null,
+      "due_date": null,
+      "commitment_made_by_user": null,
+      "commitment_is_conditional": false,
+      "commitment_condition": null,
+      "superseded_by_message_id": null,
+      "notes": null
+    }
+  },
+  {
+    "id": "e40f18c2e4b60042",
+    "thread_id": "e40f18c2e4b60041",
+    "profile_id": "consulting",
+    "history_id": "744192",
+    "message_id_header": "<e40f18c2e4b60042@ridgefieldmfg.com>",
+    "in_reply_to": "<CAFe40f18c2e4b60041@mail.gmail.com>",
+    "references": [
+      "<CAFe40f18c2e4b60041@mail.gmail.com>"
+    ],
+    "thread_position": 2,
+    "thread_length": 2,
+    "from": {
+      "name": "Marta Klein",
+      "email": "marta.klein@ridgefieldmfg.com"
+    },
+    "sender": null,
+    "reply_to": null,
+    "to": [
+      {
+        "name": "Evelyn Thorne",
+        "email": "evelyn.thorne@thornecadwell.com"
+      }
+    ],
+    "cc": [],
+    "bcc": [],
+    "delivered_to": "evelyn.thorne@thornecadwell.com",
+    "subject": "Automatic reply: Quick intro — thought of you for a referral",
+    "snippet": "I am out of the office and will have limited access to email until Aug 3. For anything urgent, please reach out to the front office at (574) 555-0142. I'm on vacation with limited ",
+    "body_text": "I am out of the office and will have limited access to email until Aug 3. For anything urgent, please reach out to the front office at (574) 555-0142.\n\nI'm on vacation with limited email access. Back in the plant on Aug 3.\n\nMarta Klein\nPlant Manager, Ridgefield Mfg",
+    "body_html": null,
+    "date": "2026-07-21T11:32:00-05:00",
+    "internal_date_ms": 1784651520000,
+    "folder": "INBOX",
+    "category": "CATEGORY_UPDATES",
+    "is_unread": false,
+    "is_starred": false,
+    "is_important": false,
+    "user_labels": [],
+    "attachments": [],
+    "calendar_event": null,
+    "extra_headers": {
+      "Auto-Submitted": "auto-replied",
+      "X-Auto-Response-Suppress": "All",
+      "Precedence": "bulk"
+    },
+    "size_estimate": 865,
+    "meta": {
+      "email_class": "auto_reply",
+      "tricky_tags": [
+        "out_of_office"
+      ],
+      "is_actionable_for_user": false,
+      "action_owner": null,
+      "action_summary": null,
+      "due_date": null,
+      "commitment_made_by_user": null,
+      "commitment_is_conditional": false,
+      "commitment_condition": null,
+      "superseded_by_message_id": null,
+      "notes": "Out-of-office auto-reply to Evelyn's outbound message; distinct from the batch-6 required OOO case."
+    }
+  },
+  {
+    "id": "e40f18c2e4b60043",
+    "thread_id": "e40f18c2e4b60043",
+    "profile_id": "consulting",
+    "history_id": "749800",
+    "message_id_header": "<e40f18c2e4b60043@expensify.com>",
+    "in_reply_to": null,
+    "references": [],
+    "thread_position": 1,
+    "thread_length": 1,
+    "from": {
+      "name": "Expensify",
+      "email": "expensify@expensify.com"
+    },
+    "sender": null,
+    "reply_to": null,
+    "to": [
+      {
+        "name": "Evelyn Thorne",
+        "email": "evelyn.thorne@thornecadwell.com"
+      }
+    ],
+    "cc": [],
+    "bcc": [],
+    "delivered_to": "evelyn.thorne@thornecadwell.com",
+    "subject": "Expense report approved: Elkhart Plant Visit — $612.44",
+    "snippet": "Your expense report \"Elkhart Plant Visit — Jul 13-15\" was approved by Gordon Cadwell. Total: $612.44 Reimbursement will be deposited within 3-5 business days. View report: https://",
+    "body_text": "Your expense report \"Elkhart Plant Visit — Jul 13-15\" was approved by Gordon Cadwell.\n\nTotal: $612.44\nReimbursement will be deposited within 3-5 business days.\n\nView report: https://www.expensify.com/reports/e40f18c2e4b60043",
+    "body_html": "<div style=\"font-family:Arial,Helvetica,sans-serif;font-size:14px;color:#222222;max-width:600px;margin:0 auto;padding:16px;line-height:1.5;\"><h2 style=\"margin-top:0;color:#2ca01c;\">Report approved</h2><p><strong>Elkhart Plant Visit — Jul 13-15</strong> · $612.44</p><p>Approved by Gordon Cadwell. Reimbursement in 3-5 business days.</p></div>",
+    "date": "2026-07-25T09:00:00-05:00",
+    "internal_date_ms": 1784988000000,
+    "folder": "INBOX",
+    "category": "CATEGORY_UPDATES",
+    "is_unread": false,
+    "is_starred": false,
+    "is_important": false,
+    "user_labels": [],
+    "attachments": [],
+    "calendar_event": null,
+    "extra_headers": {},
+    "size_estimate": 1171,
+    "meta": {
+      "email_class": "automated_notification",
+      "tricky_tags": [],
+      "is_actionable_for_user": false,
+      "action_owner": null,
+      "action_summary": null,
+      "due_date": null,
+      "commitment_made_by_user": null,
+      "commitment_is_conditional": false,
+      "commitment_condition": null,
+      "superseded_by_message_id": null,
+      "notes": null
+    }
+  },
+  {
+    "id": "e40f18c2e4b60044",
+    "thread_id": "e40f18c2e4b60044",
+    "profile_id": "consulting",
+    "history_id": "762640",
+    "message_id_header": "<e40f18c2e4b60044@slack.com>",
+    "in_reply_to": null,
+    "references": [],
+    "thread_position": 1,
+    "thread_length": 1,
+    "from": {
+      "name": "Slack",
+      "email": "notifications@slack.com"
+    },
+    "sender": null,
+    "reply_to": null,
+    "to": [
+      {
+        "name": "Evelyn Thorne",
+        "email": "evelyn.thorne@thornecadwell.com"
+      }
+    ],
+    "cc": [],
+    "bcc": [],
+    "delivered_to": "evelyn.thorne@thornecadwell.com",
+    "subject": "Your weekly recap for Thorne & Cadwell",
+    "snippet": "3 unread mentions and 18 new messages in Thorne & Cadwell Slack this week. Catch up now.",
+    "body_text": "3 unread mentions and 18 new messages in Thorne & Cadwell Slack this week. Catch up now.",
+    "body_html": "<div style=\"font-family:Arial,Helvetica,sans-serif;font-size:14px;color:#222222;max-width:600px;margin:0 auto;padding:16px;line-height:1.5;\"><p style=\"margin:0;\"><strong>3 unread mentions</strong> and 18 new messages this week.</p></div>",
+    "date": "2026-08-03T07:00:00-05:00",
+    "internal_date_ms": 1785758400000,
+    "folder": "INBOX",
+    "category": "CATEGORY_UPDATES",
+    "is_unread": false,
+    "is_starred": false,
+    "is_important": false,
+    "user_labels": [],
+    "attachments": [],
+    "calendar_event": null,
+    "extra_headers": {},
+    "size_estimate": 925,
+    "meta": {
+      "email_class": "automated_notification",
+      "tricky_tags": [],
+      "is_actionable_for_user": false,
+      "action_owner": null,
+      "action_summary": null,
+      "due_date": null,
+      "commitment_made_by_user": null,
+      "commitment_is_conditional": false,
+      "commitment_condition": null,
+      "superseded_by_message_id": null,
+      "notes": null
+    }
+  },
+  {
+    "id": "e40f18c2e4b60045",
+    "thread_id": "e40f18c2e4b60045",
+    "profile_id": "consulting",
+    "history_id": "768580",
+    "message_id_header": "<e40f18c2e4b60045@ame.org>",
+    "in_reply_to": null,
+    "references": [],
+    "thread_position": 1,
+    "thread_length": 1,
+    "from": {
+      "name": "AME Conference Team",
+      "email": "events@ame.org"
+    },
+    "sender": null,
+    "reply_to": null,
+    "to": [
+      {
+        "name": "Evelyn Thorne",
+        "email": "evelyn.thorne@thornecadwell.com"
+      }
+    ],
+    "cc": [
+      {
+        "name": "Kyle Brenner",
+        "email": "kyle.brenner@thornecadwell.com"
+      }
+    ],
+    "bcc": [],
+    "delivered_to": "evelyn.thorne@thornecadwell.com",
+    "subject": "Your session is confirmed — AME Great Lakes Regional Conference (Sep 16-18)",
+    "snippet": "Dear Evelyn, Thank you for confirming your session at the AME Great Lakes Regional Conference, taking place September 16-18, 2026 at the Donald E. Stephens Convention Center in Ros",
+    "body_text": "Dear Evelyn,\n\nThank you for confirming your session at the AME Great Lakes Regional Conference, taking place September 16-18, 2026 at the Donald E. Stephens Convention Center in Rosemont, IL. Below is everything you need for your session, along with a few logistics items we need from you by August 21.\n\nSession details\nTitle: \"Beyond the Spreadsheet: Getting Inventory Optimization to Stick on the Shop Floor\"\nTrack: Operational Excellence\nDate/time: Wednesday, September 17, 2:00 PM - 2:50 PM\nRoom: Lakeside C (capacity ~120)\nFormat: 35-minute presentation + 15-minute Q&A\n\nWhat we need from you by August 21:\n1. Final slide deck (16:9, PDF preferred) — we recommend under 30 slides for a 35-minute talk.\n2. A 75-100 word speaker bio and a current headshot (min. 300 dpi) for the program guide and signage.\n3. AV requirements — the room is equipped with a podium mic, lavalier, projector, and screen. Let us know if you need anything beyond the standard setup (e.g., a second monitor for speaker notes, a clicker, audio playback).\n4. Confirmation of whether you'll want your slides made available to attendees post-conference via the AME resource portal.\n\nLogistics\nYour speaker badge grants full conference access for all three days, including the welcome reception on Sept 16 and the awards dinner on Sept 17. We've held a room block at the adjacent Hyatt Regency O'Hare under the code AME26-SPEAK (rate: $189/night) — this block releases on August 25, so please book directly if you plan to stay on-site.\n\nSpeakers are asked to arrive at least 30 minutes before their session to check in with the room monitor and do a quick mic/slide check. There is a speaker-ready room (Lakeside Foyer) available from 7:30 AM each day if you'd like a quiet place to prep beforehand.\n\nWe received your co-presenter request for Kyle Brenner to join for the Q&A portion — that's approved, and we've added him to the program as a contributing panelist. He'll need his own badge; please have him register separately at the speaker rate using code AME26-COSPEAK.\n\nMarketing: we'd love to feature a short preview clip (60-90 seconds) on our LinkedIn page ahead of the conference. If you're open to recording something on your phone — just you speaking to camera about what attendees will take away from the session — send it our way whenever it's convenient, no production value needed.\n\nIf anything above doesn't work for you, or if your topic or co-presenter situation changes, just reply to this email and we'll sort it out.\n\nLooking forward to having you back at AME Great Lakes.\n\nWarm regards,\nThe AME Conference Team\nevents@ame.org | (630) 555-0199",
+    "body_html": "<div style=\"font-family:Arial,Helvetica,sans-serif;font-size:14px;color:#222222;max-width:600px;margin:0 auto;padding:16px;line-height:1.5;\"><h2 style=\"margin-top:0;\">Your session is confirmed</h2><p><strong>Beyond the Spreadsheet: Getting Inventory Optimization to Stick on the Shop Floor</strong></p><p>Wed, Sep 17 · 2:00–2:50 PM · Lakeside C · AME Great Lakes Regional Conference</p><p style=\"font-weight:bold;\">We need from you by Aug 21:</p><ul><li>Final slide deck (PDF, 16:9)</li><li>Speaker bio + headshot</li><li>AV requirements</li><li>Post-conference slide sharing preference</li></ul><p>Hotel block: Hyatt Regency O'Hare, code <strong>AME26-SPEAK</strong> ($189/night, releases Aug 25).</p></div>",
+    "date": "2026-08-07T10:00:00-05:00",
+    "internal_date_ms": 1786114800000,
+    "folder": "INBOX",
+    "category": "CATEGORY_UPDATES",
+    "is_unread": true,
+    "is_starred": true,
+    "is_important": true,
+    "user_labels": [],
+    "attachments": [],
+    "calendar_event": null,
+    "extra_headers": {},
+    "size_estimate": 3963,
+    "meta": {
+      "email_class": "automated_notification",
+      "tricky_tags": [],
+      "is_actionable_for_user": true,
+      "action_owner": "evelyn.thorne@thornecadwell.com",
+      "action_summary": "Send final slide deck, bio, headshot, and AV requirements to AME by Aug 21; book hotel by Aug 25.",
+      "due_date": "2026-08-21",
+      "commitment_made_by_user": null,
+      "commitment_is_conditional": false,
+      "commitment_condition": null,
+      "superseded_by_message_id": null,
+      "notes": "Long-form conference logistics email tied to the speaking-slot storyline."
+    }
+  },
+  {
+    "id": "e40f18c2e4b60046",
+    "thread_id": "e40f18c2e4b60046",
+    "profile_id": "consulting",
+    "history_id": "774662",
+    "message_id_header": "<e40f18c2e4b60046@accounts.google.com>",
+    "in_reply_to": null,
+    "references": [],
+    "thread_position": 1,
+    "thread_length": 1,
+    "from": {
+      "name": "Google",
+      "email": "no-reply@accounts.google.com"
+    },
+    "sender": null,
+    "reply_to": null,
+    "to": [
+      {
+        "name": "Evelyn Thorne",
+        "email": "evelyn.thorne@thornecadwell.com"
+      }
+    ],
+    "cc": [],
+    "bcc": [],
+    "delivered_to": "evelyn.thorne@thornecadwell.com",
+    "subject": "Your Google verification code is 738164",
+    "snippet": "Your Google Account verification code is 738164. This code will expire in 10 minutes.",
+    "body_text": "Your Google Account verification code is 738164. This code will expire in 10 minutes.",
+    "body_html": "<div style=\"font-family:Arial,Helvetica,sans-serif;font-size:14px;color:#222222;max-width:600px;margin:0 auto;padding:16px;line-height:1.5;\"><p style=\"margin:0;font-size:22px;letter-spacing:2px;\"><strong>738164</strong></p><p style=\"color:#666;\">Expires in 10 minutes.</p></div>",
+    "date": "2026-08-11T15:22:00-05:00",
+    "internal_date_ms": 1786479720000,
+    "folder": "INBOX",
+    "category": "CATEGORY_UPDATES",
+    "is_unread": true,
+    "is_starred": false,
+    "is_important": false,
+    "user_labels": [],
+    "attachments": [],
+    "calendar_event": null,
+    "extra_headers": {},
+    "size_estimate": 963,
+    "meta": {
+      "email_class": "automated_notification",
+      "tricky_tags": [],
+      "is_actionable_for_user": false,
+      "action_owner": null,
+      "action_summary": null,
+      "due_date": null,
+      "commitment_made_by_user": null,
+      "commitment_is_conditional": false,
+      "commitment_condition": null,
+      "superseded_by_message_id": null,
+      "notes": null
+    }
+  },
+  {
+    "id": "e40f18c2e4b60047",
+    "thread_id": "e40f18c2e4b60047",
+    "profile_id": "consulting",
+    "history_id": "741405",
+    "message_id_header": "<e40f18c2e4b60047@google.com>",
+    "in_reply_to": null,
+    "references": [],
+    "thread_position": 1,
+    "thread_length": 1,
+    "from": {
+      "name": "Google Drive",
+      "email": "drive-shares-noreply@google.com"
+    },
+    "sender": null,
+    "reply_to": null,
+    "to": [
+      {
+        "name": "Evelyn Thorne",
+        "email": "evelyn.thorne@thornecadwell.com"
+      }
+    ],
+    "cc": [],
+    "bcc": [],
+    "delivered_to": "evelyn.thorne@thornecadwell.com",
+    "subject": "Gordon Cadwell shared \"Meridian Phase 2 — Draft SOW.docx\" with you",
+    "snippet": "Gordon Cadwell shared \"Meridian Phase 2 — Draft SOW.docx\" with you. Click to view in Google Drive.",
+    "body_text": "Gordon Cadwell shared \"Meridian Phase 2 — Draft SOW.docx\" with you. Click to view in Google Drive.",
+    "body_html": "<div style=\"font-family:Arial,Helvetica,sans-serif;font-size:14px;color:#222222;max-width:600px;margin:0 auto;padding:16px;line-height:1.5;\"><p><strong>Gordon Cadwell</strong> shared a file with you:</p><p style=\"font-weight:bold;\">Meridian Phase 2 — Draft SOW.docx</p><p><a href=\"https://drive.google.com/file/d/e40f18c2e4b60047/view\" style=\"color:#1a73e8;\">Open in Drive →</a></p></div>",
+    "date": "2026-07-19T13:05:00-05:00",
+    "internal_date_ms": 1784484300000,
+    "folder": "INBOX",
+    "category": "CATEGORY_UPDATES",
+    "is_unread": false,
+    "is_starred": false,
+    "is_important": false,
+    "user_labels": [],
+    "attachments": [],
+    "calendar_event": null,
+    "extra_headers": {},
+    "size_estimate": 1092,
+    "meta": {
+      "email_class": "automated_notification",
+      "tricky_tags": [],
+      "is_actionable_for_user": false,
+      "action_owner": null,
+      "action_summary": null,
+      "due_date": null,
+      "commitment_made_by_user": null,
+      "commitment_is_conditional": false,
+      "commitment_condition": null,
+      "superseded_by_message_id": null,
+      "notes": null
+    }
+  },
+  {
+    "id": "e40f18c2e4b60048",
+    "thread_id": "e40f18c2e4b60048",
+    "profile_id": "consulting",
+    "history_id": "761320",
+    "message_id_header": "<e40f18c2e4b60048@zoom.us>",
+    "in_reply_to": null,
+    "references": [],
+    "thread_position": 1,
+    "thread_length": 1,
+    "from": {
+      "name": "Zoom",
+      "email": "no-reply@zoom.us"
+    },
+    "sender": null,
+    "reply_to": null,
+    "to": [
+      {
+        "name": "Evelyn Thorne",
+        "email": "evelyn.thorne@thornecadwell.com"
+      }
+    ],
+    "cc": [],
+    "bcc": [],
+    "delivered_to": "evelyn.thorne@thornecadwell.com",
+    "subject": "Your Zoom cloud storage is almost full",
+    "snippet": "Your Zoom cloud recording storage is 85% full. Upgrade your plan or delete old recordings to avoid interruptions.",
+    "body_text": "Your Zoom cloud recording storage is 85% full. Upgrade your plan or delete old recordings to avoid interruptions.",
+    "body_html": "<div style=\"font-family:Arial,Helvetica,sans-serif;font-size:14px;color:#222222;max-width:600px;margin:0 auto;padding:16px;line-height:1.5;\"><p style=\"margin:0;\">Cloud recording storage is <strong>85% full</strong>.</p></div>",
+    "date": "2026-08-02T09:00:00-05:00",
+    "internal_date_ms": 1785679200000,
+    "folder": "INBOX",
+    "category": "CATEGORY_UPDATES",
+    "is_unread": false,
+    "is_starred": false,
+    "is_important": false,
+    "user_labels": [],
+    "attachments": [],
+    "calendar_event": null,
+    "extra_headers": {},
+    "size_estimate": 938,
+    "meta": {
+      "email_class": "automated_notification",
+      "tricky_tags": [],
+      "is_actionable_for_user": false,
+      "action_owner": null,
+      "action_summary": null,
+      "due_date": null,
+      "commitment_made_by_user": null,
+      "commitment_is_conditional": false,
+      "commitment_condition": null,
+      "superseded_by_message_id": null,
+      "notes": null
+    }
+  },
+  {
+    "id": "e40f18c2e4b60049",
+    "thread_id": "e40f18c2e4b60049",
+    "profile_id": "consulting",
+    "history_id": "751180",
+    "message_id_header": "<e40f18c2e4b60049@ascm.org>",
+    "in_reply_to": null,
+    "references": [],
+    "thread_position": 1,
+    "thread_length": 1,
+    "from": {
+      "name": "ASCM / APICS Membership",
+      "email": "membership@ascm.org"
+    },
+    "sender": null,
+    "reply_to": null,
+    "to": [
+      {
+        "name": "Evelyn Thorne",
+        "email": "evelyn.thorne@thornecadwell.com"
+      }
+    ],
+    "cc": [],
+    "bcc": [],
+    "delivered_to": "evelyn.thorne@thornecadwell.com",
+    "subject": "Your ASCM membership expires Sep 30 — renew now",
+    "snippet": "Your ASCM (APICS) individual membership expires Sep 30, 2026. Renew now to keep access to member pricing on certifications, webinars, and the supply chain benchmarking database. Re",
+    "body_text": "Your ASCM (APICS) individual membership expires Sep 30, 2026. Renew now to keep access to member pricing on certifications, webinars, and the supply chain benchmarking database.\n\nRenew: https://www.ascm.org/membership/renew",
+    "body_html": "<div style=\"font-family:Arial,Helvetica,sans-serif;font-size:14px;color:#222222;max-width:600px;margin:0 auto;padding:16px;line-height:1.5;\"><p>Your ASCM (APICS) membership expires <strong>Sep 30, 2026</strong>.</p><p><a href=\"https://www.ascm.org/membership/renew\" style=\"color:#004b87;\">Renew now →</a></p></div>",
+    "date": "2026-07-26T08:00:00-05:00",
+    "internal_date_ms": 1785070800000,
+    "folder": "INBOX",
+    "category": "CATEGORY_UPDATES",
+    "is_unread": false,
+    "is_starred": false,
+    "is_important": false,
+    "user_labels": [],
+    "attachments": [],
+    "calendar_event": null,
+    "extra_headers": {},
+    "size_estimate": 1139,
+    "meta": {
+      "email_class": "automated_notification",
+      "tricky_tags": [],
+      "is_actionable_for_user": false,
+      "action_owner": null,
+      "action_summary": null,
+      "due_date": null,
+      "commitment_made_by_user": null,
+      "commitment_is_conditional": false,
+      "commitment_condition": null,
+      "superseded_by_message_id": null,
+      "notes": null
+    }
+  },
+  {
+    "id": "e40f18c2e4b60050",
+    "thread_id": "e40f18c2e4b60050",
+    "profile_id": "consulting",
+    "history_id": "769900",
+    "message_id_header": "<e40f18c2e4b60050@harvestapp.com>",
+    "in_reply_to": null,
+    "references": [],
+    "thread_position": 1,
+    "thread_length": 1,
+    "from": {
+      "name": "Harvest",
+      "email": "notifications@harvestapp.com"
+    },
+    "sender": null,
+    "reply_to": null,
+    "to": [
+      {
+        "name": "Evelyn Thorne",
+        "email": "evelyn.thorne@thornecadwell.com"
+      }
+    ],
+    "cc": [],
+    "bcc": [],
+    "delivered_to": "evelyn.thorne@thornecadwell.com",
+    "subject": "Weekly time report — Aug 3-7, 2026",
+    "snippet": "Weekly time report for Thorne & Cadwell Advisory — Aug 3-7, 2026 Evelyn Thorne: 38.5h Gordon Cadwell: 41.0h Ana Restrepo: 44.5h Kyle Brenner: 47.0h Fiona Dunne: 39.5h Billable util",
+    "body_text": "Weekly time report for Thorne & Cadwell Advisory — Aug 3-7, 2026\n\nEvelyn Thorne: 38.5h\nGordon Cadwell: 41.0h\nAna Restrepo: 44.5h\nKyle Brenner: 47.0h\nFiona Dunne: 39.5h\n\nBillable utilization: 78%\n\nView full report: https://thornecadwell.harvestapp.com/reports/weekly",
+    "body_html": "<div style=\"font-family:Arial,Helvetica,sans-serif;font-size:14px;color:#222222;max-width:600px;margin:0 auto;padding:16px;line-height:1.5;\"><h2 style=\"margin-top:0;\">Weekly time report — Aug 3-7</h2><table style=\"width:100%;font-size:13px;border-collapse:collapse;\"><tr><td style=\"padding:3px 0;\">Evelyn Thorne</td><td>38.5h</td></tr><tr><td style=\"padding:3px 0;\">Gordon Cadwell</td><td>41.0h</td></tr><tr><td style=\"padding:3px 0;\">Ana Restrepo</td><td>44.5h</td></tr><tr><td style=\"padding:3px 0;\">Kyle Brenner</td><td>47.0h</td></tr><tr><td style=\"padding:3px 0;\">Fiona Dunne</td><td>39.5h</td></tr></table><p>Billable utilization: <strong>78%</strong></p></div>",
+    "date": "2026-08-08T08:00:00-05:00",
+    "internal_date_ms": 1786194000000,
+    "folder": "INBOX",
+    "category": "CATEGORY_UPDATES",
+    "is_unread": true,
+    "is_starred": false,
+    "is_important": false,
+    "user_labels": [],
+    "attachments": [],
+    "calendar_event": null,
+    "extra_headers": {},
+    "size_estimate": 1536,
+    "meta": {
+      "email_class": "automated_notification",
+      "tricky_tags": [],
+      "is_actionable_for_user": false,
+      "action_owner": null,
+      "action_summary": null,
+      "due_date": null,
+      "commitment_made_by_user": null,
+      "commitment_is_conditional": false,
+      "commitment_condition": null,
+      "superseded_by_message_id": null,
+      "notes": null
+    }
+  }
+]

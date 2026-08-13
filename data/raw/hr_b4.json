@@ -1,0 +1,3524 @@
+[
+  {
+    "id": "d40f18c2e4b60001",
+    "thread_id": "d40f18c2e4b60001",
+    "profile_id": "hr",
+    "history_id": "692230",
+    "message_id_header": "<CAFd40f18c2e4b60001@mail.gmail.com>",
+    "in_reply_to": null,
+    "references": [],
+    "thread_position": 1,
+    "thread_length": 1,
+    "from": {
+      "name": "Renata Vlasov",
+      "email": "renata.vlasov@vireohealth.com"
+    },
+    "sender": null,
+    "reply_to": null,
+    "to": [
+      {
+        "name": "Marcus Bell",
+        "email": "marcus.bell@vireohealth.com"
+      },
+      {
+        "name": "Claudia Reyes",
+        "email": "claudia.reyes@vireohealth.com"
+      },
+      {
+        "name": "Tim Osei",
+        "email": "tim.osei@vireohealth.com"
+      },
+      {
+        "name": "Jenna Wu",
+        "email": "jenna.wu@vireohealth.com"
+      }
+    ],
+    "cc": [],
+    "bcc": [],
+    "delivered_to": "marcus.bell@vireohealth.com",
+    "subject": "Invitation: People Team Weekly Sync @ Weekly from 9am to 9:30am (MDT)",
+    "snippet": "You have been invited to the following event. Title: People Team Weekly Sync When: Every Monday, 9:00 - 9:30am, Mountain Time, starting Jul 13, 2026 Location: Vireo HQ - Conf Rm 2B",
+    "body_text": "You have been invited to the following event.\n\nTitle: People Team Weekly Sync\nWhen: Every Monday, 9:00 - 9:30am, Mountain Time, starting Jul 13, 2026\nLocation: Vireo HQ - Conf Rm 2B / Zoom\nGuests: Marcus Bell, Claudia Reyes, Tim Osei, Jenna Wu\n\nDescription:\nStanding weekly check-in for the People team. Standard agenda: open reqs, escalations, comp/benefits items, one round of wins. Bring anything that needs a group decision -- keep 1:1 stuff out of this one.\n\nGoing (marcus.bell@vireohealth.com)? Yes - Maybe - No\n\nView event: https://calendar.google.com/calendar/event?eid=b2468738cd8505f4",
+    "body_html": null,
+    "date": "2026-06-15T08:30:00-06:00",
+    "internal_date_ms": 1781533800000,
+    "folder": "INBOX",
+    "category": "CATEGORY_UPDATES",
+    "is_unread": false,
+    "is_starred": false,
+    "is_important": false,
+    "user_labels": [],
+    "attachments": [
+      {
+        "attachment_id": "ANGjdJ_mYDFTP6hLR9PsVdjgvjuUdM4uFEe07qLtwVzCkJKmFNoM6kDAh",
+        "filename": "invite.ics",
+        "mime_type": "text/calendar",
+        "size_bytes": 1300,
+        "is_inline": false,
+        "content_id": null,
+        "extracted_text": "BEGIN:VCALENDAR\r\nPRODID:-//Google Inc//Google Calendar 70.9054//EN\r\nVERSION:2.0\r\nCALSCALE:GREGORIAN\r\nMETHOD:REQUEST\r\nBEGIN:VEVENT\r\nUID:b2468738cd8505f4eb7656d3@google.com\r\nDTSTAMP:20260713T090000Z\r\nDTSTART;TZID=America/Denver:20260713T090000\r\nDTEND;TZID=America/Denver:20260713T093000\r\nSEQUENCE:0\r\nSTATUS:CONFIRMED\r\nSUMMARY:People Team Weekly Sync\r\nTRANSP:OPAQUE\r\nRRULE:FREQ=WEEKLY;BYDAY=MO\r\nLOCATION:Vireo HQ - Conf Rm 2B / Zoom\r\nDESCRIPTION:Standing weekly check-in for the People team. Standard agenda: open reqs, escalations, comp/benefits items, one round of wins. Bring anything that needs a group decision -- keep 1:1 stuff out of this one.\r\nORGANIZER;CN=Renata Vlasov:mailto:renata.vlasov@vireohealth.com\r\nATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=ACCEPTED;RSVP=TRUE;CN=Marcus Bell;X-NUM-GUESTS=0:mailto:marcus.bell@vireohealth.com\r\nATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=ACCEPTED;RSVP=TRUE;CN=Claudia Reyes;X-NUM-GUESTS=0:mailto:claudia.reyes@vireohealth.com\r\nATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=ACCEPTED;RSVP=TRUE;CN=Tim Osei;X-NUM-GUESTS=0:mailto:tim.osei@vireohealth.com\r\nATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=TENTATIVE;RSVP=TRUE;CN=Jenna Wu;X-NUM-GUESTS=0:mailto:jenna.wu@vireohealth.com\r\nEND:VEVENT\r\nEND:VCALENDAR"
+      }
+    ],
+    "calendar_event": {
+      "uid": "b2468738cd8505f4eb7656d3@google.com",
+      "method": "REQUEST",
+      "sequence": 0,
+      "summary": "People Team Weekly Sync",
+      "description": "Standing weekly check-in for the People team. Standard agenda: open reqs, escalations, comp/benefits items, one round of wins. Bring anything that needs a group decision -- keep 1:1 stuff out of this one.",
+      "location": "Vireo HQ - Conf Rm 2B / Zoom",
+      "conference_url": null,
+      "organizer": {
+        "name": "Renata Vlasov",
+        "email": "renata.vlasov@vireohealth.com"
+      },
+      "attendees": [
+        {
+          "email": "marcus.bell@vireohealth.com",
+          "name": "Marcus Bell",
+          "role": "REQ-PARTICIPANT",
+          "partstat": "ACCEPTED",
+          "rsvp": true
+        },
+        {
+          "email": "claudia.reyes@vireohealth.com",
+          "name": "Claudia Reyes",
+          "role": "REQ-PARTICIPANT",
+          "partstat": "ACCEPTED",
+          "rsvp": true
+        },
+        {
+          "email": "tim.osei@vireohealth.com",
+          "name": "Tim Osei",
+          "role": "REQ-PARTICIPANT",
+          "partstat": "ACCEPTED",
+          "rsvp": true
+        },
+        {
+          "email": "jenna.wu@vireohealth.com",
+          "name": "Jenna Wu",
+          "role": "REQ-PARTICIPANT",
+          "partstat": "TENTATIVE",
+          "rsvp": true
+        }
+      ],
+      "dtstart": "2026-07-13T09:00:00-06:00",
+      "dtend": "2026-07-13T09:30:00-06:00",
+      "timezone": "America/Denver",
+      "all_day": false,
+      "rrule": "FREQ=WEEKLY;BYDAY=MO",
+      "status": "CONFIRMED"
+    },
+    "extra_headers": {},
+    "size_estimate": 3343,
+    "meta": {
+      "email_class": "calendar",
+      "tricky_tags": [],
+      "is_actionable_for_user": false,
+      "action_owner": null,
+      "action_summary": null,
+      "due_date": null,
+      "commitment_made_by_user": null,
+      "commitment_is_conditional": false,
+      "commitment_condition": null,
+      "superseded_by_message_id": null,
+      "notes": "Recurring weekly meeting invite with rrule."
+    }
+  },
+  {
+    "id": "d40f18c2e4b60002",
+    "thread_id": "d40f18c2e4b60002",
+    "profile_id": "hr",
+    "history_id": "702400",
+    "message_id_header": "<CAFd40f18c2e4b60002@mail.gmail.com>",
+    "in_reply_to": null,
+    "references": [],
+    "thread_position": 1,
+    "thread_length": 1,
+    "from": {
+      "name": "Tim Osei",
+      "email": "tim.osei@vireohealth.com"
+    },
+    "sender": null,
+    "reply_to": null,
+    "to": [
+      {
+        "name": "Marcus Bell",
+        "email": "marcus.bell@vireohealth.com"
+      },
+      {
+        "name": "Doug Feinstein",
+        "email": "doug.feinstein@vireohealth.com"
+      },
+      {
+        "name": "Dr. Elaine Ford",
+        "email": "elaine.ford@vireohealth.com"
+      },
+      {
+        "name": "Priscilla Nam",
+        "email": "priscilla.nam@vireohealth.com"
+      }
+    ],
+    "cc": [],
+    "bcc": [],
+    "delivered_to": "marcus.bell@vireohealth.com",
+    "subject": "Invitation: Onsite Interview: Dana Whitfield -- VP, Clinical Operations @ Mon Jun 29, 1pm - 4pm (MDT)",
+    "snippet": "You have been invited to the following event. Title: Onsite Interview: Dana Whitfield -- VP, Clinical Operations When: Mon Jun 29, 2026, 1:00 - 4:00pm, Mountain Time Location: Vire",
+    "body_text": "You have been invited to the following event.\n\nTitle: Onsite Interview: Dana Whitfield -- VP, Clinical Operations\nWhen: Mon Jun 29, 2026, 1:00 - 4:00pm, Mountain Time\nLocation: Vireo HQ - Boardroom / Video for remote panelists\nGuests: Marcus Bell, Doug Feinstein, Dr. Elaine Ford, Priscilla Nam\n\nDescription:\nOnsite panel for Dana Whitfield, our first finalist for VP, Clinical Operations. Background below for prep -- please read before Monday.\n\nDana is currently Senior Director of Clinical Operations at Meridian Health Partners in Colorado Springs, where she's run a 140-bed multi-site ambulatory network for the last four years. Fourteen years in healthcare ops total, starting as a floor RN before moving into administration. MBA from University of Denver, 2016. She led Meridian through a joint-commission survey with zero conditional findings last cycle, which is the single biggest thing on her resume that maps to what we need here -- Doug flagged our own survey readiness as the #1 gap in the VP Clin Ops role when we scoped it back in May.\n\nPanel and rotation (all times Mountain):\n1:00 - 1:45 Doug Feinstein (VP Clinical Operations, hiring manager) -- role scope, reporting structure, how she'd approach the first 90 days\n1:45 - 2:30 Priscilla Nam (Director of Nursing) -- staffing model, nurse retention (this is the one area she's lightest on -- Meridian's turnover was actually higher than ours last year, so push on this)\n2:30 - 2:45 break\n2:45 - 3:30 Dr. Elaine Ford (CEO) -- strategic alignment, board-facing comfort level\n3:30 - 4:00 Marcus Bell -- comp expectations, close\n\nComp: we're positioned at $185-205K base plus 15% bonus target. Her current base per the recruiter is $178K so there's room, but she mentioned equity/PTO buyback matters to her more than base -- worth surfacing in your slot if it comes up naturally.\n\nScorecards are due in Greenhouse by end of day Monday so we can debrief Tuesday morning before she flies back. Dana Whitfield is also a finalist at two other systems per the recruiter, so we are not the only game in town here -- if the room likes her, we should move fast.\n\nResume and Greenhouse profile: https://app.greenhouse.io/candidates/1180432\nQuestions before Monday, just call or Slack me.\n\nOne more thing worth flagging before the room: her references (two direct reports, one peer director) all independently used some version of the word 'decisive' unprompted, which tracks with the 90-day plan she sent ahead -- it's more concrete than most candidates give us at this stage, down to which committees she'd sit in on in week one. If the group has concerns, better to surface them Monday than after an offer's on the table.\n\nGoing (marcus.bell@vireohealth.com)? Yes - Maybe - No\n\nView event: https://calendar.google.com/calendar/event?eid=446f4acd89ecad23",
+    "body_html": null,
+    "date": "2026-06-22T10:00:00-06:00",
+    "internal_date_ms": 1782144000000,
+    "folder": "INBOX",
+    "category": "CATEGORY_UPDATES",
+    "is_unread": false,
+    "is_starred": true,
+    "is_important": true,
+    "user_labels": [],
+    "attachments": [
+      {
+        "attachment_id": "ANGjdJ_9mxFH1HadmfzuFrjY4nKl68svLjj8AlG2nutFEE4tLXsOh23Hq",
+        "filename": "invite.ics",
+        "mime_type": "text/calendar",
+        "size_bytes": 3523,
+        "is_inline": false,
+        "content_id": null,
+        "extracted_text": "BEGIN:VCALENDAR\r\nPRODID:-//Google Inc//Google Calendar 70.9054//EN\r\nVERSION:2.0\r\nCALSCALE:GREGORIAN\r\nMETHOD:REQUEST\r\nBEGIN:VEVENT\r\nUID:446f4acd89ecad230de48d7e@google.com\r\nDTSTAMP:20260629T130000Z\r\nDTSTART;TZID=America/Denver:20260629T130000\r\nDTEND;TZID=America/Denver:20260629T160000\r\nSEQUENCE:0\r\nSTATUS:CONFIRMED\r\nSUMMARY:Onsite Interview: Dana Whitfield -- VP, Clinical Operations\r\nTRANSP:OPAQUE\r\nLOCATION:Vireo HQ - Boardroom / Video for remote panelists\r\nDESCRIPTION:Onsite panel for Dana Whitfield, our first finalist for VP, Clinical Operations. Background below for prep -- please read before Monday.\\n\\nDana is currently Senior Director of Clinical Operations at Meridian Health Partners in Colorado Springs, where she's run a 140-bed multi-site ambulatory network for the last four years. Fourteen years in healthcare ops total, starting as a floor RN before moving into administration. MBA from University of Denver, 2016. She led Meridian through a joint-commission survey with zero conditional findings last cycle, which is the single biggest thing on her resume that maps to what we need here -- Doug flagged our own survey readiness as the #1 gap in the VP Clin Ops role when we scoped it back in May.\\n\\nPanel and rotation (all times Mountain):\\n1:00 - 1:45 Doug Feinstein (VP Clinical Operations, hiring manager) -- role scope, reporting structure, how she'd approach the first 90 days\\n1:45 - 2:30 Priscilla Nam (Director of Nursing) -- staffing model, nurse retention (this is the one area she's lightest on -- Meridian's turnover was actually higher than ours last year, so push on this)\\n2:30 - 2:45 break\\n2:45 - 3:30 Dr. Elaine Ford (CEO) -- strategic alignment, board-facing comfort level\\n3:30 - 4:00 Marcus Bell -- comp expectations, close\\n\\nComp: we're positioned at $185-205K base plus 15% bonus target. Her current base per the recruiter is $178K so there's room, but she mentioned equity/PTO buyback matters to her more than base -- worth surfacing in your slot if it comes up naturally.\\n\\nScorecards are due in Greenhouse by end of day Monday so we can debrief Tuesday morning before she flies back. Dana Whitfield is also a finalist at two other systems per the recruiter, so we are not the only game in town here -- if the room likes her, we should move fast.\\n\\nResume and Greenhouse profile: https://app.greenhouse.io/candidates/1180432\\nQuestions before Monday, just call or Slack me.\\n\\nOne more thing worth flagging before the room: her references (two direct reports, one peer director) all independently used some version of the word 'decisive' unprompted, which tracks with the 90-day plan she sent ahead -- it's more concrete than most candidates give us at this stage, down to which committees she'd sit in on in week one. If the group has concerns, better to surface them Monday than after an offer's on the table.\r\nORGANIZER;CN=Tim Osei:mailto:tim.osei@vireohealth.com\r\nATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=ACCEPTED;RSVP=TRUE;CN=Marcus Bell;X-NUM-GUESTS=0:mailto:marcus.bell@vireohealth.com\r\nATTENDEE;CUTYPE=INDIVIDUAL;ROLE=CHAIR;PARTSTAT=NEEDS-ACTION;RSVP=TRUE;CN=Doug Feinstein;X-NUM-GUESTS=0:mailto:doug.feinstein@vireohealth.com\r\nATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=TENTATIVE;RSVP=TRUE;CN=Dr. Elaine Ford;X-NUM-GUESTS=0:mailto:elaine.ford@vireohealth.com\r\nATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=NEEDS-ACTION;RSVP=TRUE;CN=Priscilla Nam;X-NUM-GUESTS=0:mailto:priscilla.nam@vireohealth.com\r\nEND:VEVENT\r\nEND:VCALENDAR"
+      }
+    ],
+    "calendar_event": {
+      "uid": "446f4acd89ecad230de48d7e@google.com",
+      "method": "REQUEST",
+      "sequence": 0,
+      "summary": "Onsite Interview: Dana Whitfield -- VP, Clinical Operations",
+      "description": "Onsite panel for Dana Whitfield, our first finalist for VP, Clinical Operations. Background below for prep -- please read before Monday.\n\nDana is currently Senior Director of Clinical Operations at Meridian Health Partners in Colorado Springs, where she's run a 140-bed multi-site ambulatory network for the last four years. Fourteen years in healthcare ops total, starting as a floor RN before moving into administration. MBA from University of Denver, 2016. She led Meridian through a joint-commission survey with zero conditional findings last cycle, which is the single biggest thing on her resume that maps to what we need here -- Doug flagged our own survey readiness as the #1 gap in the VP Clin Ops role when we scoped it back in May.\n\nPanel and rotation (all times Mountain):\n1:00 - 1:45 Doug Feinstein (VP Clinical Operations, hiring manager) -- role scope, reporting structure, how she'd approach the first 90 days\n1:45 - 2:30 Priscilla Nam (Director of Nursing) -- staffing model, nurse retention (this is the one area she's lightest on -- Meridian's turnover was actually higher than ours last year, so push on this)\n2:30 - 2:45 break\n2:45 - 3:30 Dr. Elaine Ford (CEO) -- strategic alignment, board-facing comfort level\n3:30 - 4:00 Marcus Bell -- comp expectations, close\n\nComp: we're positioned at $185-205K base plus 15% bonus target. Her current base per the recruiter is $178K so there's room, but she mentioned equity/PTO buyback matters to her more than base -- worth surfacing in your slot if it comes up naturally.\n\nScorecards are due in Greenhouse by end of day Monday so we can debrief Tuesday morning before she flies back. Dana Whitfield is also a finalist at two other systems per the recruiter, so we are not the only game in town here -- if the room likes her, we should move fast.\n\nResume and Greenhouse profile: https://app.greenhouse.io/candidates/1180432\nQuestions before Monday, just call or Slack me.\n\nOne more thing worth flagging before the room: her references (two direct reports, one peer director) all independently used some version of the word 'decisive' unprompted, which tracks with the 90-day plan she sent ahead -- it's more concrete than most candidates give us at this stage, down to which committees she'd sit in on in week one. If the group has concerns, better to surface them Monday than after an offer's on the table.",
+      "location": "Vireo HQ - Boardroom / Video for remote panelists",
+      "conference_url": null,
+      "organizer": {
+        "name": "Tim Osei",
+        "email": "tim.osei@vireohealth.com"
+      },
+      "attendees": [
+        {
+          "email": "marcus.bell@vireohealth.com",
+          "name": "Marcus Bell",
+          "role": "REQ-PARTICIPANT",
+          "partstat": "ACCEPTED",
+          "rsvp": true
+        },
+        {
+          "email": "doug.feinstein@vireohealth.com",
+          "name": "Doug Feinstein",
+          "role": "CHAIR",
+          "partstat": "NEEDS-ACTION",
+          "rsvp": true
+        },
+        {
+          "email": "elaine.ford@vireohealth.com",
+          "name": "Dr. Elaine Ford",
+          "role": "REQ-PARTICIPANT",
+          "partstat": "TENTATIVE",
+          "rsvp": true
+        },
+        {
+          "email": "priscilla.nam@vireohealth.com",
+          "name": "Priscilla Nam",
+          "role": "REQ-PARTICIPANT",
+          "partstat": "NEEDS-ACTION",
+          "rsvp": true
+        }
+      ],
+      "dtstart": "2026-06-29T13:00:00-06:00",
+      "dtend": "2026-06-29T16:00:00-06:00",
+      "timezone": "America/Denver",
+      "all_day": false,
+      "rrule": null,
+      "status": "CONFIRMED"
+    },
+    "extra_headers": {},
+    "size_estimate": 8568,
+    "meta": {
+      "email_class": "calendar",
+      "tricky_tags": [],
+      "is_actionable_for_user": false,
+      "action_owner": null,
+      "action_summary": null,
+      "due_date": null,
+      "commitment_made_by_user": null,
+      "commitment_is_conditional": false,
+      "commitment_condition": null,
+      "superseded_by_message_id": null,
+      "notes": "Long-form interview panel briefing; candidate for VP Clinical Ops (finalist #1)."
+    }
+  },
+  {
+    "id": "d40f18c2e4b60003",
+    "thread_id": "d40f18c2e4b60003",
+    "profile_id": "hr",
+    "history_id": "735600",
+    "message_id_header": "<CAFd40f18c2e4b60003@mail.gmail.com>",
+    "in_reply_to": null,
+    "references": [],
+    "thread_position": 1,
+    "thread_length": 1,
+    "from": {
+      "name": "Tim Osei",
+      "email": "tim.osei@vireohealth.com"
+    },
+    "sender": null,
+    "reply_to": null,
+    "to": [
+      {
+        "name": "Marcus Bell",
+        "email": "marcus.bell@vireohealth.com"
+      },
+      {
+        "name": "Doug Feinstein",
+        "email": "doug.feinstein@vireohealth.com"
+      },
+      {
+        "name": "Dr. Elaine Ford",
+        "email": "elaine.ford@vireohealth.com"
+      },
+      {
+        "name": "Priscilla Nam",
+        "email": "priscilla.nam@vireohealth.com"
+      }
+    ],
+    "cc": [],
+    "bcc": [],
+    "delivered_to": "marcus.bell@vireohealth.com",
+    "subject": "Updated invitation: Onsite Interview: Dana Whitfield -- VP, Clinical Operations @ Wed Jul 22, 1pm - 4pm (MDT)",
+    "snippet": "This event has been changed. Title: Onsite Interview: Dana Whitfield -- VP, Clinical Operations When: Wed Jul 22, 2026, 1:00 - 4:00pm, Mountain Time (changed from Mon Jun 29) Locat",
+    "body_text": "This event has been changed.\n\nTitle: Onsite Interview: Dana Whitfield -- VP, Clinical Operations\nWhen: Wed Jul 22, 2026, 1:00 - 4:00pm, Mountain Time (changed from Mon Jun 29)\nLocation: Vireo HQ - Boardroom / Video for remote panelists\nGuests: Marcus Bell, Doug Feinstein, Dr. Elaine Ford, Priscilla Nam\n\nNote from Tim: Dr. Ford had a board conflict come up on the original date -- Dana was fine moving to the 22nd. Same panel, same order. Recruiter confirmed she's still in process with us as first choice for now, but let's not sit on this.\n\nGoing (marcus.bell@vireohealth.com)? Yes - Maybe - No\n\nView event: https://calendar.google.com/calendar/event?eid=446f4acd89ecad23",
+    "body_html": null,
+    "date": "2026-07-15T11:20:00-06:00",
+    "internal_date_ms": 1784136000000,
+    "folder": "INBOX",
+    "category": "CATEGORY_UPDATES",
+    "is_unread": false,
+    "is_starred": false,
+    "is_important": false,
+    "user_labels": [],
+    "attachments": [
+      {
+        "attachment_id": "ANGjdJ_FtoTdYJ1ZYZ6388XbVNO_lKnyyyhoyMWPG6zchLQyb6DFtAVit",
+        "filename": "invite.ics",
+        "mime_type": "text/calendar",
+        "size_bytes": 3648,
+        "is_inline": false,
+        "content_id": null,
+        "extracted_text": "BEGIN:VCALENDAR\r\nPRODID:-//Google Inc//Google Calendar 70.9054//EN\r\nVERSION:2.0\r\nCALSCALE:GREGORIAN\r\nMETHOD:REQUEST\r\nBEGIN:VEVENT\r\nUID:446f4acd89ecad230de48d7e@google.com\r\nDTSTAMP:20260722T130000Z\r\nDTSTART;TZID=America/Denver:20260722T130000\r\nDTEND;TZID=America/Denver:20260722T160000\r\nSEQUENCE:1\r\nSTATUS:CONFIRMED\r\nSUMMARY:Onsite Interview: Dana Whitfield -- VP, Clinical Operations\r\nTRANSP:OPAQUE\r\nLOCATION:Vireo HQ - Boardroom / Video for remote panelists\r\nDESCRIPTION:Onsite panel for Dana Whitfield, our first finalist for VP, Clinical Operations. Background below for prep -- please read before Monday.\\n\\nDana is currently Senior Director of Clinical Operations at Meridian Health Partners in Colorado Springs, where she's run a 140-bed multi-site ambulatory network for the last four years. Fourteen years in healthcare ops total, starting as a floor RN before moving into administration. MBA from University of Denver, 2016. She led Meridian through a joint-commission survey with zero conditional findings last cycle, which is the single biggest thing on her resume that maps to what we need here -- Doug flagged our own survey readiness as the #1 gap in the VP Clin Ops role when we scoped it back in May.\\n\\nPanel and rotation (all times Mountain):\\n1:00 - 1:45 Doug Feinstein (VP Clinical Operations, hiring manager) -- role scope, reporting structure, how she'd approach the first 90 days\\n1:45 - 2:30 Priscilla Nam (Director of Nursing) -- staffing model, nurse retention (this is the one area she's lightest on -- Meridian's turnover was actually higher than ours last year, so push on this)\\n2:30 - 2:45 break\\n2:45 - 3:30 Dr. Elaine Ford (CEO) -- strategic alignment, board-facing comfort level\\n3:30 - 4:00 Marcus Bell -- comp expectations, close\\n\\nComp: we're positioned at $185-205K base plus 15% bonus target. Her current base per the recruiter is $178K so there's room, but she mentioned equity/PTO buyback matters to her more than base -- worth surfacing in your slot if it comes up naturally.\\n\\nScorecards are due in Greenhouse by end of day Monday so we can debrief Tuesday morning before she flies back. Dana Whitfield is also a finalist at two other systems per the recruiter, so we are not the only game in town here -- if the room likes her, we should move fast.\\n\\nResume and Greenhouse profile: https://app.greenhouse.io/candidates/1180432\\nQuestions before Monday, just call or Slack me.\\n\\nOne more thing worth flagging before the room: her references (two direct reports, one peer director) all independently used some version of the word 'decisive' unprompted, which tracks with the 90-day plan she sent ahead -- it's more concrete than most candidates give us at this stage, down to which committees she'd sit in on in week one. If the group has concerns, better to surface them Monday than after an offer's on the table.\\n\\nUPDATE 7/15: moved from 6/29 -- Dr. Ford had a board conflict come up. Same room, same panel order, just the new date/time below.\r\nORGANIZER;CN=Tim Osei:mailto:tim.osei@vireohealth.com\r\nATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=ACCEPTED;RSVP=TRUE;CN=Marcus Bell;X-NUM-GUESTS=0:mailto:marcus.bell@vireohealth.com\r\nATTENDEE;CUTYPE=INDIVIDUAL;ROLE=CHAIR;PARTSTAT=ACCEPTED;RSVP=TRUE;CN=Doug Feinstein;X-NUM-GUESTS=0:mailto:doug.feinstein@vireohealth.com\r\nATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=ACCEPTED;RSVP=TRUE;CN=Dr. Elaine Ford;X-NUM-GUESTS=0:mailto:elaine.ford@vireohealth.com\r\nATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=TENTATIVE;RSVP=TRUE;CN=Priscilla Nam;X-NUM-GUESTS=0:mailto:priscilla.nam@vireohealth.com\r\nEND:VEVENT\r\nEND:VCALENDAR"
+      }
+    ],
+    "calendar_event": {
+      "uid": "446f4acd89ecad230de48d7e@google.com",
+      "method": "REQUEST",
+      "sequence": 1,
+      "summary": "Onsite Interview: Dana Whitfield -- VP, Clinical Operations",
+      "description": "Onsite panel for Dana Whitfield, our first finalist for VP, Clinical Operations. Background below for prep -- please read before Monday.\n\nDana is currently Senior Director of Clinical Operations at Meridian Health Partners in Colorado Springs, where she's run a 140-bed multi-site ambulatory network for the last four years. Fourteen years in healthcare ops total, starting as a floor RN before moving into administration. MBA from University of Denver, 2016. She led Meridian through a joint-commission survey with zero conditional findings last cycle, which is the single biggest thing on her resume that maps to what we need here -- Doug flagged our own survey readiness as the #1 gap in the VP Clin Ops role when we scoped it back in May.\n\nPanel and rotation (all times Mountain):\n1:00 - 1:45 Doug Feinstein (VP Clinical Operations, hiring manager) -- role scope, reporting structure, how she'd approach the first 90 days\n1:45 - 2:30 Priscilla Nam (Director of Nursing) -- staffing model, nurse retention (this is the one area she's lightest on -- Meridian's turnover was actually higher than ours last year, so push on this)\n2:30 - 2:45 break\n2:45 - 3:30 Dr. Elaine Ford (CEO) -- strategic alignment, board-facing comfort level\n3:30 - 4:00 Marcus Bell -- comp expectations, close\n\nComp: we're positioned at $185-205K base plus 15% bonus target. Her current base per the recruiter is $178K so there's room, but she mentioned equity/PTO buyback matters to her more than base -- worth surfacing in your slot if it comes up naturally.\n\nScorecards are due in Greenhouse by end of day Monday so we can debrief Tuesday morning before she flies back. Dana Whitfield is also a finalist at two other systems per the recruiter, so we are not the only game in town here -- if the room likes her, we should move fast.\n\nResume and Greenhouse profile: https://app.greenhouse.io/candidates/1180432\nQuestions before Monday, just call or Slack me.\n\nOne more thing worth flagging before the room: her references (two direct reports, one peer director) all independently used some version of the word 'decisive' unprompted, which tracks with the 90-day plan she sent ahead -- it's more concrete than most candidates give us at this stage, down to which committees she'd sit in on in week one. If the group has concerns, better to surface them Monday than after an offer's on the table.\n\nUPDATE 7/15: moved from 6/29 -- Dr. Ford had a board conflict come up. Same room, same panel order, just the new date/time below.",
+      "location": "Vireo HQ - Boardroom / Video for remote panelists",
+      "conference_url": null,
+      "organizer": {
+        "name": "Tim Osei",
+        "email": "tim.osei@vireohealth.com"
+      },
+      "attendees": [
+        {
+          "email": "marcus.bell@vireohealth.com",
+          "name": "Marcus Bell",
+          "role": "REQ-PARTICIPANT",
+          "partstat": "ACCEPTED",
+          "rsvp": true
+        },
+        {
+          "email": "doug.feinstein@vireohealth.com",
+          "name": "Doug Feinstein",
+          "role": "CHAIR",
+          "partstat": "ACCEPTED",
+          "rsvp": true
+        },
+        {
+          "email": "elaine.ford@vireohealth.com",
+          "name": "Dr. Elaine Ford",
+          "role": "REQ-PARTICIPANT",
+          "partstat": "ACCEPTED",
+          "rsvp": true
+        },
+        {
+          "email": "priscilla.nam@vireohealth.com",
+          "name": "Priscilla Nam",
+          "role": "REQ-PARTICIPANT",
+          "partstat": "TENTATIVE",
+          "rsvp": true
+        }
+      ],
+      "dtstart": "2026-07-22T13:00:00-06:00",
+      "dtend": "2026-07-22T16:00:00-06:00",
+      "timezone": "America/Denver",
+      "all_day": false,
+      "rrule": null,
+      "status": "CONFIRMED"
+    },
+    "extra_headers": {},
+    "size_estimate": 6606,
+    "meta": {
+      "email_class": "calendar",
+      "tricky_tags": [],
+      "is_actionable_for_user": false,
+      "action_owner": null,
+      "action_summary": null,
+      "due_date": null,
+      "commitment_made_by_user": null,
+      "commitment_is_conditional": false,
+      "commitment_condition": null,
+      "superseded_by_message_id": null,
+      "notes": "Reschedule of the Dana Whitfield onsite -- same uid, sequence bumped to 1."
+    }
+  },
+  {
+    "id": "d40f18c2e4b60004",
+    "thread_id": "d40f18c2e4b60004",
+    "profile_id": "hr",
+    "history_id": "762830",
+    "message_id_header": "<CAFd40f18c2e4b60004@mail.gmail.com>",
+    "in_reply_to": null,
+    "references": [],
+    "thread_position": 1,
+    "thread_length": 1,
+    "from": {
+      "name": "Tim Osei",
+      "email": "tim.osei@vireohealth.com"
+    },
+    "sender": null,
+    "reply_to": null,
+    "to": [
+      {
+        "name": "Marcus Bell",
+        "email": "marcus.bell@vireohealth.com"
+      },
+      {
+        "name": "Doug Feinstein",
+        "email": "doug.feinstein@vireohealth.com"
+      },
+      {
+        "name": "Dr. Elaine Ford",
+        "email": "elaine.ford@vireohealth.com"
+      },
+      {
+        "name": "Priscilla Nam",
+        "email": "priscilla.nam@vireohealth.com"
+      }
+    ],
+    "cc": [],
+    "bcc": [],
+    "delivered_to": "marcus.bell@vireohealth.com",
+    "subject": "Cancelled: Onsite Interview: Dana Whitfield -- VP, Clinical Operations @ Wed Jul 22, 1pm - 4pm (MDT)",
+    "snippet": "This event has been cancelled. Title: Onsite Interview: Dana Whitfield -- VP, Clinical Operations When: Wed Jul 22, 2026, 1:00 - 4:00pm, Mountain Time Note from Tim: Finance froze ",
+    "body_text": "This event has been cancelled.\n\nTitle: Onsite Interview: Dana Whitfield -- VP, Clinical Operations\nWhen: Wed Jul 22, 2026, 1:00 - 4:00pm, Mountain Time\n\nNote from Tim: Finance froze the VP Clin Ops req this morning pending the FY27 budget re-approval -- Sam wants it revisited after the board meeting. I've let Dana's recruiter know we have to pause, not pass. Sorry for the late notice, everyone had already blocked the afternoon.",
+    "body_html": null,
+    "date": "2026-08-03T09:10:00-06:00",
+    "internal_date_ms": 1785769800000,
+    "folder": "INBOX",
+    "category": "CATEGORY_UPDATES",
+    "is_unread": true,
+    "is_starred": false,
+    "is_important": true,
+    "user_labels": [],
+    "attachments": [
+      {
+        "attachment_id": "ANGjdJ_5EBaslEjabU5DFsDeDYFKoAzhZkiCbVskcCR6DKTcPs3e8dVpi",
+        "filename": "invite.ics",
+        "mime_type": "text/calendar",
+        "size_bytes": 1205,
+        "is_inline": false,
+        "content_id": null,
+        "extracted_text": "BEGIN:VCALENDAR\r\nPRODID:-//Google Inc//Google Calendar 70.9054//EN\r\nVERSION:2.0\r\nCALSCALE:GREGORIAN\r\nMETHOD:CANCEL\r\nBEGIN:VEVENT\r\nUID:446f4acd89ecad230de48d7e@google.com\r\nDTSTAMP:20260722T130000Z\r\nDTSTART;TZID=America/Denver:20260722T130000\r\nDTEND;TZID=America/Denver:20260722T160000\r\nSEQUENCE:2\r\nSTATUS:CANCELLED\r\nSUMMARY:Onsite Interview: Dana Whitfield -- VP, Clinical Operations\r\nTRANSP:OPAQUE\r\nLOCATION:Vireo HQ - Boardroom / Video for remote panelists\r\nDESCRIPTION:Cancelled -- role paused pending FY27 budget re-approval. See email for detail.\r\nORGANIZER;CN=Tim Osei:mailto:tim.osei@vireohealth.com\r\nATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=ACCEPTED;RSVP=TRUE;CN=Marcus Bell;X-NUM-GUESTS=0:mailto:marcus.bell@vireohealth.com\r\nATTENDEE;CUTYPE=INDIVIDUAL;ROLE=CHAIR;PARTSTAT=ACCEPTED;RSVP=TRUE;CN=Doug Feinstein;X-NUM-GUESTS=0:mailto:doug.feinstein@vireohealth.com\r\nATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=ACCEPTED;RSVP=TRUE;CN=Dr. Elaine Ford;X-NUM-GUESTS=0:mailto:elaine.ford@vireohealth.com\r\nATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=TENTATIVE;RSVP=TRUE;CN=Priscilla Nam;X-NUM-GUESTS=0:mailto:priscilla.nam@vireohealth.com\r\nEND:VEVENT\r\nEND:VCALENDAR"
+      }
+    ],
+    "calendar_event": {
+      "uid": "446f4acd89ecad230de48d7e@google.com",
+      "method": "CANCEL",
+      "sequence": 2,
+      "summary": "Onsite Interview: Dana Whitfield -- VP, Clinical Operations",
+      "description": "Cancelled -- role paused pending FY27 budget re-approval. See email for detail.",
+      "location": "Vireo HQ - Boardroom / Video for remote panelists",
+      "conference_url": null,
+      "organizer": {
+        "name": "Tim Osei",
+        "email": "tim.osei@vireohealth.com"
+      },
+      "attendees": [
+        {
+          "email": "marcus.bell@vireohealth.com",
+          "name": "Marcus Bell",
+          "role": "REQ-PARTICIPANT",
+          "partstat": "ACCEPTED",
+          "rsvp": true
+        },
+        {
+          "email": "doug.feinstein@vireohealth.com",
+          "name": "Doug Feinstein",
+          "role": "CHAIR",
+          "partstat": "ACCEPTED",
+          "rsvp": true
+        },
+        {
+          "email": "elaine.ford@vireohealth.com",
+          "name": "Dr. Elaine Ford",
+          "role": "REQ-PARTICIPANT",
+          "partstat": "ACCEPTED",
+          "rsvp": true
+        },
+        {
+          "email": "priscilla.nam@vireohealth.com",
+          "name": "Priscilla Nam",
+          "role": "REQ-PARTICIPANT",
+          "partstat": "TENTATIVE",
+          "rsvp": true
+        }
+      ],
+      "dtstart": "2026-07-22T13:00:00-06:00",
+      "dtend": "2026-07-22T16:00:00-06:00",
+      "timezone": "America/Denver",
+      "all_day": false,
+      "rrule": null,
+      "status": "CANCELLED"
+    },
+    "extra_headers": {},
+    "size_estimate": 3096,
+    "meta": {
+      "email_class": "calendar",
+      "tricky_tags": [],
+      "is_actionable_for_user": true,
+      "action_owner": "marcus.bell@vireohealth.com",
+      "action_summary": "Marcus needs to tell the panel and update the req status in Greenhouse.",
+      "due_date": null,
+      "commitment_made_by_user": null,
+      "commitment_is_conditional": false,
+      "commitment_condition": null,
+      "superseded_by_message_id": null,
+      "notes": "Cancelled final round -- req paused pending budget re-approval."
+    }
+  },
+  {
+    "id": "d40f18c2e4b60005",
+    "thread_id": "d40f18c2e4b60005",
+    "profile_id": "hr",
+    "history_id": "734420",
+    "message_id_header": "<CAFd40f18c2e4b60005@mail.gmail.com>",
+    "in_reply_to": null,
+    "references": [],
+    "thread_position": 1,
+    "thread_length": 1,
+    "from": {
+      "name": "Tim Osei",
+      "email": "tim.osei@vireohealth.com"
+    },
+    "sender": null,
+    "reply_to": null,
+    "to": [
+      {
+        "name": "Priscilla Nam",
+        "email": "priscilla.nam@vireohealth.com"
+      },
+      {
+        "name": "Marcus Bell",
+        "email": "marcus.bell@vireohealth.com"
+      },
+      {
+        "name": "Doug Feinstein",
+        "email": "doug.feinstein@vireohealth.com"
+      }
+    ],
+    "cc": [],
+    "bcc": [],
+    "delivered_to": "marcus.bell@vireohealth.com",
+    "subject": "Invitation: Onsite Interview: Maria Chen -- Senior RN Case Manager @ Mon Jul 20, 10am - 11:30am (MDT)",
+    "snippet": "You have been invited to the following event. Title: Onsite Interview: Maria Chen -- Senior RN Case Manager When: Mon Jul 20, 2026, 10:00 - 11:30am, Mountain Time Location: Vireo H",
+    "body_text": "You have been invited to the following event.\n\nTitle: Onsite Interview: Maria Chen -- Senior RN Case Manager\nWhen: Mon Jul 20, 2026, 10:00 - 11:30am, Mountain Time\nLocation: Vireo HQ - Conf Rm 2B\nGuests: Priscilla Nam, Marcus Bell, Doug Feinstein\n\nDescription:\nPanel for Maria Chen, internal transfer candidate from the Aurora clinic applying up to the case manager role. 45-min rotation, group debrief last 15.\n\nGoing (marcus.bell@vireohealth.com)? Yes - Maybe - No\n\nView event: https://calendar.google.com/calendar/event?eid=0191c41f9c11384a",
+    "body_html": null,
+    "date": "2026-07-14T15:40:00-06:00",
+    "internal_date_ms": 1784065200000,
+    "folder": "INBOX",
+    "category": "CATEGORY_UPDATES",
+    "is_unread": false,
+    "is_starred": false,
+    "is_important": false,
+    "user_labels": [
+      "Label_6630"
+    ],
+    "attachments": [
+      {
+        "attachment_id": "ANGjdJ_UHMu1oQc_Nme_w6xH8gnfddbf1I1DmUKoukk03-_iZmZWEUgQN",
+        "filename": "invite.ics",
+        "mime_type": "text/calendar",
+        "size_bytes": 1101,
+        "is_inline": false,
+        "content_id": null,
+        "extracted_text": "BEGIN:VCALENDAR\r\nPRODID:-//Google Inc//Google Calendar 70.9054//EN\r\nVERSION:2.0\r\nCALSCALE:GREGORIAN\r\nMETHOD:REQUEST\r\nBEGIN:VEVENT\r\nUID:0191c41f9c11384a644f21b0@google.com\r\nDTSTAMP:20260720T100000Z\r\nDTSTART;TZID=America/Denver:20260720T100000\r\nDTEND;TZID=America/Denver:20260720T113000\r\nSEQUENCE:0\r\nSTATUS:CONFIRMED\r\nSUMMARY:Onsite Interview: Maria Chen -- Senior RN Case Manager\r\nTRANSP:OPAQUE\r\nLOCATION:Vireo HQ - Conf Rm 2B\r\nDESCRIPTION:Panel for Maria Chen, internal transfer candidate from the Aurora clinic applying up to the case manager role. 45-min rotation, group debrief last 15.\r\nORGANIZER;CN=Tim Osei:mailto:tim.osei@vireohealth.com\r\nATTENDEE;CUTYPE=INDIVIDUAL;ROLE=CHAIR;PARTSTAT=ACCEPTED;RSVP=TRUE;CN=Priscilla Nam;X-NUM-GUESTS=0:mailto:priscilla.nam@vireohealth.com\r\nATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=ACCEPTED;RSVP=TRUE;CN=Marcus Bell;X-NUM-GUESTS=0:mailto:marcus.bell@vireohealth.com\r\nATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=NEEDS-ACTION;RSVP=TRUE;CN=Doug Feinstein;X-NUM-GUESTS=0:mailto:doug.feinstein@vireohealth.com\r\nEND:VEVENT\r\nEND:VCALENDAR"
+      }
+    ],
+    "calendar_event": {
+      "uid": "0191c41f9c11384a644f21b0@google.com",
+      "method": "REQUEST",
+      "sequence": 0,
+      "summary": "Onsite Interview: Maria Chen -- Senior RN Case Manager",
+      "description": "Panel for Maria Chen, internal transfer candidate from the Aurora clinic applying up to the case manager role. 45-min rotation, group debrief last 15.",
+      "location": "Vireo HQ - Conf Rm 2B",
+      "conference_url": null,
+      "organizer": {
+        "name": "Tim Osei",
+        "email": "tim.osei@vireohealth.com"
+      },
+      "attendees": [
+        {
+          "email": "priscilla.nam@vireohealth.com",
+          "name": "Priscilla Nam",
+          "role": "CHAIR",
+          "partstat": "ACCEPTED",
+          "rsvp": true
+        },
+        {
+          "email": "marcus.bell@vireohealth.com",
+          "name": "Marcus Bell",
+          "role": "REQ-PARTICIPANT",
+          "partstat": "ACCEPTED",
+          "rsvp": true
+        },
+        {
+          "email": "doug.feinstein@vireohealth.com",
+          "name": "Doug Feinstein",
+          "role": "REQ-PARTICIPANT",
+          "partstat": "NEEDS-ACTION",
+          "rsvp": true
+        }
+      ],
+      "dtstart": "2026-07-20T10:00:00-06:00",
+      "dtend": "2026-07-20T11:30:00-06:00",
+      "timezone": "America/Denver",
+      "all_day": false,
+      "rrule": null,
+      "status": "CONFIRMED"
+    },
+    "extra_headers": {},
+    "size_estimate": 3024,
+    "meta": {
+      "email_class": "calendar",
+      "tricky_tags": [],
+      "is_actionable_for_user": false,
+      "action_owner": null,
+      "action_summary": null,
+      "due_date": null,
+      "commitment_made_by_user": null,
+      "commitment_is_conditional": false,
+      "commitment_condition": null,
+      "superseded_by_message_id": null,
+      "notes": "Interview panel with mixed attendee PARTSTAT."
+    }
+  },
+  {
+    "id": "d40f18c2e4b60006",
+    "thread_id": "d40f18c2e4b60006",
+    "profile_id": "hr",
+    "history_id": "744105",
+    "message_id_header": "<CAFd40f18c2e4b60006@mail.gmail.com>",
+    "in_reply_to": null,
+    "references": [],
+    "thread_position": 1,
+    "thread_length": 1,
+    "from": {
+      "name": "Tim Osei",
+      "email": "tim.osei@vireohealth.com"
+    },
+    "sender": null,
+    "reply_to": null,
+    "to": [
+      {
+        "name": "Omar Haddix",
+        "email": "omar.haddix@vireohealth.com"
+      },
+      {
+        "name": "Marcus Bell",
+        "email": "marcus.bell@vireohealth.com"
+      },
+      {
+        "name": "Renata Vlasov",
+        "email": "renata.vlasov@vireohealth.com"
+      }
+    ],
+    "cc": [],
+    "bcc": [],
+    "delivered_to": "marcus.bell@vireohealth.com",
+    "subject": "Invitation: Onsite Interview: Sam Okoro -- IT Director @ Mon Jul 27, 2pm - 3:30pm (MDT)",
+    "snippet": "You have been invited to the following event. Title: Onsite Interview: Sam Okoro -- IT Director When: Mon Jul 27, 2026, 2:00 - 3:30pm, Mountain Time Location: Vireo HQ - Conf Rm 4 ",
+    "body_text": "You have been invited to the following event.\n\nTitle: Onsite Interview: Sam Okoro -- IT Director\nWhen: Mon Jul 27, 2026, 2:00 - 3:30pm, Mountain Time\nLocation: Vireo HQ - Conf Rm 4 / Zoom for Renata\nGuests: Omar Haddix, Marcus Bell, Renata Vlasov\n\nDescription:\nSecond-round panel for Sam Okoro, backfilling Omar's old seat as he moves up to Director of Infrastructure. Focus on EHR vendor management experience.\n\nGoing (marcus.bell@vireohealth.com)? Yes - Maybe - No\n\nView event: https://calendar.google.com/calendar/event?eid=2704b1f2ebbf1cef",
+    "body_html": null,
+    "date": "2026-07-21T09:05:00-06:00",
+    "internal_date_ms": 1784646300000,
+    "folder": "INBOX",
+    "category": "CATEGORY_UPDATES",
+    "is_unread": false,
+    "is_starred": false,
+    "is_important": false,
+    "user_labels": [],
+    "attachments": [
+      {
+        "attachment_id": "ANGjdJ_EhN0-xt--5e65pj9Nh9rB6cl1FQy5ztQ_mtpP72KkRWfWVYyc3",
+        "filename": "invite.ics",
+        "mime_type": "text/calendar",
+        "size_bytes": 1101,
+        "is_inline": false,
+        "content_id": null,
+        "extracted_text": "BEGIN:VCALENDAR\r\nPRODID:-//Google Inc//Google Calendar 70.9054//EN\r\nVERSION:2.0\r\nCALSCALE:GREGORIAN\r\nMETHOD:REQUEST\r\nBEGIN:VEVENT\r\nUID:2704b1f2ebbf1cef70df0b17@google.com\r\nDTSTAMP:20260727T140000Z\r\nDTSTART;TZID=America/Denver:20260727T140000\r\nDTEND;TZID=America/Denver:20260727T153000\r\nSEQUENCE:0\r\nSTATUS:CONFIRMED\r\nSUMMARY:Onsite Interview: Sam Okoro -- IT Director\r\nTRANSP:OPAQUE\r\nLOCATION:Vireo HQ - Conf Rm 4 / Zoom for Renata\r\nDESCRIPTION:Second-round panel for Sam Okoro, backfilling Omar's old seat as he moves up to Director of Infrastructure. Focus on EHR vendor management experience.\r\nORGANIZER;CN=Tim Osei:mailto:tim.osei@vireohealth.com\r\nATTENDEE;CUTYPE=INDIVIDUAL;ROLE=CHAIR;PARTSTAT=ACCEPTED;RSVP=TRUE;CN=Omar Haddix;X-NUM-GUESTS=0:mailto:omar.haddix@vireohealth.com\r\nATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=TENTATIVE;RSVP=TRUE;CN=Marcus Bell;X-NUM-GUESTS=0:mailto:marcus.bell@vireohealth.com\r\nATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=NEEDS-ACTION;RSVP=TRUE;CN=Renata Vlasov;X-NUM-GUESTS=0:mailto:renata.vlasov@vireohealth.com\r\nEND:VEVENT\r\nEND:VCALENDAR"
+      }
+    ],
+    "calendar_event": {
+      "uid": "2704b1f2ebbf1cef70df0b17@google.com",
+      "method": "REQUEST",
+      "sequence": 0,
+      "summary": "Onsite Interview: Sam Okoro -- IT Director",
+      "description": "Second-round panel for Sam Okoro, backfilling Omar's old seat as he moves up to Director of Infrastructure. Focus on EHR vendor management experience.",
+      "location": "Vireo HQ - Conf Rm 4 / Zoom for Renata",
+      "conference_url": null,
+      "organizer": {
+        "name": "Tim Osei",
+        "email": "tim.osei@vireohealth.com"
+      },
+      "attendees": [
+        {
+          "email": "omar.haddix@vireohealth.com",
+          "name": "Omar Haddix",
+          "role": "CHAIR",
+          "partstat": "ACCEPTED",
+          "rsvp": true
+        },
+        {
+          "email": "marcus.bell@vireohealth.com",
+          "name": "Marcus Bell",
+          "role": "REQ-PARTICIPANT",
+          "partstat": "TENTATIVE",
+          "rsvp": true
+        },
+        {
+          "email": "renata.vlasov@vireohealth.com",
+          "name": "Renata Vlasov",
+          "role": "REQ-PARTICIPANT",
+          "partstat": "NEEDS-ACTION",
+          "rsvp": true
+        }
+      ],
+      "dtstart": "2026-07-27T14:00:00-06:00",
+      "dtend": "2026-07-27T15:30:00-06:00",
+      "timezone": "America/Denver",
+      "all_day": false,
+      "rrule": null,
+      "status": "CONFIRMED"
+    },
+    "extra_headers": {},
+    "size_estimate": 3004,
+    "meta": {
+      "email_class": "calendar",
+      "tricky_tags": [],
+      "is_actionable_for_user": false,
+      "action_owner": null,
+      "action_summary": null,
+      "due_date": null,
+      "commitment_made_by_user": null,
+      "commitment_is_conditional": false,
+      "commitment_condition": null,
+      "superseded_by_message_id": null,
+      "notes": "Second interview panel, mixed PARTSTAT attendees."
+    }
+  },
+  {
+    "id": "d40f18c2e4b60007",
+    "thread_id": "d40f18c2e4b60007",
+    "profile_id": "hr",
+    "history_id": "748360",
+    "message_id_header": "<CAFd40f18c2e4b60007@mail.gmail.com>",
+    "in_reply_to": null,
+    "references": [],
+    "thread_position": 1,
+    "thread_length": 1,
+    "from": {
+      "name": "Renata Vlasov",
+      "email": "renata.vlasov@vireohealth.com"
+    },
+    "sender": null,
+    "reply_to": null,
+    "to": [
+      {
+        "name": "Marcus Bell",
+        "email": "marcus.bell@vireohealth.com"
+      },
+      {
+        "name": "Claudia Reyes",
+        "email": "claudia.reyes@vireohealth.com"
+      },
+      {
+        "name": "Tim Osei",
+        "email": "tim.osei@vireohealth.com"
+      },
+      {
+        "name": "Jenna Wu",
+        "email": "jenna.wu@vireohealth.com"
+      }
+    ],
+    "cc": [],
+    "bcc": [],
+    "delivered_to": "marcus.bell@vireohealth.com",
+    "subject": "Invitation: Open Enrollment 2026 Launch @ Mon Aug 3, 2026 (MDT)",
+    "snippet": "You have been invited to the following event. Title: Open Enrollment 2026 Launch When: Monday, August 3, 2026 (all day) Location: All Vireo locations Guests: Marcus Bell, Claudia R",
+    "body_text": "You have been invited to the following event.\n\nTitle: Open Enrollment 2026 Launch\nWhen: Monday, August 3, 2026 (all day)\nLocation: All Vireo locations\nGuests: Marcus Bell, Claudia Reyes, Tim Osei, Jenna Wu\n\nDescription:\nEnrollment window opens company-wide today through 8/31. Portal goes live 6am, People team on standby all day for questions in #benefits-help.\n\nGoing (marcus.bell@vireohealth.com)? Yes - Maybe - No\n\nView event: https://calendar.google.com/calendar/event?eid=7230f173b22eb52f",
+    "body_html": null,
+    "date": "2026-07-24T08:00:00-06:00",
+    "internal_date_ms": 1784901600000,
+    "folder": "INBOX",
+    "category": "CATEGORY_UPDATES",
+    "is_unread": false,
+    "is_starred": false,
+    "is_important": false,
+    "user_labels": [],
+    "attachments": [
+      {
+        "attachment_id": "ANGjdJ_bUHxxKJqTM6cj5PKDlw4y2x9q0EE3xkX7YBRIv0srwMbC__o9j",
+        "filename": "invite.ics",
+        "mime_type": "text/calendar",
+        "size_bytes": 1204,
+        "is_inline": false,
+        "content_id": null,
+        "extracted_text": "BEGIN:VCALENDAR\r\nPRODID:-//Google Inc//Google Calendar 70.9054//EN\r\nVERSION:2.0\r\nCALSCALE:GREGORIAN\r\nMETHOD:REQUEST\r\nBEGIN:VEVENT\r\nUID:7230f173b22eb52f625ea54e@google.com\r\nDTSTAMP:20260803T000000Z\r\nDTSTART;TZID=America/Denver:20260803T000000\r\nDTEND;TZID=America/Denver:20260804T000000\r\nSEQUENCE:0\r\nSTATUS:CONFIRMED\r\nSUMMARY:Open Enrollment 2026 Launch\r\nTRANSP:OPAQUE\r\nLOCATION:All Vireo locations\r\nDESCRIPTION:Enrollment window opens company-wide today through 8/31. Portal goes live 6am, People team on standby all day for questions in #benefits-help.\r\nORGANIZER;CN=Renata Vlasov:mailto:renata.vlasov@vireohealth.com\r\nATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=ACCEPTED;RSVP=TRUE;CN=Marcus Bell;X-NUM-GUESTS=0:mailto:marcus.bell@vireohealth.com\r\nATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=ACCEPTED;RSVP=TRUE;CN=Claudia Reyes;X-NUM-GUESTS=0:mailto:claudia.reyes@vireohealth.com\r\nATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=ACCEPTED;RSVP=TRUE;CN=Tim Osei;X-NUM-GUESTS=0:mailto:tim.osei@vireohealth.com\r\nATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=ACCEPTED;RSVP=TRUE;CN=Jenna Wu;X-NUM-GUESTS=0:mailto:jenna.wu@vireohealth.com\r\nEND:VEVENT\r\nEND:VCALENDAR"
+      }
+    ],
+    "calendar_event": {
+      "uid": "7230f173b22eb52f625ea54e@google.com",
+      "method": "REQUEST",
+      "sequence": 0,
+      "summary": "Open Enrollment 2026 Launch",
+      "description": "Enrollment window opens company-wide today through 8/31. Portal goes live 6am, People team on standby all day for questions in #benefits-help.",
+      "location": "All Vireo locations",
+      "conference_url": null,
+      "organizer": {
+        "name": "Renata Vlasov",
+        "email": "renata.vlasov@vireohealth.com"
+      },
+      "attendees": [
+        {
+          "email": "marcus.bell@vireohealth.com",
+          "name": "Marcus Bell",
+          "role": "REQ-PARTICIPANT",
+          "partstat": "ACCEPTED",
+          "rsvp": true
+        },
+        {
+          "email": "claudia.reyes@vireohealth.com",
+          "name": "Claudia Reyes",
+          "role": "REQ-PARTICIPANT",
+          "partstat": "ACCEPTED",
+          "rsvp": true
+        },
+        {
+          "email": "tim.osei@vireohealth.com",
+          "name": "Tim Osei",
+          "role": "REQ-PARTICIPANT",
+          "partstat": "ACCEPTED",
+          "rsvp": true
+        },
+        {
+          "email": "jenna.wu@vireohealth.com",
+          "name": "Jenna Wu",
+          "role": "REQ-PARTICIPANT",
+          "partstat": "ACCEPTED",
+          "rsvp": true
+        }
+      ],
+      "dtstart": "2026-08-03T00:00:00-06:00",
+      "dtend": "2026-08-04T00:00:00-06:00",
+      "timezone": "America/Denver",
+      "all_day": true,
+      "rrule": null,
+      "status": "CONFIRMED"
+    },
+    "extra_headers": {},
+    "size_estimate": 3109,
+    "meta": {
+      "email_class": "calendar",
+      "tricky_tags": [],
+      "is_actionable_for_user": false,
+      "action_owner": null,
+      "action_summary": null,
+      "due_date": null,
+      "commitment_made_by_user": null,
+      "commitment_is_conditional": false,
+      "commitment_condition": null,
+      "superseded_by_message_id": null,
+      "notes": "All-day event marking open enrolment launch."
+    }
+  },
+  {
+    "id": "d40f18c2e4b60008",
+    "thread_id": "d40f18c2e4b60008",
+    "profile_id": "hr",
+    "history_id": "767260",
+    "message_id_header": "<CAFd40f18c2e4b60008@mail.gmail.com>",
+    "in_reply_to": null,
+    "references": [],
+    "thread_position": 1,
+    "thread_length": 1,
+    "from": {
+      "name": "Renata Vlasov",
+      "email": "renata.vlasov@vireohealth.com"
+    },
+    "sender": null,
+    "reply_to": null,
+    "to": [
+      {
+        "name": "Marcus Bell",
+        "email": "marcus.bell@vireohealth.com"
+      },
+      {
+        "name": "Alicia Munro",
+        "email": "alicia.munro@vireohealth.com"
+      }
+    ],
+    "cc": [],
+    "bcc": [],
+    "delivered_to": "marcus.bell@vireohealth.com",
+    "subject": "Invitation: New Hire Orientation @ Mon Aug 10, 9am - 12pm (MDT)",
+    "snippet": "You have been invited to the following event. Title: New Hire Orientation When: Mon Aug 10, 2026, 9:00am - 12:00pm, Mountain Time Location: Vireo HQ - Training Rm 1 Guests: Marcus ",
+    "body_text": "You have been invited to the following event.\n\nTitle: New Hire Orientation\nWhen: Mon Aug 10, 2026, 9:00am - 12:00pm, Mountain Time\nLocation: Vireo HQ - Training Rm 1\nGuests: Marcus Bell, Alicia Munro\n\nDescription:\nWelcome session for new starts. Marcus does the intro/benefits overview, Renata runs IT setup and badge photos after.\n\nGoing (marcus.bell@vireohealth.com)? Yes - Maybe - No\n\nView event: https://calendar.google.com/calendar/event?eid=172818f5ec393ad3",
+    "body_html": null,
+    "date": "2026-08-06T11:00:00-06:00",
+    "internal_date_ms": 1786035600000,
+    "folder": "INBOX",
+    "category": "CATEGORY_UPDATES",
+    "is_unread": true,
+    "is_starred": false,
+    "is_important": false,
+    "user_labels": [],
+    "attachments": [
+      {
+        "attachment_id": "ANGjdJ_FpcVpAKM2q_lkUFIv86TyAukYWxxrE4omKj30KjYXg-TBoPgi5",
+        "filename": "invite.ics",
+        "mime_type": "text/calendar",
+        "size_bytes": 907,
+        "is_inline": false,
+        "content_id": null,
+        "extracted_text": "BEGIN:VCALENDAR\r\nPRODID:-//Google Inc//Google Calendar 70.9054//EN\r\nVERSION:2.0\r\nCALSCALE:GREGORIAN\r\nMETHOD:REQUEST\r\nBEGIN:VEVENT\r\nUID:172818f5ec393ad329ca88c4@google.com\r\nDTSTAMP:20260810T090000Z\r\nDTSTART;TZID=America/Denver:20260810T090000\r\nDTEND;TZID=America/Denver:20260810T120000\r\nSEQUENCE:0\r\nSTATUS:CONFIRMED\r\nSUMMARY:New Hire Orientation\r\nTRANSP:OPAQUE\r\nLOCATION:Vireo HQ - Training Rm 1\r\nDESCRIPTION:Welcome session for new starts. Marcus does the intro/benefits overview, Renata runs IT setup and badge photos after.\r\nORGANIZER;CN=Renata Vlasov:mailto:renata.vlasov@vireohealth.com\r\nATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=ACCEPTED;RSVP=TRUE;CN=Marcus Bell;X-NUM-GUESTS=0:mailto:marcus.bell@vireohealth.com\r\nATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=NEEDS-ACTION;RSVP=TRUE;CN=Alicia Munro;X-NUM-GUESTS=0:mailto:alicia.munro@vireohealth.com\r\nEND:VEVENT\r\nEND:VCALENDAR"
+      }
+    ],
+    "calendar_event": {
+      "uid": "172818f5ec393ad329ca88c4@google.com",
+      "method": "REQUEST",
+      "sequence": 0,
+      "summary": "New Hire Orientation",
+      "description": "Welcome session for new starts. Marcus does the intro/benefits overview, Renata runs IT setup and badge photos after.",
+      "location": "Vireo HQ - Training Rm 1",
+      "conference_url": null,
+      "organizer": {
+        "name": "Renata Vlasov",
+        "email": "renata.vlasov@vireohealth.com"
+      },
+      "attendees": [
+        {
+          "email": "marcus.bell@vireohealth.com",
+          "name": "Marcus Bell",
+          "role": "REQ-PARTICIPANT",
+          "partstat": "ACCEPTED",
+          "rsvp": true
+        },
+        {
+          "email": "alicia.munro@vireohealth.com",
+          "name": "Alicia Munro",
+          "role": "REQ-PARTICIPANT",
+          "partstat": "NEEDS-ACTION",
+          "rsvp": true
+        }
+      ],
+      "dtstart": "2026-08-10T09:00:00-06:00",
+      "dtend": "2026-08-10T12:00:00-06:00",
+      "timezone": "America/Denver",
+      "all_day": false,
+      "rrule": null,
+      "status": "CONFIRMED"
+    },
+    "extra_headers": {},
+    "size_estimate": 2606,
+    "meta": {
+      "email_class": "calendar",
+      "tricky_tags": [],
+      "is_actionable_for_user": false,
+      "action_owner": null,
+      "action_summary": null,
+      "due_date": null,
+      "commitment_made_by_user": null,
+      "commitment_is_conditional": false,
+      "commitment_condition": null,
+      "superseded_by_message_id": null,
+      "notes": "New-hire orientation invite; Alicia Munro cleared background check in June, starting now."
+    }
+  },
+  {
+    "id": "d40f18c2e4b60009",
+    "thread_id": "d40f18c2e4b60009",
+    "profile_id": "hr",
+    "history_id": "758455",
+    "message_id_header": "<CAFd40f18c2e4b60009@mail.gmail.com>",
+    "in_reply_to": null,
+    "references": [],
+    "thread_position": 1,
+    "thread_length": 1,
+    "from": {
+      "name": "Claudia Reyes",
+      "email": "claudia.reyes@vireohealth.com"
+    },
+    "sender": null,
+    "reply_to": null,
+    "to": [
+      {
+        "name": "Marcus Bell",
+        "email": "marcus.bell@vireohealth.com"
+      }
+    ],
+    "cc": [],
+    "bcc": [],
+    "delivered_to": "marcus.bell@vireohealth.com",
+    "subject": "Accepted: Q3 Performance Calibration Meeting @ Thu Jul 30, 1pm - 3pm (MDT)",
+    "snippet": "Claudia Reyes has accepted this invitation.",
+    "body_text": "Claudia Reyes has accepted this invitation.",
+    "body_html": null,
+    "date": "2026-07-31T08:15:00-06:00",
+    "internal_date_ms": 1785507300000,
+    "folder": "INBOX",
+    "category": "CATEGORY_UPDATES",
+    "is_unread": false,
+    "is_starred": false,
+    "is_important": false,
+    "user_labels": [],
+    "attachments": [
+      {
+        "attachment_id": "ANGjdJ_OcN3_X3rTM7ttNFQoG7uyu-KS7QJH7MNrGU3-36TuiM5P0awnD",
+        "filename": "invite.ics",
+        "mime_type": "text/calendar",
+        "size_bytes": 737,
+        "is_inline": false,
+        "content_id": null,
+        "extracted_text": "BEGIN:VCALENDAR\r\nPRODID:-//Google Inc//Google Calendar 70.9054//EN\r\nVERSION:2.0\r\nCALSCALE:GREGORIAN\r\nMETHOD:REPLY\r\nBEGIN:VEVENT\r\nUID:0df6bcaf2856ca0fb9e0c2ad@google.com\r\nDTSTAMP:20260730T130000Z\r\nDTSTART;TZID=America/Denver:20260730T130000\r\nDTEND;TZID=America/Denver:20260730T150000\r\nSEQUENCE:0\r\nSTATUS:CONFIRMED\r\nSUMMARY:Q3 Performance Calibration Meeting\r\nTRANSP:OPAQUE\r\nLOCATION:Vireo HQ - Conf Rm 2B\r\nDESCRIPTION:Calibration session for Q3 review ratings across the clinical and corporate teams.\r\nORGANIZER;CN=Claudia Reyes:mailto:claudia.reyes@vireohealth.com\r\nATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=ACCEPTED;RSVP=TRUE;CN=Claudia Reyes;X-NUM-GUESTS=0:mailto:claudia.reyes@vireohealth.com\r\nEND:VEVENT\r\nEND:VCALENDAR"
+      }
+    ],
+    "calendar_event": {
+      "uid": "0df6bcaf2856ca0fb9e0c2ad@google.com",
+      "method": "REPLY",
+      "sequence": 0,
+      "summary": "Q3 Performance Calibration Meeting",
+      "description": "Calibration session for Q3 review ratings across the clinical and corporate teams.",
+      "location": "Vireo HQ - Conf Rm 2B",
+      "conference_url": null,
+      "organizer": {
+        "name": "Claudia Reyes",
+        "email": "claudia.reyes@vireohealth.com"
+      },
+      "attendees": [
+        {
+          "email": "claudia.reyes@vireohealth.com",
+          "name": "Claudia Reyes",
+          "role": "REQ-PARTICIPANT",
+          "partstat": "ACCEPTED",
+          "rsvp": true
+        }
+      ],
+      "dtstart": "2026-07-30T13:00:00-06:00",
+      "dtend": "2026-07-30T15:00:00-06:00",
+      "timezone": "America/Denver",
+      "all_day": false,
+      "rrule": null,
+      "status": "CONFIRMED"
+    },
+    "extra_headers": {},
+    "size_estimate": 1925,
+    "meta": {
+      "email_class": "calendar",
+      "tricky_tags": [],
+      "is_actionable_for_user": false,
+      "action_owner": null,
+      "action_summary": null,
+      "due_date": null,
+      "commitment_made_by_user": null,
+      "commitment_is_conditional": false,
+      "commitment_condition": null,
+      "superseded_by_message_id": null,
+      "notes": null
+    }
+  },
+  {
+    "id": "d40f18c2e4b60010",
+    "thread_id": "d40f18c2e4b60010",
+    "profile_id": "hr",
+    "history_id": "744030",
+    "message_id_header": "<CAFd40f18c2e4b60010@mail.gmail.com>",
+    "in_reply_to": null,
+    "references": [],
+    "thread_position": 1,
+    "thread_length": 1,
+    "from": {
+      "name": "Doug Feinstein",
+      "email": "doug.feinstein@vireohealth.com"
+    },
+    "sender": null,
+    "reply_to": null,
+    "to": [
+      {
+        "name": "Tim Osei",
+        "email": "tim.osei@vireohealth.com"
+      }
+    ],
+    "cc": [
+      {
+        "name": "Marcus Bell",
+        "email": "marcus.bell@vireohealth.com"
+      }
+    ],
+    "bcc": [],
+    "delivered_to": "marcus.bell@vireohealth.com",
+    "subject": "Accepted: Onsite Interview: Maria Chen -- Senior RN Case Manager @ Mon Jul 20, 10am - 11:30am (MDT)",
+    "snippet": "Doug Feinstein has accepted this invitation.",
+    "body_text": "Doug Feinstein has accepted this invitation.",
+    "body_html": null,
+    "date": "2026-07-21T07:50:00-06:00",
+    "internal_date_ms": 1784641800000,
+    "folder": "INBOX",
+    "category": "CATEGORY_UPDATES",
+    "is_unread": false,
+    "is_starred": false,
+    "is_important": false,
+    "user_labels": [],
+    "attachments": [
+      {
+        "attachment_id": "ANGjdJ_mC0GBFQszt9aaTRgF1_jXIdUSThcjS5kwut9DwZnrI0ZrFyCLl",
+        "filename": "invite.ics",
+        "mime_type": "text/calendar",
+        "size_bytes": 817,
+        "is_inline": false,
+        "content_id": null,
+        "extracted_text": "BEGIN:VCALENDAR\r\nPRODID:-//Google Inc//Google Calendar 70.9054//EN\r\nVERSION:2.0\r\nCALSCALE:GREGORIAN\r\nMETHOD:REPLY\r\nBEGIN:VEVENT\r\nUID:0191c41f9c11384a644f21b0@google.com\r\nDTSTAMP:20260720T100000Z\r\nDTSTART;TZID=America/Denver:20260720T100000\r\nDTEND;TZID=America/Denver:20260720T113000\r\nSEQUENCE:0\r\nSTATUS:CONFIRMED\r\nSUMMARY:Onsite Interview: Maria Chen -- Senior RN Case Manager\r\nTRANSP:OPAQUE\r\nLOCATION:Vireo HQ - Conf Rm 2B\r\nDESCRIPTION:Panel for Maria Chen, internal transfer candidate from the Aurora clinic applying up to the case manager role. 45-min rotation, group debrief last 15.\r\nORGANIZER;CN=Tim Osei:mailto:tim.osei@vireohealth.com\r\nATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=ACCEPTED;RSVP=TRUE;CN=Doug Feinstein;X-NUM-GUESTS=0:mailto:doug.feinstein@vireohealth.com\r\nEND:VEVENT\r\nEND:VCALENDAR"
+      }
+    ],
+    "calendar_event": {
+      "uid": "0191c41f9c11384a644f21b0@google.com",
+      "method": "REPLY",
+      "sequence": 0,
+      "summary": "Onsite Interview: Maria Chen -- Senior RN Case Manager",
+      "description": "Panel for Maria Chen, internal transfer candidate from the Aurora clinic applying up to the case manager role. 45-min rotation, group debrief last 15.",
+      "location": "Vireo HQ - Conf Rm 2B",
+      "conference_url": null,
+      "organizer": {
+        "name": "Tim Osei",
+        "email": "tim.osei@vireohealth.com"
+      },
+      "attendees": [
+        {
+          "email": "doug.feinstein@vireohealth.com",
+          "name": "Doug Feinstein",
+          "role": "REQ-PARTICIPANT",
+          "partstat": "ACCEPTED",
+          "rsvp": true
+        }
+      ],
+      "dtstart": "2026-07-20T10:00:00-06:00",
+      "dtend": "2026-07-20T11:30:00-06:00",
+      "timezone": "America/Denver",
+      "all_day": false,
+      "rrule": null,
+      "status": "CONFIRMED"
+    },
+    "extra_headers": {},
+    "size_estimate": 2099,
+    "meta": {
+      "email_class": "calendar",
+      "tricky_tags": [],
+      "is_actionable_for_user": false,
+      "action_owner": null,
+      "action_summary": null,
+      "due_date": null,
+      "commitment_made_by_user": null,
+      "commitment_is_conditional": false,
+      "commitment_condition": null,
+      "superseded_by_message_id": null,
+      "notes": null
+    }
+  },
+  {
+    "id": "d40f18c2e4b60011",
+    "thread_id": "d40f18c2e4b60011",
+    "profile_id": "hr",
+    "history_id": "754180",
+    "message_id_header": "<CAFd40f18c2e4b60011@mail.gmail.com>",
+    "in_reply_to": null,
+    "references": [],
+    "thread_position": 1,
+    "thread_length": 1,
+    "from": {
+      "name": "Priscilla Nam",
+      "email": "priscilla.nam@vireohealth.com"
+    },
+    "sender": null,
+    "reply_to": null,
+    "to": [
+      {
+        "name": "Tim Osei",
+        "email": "tim.osei@vireohealth.com"
+      }
+    ],
+    "cc": [
+      {
+        "name": "Marcus Bell",
+        "email": "marcus.bell@vireohealth.com"
+      }
+    ],
+    "bcc": [],
+    "delivered_to": "marcus.bell@vireohealth.com",
+    "subject": "Declined: Onsite Interview: Sam Okoro -- IT Director @ Mon Jul 27, 2pm - 3:30pm (MDT)",
+    "snippet": "Priscilla Nam has declined this invitation. Conflicts with a floor staffing review that got moved to the same window -- can someone loop me in async after?",
+    "body_text": "Priscilla Nam has declined this invitation.\n\nConflicts with a floor staffing review that got moved to the same window -- can someone loop me in async after?",
+    "body_html": null,
+    "date": "2026-07-28T09:00:00-06:00",
+    "internal_date_ms": 1785250800000,
+    "folder": "INBOX",
+    "category": "CATEGORY_UPDATES",
+    "is_unread": false,
+    "is_starred": false,
+    "is_important": false,
+    "user_labels": [],
+    "attachments": [
+      {
+        "attachment_id": "ANGjdJ_CsUYY1xb7xbmHXhMx2yEkanOVhA0-TIW2DMMTB-8wwM3DKE2x_",
+        "filename": "invite.ics",
+        "mime_type": "text/calendar",
+        "size_bytes": 820,
+        "is_inline": false,
+        "content_id": null,
+        "extracted_text": "BEGIN:VCALENDAR\r\nPRODID:-//Google Inc//Google Calendar 70.9054//EN\r\nVERSION:2.0\r\nCALSCALE:GREGORIAN\r\nMETHOD:REPLY\r\nBEGIN:VEVENT\r\nUID:2704b1f2ebbf1cef70df0b17@google.com\r\nDTSTAMP:20260727T140000Z\r\nDTSTART;TZID=America/Denver:20260727T140000\r\nDTEND;TZID=America/Denver:20260727T153000\r\nSEQUENCE:0\r\nSTATUS:CONFIRMED\r\nSUMMARY:Onsite Interview: Sam Okoro -- IT Director\r\nTRANSP:OPAQUE\r\nLOCATION:Vireo HQ - Conf Rm 4 / Zoom for Renata\r\nDESCRIPTION:Second-round panel for Sam Okoro, backfilling Omar's old seat as he moves up to Director of Infrastructure. Focus on EHR vendor management experience.\r\nORGANIZER;CN=Tim Osei:mailto:tim.osei@vireohealth.com\r\nATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=DECLINED;RSVP=TRUE;CN=Priscilla Nam;X-NUM-GUESTS=0:mailto:priscilla.nam@vireohealth.com\r\nEND:VEVENT\r\nEND:VCALENDAR"
+      }
+    ],
+    "calendar_event": {
+      "uid": "2704b1f2ebbf1cef70df0b17@google.com",
+      "method": "REPLY",
+      "sequence": 0,
+      "summary": "Onsite Interview: Sam Okoro -- IT Director",
+      "description": "Second-round panel for Sam Okoro, backfilling Omar's old seat as he moves up to Director of Infrastructure. Focus on EHR vendor management experience.",
+      "location": "Vireo HQ - Conf Rm 4 / Zoom for Renata",
+      "conference_url": null,
+      "organizer": {
+        "name": "Tim Osei",
+        "email": "tim.osei@vireohealth.com"
+      },
+      "attendees": [
+        {
+          "email": "priscilla.nam@vireohealth.com",
+          "name": "Priscilla Nam",
+          "role": "REQ-PARTICIPANT",
+          "partstat": "DECLINED",
+          "rsvp": true
+        }
+      ],
+      "dtstart": "2026-07-27T14:00:00-06:00",
+      "dtend": "2026-07-27T15:30:00-06:00",
+      "timezone": "America/Denver",
+      "all_day": false,
+      "rrule": null,
+      "status": "CONFIRMED"
+    },
+    "extra_headers": {},
+    "size_estimate": 2199,
+    "meta": {
+      "email_class": "calendar",
+      "tricky_tags": [],
+      "is_actionable_for_user": false,
+      "action_owner": null,
+      "action_summary": null,
+      "due_date": null,
+      "commitment_made_by_user": null,
+      "commitment_is_conditional": false,
+      "commitment_condition": null,
+      "superseded_by_message_id": null,
+      "notes": null
+    }
+  },
+  {
+    "id": "d40f18c2e4b60012",
+    "thread_id": "d40f18c2e4b60012",
+    "profile_id": "hr",
+    "history_id": "733965",
+    "message_id_header": "<d40f18c2e4b60012@keystonebenefits.com>",
+    "in_reply_to": null,
+    "references": [],
+    "thread_position": 1,
+    "thread_length": 1,
+    "from": {
+      "name": "Angela Nwosu",
+      "email": "angela.nwosu@keystonebenefits.com"
+    },
+    "sender": null,
+    "reply_to": null,
+    "to": [
+      {
+        "name": "Marcus Bell",
+        "email": "marcus.bell@vireohealth.com"
+      }
+    ],
+    "cc": [],
+    "bcc": [],
+    "delivered_to": "marcus.bell@vireohealth.com",
+    "subject": "Accepted: Benefits Broker Renewal Review @ Tue Jul 14, 10am - 11am (MDT)",
+    "snippet": "Angela Nwosu has accepted this invitation. I'll bring the final rate sheet and the two plan-design options we discussed on the phone.",
+    "body_text": "Angela Nwosu has accepted this invitation.\n\nI'll bring the final rate sheet and the two plan-design options we discussed on the phone.",
+    "body_html": null,
+    "date": "2026-07-14T08:05:00-06:00",
+    "internal_date_ms": 1784037900000,
+    "folder": "INBOX",
+    "category": "CATEGORY_UPDATES",
+    "is_unread": false,
+    "is_starred": false,
+    "is_important": false,
+    "user_labels": [
+      "Label_6632"
+    ],
+    "attachments": [
+      {
+        "attachment_id": "ANGjdJ_kXUh5JBk6_XLGis3raTRz3WCDUXiT41yluRos7jdvt7WIST4uw",
+        "filename": "invite.ics",
+        "mime_type": "text/calendar",
+        "size_bytes": 733,
+        "is_inline": false,
+        "content_id": null,
+        "extracted_text": "BEGIN:VCALENDAR\r\nPRODID:-//Google Inc//Google Calendar 70.9054//EN\r\nVERSION:2.0\r\nCALSCALE:GREGORIAN\r\nMETHOD:REPLY\r\nBEGIN:VEVENT\r\nUID:373e5899dc0ae63976844bc6@google.com\r\nDTSTAMP:20260714T100000Z\r\nDTSTART;TZID=America/Denver:20260714T100000\r\nDTEND;TZID=America/Denver:20260714T110000\r\nSEQUENCE:0\r\nSTATUS:CONFIRMED\r\nSUMMARY:Benefits Broker Renewal Review\r\nTRANSP:OPAQUE\r\nLOCATION:Zoom\r\nDESCRIPTION:Walk through 2027 plan renewal options and rate movement with Keystone ahead of open enrollment.\r\nORGANIZER;CN=Claudia Reyes:mailto:claudia.reyes@vireohealth.com\r\nATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=ACCEPTED;RSVP=TRUE;CN=Angela Nwosu;X-NUM-GUESTS=0:mailto:angela.nwosu@keystonebenefits.com\r\nEND:VEVENT\r\nEND:VCALENDAR"
+      }
+    ],
+    "calendar_event": {
+      "uid": "373e5899dc0ae63976844bc6@google.com",
+      "method": "REPLY",
+      "sequence": 0,
+      "summary": "Benefits Broker Renewal Review",
+      "description": "Walk through 2027 plan renewal options and rate movement with Keystone ahead of open enrollment.",
+      "location": "Zoom",
+      "conference_url": null,
+      "organizer": {
+        "name": "Claudia Reyes",
+        "email": "claudia.reyes@vireohealth.com"
+      },
+      "attendees": [
+        {
+          "email": "angela.nwosu@keystonebenefits.com",
+          "name": "Angela Nwosu",
+          "role": "REQ-PARTICIPANT",
+          "partstat": "ACCEPTED",
+          "rsvp": true
+        }
+      ],
+      "dtstart": "2026-07-14T10:00:00-06:00",
+      "dtend": "2026-07-14T11:00:00-06:00",
+      "timezone": "America/Denver",
+      "all_day": false,
+      "rrule": null,
+      "status": "CONFIRMED"
+    },
+    "extra_headers": {},
+    "size_estimate": 2015,
+    "meta": {
+      "email_class": "calendar",
+      "tricky_tags": [],
+      "is_actionable_for_user": false,
+      "action_owner": null,
+      "action_summary": null,
+      "due_date": null,
+      "commitment_made_by_user": null,
+      "commitment_is_conditional": false,
+      "commitment_condition": null,
+      "superseded_by_message_id": null,
+      "notes": null
+    }
+  },
+  {
+    "id": "d40f18c2e4b60013",
+    "thread_id": "d40f18c2e4b60013",
+    "profile_id": "hr",
+    "history_id": "696600",
+    "message_id_header": "<d40f18c2e4b60013@greenhouse.io>",
+    "in_reply_to": null,
+    "references": [],
+    "thread_position": 1,
+    "thread_length": 1,
+    "from": {
+      "name": "Greenhouse",
+      "email": "notifications@greenhouse.io"
+    },
+    "sender": null,
+    "reply_to": null,
+    "to": [
+      {
+        "name": "Marcus Bell",
+        "email": "marcus.bell@vireohealth.com"
+      }
+    ],
+    "cc": [
+      {
+        "name": "Tim Osei",
+        "email": "tim.osei@vireohealth.com"
+      }
+    ],
+    "bcc": [],
+    "delivered_to": "marcus.bell@vireohealth.com",
+    "subject": "Dana Whitfield moved to Onsite Interview -- VP, Clinical Operations",
+    "snippet": "Dana Whitfield has been moved to Onsite Interview for the VP, Clinical Operations requisition (Job #4471). Moved by: Tim Osei Previous stage: Phone Screen New stage: Onsite Intervi",
+    "body_text": "Dana Whitfield has been moved to Onsite Interview for the VP, Clinical Operations requisition (Job #4471).\n\nMoved by: Tim Osei\nPrevious stage: Phone Screen\nNew stage: Onsite Interview\n\nView candidate: https://app.greenhouse.io/candidates/1180432\n\nThis is an automated notification from Greenhouse.",
+    "body_html": null,
+    "date": "2026-06-18T11:20:00-04:00",
+    "internal_date_ms": 1781796000000,
+    "folder": "INBOX",
+    "category": "CATEGORY_UPDATES",
+    "is_unread": false,
+    "is_starred": false,
+    "is_important": false,
+    "user_labels": [],
+    "attachments": [],
+    "calendar_event": null,
+    "extra_headers": {},
+    "size_estimate": 1195,
+    "meta": {
+      "email_class": "recruiting",
+      "tricky_tags": [],
+      "is_actionable_for_user": false,
+      "action_owner": "tim.osei@vireohealth.com",
+      "action_summary": "Tim is running Dana Whitfield's interview loop.",
+      "due_date": null,
+      "commitment_made_by_user": null,
+      "commitment_is_conditional": false,
+      "commitment_condition": null,
+      "superseded_by_message_id": null,
+      "notes": null
+    }
+  },
+  {
+    "id": "d40f18c2e4b60014",
+    "thread_id": "d40f18c2e4b60014",
+    "profile_id": "hr",
+    "history_id": "698025",
+    "message_id_header": "<d40f18c2e4b60014@myworkday.com>",
+    "in_reply_to": null,
+    "references": [],
+    "thread_position": 1,
+    "thread_length": 1,
+    "from": {
+      "name": "Workday",
+      "email": "workday-noreply@myworkday.com"
+    },
+    "sender": null,
+    "reply_to": null,
+    "to": [
+      {
+        "name": "Marcus Bell",
+        "email": "marcus.bell@vireohealth.com"
+      }
+    ],
+    "cc": [],
+    "bcc": [],
+    "delivered_to": "marcus.bell@vireohealth.com",
+    "subject": "Approval Required: Time Off Request -- Renata Vlasov",
+    "snippet": "You have a pending approval in Workday. Employee: Renata Vlasov Request: Paid Time Off, 3 days (Jul 6-8, 2026) Balance after request: 6.5 days Approve or deny: https://wd5.myworkda",
+    "body_text": "You have a pending approval in Workday.\n\nEmployee: Renata Vlasov\nRequest: Paid Time Off, 3 days (Jul 6-8, 2026)\nBalance after request: 6.5 days\n\nApprove or deny: https://wd5.myworkday.com/vireohealth/inbox\n\nThis task will remain in your Workday inbox until action is taken.",
+    "body_html": null,
+    "date": "2026-06-19T08:05:00-07:00",
+    "internal_date_ms": 1781881500000,
+    "folder": "INBOX",
+    "category": "CATEGORY_UPDATES",
+    "is_unread": false,
+    "is_starred": false,
+    "is_important": false,
+    "user_labels": [],
+    "attachments": [],
+    "calendar_event": null,
+    "extra_headers": {},
+    "size_estimate": 1116,
+    "meta": {
+      "email_class": "automated_notification",
+      "tricky_tags": [],
+      "is_actionable_for_user": true,
+      "action_owner": "marcus.bell@vireohealth.com",
+      "action_summary": "Approve or deny Renata's PTO request in Workday.",
+      "due_date": "2026-06-22",
+      "commitment_made_by_user": null,
+      "commitment_is_conditional": false,
+      "commitment_condition": null,
+      "superseded_by_message_id": null,
+      "notes": null
+    }
+  },
+  {
+    "id": "d40f18c2e4b60015",
+    "thread_id": "d40f18c2e4b60015",
+    "profile_id": "hr",
+    "history_id": "705280",
+    "message_id_header": "<d40f18c2e4b60015@lattice.com>",
+    "in_reply_to": null,
+    "references": [],
+    "thread_position": 1,
+    "thread_length": 1,
+    "from": {
+      "name": "Lattice",
+      "email": "notifications@lattice.com"
+    },
+    "sender": null,
+    "reply_to": null,
+    "to": [
+      {
+        "name": "Marcus Bell",
+        "email": "marcus.bell@vireohealth.com"
+      }
+    ],
+    "cc": [],
+    "bcc": [],
+    "delivered_to": "marcus.bell@vireohealth.com",
+    "subject": "Q3 Performance Review Cycle Opens July 1",
+    "snippet": "Hi Marcus, The Q3 2026 performance review cycle launches for all Vireo employees on July 1 and closes July 31. Self-reviews are due July 15, manager reviews due July 24, calibratio",
+    "body_text": "Hi Marcus,\n\nThe Q3 2026 performance review cycle launches for all Vireo employees on July 1 and closes July 31. Self-reviews are due July 15, manager reviews due July 24, calibration the week of July 27.\n\n200 employees are in scope this cycle, same as Q2. You can review the full cycle timeline and manager checklist in the admin dashboard.\n\nOpen dashboard: https://lattice.com/admin/cycles/q3-2026\n\n-- The Lattice Team",
+    "body_html": null,
+    "date": "2026-06-24T09:00:00-07:00",
+    "internal_date_ms": 1782316800000,
+    "folder": "INBOX",
+    "category": "CATEGORY_UPDATES",
+    "is_unread": false,
+    "is_starred": false,
+    "is_important": false,
+    "user_labels": [],
+    "attachments": [],
+    "calendar_event": null,
+    "extra_headers": {},
+    "size_estimate": 1244,
+    "meta": {
+      "email_class": "automated_notification",
+      "tricky_tags": [],
+      "is_actionable_for_user": false,
+      "action_owner": null,
+      "action_summary": null,
+      "due_date": null,
+      "commitment_made_by_user": null,
+      "commitment_is_conditional": false,
+      "commitment_condition": null,
+      "superseded_by_message_id": null,
+      "notes": null
+    }
+  },
+  {
+    "id": "d40f18c2e4b60016",
+    "thread_id": "d40f18c2e4b60016",
+    "profile_id": "hr",
+    "history_id": "714385",
+    "message_id_header": "<d40f18c2e4b60016@gusto.com>",
+    "in_reply_to": null,
+    "references": [],
+    "thread_position": 1,
+    "thread_length": 1,
+    "from": {
+      "name": "Gusto",
+      "email": "notifications@gusto.com"
+    },
+    "sender": null,
+    "reply_to": null,
+    "to": [
+      {
+        "name": "Marcus Bell",
+        "email": "marcus.bell@vireohealth.com"
+      }
+    ],
+    "cc": [],
+    "bcc": [],
+    "delivered_to": "marcus.bell@vireohealth.com",
+    "subject": "Payroll processed: pay period 6/16-6/30",
+    "snippet": "Payroll for the 6/16-6/30 pay period has been processed. Net pay: $598,240.11 across 199 employees. Funds debit your account on 7/1.",
+    "body_text": "Payroll for the 6/16-6/30 pay period has been processed. Net pay: $598,240.11 across 199 employees. Funds debit your account on 7/1.",
+    "body_html": null,
+    "date": "2026-06-30T16:45:00-07:00",
+    "internal_date_ms": 1782863100000,
+    "folder": "INBOX",
+    "category": "CATEGORY_UPDATES",
+    "is_unread": false,
+    "is_starred": false,
+    "is_important": false,
+    "user_labels": [],
+    "attachments": [],
+    "calendar_event": null,
+    "extra_headers": {},
+    "size_estimate": 950,
+    "meta": {
+      "email_class": "automated_notification",
+      "tricky_tags": [],
+      "is_actionable_for_user": false,
+      "action_owner": null,
+      "action_summary": null,
+      "due_date": null,
+      "commitment_made_by_user": null,
+      "commitment_is_conditional": false,
+      "commitment_condition": null,
+      "superseded_by_message_id": null,
+      "notes": null
+    }
+  },
+  {
+    "id": "d40f18c2e4b60017",
+    "thread_id": "d40f18c2e4b60017",
+    "profile_id": "hr",
+    "history_id": "706970",
+    "message_id_header": "<d40f18c2e4b60017@checkr.com>",
+    "in_reply_to": null,
+    "references": [],
+    "thread_position": 1,
+    "thread_length": 1,
+    "from": {
+      "name": "Checkr",
+      "email": "notifications@checkr.com"
+    },
+    "sender": null,
+    "reply_to": null,
+    "to": [
+      {
+        "name": "Marcus Bell",
+        "email": "marcus.bell@vireohealth.com"
+      }
+    ],
+    "cc": [],
+    "bcc": [],
+    "delivered_to": "marcus.bell@vireohealth.com",
+    "subject": "Background check complete: Alicia Munro -- Clear",
+    "snippet": "The background check for Alicia Munro (Report #CK-7742019) is complete. Result: Clear. No further action needed.",
+    "body_text": "The background check for Alicia Munro (Report #CK-7742019) is complete. Result: Clear. No further action needed.",
+    "body_html": null,
+    "date": "2026-06-25T13:10:00-07:00",
+    "internal_date_ms": 1782418200000,
+    "folder": "INBOX",
+    "category": "CATEGORY_UPDATES",
+    "is_unread": false,
+    "is_starred": false,
+    "is_important": false,
+    "user_labels": [],
+    "attachments": [],
+    "calendar_event": null,
+    "extra_headers": {},
+    "size_estimate": 942,
+    "meta": {
+      "email_class": "automated_notification",
+      "tricky_tags": [],
+      "is_actionable_for_user": false,
+      "action_owner": null,
+      "action_summary": null,
+      "due_date": null,
+      "commitment_made_by_user": null,
+      "commitment_is_conditional": false,
+      "commitment_condition": null,
+      "superseded_by_message_id": null,
+      "notes": null
+    }
+  },
+  {
+    "id": "d40f18c2e4b60018",
+    "thread_id": "d40f18c2e4b60018",
+    "profile_id": "hr",
+    "history_id": "708250",
+    "message_id_header": "<d40f18c2e4b60018@cultureamp.com>",
+    "in_reply_to": null,
+    "references": [],
+    "thread_position": 1,
+    "thread_length": 1,
+    "from": {
+      "name": "Culture Amp",
+      "email": "noreply@cultureamp.com"
+    },
+    "sender": null,
+    "reply_to": null,
+    "to": [
+      {
+        "name": "Marcus Bell",
+        "email": "marcus.bell@vireohealth.com"
+      }
+    ],
+    "cc": [],
+    "bcc": [],
+    "delivered_to": "marcus.bell@vireohealth.com",
+    "subject": "Spring Pulse Survey results are ready",
+    "snippet": "Hi Marcus, Results from the Spring Pulse survey (closed June 20) are ready to view. 168 of 200 employees responded -- an 84% response rate, up from 79% in the winter pulse. Headlin",
+    "body_text": "Hi Marcus,\n\nResults from the Spring Pulse survey (closed June 20) are ready to view. 168 of 200 employees responded -- an 84% response rate, up from 79% in the winter pulse.\n\nHeadline numbers:\n- Overall engagement: 74% favorable (+2 pts vs winter)\n- Manager effectiveness: 71% favorable (flat)\n- Career growth: 58% favorable (-4 pts) -- lowest-scoring category again\n- eNPS: +18\n\nNursing and clinical ops came in below the company average on career growth (51% favorable), which lines up with what Priscilla's been flagging about the retention problem on the floor. Worth a closer look before the Q3 engagement survey goes out in August.\n\nFull breakdown with department cuts and verbatim comments: https://app.cultureamp.com/reports/spring-2026-pulse\n\n-- Culture Amp",
+    "body_html": null,
+    "date": "2026-06-26T10:30:00-07:00",
+    "internal_date_ms": 1782495000000,
+    "folder": "INBOX",
+    "category": "CATEGORY_UPDATES",
+    "is_unread": false,
+    "is_starred": false,
+    "is_important": false,
+    "user_labels": [],
+    "attachments": [],
+    "calendar_event": null,
+    "extra_headers": {},
+    "size_estimate": 1592,
+    "meta": {
+      "email_class": "automated_notification",
+      "tricky_tags": [],
+      "is_actionable_for_user": false,
+      "action_owner": null,
+      "action_summary": null,
+      "due_date": null,
+      "commitment_made_by_user": null,
+      "commitment_is_conditional": false,
+      "commitment_condition": null,
+      "superseded_by_message_id": null,
+      "notes": "Career growth / nursing retention signal, ties to the retention storyline."
+    }
+  },
+  {
+    "id": "d40f18c2e4b60019",
+    "thread_id": "d40f18c2e4b60019",
+    "profile_id": "hr",
+    "history_id": "695005",
+    "message_id_header": "<d40f18c2e4b60019@i9advantage.com>",
+    "in_reply_to": null,
+    "references": [],
+    "thread_position": 1,
+    "thread_length": 1,
+    "from": {
+      "name": "I-9 Advantage Compliance",
+      "email": "noreply@i9advantage.com"
+    },
+    "sender": null,
+    "reply_to": null,
+    "to": [
+      {
+        "name": "Marcus Bell",
+        "email": "marcus.bell@vireohealth.com"
+      }
+    ],
+    "cc": [
+      {
+        "name": "Farida Bashir",
+        "email": "farida.bashir@vireohealth.com"
+      }
+    ],
+    "bcc": [],
+    "delivered_to": "marcus.bell@vireohealth.com",
+    "subject": "Action Required: 14 Employees Missing Section 2 I-9 Verification",
+    "snippet": "Marcus, Our monthly scan of Vireo Health Systems' I-9 records found 14 employees hired between May 26 and June 4 who do not yet have a completed Section 2 (Employer Review and Veri",
+    "body_text": "Marcus,\n\nOur monthly scan of Vireo Health Systems' I-9 records found 14 employees hired between May 26 and June 4 who do not yet have a completed Section 2 (Employer Review and Verification) on file. Federal law requires Section 2 be completed within three business days of the employee's first day of work for pay. All 14 of these employees are now past that window -- the earliest, Marcus Alvarez in Facilities, is 23 days overdue as of this email.\n\nThis is flagged as a compliance risk, not just a paperwork gap. Penalties for substantive I-9 violations currently run $281 to $2,789 per form for a first offense, and ICE has been more active with I-9 audits in the healthcare sector this year specifically -- we've seen three of our other client systems get audit notices since January. Given Vireo has 200 employees and a multi-site footprint, a full audit would not be a quick fix.\n\nFull roster with hire dates and due dates is attached (i9_section2_roster.csv). Please note seven of the fourteen are in Nursing -- if this is a pattern of new hires starting on the floor before HR paperwork is finalized, that's worth addressing at the workflow level, not just clearing this specific backlog.\n\nWhat we need from you:\n1. Assign a reviewer (you, Renata, or Claudia) to complete Section 2 for all 14 employees. The employee must present original identity and work-authorization documents in person -- this cannot be done remotely for any of these.\n2. Log completion in the I-9 Advantage portal as each one closes out so our next scan reflects it.\n3. If any of these employees no longer have their original documents available, flag them back to us immediately -- there's a different remediation path (Form I-9 Section 3 rules don't apply here, but late-completion documentation does).\n\nWe are recommending you treat this as resolved-in-full by July 15. If you want a call to walk through the highest-risk cases first (the three that are already 3+ weeks overdue), reply and we'll get 20 minutes on the calendar this week.\n\nFor context, this is the second consecutive monthly scan where the Nursing department has accounted for the majority of new findings -- four of the six flagged in May also cleared late, past their original three-day window, just not late enough to trigger last month's report. If June's fourteen resolve on time but the pattern repeats in July, we'd recommend a short process review with whoever handles new-hire paperwork on the floor, since the gap looks structural rather than a run of one-off misses.\n\nPortal: https://portal.i9advantage.com/vireohealth/dashboard\n\nBest,\nI-9 Advantage Compliance Team\ncompliance@i9advantage.com | (855) 555-0199",
+    "body_html": null,
+    "date": "2026-06-17T07:45:00-05:00",
+    "internal_date_ms": 1781700300000,
+    "folder": "INBOX",
+    "category": "CATEGORY_UPDATES",
+    "is_unread": false,
+    "is_starred": true,
+    "is_important": true,
+    "user_labels": [],
+    "attachments": [
+      {
+        "attachment_id": "ANGjdJ_FfciEF9EhhtU4TJ3y7Wqo-jpjwjuPGWlFDiGYYQ7YCSxUGoBZn",
+        "filename": "i9_section2_roster.csv",
+        "mime_type": "text/csv",
+        "size_bytes": 934,
+        "is_inline": false,
+        "content_id": null,
+        "extracted_text": "employee_name,department,hire_date,i9_status,section2_due\nMarcus Alvarez,Facilities,2026-05-26,Missing Section 2,2026-06-19\nPriya Deshmukh,Nursing,2026-05-27,Missing Section 2,2026-06-20\nGrace Talamantes,Nursing,2026-05-27,Missing Section 2,2026-06-20\nBen Ostroff,Clinical Ops,2026-05-28,Missing Section 2,2026-06-21\nKayla Fenn,Nursing,2026-05-29,Missing Section 2,2026-06-22\nRosa Delgadillo,Facilities,2026-05-29,Missing Section 2,2026-06-22\nTrevor Bianchi,IT,2026-06-01,Missing Section 2,2026-06-24\nYusuf Karimi,Nursing,2026-06-01,Missing Section 2,2026-06-24\nDevon Mackay,Clinical Ops,2026-06-02,Missing Section 2,2026-06-25\nLena Petrosyan,Nursing,2026-06-02,Missing Section 2,2026-06-25\nOtis Greenberg,Facilities,2026-06-03,Missing Section 2,2026-06-26\nInes Falcao,Nursing,2026-06-03,Missing Section 2,2026-06-26\nCyrus Whelan,IT,2026-06-04,Missing Section 2,2026-06-27\nNadia Okonjo,Nursing,2026-06-04,Missing Section 2,2026-06-27\n"
+      }
+    ],
+    "calendar_event": null,
+    "extra_headers": {},
+    "size_estimate": 4859,
+    "meta": {
+      "email_class": "legal_compliance",
+      "tricky_tags": [],
+      "is_actionable_for_user": true,
+      "action_owner": "marcus.bell@vireohealth.com",
+      "action_summary": "Complete Section 2 I-9 verification for 14 overdue new hires by July 15.",
+      "due_date": "2026-07-15",
+      "commitment_made_by_user": null,
+      "commitment_is_conditional": false,
+      "commitment_condition": null,
+      "superseded_by_message_id": null,
+      "notes": "Long-form compliance notice tied to the I-9 audit storyline."
+    }
+  },
+  {
+    "id": "d40f18c2e4b60020",
+    "thread_id": "d40f18c2e4b60020",
+    "profile_id": "hr",
+    "history_id": "712842",
+    "message_id_header": "<d40f18c2e4b60020@googlemail.com>",
+    "in_reply_to": null,
+    "references": [],
+    "thread_position": 1,
+    "thread_length": 1,
+    "from": {
+      "name": "Mail Delivery Subsystem",
+      "email": "mailer-daemon@googlemail.com"
+    },
+    "sender": null,
+    "reply_to": null,
+    "to": [
+      {
+        "name": "Marcus Bell",
+        "email": "marcus.bell@vireohealth.com"
+      }
+    ],
+    "cc": [],
+    "bcc": [],
+    "delivered_to": "marcus.bell@vireohealth.com",
+    "subject": "Delivery Status Notification (Failure)",
+    "snippet": "Delivery to the following recipient failed permanently: new-hire-annouce@vireohealth.com Technical details of permanent failure: The email account that you tried to reach does not ",
+    "body_text": "Delivery to the following recipient failed permanently:\n\n     new-hire-annouce@vireohealth.com\n\nTechnical details of permanent failure:\nThe email account that you tried to reach does not exist. Response: 550 5.1.1 The email account that you tried to reach does not exist.",
+    "body_html": null,
+    "date": "2026-06-29T15:02:00-07:00",
+    "internal_date_ms": 1782770520000,
+    "folder": "INBOX",
+    "category": "CATEGORY_UPDATES",
+    "is_unread": false,
+    "is_starred": false,
+    "is_important": false,
+    "user_labels": [],
+    "attachments": [],
+    "calendar_event": null,
+    "extra_headers": {
+      "X-Failed-Recipients": "new-hire-annouce@vireohealth.com",
+      "Auto-Submitted": "auto-replied"
+    },
+    "size_estimate": 1197,
+    "meta": {
+      "email_class": "bounce",
+      "tricky_tags": [],
+      "is_actionable_for_user": true,
+      "action_owner": "marcus.bell@vireohealth.com",
+      "action_summary": "Typo'd distribution list address on a new-hire announcement -- resend to the correct alias.",
+      "due_date": null,
+      "commitment_made_by_user": null,
+      "commitment_is_conditional": false,
+      "commitment_condition": null,
+      "superseded_by_message_id": null,
+      "notes": null
+    }
+  },
+  {
+    "id": "d40f18c2e4b60021",
+    "thread_id": "d40f18c2e4b60021",
+    "profile_id": "hr",
+    "history_id": "713875",
+    "message_id_header": "<CAFd40f18c2e4b60021@mail.gmail.com>",
+    "in_reply_to": null,
+    "references": [],
+    "thread_position": 1,
+    "thread_length": 2,
+    "from": {
+      "name": "Marcus Bell",
+      "email": "marcus.bell@vireohealth.com"
+    },
+    "sender": null,
+    "reply_to": null,
+    "to": [
+      {
+        "name": "Angela Nwosu",
+        "email": "angela.nwosu@keystonebenefits.com"
+      }
+    ],
+    "cc": [],
+    "bcc": [],
+    "delivered_to": null,
+    "subject": "2027 renewal numbers -- can we push our call up?",
+    "snippet": "Angela -- any chance we move Tuesday's renewal call up a couple days? Finance wants a placeholder number for the Aug 27 board deck and I'd rather not guess. Thursday or Friday this",
+    "body_text": "Angela -- any chance we move Tuesday's renewal call up a couple days? Finance wants a placeholder number for the Aug 27 board deck and I'd rather not guess. Thursday or Friday this week both work on my end.\n\nMarcus",
+    "body_html": null,
+    "date": "2026-06-30T09:15:00-06:00",
+    "internal_date_ms": 1782832500000,
+    "folder": "SENT",
+    "category": null,
+    "is_unread": false,
+    "is_starred": false,
+    "is_important": false,
+    "user_labels": [],
+    "attachments": [],
+    "calendar_event": null,
+    "extra_headers": {},
+    "size_estimate": 1025,
+    "meta": {
+      "email_class": "genuine_work",
+      "tricky_tags": [],
+      "is_actionable_for_user": false,
+      "action_owner": null,
+      "action_summary": null,
+      "due_date": null,
+      "commitment_made_by_user": null,
+      "commitment_is_conditional": false,
+      "commitment_condition": null,
+      "superseded_by_message_id": null,
+      "notes": null
+    }
+  },
+  {
+    "id": "d40f18c2e4b60022",
+    "thread_id": "d40f18c2e4b60021",
+    "profile_id": "hr",
+    "history_id": "713876",
+    "message_id_header": "<d40f18c2e4b60022@keystonebenefits.com>",
+    "in_reply_to": "<CAFd40f18c2e4b60021@mail.gmail.com>",
+    "references": [
+      "<CAFd40f18c2e4b60021@mail.gmail.com>"
+    ],
+    "thread_position": 2,
+    "thread_length": 2,
+    "from": {
+      "name": "Angela Nwosu",
+      "email": "angela.nwosu@keystonebenefits.com"
+    },
+    "sender": null,
+    "reply_to": null,
+    "to": [
+      {
+        "name": "Marcus Bell",
+        "email": "marcus.bell@vireohealth.com"
+      }
+    ],
+    "cc": [],
+    "bcc": [],
+    "delivered_to": "marcus.bell@vireohealth.com",
+    "subject": "Re: 2027 renewal numbers -- can we push our call up?",
+    "snippet": "I'm out of the office at the NAHU Annual Conference with limited email access through Wednesday, July 1. I'll respond to your message when I return.",
+    "body_text": "I'm out of the office at the NAHU Annual Conference with limited email access through Wednesday, July 1. I'll respond to your message when I return.\n\nFor anything urgent before then, please contact my colleague Ben Okafor at bokafor@keystonebenefits.com or (720) 555-0142.\n\nAngela Nwosu\nKeystone Benefits Group",
+    "body_html": null,
+    "date": "2026-06-30T09:16:00-06:00",
+    "internal_date_ms": 1782832560000,
+    "folder": "INBOX",
+    "category": "CATEGORY_UPDATES",
+    "is_unread": false,
+    "is_starred": false,
+    "is_important": false,
+    "user_labels": [],
+    "attachments": [],
+    "calendar_event": null,
+    "extra_headers": {
+      "Auto-Submitted": "auto-replied",
+      "X-Auto-Response-Suppress": "All",
+      "Precedence": "bulk"
+    },
+    "size_estimate": 1339,
+    "meta": {
+      "email_class": "auto_reply",
+      "tricky_tags": [],
+      "is_actionable_for_user": false,
+      "action_owner": "angela.nwosu@keystonebenefits.com",
+      "action_summary": null,
+      "due_date": null,
+      "commitment_made_by_user": null,
+      "commitment_is_conditional": false,
+      "commitment_condition": null,
+      "superseded_by_message_id": null,
+      "notes": "Out-of-office auto-reply to Marcus's own outbound message."
+    }
+  },
+  {
+    "id": "d40f18c2e4b60023",
+    "thread_id": "d40f18c2e4b60023",
+    "profile_id": "hr",
+    "history_id": "735405",
+    "message_id_header": "<d40f18c2e4b60023@greenhouse.io>",
+    "in_reply_to": null,
+    "references": [],
+    "thread_position": 1,
+    "thread_length": 1,
+    "from": {
+      "name": "Greenhouse",
+      "email": "notifications@greenhouse.io"
+    },
+    "sender": null,
+    "reply_to": null,
+    "to": [
+      {
+        "name": "Marcus Bell",
+        "email": "marcus.bell@vireohealth.com"
+      }
+    ],
+    "cc": [
+      {
+        "name": "Priscilla Nam",
+        "email": "priscilla.nam@vireohealth.com"
+      }
+    ],
+    "bcc": [],
+    "delivered_to": "marcus.bell@vireohealth.com",
+    "subject": "Maria Chen moved to Onsite Interview -- Senior RN Case Manager",
+    "snippet": "Maria Chen has been moved to Onsite Interview for the Senior RN Case Manager requisition (Job #4498). Moved by: Priscilla Nam Previous stage: Phone Screen New stage: Onsite Intervi",
+    "body_text": "Maria Chen has been moved to Onsite Interview for the Senior RN Case Manager requisition (Job #4498).\n\nMoved by: Priscilla Nam\nPrevious stage: Phone Screen\nNew stage: Onsite Interview\n\nView candidate: https://app.greenhouse.io/candidates/1181207\n\nThis is an automated notification from Greenhouse.",
+    "body_html": null,
+    "date": "2026-07-15T10:05:00-04:00",
+    "internal_date_ms": 1784124300000,
+    "folder": "INBOX",
+    "category": "CATEGORY_UPDATES",
+    "is_unread": false,
+    "is_starred": false,
+    "is_important": false,
+    "user_labels": [
+      "Label_6630"
+    ],
+    "attachments": [],
+    "calendar_event": null,
+    "extra_headers": {},
+    "size_estimate": 1200,
+    "meta": {
+      "email_class": "recruiting",
+      "tricky_tags": [],
+      "is_actionable_for_user": false,
+      "action_owner": "priscilla.nam@vireohealth.com",
+      "action_summary": null,
+      "due_date": null,
+      "commitment_made_by_user": null,
+      "commitment_is_conditional": false,
+      "commitment_condition": null,
+      "superseded_by_message_id": null,
+      "notes": null
+    }
+  },
+  {
+    "id": "d40f18c2e4b60024",
+    "thread_id": "d40f18c2e4b60024",
+    "profile_id": "hr",
+    "history_id": "755540",
+    "message_id_header": "<d40f18c2e4b60024@greenhouse.io>",
+    "in_reply_to": null,
+    "references": [],
+    "thread_position": 1,
+    "thread_length": 1,
+    "from": {
+      "name": "Greenhouse",
+      "email": "notifications@greenhouse.io"
+    },
+    "sender": null,
+    "reply_to": null,
+    "to": [
+      {
+        "name": "Marcus Bell",
+        "email": "marcus.bell@vireohealth.com"
+      }
+    ],
+    "cc": [
+      {
+        "name": "Omar Haddix",
+        "email": "omar.haddix@vireohealth.com"
+      }
+    ],
+    "bcc": [],
+    "delivered_to": "marcus.bell@vireohealth.com",
+    "subject": "Sam Okoro moved to Reference Check -- IT Director",
+    "snippet": "Sam Okoro has been moved to Reference Check for the IT Director requisition (Job #4502). Moved by: Omar Haddix Previous stage: Onsite Interview New stage: Reference Check View cand",
+    "body_text": "Sam Okoro has been moved to Reference Check for the IT Director requisition (Job #4502).\n\nMoved by: Omar Haddix\nPrevious stage: Onsite Interview\nNew stage: Reference Check\n\nView candidate: https://app.greenhouse.io/candidates/1181509\n\nThis is an automated notification from Greenhouse.",
+    "body_html": null,
+    "date": "2026-07-29T09:40:00-04:00",
+    "internal_date_ms": 1785332400000,
+    "folder": "INBOX",
+    "category": "CATEGORY_UPDATES",
+    "is_unread": false,
+    "is_starred": false,
+    "is_important": false,
+    "user_labels": [],
+    "attachments": [],
+    "calendar_event": null,
+    "extra_headers": {},
+    "size_estimate": 1171,
+    "meta": {
+      "email_class": "recruiting",
+      "tricky_tags": [],
+      "is_actionable_for_user": false,
+      "action_owner": "omar.haddix@vireohealth.com",
+      "action_summary": null,
+      "due_date": null,
+      "commitment_made_by_user": null,
+      "commitment_is_conditional": false,
+      "commitment_condition": null,
+      "superseded_by_message_id": null,
+      "notes": null
+    }
+  },
+  {
+    "id": "d40f18c2e4b60025",
+    "thread_id": "d40f18c2e4b60025",
+    "profile_id": "hr",
+    "history_id": "742750",
+    "message_id_header": "<d40f18c2e4b60025@greenhouse.io>",
+    "in_reply_to": null,
+    "references": [],
+    "thread_position": 1,
+    "thread_length": 1,
+    "from": {
+      "name": "Greenhouse",
+      "email": "notifications@greenhouse.io"
+    },
+    "sender": null,
+    "reply_to": null,
+    "to": [
+      {
+        "name": "Marcus Bell",
+        "email": "marcus.bell@vireohealth.com"
+      }
+    ],
+    "cc": [],
+    "bcc": [],
+    "delivered_to": "marcus.bell@vireohealth.com",
+    "subject": "Scorecard due: Maria Chen -- submit before 5pm today",
+    "snippet": "Your interview scorecard for Maria Chen (Senior RN Case Manager) is due before 5pm today.",
+    "body_text": "Your interview scorecard for Maria Chen (Senior RN Case Manager) is due before 5pm today.",
+    "body_html": null,
+    "date": "2026-07-20T12:30:00-04:00",
+    "internal_date_ms": 1784565000000,
+    "folder": "INBOX",
+    "category": "CATEGORY_UPDATES",
+    "is_unread": false,
+    "is_starred": false,
+    "is_important": false,
+    "user_labels": [
+      "Label_6630"
+    ],
+    "attachments": [],
+    "calendar_event": null,
+    "extra_headers": {},
+    "size_estimate": 933,
+    "meta": {
+      "email_class": "recruiting",
+      "tricky_tags": [],
+      "is_actionable_for_user": true,
+      "action_owner": "marcus.bell@vireohealth.com",
+      "action_summary": "Submit interview scorecard for Maria Chen in Greenhouse.",
+      "due_date": "2026-07-20",
+      "commitment_made_by_user": null,
+      "commitment_is_conditional": false,
+      "commitment_condition": null,
+      "superseded_by_message_id": null,
+      "notes": null
+    }
+  },
+  {
+    "id": "d40f18c2e4b60026",
+    "thread_id": "d40f18c2e4b60026",
+    "profile_id": "hr",
+    "history_id": "774640",
+    "message_id_header": "<d40f18c2e4b60026@greenhouse.io>",
+    "in_reply_to": null,
+    "references": [],
+    "thread_position": 1,
+    "thread_length": 1,
+    "from": {
+      "name": "Greenhouse",
+      "email": "notifications@greenhouse.io"
+    },
+    "sender": null,
+    "reply_to": null,
+    "to": [
+      {
+        "name": "Marcus Bell",
+        "email": "marcus.bell@vireohealth.com"
+      }
+    ],
+    "cc": [],
+    "bcc": [],
+    "delivered_to": "marcus.bell@vireohealth.com",
+    "subject": "Scorecard due: Sam Okoro -- IT Director",
+    "snippet": "Your interview scorecard for Sam Okoro (IT Director) is due before his debrief tomorrow at 10am.",
+    "body_text": "Your interview scorecard for Sam Okoro (IT Director) is due before his debrief tomorrow at 10am.",
+    "body_html": null,
+    "date": "2026-08-11T16:00:00-04:00",
+    "internal_date_ms": 1786478400000,
+    "folder": "INBOX",
+    "category": "CATEGORY_UPDATES",
+    "is_unread": true,
+    "is_starred": false,
+    "is_important": false,
+    "user_labels": [],
+    "attachments": [],
+    "calendar_event": null,
+    "extra_headers": {},
+    "size_estimate": 927,
+    "meta": {
+      "email_class": "recruiting",
+      "tricky_tags": [],
+      "is_actionable_for_user": true,
+      "action_owner": "marcus.bell@vireohealth.com",
+      "action_summary": "Submit interview scorecard for Sam Okoro before tomorrow's debrief.",
+      "due_date": "2026-08-12",
+      "commitment_made_by_user": null,
+      "commitment_is_conditional": false,
+      "commitment_condition": null,
+      "superseded_by_message_id": null,
+      "notes": null
+    }
+  },
+  {
+    "id": "d40f18c2e4b60027",
+    "thread_id": "d40f18c2e4b60027",
+    "profile_id": "hr",
+    "history_id": "762835",
+    "message_id_header": "<d40f18c2e4b60027@greenhouse.io>",
+    "in_reply_to": null,
+    "references": [],
+    "thread_position": 1,
+    "thread_length": 1,
+    "from": {
+      "name": "Greenhouse",
+      "email": "notifications@greenhouse.io"
+    },
+    "sender": null,
+    "reply_to": null,
+    "to": [
+      {
+        "name": "Marcus Bell",
+        "email": "marcus.bell@vireohealth.com"
+      }
+    ],
+    "cc": [
+      {
+        "name": "Tim Osei",
+        "email": "tim.osei@vireohealth.com"
+      }
+    ],
+    "bcc": [],
+    "delivered_to": "marcus.bell@vireohealth.com",
+    "subject": "Requisition On Hold: VP, Clinical Operations",
+    "snippet": "Job #4471 (VP, Clinical Operations) has been changed to On Hold status. Changed by: Tim Osei Reason: Budget re-approval pending All candidates in active stages have been notified o",
+    "body_text": "Job #4471 (VP, Clinical Operations) has been changed to On Hold status.\n\nChanged by: Tim Osei\nReason: Budget re-approval pending\n\nAll candidates in active stages have been notified of the pause. No new interviews will be scheduled until the requisition is reopened.\n\nView requisition: https://app.greenhouse.io/jobs/4471\n\nThis is an automated notification from Greenhouse.",
+    "body_html": null,
+    "date": "2026-08-03T11:15:00-04:00",
+    "internal_date_ms": 1785770100000,
+    "folder": "INBOX",
+    "category": "CATEGORY_UPDATES",
+    "is_unread": false,
+    "is_starred": false,
+    "is_important": false,
+    "user_labels": [],
+    "attachments": [],
+    "calendar_event": null,
+    "extra_headers": {},
+    "size_estimate": 1247,
+    "meta": {
+      "email_class": "recruiting",
+      "tricky_tags": [],
+      "is_actionable_for_user": false,
+      "action_owner": "tim.osei@vireohealth.com",
+      "action_summary": null,
+      "due_date": null,
+      "commitment_made_by_user": null,
+      "commitment_is_conditional": false,
+      "commitment_condition": null,
+      "superseded_by_message_id": null,
+      "notes": "Follow-on system notification after the VP Clin Ops loop was cancelled."
+    }
+  },
+  {
+    "id": "d40f18c2e4b60028",
+    "thread_id": "d40f18c2e4b60028",
+    "profile_id": "hr",
+    "history_id": "738360",
+    "message_id_header": "<d40f18c2e4b60028@myworkday.com>",
+    "in_reply_to": null,
+    "references": [],
+    "thread_position": 1,
+    "thread_length": 1,
+    "from": {
+      "name": "Workday",
+      "email": "workday-noreply@myworkday.com"
+    },
+    "sender": null,
+    "reply_to": null,
+    "to": [
+      {
+        "name": "Marcus Bell",
+        "email": "marcus.bell@vireohealth.com"
+      }
+    ],
+    "cc": [],
+    "bcc": [],
+    "delivered_to": "marcus.bell@vireohealth.com",
+    "subject": "Approval Required: Expense Report -- Doug Feinstein",
+    "snippet": "Doug Feinstein submitted an expense report for $1,240.55 (conference travel). Approve or deny in Workday.",
+    "body_text": "Doug Feinstein submitted an expense report for $1,240.55 (conference travel). Approve or deny in Workday.",
+    "body_html": null,
+    "date": "2026-07-17T08:20:00-07:00",
+    "internal_date_ms": 1784301600000,
+    "folder": "INBOX",
+    "category": "CATEGORY_UPDATES",
+    "is_unread": false,
+    "is_starred": false,
+    "is_important": false,
+    "user_labels": [],
+    "attachments": [],
+    "calendar_event": null,
+    "extra_headers": {},
+    "size_estimate": 947,
+    "meta": {
+      "email_class": "automated_notification",
+      "tricky_tags": [],
+      "is_actionable_for_user": true,
+      "action_owner": "marcus.bell@vireohealth.com",
+      "action_summary": "Approve or deny Doug's $1,240.55 expense report.",
+      "due_date": "2026-07-20",
+      "commitment_made_by_user": null,
+      "commitment_is_conditional": false,
+      "commitment_condition": null,
+      "superseded_by_message_id": null,
+      "notes": null
+    }
+  },
+  {
+    "id": "d40f18c2e4b60029",
+    "thread_id": "d40f18c2e4b60029",
+    "profile_id": "hr",
+    "history_id": "748490",
+    "message_id_header": "<d40f18c2e4b60029@myworkday.com>",
+    "in_reply_to": null,
+    "references": [],
+    "thread_position": 1,
+    "thread_length": 1,
+    "from": {
+      "name": "Workday",
+      "email": "workday-noreply@myworkday.com"
+    },
+    "sender": null,
+    "reply_to": null,
+    "to": [
+      {
+        "name": "Marcus Bell",
+        "email": "marcus.bell@vireohealth.com"
+      }
+    ],
+    "cc": [],
+    "bcc": [],
+    "delivered_to": "marcus.bell@vireohealth.com",
+    "subject": "Approval Required: Merit Increase -- Priscilla Nam",
+    "snippet": "You have a pending compensation approval in Workday. Employee: Priscilla Nam Current grade / base: Grade 7 / $118,500 Proposed grade / base: Grade 8 / $126,200 (+6.5%) Effective da",
+    "body_text": "You have a pending compensation approval in Workday.\n\nEmployee: Priscilla Nam\nCurrent grade / base: Grade 7 / $118,500\nProposed grade / base: Grade 8 / $126,200 (+6.5%)\nEffective date: 2026-08-01\nSubmitted by: Doug Feinstein\nJustification: Retention risk following two peer departures this spring; market data pulled from the June Sequoia One healthcare benchmarking cut.\n\nThis request routes to you as second approver after Doug. Finance has already signed off on budget availability.\n\nApprove or deny: https://wd5.myworkday.com/vireohealth/inbox",
+    "body_html": null,
+    "date": "2026-07-24T09:10:00-07:00",
+    "internal_date_ms": 1784909400000,
+    "folder": "INBOX",
+    "category": "CATEGORY_UPDATES",
+    "is_unread": false,
+    "is_starred": false,
+    "is_important": true,
+    "user_labels": [
+      "Label_6633"
+    ],
+    "attachments": [],
+    "calendar_event": null,
+    "extra_headers": {},
+    "size_estimate": 1388,
+    "meta": {
+      "email_class": "automated_notification",
+      "tricky_tags": [],
+      "is_actionable_for_user": true,
+      "action_owner": "marcus.bell@vireohealth.com",
+      "action_summary": "Approve or deny Priscilla Nam's merit increase to Grade 8.",
+      "due_date": "2026-07-31",
+      "commitment_made_by_user": null,
+      "commitment_is_conditional": false,
+      "commitment_condition": null,
+      "superseded_by_message_id": null,
+      "notes": null
+    }
+  },
+  {
+    "id": "d40f18c2e4b60030",
+    "thread_id": "d40f18c2e4b60030",
+    "profile_id": "hr",
+    "history_id": "767190",
+    "message_id_header": "<d40f18c2e4b60030@myworkday.com>",
+    "in_reply_to": null,
+    "references": [],
+    "thread_position": 1,
+    "thread_length": 1,
+    "from": {
+      "name": "Workday",
+      "email": "workday-noreply@myworkday.com"
+    },
+    "sender": null,
+    "reply_to": null,
+    "to": [
+      {
+        "name": "Marcus Bell",
+        "email": "marcus.bell@vireohealth.com"
+      }
+    ],
+    "cc": [],
+    "bcc": [],
+    "delivered_to": "marcus.bell@vireohealth.com",
+    "subject": "Approval Required: New Requisition -- Clinical Nurse Educator (FTE)",
+    "snippet": "You have a pending requisition approval in Workday. Position: Clinical Nurse Educator (new headcount, not a backfill) Requested by: Priscilla Nam Target start: 2026-09-14 Budgeted ",
+    "body_text": "You have a pending requisition approval in Workday.\n\nPosition: Clinical Nurse Educator (new headcount, not a backfill)\nRequested by: Priscilla Nam\nTarget start: 2026-09-14\nBudgeted salary range: $92,000-$104,000\n\nApprove or deny: https://wd5.myworkday.com/vireohealth/inbox",
+    "body_html": null,
+    "date": "2026-08-06T08:50:00-07:00",
+    "internal_date_ms": 1786031400000,
+    "folder": "INBOX",
+    "category": "CATEGORY_UPDATES",
+    "is_unread": true,
+    "is_starred": false,
+    "is_important": false,
+    "user_labels": [],
+    "attachments": [],
+    "calendar_event": null,
+    "extra_headers": {},
+    "size_estimate": 1131,
+    "meta": {
+      "email_class": "automated_notification",
+      "tricky_tags": [],
+      "is_actionable_for_user": true,
+      "action_owner": "marcus.bell@vireohealth.com",
+      "action_summary": "Approve or deny the new Clinical Nurse Educator requisition.",
+      "due_date": "2026-08-13",
+      "commitment_made_by_user": null,
+      "commitment_is_conditional": false,
+      "commitment_condition": null,
+      "superseded_by_message_id": null,
+      "notes": null
+    }
+  },
+  {
+    "id": "d40f18c2e4b60031",
+    "thread_id": "d40f18c2e4b60031",
+    "profile_id": "hr",
+    "history_id": "768580",
+    "message_id_header": "<d40f18c2e4b60031@myworkday.com>",
+    "in_reply_to": null,
+    "references": [],
+    "thread_position": 1,
+    "thread_length": 1,
+    "from": {
+      "name": "Workday",
+      "email": "workday-noreply@myworkday.com"
+    },
+    "sender": null,
+    "reply_to": null,
+    "to": [
+      {
+        "name": "Marcus Bell",
+        "email": "marcus.bell@vireohealth.com"
+      }
+    ],
+    "cc": [],
+    "bcc": [],
+    "delivered_to": "marcus.bell@vireohealth.com",
+    "subject": "Approval Required: Time Off Request -- Jenna Wu",
+    "snippet": "Jenna Wu requested 5 days PTO (Aug 24-28, 2026). Approve or deny in Workday.",
+    "body_text": "Jenna Wu requested 5 days PTO (Aug 24-28, 2026). Approve or deny in Workday.",
+    "body_html": null,
+    "date": "2026-08-07T08:00:00-07:00",
+    "internal_date_ms": 1786114800000,
+    "folder": "INBOX",
+    "category": "CATEGORY_UPDATES",
+    "is_unread": false,
+    "is_starred": false,
+    "is_important": false,
+    "user_labels": [],
+    "attachments": [],
+    "calendar_event": null,
+    "extra_headers": {},
+    "size_estimate": 914,
+    "meta": {
+      "email_class": "automated_notification",
+      "tricky_tags": [],
+      "is_actionable_for_user": true,
+      "action_owner": "marcus.bell@vireohealth.com",
+      "action_summary": "Approve or deny Jenna's PTO request.",
+      "due_date": "2026-08-14",
+      "commitment_made_by_user": null,
+      "commitment_is_conditional": false,
+      "commitment_condition": null,
+      "superseded_by_message_id": null,
+      "notes": null
+    }
+  },
+  {
+    "id": "d40f18c2e4b60032",
+    "thread_id": "d40f18c2e4b60032",
+    "profile_id": "hr",
+    "history_id": "745630",
+    "message_id_header": "<d40f18c2e4b60032@lattice.com>",
+    "in_reply_to": null,
+    "references": [],
+    "thread_position": 1,
+    "thread_length": 1,
+    "from": {
+      "name": "Lattice",
+      "email": "notifications@lattice.com"
+    },
+    "sender": null,
+    "reply_to": null,
+    "to": [
+      {
+        "name": "Marcus Bell",
+        "email": "marcus.bell@vireohealth.com"
+      }
+    ],
+    "cc": [],
+    "bcc": [],
+    "delivered_to": "marcus.bell@vireohealth.com",
+    "subject": "Manager Calibration Guide: Q3 Cycle -- Action Needed by Aug 1",
+    "snippet": "Hi Marcus, With manager reviews closing July 24 and calibration starting July 27, here's the full walkthrough for how ratings should move through calibration this cycle -- please f",
+    "body_text": "Hi Marcus,\n\nWith manager reviews closing July 24 and calibration starting July 27, here's the full walkthrough for how ratings should move through calibration this cycle -- please forward the relevant sections to your calibration leads if you haven't already.\n\nRating distribution guardrails: we are not using forced ranking, but Lattice will flag any team where more than 35% of ratings land in the top bucket (Exceeds) or more than 15% land in the bottom bucket (Needs Improvement) for a manual second look. Last cycle, Clinical Operations came in at 41% Exceeds, which is what triggered the calibration conversation with Doug in Q2 -- worth getting ahead of that again this time rather than surfacing it after ratings are already communicated to employees.\n\nCalibration session structure (recommended, not mandatory):\n1. Each manager brings their draft ratings and a one-line justification per direct report, focused on the outliers (top and bottom) rather than walking every single person.\n2. The calibration lead (typically the department VP) facilitates -- goal is consistency across managers reporting into the same function, not consistency across the whole company.\n3. Any rating change made in calibration should be logged with a reason in the notes field so the manager has something concrete to say in the actual review conversation.\n4. Compensation conversations should NOT happen inside calibration -- keep merit/promotion discussion in a separate follow-up, otherwise the rating conversation quietly turns into a budget conversation and ratings get anchored to what the department can afford rather than actual performance.\n\nKnown friction points from last cycle that we've heard about already:\n- Nursing managers want more calibration time given they each have 12-15 direct reports vs. the company average of 6. We've pre-booked a 90-minute nursing-only calibration block on July 28 instead of folding them into the general clinical session.\n- A few managers were confused last cycle about whether self-review responses are visible during calibration. They are not, by design -- calibration should be manager-driven, self-reviews come back into play during the 1:1 conversation.\n\nTimeline recap:\nJul 15 -- self-reviews due\nJul 24 -- manager reviews due\nJul 27-28 -- calibration sessions (nursing gets its own block on the 28th)\nAug 1 -- ratings finalized in Lattice, released to managers for delivery conversations\nAug 1-8 -- 1:1 review conversations should be completed\n\nFull guide with screenshots: https://lattice.com/admin/cycles/q3-2026/calibration-guide\n\nLet us know if you want a live walkthrough with your calibration leads before the 27th.\n\n-- The Lattice Team",
+    "body_html": null,
+    "date": "2026-07-22T09:30:00-07:00",
+    "internal_date_ms": 1784737800000,
+    "folder": "INBOX",
+    "category": "CATEGORY_UPDATES",
+    "is_unread": false,
+    "is_starred": false,
+    "is_important": true,
+    "user_labels": [
+      "Label_6633"
+    ],
+    "attachments": [],
+    "calendar_event": null,
+    "extra_headers": {},
+    "size_estimate": 3531,
+    "meta": {
+      "email_class": "automated_notification",
+      "tricky_tags": [],
+      "is_actionable_for_user": false,
+      "action_owner": null,
+      "action_summary": null,
+      "due_date": null,
+      "commitment_made_by_user": null,
+      "commitment_is_conditional": false,
+      "commitment_condition": null,
+      "superseded_by_message_id": null,
+      "notes": "Long-form calibration process email tied to the Q3 review cycle storyline."
+    }
+  },
+  {
+    "id": "d40f18c2e4b60033",
+    "thread_id": "d40f18c2e4b60033",
+    "profile_id": "hr",
+    "history_id": "765700",
+    "message_id_header": "<d40f18c2e4b60033@lattice.com>",
+    "in_reply_to": null,
+    "references": [],
+    "thread_position": 1,
+    "thread_length": 1,
+    "from": {
+      "name": "Lattice",
+      "email": "notifications@lattice.com"
+    },
+    "sender": null,
+    "reply_to": null,
+    "to": [
+      {
+        "name": "Marcus Bell",
+        "email": "marcus.bell@vireohealth.com"
+      }
+    ],
+    "cc": [],
+    "bcc": [],
+    "delivered_to": "marcus.bell@vireohealth.com",
+    "subject": "5 direct reports haven't submitted self-reviews -- due Friday",
+    "snippet": "Hi Marcus, As a reminder, self-reviews for the Q3 cycle are due Friday, July 24. Company-wide, 22 of 200 employees still haven't started. In your reporting line specifically, 5 are",
+    "body_text": "Hi Marcus,\n\nAs a reminder, self-reviews for the Q3 cycle are due Friday, July 24. Company-wide, 22 of 200 employees still haven't started. In your reporting line specifically, 5 are outstanding: Renata Vlasov, Jenna Wu, and 3 others.\n\nView the full list: https://lattice.com/admin/cycles/q3-2026/status\n\n-- The Lattice Team",
+    "body_html": null,
+    "date": "2026-08-05T08:00:00-07:00",
+    "internal_date_ms": 1785942000000,
+    "folder": "INBOX",
+    "category": "CATEGORY_UPDATES",
+    "is_unread": true,
+    "is_starred": false,
+    "is_important": false,
+    "user_labels": [],
+    "attachments": [],
+    "calendar_event": null,
+    "extra_headers": {},
+    "size_estimate": 1169,
+    "meta": {
+      "email_class": "automated_notification",
+      "tricky_tags": [],
+      "is_actionable_for_user": false,
+      "action_owner": null,
+      "action_summary": null,
+      "due_date": null,
+      "commitment_made_by_user": null,
+      "commitment_is_conditional": false,
+      "commitment_condition": null,
+      "superseded_by_message_id": null,
+      "notes": null
+    }
+  },
+  {
+    "id": "d40f18c2e4b60034",
+    "thread_id": "d40f18c2e4b60034",
+    "profile_id": "hr",
+    "history_id": "735970",
+    "message_id_header": "<d40f18c2e4b60034@gusto.com>",
+    "in_reply_to": null,
+    "references": [],
+    "thread_position": 1,
+    "thread_length": 1,
+    "from": {
+      "name": "Gusto",
+      "email": "notifications@gusto.com"
+    },
+    "sender": null,
+    "reply_to": null,
+    "to": [
+      {
+        "name": "Marcus Bell",
+        "email": "marcus.bell@vireohealth.com"
+      }
+    ],
+    "cc": [],
+    "bcc": [],
+    "delivered_to": "marcus.bell@vireohealth.com",
+    "subject": "Payroll processed: pay period 7/1-7/15",
+    "snippet": "Payroll for the 7/1-7/15 pay period has been processed. Net pay: $604,910.47 across 200 employees. Funds debit your account on 7/16.",
+    "body_text": "Payroll for the 7/1-7/15 pay period has been processed. Net pay: $604,910.47 across 200 employees. Funds debit your account on 7/16.",
+    "body_html": null,
+    "date": "2026-07-15T16:30:00-07:00",
+    "internal_date_ms": 1784158200000,
+    "folder": "INBOX",
+    "category": "CATEGORY_UPDATES",
+    "is_unread": false,
+    "is_starred": false,
+    "is_important": false,
+    "user_labels": [],
+    "attachments": [],
+    "calendar_event": null,
+    "extra_headers": {},
+    "size_estimate": 949,
+    "meta": {
+      "email_class": "automated_notification",
+      "tricky_tags": [],
+      "is_actionable_for_user": false,
+      "action_owner": null,
+      "action_summary": null,
+      "due_date": null,
+      "commitment_made_by_user": null,
+      "commitment_is_conditional": false,
+      "commitment_condition": null,
+      "superseded_by_message_id": null,
+      "notes": null
+    }
+  },
+  {
+    "id": "d40f18c2e4b60035",
+    "thread_id": "d40f18c2e4b60035",
+    "profile_id": "hr",
+    "history_id": "755800",
+    "message_id_header": "<d40f18c2e4b60035@gusto.com>",
+    "in_reply_to": null,
+    "references": [],
+    "thread_position": 1,
+    "thread_length": 1,
+    "from": {
+      "name": "Gusto",
+      "email": "notifications@gusto.com"
+    },
+    "sender": null,
+    "reply_to": null,
+    "to": [
+      {
+        "name": "Marcus Bell",
+        "email": "marcus.bell@vireohealth.com"
+      }
+    ],
+    "cc": [],
+    "bcc": [],
+    "delivered_to": "marcus.bell@vireohealth.com",
+    "subject": "Open Enrollment setup: confirm 2027 plan rates by Aug 5",
+    "snippet": "Hi Marcus, To have Open Enrollment ready to launch on schedule, we need the finalized 2027 plan rates loaded into Gusto by August 5. Keystone Benefits should have sent these to you",
+    "body_text": "Hi Marcus,\n\nTo have Open Enrollment ready to launch on schedule, we need the finalized 2027 plan rates loaded into Gusto by August 5. Keystone Benefits should have sent these to you directly -- once you have them, upload the rate sheet in Benefits > Plan Setup, or reply to this email with the PDF and our onboarding team will load it for you.\n\nIf rates aren't confirmed by the 5th, the enrollment portal will launch with 2026 rates showing as a placeholder, which we don't recommend -- employees have flagged this as confusing in past years.\n\n-- Gusto Support",
+    "body_html": null,
+    "date": "2026-07-29T11:00:00-07:00",
+    "internal_date_ms": 1785348000000,
+    "folder": "INBOX",
+    "category": "CATEGORY_UPDATES",
+    "is_unread": false,
+    "is_starred": false,
+    "is_important": false,
+    "user_labels": [
+      "Label_6632"
+    ],
+    "attachments": [],
+    "calendar_event": null,
+    "extra_headers": {},
+    "size_estimate": 1394,
+    "meta": {
+      "email_class": "automated_notification",
+      "tricky_tags": [],
+      "is_actionable_for_user": true,
+      "action_owner": "marcus.bell@vireohealth.com",
+      "action_summary": "Get the finalized 2027 rate sheet from Keystone into Gusto before Aug 5.",
+      "due_date": "2026-08-05",
+      "commitment_made_by_user": null,
+      "commitment_is_conditional": false,
+      "commitment_condition": null,
+      "superseded_by_message_id": null,
+      "notes": null
+    }
+  },
+  {
+    "id": "d40f18c2e4b60036",
+    "thread_id": "d40f18c2e4b60036",
+    "profile_id": "hr",
+    "history_id": "740165",
+    "message_id_header": "<d40f18c2e4b60036@checkr.com>",
+    "in_reply_to": null,
+    "references": [],
+    "thread_position": 1,
+    "thread_length": 1,
+    "from": {
+      "name": "Checkr",
+      "email": "notifications@checkr.com"
+    },
+    "sender": null,
+    "reply_to": null,
+    "to": [
+      {
+        "name": "Marcus Bell",
+        "email": "marcus.bell@vireohealth.com"
+      }
+    ],
+    "cc": [],
+    "bcc": [],
+    "delivered_to": "marcus.bell@vireohealth.com",
+    "subject": "Background check complete: Sam Okoro -- Clear",
+    "snippet": "The background check for Sam Okoro (Report #CK-7745882) is complete. Result: Clear. No further action needed.",
+    "body_text": "The background check for Sam Okoro (Report #CK-7745882) is complete. Result: Clear. No further action needed.",
+    "body_html": null,
+    "date": "2026-07-18T14:25:00-07:00",
+    "internal_date_ms": 1784409900000,
+    "folder": "INBOX",
+    "category": "CATEGORY_UPDATES",
+    "is_unread": false,
+    "is_starred": false,
+    "is_important": false,
+    "user_labels": [],
+    "attachments": [],
+    "calendar_event": null,
+    "extra_headers": {},
+    "size_estimate": 936,
+    "meta": {
+      "email_class": "automated_notification",
+      "tricky_tags": [],
+      "is_actionable_for_user": false,
+      "action_owner": null,
+      "action_summary": null,
+      "due_date": null,
+      "commitment_made_by_user": null,
+      "commitment_is_conditional": false,
+      "commitment_condition": null,
+      "superseded_by_message_id": null,
+      "notes": null
+    }
+  },
+  {
+    "id": "d40f18c2e4b60037",
+    "thread_id": "d40f18c2e4b60037",
+    "profile_id": "hr",
+    "history_id": "768715",
+    "message_id_header": "<d40f18c2e4b60037@checkr.com>",
+    "in_reply_to": null,
+    "references": [],
+    "thread_position": 1,
+    "thread_length": 1,
+    "from": {
+      "name": "Checkr",
+      "email": "notifications@checkr.com"
+    },
+    "sender": null,
+    "reply_to": null,
+    "to": [
+      {
+        "name": "Marcus Bell",
+        "email": "marcus.bell@vireohealth.com"
+      }
+    ],
+    "cc": [
+      {
+        "name": "Priscilla Nam",
+        "email": "priscilla.nam@vireohealth.com"
+      }
+    ],
+    "bcc": [],
+    "delivered_to": "marcus.bell@vireohealth.com",
+    "subject": "Background check requires review: Maria Chen -- Records Found",
+    "snippet": "The background check for Maria Chen (Report #CK-7749031) has completed with records found that require adverse-action review before you can proceed with an offer. Category: Public ",
+    "body_text": "The background check for Maria Chen (Report #CK-7749031) has completed with records found that require adverse-action review before you can proceed with an offer.\n\nCategory: Public records\nFinding: One county-level record from 2019, disposition unclear per the report.\n\nPer FCRA requirements, you must send a pre-adverse action notice with a copy of the report and a summary of rights before taking any adverse action, and give Maria a reasonable window (we recommend 5 business days) to respond before finalizing a decision either way.\n\nFull report: https://dashboard.checkr.com/reports/CK-7749031\n\nThis is an automated notification from Checkr.",
+    "body_html": null,
+    "date": "2026-08-07T10:15:00-07:00",
+    "internal_date_ms": 1786122900000,
+    "folder": "INBOX",
+    "category": "CATEGORY_UPDATES",
+    "is_unread": true,
+    "is_starred": false,
+    "is_important": true,
+    "user_labels": [],
+    "attachments": [],
+    "calendar_event": null,
+    "extra_headers": {},
+    "size_estimate": 1538,
+    "meta": {
+      "email_class": "recruiting",
+      "tricky_tags": [],
+      "is_actionable_for_user": true,
+      "action_owner": "marcus.bell@vireohealth.com",
+      "action_summary": "Follow FCRA pre-adverse action process for Maria Chen before proceeding.",
+      "due_date": "2026-08-14",
+      "commitment_made_by_user": null,
+      "commitment_is_conditional": false,
+      "commitment_condition": null,
+      "superseded_by_message_id": null,
+      "notes": "Adverse-action background check finding requiring careful compliance handling."
+    }
+  },
+  {
+    "id": "d40f18c2e4b60038",
+    "thread_id": "d40f18c2e4b60038",
+    "profile_id": "hr",
+    "history_id": "764320",
+    "message_id_header": "<d40f18c2e4b60038@cultureamp.com>",
+    "in_reply_to": null,
+    "references": [],
+    "thread_position": 1,
+    "thread_length": 1,
+    "from": {
+      "name": "Culture Amp",
+      "email": "noreply@cultureamp.com"
+    },
+    "sender": null,
+    "reply_to": null,
+    "to": [
+      {
+        "name": "Marcus Bell",
+        "email": "marcus.bell@vireohealth.com"
+      }
+    ],
+    "cc": [],
+    "bcc": [],
+    "delivered_to": "marcus.bell@vireohealth.com",
+    "subject": "Q3 Engagement Survey: Results Now Available",
+    "snippet": "Hi Marcus, Results from the Q3 Engagement Survey (closed August 1) are ready. 182 of 200 employees responded -- a 91% response rate, the highest we've seen this year and up from 84",
+    "body_text": "Hi Marcus,\n\nResults from the Q3 Engagement Survey (closed August 1) are ready. 182 of 200 employees responded -- a 91% response rate, the highest we've seen this year and up from 84% in the spring pulse.\n\nHeadline numbers:\n- Overall engagement: 76% favorable (+2 pts vs spring)\n- eNPS: +22 (+4 pts)\n- Manager effectiveness: 73% favorable (+2 pts)\n\nDepartment breakdown is the more interesting story this time. Nursing came in at 68% favorable -- still the lowest of any department, though up 17 points from spring's 51%. Given everything that's gone into the retention push this quarter (the new shift-swap policy, the RN case manager backfills, the calibration conversation Doug and Priscilla have been having), that movement is meaningful, but nursing is still 8 points behind the next lowest department (Clinical Ops at 74%) and 16 points behind Corporate/Admin at 84%.\n\nVerbatim comment themes worth reading closely: scheduling flexibility came up 41 times as the top negative theme (down from 58 mentions in spring -- the shift-swap pilot appears to be landing), followed by career pathing (33 mentions) and pay transparency (19 mentions). On the positive side, team camaraderie (58 mentions), clinical autonomy (37), and leadership accessibility (29) all scored well, and leadership accessibility specifically was up sharply from spring -- likely reflects Dr. Ford's town halls landing well.\n\nFull report with all verbatims and department cuts is attached (q3_engagement_summary.pdf). I'd suggest sharing the department-level numbers with Doug and Priscilla directly before this goes any wider -- the nursing trend line is good news but the gap is still real, and how it gets framed in a broader all-hands matters.\n\nA couple of secondary cuts worth a look before that conversation: engagement by tenure shows the usual U-shape, with employees under 6 months and over 5 years both scoring above average, and the 1-3 year band scoring lowest company-wide at 69% -- that band is also where we're seeing the most voluntary attrition per the numbers Wendy in Finance pulled last month, so the two data sets are at least directionally consistent. Manager-level engagement (i.e. how engaged people managers themselves report being, as opposed to their teams) came in at 70% favorable, four points below individual contributors -- worth keeping an eye on given how much weight the calibration guide puts on manager judgment this cycle.\n\nOne flag on methodology: this was the first cycle using the shortened 24-question survey instead of the old 40-question version, so trend comparisons against anything before Q1 2026 should be read with caution -- the shorter instrument tends to run a couple points more favorable across the board per Culture Amp's own benchmarking notes.\n\nInteractive dashboard: https://app.cultureamp.com/reports/q3-2026-engagement\n\n-- Culture Amp",
+    "body_html": null,
+    "date": "2026-08-04T09:00:00-07:00",
+    "internal_date_ms": 1785859200000,
+    "folder": "INBOX",
+    "category": "CATEGORY_UPDATES",
+    "is_unread": false,
+    "is_starred": true,
+    "is_important": true,
+    "user_labels": [],
+    "attachments": [
+      {
+        "attachment_id": "ANGjdJ_2QAO_tVuItwmO6X_Hl254wkjo7ZRQu1w9iPEUxkxjGeUyQuYsC",
+        "filename": "q3_engagement_summary.pdf",
+        "mime_type": "application/pdf",
+        "size_bytes": 1668,
+        "is_inline": false,
+        "content_id": null,
+        "extracted_text": "Q3 2026 Engagement Survey -- Executive Summary\n\nResponse rate: 91% (182/200)\nOverall engagement: 76% favorable (+2 pts vs Spring Pulse)\neNPS: +22 (+4 pts)\n\nBy department:\nNursing: 68% favorable (n=71)\nClinical Ops: 74% favorable (n=38)\nCorporate/Admin: 84% favorable (n=52)\nIT: 79% favorable (n=12)\nFacilities: 81% favorable (n=9)\n\nTop verbatim themes (negative): scheduling flexibility (41 mentions), career pathing (33), pay transparency (19).\nTop verbatim themes (positive): team camaraderie (58), clinical autonomy (37), leadership accessibility (29).\n"
+      }
+    ],
+    "calendar_event": null,
+    "extra_headers": {},
+    "size_estimate": 5948,
+    "meta": {
+      "email_class": "automated_notification",
+      "tricky_tags": [],
+      "is_actionable_for_user": true,
+      "action_owner": "marcus.bell@vireohealth.com",
+      "action_summary": "Share department-level engagement results with Doug and Priscilla before wider distribution.",
+      "due_date": null,
+      "commitment_made_by_user": null,
+      "commitment_is_conditional": false,
+      "commitment_condition": null,
+      "superseded_by_message_id": null,
+      "notes": "Long-form survey results tied to the nursing retention storyline."
+    }
+  },
+  {
+    "id": "d40f18c2e4b60039",
+    "thread_id": "d40f18c2e4b60039",
+    "profile_id": "hr",
+    "history_id": "766045",
+    "message_id_header": "<d40f18c2e4b60039@docusign.net>",
+    "in_reply_to": null,
+    "references": [],
+    "thread_position": 1,
+    "thread_length": 1,
+    "from": {
+      "name": "DocuSign",
+      "email": "dse@docusign.net"
+    },
+    "sender": null,
+    "reply_to": null,
+    "to": [
+      {
+        "name": "Marcus Bell",
+        "email": "marcus.bell@vireohealth.com"
+      }
+    ],
+    "cc": [],
+    "bcc": [],
+    "delivered_to": "marcus.bell@vireohealth.com",
+    "subject": "Please DocuSign: Offer Letter -- Maria Chen, Senior RN Case Manager",
+    "snippet": "Tim Osei sent you a document to review and sign: \"Offer Letter - Maria Chen - Senior RN Case Manager.pdf\" Please countersign as the People department approver so the offer can be r",
+    "body_text": "Tim Osei sent you a document to review and sign: \"Offer Letter - Maria Chen - Senior RN Case Manager.pdf\"\n\nPlease countersign as the People department approver so the offer can be released to the candidate today.\n\nReview Document: https://www.docusign.net/Signing/tabs?docId=8231-4471-A\n\nThis document is valid for 7 days.",
+    "body_html": null,
+    "date": "2026-08-05T13:45:00-07:00",
+    "internal_date_ms": 1785962700000,
+    "folder": "INBOX",
+    "category": "CATEGORY_UPDATES",
+    "is_unread": true,
+    "is_starred": false,
+    "is_important": true,
+    "user_labels": [],
+    "attachments": [],
+    "calendar_event": null,
+    "extra_headers": {},
+    "size_estimate": 1167,
+    "meta": {
+      "email_class": "automated_notification",
+      "tricky_tags": [],
+      "is_actionable_for_user": true,
+      "action_owner": "marcus.bell@vireohealth.com",
+      "action_summary": "Countersign Maria Chen's offer letter in DocuSign.",
+      "due_date": "2026-08-12",
+      "commitment_made_by_user": null,
+      "commitment_is_conditional": false,
+      "commitment_condition": null,
+      "superseded_by_message_id": null,
+      "notes": null
+    }
+  },
+  {
+    "id": "d40f18c2e4b60040",
+    "thread_id": "d40f18c2e4b60040",
+    "profile_id": "hr",
+    "history_id": "767170",
+    "message_id_header": "<d40f18c2e4b60040@docusign.net>",
+    "in_reply_to": null,
+    "references": [],
+    "thread_position": 1,
+    "thread_length": 1,
+    "from": {
+      "name": "DocuSign",
+      "email": "dse@docusign.net"
+    },
+    "sender": null,
+    "reply_to": null,
+    "to": [
+      {
+        "name": "Marcus Bell",
+        "email": "marcus.bell@vireohealth.com"
+      }
+    ],
+    "cc": [],
+    "bcc": [],
+    "delivered_to": "marcus.bell@vireohealth.com",
+    "subject": "Completed: Offer Letter -- Maria Chen, Senior RN Case Manager",
+    "snippet": "The document \"Offer Letter - Maria Chen - Senior RN Case Manager.pdf\" has been completed by all parties. Download the signed copy: https://www.docusign.net/Signing/tabs?docId=8231-",
+    "body_text": "The document \"Offer Letter - Maria Chen - Senior RN Case Manager.pdf\" has been completed by all parties.\n\nDownload the signed copy: https://www.docusign.net/Signing/tabs?docId=8231-4471-A",
+    "body_html": null,
+    "date": "2026-08-06T08:30:00-07:00",
+    "internal_date_ms": 1786030200000,
+    "folder": "INBOX",
+    "category": "CATEGORY_UPDATES",
+    "is_unread": false,
+    "is_starred": false,
+    "is_important": false,
+    "user_labels": [],
+    "attachments": [],
+    "calendar_event": null,
+    "extra_headers": {},
+    "size_estimate": 1026,
+    "meta": {
+      "email_class": "automated_notification",
+      "tricky_tags": [],
+      "is_actionable_for_user": false,
+      "action_owner": null,
+      "action_summary": null,
+      "due_date": null,
+      "commitment_made_by_user": null,
+      "commitment_is_conditional": false,
+      "commitment_condition": null,
+      "superseded_by_message_id": null,
+      "notes": null
+    }
+  },
+  {
+    "id": "d40f18c2e4b60041",
+    "thread_id": "d40f18c2e4b60041",
+    "profile_id": "hr",
+    "history_id": "742540",
+    "message_id_header": "<d40f18c2e4b60041@i9advantage.com>",
+    "in_reply_to": null,
+    "references": [],
+    "thread_position": 1,
+    "thread_length": 1,
+    "from": {
+      "name": "I-9 Advantage Compliance",
+      "email": "noreply@i9advantage.com"
+    },
+    "sender": null,
+    "reply_to": null,
+    "to": [
+      {
+        "name": "Marcus Bell",
+        "email": "marcus.bell@vireohealth.com"
+      }
+    ],
+    "cc": [
+      {
+        "name": "Farida Bashir",
+        "email": "farida.bashir@vireohealth.com"
+      }
+    ],
+    "bcc": [],
+    "delivered_to": "marcus.bell@vireohealth.com",
+    "subject": "Reminder: 6 employees still missing I-9 Section 2 (deadline Jul 31)",
+    "snippet": "Marcus, Good progress on the June backlog -- 8 of the 14 flagged employees now have completed Section 2 records. The remaining 6 (Rosa Delgadillo, Trevor Bianchi, Yusuf Karimi, Dev",
+    "body_text": "Marcus,\n\nGood progress on the June backlog -- 8 of the 14 flagged employees now have completed Section 2 records. The remaining 6 (Rosa Delgadillo, Trevor Bianchi, Yusuf Karimi, Devon Mackay, Otis Greenberg, Cyrus Whelan) still need to be completed before July 31 to stay within our recommended remediation window.\n\nPortal: https://portal.i9advantage.com/vireohealth/dashboard\n\n-- I-9 Advantage Compliance Team",
+    "body_html": null,
+    "date": "2026-07-20T08:00:00-05:00",
+    "internal_date_ms": 1784552400000,
+    "folder": "INBOX",
+    "category": "CATEGORY_UPDATES",
+    "is_unread": false,
+    "is_starred": false,
+    "is_important": false,
+    "user_labels": [],
+    "attachments": [],
+    "calendar_event": null,
+    "extra_headers": {},
+    "size_estimate": 1330,
+    "meta": {
+      "email_class": "legal_compliance",
+      "tricky_tags": [],
+      "is_actionable_for_user": true,
+      "action_owner": "marcus.bell@vireohealth.com",
+      "action_summary": "Close out the remaining 6 overdue I-9 Section 2 verifications.",
+      "due_date": "2026-07-31",
+      "commitment_made_by_user": null,
+      "commitment_is_conditional": false,
+      "commitment_condition": null,
+      "superseded_by_message_id": null,
+      "notes": null
+    }
+  },
+  {
+    "id": "d40f18c2e4b60042",
+    "thread_id": "d40f18c2e4b60042",
+    "profile_id": "hr",
+    "history_id": "749840",
+    "message_id_header": "<d40f18c2e4b60042@accounts.google.com>",
+    "in_reply_to": null,
+    "references": [],
+    "thread_position": 1,
+    "thread_length": 1,
+    "from": {
+      "name": "Google",
+      "email": "no-reply@accounts.google.com"
+    },
+    "sender": null,
+    "reply_to": null,
+    "to": [
+      {
+        "name": "Marcus Bell",
+        "email": "marcus.bell@vireohealth.com"
+      }
+    ],
+    "cc": [],
+    "bcc": [],
+    "delivered_to": "marcus.bell@vireohealth.com",
+    "subject": "Security alert: New sign-in on Windows device",
+    "snippet": "New sign-in on Windows marcus.bell@vireohealth.com We noticed a new sign-in to your Google Account on a Windows device. If this was you, you don't need to do anything. If not, we'l",
+    "body_text": "New sign-in on Windows\nmarcus.bell@vireohealth.com\n\nWe noticed a new sign-in to your Google Account on a Windows device. If this was you, you don't need to do anything. If not, we'll help you secure your account.",
+    "body_html": null,
+    "date": "2026-07-25T07:40:00-07:00",
+    "internal_date_ms": 1784990400000,
+    "folder": "INBOX",
+    "category": "CATEGORY_UPDATES",
+    "is_unread": false,
+    "is_starred": false,
+    "is_important": false,
+    "user_labels": [],
+    "attachments": [],
+    "calendar_event": null,
+    "extra_headers": {},
+    "size_estimate": 1052,
+    "meta": {
+      "email_class": "security_alert",
+      "tricky_tags": [],
+      "is_actionable_for_user": false,
+      "action_owner": null,
+      "action_summary": null,
+      "due_date": null,
+      "commitment_made_by_user": null,
+      "commitment_is_conditional": false,
+      "commitment_condition": null,
+      "superseded_by_message_id": null,
+      "notes": null
+    }
+  },
+  {
+    "id": "d40f18c2e4b60043",
+    "thread_id": "d40f18c2e4b60043",
+    "profile_id": "hr",
+    "history_id": "761092",
+    "message_id_header": "<d40f18c2e4b60043@accounts.google.com>",
+    "in_reply_to": null,
+    "references": [],
+    "thread_position": 1,
+    "thread_length": 1,
+    "from": {
+      "name": "Google",
+      "email": "no-reply@accounts.google.com"
+    },
+    "sender": null,
+    "reply_to": null,
+    "to": [
+      {
+        "name": "Marcus Bell",
+        "email": "marcus.bell@vireohealth.com"
+      }
+    ],
+    "cc": [],
+    "bcc": [],
+    "delivered_to": "marcus.bell@vireohealth.com",
+    "subject": "Security alert: Suspicious sign-in attempt blocked",
+    "snippet": "We blocked a sign-in attempt to your account marcus.bell@vireohealth.com from an unfamiliar location (Kyiv, Ukraine). If this wasn't you, we recommend changing your password and re",
+    "body_text": "We blocked a sign-in attempt to your account marcus.bell@vireohealth.com from an unfamiliar location (Kyiv, Ukraine). If this wasn't you, we recommend changing your password and reviewing your account's recovery options immediately.\n\nReview activity: https://myaccount.google.com/notifications",
+    "body_html": null,
+    "date": "2026-08-02T03:12:00-07:00",
+    "internal_date_ms": 1785665520000,
+    "folder": "INBOX",
+    "category": "CATEGORY_UPDATES",
+    "is_unread": false,
+    "is_starred": false,
+    "is_important": true,
+    "user_labels": [],
+    "attachments": [],
+    "calendar_event": null,
+    "extra_headers": {},
+    "size_estimate": 1138,
+    "meta": {
+      "email_class": "security_alert",
+      "tricky_tags": [],
+      "is_actionable_for_user": true,
+      "action_owner": "marcus.bell@vireohealth.com",
+      "action_summary": "Review account activity and consider a password change after a blocked suspicious sign-in.",
+      "due_date": null,
+      "commitment_made_by_user": null,
+      "commitment_is_conditional": false,
+      "commitment_condition": null,
+      "superseded_by_message_id": null,
+      "notes": null
+    }
+  },
+  {
+    "id": "d40f18c2e4b60044",
+    "thread_id": "d40f18c2e4b60044",
+    "profile_id": "hr",
+    "history_id": "771825",
+    "message_id_header": "<d40f18c2e4b60044@accounts.google.com>",
+    "in_reply_to": null,
+    "references": [],
+    "thread_position": 1,
+    "thread_length": 1,
+    "from": {
+      "name": "Google Workspace",
+      "email": "no-reply@accounts.google.com"
+    },
+    "sender": null,
+    "reply_to": null,
+    "to": [
+      {
+        "name": "Marcus Bell",
+        "email": "marcus.bell@vireohealth.com"
+      }
+    ],
+    "cc": [],
+    "bcc": [],
+    "delivered_to": "marcus.bell@vireohealth.com",
+    "subject": "Security alert: Admin privileges granted to omar.haddix@vireohealth.com",
+    "snippet": "An admin role change was made in your Google Workspace account for Vireo Health Systems. User: omar.haddix@vireohealth.com Role granted: Groups Admin Changed by: it-admin@vireoheal",
+    "body_text": "An admin role change was made in your Google Workspace account for Vireo Health Systems.\n\nUser: omar.haddix@vireohealth.com\nRole granted: Groups Admin\nChanged by: it-admin@vireohealth.com\n\nIf you don't recognize this change, review it in the Admin console: https://admin.google.com/ac/roles",
+    "body_html": null,
+    "date": "2026-08-09T14:05:00-07:00",
+    "internal_date_ms": 1786309500000,
+    "folder": "INBOX",
+    "category": "CATEGORY_UPDATES",
+    "is_unread": true,
+    "is_starred": false,
+    "is_important": false,
+    "user_labels": [],
+    "attachments": [],
+    "calendar_event": null,
+    "extra_headers": {},
+    "size_estimate": 1166,
+    "meta": {
+      "email_class": "security_alert",
+      "tricky_tags": [],
+      "is_actionable_for_user": false,
+      "action_owner": "omar.haddix@vireohealth.com",
+      "action_summary": null,
+      "due_date": null,
+      "commitment_made_by_user": null,
+      "commitment_is_conditional": false,
+      "commitment_condition": null,
+      "superseded_by_message_id": null,
+      "notes": "Admin permission change alert -- Omar is IT Director so this is expected but still flagged."
+    }
+  },
+  {
+    "id": "d40f18c2e4b60045",
+    "thread_id": "d40f18c2e4b60045",
+    "profile_id": "hr",
+    "history_id": "764693",
+    "message_id_header": "<d40f18c2e4b60045@googlemail.com>",
+    "in_reply_to": null,
+    "references": [],
+    "thread_position": 1,
+    "thread_length": 1,
+    "from": {
+      "name": "Mail Delivery Subsystem",
+      "email": "mailer-daemon@googlemail.com"
+    },
+    "sender": null,
+    "reply_to": null,
+    "to": [
+      {
+        "name": "Marcus Bell",
+        "email": "marcus.bell@vireohealth.com"
+      }
+    ],
+    "cc": [],
+    "bcc": [],
+    "delivered_to": "marcus.bell@vireohealth.com",
+    "subject": "Undelivered Mail Returned to Sender",
+    "snippet": "The original message was received at Tue, 4 Aug 2026 15:12:03 -0600 ----- The following addresses had permanent fatal errors ----- <maria.chen827@gmial.com> (reason: 550 5.1.1 <mar",
+    "body_text": "The original message was received at Tue, 4 Aug 2026 15:12:03 -0600\n\n----- The following addresses had permanent fatal errors -----\n<maria.chen827@gmial.com>\n    (reason: 550 5.1.1 <maria.chen827@gmial.com>: Recipient address rejected: Domain gmial.com does not exist)\n\n----- Original message -----\nSubject: Your offer -- Senior RN Case Manager at Vireo Health Systems",
+    "body_html": null,
+    "date": "2026-08-04T15:13:00-07:00",
+    "internal_date_ms": 1785881580000,
+    "folder": "INBOX",
+    "category": "CATEGORY_UPDATES",
+    "is_unread": false,
+    "is_starred": true,
+    "is_important": true,
+    "user_labels": [],
+    "attachments": [],
+    "calendar_event": null,
+    "extra_headers": {
+      "X-Failed-Recipients": "maria.chen827@gmial.com",
+      "Auto-Submitted": "auto-replied"
+    },
+    "size_estimate": 1282,
+    "meta": {
+      "email_class": "bounce",
+      "tricky_tags": [],
+      "is_actionable_for_user": true,
+      "action_owner": "marcus.bell@vireohealth.com",
+      "action_summary": "Offer letter never reached Maria Chen -- typo'd personal email, needs to be resent to the correct address.",
+      "due_date": null,
+      "commitment_made_by_user": null,
+      "commitment_is_conditional": false,
+      "commitment_condition": null,
+      "superseded_by_message_id": null,
+      "notes": "The real bounce problem: an offer letter that never reached the candidate because of a typo'd domain."
+    }
+  },
+  {
+    "id": "d40f18c2e4b60046",
+    "thread_id": "d40f18c2e4b60046",
+    "profile_id": "hr",
+    "history_id": "771620",
+    "message_id_header": "<d40f18c2e4b60046@googlemail.com>",
+    "in_reply_to": null,
+    "references": [],
+    "thread_position": 1,
+    "thread_length": 1,
+    "from": {
+      "name": "Mail Delivery Subsystem",
+      "email": "mailer-daemon@googlemail.com"
+    },
+    "sender": null,
+    "reply_to": null,
+    "to": [
+      {
+        "name": "Marcus Bell",
+        "email": "marcus.bell@vireohealth.com"
+      }
+    ],
+    "cc": [],
+    "bcc": [],
+    "delivered_to": "marcus.bell@vireohealth.com",
+    "subject": "Mail delivery failed: returning message to sender",
+    "snippet": "This message was created automatically by mail delivery software. A message that you sent could not be delivered to one or more of its recipients. benefits-qustions@vireohealth.com",
+    "body_text": "This message was created automatically by mail delivery software.\n\nA message that you sent could not be delivered to one or more of its recipients.\n\n     benefits-qustions@vireohealth.com\n\nReason: 550 No such user.",
+    "body_html": null,
+    "date": "2026-08-09T10:40:00-07:00",
+    "internal_date_ms": 1786297200000,
+    "folder": "INBOX",
+    "category": "CATEGORY_UPDATES",
+    "is_unread": true,
+    "is_starred": false,
+    "is_important": false,
+    "user_labels": [],
+    "attachments": [],
+    "calendar_event": null,
+    "extra_headers": {
+      "X-Failed-Recipients": "benefits-qustions@vireohealth.com",
+      "Auto-Submitted": "auto-replied"
+    },
+    "size_estimate": 1152,
+    "meta": {
+      "email_class": "bounce",
+      "tricky_tags": [],
+      "is_actionable_for_user": true,
+      "action_owner": "marcus.bell@vireohealth.com",
+      "action_summary": "Another typo'd internal alias -- low priority, correct alias is benefits-questions@.",
+      "due_date": null,
+      "commitment_made_by_user": null,
+      "commitment_is_conditional": false,
+      "commitment_condition": null,
+      "superseded_by_message_id": null,
+      "notes": null
+    }
+  },
+  {
+    "id": "d40f18c2e4b60047",
+    "thread_id": "d40f18c2e4b60047",
+    "profile_id": "hr",
+    "history_id": "742750",
+    "message_id_header": "<CAFd40f18c2e4b60047@mail.gmail.com>",
+    "in_reply_to": null,
+    "references": [],
+    "thread_position": 1,
+    "thread_length": 2,
+    "from": {
+      "name": "Marcus Bell",
+      "email": "marcus.bell@vireohealth.com"
+    },
+    "sender": null,
+    "reply_to": null,
+    "to": [
+      {
+        "name": "Rich Delacroix",
+        "email": "rich@summitexecsearch.com"
+      }
+    ],
+    "cc": [],
+    "bcc": [],
+    "delivered_to": null,
+    "subject": "VP Clin Ops search -- fee invoice question",
+    "snippet": "Rich -- quick one. Your July invoice has the placement fee calculated off a $205K base but we haven't extended an offer to Dana yet (loop got rescheduled, see below). Can you confi",
+    "body_text": "Rich -- quick one. Your July invoice has the placement fee calculated off a $205K base but we haven't extended an offer to Dana yet (loop got rescheduled, see below). Can you confirm whether that's a deposit against the retainer or the full contingency fee? Want to get this to Wendy correctly coded before it ages.\n\nMarcus",
+    "body_html": null,
+    "date": "2026-07-20T10:30:00-06:00",
+    "internal_date_ms": 1784565000000,
+    "folder": "SENT",
+    "category": null,
+    "is_unread": false,
+    "is_starred": false,
+    "is_important": false,
+    "user_labels": [],
+    "attachments": [],
+    "calendar_event": null,
+    "extra_headers": {},
+    "size_estimate": 1122,
+    "meta": {
+      "email_class": "genuine_work",
+      "tricky_tags": [],
+      "is_actionable_for_user": false,
+      "action_owner": null,
+      "action_summary": null,
+      "due_date": null,
+      "commitment_made_by_user": null,
+      "commitment_is_conditional": false,
+      "commitment_condition": null,
+      "superseded_by_message_id": null,
+      "notes": null
+    }
+  },
+  {
+    "id": "d40f18c2e4b60048",
+    "thread_id": "d40f18c2e4b60047",
+    "profile_id": "hr",
+    "history_id": "742751",
+    "message_id_header": "<d40f18c2e4b60048@summitexecsearch.com>",
+    "in_reply_to": "<CAFd40f18c2e4b60047@mail.gmail.com>",
+    "references": [
+      "<CAFd40f18c2e4b60047@mail.gmail.com>"
+    ],
+    "thread_position": 2,
+    "thread_length": 2,
+    "from": {
+      "name": "Rich Delacroix",
+      "email": "rich@summitexecsearch.com"
+    },
+    "sender": null,
+    "reply_to": null,
+    "to": [
+      {
+        "name": "Marcus Bell",
+        "email": "marcus.bell@vireohealth.com"
+      }
+    ],
+    "cc": [],
+    "bcc": [],
+    "delivered_to": "marcus.bell@vireohealth.com",
+    "subject": "Re: VP Clin Ops search -- fee invoice question",
+    "snippet": "I'm attending the SHRM Talent Conference in Nashville and will have limited email access through Monday, July 27. For anything time-sensitive, please reach my associate Kim Alsup a",
+    "body_text": "I'm attending the SHRM Talent Conference in Nashville and will have limited email access through Monday, July 27.\n\nFor anything time-sensitive, please reach my associate Kim Alsup at kim@summitexecsearch.com or (312) 555-0187.\n\nRich Delacroix\nSummit Executive Search",
+    "body_html": null,
+    "date": "2026-07-20T10:31:00-06:00",
+    "internal_date_ms": 1784565060000,
+    "folder": "INBOX",
+    "category": "CATEGORY_UPDATES",
+    "is_unread": false,
+    "is_starred": false,
+    "is_important": false,
+    "user_labels": [],
+    "attachments": [],
+    "calendar_event": null,
+    "extra_headers": {
+      "Auto-Submitted": "auto-replied",
+      "X-Auto-Response-Suppress": "All",
+      "Precedence": "bulk"
+    },
+    "size_estimate": 1283,
+    "meta": {
+      "email_class": "auto_reply",
+      "tricky_tags": [],
+      "is_actionable_for_user": false,
+      "action_owner": "rich@summitexecsearch.com",
+      "action_summary": null,
+      "due_date": null,
+      "commitment_made_by_user": null,
+      "commitment_is_conditional": false,
+      "commitment_condition": null,
+      "superseded_by_message_id": null,
+      "notes": "Out-of-office auto-reply to Marcus's own outbound message."
+    }
+  },
+  {
+    "id": "d40f18c2e4b60049",
+    "thread_id": "d40f18c2e4b60049",
+    "profile_id": "hr",
+    "history_id": "765700",
+    "message_id_header": "<CAFd40f18c2e4b60049@mail.gmail.com>",
+    "in_reply_to": null,
+    "references": [],
+    "thread_position": 1,
+    "thread_length": 2,
+    "from": {
+      "name": "Marcus Bell",
+      "email": "marcus.bell@vireohealth.com"
+    },
+    "sender": null,
+    "reply_to": null,
+    "to": [
+      {
+        "name": "Josh Lieberman",
+        "email": "josh.lieberman@vireohealth.com"
+      }
+    ],
+    "cc": [],
+    "bcc": [],
+    "delivered_to": null,
+    "subject": "ER complaint documentation -- need your read before we respond",
+    "snippet": "Josh -- can you review the documentation Claudia pulled together on the complaint filed against a charge nurse on the Aurora floor before we respond to the employee? Want your take",
+    "body_text": "Josh -- can you review the documentation Claudia pulled together on the complaint filed against a charge nurse on the Aurora floor before we respond to the employee? Want your take on whether our proposed corrective action plan is defensible if this escalates. Trying to close this out this week if possible.\n\nMarcus",
+    "body_html": null,
+    "date": "2026-08-05T09:00:00-06:00",
+    "internal_date_ms": 1785942000000,
+    "folder": "SENT",
+    "category": null,
+    "is_unread": false,
+    "is_starred": false,
+    "is_important": false,
+    "user_labels": [
+      "Label_6631"
+    ],
+    "attachments": [],
+    "calendar_event": null,
+    "extra_headers": {},
+    "size_estimate": 1140,
+    "meta": {
+      "email_class": "genuine_work",
+      "tricky_tags": [],
+      "is_actionable_for_user": false,
+      "action_owner": null,
+      "action_summary": null,
+      "due_date": null,
+      "commitment_made_by_user": null,
+      "commitment_is_conditional": false,
+      "commitment_condition": null,
+      "superseded_by_message_id": null,
+      "notes": null
+    }
+  },
+  {
+    "id": "d40f18c2e4b60050",
+    "thread_id": "d40f18c2e4b60049",
+    "profile_id": "hr",
+    "history_id": "765701",
+    "message_id_header": "<CAFd40f18c2e4b60050@mail.gmail.com>",
+    "in_reply_to": "<CAFd40f18c2e4b60049@mail.gmail.com>",
+    "references": [
+      "<CAFd40f18c2e4b60049@mail.gmail.com>"
+    ],
+    "thread_position": 2,
+    "thread_length": 2,
+    "from": {
+      "name": "Josh Lieberman",
+      "email": "josh.lieberman@vireohealth.com"
+    },
+    "sender": null,
+    "reply_to": null,
+    "to": [
+      {
+        "name": "Marcus Bell",
+        "email": "marcus.bell@vireohealth.com"
+      }
+    ],
+    "cc": [],
+    "bcc": [],
+    "delivered_to": "marcus.bell@vireohealth.com",
+    "subject": "Re: ER complaint documentation -- need your read before we respond",
+    "snippet": "I'm out of the office until Monday, August 10, with no email access. For urgent employee relations or legal matters, please reach my partner Carla Duvall at cduvall@bramwell-law.co",
+    "body_text": "I'm out of the office until Monday, August 10, with no email access. For urgent employee relations or legal matters, please reach my partner Carla Duvall at cduvall@bramwell-law.com or (303) 555-0166.\n\nJosh Lieberman\nBramwell LLP",
+    "body_html": null,
+    "date": "2026-08-05T09:01:00-06:00",
+    "internal_date_ms": 1785942060000,
+    "folder": "INBOX",
+    "category": "CATEGORY_UPDATES",
+    "is_unread": false,
+    "is_starred": false,
+    "is_important": false,
+    "user_labels": [],
+    "attachments": [],
+    "calendar_event": null,
+    "extra_headers": {
+      "Auto-Submitted": "auto-replied",
+      "X-Auto-Response-Suppress": "All",
+      "Precedence": "bulk"
+    },
+    "size_estimate": 1268,
+    "meta": {
+      "email_class": "auto_reply",
+      "tricky_tags": [],
+      "is_actionable_for_user": false,
+      "action_owner": "josh.lieberman@vireohealth.com",
+      "action_summary": null,
+      "due_date": null,
+      "commitment_made_by_user": null,
+      "commitment_is_conditional": false,
+      "commitment_condition": null,
+      "superseded_by_message_id": null,
+      "notes": "Out-of-office auto-reply to Marcus's own outbound message."
+    }
+  }
+]

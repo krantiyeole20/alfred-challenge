@@ -1,0 +1,3465 @@
+[
+  {
+    "id": "a20f18c2e4b60001",
+    "thread_id": "a20f18c2e4b60001",
+    "profile_id": "founder",
+    "history_id": "696594",
+    "message_id_header": "<a20f18c2e4b60001@lumenpay.io>",
+    "in_reply_to": null,
+    "references": [],
+    "thread_position": 1,
+    "thread_length": 10,
+    "from": {
+      "name": "Dana Kowalski",
+      "email": "dana.kowalski@lumenpay.io"
+    },
+    "to": [
+      {
+        "name": "Dev Patel",
+        "email": "dev@kettlehq.com"
+      }
+    ],
+    "cc": [
+      {
+        "name": "Maya Rodriguez",
+        "email": "maya@kettlehq.com"
+      }
+    ],
+    "bcc": [],
+    "delivered_to": "maya@kettlehq.com",
+    "subject": "Lumenpay SSO rollout \u2013 blocking issue on SAML mapping",
+    "snippet": "Dev, Our security team started testing SSO against the staging tenant this morning and it's failing for about half our test users. The SAML assertion is coming through but the app ",
+    "body_text": "Dev,\n\nOur security team started testing SSO against the staging tenant this morning and it's failing for about half our test users. The SAML assertion is coming through but the app isn't matching it to an existing account, so people are landing on a \"no account found\" screen even though they're clearly provisioned.\n\nThis is one of the last boxes we need to check before our infosec team signs off on the integration, so I want to get ahead of it rather than let it sit. Can someone take a look this week?\n\nDana",
+    "body_html": null,
+    "date": "2026-06-18T09:14:00-06:00",
+    "internal_date_ms": 1781795640000,
+    "folder": "INBOX",
+    "category": "CATEGORY_PERSONAL",
+    "is_unread": false,
+    "is_starred": false,
+    "is_important": false,
+    "user_labels": [
+      "Label_3391"
+    ],
+    "attachments": [],
+    "calendar_event": null,
+    "extra_headers": {
+      "Return-Path": "<dana.kowalski@lumenpay.io>"
+    },
+    "size_estimate": 2675,
+    "meta": {
+      "email_class": "client_customer",
+      "tricky_tags": [],
+      "is_actionable_for_user": false,
+      "action_owner": "dev@kettlehq.com",
+      "action_summary": "Dev needs to debug the SAML mapping failure blocking Lumenpay's SSO sign-off.",
+      "due_date": null,
+      "commitment_made_by_user": null,
+      "commitment_is_conditional": false,
+      "commitment_condition": null,
+      "superseded_by_message_id": null,
+      "notes": null
+    }
+  },
+  {
+    "id": "a20f18c2e4b60002",
+    "thread_id": "a20f18c2e4b60001",
+    "profile_id": "founder",
+    "history_id": "696970",
+    "message_id_header": "<CAFa20f18c2e4b60002@mail.gmail.com>",
+    "in_reply_to": "<a20f18c2e4b60001@lumenpay.io>",
+    "references": [
+      "<a20f18c2e4b60001@lumenpay.io>"
+    ],
+    "thread_position": 2,
+    "thread_length": 10,
+    "from": {
+      "name": "Dev Patel",
+      "email": "dev@kettlehq.com"
+    },
+    "to": [
+      {
+        "name": "Dana Kowalski",
+        "email": "dana.kowalski@lumenpay.io"
+      }
+    ],
+    "cc": [
+      {
+        "name": "Maya Rodriguez",
+        "email": "maya@kettlehq.com"
+      },
+      {
+        "name": "Priya Nair",
+        "email": "priya@kettlehq.com"
+      }
+    ],
+    "bcc": [],
+    "delivered_to": "maya@kettlehq.com",
+    "subject": "Re: Lumenpay SSO rollout \u2013 blocking issue on SAML mapping",
+    "snippet": "Dana \u2014 thanks for flagging. Adding Priya, she owns the SSO/SAML integration code and will be faster at this than me. Priya \u2014 can you pull the SAML logs for Lumenpay's tenant from t",
+    "body_text": "Dana \u2014 thanks for flagging. Adding Priya, she owns the SSO/SAML integration code and will be faster at this than me.\n\nPriya \u2014 can you pull the SAML logs for Lumenpay's tenant from today and see what's coming through in the assertion vs what we're matching on?\n\nDev",
+    "body_html": null,
+    "date": "2026-06-18T14:30:00-07:00",
+    "internal_date_ms": 1781818200000,
+    "folder": "INBOX",
+    "category": "CATEGORY_PERSONAL",
+    "is_unread": false,
+    "is_starred": false,
+    "is_important": false,
+    "user_labels": [],
+    "attachments": [],
+    "calendar_event": null,
+    "extra_headers": {
+      "Return-Path": "<dev@kettlehq.com>"
+    },
+    "size_estimate": 2154,
+    "meta": {
+      "email_class": "client_customer",
+      "tricky_tags": [],
+      "is_actionable_for_user": false,
+      "action_owner": "priya@kettlehq.com",
+      "action_summary": "Priya to investigate the SAML assertion mismatch.",
+      "due_date": null,
+      "commitment_made_by_user": null,
+      "commitment_is_conditional": false,
+      "commitment_condition": null,
+      "superseded_by_message_id": null,
+      "notes": null
+    }
+  },
+  {
+    "id": "a20f18c2e4b60003",
+    "thread_id": "a20f18c2e4b60001",
+    "profile_id": "founder",
+    "history_id": "698205",
+    "message_id_header": "<CAFa20f18c2e4b60003@mail.gmail.com>",
+    "in_reply_to": "<CAFa20f18c2e4b60002@mail.gmail.com>",
+    "references": [
+      "<a20f18c2e4b60001@lumenpay.io>",
+      "<CAFa20f18c2e4b60002@mail.gmail.com>"
+    ],
+    "thread_position": 3,
+    "thread_length": 10,
+    "from": {
+      "name": "Priya Nair",
+      "email": "priya@kettlehq.com"
+    },
+    "to": [
+      {
+        "name": "Dana Kowalski",
+        "email": "dana.kowalski@lumenpay.io"
+      }
+    ],
+    "cc": [
+      {
+        "name": "Dev Patel",
+        "email": "dev@kettlehq.com"
+      },
+      {
+        "name": "Maya Rodriguez",
+        "email": "maya@kettlehq.com"
+      }
+    ],
+    "bcc": [],
+    "delivered_to": "maya@kettlehq.com",
+    "subject": "Re: Lumenpay SSO rollout \u2013 blocking issue on SAML mapping",
+    "snippet": "Found it. Your IdP is sending the user identifier in a claim called `mail`, and our SAML handler is hardcoded to look for `email`. For the users where those happen to be the same a",
+    "body_text": "Found it. Your IdP is sending the user identifier in a claim called `mail`, and our SAML handler is hardcoded to look for `email`. For the users where those happen to be the same attribute on your side it works by coincidence; for the ~half where your directory splits `mail` from `userPrincipalName` it doesn't.\n\nTwo options: we can add `mail` as a fallback claim on our end (I can ship that Thursday), or your IT team can add an `email` claim to the assertion mapping, which is probably a five-minute change on your side. Either fixes it \u2014 happy to do ours regardless since other customers will hit the same thing eventually.\n\nPriya",
+    "body_html": null,
+    "date": "2026-06-19T11:05:00-07:00",
+    "internal_date_ms": 1781892300000,
+    "folder": "INBOX",
+    "category": "CATEGORY_PERSONAL",
+    "is_unread": false,
+    "is_starred": false,
+    "is_important": false,
+    "user_labels": [],
+    "attachments": [],
+    "calendar_event": null,
+    "extra_headers": {
+      "Return-Path": "<priya@kettlehq.com>"
+    },
+    "size_estimate": 2931,
+    "meta": {
+      "email_class": "client_customer",
+      "tricky_tags": [],
+      "is_actionable_for_user": false,
+      "action_owner": "priya@kettlehq.com",
+      "action_summary": "Priya will ship a fallback claim mapping by Thursday.",
+      "due_date": "2026-06-25",
+      "commitment_made_by_user": null,
+      "commitment_is_conditional": false,
+      "commitment_condition": null,
+      "superseded_by_message_id": null,
+      "notes": null
+    }
+  },
+  {
+    "id": "a20f18c2e4b60004",
+    "thread_id": "a20f18c2e4b60001",
+    "profile_id": "founder",
+    "history_id": "702800",
+    "message_id_header": "<a20f18c2e4b60004@lumenpay.io>",
+    "in_reply_to": "<CAFa20f18c2e4b60003@mail.gmail.com>",
+    "references": [
+      "<a20f18c2e4b60001@lumenpay.io>",
+      "<CAFa20f18c2e4b60002@mail.gmail.com>",
+      "<CAFa20f18c2e4b60003@mail.gmail.com>"
+    ],
+    "thread_position": 4,
+    "thread_length": 10,
+    "from": {
+      "name": "Dana Kowalski",
+      "email": "dana.kowalski@lumenpay.io"
+    },
+    "to": [
+      {
+        "name": "Priya Nair",
+        "email": "priya@kettlehq.com"
+      }
+    ],
+    "cc": [
+      {
+        "name": "Dev Patel",
+        "email": "dev@kettlehq.com"
+      },
+      {
+        "name": "Maya Rodriguez",
+        "email": "maya@kettlehq.com"
+      }
+    ],
+    "bcc": [],
+    "delivered_to": "maya@kettlehq.com",
+    "subject": "Re: Lumenpay SSO rollout \u2013 blocking issue on SAML mapping",
+    "snippet": "Our IT team says they can adjust the claim mapping by June 30 \u2014 will confirm once it's live.",
+    "body_text": "Our IT team says they can adjust the claim mapping by June 30 \u2014 will confirm once it's live.",
+    "body_html": null,
+    "date": "2026-06-22T16:40:00-06:00",
+    "internal_date_ms": 1782168000000,
+    "folder": "INBOX",
+    "category": "CATEGORY_PERSONAL",
+    "is_unread": false,
+    "is_starred": false,
+    "is_important": false,
+    "user_labels": [],
+    "attachments": [],
+    "calendar_event": null,
+    "extra_headers": {
+      "Return-Path": "<dana.kowalski@lumenpay.io>"
+    },
+    "size_estimate": 1793,
+    "meta": {
+      "email_class": "client_customer",
+      "tricky_tags": [],
+      "is_actionable_for_user": false,
+      "action_owner": "dana.kowalski@lumenpay.io",
+      "action_summary": "Dana's IT team to fix the claim mapping by June 30.",
+      "due_date": "2026-06-30",
+      "commitment_made_by_user": null,
+      "commitment_is_conditional": false,
+      "commitment_condition": null,
+      "superseded_by_message_id": null,
+      "notes": null
+    }
+  },
+  {
+    "id": "a20f18c2e4b60005",
+    "thread_id": "a20f18c2e4b60001",
+    "profile_id": "founder",
+    "history_id": "734070",
+    "message_id_header": "<CAFa20f18c2e4b60005@mail.gmail.com>",
+    "in_reply_to": "<a20f18c2e4b60004@lumenpay.io>",
+    "references": [
+      "<a20f18c2e4b60001@lumenpay.io>",
+      "<CAFa20f18c2e4b60002@mail.gmail.com>",
+      "<CAFa20f18c2e4b60003@mail.gmail.com>",
+      "<a20f18c2e4b60004@lumenpay.io>"
+    ],
+    "thread_position": 5,
+    "thread_length": 10,
+    "from": {
+      "name": "Maya Rodriguez",
+      "email": "maya@kettlehq.com"
+    },
+    "to": [
+      {
+        "name": "Dana Kowalski",
+        "email": "dana.kowalski@lumenpay.io"
+      }
+    ],
+    "cc": [
+      {
+        "name": "Dev Patel",
+        "email": "dev@kettlehq.com"
+      },
+      {
+        "name": "Priya Nair",
+        "email": "priya@kettlehq.com"
+      }
+    ],
+    "bcc": [],
+    "delivered_to": null,
+    "subject": "Re: Lumenpay SSO rollout \u2013 blocking issue on SAML mapping",
+    "snippet": "Hi Dana \u2014 following up on this, haven't heard anything since the 22nd and it's now been quiet for a couple weeks. Wanted to check where the claim mapping change landed on your end,",
+    "body_text": "Hi Dana \u2014 following up on this, haven't heard anything since the 22nd and it's now been quiet for a couple weeks. Wanted to check where the claim mapping change landed on your end, since this is now sitting on the critical path for the August pilot cohort we talked about. Let me know if there's anything blocking your IT team, or if it'd help to get Priya on a call with them directly.\n\nMaya",
+    "body_html": null,
+    "date": "2026-07-14T08:50:00-07:00",
+    "internal_date_ms": 1784044200000,
+    "folder": "SENT",
+    "category": null,
+    "is_unread": false,
+    "is_starred": false,
+    "is_important": false,
+    "user_labels": [],
+    "attachments": [],
+    "calendar_event": null,
+    "extra_headers": {},
+    "size_estimate": 2423,
+    "meta": {
+      "email_class": "client_customer",
+      "tricky_tags": [],
+      "is_actionable_for_user": false,
+      "action_owner": "dana.kowalski@lumenpay.io",
+      "action_summary": "Waiting on Dana's IT team to confirm the SAML fix.",
+      "due_date": null,
+      "commitment_made_by_user": null,
+      "commitment_is_conditional": false,
+      "commitment_condition": null,
+      "superseded_by_message_id": null,
+      "notes": "Bump after a ~3-week silence in the thread; owner-initiated follow-up."
+    }
+  },
+  {
+    "id": "a20f18c2e4b60006",
+    "thread_id": "a20f18c2e4b60001",
+    "profile_id": "founder",
+    "history_id": "735720",
+    "message_id_header": "<a20f18c2e4b60006@lumenpay.io>",
+    "in_reply_to": "<CAFa20f18c2e4b60005@mail.gmail.com>",
+    "references": [
+      "<a20f18c2e4b60001@lumenpay.io>",
+      "<CAFa20f18c2e4b60002@mail.gmail.com>",
+      "<CAFa20f18c2e4b60003@mail.gmail.com>",
+      "<a20f18c2e4b60004@lumenpay.io>",
+      "<CAFa20f18c2e4b60005@mail.gmail.com>"
+    ],
+    "thread_position": 6,
+    "thread_length": 10,
+    "from": {
+      "name": "Dana Kowalski",
+      "email": "dana.kowalski@lumenpay.io"
+    },
+    "to": [
+      {
+        "name": "Maya Rodriguez",
+        "email": "maya@kettlehq.com"
+      }
+    ],
+    "cc": [
+      {
+        "name": "Dev Patel",
+        "email": "dev@kettlehq.com"
+      },
+      {
+        "name": "Priya Nair",
+        "email": "priya@kettlehq.com"
+      }
+    ],
+    "bcc": [],
+    "delivered_to": "maya@kettlehq.com",
+    "subject": "Re: Lumenpay SSO rollout \u2013 blocking issue on SAML mapping",
+    "snippet": "Sorry for the radio silence on our end \u2014 we had a security incident in mid-June that ate two weeks of our IT team's bandwidth and this fell off the list. No excuse, should have fla",
+    "body_text": "Sorry for the radio silence on our end \u2014 we had a security incident in mid-June that ate two weeks of our IT team's bandwidth and this fell off the list. No excuse, should have flagged it to you sooner.\n\nGood news is they made the claim mapping change yesterday and I've asked them to run through the failing test accounts again today. Will report back with results, hopefully by tomorrow.\n\nDana",
+    "body_html": null,
+    "date": "2026-07-15T13:20:00-06:00",
+    "internal_date_ms": 1784143200000,
+    "folder": "INBOX",
+    "category": "CATEGORY_PERSONAL",
+    "is_unread": false,
+    "is_starred": false,
+    "is_important": false,
+    "user_labels": [],
+    "attachments": [],
+    "calendar_event": null,
+    "extra_headers": {
+      "Return-Path": "<dana.kowalski@lumenpay.io>"
+    },
+    "size_estimate": 2429,
+    "meta": {
+      "email_class": "client_customer",
+      "tricky_tags": [],
+      "is_actionable_for_user": false,
+      "action_owner": "dana.kowalski@lumenpay.io",
+      "action_summary": "Dana's team to re-test after applying the claim mapping fix.",
+      "due_date": null,
+      "commitment_made_by_user": null,
+      "commitment_is_conditional": false,
+      "commitment_condition": null,
+      "superseded_by_message_id": null,
+      "notes": null
+    }
+  },
+  {
+    "id": "a20f18c2e4b60007",
+    "thread_id": "a20f18c2e4b60001",
+    "profile_id": "founder",
+    "history_id": "737030",
+    "message_id_header": "<CAFa20f18c2e4b60007@mail.gmail.com>",
+    "in_reply_to": "<a20f18c2e4b60006@lumenpay.io>",
+    "references": [
+      "<a20f18c2e4b60001@lumenpay.io>",
+      "<CAFa20f18c2e4b60002@mail.gmail.com>",
+      "<CAFa20f18c2e4b60003@mail.gmail.com>",
+      "<a20f18c2e4b60004@lumenpay.io>",
+      "<CAFa20f18c2e4b60005@mail.gmail.com>",
+      "<a20f18c2e4b60006@lumenpay.io>"
+    ],
+    "thread_position": 7,
+    "thread_length": 10,
+    "from": {
+      "name": "Maya Rodriguez",
+      "email": "maya@kettlehq.com"
+    },
+    "to": [
+      {
+        "name": "Dana Kowalski",
+        "email": "dana.kowalski@lumenpay.io"
+      }
+    ],
+    "cc": [
+      {
+        "name": "Dev Patel",
+        "email": "dev@kettlehq.com"
+      },
+      {
+        "name": "Priya Nair",
+        "email": "priya@kettlehq.com"
+      },
+      {
+        "name": "Sana Iqbal",
+        "email": "sana@kettlehq.com"
+      }
+    ],
+    "bcc": [],
+    "delivered_to": null,
+    "subject": "Re: Lumenpay SSO rollout \u2013 blocking issue on SAML mapping",
+    "snippet": "No worries at all, glad it wasn't something worse on your side. Adding Sana here for visibility since this is now a board-reportable risk item for the 27th \u2014 she's tracking the top",
+    "body_text": "No worries at all, glad it wasn't something worse on your side. Adding Sana here for visibility since this is now a board-reportable risk item for the 27th \u2014 she's tracking the top customer risks for the deck and Lumenpay is the biggest one.\n\nLet us know how the re-test goes.\n\nMaya",
+    "body_html": null,
+    "date": "2026-07-16T10:10:00-07:00",
+    "internal_date_ms": 1784221800000,
+    "folder": "SENT",
+    "category": null,
+    "is_unread": false,
+    "is_starred": false,
+    "is_important": false,
+    "user_labels": [],
+    "attachments": [],
+    "calendar_event": null,
+    "extra_headers": {},
+    "size_estimate": 2192,
+    "meta": {
+      "email_class": "client_customer",
+      "tricky_tags": [],
+      "is_actionable_for_user": false,
+      "action_owner": "dana.kowalski@lumenpay.io",
+      "action_summary": "Waiting on Lumenpay re-test results.",
+      "due_date": null,
+      "commitment_made_by_user": null,
+      "commitment_is_conditional": false,
+      "commitment_condition": null,
+      "superseded_by_message_id": null,
+      "notes": null
+    }
+  },
+  {
+    "id": "a20f18c2e4b60008",
+    "thread_id": "a20f18c2e4b60001",
+    "profile_id": "founder",
+    "history_id": "738805",
+    "message_id_header": "<CAFa20f18c2e4b60008@mail.gmail.com>",
+    "in_reply_to": "<CAFa20f18c2e4b60007@mail.gmail.com>",
+    "references": [
+      "<a20f18c2e4b60001@lumenpay.io>",
+      "<CAFa20f18c2e4b60002@mail.gmail.com>",
+      "<CAFa20f18c2e4b60003@mail.gmail.com>",
+      "<a20f18c2e4b60004@lumenpay.io>",
+      "<CAFa20f18c2e4b60005@mail.gmail.com>",
+      "<a20f18c2e4b60006@lumenpay.io>",
+      "<CAFa20f18c2e4b60007@mail.gmail.com>"
+    ],
+    "thread_position": 8,
+    "thread_length": 10,
+    "from": {
+      "name": "Priya Nair",
+      "email": "priya@kettlehq.com"
+    },
+    "to": [
+      {
+        "name": "Dana Kowalski",
+        "email": "dana.kowalski@lumenpay.io"
+      }
+    ],
+    "cc": [
+      {
+        "name": "Dev Patel",
+        "email": "dev@kettlehq.com"
+      },
+      {
+        "name": "Maya Rodriguez",
+        "email": "maya@kettlehq.com"
+      },
+      {
+        "name": "Sana Iqbal",
+        "email": "sana@kettlehq.com"
+      }
+    ],
+    "bcc": [],
+    "delivered_to": "maya@kettlehq.com",
+    "subject": "Re: Lumenpay SSO rollout \u2013 blocking issue on SAML mapping",
+    "snippet": "On Wed, Jul 16, 2026 at 10:10 AM Maya Rodriguez <maya@kettlehq.com> wrote: > No worries at all, glad it wasn't something worse on your side... Wanted to give a fuller update while ",
+    "body_text": "On Wed, Jul 16, 2026 at 10:10 AM Maya Rodriguez <maya@kettlehq.com> wrote:\n> No worries at all, glad it wasn't something worse on your side...\n\nWanted to give a fuller update while we wait on Dana's re-test. I pulled our own test suite for the SSO integration and ran it against a mirror of Lumenpay's tenant config: 40 of 42 cases pass now with the fallback claim change on our side plus their mapping fix. The two that still fail are both nested-group scenarios \u2014 users who are members of a group that's itself a member of another group. Our role-mapping logic only looks one level deep.\n\nThat's a real gap, not a Lumenpay-specific one, and I don't want to promise a fix date until I've scoped it properly, but early read is 3-4 days of work. Given that, I think we should plan for an August 8th go-live instead of the July 25th date we'd been targeting \u2014 better to ship the nested-group fix than to carve out an exception and have their infosec team find it in three months.\n\nWill have a firmer estimate by end of week.\n\nPriya",
+    "body_html": null,
+    "date": "2026-07-17T15:45:00-07:00",
+    "internal_date_ms": 1784328300000,
+    "folder": "INBOX",
+    "category": "CATEGORY_PERSONAL",
+    "is_unread": false,
+    "is_starred": false,
+    "is_important": false,
+    "user_labels": [],
+    "attachments": [],
+    "calendar_event": null,
+    "extra_headers": {
+      "Return-Path": "<priya@kettlehq.com>"
+    },
+    "size_estimate": 3760,
+    "meta": {
+      "email_class": "client_customer",
+      "tricky_tags": [],
+      "is_actionable_for_user": false,
+      "action_owner": "priya@kettlehq.com",
+      "action_summary": "Priya to scope and fix nested-group role mapping before Aug 8 go-live.",
+      "due_date": "2026-08-08",
+      "commitment_made_by_user": null,
+      "commitment_is_conditional": false,
+      "commitment_condition": null,
+      "superseded_by_message_id": null,
+      "notes": "Go-live date moved from July 25 to August 8 as the Lumenpay rollout keeps slipping."
+    }
+  },
+  {
+    "id": "a20f18c2e4b60009",
+    "thread_id": "a20f18c2e4b60001",
+    "profile_id": "founder",
+    "history_id": "754210",
+    "message_id_header": "<a20f18c2e4b60009@lumenpay.io>",
+    "in_reply_to": "<CAFa20f18c2e4b60008@mail.gmail.com>",
+    "references": [
+      "<a20f18c2e4b60001@lumenpay.io>",
+      "<CAFa20f18c2e4b60002@mail.gmail.com>",
+      "<CAFa20f18c2e4b60003@mail.gmail.com>",
+      "<a20f18c2e4b60004@lumenpay.io>",
+      "<CAFa20f18c2e4b60005@mail.gmail.com>",
+      "<a20f18c2e4b60006@lumenpay.io>",
+      "<CAFa20f18c2e4b60007@mail.gmail.com>",
+      "<CAFa20f18c2e4b60008@mail.gmail.com>"
+    ],
+    "thread_position": 9,
+    "thread_length": 10,
+    "from": {
+      "name": "Dana Kowalski",
+      "email": "dana.kowalski@lumenpay.io"
+    },
+    "to": [
+      {
+        "name": "Priya Nair",
+        "email": "priya@kettlehq.com"
+      }
+    ],
+    "cc": [
+      {
+        "name": "Dev Patel",
+        "email": "dev@kettlehq.com"
+      },
+      {
+        "name": "Maya Rodriguez",
+        "email": "maya@kettlehq.com"
+      }
+    ],
+    "bcc": [],
+    "delivered_to": "maya@kettlehq.com",
+    "subject": "Re: Lumenpay SSO rollout \u2013 blocking issue on SAML mapping",
+    "snippet": "Priya \u2014 good news, our infosec team confirmed the nested-group cases are clean on the last build you sent over, so the technical side looks done. Only new wrinkle: our procurement ",
+    "body_text": "Priya \u2014 good news, our infosec team confirmed the nested-group cases are clean on the last build you sent over, so the technical side looks done.\n\nOnly new wrinkle: our procurement team is now asking for a signed addendum to the DPA covering the SSO metadata we're passing you (they flagged it during their internal review, not because of anything you did wrong). Is there any chance your legal counsel could turn that around by August 5th? I know it's tight but our exec sponsor wants it buttoned up before go-live, not after.\n\nDana",
+    "body_html": null,
+    "date": "2026-07-28T09:30:00-06:00",
+    "internal_date_ms": 1785252600000,
+    "folder": "INBOX",
+    "category": "CATEGORY_PERSONAL",
+    "is_unread": false,
+    "is_starred": false,
+    "is_important": false,
+    "user_labels": [],
+    "attachments": [],
+    "calendar_event": null,
+    "extra_headers": {
+      "Return-Path": "<dana.kowalski@lumenpay.io>"
+    },
+    "size_estimate": 2719,
+    "meta": {
+      "email_class": "legal_compliance",
+      "tricky_tags": [],
+      "is_actionable_for_user": true,
+      "action_owner": "maya@kettlehq.com",
+      "action_summary": "Get the DPA addendum drafted and signed by Aug 5 via outside counsel.",
+      "due_date": "2026-08-05",
+      "commitment_made_by_user": null,
+      "commitment_is_conditional": false,
+      "commitment_condition": null,
+      "superseded_by_message_id": null,
+      "notes": null
+    }
+  },
+  {
+    "id": "a20f18c2e4b60010",
+    "thread_id": "a20f18c2e4b60001",
+    "profile_id": "founder",
+    "history_id": "757605",
+    "message_id_header": "<CAFa20f18c2e4b60010@mail.gmail.com>",
+    "in_reply_to": "<a20f18c2e4b60009@lumenpay.io>",
+    "references": [
+      "<a20f18c2e4b60001@lumenpay.io>",
+      "<CAFa20f18c2e4b60002@mail.gmail.com>",
+      "<CAFa20f18c2e4b60003@mail.gmail.com>",
+      "<a20f18c2e4b60004@lumenpay.io>",
+      "<CAFa20f18c2e4b60005@mail.gmail.com>",
+      "<a20f18c2e4b60006@lumenpay.io>",
+      "<CAFa20f18c2e4b60007@mail.gmail.com>",
+      "<CAFa20f18c2e4b60008@mail.gmail.com>",
+      "<a20f18c2e4b60009@lumenpay.io>"
+    ],
+    "thread_position": 10,
+    "thread_length": 10,
+    "from": {
+      "name": "Maya Rodriguez",
+      "email": "maya@kettlehq.com"
+    },
+    "to": [
+      {
+        "name": "Dana Kowalski",
+        "email": "dana.kowalski@lumenpay.io"
+      }
+    ],
+    "cc": [
+      {
+        "name": "Dev Patel",
+        "email": "dev@kettlehq.com"
+      },
+      {
+        "name": "Priya Nair",
+        "email": "priya@kettlehq.com"
+      }
+    ],
+    "bcc": [],
+    "delivered_to": null,
+    "subject": "Re: Lumenpay SSO rollout \u2013 blocking issue on SAML mapping",
+    "snippet": "Dana \u2014 Beth Ranganathan, our outside counsel, is already on the DPA addendum and is targeting Aug 5 for a signed version, so that should line up fine with go-live. New plan is Aug ",
+    "body_text": "Dana \u2014 Beth Ranganathan, our outside counsel, is already on the DPA addendum and is targeting Aug 5 for a signed version, so that should line up fine with go-live. New plan is Aug 8 for the actual rollout, and I'll flag the whole arc \u2014 the delay, the fix, and where we landed \u2014 at our board meeting on the 27th so there are no surprises if it comes up with Ellen or anyone else on our side.\n\nAppreciate your patience on this one, especially given your own security incident in the middle of it. We'll get you a clean go-live.\n\nMaya",
+    "body_html": null,
+    "date": "2026-07-30T17:05:00-07:00",
+    "internal_date_ms": 1785456300000,
+    "folder": "SENT",
+    "category": null,
+    "is_unread": false,
+    "is_starred": true,
+    "is_important": true,
+    "user_labels": [
+      "Label_3391"
+    ],
+    "attachments": [],
+    "calendar_event": null,
+    "extra_headers": {},
+    "size_estimate": 2715,
+    "meta": {
+      "email_class": "client_customer",
+      "tricky_tags": [],
+      "is_actionable_for_user": true,
+      "action_owner": "maya@kettlehq.com",
+      "action_summary": "Maya will report the Lumenpay rollout status to the board on Aug 27.",
+      "due_date": "2026-08-27",
+      "commitment_made_by_user": "Report the Lumenpay rollout delay and resolution to the board on Aug 27.",
+      "commitment_is_conditional": false,
+      "commitment_condition": null,
+      "superseded_by_message_id": null,
+      "notes": null
+    }
+  },
+  {
+    "id": "a20f18c2e4b60011",
+    "thread_id": "a20f18c2e4b60011",
+    "profile_id": "founder",
+    "history_id": "765760",
+    "message_id_header": "<CAFa20f18c2e4b60011@mail.gmail.com>",
+    "in_reply_to": null,
+    "references": [],
+    "thread_position": 1,
+    "thread_length": 9,
+    "from": {
+      "name": "Sana Iqbal",
+      "email": "sana@kettlehq.com"
+    },
+    "to": [
+      {
+        "name": "Maya Rodriguez",
+        "email": "maya@kettlehq.com"
+      },
+      {
+        "name": "Wendy Osei",
+        "email": "wendy@kettlehq.com"
+      },
+      {
+        "name": "Dev Patel",
+        "email": "dev@kettlehq.com"
+      }
+    ],
+    "cc": [],
+    "bcc": [],
+    "delivered_to": "maya@kettlehq.com",
+    "subject": "Board deck \u2013 Aug 27 prep",
+    "snippet": "Kicking off prep for the 27th. Two things I need before I can finalize the deck: 1) Wendy \u2014 final ARR and burn numbers for the quarter, ideally by end of day Friday so Luis has tim",
+    "body_text": "Kicking off prep for the 27th. Two things I need before I can finalize the deck:\n\n1) Wendy \u2014 final ARR and burn numbers for the quarter, ideally by end of day Friday so Luis has time to build the slides.\n2) Whoever's planning logistics \u2014 do we know yet if we're doing the boardroom, a hybrid setup, or full remote? Ellen mentioned she might be traveling that week.\n\nLet me know if I'm missing anything else that needs to go in.\n\nSana",
+    "body_html": null,
+    "date": "2026-08-05T09:00:00-07:00",
+    "internal_date_ms": 1785945600000,
+    "folder": "INBOX",
+    "category": "CATEGORY_PERSONAL",
+    "is_unread": false,
+    "is_starred": false,
+    "is_important": false,
+    "user_labels": [],
+    "attachments": [],
+    "calendar_event": null,
+    "extra_headers": {
+      "Return-Path": "<sana@kettlehq.com>"
+    },
+    "size_estimate": 2509,
+    "meta": {
+      "email_class": "genuine_work",
+      "tricky_tags": [],
+      "is_actionable_for_user": false,
+      "action_owner": "wendy@kettlehq.com",
+      "action_summary": "Wendy to provide final ARR/burn numbers by Friday.",
+      "due_date": "2026-08-07",
+      "commitment_made_by_user": null,
+      "commitment_is_conditional": false,
+      "commitment_condition": null,
+      "superseded_by_message_id": null,
+      "notes": null
+    }
+  },
+  {
+    "id": "a20f18c2e4b60012",
+    "thread_id": "a20f18c2e4b60011",
+    "profile_id": "founder",
+    "history_id": "767275",
+    "message_id_header": "<CAFa20f18c2e4b60012@mail.gmail.com>",
+    "in_reply_to": "<CAFa20f18c2e4b60011@mail.gmail.com>",
+    "references": [
+      "<CAFa20f18c2e4b60011@mail.gmail.com>"
+    ],
+    "thread_position": 2,
+    "thread_length": 9,
+    "from": {
+      "name": "Wendy Osei",
+      "email": "wendy@kettlehq.com"
+    },
+    "to": [
+      {
+        "name": "Sana Iqbal",
+        "email": "sana@kettlehq.com"
+      }
+    ],
+    "cc": [
+      {
+        "name": "Maya Rodriguez",
+        "email": "maya@kettlehq.com"
+      },
+      {
+        "name": "Dev Patel",
+        "email": "dev@kettlehq.com"
+      }
+    ],
+    "bcc": [],
+    "delivered_to": "maya@kettlehq.com",
+    "subject": "Re: Board deck \u2013 Aug 27 prep",
+    "snippet": "Preliminary ARR is $2.1M as of July close \u2014 still reconciling one enterprise contract so treat that as soft until Thursday.",
+    "body_text": "Preliminary ARR is $2.1M as of July close \u2014 still reconciling one enterprise contract so treat that as soft until Thursday.",
+    "body_html": null,
+    "date": "2026-08-06T10:15:00-07:00",
+    "internal_date_ms": 1786036500000,
+    "folder": "INBOX",
+    "category": "CATEGORY_PERSONAL",
+    "is_unread": false,
+    "is_starred": false,
+    "is_important": false,
+    "user_labels": [],
+    "attachments": [],
+    "calendar_event": null,
+    "extra_headers": {
+      "Return-Path": "<wendy@kettlehq.com>"
+    },
+    "size_estimate": 1858,
+    "meta": {
+      "email_class": "genuine_work",
+      "tricky_tags": [],
+      "is_actionable_for_user": false,
+      "action_owner": "wendy@kettlehq.com",
+      "action_summary": "Wendy to finalize the ARR number by Thursday.",
+      "due_date": "2026-08-06",
+      "commitment_made_by_user": null,
+      "commitment_is_conditional": false,
+      "commitment_condition": null,
+      "superseded_by_message_id": null,
+      "notes": null
+    }
+  },
+  {
+    "id": "a20f18c2e4b60013",
+    "thread_id": "a20f18c2e4b60011",
+    "profile_id": "founder",
+    "history_id": "767600",
+    "message_id_header": "<CAFa20f18c2e4b60013@mail.gmail.com>",
+    "in_reply_to": "<CAFa20f18c2e4b60011@mail.gmail.com>",
+    "references": [
+      "<CAFa20f18c2e4b60011@mail.gmail.com>"
+    ],
+    "thread_position": 3,
+    "thread_length": 9,
+    "from": {
+      "name": "Dev Patel",
+      "email": "dev@kettlehq.com"
+    },
+    "to": [
+      {
+        "name": "Sana Iqbal",
+        "email": "sana@kettlehq.com"
+      }
+    ],
+    "cc": [
+      {
+        "name": "Maya Rodriguez",
+        "email": "maya@kettlehq.com"
+      },
+      {
+        "name": "Wendy Osei",
+        "email": "wendy@kettlehq.com"
+      }
+    ],
+    "bcc": [],
+    "delivered_to": "maya@kettlehq.com",
+    "subject": "Re: Board deck \u2013 Aug 27 prep",
+    "snippet": "I'll be remote that day \u2014 can we do hybrid? Also, should we invite Raj to sit in given the Series B conversations, or keep this one internal-only?",
+    "body_text": "I'll be remote that day \u2014 can we do hybrid? Also, should we invite Raj to sit in given the Series B conversations, or keep this one internal-only?",
+    "body_html": null,
+    "date": "2026-08-06T15:40:00-07:00",
+    "internal_date_ms": 1786056000000,
+    "folder": "INBOX",
+    "category": "CATEGORY_PERSONAL",
+    "is_unread": false,
+    "is_starred": false,
+    "is_important": false,
+    "user_labels": [],
+    "attachments": [],
+    "calendar_event": null,
+    "extra_headers": {
+      "Return-Path": "<dev@kettlehq.com>"
+    },
+    "size_estimate": 1906,
+    "meta": {
+      "email_class": "genuine_work",
+      "tricky_tags": [],
+      "is_actionable_for_user": false,
+      "action_owner": "sana@kettlehq.com",
+      "action_summary": "Sana to confirm hybrid setup and whether to invite Raj Malhotra.",
+      "due_date": null,
+      "commitment_made_by_user": null,
+      "commitment_is_conditional": false,
+      "commitment_condition": null,
+      "superseded_by_message_id": null,
+      "notes": null
+    }
+  },
+  {
+    "id": "a20f18c2e4b60014",
+    "thread_id": "a20f18c2e4b60011",
+    "profile_id": "founder",
+    "history_id": "768780",
+    "message_id_header": "<CAFa20f18c2e4b60014@mail.gmail.com>",
+    "in_reply_to": "<CAFa20f18c2e4b60012@mail.gmail.com>",
+    "references": [
+      "<CAFa20f18c2e4b60011@mail.gmail.com>",
+      "<CAFa20f18c2e4b60012@mail.gmail.com>"
+    ],
+    "thread_position": 4,
+    "thread_length": 9,
+    "from": {
+      "name": "Maya Rodriguez",
+      "email": "maya@kettlehq.com"
+    },
+    "to": [
+      {
+        "name": "Wendy Osei",
+        "email": "wendy@kettlehq.com"
+      }
+    ],
+    "cc": [
+      {
+        "name": "Sana Iqbal",
+        "email": "sana@kettlehq.com"
+      },
+      {
+        "name": "Dev Patel",
+        "email": "dev@kettlehq.com"
+      }
+    ],
+    "bcc": [],
+    "delivered_to": null,
+    "subject": "Re: Board deck \u2013 Aug 27 prep",
+    "snippet": "Thanks \u2014 can you also break out Lumenpay ARR separately from the rest? Board's going to ask about customer concentration risk given everything that's been going on with that accoun",
+    "body_text": "Thanks \u2014 can you also break out Lumenpay ARR separately from the rest? Board's going to ask about customer concentration risk given everything that's been going on with that account, better to have the number ready than to get asked live.\n\nOn Raj \u2014 let's not invite him to this one, keep the board meeting internal until we're further along with Foundry Line.",
+    "body_html": null,
+    "date": "2026-08-07T11:20:00-07:00",
+    "internal_date_ms": 1786126800000,
+    "folder": "SENT",
+    "category": null,
+    "is_unread": false,
+    "is_starred": false,
+    "is_important": false,
+    "user_labels": [],
+    "attachments": [],
+    "calendar_event": null,
+    "extra_headers": {},
+    "size_estimate": 2353,
+    "meta": {
+      "email_class": "genuine_work",
+      "tricky_tags": [],
+      "is_actionable_for_user": false,
+      "action_owner": "wendy@kettlehq.com",
+      "action_summary": "Wendy to break out Lumenpay ARR as a separate line.",
+      "due_date": null,
+      "commitment_made_by_user": null,
+      "commitment_is_conditional": false,
+      "commitment_condition": null,
+      "superseded_by_message_id": null,
+      "notes": null
+    }
+  },
+  {
+    "id": "a20f18c2e4b60015",
+    "thread_id": "a20f18c2e4b60011",
+    "profile_id": "founder",
+    "history_id": "772965",
+    "message_id_header": "<CAFa20f18c2e4b60015@mail.gmail.com>",
+    "in_reply_to": "<CAFa20f18c2e4b60013@mail.gmail.com>",
+    "references": [
+      "<CAFa20f18c2e4b60011@mail.gmail.com>",
+      "<CAFa20f18c2e4b60013@mail.gmail.com>"
+    ],
+    "thread_position": 5,
+    "thread_length": 9,
+    "from": {
+      "name": "Priya Nair",
+      "email": "priya@kettlehq.com"
+    },
+    "to": [
+      {
+        "name": "Dev Patel",
+        "email": "dev@kettlehq.com"
+      }
+    ],
+    "cc": [
+      {
+        "name": "Sana Iqbal",
+        "email": "sana@kettlehq.com"
+      },
+      {
+        "name": "Maya Rodriguez",
+        "email": "maya@kettlehq.com"
+      },
+      {
+        "name": "Ellen Barsotti",
+        "email": "ellen@northbridge.vc"
+      }
+    ],
+    "bcc": [],
+    "delivered_to": "maya@kettlehq.com",
+    "subject": "Re: Board deck \u2013 Aug 27 prep",
+    "snippet": "Adding Ellen for visibility since she's dialing in and asked about the room setup. Priya here, jumping in because Sana's out this morning \u2014 I can book the 4th floor room with the Z",
+    "body_text": "Adding Ellen for visibility since she's dialing in and asked about the room setup. Priya here, jumping in because Sana's out this morning \u2014 I can book the 4th floor room with the Zoom bridge, holds 12, has the good camera. Ellen, that work for you, or do you need something with better screen-share for whoever's presenting the financials?",
+    "body_html": null,
+    "date": "2026-08-10T09:05:00-07:00",
+    "internal_date_ms": 1786377900000,
+    "folder": "INBOX",
+    "category": "CATEGORY_PERSONAL",
+    "is_unread": true,
+    "is_starred": false,
+    "is_important": false,
+    "user_labels": [],
+    "attachments": [],
+    "calendar_event": null,
+    "extra_headers": {
+      "Return-Path": "<priya@kettlehq.com>"
+    },
+    "size_estimate": 2311,
+    "meta": {
+      "email_class": "genuine_work",
+      "tricky_tags": [],
+      "is_actionable_for_user": false,
+      "action_owner": "ellen@northbridge.vc",
+      "action_summary": "Ellen to confirm the room setup works for her dial-in.",
+      "due_date": null,
+      "commitment_made_by_user": null,
+      "commitment_is_conditional": false,
+      "commitment_condition": null,
+      "superseded_by_message_id": null,
+      "notes": null
+    }
+  },
+  {
+    "id": "a20f18c2e4b60016",
+    "thread_id": "a20f18c2e4b60011",
+    "profile_id": "founder",
+    "history_id": "773310",
+    "message_id_header": "<CAFa20f18c2e4b60016@mail.gmail.com>",
+    "in_reply_to": "<CAFa20f18c2e4b60014@mail.gmail.com>",
+    "references": [
+      "<CAFa20f18c2e4b60011@mail.gmail.com>",
+      "<CAFa20f18c2e4b60012@mail.gmail.com>",
+      "<CAFa20f18c2e4b60014@mail.gmail.com>"
+    ],
+    "thread_position": 6,
+    "thread_length": 9,
+    "from": {
+      "name": "Wendy Osei",
+      "email": "wendy@kettlehq.com"
+    },
+    "to": [
+      {
+        "name": "Maya Rodriguez",
+        "email": "maya@kettlehq.com"
+      }
+    ],
+    "cc": [
+      {
+        "name": "Sana Iqbal",
+        "email": "sana@kettlehq.com"
+      },
+      {
+        "name": "Dev Patel",
+        "email": "dev@kettlehq.com"
+      }
+    ],
+    "bcc": [],
+    "delivered_to": "maya@kettlehq.com",
+    "subject": "Re: Board deck \u2013 Aug 27 prep",
+    "snippet": "Final number: $2.14M total ARR (the contract reconciled higher than expected), $340K of that is Lumenpay, so just under 16% concentration. Full breakdown by segment is in the model",
+    "body_text": "Final number: $2.14M total ARR (the contract reconciled higher than expected), $340K of that is Lumenpay, so just under 16% concentration. Full breakdown by segment is in the model, can send the sheet if Sana wants to drop a table straight into the deck.",
+    "body_html": null,
+    "date": "2026-08-10T14:50:00-07:00",
+    "internal_date_ms": 1786398600000,
+    "folder": "INBOX",
+    "category": "CATEGORY_PERSONAL",
+    "is_unread": true,
+    "is_starred": false,
+    "is_important": false,
+    "user_labels": [],
+    "attachments": [],
+    "calendar_event": null,
+    "extra_headers": {
+      "Return-Path": "<wendy@kettlehq.com>"
+    },
+    "size_estimate": 2133,
+    "meta": {
+      "email_class": "genuine_work",
+      "tricky_tags": [
+        "shifting_number"
+      ],
+      "is_actionable_for_user": false,
+      "action_owner": null,
+      "action_summary": null,
+      "due_date": null,
+      "commitment_made_by_user": null,
+      "commitment_is_conditional": false,
+      "commitment_condition": null,
+      "superseded_by_message_id": null,
+      "notes": "ARR figure moves from $2.1M (soft, msg 2) to $2.14M (final, this message) after contract reconciliation \u2014 a small, incidental shifting-number moment inside a busy thread, not the profile's dedicated shifting_number case."
+    }
+  },
+  {
+    "id": "a20f18c2e4b60017",
+    "thread_id": "a20f18c2e4b60011",
+    "profile_id": "founder",
+    "history_id": "774380",
+    "message_id_header": "<a20f18c2e4b60017@northbridge.vc>",
+    "in_reply_to": "<CAFa20f18c2e4b60015@mail.gmail.com>",
+    "references": [
+      "<CAFa20f18c2e4b60011@mail.gmail.com>",
+      "<CAFa20f18c2e4b60013@mail.gmail.com>",
+      "<CAFa20f18c2e4b60015@mail.gmail.com>"
+    ],
+    "thread_position": 7,
+    "thread_length": 9,
+    "from": {
+      "name": "Ellen Barsotti",
+      "email": "ellen@northbridge.vc"
+    },
+    "to": [
+      {
+        "name": "Priya Nair",
+        "email": "priya@kettlehq.com"
+      }
+    ],
+    "cc": [
+      {
+        "name": "Dev Patel",
+        "email": "dev@kettlehq.com"
+      },
+      {
+        "name": "Sana Iqbal",
+        "email": "sana@kettlehq.com"
+      },
+      {
+        "name": "Maya Rodriguez",
+        "email": "maya@kettlehq.com"
+      }
+    ],
+    "bcc": [],
+    "delivered_to": "maya@kettlehq.com",
+    "subject": "Re: Board deck \u2013 Aug 27 prep",
+    "snippet": "Room works for me, thanks for booking it. Quick q though \u2014 did we land on the ARR number for the deck? I saw an email thread about a room but I don't think the number question ever",
+    "body_text": "Room works for me, thanks for booking it. Quick q though \u2014 did we land on the ARR number for the deck? I saw an email thread about a room but I don't think the number question ever got a final answer, or maybe I just lost it in the reply chain. Want to make sure I'm not walking in with a stale figure in my own notes.",
+    "body_html": null,
+    "date": "2026-08-11T08:40:00-07:00",
+    "internal_date_ms": 1786462800000,
+    "folder": "INBOX",
+    "category": "CATEGORY_PERSONAL",
+    "is_unread": true,
+    "is_starred": false,
+    "is_important": true,
+    "user_labels": [],
+    "attachments": [],
+    "calendar_event": null,
+    "extra_headers": {
+      "Return-Path": "<ellen@northbridge.vc>"
+    },
+    "size_estimate": 2267,
+    "meta": {
+      "email_class": "genuine_work",
+      "tricky_tags": [],
+      "is_actionable_for_user": false,
+      "action_owner": "maya@kettlehq.com",
+      "action_summary": "Maya to confirm the final ARR figure to Ellen.",
+      "due_date": null,
+      "commitment_made_by_user": null,
+      "commitment_is_conditional": false,
+      "commitment_condition": null,
+      "superseded_by_message_id": null,
+      "notes": "Ellen's reply lands in the logistics sub-branch but asks about the financials sub-branch \u2014 the two parallel conversations have genuinely crossed."
+    }
+  },
+  {
+    "id": "a20f18c2e4b60018",
+    "thread_id": "a20f18c2e4b60011",
+    "profile_id": "founder",
+    "history_id": "774890",
+    "message_id_header": "<CAFa20f18c2e4b60018@mail.gmail.com>",
+    "in_reply_to": "<a20f18c2e4b60017@northbridge.vc>",
+    "references": [
+      "<CAFa20f18c2e4b60011@mail.gmail.com>",
+      "<CAFa20f18c2e4b60013@mail.gmail.com>",
+      "<CAFa20f18c2e4b60015@mail.gmail.com>",
+      "<a20f18c2e4b60017@northbridge.vc>"
+    ],
+    "thread_position": 8,
+    "thread_length": 9,
+    "from": {
+      "name": "Maya Rodriguez",
+      "email": "maya@kettlehq.com"
+    },
+    "to": [
+      {
+        "name": "Ellen Barsotti",
+        "email": "ellen@northbridge.vc"
+      }
+    ],
+    "cc": [
+      {
+        "name": "Priya Nair",
+        "email": "priya@kettlehq.com"
+      },
+      {
+        "name": "Dev Patel",
+        "email": "dev@kettlehq.com"
+      },
+      {
+        "name": "Sana Iqbal",
+        "email": "sana@kettlehq.com"
+      },
+      {
+        "name": "Wendy Osei",
+        "email": "wendy@kettlehq.com"
+      }
+    ],
+    "bcc": [],
+    "delivered_to": null,
+    "subject": "Re: Board deck \u2013 Aug 27 prep",
+    "snippet": "Ha, this thread forked into two conversations at some point \u2014 to consolidate everything in one place: ARR is $2.14M total, $340K (16%) from Lumenpay, and the room + Zoom hybrid set",
+    "body_text": "Ha, this thread forked into two conversations at some point \u2014 to consolidate everything in one place: ARR is $2.14M total, $340K (16%) from Lumenpay, and the room + Zoom hybrid setup Priya booked is confirmed for the 27th at 10am. Sana's building the deck off these numbers now.",
+    "body_html": null,
+    "date": "2026-08-11T17:10:00-07:00",
+    "internal_date_ms": 1786493400000,
+    "folder": "SENT",
+    "category": null,
+    "is_unread": false,
+    "is_starred": false,
+    "is_important": true,
+    "user_labels": [
+      "Label_8842"
+    ],
+    "attachments": [],
+    "calendar_event": null,
+    "extra_headers": {},
+    "size_estimate": 2183,
+    "meta": {
+      "email_class": "genuine_work",
+      "tricky_tags": [],
+      "is_actionable_for_user": false,
+      "action_owner": null,
+      "action_summary": null,
+      "due_date": null,
+      "commitment_made_by_user": null,
+      "commitment_is_conditional": false,
+      "commitment_condition": null,
+      "superseded_by_message_id": null,
+      "notes": "Maya's consolidating reply, explicitly naming that the thread forked into two parallel sub-conversations."
+    }
+  },
+  {
+    "id": "a20f18c2e4b60019",
+    "thread_id": "a20f18c2e4b60011",
+    "profile_id": "founder",
+    "history_id": "775795",
+    "message_id_header": "<CAFa20f18c2e4b60019@mail.gmail.com>",
+    "in_reply_to": "<CAFa20f18c2e4b60018@mail.gmail.com>",
+    "references": [
+      "<CAFa20f18c2e4b60011@mail.gmail.com>",
+      "<CAFa20f18c2e4b60013@mail.gmail.com>",
+      "<CAFa20f18c2e4b60015@mail.gmail.com>",
+      "<a20f18c2e4b60017@northbridge.vc>",
+      "<CAFa20f18c2e4b60018@mail.gmail.com>"
+    ],
+    "thread_position": 9,
+    "thread_length": 9,
+    "from": {
+      "name": "Sana Iqbal",
+      "email": "sana@kettlehq.com"
+    },
+    "to": [
+      {
+        "name": "Maya Rodriguez",
+        "email": "maya@kettlehq.com"
+      }
+    ],
+    "cc": [
+      {
+        "name": "Ellen Barsotti",
+        "email": "ellen@northbridge.vc"
+      },
+      {
+        "name": "Priya Nair",
+        "email": "priya@kettlehq.com"
+      },
+      {
+        "name": "Dev Patel",
+        "email": "dev@kettlehq.com"
+      },
+      {
+        "name": "Wendy Osei",
+        "email": "wendy@kettlehq.com"
+      }
+    ],
+    "bcc": [],
+    "delivered_to": "maya@kettlehq.com",
+    "subject": "Re: Board deck \u2013 Aug 27 prep",
+    "snippet": "Got it, updating the deck now, will send the final version Wednesday morning before the meeting.",
+    "body_text": "Got it, updating the deck now, will send the final version Wednesday morning before the meeting.",
+    "body_html": null,
+    "date": "2026-08-12T08:15:00-07:00",
+    "internal_date_ms": 1786547700000,
+    "folder": "INBOX",
+    "category": "CATEGORY_PERSONAL",
+    "is_unread": true,
+    "is_starred": false,
+    "is_important": false,
+    "user_labels": [],
+    "attachments": [],
+    "calendar_event": null,
+    "extra_headers": {
+      "Return-Path": "<sana@kettlehq.com>"
+    },
+    "size_estimate": 1801,
+    "meta": {
+      "email_class": "genuine_work",
+      "tricky_tags": [],
+      "is_actionable_for_user": false,
+      "action_owner": "sana@kettlehq.com",
+      "action_summary": "Sana to send the final board deck before Aug 27.",
+      "due_date": "2026-08-27",
+      "commitment_made_by_user": null,
+      "commitment_is_conditional": false,
+      "commitment_condition": null,
+      "superseded_by_message_id": null,
+      "notes": null
+    }
+  },
+  {
+    "id": "a20f18c2e4b60020",
+    "thread_id": "a20f18c2e4b60020",
+    "profile_id": "founder",
+    "history_id": "732490",
+    "message_id_header": "<a20f18c2e4b60020@vantageassurance.com>",
+    "in_reply_to": null,
+    "references": [],
+    "thread_position": 1,
+    "thread_length": 8,
+    "from": {
+      "name": "Owen Fitch",
+      "email": "owen.fitch@vantageassurance.com"
+    },
+    "to": [
+      {
+        "name": "Maya Rodriguez",
+        "email": "maya@kettlehq.com"
+      }
+    ],
+    "cc": [
+      {
+        "name": "Priya Nair",
+        "email": "priya@kettlehq.com"
+      },
+      {
+        "name": "Wendy Osei",
+        "email": "wendy@kettlehq.com"
+      }
+    ],
+    "bcc": [],
+    "delivered_to": "maya@kettlehq.com",
+    "subject": "SOC 2 Type II \u2013 fieldwork kickoff",
+    "snippet": "Maya, We're kicking off fieldwork for your Type II examination this week \u2014 good to be working with Kettle again after the readiness assessment in the spring. Wanted to send a prope",
+    "body_text": "Maya,\n\nWe're kicking off fieldwork for your Type II examination this week \u2014 good to be working with Kettle again after the readiness assessment in the spring. Wanted to send a proper overview before the item requests start landing in your inbox in bulk.\n\nA quick refresher on scope: this is a Type II report, which means we're not just confirming that controls are designed correctly (that was the Type I work you did in Q1) but that they actually operated effectively over the full review period, which we've set as January 1 through June 30, 2026. That's the main difference people find surprising the first time through \u2014 we're not just looking at a policy document, we're sampling actual evidence across the six months to confirm the control ran the way the policy says it should.\n\nAttached is the provided-by-client (PBC) list \u2014 ten items to start, organized by control area. I've assigned a suggested owner based on our conversations with Priya during scoping, but please reassign anything that doesn't match how your team actually splits this work; I'd rather chase the right person from the start than lose a week to a misrouted request.\n\nA few notes on approach:\n\n- For anything sampling-based (change management tickets, access reviews), we'll ask for the full population first and then pull our own sample rather than have you pre-select examples \u2014 auditors get twitchy about client-selected samples, for good reason.\n- Evidence should be as close to the source system as possible. Screenshots are fine where there's no better export, but a CSV or PDF export beats a screenshot every time.\n- We work in two-week sprints. This first batch is due by the dates on the attached list; we'll send batch two once we've worked through what comes in.\n\nHappy to hop on a call if it's easier to walk through the list live rather than over email \u2014 just say the word. Otherwise looking forward to digging in.\n\nOne more thing worth setting expectations on now rather than in week three: because this is your first Type II cycle, we tend to see more back-and-forth on the first PBC batch than on later ones, simply because it takes a round or two to calibrate what \"enough\" evidence looks like for a given control. Don't read follow-up questions as a sign something's wrong \u2014 it's normal, and companies going through their second or third cycle almost never see it. We'll also be scheduling a handful of short walkthrough calls with control owners directly, mostly Dev and Priya from what I understand of your org chart, so evidence doesn't have to fully speak for itself in cases where a five-minute conversation would clear something up faster than another email round trip.\n\nOn timing for the overall engagement: assuming this first batch comes in reasonably on schedule, we're targeting substantial fieldwork completion by early August, with a draft report following two to three weeks after that. If anything about the Jan-Jun period changed meaningfully mid-year \u2014 a platform migration, a new subprocessor, a change in who has admin access to production \u2014 flag that to me directly even if it's not explicitly one of the ten items, since those are exactly the kinds of things that shape how we scope sampling.\n\nBest,\nOwen Fitch\nSenior Associate, Vantage Assurance LLP",
+    "body_html": null,
+    "date": "2026-07-13T08:30:00-05:00",
+    "internal_date_ms": 1783949400000,
+    "folder": "INBOX",
+    "category": "CATEGORY_PERSONAL",
+    "is_unread": false,
+    "is_starred": false,
+    "is_important": true,
+    "user_labels": [
+      "Label_1120"
+    ],
+    "attachments": [
+      {
+        "attachment_id": "ANGjdJ_554GhB8dTlVET687a4BimNnhjGpAO9D4JmVauo96L2U",
+        "filename": "SOC2_Type_II_PBC_List.xlsx",
+        "mime_type": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+        "size_bytes": 28400,
+        "is_inline": false,
+        "content_id": null,
+        "extracted_text": "Item,Description,Owner,Due Date,Status\n1,Org chart and system boundary diagram,dev@kettlehq.com,2026-07-18,Requested\n2,Access control policy (current version),priya@kettlehq.com,2026-07-18,Requested\n3,Quarterly access review evidence Q1-Q2 2026,wendy@kettlehq.com,2026-07-20,Requested\n4,Change management tickets sample (25 changes),dev@kettlehq.com,2026-07-22,Requested\n5,Vendor risk assessments for critical subprocessors,wendy@kettlehq.com,2026-07-22,Requested\n6,Incident response log Jan-Jun 2026,priya@kettlehq.com,2026-07-25,Requested\n7,Employee onboarding/offboarding checklist evidence,wendy@kettlehq.com,2026-07-25,Requested\n8,Data processing agreement templates,maya@kettlehq.com,2026-07-29,Requested\n9,Encryption key management procedure,dev@kettlehq.com,2026-07-29,Requested\n10,Backup and disaster recovery test results,dev@kettlehq.com,2026-08-01,Requested\n"
+      }
+    ],
+    "calendar_event": null,
+    "extra_headers": {
+      "Return-Path": "<owen.fitch@vantageassurance.com>"
+    },
+    "size_estimate": 46518,
+    "meta": {
+      "email_class": "legal_compliance",
+      "tricky_tags": [],
+      "is_actionable_for_user": true,
+      "action_owner": "maya@kettlehq.com",
+      "action_summary": "Coordinate the team to provide the ten PBC list items across July.",
+      "due_date": "2026-08-01",
+      "commitment_made_by_user": null,
+      "commitment_is_conditional": false,
+      "commitment_condition": null,
+      "superseded_by_message_id": null,
+      "notes": null
+    }
+  },
+  {
+    "id": "a20f18c2e4b60021",
+    "thread_id": "a20f18c2e4b60020",
+    "profile_id": "founder",
+    "history_id": "734125",
+    "message_id_header": "<CAFa20f18c2e4b60021@mail.gmail.com>",
+    "in_reply_to": "<a20f18c2e4b60020@vantageassurance.com>",
+    "references": [
+      "<a20f18c2e4b60020@vantageassurance.com>"
+    ],
+    "thread_position": 2,
+    "thread_length": 8,
+    "from": {
+      "name": "Priya Nair",
+      "email": "priya@kettlehq.com"
+    },
+    "to": [
+      {
+        "name": "Owen Fitch",
+        "email": "owen.fitch@vantageassurance.com"
+      }
+    ],
+    "cc": [
+      {
+        "name": "Maya Rodriguez",
+        "email": "maya@kettlehq.com"
+      },
+      {
+        "name": "Wendy Osei",
+        "email": "wendy@kettlehq.com"
+      }
+    ],
+    "bcc": [],
+    "delivered_to": "maya@kettlehq.com",
+    "subject": "Re: SOC 2 Type II \u2013 fieldwork kickoff",
+    "snippet": "Added Dev \u2014 he owns most of the infra evidence on this list.",
+    "body_text": "Added Dev \u2014 he owns most of the infra evidence on this list.",
+    "body_html": null,
+    "date": "2026-07-14T09:45:00-07:00",
+    "internal_date_ms": 1784047500000,
+    "folder": "INBOX",
+    "category": "CATEGORY_PERSONAL",
+    "is_unread": false,
+    "is_starred": false,
+    "is_important": false,
+    "user_labels": [],
+    "attachments": [],
+    "calendar_event": null,
+    "extra_headers": {
+      "Return-Path": "<priya@kettlehq.com>"
+    },
+    "size_estimate": 1726,
+    "meta": {
+      "email_class": "legal_compliance",
+      "tricky_tags": [],
+      "is_actionable_for_user": false,
+      "action_owner": "dev@kettlehq.com",
+      "action_summary": null,
+      "due_date": null,
+      "commitment_made_by_user": null,
+      "commitment_is_conditional": false,
+      "commitment_condition": null,
+      "superseded_by_message_id": null,
+      "notes": null
+    }
+  },
+  {
+    "id": "a20f18c2e4b60022",
+    "thread_id": "a20f18c2e4b60020",
+    "profile_id": "founder",
+    "history_id": "737200",
+    "message_id_header": "<CAFa20f18c2e4b60022@mail.gmail.com>",
+    "in_reply_to": "<CAFa20f18c2e4b60021@mail.gmail.com>",
+    "references": [
+      "<a20f18c2e4b60020@vantageassurance.com>",
+      "<CAFa20f18c2e4b60021@mail.gmail.com>"
+    ],
+    "thread_position": 3,
+    "thread_length": 8,
+    "from": {
+      "name": "Dev Patel",
+      "email": "dev@kettlehq.com"
+    },
+    "to": [
+      {
+        "name": "Owen Fitch",
+        "email": "owen.fitch@vantageassurance.com"
+      }
+    ],
+    "cc": [
+      {
+        "name": "Priya Nair",
+        "email": "priya@kettlehq.com"
+      },
+      {
+        "name": "Maya Rodriguez",
+        "email": "maya@kettlehq.com"
+      },
+      {
+        "name": "Wendy Osei",
+        "email": "wendy@kettlehq.com"
+      }
+    ],
+    "bcc": [],
+    "delivered_to": "maya@kettlehq.com",
+    "subject": "Re: SOC 2 Type II \u2013 fieldwork kickoff",
+    "snippet": "Owen \u2014 starting on items 1, 4, 6, 9, and 10 this week. Quick clarifying question on item 4: you said you'd pull your own sample of 25 changes from the full population rather than u",
+    "body_text": "Owen \u2014 starting on items 1, 4, 6, 9, and 10 this week. Quick clarifying question on item 4: you said you'd pull your own sample of 25 changes from the full population rather than us pre-selecting \u2014 do you want the full changelog export first so you can sample from it, or do you already have a sampling method that just needs the total count of changes in the period?\n\nAlso, just to confirm the window \u2014 Jan 1 through Jun 30 \u2014 does that mean changes deployed in July don't need to be in scope at all, even though the report itself won't be issued until later?",
+    "body_html": null,
+    "date": "2026-07-16T13:00:00-07:00",
+    "internal_date_ms": 1784232000000,
+    "folder": "INBOX",
+    "category": "CATEGORY_PERSONAL",
+    "is_unread": false,
+    "is_starred": false,
+    "is_important": false,
+    "user_labels": [],
+    "attachments": [],
+    "calendar_event": null,
+    "extra_headers": {
+      "Return-Path": "<dev@kettlehq.com>"
+    },
+    "size_estimate": 2773,
+    "meta": {
+      "email_class": "legal_compliance",
+      "tricky_tags": [],
+      "is_actionable_for_user": false,
+      "action_owner": "owen.fitch@vantageassurance.com",
+      "action_summary": "Owen to clarify sampling approach for item 4.",
+      "due_date": null,
+      "commitment_made_by_user": null,
+      "commitment_is_conditional": false,
+      "commitment_condition": null,
+      "superseded_by_message_id": null,
+      "notes": null
+    }
+  },
+  {
+    "id": "a20f18c2e4b60023",
+    "thread_id": "a20f18c2e4b60020",
+    "profile_id": "founder",
+    "history_id": "744120",
+    "message_id_header": "<a20f18c2e4b60023@vantageassurance.com>",
+    "in_reply_to": "<CAFa20f18c2e4b60022@mail.gmail.com>",
+    "references": [
+      "<a20f18c2e4b60020@vantageassurance.com>",
+      "<CAFa20f18c2e4b60021@mail.gmail.com>",
+      "<CAFa20f18c2e4b60022@mail.gmail.com>"
+    ],
+    "thread_position": 4,
+    "thread_length": 8,
+    "from": {
+      "name": "Grace Liu",
+      "email": "grace.liu@vantageassurance.com"
+    },
+    "to": [
+      {
+        "name": "Dev Patel",
+        "email": "dev@kettlehq.com"
+      }
+    ],
+    "cc": [
+      {
+        "name": "Priya Nair",
+        "email": "priya@kettlehq.com"
+      },
+      {
+        "name": "Maya Rodriguez",
+        "email": "maya@kettlehq.com"
+      },
+      {
+        "name": "Wendy Osei",
+        "email": "wendy@kettlehq.com"
+      },
+      {
+        "name": "Sana Iqbal",
+        "email": "sana@kettlehq.com"
+      }
+    ],
+    "bcc": [],
+    "delivered_to": "maya@kettlehq.com",
+    "subject": "Re: SOC 2 Type II \u2013 fieldwork kickoff",
+    "snippet": "Dev \u2014 I'm taking over as engagement lead on the Kettle examination going forward; Owen's rolled onto another client that needed coverage sooner than expected, so you'll be working ",
+    "body_text": "Dev \u2014 I'm taking over as engagement lead on the Kettle examination going forward; Owen's rolled onto another client that needed coverage sooner than expected, so you'll be working with me from here. Adding Sana to help coordinate evidence collection logistics on your side, since I understand she's often the one keeping cross-team asks like this moving.\n\nOn your question: yes, we already have a sampling methodology, so please just send the full changelog export for the period and I'll pull the 25 from that. And correct, anything deployed after June 30 is out of scope for this report entirely.\n\nThree items on the original list are now overdue relative to Owen's dates \u2014 items 3, 5, and 8. Nothing urgent yet, just flagging so they don't slip further: quarterly access reviews, vendor risk assessments, and the DPA templates.\n\nBest,\nGrace Liu\nAudit Manager, Vantage Assurance LLP",
+    "body_html": null,
+    "date": "2026-07-21T10:20:00-05:00",
+    "internal_date_ms": 1784647200000,
+    "folder": "INBOX",
+    "category": "CATEGORY_PERSONAL",
+    "is_unread": false,
+    "is_starred": false,
+    "is_important": false,
+    "user_labels": [],
+    "attachments": [],
+    "calendar_event": null,
+    "extra_headers": {
+      "Return-Path": "<grace.liu@vantageassurance.com>"
+    },
+    "size_estimate": 3456,
+    "meta": {
+      "email_class": "legal_compliance",
+      "tricky_tags": [],
+      "is_actionable_for_user": false,
+      "action_owner": "wendy@kettlehq.com",
+      "action_summary": "Wendy to provide items 3, 5, and 8, now overdue.",
+      "due_date": "2026-07-22",
+      "commitment_made_by_user": null,
+      "commitment_is_conditional": false,
+      "commitment_condition": null,
+      "superseded_by_message_id": null,
+      "notes": "Owen Fitch drops off the thread here and is replaced by Grace Liu as engagement lead; he does not reappear."
+    }
+  },
+  {
+    "id": "a20f18c2e4b60024",
+    "thread_id": "a20f18c2e4b60020",
+    "profile_id": "founder",
+    "history_id": "747410",
+    "message_id_header": "<CAFa20f18c2e4b60024@mail.gmail.com>",
+    "in_reply_to": "<a20f18c2e4b60023@vantageassurance.com>",
+    "references": [
+      "<a20f18c2e4b60020@vantageassurance.com>",
+      "<CAFa20f18c2e4b60021@mail.gmail.com>",
+      "<CAFa20f18c2e4b60022@mail.gmail.com>",
+      "<a20f18c2e4b60023@vantageassurance.com>"
+    ],
+    "thread_position": 5,
+    "thread_length": 8,
+    "from": {
+      "name": "Wendy Osei",
+      "email": "wendy@kettlehq.com"
+    },
+    "to": [
+      {
+        "name": "Grace Liu",
+        "email": "grace.liu@vantageassurance.com"
+      }
+    ],
+    "cc": [
+      {
+        "name": "Dev Patel",
+        "email": "dev@kettlehq.com"
+      },
+      {
+        "name": "Priya Nair",
+        "email": "priya@kettlehq.com"
+      },
+      {
+        "name": "Maya Rodriguez",
+        "email": "maya@kettlehq.com"
+      },
+      {
+        "name": "Sana Iqbal",
+        "email": "sana@kettlehq.com"
+      }
+    ],
+    "bcc": [],
+    "delivered_to": "maya@kettlehq.com",
+    "subject": "Re: SOC 2 Type II \u2013 fieldwork kickoff",
+    "snippet": "Grace \u2014 sorry for the delay, catching up now. Item 5 (vendor risk assessments) and item 8 (DPA templates) are attached to this batch, sending in a follow-up email since they're lar",
+    "body_text": "Grace \u2014 sorry for the delay, catching up now. Item 5 (vendor risk assessments) and item 8 (DPA templates) are attached to this batch, sending in a follow-up email since they're large files.\n\nItem 3 is where I've got a real gap: we have solid quarterly access review evidence for Q2 (April\u2013June) but we didn't formally run one for Q1 \u2014 we were mid-transition from a spreadsheet-based process to doing it through Rippling, and it fell through the cracks during the switch. I don't want to fabricate something after the fact. Is there a way to handle that honestly, like noting it as a control gap that was remediated mid-period, rather than trying to backfill evidence that doesn't really exist?",
+    "body_html": null,
+    "date": "2026-07-23T15:10:00-07:00",
+    "internal_date_ms": 1784844600000,
+    "folder": "INBOX",
+    "category": "CATEGORY_PERSONAL",
+    "is_unread": false,
+    "is_starred": false,
+    "is_important": false,
+    "user_labels": [],
+    "attachments": [],
+    "calendar_event": null,
+    "extra_headers": {
+      "Return-Path": "<wendy@kettlehq.com>"
+    },
+    "size_estimate": 3055,
+    "meta": {
+      "email_class": "legal_compliance",
+      "tricky_tags": [
+        "conditional_promise"
+      ],
+      "is_actionable_for_user": false,
+      "action_owner": "grace.liu@vantageassurance.com",
+      "action_summary": "Grace to advise on handling the missing Q1 access review evidence.",
+      "due_date": null,
+      "commitment_made_by_user": null,
+      "commitment_is_conditional": true,
+      "commitment_condition": "Whether the missing Q1 access review can be treated as a remediated gap depends on Grace's assessment of the evidence.",
+      "superseded_by_message_id": null,
+      "notes": "Condition (Grace's assessment) is not yet resolved as of this message; resolved later at thread position 7."
+    }
+  },
+  {
+    "id": "a20f18c2e4b60025",
+    "thread_id": "a20f18c2e4b60020",
+    "profile_id": "founder",
+    "history_id": "755650",
+    "message_id_header": "<a20f18c2e4b60025@hoytgrieve.com>",
+    "in_reply_to": "<CAFa20f18c2e4b60024@mail.gmail.com>",
+    "references": [
+      "<a20f18c2e4b60020@vantageassurance.com>",
+      "<CAFa20f18c2e4b60021@mail.gmail.com>",
+      "<CAFa20f18c2e4b60022@mail.gmail.com>",
+      "<a20f18c2e4b60023@vantageassurance.com>",
+      "<CAFa20f18c2e4b60024@mail.gmail.com>"
+    ],
+    "thread_position": 6,
+    "thread_length": 8,
+    "from": {
+      "name": "Beth Ranganathan",
+      "email": "branganathan@hoytgrieve.com"
+    },
+    "to": [
+      {
+        "name": "Grace Liu",
+        "email": "grace.liu@vantageassurance.com"
+      }
+    ],
+    "cc": [
+      {
+        "name": "Dev Patel",
+        "email": "dev@kettlehq.com"
+      },
+      {
+        "name": "Priya Nair",
+        "email": "priya@kettlehq.com"
+      },
+      {
+        "name": "Maya Rodriguez",
+        "email": "maya@kettlehq.com"
+      },
+      {
+        "name": "Sana Iqbal",
+        "email": "sana@kettlehq.com"
+      },
+      {
+        "name": "Wendy Osei",
+        "email": "wendy@kettlehq.com"
+      }
+    ],
+    "bcc": [],
+    "delivered_to": "maya@kettlehq.com",
+    "subject": "Re: SOC 2 Type II \u2013 fieldwork kickoff",
+    "snippet": "Grace \u2014 adding myself since this touches the DPA template language Wendy sent over (item 8). Two clauses in our standard template use language from before a subprocessor list updat",
+    "body_text": "Grace \u2014 adding myself since this touches the DPA template language Wendy sent over (item 8). Two clauses in our standard template use language from before a subprocessor list update earlier this year and I want to make sure what's in the audit sample reflects the current version, not the stale one that was still floating around some shared drives. I've attached the current template to Wendy separately so she can re-send the correct version to you \u2014 apologies if the version you already have needs swapping.\n\nOn the Q1 access review question, from a legal/compliance-narrative standpoint I'd echo Wendy: honest disclosure of a remediated gap reads far better in a report than evidence that looks manufactured under scrutiny. That's ultimately Grace's call as the examiner, of course.\n\nBeth Ranganathan\nHoyt & Grieve LLP",
+    "body_html": null,
+    "date": "2026-07-29T11:30:00-04:00",
+    "internal_date_ms": 1785339000000,
+    "folder": "INBOX",
+    "category": "CATEGORY_PERSONAL",
+    "is_unread": false,
+    "is_starred": false,
+    "is_important": false,
+    "user_labels": [],
+    "attachments": [],
+    "calendar_event": null,
+    "extra_headers": {
+      "Return-Path": "<branganathan@hoytgrieve.com>"
+    },
+    "size_estimate": 3326,
+    "meta": {
+      "email_class": "legal_compliance",
+      "tricky_tags": [],
+      "is_actionable_for_user": false,
+      "action_owner": "wendy@kettlehq.com",
+      "action_summary": "Wendy to re-send the current DPA template version to Grace.",
+      "due_date": null,
+      "commitment_made_by_user": null,
+      "commitment_is_conditional": false,
+      "commitment_condition": null,
+      "superseded_by_message_id": null,
+      "notes": null
+    }
+  },
+  {
+    "id": "a20f18c2e4b60026",
+    "thread_id": "a20f18c2e4b60020",
+    "profile_id": "founder",
+    "history_id": "764620",
+    "message_id_header": "<a20f18c2e4b60026@vantageassurance.com>",
+    "in_reply_to": "<a20f18c2e4b60025@hoytgrieve.com>",
+    "references": [
+      "<a20f18c2e4b60020@vantageassurance.com>",
+      "<CAFa20f18c2e4b60021@mail.gmail.com>",
+      "<CAFa20f18c2e4b60022@mail.gmail.com>",
+      "<a20f18c2e4b60023@vantageassurance.com>",
+      "<CAFa20f18c2e4b60024@mail.gmail.com>",
+      "<a20f18c2e4b60025@hoytgrieve.com>"
+    ],
+    "thread_position": 7,
+    "thread_length": 8,
+    "from": {
+      "name": "Grace Liu",
+      "email": "grace.liu@vantageassurance.com"
+    },
+    "to": [
+      {
+        "name": "Maya Rodriguez",
+        "email": "maya@kettlehq.com"
+      }
+    ],
+    "cc": [
+      {
+        "name": "Dev Patel",
+        "email": "dev@kettlehq.com"
+      },
+      {
+        "name": "Priya Nair",
+        "email": "priya@kettlehq.com"
+      },
+      {
+        "name": "Wendy Osei",
+        "email": "wendy@kettlehq.com"
+      },
+      {
+        "name": "Sana Iqbal",
+        "email": "sana@kettlehq.com"
+      },
+      {
+        "name": "Beth Ranganathan",
+        "email": "branganathan@hoytgrieve.com"
+      }
+    ],
+    "bcc": [],
+    "delivered_to": "maya@kettlehq.com",
+    "subject": "Re: SOC 2 Type II \u2013 fieldwork kickoff",
+    "snippet": "Maya \u2014 status update as we wrap up fieldwork. Overall this has gone smoothly; the team was responsive and the evidence quality was better than average for a first Type II cycle. On",
+    "body_text": "Maya \u2014 status update as we wrap up fieldwork. Overall this has gone smoothly; the team was responsive and the evidence quality was better than average for a first Type II cycle.\n\nOn the Q1 access review gap Wendy raised: I agree with the approach she and Beth proposed. We'll note it as a single exception in the report \u2014 control was not operating for one quarter of the six-month period, remediated in Q2 with the move to Rippling \u2014 rather than treat it as a pass/fail on the whole control. That's a defensible, honest way to handle it and in my experience it reads much better to a customer's security team than a clean report they don't quite believe.\n\nFieldwork is otherwise substantially complete. We'll issue a draft report by August 20th with that one exception noted, unless something material turns up in the last few items still outstanding (item 4's sample review and a handful of change tickets we're waiting on).\n\nGrace",
+    "body_html": null,
+    "date": "2026-08-04T16:00:00-05:00",
+    "internal_date_ms": 1785877200000,
+    "folder": "INBOX",
+    "category": "CATEGORY_PERSONAL",
+    "is_unread": false,
+    "is_starred": false,
+    "is_important": true,
+    "user_labels": [],
+    "attachments": [],
+    "calendar_event": null,
+    "extra_headers": {
+      "Return-Path": "<grace.liu@vantageassurance.com>"
+    },
+    "size_estimate": 3557,
+    "meta": {
+      "email_class": "legal_compliance",
+      "tricky_tags": [
+        "conditional_promise"
+      ],
+      "is_actionable_for_user": false,
+      "action_owner": "grace.liu@vantageassurance.com",
+      "action_summary": "Grace to issue the draft report by Aug 20 with one noted exception.",
+      "due_date": "2026-08-20",
+      "commitment_made_by_user": null,
+      "commitment_is_conditional": false,
+      "commitment_condition": null,
+      "superseded_by_message_id": null,
+      "notes": "Resolves the conditional promise from thread position 5 \u2014 Grace confirms the Q1 gap will be handled as a disclosed exception, not a failed control."
+    }
+  },
+  {
+    "id": "a20f18c2e4b60027",
+    "thread_id": "a20f18c2e4b60020",
+    "profile_id": "founder",
+    "history_id": "767220",
+    "message_id_header": "<CAFa20f18c2e4b60027@mail.gmail.com>",
+    "in_reply_to": "<a20f18c2e4b60026@vantageassurance.com>",
+    "references": [
+      "<a20f18c2e4b60020@vantageassurance.com>",
+      "<CAFa20f18c2e4b60021@mail.gmail.com>",
+      "<CAFa20f18c2e4b60022@mail.gmail.com>",
+      "<a20f18c2e4b60023@vantageassurance.com>",
+      "<CAFa20f18c2e4b60024@mail.gmail.com>",
+      "<a20f18c2e4b60025@hoytgrieve.com>",
+      "<a20f18c2e4b60026@vantageassurance.com>"
+    ],
+    "thread_position": 8,
+    "thread_length": 8,
+    "from": {
+      "name": "Maya Rodriguez",
+      "email": "maya@kettlehq.com"
+    },
+    "to": [
+      {
+        "name": "Grace Liu",
+        "email": "grace.liu@vantageassurance.com"
+      }
+    ],
+    "cc": [
+      {
+        "name": "Dev Patel",
+        "email": "dev@kettlehq.com"
+      },
+      {
+        "name": "Priya Nair",
+        "email": "priya@kettlehq.com"
+      },
+      {
+        "name": "Wendy Osei",
+        "email": "wendy@kettlehq.com"
+      },
+      {
+        "name": "Sana Iqbal",
+        "email": "sana@kettlehq.com"
+      }
+    ],
+    "bcc": [],
+    "delivered_to": null,
+    "subject": "Re: SOC 2 Type II \u2013 fieldwork kickoff",
+    "snippet": "Understood on the exception, and thank you for being straightforward about how to handle it rather than pushing us toward something that would look worse under scrutiny later. We'l",
+    "body_text": "Understood on the exception, and thank you for being straightforward about how to handle it rather than pushing us toward something that would look worse under scrutiny later. We'll accept the exception as written and Wendy's already moved the access review process fully into Rippling going forward so it can't recur. Appreciate the thoroughness this cycle \u2014 good working with you and Owen both.",
+    "body_html": null,
+    "date": "2026-08-06T09:20:00-07:00",
+    "internal_date_ms": 1786033200000,
+    "folder": "SENT",
+    "category": null,
+    "is_unread": false,
+    "is_starred": false,
+    "is_important": false,
+    "user_labels": [
+      "Label_1120"
+    ],
+    "attachments": [],
+    "calendar_event": null,
+    "extra_headers": {},
+    "size_estimate": 2431,
+    "meta": {
+      "email_class": "legal_compliance",
+      "tricky_tags": [],
+      "is_actionable_for_user": false,
+      "action_owner": null,
+      "action_summary": null,
+      "due_date": null,
+      "commitment_made_by_user": null,
+      "commitment_is_conditional": false,
+      "commitment_condition": null,
+      "superseded_by_message_id": null,
+      "notes": null
+    }
+  },
+  {
+    "id": "a20f18c2e4b60028",
+    "thread_id": "a20f18c2e4b60028",
+    "profile_id": "founder",
+    "history_id": "742665",
+    "message_id_header": "<CAFa20f18c2e4b60028@mail.gmail.com>",
+    "in_reply_to": null,
+    "references": [],
+    "thread_position": 1,
+    "thread_length": 7,
+    "from": {
+      "name": "Wendy Osei",
+      "email": "wendy@kettlehq.com"
+    },
+    "to": [
+      {
+        "name": "Maya Rodriguez",
+        "email": "maya@kettlehq.com"
+      }
+    ],
+    "cc": [
+      {
+        "name": "Dev Patel",
+        "email": "dev@kettlehq.com"
+      }
+    ],
+    "bcc": [],
+    "delivered_to": "maya@kettlehq.com",
+    "subject": "AWS spend spike \u2013 July invoice up 240%",
+    "snippet": "Just saw the AWS invoice come through for July \u2014 $38,400, up from $11,200 in June. That's a 240% jump with no corresponding usage change I'm aware of. Flagging now before it ends u",
+    "body_text": "Just saw the AWS invoice come through for July \u2014 $38,400, up from $11,200 in June. That's a 240% jump with no corresponding usage change I'm aware of. Flagging now before it ends up as a surprise line in the board deck.",
+    "body_html": null,
+    "date": "2026-07-20T08:05:00-07:00",
+    "internal_date_ms": 1784559900000,
+    "folder": "INBOX",
+    "category": "CATEGORY_PERSONAL",
+    "is_unread": false,
+    "is_starred": false,
+    "is_important": true,
+    "user_labels": [],
+    "attachments": [],
+    "calendar_event": null,
+    "extra_headers": {
+      "Return-Path": "<wendy@kettlehq.com>"
+    },
+    "size_estimate": 2059,
+    "meta": {
+      "email_class": "genuine_work",
+      "tricky_tags": [],
+      "is_actionable_for_user": false,
+      "action_owner": "dev@kettlehq.com",
+      "action_summary": "Dev to investigate the AWS cost spike.",
+      "due_date": null,
+      "commitment_made_by_user": null,
+      "commitment_is_conditional": false,
+      "commitment_condition": null,
+      "superseded_by_message_id": null,
+      "notes": null
+    }
+  },
+  {
+    "id": "a20f18c2e4b60029",
+    "thread_id": "a20f18c2e4b60028",
+    "profile_id": "founder",
+    "history_id": "742750",
+    "message_id_header": "<CAFa20f18c2e4b60029@mail.gmail.com>",
+    "in_reply_to": "<CAFa20f18c2e4b60028@mail.gmail.com>",
+    "references": [
+      "<CAFa20f18c2e4b60028@mail.gmail.com>"
+    ],
+    "thread_position": 2,
+    "thread_length": 7,
+    "from": {
+      "name": "Maya Rodriguez",
+      "email": "maya@kettlehq.com"
+    },
+    "to": [
+      {
+        "name": "Wendy Osei",
+        "email": "wendy@kettlehq.com"
+      }
+    ],
+    "cc": [
+      {
+        "name": "Dev Patel",
+        "email": "dev@kettlehq.com"
+      },
+      {
+        "name": "Priya Nair",
+        "email": "priya@kettlehq.com"
+      }
+    ],
+    "bcc": [],
+    "delivered_to": null,
+    "subject": "Re: AWS spend spike \u2013 July invoice up 240%",
+    "snippet": "Adding Priya \u2014 she'll know what's driving this faster than any of us guessing.",
+    "body_text": "Adding Priya \u2014 she'll know what's driving this faster than any of us guessing.",
+    "body_html": null,
+    "date": "2026-07-20T09:30:00-07:00",
+    "internal_date_ms": 1784565000000,
+    "folder": "SENT",
+    "category": null,
+    "is_unread": false,
+    "is_starred": false,
+    "is_important": false,
+    "user_labels": [],
+    "attachments": [],
+    "calendar_event": null,
+    "extra_headers": {},
+    "size_estimate": 1763,
+    "meta": {
+      "email_class": "genuine_work",
+      "tricky_tags": [],
+      "is_actionable_for_user": false,
+      "action_owner": "priya@kettlehq.com",
+      "action_summary": null,
+      "due_date": null,
+      "commitment_made_by_user": null,
+      "commitment_is_conditional": false,
+      "commitment_condition": null,
+      "superseded_by_message_id": null,
+      "notes": null
+    }
+  },
+  {
+    "id": "a20f18c2e4b60030",
+    "thread_id": "a20f18c2e4b60028",
+    "profile_id": "founder",
+    "history_id": "744355",
+    "message_id_header": "<CAFa20f18c2e4b60030@mail.gmail.com>",
+    "in_reply_to": "<CAFa20f18c2e4b60029@mail.gmail.com>",
+    "references": [
+      "<CAFa20f18c2e4b60028@mail.gmail.com>",
+      "<CAFa20f18c2e4b60029@mail.gmail.com>"
+    ],
+    "thread_position": 3,
+    "thread_length": 7,
+    "from": {
+      "name": "Priya Nair",
+      "email": "priya@kettlehq.com"
+    },
+    "to": [
+      {
+        "name": "Maya Rodriguez",
+        "email": "maya@kettlehq.com"
+      }
+    ],
+    "cc": [
+      {
+        "name": "Wendy Osei",
+        "email": "wendy@kettlehq.com"
+      },
+      {
+        "name": "Dev Patel",
+        "email": "dev@kettlehq.com"
+      }
+    ],
+    "bcc": [],
+    "delivered_to": "maya@kettlehq.com",
+    "subject": "Re: AWS spend spike \u2013 July invoice up 240%",
+    "snippet": "Pulled the Cost Explorer breakdown. It's almost entirely CloudWatch Logs \u2014 went from $612 in June to $19,840 in July, which is most of the increase right there. Looks like the stag",
+    "body_text": "Pulled the Cost Explorer breakdown. It's almost entirely CloudWatch Logs \u2014 went from $612 in June to $19,840 in July, which is most of the increase right there. Looks like the staging cluster migration three weeks ago left the new log group on the default retention setting, which is \"never expire\" instead of the 14-day retention everything else uses. It's been quietly accumulating ever since \u2014 about 2.1TB of debug-level logs that nobody's actually looking at.\n\nThere's also a smaller chunk under \"Other\" that I haven't fully traced yet, might be a orphaned load balancer from the same migration. Digging into that next.",
+    "body_html": null,
+    "date": "2026-07-21T12:15:00-07:00",
+    "internal_date_ms": 1784661300000,
+    "folder": "INBOX",
+    "category": "CATEGORY_PERSONAL",
+    "is_unread": false,
+    "is_starred": false,
+    "is_important": false,
+    "user_labels": [],
+    "attachments": [],
+    "calendar_event": null,
+    "extra_headers": {
+      "Return-Path": "<priya@kettlehq.com>"
+    },
+    "size_estimate": 2908,
+    "meta": {
+      "email_class": "genuine_work",
+      "tricky_tags": [],
+      "is_actionable_for_user": false,
+      "action_owner": "priya@kettlehq.com",
+      "action_summary": "Priya to trace the remaining unexplained cost and fix retention.",
+      "due_date": null,
+      "commitment_made_by_user": null,
+      "commitment_is_conditional": false,
+      "commitment_condition": null,
+      "superseded_by_message_id": null,
+      "notes": null
+    }
+  },
+  {
+    "id": "a20f18c2e4b60031",
+    "thread_id": "a20f18c2e4b60028",
+    "profile_id": "founder",
+    "history_id": "745650",
+    "message_id_header": "<CAFa20f18c2e4b60031@mail.gmail.com>",
+    "in_reply_to": "<CAFa20f18c2e4b60030@mail.gmail.com>",
+    "references": [
+      "<CAFa20f18c2e4b60028@mail.gmail.com>",
+      "<CAFa20f18c2e4b60029@mail.gmail.com>",
+      "<CAFa20f18c2e4b60030@mail.gmail.com>"
+    ],
+    "thread_position": 4,
+    "thread_length": 7,
+    "from": {
+      "name": "Dev Patel",
+      "email": "dev@kettlehq.com"
+    },
+    "to": [
+      {
+        "name": "Priya Nair",
+        "email": "priya@kettlehq.com"
+      }
+    ],
+    "cc": [
+      {
+        "name": "Maya Rodriguez",
+        "email": "maya@kettlehq.com"
+      },
+      {
+        "name": "Wendy Osei",
+        "email": "wendy@kettlehq.com"
+      }
+    ],
+    "bcc": [],
+    "delivered_to": "maya@kettlehq.com",
+    "subject": "Re: AWS spend spike \u2013 July invoice up 240%",
+    "snippet": "Killed the retention bug and set it to 14 days, backdated cleanup running now. Should see next invoice back down to ~$12-14K.",
+    "body_text": "Killed the retention bug and set it to 14 days, backdated cleanup running now. Should see next invoice back down to ~$12-14K.",
+    "body_html": null,
+    "date": "2026-07-22T09:50:00-07:00",
+    "internal_date_ms": 1784739000000,
+    "folder": "INBOX",
+    "category": "CATEGORY_PERSONAL",
+    "is_unread": false,
+    "is_starred": false,
+    "is_important": false,
+    "user_labels": [],
+    "attachments": [],
+    "calendar_event": null,
+    "extra_headers": {
+      "Return-Path": "<dev@kettlehq.com>"
+    },
+    "size_estimate": 1862,
+    "meta": {
+      "email_class": "genuine_work",
+      "tricky_tags": [],
+      "is_actionable_for_user": false,
+      "action_owner": null,
+      "action_summary": null,
+      "due_date": null,
+      "commitment_made_by_user": null,
+      "commitment_is_conditional": false,
+      "commitment_condition": null,
+      "superseded_by_message_id": null,
+      "notes": null
+    }
+  },
+  {
+    "id": "a20f18c2e4b60032",
+    "thread_id": "a20f18c2e4b60028",
+    "profile_id": "founder",
+    "history_id": "748640",
+    "message_id_header": "<a20f18c2e4b60032@aws.amazon.com>",
+    "in_reply_to": "<CAFa20f18c2e4b60031@mail.gmail.com>",
+    "references": [
+      "<CAFa20f18c2e4b60028@mail.gmail.com>",
+      "<CAFa20f18c2e4b60029@mail.gmail.com>",
+      "<CAFa20f18c2e4b60030@mail.gmail.com>",
+      "<CAFa20f18c2e4b60031@mail.gmail.com>"
+    ],
+    "thread_position": 5,
+    "thread_length": 7,
+    "from": {
+      "name": "Katie Sloane",
+      "email": "katie.sloane@aws.amazon.com"
+    },
+    "to": [
+      {
+        "name": "Dev Patel",
+        "email": "dev@kettlehq.com"
+      }
+    ],
+    "cc": [
+      {
+        "name": "Priya Nair",
+        "email": "priya@kettlehq.com"
+      },
+      {
+        "name": "Maya Rodriguez",
+        "email": "maya@kettlehq.com"
+      }
+    ],
+    "bcc": [],
+    "delivered_to": "maya@kettlehq.com",
+    "subject": "Re: AWS spend spike \u2013 July invoice up 240%",
+    "snippet": "Hi Dev \u2014 this came up on our side too, our anomaly detection flagged the CloudWatch Logs spike on your account a few days ago and I wanted to follow up directly rather than just le",
+    "body_text": "Hi Dev \u2014 this came up on our side too, our anomaly detection flagged the CloudWatch Logs spike on your account a few days ago and I wanted to follow up directly rather than just let it sit in a dashboard somewhere. Attaching the full cost breakdown for the month in case it's useful for your internal reporting.\n\nGiven the account history and that this was a clear misconfiguration rather than actual usage growth, I can push through a one-time service credit \u2014 looking at roughly $9,000 given the delta on that line item. I'd also like to talk to you about the Enterprise Discount Program; based on your trailing 3-month spend you'd likely qualify, and it would save you somewhere in the 15-18% range on future bills regardless of what happened this month.\n\nLet me know if a quick call makes sense.\n\nKatie Sloane\nEnterprise Account Manager, AWS",
+    "body_html": null,
+    "date": "2026-07-24T11:40:00-07:00",
+    "internal_date_ms": 1784918400000,
+    "folder": "INBOX",
+    "category": "CATEGORY_PERSONAL",
+    "is_unread": false,
+    "is_starred": false,
+    "is_important": false,
+    "user_labels": [],
+    "attachments": [
+      {
+        "attachment_id": "ANGjdJ_wKXAkAwe3-DQvPtbH83h_9Y3OjayI3FOMUBTZuTOtIk",
+        "filename": "AWS_Cost_Breakdown_July2026.csv",
+        "mime_type": "text/csv",
+        "size_bytes": 1840,
+        "is_inline": false,
+        "content_id": null,
+        "extracted_text": "Line Item,June Cost,July Cost,Delta\nEC2 - Compute,4820.11,5210.44,+390.33\nCloudWatch Logs - Ingestion & Storage,612.30,19840.72,+19228.42\nRDS - Database,2140.55,2288.90,+148.35\nS3 - Storage,890.20,940.15,+49.95\nData Transfer,1240.80,1305.60,+64.80\nOther,1496.04,8814.19,+7318.15\nTotal,11200.00,38400.00,+27200.00\n"
+      }
+    ],
+    "calendar_event": null,
+    "extra_headers": {
+      "Return-Path": "<katie.sloane@aws.amazon.com>"
+    },
+    "size_estimate": 5839,
+    "meta": {
+      "email_class": "genuine_work",
+      "tricky_tags": [],
+      "is_actionable_for_user": false,
+      "action_owner": "maya@kettlehq.com",
+      "action_summary": "Decide whether to accept the AWS credit and schedule an EDP call.",
+      "due_date": null,
+      "commitment_made_by_user": null,
+      "commitment_is_conditional": false,
+      "commitment_condition": null,
+      "superseded_by_message_id": null,
+      "notes": null
+    }
+  },
+  {
+    "id": "a20f18c2e4b60033",
+    "thread_id": "a20f18c2e4b60028",
+    "profile_id": "founder",
+    "history_id": "752865",
+    "message_id_header": "<CAFa20f18c2e4b60033@mail.gmail.com>",
+    "in_reply_to": "<a20f18c2e4b60032@aws.amazon.com>",
+    "references": [
+      "<CAFa20f18c2e4b60028@mail.gmail.com>",
+      "<CAFa20f18c2e4b60029@mail.gmail.com>",
+      "<CAFa20f18c2e4b60030@mail.gmail.com>",
+      "<CAFa20f18c2e4b60031@mail.gmail.com>",
+      "<a20f18c2e4b60032@aws.amazon.com>"
+    ],
+    "thread_position": 6,
+    "thread_length": 7,
+    "from": {
+      "name": "Maya Rodriguez",
+      "email": "maya@kettlehq.com"
+    },
+    "to": [
+      {
+        "name": "Katie Sloane",
+        "email": "katie.sloane@aws.amazon.com"
+      }
+    ],
+    "cc": [
+      {
+        "name": "Dev Patel",
+        "email": "dev@kettlehq.com"
+      },
+      {
+        "name": "Priya Nair",
+        "email": "priya@kettlehq.com"
+      },
+      {
+        "name": "Wendy Osei",
+        "email": "wendy@kettlehq.com"
+      }
+    ],
+    "bcc": [],
+    "delivered_to": null,
+    "subject": "Re: AWS spend spike \u2013 July invoice up 240%",
+    "snippet": "That would help a lot, thank you \u2014 let's do the credit. And yes, very interested in the EDP conversation, our AWS spend has been climbing regardless of the July anomaly so the timi",
+    "body_text": "That would help a lot, thank you \u2014 let's do the credit. And yes, very interested in the EDP conversation, our AWS spend has been climbing regardless of the July anomaly so the timing works. Can we get on a call next week? I'll have Wendy coordinate calendars with you directly.",
+    "body_html": null,
+    "date": "2026-07-27T10:05:00-07:00",
+    "internal_date_ms": 1785171900000,
+    "folder": "SENT",
+    "category": null,
+    "is_unread": false,
+    "is_starred": false,
+    "is_important": false,
+    "user_labels": [],
+    "attachments": [],
+    "calendar_event": null,
+    "extra_headers": {},
+    "size_estimate": 2181,
+    "meta": {
+      "email_class": "genuine_work",
+      "tricky_tags": [],
+      "is_actionable_for_user": true,
+      "action_owner": "maya@kettlehq.com",
+      "action_summary": "Have Wendy schedule the EDP call with Katie.",
+      "due_date": null,
+      "commitment_made_by_user": "Get Wendy to coordinate an EDP call with Katie next week.",
+      "commitment_is_conditional": false,
+      "commitment_condition": null,
+      "superseded_by_message_id": null,
+      "notes": null
+    }
+  },
+  {
+    "id": "a20f18c2e4b60034",
+    "thread_id": "a20f18c2e4b60028",
+    "profile_id": "founder",
+    "history_id": "758885",
+    "message_id_header": "<CAFa20f18c2e4b60034@mail.gmail.com>",
+    "in_reply_to": "<CAFa20f18c2e4b60033@mail.gmail.com>",
+    "references": [
+      "<CAFa20f18c2e4b60028@mail.gmail.com>",
+      "<CAFa20f18c2e4b60029@mail.gmail.com>",
+      "<CAFa20f18c2e4b60030@mail.gmail.com>",
+      "<CAFa20f18c2e4b60031@mail.gmail.com>",
+      "<a20f18c2e4b60032@aws.amazon.com>",
+      "<CAFa20f18c2e4b60033@mail.gmail.com>"
+    ],
+    "thread_position": 7,
+    "thread_length": 7,
+    "from": {
+      "name": "Wendy Osei",
+      "email": "wendy@kettlehq.com"
+    },
+    "to": [
+      {
+        "name": "Maya Rodriguez",
+        "email": "maya@kettlehq.com"
+      }
+    ],
+    "cc": [
+      {
+        "name": "Dev Patel",
+        "email": "dev@kettlehq.com"
+      },
+      {
+        "name": "Priya Nair",
+        "email": "priya@kettlehq.com"
+      },
+      {
+        "name": "Katie Sloane",
+        "email": "katie.sloane@aws.amazon.com"
+      }
+    ],
+    "bcc": [],
+    "delivered_to": "maya@kettlehq.com",
+    "subject": "Re: AWS spend spike \u2013 July invoice up 240%",
+    "snippet": "Credit landed \u2014 $9,004.17 applied to August's bill. EDP paperwork is with Peter for review before we sign anything.",
+    "body_text": "Credit landed \u2014 $9,004.17 applied to August's bill. EDP paperwork is with Peter for review before we sign anything.",
+    "body_html": null,
+    "date": "2026-07-31T14:25:00-07:00",
+    "internal_date_ms": 1785533100000,
+    "folder": "INBOX",
+    "category": "CATEGORY_PERSONAL",
+    "is_unread": false,
+    "is_starred": false,
+    "is_important": false,
+    "user_labels": [],
+    "attachments": [],
+    "calendar_event": null,
+    "extra_headers": {
+      "Return-Path": "<wendy@kettlehq.com>"
+    },
+    "size_estimate": 1841,
+    "meta": {
+      "email_class": "genuine_work",
+      "tricky_tags": [],
+      "is_actionable_for_user": false,
+      "action_owner": "peter@brightline-cpa.com",
+      "action_summary": "Peter to review the EDP paperwork.",
+      "due_date": null,
+      "commitment_made_by_user": null,
+      "commitment_is_conditional": false,
+      "commitment_condition": null,
+      "superseded_by_message_id": null,
+      "notes": null
+    }
+  },
+  {
+    "id": "a20f18c2e4b60035",
+    "thread_id": "a20f18c2e4b60035",
+    "profile_id": "founder",
+    "history_id": "754540",
+    "message_id_header": "<CAFa20f18c2e4b60035@mail.gmail.com>",
+    "in_reply_to": null,
+    "references": [],
+    "thread_position": 1,
+    "thread_length": 6,
+    "from": {
+      "name": "Tom Ashford",
+      "email": "tom@kettlehq.com"
+    },
+    "to": [
+      {
+        "name": "Maya Rodriguez",
+        "email": "maya@kettlehq.com"
+      }
+    ],
+    "cc": [
+      {
+        "name": "Dev Patel",
+        "email": "dev@kettlehq.com"
+      },
+      {
+        "name": "Priya Nair",
+        "email": "priya@kettlehq.com"
+      }
+    ],
+    "bcc": [],
+    "delivered_to": "maya@kettlehq.com",
+    "subject": "Usage-based vs seat pricing \u2013 decision needed before Q4",
+    "snippet": "Lost a deal this week I want to flag before it happens again. Fenwick Systems \u2014 340 engineers, would've been about $60K/yr \u2014 walked because our seat-based pricing means they'd be p",
+    "body_text": "Lost a deal this week I want to flag before it happens again. Fenwick Systems \u2014 340 engineers, would've been about $60K/yr \u2014 walked because our seat-based pricing means they'd be paying for every engineer with API access even though maybe 40 of them actually touch our dashboards day to day. Their VP said flat out that a usage-based model would've closed it same call.\n\nThis isn't the first time this quarter, just the biggest. I think we need to seriously revisit usage-based pricing before Q4 renewals start hitting, because I'd rather change the model on our terms than have customers negotiate us into it one deal at a time.",
+    "body_html": null,
+    "date": "2026-07-28T14:00:00-07:00",
+    "internal_date_ms": 1785272400000,
+    "folder": "INBOX",
+    "category": "CATEGORY_PERSONAL",
+    "is_unread": false,
+    "is_starred": false,
+    "is_important": false,
+    "user_labels": [],
+    "attachments": [],
+    "calendar_event": null,
+    "extra_headers": {
+      "Return-Path": "<tom@kettlehq.com>"
+    },
+    "size_estimate": 2920,
+    "meta": {
+      "email_class": "genuine_work",
+      "tricky_tags": [],
+      "is_actionable_for_user": false,
+      "action_owner": "maya@kettlehq.com",
+      "action_summary": "Maya to decide on the pricing model direction before Q4.",
+      "due_date": null,
+      "commitment_made_by_user": null,
+      "commitment_is_conditional": false,
+      "commitment_condition": null,
+      "superseded_by_message_id": null,
+      "notes": null
+    }
+  },
+  {
+    "id": "a20f18c2e4b60036",
+    "thread_id": "a20f18c2e4b60035",
+    "profile_id": "founder",
+    "history_id": "755695",
+    "message_id_header": "<CAFa20f18c2e4b60036@mail.gmail.com>",
+    "in_reply_to": "<CAFa20f18c2e4b60035@mail.gmail.com>",
+    "references": [
+      "<CAFa20f18c2e4b60035@mail.gmail.com>"
+    ],
+    "thread_position": 2,
+    "thread_length": 6,
+    "from": {
+      "name": "Dev Patel",
+      "email": "dev@kettlehq.com"
+    },
+    "to": [
+      {
+        "name": "Tom Ashford",
+        "email": "tom@kettlehq.com"
+      }
+    ],
+    "cc": [
+      {
+        "name": "Maya Rodriguez",
+        "email": "maya@kettlehq.com"
+      },
+      {
+        "name": "Priya Nair",
+        "email": "priya@kettlehq.com"
+      }
+    ],
+    "bcc": [],
+    "delivered_to": "maya@kettlehq.com",
+    "subject": "Re: Usage-based vs seat pricing \u2013 decision needed before Q4",
+    "snippet": "Understand the frustration but want to push back a little before we go build something. Usage-based pricing is a bigger eng lift than it sounds like from the outside \u2014 we'd need re",
+    "body_text": "Understand the frustration but want to push back a little before we go build something. Usage-based pricing is a bigger eng lift than it sounds like from the outside \u2014 we'd need real metering infrastructure, not just a seat counter, and that's 3-4 weeks of work minimum, probably more once we hit edge cases around API vs dashboard usage.\n\nOn Tue, Jul 28, 2026 at 2:00 PM Tom Ashford <tom@kettlehq.com> wrote:\n> Lost a deal this week I want to flag before it happens again. Fenwick Systems...\n\nThere's also a board-facing angle: usage-based revenue is lumpier and harder to forecast, and we're heading into a Series B conversation where predictable ARR growth is exactly the story we want to tell. Not saying no, just want us to go in with eyes open on the tradeoff.",
+    "body_html": null,
+    "date": "2026-07-29T09:15:00-07:00",
+    "internal_date_ms": 1785341700000,
+    "folder": "INBOX",
+    "category": "CATEGORY_PERSONAL",
+    "is_unread": false,
+    "is_starred": false,
+    "is_important": false,
+    "user_labels": [],
+    "attachments": [],
+    "calendar_event": null,
+    "extra_headers": {
+      "Return-Path": "<dev@kettlehq.com>"
+    },
+    "size_estimate": 3208,
+    "meta": {
+      "email_class": "genuine_work",
+      "tricky_tags": [],
+      "is_actionable_for_user": false,
+      "action_owner": "maya@kettlehq.com",
+      "action_summary": null,
+      "due_date": null,
+      "commitment_made_by_user": null,
+      "commitment_is_conditional": false,
+      "commitment_condition": null,
+      "superseded_by_message_id": null,
+      "notes": null
+    }
+  },
+  {
+    "id": "a20f18c2e4b60037",
+    "thread_id": "a20f18c2e4b60035",
+    "profile_id": "founder",
+    "history_id": "757290",
+    "message_id_header": "<CAFa20f18c2e4b60037@mail.gmail.com>",
+    "in_reply_to": "<CAFa20f18c2e4b60036@mail.gmail.com>",
+    "references": [
+      "<CAFa20f18c2e4b60035@mail.gmail.com>",
+      "<CAFa20f18c2e4b60036@mail.gmail.com>"
+    ],
+    "thread_position": 3,
+    "thread_length": 6,
+    "from": {
+      "name": "Priya Nair",
+      "email": "priya@kettlehq.com"
+    },
+    "to": [
+      {
+        "name": "Dev Patel",
+        "email": "dev@kettlehq.com"
+      }
+    ],
+    "cc": [
+      {
+        "name": "Tom Ashford",
+        "email": "tom@kettlehq.com"
+      },
+      {
+        "name": "Maya Rodriguez",
+        "email": "maya@kettlehq.com"
+      },
+      {
+        "name": "Luis Ferreira",
+        "email": "luis@kettlehq.com"
+      }
+    ],
+    "bcc": [],
+    "delivered_to": "maya@kettlehq.com",
+    "subject": "Re: Usage-based vs seat pricing \u2013 decision needed before Q4",
+    "snippet": "Adding Luis \u2014 we'll need a new pricing page and probably a calculator either way this gets decided. On the actual question: what if we don't go fully usage-based? A hybrid model \u2014 ",
+    "body_text": "Adding Luis \u2014 we'll need a new pricing page and probably a calculator either way this gets decided.\n\nOn the actual question: what if we don't go fully usage-based? A hybrid model \u2014 base seats for the core team plus metered overage for API-heavy usage above a threshold \u2014 gets Tom most of what closes deals like Fenwick without the full metering build. We already log API call volume for rate limiting, so the data's mostly there; we'd mainly need to expose it in billing rather than build new collection from scratch. Rough guess is 2 weeks instead of 4.",
+    "body_html": null,
+    "date": "2026-07-30T11:50:00-07:00",
+    "internal_date_ms": 1785437400000,
+    "folder": "INBOX",
+    "category": "CATEGORY_PERSONAL",
+    "is_unread": false,
+    "is_starred": false,
+    "is_important": false,
+    "user_labels": [],
+    "attachments": [],
+    "calendar_event": null,
+    "extra_headers": {
+      "Return-Path": "<priya@kettlehq.com>"
+    },
+    "size_estimate": 2763,
+    "meta": {
+      "email_class": "genuine_work",
+      "tricky_tags": [],
+      "is_actionable_for_user": false,
+      "action_owner": "maya@kettlehq.com",
+      "action_summary": null,
+      "due_date": null,
+      "commitment_made_by_user": null,
+      "commitment_is_conditional": false,
+      "commitment_condition": null,
+      "superseded_by_message_id": null,
+      "notes": null
+    }
+  },
+  {
+    "id": "a20f18c2e4b60038",
+    "thread_id": "a20f18c2e4b60035",
+    "profile_id": "founder",
+    "history_id": "758650",
+    "message_id_header": "<CAFa20f18c2e4b60038@mail.gmail.com>",
+    "in_reply_to": "<CAFa20f18c2e4b60037@mail.gmail.com>",
+    "references": [
+      "<CAFa20f18c2e4b60035@mail.gmail.com>",
+      "<CAFa20f18c2e4b60036@mail.gmail.com>",
+      "<CAFa20f18c2e4b60037@mail.gmail.com>"
+    ],
+    "thread_position": 4,
+    "thread_length": 6,
+    "from": {
+      "name": "Luis Ferreira",
+      "email": "luis@kettlehq.com"
+    },
+    "to": [
+      {
+        "name": "Priya Nair",
+        "email": "priya@kettlehq.com"
+      }
+    ],
+    "cc": [
+      {
+        "name": "Dev Patel",
+        "email": "dev@kettlehq.com"
+      },
+      {
+        "name": "Tom Ashford",
+        "email": "tom@kettlehq.com"
+      },
+      {
+        "name": "Maya Rodriguez",
+        "email": "maya@kettlehq.com"
+      }
+    ],
+    "bcc": [],
+    "delivered_to": "maya@kettlehq.com",
+    "subject": "Re: Usage-based vs seat pricing \u2013 decision needed before Q4",
+    "snippet": "Can mock up a hybrid pricing page by Friday if we lock the tiers by Wednesday. Need actual numbers though, not TBDs \u2014 can't design around placeholders again.",
+    "body_text": "Can mock up a hybrid pricing page by Friday if we lock the tiers by Wednesday. Need actual numbers though, not TBDs \u2014 can't design around placeholders again.",
+    "body_html": null,
+    "date": "2026-07-31T10:30:00-07:00",
+    "internal_date_ms": 1785519000000,
+    "folder": "INBOX",
+    "category": "CATEGORY_PERSONAL",
+    "is_unread": false,
+    "is_starred": false,
+    "is_important": false,
+    "user_labels": [],
+    "attachments": [],
+    "calendar_event": null,
+    "extra_headers": {
+      "Return-Path": "<luis@kettlehq.com>"
+    },
+    "size_estimate": 1929,
+    "meta": {
+      "email_class": "genuine_work",
+      "tricky_tags": [],
+      "is_actionable_for_user": false,
+      "action_owner": "maya@kettlehq.com",
+      "action_summary": "Maya to lock pricing tier numbers by Wednesday for Luis.",
+      "due_date": "2026-08-05",
+      "commitment_made_by_user": null,
+      "commitment_is_conditional": false,
+      "commitment_condition": null,
+      "superseded_by_message_id": null,
+      "notes": null
+    }
+  },
+  {
+    "id": "a20f18c2e4b60039",
+    "thread_id": "a20f18c2e4b60035",
+    "profile_id": "founder",
+    "history_id": "763320",
+    "message_id_header": "<CAFa20f18c2e4b60039@mail.gmail.com>",
+    "in_reply_to": "<CAFa20f18c2e4b60038@mail.gmail.com>",
+    "references": [
+      "<CAFa20f18c2e4b60035@mail.gmail.com>",
+      "<CAFa20f18c2e4b60036@mail.gmail.com>",
+      "<CAFa20f18c2e4b60037@mail.gmail.com>",
+      "<CAFa20f18c2e4b60038@mail.gmail.com>"
+    ],
+    "thread_position": 5,
+    "thread_length": 6,
+    "from": {
+      "name": "Maya Rodriguez",
+      "email": "maya@kettlehq.com"
+    },
+    "to": [
+      {
+        "name": "Tom Ashford",
+        "email": "tom@kettlehq.com"
+      }
+    ],
+    "cc": [
+      {
+        "name": "Dev Patel",
+        "email": "dev@kettlehq.com"
+      },
+      {
+        "name": "Priya Nair",
+        "email": "priya@kettlehq.com"
+      },
+      {
+        "name": "Luis Ferreira",
+        "email": "luis@kettlehq.com"
+      }
+    ],
+    "bcc": [],
+    "delivered_to": null,
+    "subject": "Re: Usage-based vs seat pricing \u2013 decision needed before Q4",
+    "snippet": "Okay, I've been sitting with this for a few days and want to lay out where I've landed rather than just say \"let's do the hybrid thing\" and leave everyone guessing at the reasoning",
+    "body_text": "Okay, I've been sitting with this for a few days and want to lay out where I've landed rather than just say \"let's do the hybrid thing\" and leave everyone guessing at the reasoning.\n\nTom's right that we're leaving deals on the table, and Fenwick is the kind of logo that should be easy for us to close \u2014 340-person eng org, exactly our ICP, and we lost it on a pricing mechanic rather than the product. That's the worst reason to lose a deal. Dev's also right that a full usage-based rebuild right now is the wrong tradeoff given where we are with Foundry Line \u2014 Raj has already asked for 12 months of revenue history in the data room, and switching to a lumpier revenue model mid-diligence would muddy that story right when we need it clean.\n\nSo: we're doing Priya's hybrid proposal. Structure is a base seat tier covering up to 15 named users with full dashboard access, plus metered API overage billed monthly above 500K calls, which per Priya's numbers should cover roughly 90% of customers within the base tier and only kick in metering for accounts that look like Fenwick. This keeps ARR from getting lumpy \u2014 the base tier is still the predictable core of revenue \u2014 while giving Tom something to close deals like this one without engineering owing us a full rebuild.\n\nTiers: $499/mo base (up to 15 seats), $0.02 per API call above 500K/mo, enterprise tier unchanged for anyone who wants unlimited seats and usage bundled. Luis \u2014 lock these in for the pricing page design, and let's plan to have this live before the September renewal wave starts, not just before Q4.\n\nOne more thing: I want us to grandfather existing customers on their current pricing for at least two renewal cycles rather than force a switch on them \u2014 the goal here is winning new logos we're currently losing, not re-litigating pricing with happy existing customers.\n\nI also want to flag the thing nobody's said out loud yet: this is the second time in six weeks we've had a real disagreement play out over email across four or five people before landing somewhere, and both times it's taken the better part of a week. That's not a complaint about anyone specifically \u2014 Tom was right to push, Dev was right to slow it down, Priya's proposal is the reason we have a workable answer at all \u2014 but I think as we get closer to twelve people I want us to get faster at this, probably by putting a standing thirty-minute pricing/packaging sync on the calendar rather than relitigating things over five-person CC threads every time. I'll set that up for Thursdays starting next week.\n\nFor Tom specifically: I know this doesn't retroactively help with Fenwick, and if there's any chance of reopening that conversation once the new tiers are live, worth trying \u2014 a lot of deals that die on pricing aren't actually dead, they're just parked waiting for the vendor to fix the thing that killed them. Wouldn't blame them for having moved on, but worth one more email once we can point to a real usage-based option rather than a promise of one.\n\nFor Dev and Priya: I know hybrid billing touches the invoicing pipeline and probably Stripe's usage-based billing APIs, which I remember you flagging as somewhat immature the last time we looked at them for a different reason. If that's still true and changes the two-week estimate, tell me now rather than in week three \u2014 I'd rather move the September date than ship something rushed that generates wrong invoices for real customers.\n\nQuestions, push back now rather than after Luis starts designing.\n\nMaya",
+    "body_html": null,
+    "date": "2026-08-03T16:20:00-07:00",
+    "internal_date_ms": 1785799200000,
+    "folder": "SENT",
+    "category": null,
+    "is_unread": false,
+    "is_starred": false,
+    "is_important": true,
+    "user_labels": [],
+    "attachments": [],
+    "calendar_event": null,
+    "extra_headers": {},
+    "size_estimate": 8983,
+    "meta": {
+      "email_class": "genuine_work",
+      "tricky_tags": [],
+      "is_actionable_for_user": true,
+      "action_owner": "maya@kettlehq.com",
+      "action_summary": "Maya finalized the hybrid pricing model decision and tier structure.",
+      "due_date": "2026-09-01",
+      "commitment_made_by_user": "Ship the new hybrid pricing model before the September renewal wave, with existing customers grandfathered for two cycles.",
+      "commitment_is_conditional": false,
+      "commitment_condition": null,
+      "superseded_by_message_id": null,
+      "notes": null
+    }
+  },
+  {
+    "id": "a20f18c2e4b60040",
+    "thread_id": "a20f18c2e4b60035",
+    "profile_id": "founder",
+    "history_id": "764325",
+    "message_id_header": "<CAFa20f18c2e4b60040@mail.gmail.com>",
+    "in_reply_to": "<CAFa20f18c2e4b60039@mail.gmail.com>",
+    "references": [
+      "<CAFa20f18c2e4b60035@mail.gmail.com>",
+      "<CAFa20f18c2e4b60036@mail.gmail.com>",
+      "<CAFa20f18c2e4b60037@mail.gmail.com>",
+      "<CAFa20f18c2e4b60038@mail.gmail.com>",
+      "<CAFa20f18c2e4b60039@mail.gmail.com>"
+    ],
+    "thread_position": 6,
+    "thread_length": 6,
+    "from": {
+      "name": "Tom Ashford",
+      "email": "tom@kettlehq.com"
+    },
+    "to": [
+      {
+        "name": "Maya Rodriguez",
+        "email": "maya@kettlehq.com"
+      }
+    ],
+    "cc": [
+      {
+        "name": "Dev Patel",
+        "email": "dev@kettlehq.com"
+      },
+      {
+        "name": "Priya Nair",
+        "email": "priya@kettlehq.com"
+      },
+      {
+        "name": "Luis Ferreira",
+        "email": "luis@kettlehq.com"
+      }
+    ],
+    "bcc": [],
+    "delivered_to": "maya@kettlehq.com",
+    "subject": "Re: Usage-based vs seat pricing \u2013 decision needed before Q4",
+    "snippet": "Works for me. I'll hold off on Fenwick-style deals until the new tiers are live so I'm not selling something that changes under them.",
+    "body_text": "Works for me. I'll hold off on Fenwick-style deals until the new tiers are live so I'm not selling something that changes under them.",
+    "body_html": null,
+    "date": "2026-08-04T09:05:00-07:00",
+    "internal_date_ms": 1785859500000,
+    "folder": "INBOX",
+    "category": "CATEGORY_PERSONAL",
+    "is_unread": false,
+    "is_starred": false,
+    "is_important": false,
+    "user_labels": [],
+    "attachments": [],
+    "calendar_event": null,
+    "extra_headers": {
+      "Return-Path": "<tom@kettlehq.com>"
+    },
+    "size_estimate": 1879,
+    "meta": {
+      "email_class": "genuine_work",
+      "tricky_tags": [],
+      "is_actionable_for_user": false,
+      "action_owner": null,
+      "action_summary": null,
+      "due_date": null,
+      "commitment_made_by_user": null,
+      "commitment_is_conditional": false,
+      "commitment_condition": null,
+      "superseded_by_message_id": null,
+      "notes": null
+    }
+  },
+  {
+    "id": "a20f18c2e4b60041",
+    "thread_id": "a20f18c2e4b60041",
+    "profile_id": "founder",
+    "history_id": "773000",
+    "message_id_header": "<CAFa20f18c2e4b60041@mail.gmail.com>",
+    "in_reply_to": null,
+    "references": [],
+    "thread_position": 1,
+    "thread_length": 5,
+    "from": {
+      "name": "Dev Patel",
+      "email": "dev@kettlehq.com"
+    },
+    "to": [
+      {
+        "name": "Maya Rodriguez",
+        "email": "maya@kettlehq.com"
+      }
+    ],
+    "cc": [
+      {
+        "name": "Priya Nair",
+        "email": "priya@kettlehq.com"
+      }
+    ],
+    "bcc": [],
+    "delivered_to": "maya@kettlehq.com",
+    "subject": "Roadmap: enterprise RBAC/SSO vs self-serve onboarding for Q4",
+    "snippet": "Want to make the case for reordering Q4 roadmap before we lock it for the board deck. I think enterprise RBAC and SSO hardening needs to be the top slot, ahead of the self-serve on",
+    "body_text": "Want to make the case for reordering Q4 roadmap before we lock it for the board deck. I think enterprise RBAC and SSO hardening needs to be the top slot, ahead of the self-serve onboarding revamp.\n\nTwo things pushing me here. One, the Lumenpay rollout \u2014 even after we fix the immediate SAML issue, the underlying problem is that our role-mapping was never built for customers with nested org structures, and Lumenpay won't be the last enterprise account shaped like that. Two, the SOC 2 exception Grace flagged on quarterly access reviews is exactly the kind of thing that gets worse, not better, if we don't invest in the access-control layer generally \u2014 right now a lot of our RBAC is held together by conventions the team just knows rather than anything the product actually enforces.\n\nSelf-serve onboarding is important, but nothing about it is on fire the way these two things are. I'd rather we spend Q4 making the foundation solid for the enterprise motion Tom's actually selling into, and pick self-serve back up in Q1.\n\nWant to walk through the actual scope before you decide, because I think when people hear \"RBAC and SSO hardening\" they picture a small, bounded project, and it's really three separate things bundled under one label. First is the nested-group role mapping Priya's already scoping for Lumenpay \u2014 that one's small, a few days. Second is building a real permissions model with actual roles and scopes instead of the handful of boolean flags we ship today, which is closer to three weeks and touches almost every API endpoint we have. Third is SSO hardening proper \u2014 SCIM provisioning, session policies, enforced MFA for admin roles \u2014 which is another two to three weeks on top of that. Realistically this is a six-to-eight week project if we do it right instead of piecemeal, which is most of a quarter for two engineers.\n\nI want to be honest that part of why I'm pushing this now rather than waiting for the next enterprise customer to hit the same wall is that I think we've been treating access control as a feature request instead of infrastructure, and every time we've done that historically \u2014 the original API rate limiting, the audit log system \u2014 we've paid for it later with a rushed version built under customer pressure instead of a considered one built on our own timeline. I'd rather we be the ones setting the pace on this one, especially with SOC 2 now formally on record about the access review gap. An auditor noting an exception once is a footnote. An auditor noting the same category of issue two cycles running because we never actually fixed the underlying architecture is a pattern, and patterns are what turn into real objections in an enterprise security review.\n\nI know self-serve matters for the fundraise narrative and I'm not trying to wave that away \u2014 genuinely just think we're both right about different problems and need to pick which one bites us first if we don't fully solve either this quarter. Want to talk this through before it's locked, ideally before Friday so there's still time to adjust the deck.",
+    "body_html": null,
+    "date": "2026-08-10T09:40:00-07:00",
+    "internal_date_ms": 1786380000000,
+    "folder": "INBOX",
+    "category": "CATEGORY_PERSONAL",
+    "is_unread": true,
+    "is_starred": false,
+    "is_important": true,
+    "user_labels": [],
+    "attachments": [],
+    "calendar_event": null,
+    "extra_headers": {
+      "Return-Path": "<dev@kettlehq.com>"
+    },
+    "size_estimate": 8038,
+    "meta": {
+      "email_class": "genuine_work",
+      "tricky_tags": [],
+      "is_actionable_for_user": true,
+      "action_owner": "maya@kettlehq.com",
+      "action_summary": "Maya to decide on Q4 roadmap prioritization.",
+      "due_date": null,
+      "commitment_made_by_user": null,
+      "commitment_is_conditional": false,
+      "commitment_condition": null,
+      "superseded_by_message_id": null,
+      "notes": null
+    }
+  },
+  {
+    "id": "a20f18c2e4b60042",
+    "thread_id": "a20f18c2e4b60041",
+    "profile_id": "founder",
+    "history_id": "773335",
+    "message_id_header": "<CAFa20f18c2e4b60042@mail.gmail.com>",
+    "in_reply_to": "<CAFa20f18c2e4b60041@mail.gmail.com>",
+    "references": [
+      "<CAFa20f18c2e4b60041@mail.gmail.com>"
+    ],
+    "thread_position": 2,
+    "thread_length": 5,
+    "from": {
+      "name": "Maya Rodriguez",
+      "email": "maya@kettlehq.com"
+    },
+    "to": [
+      {
+        "name": "Dev Patel",
+        "email": "dev@kettlehq.com"
+      }
+    ],
+    "cc": [
+      {
+        "name": "Priya Nair",
+        "email": "priya@kettlehq.com"
+      }
+    ],
+    "bcc": [],
+    "delivered_to": null,
+    "subject": "Re: Roadmap: enterprise RBAC/SSO vs self-serve onboarding for Q4",
+    "snippet": "I hear the argument but I disagree with the conclusion, at least on sequencing. Self-serve is how we get logos between now and whenever the Series B closes \u2014 it's the thing Raj kee",
+    "body_text": "I hear the argument but I disagree with the conclusion, at least on sequencing. Self-serve is how we get logos between now and whenever the Series B closes \u2014 it's the thing Raj keeps asking about in diligence calls, because it's the metric that tells a growth-stage investor we're not purely sales-led. If we freeze that work for a full quarter and Foundry Line asks for updated self-serve funnel numbers in October and the answer is \"unchanged since July,\" that's a worse story to tell than \"one enterprise customer had friction we're actively fixing.\"\n\nI'm not dismissing the RBAC/SSO case \u2014 Lumenpay and the SOC 2 exception are real signals \u2014 I just don't think one enterprise account and one disclosed, already-remediated audit gap justify parking self-serve for three months. Feels like we're reacting to the loudest recent fire instead of the thing that actually moves the fundraise.",
+    "body_html": null,
+    "date": "2026-08-10T15:15:00-07:00",
+    "internal_date_ms": 1786400100000,
+    "folder": "SENT",
+    "category": null,
+    "is_unread": false,
+    "is_starred": false,
+    "is_important": false,
+    "user_labels": [],
+    "attachments": [],
+    "calendar_event": null,
+    "extra_headers": {},
+    "size_estimate": 3466,
+    "meta": {
+      "email_class": "genuine_work",
+      "tricky_tags": [],
+      "is_actionable_for_user": true,
+      "action_owner": "maya@kettlehq.com",
+      "action_summary": null,
+      "due_date": null,
+      "commitment_made_by_user": null,
+      "commitment_is_conditional": false,
+      "commitment_condition": null,
+      "superseded_by_message_id": null,
+      "notes": null
+    }
+  },
+  {
+    "id": "a20f18c2e4b60043",
+    "thread_id": "a20f18c2e4b60041",
+    "profile_id": "founder",
+    "history_id": "774460",
+    "message_id_header": "<CAFa20f18c2e4b60043@mail.gmail.com>",
+    "in_reply_to": "<CAFa20f18c2e4b60042@mail.gmail.com>",
+    "references": [
+      "<CAFa20f18c2e4b60041@mail.gmail.com>",
+      "<CAFa20f18c2e4b60042@mail.gmail.com>"
+    ],
+    "thread_position": 3,
+    "thread_length": 5,
+    "from": {
+      "name": "Tom Ashford",
+      "email": "tom@kettlehq.com"
+    },
+    "to": [
+      {
+        "name": "Maya Rodriguez",
+        "email": "maya@kettlehq.com"
+      }
+    ],
+    "cc": [
+      {
+        "name": "Dev Patel",
+        "email": "dev@kettlehq.com"
+      },
+      {
+        "name": "Priya Nair",
+        "email": "priya@kettlehq.com"
+      }
+    ],
+    "bcc": [],
+    "delivered_to": "maya@kettlehq.com",
+    "subject": "Re: Roadmap: enterprise RBAC/SSO vs self-serve onboarding for Q4",
+    "snippet": "Jumping in with the sales view since I'm caught in the middle of this either way. Every enterprise deal in the pipeline right now \u2014 not just Lumenpay-shaped renewals, new logos too",
+    "body_text": "Jumping in with the sales view since I'm caught in the middle of this either way. Every enterprise deal in the pipeline right now \u2014 not just Lumenpay-shaped renewals, new logos too \u2014 asks about SSO and role controls in the first or second call. It's table stakes, not a nice-to-have. That said, self-serve funnel isn't blocking anything for me this quarter specifically, so from where I sit Dev's sequencing argument holds, even if Maya's fundraise-narrative point is also real.",
+    "body_html": null,
+    "date": "2026-08-11T10:00:00-07:00",
+    "internal_date_ms": 1786467600000,
+    "folder": "INBOX",
+    "category": "CATEGORY_PERSONAL",
+    "is_unread": true,
+    "is_starred": false,
+    "is_important": false,
+    "user_labels": [],
+    "attachments": [],
+    "calendar_event": null,
+    "extra_headers": {
+      "Return-Path": "<tom@kettlehq.com>"
+    },
+    "size_estimate": 2603,
+    "meta": {
+      "email_class": "genuine_work",
+      "tricky_tags": [],
+      "is_actionable_for_user": false,
+      "action_owner": "maya@kettlehq.com",
+      "action_summary": null,
+      "due_date": null,
+      "commitment_made_by_user": null,
+      "commitment_is_conditional": false,
+      "commitment_condition": null,
+      "superseded_by_message_id": null,
+      "notes": null
+    }
+  },
+  {
+    "id": "a20f18c2e4b60044",
+    "thread_id": "a20f18c2e4b60041",
+    "profile_id": "founder",
+    "history_id": "774850",
+    "message_id_header": "<CAFa20f18c2e4b60044@mail.gmail.com>",
+    "in_reply_to": "<CAFa20f18c2e4b60043@mail.gmail.com>",
+    "references": [
+      "<CAFa20f18c2e4b60041@mail.gmail.com>",
+      "<CAFa20f18c2e4b60042@mail.gmail.com>",
+      "<CAFa20f18c2e4b60043@mail.gmail.com>"
+    ],
+    "thread_position": 4,
+    "thread_length": 5,
+    "from": {
+      "name": "Priya Nair",
+      "email": "priya@kettlehq.com"
+    },
+    "to": [
+      {
+        "name": "Maya Rodriguez",
+        "email": "maya@kettlehq.com"
+      }
+    ],
+    "cc": [
+      {
+        "name": "Dev Patel",
+        "email": "dev@kettlehq.com"
+      },
+      {
+        "name": "Tom Ashford",
+        "email": "tom@kettlehq.com"
+      }
+    ],
+    "bcc": [],
+    "delivered_to": "maya@kettlehq.com",
+    "subject": "Re: Roadmap: enterprise RBAC/SSO vs self-serve onboarding for Q4",
+    "snippet": "Proposal instead of picking one: split the team. Two of us on RBAC/SSO hardening, two on self-serve onboarding, for six weeks, then regroup and reassess based on where each stands.",
+    "body_text": "Proposal instead of picking one: split the team. Two of us on RBAC/SSO hardening, two on self-serve onboarding, for six weeks, then regroup and reassess based on where each stands. Neither track gets the full team, so both move slower than if we'd committed fully, but neither gets frozen either. I think that's honestly closer to how the quarter would actually play out anyway \u2014 something else will come up in six weeks regardless of what we decide today.",
+    "body_html": null,
+    "date": "2026-08-11T16:30:00-07:00",
+    "internal_date_ms": 1786491000000,
+    "folder": "INBOX",
+    "category": "CATEGORY_PERSONAL",
+    "is_unread": false,
+    "is_starred": false,
+    "is_important": false,
+    "user_labels": [],
+    "attachments": [],
+    "calendar_event": null,
+    "extra_headers": {
+      "Return-Path": "<priya@kettlehq.com>"
+    },
+    "size_estimate": 2557,
+    "meta": {
+      "email_class": "genuine_work",
+      "tricky_tags": [],
+      "is_actionable_for_user": false,
+      "action_owner": "maya@kettlehq.com",
+      "action_summary": "Maya to decide on Priya's split-team compromise.",
+      "due_date": null,
+      "commitment_made_by_user": null,
+      "commitment_is_conditional": false,
+      "commitment_condition": null,
+      "superseded_by_message_id": null,
+      "notes": null
+    }
+  },
+  {
+    "id": "a20f18c2e4b60045",
+    "thread_id": "a20f18c2e4b60041",
+    "profile_id": "founder",
+    "history_id": "775870",
+    "message_id_header": "<CAFa20f18c2e4b60045@mail.gmail.com>",
+    "in_reply_to": "<CAFa20f18c2e4b60044@mail.gmail.com>",
+    "references": [
+      "<CAFa20f18c2e4b60041@mail.gmail.com>",
+      "<CAFa20f18c2e4b60042@mail.gmail.com>",
+      "<CAFa20f18c2e4b60043@mail.gmail.com>",
+      "<CAFa20f18c2e4b60044@mail.gmail.com>"
+    ],
+    "thread_position": 5,
+    "thread_length": 5,
+    "from": {
+      "name": "Maya Rodriguez",
+      "email": "maya@kettlehq.com"
+    },
+    "to": [
+      {
+        "name": "Dev Patel",
+        "email": "dev@kettlehq.com"
+      }
+    ],
+    "cc": [
+      {
+        "name": "Priya Nair",
+        "email": "priya@kettlehq.com"
+      },
+      {
+        "name": "Tom Ashford",
+        "email": "tom@kettlehq.com"
+      }
+    ],
+    "bcc": [],
+    "delivered_to": null,
+    "subject": "Re: Roadmap: enterprise RBAC/SSO vs self-serve onboarding for Q4",
+    "snippet": "Fine \u2014 Priya's split. But I want a checkpoint in 3 weeks, not 6, given the board meeting is the 27th.",
+    "body_text": "Fine \u2014 Priya's split. But I want a checkpoint in 3 weeks, not 6, given the board meeting is the 27th.",
+    "body_html": null,
+    "date": "2026-08-12T09:30:00-07:00",
+    "internal_date_ms": 1786552200000,
+    "folder": "SENT",
+    "category": null,
+    "is_unread": false,
+    "is_starred": true,
+    "is_important": true,
+    "user_labels": [
+      "Label_8842"
+    ],
+    "attachments": [],
+    "calendar_event": null,
+    "extra_headers": {},
+    "size_estimate": 1812,
+    "meta": {
+      "email_class": "genuine_work",
+      "tricky_tags": [],
+      "is_actionable_for_user": true,
+      "action_owner": "maya@kettlehq.com",
+      "action_summary": "Maya set a 3-week roadmap checkpoint ahead of the Aug 27 board meeting.",
+      "due_date": "2026-09-02",
+      "commitment_made_by_user": "Review the split-team roadmap progress at a 3-week checkpoint.",
+      "commitment_is_conditional": false,
+      "commitment_condition": null,
+      "superseded_by_message_id": null,
+      "notes": null
+    }
+  },
+  {
+    "id": "a20f18c2e4b60046",
+    "thread_id": "a20f18c2e4b60046",
+    "profile_id": "founder",
+    "history_id": "706600",
+    "message_id_header": "<a20f18c2e4b60046@solvane.com>",
+    "in_reply_to": null,
+    "references": [],
+    "thread_position": 1,
+    "thread_length": 5,
+    "from": {
+      "name": "Marcus Webb",
+      "email": "marcus.webb@solvane.com"
+    },
+    "to": [
+      {
+        "name": "Maya Rodriguez",
+        "email": "maya@kettlehq.com"
+      }
+    ],
+    "cc": [],
+    "bcc": [],
+    "delivered_to": "maya@kettlehq.com",
+    "subject": "Confidential \u2013 exploratory conversation",
+    "snippet": "Hi Maya, We haven't met, but your name came up a couple times at a dinner I was at last month with some folks from the observability space, and I've been meaning to reach out since",
+    "body_text": "Hi Maya,\n\nWe haven't met, but your name came up a couple times at a dinner I was at last month with some folks from the observability space, and I've been meaning to reach out since. I lead corporate development at Solvane \u2014 we sit a layer up the stack from where Kettle plays, mostly infra orchestration and deployment tooling, and API observability is a gap in our platform story that keeps coming up with our own customers.\n\nI'll be direct: I'd like to explore whether there's a conversation to have about Kettle joining forces with our platform team rather than continuing to compete for the same enterprise budget line as two separate vendors. No numbers, no term sheet, nothing formal \u2014 just genuinely curious whether the strategic logic is there before either of us spends real time on it.\n\nWould you be open to a call in the next couple weeks? Totally understand if the timing's wrong given where you are as a company.\n\nBest,\nMarcus Webb\nVP Corporate Development, Solvane Inc.",
+    "body_html": null,
+    "date": "2026-06-25T10:00:00-04:00",
+    "internal_date_ms": 1782396000000,
+    "folder": "INBOX",
+    "category": "CATEGORY_PERSONAL",
+    "is_unread": false,
+    "is_starred": true,
+    "is_important": true,
+    "user_labels": [
+      "Label_8842"
+    ],
+    "attachments": [],
+    "calendar_event": null,
+    "extra_headers": {
+      "Return-Path": "<marcus.webb@solvane.com>"
+    },
+    "size_estimate": 3666,
+    "meta": {
+      "email_class": "genuine_work",
+      "tricky_tags": [],
+      "is_actionable_for_user": true,
+      "action_owner": "maya@kettlehq.com",
+      "action_summary": "Maya to decide whether to respond to the acquisition feeler.",
+      "due_date": null,
+      "commitment_made_by_user": null,
+      "commitment_is_conditional": false,
+      "commitment_condition": null,
+      "superseded_by_message_id": null,
+      "notes": null
+    }
+  },
+  {
+    "id": "a20f18c2e4b60047",
+    "thread_id": "a20f18c2e4b60046",
+    "profile_id": "founder",
+    "history_id": "708145",
+    "message_id_header": "<CAFa20f18c2e4b60047@mail.gmail.com>",
+    "in_reply_to": "<a20f18c2e4b60046@solvane.com>",
+    "references": [
+      "<a20f18c2e4b60046@solvane.com>"
+    ],
+    "thread_position": 2,
+    "thread_length": 5,
+    "from": {
+      "name": "Maya Rodriguez",
+      "email": "maya@kettlehq.com"
+    },
+    "to": [
+      {
+        "name": "Dev Patel",
+        "email": "dev@kettlehq.com"
+      }
+    ],
+    "cc": [],
+    "bcc": [],
+    "delivered_to": null,
+    "subject": "Re: Confidential \u2013 exploratory conversation",
+    "snippet": "Just us for now on this one, want to keep it tight until we know if it's even worth a conversation. Got an interesting inbound yesterday from Solvane's head of corp dev \u2014 they're o",
+    "body_text": "Just us for now on this one, want to keep it tight until we know if it's even worth a conversation.\n\nGot an interesting inbound yesterday from Solvane's head of corp dev \u2014 they're one layer up the stack from us, deployment/orchestration tooling, and he's floating an exploratory conversation about \"joining forces.\" No numbers attached, very early and vague, but not nothing either given who they are.\n\nHonestly not sure I want to engage at all right now given where we are with the Series A runway and the Foundry Line conversations \u2014 feels like the wrong moment to even signal we'd consider it. But wanted you to see the actual email before I respond one way or the other. Thoughts?",
+    "body_html": null,
+    "date": "2026-06-26T08:45:00-07:00",
+    "internal_date_ms": 1782488700000,
+    "folder": "SENT",
+    "category": null,
+    "is_unread": false,
+    "is_starred": false,
+    "is_important": false,
+    "user_labels": [],
+    "attachments": [],
+    "calendar_event": null,
+    "extra_headers": {},
+    "size_estimate": 3036,
+    "meta": {
+      "email_class": "genuine_work",
+      "tricky_tags": [],
+      "is_actionable_for_user": true,
+      "action_owner": "maya@kettlehq.com",
+      "action_summary": "Maya to decide how to respond to Solvane's inbound, with Dev's input.",
+      "due_date": null,
+      "commitment_made_by_user": null,
+      "commitment_is_conditional": false,
+      "commitment_condition": null,
+      "superseded_by_message_id": null,
+      "notes": "Deliberately narrow distribution \u2014 Maya excludes the rest of the team from a sensitive acquisition feeler."
+    }
+  },
+  {
+    "id": "a20f18c2e4b60048",
+    "thread_id": "a20f18c2e4b60046",
+    "profile_id": "founder",
+    "history_id": "712500",
+    "message_id_header": "<CAFa20f18c2e4b60048@mail.gmail.com>",
+    "in_reply_to": "<CAFa20f18c2e4b60047@mail.gmail.com>",
+    "references": [
+      "<a20f18c2e4b60046@solvane.com>",
+      "<CAFa20f18c2e4b60047@mail.gmail.com>"
+    ],
+    "thread_position": 3,
+    "thread_length": 5,
+    "from": {
+      "name": "Dev Patel",
+      "email": "dev@kettlehq.com"
+    },
+    "to": [
+      {
+        "name": "Maya Rodriguez",
+        "email": "maya@kettlehq.com"
+      }
+    ],
+    "cc": [],
+    "bcc": [],
+    "delivered_to": "maya@kettlehq.com",
+    "subject": "Re: Confidential \u2013 exploratory conversation",
+    "snippet": "My gut says it's worth 30 minutes to hear the actual number, if there is one \u2014 costs us nothing to listen, and \"joining forces\" language from a VP corp dev usually means there's a ",
+    "body_text": "My gut says it's worth 30 minutes to hear the actual number, if there is one \u2014 costs us nothing to listen, and \"joining forces\" language from a VP corp dev usually means there's a real mandate behind it even if he's playing it soft in the first email.\n\nBut let's loop Greg before we say anything substantive back to Marcus. He's been through two of these on other boards and will know how to keep this from turning into a distraction while we're mid-fundraise. I wouldn't reply to Marcus at all until we've talked to Greg.",
+    "body_html": null,
+    "date": "2026-06-29T09:20:00-07:00",
+    "internal_date_ms": 1782750000000,
+    "folder": "INBOX",
+    "category": "CATEGORY_PERSONAL",
+    "is_unread": false,
+    "is_starred": false,
+    "is_important": false,
+    "user_labels": [],
+    "attachments": [],
+    "calendar_event": null,
+    "extra_headers": {
+      "Return-Path": "<dev@kettlehq.com>"
+    },
+    "size_estimate": 2696,
+    "meta": {
+      "email_class": "genuine_work",
+      "tricky_tags": [],
+      "is_actionable_for_user": false,
+      "action_owner": "maya@kettlehq.com",
+      "action_summary": "Maya to loop in Greg Whitfield before replying to Solvane.",
+      "due_date": null,
+      "commitment_made_by_user": null,
+      "commitment_is_conditional": false,
+      "commitment_condition": null,
+      "superseded_by_message_id": null,
+      "notes": null
+    }
+  },
+  {
+    "id": "a20f18c2e4b60049",
+    "thread_id": "a20f18c2e4b60046",
+    "profile_id": "founder",
+    "history_id": "715480",
+    "message_id_header": "<CAFa20f18c2e4b60049@mail.gmail.com>",
+    "in_reply_to": "<CAFa20f18c2e4b60048@mail.gmail.com>",
+    "references": [
+      "<a20f18c2e4b60046@solvane.com>",
+      "<CAFa20f18c2e4b60047@mail.gmail.com>",
+      "<CAFa20f18c2e4b60048@mail.gmail.com>"
+    ],
+    "thread_position": 4,
+    "thread_length": 5,
+    "from": {
+      "name": "Maya Rodriguez",
+      "email": "maya@kettlehq.com"
+    },
+    "to": [
+      {
+        "name": "Greg Whitfield",
+        "email": "greg.whitfield@whitfieldadvisory.com"
+      }
+    ],
+    "cc": [
+      {
+        "name": "Dev Patel",
+        "email": "dev@kettlehq.com"
+      }
+    ],
+    "bcc": [],
+    "delivered_to": null,
+    "subject": "Re: Confidential \u2013 exploratory conversation",
+    "snippet": "Greg \u2014 adding you since you've been through this kind of thing before and I'd rather get your read early than after we've already said something to the other side. Got an inbound l",
+    "body_text": "Greg \u2014 adding you since you've been through this kind of thing before and I'd rather get your read early than after we've already said something to the other side.\n\nGot an inbound last week from Marcus Webb, VP Corp Dev at Solvane \u2014 they're adjacent to us, deployment/orchestration tooling, and he's floating an exploratory conversation about \"joining forces,\" his phrase. Very early, no numbers, no formal process, just a first email. Dev thinks it's worth 30 minutes to hear him out; I'm more wary given timing with the Series B conversations and don't want anything about this to leak or distract the team.\n\nHow would you handle the first call, if we take it at all? And is there anything specific we shouldn't say or share this early?",
+    "body_html": null,
+    "date": "2026-07-01T11:00:00-07:00",
+    "internal_date_ms": 1782928800000,
+    "folder": "SENT",
+    "category": null,
+    "is_unread": false,
+    "is_starred": false,
+    "is_important": false,
+    "user_labels": [],
+    "attachments": [],
+    "calendar_event": null,
+    "extra_headers": {},
+    "size_estimate": 3149,
+    "meta": {
+      "email_class": "genuine_work",
+      "tricky_tags": [],
+      "is_actionable_for_user": true,
+      "action_owner": "greg.whitfield@whitfieldadvisory.com",
+      "action_summary": "Greg to advise on how to handle the Solvane inbound.",
+      "due_date": null,
+      "commitment_made_by_user": null,
+      "commitment_is_conditional": false,
+      "commitment_condition": null,
+      "superseded_by_message_id": null,
+      "notes": null
+    }
+  },
+  {
+    "id": "a20f18c2e4b60050",
+    "thread_id": "a20f18c2e4b60046",
+    "profile_id": "founder",
+    "history_id": "722710",
+    "message_id_header": "<a20f18c2e4b60050@whitfieldadvisory.com>",
+    "in_reply_to": "<CAFa20f18c2e4b60049@mail.gmail.com>",
+    "references": [
+      "<a20f18c2e4b60046@solvane.com>",
+      "<CAFa20f18c2e4b60047@mail.gmail.com>",
+      "<CAFa20f18c2e4b60048@mail.gmail.com>",
+      "<CAFa20f18c2e4b60049@mail.gmail.com>"
+    ],
+    "thread_position": 5,
+    "thread_length": 5,
+    "from": {
+      "name": "Greg Whitfield",
+      "email": "greg.whitfield@whitfieldadvisory.com"
+    },
+    "to": [
+      {
+        "name": "Maya Rodriguez",
+        "email": "maya@kettlehq.com"
+      }
+    ],
+    "cc": [
+      {
+        "name": "Dev Patel",
+        "email": "dev@kettlehq.com"
+      }
+    ],
+    "bcc": [],
+    "delivered_to": "maya@kettlehq.com",
+    "subject": "Re: Confidential \u2013 exploratory conversation",
+    "snippet": "Maya \u2014 good instinct to keep this tight and good instinct to be wary, though I don't think the two are in tension with taking the call. My advice, having sat through a handful of t",
+    "body_text": "Maya \u2014 good instinct to keep this tight and good instinct to be wary, though I don't think the two are in tension with taking the call. My advice, having sat through a handful of these on other boards:\n\nTake the 30 minutes. Declining to even hear a VP of corp dev out at a company like Solvane can itself send a signal, and you learn things from the shape of the conversation even if nothing ever comes of it \u2014 how serious the mandate actually is, whether it's coming from their CEO or is Marcus freelancing, roughly what universe of outcome they're imagining. None of that costs you anything to learn.\n\nWhat I'd avoid: don't share anything you wouldn't want to see in a competitor's hands, don't discuss valuation or terms in any form even hypothetically, and don't let Marcus set the pace \u2014 if he pushes for a second meeting quickly, that tells you something too, but you're under no obligation to match his tempo.\n\nOn the fundraise timing specifically: these two tracks can run in parallel without touching each other as long as you're disciplined about not letting Raj or Foundry Line hear about this from anyone but you, and not letting this conversation slow down or become a bargaining chip in the Series B process. The moment it starts functioning as leverage in either direction instead of two separate things, it gets messy.\n\nHappy to sit in on the call if you want a second set of ears, or to debrief after if you'd rather keep the room small. Keep me posted either way \u2014 and if he mentions a number, even an informal one, tell me immediately, don't wait for our next scheduled catch-up.\n\nA couple more things while I have the context loaded. First, worth thinking now about who inside Kettle would ever need to know, if this goes anywhere at all. My strong preference is nobody beyond the three of us plus maybe Sana for calendar logistics, until and unless there's something concrete enough to warrant a wider circle \u2014 the moment more than a handful of people know a company is fielding inbound interest, it has a way of becoming true even when it isn't, and I've seen a rumor like that spook a term sheet before, not because anything was actually wrong but because a candidate lead investor got nervous about a process they didn't fully understand.\n\nSecond, on Solvane specifically \u2014 I don't know them well, but I know two people who've dealt with their corp dev team on prior deals, one that closed and one that didn't. I'll make a couple of quiet calls this week, nothing that tips our hand, just background on how they operate and whether Marcus has real authority or is more of a scout. Should have something for you before your call with him, which will help you calibrate how much runway to give the conversation.\n\nThird, and this is more philosophical: don't feel obligated to have a point of view yet on whether you'd actually want to sell the company. Nobody's asked you that question yet, and you don't have enough information to answer it honestly. Your only job on the first call is to gather information and protect the company's optionality \u2014 the decision about what you'd actually want, if a real number ever showed up, is a conversation for later, with more data and probably the full board in the room.\n\nGreg",
+    "body_html": null,
+    "date": "2026-07-06T14:30:00-04:00",
+    "internal_date_ms": 1783362600000,
+    "folder": "INBOX",
+    "category": "CATEGORY_PERSONAL",
+    "is_unread": false,
+    "is_starred": false,
+    "is_important": false,
+    "user_labels": [],
+    "attachments": [],
+    "calendar_event": null,
+    "extra_headers": {
+      "Return-Path": "<greg.whitfield@whitfieldadvisory.com>"
+    },
+    "size_estimate": 8401,
+    "meta": {
+      "email_class": "genuine_work",
+      "tricky_tags": [],
+      "is_actionable_for_user": false,
+      "action_owner": "maya@kettlehq.com",
+      "action_summary": "Maya to take the exploratory call with Marcus Webb and report back to Greg.",
+      "due_date": null,
+      "commitment_made_by_user": null,
+      "commitment_is_conditional": false,
+      "commitment_condition": null,
+      "superseded_by_message_id": null,
+      "notes": null
+    }
+  }
+]

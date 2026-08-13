@@ -1,0 +1,106 @@
+{
+  "profile_id": "marketing",
+  "question": "q6_slipping_through_cracks",
+  "items_reviewed": 11,
+  "verdict": "issues",
+  "findings": [
+    {
+      "type": "false_positive",
+      "severity": "high",
+      "item_id": "marketing-q6-08",
+      "message_ids": ["b60f18c2e4b60019", "b60f18c2e4b60020", "b60f18c2e4b60030", "b60f18c2e4b60031", "b60f18c2e4b60032", "b60f18c2e4b60033"],
+      "problem": "The claim that Jordan's fall-studio-day request 'died in an auto-responder' and 'was never re-sent' is contradicted the very next day: she re-sent it to the same person in a different thread and Hollis answered it personally on Jul 23.",
+      "evidence": "b60f18c2e4b60030 (SENT, Jul 22 10:00, to hollis@northlightstudio.co): 'Confirming studio day details for the fall lifestyle shoot' — and Hollis replies in b60f18c2e4b60031 (Jul 23 09:20): 'We've got a rack and two steamers on-site, no need to bring your own. 7am works.' Rachel then plans wardrobe (b60f18c2e4b60032) and Tessa writes in b60f18c2e4b60033: 'Sounds like the shoot's in good shape.'",
+      "recommended_action": "remove item | move to must_not_include with trap 'already-resolved-in-another-thread' (the OOO looked terminal but the ask was re-sent and answered within 24h)"
+    },
+    {
+      "type": "false_positive",
+      "severity": "high",
+      "item_id": "marketing-q6-05",
+      "message_ids": ["b60f18c2e4b60033", "b60f18c2e4b60036", "b40f18c2e4b60031", "b20f18c2e4b60019", "b20f18c2e4b60024", "b50f18c2e4b60019", "b40f18c2e4b60006"],
+      "problem": "The claim that 'the entire Fold & Field retainer negotiation ... is filed under the subject line Studio Day — Fall Lifestyle Shoot Logistics' fails the burial test — the negotiation is loudly attested across six other threads with accurate subject lines, Jordan visibly engaged with it three times, and the 'signature request' component was fully executed on Jul 23.",
+      "evidence": "b40f18c2e4b60031 attachment extracted_text: 'Status: FULLY EXECUTED' / 'Signed: Jordan Feld (2026-07-23), Tessa Brandt (2026-07-19)'. Accurately-titled parallel threads: 'Fold & Field FY27 SOW renewal' (b10f18c2e4b60009), 'Agency SOW renewal — send me the redline' (b50f18c2e4b60041/42), 'Agency SOW Renewal Discussion' (b40f18c2e4b60006), 'Fold & Field — Q4 SOW Scope' (b20f18c2e4b60019–25), 'SOW renewal — the 18% increase is too much' (b50f18c2e4b60019). Jordan engaged directly in b20f18c2e4b60024: 'Can you send the redlined SOW by Friday?'",
+      "recommended_action": "remove item; if a topic_drift entry is wanted, retier to borderline and narrow the claim to the one genuinely orphaned sub-obligation (Jordan's 'Will send specifics tomorrow' on Jul 28, b60f18c2e4b60034) — but note even that was overtaken by her Aug 5 counter in b50f18c2e4b60019"
+    },
+    {
+      "type": "missed_item",
+      "severity": "high",
+      "item_id": null,
+      "message_ids": ["b30f18c2e4b60024", "b50f18c2e4b60020"],
+      "problem": "The DTC Growth Summit is holding a confirmed Oct 14 speaking slot for Jordan with a hard Aug 25 deliverables deadline and a Sept 1 program lock — filed under CATEGORY_PROMOTIONS among conference spam, never replied to, never chased — and Jordan declined a same-date Oct 14 panel in June, so this is either a forgotten commitment or an unverified booking about to be printed with Habitat Goods' logo next to it.",
+      "evidence": "b30f18c2e4b60024 (priya@dtcgrowthsummit.com, Jul 30, CATEGORY_PROMOTIONS): 'What we need from you by August 25:' and 'we lock the printed program on September 1 and can't make changes after that without an asterisk next to your name'. Against b50f18c2e4b60020 (SENT, Jun 25, to marisol@dtcsummit.co): 'I have to pass on the panel this year — Oct 14 lands right in the middle of our BFCM prep'.",
+      "recommended_action": "add new item with these fields — tier must_include, anchor_message_id b30f18c2e4b60024, message_ids [b30f18c2e4b60024, b50f18c2e4b60020], due_date 2026-08-25, due_basis explicit, days_open 13, consequence high, counterparty priya@dtcgrowthsummit.com, tricky_tags []; rank near the top (real deliverable, promotional-category burial, zero surfacing signal)"
+    },
+    {
+      "type": "missed_item",
+      "severity": "medium",
+      "item_id": null,
+      "message_ids": ["b60f18c2e4b60045", "b40f18c2e4b60013"],
+      "problem": "Sofia's ask for the Q4 brand positioning deck carries an implicit deadline that appears nowhere in the message; the email is unread, two sentences long, has no reply, and the real due date (the Aug 25 offsite) is only recoverable from a different message sent five days earlier.",
+      "evidence": "b60f18c2e4b60045 (Sofia, Aug 4, UNREAD): 'Can you have the Q4 brand positioning deck ready before the leadership offsite?' Resolved against b40f18c2e4b60013 (Jul 30): 'Team — blocking 8/25 for our Q4 planning offsite at HQ.'",
+      "recommended_action": "add new item with these fields — tier acceptable, anchor_message_id b60f18c2e4b60045, message_ids [b60f18c2e4b60045, b40f18c2e4b60013], due_date 2026-08-25, due_basis implicit, days_open 8, consequence high, counterparty sofia.marchetti@habitatgoods.com, tricky_tags ['implicit_deadline']"
+    },
+    {
+      "type": "missed_item",
+      "severity": "medium",
+      "item_id": null,
+      "message_ids": ["b40f18c2e4b60024", "b40f18c2e4b60026"],
+      "problem": "A Google Ads policy disapproval has had the Fall Sale ad group paused since Jul 22 and nobody has touched it; a second disapproval landed Jul 29, and the compounding consequence (policy-standing downgrade slowing approvals right before the Q4 holiday launch) is buried in paragraph nine of an automated notification that is still unread.",
+      "evidence": "b40f18c2e4b60024 (googleads-noreply@google.com, Jul 22, UNREAD): 'two disapprovals within a 90-day window can trigger a policy standing downgrade, which can slow down approval times for future campaigns, including your planned Q4 holiday launch'. Second disapproval b40f18c2e4b60026 (Jul 29, UNREAD): 'Your ad \"Linen Bedding Set — Shop the Sale\" wasn't approved'.",
+      "recommended_action": "add new item with these fields — tier acceptable, anchor_message_id b40f18c2e4b60024, message_ids [b40f18c2e4b60024, b40f18c2e4b60026], due_date 2026-07-25, due_basis explicit, days_open 21, consequence high, counterparty null, tricky_tags []; note the second notice's fix is Rachel's but the account-standing exposure is Jordan's"
+    },
+    {
+      "type": "false_positive",
+      "severity": "medium",
+      "item_id": "marketing-q6-07",
+      "message_ids": ["b40f18c2e4b60042", "b60f18c2e4b60019"],
+      "problem": "The claim 'it was never re-sent' and 'nothing in the corpus shows the content ever reaching Hollis' is contradicted by the corpus annotation on the bounce itself, which marks it non-actionable and already re-sent; Jordan and Hollis correspond normally on Jul 21, Jul 28 and Jul 30.",
+      "evidence": "b40f18c2e4b60042 meta.notes: \"Typo'd address — Hollis actually goes by hollis@, this was a one-off mistype that Jordan resent correctly.\" The same record carries is_actionable_for_user: false and action_owner: null. Two days later b60f18c2e4b60019 goes to hollis@northlightstudio.co and is delivered (it draws his auto-reply b60f18c2e4b60020).",
+      "recommended_action": "remove item | move to must_not_include with trap 'bounce-already-resent' — a bounce is only a crack when the content demonstrably never arrived"
+    },
+    {
+      "type": "false_positive",
+      "severity": "medium",
+      "item_id": "marketing-q6-04",
+      "message_ids": ["b40f18c2e4b60043", "b40f18c2e4b60046", "b20f18c2e4b60046"],
+      "problem": "The priyanka.rao@ bounce fails the consequence test: the message is not in SENT so its content is unknowable, the corpus annotates it as harmless and non-actionable, and Priyanka was on an auto-responder until Aug 3 and has corresponded with Jordan normally since (Aug 6, Aug 10).",
+      "evidence": "b40f18c2e4b60043 meta.notes: 'Wrong domain formatting attempt (priyanka.rao@ instead of priyanka@); harmless mistype.' with is_actionable_for_user: false. b40f18c2e4b60046 (Jul 20 auto-reply): 'I'm out of the office with limited email access from July 18 through August 3'. b20f18c2e4b60046 shows Priyanka writing to Jordan on Aug 6.",
+      "recommended_action": "retier to borderline (or remove) — Q6 requires a consequence, and nothing in the corpus establishes what was lost; keeping three bounces in the top seven over-weights one burial factor"
+    },
+    {
+      "type": "stale_fact",
+      "severity": "medium",
+      "item_id": "marketing-q6-01",
+      "message_ids": ["b40f18c2e4b60044", "b50f18c2e4b60019", "b50f18c2e4b60030", "b50f18c2e4b60048", "b60f18c2e4b60027"],
+      "problem": "The core item (the Aug 12 creative files bounced) is sound, but the claim extends the bounce to 'the retainer counter, the corrected invoice chase and the final creative files' — the counter was sent Aug 5 and the invoice chase Aug 7, both before the Aug 12 quota bounce, Tessa replied on Aug 6, and the only 'counter' still undelivered is an unsent DRAFT.",
+      "evidence": "b40f18c2e4b60044: 'The message you sent on Aug 12, 2026 8:14 AM CDT, subject \"Holiday Campaign Creative — Final Round Files,\" was not delivered.' — a single message. b60f18c2e4b60027 (Tessa, Aug 6 16:30): 'Sorry for the radio silence — we ran into real cost problems building out Direction B's sets.' b50f18c2e4b60048 is folder DRAFT, never sent.",
+      "recommended_action": "fix claim to 'Jordan's Aug 12 email \"Holiday Campaign Creative — Final Round Files\" never reached Tessa Brandt — Fold & Field's mailbox is over quota — so the final creative files the holiday timeline depends on are sitting undelivered and both sides believe they were sent'; drop the retainer-counter and invoice-chase speculation from why_it_qualifies"
+    },
+    {
+      "type": "false_positive",
+      "severity": "medium",
+      "item_id": "marketing-q6-10",
+      "message_ids": ["b60f18c2e4b60009"],
+      "problem": "The bcc item is anchored on a decision window that closed five weeks before the as-of moment — the 'Friday's leadership review' it warns about was Jul 10 — and the thread is a single message with no replies, so there is no live reply-all loop to be excluded from.",
+      "evidence": "b60f18c2e4b60009 (Sofia, Jul 6): 'wanted you both aware before Friday's leadership review that we're holding at $120K for paid social pending Q3 final numbers.' No message in the mailbox replies to it; the $120K figure was independently confirmed later by Wes in b60f18c2e4b60013 (Jul 24), so Jordan is not operating on a stale number either.",
+      "recommended_action": "retier to borderline — the structural bcc invisibility is real but nothing is open; if kept, restate the claim around the Aug 25 offsite ('we need to leave with a locked paid social budget', b40f18c2e4b60013) rather than the passed Jul 10 review"
+    },
+    {
+      "type": "misranked",
+      "severity": "low",
+      "item_id": "marketing-q6-03",
+      "message_ids": ["b60f18c2e4b60041", "b60f18c2e4b60042", "b40f18c2e4b60043"],
+      "problem": "Two consequence:high items sit below consequence:medium items, inverting the stated ranking principle (consequence x invisibility x elapsed time): q6-03 (high, hard Aug 21 cutoff, attachment-only) ranks below q6-02 (medium), and q6-06 (high) ranks below q6-04 (medium).",
+      "evidence": "b60f18c2e4b60041 attachment extracted_text: 'Final numbers are due Friday, August 21 by 5:00pm CT. Submissions received after this time will not be included in the FY27 board deck draft.' versus b60f18c2e4b60042: 'can you approve the $2,800 budget bump for the Amara Diallo influencer whitelisting spend before Monday?'",
+      "recommended_action": "reorder above X — move marketing-q6-03 above marketing-q6-02, and marketing-q6-06 above marketing-q6-04"
+    }
+  ],
+  "checked_and_sound": [
+    "marketing-q6-02",
+    "marketing-q6-03",
+    "marketing-q6-06",
+    "marketing-q6-09",
+    "marketing-q6-11"
+  ],
+  "notes": "All 11 evidence_quote strings verify as exact substrings of the cited messages' body_text or attachment extracted_text; all days_open values recompute correctly against the 2026-08-12 as-of moment. All six must_not_include distractors survive scrutiny: the abandoned-cart flow really did ship (b60f18c2e4b60049, 'Cart abandonment flow shipped this morning'), Nina really did claim the vendor audit (b60f18c2e4b60015, \"I'll take this\"), and the press-release chase really is loudly attested — no bad_distractor findings.\n\nThe net effect of the findings is that the set currently spends five of its top eight slots on the Fold & Field / Northlight production storyline, and three of those (q6-01's extension, q6-05, q6-08) rest on obligations that later messages in *other* threads had already closed or that were never buried at all. Fixing them frees room for the two genuinely invisible items the sweep surfaced — the DTC Growth Summit speaker package sitting in the Promotions bucket, and the paused Google Ads campaign compounding toward a policy downgrade.\n\nTwo judgement calls a human should weigh rather than treat as findings. (1) marketing-q6-06 (Amara's unsigned photo usage addendum) is genuinely open with no closure anywhere in the corpus, but Jordan wrote both messages herself and chased once, so a strict reading of the engagement test pushes it toward Q2/Q4; I left it in checked_and_sound because six weeks of total silence during an active renegotiation with the same counterparty (b10f18c2e4b60044-46) is a real orphaning. (2) The terracotta wall-colour decision (b60f18c2e4b60002 from tessa@foldandfield.agency, re-asked Jun 27 from tessa.brandt@gmail.com in b60f18c2e4b60003, never answered) is the mailbox's planted same_person_two_addresses case and the matrix flags it as Q6 crack-risk — I did not file it as a missed item because the set build it gated died when the campaign switched to Direction C on Aug 10 (b60f18c2e4b60029), so it now fails the consequence test.\n\nOne internal inconsistency worth noting: q6-05 cites the Jul 22-31 'Studio Day' thread as live and important, while q6-08 claims the studio-day request died in an auto-responder on Jul 21 — the thread q6-05 depends on is the same thread that disproves q6-08."
+}

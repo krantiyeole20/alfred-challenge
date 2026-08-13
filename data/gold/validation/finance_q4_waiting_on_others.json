@@ -1,0 +1,139 @@
+{
+  "profile_id": "finance",
+  "question": "q4_waiting_on_others",
+  "items_reviewed": 12,
+  "verdict": "issues",
+  "findings": [
+    {
+      "type": "missed_item",
+      "severity": "high",
+      "item_id": null,
+      "message_ids": [
+        "c20f18c2e4b60035",
+        "c20f18c2e4b60037",
+        "c20f18c2e4b60038",
+        "c20f18c2e4b60039",
+        "c20f18c2e4b60040"
+      ],
+      "problem": "Miles still owes the AGV-250 rev rec memo Aditi delegated on Jul 14 — the blocking question was resolved by Nadia on Jul 27 and nothing since shows the memo written or sent, yet the set has no item for it.",
+      "evidence": "Aditi's delegation, c20f18c2e4b60037 (Jul 14): 'Agreed, let's go with the 92/8 split. Miles, can you update the rev rec memo?' The condition that stalled it is resolved in c20f18c2e4b60040 (Jul 27, Nadia Haddad): 'Service-type classification looks right to us. Send the memo over for the file when it's ready.' That is the last message in the thread; a full-corpus grep for 'rev rec memo|revenue recognition memo' returns no later delivery (the memo listed 'delivered' in c50f18c2e4b60024's PBC attachment is the separate Q2 hardware-plus-service bundle memo, dated Jul 25, two days before Nadia's AGV-250 sign-off).",
+      "recommended_action": "add new item with these fields — tier: must_include; claim: 'Miles has not produced the AGV-250 bundled-warranty rev rec memo; Aditi asked for it Jul 14, Nadia cleared the service-type treatment on Jul 27 and asked for the memo for the audit file, and nothing has been sent.'; thread_id c20f18c2e4b60035; anchor_message_id c20f18c2e4b60040; evidence_quote 'Send the memo over for the file when it's ready.'; counterparty miles.okonkwo@northwindrobotics.com; due_date 2026-07-31; due_basis implicit; days_open 29; consequence high; tricky_tags []. Rank it near finance-q4-06 (same creditor, same audit file)."
+    },
+    {
+      "type": "missed_item",
+      "severity": "medium",
+      "item_id": null,
+      "message_ids": [
+        "c40f18c2e4b60018",
+        "c40f18c2e4b60019"
+      ],
+      "problem": "There are TWO unanswered Kenji asks that died in out-of-office replies, not one; the Jul 27 Q2 estimated-tax methodology question is missing entirely from the set, and its OOO floor (Aug 3) expired nine days before the as-of moment with no re-send and no human reply.",
+      "evidence": "c40f18c2e4b60018 (Jul 27, SENT): 'Kenji — for the Q2 federal estimate, are we still using the safe-harbor 110% of last year's liability, or did you want to true it up against the higher FY26 forecast? Trying to lock the number before Friday's cash forecast.' The only response is c40f18c2e4b60019, an auto-reply: 'I am out of the office with limited email access until Monday, August 3rd.' The thread ends there; finance-q4-03 cites only the later Aug 3 Q3 thread (c60f18c2e4b60040/41).",
+      "recommended_action": "add new item with these fields — tier: acceptable; claim: 'Kenji Watanabe never answered whether the Q2 federal estimate stays on the 110% safe harbor or gets trued up to the higher FY26 forecast — asked Jul 27, it hit his out-of-office (back Aug 3) and was never re-sent.'; thread_id/anchor c40f18c2e4b60018; evidence_quote 'are we still using the safe-harbor 110% of last year's liability, or did you want to true it up against the higher FY26 forecast?'; counterparty kenji@watanabetax.com; due_date 2026-07-31; due_basis implicit; days_open 16; consequence medium; tricky_tags ['out_of_office']. Alternatively merge into finance-q4-03 as a two-question wait with c40f18c2e4b60018/19 added to message_ids — but the current single-question framing understates the staleness by nine days."
+    },
+    {
+      "type": "missed_item",
+      "severity": "medium",
+      "item_id": null,
+      "message_ids": [
+        "c60f18c2e4b60012"
+      ],
+      "problem": "The corpus's planted conditional_promise-by-another — Karen's $62,000 Bristow deferred-revenue reclass, gated on Sam's approval — is absent from Q4, even though the Question x TrickyTag matrix routes `conditional_promise` by others to Q4 as 'the condition-holder' and no message anywhere resolves the condition or confirms the entry was booked.",
+      "evidence": "c60f18c2e4b60012 (Jul 9, Karen Voss, tricky_tags: conditional_promise): 'If Sam signs off on treating the install as the recognition trigger (rather than waiting for their final acceptance sign-off, which could slip to August), I'll book the entry before we close Friday. Haven't heard back from him yet — can you nudge him if you talk to him before I do?' The thread is one message long and no later message in the mailbox mentions the $62,000 reclass, the Bristow recognition trigger, or Sam's decision.",
+      "recommended_action": "add new item with these fields — tier: borderline; claim: 'Karen's $62,000 Bristow Logistics deferred-revenue reclass is still conditional on Sam approving install completion (rather than customer acceptance) as the recognition trigger; Karen said she would book it once he signs off and nothing shows he ever did.'; anchor c60f18c2e4b60012; evidence_quote as above; counterparty karen.voss@northwindrobotics.com; due_date 2026-07-10; due_basis implicit; days_open 34; consequence medium; tricky_tags ['conditional_promise']. Label the condition explicitly. Borderline is right because July close was declared final on Aug 6 (c50f18c2e4b60022: 'July close is final as of yesterday'), which makes silent resolution plausible without proving it."
+    },
+    {
+      "type": "stale_fact",
+      "severity": "medium",
+      "item_id": "finance-q4-01",
+      "message_ids": [
+        "c50f18c2e4b60019",
+        "c50f18c2e4b60022"
+      ],
+      "problem": "The item (and the prose answer) present Friday Aug 7 as the live deadline for Derek's and Ruth's FY27 inputs, making this the most overdue item and the #1 rank — but Aditi's own Aug 7 all-hands message supersedes that with an Aug 14 submission date, so as of the as-of moment the inputs are not yet overdue.",
+      "evidence": "c50f18c2e4b60022 (Aug 7, SENT, three days after the Aug 4 chase): 'Timeline: department heads submit inputs by August 14, I build the first consolidated draft by August 21, we review as a group August 24-25' — and it re-issues the asks by name: 'Derek — FY27 sales quota and territory plan... Ruth — headcount and capex plan for ops'. The Jul 20 memo (c50f18c2e4b60023) already said 'department inputs due August 14'.",
+      "recommended_action": "fix due_date to '2026-08-14' (due_basis explicit), add c50f18c2e4b60022 to message_ids, and reword the claim/prose so the Aug 7 date is described as a chase deadline Aditi herself later reset to Aug 14. The wait is still open and rank 1 remains defensible on dependency criticality, but the 'five days overdue' framing is wrong."
+    },
+    {
+      "type": "stale_fact",
+      "severity": "medium",
+      "item_id": "finance-q4-04",
+      "message_ids": [
+        "c10f18c2e4b60038",
+        "c50f18c2e4b60022"
+      ],
+      "problem": "The item is anchored on the claim that Hannah's missing numbers are still holding the July accrued payroll accrual, but the July close was declared final six days before the as-of moment; the still-live half of the wait is the FY27 budget input, evidenced by a fresher Aug 7 message the item does not cite.",
+      "evidence": "c50f18c2e4b60022 (Aug 7, SENT): 'July close is final as of yesterday' — and in the same message the live ask survives: 'Hannah — headcount actuals as of July 31 with fully-loaded cost, which I've already asked for separately but flagging here too since it's the backbone of the whole model.' The cited anchor c10f18c2e4b60038 ('Accrued payroll still pending Hannah's numbers.') is dated Aug 4, before the close was finalised.",
+      "recommended_action": "fix the claim to drop 'the July accrued payroll accrual is also being held for them' (and the matching prose clause), add c50f18c2e4b60022 to message_ids, and re-anchor on it — it is the latest message establishing the current state."
+    },
+    {
+      "type": "stale_fact",
+      "severity": "low",
+      "item_id": "finance-q4-04",
+      "message_ids": [
+        "c50f18c2e4b60015"
+      ],
+      "problem": "The claim resolves the deadline as 'Friday Jul 20', but Jul 20 2026 is a Monday — the ask was sent on Friday Jul 17, so 'by Friday' resolves to Jul 24, not Jul 20, and the due_basis is not 'explicit' because no date is stated in the body.",
+      "evidence": "c50f18c2e4b60015 header: 'Date:    Fri, 17 Jul 2026 11:00 -0400'; body: 'Can you pull that together by Friday?' Compare c40f18c2e4b60002 header: 'Date:    Mon, 20 Jul 2026 11:05 -0400'.",
+      "recommended_action": "fix due_date to '2026-07-24' with due_basis 'implicit' (or keep 2026-07-20 only if the curator prefers meta.due_date, but then drop the word 'Friday' from the claim). Adjust days_open accordingly."
+    },
+    {
+      "type": "misranked",
+      "severity": "low",
+      "item_id": "finance-q4-06",
+      "message_ids": [
+        "c20f18c2e4b60009",
+        "c20f18c2e4b60010",
+        "c50f18c2e4b60043"
+      ],
+      "problem": "Miles's $190K reserve memo — an explicit condition of the auditor's interim sign-off, nine days past its 'early next week' date, consequence 'high' — is ranked below finance-q4-05, a $1,240 reconciling-item trace with consequence 'medium' and no due date, which inverts the question's 'dependency criticality first' ranking rule.",
+      "evidence": "c20f18c2e4b60009 (Nadia, Jul 28): 'That works on our end, with one condition — I need a short written memo (a page is fine) documenting the methodology for the $190K... We'll need that in the file to support our sign-off at interim.' Sam closes the debate the next day in c20f18c2e4b60010: 'Let's get Nadia her memo and close this out.' finance-q4-05's anchor (c50f18c2e4b60043) carries no deadline at all: 'is it a timing issue that'll resolve itself in the next payout cycle?'",
+      "recommended_action": "reorder finance-q4-06 above finance-q4-05 (and consider retiering it to must_include — it gates an auditor sign-off, which is the same class of dependency as finance-q4-02)."
+    },
+    {
+      "type": "missed_item",
+      "severity": "low",
+      "item_id": null,
+      "message_ids": [
+        "c10f18c2e4b60033"
+      ],
+      "problem": "Chris Doyle promised the revised 2-year Avalara order form on Jul 29 and it never arrives anywhere in the mailbox — an unmatched promised-document edge whose window closes three days after the as-of moment.",
+      "evidence": "c10f18c2e4b60033 (Jul 29, Chris Doyle, Avalara): 'Absolutely, we can do a 2-year term at $13,600/year (6% discount). Sending over the updated order form now — valid through August 15.' No later message in the corpus contains the order form or acknowledges receipt; the thread ends here.",
+      "recommended_action": "add new item with these fields — tier: acceptable; claim: 'Avalara's Chris Doyle said on Jul 29 he was sending the revised 2-year order form at $13,600/year; it has not arrived and the quote is only valid through Aug 15.'; anchor c10f18c2e4b60033; evidence_quote 'Sending over the updated order form now — valid through August 15.'; counterparty chris.doyle@avalara.com; due_date 2026-08-15; due_basis explicit; days_open 14; consequence medium."
+    },
+    {
+      "type": "missed_item",
+      "severity": "low",
+      "item_id": null,
+      "message_ids": [
+        "c50f18c2e4b60017"
+      ],
+      "problem": "Karen never answered Aditi's Aug 6 request to sanity-check the board deck financials slide — a directed ask with a stated deadline that gates Aditi's own commitment to Sam, and the one number she specifically doubted (cash runway) is still unreconciled in her Aug 11 draft.",
+      "evidence": "c50f18c2e4b60017 (Aug 6, SENT): 'Karen — can you sanity check the numbers on this against the July close package before I send it back to Sam? Mainly want a second set of eyes on the cash runway figure, I think it's using the pre-audit number. I'll send the final version to Sam by tomorrow morning.' The thread is one message long; Karen's only later message (c60f18c2e4b60049, Aug 7) is about the trial balance and does not address the slide.",
+      "recommended_action": "add new item with these fields — tier: borderline; claim: 'Karen has not come back on the board-deck financials slide Aditi asked her to sanity-check on Aug 6, specifically the cash runway figure Aditi believes uses the pre-audit number.'; anchor c50f18c2e4b60017; evidence_quote as above; counterparty karen.voss@northwindrobotics.com; due_date 2026-08-07; due_basis explicit; days_open 6; consequence medium."
+    },
+    {
+      "type": "stale_fact",
+      "severity": "low",
+      "item_id": "finance-q4-10",
+      "message_ids": [
+        "c50f18c2e4b60020",
+        "c50f18c2e4b60049"
+      ],
+      "problem": "The item says the missing W-9 is what blocks invoice IF-3312, but the only later message on the subject — Aditi's own Aug 1 draft — attributes the delay to her unapproved invoice queue and states she is releasing payment, which undercuts the framing of Ironforge as the party being waited on.",
+      "evidence": "c50f18c2e4b60049 (Aug 1, DRAFT): 'the Ironforge invoice should have been paid on the 15th and I only just caught that it's still sitting unapproved. I'm releasing payment today'. Nothing in the corpus records the W-9 arriving, but nothing records it still blocking either — the Jul 9 chase (c50f18c2e4b60020) is the last message that mentions it.",
+      "recommended_action": "retier to borderline and reword why_it_qualifies to state the ambiguity explicitly (no W-9 receipt on record, but the owner's own last word on the invoice is that she is releasing payment). The item is really Q2/Q6 material about her unsent apology draft."
+    }
+  ],
+  "checked_and_sound": [
+    "finance-q4-02",
+    "finance-q4-03",
+    "finance-q4-05",
+    "finance-q4-07",
+    "finance-q4-08",
+    "finance-q4-09",
+    "finance-q4-11",
+    "finance-q4-12"
+  ],
+  "notes": "All twelve evidence_quotes verified as exact substrings of the cited message's body_text; every anchor_message_id is inside its own message_ids; all five must_not_include ids resolve to real messages. Closure sweeps run across the whole mailbox (not just the item threads) for 'flux', 'nexus study', 'W-9', 'NS-441982 / AP aging report role', 'rev rec memo / revenue recognition memo', 'headcount', 'Stripe payout' and 'memo' — items 07, 08, 09, 11 and 12 have no responsive message anywhere and survive. Distractors are all sound: Karen's trial balance is genuinely delivered (c60f18c2e4b60049 with attachment), Hannah's Friday promise is genuinely retracted (c60f18c2e4b60028), the DocuSign amendment is genuinely completed Aug 12, and Derek's Vantage forward genuinely carries no directed expectation of Aditi's. Nadia's OOO exclusion is defensible on a different ground than the one stated: her Aug 3 and Aug 7 messages are a chase and a new ask, not answers to the fixed-asset-rollforward scoping question — but Aditi mooted that question herself by delivering the rollforward in c50f18c2e4b60006, so it is correctly out. Three weaker edges I deliberately did NOT raise as findings, listed so a human can weigh them: (a) Ruth's Jul 20 promise 'I'll get that in writing and forward it to Ilya so he can update the PO' (the Dynatech $298 concession) has no delivery message, but Miles closed that thread on Jul 23; (b) Miles's Jul 30 'drafting the tier-2 notice for Vantage now' has no confirmation, but it was a same-day task in a topic_drift thread; (c) Gail never sent the one-page D&O increase breakdown asked for on Jun 23, and the Jul 6 Chubb-quote chase died in her OOO — both are substantively answered by her Jul 28 and Aug 4 remarketing messages, so I treat them as closed. One further caution on finance-q4-05: a system may wrongly close it against Ilya's Aug 4 message about a $1,204.17 Mercury-vs-NetSuite gap (c10f18c2e4b60040) — that is a different reconciliation ($35 wire fee plus check #10432, July, GL 1010), not the $1,240 Stripe-payout-vs-Mercury gap from the Jun 28 batch. It would be worth adding c10f18c2e4b60040 to must_not_include for exactly that reason."
+}

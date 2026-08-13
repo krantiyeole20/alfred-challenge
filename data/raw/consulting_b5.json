@@ -1,0 +1,2848 @@
+[
+  {
+    "id": "e50f18c2e4b60001",
+    "thread_id": "e50f18c2e4b60001",
+    "profile_id": "consulting",
+    "history_id": "692214",
+    "message_id_header": "<CAFe50f18c2e4b60001@mail.gmail.com>",
+    "in_reply_to": null,
+    "references": [],
+    "thread_position": 1,
+    "thread_length": 2,
+    "from": {
+      "name": "Evelyn Thorne",
+      "email": "evelyn.thorne@thornecadwell.com"
+    },
+    "to": [
+      {
+        "name": "Harlan Voss",
+        "email": "hvoss@ferristool.com"
+      }
+    ],
+    "cc": [],
+    "bcc": [],
+    "delivered_to": "hvoss@ferristool.com",
+    "subject": "Following up from AME roundtable",
+    "snippet": "Harlan, Good running into you at the AME roundtable last week — really enjoyed hearing how Ferris is tackling changeover times on the stamping line. I've spent the last few years d",
+    "body_text": "Harlan,\n\nGood running into you at the AME roundtable last week — really enjoyed hearing how Ferris is tackling changeover times on the stamping line. I've spent the last few years doing exactly that kind of work with manufacturers your size (Meridian Castings, Halberd Packaging among them), usually landing 15-25% reductions in changeover without new capex.\n\nIf it'd be useful, I'd love to grab 30 minutes and hear more about what's slowing you down on the floor. No pitch, just a conversation — I'll bring a couple of the case studies I mentioned.\n\nLet me know what your July looks like.\n\nBest,\nEvelyn",
+    "body_html": null,
+    "date": "2026-06-15T09:14:00-05:00",
+    "internal_date_ms": 1781532840000,
+    "folder": "SENT",
+    "category": null,
+    "is_unread": false,
+    "is_starred": false,
+    "is_important": false,
+    "user_labels": [],
+    "attachments": [],
+    "calendar_event": null,
+    "extra_headers": {
+      "Return-Path": "<evelyn.thorne@thornecadwell.com>"
+    },
+    "size_estimate": 1307,
+    "meta": {
+      "email_class": "client_customer",
+      "is_actionable_for_user": true,
+      "action_owner": "evelyn.thorne@thornecadwell.com",
+      "action_summary": "Evelyn offered to schedule a 30-minute conversation with a prospective client.",
+      "due_date": null,
+      "commitment_made_by_user": "Offered to set up a 30-minute call about Ferris's changeover-time problem.",
+      "notes": null,
+      "tricky_tags": [],
+      "commitment_is_conditional": false,
+      "commitment_condition": null,
+      "superseded_by_message_id": null
+    }
+  },
+  {
+    "id": "e50f18c2e4b60002",
+    "thread_id": "e50f18c2e4b60002",
+    "profile_id": "consulting",
+    "history_id": "695142",
+    "message_id_header": "<e50f18c2e4b60002@bosequant.com>",
+    "in_reply_to": null,
+    "references": [],
+    "thread_position": 1,
+    "thread_length": 2,
+    "from": {
+      "name": "Dr. Anil Bose",
+      "email": "anil.bose@bosequant.com"
+    },
+    "to": [
+      {
+        "name": "Evelyn Thorne",
+        "email": "evelyn.thorne@thornecadwell.com"
+      }
+    ],
+    "cc": [],
+    "bcc": [],
+    "delivered_to": "evelyn.thorne@thornecadwell.com",
+    "subject": "Stratus data workstream — scoping question",
+    "snippet": "Evelyn, Before I put together a number for the Stratus predictive-maintenance piece, I want to make sure I understand what's actually in scope. Is this just the vibration-sensor da",
+    "body_text": "Evelyn,\n\nBefore I put together a number for the Stratus predictive-maintenance piece, I want to make sure I understand what's actually in scope. Is this just the vibration-sensor data cleanup and a baseline anomaly-detection model, or are you also expecting me to build out the dashboard layer? Those are very different engagements — the first is maybe 60 hours, the second is closer to 150.\n\nAlso, do we know yet whether Stratus is even going to sign? I don't want to block time on my calendar for a deal that's still in proposal.\n\nAnil",
+    "body_html": null,
+    "date": "2026-06-17T11:02:00-04:00",
+    "internal_date_ms": 1781708520000,
+    "folder": "INBOX",
+    "category": "CATEGORY_PERSONAL",
+    "is_unread": false,
+    "is_starred": false,
+    "is_important": false,
+    "user_labels": [],
+    "attachments": [],
+    "calendar_event": null,
+    "extra_headers": {
+      "Return-Path": "<anil.bose@bosequant.com>"
+    },
+    "size_estimate": 1239,
+    "meta": {
+      "email_class": "client_customer",
+      "is_actionable_for_user": true,
+      "action_owner": "evelyn.thorne@thornecadwell.com",
+      "action_summary": "Evelyn needs to confirm scope boundaries and hourly cap for Bose's subcontracted data work.",
+      "due_date": null,
+      "notes": null,
+      "tricky_tags": [],
+      "commitment_made_by_user": null,
+      "commitment_is_conditional": false,
+      "commitment_condition": null,
+      "superseded_by_message_id": null
+    }
+  },
+  {
+    "id": "e50f18c2e4b60003",
+    "thread_id": "e50f18c2e4b60002",
+    "profile_id": "consulting",
+    "history_id": "696507",
+    "message_id_header": "<CAFe50f18c2e4b60003@mail.gmail.com>",
+    "in_reply_to": "<e50f18c2e4b60002@bosequant.com>",
+    "references": [
+      "<e50f18c2e4b60002@bosequant.com>"
+    ],
+    "thread_position": 2,
+    "thread_length": 2,
+    "from": {
+      "name": "Evelyn Thorne",
+      "email": "evelyn.thorne@thornecadwell.com"
+    },
+    "to": [
+      {
+        "name": "Dr. Anil Bose",
+        "email": "anil.bose@bosequant.com"
+      }
+    ],
+    "cc": [],
+    "bcc": [],
+    "delivered_to": "anil.bose@bosequant.com",
+    "subject": "Re: Stratus data workstream — scoping question",
+    "snippet": "Anil, Fair questions. Scope is the first piece only — vibration-sensor data cleanup and a baseline anomaly-detection model, not the dashboard. If Stratus wants visualization later,",
+    "body_text": "Anil,\n\nFair questions. Scope is the first piece only — vibration-sensor data cleanup and a baseline anomaly-detection model, not the dashboard. If Stratus wants visualization later, that's a phase 2 conversation and a separate SOW; don't build anything toward it yet.\n\nOn timing: we're not signed. Owen McCabe is taking the proposal to his board on the 14th of next month, and my read is it's more likely than not, but \"more likely than not\" isn't a contract. I'm not asking you to hold calendar space yet — I'll give you two weeks' notice once ink is on paper, and I know that's tight, so I'd rather you keep your calendar honest than pretend otherwise.\n\nFor planning purposes: cap the engagement at 60 hours at your standard $220/hr, so $13,200, invoiced monthly against actuals. I'll want a short scope memo from you — half a page, what's in, what's out — so Owen's team has something concrete to sign off on alongside the SOW. Can you get me that by the 25th?\n\nIf this does sign, I want you leading the technical narrative in the kickoff call. Owen's ops team is skeptical of black-box models, and you're better at explaining the guts of it than I am.\n\nTalk soon,\nEvelyn",
+    "body_html": null,
+    "date": "2026-06-18T08:47:00-05:00",
+    "internal_date_ms": 1781790420000,
+    "folder": "SENT",
+    "category": null,
+    "is_unread": false,
+    "is_starred": false,
+    "is_important": false,
+    "user_labels": [],
+    "attachments": [],
+    "calendar_event": null,
+    "extra_headers": {
+      "Return-Path": "<evelyn.thorne@thornecadwell.com>"
+    },
+    "size_estimate": 1882,
+    "meta": {
+      "email_class": "client_customer",
+      "is_actionable_for_user": true,
+      "action_owner": "evelyn.thorne@thornecadwell.com",
+      "action_summary": "Evelyn committed to giving Bose two weeks' notice before the engagement starts.",
+      "due_date": "2026-06-25",
+      "commitment_made_by_user": "Told Bose she'll give him two weeks' notice once the Stratus SOW is signed, and asked for a scope memo by June 25.",
+      "commitment_is_conditional": true,
+      "commitment_condition": "Only if Stratus signs the proposal.",
+      "notes": null,
+      "tricky_tags": [],
+      "superseded_by_message_id": null
+    }
+  },
+  {
+    "id": "e50f18c2e4b60004",
+    "thread_id": "e50f18c2e4b60004",
+    "profile_id": "consulting",
+    "history_id": "698410",
+    "message_id_header": "<CAFe50f18c2e4b60004@mail.gmail.com>",
+    "in_reply_to": null,
+    "references": [],
+    "thread_position": 1,
+    "thread_length": 1,
+    "from": {
+      "name": "Evelyn Thorne",
+      "email": "evelyn.thorne@thornecadwell.com"
+    },
+    "to": [
+      {
+        "name": "Marta Klein",
+        "email": "marta.klein@ridgefieldmfg.com"
+      }
+    ],
+    "cc": [],
+    "bcc": [],
+    "delivered_to": "marta.klein@ridgefieldmfg.com",
+    "subject": "Congrats, Marta!",
+    "snippet": "Marta — heard about the plant manager promotion from Gordon. Really well deserved. Let's catch up when things settle. Evelyn",
+    "body_text": "Marta — heard about the plant manager promotion from Gordon. Really well deserved. Let's catch up when things settle.\n\nEvelyn",
+    "body_html": null,
+    "date": "2026-06-19T16:30:00-05:00",
+    "internal_date_ms": 1781904600000,
+    "folder": "SENT",
+    "category": null,
+    "is_unread": false,
+    "is_starred": false,
+    "is_important": false,
+    "user_labels": [],
+    "attachments": [],
+    "calendar_event": null,
+    "extra_headers": {
+      "Return-Path": "<evelyn.thorne@thornecadwell.com>"
+    },
+    "size_estimate": 827,
+    "meta": {
+      "email_class": "personal",
+      "is_actionable_for_user": false,
+      "action_owner": null,
+      "action_summary": null,
+      "notes": null,
+      "tricky_tags": [],
+      "commitment_made_by_user": null,
+      "commitment_is_conditional": false,
+      "commitment_condition": null,
+      "superseded_by_message_id": null,
+      "due_date": null
+    }
+  },
+  {
+    "id": "e50f18c2e4b60005",
+    "thread_id": "e50f18c2e4b60005",
+    "profile_id": "consulting",
+    "history_id": "702280",
+    "message_id_header": "<CAFe50f18c2e4b60005@mail.gmail.com>",
+    "in_reply_to": null,
+    "references": [],
+    "thread_position": 1,
+    "thread_length": 1,
+    "from": {
+      "name": "Evelyn Thorne",
+      "email": "evelyn.thorne@thornecadwell.com"
+    },
+    "to": [
+      {
+        "name": "Gordon Cadwell",
+        "email": "gordon.cadwell@thornecadwell.com"
+      }
+    ],
+    "cc": [],
+    "bcc": [],
+    "delivered_to": "gordon.cadwell@thornecadwell.com",
+    "subject": "APICS Chicago — speaking slot",
+    "snippet": "Gordon — APICS wants one of us on the \"AI in the plant\" panel at the September conference, Thursday the 17th, downtown. I'm buried with Meridian and Stratus that week. Thoughts on ",
+    "body_text": "Gordon — APICS wants one of us on the \"AI in the plant\" panel at the September conference, Thursday the 17th, downtown. I'm buried with Meridian and Stratus that week. Thoughts on Ana taking it instead? Good visibility for her, and honestly she's sharper on the technical content than I am at this point.",
+    "body_html": null,
+    "date": "2026-06-22T09:00:00-05:00",
+    "internal_date_ms": 1782136800000,
+    "folder": "SENT",
+    "category": null,
+    "is_unread": false,
+    "is_starred": false,
+    "is_important": false,
+    "user_labels": [],
+    "attachments": [],
+    "calendar_event": null,
+    "extra_headers": {
+      "Return-Path": "<evelyn.thorne@thornecadwell.com>"
+    },
+    "size_estimate": 1006,
+    "meta": {
+      "email_class": "internal_announcement",
+      "is_actionable_for_user": false,
+      "action_owner": "gordon.cadwell@thornecadwell.com",
+      "action_summary": "Gordon needs to weigh in on whether Ana should take the APICS panel slot.",
+      "notes": null,
+      "tricky_tags": [],
+      "commitment_made_by_user": null,
+      "commitment_is_conditional": false,
+      "commitment_condition": null,
+      "superseded_by_message_id": null,
+      "due_date": null
+    }
+  },
+  {
+    "id": "e50f18c2e4b60006",
+    "thread_id": "e50f18c2e4b60006",
+    "profile_id": "consulting",
+    "history_id": "703652",
+    "message_id_header": "<CAFe50f18c2e4b60006@mail.gmail.com>",
+    "in_reply_to": null,
+    "references": [],
+    "thread_position": 1,
+    "thread_length": 1,
+    "from": {
+      "name": "Evelyn Thorne",
+      "email": "evelyn.thorne@thornecadwell.com"
+    },
+    "to": [
+      {
+        "name": "Ana Restrepo",
+        "email": "ana.restrepo@thornecadwell.com"
+      }
+    ],
+    "cc": [],
+    "bcc": [],
+    "delivered_to": "ana.restrepo@thornecadwell.com",
+    "subject": "APICS panel — want it?",
+    "snippet": "Ana — APICS wants one of us on a panel Sept 17. Can you take it? You know the material better than I do. Sent from my iPhone",
+    "body_text": "Ana — APICS wants one of us on a panel Sept 17. Can you take it? You know the material better than I do.\n\nSent from my iPhone",
+    "body_html": null,
+    "date": "2026-06-23T07:52:00-05:00",
+    "internal_date_ms": 1782219120000,
+    "folder": "SENT",
+    "category": null,
+    "is_unread": false,
+    "is_starred": false,
+    "is_important": false,
+    "user_labels": [],
+    "attachments": [],
+    "calendar_event": null,
+    "extra_headers": {
+      "Return-Path": "<evelyn.thorne@thornecadwell.com>"
+    },
+    "size_estimate": 827,
+    "meta": {
+      "email_class": "internal_announcement",
+      "is_actionable_for_user": false,
+      "action_owner": "ana.restrepo@thornecadwell.com",
+      "action_summary": "Ana needs to decide whether she'll take the APICS speaking slot.",
+      "notes": null,
+      "tricky_tags": [],
+      "commitment_made_by_user": null,
+      "commitment_is_conditional": false,
+      "commitment_condition": null,
+      "superseded_by_message_id": null,
+      "due_date": null
+    }
+  },
+  {
+    "id": "e50f18c2e4b60007",
+    "thread_id": "e50f18c2e4b60007",
+    "profile_id": "consulting",
+    "history_id": "705530",
+    "message_id_header": "<CAFe50f18c2e4b60007@mail.gmail.com>",
+    "in_reply_to": null,
+    "references": [],
+    "thread_position": 1,
+    "thread_length": 1,
+    "from": {
+      "name": "Evelyn Thorne",
+      "email": "evelyn.thorne@thornecadwell.com"
+    },
+    "to": [
+      {
+        "name": "Kyle Brenner",
+        "email": "kyle.brenner@thornecadwell.com"
+      }
+    ],
+    "cc": [],
+    "bcc": [],
+    "delivered_to": "kyle.brenner@thornecadwell.com",
+    "subject": "Stratus data pull",
+    "snippet": "Kyle — start pulling together what we'll need from Stratus's plant floor systems for the data workstream. Nothing formal yet, just prep.",
+    "body_text": "Kyle — start pulling together what we'll need from Stratus's plant floor systems for the data workstream. Nothing formal yet, just prep.",
+    "body_html": null,
+    "date": "2026-06-24T15:10:00-05:00",
+    "internal_date_ms": 1782331800000,
+    "folder": "SENT",
+    "category": null,
+    "is_unread": false,
+    "is_starred": false,
+    "is_important": false,
+    "user_labels": [],
+    "attachments": [],
+    "calendar_event": null,
+    "extra_headers": {
+      "Return-Path": "<evelyn.thorne@thornecadwell.com>"
+    },
+    "size_estimate": 838,
+    "meta": {
+      "email_class": "internal_announcement",
+      "is_actionable_for_user": false,
+      "action_owner": "kyle.brenner@thornecadwell.com",
+      "action_summary": "Kyle owes prep work identifying Stratus plant-system data sources.",
+      "notes": null,
+      "tricky_tags": [],
+      "commitment_made_by_user": null,
+      "commitment_is_conditional": false,
+      "commitment_condition": null,
+      "superseded_by_message_id": null,
+      "due_date": null
+    }
+  },
+  {
+    "id": "e50f18c2e4b60008",
+    "thread_id": "e50f18c2e4b60008",
+    "profile_id": "consulting",
+    "history_id": "712885",
+    "message_id_header": "<CAFe50f18c2e4b60008@mail.gmail.com>",
+    "in_reply_to": null,
+    "references": [],
+    "thread_position": 1,
+    "thread_length": 1,
+    "from": {
+      "name": "Evelyn Thorne",
+      "email": "evelyn.thorne@thornecadwell.com"
+    },
+    "to": [
+      {
+        "name": "Bob Vandergriff",
+        "email": "bob.vandergriff@meridiancastings.com"
+      }
+    ],
+    "cc": [],
+    "bcc": [],
+    "delivered_to": "bob.vandergriff@meridiancastings.com",
+    "subject": "Dinner while I'm in Cleveland?",
+    "snippet": "Bob — I'll be at your Cleveland facility the week of the 13th for the phase 2 kickoff prep. Any interest in dinner one of those nights? On me. Evelyn",
+    "body_text": "Bob — I'll be at your Cleveland facility the week of the 13th for the phase 2 kickoff prep. Any interest in dinner one of those nights? On me.\n\nEvelyn",
+    "body_html": null,
+    "date": "2026-06-29T17:45:00-05:00",
+    "internal_date_ms": 1782773100000,
+    "folder": "SENT",
+    "category": null,
+    "is_unread": false,
+    "is_starred": false,
+    "is_important": false,
+    "user_labels": [],
+    "attachments": [],
+    "calendar_event": null,
+    "extra_headers": {
+      "Return-Path": "<evelyn.thorne@thornecadwell.com>"
+    },
+    "size_estimate": 852,
+    "meta": {
+      "email_class": "client_customer",
+      "is_actionable_for_user": false,
+      "action_owner": null,
+      "action_summary": null,
+      "notes": null,
+      "tricky_tags": [],
+      "commitment_made_by_user": null,
+      "commitment_is_conditional": false,
+      "commitment_condition": null,
+      "superseded_by_message_id": null,
+      "due_date": null
+    }
+  },
+  {
+    "id": "e50f18c2e4b60009",
+    "thread_id": "e50f18c2e4b60009",
+    "profile_id": "consulting",
+    "history_id": "713745",
+    "message_id_header": "<CAFe50f18c2e4b60009@mail.gmail.com>",
+    "in_reply_to": null,
+    "references": [],
+    "thread_position": 1,
+    "thread_length": 1,
+    "from": {
+      "name": "Evelyn Thorne",
+      "email": "evelyn.thorne@thornecadwell.com"
+    },
+    "to": [
+      {
+        "name": "Lucia Ferraro",
+        "email": "l.ferraro@halberdpackaging.com"
+      }
+    ],
+    "cc": [],
+    "bcc": [],
+    "delivered_to": "l.ferraro@halberdpackaging.com",
+    "subject": "Kicking off the org-design work",
+    "snippet": "Lucia — good talking yesterday. I'll have Ana and Fiona start pulling the org chart and interview schedule together next week so we're ready to move fast once you're back from vaca",
+    "body_text": "Lucia — good talking yesterday. I'll have Ana and Fiona start pulling the org chart and interview schedule together next week so we're ready to move fast once you're back from vacation. Excited about this one.\n\nEvelyn",
+    "body_html": null,
+    "date": "2026-06-30T08:05:00-05:00",
+    "internal_date_ms": 1782824700000,
+    "folder": "SENT",
+    "category": null,
+    "is_unread": false,
+    "is_starred": false,
+    "is_important": false,
+    "user_labels": [],
+    "attachments": [],
+    "calendar_event": null,
+    "extra_headers": {
+      "Return-Path": "<evelyn.thorne@thornecadwell.com>"
+    },
+    "size_estimate": 919,
+    "meta": {
+      "email_class": "client_customer",
+      "is_actionable_for_user": true,
+      "action_owner": "evelyn.thorne@thornecadwell.com",
+      "action_summary": "Evelyn committed to having Ana and Fiona start the org-chart and interview prep the following week.",
+      "due_date": "2026-07-06",
+      "commitment_made_by_user": "Promised Ana and Fiona would start pulling the org chart and interview schedule together the following week.",
+      "notes": null,
+      "tricky_tags": [],
+      "commitment_is_conditional": false,
+      "commitment_condition": null,
+      "superseded_by_message_id": null
+    }
+  },
+  {
+    "id": "e50f18c2e4b60010",
+    "thread_id": "e50f18c2e4b60010",
+    "profile_id": "consulting",
+    "history_id": "732540",
+    "message_id_header": "<e50f18c2e4b60010@meridiancastings.com>",
+    "in_reply_to": null,
+    "references": [],
+    "thread_position": 1,
+    "thread_length": 2,
+    "from": {
+      "name": "Bob Vandergriff",
+      "email": "bob.vandergriff@meridiancastings.com"
+    },
+    "to": [
+      {
+        "name": "Evelyn Thorne",
+        "email": "evelyn.thorne@thornecadwell.com"
+      }
+    ],
+    "cc": [],
+    "bcc": [],
+    "delivered_to": "evelyn.thorne@thornecadwell.com",
+    "subject": "Phase 2 SOW — a few redlines",
+    "snippet": "Evelyn, Reviewed the phase 2 SOW with our CFO. Two issues before I can sign: 1. The $185K fixed fee is more than we budgeted — we were thinking closer to $165K given phase 1 came i",
+    "body_text": "Evelyn,\n\nReviewed the phase 2 SOW with our CFO. Two issues before I can sign:\n\n1. The $185K fixed fee is more than we budgeted — we were thinking closer to $165K given phase 1 came in under the estimated hours.\n2. Payment terms need to be net-45, not net-30. Our AP cycle just doesn't move that fast anymore.\n\nEverything else looks fine — scope, timeline, team. Can we get on a call this week to close this out? We want to kick off the 27th if at all possible.\n\nBob",
+    "body_html": null,
+    "date": "2026-07-13T09:20:00-05:00",
+    "internal_date_ms": 1783952400000,
+    "folder": "INBOX",
+    "category": "CATEGORY_PERSONAL",
+    "is_unread": false,
+    "is_starred": false,
+    "is_important": true,
+    "user_labels": [
+      "Label_7750"
+    ],
+    "attachments": [],
+    "calendar_event": null,
+    "extra_headers": {
+      "Return-Path": "<bob.vandergriff@meridiancastings.com>"
+    },
+    "size_estimate": 1169,
+    "meta": {
+      "email_class": "client_customer",
+      "is_actionable_for_user": true,
+      "action_owner": "evelyn.thorne@thornecadwell.com",
+      "action_summary": "Evelyn needs to respond to Bob's SOW pricing and payment-term redlines before the July 27 kickoff.",
+      "due_date": "2026-07-27",
+      "notes": null,
+      "tricky_tags": [],
+      "commitment_made_by_user": null,
+      "commitment_is_conditional": false,
+      "commitment_condition": null,
+      "superseded_by_message_id": null
+    }
+  },
+  {
+    "id": "e50f18c2e4b60011",
+    "thread_id": "e50f18c2e4b60010",
+    "profile_id": "consulting",
+    "history_id": "732985",
+    "message_id_header": "<CAFe50f18c2e4b60011@mail.gmail.com>",
+    "in_reply_to": "<e50f18c2e4b60010@meridiancastings.com>",
+    "references": [
+      "<e50f18c2e4b60010@meridiancastings.com>"
+    ],
+    "thread_position": 2,
+    "thread_length": 2,
+    "from": {
+      "name": "Evelyn Thorne",
+      "email": "evelyn.thorne@thornecadwell.com"
+    },
+    "to": [
+      {
+        "name": "Bob Vandergriff",
+        "email": "bob.vandergriff@meridiancastings.com"
+      }
+    ],
+    "cc": [],
+    "bcc": [],
+    "delivered_to": "bob.vandergriff@meridiancastings.com",
+    "subject": "Re: Phase 2 SOW — a few redlines",
+    "snippet": "Bob, Happy to move on net-45 — that's a reasonable ask and won't affect anything on our end. On the fee, I can't get to $165K and still staff this the way phase 1 worked (Ana full-",
+    "body_text": "Bob,\n\nHappy to move on net-45 — that's a reasonable ask and won't affect anything on our end. On the fee, I can't get to $165K and still staff this the way phase 1 worked (Ana full-time, Kyle at 50%, plus Anil Bose for the sensor-data piece) — but I can meet you partway at $175K if we trim the change-management workshops from four sessions to three and fold the executive readout into the final steering committee meeting instead of a standalone session.\n\nThat gets you real savings without cutting the analysis work that actually moves the needle on your changeover numbers.\n\nI'll get you a revised SOW reflecting net-45 and $175K by Friday, and we can still hit the 27th for kickoff if you're comfortable signing by early next week.\n\nOn Mon, Jul 13, 2026 at 9:20 AM Bob Vandergriff <bob.vandergriff@meridiancastings.com> wrote:\n> Reviewed the phase 2 SOW with our CFO. Two issues before I can sign:\n> 1. The $185K fixed fee is more than we budgeted...\n> 2. Payment terms need to be net-45, not net-30...\n\nEvelyn Thorne\nPresident, Thorne & Cadwell Advisory\n312-555-0148",
+    "body_html": "<div style=\"font-family:Arial,sans-serif;\"><p style=\"margin:0 0 12px 0;font-family:Arial,sans-serif;font-size:14px;color:#222;\">Bob,</p><p style=\"margin:0 0 12px 0;font-family:Arial,sans-serif;font-size:14px;color:#222;\">Happy to move on net-45 — that's a reasonable ask and won't affect anything on our end. On the fee, I can't get to $165K and still staff this the way phase 1 worked (Ana full-time, Kyle at 50%, plus Anil Bose for the sensor-data piece) — but I can meet you partway at $175K if we trim the change-management workshops from four sessions to three and fold the executive readout into the final steering committee meeting instead of a standalone session.</p><p style=\"margin:0 0 12px 0;font-family:Arial,sans-serif;font-size:14px;color:#222;\">That gets you real savings without cutting the analysis work that actually moves the needle on your changeover numbers.</p><p style=\"margin:0 0 12px 0;font-family:Arial,sans-serif;font-size:14px;color:#222;\">I'll get you a revised SOW reflecting net-45 and $175K by Friday, and we can still hit the 27th for kickoff if you're comfortable signing by early next week.</p><p style=\"margin:0 0 12px 0;font-family:Arial,sans-serif;font-size:14px;color:#222;\">On Mon, Jul 13, 2026 at 9:20 AM Bob Vandergriff <bob.vandergriff@meridiancastings.com> wrote:<br>> Reviewed the phase 2 SOW with our CFO. Two issues before I can sign:<br>> 1. The $185K fixed fee is more than we budgeted...<br>> 2. Payment terms need to be net-45, not net-30...</p><p style=\"margin:0 0 12px 0;font-family:Arial,sans-serif;font-size:14px;color:#222;\">Evelyn Thorne<br>President, Thorne & Cadwell Advisory<br>312-555-0148</p></div>",
+    "date": "2026-07-13T16:45:00-05:00",
+    "internal_date_ms": 1783979100000,
+    "folder": "SENT",
+    "category": null,
+    "is_unread": false,
+    "is_starred": false,
+    "is_important": true,
+    "user_labels": [
+      "Label_7750"
+    ],
+    "attachments": [],
+    "calendar_event": null,
+    "extra_headers": {
+      "Return-Path": "<evelyn.thorne@thornecadwell.com>"
+    },
+    "size_estimate": 3440,
+    "meta": {
+      "email_class": "client_customer",
+      "is_actionable_for_user": true,
+      "action_owner": "evelyn.thorne@thornecadwell.com",
+      "action_summary": "Evelyn committed to sending a revised SOW at $175K, net-45, by Friday July 17.",
+      "due_date": "2026-07-17",
+      "commitment_made_by_user": "Promised Bob a revised SOW reflecting net-45 payment terms and $175K fee by Friday.",
+      "notes": null,
+      "tricky_tags": [],
+      "commitment_is_conditional": false,
+      "commitment_condition": null,
+      "superseded_by_message_id": null
+    }
+  },
+  {
+    "id": "e50f18c2e4b60012",
+    "thread_id": "e50f18c2e4b60012",
+    "profile_id": "consulting",
+    "history_id": "733970",
+    "message_id_header": "<e50f18c2e4b60012@stratusindustrial.com>",
+    "in_reply_to": null,
+    "references": [],
+    "thread_position": 1,
+    "thread_length": 2,
+    "from": {
+      "name": "Owen McCabe",
+      "email": "omccabe@stratusindustrial.com"
+    },
+    "to": [
+      {
+        "name": "Evelyn Thorne",
+        "email": "evelyn.thorne@thornecadwell.com"
+      }
+    ],
+    "cc": [],
+    "bcc": [],
+    "delivered_to": "evelyn.thorne@thornecadwell.com",
+    "subject": "Proposal timing — board meets Thursday",
+    "snippet": "Evelyn — my board meets this Thursday and I'd like to have your proposal in front of them, even in draft form, so we can get a real conversation going instead of me trying to summa",
+    "body_text": "Evelyn — my board meets this Thursday and I'd like to have your proposal in front of them, even in draft form, so we can get a real conversation going instead of me trying to summarize it from memory. Any chance you can get me something today or tomorrow morning?\n\nOwen",
+    "body_html": null,
+    "date": "2026-07-14T08:10:00-06:00",
+    "internal_date_ms": 1784038200000,
+    "folder": "INBOX",
+    "category": "CATEGORY_PERSONAL",
+    "is_unread": false,
+    "is_starred": false,
+    "is_important": false,
+    "user_labels": [
+      "Label_7751"
+    ],
+    "attachments": [],
+    "calendar_event": null,
+    "extra_headers": {
+      "Return-Path": "<omccabe@stratusindustrial.com>"
+    },
+    "size_estimate": 971,
+    "meta": {
+      "email_class": "client_customer",
+      "is_actionable_for_user": true,
+      "action_owner": "evelyn.thorne@thornecadwell.com",
+      "action_summary": "Evelyn needs to get the Stratus proposal to Owen before Thursday's board meeting.",
+      "due_date": "2026-07-16",
+      "notes": null,
+      "tricky_tags": [],
+      "commitment_made_by_user": null,
+      "commitment_is_conditional": false,
+      "commitment_condition": null,
+      "superseded_by_message_id": null
+    }
+  },
+  {
+    "id": "e50f18c2e4b60013",
+    "thread_id": "e50f18c2e4b60012",
+    "profile_id": "consulting",
+    "history_id": "734558",
+    "message_id_header": "<CAFe50f18c2e4b60013@mail.gmail.com>",
+    "in_reply_to": "<e50f18c2e4b60012@stratusindustrial.com>",
+    "references": [
+      "<e50f18c2e4b60012@stratusindustrial.com>"
+    ],
+    "thread_position": 2,
+    "thread_length": 2,
+    "from": {
+      "name": "Evelyn Thorne",
+      "email": "evelyn.thorne@thornecadwell.com"
+    },
+    "to": [
+      {
+        "name": "Owen McCabe",
+        "email": "omccabe@stratusindustrial.com"
+      }
+    ],
+    "cc": [],
+    "bcc": [],
+    "delivered_to": "omccabe@stratusindustrial.com",
+    "subject": "Re: Proposal timing — board meets Thursday",
+    "snippet": "Owen, Attached is the full proposal — I wanted to get this to you tonight rather than wait until tomorrow, since I know Thursday is coming up fast. A few notes to help you walk you",
+    "body_text": "Owen,\n\nAttached is the full proposal — I wanted to get this to you tonight rather than wait until tomorrow, since I know Thursday is coming up fast. A few notes to help you walk your board through it.\n\nThe core engagement is a 14-week operations diagnostic and improvement program across your Denver and Grand Junction plants, focused on the three things you flagged when we first talked: changeover time on the CNC lines, the predictive-maintenance gap that's driving unplanned downtime, and the supply-chain visibility problem that's been masking your true on-time-delivery number. Fixed fee of $340,000, billed in three milestone payments tied to the diagnostic readout, the improvement roadmap, and the implementation kickoff.\n\nOn the predictive-maintenance piece specifically — that's where Anil Bose comes in. He's a data scientist I subcontract with regularly, PhD in applied statistics, and he'll be doing the vibration-sensor data work directly, not delegating it to a junior analyst the way some of the bigger firms would. I think that matters given how skeptical your ops team was on our first call about anything \"AI-flavored.\"\n\nTeam structure: I'm leading the engagement and will be on-site for the diagnostic weeks and the final readout. Ana Restrepo, my Principal, runs day-to-day delivery and will effectively be your point of contact between my visits — she's excellent and has run engagements of this size before. Kyle Brenner supports on the supply-chain workstream.\n\nReference-wise, I mentioned Bob Vandergriff at Meridian Castings on our call — I'm sending a separate note connecting you two directly so you can ask him anything you want about what it's actually like to work with us, warts and all. I'd rather you hear the honest version from a client than a polished one from me.\n\nTimeline: if you can get a signed SOW to me by August 1st, we can start the diagnostic phase the week of August 10th and have the roadmap in your hands before your Q4 planning cycle starts, which I know matters to you given the capex conversations you'll be having in October.\n\nHappy to jump on a call before or after the board meeting if it's useful to have me answer questions directly, live. Otherwise, I'll have this in your inbox with plenty of time to prep tonight.\n\nGood luck Thursday — I think this is a strong case, and I think you know that too.\n\nEvelyn Thorne\nPresident, Thorne & Cadwell Advisory\n312-555-0148\nevelyn.thorne@thornecadwell.com",
+    "body_html": null,
+    "date": "2026-07-14T18:58:00-05:00",
+    "internal_date_ms": 1784073480000,
+    "folder": "SENT",
+    "category": null,
+    "is_unread": false,
+    "is_starred": true,
+    "is_important": true,
+    "user_labels": [
+      "Label_7751"
+    ],
+    "attachments": [
+      {
+        "attachment_id": "ANGjdJ_fRoPe-FUrFJ0-UM-Vmmo69s0ypbOR7sG6RsdRNlans02o9f400",
+        "filename": "Stratus_Industrial_Proposal_v3.pdf",
+        "mime_type": "application/pdf",
+        "size_bytes": 612000,
+        "is_inline": false,
+        "content_id": null,
+        "extracted_text": "STRATUS INDUSTRIAL — OPERATIONS DIAGNOSTIC & IMPROVEMENT PROGRAM\nPrepared by Thorne & Cadwell Advisory\n\nScope: 14-week diagnostic across Denver and Grand Junction plants covering (1) CNC changeover time reduction, (2) predictive maintenance for stamping presses, (3) supply-chain / on-time-delivery visibility.\nFee: $340,000 fixed fee, three milestone payments — diagnostic readout, improvement roadmap, implementation kickoff.\nTeam: Evelyn Thorne (engagement lead), Ana Restrepo (day-to-day delivery), Kyle Brenner (supply chain), Dr. Anil Bose (predictive-maintenance data science, subcontracted).\nTimeline: signed SOW by Aug 1 -> diagnostic phase begins week of Aug 10 -> roadmap delivered before Q4 planning cycle.\nReferences available on request."
+      }
+    ],
+    "calendar_event": null,
+    "extra_headers": {
+      "Return-Path": "<evelyn.thorne@thornecadwell.com>"
+    },
+    "size_estimate": 823246,
+    "meta": {
+      "email_class": "client_customer",
+      "is_actionable_for_user": true,
+      "action_owner": "evelyn.thorne@thornecadwell.com",
+      "action_summary": "Evelyn offered to join Thursday's board call live if Owen wants her there.",
+      "due_date": "2026-07-16",
+      "commitment_made_by_user": "Offered to jump on a call before or after Thursday's board meeting if useful.",
+      "commitment_is_conditional": true,
+      "commitment_condition": "Only if Owen wants her on the call.",
+      "notes": null,
+      "tricky_tags": [],
+      "superseded_by_message_id": null
+    }
+  },
+  {
+    "id": "e50f18c2e4b60014",
+    "thread_id": "e50f18c2e4b60014",
+    "profile_id": "consulting",
+    "history_id": "735522",
+    "message_id_header": "<e50f18c2e4b60014@stratusindustrial.com>",
+    "in_reply_to": null,
+    "references": [],
+    "thread_position": 1,
+    "thread_length": 2,
+    "from": {
+      "name": "Owen McCabe",
+      "email": "omccabe@stratusindustrial.com"
+    },
+    "to": [
+      {
+        "name": "Evelyn Thorne",
+        "email": "evelyn.thorne@thornecadwell.com"
+      }
+    ],
+    "cc": [],
+    "bcc": [],
+    "delivered_to": "evelyn.thorne@thornecadwell.com",
+    "subject": "Reference client?",
+    "snippet": "Evelyn — before I bring this to the board, could I talk to one of your current clients? Ideally someone in industrial manufacturing who's done a similar diagnostic engagement. Does",
+    "body_text": "Evelyn — before I bring this to the board, could I talk to one of your current clients? Ideally someone in industrial manufacturing who's done a similar diagnostic engagement. Doesn't need to be long, just want an honest read.\n\nOwen",
+    "body_html": null,
+    "date": "2026-07-15T10:02:00-06:00",
+    "internal_date_ms": 1784131320000,
+    "folder": "INBOX",
+    "category": "CATEGORY_PERSONAL",
+    "is_unread": false,
+    "is_starred": false,
+    "is_important": false,
+    "user_labels": [],
+    "attachments": [],
+    "calendar_event": null,
+    "extra_headers": {
+      "Return-Path": "<omccabe@stratusindustrial.com>"
+    },
+    "size_estimate": 934,
+    "meta": {
+      "email_class": "client_customer",
+      "is_actionable_for_user": true,
+      "action_owner": "evelyn.thorne@thornecadwell.com",
+      "action_summary": "Evelyn needs to connect Owen with a reference client.",
+      "due_date": null,
+      "notes": null,
+      "tricky_tags": [],
+      "commitment_made_by_user": null,
+      "commitment_is_conditional": false,
+      "commitment_condition": null,
+      "superseded_by_message_id": null
+    }
+  },
+  {
+    "id": "e50f18c2e4b60015",
+    "thread_id": "e50f18c2e4b60014",
+    "profile_id": "consulting",
+    "history_id": "735730",
+    "message_id_header": "<CAFe50f18c2e4b60015@mail.gmail.com>",
+    "in_reply_to": "<e50f18c2e4b60014@stratusindustrial.com>",
+    "references": [
+      "<e50f18c2e4b60014@stratusindustrial.com>"
+    ],
+    "thread_position": 2,
+    "thread_length": 2,
+    "from": {
+      "name": "Evelyn Thorne",
+      "email": "evelyn.thorne@thornecadwell.com"
+    },
+    "to": [
+      {
+        "name": "Owen McCabe",
+        "email": "omccabe@stratusindustrial.com"
+      }
+    ],
+    "cc": [
+      {
+        "name": "Bob Vandergriff",
+        "email": "bob.vandergriff@meridiancastings.com"
+      }
+    ],
+    "bcc": [],
+    "delivered_to": "omccabe@stratusindustrial.com",
+    "subject": "Re: Reference client?",
+    "snippet": "Owen, Bob — let me connect you two directly. Owen, Bob is VP Ops at Meridian Castings, our largest client, and we've been through exactly the kind of diagnostic-into-implementation",
+    "body_text": "Owen, Bob — let me connect you two directly.\n\nOwen, Bob is VP Ops at Meridian Castings, our largest client, and we've been through exactly the kind of diagnostic-into-implementation engagement you're evaluating — phase 1 wrapped in the spring and we're now signing phase 2. He'll give you the unfiltered version, good and bad.\n\nBob, Owen runs supply chain and ops at Stratus Industrial, they're looking at a similar engagement to what we did with you, mostly around changeover and predictive maintenance. Would you be open to a 20-minute call this week or next?\n\nI'll let you two find time — thank you both.\n\nEvelyn",
+    "body_html": null,
+    "date": "2026-07-15T14:30:00-05:00",
+    "internal_date_ms": 1784143800000,
+    "folder": "SENT",
+    "category": null,
+    "is_unread": false,
+    "is_starred": false,
+    "is_important": false,
+    "user_labels": [],
+    "attachments": [],
+    "calendar_event": null,
+    "extra_headers": {
+      "Return-Path": "<evelyn.thorne@thornecadwell.com>"
+    },
+    "size_estimate": 1321,
+    "meta": {
+      "email_class": "client_customer",
+      "is_actionable_for_user": false,
+      "action_owner": null,
+      "action_summary": null,
+      "notes": null,
+      "tricky_tags": [],
+      "commitment_made_by_user": null,
+      "commitment_is_conditional": false,
+      "commitment_condition": null,
+      "superseded_by_message_id": null,
+      "due_date": null
+    }
+  },
+  {
+    "id": "e50f18c2e4b60016",
+    "thread_id": "e50f18c2e4b60016",
+    "profile_id": "consulting",
+    "history_id": "736795",
+    "message_id_header": "<CAFe50f18c2e4b60016@mail.gmail.com>",
+    "in_reply_to": null,
+    "references": [],
+    "thread_position": 1,
+    "thread_length": 2,
+    "from": {
+      "name": "Sheila Park",
+      "email": "sheila.park@thornecadwell.com"
+    },
+    "to": [
+      {
+        "name": "Evelyn Thorne",
+        "email": "evelyn.thorne@thornecadwell.com"
+      }
+    ],
+    "cc": [],
+    "bcc": [],
+    "delivered_to": "evelyn.thorne@thornecadwell.com",
+    "subject": "Ridgefield invoice #10412 still open",
+    "snippet": "Evelyn — invoice #10412 to Ridgefield Mfg, $18,400, was due May 18th. That's 90 days now. I've sent two reminders and Marta hasn't responded to either. Want me to keep chasing or d",
+    "body_text": "Evelyn — invoice #10412 to Ridgefield Mfg, $18,400, was due May 18th. That's 90 days now. I've sent two reminders and Marta hasn't responded to either. Want me to keep chasing or do you want to reach out directly?\n\nSheila",
+    "body_html": null,
+    "date": "2026-07-16T08:15:00-05:00",
+    "internal_date_ms": 1784207700000,
+    "folder": "INBOX",
+    "category": "CATEGORY_PERSONAL",
+    "is_unread": false,
+    "is_starred": false,
+    "is_important": false,
+    "user_labels": [],
+    "attachments": [],
+    "calendar_event": null,
+    "extra_headers": {
+      "Return-Path": "<sheila.park@thornecadwell.com>"
+    },
+    "size_estimate": 923,
+    "meta": {
+      "email_class": "genuine_work",
+      "is_actionable_for_user": true,
+      "action_owner": "evelyn.thorne@thornecadwell.com",
+      "action_summary": "Evelyn needs to decide how to handle the 90-day-overdue Ridgefield invoice.",
+      "due_date": null,
+      "notes": null,
+      "tricky_tags": [],
+      "commitment_made_by_user": null,
+      "commitment_is_conditional": false,
+      "commitment_condition": null,
+      "superseded_by_message_id": null
+    }
+  },
+  {
+    "id": "e50f18c2e4b60017",
+    "thread_id": "e50f18c2e4b60016",
+    "profile_id": "consulting",
+    "history_id": "737000",
+    "message_id_header": "<CAFe50f18c2e4b60017@mail.gmail.com>",
+    "in_reply_to": "<CAFe50f18c2e4b60016@mail.gmail.com>",
+    "references": [
+      "<CAFe50f18c2e4b60016@mail.gmail.com>"
+    ],
+    "thread_position": 2,
+    "thread_length": 2,
+    "from": {
+      "name": "Evelyn Thorne",
+      "email": "evelyn.thorne@thornecadwell.com"
+    },
+    "to": [
+      {
+        "name": "Sheila Park",
+        "email": "sheila.park@thornecadwell.com"
+      }
+    ],
+    "cc": [],
+    "bcc": [],
+    "delivered_to": "sheila.park@thornecadwell.com",
+    "subject": "Re: Ridgefield invoice #10412 still open",
+    "snippet": "Sheila — I'll reach out to Marta myself today, this has gone on long enough. Hold off on any more automated reminders until you hear from me. E",
+    "body_text": "Sheila — I'll reach out to Marta myself today, this has gone on long enough. Hold off on any more automated reminders until you hear from me.\n\nE",
+    "body_html": null,
+    "date": "2026-07-16T11:40:00-05:00",
+    "internal_date_ms": 1784220000000,
+    "folder": "SENT",
+    "category": null,
+    "is_unread": false,
+    "is_starred": false,
+    "is_important": false,
+    "user_labels": [],
+    "attachments": [],
+    "calendar_event": null,
+    "extra_headers": {
+      "Return-Path": "<evelyn.thorne@thornecadwell.com>"
+    },
+    "size_estimate": 846,
+    "meta": {
+      "email_class": "genuine_work",
+      "is_actionable_for_user": true,
+      "action_owner": "evelyn.thorne@thornecadwell.com",
+      "action_summary": "Evelyn committed to contacting Marta about the overdue invoice that day.",
+      "due_date": "2026-07-16",
+      "commitment_made_by_user": "Told Sheila she'd reach out to Marta directly that same day.",
+      "notes": null,
+      "tricky_tags": [],
+      "commitment_is_conditional": false,
+      "commitment_condition": null,
+      "superseded_by_message_id": null
+    }
+  },
+  {
+    "id": "e50f18c2e4b60018",
+    "thread_id": "e50f18c2e4b60018",
+    "profile_id": "consulting",
+    "history_id": "737205",
+    "message_id_header": "<CAFe50f18c2e4b60018@mail.gmail.com>",
+    "in_reply_to": null,
+    "references": [],
+    "thread_position": 1,
+    "thread_length": 1,
+    "from": {
+      "name": "Evelyn Thorne",
+      "email": "evelyn.thorne@thornecadwell.com"
+    },
+    "to": [
+      {
+        "name": "Marta Klein",
+        "email": "marta.klein@ridgefieldmfg.com"
+      }
+    ],
+    "cc": [],
+    "bcc": [],
+    "delivered_to": "marta.klein@ridgefieldmfg.com",
+    "subject": "Invoice #10412 — 90 days past due",
+    "snippet": "Marta, I'll keep this direct because I think that's more respectful of both our time than a third polite reminder. Invoice #10412 for $18,400, for the Ridgefield efficiency assessm",
+    "body_text": "Marta,\n\nI'll keep this direct because I think that's more respectful of both our time than a third polite reminder. Invoice #10412 for $18,400, for the Ridgefield efficiency assessment we closed out in February, was due May 18th and is now 90 days outstanding. Sheila has sent two reminders that haven't gotten a response.\n\nI understand budgets get tight and approvals get stuck — if there's something on your end holding this up, tell me and I'll work with you on it. But I do need to move this forward one way or another. Our standard terms allow for a 1.5% monthly late fee past 60 days, which I haven't applied yet, and would rather not.\n\nCan you get this paid by August 19th, or at minimum get me a specific date I can rely on? I'd like to resolve this without involving our attorney, and I don't think either of us wants that either.\n\nEvelyn",
+    "body_html": "<div style=\"font-family:Arial,sans-serif;\"><p style=\"margin:0 0 12px 0;font-family:Arial,sans-serif;font-size:14px;color:#222;\">Marta,</p><p style=\"margin:0 0 12px 0;font-family:Arial,sans-serif;font-size:14px;color:#222;\">I'll keep this direct because I think that's more respectful of both our time than a third polite reminder. Invoice #10412 for $18,400, for the Ridgefield efficiency assessment we closed out in February, was due May 18th and is now 90 days outstanding. Sheila has sent two reminders that haven't gotten a response.</p><p style=\"margin:0 0 12px 0;font-family:Arial,sans-serif;font-size:14px;color:#222;\">I understand budgets get tight and approvals get stuck — if there's something on your end holding this up, tell me and I'll work with you on it. But I do need to move this forward one way or another. Our standard terms allow for a 1.5% monthly late fee past 60 days, which I haven't applied yet, and would rather not.</p><p style=\"margin:0 0 12px 0;font-family:Arial,sans-serif;font-size:14px;color:#222;\">Can you get this paid by August 19th, or at minimum get me a specific date I can rely on? I'd like to resolve this without involving our attorney, and I don't think either of us wants that either.</p><p style=\"margin:0 0 12px 0;font-family:Arial,sans-serif;font-size:14px;color:#222;\">Evelyn</p></div>",
+    "date": "2026-07-16T15:05:00-05:00",
+    "internal_date_ms": 1784232300000,
+    "folder": "SENT",
+    "category": null,
+    "is_unread": false,
+    "is_starred": false,
+    "is_important": true,
+    "user_labels": [
+      "Label_7752"
+    ],
+    "attachments": [
+      {
+        "attachment_id": "ANGjdJ_IkhFXhAAla-21zOuGIYPCh9FP7hda0eZXxBcoAUWphfTb7HFKD",
+        "filename": "Invoice_10412.pdf",
+        "mime_type": "application/pdf",
+        "size_bytes": 48000,
+        "is_inline": false,
+        "content_id": null,
+        "extracted_text": "INVOICE #10412\nThorne & Cadwell Advisory\nBill To: Ridgefield Mfg, Attn: Marta Klein\nDescription: Ridgefield efficiency assessment — final phase\nAmount Due: $18,400.00\nInvoice Date: 2026-04-18\nDue Date: 2026-05-18\nTerms: Net 30\nStatus: 90+ days past due\nLate fee: 1.5% per month applies after 60 days past due (not yet applied)"
+      }
+    ],
+    "calendar_event": null,
+    "extra_headers": {
+      "Return-Path": "<evelyn.thorne@thornecadwell.com>"
+    },
+    "size_estimate": 67204,
+    "meta": {
+      "email_class": "genuine_work",
+      "is_actionable_for_user": true,
+      "action_owner": "evelyn.thorne@thornecadwell.com",
+      "action_summary": "Evelyn asked Marta to pay the overdue invoice by August 19 or provide a firm date.",
+      "due_date": "2026-08-19",
+      "notes": null,
+      "tricky_tags": [],
+      "commitment_made_by_user": null,
+      "commitment_is_conditional": false,
+      "commitment_condition": null,
+      "superseded_by_message_id": null
+    }
+  },
+  {
+    "id": "e50f18c2e4b60019",
+    "thread_id": "e50f18c2e4b60019",
+    "profile_id": "consulting",
+    "history_id": "738280",
+    "message_id_header": "<CAFe50f18c2e4b60019@mail.gmail.com>",
+    "in_reply_to": null,
+    "references": [],
+    "thread_position": 1,
+    "thread_length": 1,
+    "from": {
+      "name": "Evelyn Thorne",
+      "email": "evelyn.thorne@thornecadwell.com"
+    },
+    "to": [
+      {
+        "name": "Sheila Park",
+        "email": "sheila.park@thornecadwell.com"
+      }
+    ],
+    "cc": [],
+    "bcc": [],
+    "delivered_to": "sheila.park@thornecadwell.com",
+    "subject": "Collections follow-up — Ridgefield",
+    "snippet": "Sheila — sent Marta a direct note yesterday, asked for payment by the 19th of August. No response yet. Give it until Friday, then let's loop in Terrence.",
+    "body_text": "Sheila — sent Marta a direct note yesterday, asked for payment by the 19th of August. No response yet. Give it until Friday, then let's loop in Terrence.",
+    "body_html": null,
+    "date": "2026-07-17T09:00:00-05:00",
+    "internal_date_ms": 1784296800000,
+    "folder": "SENT",
+    "category": null,
+    "is_unread": false,
+    "is_starred": false,
+    "is_important": false,
+    "user_labels": [],
+    "attachments": [],
+    "calendar_event": null,
+    "extra_headers": {
+      "Return-Path": "<evelyn.thorne@thornecadwell.com>"
+    },
+    "size_estimate": 855,
+    "meta": {
+      "email_class": "genuine_work",
+      "is_actionable_for_user": true,
+      "action_owner": "evelyn.thorne@thornecadwell.com",
+      "action_summary": "Evelyn set a Friday checkpoint for escalating the Ridgefield collections to the firm's attorney.",
+      "due_date": "2026-07-24",
+      "notes": null,
+      "tricky_tags": [],
+      "commitment_made_by_user": null,
+      "commitment_is_conditional": false,
+      "commitment_condition": null,
+      "superseded_by_message_id": null
+    }
+  },
+  {
+    "id": "e50f18c2e4b60020",
+    "thread_id": "e50f18c2e4b60020",
+    "profile_id": "consulting",
+    "history_id": "738540",
+    "message_id_header": "<e50f18c2e4b60020@halberdpackaging.com>",
+    "in_reply_to": null,
+    "references": [],
+    "thread_position": 1,
+    "thread_length": 2,
+    "from": {
+      "name": "Lucia Ferraro",
+      "email": "l.ferraro@halberdpackaging.com"
+    },
+    "to": [
+      {
+        "name": "Evelyn Thorne",
+        "email": "evelyn.thorne@thornecadwell.com"
+      }
+    ],
+    "cc": [],
+    "bcc": [],
+    "delivered_to": "evelyn.thorne@thornecadwell.com",
+    "subject": "Where are we on the org-design deck?",
+    "snippet": "Evelyn — my board prep starts Monday and I was expecting a draft of the org-design deck by now. Are we still on track? I need something I can react to even if it's rough. Lucia",
+    "body_text": "Evelyn — my board prep starts Monday and I was expecting a draft of the org-design deck by now. Are we still on track? I need something I can react to even if it's rough.\n\nLucia",
+    "body_html": null,
+    "date": "2026-07-17T13:20:00-05:00",
+    "internal_date_ms": 1784312400000,
+    "folder": "INBOX",
+    "category": "CATEGORY_PERSONAL",
+    "is_unread": false,
+    "is_starred": false,
+    "is_important": true,
+    "user_labels": [],
+    "attachments": [],
+    "calendar_event": null,
+    "extra_headers": {
+      "Return-Path": "<l.ferraro@halberdpackaging.com>"
+    },
+    "size_estimate": 879,
+    "meta": {
+      "email_class": "client_customer",
+      "is_actionable_for_user": true,
+      "action_owner": "evelyn.thorne@thornecadwell.com",
+      "action_summary": "Evelyn needs to get Lucia a draft of the org-design deck before her Monday board prep.",
+      "due_date": "2026-07-20",
+      "notes": null,
+      "tricky_tags": [],
+      "commitment_made_by_user": null,
+      "commitment_is_conditional": false,
+      "commitment_condition": null,
+      "superseded_by_message_id": null
+    }
+  },
+  {
+    "id": "e50f18c2e4b60021",
+    "thread_id": "e50f18c2e4b60020",
+    "profile_id": "consulting",
+    "history_id": "742570",
+    "message_id_header": "<CAFe50f18c2e4b60021@mail.gmail.com>",
+    "in_reply_to": "<e50f18c2e4b60020@halberdpackaging.com>",
+    "references": [
+      "<e50f18c2e4b60020@halberdpackaging.com>"
+    ],
+    "thread_position": 2,
+    "thread_length": 2,
+    "from": {
+      "name": "Evelyn Thorne",
+      "email": "evelyn.thorne@thornecadwell.com"
+    },
+    "to": [
+      {
+        "name": "Lucia Ferraro",
+        "email": "l.ferraro@halberdpackaging.com"
+      }
+    ],
+    "cc": [],
+    "bcc": [],
+    "delivered_to": "l.ferraro@halberdpackaging.com",
+    "subject": "Re: Where are we on the org-design deck?",
+    "snippet": "Lucia — that's on me, I'm sorry. Fiona had the interview data pulled together last week but I sat on the synthesis over the weekend when I should have flagged the delay Friday inst",
+    "body_text": "Lucia — that's on me, I'm sorry. Fiona had the interview data pulled together last week but I sat on the synthesis over the weekend when I should have flagged the delay Friday instead of going quiet.\n\nI'm putting Ana on this directly as of this morning — she's sharper on org design than I am anyway, and she'll have far more bandwidth to give it than I currently do between Meridian and Stratus. You'll have a revised draft from her by end of day Wednesday, and I'll personally review it before it goes to you so nothing sloppy lands in your inbox.\n\nOn Fri, Jul 17, 2026 at 1:20 PM Lucia Ferraro <l.ferraro@halberdpackaging.com> wrote:\n> Evelyn — my board prep starts Monday and I was expecting a draft of the org-design deck by now. Are we still on track?\n\nAgain, I'm sorry for the silence — you deserved a heads-up sooner.\n\nEvelyn",
+    "body_html": null,
+    "date": "2026-07-20T08:30:00-05:00",
+    "internal_date_ms": 1784554200000,
+    "folder": "SENT",
+    "category": null,
+    "is_unread": false,
+    "is_starred": false,
+    "is_important": true,
+    "user_labels": [],
+    "attachments": [],
+    "calendar_event": null,
+    "extra_headers": {
+      "Return-Path": "<evelyn.thorne@thornecadwell.com>"
+    },
+    "size_estimate": 1541,
+    "meta": {
+      "email_class": "client_customer",
+      "is_actionable_for_user": true,
+      "action_owner": "evelyn.thorne@thornecadwell.com",
+      "action_summary": "Evelyn committed that Ana will deliver a revised org-design deck draft to Lucia by end of day Wednesday.",
+      "due_date": "2026-07-22",
+      "commitment_made_by_user": "Promised Lucia a revised draft from Ana by end of day Wednesday, personally reviewed first.",
+      "notes": null,
+      "tricky_tags": [],
+      "commitment_is_conditional": false,
+      "commitment_condition": null,
+      "superseded_by_message_id": null
+    }
+  },
+  {
+    "id": "e50f18c2e4b60022",
+    "thread_id": "e50f18c2e4b60022",
+    "profile_id": "consulting",
+    "history_id": "742585",
+    "message_id_header": "<CAFe50f18c2e4b60022@mail.gmail.com>",
+    "in_reply_to": null,
+    "references": [],
+    "thread_position": 1,
+    "thread_length": 1,
+    "from": {
+      "name": "Evelyn Thorne",
+      "email": "evelyn.thorne@thornecadwell.com"
+    },
+    "to": [
+      {
+        "name": "Ana Restrepo",
+        "email": "ana.restrepo@thornecadwell.com"
+      }
+    ],
+    "cc": [],
+    "bcc": [],
+    "delivered_to": "ana.restrepo@thornecadwell.com",
+    "subject": "Halberd deck — yours",
+    "snippet": "Ana — can you own the Halberd deck from here? Told Lucia she'll have a revised draft from you by EOD Wednesday.",
+    "body_text": "Ana — can you own the Halberd deck from here? Told Lucia she'll have a revised draft from you by EOD Wednesday.",
+    "body_html": null,
+    "date": "2026-07-20T08:45:00-05:00",
+    "internal_date_ms": 1784555100000,
+    "folder": "SENT",
+    "category": null,
+    "is_unread": false,
+    "is_starred": false,
+    "is_important": false,
+    "user_labels": [],
+    "attachments": [],
+    "calendar_event": null,
+    "extra_headers": {
+      "Return-Path": "<evelyn.thorne@thornecadwell.com>"
+    },
+    "size_estimate": 813,
+    "meta": {
+      "email_class": "internal_announcement",
+      "is_actionable_for_user": false,
+      "action_owner": "ana.restrepo@thornecadwell.com",
+      "action_summary": "Ana owes Lucia a revised org-design deck draft by end of day Wednesday.",
+      "due_date": "2026-07-22",
+      "notes": null,
+      "tricky_tags": [],
+      "commitment_made_by_user": null,
+      "commitment_is_conditional": false,
+      "commitment_condition": null,
+      "superseded_by_message_id": null
+    }
+  },
+  {
+    "id": "e50f18c2e4b60023",
+    "thread_id": "e50f18c2e4b60023",
+    "profile_id": "consulting",
+    "history_id": "744050",
+    "message_id_header": "<CAFe50f18c2e4b60023@mail.gmail.com>",
+    "in_reply_to": null,
+    "references": [],
+    "thread_position": 1,
+    "thread_length": 1,
+    "from": {
+      "name": "Evelyn Thorne",
+      "email": "evelyn.thorne@thornecadwell.com"
+    },
+    "to": [
+      {
+        "name": "Ana Restrepo",
+        "email": "ana.restrepo@thornecadwell.com"
+      }
+    ],
+    "cc": [],
+    "bcc": [],
+    "delivered_to": "ana.restrepo@thornecadwell.com",
+    "subject": "Meridian Phase 2 — you're leading",
+    "snippet": "Ana — assuming Bob signs this week, I want you running Meridian phase 2 day-to-day, same as phase 1. Kyle's supporting on supply chain, Anil's on the sensor data if that piece surv",
+    "body_text": "Ana — assuming Bob signs this week, I want you running Meridian phase 2 day-to-day, same as phase 1. Kyle's supporting on supply chain, Anil's on the sensor data if that piece survives. I'll be on-site for kickoff and the milestone reviews but I can't be the daily point of contact this time with Stratus ramping up. Can you block next Thursday for a planning session with me before kickoff?",
+    "body_html": null,
+    "date": "2026-07-21T09:10:00-05:00",
+    "internal_date_ms": 1784643000000,
+    "folder": "SENT",
+    "category": null,
+    "is_unread": false,
+    "is_starred": false,
+    "is_important": false,
+    "user_labels": [],
+    "attachments": [],
+    "calendar_event": null,
+    "extra_headers": {
+      "Return-Path": "<evelyn.thorne@thornecadwell.com>"
+    },
+    "size_estimate": 1093,
+    "meta": {
+      "email_class": "internal_announcement",
+      "is_actionable_for_user": false,
+      "action_owner": "ana.restrepo@thornecadwell.com",
+      "action_summary": "Ana needs to block time for a Meridian planning session before kickoff.",
+      "due_date": null,
+      "notes": null,
+      "tricky_tags": [],
+      "commitment_made_by_user": null,
+      "commitment_is_conditional": false,
+      "commitment_condition": null,
+      "superseded_by_message_id": null
+    }
+  },
+  {
+    "id": "e50f18c2e4b60024",
+    "thread_id": "e50f18c2e4b60024",
+    "profile_id": "consulting",
+    "history_id": "744440",
+    "message_id_header": "<CAFe50f18c2e4b60024@mail.gmail.com>",
+    "in_reply_to": null,
+    "references": [],
+    "thread_position": 1,
+    "thread_length": 1,
+    "from": {
+      "name": "Evelyn Thorne",
+      "email": "evelyn.thorne@thornecadwell.com"
+    },
+    "to": [
+      {
+        "name": "Kyle Brenner",
+        "email": "kyle.brenner@thornecadwell.com"
+      }
+    ],
+    "cc": [],
+    "bcc": [],
+    "delivered_to": "kyle.brenner@thornecadwell.com",
+    "subject": "Meridian data room access",
+    "snippet": "Kyle — Bob's IT is setting you up with SharePoint access to the plant data today. Ping Sheila if it's not through by 3.",
+    "body_text": "Kyle — Bob's IT is setting you up with SharePoint access to the plant data today. Ping Sheila if it's not through by 3.",
+    "body_html": null,
+    "date": "2026-07-21T15:40:00-05:00",
+    "internal_date_ms": 1784666400000,
+    "folder": "SENT",
+    "category": null,
+    "is_unread": false,
+    "is_starred": false,
+    "is_important": false,
+    "user_labels": [],
+    "attachments": [],
+    "calendar_event": null,
+    "extra_headers": {
+      "Return-Path": "<evelyn.thorne@thornecadwell.com>"
+    },
+    "size_estimate": 821,
+    "meta": {
+      "email_class": "internal_announcement",
+      "is_actionable_for_user": false,
+      "action_owner": "kyle.brenner@thornecadwell.com",
+      "action_summary": null,
+      "notes": null,
+      "tricky_tags": [],
+      "commitment_made_by_user": null,
+      "commitment_is_conditional": false,
+      "commitment_condition": null,
+      "superseded_by_message_id": null,
+      "due_date": null
+    }
+  },
+  {
+    "id": "e50f18c2e4b60025",
+    "thread_id": "e50f18c2e4b60025",
+    "profile_id": "consulting",
+    "history_id": "745415",
+    "message_id_header": "<CAFe50f18c2e4b60025@mail.gmail.com>",
+    "in_reply_to": null,
+    "references": [],
+    "thread_position": 1,
+    "thread_length": 1,
+    "from": {
+      "name": "Evelyn Thorne",
+      "email": "evelyn.thorne@thornecadwell.com"
+    },
+    "to": [
+      {
+        "name": "Kyle Brenner",
+        "email": "kyle.brenner@thornecadwell.com"
+      }
+    ],
+    "cc": [],
+    "bcc": [],
+    "delivered_to": "kyle.brenner@thornecadwell.com",
+    "subject": "Fwd: Stratus RFP doc — can you build the data pull outline?",
+    "snippet": "Kyle — forwarding Owen's original scope doc from when they first reached out. Can you build an outline of what we'll need pulled from their plant systems once this signs? Don't nee",
+    "body_text": "Kyle — forwarding Owen's original scope doc from when they first reached out. Can you build an outline of what we'll need pulled from their plant systems once this signs? Don't need it polished, just enough to hand Anil a starting point.\n\nEvelyn\n\n---------- Forwarded message ---------\nFrom: Owen McCabe <omccabe@stratusindustrial.com>\nDate: Mon, May 4, 2026 at 2:15 PM\nSubject: Initial scope thoughts\nTo: Evelyn Thorne <evelyn.thorne@thornecadwell.com>\n\nEvelyn — following up from the conference. Attaching our internal notes on what we think we need: changeover time reduction on the CNC lines, predictive maintenance on the stamping presses, and better visibility into on-time delivery across both plants. Would love your read on whether this is realistic as one engagement or should be split up.\n\nOwen",
+    "body_html": null,
+    "date": "2026-07-22T07:55:00-05:00",
+    "internal_date_ms": 1784724900000,
+    "folder": "SENT",
+    "category": null,
+    "is_unread": false,
+    "is_starred": false,
+    "is_important": false,
+    "user_labels": [],
+    "attachments": [],
+    "calendar_event": null,
+    "extra_headers": {
+      "Return-Path": "<evelyn.thorne@thornecadwell.com>"
+    },
+    "size_estimate": 1509,
+    "meta": {
+      "email_class": "internal_announcement",
+      "is_actionable_for_user": false,
+      "action_owner": "kyle.brenner@thornecadwell.com",
+      "action_summary": "Kyle owes a data-pull outline for the Stratus engagement, built from the forwarded scope notes.",
+      "due_date": null,
+      "notes": null,
+      "tricky_tags": [],
+      "commitment_made_by_user": null,
+      "commitment_is_conditional": false,
+      "commitment_condition": null,
+      "superseded_by_message_id": null
+    }
+  },
+  {
+    "id": "e50f18c2e4b60026",
+    "thread_id": "e50f18c2e4b60026",
+    "profile_id": "consulting",
+    "history_id": "745915",
+    "message_id_header": "<CAFe50f18c2e4b60026@mail.gmail.com>",
+    "in_reply_to": null,
+    "references": [],
+    "thread_position": 1,
+    "thread_length": 1,
+    "from": {
+      "name": "Evelyn Thorne",
+      "email": "evelyn.thorne@thornecadwell.com"
+    },
+    "to": [
+      {
+        "name": "Kyle Brenner",
+        "email": "kyle.brenner@thornecadwell.com"
+      },
+      {
+        "name": "Fiona Dunne",
+        "email": "fiona.dunne@thornecadwell.com"
+      }
+    ],
+    "cc": [],
+    "bcc": [],
+    "delivered_to": "kyle.brenner@thornecadwell.com",
+    "subject": "Stratus data pull outline — status check",
+    "snippet": "Kyle, Fiona — where are we on the data pull outline? Need something by Friday even if rough.",
+    "body_text": "Kyle, Fiona — where are we on the data pull outline? Need something by Friday even if rough.",
+    "body_html": null,
+    "date": "2026-07-22T16:15:00-05:00",
+    "internal_date_ms": 1784754900000,
+    "folder": "SENT",
+    "category": null,
+    "is_unread": false,
+    "is_starred": false,
+    "is_important": false,
+    "user_labels": [],
+    "attachments": [],
+    "calendar_event": null,
+    "extra_headers": {
+      "Return-Path": "<evelyn.thorne@thornecadwell.com>"
+    },
+    "size_estimate": 794,
+    "meta": {
+      "email_class": "internal_announcement",
+      "is_actionable_for_user": false,
+      "action_owner": "kyle.brenner@thornecadwell.com",
+      "action_summary": "Kyle and Fiona owe a rough data-pull outline by Friday.",
+      "due_date": "2026-07-24",
+      "notes": null,
+      "tricky_tags": [],
+      "commitment_made_by_user": null,
+      "commitment_is_conditional": false,
+      "commitment_condition": null,
+      "superseded_by_message_id": null
+    }
+  },
+  {
+    "id": "e50f18c2e4b60027",
+    "thread_id": "e50f18c2e4b60027",
+    "profile_id": "consulting",
+    "history_id": "746865",
+    "message_id_header": "<CAFe50f18c2e4b60027@mail.gmail.com>",
+    "in_reply_to": null,
+    "references": [],
+    "thread_position": 1,
+    "thread_length": 1,
+    "from": {
+      "name": "Evelyn Thorne",
+      "email": "evelyn.thorne@thornecadwell.com"
+    },
+    "to": [
+      {
+        "name": "Fiona Dunne",
+        "email": "fiona.dunne@thornecadwell.com"
+      }
+    ],
+    "cc": [],
+    "bcc": [],
+    "delivered_to": "fiona.dunne@thornecadwell.com",
+    "subject": "Ridgefield deck — final polish",
+    "snippet": "Fiona — deck's in good shape. Can you clean up the waterfall chart formatting and double check the headcount numbers against Marta's org chart before it goes out? Client review is ",
+    "body_text": "Fiona — deck's in good shape. Can you clean up the waterfall chart formatting and double check the headcount numbers against Marta's org chart before it goes out? Client review is Monday.",
+    "body_html": null,
+    "date": "2026-07-23T08:05:00-05:00",
+    "internal_date_ms": 1784811900000,
+    "folder": "SENT",
+    "category": null,
+    "is_unread": false,
+    "is_starred": false,
+    "is_important": false,
+    "user_labels": [],
+    "attachments": [],
+    "calendar_event": null,
+    "extra_headers": {
+      "Return-Path": "<evelyn.thorne@thornecadwell.com>"
+    },
+    "size_estimate": 889,
+    "meta": {
+      "email_class": "internal_announcement",
+      "is_actionable_for_user": false,
+      "action_owner": "fiona.dunne@thornecadwell.com",
+      "action_summary": "Fiona owes final formatting cleanup before Monday's client review.",
+      "due_date": "2026-07-27",
+      "notes": null,
+      "tricky_tags": [],
+      "commitment_made_by_user": null,
+      "commitment_is_conditional": false,
+      "commitment_condition": null,
+      "superseded_by_message_id": null
+    }
+  },
+  {
+    "id": "e50f18c2e4b60028",
+    "thread_id": "e50f18c2e4b60028",
+    "profile_id": "consulting",
+    "history_id": "747070",
+    "message_id_header": "<CAFe50f18c2e4b60028@mail.gmail.com>",
+    "in_reply_to": null,
+    "references": [],
+    "thread_position": 1,
+    "thread_length": 1,
+    "from": {
+      "name": "Evelyn Thorne",
+      "email": "evelyn.thorne@thornecadwell.com"
+    },
+    "to": [
+      {
+        "name": "Fiona Dunne",
+        "email": "fiona.dunne@thornecadwell.com"
+      }
+    ],
+    "cc": [],
+    "bcc": [],
+    "delivered_to": "fiona.dunne@thornecadwell.com",
+    "subject": "Fwd: small manufacturer inquiry — can you triage?",
+    "snippet": "Fiona — small inbound lead, sounds like a good size for you to take the first call on. See below, they're looking for something lighter-touch than our usual engagements. Give me a ",
+    "body_text": "Fiona — small inbound lead, sounds like a good size for you to take the first call on. See below, they're looking for something lighter-touch than our usual engagements. Give me a read after you talk to them.\n\nEvelyn\n\n---------- Forwarded message ---------\nFrom: Priya Chandrasekaran <priya@brightleafmetals.com>\nDate: Wed, Jul 23, 2026 at 9:40 AM\nSubject: Referral from Marta Klein\nTo: evelyn.thorne@thornecadwell.com\n\nHi Evelyn, Marta Klein suggested I reach out — we're a 40-person metal fabricator outside Rockford dealing with a lot of the same changeover issues Ridgefield had. Not sure we have budget for a full engagement but would love to talk.\n\nPriya",
+    "body_html": null,
+    "date": "2026-07-23T11:30:00-05:00",
+    "internal_date_ms": 1784824200000,
+    "folder": "SENT",
+    "category": null,
+    "is_unread": false,
+    "is_starred": false,
+    "is_important": false,
+    "user_labels": [],
+    "attachments": [],
+    "calendar_event": null,
+    "extra_headers": {
+      "Return-Path": "<evelyn.thorne@thornecadwell.com>"
+    },
+    "size_estimate": 1364,
+    "meta": {
+      "email_class": "internal_announcement",
+      "is_actionable_for_user": false,
+      "action_owner": "fiona.dunne@thornecadwell.com",
+      "action_summary": "Fiona owes a first triage call with the inbound Brightleaf Metals lead.",
+      "due_date": null,
+      "notes": null,
+      "tricky_tags": [],
+      "commitment_made_by_user": null,
+      "commitment_is_conditional": false,
+      "commitment_condition": null,
+      "superseded_by_message_id": null
+    }
+  },
+  {
+    "id": "e50f18c2e4b60029",
+    "thread_id": "e50f18c2e4b60029",
+    "profile_id": "consulting",
+    "history_id": "748890",
+    "message_id_header": "<CAFe50f18c2e4b60029@mail.gmail.com>",
+    "in_reply_to": null,
+    "references": [],
+    "thread_position": 1,
+    "thread_length": 1,
+    "from": {
+      "name": "Evelyn Thorne",
+      "email": "evelyn.thorne@thornecadwell.com"
+    },
+    "to": [
+      {
+        "name": "Fiona Dunne",
+        "email": "fiona.dunne@thornecadwell.com"
+      }
+    ],
+    "cc": [],
+    "bcc": [],
+    "delivered_to": "fiona.dunne@thornecadwell.com",
+    "subject": "Nice work on the Ridgefield deck",
+    "snippet": "Fiona — deck looked great today, client loved the waterfall chart. Nice work. Sent from my iPhone",
+    "body_text": "Fiona — deck looked great today, client loved the waterfall chart. Nice work.\n\nSent from my iPhone",
+    "body_html": null,
+    "date": "2026-07-24T17:50:00-05:00",
+    "internal_date_ms": 1784933400000,
+    "folder": "SENT",
+    "category": null,
+    "is_unread": false,
+    "is_starred": false,
+    "is_important": false,
+    "user_labels": [],
+    "attachments": [],
+    "calendar_event": null,
+    "extra_headers": {
+      "Return-Path": "<evelyn.thorne@thornecadwell.com>"
+    },
+    "size_estimate": 800,
+    "meta": {
+      "email_class": "internal_announcement",
+      "is_actionable_for_user": false,
+      "action_owner": null,
+      "action_summary": null,
+      "notes": null,
+      "tricky_tags": [],
+      "commitment_made_by_user": null,
+      "commitment_is_conditional": false,
+      "commitment_condition": null,
+      "superseded_by_message_id": null,
+      "due_date": null
+    }
+  },
+  {
+    "id": "e50f18c2e4b60030",
+    "thread_id": "e50f18c2e4b60030",
+    "profile_id": "consulting",
+    "history_id": "752680",
+    "message_id_header": "<CAFe50f18c2e4b60030@mail.gmail.com>",
+    "in_reply_to": null,
+    "references": [],
+    "thread_position": 1,
+    "thread_length": 1,
+    "from": {
+      "name": "Evelyn Thorne",
+      "email": "evelyn.thorne@thornecadwell.com"
+    },
+    "to": [
+      {
+        "name": "Bob Vandergriff",
+        "email": "bob.vandergriff@meridiancastings.com"
+      }
+    ],
+    "cc": [],
+    "bcc": [],
+    "delivered_to": "bob.vandergriff@meridiancastings.com",
+    "subject": "Apology — phase 1 close-out report",
+    "snippet": "Bob — I owe you an apology. The phase 1 close-out report was supposed to be in your hands last Friday and it wasn't, and you shouldn't have had to ask your assistant to chase me ab",
+    "body_text": "Bob — I owe you an apology. The phase 1 close-out report was supposed to be in your hands last Friday and it wasn't, and you shouldn't have had to ask your assistant to chase me about it. That's on me, not the team — Ana had her section done on time and I sat on the executive summary.\n\nI'll have the complete report to you by end of day today. No more slippage on this one, and I'm sorry for the extra work it caused on your end pulling together numbers for your CFO without it.\n\nEvelyn",
+    "body_html": null,
+    "date": "2026-07-27T09:00:00-05:00",
+    "internal_date_ms": 1785160800000,
+    "folder": "SENT",
+    "category": null,
+    "is_unread": false,
+    "is_starred": false,
+    "is_important": true,
+    "user_labels": [],
+    "attachments": [],
+    "calendar_event": null,
+    "extra_headers": {
+      "Return-Path": "<evelyn.thorne@thornecadwell.com>"
+    },
+    "size_estimate": 1191,
+    "meta": {
+      "email_class": "client_customer",
+      "is_actionable_for_user": true,
+      "action_owner": "evelyn.thorne@thornecadwell.com",
+      "action_summary": "Evelyn committed to delivering the overdue phase 1 close-out report by end of day.",
+      "due_date": "2026-07-27",
+      "commitment_made_by_user": "Promised Bob the complete phase 1 close-out report by end of day today.",
+      "notes": null,
+      "tricky_tags": [],
+      "commitment_is_conditional": false,
+      "commitment_condition": null,
+      "superseded_by_message_id": null
+    }
+  },
+  {
+    "id": "e50f18c2e4b60031",
+    "thread_id": "e50f18c2e4b60031",
+    "profile_id": "consulting",
+    "history_id": "753000",
+    "message_id_header": "<CAFe50f18c2e4b60031@mail.gmail.com>",
+    "in_reply_to": null,
+    "references": [],
+    "thread_position": 1,
+    "thread_length": 1,
+    "from": {
+      "name": "Evelyn Thorne",
+      "email": "evelyn.thorne@thornecadwell.com"
+    },
+    "to": [
+      {
+        "name": "Bob Vandergriff",
+        "email": "bob.vandergriff@meridiancastings.com"
+      }
+    ],
+    "cc": [],
+    "bcc": [],
+    "delivered_to": "bob.vandergriff@meridiancastings.com",
+    "subject": "Kickoff logistics — Meridian Phase 2",
+    "snippet": "Bob — SOW's signed, thank you. Kickoff is confirmed for the 27th at your Cleveland plant. Ana's leading day-to-day, Kyle's on supply chain, and I'll be there in person for the firs",
+    "body_text": "Bob — SOW's signed, thank you. Kickoff is confirmed for the 27th at your Cleveland plant. Ana's leading day-to-day, Kyle's on supply chain, and I'll be there in person for the first two days before handing off to Ana full-time. I'll bring the detailed workplan Monday so your team has it before we walk the floor Tuesday.\n\nEvelyn",
+    "body_html": null,
+    "date": "2026-07-27T14:20:00-05:00",
+    "internal_date_ms": 1785180000000,
+    "folder": "SENT",
+    "category": null,
+    "is_unread": false,
+    "is_starred": false,
+    "is_important": false,
+    "user_labels": [],
+    "attachments": [],
+    "calendar_event": null,
+    "extra_headers": {
+      "Return-Path": "<evelyn.thorne@thornecadwell.com>"
+    },
+    "size_estimate": 1031,
+    "meta": {
+      "email_class": "client_customer",
+      "is_actionable_for_user": true,
+      "action_owner": "evelyn.thorne@thornecadwell.com",
+      "action_summary": "Evelyn committed to bringing the detailed Meridian phase 2 workplan on Monday.",
+      "due_date": "2026-08-03",
+      "commitment_made_by_user": "Promised to bring the detailed workplan Monday, before the floor walk Tuesday.",
+      "notes": null,
+      "tricky_tags": [],
+      "commitment_is_conditional": false,
+      "commitment_condition": null,
+      "superseded_by_message_id": null
+    }
+  },
+  {
+    "id": "e50f18c2e4b60032",
+    "thread_id": "e50f18c2e4b60032",
+    "profile_id": "consulting",
+    "history_id": "754195",
+    "message_id_header": "<CAFe50f18c2e4b60032@mail.gmail.com>",
+    "in_reply_to": null,
+    "references": [],
+    "thread_position": 1,
+    "thread_length": 1,
+    "from": {
+      "name": "Evelyn Thorne",
+      "email": "evelyn.thorne@thornecadwell.com"
+    },
+    "to": [
+      {
+        "name": "Lucia Ferraro",
+        "email": "l.ferraro@halberdpackaging.com"
+      }
+    ],
+    "cc": [],
+    "bcc": [],
+    "delivered_to": "l.ferraro@halberdpackaging.com",
+    "subject": "Halberd Change Order — scope addition",
+    "snippet": "Lucia — wanted to flag this before it becomes a surprise on an invoice. We budgeted the org-design engagement at 120 hours fixed-fee; we're at 165 hours and climbing, mostly becaus",
+    "body_text": "Lucia — wanted to flag this before it becomes a surprise on an invoice. We budgeted the org-design engagement at 120 hours fixed-fee; we're at 165 hours and climbing, mostly because the interview list grew from 18 to 31 people once we got into the plant-level roles, which I think was the right call given what we found.\n\nI'd rather propose a change order now than eat the overage quietly and have the next engagement's pricing look inflated to cover for it. Proposing an additional $12,500 to cover the extra 45 hours at our blended rate, which is below our standard rate given the relationship.\n\nI'll send the change order paperwork over by Friday — happy to talk it through first if you'd rather.\n\nEvelyn",
+    "body_html": "<div style=\"font-family:Arial,sans-serif;\"><p style=\"margin:0 0 12px 0;font-family:Arial,sans-serif;font-size:14px;color:#222;\">Lucia — wanted to flag this before it becomes a surprise on an invoice. We budgeted the org-design engagement at 120 hours fixed-fee; we're at 165 hours and climbing, mostly because the interview list grew from 18 to 31 people once we got into the plant-level roles, which I think was the right call given what we found.</p><p style=\"margin:0 0 12px 0;font-family:Arial,sans-serif;font-size:14px;color:#222;\">I'd rather propose a change order now than eat the overage quietly and have the next engagement's pricing look inflated to cover for it. Proposing an additional $12,500 to cover the extra 45 hours at our blended rate, which is below our standard rate given the relationship.</p><p style=\"margin:0 0 12px 0;font-family:Arial,sans-serif;font-size:14px;color:#222;\">I'll send the change order paperwork over by Friday — happy to talk it through first if you'd rather.</p><p style=\"margin:0 0 12px 0;font-family:Arial,sans-serif;font-size:14px;color:#222;\">Evelyn</p></div>",
+    "date": "2026-07-28T10:15:00-05:00",
+    "internal_date_ms": 1785251700000,
+    "folder": "SENT",
+    "category": null,
+    "is_unread": false,
+    "is_starred": false,
+    "is_important": true,
+    "user_labels": [
+      "Label_7752"
+    ],
+    "attachments": [],
+    "calendar_event": null,
+    "extra_headers": {
+      "Return-Path": "<evelyn.thorne@thornecadwell.com>"
+    },
+    "size_estimate": 2521,
+    "meta": {
+      "email_class": "client_customer",
+      "is_actionable_for_user": true,
+      "action_owner": "evelyn.thorne@thornecadwell.com",
+      "action_summary": "Evelyn committed to sending Halberd change-order paperwork by Friday.",
+      "due_date": "2026-07-31",
+      "commitment_made_by_user": "Promised to send the $12,500 change order paperwork by Friday.",
+      "notes": null,
+      "tricky_tags": [],
+      "commitment_is_conditional": false,
+      "commitment_condition": null,
+      "superseded_by_message_id": null
+    }
+  },
+  {
+    "id": "e50f18c2e4b60033",
+    "thread_id": "e50f18c2e4b60033",
+    "profile_id": "consulting",
+    "history_id": "754580",
+    "message_id_header": "<CAFe50f18c2e4b60033@mail.gmail.com>",
+    "in_reply_to": null,
+    "references": [],
+    "thread_position": 1,
+    "thread_length": 1,
+    "from": {
+      "name": "Evelyn Thorne",
+      "email": "evelyn.thorne@thornecadwell.com"
+    },
+    "to": [
+      {
+        "name": "Diane Ostrander",
+        "email": "diane.ostrander@callahanfoundry.com"
+      }
+    ],
+    "cc": [],
+    "bcc": [],
+    "delivered_to": "diane.ostrander@callahanfoundry.com",
+    "subject": "Small engagement — thank you but not the right fit",
+    "snippet": "Diane, Thanks for the detailed rundown and for your patience while I thought this through properly instead of giving you a quick no. I don't think we're the right fit for this one.",
+    "body_text": "Diane,\n\nThanks for the detailed rundown and for your patience while I thought this through properly instead of giving you a quick no.\n\nI don't think we're the right fit for this one. A single-plant scheduling fix at the scope and budget you've described ($8,500 fixed fee) doesn't let me staff it the way I'd want to — either I do it myself and it pulls me off larger commitments, or I put a junior consultant on it without enough of my oversight to feel good about the result. Neither is fair to you.\n\nTwo firms worth calling: Halstrom Operations Group does exactly this kind of focused scheduling work and does it well, and there's an independent consultant, Ray Petrucci, who used to be at a firm like ours and now takes on smaller engagements solo. Happy to make an introduction to either if useful.\n\nAppreciate you thinking of us, and hope the project goes well.\n\nEvelyn Thorne\nPresident, Thorne & Cadwell Advisory",
+    "body_html": null,
+    "date": "2026-07-28T16:40:00-05:00",
+    "internal_date_ms": 1785274800000,
+    "folder": "SENT",
+    "category": null,
+    "is_unread": false,
+    "is_starred": false,
+    "is_important": false,
+    "user_labels": [],
+    "attachments": [],
+    "calendar_event": null,
+    "extra_headers": {
+      "Return-Path": "<evelyn.thorne@thornecadwell.com>"
+    },
+    "size_estimate": 1621,
+    "meta": {
+      "email_class": "client_customer",
+      "is_actionable_for_user": true,
+      "action_owner": "evelyn.thorne@thornecadwell.com",
+      "action_summary": "Evelyn offered to introduce Diane to Halstrom Operations Group or Ray Petrucci.",
+      "commitment_made_by_user": "Offered to make an introduction to Halstrom Operations Group or Ray Petrucci.",
+      "commitment_is_conditional": true,
+      "commitment_condition": "Only if Diane wants the introduction.",
+      "notes": null,
+      "tricky_tags": [],
+      "superseded_by_message_id": null,
+      "due_date": null
+    }
+  },
+  {
+    "id": "e50f18c2e4b60034",
+    "thread_id": "e50f18c2e4b60034",
+    "profile_id": "consulting",
+    "history_id": "755550",
+    "message_id_header": "<CAFe50f18c2e4b60034@mail.gmail.com>",
+    "in_reply_to": null,
+    "references": [],
+    "thread_position": 1,
+    "thread_length": 1,
+    "from": {
+      "name": "Evelyn Thorne",
+      "email": "evelyn.thorne@thornecadwell.com"
+    },
+    "to": [
+      {
+        "name": "Owen McCabe",
+        "email": "omccabe@stratusindustrial.com"
+      }
+    ],
+    "cc": [],
+    "bcc": [],
+    "delivered_to": "omccabe@stratusindustrial.com",
+    "subject": "Great catching up today",
+    "snippet": "Owen — great call this morning, and glad the board came back positive. To recap where we landed: $340K fixed fee, three milestone payments, diagnostic starting the week of August 1",
+    "body_text": "Owen — great call this morning, and glad the board came back positive. To recap where we landed: $340K fixed fee, three milestone payments, diagnostic starting the week of August 10th assuming signed SOW by August 1st.\n\nI'll have the final SOW language reflecting today's conversation to you by end of week.\n\nTalk soon,\nEvelyn",
+    "body_html": null,
+    "date": "2026-07-29T08:50:00-05:00",
+    "internal_date_ms": 1785333000000,
+    "folder": "SENT",
+    "category": null,
+    "is_unread": false,
+    "is_starred": false,
+    "is_important": false,
+    "user_labels": [],
+    "attachments": [],
+    "calendar_event": null,
+    "extra_headers": {
+      "Return-Path": "<evelyn.thorne@thornecadwell.com>"
+    },
+    "size_estimate": 1028,
+    "meta": {
+      "email_class": "client_customer",
+      "is_actionable_for_user": true,
+      "action_owner": "evelyn.thorne@thornecadwell.com",
+      "action_summary": "Evelyn committed to sending final Stratus SOW language by end of week.",
+      "due_date": "2026-07-31",
+      "commitment_made_by_user": "Promised the final SOW language to Owen by end of week.",
+      "notes": null,
+      "tricky_tags": [],
+      "commitment_is_conditional": false,
+      "commitment_condition": null,
+      "superseded_by_message_id": null
+    }
+  },
+  {
+    "id": "e50f18c2e4b60035",
+    "thread_id": "e50f18c2e4b60035",
+    "profile_id": "consulting",
+    "history_id": "755805",
+    "message_id_header": "<CAFe50f18c2e4b60035@mail.gmail.com>",
+    "in_reply_to": null,
+    "references": [],
+    "thread_position": 1,
+    "thread_length": 1,
+    "from": {
+      "name": "Evelyn Thorne",
+      "email": "evelyn.thorne@thornecadwell.com"
+    },
+    "to": [
+      {
+        "name": "Terrence Boyle",
+        "email": "tboyle@cravenlaw.com"
+      }
+    ],
+    "cc": [],
+    "bcc": [],
+    "delivered_to": "tboyle@cravenlaw.com",
+    "subject": "MSA redline for Stratus",
+    "snippet": "Terrence — Stratus's legal sent back a redlined MSA, mostly fine but they've added a liability cap that's lower than I'm comfortable with given the scope of the predictive-maintena",
+    "body_text": "Terrence — Stratus's legal sent back a redlined MSA, mostly fine but they've added a liability cap that's lower than I'm comfortable with given the scope of the predictive-maintenance work. Can you take a look and give me language we can counter with? Trying to get this closed before August 1st so we don't lose the kickoff date.\n\nEvelyn",
+    "body_html": null,
+    "date": "2026-07-29T13:05:00-05:00",
+    "internal_date_ms": 1785348300000,
+    "folder": "SENT",
+    "category": null,
+    "is_unread": false,
+    "is_starred": false,
+    "is_important": false,
+    "user_labels": [],
+    "attachments": [],
+    "calendar_event": null,
+    "extra_headers": {
+      "Return-Path": "<evelyn.thorne@thornecadwell.com>"
+    },
+    "size_estimate": 1040,
+    "meta": {
+      "email_class": "legal_compliance",
+      "is_actionable_for_user": false,
+      "action_owner": "tboyle@cravenlaw.com",
+      "action_summary": "Terrence owes counter-language on the Stratus MSA liability cap.",
+      "due_date": "2026-08-01",
+      "notes": null,
+      "tricky_tags": [],
+      "commitment_made_by_user": null,
+      "commitment_is_conditional": false,
+      "commitment_condition": null,
+      "superseded_by_message_id": null
+    }
+  },
+  {
+    "id": "e50f18c2e4b60036",
+    "thread_id": "e50f18c2e4b60036",
+    "profile_id": "consulting",
+    "history_id": "757025",
+    "message_id_header": "<CAFe50f18c2e4b60036@mail.gmail.com>",
+    "in_reply_to": null,
+    "references": [],
+    "thread_position": 1,
+    "thread_length": 1,
+    "from": {
+      "name": "Evelyn Thorne",
+      "email": "evelyn.thorne@thornecadwell.com"
+    },
+    "to": [
+      {
+        "name": "Dr. Anil Bose",
+        "email": "anil.bose@bosequant.com"
+      }
+    ],
+    "cc": [],
+    "bcc": [],
+    "delivered_to": "anil.bose@bosequant.com",
+    "subject": "Invoice received, thanks",
+    "snippet": "Anil — got your invoice for the scope memo. Sheila will process this week. Appreciate the fast turnaround, and stand by for good Stratus news soon.",
+    "body_text": "Anil — got your invoice for the scope memo. Sheila will process this week. Appreciate the fast turnaround, and stand by for good Stratus news soon.",
+    "body_html": null,
+    "date": "2026-07-30T09:25:00-05:00",
+    "internal_date_ms": 1785421500000,
+    "folder": "SENT",
+    "category": null,
+    "is_unread": false,
+    "is_starred": false,
+    "is_important": false,
+    "user_labels": [],
+    "attachments": [],
+    "calendar_event": null,
+    "extra_headers": {
+      "Return-Path": "<evelyn.thorne@thornecadwell.com>"
+    },
+    "size_estimate": 849,
+    "meta": {
+      "email_class": "vendor_invoice",
+      "is_actionable_for_user": false,
+      "action_owner": "sheila.park@thornecadwell.com",
+      "action_summary": "Sheila owes processing Bose's invoice this week.",
+      "notes": null,
+      "tricky_tags": [],
+      "commitment_made_by_user": null,
+      "commitment_is_conditional": false,
+      "commitment_condition": null,
+      "superseded_by_message_id": null,
+      "due_date": null
+    }
+  },
+  {
+    "id": "e50f18c2e4b60037",
+    "thread_id": "e50f18c2e4b60037",
+    "profile_id": "consulting",
+    "history_id": "757410",
+    "message_id_header": "<CAFe50f18c2e4b60037@mail.gmail.com>",
+    "in_reply_to": null,
+    "references": [],
+    "thread_position": 1,
+    "thread_length": 1,
+    "from": {
+      "name": "Evelyn Thorne",
+      "email": "evelyn.thorne@thornecadwell.com"
+    },
+    "to": [
+      {
+        "name": "Gordon Cadwell",
+        "email": "gordon.cadwell@thornecadwell.com"
+      }
+    ],
+    "cc": [],
+    "bcc": [],
+    "delivered_to": "gordon.cadwell@thornecadwell.com",
+    "subject": "Terrence's rate increase",
+    "snippet": "Gordon — Terrence is raising his hourly rate from $450 to $525 starting September, says he hasn't touched it in three years and given how much MSA and SOW work we send him, I belie",
+    "body_text": "Gordon — Terrence is raising his hourly rate from $450 to $525 starting September, says he hasn't touched it in three years and given how much MSA and SOW work we send him, I believe it. Given our own margins are already tight on the fixed-fee work, want to talk through whether we push back or just absorb it before I respond to him?",
+    "body_html": null,
+    "date": "2026-07-30T15:50:00-05:00",
+    "internal_date_ms": 1785444600000,
+    "folder": "SENT",
+    "category": null,
+    "is_unread": false,
+    "is_starred": false,
+    "is_important": false,
+    "user_labels": [],
+    "attachments": [],
+    "calendar_event": null,
+    "extra_headers": {
+      "Return-Path": "<evelyn.thorne@thornecadwell.com>"
+    },
+    "size_estimate": 1036,
+    "meta": {
+      "email_class": "genuine_work",
+      "is_actionable_for_user": false,
+      "action_owner": "gordon.cadwell@thornecadwell.com",
+      "action_summary": "Gordon needs to weigh in on whether to push back on Terrence's rate increase.",
+      "notes": null,
+      "tricky_tags": [],
+      "commitment_made_by_user": null,
+      "commitment_is_conditional": false,
+      "commitment_condition": null,
+      "superseded_by_message_id": null,
+      "due_date": null
+    }
+  },
+  {
+    "id": "e50f18c2e4b60038",
+    "thread_id": "e50f18c2e4b60038",
+    "profile_id": "consulting",
+    "history_id": "758390",
+    "message_id_header": "<CAFe50f18c2e4b60038@mail.gmail.com>",
+    "in_reply_to": null,
+    "references": [],
+    "thread_position": 1,
+    "thread_length": 1,
+    "from": {
+      "name": "Evelyn Thorne",
+      "email": "evelyn.thorne@thornecadwell.com"
+    },
+    "to": [
+      {
+        "name": "Ana Restrepo",
+        "email": "ana.restrepo@thornecadwell.com"
+      }
+    ],
+    "cc": [],
+    "bcc": [],
+    "delivered_to": "ana.restrepo@thornecadwell.com",
+    "subject": "Halberd invoice — go ahead and send",
+    "snippet": "Ana — change order's approved, go ahead and send the $12,500 invoice whenever you're ready.",
+    "body_text": "Ana — change order's approved, go ahead and send the $12,500 invoice whenever you're ready.",
+    "body_html": null,
+    "date": "2026-07-31T08:10:00-05:00",
+    "internal_date_ms": 1785503400000,
+    "folder": "SENT",
+    "category": null,
+    "is_unread": false,
+    "is_starred": false,
+    "is_important": false,
+    "user_labels": [],
+    "attachments": [],
+    "calendar_event": null,
+    "extra_headers": {
+      "Return-Path": "<evelyn.thorne@thornecadwell.com>"
+    },
+    "size_estimate": 793,
+    "meta": {
+      "email_class": "internal_announcement",
+      "is_actionable_for_user": false,
+      "action_owner": "ana.restrepo@thornecadwell.com",
+      "action_summary": "Ana owes sending the approved $12,500 Halberd change-order invoice.",
+      "notes": null,
+      "tricky_tags": [],
+      "commitment_made_by_user": null,
+      "commitment_is_conditional": false,
+      "commitment_condition": null,
+      "superseded_by_message_id": null,
+      "due_date": null
+    }
+  },
+  {
+    "id": "e50f18c2e4b60039",
+    "thread_id": "e50f18c2e4b60039",
+    "profile_id": "consulting",
+    "history_id": "758392",
+    "message_id_header": "<CAFe50f18c2e4b60039@mail.gmail.com>",
+    "in_reply_to": null,
+    "references": [],
+    "thread_position": 1,
+    "thread_length": 1,
+    "from": {
+      "name": "Evelyn Thorne",
+      "email": "evelyn.thorne@thornecadwell.com"
+    },
+    "to": [
+      {
+        "name": "Sheila Park",
+        "email": "sheila.park@thornecadwell.com"
+      }
+    ],
+    "cc": [],
+    "bcc": [],
+    "delivered_to": "sheila.park@thornecadwell.com",
+    "subject": "Expensify approvals",
+    "snippet": "Sheila — approved your batch, go ahead and run payroll.",
+    "body_text": "Sheila — approved your batch, go ahead and run payroll.",
+    "body_html": null,
+    "date": "2026-07-31T08:12:00-05:00",
+    "internal_date_ms": 1785503520000,
+    "folder": "SENT",
+    "category": null,
+    "is_unread": false,
+    "is_starred": false,
+    "is_important": false,
+    "user_labels": [],
+    "attachments": [],
+    "calendar_event": null,
+    "extra_headers": {
+      "Return-Path": "<evelyn.thorne@thornecadwell.com>"
+    },
+    "size_estimate": 757,
+    "meta": {
+      "email_class": "genuine_work",
+      "is_actionable_for_user": false,
+      "action_owner": "sheila.park@thornecadwell.com",
+      "action_summary": "Sheila owes running payroll now that expenses are approved.",
+      "notes": null,
+      "tricky_tags": [],
+      "commitment_made_by_user": null,
+      "commitment_is_conditional": false,
+      "commitment_condition": null,
+      "superseded_by_message_id": null,
+      "due_date": null
+    }
+  },
+  {
+    "id": "e50f18c2e4b60040",
+    "thread_id": "e50f18c2e4b60001",
+    "profile_id": "consulting",
+    "history_id": "762820",
+    "message_id_header": "<CAFe50f18c2e4b60040@mail.gmail.com>",
+    "in_reply_to": "<CAFe50f18c2e4b60001@mail.gmail.com>",
+    "references": [
+      "<CAFe50f18c2e4b60001@mail.gmail.com>"
+    ],
+    "thread_position": 2,
+    "thread_length": 2,
+    "from": {
+      "name": "Evelyn Thorne",
+      "email": "evelyn.thorne@thornecadwell.com"
+    },
+    "to": [
+      {
+        "name": "Harlan Voss",
+        "email": "hvoss@ferristool.com"
+      }
+    ],
+    "cc": [],
+    "bcc": [],
+    "delivered_to": "hvoss@ferristool.com",
+    "subject": "Re: Following up from AME roundtable",
+    "snippet": "Harlan — realized I never heard back after my note in June, and didn't want it to feel like I was chasing, so I let it sit. Still happy to grab that 30 minutes if it's useful, no p",
+    "body_text": "Harlan — realized I never heard back after my note in June, and didn't want it to feel like I was chasing, so I let it sit. Still happy to grab that 30 minutes if it's useful, no pressure either way. Let me know.\n\nEvelyn",
+    "body_html": null,
+    "date": "2026-08-03T10:00:00-05:00",
+    "internal_date_ms": 1785769200000,
+    "folder": "SENT",
+    "category": null,
+    "is_unread": false,
+    "is_starred": false,
+    "is_important": false,
+    "user_labels": [],
+    "attachments": [],
+    "calendar_event": null,
+    "extra_headers": {
+      "Return-Path": "<evelyn.thorne@thornecadwell.com>"
+    },
+    "size_estimate": 922,
+    "meta": {
+      "email_class": "client_customer",
+      "is_actionable_for_user": true,
+      "action_owner": "evelyn.thorne@thornecadwell.com",
+      "action_summary": "Evelyn re-offered the 30-minute conversation with Harlan.",
+      "commitment_made_by_user": "Reiterated the offer to grab 30 minutes with Harlan.",
+      "notes": null,
+      "tricky_tags": [],
+      "commitment_is_conditional": false,
+      "commitment_condition": null,
+      "superseded_by_message_id": null,
+      "due_date": null
+    }
+  },
+  {
+    "id": "e50f18c2e4b60041",
+    "thread_id": "e50f18c2e4b60041",
+    "profile_id": "consulting",
+    "history_id": "764065",
+    "message_id_header": "<CAFe50f18c2e4b60041@mail.gmail.com>",
+    "in_reply_to": null,
+    "references": [],
+    "thread_position": 1,
+    "thread_length": 1,
+    "from": {
+      "name": "Evelyn Thorne",
+      "email": "evelyn.thorne@thornecadwell.com"
+    },
+    "to": [
+      {
+        "name": "Lucia Ferraro",
+        "email": "l.ferraro@halberdpackaging.com"
+      }
+    ],
+    "cc": [],
+    "bcc": [],
+    "delivered_to": "l.ferraro@halberdpackaging.com",
+    "subject": "Quick one before I hop on a flight",
+    "snippet": "Lucia — got your note, will call tomorrow AM. E Sent from my iPhone",
+    "body_text": "Lucia — got your note, will call tomorrow AM. E\n\nSent from my iPhone",
+    "body_html": null,
+    "date": "2026-08-04T06:45:00-05:00",
+    "internal_date_ms": 1785843900000,
+    "folder": "SENT",
+    "category": null,
+    "is_unread": false,
+    "is_starred": false,
+    "is_important": false,
+    "user_labels": [],
+    "attachments": [],
+    "calendar_event": null,
+    "extra_headers": {
+      "Return-Path": "<evelyn.thorne@thornecadwell.com>"
+    },
+    "size_estimate": 770,
+    "meta": {
+      "email_class": "client_customer",
+      "is_actionable_for_user": true,
+      "action_owner": "evelyn.thorne@thornecadwell.com",
+      "action_summary": "Evelyn committed to calling Lucia the next morning.",
+      "due_date": "2026-08-05",
+      "commitment_made_by_user": "Told Lucia she'd call tomorrow morning.",
+      "notes": null,
+      "tricky_tags": [],
+      "commitment_is_conditional": false,
+      "commitment_condition": null,
+      "superseded_by_message_id": null
+    }
+  },
+  {
+    "id": "e50f18c2e4b60042",
+    "thread_id": "e50f18c2e4b60042",
+    "profile_id": "consulting",
+    "history_id": "765550",
+    "message_id_header": "<CAFe50f18c2e4b60042@mail.gmail.com>",
+    "in_reply_to": null,
+    "references": [],
+    "thread_position": 1,
+    "thread_length": 1,
+    "from": {
+      "name": "Evelyn Thorne",
+      "email": "evelyn.thorne@thornecadwell.com"
+    },
+    "to": [
+      {
+        "name": "Gordon Cadwell",
+        "email": "gordon.cadwell@thornecadwell.com"
+      }
+    ],
+    "cc": [],
+    "bcc": [],
+    "delivered_to": "gordon.cadwell@thornecadwell.com",
+    "subject": "Q3 pipeline & staffing review",
+    "snippet": "Gordon, Wanted to get you a real picture of where things stand before we're both pulled into back-to-back client weeks. Attached is the pipeline summary, but here's the narrative v",
+    "body_text": "Gordon,\n\nWanted to get you a real picture of where things stand before we're both pulled into back-to-back client weeks. Attached is the pipeline summary, but here's the narrative version.\n\nMeridian phase 2 is signed — $175K fixed fee, net-45, kickoff happened the 27th. Ana's running it day-to-day and I'm stepping back to a supervisory role after this week, which I need to actually do this time and not just say I'm doing. Phase 1 taught me I can't be both the rainmaker and the hands-on delivery lead on every account simultaneously, and Meridian is our biggest client — I'd rather protect that relationship by giving Ana real ownership than keep my fingerprints on everything.\n\nStratus is effectively closed — verbal yes from Owen's board, SOW finalizing with Terrence on a liability-cap redline, $340K fixed fee, diagnostic starting week of August 10th. This is the biggest new-logo win we've had since I started tracking it, and Anil Bose is doing the sensor-data work directly rather than delegating, which matters for how we position ourselves against the bigger firms on anything AI-adjacent.\n\nHalberd is smaller but has scope-crept from 120 to 165 hours — I've sent a change order for the overage rather than eat it, which Lucia accepted without pushback. Good sign for the relationship, less good sign that our original scoping was too tight; Ana and I should talk about how we're estimating discovery-heavy engagements.\n\nRidgefield collections: invoice #10412, $18,400, still open at 90+ days. I sent Marta a direct note two weeks ago asking for payment by the 19th. If that date slips, I want to loop Terrence in before it gets adversarial — Marta's a friend of the firm even if her AP department is slow.\n\nOn staffing: I think we need to move on the fifth-consultant hire now, not in Q4 like we discussed. Between Meridian, Stratus ramping up, and whatever Halberd turns into, Ana and Kyle are both going to be stretched thin by September, and I don't want either of them burning out the way I did in year two. I've got a candidate interviewing Thursday — Marcus Ohene, six years at a firm doing similar manufacturing ops work, strong references from two people I trust — will fill you in after.\n\nI know the fifth hire is a real cost before we've banked a dollar of Stratus revenue, and I don't want to pretend that risk away. But I'd rather grow into the work a quarter early than watch Ana or Kyle burn out trying to cover it, and then lose one of them to a client who poaches them once they're this good.\n\nLet's find 30 minutes this week to talk through the hiring number and whether we're comfortable committing to it before Stratus revenue actually lands. I'd like to have a decision before I sit down with the Ohene candidate Thursday, so I'm not making promises I can't back up.\n\nEvelyn",
+    "body_html": "<div style=\"font-family:Arial,sans-serif;\"><p style=\"margin:0 0 12px 0;font-family:Arial,sans-serif;font-size:14px;color:#222;\">Gordon,</p><p style=\"margin:0 0 12px 0;font-family:Arial,sans-serif;font-size:14px;color:#222;\">Wanted to get you a real picture of where things stand before we're both pulled into back-to-back client weeks. Attached is the pipeline summary, but here's the narrative version.</p><p style=\"margin:0 0 12px 0;font-family:Arial,sans-serif;font-size:14px;color:#222;\">Meridian phase 2 is signed — $175K fixed fee, net-45, kickoff happened the 27th. Ana's running it day-to-day and I'm stepping back to a supervisory role after this week, which I need to actually do this time and not just say I'm doing. Phase 1 taught me I can't be both the rainmaker and the hands-on delivery lead on every account simultaneously, and Meridian is our biggest client — I'd rather protect that relationship by giving Ana real ownership than keep my fingerprints on everything.</p><p style=\"margin:0 0 12px 0;font-family:Arial,sans-serif;font-size:14px;color:#222;\">Stratus is effectively closed — verbal yes from Owen's board, SOW finalizing with Terrence on a liability-cap redline, $340K fixed fee, diagnostic starting week of August 10th. This is the biggest new-logo win we've had since I started tracking it, and Anil Bose is doing the sensor-data work directly rather than delegating, which matters for how we position ourselves against the bigger firms on anything AI-adjacent.</p><p style=\"margin:0 0 12px 0;font-family:Arial,sans-serif;font-size:14px;color:#222;\">Halberd is smaller but has scope-crept from 120 to 165 hours — I've sent a change order for the overage rather than eat it, which Lucia accepted without pushback. Good sign for the relationship, less good sign that our original scoping was too tight; Ana and I should talk about how we're estimating discovery-heavy engagements.</p><p style=\"margin:0 0 12px 0;font-family:Arial,sans-serif;font-size:14px;color:#222;\">Ridgefield collections: invoice #10412, $18,400, still open at 90+ days. I sent Marta a direct note two weeks ago asking for payment by the 19th. If that date slips, I want to loop Terrence in before it gets adversarial — Marta's a friend of the firm even if her AP department is slow.</p><p style=\"margin:0 0 12px 0;font-family:Arial,sans-serif;font-size:14px;color:#222;\">On staffing: I think we need to move on the fifth-consultant hire now, not in Q4 like we discussed. Between Meridian, Stratus ramping up, and whatever Halberd turns into, Ana and Kyle are both going to be stretched thin by September, and I don't want either of them burning out the way I did in year two. I've got a candidate interviewing Thursday — Marcus Ohene, six years at a firm doing similar manufacturing ops work, strong references from two people I trust — will fill you in after.</p><p style=\"margin:0 0 12px 0;font-family:Arial,sans-serif;font-size:14px;color:#222;\">I know the fifth hire is a real cost before we've banked a dollar of Stratus revenue, and I don't want to pretend that risk away. But I'd rather grow into the work a quarter early than watch Ana or Kyle burn out trying to cover it, and then lose one of them to a client who poaches them once they're this good.</p><p style=\"margin:0 0 12px 0;font-family:Arial,sans-serif;font-size:14px;color:#222;\">Let's find 30 minutes this week to talk through the hiring number and whether we're comfortable committing to it before Stratus revenue actually lands. I'd like to have a decision before I sit down with the Ohene candidate Thursday, so I'm not making promises I can't back up.</p><p style=\"margin:0 0 12px 0;font-family:Arial,sans-serif;font-size:14px;color:#222;\">Evelyn</p></div>",
+    "date": "2026-08-05T07:30:00-05:00",
+    "internal_date_ms": 1785933000000,
+    "folder": "SENT",
+    "category": null,
+    "is_unread": false,
+    "is_starred": true,
+    "is_important": true,
+    "user_labels": [
+      "Label_7753"
+    ],
+    "attachments": [
+      {
+        "attachment_id": "ANGjdJ_JTv9BgP5_sBfbiOBm0VYCi0eIH2tQgHjBTfdSqPy1k9P-DjLHR",
+        "filename": "Q3_Pipeline_Summary.csv",
+        "mime_type": "text/csv",
+        "size_bytes": 2100,
+        "is_inline": false,
+        "content_id": null,
+        "extracted_text": "client,engagement,fee,status\nMeridian Castings,Phase 2 Ops Diagnostic,$175000,Signed - Kickoff 7/27\nStratus Industrial,Ops & Predictive Maintenance Diagnostic,$340000,Verbal Yes - SOW Finalizing\nHalberd Packaging,Org Design & Interim Leadership,\"$132,500 (incl. $12,500 change order)\",Change Order Signed\nRidgefield Mfg,Collections - Invoice #10412,$18400,90+ Days Overdue"
+      }
+    ],
+    "calendar_event": null,
+    "extra_headers": {
+      "Return-Path": "<evelyn.thorne@thornecadwell.com>"
+    },
+    "size_estimate": 10079,
+    "meta": {
+      "email_class": "internal_announcement",
+      "is_actionable_for_user": true,
+      "action_owner": "evelyn.thorne@thornecadwell.com",
+      "action_summary": "Evelyn asked Gordon to find 30 minutes this week to discuss the fifth-consultant hire.",
+      "due_date": "2026-08-07",
+      "commitment_made_by_user": "Said she'd fill Gordon in after Thursday's fifth-consultant interview.",
+      "notes": null,
+      "tricky_tags": [],
+      "commitment_is_conditional": false,
+      "commitment_condition": null,
+      "superseded_by_message_id": null
+    }
+  },
+  {
+    "id": "e50f18c2e4b60043",
+    "thread_id": "e50f18c2e4b60043",
+    "profile_id": "consulting",
+    "history_id": "767020",
+    "message_id_header": "<CAFe50f18c2e4b60043@mail.gmail.com>",
+    "in_reply_to": null,
+    "references": [],
+    "thread_position": 1,
+    "thread_length": 1,
+    "from": {
+      "name": "Evelyn Thorne",
+      "email": "evelyn.thorne@thornecadwell.com"
+    },
+    "to": [
+      {
+        "name": "Gordon Cadwell",
+        "email": "gordon.cadwell@thornecadwell.com"
+      },
+      {
+        "name": "Ana Restrepo",
+        "email": "ana.restrepo@thornecadwell.com"
+      },
+      {
+        "name": "Kyle Brenner",
+        "email": "kyle.brenner@thornecadwell.com"
+      },
+      {
+        "name": "Fiona Dunne",
+        "email": "fiona.dunne@thornecadwell.com"
+      },
+      {
+        "name": "Sheila Park",
+        "email": "sheila.park@thornecadwell.com"
+      }
+    ],
+    "cc": [],
+    "bcc": [],
+    "delivered_to": "gordon.cadwell@thornecadwell.com",
+    "subject": "Utilization, and why I keep bugging you about timesheets",
+    "snippet": "Team, Quick note on something that's been nagging at me, and I'd rather say it plainly than keep dropping hints in Monday standups. July utilization across the firm was 68%. Target",
+    "body_text": "Team,\n\nQuick note on something that's been nagging at me, and I'd rather say it plainly than keep dropping hints in Monday standups.\n\nJuly utilization across the firm was 68%. Target is 78-80% for a firm our size to actually make the economics work — below that and we're either underpricing engagements or overstaffing them, and right now it's a bit of both. Ana and Kyle are both over 85%, which is genuinely too high and part of why I'm pulling myself back into a supervisory role on Meridian instead of running it day-to-day. Fiona, you're closer to 55%, partly timing, partly that Ridgefield and Halberd haven't kept you as busy as I'd like — that changes fast once Stratus kicks off, so don't read this as a complaint about you specifically.\n\nThe bigger issue is timesheet accuracy. I know it's the most annoying part of the job, and I know I am, personally, the worst offender — Sheila can confirm I'm usually three days late entering my own hours, which is a bad example to set while also asking everyone else to be diligent about it. I'm going to fix that on my end starting this week, timesheets entered same-day, no exceptions, and I'd ask the same of everyone else.\n\nHere's why it actually matters beyond bookkeeping: every fixed-fee engagement we scope depends on knowing what similar work actually costs us in hours, not what we guessed it would cost. Halberd is a good example — we scoped it at 120 hours based on a rough gut-check, and it's at 165 and climbing, which means either our historical data was thin or nobody trusted it. Accurate time data going forward means better proposals, which means better margins, which is directly connected to whether we can afford the fifth-consultant hire I've been talking about for two quarters and am finally moving on this month.\n\nI'm not trying to turn this into a big-firm bureaucracy exercise. I just want us pricing our time as if it's worth what it's worth, which means actually knowing what things cost. Ten people is small enough that we can still fix this with a plain email instead of buying software for it, so let's not overbuild the solution either.\n\nSheila — can you send a utilization breakdown by person, monthly, starting with July? I want it as a standing agenda item at Monday standup going forward, not a once-a-quarter surprise when Gordon and I are trying to close the books.\n\nOne more thing while I have everyone's attention: if you're consistently over 85%, tell me. I'd rather hear \"I'm underwater\" in a Tuesday message than find out in an exit interview. We're hiring a fifth consultant partly because of this exact conversation, and I want the hire to actually land before anyone burns out waiting for it.\n\nThanks for reading this far. Back to it.\n\nEvelyn",
+    "body_html": null,
+    "date": "2026-08-06T08:00:00-05:00",
+    "internal_date_ms": 1786021200000,
+    "folder": "SENT",
+    "category": null,
+    "is_unread": false,
+    "is_starred": false,
+    "is_important": true,
+    "user_labels": [
+      "Label_7753"
+    ],
+    "attachments": [],
+    "calendar_event": null,
+    "extra_headers": {
+      "Return-Path": "<evelyn.thorne@thornecadwell.com>"
+    },
+    "size_estimate": 3451,
+    "meta": {
+      "email_class": "internal_announcement",
+      "is_actionable_for_user": true,
+      "action_owner": "evelyn.thorne@thornecadwell.com",
+      "action_summary": "Evelyn committed to entering her own timesheets same-day going forward, and asked Sheila for a monthly utilization breakdown.",
+      "due_date": null,
+      "commitment_made_by_user": "Promised to start entering her own timesheets same-day, no exceptions, starting that week.",
+      "notes": null,
+      "tricky_tags": [],
+      "commitment_is_conditional": false,
+      "commitment_condition": null,
+      "superseded_by_message_id": null
+    }
+  },
+  {
+    "id": "e50f18c2e4b60044",
+    "thread_id": "e50f18c2e4b60044",
+    "profile_id": "consulting",
+    "history_id": "772800",
+    "message_id_header": "<CAFe50f18c2e4b60044@mail.gmail.com>",
+    "in_reply_to": null,
+    "references": [],
+    "thread_position": 1,
+    "thread_length": 1,
+    "from": {
+      "name": "Evelyn Thorne",
+      "email": "evelyn.thorne@thornecadwell.com"
+    },
+    "to": [
+      {
+        "name": "Kyle Brenner",
+        "email": "kyle.brenner@thornecadwell.com"
+      }
+    ],
+    "cc": [],
+    "bcc": [],
+    "delivered_to": "kyle.brenner@thornecadwell.com",
+    "subject": "Fifth consultant — interview Thursday",
+    "snippet": "Kyle — bringing in a candidate Thursday for the fifth-consultant role, Marcus Ohene, six years at a firm doing similar manufacturing ops work. Sit in on the technical portion if yo",
+    "body_text": "Kyle — bringing in a candidate Thursday for the fifth-consultant role, Marcus Ohene, six years at a firm doing similar manufacturing ops work. Sit in on the technical portion if you're free at 2pm?",
+    "body_html": null,
+    "date": "2026-08-10T08:20:00-05:00",
+    "internal_date_ms": 1786368000000,
+    "folder": "SENT",
+    "category": null,
+    "is_unread": false,
+    "is_starred": false,
+    "is_important": false,
+    "user_labels": [],
+    "attachments": [],
+    "calendar_event": null,
+    "extra_headers": {
+      "Return-Path": "<evelyn.thorne@thornecadwell.com>"
+    },
+    "size_estimate": 899,
+    "meta": {
+      "email_class": "recruiting",
+      "is_actionable_for_user": false,
+      "action_owner": "kyle.brenner@thornecadwell.com",
+      "action_summary": "Kyle is asked to sit in on Thursday's technical interview at 2pm.",
+      "due_date": "2026-08-13",
+      "notes": null,
+      "tricky_tags": [],
+      "commitment_made_by_user": null,
+      "commitment_is_conditional": false,
+      "commitment_condition": null,
+      "superseded_by_message_id": null
+    }
+  },
+  {
+    "id": "e50f18c2e4b60045",
+    "thread_id": "e50f18c2e4b60045",
+    "profile_id": "consulting",
+    "history_id": "774710",
+    "message_id_header": "<CAFe50f18c2e4b60045@mail.gmail.com>",
+    "in_reply_to": null,
+    "references": [],
+    "thread_position": 1,
+    "thread_length": 1,
+    "from": {
+      "name": "Evelyn Thorne",
+      "email": "evelyn.thorne@thornecadwell.com"
+    },
+    "to": [
+      {
+        "name": "Ana Restrepo",
+        "email": "ana.restrepo@thornecadwell.com"
+      }
+    ],
+    "cc": [],
+    "bcc": [],
+    "delivered_to": "ana.restrepo@thornecadwell.com",
+    "subject": "Stratus verbal yes!!",
+    "snippet": "Ana — Owen's board approved it, we're a go on Stratus. $340K, diagnostic starting the 10th. I'll get the contract out tomorrow and loop you in on staffing once it's signed. Big one",
+    "body_text": "Ana — Owen's board approved it, we're a go on Stratus. $340K, diagnostic starting the 10th. I'll get the contract out tomorrow and loop you in on staffing once it's signed. Big one.",
+    "body_html": null,
+    "date": "2026-08-11T16:10:00-05:00",
+    "internal_date_ms": 1786482600000,
+    "folder": "SENT",
+    "category": null,
+    "is_unread": false,
+    "is_starred": true,
+    "is_important": false,
+    "user_labels": [],
+    "attachments": [],
+    "calendar_event": null,
+    "extra_headers": {
+      "Return-Path": "<evelyn.thorne@thornecadwell.com>"
+    },
+    "size_estimate": 883,
+    "meta": {
+      "email_class": "client_customer",
+      "is_actionable_for_user": true,
+      "action_owner": "evelyn.thorne@thornecadwell.com",
+      "action_summary": "Evelyn committed to sending the Stratus contract out the next day.",
+      "due_date": "2026-08-12",
+      "commitment_made_by_user": "Promised to get the Stratus contract out tomorrow.",
+      "notes": null,
+      "tricky_tags": [],
+      "commitment_is_conditional": false,
+      "commitment_condition": null,
+      "superseded_by_message_id": null
+    }
+  },
+  {
+    "id": "e50f18c2e4b60046",
+    "thread_id": "e50f18c2e4b60046",
+    "profile_id": "consulting",
+    "history_id": "775750",
+    "message_id_header": "<CAFe50f18c2e4b60046@mail.gmail.com>",
+    "in_reply_to": null,
+    "references": [],
+    "thread_position": 1,
+    "thread_length": 1,
+    "from": {
+      "name": "Evelyn Thorne",
+      "email": "evelyn.thorne@thornecadwell.com"
+    },
+    "to": [
+      {
+        "name": "Bob Vandergriff",
+        "email": "bob.vandergriff@meridiancastings.com"
+      }
+    ],
+    "cc": [],
+    "bcc": [],
+    "delivered_to": "bob.vandergriff@meridiancastings.com",
+    "subject": "Contract signed — let's kick off",
+    "snippet": "Bob — great having you and Owen connect, he mentioned the call was helpful. Separately: workplan's holding up well on our end, two weeks into phase 2. I'll send the kickoff invite ",
+    "body_text": "Bob — great having you and Owen connect, he mentioned the call was helpful. Separately: workplan's holding up well on our end, two weeks into phase 2. I'll send the kickoff invite for the mid-project review this afternoon.",
+    "body_html": null,
+    "date": "2026-08-12T09:30:00-05:00",
+    "internal_date_ms": 1786545000000,
+    "folder": "SENT",
+    "category": null,
+    "is_unread": false,
+    "is_starred": false,
+    "is_important": false,
+    "user_labels": [],
+    "attachments": [],
+    "calendar_event": null,
+    "extra_headers": {
+      "Return-Path": "<evelyn.thorne@thornecadwell.com>"
+    },
+    "size_estimate": 924,
+    "meta": {
+      "email_class": "client_customer",
+      "is_actionable_for_user": true,
+      "action_owner": "evelyn.thorne@thornecadwell.com",
+      "action_summary": "Evelyn committed to sending the mid-project review invite that afternoon.",
+      "due_date": "2026-08-12",
+      "commitment_made_by_user": "Promised to send the kickoff invite for the mid-project review that afternoon.",
+      "notes": null,
+      "tricky_tags": [],
+      "commitment_is_conditional": false,
+      "commitment_condition": null,
+      "superseded_by_message_id": null
+    }
+  },
+  {
+    "id": "e50f18c2e4b60047",
+    "thread_id": "e50f18c2e4b60047",
+    "profile_id": "consulting",
+    "history_id": "732610",
+    "message_id_header": "<CAFe50f18c2e4b60047@mail.gmail.com>",
+    "in_reply_to": null,
+    "references": [],
+    "thread_position": 1,
+    "thread_length": 1,
+    "from": {
+      "name": "Evelyn Thorne",
+      "email": "evelyn.thorne@thornecadwell.com"
+    },
+    "to": [
+      {
+        "name": "Bob Vandergriff",
+        "email": "bob.vandergriff@meridiancastings.com"
+      }
+    ],
+    "cc": [],
+    "bcc": [],
+    "delivered_to": "bob.vandergriff@meridiancastings.com",
+    "subject": "Meridian pricing thoughts",
+    "snippet": "Bob — thanks for the quick turn on this. On the fee side I think we can find something that works for both of us, though I want to be careful not to just cave on the number without",
+    "body_text": "Bob — thanks for the quick turn on this. On the fee side I think we can find something that works for both of us, though I want to be careful not to just cave on the number without protecting the actual scope, because if we cut too much out of the change management piece then we're setting ourselves up to have the same conversation again in six months when the results don't stick and you're asking why we didn't—",
+    "body_html": null,
+    "date": "2026-07-13T10:30:00-05:00",
+    "internal_date_ms": 1783956600000,
+    "folder": "DRAFT",
+    "category": null,
+    "is_unread": false,
+    "is_starred": false,
+    "is_important": false,
+    "user_labels": [],
+    "attachments": [],
+    "calendar_event": null,
+    "extra_headers": {
+      "Return-Path": "<evelyn.thorne@thornecadwell.com>"
+    },
+    "size_estimate": 1119,
+    "meta": {
+      "email_class": "client_customer",
+      "is_actionable_for_user": true,
+      "action_owner": "evelyn.thorne@thornecadwell.com",
+      "action_summary": "Unsent draft — Evelyn never finished or sent this pricing note; she sent a cleaner reply later the same day instead.",
+      "due_date": null,
+      "superseded_by_message_id": "<CAFe50f18c2e4b60011@mail.gmail.com>",
+      "notes": "Draft abandoned mid-sentence; superseded by the actual sent reply the same afternoon.",
+      "tricky_tags": [],
+      "commitment_made_by_user": null,
+      "commitment_is_conditional": false,
+      "commitment_condition": null
+    }
+  },
+  {
+    "id": "e50f18c2e4b60048",
+    "thread_id": "e50f18c2e4b60048",
+    "profile_id": "consulting",
+    "history_id": "741920",
+    "message_id_header": "<CAFe50f18c2e4b60048@mail.gmail.com>",
+    "in_reply_to": null,
+    "references": [],
+    "thread_position": 1,
+    "thread_length": 1,
+    "from": {
+      "name": "Evelyn Thorne",
+      "email": "evelyn.thorne@thornecadwell.com"
+    },
+    "to": [
+      {
+        "name": "Lucia Ferraro",
+        "email": "l.ferraro@halberdpackaging.com"
+      }
+    ],
+    "cc": [],
+    "bcc": [],
+    "delivered_to": "l.ferraro@halberdpackaging.com",
+    "subject": "Halberd deck",
+    "snippet": "Lucia — I know we said Wednesday for the revised deck and I want to get ahead of this before you have to ask, because Fiona had the interview synthesis ready last week and I'm the ",
+    "body_text": "Lucia — I know we said Wednesday for the revised deck and I want to get ahead of this before you have to ask, because Fiona had the interview synthesis ready last week and I'm the one who sat on turning it into something presentable, which isn't fair to you or to her honestly. I keep saying I'll carve out real time for Halberd and then Meridian or Stratus—",
+    "body_html": null,
+    "date": "2026-07-19T21:40:00-05:00",
+    "internal_date_ms": 1784515200000,
+    "folder": "DRAFT",
+    "category": null,
+    "is_unread": false,
+    "is_starred": false,
+    "is_important": false,
+    "user_labels": [],
+    "attachments": [],
+    "calendar_event": null,
+    "extra_headers": {
+      "Return-Path": "<evelyn.thorne@thornecadwell.com>"
+    },
+    "size_estimate": 1062,
+    "meta": {
+      "email_class": "client_customer",
+      "is_actionable_for_user": true,
+      "action_owner": "evelyn.thorne@thornecadwell.com",
+      "action_summary": "Unsent draft — an earlier, unfinished attempt at the Halberd status/apology email she actually sent Monday morning.",
+      "due_date": null,
+      "notes": "Draft abandoned mid-sentence Sunday night; superseded by the actual status update sent Monday.",
+      "tricky_tags": [],
+      "commitment_made_by_user": null,
+      "commitment_is_conditional": false,
+      "commitment_condition": null,
+      "superseded_by_message_id": "<CAFe50f18c2e4b60021@mail.gmail.com>"
+    }
+  },
+  {
+    "id": "e50f18c2e4b60049",
+    "thread_id": "e50f18c2e4b60049",
+    "profile_id": "consulting",
+    "history_id": "747475",
+    "message_id_header": "<CAFe50f18c2e4b60049@mail.gmail.com>",
+    "in_reply_to": null,
+    "references": [],
+    "thread_position": 1,
+    "thread_length": 1,
+    "from": {
+      "name": "Evelyn Thorne",
+      "email": "evelyn.thorne@thornecadwell.com"
+    },
+    "to": [],
+    "cc": [],
+    "bcc": [],
+    "delivered_to": null,
+    "subject": "Small engagement — draft response",
+    "snippet": "Thanks so much for reaching out and for the detail in your note. I've thought about this for longer than I should have before responding, which isn't fair to you. I don't think we'",
+    "body_text": "Thanks so much for reaching out and for the detail in your note. I've thought about this for longer than I should have before responding, which isn't fair to you.\n\nI don't think we're the right fit for an engagement at this scope and budget — still need to confirm the exact number with Sheila before I send this — and I'd rather tell you honestly than take it on halfway. Happy to point you toward a couple of firms that specialize in smaller, more focused engagements if that would help.",
+    "body_html": null,
+    "date": "2026-07-23T18:15:00-05:00",
+    "internal_date_ms": 1784848500000,
+    "folder": "DRAFT",
+    "category": null,
+    "is_unread": false,
+    "is_starred": false,
+    "is_important": false,
+    "user_labels": [],
+    "attachments": [],
+    "calendar_event": null,
+    "extra_headers": {
+      "Return-Path": "<evelyn.thorne@thornecadwell.com>"
+    },
+    "size_estimate": 1193,
+    "meta": {
+      "email_class": "client_customer",
+      "is_actionable_for_user": true,
+      "action_owner": "evelyn.thorne@thornecadwell.com",
+      "action_summary": "Unsent draft decline — recipient not yet chosen and a figure still needs confirming from Sheila before sending.",
+      "due_date": null,
+      "notes": "Draft has no recipient filled in yet; a version of this was later sent to Diane Ostrander.",
+      "tricky_tags": [],
+      "commitment_made_by_user": null,
+      "commitment_is_conditional": false,
+      "commitment_condition": null,
+      "superseded_by_message_id": "<CAFe50f18c2e4b60033@mail.gmail.com>"
+    }
+  },
+  {
+    "id": "e50f18c2e4b60050",
+    "thread_id": "e50f18c2e4b60050",
+    "profile_id": "consulting",
+    "history_id": "759960",
+    "message_id_header": "<CAFe50f18c2e4b60050@mail.gmail.com>",
+    "in_reply_to": null,
+    "references": [],
+    "thread_position": 1,
+    "thread_length": 1,
+    "from": {
+      "name": "Evelyn Thorne",
+      "email": "evelyn.thorne@thornecadwell.com"
+    },
+    "to": [
+      {
+        "name": "Gordon Cadwell",
+        "email": "gordon.cadwell@thornecadwell.com"
+      },
+      {
+        "name": "Ana Restrepo",
+        "email": "ana.restrepo@thornecadwell.com"
+      },
+      {
+        "name": "Kyle Brenner",
+        "email": "kyle.brenner@thornecadwell.com"
+      },
+      {
+        "name": "Fiona Dunne",
+        "email": "fiona.dunne@thornecadwell.com"
+      },
+      {
+        "name": "Sheila Park",
+        "email": "sheila.park@thornecadwell.com"
+      }
+    ],
+    "cc": [],
+    "bcc": [],
+    "delivered_to": "gordon.cadwell@thornecadwell.com",
+    "subject": "Utilization",
+    "snippet": "Team — I've been putting off sending this because I don't love being the person who nags about timesheets, but the July numbers came in and I think we need to talk about it honestl",
+    "body_text": "Team — I've been putting off sending this because I don't love being the person who nags about timesheets, but the July numbers came in and I think we need to talk about it honestly rather than—",
+    "body_html": null,
+    "date": "2026-08-01T10:20:00-05:00",
+    "internal_date_ms": 1785597600000,
+    "folder": "DRAFT",
+    "category": null,
+    "is_unread": false,
+    "is_starred": false,
+    "is_important": false,
+    "user_labels": [],
+    "attachments": [],
+    "calendar_event": null,
+    "extra_headers": {
+      "Return-Path": "<evelyn.thorne@thornecadwell.com>"
+    },
+    "size_estimate": 898,
+    "meta": {
+      "email_class": "internal_announcement",
+      "is_actionable_for_user": true,
+      "action_owner": "evelyn.thorne@thornecadwell.com",
+      "action_summary": "Unsent draft — an earlier, unfinished attempt at the utilization note she actually sent Thursday.",
+      "due_date": null,
+      "notes": "Draft abandoned after one sentence; superseded by the actual utilization email sent five days later.",
+      "tricky_tags": [],
+      "commitment_made_by_user": null,
+      "commitment_is_conditional": false,
+      "commitment_condition": null,
+      "superseded_by_message_id": "<CAFe50f18c2e4b60043@mail.gmail.com>"
+    }
+  }
+]

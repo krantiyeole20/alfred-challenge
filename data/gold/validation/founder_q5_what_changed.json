@@ -1,0 +1,94 @@
+{
+  "profile_id": "founder",
+  "question": "q5_what_changed",
+  "items_reviewed": 12,
+  "verdict": "issues",
+  "findings": [
+    {
+      "type": "missed_item",
+      "severity": "high",
+      "item_id": null,
+      "message_ids": ["a20f18c2e4b60041", "a20f18c2e4b60042", "a20f18c2e4b60043", "a20f18c2e4b60044", "a20f18c2e4b60045"],
+      "problem": "The single most recent decision reversal in the mailbox is missing: on Aug 10 Maya explicitly refused Dev's Q4 roadmap resequencing, then on Aug 12 (the as-of day) she reversed and accepted Priya's split-the-team proposal, which changes the roadmap slide Sana is locking for the Aug 27 board deck.",
+      "evidence": "a20f18c2e4b60042 (Aug 10, SENT): \"I hear the argument but I disagree with the conclusion, at least on sequencing.\" → a20f18c2e4b60045 (Aug 12, SENT): \"Fine — Priya's split. But I want a checkpoint in 3 weeks, not 6, given the board meeting is the 27th.\" The proposal itself is a20f18c2e4b60044: \"Proposal instead of picking one: split the team. Two of us on RBAC/SSO hardening, two on self-serve onboarding, for six weeks, then regroup\"",
+      "recommended_action": "add new item with these fields: changed_field='Q4 engineering roadmap sequencing', previous_value='Self-serve onboarding stays the Q4 priority; RBAC/SSO does not displace it (Maya, Aug 10)', current_value='Team split — two engineers on RBAC/SSO hardening, two on self-serve, with a 3-week checkpoint (not 6)', from_message_id='a20f18c2e4b60042', to_message_id='a20f18c2e4b60045', anchor='a20f18c2e4b60045', tier=must_include, tricky_tags=['long_thread'], rank near 1 (most recent change in the corpus, Aug 12)"
+    },
+    {
+      "type": "missed_item",
+      "severity": "medium",
+      "item_id": null,
+      "message_ids": ["a50f18c2e4b60024", "a50f18c2e4b60035", "a10f18c2e4b60039", "a60f18c2e4b60050"],
+      "problem": "Runway moved from 14 months to ~11.5 months — a large, recent (Aug 10) revision of a headline number that Maya herself put in front of Ellen and Greg nine days earlier in the board pre-read, so the stale belief is sitting in the board's hands right now.",
+      "evidence": "a50f18c2e4b60035 (Aug 1, SENT to Ellen/Greg): \"Runway: 14 months at current burn, assuming we hold hiring to the two open backend engineering reqs through year end and nothing else.\" → a60f18c2e4b60050 (Aug 10, SENT to team): \"we're sitting around 11.5 months at current burn, which is fine but not generous\"",
+      "recommended_action": "add new item with these fields: changed_field='Runway at current burn', previous_value='14 months (Jul 20 model, repeated to the board Aug 1)', current_value='~11.5 months', from_message_id='a50f18c2e4b60035', to_message_id='a60f18c2e4b60050', message_ids=['a50f18c2e4b60024','a50f18c2e4b60035','a10f18c2e4b60039','a60f18c2e4b60050'], tier=acceptable or must_include, consequence=high. Note in why_it_qualifies that Wendy's deck draft a10f18c2e4b60039 (Aug 6) states a third figure, \"22 months of runway as of end of July\", so the deck and the CEO are currently inconsistent — which strengthens rather than weakens the item."
+    },
+    {
+      "type": "missed_item",
+      "severity": "medium",
+      "item_id": null,
+      "message_ids": ["a50f18c2e4b60032", "a50f18c2e4b60033"],
+      "problem": "The board-financials timing change QUESTIONS.md §5 names as a worked Q5 example (Ellen pulling board-financials timing earlier, a50f18c2e4b60032) appears neither in items nor in must_not_include, and it survives a full read — it is a real, dated commitment replacing the prior practice.",
+      "evidence": "a50f18c2e4b60032 (Jul 28, Ellen): \"could you get Greg and me draft financials earlier than usual this cycle? I know last quarter we saw the deck two days before\" → a50f18c2e4b60033 (Jul 28, Maya SENT): \"You and Greg will have draft financials by August 15, a full 12 days out, and the finished deck by August 20 so there's real time to prep questions\"",
+      "recommended_action": "add new item with these fields: changed_field='Board pre-read / draft financials delivery timing', previous_value='Deck to the board ~two days before the meeting (last quarter's practice)', current_value='Draft financials by Aug 15, finished deck by Aug 20', from_message_id='a50f18c2e4b60032', to_message_id='a50f18c2e4b60033', tier=acceptable, consequence=medium — or, if the curator judges it new-commitment rather than diff, move it to must_not_include with an explicit rebuttal of the QUESTIONS.md example (the precedence rule requires the disagreement to be recorded in curator_notes)."
+    },
+    {
+      "type": "wrong_endpoints",
+      "severity": "medium",
+      "item_id": "founder-q5-01",
+      "message_ids": ["a20f18c2e4b60008", "a20f18c2e4b60010", "a10f18c2e4b60027", "a10f18c2e4b60048"],
+      "problem": "The Lumenpay go-live is a four-link chain (Jul 25 → Aug 8 → Aug 10 → Aug 17) but the item spans only the last hop, so the two middle values — including an Aug 8 date Maya herself put in writing to Dana on Jul 30 — are neither in message_ids nor in previous_value; the chain rule ('for chains, the full chain') is applied to the seat count in founder-q5-05 but not here.",
+      "evidence": "a20f18c2e4b60008 (Jul 17, Priya): \"I think we should plan for an August 8th go-live instead of the July 25th date we'd been targeting\"; a20f18c2e4b60010 (Jul 30, Maya SENT): \"New plan is Aug 8 for the actual rollout\"",
+      "recommended_action": "fix message_ids to ['a20f18c2e4b60008','a20f18c2e4b60010','a10f18c2e4b60027','a10f18c2e4b60046','a10f18c2e4b60048'] and previous_value to 'July 25, then August 8, then Monday, August 10'; current_value ('Monday, August 17') is confirmed latest — nothing in the corpus post-dates a10f18c2e4b60048 on this field."
+    },
+    {
+      "type": "missed_item",
+      "severity": "medium",
+      "item_id": null,
+      "message_ids": ["a40f18c2e4b60044"],
+      "problem": "The 409A fair-market-value change is missing even though the message states both endpoints explicitly — the exact shape the spec covers with from_message_id: null — and it bears directly on the option-pool refresh being voted at the Aug 27 board meeting.",
+      "evidence": "a40f18c2e4b60044 (Aug 2, Carta): \"Fair market value per share (common): $2.14 (previous: $1.38)\" ... \"new grants issued after today will use the updated strike price.\"",
+      "recommended_action": "add new item with these fields: changed_field='409A fair market value per common share', previous_value='$1.38', current_value='$2.14 (effective Jul 31 2026, valid through Jan 31 2027)', from_message_id=null, to_message_id='a40f18c2e4b60044', tier=acceptable, consequence=medium, cross-reference a10f18c2e4b60040 / a10f18c2e4b60042 (8% option pool refresh on the Aug 27 agenda). If rejected, it belongs in must_not_include with a stated reason, not simply absent."
+    },
+    {
+      "type": "missed_item",
+      "severity": "low",
+      "item_id": null,
+      "message_ids": ["a10f18c2e4b60006", "a10f18c2e4b60028", "a40f18c2e4b60019"],
+      "problem": "The Head of Marketing finalist pool went from two candidates to one when James Whitcombe took another offer; the stale belief is demonstrably still operative because Maya herself asked Alice about 'the two candidates' two days later.",
+      "evidence": "a10f18c2e4b60006 (Jul 7, SENT): \"let's move Naomi and James to onsite\" → a10f18c2e4b60028 (Aug 3, SENT): \"we're down to Naomi Chen for the final loop (James dropped out, took an offer elsewhere)\"; still cached at a40f18c2e4b60019 (Aug 5, SENT): \"Where do things stand with the two candidates from the shortlist?\"",
+      "recommended_action": "add new item with these fields: changed_field='Head of Marketing finalist pool', previous_value='Two finalists onsite — Naomi Chen and James Whitcombe', current_value='Naomi Chen only; James withdrew for another offer', from_message_id='a10f18c2e4b60006', to_message_id='a10f18c2e4b60028', tier=acceptable/borderline, consequence=medium (Maya wants a name for the Aug 27 board)."
+    },
+    {
+      "type": "missed_item",
+      "severity": "low",
+      "item_id": null,
+      "message_ids": ["a30f18c2e4b60038"],
+      "problem": "The Datadog monthly rate change carries its own prior value in-message, which is the condition QUESTIONS.md sets for admitting a notification to Q5 ('unless an earlier message stated the old bill') read together with the spec's from_message_id: null rule; it is currently in neither items nor must_not_include.",
+      "evidence": "a30f18c2e4b60038 (Aug 7, Datadog): \"your plan will automatically renew at the Pro tier rate reflecting your current usage: $4,200/mo, up from your current $2,850/mo.\"",
+      "recommended_action": "add new item (tier=borderline) with changed_field='Datadog monthly plan rate', previous_value='$2,850/mo', current_value='$4,200/mo from the Aug 30 billing cycle; locks in after Aug 25', from_message_id=null, to_message_id='a30f18c2e4b60038' — or, if the curator holds that in-message priors do not count for machine mail, add it to must_not_include so the boundary is stated rather than silent (it is already cited as a Q1 item in QUESTIONS.md §1)."
+    },
+    {
+      "type": "missed_item",
+      "severity": "low",
+      "item_id": null,
+      "message_ids": ["a20f18c2e4b60035", "a20f18c2e4b60039", "a20f18c2e4b60040"],
+      "problem": "Kettle's pricing model changed from pure seat-based to a hybrid base-plus-metered structure with specific tiers, decided Aug 3 in a six-message thread; nothing about Kettle's own pricing that anyone believed on Jul 27 is still true, and Tom has changed how he sells because of it.",
+      "evidence": "a20f18c2e4b60039 (Aug 3, SENT): \"So: we're doing Priya's hybrid proposal... Tiers: $499/mo base (up to 15 seats), $0.02 per API call above 500K/mo, enterprise tier unchanged\"; prior state at a20f18c2e4b60035 (Jul 28, Tom): \"our seat-based pricing means they'd be paying for every engineer with API access\"; consequence at a20f18c2e4b60040 (Aug 4, Tom): \"I'll hold off on Fenwick-style deals until the new tiers are live\"",
+      "recommended_action": "add new item (tier=borderline) with changed_field='Kettle pricing model', previous_value='Pure seat-based pricing', current_value='Hybrid — $499/mo base up to 15 seats plus $0.02/API call above 500K/mo, live before the September renewal wave, existing customers grandfathered two renewal cycles', from_message_id='a20f18c2e4b60035', to_message_id='a20f18c2e4b60039' — or add to must_not_include as a first-time decision rather than a diff."
+    }
+  ],
+  "checked_and_sound": [
+    "founder-q5-02",
+    "founder-q5-03",
+    "founder-q5-04",
+    "founder-q5-05",
+    "founder-q5-06",
+    "founder-q5-07",
+    "founder-q5-08",
+    "founder-q5-09",
+    "founder-q5-10",
+    "founder-q5-11",
+    "founder-q5-12"
+  ],
+  "notes": "Mechanical checks all pass: every evidence_quote is a verbatim substring of its to_message_id's body_text or attachment extracted_text; every cited id exists; every anchor_message_id equals to_message_id and is present in message_ids; every from_message_id is in message_ids. Staleness sweep: I searched the whole mailbox for later statements on each changed_field and found none for items 01-12 — 450 seats is restated (not changed) on Aug 10 in a60f18c2e4b60050; Aug 17 go-live has no successor; the Certiva thread ends Jul 31; Tarrow early access is never reinstated; the board-meeting UID has no sequence-2 update. Only two calendar mutations exist in the corpus (UID 5ba0a809… sequence 1, UID 376806b9… CANCEL) and both are already items 07 and 11, so calendar coverage is complete. No distractor in must_not_include is a real change — all seven are correctly excluded. Two ranking/consistency notes for a human: (1) prose_answer opens 'Five things you probably still believe are wrong' and then lists seven, and if the roadmap reversal and runway items are added the count drifts further — rewrite the opener; (2) the corpus carries cross-batch inconsistencies the curator partly acknowledged for AWS: ARR appears as $2.3M (a50f18c2e4b60035), $2.14M (a20f18c2e4b60016) and $6.1M (a10f18c2e4b60036/a10f18c2e4b60039); runway as 14 / 22 / 11.5 months; the Aug 27 board meeting is also described as '1-4pm PT' in a60f18c2e4b60041 (Aug 4), which is superseded by the Aug 10 calendar update so item 07 is safe. Two candidates I deliberately did NOT raise as findings: the Tarrow MSA liability cap ($250K template → $500K ask → $350K counter, a10f18c2e4b60029/a10f18c2e4b60032) reads as an in-flight negotiation position rather than a stale belief; and Maya's Aug 4 cancellation of the Q3 offsite venue (a50f18c2e4b60041, 'we're going to do something much smaller and in-office instead rather than book an external venue') cannot be tied textually to the Aug 14 Fort Mason all-hands invite (a40f18c2e4b60008), which is still CONFIRMED at sequence 0 — worth a curator look, since if they are the same event it is a live change two days out. Finally, sizing: the set is already at 12 items, the top of the spec's 5-12 band. If all eight findings were adopted the set would hit 20; my recommended priority is the roadmap reversal (high) and the runway revision (medium) as additions, the founder-q5-01 chain fix, and an explicit disposition — item or distractor — for the Ellen timing, 409A, and Datadog cases so the boundaries are recorded rather than silent."
+}

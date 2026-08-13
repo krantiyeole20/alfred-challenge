@@ -1,0 +1,1851 @@
+{
+  "profile_id": "finance",
+  "owner": {
+    "name": "Aditi Sharma",
+    "email": "aditi.sharma@northwindrobotics.com",
+    "role": "VP Finance, Northwind Robotics",
+    "timezone": "America/New_York"
+  },
+  "as_of": "2026-08-12T23:59:00-04:00",
+  "answers": {
+    "q1_needs_attention": {
+      "question": "What needs my attention?",
+      "prose_answer": "Approve the Aug 15 Gusto payroll run ($418,910.40) before 5pm tomorrow — that one is unrecoverable. Then two fraud items: the 'updated remittance details' for Solent invoice INV-10452 ($27,650) came from solentmachining-ap.com, not Solent, and the 'wire instructions' note for Draw #4471 replies to harborline-banksecure.com. Do not action either; tell Ilya to pay only the account on file and confirm with Frank by phone. The Bill.com batch of 14 vendors, $97,425.55, has been unapproved since Aug 7, including Pemberton's $25,000 retainer. Frank moved his deadline up: FY27 financials, executed amendment and June AR aging by Aug 18, not the 25th. Derek's $4,230 expense report and Ruth's conveyor capex sign-off are both already past due. By Aug 15 you also owe Gail a countersigned D&O binder at $86,400 and a decision on the $58,400 warehouse P&C renewal.",
+      "ranked": [
+        "finance-q1-01",
+        "finance-q1-02",
+        "finance-q1-03",
+        "finance-q1-04",
+        "finance-q1-05",
+        "finance-q1-06",
+        "finance-q1-07",
+        "finance-q1-08",
+        "finance-q1-09",
+        "finance-q1-10",
+        "finance-q1-11"
+      ],
+      "items": [
+        {
+          "item_id": "finance-q1-01",
+          "rank": 1,
+          "tier": "must_include",
+          "claim": "Gusto payroll for the Aug 15 run ($418,910.40) must be approved by Thursday Aug 13 at 5pm ET or the run will not process on schedule.",
+          "thread_id": "c40f18c2e4b60038",
+          "anchor_message_id": "c40f18c2e4b60038",
+          "message_ids": [
+            "c40f18c2e4b60038"
+          ],
+          "evidence_quote": "Please approve by Thursday, Aug 13 at 5:00pm ET, or the run will not process on schedule.",
+          "why_it_qualifies": "Hard, near-irreversible cutoff inside 48 hours: missing it means 50 people are not paid on Aug 15 and the fix is manual off-cycle payroll.",
+          "counterparty": "no-reply@gusto.com",
+          "due_date": "2026-08-13",
+          "due_basis": "explicit",
+          "days_open": 1,
+          "consequence": "high",
+          "tricky_tags": []
+        },
+        {
+          "item_id": "finance-q1-02",
+          "rank": 2,
+          "tier": "must_include",
+          "claim": "The 'updated remittance details' email for Solent invoice INV-10452 ($27,650) is invoice fraud from the lookalike domain solentmachining-ap.com — do not reroute payment; warn Ilya in AP and pay only the account on file from billing@solentmachining.com.",
+          "thread_id": "c60f18c2e4b60029",
+          "anchor_message_id": "c60f18c2e4b60029",
+          "message_ids": [
+            "c60f18c2e4b60029",
+            "c60f18c2e4b60024"
+          ],
+          "evidence_quote": "This is to inform you that Solent Machining Co. has changed banks effective immediately.",
+          "why_it_qualifies": "Hazard requiring awareness even with no legitimate task attached: the real invoice is live and net-30 (due Aug 21), the sender domain is a lookalike of solentmachining.com, and the legitimate invoice explicitly says banking details did not change.",
+          "counterparty": "ap@solentmachining-ap.com",
+          "due_date": null,
+          "due_basis": "none",
+          "days_open": 15,
+          "consequence": "high",
+          "tricky_tags": [
+            "lookalike_domain"
+          ]
+        },
+        {
+          "item_id": "finance-q1-03",
+          "rank": 3,
+          "tier": "must_include",
+          "claim": "The Bill.com batch of 14 vendor payments totalling $97,425.55 has been sitting unapproved since Aug 7 — it was due Aug 8 and includes the $25,000 Pemberton & Wells audit retainer that is due on receipt.",
+          "thread_id": "c40f18c2e4b60030",
+          "anchor_message_id": "c40f18c2e4b60030",
+          "message_ids": [
+            "c40f18c2e4b60030"
+          ],
+          "evidence_quote": "A batch of 14 vendor payments totaling $97,425.55 is ready for your approval.",
+          "why_it_qualifies": "Owner is the designated approver, the batch is four days past its approval date, and several line items (Fairhaven, Pemberton retainer, WeWork) are already past due — late fees and a strained auditor relationship are the cost of continued silence.",
+          "counterparty": "notifications@bill.com",
+          "due_date": "2026-08-08",
+          "due_basis": "explicit",
+          "days_open": 5,
+          "consequence": "high",
+          "tricky_tags": []
+        },
+        {
+          "item_id": "finance-q1-04",
+          "rank": 4,
+          "tier": "must_include",
+          "claim": "Frank Mireles needs the updated FY27 financials, the executed amendment and the June AR aging by Aug 18 — moved up seven days from Aug 25 because Harborline's credit committee re-scheduled.",
+          "thread_id": "c60f18c2e4b60045",
+          "anchor_message_id": "c60f18c2e4b60046",
+          "message_ids": [
+            "c60f18c2e4b60045",
+            "c60f18c2e4b60046"
+          ],
+          "evidence_quote": "our credit committee moved up their meeting to the third week of August, so we now need everything by August 18 instead of the 25th",
+          "why_it_qualifies": "External counterparty with a hard, recently-moved date that gates the Sept 1 credit-facility close; the moved date makes this materially more urgent than the original message suggested.",
+          "counterparty": "fmireles@harborlinebank.com",
+          "due_date": "2026-08-18",
+          "due_basis": "explicit",
+          "days_open": 7,
+          "consequence": "high",
+          "tricky_tags": [
+            "deadline_moved"
+          ]
+        },
+        {
+          "item_id": "finance-q1-05",
+          "rank": 5,
+          "tier": "must_include",
+          "claim": "Derek Lang's $4,230 Q3 travel expense report still needs VP Finance approval — the deadline (EOD Thursday Aug 6, ahead of the Friday payroll cutoff) is stated only inside the attached PDF and has already passed.",
+          "thread_id": "c60f18c2e4b60047",
+          "anchor_message_id": "c60f18c2e4b60047",
+          "message_ids": [
+            "c60f18c2e4b60047"
+          ],
+          "evidence_quote": "requires VP Finance sign-off before it can be released in Friday's payroll cutoff. Please approve or reject in Expensify by end of day Thursday, August 6.",
+          "why_it_qualifies": "Open owner obligation whose due date has passed; the body says only 'details in the attached', so the ask is invisible to anyone who does not open the attachment.",
+          "counterparty": "ilya.petrov@northwindrobotics.com",
+          "due_date": "2026-08-06",
+          "due_basis": "explicit",
+          "days_open": 6,
+          "consequence": "medium",
+          "tricky_tags": [
+            "task_in_attachment_only"
+          ]
+        },
+        {
+          "item_id": "finance-q1-06",
+          "rank": 6,
+          "tier": "must_include",
+          "claim": "Ruth Amankwah's conveyor-system capex request still needs Aditi's sign-off — asked Aug 3 for Monday Aug 10, and the only reply sent was about the 2pm budget call.",
+          "thread_id": "c60f18c2e4b60039",
+          "anchor_message_id": "c60f18c2e4b60048",
+          "message_ids": [
+            "c60f18c2e4b60039",
+            "c60f18c2e4b60048"
+          ],
+          "evidence_quote": "can you review and sign off on the updated conveyor system capex request by Monday?",
+          "why_it_qualifies": "Open owner obligation two days overdue; the owner's own reply demonstrates she never registered the ask, which is why nothing in the thread looks outstanding.",
+          "counterparty": "ruth.amankwah@northwindrobotics.com",
+          "due_date": "2026-08-10",
+          "due_basis": "explicit",
+          "days_open": 9,
+          "consequence": "medium",
+          "tricky_tags": [
+            "quoted_text_only_task"
+          ]
+        },
+        {
+          "item_id": "finance-q1-07",
+          "rank": 7,
+          "tier": "must_include",
+          "claim": "The 'Wire Instructions Update — Credit Facility Draw #4471' email asking for Northwind's account and routing numbers is not Harborline: the Reply-To points at harborline-banksecure.com. Verify with Frank by phone; never reply.",
+          "thread_id": "c60f18c2e4b60037",
+          "anchor_message_id": "c60f18c2e4b60037",
+          "message_ids": [
+            "c60f18c2e4b60037"
+          ],
+          "evidence_quote": "Please reply with your account and routing number so we can verify against our records",
+          "why_it_qualifies": "Hazard: fraud timed to ride the live credit-facility amendment, addressed to the owner personally, with a Reply-To domain that does not match the From domain.",
+          "counterparty": "wireservices@harborlinebank.com",
+          "due_date": null,
+          "due_basis": "none",
+          "days_open": 12,
+          "consequence": "high",
+          "tricky_tags": [
+            "reply_to_mismatch"
+          ]
+        },
+        {
+          "item_id": "finance-q1-08",
+          "rank": 8,
+          "tier": "must_include",
+          "claim": "The D&O/GL renewal is decided — renew with the incumbent at $86,400 (up 18% from $73,220) — and Aditi has to countersign the binder before the 8/15 deadline or coverage lapses on 9/1.",
+          "thread_id": "c20f18c2e4b60041",
+          "anchor_message_id": "c20f18c2e4b60045",
+          "message_ids": [
+            "c20f18c2e4b60041",
+            "c20f18c2e4b60044",
+            "c20f18c2e4b60045"
+          ],
+          "evidence_quote": "Approved — renew with current carrier at $86,400. Aditi, please countersign the binder when it comes through.",
+          "why_it_qualifies": "Hard external deadline three days out with an irreversible consequence (lapsed D&O cover for the board); the remarketing question is closed, only the countersignature remains.",
+          "counterparty": "gunderwood@fairhavenrisk.com",
+          "due_date": "2026-08-15",
+          "due_basis": "explicit",
+          "days_open": 15,
+          "consequence": "high",
+          "tricky_tags": []
+        },
+        {
+          "item_id": "finance-q1-09",
+          "rank": 9,
+          "tier": "acceptable",
+          "claim": "Gail Underwood's FY27 warehouse P&C renewal quote ($58,400, up from $52,100) has to be bound by Aug 15, and the decision whether to shop a second carrier has been open since June 29 — she resent it once and got no answer.",
+          "thread_id": "c60f18c2e4b60010",
+          "anchor_message_id": "c60f18c2e4b60011",
+          "message_ids": [
+            "c60f18c2e4b60010",
+            "c60f18c2e4b60011"
+          ],
+          "evidence_quote": "Wanted to make sure you have the renewal quote before the August 15 deadline to bind.",
+          "why_it_qualifies": "Real decision window closing on Aug 15; the resend raises urgency but this is one obligation, not two. Shopping a second carrier is no longer realistic, so the live decision is bind-or-lapse.",
+          "counterparty": "gunderwood@fairhavenrisk.com",
+          "due_date": "2026-08-15",
+          "due_basis": "explicit",
+          "days_open": 44,
+          "consequence": "medium",
+          "tricky_tags": [
+            "duplicate_resend"
+          ]
+        },
+        {
+          "item_id": "finance-q1-10",
+          "rank": 10,
+          "tier": "acceptable",
+          "claim": "The Massachusetts sales and use tax return is due Aug 20 with an estimated liability of $9,412.60.",
+          "thread_id": "c40f18c2e4b60043",
+          "anchor_message_id": "c40f18c2e4b60043",
+          "message_ids": [
+            "c40f18c2e4b60043"
+          ],
+          "evidence_quote": "Your Massachusetts sales and use tax return is due Aug 20, 2026. Estimated liability based on June/July transactions: $9,412.60.",
+          "why_it_qualifies": "Statutory filing deadline inside the next seven days with penalties and interest for a miss; automated sender but a genuine owner obligation.",
+          "counterparty": "notifications@avalara.com",
+          "due_date": "2026-08-20",
+          "due_basis": "explicit",
+          "days_open": 4,
+          "consequence": "medium",
+          "tricky_tags": []
+        },
+        {
+          "item_id": "finance-q1-11",
+          "rank": 11,
+          "tier": "acceptable",
+          "claim": "Sam wants the updated FY27 budget summary ready before the Aug 27 board meeting, built on the compromise Customer Support number of $1.92M (10 reps) — not the $2.05M re-forecast.",
+          "thread_id": "c60f18c2e4b60050",
+          "anchor_message_id": "c60f18c2e4b60050",
+          "message_ids": [
+            "c60f18c2e4b60050",
+            "c60f18c2e4b60022",
+            "c40f18c2e4b60007"
+          ],
+          "evidence_quote": "can you have the updated FY27 budget summary ready before the board meeting?",
+          "why_it_qualifies": "CEO ask with an implicit deadline that resolves to the Aug 27 board meeting (dated in the 'Board Reporting Prep — Aug 27 Board Mtg' invite); it must carry the current $1.92M figure.",
+          "counterparty": "sam.greer@northwindrobotics.com",
+          "due_date": "2026-08-27",
+          "due_basis": "implicit",
+          "days_open": 2,
+          "consequence": "high",
+          "tricky_tags": [
+            "implicit_deadline",
+            "shifting_number"
+          ]
+        },
+        {
+          "item_id": "finance-q1-12",
+          "rank": 12,
+          "tier": "borderline",
+          "claim": "A second wire-fraud attempt, spoofing Frank Mireles from harborlinebank-support.com, asks for all closing transfers to be redirected and tells the reader not to call the branch; it landed in Spam.",
+          "thread_id": "c30f18c2e4b60046",
+          "anchor_message_id": "c30f18c2e4b60046",
+          "message_ids": [
+            "c30f18c2e4b60046"
+          ],
+          "evidence_quote": "Please use the account and routing numbers below for ALL outgoing transfers related to this closing",
+          "why_it_qualifies": "Borderline: genuine hazard and worth telling AP about, but the spam filter already quarantined it, so a system that omits it has not exposed the owner to anything.",
+          "counterparty": "frank.mireles@harborlinebank-support.com",
+          "due_date": null,
+          "due_basis": "none",
+          "days_open": 1,
+          "consequence": "medium",
+          "tricky_tags": []
+        }
+      ],
+      "must_not_include": [
+        {
+          "message_id": "c60f18c2e4b60013",
+          "subject": "Fwd: Need this processed before Friday — Vantage PO credit adjustment",
+          "why_excluded": "Derek forwarded this for visibility ('keeping you in the loop'); the $4,100 credit memo is an AP task owned by Ilya Petrov, and the urgent language belongs to the quoted original addressed to Derek.",
+          "trap": "forwarded_task_not_users"
+        },
+        {
+          "message_id": "c60f18c2e4b60014",
+          "subject": "CFO Dive Daily Briefing — July 15, 2026",
+          "why_excluded": "Bulk newsletter with List-Unsubscribe headers; no obligation of Aditi's behind it.",
+          "trap": "newsletter_unsubscribe"
+        },
+        {
+          "message_id": "c40f18c2e4b60045",
+          "subject": "Please DocuSign: Credit Facility Amendment — Harborline Bank",
+          "why_excluded": "The 'sign by Friday' envelope was completed the next morning — DocuSign confirmed all parties signed on Aug 12, so nothing is pending.",
+          "trap": "already-completed"
+        },
+        {
+          "message_id": "c30f18c2e4b60011",
+          "subject": "Action required: your Carta plan renews in 5 days",
+          "why_excluded": "Subject says action required, body says the opposite: the $1,800/quarter plan renews automatically and 'no action needed if everything looks right'.",
+          "trap": "newsletter-deadline"
+        },
+        {
+          "message_id": "c40f18c2e4b60031",
+          "subject": "Urgent: Payment Due Today — Fairhaven Risk Partners Invoice #INV-88213",
+          "why_excluded": "Stale Jul 31 automated nag; the same $4,180 Fairhaven line is inside the Aug 7 payment batch, which is the live item. Counting both double-counts one payable.",
+          "trap": "automated-not-human"
+        },
+        {
+          "message_id": "c40f18c2e4b60025",
+          "subject": "Suspicious login attempt blocked",
+          "why_excluded": "The attempt was blocked by Google and no credential was exposed; a notification of a prevented event is a fact, not an attention item.",
+          "trap": "automated-not-human"
+        },
+        {
+          "message_id": "c60f18c2e4b60016",
+          "subject": "Can someone handle the insurance cert for the new warehouse lease?",
+          "why_excluded": "Sent to six people with nobody named, and Miles claimed it the next morning — it was never Aditi's and it is no longer anyone's open question.",
+          "trap": "diffused_group_ask"
+        }
+      ],
+      "curator_notes": "Ranked by irreversibility, then time pressure, then counterparty weight. Three fraud messages exist in this mailbox; the Solent lookalike and the Harborline Reply-To mismatch are ranked as hazards, the third (spoofed Frank Mireles, already in Spam) is borderline. The FY27 budget summary is included only with the current $1.92M Customer Support figure, and 'before the board meeting' is resolved to Aug 27 from the 'Board Reporting Prep — Aug 27 Board Mtg' invite."
+    },
+    "q2_forgetting": {
+      "question": "What am I forgetting?",
+      "prose_answer": "Five things you promised and never delivered. The revenue-recognition memo you told Karen you would write 'by end of week' on Jul 29 is still unwritten, and Nadia has been asking for it in writing since Jul 21 — fieldwork started Aug 11. You told Nadia 'won't slip again' and then missed the Aug 6 lease amortization schedule and related-party disclosures; the related-party note is still a half-finished draft. You told Karen you'd send Sam the final board financials slide by Aug 7 morning, before the deck went to the printer. Frank Mireles never got the Q2 compliance certificate you promised before Jul 28, even though he confirmed the R&D addback on Jul 24 and you're at 2.94x. And the Ironforge invoice IF-3312 apology you drafted on Aug 1 — 'releasing payment today' — was never sent. Due Friday: the FY27 budget calendar and Derek's one-page exception process.",
+      "ranked": [
+        "finance-q2-01",
+        "finance-q2-02",
+        "finance-q2-03",
+        "finance-q2-04",
+        "finance-q2-05",
+        "finance-q2-06",
+        "finance-q2-07",
+        "finance-q2-08",
+        "finance-q2-09",
+        "finance-q2-10"
+      ],
+      "items": [
+        {
+          "item_id": "finance-q2-01",
+          "rank": 1,
+          "tier": "must_include",
+          "claim": "The revenue-recognition memo Aditi promised to write up 'by end of week' on Jul 29 still does not exist — Nadia has been asking for it in writing since Jul 21 and fieldwork started Aug 11.",
+          "thread_id": "c50f18c2e4b60009",
+          "anchor_message_id": "c50f18c2e4b60010",
+          "message_ids": [
+            "c50f18c2e4b60009",
+            "c50f18c2e4b60010",
+            "c60f18c2e4b60023"
+          ],
+          "evidence_quote": "I'll update the revenue recognition memo with this determination by end of week so we have it documented for Nadia's team too.",
+          "why_it_qualifies": "Owner-authored commitment with a date that passed on Jul 31, no delivery anywhere in the mailbox, and the counterparty (the auditor) has flagged it as an open PBC item — the trail went cold after she wrote the promise.",
+          "counterparty": "karen.voss@northwindrobotics.com",
+          "due_date": "2026-07-31",
+          "due_basis": "explicit",
+          "days_open": 14,
+          "consequence": "high",
+          "tricky_tags": []
+        },
+        {
+          "item_id": "finance-q2-02",
+          "rank": 2,
+          "tier": "must_include",
+          "claim": "The lease amortization schedule and related-party disclosures Aditi personally promised Nadia 'by Thursday EOD' (Aug 6) — after apologising that the last items slipped — have not gone out; the related-party note is still an unsent Jul 5 draft.",
+          "thread_id": "c50f18c2e4b60005",
+          "anchor_message_id": "c50f18c2e4b60006",
+          "message_ids": [
+            "c50f18c2e4b60005",
+            "c50f18c2e4b60006",
+            "c50f18c2e4b60048"
+          ],
+          "evidence_quote": "you'll have the lease amortization schedule and related-party disclosures by Thursday EOD — I'm pulling the related-party piece myself since it touches the loan from Sam",
+          "why_it_qualifies": "Explicit owner commitment, six days past its date, made immediately after 'Won't slip again'; the half-written draft proves she engaged with it and then dropped it.",
+          "counterparty": "nhaddad@pembertonwells.com",
+          "due_date": "2026-08-06",
+          "due_basis": "explicit",
+          "days_open": 9,
+          "consequence": "high",
+          "tricky_tags": []
+        },
+        {
+          "item_id": "finance-q2-03",
+          "rank": 3,
+          "tier": "must_include",
+          "claim": "Aditi told Karen on Aug 6 she would send Sam the final board-deck financials slide 'by tomorrow morning' — the deck was going to the printer that Friday and there is no evidence the final version was ever sent.",
+          "thread_id": "c50f18c2e4b60017",
+          "anchor_message_id": "c50f18c2e4b60017",
+          "message_ids": [
+            "c50f18c2e4b60017"
+          ],
+          "evidence_quote": "I'll send the final version to Sam by tomorrow morning.",
+          "why_it_qualifies": "Self-authored commitment to the CEO with a same-week production deadline; nothing in the mailbox shows the slide going back to Sam.",
+          "counterparty": "sam.greer@northwindrobotics.com",
+          "due_date": "2026-08-07",
+          "due_basis": "explicit",
+          "days_open": 6,
+          "consequence": "high",
+          "tricky_tags": []
+        },
+        {
+          "item_id": "finance-q2-04",
+          "rank": 4,
+          "tier": "must_include",
+          "claim": "The Q2 covenant compliance certificate Aditi promised Frank Mireles 'before the 28th' was never filed, even though Frank confirmed on Jul 24 that the R&D addback holds and the ratio is 2.94x.",
+          "thread_id": "c20f18c2e4b60028",
+          "anchor_message_id": "c20f18c2e4b60029",
+          "message_ids": [
+            "c20f18c2e4b60028",
+            "c20f18c2e4b60029",
+            "c20f18c2e4b60033",
+            "c20f18c2e4b60034"
+          ],
+          "evidence_quote": "Will have the certificate to you before the 28th.",
+          "why_it_qualifies": "Owner commitment to the bank, fifteen days overdue; the blocking question was answered on Jul 24, so the only thing missing is the filing itself — and the same bank is now waiting on a bigger package by Aug 18.",
+          "counterparty": "fmireles@harborlinebank.com",
+          "due_date": "2026-07-28",
+          "due_basis": "explicit",
+          "days_open": 29,
+          "consequence": "high",
+          "tricky_tags": []
+        },
+        {
+          "item_id": "finance-q2-05",
+          "rank": 5,
+          "tier": "must_include",
+          "claim": "Ironforge Automation's invoice IF-3312 is still unpaid: Aditi drafted an apology on Aug 1 saying she was releasing payment that day, then never sent it — and the signed W-9 she chased on Jul 9 never arrived either.",
+          "thread_id": "c50f18c2e4b60049",
+          "anchor_message_id": "c50f18c2e4b60049",
+          "message_ids": [
+            "c50f18c2e4b60049",
+            "c50f18c2e4b60020"
+          ],
+          "evidence_quote": "the Ironforge invoice should have been paid on the 15th and I only just caught that it's still sitting unapproved",
+          "why_it_qualifies": "She wrote the acknowledgement herself, which is exactly the engagement test for a forgetting; the draft was never sent and no payment or W-9 message closes the loop.",
+          "counterparty": "ap@ironforgeautomation.com",
+          "due_date": "2026-08-01",
+          "due_basis": "implicit",
+          "days_open": 11,
+          "consequence": "medium",
+          "tricky_tags": []
+        },
+        {
+          "item_id": "finance-q2-06",
+          "rank": 6,
+          "tier": "acceptable",
+          "claim": "Aditi told Karen on Aug 5 she would have the cash-flow forecast for Frank 'to you eod' so Karen could forward it that day; nothing shows it was sent.",
+          "thread_id": "c50f18c2e4b60035",
+          "anchor_message_id": "c50f18c2e4b60035",
+          "message_ids": [
+            "c50f18c2e4b60035"
+          ],
+          "evidence_quote": "on it, will have this to you eod so you can send it to Frank before he leaves for the day",
+          "why_it_qualifies": "Same-day owner promise, seven days stale, and the forecast feeds the credit-facility package Frank now needs by Aug 18.",
+          "counterparty": "karen.voss@northwindrobotics.com",
+          "due_date": "2026-08-05",
+          "due_basis": "explicit",
+          "days_open": 7,
+          "consequence": "medium",
+          "tricky_tags": []
+        },
+        {
+          "item_id": "finance-q2-07",
+          "rank": 7,
+          "tier": "acceptable",
+          "claim": "Aditi's conditional promise to Frank — fully executed amendment by Friday Jul 31 *if* Hoyt & Grieve signed off on the indemnification language — passed with no status either way; the amendment was only executed on Aug 12.",
+          "thread_id": "c60f18c2e4b60026",
+          "anchor_message_id": "c60f18c2e4b60026",
+          "message_ids": [
+            "c60f18c2e4b60026",
+            "c40f18c2e4b60046"
+          ],
+          "evidence_quote": "If legal signs off on it as drafted, I'll have the fully executed amendment back to you by Friday",
+          "why_it_qualifies": "Conditional commitment whose date passed unresolved and which must be reported as conditional: she also promised 'I'll keep you posted either way' and never did. The signature finally landed Aug 12, twelve days late.",
+          "counterparty": "fmireles@harborlinebank.com",
+          "due_date": "2026-07-31",
+          "due_basis": "explicit",
+          "days_open": 16,
+          "consequence": "medium",
+          "tricky_tags": [
+            "conditional_promise"
+          ]
+        },
+        {
+          "item_id": "finance-q2-08",
+          "rank": 8,
+          "tier": "acceptable",
+          "claim": "The signed commitment letter on the $2.5M Harborline facility extension is due Aug 15; Sam approved signing on Jul 21 and Aditi told him she was 'signing this week' — three weeks ago.",
+          "thread_id": "c10f18c2e4b60018",
+          "anchor_message_id": "c10f18c2e4b60027",
+          "message_ids": [
+            "c10f18c2e4b60018",
+            "c10f18c2e4b60019",
+            "c10f18c2e4b60026",
+            "c10f18c2e4b60027"
+          ],
+          "evidence_quote": "Will do — signing this week and sending Tomás a heads-up separately.",
+          "why_it_qualifies": "Accepted obligation that went quiet: the term sheet requires the signed commitment letter by Aug 15 to stop the facility lapsing on Sept 1, and the Aug 12 DocuSign covers the Third Amendment, not this letter.",
+          "counterparty": "fmireles@harborlinebank.com",
+          "due_date": "2026-08-15",
+          "due_basis": "explicit",
+          "days_open": 26,
+          "consequence": "high",
+          "tricky_tags": []
+        },
+        {
+          "item_id": "finance-q2-09",
+          "rank": 9,
+          "tier": "acceptable",
+          "claim": "Aditi promised the leadership team a finalized FY27 budget calendar with review slots by Aug 14 — two days away, with department inputs still missing from Derek and Ruth.",
+          "thread_id": "c50f18c2e4b60022",
+          "anchor_message_id": "c50f18c2e4b60022",
+          "message_ids": [
+            "c50f18c2e4b60022"
+          ],
+          "evidence_quote": "I'll circulate the finalized FY27 budget calendar by August 14 with specific review slots for each of you.",
+          "why_it_qualifies": "Self-authored commitment to five people with an imminent date; the inputs it depends on have not arrived, so it will slip silently unless picked up now.",
+          "counterparty": "sam.greer@northwindrobotics.com",
+          "due_date": "2026-08-14",
+          "due_basis": "explicit",
+          "days_open": 5,
+          "consequence": "medium",
+          "tricky_tags": []
+        },
+        {
+          "item_id": "finance-q2-10",
+          "rank": 10,
+          "tier": "acceptable",
+          "claim": "Aditi owes Derek a one-page pre-approval exception process for entertainment spend over the $75/person cap by Friday Aug 14, covering the Vantage Foundries dinner retroactively.",
+          "thread_id": "c50f18c2e4b60011",
+          "anchor_message_id": "c50f18c2e4b60012",
+          "message_ids": [
+            "c50f18c2e4b60011",
+            "c50f18c2e4b60012"
+          ],
+          "evidence_quote": "I'll get you a one-page pre-approval exception process by Friday so reps aren't guessing.",
+          "why_it_qualifies": "Explicit owner commitment with a stated Friday date; reps are currently stuck submitting exceptions that go nowhere, so the lapse has a visible internal cost.",
+          "counterparty": "derek.lang@northwindrobotics.com",
+          "due_date": "2026-08-14",
+          "due_basis": "explicit",
+          "days_open": 1,
+          "consequence": "medium",
+          "tricky_tags": []
+        },
+        {
+          "item_id": "finance-q2-11",
+          "rank": 11,
+          "tier": "borderline",
+          "claim": "Aditi told Frank on Jul 23 that Northwind's counter-proposal redlines (SOFR+225, DSCR instead of the $500K minimum-cash covenant) would be with him 'by Monday' Jul 27.",
+          "thread_id": "c50f18c2e4b60003",
+          "anchor_message_id": "c50f18c2e4b60004",
+          "message_ids": [
+            "c50f18c2e4b60003",
+            "c50f18c2e4b60004"
+          ],
+          "evidence_quote": "I'll have our counter-proposal redlines to you by Monday.",
+          "why_it_qualifies": "Borderline: no message shows the redlines being sent, but Frank's Aug 11 envelope refers to a 'final redline attached per our call' and her Aug 11 draft says terms are at SOFR+225, so the negotiation plainly moved on outside the mailbox.",
+          "counterparty": "fmireles@harborlinebank.com",
+          "due_date": "2026-07-27",
+          "due_basis": "explicit",
+          "days_open": 20,
+          "consequence": "medium",
+          "tricky_tags": []
+        },
+        {
+          "item_id": "finance-q2-12",
+          "rank": 12,
+          "tier": "borderline",
+          "claim": "A drafted-but-never-sent reply to Sam on the Cambridge office lease renewal ($34/sqft ask, counter at $31 on a 3-year term) has been sitting unsent since Jun 24.",
+          "thread_id": "c50f18c2e4b60047",
+          "anchor_message_id": "c50f18c2e4b60047",
+          "message_ids": [
+            "c50f18c2e4b60047"
+          ],
+          "evidence_quote": "I think we should counter at $31 and tie it to a 3-year term instead of 5 so we're not locked in if the Waltham option pans out.",
+          "why_it_qualifies": "Borderline: clear evidence she engaged (she wrote it) and it stops mid-sentence, but no message in the mailbox states a lease deadline, so the consequence of the lapse is unproven.",
+          "counterparty": "sam.greer@northwindrobotics.com",
+          "due_date": null,
+          "due_basis": "none",
+          "days_open": 49,
+          "consequence": "medium",
+          "tricky_tags": []
+        },
+        {
+          "item_id": "finance-q2-13",
+          "rank": 13,
+          "tier": "borderline",
+          "claim": "The August board-pack financial highlights for Tomás were drafted on Aug 11 and left unsent.",
+          "thread_id": "c50f18c2e4b60050",
+          "anchor_message_id": "c50f18c2e4b60050",
+          "message_ids": [
+            "c50f18c2e4b60050"
+          ],
+          "evidence_quote": "Tomás — early look at the highlights before the full deck:",
+          "why_it_qualifies": "Borderline: only one day old and Tomás already got cash and burn by email on Aug 6, so this is a draft in flight rather than a lapse — but it is unsent and the board pack is due before Aug 27.",
+          "counterparty": "tdelgado@arrowpointvc.com",
+          "due_date": null,
+          "due_basis": "none",
+          "days_open": 1,
+          "consequence": "low",
+          "tricky_tags": []
+        }
+      ],
+      "must_not_include": [
+        {
+          "message_id": "c60f18c2e4b60028",
+          "subject": "Re: FY27 headcount plan — final numbers",
+          "why_excluded": "Hannah explicitly retracted the Friday headcount-plan commitment; a cancelled promise is not a forgetting, and it was never Aditi's promise in the first place.",
+          "trap": "cancelled_commitment"
+        },
+        {
+          "message_id": "c60f18c2e4b60013",
+          "subject": "Fwd: Need this processed before Friday — Vantage PO credit adjustment",
+          "why_excluded": "The $4,100 credit memo is AP's task (Ilya's); Aditi was copied for visibility and never accepted it, so there is nothing of hers to forget.",
+          "trap": "forwarded_task_not_users"
+        },
+        {
+          "message_id": "c20f18c2e4b60025",
+          "subject": "Re: Hardware COGS variance — Q2 unit cost investigation",
+          "why_excluded": "The $187K unfavourable COGS variance was booked into the July close, which Karen confirmed locked on Jul 31 — the commitment is closed.",
+          "trap": "already-completed"
+        },
+        {
+          "message_id": "c50f18c2e4b60041",
+          "subject": "Q2 estimated tax payment confirmation",
+          "why_excluded": "Aditi already confirmed the Q2 federal and Massachusetts payments to Kenji on Jun 15; nothing is outstanding on this one.",
+          "trap": "already-completed"
+        },
+        {
+          "message_id": "c60f18c2e4b60016",
+          "subject": "Can someone handle the insurance cert for the new warehouse lease?",
+          "why_excluded": "Ruth addressed six people and named nobody; Miles claimed it the next morning. Aditi never engaged with it, so it is neither hers nor forgotten.",
+          "trap": "diffused_group_ask"
+        }
+      ],
+      "curator_notes": "Ranked by (how overdue) x (whether the counterparty has chased) x (consequence). Every item is attested by owner-authored promise language in SENT or DRAFT mail with no closing message anywhere in the mailbox. The conditional promise to Frank is reported as conditional, not as a flat missed deadline. Hannah's retracted headcount commitment is deliberately excluded. The counter-proposal redlines are borderline because later messages imply the negotiation continued by phone."
+    },
+    "q3_waiting_on_me": {
+      "question": "What is waiting on me?",
+      "prose_answer": "Nadia Haddad has been blocked longest: she needs the Meridian lease amendment redline and warned on Jul 24 that without it by Monday it goes in her status memo to the partner — that was 16 days ago. Frank Mireles needs the FY27 financials, executed amendment and June AR aging by Aug 18. Sam wants the FY27 budget summary before the Aug 27 board meeting, and has separately told Tomás your team will have the board financial package by Aug 26. Fourteen vendors are stuck behind the unapproved $97,425.55 Bill.com batch. Derek's $4,230 expense report and Ruth's conveyor capex sign-off are both past due, and Ruth is also waiting on a Ramp limit increase. Ilya still needs to know whether Ops authorised the extra 1,000 Atlas units — he asked Jul 20. Karen needs your countersignature on the $86,400 D&O binder by Aug 15 and your approval on JE-2291.",
+      "ranked": [
+        "finance-q3-01",
+        "finance-q3-02",
+        "finance-q3-03",
+        "finance-q3-04",
+        "finance-q3-05",
+        "finance-q3-06",
+        "finance-q3-07",
+        "finance-q3-08",
+        "finance-q3-09",
+        "finance-q3-10",
+        "finance-q3-11"
+      ],
+      "items": [
+        {
+          "item_id": "finance-q3-01",
+          "rank": 1,
+          "tier": "must_include",
+          "claim": "Nadia Haddad is blocked on the Meridian equipment lease amendment — she needs the executed amendment or at minimum the unsigned redline, asked Jul 21 and warned on Jul 24 that without it by Monday Jul 27 it becomes an open item in her status memo to the partner.",
+          "thread_id": "c60f18c2e4b60025",
+          "anchor_message_id": "c60f18c2e4b60025",
+          "message_ids": [
+            "c60f18c2e4b60023",
+            "c60f18c2e4b60025"
+          ],
+          "evidence_quote": "If you can get me even the unsigned redline by Monday morning that should be enough to keep it off the memo.",
+          "why_it_qualifies": "Named individual requester, addressed to Aditi alone, escalated once, and 16 days past the date she gave; the two messages are the same person writing from her Pemberton address and her personal gmail, so it is one queue, not two.",
+          "counterparty": "nhaddad@pembertonwells.com",
+          "due_date": "2026-07-27",
+          "due_basis": "explicit",
+          "days_open": 22,
+          "consequence": "high",
+          "tricky_tags": [
+            "same_person_two_addresses"
+          ]
+        },
+        {
+          "item_id": "finance-q3-02",
+          "rank": 2,
+          "tier": "must_include",
+          "claim": "Frank Mireles is waiting on the updated FY27 financials, the executed amendment and the June AR aging for Harborline's credit committee — now needed by Aug 18 rather than Aug 25.",
+          "thread_id": "c60f18c2e4b60045",
+          "anchor_message_id": "c60f18c2e4b60046",
+          "message_ids": [
+            "c60f18c2e4b60045",
+            "c60f18c2e4b60046"
+          ],
+          "evidence_quote": "our credit committee will need your updated FY27 financials, the executed amendment, and June AR aging",
+          "why_it_qualifies": "Specific external requester, sole addressee, last substantive move is his, and the September 1 renewal close depends on it. Cite the Aug 18 date, not the superseded Aug 25.",
+          "counterparty": "fmireles@harborlinebank.com",
+          "due_date": "2026-08-18",
+          "due_basis": "explicit",
+          "days_open": 7,
+          "consequence": "high",
+          "tricky_tags": [
+            "deadline_moved"
+          ]
+        },
+        {
+          "item_id": "finance-q3-03",
+          "rank": 3,
+          "tier": "must_include",
+          "claim": "Sam Greer is waiting on the updated FY27 budget summary ahead of the Aug 27 board meeting, carrying the compromise Customer Support number.",
+          "thread_id": "c60f18c2e4b60050",
+          "anchor_message_id": "c60f18c2e4b60050",
+          "message_ids": [
+            "c60f18c2e4b60050",
+            "c40f18c2e4b60007"
+          ],
+          "evidence_quote": "Want to walk everyone through the compromise numbers on Customer Support and make sure nothing else has moved since we last talked.",
+          "why_it_qualifies": "CEO, sole addressee, direct request, no reply sent. The implicit deadline resolves to the Aug 27 board meeting dated in the 'Board Reporting Prep — Aug 27 Board Mtg' invite.",
+          "counterparty": "sam.greer@northwindrobotics.com",
+          "due_date": "2026-08-27",
+          "due_basis": "implicit",
+          "days_open": 2,
+          "consequence": "high",
+          "tricky_tags": [
+            "implicit_deadline"
+          ]
+        },
+        {
+          "item_id": "finance-q3-04",
+          "rank": 4,
+          "tier": "must_include",
+          "claim": "Fourteen vendors and the AP team are waiting on Aditi to approve the $97,425.55 Bill.com payment batch, which has been pending since Aug 7 and was due Aug 8.",
+          "thread_id": "c40f18c2e4b60030",
+          "anchor_message_id": "c40f18c2e4b60030",
+          "message_ids": [
+            "c40f18c2e4b60030"
+          ],
+          "evidence_quote": "A batch of 14 vendor payments totaling $97,425.55 is ready for your approval.",
+          "why_it_qualifies": "Payment workflow acting for identifiable people: Karen countersigned the Pemberton engagement letter and the retainer is due on receipt. Aditi is the designated approver and nothing moves until she clicks.",
+          "counterparty": "notifications@bill.com",
+          "due_date": "2026-08-08",
+          "due_basis": "explicit",
+          "days_open": 5,
+          "consequence": "high",
+          "tricky_tags": []
+        },
+        {
+          "item_id": "finance-q3-05",
+          "rank": 5,
+          "tier": "must_include",
+          "claim": "Ilya Petrov (and Derek Lang) are waiting on VP Finance approval of Derek's $4,230 Q3 travel expense report, which needed sign-off by EOD Aug 6 to make the Friday payroll cutoff.",
+          "thread_id": "c60f18c2e4b60047",
+          "anchor_message_id": "c60f18c2e4b60047",
+          "message_ids": [
+            "c60f18c2e4b60047"
+          ],
+          "evidence_quote": "This report exceeds the $3,000 auto-approval threshold and requires VP Finance sign-off before it can be released in Friday's payroll cutoff.",
+          "why_it_qualifies": "Named human requester, sole addressee, still unanswered; the ask is real even though the body says only 'details in the attached' and the deadline lives in the attachment.",
+          "counterparty": "ilya.petrov@northwindrobotics.com",
+          "due_date": "2026-08-06",
+          "due_basis": "explicit",
+          "days_open": 6,
+          "consequence": "medium",
+          "tricky_tags": [
+            "task_in_attachment_only"
+          ]
+        },
+        {
+          "item_id": "finance-q3-06",
+          "rank": 6,
+          "tier": "must_include",
+          "claim": "Ruth Amankwah is waiting on Aditi's sign-off of the conveyor-system capex request she asked for on Aug 3 with a Monday Aug 10 date.",
+          "thread_id": "c60f18c2e4b60039",
+          "anchor_message_id": "c60f18c2e4b60039",
+          "message_ids": [
+            "c60f18c2e4b60039",
+            "c60f18c2e4b60048"
+          ],
+          "evidence_quote": "Aditi — can you review and sign off on the updated conveyor system capex request by Monday? It's in the shared folder.",
+          "why_it_qualifies": "Named requester, sole addressee, explicit imperative. Aditi's reply spoke last but was about the 2pm budget call, so the request itself is untouched and Ruth is still blocked.",
+          "counterparty": "ruth.amankwah@northwindrobotics.com",
+          "due_date": "2026-08-10",
+          "due_basis": "explicit",
+          "days_open": 9,
+          "consequence": "medium",
+          "tricky_tags": [
+            "quoted_text_only_task"
+          ]
+        },
+        {
+          "item_id": "finance-q3-07",
+          "rank": 7,
+          "tier": "acceptable",
+          "claim": "Ilya Petrov cannot close out the Atlas Fasteners invoice until Aditi confirms whether Ops authorised the extra 1,000-unit restock — he asked on Jul 20 and has had no answer.",
+          "thread_id": "c10f18c2e4b60015",
+          "anchor_message_id": "c10f18c2e4b60017",
+          "message_ids": [
+            "c10f18c2e4b60015",
+            "c10f18c2e4b60016",
+            "c10f18c2e4b60017"
+          ],
+          "evidence_quote": "I don't have a record of us approving that restock — can you confirm whether Ops requested it?",
+          "why_it_qualifies": "Direct question to Aditi alone, last move in the thread is his, and payment is being held pending her answer; blocked longer than anything else internal.",
+          "counterparty": "ilya.petrov@northwindrobotics.com",
+          "due_date": null,
+          "due_basis": "none",
+          "days_open": 23,
+          "consequence": "medium",
+          "tricky_tags": []
+        },
+        {
+          "item_id": "finance-q3-08",
+          "rank": 8,
+          "tier": "acceptable",
+          "claim": "Karen Voss has approved renewing D&O/GL with the incumbent at $86,400 and is waiting for Aditi to countersign the binder before the 8/15 deadline.",
+          "thread_id": "c20f18c2e4b60041",
+          "anchor_message_id": "c20f18c2e4b60045",
+          "message_ids": [
+            "c20f18c2e4b60044",
+            "c20f18c2e4b60045"
+          ],
+          "evidence_quote": "Approved — renew with current carrier at $86,400. Aditi, please countersign the binder when it comes through.",
+          "why_it_qualifies": "Named requester, Aditi named in the body, and only her signature stands between the decision and bound coverage on 9/1.",
+          "counterparty": "karen.voss@northwindrobotics.com",
+          "due_date": "2026-08-15",
+          "due_basis": "explicit",
+          "days_open": 15,
+          "consequence": "high",
+          "tricky_tags": []
+        },
+        {
+          "item_id": "finance-q3-09",
+          "rank": 9,
+          "tier": "acceptable",
+          "claim": "Miles Okonkwo's July accrual reversal JE-2291 ($61,240 across four lines) has been sitting in Aditi's NetSuite approval queue since Aug 1, and Karen assigned her the July GL close approval task due Aug 6.",
+          "thread_id": "c40f18c2e4b60028",
+          "anchor_message_id": "c40f18c2e4b60028",
+          "message_ids": [
+            "c40f18c2e4b60028",
+            "c60f18c2e4b60044"
+          ],
+          "evidence_quote": "was submitted by Miles Okonkwo and is pending your approval before the July period can be locked",
+          "why_it_qualifies": "System acting for two named colleagues (Miles submitted, Karen assigned); the period close cannot be finalised without her approval and the task date has passed.",
+          "counterparty": "miles.okonkwo@northwindrobotics.com",
+          "due_date": "2026-08-06",
+          "due_basis": "explicit",
+          "days_open": 11,
+          "consequence": "medium",
+          "tricky_tags": []
+        },
+        {
+          "item_id": "finance-q3-10",
+          "rank": 10,
+          "tier": "acceptable",
+          "claim": "Vendor bill VB-33107 (Suffolk Steel Fabricators, $12,060) was approved by Karen Voss and routed to Aditi for final sign-off on Aug 6 under the two-tier workflow.",
+          "thread_id": "c40f18c2e4b60029",
+          "anchor_message_id": "c40f18c2e4b60029",
+          "message_ids": [
+            "c40f18c2e4b60029"
+          ],
+          "evidence_quote": "was approved by Karen Voss and routed to you for final sign-off per the two-tier approval workflow",
+          "why_it_qualifies": "A workflow acting for a named human (Karen) who has already done her half; the bill is stuck at Aditi's step.",
+          "counterparty": "karen.voss@northwindrobotics.com",
+          "due_date": "2026-08-07",
+          "due_basis": "explicit",
+          "days_open": 6,
+          "consequence": "medium",
+          "tricky_tags": []
+        },
+        {
+          "item_id": "finance-q3-11",
+          "rank": 11,
+          "tier": "acceptable",
+          "claim": "Sam has told Tomás Delgado that Aditi's team will have the updated board financial package ready by the Wednesday before the Aug 27 board meeting — i.e. Aug 26 — in an email where Aditi appears only as a bcc.",
+          "thread_id": "c60f18c2e4b60042",
+          "anchor_message_id": "c60f18c2e4b60042",
+          "message_ids": [
+            "c60f18c2e4b60042",
+            "c40f18c2e4b60007"
+          ],
+          "evidence_quote": "Aditi's team will have the updated financial package ready for you and the rest of the board by the Wednesday before",
+          "why_it_qualifies": "The body names her and commits her team, so a real obligation to a board observer exists even though she is not in To or Cc and reply-all will never reach her.",
+          "counterparty": "tdelgado@arrowpointvc.com",
+          "due_date": "2026-08-26",
+          "due_basis": "implicit",
+          "days_open": 8,
+          "consequence": "high",
+          "tricky_tags": [
+            "bcc_invisible_recipient",
+            "implicit_deadline"
+          ]
+        },
+        {
+          "item_id": "finance-q3-12",
+          "rank": 12,
+          "tier": "borderline",
+          "claim": "Ruth Amankwah has asked for her Ramp card monthly limit to go from $5,000 to $12,000 and the request has been pending approval since Aug 5 (due Aug 8).",
+          "thread_id": "c40f18c2e4b60033",
+          "anchor_message_id": "c40f18c2e4b60033",
+          "message_ids": [
+            "c40f18c2e4b60033"
+          ],
+          "evidence_quote": "Ruth Amankwah has requested a monthly limit increase on her Ramp card from $5,000 to $12,000, citing increased vendor site-visit travel.",
+          "why_it_qualifies": "Borderline: a real named colleague is waiting, but it arrives as a routine admin-console notification and Ruth has not chased it, so it sits at the edge of the guilt list.",
+          "counterparty": "ruth.amankwah@northwindrobotics.com",
+          "due_date": "2026-08-08",
+          "due_basis": "explicit",
+          "days_open": 7,
+          "consequence": "low",
+          "tricky_tags": []
+        }
+      ],
+      "must_not_include": [
+        {
+          "message_id": "c60f18c2e4b60013",
+          "subject": "Fwd: Need this processed before Friday — Vantage PO credit adjustment",
+          "why_excluded": "Priya Anand is waiting on Derek and on AP, not on Aditi — Derek forwarded it 'keeping you in the loop' and the credit memo is Ilya's task.",
+          "trap": "forwarded_task_not_users"
+        },
+        {
+          "message_id": "c60f18c2e4b60016",
+          "subject": "Can someone handle the insurance cert for the new warehouse lease?",
+          "why_excluded": "Six recipients, nobody named, and Miles claimed it the next morning; nobody is waiting on Aditi.",
+          "trap": "diffused_group_ask"
+        },
+        {
+          "message_id": "c60f18c2e4b60018",
+          "subject": "Titan follow-up",
+          "why_excluded": "Karen says 'he said he'd handle it' after naming both Miles and Derek — the owner is genuinely unresolvable from the text and it is not Aditi. Reporting it as hers misattributes ownership.",
+          "trap": "ambiguous_pronoun_owner"
+        },
+        {
+          "message_id": "c60f18c2e4b60029",
+          "subject": "URGENT: Updated Remittance Details — Invoice INV-10452",
+          "why_excluded": "It demands a reply confirming rerouted payment, but the requester is a lookalike domain running invoice fraud — no legitimate party is waiting. It belongs in 'needs attention' as a hazard only.",
+          "trap": "lookalike_domain"
+        },
+        {
+          "message_id": "c10f18c2e4b60047",
+          "subject": "Re: New T&E and expense policy — effective September 1",
+          "why_excluded": "Derek's question about the entertainment cap was answered the same afternoon on Aug 11; the ball is back on his side.",
+          "trap": "already-answered"
+        },
+        {
+          "message_id": "c30f18c2e4b60011",
+          "subject": "Action required: your Carta plan renews in 5 days",
+          "why_excluded": "An automated billing notice with no human requester behind it, and the plan renews automatically — nobody is blocked.",
+          "trap": "automated-not-human"
+        }
+      ],
+      "curator_notes": "Ranked by how long the requester has been blocked, weighted by who they are and their stated date. Approval workflows are included only where a named human has already done their half (Karen on VB-33107, Miles on JE-2291, AP on the payment batch). Nadia's two addresses are merged into one requester and one obligation. The capex item anchors on Ruth's ask because Aditi's later reply never touched it."
+    },
+    "q4_waiting_on_others": {
+      "question": "What am I waiting on someone else for?",
+      "prose_answer": "Your chase list, worst first. Derek and Ruth still owe FY27 budget inputs — the template went out three weeks ago, you set a Friday Aug 7 deadline, and nothing has arrived; that blocks the Aug 21 consolidated model. Miles owes Nadia the ASC 842 Waltham lease schedule and the Carta export by Aug 14, plus the one-page memo documenting the $190K inventory reserve that Nadia made a condition of her sign-off, plus the July flux analysis that was due Jul 21. Kenji never answered your Q3 estimated-tax question — it hit his out-of-office and was never re-sent; he is back and the payment needs queuing before the 15th. Hannah has not produced the July headcount numbers, which are also holding the accrued payroll. Ilya owes the $1,240 Stripe-versus-Mercury trace and the Avalara nexus study. Ramp, Ironforge's W-9 and NetSuite support are all still silent.",
+      "ranked": [
+        "finance-q4-01",
+        "finance-q4-02",
+        "finance-q4-03",
+        "finance-q4-04",
+        "finance-q4-05",
+        "finance-q4-06",
+        "finance-q4-07",
+        "finance-q4-08",
+        "finance-q4-09",
+        "finance-q4-10",
+        "finance-q4-11"
+      ],
+      "items": [
+        {
+          "item_id": "finance-q4-01",
+          "rank": 1,
+          "tier": "must_include",
+          "claim": "Derek Lang and Ruth Amankwah still owe their FY27 department budget inputs — the template went out around Jul 21, Aditi chased on Aug 4 with a Friday Aug 7 deadline, and neither has sent anything.",
+          "thread_id": "c50f18c2e4b60019",
+          "anchor_message_id": "c50f18c2e4b60019",
+          "message_ids": [
+            "c50f18c2e4b60019"
+          ],
+          "evidence_quote": "sent the FY27 budget template over two weeks ago and I still don't have either of your department inputs. I need these by Friday to keep the board timeline",
+          "why_it_qualifies": "Owner-sent ask with an explicit date, one chase already spent, and no responsive reply anywhere; it blocks the consolidated FY27 model she promised for Aug 21 and the board number Sam wants.",
+          "counterparty": "derek.lang@northwindrobotics.com",
+          "due_date": "2026-08-07",
+          "due_basis": "explicit",
+          "days_open": 22,
+          "consequence": "high",
+          "tricky_tags": []
+        },
+        {
+          "item_id": "finance-q4-02",
+          "rank": 2,
+          "tier": "must_include",
+          "claim": "Miles Okonkwo owes Nadia the ASC 842 lease schedule for the Waltham warehouse and a July 31 Carta cap-table export by Friday Aug 14 — a commitment Aditi made on his behalf.",
+          "thread_id": "c10f18c2e4b60044",
+          "anchor_message_id": "c10f18c2e4b60045",
+          "message_ids": [
+            "c10f18c2e4b60044",
+            "c10f18c2e4b60045"
+          ],
+          "evidence_quote": "Miles will have both to you by Friday (8/14).",
+          "why_it_qualifies": "Delegation with a stated date and no delivery yet; the auditor is the ultimate creditor, so a slip lands on Aditi rather than on Miles.",
+          "counterparty": "miles.okonkwo@northwindrobotics.com",
+          "due_date": "2026-08-14",
+          "due_basis": "explicit",
+          "days_open": 5,
+          "consequence": "high",
+          "tricky_tags": []
+        },
+        {
+          "item_id": "finance-q4-03",
+          "rank": 3,
+          "tier": "must_include",
+          "claim": "Kenji Watanabe has never answered whether the Q3 estimated tax payment should be trued up for the revenue running ahead of plan — the question hit his out-of-office on Aug 3 and was never re-sent after he returned on Aug 11.",
+          "thread_id": "c60f18c2e4b60040",
+          "anchor_message_id": "c60f18c2e4b60041",
+          "message_ids": [
+            "c60f18c2e4b60040",
+            "c60f18c2e4b60041"
+          ],
+          "evidence_quote": "is the Q3 estimated payment based on the original FY27 projection or should we true it up given the revenue's tracking a bit ahead of plan?",
+          "why_it_qualifies": "Directed expectation with no human response: an auto-reply is not an answer. The wait had a floor of Aug 11 (Renee Ashcroft was the delegate), and the payment needs queuing before the 15th.",
+          "counterparty": "kenji@watanabetax.com",
+          "due_date": "2026-08-15",
+          "due_basis": "implicit",
+          "days_open": 9,
+          "consequence": "high",
+          "tricky_tags": [
+            "out_of_office"
+          ]
+        },
+        {
+          "item_id": "finance-q4-04",
+          "rank": 4,
+          "tier": "must_include",
+          "claim": "Hannah Cho still owes the July headcount numbers — Aditi asked on Jul 17 for end-of-July headcount by department with fully-loaded cost by Friday Jul 20, and the July accrued payroll accrual is also being held for them.",
+          "thread_id": "c50f18c2e4b60015",
+          "anchor_message_id": "c10f18c2e4b60038",
+          "message_ids": [
+            "c50f18c2e4b60015",
+            "c10f18c2e4b60037",
+            "c10f18c2e4b60038"
+          ],
+          "evidence_quote": "Accrued payroll still pending Hannah's numbers.",
+          "why_it_qualifies": "Owner-sent ask with a date that passed 23 days ago, independently confirmed still outstanding by Miles on Aug 4; it blocks both the FY27 model and the July close.",
+          "counterparty": "hannah.cho@northwindrobotics.com",
+          "due_date": "2026-07-20",
+          "due_basis": "explicit",
+          "days_open": 26,
+          "consequence": "high",
+          "tricky_tags": []
+        },
+        {
+          "item_id": "finance-q4-05",
+          "rank": 5,
+          "tier": "must_include",
+          "claim": "Ilya Petrov has not come back on the $1,240 gap between the Stripe payout report and the Mercury deposit for the Jun 28 batch, chased on Aug 2.",
+          "thread_id": "c50f18c2e4b60043",
+          "anchor_message_id": "c50f18c2e4b60043",
+          "message_ids": [
+            "c50f18c2e4b60043"
+          ],
+          "evidence_quote": "Did you get a chance to trace it to a specific transaction, or is it a timing issue that'll resolve itself in the next payout cycle?",
+          "why_it_qualifies": "Owner-sent follow-up with no reply in the mailbox; Aditi said she wanted it closed before July numbers are finalised with Nadia's team, which has now happened.",
+          "counterparty": "ilya.petrov@northwindrobotics.com",
+          "due_date": null,
+          "due_basis": "none",
+          "days_open": 10,
+          "consequence": "medium",
+          "tricky_tags": []
+        },
+        {
+          "item_id": "finance-q4-06",
+          "rank": 6,
+          "tier": "acceptable",
+          "claim": "Miles owes Nadia the one-page memo documenting the $190K inventory obsolescence adjustment methodology — Nadia made it a condition of her sign-off on Jul 28 and asked for it 'early next week'.",
+          "thread_id": "c20f18c2e4b60001",
+          "anchor_message_id": "c20f18c2e4b60009",
+          "message_ids": [
+            "c20f18c2e4b60008",
+            "c20f18c2e4b60009",
+            "c20f18c2e4b60010"
+          ],
+          "evidence_quote": "I need a short written memo (a page is fine) documenting the methodology for the $190K and the rationale for treating the rest as a disclosure matter",
+          "why_it_qualifies": "A promise to the owner's audit process that gates interim sign-off; Sam closed the debate on Jul 29 ('let's get Nadia her memo') and nothing since shows it delivered.",
+          "counterparty": "miles.okonkwo@northwindrobotics.com",
+          "due_date": "2026-08-03",
+          "due_basis": "implicit",
+          "days_open": 15,
+          "consequence": "high",
+          "tricky_tags": []
+        },
+        {
+          "item_id": "finance-q4-07",
+          "rank": 7,
+          "tier": "acceptable",
+          "claim": "Ilya has not delivered the Avalara nexus study summarising Ohio and North Carolina exposure, asked for on Jul 16 with 'don't let it sit past the month'.",
+          "thread_id": "c50f18c2e4b60014",
+          "anchor_message_id": "c50f18c2e4b60014",
+          "message_ids": [
+            "c50f18c2e4b60014"
+          ],
+          "evidence_quote": "Can you take point on running their nexus study and get me a summary of exposure before we decide whether to start registering?",
+          "why_it_qualifies": "Owner delegation with a month-end date that has passed and no responsive message; the Ohio threshold alert is already live, so exposure accrues while it waits.",
+          "counterparty": "ilya.petrov@northwindrobotics.com",
+          "due_date": "2026-07-31",
+          "due_basis": "implicit",
+          "days_open": 27,
+          "consequence": "medium",
+          "tricky_tags": []
+        },
+        {
+          "item_id": "finance-q4-08",
+          "rank": 8,
+          "tier": "acceptable",
+          "claim": "Miles was asked on Jul 14 to own the July flux analysis with a draft by the 21st for the close package; no draft has come back.",
+          "thread_id": "c50f18c2e4b60013",
+          "anchor_message_id": "c50f18c2e4b60013",
+          "message_ids": [
+            "c50f18c2e4b60013"
+          ],
+          "evidence_quote": "I'd like a draft by the 21st so I have time to review before it goes in the close package.",
+          "why_it_qualifies": "Owner-sent delegation with an explicit date, three weeks stale, and no delivery message anywhere in the mailbox.",
+          "counterparty": "miles.okonkwo@northwindrobotics.com",
+          "due_date": "2026-07-21",
+          "due_basis": "explicit",
+          "days_open": 29,
+          "consequence": "medium",
+          "tricky_tags": []
+        },
+        {
+          "item_id": "finance-q4-09",
+          "rank": 9,
+          "tier": "acceptable",
+          "claim": "Devon Cruz at Ramp has not responded to Aditi's Aug 1 pushback on the 22% platform-fee increase ($9,600 to $11,712) or her request to land closer to 10-12%.",
+          "thread_id": "c50f18c2e4b60028",
+          "anchor_message_id": "c50f18c2e4b60028",
+          "message_ids": [
+            "c50f18c2e4b60028"
+          ],
+          "evidence_quote": "What can you do closer to a 10-12% increase, especially given we're coming up on renewal for the expense management module too",
+          "why_it_qualifies": "Owner-sent negotiation ask to a vendor with no reply in eleven days; the renewal will simply auto-price if the silence continues.",
+          "counterparty": "devon.cruz@ramp.com",
+          "due_date": null,
+          "due_basis": "none",
+          "days_open": 11,
+          "consequence": "medium",
+          "tricky_tags": []
+        },
+        {
+          "item_id": "finance-q4-10",
+          "rank": 10,
+          "tier": "acceptable",
+          "claim": "Ironforge Automation still has not sent the signed W-9 that Northwind needs before invoice IF-3312 can be processed — chased on Jul 9 and still unresolved when Aditi drafted her Aug 1 apology.",
+          "thread_id": "c50f18c2e4b60020",
+          "anchor_message_id": "c50f18c2e4b60020",
+          "message_ids": [
+            "c50f18c2e4b60020"
+          ],
+          "evidence_quote": "we still need a signed W-9 on file before we can process the Ironforge invoice from last month",
+          "why_it_qualifies": "Directed expectation on a third party that is now blocking Northwind's own payment; the vendor relationship is already strained by the delay.",
+          "counterparty": "ap@ironforgeautomation.com",
+          "due_date": null,
+          "due_basis": "none",
+          "days_open": 34,
+          "consequence": "medium",
+          "tricky_tags": []
+        },
+        {
+          "item_id": "finance-q4-11",
+          "rank": 11,
+          "tier": "acceptable",
+          "claim": "NetSuite support has not resolved ticket NS-441982 — Miles still lacks the custom AP aging report role, which Aditi flagged as blocking his month-end work on Jul 21.",
+          "thread_id": "c50f18c2e4b60021",
+          "anchor_message_id": "c50f18c2e4b60021",
+          "message_ids": [
+            "c50f18c2e4b60021"
+          ],
+          "evidence_quote": "Miles still doesn't have access to the custom AP aging report role, and it's blocking his month-end work.",
+          "why_it_qualifies": "Owner-sent escalation on a ticket already two weeks old at the time, with no vendor reply in the mailbox since.",
+          "counterparty": "support@netsuite.com",
+          "due_date": null,
+          "due_basis": "none",
+          "days_open": 22,
+          "consequence": "low",
+          "tricky_tags": []
+        },
+        {
+          "item_id": "finance-q4-12",
+          "rank": 12,
+          "tier": "borderline",
+          "claim": "Gail Underwood never answered the two binder questions from Jul 13: whether the quoted premium already reflects the higher deductible option, and whether adding Tomás as a board observer changes Side A coverage.",
+          "thread_id": "c50f18c2e4b60042",
+          "anchor_message_id": "c50f18c2e4b60042",
+          "message_ids": [
+            "c50f18c2e4b60042"
+          ],
+          "evidence_quote": "does the $184,600 premium already reflect the higher deductible option we discussed, or is that the base quote?",
+          "why_it_qualifies": "Borderline: Gail has since engaged extensively on the D&O renewal and remarketing, so the thread is not dead even though these two specific questions were never answered in writing.",
+          "counterparty": "gunderwood@fairhavenrisk.com",
+          "due_date": null,
+          "due_basis": "none",
+          "days_open": 30,
+          "consequence": "low",
+          "tricky_tags": []
+        }
+      ],
+      "must_not_include": [
+        {
+          "message_id": "c60f18c2e4b60043",
+          "subject": "July trial balance export",
+          "why_excluded": "Karen's 'I'll send it once the NetSuite close batch finishes' looks like an open promise, but she delivered the file on Aug 7 in the reply on this thread. Listing it reports a closed obligation as open.",
+          "trap": "promised_attachment"
+        },
+        {
+          "message_id": "c60f18c2e4b60028",
+          "subject": "Re: FY27 headcount plan — final numbers",
+          "why_excluded": "Hannah explicitly retracted the Friday headcount-plan commitment with no new date. A retracted promise leaves the chase list and becomes a 'what changed' fact.",
+          "trap": "cancelled_commitment"
+        },
+        {
+          "message_id": "c40f18c2e4b60046",
+          "subject": "Completed: Credit Facility Amendment — Harborline Bank",
+          "why_excluded": "The executed amendment arrived on Aug 12 — all parties signed. Continuing to list it as something Aditi is waiting for is a phantom wait.",
+          "trap": "already-completed"
+        },
+        {
+          "message_id": "c40f18c2e4b60023",
+          "subject": "Automatic reply: PBC list — a few line items need clarification",
+          "why_excluded": "An out-of-office is not a human response, but Nadia has since written substantively on Aug 3 and Aug 7; treating the auto-reply as a live open wait double-counts the audit thread.",
+          "trap": "out_of_office"
+        },
+        {
+          "message_id": "c60f18c2e4b60013",
+          "subject": "Fwd: Need this processed before Friday — Vantage PO credit adjustment",
+          "why_excluded": "Aditi never asked anyone for anything here; Derek forwarded it for visibility and Priya's expectation runs to AP. There is no directed expectation of Aditi's to chase.",
+          "trap": "forwarded_task_not_users"
+        }
+      ],
+      "curator_notes": "Ranked by what each wait blocks, then staleness, then chases already spent. Hannah's item is anchored on the independent evidence that the numbers are still missing (Miles, Aug 4) and deliberately does not lean on her retracted promise, which belongs to Q5. The out-of-office on the Kenji thread adjusts the wait rather than closing it. Karen's promised trial balance is excluded because the delivery message exists."
+    },
+    "q5_what_changed": {
+      "question": "What changed?",
+      "prose_answer": "Six beliefs of yours are now stale. Frank moved the credit-committee package from Aug 25 to Aug 18 — seven days earlier. The FY27 Customer Support opex line is $1.92M for 10 reps: the board rejected the $2.05M re-forecast, which had already replaced the original $1.84M for 9 reps, so neither older number may go in the deck. Hannah withdrew the FY27 headcount plan she promised for Jul 31 and has given no new date. The inventory obsolescence question landed at $190K item-level plus expanded disclosure, not Nadia's $340K extrapolation. D&O/GL is settled at $86,400 with the incumbent — remarketing came back higher at $91,300. Titan TF-88231 was paid in full at $18,400, reversing the 50/50 split you agreed mid-thread. Also: the budget kickoff moved to Thu Aug 6, Frank's Jul 22 call was cancelled and never rebooked, you can now approve Bill.com batches to $250K alone, and Nadia is emailing from a personal address.",
+      "ranked": [
+        "finance-q5-01",
+        "finance-q5-02",
+        "finance-q5-03",
+        "finance-q5-04",
+        "finance-q5-05",
+        "finance-q5-06",
+        "finance-q5-07",
+        "finance-q5-08",
+        "finance-q5-09",
+        "finance-q5-10"
+      ],
+      "items": [
+        {
+          "item_id": "finance-q5-01",
+          "rank": 1,
+          "tier": "must_include",
+          "claim": "Harborline's deadline for the credit-facility package moved up seven days: Frank now needs the FY27 financials, executed amendment and June AR aging by Aug 18, not Aug 25.",
+          "thread_id": "c60f18c2e4b60045",
+          "anchor_message_id": "c60f18c2e4b60046",
+          "message_ids": [
+            "c60f18c2e4b60045",
+            "c60f18c2e4b60046"
+          ],
+          "evidence_quote": "Correction — our credit committee moved up their meeting to the third week of August, so we now need everything by August 18 instead of the 25th.",
+          "why_it_qualifies": "Explicit correction from the counterparty five days after the original date was set; anyone still working to Aug 25 is working to a stale belief and misses the Sept 1 close.",
+          "counterparty": "fmireles@harborlinebank.com",
+          "due_date": null,
+          "due_basis": "none",
+          "days_open": null,
+          "consequence": "high",
+          "tricky_tags": [
+            "deadline_moved"
+          ],
+          "changed_field": "Deadline for Harborline credit-committee package",
+          "previous_value": "August 25, 2026",
+          "current_value": "August 18, 2026",
+          "from_message_id": "c60f18c2e4b60045",
+          "to_message_id": "c60f18c2e4b60046"
+        },
+        {
+          "item_id": "finance-q5-02",
+          "rank": 2,
+          "tier": "must_include",
+          "claim": "The FY27 Customer Support opex line is now $1.92M (10 reps, no senior lead until Q3 FY27) — the board rejected the $2.05M re-forecast, which had itself replaced the original $1.84M plan for 9 reps.",
+          "thread_id": "c60f18c2e4b60020",
+          "anchor_message_id": "c60f18c2e4b60022",
+          "message_ids": [
+            "c60f18c2e4b60020",
+            "c60f18c2e4b60021",
+            "c60f18c2e4b60022"
+          ],
+          "evidence_quote": "Landed on a compromise: 10 reps instead of 11, no senior lead add until Q3 FY27 (revisit then based on actuals). That puts opex at $1.92M.",
+          "why_it_qualifies": "A three-link supersession chain ending Jul 29; $1.92M is the number going in the board deck and the only figure that may be cited as current anywhere.",
+          "counterparty": "sam.greer@northwindrobotics.com",
+          "due_date": null,
+          "due_basis": "none",
+          "days_open": null,
+          "consequence": "high",
+          "tricky_tags": [
+            "shifting_number"
+          ],
+          "changed_field": "FY27 Customer Support opex line",
+          "previous_value": "$2.05M (11 reps + senior lead), which had replaced the original $1.84M (9 reps)",
+          "current_value": "$1.92M (10 reps, no senior lead until Q3 FY27)",
+          "from_message_id": "c60f18c2e4b60021",
+          "to_message_id": "c60f18c2e4b60022"
+        },
+        {
+          "item_id": "finance-q5-03",
+          "rank": 3,
+          "tier": "must_include",
+          "claim": "Hannah Cho withdrew her commitment to deliver the final FY27 headcount plan on Friday Jul 31 — legal wants another pass at the org restructuring piece and she has given no replacement date.",
+          "thread_id": "c60f18c2e4b60027",
+          "anchor_message_id": "c60f18c2e4b60028",
+          "message_ids": [
+            "c60f18c2e4b60027",
+            "c60f18c2e4b60028"
+          ],
+          "evidence_quote": "Actually, need to walk back what I said Tuesday — legal wants another pass on the org restructuring piece before I can share final numbers, so Friday's off. I don't have a new date yet",
+          "why_it_qualifies": "Explicit retraction two days after the promise: the belief 'headcount plan lands Friday' is stale, and because there is no new date the budget model has an open-ended hole in it.",
+          "counterparty": "hannah.cho@northwindrobotics.com",
+          "due_date": null,
+          "due_basis": "none",
+          "days_open": null,
+          "consequence": "high",
+          "tricky_tags": [
+            "cancelled_commitment"
+          ],
+          "changed_field": "FY27 headcount plan delivery",
+          "previous_value": "Final numbers by Friday, July 31",
+          "current_value": "Withdrawn, no new date given",
+          "from_message_id": "c60f18c2e4b60027",
+          "to_message_id": "c60f18c2e4b60028"
+        },
+        {
+          "item_id": "finance-q5-04",
+          "rank": 4,
+          "tier": "must_include",
+          "claim": "The inventory obsolescence question landed at a $190K item-level booked adjustment plus expanded footnote disclosure, not the $340K population-wide adjustment the auditors had extrapolated.",
+          "thread_id": "c20f18c2e4b60001",
+          "anchor_message_id": "c20f18c2e4b60010",
+          "message_ids": [
+            "c20f18c2e4b60006",
+            "c20f18c2e4b60008",
+            "c20f18c2e4b60010"
+          ],
+          "evidence_quote": "Works for me — go with Karen's $190K plus the disclosure.",
+          "why_it_qualifies": "A decision reached late in a long thread that replaces the number debated in the middle of it; the reserve figure feeds both the board deck and the audit file.",
+          "counterparty": "sam.greer@northwindrobotics.com",
+          "due_date": null,
+          "due_basis": "none",
+          "days_open": null,
+          "consequence": "high",
+          "tricky_tags": [
+            "long_thread"
+          ],
+          "changed_field": "Inventory obsolescence reserve adjustment",
+          "previous_value": "$340K population-wide extrapolation",
+          "current_value": "$190K item-level adjustment plus expanded footnote disclosure",
+          "from_message_id": "c20f18c2e4b60006",
+          "to_message_id": "c20f18c2e4b60010"
+        },
+        {
+          "item_id": "finance-q5-05",
+          "rank": 5,
+          "tier": "acceptable",
+          "claim": "The D&O/GL renewal is settled at $86,400 with the incumbent — up 18% from $73,220 — after remarketing produced only one quote, at $91,300, and two carriers declining to quote the segment.",
+          "thread_id": "c20f18c2e4b60041",
+          "anchor_message_id": "c20f18c2e4b60045",
+          "message_ids": [
+            "c20f18c2e4b60041",
+            "c20f18c2e4b60042",
+            "c20f18c2e4b60044",
+            "c20f18c2e4b60045"
+          ],
+          "evidence_quote": "Approved — renew with current carrier at $86,400. Aditi, please countersign the binder when it comes through.",
+          "why_it_qualifies": "The working assumption on Jul 28 was that remarketing would beat the increase; that belief is now dead and the decision has flipped to accepting the incumbent's number before 8/15.",
+          "counterparty": "karen.voss@northwindrobotics.com",
+          "due_date": null,
+          "due_basis": "none",
+          "days_open": null,
+          "consequence": "high",
+          "tricky_tags": [],
+          "changed_field": "D&O / GL renewal decision",
+          "previous_value": "$73,220 expiring premium; remarketing in progress to beat the 18% increase",
+          "current_value": "Renew with incumbent Meridian Assurance at $86,400, effective 9/1 (remarket came back at $91,300)",
+          "from_message_id": "c20f18c2e4b60041",
+          "to_message_id": "c20f18c2e4b60045"
+        },
+        {
+          "item_id": "finance-q5-06",
+          "rank": 6,
+          "tier": "acceptable",
+          "claim": "The FY27 Budget Kickoff moved from Wednesday Aug 5 at 2pm to Thursday Aug 6 at 10am.",
+          "thread_id": "c40f18c2e4b60003",
+          "anchor_message_id": "c40f18c2e4b60004",
+          "message_ids": [
+            "c40f18c2e4b60003",
+            "c40f18c2e4b60004"
+          ],
+          "evidence_quote": "Pushing to Thursday the 6th at 10am, same room/Zoom.",
+          "why_it_qualifies": "Calendar mutation with sequence 1 on the same UID; a small delta but the original time is now wrong wherever it was cached.",
+          "counterparty": "sam.greer@northwindrobotics.com",
+          "due_date": null,
+          "due_basis": "none",
+          "days_open": null,
+          "consequence": "low",
+          "tricky_tags": [],
+          "changed_field": "FY27 Budget Kickoff meeting time",
+          "previous_value": "Wednesday, August 5, 2:00pm ET",
+          "current_value": "Thursday, August 6, 10:00am ET",
+          "from_message_id": "c40f18c2e4b60003",
+          "to_message_id": "c40f18c2e4b60004"
+        },
+        {
+          "item_id": "finance-q5-07",
+          "rank": 7,
+          "tier": "acceptable",
+          "claim": "Titan invoice TF-88231 was paid in full at $18,400 — reversing the 50/50 compromise agreed mid-thread, which would have paid $16,650 and formally disputed $1,750 of freight.",
+          "thread_id": "c60f18c2e4b60001",
+          "anchor_message_id": "c60f18c2e4b60008",
+          "message_ids": [
+            "c60f18c2e4b60005",
+            "c60f18c2e4b60007",
+            "c60f18c2e4b60008",
+            "c60f18c2e4b60009"
+          ],
+          "evidence_quote": "Ilya, please release the remaining $1,750 so Titan gets the full $18,400.",
+          "why_it_qualifies": "The decision at the end of the thread contradicts what was agreed in the middle; anyone who stopped reading at message five believes $1,750 is still formally in dispute with Titan.",
+          "counterparty": "ilya.petrov@northwindrobotics.com",
+          "due_date": null,
+          "due_basis": "none",
+          "days_open": null,
+          "consequence": "medium",
+          "tricky_tags": [
+            "long_thread"
+          ],
+          "changed_field": "Titan Fastener invoice TF-88231 payment",
+          "previous_value": "Pay $16,650 and formally dispute the remaining $1,750 of freight",
+          "current_value": "Paid in full, $18,400; dispute reason DR-0619 noted for the record only",
+          "from_message_id": "c60f18c2e4b60005",
+          "to_message_id": "c60f18c2e4b60008"
+        },
+        {
+          "item_id": "finance-q5-08",
+          "rank": 8,
+          "tier": "acceptable",
+          "claim": "Aditi's Bill.com role was changed by Karen Voss on Jul 24: she can now approve payment batches up to $250,000 with no secondary approver.",
+          "thread_id": "c40f18c2e4b60026",
+          "anchor_message_id": "c40f18c2e4b60026",
+          "message_ids": [
+            "c40f18c2e4b60026"
+          ],
+          "evidence_quote": "you can now approve payment batches up to $250,000 without a secondary approver",
+          "why_it_qualifies": "An administrative shift that changes how she must act: the second pair of eyes that used to sit behind large batches is gone, which matters directly given the live invoice-fraud attempts against AP.",
+          "counterparty": "karen.voss@northwindrobotics.com",
+          "due_date": null,
+          "due_basis": "none",
+          "days_open": null,
+          "consequence": "medium",
+          "tricky_tags": [],
+          "changed_field": "Bill.com approval authority",
+          "previous_value": "Payment batches required a secondary approver",
+          "current_value": "Payment Approver — up to $250,000 with no secondary approver",
+          "from_message_id": null,
+          "to_message_id": "c40f18c2e4b60026"
+        },
+        {
+          "item_id": "finance-q5-09",
+          "rank": 9,
+          "tier": "acceptable",
+          "claim": "Nadia Haddad is also writing from a personal address, nadia.haddad.cpa@gmail.com — the Meridian lease-amendment escalation came from there, not from her Pemberton inbox.",
+          "thread_id": "c60f18c2e4b60025",
+          "anchor_message_id": "c60f18c2e4b60025",
+          "message_ids": [
+            "c60f18c2e4b60023",
+            "c60f18c2e4b60025"
+          ],
+          "evidence_quote": "Didn't want to send this from my Pemberton inbox since it's more of a heads-up than an official ask.",
+          "why_it_qualifies": "One human, two addresses: the escalation threatening to put the lease amendment in the partner status memo does not thread with the official audit correspondence, so it is easy to lose.",
+          "counterparty": "nhaddad@pembertonwells.com",
+          "due_date": null,
+          "due_basis": "none",
+          "days_open": null,
+          "consequence": "medium",
+          "tricky_tags": [
+            "same_person_two_addresses"
+          ],
+          "changed_field": "Nadia Haddad's sending address",
+          "previous_value": "nhaddad@pembertonwells.com only",
+          "current_value": "Also nadia.haddad.cpa@gmail.com — same person, off-thread escalations",
+          "from_message_id": "c60f18c2e4b60023",
+          "to_message_id": "c60f18c2e4b60025"
+        },
+        {
+          "item_id": "finance-q5-10",
+          "rank": 10,
+          "tier": "acceptable",
+          "claim": "Frank cancelled the Jul 22 Credit Facility Amendment call because his credit committee had not finished redlining the covenant language, and it was never rescheduled — the amendment closed by DocuSign instead on Aug 12.",
+          "thread_id": "c40f18c2e4b60005",
+          "anchor_message_id": "c40f18c2e4b60006",
+          "message_ids": [
+            "c40f18c2e4b60005",
+            "c40f18c2e4b60006"
+          ],
+          "evidence_quote": "Credit committee hasn't finished redlining the covenant language, so tomorrow's call would be premature. Will resend once I have real terms to discuss, likely early next week.",
+          "why_it_qualifies": "Calendar cancellation (METHOD:CANCEL, sequence 1) plus a promise to resend that never materialised; the belief 'we walked the covenant language through on a call' is false.",
+          "counterparty": "fmireles@harborlinebank.com",
+          "due_date": null,
+          "due_basis": "none",
+          "days_open": null,
+          "consequence": "medium",
+          "tricky_tags": [],
+          "changed_field": "Credit Facility Amendment discussion call",
+          "previous_value": "Wednesday, July 22, 11:00am ET",
+          "current_value": "Cancelled and never rescheduled",
+          "from_message_id": "c40f18c2e4b60005",
+          "to_message_id": "c40f18c2e4b60006"
+        },
+        {
+          "item_id": "finance-q5-11",
+          "rank": 11,
+          "tier": "borderline",
+          "claim": "The condition on Aditi's Jul 27 promise to Frank has resolved: the Third Amendment to the Credit Agreement was fully executed by all parties on Aug 12, twelve days after the promised Friday.",
+          "thread_id": "c60f18c2e4b60026",
+          "anchor_message_id": "c40f18c2e4b60046",
+          "message_ids": [
+            "c60f18c2e4b60026",
+            "c40f18c2e4b60046"
+          ],
+          "evidence_quote": "All parties have signed \"Northwind Robotics — Third Amendment to Credit Agreement.\"",
+          "why_it_qualifies": "Borderline: the resolution of a conditional promise is a genuine delta, but it reads as ordinary progress rather than a belief the owner needs corrected.",
+          "counterparty": "fmireles@harborlinebank.com",
+          "due_date": null,
+          "due_basis": "none",
+          "days_open": null,
+          "consequence": "medium",
+          "tricky_tags": [
+            "conditional_promise"
+          ],
+          "changed_field": "Credit facility amendment execution",
+          "previous_value": "Pending Hoyt & Grieve sign-off on the indemnification language; promised for Friday Jul 31",
+          "current_value": "Fully executed by all parties on Aug 12",
+          "from_message_id": "c60f18c2e4b60026",
+          "to_message_id": "c40f18c2e4b60046"
+        }
+      ],
+      "must_not_include": [
+        {
+          "message_id": "c60f18c2e4b60011",
+          "subject": "FY27 Property & Casualty Renewal Quote — Warehouse",
+          "why_excluded": "A verbatim resend of the Jun 29 quote — same $58,400 premium, same effective date. A duplicate with a new timestamp changes nothing.",
+          "trap": "duplicate_resend"
+        },
+        {
+          "message_id": "c40f18c2e4b60040",
+          "subject": "ACH credit received: $84,500.00 from Cascade Fulfillment Inc.",
+          "why_excluded": "New information, not a change: no earlier message states a prior belief about this receipt, so there is no delta to report.",
+          "trap": "automated-not-human"
+        },
+        {
+          "message_id": "c40f18c2e4b60048",
+          "subject": "Google Workspace storage 92% full for northwindrobotics.com",
+          "why_excluded": "An automated notification restating known state; storage creeping up is not a change to any operative belief.",
+          "trap": "automated-not-human"
+        },
+        {
+          "message_id": "c40f18c2e4b60012",
+          "subject": "Accepted: FY26 Audit Kickoff — Pemberton & Wells",
+          "why_excluded": "An RSVP at sequence 0 — someone else's attendance status, not a mutation of the event's time or existence.",
+          "trap": "cc-not-addressed"
+        },
+        {
+          "message_id": "c30f18c2e4b60042",
+          "subject": "5 red flags of invoice fraud (and how to catch them)",
+          "why_excluded": "A vendor newsletter describing industry trends; nothing about Northwind's own state changed.",
+          "trap": "newsletter-deadline"
+        }
+      ],
+      "curator_notes": "Every entry is a (prior belief, current truth, evidence) triple with both endpoints cited. Ranked by recency first — everything from Jul 29 onward — then by magnitude, with three older-but-still-operative deltas (Titan, the Bill.com authority change, Nadia's second address) below them. The $1.84M and $2.05M Customer Support figures appear only as history here and may never be cited as current elsewhere."
+    },
+    "q6_slipping_through_cracks": {
+      "question": "What important thing might be slipping through the cracks?",
+      "prose_answer": "Ferrocraft never received invoice NWR-2287 for $118,240 — the address bounced, the AR aging still counts it as issued, and nobody at Ferrocraft knows it exists. The $62,000 Bristow deferred-revenue reclass was conditional on Sam's approval; he never answered, Karen never booked it, and July locked on Jul 31 with the auditors now in fieldwork. Karen's 'he said he'd handle it' about the Titan dispute letter names both Miles and Derek — nobody is on record sending it. Sam has committed your team, in an email you are only bcc'd on, to a board financial package by Aug 26. Ruth's capex sign-off survives only inside the quoted text of your own reply about the 2pm call, and Derek's $4,230 approval deadline existed only inside a PDF. Ilya holds both a real $27,650 Solent invoice and a fake bank-change notice for it.",
+      "ranked": [
+        "finance-q6-01",
+        "finance-q6-02",
+        "finance-q6-03",
+        "finance-q6-04",
+        "finance-q6-05",
+        "finance-q6-06",
+        "finance-q6-07",
+        "finance-q6-08",
+        "finance-q6-09",
+        "finance-q6-10"
+      ],
+      "items": [
+        {
+          "item_id": "finance-q6-01",
+          "rank": 1,
+          "tier": "must_include",
+          "claim": "Invoice NWR-2287 to Ferrocraft Industries ($118,240) never arrived — ap@ferrocraft-industries.com does not exist and the send bounced. The AR aging still shows it as issued and Ferrocraft is already 12 days past terms on the prior invoice.",
+          "thread_id": "c40f18c2e4b60015",
+          "anchor_message_id": "c40f18c2e4b60015",
+          "message_ids": [
+            "c40f18c2e4b60015"
+          ],
+          "evidence_quote": "I sent Ferrocraft's AP inbox invoice NWR-2287 on Monday and it bounced silently in Gmail's queue for three days before this notice finally surfaced",
+          "why_it_qualifies": "Six figures of AR that everyone believes was invoiced, evidenced only by a machine-generated bounce that looks like noise; the 90-day aging bucket is wrong until it is re-sent to a working address.",
+          "counterparty": "ap@ferrocraft-industries.com",
+          "due_date": null,
+          "due_basis": "none",
+          "days_open": 8,
+          "consequence": "high",
+          "tricky_tags": []
+        },
+        {
+          "item_id": "finance-q6-02",
+          "rank": 2,
+          "tier": "must_include",
+          "claim": "The $62,000 Bristow Logistics deferred-revenue reclass was never resolved: Karen would only book it if Sam approved treating the Jun 28 install completion as the recognition trigger, asked Aditi to nudge him on Jul 9, and July closed on Jul 31 with no answer on record either way.",
+          "thread_id": "c60f18c2e4b60012",
+          "anchor_message_id": "c60f18c2e4b60012",
+          "message_ids": [
+            "c60f18c2e4b60012",
+            "c60f18c2e4b60038"
+          ],
+          "evidence_quote": "Haven't heard back from him yet — can you nudge him if you talk to him before I do?",
+          "why_it_qualifies": "A conditional entry whose condition silently never resolved, in a one-message thread nobody revisited; the period is now locked and the auditors are in fieldwork, so a wrong answer means a restatement risk on a six-figure revenue item.",
+          "counterparty": "karen.voss@northwindrobotics.com",
+          "due_date": null,
+          "due_basis": "none",
+          "days_open": 34,
+          "consequence": "high",
+          "tricky_tags": [
+            "conditional_promise"
+          ]
+        },
+        {
+          "item_id": "finance-q6-03",
+          "rank": 3,
+          "tier": "must_include",
+          "claim": "The formal dispute letter to Titan's AP contact over the freight charge may never have been sent: Karen said 'he said he'd handle it' after naming both Miles and Derek, promised for end of week Jul 17, and nobody is on record sending it.",
+          "thread_id": "c60f18c2e4b60018",
+          "anchor_message_id": "c60f18c2e4b60018",
+          "message_ids": [
+            "c60f18c2e4b60018"
+          ],
+          "evidence_quote": "he said he'd handle sending it by end of week, so I think we're covered, just wanted you to know it's moving",
+          "why_it_qualifies": "Ownership never resolved — the antecedent is genuinely ambiguous between Miles and Derek — and the reassuring 'we're covered' framing is exactly what stops anyone checking. The $18,400 was already paid in full, so the letter is the only record of the dispute.",
+          "counterparty": "karen.voss@northwindrobotics.com",
+          "due_date": "2026-07-17",
+          "due_basis": "implicit",
+          "days_open": 26,
+          "consequence": "medium",
+          "tricky_tags": [
+            "ambiguous_pronoun_owner"
+          ]
+        },
+        {
+          "item_id": "finance-q6-04",
+          "rank": 4,
+          "tier": "must_include",
+          "claim": "Sam has promised Tomás that Aditi's team will have the updated board financial package ready by the Wednesday before the Aug 27 board meeting — Aug 26 — in an email where she is only bcc'd and appears in no recipient list.",
+          "thread_id": "c60f18c2e4b60042",
+          "anchor_message_id": "c60f18c2e4b60042",
+          "message_ids": [
+            "c60f18c2e4b60042",
+            "c40f18c2e4b60007"
+          ],
+          "evidence_quote": "Aditi's team will have the updated financial package ready for you and the rest of the board by the Wednesday before",
+          "why_it_qualifies": "A board-level commitment created on her behalf in a thread she can never be replied into; nothing in her To/Cc shows involvement, so an extractor scanning recipients misses the obligation entirely.",
+          "counterparty": "tdelgado@arrowpointvc.com",
+          "due_date": "2026-08-26",
+          "due_basis": "implicit",
+          "days_open": 8,
+          "consequence": "high",
+          "tricky_tags": [
+            "bcc_invisible_recipient",
+            "implicit_deadline"
+          ]
+        },
+        {
+          "item_id": "finance-q6-05",
+          "rank": 5,
+          "tier": "must_include",
+          "claim": "Ruth's conveyor-system capex sign-off, due Monday Aug 10, survives only in the quoted block of Aditi's own reply — a reply that talks about the 2pm budget call and never mentions the capex request.",
+          "thread_id": "c60f18c2e4b60039",
+          "anchor_message_id": "c60f18c2e4b60048",
+          "message_ids": [
+            "c60f18c2e4b60039",
+            "c60f18c2e4b60048"
+          ],
+          "evidence_quote": "Hey — are we still on for the 2pm budget call today? Want to make sure Derek's numbers made it into the deck before then.",
+          "why_it_qualifies": "She touched the thread but never registered the obligation, which is the definition of the crack: the thread now looks answered, and the only surviving copy of the ask is below the fold in her own sent mail.",
+          "counterparty": "ruth.amankwah@northwindrobotics.com",
+          "due_date": "2026-08-10",
+          "due_basis": "explicit",
+          "days_open": 9,
+          "consequence": "medium",
+          "tricky_tags": [
+            "quoted_text_only_task"
+          ]
+        },
+        {
+          "item_id": "finance-q6-06",
+          "rank": 6,
+          "tier": "must_include",
+          "claim": "Derek Lang's $4,230 expense report needed VP Finance approval by EOD Thursday Aug 6 to make the Friday payroll cutoff — a requirement that appears nowhere in the email body, only inside the attached PDF.",
+          "thread_id": "c60f18c2e4b60047",
+          "anchor_message_id": "c60f18c2e4b60047",
+          "message_ids": [
+            "c60f18c2e4b60047"
+          ],
+          "evidence_quote": "Please approve or reject in Expensify by end of day Thursday, August 6.",
+          "why_it_qualifies": "Consequential deadline that is invisible to anyone reading only the body ('details in the attached'); it has already been missed and Derek is out of pocket.",
+          "counterparty": "ilya.petrov@northwindrobotics.com",
+          "due_date": "2026-08-06",
+          "due_basis": "explicit",
+          "days_open": 6,
+          "consequence": "medium",
+          "tricky_tags": [
+            "task_in_attachment_only"
+          ]
+        },
+        {
+          "item_id": "finance-q6-07",
+          "rank": 7,
+          "tier": "acceptable",
+          "claim": "Ilya in AP holds a live $27,650 Solent invoice (INV-10452, net 30 from Jul 22) and also a bank-change instruction for that exact invoice number from the lookalike domain solentmachining-ap.com — one routine payment run from wiring the money to a fraudster.",
+          "thread_id": "c60f18c2e4b60029",
+          "anchor_message_id": "c60f18c2e4b60029",
+          "message_ids": [
+            "c60f18c2e4b60024",
+            "c60f18c2e4b60029"
+          ],
+          "evidence_quote": "Remit to the account on file per our standard ACH instructions — no changes to our banking details this cycle.",
+          "why_it_qualifies": "The hazard is not that Aditi will pay it — it is that AP might. The genuine invoice explicitly rules out a bank change, but the two emails sit side by side in the same queue and Aditi is only cc'd on both.",
+          "counterparty": "ilya.petrov@northwindrobotics.com",
+          "due_date": "2026-08-21",
+          "due_basis": "explicit",
+          "days_open": 15,
+          "consequence": "high",
+          "tricky_tags": [
+            "lookalike_domain"
+          ]
+        },
+        {
+          "item_id": "finance-q6-08",
+          "rank": 8,
+          "tier": "acceptable",
+          "claim": "The over-90-day collections decisions are buried: Vantage Fulfillment ($42,000) was sent to a tier-2 notice and Bristow Logistics ($18,000) was held 'one more week' on Jul 30 — that week expired Aug 6 and the thread's last four messages are about a team lunch at Bertucci's.",
+          "thread_id": "c60f18c2e4b60030",
+          "anchor_message_id": "c60f18c2e4b60031",
+          "message_ids": [
+            "c60f18c2e4b60030",
+            "c60f18c2e4b60031",
+            "c60f18c2e4b60032",
+            "c60f18c2e4b60033"
+          ],
+          "evidence_quote": "Hold Bristow one more week, their AP contact told me payment's already in process.",
+          "why_it_qualifies": "The subject line still says 'July close — AR aging follow-up' but the thread became lunch logistics by message four, so the expired hold on $18K and the status of the Vantage notice are filed where nobody will look for them.",
+          "counterparty": "miles.okonkwo@northwindrobotics.com",
+          "due_date": "2026-08-06",
+          "due_basis": "implicit",
+          "days_open": 13,
+          "consequence": "medium",
+          "tricky_tags": [
+            "topic_drift"
+          ]
+        },
+        {
+          "item_id": "finance-q6-09",
+          "rank": 9,
+          "tier": "acceptable",
+          "claim": "Nadia's warning that the Meridian lease amendment will be escalated as an open item in her status memo to the Pemberton partner arrived from her personal gmail at 9:47pm, outside the official audit thread.",
+          "thread_id": "c60f18c2e4b60025",
+          "anchor_message_id": "c60f18c2e4b60025",
+          "message_ids": [
+            "c60f18c2e4b60023",
+            "c60f18c2e4b60025"
+          ],
+          "evidence_quote": "I may need to escalate it internally as an open item in our status memo to the partner",
+          "why_it_qualifies": "Same person, two addresses: the highest-stakes message in the audit relationship does not thread with any of it, so a mailbox organised by thread or by sender domain hides the escalation.",
+          "counterparty": "nhaddad@pembertonwells.com",
+          "due_date": "2026-07-27",
+          "due_basis": "explicit",
+          "days_open": 19,
+          "consequence": "high",
+          "tricky_tags": [
+            "same_person_two_addresses"
+          ]
+        },
+        {
+          "item_id": "finance-q6-10",
+          "rank": 10,
+          "tier": "acceptable",
+          "claim": "The Q3 estimated tax question died in Kenji's out-of-office: he was away Aug 3-10, returned Aug 11, and the question was never re-sent — while Aditi wants the payment queued before the 15th.",
+          "thread_id": "c60f18c2e4b60040",
+          "anchor_message_id": "c60f18c2e4b60041",
+          "message_ids": [
+            "c60f18c2e4b60040",
+            "c60f18c2e4b60041"
+          ],
+          "evidence_quote": "I am out of the office with limited email access from August 3 through August 10, returning August 11.",
+          "why_it_qualifies": "The thread looks answered because something came back; it was a machine. The delegate (Renee Ashcroft) was never used and the return date has passed with the question still unanswered.",
+          "counterparty": "kenji@watanabetax.com",
+          "due_date": "2026-08-15",
+          "due_basis": "implicit",
+          "days_open": 9,
+          "consequence": "medium",
+          "tricky_tags": [
+            "out_of_office"
+          ]
+        }
+      ],
+      "must_not_include": [
+        {
+          "message_id": "c60f18c2e4b60016",
+          "subject": "Can someone handle the insurance cert for the new warehouse lease?",
+          "why_excluded": "The classic never-claimed group ask — except Miles claimed it the next morning, so it is not orphaned and not slipping.",
+          "trap": "diffused_group_ask"
+        },
+        {
+          "message_id": "c40f18c2e4b60017",
+          "subject": "Delivery Status Notification (Failure) — finance-archive@northwindrobotics.com",
+          "why_excluded": "A bounce to an internal archive alias. It fails the consequence test: no stakeholder, deadline or dollar amount depends on it.",
+          "trap": "automated-not-human"
+        },
+        {
+          "message_id": "c40f18c2e4b60016",
+          "subject": "Delivery Status Notification (Failure) — j.ferreira@northwindrobotics.com",
+          "why_excluded": "A bounce on a recruiting message owned by Hannah Cho, not Aditi; the undelivered obligation is not hers.",
+          "trap": "forwarded_task_not_users"
+        },
+        {
+          "message_id": "c30f18c2e4b60049",
+          "subject": "FINAL NOTICE: Northwind Robotics LLC account #88213 referred for collection",
+          "why_excluded": "Spam-foldered collections scare mail reusing a real invoice number; there is no genuine obligation behind it.",
+          "trap": "automated-not-human"
+        },
+        {
+          "message_id": "c60f18c2e4b60014",
+          "subject": "CFO Dive Daily Briefing — July 15, 2026",
+          "why_excluded": "Bulk newsletter. Buried content in a newsletter footnote fails the consequence test.",
+          "trap": "newsletter_unsubscribe"
+        }
+      ],
+      "curator_notes": "Ranked by consequence x invisibility x elapsed time. Every item passes both tests: a real dollar amount or stakeholder, plus a burial factor (bounce, bcc, attachment-only, quote-only, ambiguous owner, topic drift, auto-responder, off-thread personal address). Items the owner visibly engaged with — the unsent Ironforge draft, the missed rev-rec memo — are deliberately left in Q2 instead. The capex and expense-report items appear here as well as in Q1/Q3 because the burial, not the deadline, is what makes them dangerous."
+    }
+  }
+}

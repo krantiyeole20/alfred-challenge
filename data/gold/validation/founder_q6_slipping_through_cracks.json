@@ -1,0 +1,97 @@
+{
+  "profile_id": "founder",
+  "question": "q6_slipping_through_cracks",
+  "items_reviewed": 12,
+  "verdict": "issues",
+  "findings": [
+    {
+      "type": "false_positive",
+      "severity": "high",
+      "item_id": "founder-q6-07",
+      "message_ids": ["a50f18c2e4b60043", "a50f18c2e4b60045", "a60f18c2e4b60042", "a60f18c2e4b60020"],
+      "problem": "The item's core claim — that Beth never replied to the Jul 22 chase and the condition therefore 'resolved silently' — is contradicted by the corpus: Beth wrote to Maya about exactly this clause on Aug 5 and Maya answered substantively on Aug 6, so the indemnification matter is loudly attested in the last week and Maya has visibly engaged with it.",
+      "evidence": "a50f18c2e4b60043 (Beth Ranganathan → Maya, 2026-08-05): \"Can you look this over before it goes back to their side? I'd like to respond by end of week if possible.\" — and Maya's own reply a50f18c2e4b60045 (2026-08-06): \"I'll have Dev confirm the SOC2 report language makes sense technically by Friday, then it's yours to send back to their side.\"",
+      "recommended_action": "remove item (the residual live obligation — an unsigned e-signature envelope 5 days old whose Reply-To is hg-legalservices.com — is a Q1/Q3 signature item, not a crack); if kept, retier to borderline, drop the 'Beth never replied / condition resolved silently' framing entirely, and add a50f18c2e4b60043 + a50f18c2e4b60045 to message_ids"
+    },
+    {
+      "type": "false_positive",
+      "severity": "high",
+      "item_id": "founder-q6-11",
+      "message_ids": ["a20f18c2e4b60024", "a20f18c2e4b60025", "a20f18c2e4b60026"],
+      "problem": "PBC item 8 is not an open Maya obligation: Wendy delivered it on Jul 23, Beth routed the corrected version to Wendy (not Maya) on Jul 29, and Grace declared fieldwork substantially complete on Aug 4 with only item 4 and some change tickets outstanding — item 8 is not named as open anywhere after Jul 23.",
+      "evidence": "a20f18c2e4b60024 (Wendy Osei → Grace Liu, 2026-07-23): \"Item 5 (vendor risk assessments) and item 8 (DPA templates) are attached to this batch\" — and a20f18c2e4b60026 (Grace Liu, 2026-08-04): \"Fieldwork is otherwise substantially complete.\"",
+      "recommended_action": "remove item and move a20f18c2e4b60025 to must_not_include with trap 'already-completed' (the spreadsheet assignment to Maya was absorbed by Wendy before the deadline); note also that the item's due_date 2026-08-13 is imported from the unrelated Certiva thread (a60f18c2e4b60035), a different audit firm from Vantage Assurance"
+    },
+    {
+      "type": "false_positive",
+      "severity": "high",
+      "item_id": "founder-q6-02",
+      "message_ids": ["a60f18c2e4b60039", "a50f18c2e4b60028", "a60f18c2e4b60040"],
+      "problem": "The gold ignores that Maya did loop Dev in: roughly seven hours after Raj's Jul 23 08:30 ET ask she sent Raj and Dev a direct intro naming Dev as the person to walk through the architecture, which is the substance of what Raj requested — so 'she never registered the ask' is not supportable, and under the engagement test this is Q2 (owner-authored evidence of awareness), not Q6.",
+      "evidence": "a50f18c2e4b60028 (Maya → Raj Malhotra + Dev Patel, 2026-07-23 13:00 PT, subject 'Intro: Raj Malhotra <> Dev Patel'): \"Raj, Dev — connecting you two directly.\" ... \"I'll let you two find time. Keep me posted on where it lands.\"",
+      "recommended_action": "retier to acceptable and narrow the claim to 'the Friday Jul 24 technical-diligence window was never actually scheduled despite the intro' (no message anywhere shows the call happening), add a50f18c2e4b60028 to message_ids, and address it explicitly in why_it_qualifies; if the curator holds that the intro fulfilled the ask, remove the item and list a60f18c2e4b60040 in must_not_include"
+    },
+    {
+      "type": "misfiled_question",
+      "severity": "medium",
+      "item_id": "founder-q6-03",
+      "message_ids": ["a60f18c2e4b60013", "a60f18c2e4b60015"],
+      "problem": "Maya is the one who raised the leave-coverage question inside the drifted thread and then approved the plan and delegated the next step to Sana, so she demonstrably engaged with the obligation (engagement test → Q2/Q4) and the only outstanding action — looping Wendy in on a transition doc — is Sana's, not Maya's.",
+      "evidence": "a60f18c2e4b60013 (Maya → Sana, 2026-07-21): \"did you land on dates for your leave? We should start planning coverage sooner rather than later so it's not a scramble.\" The item's own evidence_quote (a60f18c2e4b60015, \"That split makes sense to me. Go ahead and loop in Wendy on a transition doc\") is itself owner-authored proof of engagement and of delegation away from Maya.",
+      "recommended_action": "retier to borderline (or move to Q4 as 'waiting on Sana/Wendy for the transition doc'); if kept in Q6, restate the crack as 'the whole leave-coverage record is filed under the subject Board deck — Aug 27 and no one owns the transition doc', and acknowledge Maya's engagement in why_it_qualifies"
+    },
+    {
+      "type": "misfiled_question",
+      "severity": "medium",
+      "item_id": "founder-q6-10",
+      "message_ids": ["a20f18c2e4b60047", "a20f18c2e4b60049", "a20f18c2e4b60050"],
+      "problem": "Maya authored two of the five messages in the Solvane thread, including an explicit statement that she owes Marcus a response, so this fails the Q6 engagement test; the item is Maya's own dropped decision (Q2) plus Greg's undelivered background calls (Q4), and its stated burial factor (confidential, quiet, no chaser) is staleness rather than invisibility.",
+      "evidence": "a20f18c2e4b60047 (Maya → Dev, 2026-06-26): \"wanted you to see the actual email before I respond one way or the other. Thoughts?\"",
+      "recommended_action": "retier to borderline and drop from ranked, or move to must_not_include with a note that the obligation is Q2/Q4; per QUESTIONS.md, 'owner-authored evidence of awareness → Q2; none → Q6'"
+    },
+    {
+      "type": "missed_item",
+      "severity": "medium",
+      "item_id": null,
+      "message_ids": ["a40f18c2e4b60038"],
+      "problem": "A real, dated ask from Dev to Maya is wrapped in a Notion bot notification and appears nowhere in the founder gold set for any of the six questions — Maya has never engaged with it in any message, the named Friday (Jul 24) passed 19 days ago, and it concerns the access-review control that became the audit's single exception.",
+      "evidence": "a40f18c2e4b60038 (Notion → Maya, 2026-07-22, subject 'Dev Patel mentioned you in \"SOC 2 Evidence Tracker\"'): \"Dev Patel mentioned you: \\\"@Maya can you confirm the access review cadence for the auditors by Friday?\\\"\"",
+      "recommended_action": "add new item with these fields — tier: acceptable; claim: 'Dev asked Maya inside the SOC 2 Evidence Tracker to confirm the access-review cadence for the auditors by Friday Jul 24; the ask reached her only as a Notion bot notification and she has never responded anywhere in the mailbox'; thread_id/anchor_message_id: a40f18c2e4b60038; evidence_quote as above; due_date 2026-07-24 (explicit); days_open 21; consequence medium; tricky_tags []. Rank it above the borderline Linear item (founder-q6-12), which is the same burial class but a weaker ask. Counter-consideration for the curator: Grace's Aug 4 exception ruling and Maya's Aug 6 'Wendy's already moved the access review process fully into Rippling' arguably moot the substance without ever answering Dev."
+    },
+    {
+      "type": "missed_item",
+      "severity": "low",
+      "item_id": null,
+      "message_ids": ["a60f18c2e4b60001"],
+      "problem": "The flagship account's pricing-flexibility question is buried at the bottom of the opening message of the nine-message long_thread and is never answered by anyone across the thread or the mailbox — the canonical 'buried sub-ask' case the long_thread tag exists to plant, and it is absent from the Q6 set.",
+      "evidence": "a60f18c2e4b60001 (Dana Kowalski, 2026-07-15): \"our finance team asked if there's flexibility on the per-seat pricing once we cross 400 seats, given the direction things are trending on our side. Not urgent, just flagging it exists so it's not a surprise later.\"",
+      "recommended_action": "add new item at borderline tier (Lumenpay is at 450 seats per the latest shifting_number message a60f18c2e4b60023, so the money is real), or record it in curator_notes as consciously excluded because the message is addressed to Dev with Maya cc'd"
+    },
+    {
+      "type": "bad_quote",
+      "severity": "low",
+      "item_id": "founder-q6-06",
+      "message_ids": ["a10f18c2e4b60040", "a20f18c2e4b60050", "a60f18c2e4b60028"],
+      "problem": "why_it_qualifies asserts 'Greg has since complained that board pre-reads reach him too late to prepare good questions' — no message from Greg in this mailbox says anything of the kind; his only substantive messages are the Solvane advice and the option-pool agenda question.",
+      "evidence": "a10f18c2e4b60040 (Greg Whitfield → Maya, 2026-08-06), his most recent message in full substance: \"Quick one ahead of the 27th — are we putting the option pool refresh on the formal agenda, or handling it as a written consent afterward?\"",
+      "recommended_action": "fix why_it_qualifies to drop the unattested complaint sentence; the item itself is sound (the runway-slide ask died in the Jun 25 OOO and the Jul 22 follow-up a50f18c2e4b60027 asks for a meeting, not the feedback)"
+    },
+    {
+      "type": "misranked",
+      "severity": "low",
+      "item_id": "founder-q6-09",
+      "message_ids": ["a60f18c2e4b60031"],
+      "problem": "The ranking principle is (consequence) × (invisibility) × (time elapsed), but this high-consequence, irreversible item — a fraudulent invoice aimed at AP with a 24-hour payment demand — is ranked below two medium-consequence items (founder-q6-06 and founder-q6-08), i.e. the set is ordered by tier rather than by the stated principle.",
+      "evidence": "a60f18c2e4b60031 (accounts@kettlehq-billing.com → Wendy, cc Maya, 2026-08-03): \"please remit payment via the secure portal link below within 24 hours\"",
+      "recommended_action": "reorder above founder-q6-06 and founder-q6-08 (a wire that cannot be recalled outranks a stale feedback ask and an unowned doc update)"
+    }
+  ],
+  "checked_and_sound": [
+    "founder-q6-01",
+    "founder-q6-04",
+    "founder-q6-05",
+    "founder-q6-08",
+    "founder-q6-12"
+  ],
+  "notes": "Method: read every cited thread end-to-end in date order, then swept the whole 300-message mailbox for later closure (grep on subject/body/attachment extracted_text), all bcc messages (only one exists: a60f18c2e4b60041), all attachment extracted_text, all bounces, all OOO pairs, and every thread whose last message is inbound with an actionable-for-Maya annotation.\n\nAll twelve evidence_quotes verify verbatim against a cited message's body_text or attachment extracted_text; days_open values are all arithmetically correct; ranked correctly contains the eleven must_include+acceptable items and correctly omits the borderline one. founder-q6-07 is the only item whose message_ids span three threads, which is permitted for cross-thread obligations.\n\nItems that survived hard attack: (01) the invoice bounce is genuinely unresolved — no resend of INV-10482 exists anywhere; note that the Jul 6 Mercury notice a40f18c2e4b60033 records an $86,400 wire *received* from Lumenpay, the identical amount, which is a strong trap for any system checking 'was it paid' and would be worth adding to must_not_include. (04) the Ramp attachment asks are still open, though Wendy's Aug 11 plain-text 'Ramp card declined' partially surfaces the limit question — the cardholders, the sub-$500 policy and the 8/13 2pm call still exist only in the PDF. (05) is strengthened by evidence the curator did not cite: Maya's own Aug 10 agenda for the board meeting (a50f18c2e4b60050, \"Agenda as I see it: metrics and Lumenpay status (me), hiring update (you\"...) contains no demo slot, which proves she is not tracking what Sana committed her to; worth adding to message_ids. (08) no message anywhere shows the Lumenpay onboarding doc updated. (12) correctly borderline.\n\nAll six distractors check out. Two minor points not raised as findings: founder-q6-06's due_basis is 'explicit' for 2026-07-06, but that date is Greg's OOO return, not the stated deadline ('end of day Thursday') — due_basis should be 'implicit'; and the Brightline-bounce distractor's rationale ('Maya has since corresponded with Peter directly about the July invoice') is a loose fit, since a50f18c2e4b60040 concerns Brightline's invoice to Kettle rather than the bounced 'July invoices for review'.\n\nAlso considered and deliberately not filed as missed items: Maya's Jul 8 non-solicit question to Beth (a50f18c2e4b60011, never answered, offer approved Jul 27) and her Aug 5 chase to Alice that hit an OOO (a40f18c2e4b60019/20) — both are Q4/Q2 because Maya authored the ask; and the Certiva Aug 13 evidence deadline (a60f18c2e4b60035), which the question×tag matrix routes to Q1/Q5, not Q6.\n\nIf all three high-severity findings are applied, the set drops to eight or nine items, which is still inside the 5-12 sizing guidance."
+}

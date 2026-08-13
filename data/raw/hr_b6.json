@@ -1,0 +1,3226 @@
+[
+  {
+    "id": "d60f18c2e4b60001",
+    "thread_id": "d60f18c2e4b60001",
+    "profile_id": "hr",
+    "history_id": "735474",
+    "message_id_header": "<CAFd60f18c2e4b60001@mail.gmail.com>",
+    "in_reply_to": null,
+    "references": [],
+    "thread_position": 1,
+    "thread_length": 1,
+    "from": {
+      "name": "Claudia Reyes",
+      "email": "claudia.reyes@vireohealth.com"
+    },
+    "to": [
+      {
+        "name": "Marcus Bell",
+        "email": "marcus.bell@vireohealth.com"
+      }
+    ],
+    "cc": [],
+    "bcc": [],
+    "delivered_to": "marcus.bell@vireohealth.com",
+    "subject": "Fwd: Onboarding schedule for the two new ICU nurses",
+    "snippet": "Marcus — keeping you in the loop on this one, no action needed on your end. Priscilla's chasing Renata for the onboarding schedule below and I told her I'd flag it to you since it'",
+    "body_text": "Marcus — keeping you in the loop on this one, no action needed on your end. Priscilla's chasing Renata for the onboarding schedule below and I told her I'd flag it to you since it's the ICU cohort.\n\n---------- Forwarded message ---------\nFrom: Priscilla Nam <priscilla.nam@vireohealth.com>\nDate: Tue, Jul 14, 2026 at 4:52 PM\nSubject: Onboarding schedule for the two new ICU nurses\nTo: Claudia Reyes <claudia.reyes@vireohealth.com>\n\nClaudia — can you get Renata to send me the onboarding schedule for Maria and Devon before they start on the 20th? I need it so I can block out preceptor time on the unit. Ideally by Thursday so I'm not scrambling this weekend trying to cover it myself.\n\nThanks,\nPriscilla\n\nI already pinged Renata separately, just wanted you aware since it's cutting it close to their start date.\n\nBest,\nClaudia",
+    "body_html": null,
+    "date": "2026-07-15T09:14:00-06:00",
+    "internal_date_ms": 1784128440000,
+    "folder": "INBOX",
+    "category": "CATEGORY_PERSONAL",
+    "is_unread": false,
+    "is_starred": false,
+    "is_important": false,
+    "user_labels": [],
+    "attachments": [],
+    "calendar_event": null,
+    "extra_headers": {
+      "Return-Path": "<claudia.reyes@vireohealth.com>"
+    },
+    "size_estimate": 1427,
+    "meta": {
+      "email_class": "genuine_work",
+      "tricky_tags": [
+        "forwarded_task_not_users"
+      ],
+      "is_actionable_for_user": false,
+      "action_owner": "renata.vlasov@vireohealth.com",
+      "action_summary": "Renata needs to send Priscilla the onboarding schedule for the two new ICU nurses (Maria and Devon) before Thursday, ahead of their July 20 start date.",
+      "due_date": "2026-07-16",
+      "commitment_made_by_user": null,
+      "commitment_is_conditional": false,
+      "commitment_condition": null,
+      "superseded_by_message_id": null,
+      "notes": "Forwarded FYI-only; the actual ask inside the quoted original is directed at Renata, not at Marcus, even though the quoted text says 'can you' in the second person."
+    }
+  },
+  {
+    "id": "d60f18c2e4b60002",
+    "thread_id": "d60f18c2e4b60002",
+    "profile_id": "hr",
+    "history_id": "742783",
+    "message_id_header": "<d60f18c2e4b60002@bramwell-law.com>",
+    "in_reply_to": null,
+    "references": [],
+    "thread_position": 1,
+    "thread_length": 1,
+    "from": {
+      "name": "Josh Lieberman",
+      "email": "jlieberman@bramwell-law.com"
+    },
+    "to": [
+      {
+        "name": "Marcus Bell",
+        "email": "marcus.bell@vireohealth.com"
+      }
+    ],
+    "cc": [],
+    "bcc": [],
+    "delivered_to": "marcus.bell@vireohealth.com",
+    "subject": "Response letter timeline — Ridley complaint",
+    "snippet": "Marcus, Following up after our call. I want to target getting the response letter to opposing counsel out by the 24th — that gives us enough runway to have Farida review the person",
+    "body_text": "Marcus,\n\nFollowing up after our call. I want to target getting the response letter to opposing counsel out by the 24th — that gives us enough runway to have Farida review the personnel file excerpts before it goes out.\n\nCan you have Renata pull the shift logs for the two weeks in question? I'll need those by Wednesday to draft around them.\n\nJosh\n\nJosh Lieberman\nPartner, Bramwell LLP\n(303) 555-0148",
+    "body_html": null,
+    "date": "2026-07-20T11:03:00-06:00",
+    "internal_date_ms": 1784566980000,
+    "folder": "INBOX",
+    "category": "CATEGORY_PERSONAL",
+    "is_unread": false,
+    "is_starred": false,
+    "is_important": true,
+    "user_labels": [],
+    "attachments": [],
+    "calendar_event": null,
+    "extra_headers": {
+      "Return-Path": "<jlieberman@bramwell-law.com>"
+    },
+    "size_estimate": 1000,
+    "meta": {
+      "email_class": "legal_compliance",
+      "tricky_tags": [
+        "same_person_two_addresses"
+      ],
+      "is_actionable_for_user": true,
+      "action_owner": "marcus.bell@vireohealth.com",
+      "action_summary": "Get Renata to pull the two weeks of shift logs Josh needs by Wednesday to draft the Ridley response letter.",
+      "due_date": "2026-07-22",
+      "commitment_made_by_user": null,
+      "commitment_is_conditional": false,
+      "commitment_condition": null,
+      "superseded_by_message_id": null,
+      "notes": "First half of the dual-address pair — Josh writes as outside counsel from his Bramwell LLP address. His follow-up two days later comes from his Vireo contractor address and assumes Marcus remembers the Wednesday shift-log deadline mentioned only here."
+    }
+  },
+  {
+    "id": "d60f18c2e4b60003",
+    "thread_id": "d60f18c2e4b60003",
+    "profile_id": "hr",
+    "history_id": "747020",
+    "message_id_header": "<CAFd60f18c2e4b60003@mail.gmail.com>",
+    "in_reply_to": null,
+    "references": [],
+    "thread_position": 1,
+    "thread_length": 1,
+    "from": {
+      "name": "Josh Lieberman",
+      "email": "josh.lieberman@vireohealth.com"
+    },
+    "to": [
+      {
+        "name": "Marcus Bell",
+        "email": "marcus.bell@vireohealth.com"
+      }
+    ],
+    "cc": [],
+    "bcc": [],
+    "delivered_to": "marcus.bell@vireohealth.com",
+    "subject": "Shift logs + draft response",
+    "snippet": "Marcus — did Renata get a chance to pull those shift logs? Wednesday's come and gone and I want to finalize the draft this weekend so we're not scrambling before the 24th. If they'",
+    "body_text": "Marcus — did Renata get a chance to pull those shift logs? Wednesday's come and gone and I want to finalize the draft this weekend so we're not scrambling before the 24th. If they're ready, just drop them in the shared folder and I'll take it from there.\n\nAlso — using this address since I'm doing the drafting under the Vireo contractor engagement rather than billing Bramwell hours for it. Same me, just wearing the in-house hat today.\n\nJosh",
+    "body_html": null,
+    "date": "2026-07-23T09:40:00-06:00",
+    "internal_date_ms": 1784821200000,
+    "folder": "INBOX",
+    "category": "CATEGORY_PERSONAL",
+    "is_unread": false,
+    "is_starred": false,
+    "is_important": false,
+    "user_labels": [],
+    "attachments": [],
+    "calendar_event": null,
+    "extra_headers": {
+      "Return-Path": "<josh.lieberman@vireohealth.com>"
+    },
+    "size_estimate": 1043,
+    "meta": {
+      "email_class": "legal_compliance",
+      "tricky_tags": [
+        "same_person_two_addresses"
+      ],
+      "is_actionable_for_user": true,
+      "action_owner": "marcus.bell@vireohealth.com",
+      "action_summary": "Confirm the shift logs Josh asked for reached him ahead of the July 24 response letter deadline.",
+      "due_date": "2026-07-24",
+      "commitment_made_by_user": null,
+      "commitment_is_conditional": false,
+      "commitment_condition": null,
+      "superseded_by_message_id": null,
+      "notes": "Second half of the dual-address pair; this message references the Wednesday shift-log ask that only appeared in the July 20 email sent from his law-firm address — reads as if starting mid-conversation if you only have this address's history."
+    }
+  },
+  {
+    "id": "d60f18c2e4b60004",
+    "thread_id": "d60f18c2e4b60004",
+    "profile_id": "hr",
+    "history_id": "754645",
+    "message_id_header": "<CAFd60f18c2e4b60004@mail.gmail.com>",
+    "in_reply_to": null,
+    "references": [],
+    "thread_position": 1,
+    "thread_length": 1,
+    "from": {
+      "name": "Marcus Bell",
+      "email": "marcus.bell@vireohealth.com"
+    },
+    "to": [
+      {
+        "name": "Dr. Elaine Ford",
+        "email": "elaine.ford@vireohealth.com"
+      }
+    ],
+    "cc": [],
+    "bcc": [],
+    "delivered_to": null,
+    "subject": "Multistate handbook language — timing",
+    "snippet": "Elaine — quick update. If Josh signs off on the Colorado/Nevada language today, I'll have the updated handbook out to all people managers by Friday. If he needs another round, I'd ",
+    "body_text": "Elaine — quick update. If Josh signs off on the Colorado/Nevada language today, I'll have the updated handbook out to all people managers by Friday. If he needs another round, I'd rather push to early next week than send something we have to walk back.\n\nWill keep you posted either way.\n\nMarcus",
+    "body_html": null,
+    "date": "2026-07-28T16:45:00-06:00",
+    "internal_date_ms": 1785278700000,
+    "folder": "SENT",
+    "category": null,
+    "is_unread": false,
+    "is_starred": false,
+    "is_important": false,
+    "user_labels": [],
+    "attachments": [],
+    "calendar_event": null,
+    "extra_headers": {
+      "Return-Path": "<marcus.bell@vireohealth.com>"
+    },
+    "size_estimate": 894,
+    "meta": {
+      "email_class": "genuine_work",
+      "tricky_tags": [
+        "conditional_promise"
+      ],
+      "is_actionable_for_user": true,
+      "action_owner": "marcus.bell@vireohealth.com",
+      "action_summary": "Get the updated multistate handbook language out to all people managers by Friday.",
+      "due_date": "2026-07-31",
+      "commitment_made_by_user": "Have the updated Colorado/Nevada handbook language out to all people managers by Friday.",
+      "commitment_is_conditional": true,
+      "commitment_condition": "Contingent on Josh Lieberman signing off on the Colorado/Nevada language that same day.",
+      "superseded_by_message_id": null,
+      "notes": "Conditional promise — explicitly gated on Josh's sign-off, which had not happened as of this message."
+    }
+  },
+  {
+    "id": "d60f18c2e4b60005",
+    "thread_id": "d60f18c2e4b60005",
+    "profile_id": "hr",
+    "history_id": "758580",
+    "message_id_header": "<CAFd60f18c2e4b60005@mail.gmail.com>",
+    "in_reply_to": null,
+    "references": [],
+    "thread_position": 1,
+    "thread_length": 1,
+    "from": {
+      "name": "Renata Vlasov",
+      "email": "renata.vlasov@vireohealth.com"
+    },
+    "to": [
+      {
+        "name": "Marcus Bell",
+        "email": "marcus.bell@vireohealth.com"
+      }
+    ],
+    "cc": [],
+    "bcc": [],
+    "delivered_to": "marcus.bell@vireohealth.com",
+    "subject": "Handbook language — still waiting on Josh?",
+    "snippet": "Hey Marcus — a couple of managers are asking if the updated handbook language is out yet since today's Friday. Did Josh ever get back to you on sign-off? Want to know whether to te",
+    "body_text": "Hey Marcus — a couple of managers are asking if the updated handbook language is out yet since today's Friday. Did Josh ever get back to you on sign-off? Want to know whether to tell them today or next week.",
+    "body_html": null,
+    "date": "2026-07-31T10:20:00-06:00",
+    "internal_date_ms": 1785514800000,
+    "folder": "INBOX",
+    "category": "CATEGORY_PERSONAL",
+    "is_unread": false,
+    "is_starred": false,
+    "is_important": false,
+    "user_labels": [],
+    "attachments": [],
+    "calendar_event": null,
+    "extra_headers": {
+      "Return-Path": "<renata.vlasov@vireohealth.com>"
+    },
+    "size_estimate": 807,
+    "meta": {
+      "email_class": "genuine_work",
+      "tricky_tags": [
+        "conditional_promise"
+      ],
+      "is_actionable_for_user": true,
+      "action_owner": "marcus.bell@vireohealth.com",
+      "action_summary": "Tell managers whether the handbook update is going out today or slipping, depending on Josh's sign-off.",
+      "due_date": null,
+      "commitment_made_by_user": null,
+      "commitment_is_conditional": true,
+      "commitment_condition": "Still contingent on Josh's sign-off, which had not come through as of this message.",
+      "superseded_by_message_id": null,
+      "notes": "The condition from the July 28 conditional promise (Josh's sign-off) is still unresolved here — the Friday deadline is now in question."
+    }
+  },
+  {
+    "id": "d60f18c2e4b60006",
+    "thread_id": "d60f18c2e4b60006",
+    "profile_id": "hr",
+    "history_id": "736900",
+    "message_id_header": "<CAFd60f18c2e4b60006@mail.gmail.com>",
+    "in_reply_to": null,
+    "references": [],
+    "thread_position": 1,
+    "thread_length": 3,
+    "from": {
+      "name": "Dr. Elaine Ford",
+      "email": "elaine.ford@vireohealth.com"
+    },
+    "to": [
+      {
+        "name": "Marcus Bell",
+        "email": "marcus.bell@vireohealth.com"
+      }
+    ],
+    "cc": [],
+    "bcc": [],
+    "delivered_to": "marcus.bell@vireohealth.com",
+    "subject": "Open req count for the August hiring push",
+    "snippet": "Marcus — good news out of the finance meeting. They've agreed to partially lift the freeze: you're clear to post 8 of the frozen reqs for August, prioritizing anything clinical-fac",
+    "body_text": "Marcus — good news out of the finance meeting. They've agreed to partially lift the freeze: you're clear to post 8 of the frozen reqs for August, prioritizing anything clinical-facing. Full list from Tim if he needs it.\n\nElaine",
+    "body_html": null,
+    "date": "2026-07-16T09:00:00-06:00",
+    "internal_date_ms": 1784214000000,
+    "folder": "INBOX",
+    "category": "CATEGORY_PERSONAL",
+    "is_unread": false,
+    "is_starred": false,
+    "is_important": false,
+    "user_labels": [
+      "Label_6630"
+    ],
+    "attachments": [],
+    "calendar_event": null,
+    "extra_headers": {
+      "Return-Path": "<elaine.ford@vireohealth.com>"
+    },
+    "size_estimate": 827,
+    "meta": {
+      "email_class": "recruiting",
+      "tricky_tags": [
+        "shifting_number"
+      ],
+      "is_actionable_for_user": true,
+      "action_owner": "marcus.bell@vireohealth.com",
+      "action_summary": "Get 8 approved reqs posted for the August hiring push, prioritizing clinical-facing roles.",
+      "due_date": "2026-07-20",
+      "commitment_made_by_user": null,
+      "commitment_is_conditional": false,
+      "commitment_condition": null,
+      "superseded_by_message_id": "<CAFd60f18c2e4b60007@mail.gmail.com>",
+      "notes": "First figure in the shifting open-req count — 8, tied to the partial freeze lift agreed in the finance meeting."
+    }
+  },
+  {
+    "id": "d60f18c2e4b60007",
+    "thread_id": "d60f18c2e4b60006",
+    "profile_id": "hr",
+    "history_id": "743152",
+    "message_id_header": "<CAFd60f18c2e4b60007@mail.gmail.com>",
+    "in_reply_to": "<CAFd60f18c2e4b60006@mail.gmail.com>",
+    "references": [
+      "<CAFd60f18c2e4b60006@mail.gmail.com>"
+    ],
+    "thread_position": 2,
+    "thread_length": 3,
+    "from": {
+      "name": "Dr. Elaine Ford",
+      "email": "elaine.ford@vireohealth.com"
+    },
+    "to": [
+      {
+        "name": "Marcus Bell",
+        "email": "marcus.bell@vireohealth.com"
+      }
+    ],
+    "cc": [],
+    "bcc": [],
+    "delivered_to": "marcus.bell@vireohealth.com",
+    "subject": "Re: Open req count for the August hiring push",
+    "snippet": "Correction, sorry — CFO looked closer at the runway numbers this afternoon and wants to cap it at 5, not 8. He's asking us to hold the two clinical support reqs and the phlebotomis",
+    "body_text": "Correction, sorry — CFO looked closer at the runway numbers this afternoon and wants to cap it at 5, not 8. He's asking us to hold the two clinical support reqs and the phlebotomist role until Q4. I know Tim already has candidates warm on a couple of these, so let's talk before you message the team.\n\nElaine",
+    "body_html": null,
+    "date": "2026-07-20T17:12:00-06:00",
+    "internal_date_ms": 1784589120000,
+    "folder": "INBOX",
+    "category": "CATEGORY_PERSONAL",
+    "is_unread": false,
+    "is_starred": false,
+    "is_important": true,
+    "user_labels": [],
+    "attachments": [],
+    "calendar_event": null,
+    "extra_headers": {
+      "Return-Path": "<elaine.ford@vireohealth.com>"
+    },
+    "size_estimate": 908,
+    "meta": {
+      "email_class": "recruiting",
+      "tricky_tags": [
+        "shifting_number"
+      ],
+      "is_actionable_for_user": true,
+      "action_owner": "marcus.bell@vireohealth.com",
+      "action_summary": "Hold the two clinical support reqs and the phlebotomist role until Q4; only 5 reqs are cleared to post.",
+      "due_date": "2026-07-22",
+      "commitment_made_by_user": null,
+      "commitment_is_conditional": false,
+      "commitment_condition": null,
+      "superseded_by_message_id": "<CAFd60f18c2e4b60008@mail.gmail.com>",
+      "notes": "Second figure — CFO pushback drops the count from 8 to 5, four days after the first message."
+    }
+  },
+  {
+    "id": "d60f18c2e4b60008",
+    "thread_id": "d60f18c2e4b60006",
+    "profile_id": "hr",
+    "history_id": "752900",
+    "message_id_header": "<CAFd60f18c2e4b60008@mail.gmail.com>",
+    "in_reply_to": "<CAFd60f18c2e4b60007@mail.gmail.com>",
+    "references": [
+      "<CAFd60f18c2e4b60006@mail.gmail.com>",
+      "<CAFd60f18c2e4b60007@mail.gmail.com>"
+    ],
+    "thread_position": 3,
+    "thread_length": 3,
+    "from": {
+      "name": "Dr. Elaine Ford",
+      "email": "elaine.ford@vireohealth.com"
+    },
+    "to": [
+      {
+        "name": "Marcus Bell",
+        "email": "marcus.bell@vireohealth.com"
+      }
+    ],
+    "cc": [],
+    "bcc": [],
+    "delivered_to": "marcus.bell@vireohealth.com",
+    "subject": "Re: Open req count for the August hiring push",
+    "snippet": "Talked it through with the CFO again this morning. Compromise: we land at 6 — he agreed to add back the phlebotomist role since Tim already has someone ready to sign, but the two c",
+    "body_text": "Talked it through with the CFO again this morning. Compromise: we land at 6 — he agreed to add back the phlebotomist role since Tim already has someone ready to sign, but the two clinical support reqs stay frozen until Q4 as planned. Can you get the phlebotomist req reopened and let Tim know the final number is 6?\n\nElaine",
+    "body_html": null,
+    "date": "2026-07-27T11:40:00-06:00",
+    "internal_date_ms": 1785174000000,
+    "folder": "INBOX",
+    "category": "CATEGORY_PERSONAL",
+    "is_unread": false,
+    "is_starred": true,
+    "is_important": false,
+    "user_labels": [
+      "Label_6630"
+    ],
+    "attachments": [],
+    "calendar_event": null,
+    "extra_headers": {
+      "Return-Path": "<elaine.ford@vireohealth.com>"
+    },
+    "size_estimate": 923,
+    "meta": {
+      "email_class": "recruiting",
+      "tricky_tags": [
+        "shifting_number"
+      ],
+      "is_actionable_for_user": true,
+      "action_owner": "marcus.bell@vireohealth.com",
+      "action_summary": "Reopen the phlebotomist req and tell Tim the final approved count is 6.",
+      "due_date": "2026-07-29",
+      "commitment_made_by_user": null,
+      "commitment_is_conditional": false,
+      "commitment_condition": null,
+      "superseded_by_message_id": null,
+      "notes": "Third and final figure — compromise lands at 6, eleven days after the first number (8) and one week after the second (5)."
+    }
+  },
+  {
+    "id": "d60f18c2e4b60009",
+    "thread_id": "d60f18c2e4b60009",
+    "profile_id": "hr",
+    "history_id": "762800",
+    "message_id_header": "<CAFd60f18c2e4b60009@mail.gmail.com>",
+    "in_reply_to": null,
+    "references": [],
+    "thread_position": 1,
+    "thread_length": 2,
+    "from": {
+      "name": "Renata Vlasov",
+      "email": "renata.vlasov@vireohealth.com"
+    },
+    "to": [
+      {
+        "name": "Marcus Bell",
+        "email": "marcus.bell@vireohealth.com"
+      },
+      {
+        "name": "Claudia Reyes",
+        "email": "claudia.reyes@vireohealth.com"
+      },
+      {
+        "name": "Tim Osei",
+        "email": "tim.osei@vireohealth.com"
+      },
+      {
+        "name": "Jenna Wu",
+        "email": "jenna.wu@vireohealth.com"
+      },
+      {
+        "name": "Omar Haddix",
+        "email": "omar.haddix@vireohealth.com"
+      },
+      {
+        "name": "Priscilla Nam",
+        "email": "priscilla.nam@vireohealth.com"
+      }
+    ],
+    "cc": [],
+    "bcc": [],
+    "delivered_to": "marcus.bell@vireohealth.com",
+    "subject": "Badge photos for Thursday's orientation",
+    "snippet": "Can someone handle badge photos for the new-hire orientation Thursday? I'm out that morning for the benefits vendor meeting and don't want it to fall through the cracks. Should jus",
+    "body_text": "Can someone handle badge photos for the new-hire orientation Thursday? I'm out that morning for the benefits vendor meeting and don't want it to fall through the cracks. Should just be 15 minutes with the badge printer in the IT closet.",
+    "body_html": null,
+    "date": "2026-08-03T08:40:00-06:00",
+    "internal_date_ms": 1785768000000,
+    "folder": "INBOX",
+    "category": "CATEGORY_PERSONAL",
+    "is_unread": false,
+    "is_starred": false,
+    "is_important": false,
+    "user_labels": [],
+    "attachments": [],
+    "calendar_event": null,
+    "extra_headers": {
+      "Return-Path": "<renata.vlasov@vireohealth.com>"
+    },
+    "size_estimate": 836,
+    "meta": {
+      "email_class": "genuine_work",
+      "tricky_tags": [
+        "diffused_group_ask"
+      ],
+      "is_actionable_for_user": false,
+      "action_owner": null,
+      "action_summary": null,
+      "due_date": null,
+      "commitment_made_by_user": null,
+      "commitment_is_conditional": false,
+      "commitment_condition": null,
+      "superseded_by_message_id": null,
+      "notes": "Owner is one of six 'to' recipients; nobody is named, so it's genuinely unclear who, if anyone, owns this."
+    }
+  },
+  {
+    "id": "d60f18c2e4b60010",
+    "thread_id": "d60f18c2e4b60009",
+    "profile_id": "hr",
+    "history_id": "762945",
+    "message_id_header": "<CAFd60f18c2e4b60010@mail.gmail.com>",
+    "in_reply_to": "<CAFd60f18c2e4b60009@mail.gmail.com>",
+    "references": [
+      "<CAFd60f18c2e4b60009@mail.gmail.com>"
+    ],
+    "thread_position": 2,
+    "thread_length": 2,
+    "from": {
+      "name": "Claudia Reyes",
+      "email": "claudia.reyes@vireohealth.com"
+    },
+    "to": [
+      {
+        "name": "Marcus Bell",
+        "email": "marcus.bell@vireohealth.com"
+      },
+      {
+        "name": "Renata Vlasov",
+        "email": "renata.vlasov@vireohealth.com"
+      },
+      {
+        "name": "Tim Osei",
+        "email": "tim.osei@vireohealth.com"
+      },
+      {
+        "name": "Jenna Wu",
+        "email": "jenna.wu@vireohealth.com"
+      },
+      {
+        "name": "Omar Haddix",
+        "email": "omar.haddix@vireohealth.com"
+      },
+      {
+        "name": "Priscilla Nam",
+        "email": "priscilla.nam@vireohealth.com"
+      }
+    ],
+    "cc": [],
+    "bcc": [],
+    "delivered_to": "marcus.bell@vireohealth.com",
+    "subject": "Re: Badge photos for Thursday's orientation",
+    "snippet": "I've got it — I'm in the building Thursday morning anyway.",
+    "body_text": "I've got it — I'm in the building Thursday morning anyway.",
+    "body_html": null,
+    "date": "2026-08-03T11:05:00-06:00",
+    "internal_date_ms": 1785776700000,
+    "folder": "INBOX",
+    "category": "CATEGORY_PERSONAL",
+    "is_unread": false,
+    "is_starred": false,
+    "is_important": false,
+    "user_labels": [],
+    "attachments": [],
+    "calendar_event": null,
+    "extra_headers": {
+      "Return-Path": "<claudia.reyes@vireohealth.com>"
+    },
+    "size_estimate": 658,
+    "meta": {
+      "email_class": "genuine_work",
+      "tricky_tags": [],
+      "is_actionable_for_user": false,
+      "action_owner": null,
+      "action_summary": null,
+      "due_date": null,
+      "commitment_made_by_user": null,
+      "commitment_is_conditional": false,
+      "commitment_condition": null,
+      "superseded_by_message_id": null,
+      "notes": "Claudia claims the diffused ask from the prior message; Marcus never had to act on it."
+    }
+  },
+  {
+    "id": "d60f18c2e4b60011",
+    "thread_id": "d60f18c2e4b60011",
+    "profile_id": "hr",
+    "history_id": "703540",
+    "message_id_header": "<d60f18c2e4b60011@hr-brew.com>",
+    "in_reply_to": null,
+    "references": [],
+    "thread_position": 1,
+    "thread_length": 1,
+    "from": {
+      "name": "HR Brew",
+      "email": "newsletter@hr-brew.com"
+    },
+    "to": [
+      {
+        "name": "Marcus Bell",
+        "email": "marcus.bell@vireohealth.com"
+      }
+    ],
+    "cc": [],
+    "bcc": [],
+    "delivered_to": "marcus.bell@vireohealth.com",
+    "subject": "HR Brew: Return-to-office mandates keep backfiring",
+    "snippet": "Return-to-office mandates keep backfiring — new data on attrition post-mandate, a look at four-day week experiments, and this week's HR Brew job board highlights. Read the full iss",
+    "body_text": "Return-to-office mandates keep backfiring — new data on attrition post-mandate, a look at four-day week experiments, and this week's HR Brew job board highlights. Read the full issue on the web.\n\nYou're receiving this because you subscribed to HR Brew. Manage your preferences or unsubscribe here: https://hr-brew.com/unsubscribe?u=8842910\n\nHR Brew, 22 W 19th St, New York, NY 10011",
+    "body_html": "<div style=\"font-family:Arial,sans-serif;font-size:14px;color:#222\"><h2>Return-to-office mandates keep backfiring</h2><p>New data on attrition post-mandate, a look at four-day week experiments, and this week's HR Brew job board highlights.</p><p><a href=\"https://hr-brew.com/issues/rto-backfire\">Read the full issue</a></p><p style=\"font-size:11px;color:#888\">You're receiving this because you subscribed to HR Brew. <a href=\"https://hr-brew.com/unsubscribe?u=8842910\">Unsubscribe</a><br>HR Brew, 22 W 19th St, New York, NY 10011</p></div>",
+    "date": "2026-06-23T07:00:00-04:00",
+    "internal_date_ms": 1782212400000,
+    "folder": "INBOX",
+    "category": "CATEGORY_UPDATES",
+    "is_unread": true,
+    "is_starred": false,
+    "is_important": false,
+    "user_labels": [],
+    "attachments": [],
+    "calendar_event": null,
+    "extra_headers": {
+      "List-Unsubscribe": "<mailto:unsubscribe-8842910@hr-brew.com>, <https://hr-brew.com/unsubscribe?u=8842910>",
+      "List-Unsubscribe-Post": "List-Unsubscribe=One-Click",
+      "List-ID": "hr-brew-daily.hr-brew.com",
+      "Precedence": "bulk",
+      "Feedback-ID": "8842910:hrbrew:campaign:mailgun",
+      "Return-Path": "<newsletter@hr-brew.com>"
+    },
+    "size_estimate": 1521,
+    "meta": {
+      "email_class": "newsletter",
+      "tricky_tags": [
+        "newsletter_unsubscribe"
+      ],
+      "is_actionable_for_user": false,
+      "action_owner": null,
+      "action_summary": null,
+      "due_date": null,
+      "commitment_made_by_user": null,
+      "commitment_is_conditional": false,
+      "commitment_condition": null,
+      "superseded_by_message_id": null,
+      "notes": "Standard daily newsletter with full List-Unsubscribe / one-click machinery and an unsubscribe link in both text and HTML."
+    }
+  },
+  {
+    "id": "d60f18c2e4b60012",
+    "thread_id": "d60f18c2e4b60012",
+    "profile_id": "hr",
+    "history_id": "765702",
+    "message_id_header": "<CAFd60f18c2e4b60012@mail.gmail.com>",
+    "in_reply_to": null,
+    "references": [],
+    "thread_position": 1,
+    "thread_length": 2,
+    "from": {
+      "name": "Marcus Bell",
+      "email": "marcus.bell@vireohealth.com"
+    },
+    "to": [
+      {
+        "name": "Angela Nwosu",
+        "email": "angela.nwosu@keystonebenefits.com"
+      }
+    ],
+    "cc": [],
+    "bcc": [],
+    "delivered_to": null,
+    "subject": "Q4 open enrollment materials — timeline check",
+    "snippet": "Angela — wanted to check in on timing for the open enrollment materials. Are we still on track for the draft SBC packet by the 14th? Let me know if anything's slipping.",
+    "body_text": "Angela — wanted to check in on timing for the open enrollment materials. Are we still on track for the draft SBC packet by the 14th? Let me know if anything's slipping.",
+    "body_html": null,
+    "date": "2026-08-05T09:02:00-06:00",
+    "internal_date_ms": 1785942120000,
+    "folder": "SENT",
+    "category": null,
+    "is_unread": false,
+    "is_starred": false,
+    "is_important": false,
+    "user_labels": [],
+    "attachments": [],
+    "calendar_event": null,
+    "extra_headers": {
+      "Return-Path": "<marcus.bell@vireohealth.com>"
+    },
+    "size_estimate": 768,
+    "meta": {
+      "email_class": "genuine_work",
+      "tricky_tags": [
+        "out_of_office"
+      ],
+      "is_actionable_for_user": false,
+      "action_owner": null,
+      "action_summary": null,
+      "due_date": null,
+      "commitment_made_by_user": null,
+      "commitment_is_conditional": false,
+      "commitment_condition": null,
+      "superseded_by_message_id": null,
+      "notes": "Position 1 of the OOO pair — the owner's outbound message that triggers the auto-reply."
+    }
+  },
+  {
+    "id": "d60f18c2e4b60013",
+    "thread_id": "d60f18c2e4b60012",
+    "profile_id": "hr",
+    "history_id": "765643",
+    "message_id_header": "<d60f18c2e4b60013@keystonebenefits.com>",
+    "in_reply_to": "<CAFd60f18c2e4b60012@mail.gmail.com>",
+    "references": [
+      "<CAFd60f18c2e4b60012@mail.gmail.com>"
+    ],
+    "thread_position": 2,
+    "thread_length": 2,
+    "from": {
+      "name": "Angela Nwosu",
+      "email": "angela.nwosu@keystonebenefits.com"
+    },
+    "to": [
+      {
+        "name": "Marcus Bell",
+        "email": "marcus.bell@vireohealth.com"
+      }
+    ],
+    "cc": [],
+    "bcc": [],
+    "delivered_to": "marcus.bell@vireohealth.com",
+    "subject": "Re: Q4 open enrollment materials — timeline check",
+    "snippet": "I'm out of the office through August 10 with limited email access. For anything time-sensitive on open enrollment, please contact my colleague Marta Diaz at mdiaz@keystonebenefits.",
+    "body_text": "I'm out of the office through August 10 with limited email access. For anything time-sensitive on open enrollment, please contact my colleague Marta Diaz at mdiaz@keystonebenefits.com. Otherwise I'll respond when I'm back.\n\nAngela Nwosu\nKeystone Benefits",
+    "body_html": null,
+    "date": "2026-08-05T10:03:00-05:00",
+    "internal_date_ms": 1785942180000,
+    "folder": "INBOX",
+    "category": "CATEGORY_UPDATES",
+    "is_unread": false,
+    "is_starred": false,
+    "is_important": false,
+    "user_labels": [],
+    "attachments": [],
+    "calendar_event": null,
+    "extra_headers": {
+      "Auto-Submitted": "auto-replied",
+      "X-Auto-Response-Suppress": "All",
+      "Precedence": "bulk",
+      "Return-Path": "<angela.nwosu@keystonebenefits.com>"
+    },
+    "size_estimate": 854,
+    "meta": {
+      "email_class": "auto_reply",
+      "tricky_tags": [
+        "out_of_office"
+      ],
+      "is_actionable_for_user": false,
+      "action_owner": null,
+      "action_summary": null,
+      "due_date": null,
+      "commitment_made_by_user": null,
+      "commitment_is_conditional": false,
+      "commitment_condition": null,
+      "superseded_by_message_id": null,
+      "notes": "Auto-reply to the owner's own outbound message; gives a return date (Aug 10) and delegate contact."
+    }
+  },
+  {
+    "id": "d60f18c2e4b60014",
+    "thread_id": "d60f18c2e4b60014",
+    "profile_id": "hr",
+    "history_id": "752680",
+    "message_id_header": "<d60f18c2e4b60014@summitexecsearch.com>",
+    "in_reply_to": null,
+    "references": [],
+    "thread_position": 1,
+    "thread_length": 9,
+    "from": {
+      "name": "Rich Delacroix",
+      "email": "rich@summitexecsearch.com"
+    },
+    "to": [
+      {
+        "name": "Marcus Bell",
+        "email": "marcus.bell@vireohealth.com"
+      },
+      {
+        "name": "Doug Feinstein",
+        "email": "doug.feinstein@vireohealth.com"
+      },
+      {
+        "name": "Dr. Elaine Ford",
+        "email": "elaine.ford@vireohealth.com"
+      }
+    ],
+    "cc": [],
+    "bcc": [],
+    "delivered_to": "marcus.bell@vireohealth.com",
+    "subject": "VP Clinical Ops — finalist decision",
+    "snippet": "All — attaching context below (not literally attaching, just recapping) on where the two finalists for VP Clinical Ops stand. Dr. Renee Castellano: 11 years in acute care leadershi",
+    "body_text": "All — attaching context below (not literally attaching, just recapping) on where the two finalists for VP Clinical Ops stand.\n\nDr. Renee Castellano: 11 years in acute care leadership, most recently running a 40-bed med-surg unit at a comparable regional health system. Direct clinical background is the strongest of anyone we've seen for this req. Comp expectation is toward the top of the band but not out of range.\n\nMichael Tran: broader operations background — has run multi-site clinical operations for a larger system, less hands-on clinical depth than Castellano but more experience managing at Vireo's scale. Comp expectation is mid-band.\n\nBoth are ready to move quickly if we are. Let me know how you want to sequence next steps.",
+    "body_html": null,
+    "date": "2026-07-27T10:00:00-04:00",
+    "internal_date_ms": 1785160800000,
+    "folder": "INBOX",
+    "category": "CATEGORY_PERSONAL",
+    "is_unread": false,
+    "is_starred": false,
+    "is_important": false,
+    "user_labels": [
+      "Label_6630"
+    ],
+    "attachments": [],
+    "calendar_event": null,
+    "extra_headers": {
+      "Return-Path": "<rich@summitexecsearch.com>"
+    },
+    "size_estimate": 1337,
+    "meta": {
+      "email_class": "recruiting",
+      "tricky_tags": [
+        "long_thread"
+      ],
+      "is_actionable_for_user": false,
+      "action_owner": null,
+      "action_summary": null,
+      "due_date": null,
+      "commitment_made_by_user": null,
+      "commitment_is_conditional": false,
+      "commitment_condition": null,
+      "superseded_by_message_id": null,
+      "notes": "Opens the 9-message VP Clinical Ops thread; 5 distinct participants across the thread."
+    }
+  },
+  {
+    "id": "d60f18c2e4b60015",
+    "thread_id": "d60f18c2e4b60014",
+    "profile_id": "hr",
+    "history_id": "753140",
+    "message_id_header": "<CAFd60f18c2e4b60015@mail.gmail.com>",
+    "in_reply_to": "<d60f18c2e4b60014@summitexecsearch.com>",
+    "references": [
+      "<d60f18c2e4b60014@summitexecsearch.com>"
+    ],
+    "thread_position": 2,
+    "thread_length": 9,
+    "from": {
+      "name": "Doug Feinstein",
+      "email": "doug.feinstein@vireohealth.com"
+    },
+    "to": [
+      {
+        "name": "Rich Delacroix",
+        "email": "rich@summitexecsearch.com"
+      },
+      {
+        "name": "Marcus Bell",
+        "email": "marcus.bell@vireohealth.com"
+      },
+      {
+        "name": "Dr. Elaine Ford",
+        "email": "elaine.ford@vireohealth.com"
+      }
+    ],
+    "cc": [],
+    "bcc": [],
+    "delivered_to": "marcus.bell@vireohealth.com",
+    "subject": "Re: VP Clinical Ops — finalist decision",
+    "snippet": "Leaning Castellano — her direct clinical background maps much more closely to what Priscilla's team needs day to day than Tran's does. Rich, can we get second-round calls set up th",
+    "body_text": "Leaning Castellano — her direct clinical background maps much more closely to what Priscilla's team needs day to day than Tran's does. Rich, can we get second-round calls set up this week?",
+    "body_html": null,
+    "date": "2026-07-27T15:40:00-06:00",
+    "internal_date_ms": 1785188400000,
+    "folder": "INBOX",
+    "category": "CATEGORY_PERSONAL",
+    "is_unread": false,
+    "is_starred": false,
+    "is_important": false,
+    "user_labels": [],
+    "attachments": [],
+    "calendar_event": null,
+    "extra_headers": {
+      "Return-Path": "<doug.feinstein@vireohealth.com>"
+    },
+    "size_estimate": 788,
+    "meta": {
+      "email_class": "recruiting",
+      "tricky_tags": [
+        "long_thread"
+      ],
+      "is_actionable_for_user": false,
+      "action_owner": null,
+      "action_summary": null,
+      "due_date": null,
+      "commitment_made_by_user": null,
+      "commitment_is_conditional": false,
+      "commitment_condition": null,
+      "superseded_by_message_id": null,
+      "notes": null
+    }
+  },
+  {
+    "id": "d60f18c2e4b60016",
+    "thread_id": "d60f18c2e4b60014",
+    "profile_id": "hr",
+    "history_id": "754195",
+    "message_id_header": "<CAFd60f18c2e4b60016@mail.gmail.com>",
+    "in_reply_to": "<CAFd60f18c2e4b60015@mail.gmail.com>",
+    "references": [
+      "<d60f18c2e4b60014@summitexecsearch.com>",
+      "<CAFd60f18c2e4b60015@mail.gmail.com>"
+    ],
+    "thread_position": 3,
+    "thread_length": 9,
+    "from": {
+      "name": "Marcus Bell",
+      "email": "marcus.bell@vireohealth.com"
+    },
+    "to": [
+      {
+        "name": "Rich Delacroix",
+        "email": "rich@summitexecsearch.com"
+      },
+      {
+        "name": "Doug Feinstein",
+        "email": "doug.feinstein@vireohealth.com"
+      },
+      {
+        "name": "Dr. Elaine Ford",
+        "email": "elaine.ford@vireohealth.com"
+      }
+    ],
+    "cc": [
+      {
+        "name": "Priscilla Nam",
+        "email": "priscilla.nam@vireohealth.com"
+      }
+    ],
+    "bcc": [],
+    "delivered_to": null,
+    "subject": "Re: VP Clinical Ops — finalist decision",
+    "snippet": "Adding Priscilla here for the nursing leadership view before we move further — she'll have context on unit dynamics that's worth factoring in early rather than after we've already ",
+    "body_text": "Adding Priscilla here for the nursing leadership view before we move further — she'll have context on unit dynamics that's worth factoring in early rather than after we've already leaned a direction.",
+    "body_html": null,
+    "date": "2026-07-28T09:15:00-06:00",
+    "internal_date_ms": 1785251700000,
+    "folder": "SENT",
+    "category": null,
+    "is_unread": false,
+    "is_starred": false,
+    "is_important": false,
+    "user_labels": [],
+    "attachments": [],
+    "calendar_event": null,
+    "extra_headers": {
+      "Return-Path": "<marcus.bell@vireohealth.com>"
+    },
+    "size_estimate": 799,
+    "meta": {
+      "email_class": "recruiting",
+      "tricky_tags": [
+        "long_thread"
+      ],
+      "is_actionable_for_user": false,
+      "action_owner": null,
+      "action_summary": null,
+      "due_date": null,
+      "commitment_made_by_user": null,
+      "commitment_is_conditional": false,
+      "commitment_condition": null,
+      "superseded_by_message_id": null,
+      "notes": null
+    }
+  },
+  {
+    "id": "d60f18c2e4b60017",
+    "thread_id": "d60f18c2e4b60014",
+    "profile_id": "hr",
+    "history_id": "754510",
+    "message_id_header": "<CAFd60f18c2e4b60017@mail.gmail.com>",
+    "in_reply_to": "<CAFd60f18c2e4b60016@mail.gmail.com>",
+    "references": [
+      "<d60f18c2e4b60014@summitexecsearch.com>",
+      "<CAFd60f18c2e4b60015@mail.gmail.com>",
+      "<CAFd60f18c2e4b60016@mail.gmail.com>"
+    ],
+    "thread_position": 4,
+    "thread_length": 9,
+    "from": {
+      "name": "Priscilla Nam",
+      "email": "priscilla.nam@vireohealth.com"
+    },
+    "to": [
+      {
+        "name": "Rich Delacroix",
+        "email": "rich@summitexecsearch.com"
+      },
+      {
+        "name": "Doug Feinstein",
+        "email": "doug.feinstein@vireohealth.com"
+      },
+      {
+        "name": "Dr. Elaine Ford",
+        "email": "elaine.ford@vireohealth.com"
+      },
+      {
+        "name": "Marcus Bell",
+        "email": "marcus.bell@vireohealth.com"
+      }
+    ],
+    "cc": [],
+    "bcc": [],
+    "delivered_to": "marcus.bell@vireohealth.com",
+    "subject": "Re: VP Clinical Ops — finalist decision",
+    "snippet": "Thanks for looping me in. I've heard good things about Castellano secondhand from a former colleague who worked under her — nothing but positive on the clinical judgment side. I'd ",
+    "body_text": "Thanks for looping me in. I've heard good things about Castellano secondhand from a former colleague who worked under her — nothing but positive on the clinical judgment side. I'd support moving forward with her if the rest of you are aligned.",
+    "body_html": null,
+    "date": "2026-07-28T14:30:00-06:00",
+    "internal_date_ms": 1785270600000,
+    "folder": "INBOX",
+    "category": "CATEGORY_PERSONAL",
+    "is_unread": false,
+    "is_starred": false,
+    "is_important": false,
+    "user_labels": [],
+    "attachments": [],
+    "calendar_event": null,
+    "extra_headers": {
+      "Return-Path": "<priscilla.nam@vireohealth.com>"
+    },
+    "size_estimate": 843,
+    "meta": {
+      "email_class": "recruiting",
+      "tricky_tags": [
+        "long_thread"
+      ],
+      "is_actionable_for_user": false,
+      "action_owner": null,
+      "action_summary": null,
+      "due_date": null,
+      "commitment_made_by_user": null,
+      "commitment_is_conditional": false,
+      "commitment_condition": null,
+      "superseded_by_message_id": null,
+      "notes": null
+    }
+  },
+  {
+    "id": "d60f18c2e4b60018",
+    "thread_id": "d60f18c2e4b60014",
+    "profile_id": "hr",
+    "history_id": "755740",
+    "message_id_header": "<CAFd60f18c2e4b60018@mail.gmail.com>",
+    "in_reply_to": "<CAFd60f18c2e4b60017@mail.gmail.com>",
+    "references": [
+      "<d60f18c2e4b60014@summitexecsearch.com>",
+      "<CAFd60f18c2e4b60015@mail.gmail.com>",
+      "<CAFd60f18c2e4b60016@mail.gmail.com>",
+      "<CAFd60f18c2e4b60017@mail.gmail.com>"
+    ],
+    "thread_position": 5,
+    "thread_length": 9,
+    "from": {
+      "name": "Marcus Bell",
+      "email": "marcus.bell@vireohealth.com"
+    },
+    "to": [
+      {
+        "name": "Rich Delacroix",
+        "email": "rich@summitexecsearch.com"
+      },
+      {
+        "name": "Doug Feinstein",
+        "email": "doug.feinstein@vireohealth.com"
+      },
+      {
+        "name": "Dr. Elaine Ford",
+        "email": "elaine.ford@vireohealth.com"
+      },
+      {
+        "name": "Priscilla Nam",
+        "email": "priscilla.nam@vireohealth.com"
+      }
+    ],
+    "cc": [],
+    "bcc": [],
+    "delivered_to": null,
+    "subject": "Re: VP Clinical Ops — finalist decision",
+    "snippet": "Sounds like we're converging on Castellano. Rich, can you move to reference checks and let's target an offer by August 7 if they come back clean?",
+    "body_text": "Sounds like we're converging on Castellano. Rich, can you move to reference checks and let's target an offer by August 7 if they come back clean?",
+    "body_html": null,
+    "date": "2026-07-29T11:00:00-06:00",
+    "internal_date_ms": 1785344400000,
+    "folder": "SENT",
+    "category": null,
+    "is_unread": false,
+    "is_starred": false,
+    "is_important": false,
+    "user_labels": [],
+    "attachments": [],
+    "calendar_event": null,
+    "extra_headers": {
+      "Return-Path": "<marcus.bell@vireohealth.com>"
+    },
+    "size_estimate": 745,
+    "meta": {
+      "email_class": "recruiting",
+      "tricky_tags": [
+        "long_thread"
+      ],
+      "is_actionable_for_user": true,
+      "action_owner": "marcus.bell@vireohealth.com",
+      "action_summary": "Coordinate reference checks and target an August 7 offer for Castellano.",
+      "due_date": "2026-08-07",
+      "commitment_made_by_user": null,
+      "commitment_is_conditional": false,
+      "commitment_condition": null,
+      "superseded_by_message_id": null,
+      "notes": "Group consensus lands on Castellano here — this is the 'middle' position the final decision later contradicts."
+    }
+  },
+  {
+    "id": "d60f18c2e4b60019",
+    "thread_id": "d60f18c2e4b60014",
+    "profile_id": "hr",
+    "history_id": "762720",
+    "message_id_header": "<d60f18c2e4b60019@summitexecsearch.com>",
+    "in_reply_to": "<CAFd60f18c2e4b60018@mail.gmail.com>",
+    "references": [
+      "<d60f18c2e4b60014@summitexecsearch.com>",
+      "<CAFd60f18c2e4b60015@mail.gmail.com>",
+      "<CAFd60f18c2e4b60016@mail.gmail.com>",
+      "<CAFd60f18c2e4b60017@mail.gmail.com>",
+      "<CAFd60f18c2e4b60018@mail.gmail.com>"
+    ],
+    "thread_position": 6,
+    "thread_length": 9,
+    "from": {
+      "name": "Rich Delacroix",
+      "email": "rich@summitexecsearch.com"
+    },
+    "to": [
+      {
+        "name": "Marcus Bell",
+        "email": "marcus.bell@vireohealth.com"
+      },
+      {
+        "name": "Doug Feinstein",
+        "email": "doug.feinstein@vireohealth.com"
+      },
+      {
+        "name": "Dr. Elaine Ford",
+        "email": "elaine.ford@vireohealth.com"
+      },
+      {
+        "name": "Priscilla Nam",
+        "email": "priscilla.nam@vireohealth.com"
+      }
+    ],
+    "cc": [],
+    "bcc": [],
+    "delivered_to": "marcus.bell@vireohealth.com",
+    "subject": "Re: VP Clinical Ops — finalist decision",
+    "snippet": "Started reference checks on Castellano this morning. One of the two came back with a vaguely worded concern about 'team turnover' under her leadership — not enough detail to act on",
+    "body_text": "Started reference checks on Castellano this morning. One of the two came back with a vaguely worded concern about 'team turnover' under her leadership — not enough detail to act on yet, want another day to run it down properly before I flag it as a real issue.",
+    "body_html": null,
+    "date": "2026-08-03T09:20:00-04:00",
+    "internal_date_ms": 1785763200000,
+    "folder": "INBOX",
+    "category": "CATEGORY_PERSONAL",
+    "is_unread": false,
+    "is_starred": false,
+    "is_important": false,
+    "user_labels": [],
+    "attachments": [],
+    "calendar_event": null,
+    "extra_headers": {
+      "Return-Path": "<rich@summitexecsearch.com>"
+    },
+    "size_estimate": 860,
+    "meta": {
+      "email_class": "recruiting",
+      "tricky_tags": [
+        "long_thread"
+      ],
+      "is_actionable_for_user": false,
+      "action_owner": null,
+      "action_summary": null,
+      "due_date": null,
+      "commitment_made_by_user": null,
+      "commitment_is_conditional": false,
+      "commitment_condition": null,
+      "superseded_by_message_id": null,
+      "notes": null
+    }
+  },
+  {
+    "id": "d60f18c2e4b60020",
+    "thread_id": "d60f18c2e4b60014",
+    "profile_id": "hr",
+    "history_id": "764250",
+    "message_id_header": "<CAFd60f18c2e4b60020@mail.gmail.com>",
+    "in_reply_to": "<d60f18c2e4b60019@summitexecsearch.com>",
+    "references": [
+      "<d60f18c2e4b60014@summitexecsearch.com>",
+      "<CAFd60f18c2e4b60015@mail.gmail.com>",
+      "<CAFd60f18c2e4b60016@mail.gmail.com>",
+      "<CAFd60f18c2e4b60017@mail.gmail.com>",
+      "<CAFd60f18c2e4b60018@mail.gmail.com>",
+      "<d60f18c2e4b60019@summitexecsearch.com>"
+    ],
+    "thread_position": 7,
+    "thread_length": 9,
+    "from": {
+      "name": "Marcus Bell",
+      "email": "marcus.bell@vireohealth.com"
+    },
+    "to": [
+      {
+        "name": "Rich Delacroix",
+        "email": "rich@summitexecsearch.com"
+      },
+      {
+        "name": "Doug Feinstein",
+        "email": "doug.feinstein@vireohealth.com"
+      },
+      {
+        "name": "Dr. Elaine Ford",
+        "email": "elaine.ford@vireohealth.com"
+      },
+      {
+        "name": "Priscilla Nam",
+        "email": "priscilla.nam@vireohealth.com"
+      }
+    ],
+    "cc": [],
+    "bcc": [],
+    "delivered_to": null,
+    "subject": "Re: VP Clinical Ops — finalist decision",
+    "snippet": "Appreciate the diligence — let's hold before extending anything until we've got both sets of references back. Can we get Tran's pulled too in the meantime, just so both candidates ",
+    "body_text": "Appreciate the diligence — let's hold before extending anything until we've got both sets of references back. Can we get Tran's pulled too in the meantime, just so both candidates are fully vetted before we commit either way?",
+    "body_html": null,
+    "date": "2026-08-04T08:50:00-06:00",
+    "internal_date_ms": 1785855000000,
+    "folder": "SENT",
+    "category": null,
+    "is_unread": false,
+    "is_starred": false,
+    "is_important": false,
+    "user_labels": [],
+    "attachments": [],
+    "calendar_event": null,
+    "extra_headers": {
+      "Return-Path": "<marcus.bell@vireohealth.com>"
+    },
+    "size_estimate": 825,
+    "meta": {
+      "email_class": "recruiting",
+      "tricky_tags": [
+        "long_thread"
+      ],
+      "is_actionable_for_user": true,
+      "action_owner": "marcus.bell@vireohealth.com",
+      "action_summary": "Wait on extending an offer until both candidates' references are back.",
+      "due_date": null,
+      "commitment_made_by_user": null,
+      "commitment_is_conditional": false,
+      "commitment_condition": null,
+      "superseded_by_message_id": null,
+      "notes": "Owner's third message in the thread."
+    }
+  },
+  {
+    "id": "d60f18c2e4b60021",
+    "thread_id": "d60f18c2e4b60014",
+    "profile_id": "hr",
+    "history_id": "767335",
+    "message_id_header": "<d60f18c2e4b60021@summitexecsearch.com>",
+    "in_reply_to": "<CAFd60f18c2e4b60020@mail.gmail.com>",
+    "references": [
+      "<d60f18c2e4b60014@summitexecsearch.com>",
+      "<CAFd60f18c2e4b60015@mail.gmail.com>",
+      "<CAFd60f18c2e4b60016@mail.gmail.com>",
+      "<CAFd60f18c2e4b60017@mail.gmail.com>",
+      "<CAFd60f18c2e4b60018@mail.gmail.com>",
+      "<d60f18c2e4b60019@summitexecsearch.com>",
+      "<CAFd60f18c2e4b60020@mail.gmail.com>"
+    ],
+    "thread_position": 8,
+    "thread_length": 9,
+    "from": {
+      "name": "Rich Delacroix",
+      "email": "rich@summitexecsearch.com"
+    },
+    "to": [
+      {
+        "name": "Marcus Bell",
+        "email": "marcus.bell@vireohealth.com"
+      },
+      {
+        "name": "Doug Feinstein",
+        "email": "doug.feinstein@vireohealth.com"
+      },
+      {
+        "name": "Dr. Elaine Ford",
+        "email": "elaine.ford@vireohealth.com"
+      },
+      {
+        "name": "Priscilla Nam",
+        "email": "priscilla.nam@vireohealth.com"
+      }
+    ],
+    "cc": [],
+    "bcc": [],
+    "delivered_to": "marcus.bell@vireohealth.com",
+    "subject": "Re: VP Clinical Ops — finalist decision",
+    "snippet": "Both sets are back. On Castellano: the turnover concern held up — two independent references, without me prompting either one, separately described a pattern of departures on her d",
+    "body_text": "Both sets are back. On Castellano: the turnover concern held up — two independent references, without me prompting either one, separately described a pattern of departures on her direct team over the last 18 months, both tying it to how she handled performance conversations rather than normal attrition. Three people in that window per both accounts.\n\nOn Tran: references were strong across the board. Both former direct reports brought up retention and coaching unprompted, which stood out to me given I didn't ask about it directly. Clinical depth is lighter than Castellano's, but operational range is broader.\n\nWanted you to have the full picture before Marcus and Elaine land on next steps.",
+    "body_html": null,
+    "date": "2026-08-06T14:15:00-04:00",
+    "internal_date_ms": 1786040100000,
+    "folder": "INBOX",
+    "category": "CATEGORY_PERSONAL",
+    "is_unread": true,
+    "is_starred": false,
+    "is_important": false,
+    "user_labels": [],
+    "attachments": [],
+    "calendar_event": null,
+    "extra_headers": {
+      "Return-Path": "<rich@summitexecsearch.com>"
+    },
+    "size_estimate": 1296,
+    "meta": {
+      "email_class": "recruiting",
+      "tricky_tags": [
+        "long_thread"
+      ],
+      "is_actionable_for_user": false,
+      "action_owner": null,
+      "action_summary": null,
+      "due_date": null,
+      "commitment_made_by_user": null,
+      "commitment_is_conditional": false,
+      "commitment_condition": null,
+      "superseded_by_message_id": null,
+      "notes": "Reference check results reverse the thread's earlier lean toward Castellano."
+    }
+  },
+  {
+    "id": "d60f18c2e4b60022",
+    "thread_id": "d60f18c2e4b60014",
+    "profile_id": "hr",
+    "history_id": "772960",
+    "message_id_header": "<CAFd60f18c2e4b60022@mail.gmail.com>",
+    "in_reply_to": "<d60f18c2e4b60021@summitexecsearch.com>",
+    "references": [
+      "<d60f18c2e4b60014@summitexecsearch.com>",
+      "<CAFd60f18c2e4b60015@mail.gmail.com>",
+      "<CAFd60f18c2e4b60016@mail.gmail.com>",
+      "<CAFd60f18c2e4b60017@mail.gmail.com>",
+      "<CAFd60f18c2e4b60018@mail.gmail.com>",
+      "<d60f18c2e4b60019@summitexecsearch.com>",
+      "<CAFd60f18c2e4b60020@mail.gmail.com>",
+      "<d60f18c2e4b60021@summitexecsearch.com>"
+    ],
+    "thread_position": 9,
+    "thread_length": 9,
+    "from": {
+      "name": "Dr. Elaine Ford",
+      "email": "elaine.ford@vireohealth.com"
+    },
+    "to": [
+      {
+        "name": "Marcus Bell",
+        "email": "marcus.bell@vireohealth.com"
+      },
+      {
+        "name": "Doug Feinstein",
+        "email": "doug.feinstein@vireohealth.com"
+      },
+      {
+        "name": "Priscilla Nam",
+        "email": "priscilla.nam@vireohealth.com"
+      }
+    ],
+    "cc": [
+      {
+        "name": "Rich Delacroix",
+        "email": "rich@summitexecsearch.com"
+      }
+    ],
+    "bcc": [],
+    "delivered_to": "marcus.bell@vireohealth.com",
+    "subject": "Re: VP Clinical Ops — finalist decision",
+    "snippet": "Team, I've had a chance to sit with everything Rich sent over, and I want to walk through my thinking before Marcus and Rich move on the offer, because I know this isn't the direct",
+    "body_text": "Team,\n\nI've had a chance to sit with everything Rich sent over, and I want to walk through my thinking before Marcus and Rich move on the offer, because I know this isn't the direction most of us were leaning two weeks ago.\n\nWhen we first got the slate, I was genuinely torn — Dr. Castellano's clinical background is a better direct match for what Priscilla's team needs day to day, and Doug's read on her interview was strong. I said as much on the 29th, and I meant it. If the reference checks had come back clean, I think we'd be sending her an offer today.\n\nBut they didn't come back clean, and I don't think we can talk ourselves past what two independent references told Rich separately: three departures from her direct reports in eighteen months, both references describing it as connected to how she managed performance conversations rather than normal attrition. That's not a single data point I'm willing to write off as noise, especially walking into a department that's already short-staffed and where Priscilla and her charge nurses are stretched thin as it is. If we bring in a leader who compounds that turnover problem, we're not solving the thing we hired this role to fix — we're making it worse, and we'll be back here in twelve months hiring again, except with a nursing staff that's more burned out and more skeptical of leadership changes than they are today.\n\nTran's references, by contrast, were about as strong as I've seen — both former direct reports specifically brought up retention and coaching without being asked, which tells me something. He doesn't have quite the same depth of acute clinical operations experience as Castellano, but he's run larger teams, and Doug, you flagged in your first note that the operational chops were there even if the clinical specialization was a step down from hers. I'd rather ramp someone up on the clinical specifics with support from Priscilla's team than inherit a retention problem in a department I can't currently absorb more turnover in.\n\nSo: let's go with Tran. Marcus, can you have Rich prep the offer — I'd like to get it in front of him by early next week if we can, given he mentioned a competing process. And Marcus, can you and Doug talk about how we let Dr. Castellano down — I want that handled cleanly and with real respect for her time; nothing about her candidacy was disqualifying in the abstract, this came down entirely to what came back in the reference calls, and I don't want that message to get muddled into something it isn't.\n\nThanks all for the thorough work on this one — I know it's not the outcome most of us expected a couple weeks ago, but I'd rather make the harder call now than the easier one and regret it in a year.\n\nElaine",
+    "body_html": "<div style=\"font-family:Georgia,serif;font-size:14px;color:#1a1a1a;line-height:1.5\"><p>Team,</p><p>I've had a chance to sit with everything Rich sent over, and I want to walk through my thinking before Marcus and Rich move on the offer.</p><p>Reference checks confirmed a real turnover pattern under Castellano's leadership — three departures in eighteen months per two independent references. Tran's references were uniformly strong on retention and coaching.</p><p><b>Decision: we go with Tran.</b> Marcus, please have Rich prep the offer, and let's handle the Castellano conversation with care.</p><p>Elaine</p></div>",
+    "date": "2026-08-10T10:00:00-06:00",
+    "internal_date_ms": 1786377600000,
+    "folder": "INBOX",
+    "category": "CATEGORY_PERSONAL",
+    "is_unread": true,
+    "is_starred": true,
+    "is_important": true,
+    "user_labels": [],
+    "attachments": [],
+    "calendar_event": null,
+    "extra_headers": {
+      "Return-Path": "<elaine.ford@vireohealth.com>"
+    },
+    "size_estimate": 3951,
+    "meta": {
+      "email_class": "recruiting",
+      "tricky_tags": [
+        "long_thread"
+      ],
+      "is_actionable_for_user": true,
+      "action_owner": "marcus.bell@vireohealth.com",
+      "action_summary": "Have Rich prep the offer for Tran, and work with Doug on how to tell Castellano she wasn't selected.",
+      "due_date": "2026-08-14",
+      "commitment_made_by_user": null,
+      "commitment_is_conditional": false,
+      "commitment_condition": null,
+      "superseded_by_message_id": null,
+      "notes": "Final decision (Tran) directly contradicts the August 29-onward consensus that had converged on Castellano mid-thread — the whole point of this required case."
+    }
+  },
+  {
+    "id": "d60f18c2e4b60023",
+    "thread_id": "d60f18c2e4b60023",
+    "profile_id": "hr",
+    "history_id": "734020",
+    "message_id_header": "<d60f18c2e4b60023@keystonebenefits.com>",
+    "in_reply_to": null,
+    "references": [],
+    "thread_position": 1,
+    "thread_length": 7,
+    "from": {
+      "name": "Angela Nwosu",
+      "email": "angela.nwosu@keystonebenefits.com"
+    },
+    "to": [
+      {
+        "name": "Marcus Bell",
+        "email": "marcus.bell@vireohealth.com"
+      },
+      {
+        "name": "Claudia Reyes",
+        "email": "claudia.reyes@vireohealth.com"
+      }
+    ],
+    "cc": [],
+    "bcc": [],
+    "delivered_to": "marcus.bell@vireohealth.com",
+    "subject": "Open enrollment kickoff — timeline",
+    "snippet": "Hi both — proposing the following for open enrollment kickoff: SBC packet finalized by August 14, all-staff webinar the week of the 18th, elections open August 24 through September",
+    "body_text": "Hi both — proposing the following for open enrollment kickoff: SBC packet finalized by August 14, all-staff webinar the week of the 18th, elections open August 24 through September 7. Let me know if that works on your end before I lock the webinar platform booking.",
+    "body_html": null,
+    "date": "2026-07-14T10:00:00-05:00",
+    "internal_date_ms": 1784041200000,
+    "folder": "INBOX",
+    "category": "CATEGORY_PERSONAL",
+    "is_unread": false,
+    "is_starred": false,
+    "is_important": false,
+    "user_labels": [],
+    "attachments": [],
+    "calendar_event": null,
+    "extra_headers": {
+      "Return-Path": "<angela.nwosu@keystonebenefits.com>"
+    },
+    "size_estimate": 865,
+    "meta": {
+      "email_class": "genuine_work",
+      "tricky_tags": [
+        "topic_drift"
+      ],
+      "is_actionable_for_user": true,
+      "action_owner": "marcus.bell@vireohealth.com",
+      "action_summary": "Confirm the proposed open enrollment kickoff timeline.",
+      "due_date": "2026-07-17",
+      "commitment_made_by_user": null,
+      "commitment_is_conditional": false,
+      "commitment_condition": null,
+      "superseded_by_message_id": null,
+      "notes": "Topic A begins here — open enrollment logistics."
+    }
+  },
+  {
+    "id": "d60f18c2e4b60024",
+    "thread_id": "d60f18c2e4b60023",
+    "profile_id": "hr",
+    "history_id": "734350",
+    "message_id_header": "<CAFd60f18c2e4b60024@mail.gmail.com>",
+    "in_reply_to": "<d60f18c2e4b60023@keystonebenefits.com>",
+    "references": [
+      "<d60f18c2e4b60023@keystonebenefits.com>"
+    ],
+    "thread_position": 2,
+    "thread_length": 7,
+    "from": {
+      "name": "Claudia Reyes",
+      "email": "claudia.reyes@vireohealth.com"
+    },
+    "to": [
+      {
+        "name": "Angela Nwosu",
+        "email": "angela.nwosu@keystonebenefits.com"
+      },
+      {
+        "name": "Marcus Bell",
+        "email": "marcus.bell@vireohealth.com"
+      }
+    ],
+    "cc": [],
+    "bcc": [],
+    "delivered_to": "marcus.bell@vireohealth.com",
+    "subject": "Re: Open enrollment kickoff — timeline",
+    "snippet": "Timeline works for me — one thing, can we push the all-staff webinar to the 25th instead of the 18th? That's the same week as the nurse retention town hall and I don't want the two",
+    "body_text": "Timeline works for me — one thing, can we push the all-staff webinar to the 25th instead of the 18th? That's the same week as the nurse retention town hall and I don't want the two competing for people's attention.",
+    "body_html": null,
+    "date": "2026-07-14T14:30:00-06:00",
+    "internal_date_ms": 1784061000000,
+    "folder": "INBOX",
+    "category": "CATEGORY_PERSONAL",
+    "is_unread": false,
+    "is_starred": false,
+    "is_important": false,
+    "user_labels": [],
+    "attachments": [],
+    "calendar_event": null,
+    "extra_headers": {
+      "Return-Path": "<claudia.reyes@vireohealth.com>"
+    },
+    "size_estimate": 814,
+    "meta": {
+      "email_class": "genuine_work",
+      "tricky_tags": [
+        "topic_drift"
+      ],
+      "is_actionable_for_user": false,
+      "action_owner": null,
+      "action_summary": null,
+      "due_date": null,
+      "commitment_made_by_user": null,
+      "commitment_is_conditional": false,
+      "commitment_condition": null,
+      "superseded_by_message_id": null,
+      "notes": "Still topic A, but plants the seed (retention town hall) that the thread will drift into."
+    }
+  },
+  {
+    "id": "d60f18c2e4b60025",
+    "thread_id": "d60f18c2e4b60023",
+    "profile_id": "hr",
+    "history_id": "735460",
+    "message_id_header": "<CAFd60f18c2e4b60025@mail.gmail.com>",
+    "in_reply_to": "<CAFd60f18c2e4b60024@mail.gmail.com>",
+    "references": [
+      "<d60f18c2e4b60023@keystonebenefits.com>",
+      "<CAFd60f18c2e4b60024@mail.gmail.com>"
+    ],
+    "thread_position": 3,
+    "thread_length": 7,
+    "from": {
+      "name": "Marcus Bell",
+      "email": "marcus.bell@vireohealth.com"
+    },
+    "to": [
+      {
+        "name": "Angela Nwosu",
+        "email": "angela.nwosu@keystonebenefits.com"
+      },
+      {
+        "name": "Claudia Reyes",
+        "email": "claudia.reyes@vireohealth.com"
+      }
+    ],
+    "cc": [
+      {
+        "name": "Doug Feinstein",
+        "email": "doug.feinstein@vireohealth.com"
+      },
+      {
+        "name": "Priscilla Nam",
+        "email": "priscilla.nam@vireohealth.com"
+      }
+    ],
+    "bcc": [],
+    "delivered_to": null,
+    "subject": "Re: Open enrollment kickoff — timeline",
+    "snippet": "Works for me on the 25th. Adding Doug and Priscilla here since this is really about the bonus pool sign-off now — Doug, did finance's sign-off on the per-shift retention bonus pool",
+    "body_text": "Works for me on the 25th. Adding Doug and Priscilla here since this is really about the bonus pool sign-off now — Doug, did finance's sign-off on the per-shift retention bonus pool come through yet?",
+    "body_html": null,
+    "date": "2026-07-15T09:00:00-06:00",
+    "internal_date_ms": 1784127600000,
+    "folder": "SENT",
+    "category": null,
+    "is_unread": false,
+    "is_starred": false,
+    "is_important": false,
+    "user_labels": [],
+    "attachments": [],
+    "calendar_event": null,
+    "extra_headers": {
+      "Return-Path": "<marcus.bell@vireohealth.com>"
+    },
+    "size_estimate": 798,
+    "meta": {
+      "email_class": "genuine_work",
+      "tricky_tags": [
+        "topic_drift"
+      ],
+      "is_actionable_for_user": false,
+      "action_owner": null,
+      "action_summary": null,
+      "due_date": null,
+      "commitment_made_by_user": null,
+      "commitment_is_conditional": false,
+      "commitment_condition": null,
+      "superseded_by_message_id": null,
+      "notes": "Pivot point — subject is still 'Open enrollment kickoff' but the actual content has already moved to the retention bonus pool."
+    }
+  },
+  {
+    "id": "d60f18c2e4b60026",
+    "thread_id": "d60f18c2e4b60023",
+    "profile_id": "hr",
+    "history_id": "737040",
+    "message_id_header": "<CAFd60f18c2e4b60026@mail.gmail.com>",
+    "in_reply_to": "<CAFd60f18c2e4b60025@mail.gmail.com>",
+    "references": [
+      "<d60f18c2e4b60023@keystonebenefits.com>",
+      "<CAFd60f18c2e4b60024@mail.gmail.com>",
+      "<CAFd60f18c2e4b60025@mail.gmail.com>"
+    ],
+    "thread_position": 4,
+    "thread_length": 7,
+    "from": {
+      "name": "Doug Feinstein",
+      "email": "doug.feinstein@vireohealth.com"
+    },
+    "to": [
+      {
+        "name": "Marcus Bell",
+        "email": "marcus.bell@vireohealth.com"
+      },
+      {
+        "name": "Claudia Reyes",
+        "email": "claudia.reyes@vireohealth.com"
+      },
+      {
+        "name": "Angela Nwosu",
+        "email": "angela.nwosu@keystonebenefits.com"
+      },
+      {
+        "name": "Priscilla Nam",
+        "email": "priscilla.nam@vireohealth.com"
+      }
+    ],
+    "cc": [],
+    "bcc": [],
+    "delivered_to": "marcus.bell@vireohealth.com",
+    "subject": "Re: Open enrollment kickoff — timeline",
+    "snippet": "Yes — finance approved $180K for the retention bonus pool, paid out quarterly starting Q4. I'll send the shift-differential math separately so Priscilla can sanity-check it against",
+    "body_text": "Yes — finance approved $180K for the retention bonus pool, paid out quarterly starting Q4. I'll send the shift-differential math separately so Priscilla can sanity-check it against the unit rosters.",
+    "body_html": null,
+    "date": "2026-07-16T11:20:00-06:00",
+    "internal_date_ms": 1784222400000,
+    "folder": "INBOX",
+    "category": "CATEGORY_PERSONAL",
+    "is_unread": false,
+    "is_starred": false,
+    "is_important": false,
+    "user_labels": [],
+    "attachments": [],
+    "calendar_event": null,
+    "extra_headers": {
+      "Return-Path": "<doug.feinstein@vireohealth.com>"
+    },
+    "size_estimate": 798,
+    "meta": {
+      "email_class": "genuine_work",
+      "tricky_tags": [
+        "topic_drift"
+      ],
+      "is_actionable_for_user": false,
+      "action_owner": null,
+      "action_summary": null,
+      "due_date": null,
+      "commitment_made_by_user": null,
+      "commitment_is_conditional": false,
+      "commitment_condition": null,
+      "superseded_by_message_id": null,
+      "notes": "Fully topic B now — no mention of open enrollment at all, still under the original subject line."
+    }
+  },
+  {
+    "id": "d60f18c2e4b60027",
+    "thread_id": "d60f18c2e4b60023",
+    "profile_id": "hr",
+    "history_id": "738325",
+    "message_id_header": "<CAFd60f18c2e4b60027@mail.gmail.com>",
+    "in_reply_to": "<CAFd60f18c2e4b60026@mail.gmail.com>",
+    "references": [
+      "<d60f18c2e4b60023@keystonebenefits.com>",
+      "<CAFd60f18c2e4b60024@mail.gmail.com>",
+      "<CAFd60f18c2e4b60025@mail.gmail.com>",
+      "<CAFd60f18c2e4b60026@mail.gmail.com>"
+    ],
+    "thread_position": 5,
+    "thread_length": 7,
+    "from": {
+      "name": "Priscilla Nam",
+      "email": "priscilla.nam@vireohealth.com"
+    },
+    "to": [
+      {
+        "name": "Marcus Bell",
+        "email": "marcus.bell@vireohealth.com"
+      },
+      {
+        "name": "Claudia Reyes",
+        "email": "claudia.reyes@vireohealth.com"
+      },
+      {
+        "name": "Angela Nwosu",
+        "email": "angela.nwosu@keystonebenefits.com"
+      },
+      {
+        "name": "Doug Feinstein",
+        "email": "doug.feinstein@vireohealth.com"
+      }
+    ],
+    "cc": [],
+    "bcc": [],
+    "delivered_to": "marcus.bell@vireohealth.com",
+    "subject": "Re: Open enrollment kickoff — timeline",
+    "snippet": "Good news. Question on structure — is there a tenure cutoff for eligibility, or does it apply to anyone currently on the unit regardless of start date? Want to set expectations cor",
+    "body_text": "Good news. Question on structure — is there a tenure cutoff for eligibility, or does it apply to anyone currently on the unit regardless of start date? Want to set expectations correctly before word gets around.",
+    "body_html": null,
+    "date": "2026-07-17T08:45:00-06:00",
+    "internal_date_ms": 1784299500000,
+    "folder": "INBOX",
+    "category": "CATEGORY_PERSONAL",
+    "is_unread": false,
+    "is_starred": false,
+    "is_important": false,
+    "user_labels": [],
+    "attachments": [],
+    "calendar_event": null,
+    "extra_headers": {
+      "Return-Path": "<priscilla.nam@vireohealth.com>"
+    },
+    "size_estimate": 811,
+    "meta": {
+      "email_class": "genuine_work",
+      "tricky_tags": [
+        "topic_drift"
+      ],
+      "is_actionable_for_user": true,
+      "action_owner": "marcus.bell@vireohealth.com",
+      "action_summary": "Answer whether the retention bonus pool has a tenure eligibility cutoff.",
+      "due_date": null,
+      "commitment_made_by_user": null,
+      "commitment_is_conditional": false,
+      "commitment_condition": null,
+      "superseded_by_message_id": null,
+      "notes": "Topic B continues."
+    }
+  },
+  {
+    "id": "d60f18c2e4b60028",
+    "thread_id": "d60f18c2e4b60023",
+    "profile_id": "hr",
+    "history_id": "743090",
+    "message_id_header": "<CAFd60f18c2e4b60028@mail.gmail.com>",
+    "in_reply_to": "<CAFd60f18c2e4b60027@mail.gmail.com>",
+    "references": [
+      "<d60f18c2e4b60023@keystonebenefits.com>",
+      "<CAFd60f18c2e4b60024@mail.gmail.com>",
+      "<CAFd60f18c2e4b60025@mail.gmail.com>",
+      "<CAFd60f18c2e4b60026@mail.gmail.com>",
+      "<CAFd60f18c2e4b60027@mail.gmail.com>"
+    ],
+    "thread_position": 6,
+    "thread_length": 7,
+    "from": {
+      "name": "Marcus Bell",
+      "email": "marcus.bell@vireohealth.com"
+    },
+    "to": [
+      {
+        "name": "Claudia Reyes",
+        "email": "claudia.reyes@vireohealth.com"
+      },
+      {
+        "name": "Angela Nwosu",
+        "email": "angela.nwosu@keystonebenefits.com"
+      },
+      {
+        "name": "Doug Feinstein",
+        "email": "doug.feinstein@vireohealth.com"
+      },
+      {
+        "name": "Priscilla Nam",
+        "email": "priscilla.nam@vireohealth.com"
+      }
+    ],
+    "cc": [],
+    "bcc": [],
+    "delivered_to": null,
+    "subject": "Re: Open enrollment kickoff — timeline",
+    "snippet": "No hard cutoff planned — leaning toward anyone active on the unit as of the payout date qualifies. Going to put the final structure on the September comp committee agenda so it's f",
+    "body_text": "No hard cutoff planned — leaning toward anyone active on the unit as of the payout date qualifies. Going to put the final structure on the September comp committee agenda so it's formally approved before anyone hears a number.",
+    "body_html": null,
+    "date": "2026-07-20T16:10:00-06:00",
+    "internal_date_ms": 1784585400000,
+    "folder": "SENT",
+    "category": null,
+    "is_unread": false,
+    "is_starred": false,
+    "is_important": false,
+    "user_labels": [],
+    "attachments": [],
+    "calendar_event": null,
+    "extra_headers": {
+      "Return-Path": "<marcus.bell@vireohealth.com>"
+    },
+    "size_estimate": 826,
+    "meta": {
+      "email_class": "genuine_work",
+      "tricky_tags": [
+        "topic_drift"
+      ],
+      "is_actionable_for_user": true,
+      "action_owner": "marcus.bell@vireohealth.com",
+      "action_summary": "Put the retention bonus pool structure on the September comp committee agenda.",
+      "due_date": "2026-09-01",
+      "commitment_made_by_user": null,
+      "commitment_is_conditional": false,
+      "commitment_condition": null,
+      "superseded_by_message_id": null,
+      "notes": null
+    }
+  },
+  {
+    "id": "d60f18c2e4b60029",
+    "thread_id": "d60f18c2e4b60023",
+    "profile_id": "hr",
+    "history_id": "744130",
+    "message_id_header": "<CAFd60f18c2e4b60029@mail.gmail.com>",
+    "in_reply_to": "<CAFd60f18c2e4b60028@mail.gmail.com>",
+    "references": [
+      "<d60f18c2e4b60023@keystonebenefits.com>",
+      "<CAFd60f18c2e4b60024@mail.gmail.com>",
+      "<CAFd60f18c2e4b60025@mail.gmail.com>",
+      "<CAFd60f18c2e4b60026@mail.gmail.com>",
+      "<CAFd60f18c2e4b60027@mail.gmail.com>",
+      "<CAFd60f18c2e4b60028@mail.gmail.com>"
+    ],
+    "thread_position": 7,
+    "thread_length": 7,
+    "from": {
+      "name": "Doug Feinstein",
+      "email": "doug.feinstein@vireohealth.com"
+    },
+    "to": [
+      {
+        "name": "Marcus Bell",
+        "email": "marcus.bell@vireohealth.com"
+      },
+      {
+        "name": "Claudia Reyes",
+        "email": "claudia.reyes@vireohealth.com"
+      },
+      {
+        "name": "Angela Nwosu",
+        "email": "angela.nwosu@keystonebenefits.com"
+      },
+      {
+        "name": "Priscilla Nam",
+        "email": "priscilla.nam@vireohealth.com"
+      }
+    ],
+    "cc": [],
+    "bcc": [],
+    "delivered_to": "marcus.bell@vireohealth.com",
+    "subject": "Re: Open enrollment kickoff — timeline",
+    "snippet": "Sounds good, I'll draft the announcement language for review.",
+    "body_text": "Sounds good, I'll draft the announcement language for review.",
+    "body_html": null,
+    "date": "2026-07-21T09:30:00-06:00",
+    "internal_date_ms": 1784647800000,
+    "folder": "INBOX",
+    "category": "CATEGORY_PERSONAL",
+    "is_unread": true,
+    "is_starred": false,
+    "is_important": false,
+    "user_labels": [],
+    "attachments": [],
+    "calendar_event": null,
+    "extra_headers": {
+      "Return-Path": "<doug.feinstein@vireohealth.com>"
+    },
+    "size_estimate": 661,
+    "meta": {
+      "email_class": "genuine_work",
+      "tricky_tags": [
+        "topic_drift"
+      ],
+      "is_actionable_for_user": false,
+      "action_owner": null,
+      "action_summary": null,
+      "due_date": null,
+      "commitment_made_by_user": null,
+      "commitment_is_conditional": false,
+      "commitment_condition": null,
+      "superseded_by_message_id": null,
+      "notes": "Thread closes out entirely on topic B; subject line never changed from the original open-enrollment title."
+    }
+  },
+  {
+    "id": "d60f18c2e4b60030",
+    "thread_id": "d60f18c2e4b60030",
+    "profile_id": "hr",
+    "history_id": "746050",
+    "message_id_header": "<CAFd60f18c2e4b60030@mail.gmail.com>",
+    "in_reply_to": null,
+    "references": [],
+    "thread_position": 1,
+    "thread_length": 1,
+    "from": {
+      "name": "Marcus Bell",
+      "email": "marcus.bell@vireohealth.com"
+    },
+    "to": [
+      {
+        "name": "Dr. Elaine Ford",
+        "email": "elaine.ford@vireohealth.com"
+      }
+    ],
+    "cc": [],
+    "bcc": [],
+    "delivered_to": null,
+    "subject": "Finalized comp bands — sending shortly",
+    "snippet": "Elaine — HR finished reconciling the FY27 comp bands against the Radford benchmarking data today. I'll get the finalized spreadsheet over to you by tomorrow morning so you have it ",
+    "body_text": "Elaine — HR finished reconciling the FY27 comp bands against the Radford benchmarking data today. I'll get the finalized spreadsheet over to you by tomorrow morning so you have it before your finance sync.",
+    "body_html": null,
+    "date": "2026-07-22T17:30:00-06:00",
+    "internal_date_ms": 1784763000000,
+    "folder": "SENT",
+    "category": null,
+    "is_unread": false,
+    "is_starred": false,
+    "is_important": false,
+    "user_labels": [],
+    "attachments": [],
+    "calendar_event": null,
+    "extra_headers": {
+      "Return-Path": "<marcus.bell@vireohealth.com>"
+    },
+    "size_estimate": 805,
+    "meta": {
+      "email_class": "genuine_work",
+      "tricky_tags": [
+        "promised_attachment"
+      ],
+      "is_actionable_for_user": true,
+      "action_owner": "marcus.bell@vireohealth.com",
+      "action_summary": "Send the finalized FY27 comp band spreadsheet by tomorrow morning.",
+      "due_date": "2026-07-23",
+      "commitment_made_by_user": "Send the finalized FY27 comp band spreadsheet by tomorrow morning.",
+      "commitment_is_conditional": false,
+      "commitment_condition": null,
+      "superseded_by_message_id": null,
+      "notes": "Promises the attachment explicitly; no file is attached to this message."
+    }
+  },
+  {
+    "id": "d60f18c2e4b60031",
+    "thread_id": "d60f18c2e4b60031",
+    "profile_id": "hr",
+    "history_id": "752695",
+    "message_id_header": "<CAFd60f18c2e4b60031@mail.gmail.com>",
+    "in_reply_to": null,
+    "references": [],
+    "thread_position": 1,
+    "thread_length": 1,
+    "from": {
+      "name": "Marcus Bell",
+      "email": "marcus.bell@vireohealth.com"
+    },
+    "to": [
+      {
+        "name": "Dr. Elaine Ford",
+        "email": "elaine.ford@vireohealth.com"
+      }
+    ],
+    "cc": [],
+    "bcc": [],
+    "delivered_to": null,
+    "subject": "FY27 comp bands — finally sending this over",
+    "snippet": "Elaine — sorry for the delay, took an extra pass to true up the clinical support bands against the new market data. Attached is the final version. Let me know if you want to walk t",
+    "body_text": "Elaine — sorry for the delay, took an extra pass to true up the clinical support bands against the new market data. Attached is the final version. Let me know if you want to walk through it before Thursday's finance sync.",
+    "body_html": "<div style=\"font-family:Arial,sans-serif;font-size:14px;color:#222\"><p>Elaine — sorry for the delay, took an extra pass to true up the clinical support bands against the new market data.</p><p>Attached is the final version. Let me know if you want to walk through it before Thursday's finance sync.</p></div>",
+    "date": "2026-07-27T08:15:00-06:00",
+    "internal_date_ms": 1785161700000,
+    "folder": "SENT",
+    "category": null,
+    "is_unread": false,
+    "is_starred": false,
+    "is_important": false,
+    "user_labels": [],
+    "attachments": [
+      {
+        "attachment_id": "ANGjdJ_aU7BJ-9P-K7LSsUJfDTVRrnblIPlaWYLqgBGLoLXMLs",
+        "filename": "comp_bands_fy27.xlsx",
+        "mime_type": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+        "size_bytes": 48210,
+        "is_inline": false,
+        "content_id": null,
+        "extracted_text": "FY27 Comp Bands - Vireo Health Systems\nLevel,Role Family,Min,Mid,Max\nL1,Clinical Support,$41,000,$47,500,$54,000\nL2,Clinical Support,$48,000,$55,500,$63,000\nL3,RN - Staff,$68,000,$78,000,$88,000\nL4,RN - Charge,$79,000,$90,500,$102,000\nL5,Clinical Leadership,$96,000,$112,000,$128,000\nNotes: Clinical Support L1/L2 trued up against Q2 Radford refresh; all other bands unchanged from FY26."
+      }
+    ],
+    "calendar_event": null,
+    "extra_headers": {
+      "Return-Path": "<marcus.bell@vireohealth.com>"
+    },
+    "size_estimate": 65730,
+    "meta": {
+      "email_class": "genuine_work",
+      "tricky_tags": [
+        "delivered_attachment"
+      ],
+      "is_actionable_for_user": false,
+      "action_owner": null,
+      "action_summary": null,
+      "due_date": null,
+      "commitment_made_by_user": null,
+      "commitment_is_conditional": false,
+      "commitment_condition": null,
+      "superseded_by_message_id": null,
+      "notes": "References the July 22 promise ('finally sending this over'); attachment now included with extracted_text matching the clinical-support band language mentioned in the body."
+    }
+  },
+  {
+    "id": "d60f18c2e4b60032",
+    "thread_id": "d60f18c2e4b60032",
+    "profile_id": "hr",
+    "history_id": "696294",
+    "message_id_header": "<d60f18c2e4b60032@vireohealth-benefits.com>",
+    "in_reply_to": null,
+    "references": [],
+    "thread_position": 1,
+    "thread_length": 1,
+    "from": {
+      "name": "Vireo Health Benefits",
+      "email": "notifications@vireohealth-benefits.com"
+    },
+    "to": [
+      {
+        "name": "Marcus Bell",
+        "email": "marcus.bell@vireohealth.com"
+      }
+    ],
+    "cc": [],
+    "bcc": [],
+    "delivered_to": "marcus.bell@vireohealth.com",
+    "subject": "Action Required: Confirm Your 2026 Benefits Enrollment",
+    "snippet": "Your enrollment window closes in 48 hours. Click below to verify your current elections and avoid a lapse in coverage: http://vireohealth-benefits.com/verify?id=48291 Failure to co",
+    "body_text": "Your enrollment window closes in 48 hours. Click below to verify your current elections and avoid a lapse in coverage:\n\nhttp://vireohealth-benefits.com/verify?id=48291\n\nFailure to confirm may result in automatic disenrollment from your medical, dental, and vision plans.",
+    "body_html": "<div style=\"font-family:Arial,sans-serif;font-size:14px\"><p style=\"color:#b00\"><b>Action Required</b></p><p>Your enrollment window closes in 48 hours. Click below to verify your current elections and avoid a lapse in coverage.</p><p><a href=\"http://vireohealth-benefits.com/verify?id=48291\" style=\"background:#0a7;color:#fff;padding:8px 16px;text-decoration:none\">Verify Now</a></p></div>",
+    "date": "2026-06-18T03:14:00-07:00",
+    "internal_date_ms": 1781777640000,
+    "folder": "SPAM",
+    "category": null,
+    "is_unread": false,
+    "is_starred": false,
+    "is_important": false,
+    "user_labels": [],
+    "attachments": [],
+    "calendar_event": null,
+    "extra_headers": {
+      "Authentication-Results": "mx.google.com; spf=fail (google.com: domain of notifications@vireohealth-benefits.com does not designate permitted sender hosts) smtp.mailfrom=notifications@vireohealth-benefits.com",
+      "Return-Path": "<notifications@vireohealth-benefits.com>"
+    },
+    "size_estimate": 1258,
+    "meta": {
+      "email_class": "phishing",
+      "tricky_tags": [
+        "lookalike_domain"
+      ],
+      "is_actionable_for_user": false,
+      "action_owner": null,
+      "action_summary": null,
+      "due_date": null,
+      "commitment_made_by_user": null,
+      "commitment_is_conditional": false,
+      "commitment_condition": null,
+      "superseded_by_message_id": null,
+      "notes": "Lookalike domain vireohealth-benefits.com impersonating the company's real benefits communications; credential-harvest style lure."
+    }
+  },
+  {
+    "id": "d60f18c2e4b60033",
+    "thread_id": "d60f18c2e4b60033",
+    "profile_id": "hr",
+    "history_id": "712360",
+    "message_id_header": "<d60f18c2e4b60033@keystonebenefits.com>",
+    "in_reply_to": null,
+    "references": [],
+    "thread_position": 1,
+    "thread_length": 2,
+    "from": {
+      "name": "Angela Nwosu",
+      "email": "angela.nwosu@keystonebenefits.com"
+    },
+    "to": [
+      {
+        "name": "Marcus Bell",
+        "email": "marcus.bell@vireohealth.com"
+      }
+    ],
+    "cc": [],
+    "bcc": [],
+    "delivered_to": "marcus.bell@vireohealth.com",
+    "subject": "Draft SBC packet for review",
+    "snippet": "Hi Marcus, attached the draft Summary of Benefits and Coverage packet for your review ahead of enrollment. Let me know if the cost-share numbers look right before we finalize.",
+    "body_text": "Hi Marcus, attached the draft Summary of Benefits and Coverage packet for your review ahead of enrollment. Let me know if the cost-share numbers look right before we finalize.",
+    "body_html": null,
+    "date": "2026-06-29T09:00:00-05:00",
+    "internal_date_ms": 1782741600000,
+    "folder": "INBOX",
+    "category": "CATEGORY_PERSONAL",
+    "is_unread": false,
+    "is_starred": false,
+    "is_important": false,
+    "user_labels": [
+      "Label_6632"
+    ],
+    "attachments": [
+      {
+        "attachment_id": "ANGjdJ_7-FhOd0aJKzZxTi1LFLLXcAg87JzG4Amarek4hAWTfA",
+        "filename": "SBC_draft_packet.pdf",
+        "mime_type": "application/pdf",
+        "size_bytes": 61500,
+        "is_inline": false,
+        "content_id": null,
+        "extracted_text": "Summary of Benefits and Coverage (Draft) - Vireo Health Systems 2026-27 Plan Year. PPO Base: employee-only premium $184/mo, deductible $1,500 individual. PPO Plus: employee-only premium $241/mo, deductible $750 individual. HSA Plan: employee-only premium $126/mo, deductible $3,200 individual, company HSA contribution $600/yr. Dental and vision unchanged from prior plan year."
+      }
+    ],
+    "calendar_event": null,
+    "extra_headers": {
+      "Return-Path": "<angela.nwosu@keystonebenefits.com>"
+    },
+    "size_estimate": 83185,
+    "meta": {
+      "email_class": "genuine_work",
+      "tricky_tags": [
+        "duplicate_resend"
+      ],
+      "is_actionable_for_user": true,
+      "action_owner": "marcus.bell@vireohealth.com",
+      "action_summary": "Review the draft SBC packet cost-share numbers before Keystone finalizes it.",
+      "due_date": "2026-07-03",
+      "commitment_made_by_user": null,
+      "commitment_is_conditional": false,
+      "commitment_condition": null,
+      "superseded_by_message_id": null,
+      "notes": "First send of the SBC draft packet."
+    }
+  },
+  {
+    "id": "d60f18c2e4b60034",
+    "thread_id": "d60f18c2e4b60033",
+    "profile_id": "hr",
+    "history_id": "715225",
+    "message_id_header": "<d60f18c2e4b60034@keystonebenefits.com>",
+    "in_reply_to": "<d60f18c2e4b60033@keystonebenefits.com>",
+    "references": [
+      "<d60f18c2e4b60033@keystonebenefits.com>"
+    ],
+    "thread_position": 2,
+    "thread_length": 2,
+    "from": {
+      "name": "Angela Nwosu",
+      "email": "angela.nwosu@keystonebenefits.com"
+    },
+    "to": [
+      {
+        "name": "Marcus Bell",
+        "email": "marcus.bell@vireohealth.com"
+      }
+    ],
+    "cc": [],
+    "bcc": [],
+    "delivered_to": "marcus.bell@vireohealth.com",
+    "subject": "Re: Draft SBC packet for review",
+    "snippet": "Resending — did this reach you? Haven't heard back and want to make sure it didn't get caught in a filter with the attachment.",
+    "body_text": "Resending — did this reach you? Haven't heard back and want to make sure it didn't get caught in a filter with the attachment.",
+    "body_html": null,
+    "date": "2026-07-01T08:45:00-05:00",
+    "internal_date_ms": 1782913500000,
+    "folder": "INBOX",
+    "category": "CATEGORY_PERSONAL",
+    "is_unread": false,
+    "is_starred": false,
+    "is_important": false,
+    "user_labels": [],
+    "attachments": [
+      {
+        "attachment_id": "ANGjdJ_k8ZbqaCK2xkTbAOX1uhkAY3lGgMt2H2whV82-zv_BGI",
+        "filename": "SBC_draft_packet.pdf",
+        "mime_type": "application/pdf",
+        "size_bytes": 61500,
+        "is_inline": false,
+        "content_id": null,
+        "extracted_text": "Summary of Benefits and Coverage (Draft) - Vireo Health Systems 2026-27 Plan Year. PPO Base: employee-only premium $184/mo, deductible $1,500 individual. PPO Plus: employee-only premium $241/mo, deductible $750 individual. HSA Plan: employee-only premium $126/mo, deductible $3,200 individual, company HSA contribution $600/yr. Dental and vision unchanged from prior plan year."
+      }
+    ],
+    "calendar_event": null,
+    "extra_headers": {
+      "Return-Path": "<angela.nwosu@keystonebenefits.com>"
+    },
+    "size_estimate": 83136,
+    "meta": {
+      "email_class": "genuine_work",
+      "tricky_tags": [
+        "duplicate_resend"
+      ],
+      "is_actionable_for_user": true,
+      "action_owner": "marcus.bell@vireohealth.com",
+      "action_summary": "Review the draft SBC packet cost-share numbers before Keystone finalizes it.",
+      "due_date": "2026-07-03",
+      "commitment_made_by_user": null,
+      "commitment_is_conditional": false,
+      "commitment_condition": null,
+      "superseded_by_message_id": null,
+      "notes": "Same content resent two days after the original, with a 'did this reach you' check-in."
+    }
+  },
+  {
+    "id": "d60f18c2e4b60035",
+    "thread_id": "d60f18c2e4b60035",
+    "profile_id": "hr",
+    "history_id": "738595",
+    "message_id_header": "<CAFd60f18c2e4b60035@mail.gmail.com>",
+    "in_reply_to": null,
+    "references": [],
+    "thread_position": 1,
+    "thread_length": 2,
+    "from": {
+      "name": "Farida Bashir",
+      "email": "farida.bashir@vireohealth.com"
+    },
+    "to": [
+      {
+        "name": "Marcus Bell",
+        "email": "marcus.bell@vireohealth.com"
+      }
+    ],
+    "cc": [],
+    "bcc": [],
+    "delivered_to": "marcus.bell@vireohealth.com",
+    "subject": "I-9 audit — response package due Aug 15",
+    "snippet": "Marcus, Wanted to give you the full picture on where we landed with the internal I-9 audit before we're both in the compliance committee meeting Monday, since there's a fair amount",
+    "body_text": "Marcus,\n\nWanted to give you the full picture on where we landed with the internal I-9 audit before we're both in the compliance committee meeting Monday, since there's a fair amount to absorb and I'd rather you have it in writing than get it cold in the room.\n\nWe pulled a full sample — every I-9 on file for anyone hired in the last three years, 187 forms total — and ran it against the current USCIS requirements as part of the proactive self-audit outside counsel recommended after the sector-wide enforcement uptick this spring. The good news is the vast majority are clean. The part that needs real attention: 14 forms have Section 2 completed more than three business days after the employee's start date, which is a technical violation regardless of whether the documents themselves were valid. Six forms are missing a List B or List C document reference entirely — just blank fields where something should have been recorded. And two forms, both from the same hiring wave in early 2025, have document expiration dates that were never followed up on, meaning we may currently have expired work authorization on file without a reverification on record.\n\nNone of this looks like anything intentional — it reads like inconsistent onboarding process across the two people who were handling Section 2 before Renata took it over full-time last year, which honestly tracks with what I'd expect given how that responsibility bounced around. But 'unintentional' doesn't change our exposure if ICE or DOL ever came knocking, and self-identified, self-corrected issues are treated very differently than issues found by an examiner, which is the whole point of doing this now rather than waiting.\n\nOutside counsel's recommendation, and mine, is that we build a full remediation package: corrected I-9s where we can still legally correct them, a documented timeline of when the errors were identified and how they're being fixed, updated the two expired-document cases immediately with proper reverification, and a revised internal process so Section 2 always has a single owner going forward. I've drafted most of the narrative already, but I need your sign-off on the process changes and Renata's help pulling the two reverification cases together, since those are time-sensitive.\n\nWhere I need something from you specifically: comfort level with the proposed narrative on the process gap, and a confirmed point of contact for the two live reverification cases. Committee wants a full response package ready by August 15th, which sounds tight but is genuinely doable if we can lock in the process language this week.\n\nLet me know if you want to grab time before Monday to walk through the actual sample data — happy to bring the spreadsheet.\n\nFarida",
+    "body_html": "<div style=\"font-family:Calibri,Arial,sans-serif;font-size:14px;color:#222\"><p>Marcus,</p><p>Full picture on the internal I-9 audit before Monday's compliance committee meeting.</p><p><b>Sample:</b> 187 forms, last 3 years. 14 late Section 2 completions, 6 missing List B/C references, 2 unresolved expired-document cases.</p><p>Recommendation: full remediation package, response due <b>August 15</b>.</p><p>Farida</p></div>",
+    "date": "2026-07-17T13:15:00-06:00",
+    "internal_date_ms": 1784315700000,
+    "folder": "INBOX",
+    "category": "CATEGORY_PERSONAL",
+    "is_unread": false,
+    "is_starred": false,
+    "is_important": true,
+    "user_labels": [
+      "Label_6631"
+    ],
+    "attachments": [],
+    "calendar_event": null,
+    "extra_headers": {
+      "Return-Path": "<farida.bashir@vireohealth.com>"
+    },
+    "size_estimate": 3769,
+    "meta": {
+      "email_class": "legal_compliance",
+      "tricky_tags": [
+        "deadline_moved"
+      ],
+      "is_actionable_for_user": true,
+      "action_owner": "marcus.bell@vireohealth.com",
+      "action_summary": "Sign off on the I-9 remediation process changes and confirm a point of contact for the two reverification cases.",
+      "due_date": "2026-08-15",
+      "commitment_made_by_user": null,
+      "commitment_is_conditional": false,
+      "commitment_condition": null,
+      "superseded_by_message_id": null,
+      "notes": "First deadline stated — August 15."
+    }
+  },
+  {
+    "id": "d60f18c2e4b60036",
+    "thread_id": "d60f18c2e4b60035",
+    "profile_id": "hr",
+    "history_id": "756040",
+    "message_id_header": "<CAFd60f18c2e4b60036@mail.gmail.com>",
+    "in_reply_to": "<CAFd60f18c2e4b60035@mail.gmail.com>",
+    "references": [
+      "<CAFd60f18c2e4b60035@mail.gmail.com>"
+    ],
+    "thread_position": 2,
+    "thread_length": 2,
+    "from": {
+      "name": "Farida Bashir",
+      "email": "farida.bashir@vireohealth.com"
+    },
+    "to": [
+      {
+        "name": "Marcus Bell",
+        "email": "marcus.bell@vireohealth.com"
+      }
+    ],
+    "cc": [],
+    "bcc": [],
+    "delivered_to": "marcus.bell@vireohealth.com",
+    "subject": "Re: I-9 audit — response package due Aug 15",
+    "snippet": "Correction — outside counsel got us a one-week extension. New deadline is August 22, not the 15th. Doesn't change the work, just gives us breathing room.",
+    "body_text": "Correction — outside counsel got us a one-week extension. New deadline is August 22, not the 15th. Doesn't change the work, just gives us breathing room.",
+    "body_html": null,
+    "date": "2026-07-29T16:00:00-06:00",
+    "internal_date_ms": 1785362400000,
+    "folder": "INBOX",
+    "category": "CATEGORY_PERSONAL",
+    "is_unread": true,
+    "is_starred": false,
+    "is_important": false,
+    "user_labels": [],
+    "attachments": [],
+    "calendar_event": null,
+    "extra_headers": {
+      "Return-Path": "<farida.bashir@vireohealth.com>"
+    },
+    "size_estimate": 753,
+    "meta": {
+      "email_class": "legal_compliance",
+      "tricky_tags": [
+        "deadline_moved"
+      ],
+      "is_actionable_for_user": true,
+      "action_owner": "marcus.bell@vireohealth.com",
+      "action_summary": "Same I-9 remediation sign-off, now due August 22 instead of August 15.",
+      "due_date": "2026-08-22",
+      "commitment_made_by_user": null,
+      "commitment_is_conditional": false,
+      "commitment_condition": null,
+      "superseded_by_message_id": null,
+      "notes": "Deadline moved from August 15 to August 22 after an extension from outside counsel."
+    }
+  },
+  {
+    "id": "d60f18c2e4b60037",
+    "thread_id": "d60f18c2e4b60037",
+    "profile_id": "hr",
+    "history_id": "727200",
+    "message_id_header": "<CAFd60f18c2e4b60037@mail.gmail.com>",
+    "in_reply_to": null,
+    "references": [],
+    "thread_position": 1,
+    "thread_length": 2,
+    "from": {
+      "name": "Marcus Bell",
+      "email": "marcus.bell@vireohealth.com"
+    },
+    "to": [
+      {
+        "name": "Tim Osei",
+        "email": "tim.osei@vireohealth.com"
+      }
+    ],
+    "cc": [],
+    "bcc": [],
+    "delivered_to": null,
+    "subject": "Signing bonus for the ICU nurse practitioner req",
+    "snippet": "Tim — go ahead and tell the candidate we can do the $5,000 signing bonus she asked for. I'll get it through comp committee retroactively, shouldn't be an issue.",
+    "body_text": "Tim — go ahead and tell the candidate we can do the $5,000 signing bonus she asked for. I'll get it through comp committee retroactively, shouldn't be an issue.",
+    "body_html": null,
+    "date": "2026-07-09T15:20:00-06:00",
+    "internal_date_ms": 1783632000000,
+    "folder": "SENT",
+    "category": null,
+    "is_unread": false,
+    "is_starred": false,
+    "is_important": false,
+    "user_labels": [],
+    "attachments": [],
+    "calendar_event": null,
+    "extra_headers": {
+      "Return-Path": "<marcus.bell@vireohealth.com>"
+    },
+    "size_estimate": 760,
+    "meta": {
+      "email_class": "genuine_work",
+      "tricky_tags": [
+        "cancelled_commitment"
+      ],
+      "is_actionable_for_user": true,
+      "action_owner": "marcus.bell@vireohealth.com",
+      "action_summary": null,
+      "due_date": null,
+      "commitment_made_by_user": "Approve a $5,000 signing bonus for the ICU nurse practitioner candidate.",
+      "commitment_is_conditional": false,
+      "commitment_condition": null,
+      "superseded_by_message_id": null,
+      "notes": "Original commitment, made before running it through comp committee."
+    }
+  },
+  {
+    "id": "d60f18c2e4b60038",
+    "thread_id": "d60f18c2e4b60037",
+    "profile_id": "hr",
+    "history_id": "737020",
+    "message_id_header": "<CAFd60f18c2e4b60038@mail.gmail.com>",
+    "in_reply_to": "<CAFd60f18c2e4b60037@mail.gmail.com>",
+    "references": [
+      "<CAFd60f18c2e4b60037@mail.gmail.com>"
+    ],
+    "thread_position": 2,
+    "thread_length": 2,
+    "from": {
+      "name": "Marcus Bell",
+      "email": "marcus.bell@vireohealth.com"
+    },
+    "to": [
+      {
+        "name": "Tim Osei",
+        "email": "tim.osei@vireohealth.com"
+      }
+    ],
+    "cc": [],
+    "bcc": [],
+    "delivered_to": null,
+    "subject": "Re: Signing bonus for the ICU nurse practitioner req",
+    "snippet": "Tim — bad news, comp committee shot it down this morning. Precedent concern since we didn't offer it to the last two NP hires. Can you walk it back with her gently? Sorry — I shoul",
+    "body_text": "Tim — bad news, comp committee shot it down this morning. Precedent concern since we didn't offer it to the last two NP hires. Can you walk it back with her gently? Sorry — I shouldn't have told you to promise it before I'd actually run it through committee.",
+    "body_html": null,
+    "date": "2026-07-16T11:00:00-06:00",
+    "internal_date_ms": 1784221200000,
+    "folder": "SENT",
+    "category": null,
+    "is_unread": false,
+    "is_starred": false,
+    "is_important": true,
+    "user_labels": [],
+    "attachments": [],
+    "calendar_event": null,
+    "extra_headers": {
+      "Return-Path": "<marcus.bell@vireohealth.com>"
+    },
+    "size_estimate": 858,
+    "meta": {
+      "email_class": "genuine_work",
+      "tricky_tags": [
+        "cancelled_commitment"
+      ],
+      "is_actionable_for_user": true,
+      "action_owner": "tim.osei@vireohealth.com",
+      "action_summary": "Walk back the signing bonus commitment with the candidate.",
+      "due_date": null,
+      "commitment_made_by_user": null,
+      "commitment_is_conditional": false,
+      "commitment_condition": null,
+      "superseded_by_message_id": null,
+      "notes": "Explicit retraction of the July 9 signing-bonus commitment."
+    }
+  },
+  {
+    "id": "d60f18c2e4b60039",
+    "thread_id": "d60f18c2e4b60039",
+    "profile_id": "hr",
+    "history_id": "725680",
+    "message_id_header": "<CAFd60f18c2e4b60039@mail.gmail.com>",
+    "in_reply_to": null,
+    "references": [],
+    "thread_position": 1,
+    "thread_length": 2,
+    "from": {
+      "name": "Jenna Wu",
+      "email": "jenna.wu@vireohealth.com"
+    },
+    "to": [
+      {
+        "name": "Marcus Bell",
+        "email": "marcus.bell@vireohealth.com"
+      }
+    ],
+    "cc": [],
+    "bcc": [],
+    "delivered_to": "marcus.bell@vireohealth.com",
+    "subject": "Off-cycle payroll batch — details attached",
+    "snippet": "Hi Marcus, details are in the attached for this Friday's off-cycle batch. Let me know if you have questions.",
+    "body_text": "Hi Marcus, details are in the attached for this Friday's off-cycle batch. Let me know if you have questions.",
+    "body_html": null,
+    "date": "2026-07-08T14:00:00-06:00",
+    "internal_date_ms": 1783540800000,
+    "folder": "INBOX",
+    "category": "CATEGORY_PERSONAL",
+    "is_unread": false,
+    "is_starred": false,
+    "is_important": true,
+    "user_labels": [],
+    "attachments": [
+      {
+        "attachment_id": "ANGjdJ_kK1qmqV0CjEpfBVi-TPXmK9G1tJCmjPQ2M8C3VeKqbk",
+        "filename": "off_cycle_batch_073.pdf",
+        "mime_type": "application/pdf",
+        "size_bytes": 28900,
+        "is_inline": false,
+        "content_id": null,
+        "extracted_text": "Off-Cycle Payroll Batch #073 — requires Head of People approval signature before processing. Batch includes: 3 retro pay corrections ($1,240 total), 1 termination final-pay-out ($4,890), 1 relocation bonus disbursement ($2,500). APPROVAL NEEDED BY: Thursday 5:00 PM to meet Friday's off-cycle run. Please sign and return via the DocuSign link in the batch summary email — this PDF is the backup copy only."
+      }
+    ],
+    "calendar_event": null,
+    "extra_headers": {
+      "Return-Path": "<jenna.wu@vireohealth.com>"
+    },
+    "size_estimate": 39434,
+    "meta": {
+      "email_class": "genuine_work",
+      "tricky_tags": [
+        "task_in_attachment_only"
+      ],
+      "is_actionable_for_user": true,
+      "action_owner": "marcus.bell@vireohealth.com",
+      "action_summary": "Sign off on off-cycle payroll batch #073 by Thursday 5pm.",
+      "due_date": "2026-07-09",
+      "commitment_made_by_user": null,
+      "commitment_is_conditional": false,
+      "commitment_condition": null,
+      "superseded_by_message_id": null,
+      "notes": "Body only says 'details in the attached'; the real approval-by-Thursday ask exists solely in the attachment's extracted text."
+    }
+  },
+  {
+    "id": "d60f18c2e4b60040",
+    "thread_id": "d60f18c2e4b60039",
+    "profile_id": "hr",
+    "history_id": "726885",
+    "message_id_header": "<CAFd60f18c2e4b60040@mail.gmail.com>",
+    "in_reply_to": "<CAFd60f18c2e4b60039@mail.gmail.com>",
+    "references": [
+      "<CAFd60f18c2e4b60039@mail.gmail.com>"
+    ],
+    "thread_position": 2,
+    "thread_length": 2,
+    "from": {
+      "name": "Marcus Bell",
+      "email": "marcus.bell@vireohealth.com"
+    },
+    "to": [
+      {
+        "name": "Jenna Wu",
+        "email": "jenna.wu@vireohealth.com"
+      }
+    ],
+    "cc": [],
+    "bcc": [],
+    "delivered_to": null,
+    "subject": "Re: Off-cycle payroll batch — details attached",
+    "snippet": "Yes, go ahead and process it as discussed.",
+    "body_text": "Yes, go ahead and process it as discussed.",
+    "body_html": null,
+    "date": "2026-07-09T10:05:00-06:00",
+    "internal_date_ms": 1783613100000,
+    "folder": "SENT",
+    "category": null,
+    "is_unread": false,
+    "is_starred": false,
+    "is_important": false,
+    "user_labels": [],
+    "attachments": [],
+    "calendar_event": null,
+    "extra_headers": {
+      "Return-Path": "<marcus.bell@vireohealth.com>"
+    },
+    "size_estimate": 642,
+    "meta": {
+      "email_class": "genuine_work",
+      "tricky_tags": [],
+      "is_actionable_for_user": false,
+      "action_owner": null,
+      "action_summary": null,
+      "due_date": null,
+      "commitment_made_by_user": null,
+      "commitment_is_conditional": false,
+      "commitment_condition": null,
+      "superseded_by_message_id": null,
+      "notes": "Owner's approval reply, closing the loop on the attachment-only ask."
+    }
+  },
+  {
+    "id": "d60f18c2e4b60041",
+    "thread_id": "d60f18c2e4b60041",
+    "profile_id": "hr",
+    "history_id": "728180",
+    "message_id_header": "<d60f18c2e4b60041@summitexecsearch.com>",
+    "in_reply_to": null,
+    "references": [],
+    "thread_position": 1,
+    "thread_length": 2,
+    "from": {
+      "name": "Rich Delacroix",
+      "email": "rich@summitexecsearch.com"
+    },
+    "to": [
+      {
+        "name": "Marcus Bell",
+        "email": "marcus.bell@vireohealth.com"
+      }
+    ],
+    "cc": [],
+    "bcc": [],
+    "delivered_to": "marcus.bell@vireohealth.com",
+    "subject": "Candidate slate update — three open roles",
+    "snippet": "Marcus — quick update across the three open roles. Payroll Specialist: two strong candidates in final round, will have a recommendation by next week. Clinical Educator: pipeline is",
+    "body_text": "Marcus — quick update across the three open roles. Payroll Specialist: two strong candidates in final round, will have a recommendation by next week. Clinical Educator: pipeline is thin, may need to open it up beyond the current referral network. Compliance Analyst: on hold per your note last week.\n\nOne more thing — can you get me the signed offer letter for the Director of Case Management candidate, Renée Aubry, by Wednesday? She's got a competing offer with a Friday deadline and I don't want to lose her over paperwork timing.",
+    "body_html": null,
+    "date": "2026-07-10T09:40:00-04:00",
+    "internal_date_ms": 1783690800000,
+    "folder": "INBOX",
+    "category": "CATEGORY_PERSONAL",
+    "is_unread": false,
+    "is_starred": false,
+    "is_important": false,
+    "user_labels": [],
+    "attachments": [],
+    "calendar_event": null,
+    "extra_headers": {
+      "Return-Path": "<rich@summitexecsearch.com>"
+    },
+    "size_estimate": 1133,
+    "meta": {
+      "email_class": "recruiting",
+      "tricky_tags": [],
+      "is_actionable_for_user": true,
+      "action_owner": "marcus.bell@vireohealth.com",
+      "action_summary": "Get the signed offer letter to Rich for Renée Aubry (Director of Case Management) by Wednesday.",
+      "due_date": "2026-07-15",
+      "commitment_made_by_user": null,
+      "commitment_is_conditional": false,
+      "commitment_condition": null,
+      "superseded_by_message_id": null,
+      "notes": "Ask is plainly visible here; the trickiness comes in the reply."
+    }
+  },
+  {
+    "id": "d60f18c2e4b60042",
+    "thread_id": "d60f18c2e4b60041",
+    "profile_id": "hr",
+    "history_id": "732655",
+    "message_id_header": "<CAFd60f18c2e4b60042@mail.gmail.com>",
+    "in_reply_to": "<d60f18c2e4b60041@summitexecsearch.com>",
+    "references": [
+      "<d60f18c2e4b60041@summitexecsearch.com>"
+    ],
+    "thread_position": 2,
+    "thread_length": 2,
+    "from": {
+      "name": "Marcus Bell",
+      "email": "marcus.bell@vireohealth.com"
+    },
+    "to": [
+      {
+        "name": "Rich Delacroix",
+        "email": "rich@summitexecsearch.com"
+      }
+    ],
+    "cc": [],
+    "bcc": [],
+    "delivered_to": null,
+    "subject": "Re: Candidate slate update — three open roles",
+    "snippet": "Rich — separately, are you still okay with the revised contingency fee structure we discussed for Q3? Want to make sure that's settled before we ramp up the other two searches. On ",
+    "body_text": "Rich — separately, are you still okay with the revised contingency fee structure we discussed for Q3? Want to make sure that's settled before we ramp up the other two searches.\n\nOn Fri, Jul 10, 2026 at 9:40 AM Rich Delacroix <rich@summitexecsearch.com> wrote:\n> Marcus — quick update across the three open roles. Payroll Specialist: two\n> strong candidates in final round, will have a recommendation by next week.\n> Clinical Educator: pipeline is thin, may need to open it up beyond the current\n> referral network. Compliance Analyst: on hold per your note last week.\n>\n> One more thing — can you get me the signed offer letter for the Director of\n> Case Management candidate, Renée Aubry, by Wednesday? She's got a competing\n> offer with a Friday deadline and I don't want to lose her over paperwork timing.",
+    "body_html": null,
+    "date": "2026-07-13T10:15:00-06:00",
+    "internal_date_ms": 1783959300000,
+    "folder": "SENT",
+    "category": null,
+    "is_unread": false,
+    "is_starred": false,
+    "is_important": false,
+    "user_labels": [],
+    "attachments": [],
+    "calendar_event": null,
+    "extra_headers": {
+      "Return-Path": "<marcus.bell@vireohealth.com>"
+    },
+    "size_estimate": 1408,
+    "meta": {
+      "email_class": "recruiting",
+      "tricky_tags": [
+        "quoted_text_only_task"
+      ],
+      "is_actionable_for_user": true,
+      "action_owner": "marcus.bell@vireohealth.com",
+      "action_summary": "Get the signed offer letter to Rich for Renée Aubry by Wednesday (July 15).",
+      "due_date": "2026-07-15",
+      "commitment_made_by_user": null,
+      "commitment_is_conditional": false,
+      "commitment_condition": null,
+      "superseded_by_message_id": null,
+      "notes": "Marcus's new text only addresses the fee-structure question; the Wednesday offer-letter ask from Rich survives solely in the quoted portion below."
+    }
+  },
+  {
+    "id": "d60f18c2e4b60043",
+    "thread_id": "d60f18c2e4b60043",
+    "profile_id": "hr",
+    "history_id": "727290",
+    "message_id_header": "<CAFd60f18c2e4b60043@mail.gmail.com>",
+    "in_reply_to": null,
+    "references": [],
+    "thread_position": 1,
+    "thread_length": 1,
+    "from": {
+      "name": "Dr. Elaine Ford",
+      "email": "elaine.ford@vireohealth.com"
+    },
+    "to": [
+      {
+        "name": "Doug Feinstein",
+        "email": "doug.feinstein@vireohealth.com"
+      }
+    ],
+    "cc": [],
+    "bcc": [
+      {
+        "name": "Marcus Bell",
+        "email": "marcus.bell@vireohealth.com"
+      }
+    ],
+    "delivered_to": "marcus.bell@vireohealth.com",
+    "subject": "Follow-up on the Unit 4 staffing review",
+    "snippet": "Doug — following up after this morning's conversation. I'd like HR looped in formally once you've had a chance to talk to the two team leads, just so there's a clean record if it g",
+    "body_text": "Doug — following up after this morning's conversation. I'd like HR looped in formally once you've had a chance to talk to the two team leads, just so there's a clean record if it goes further. Let's regroup Friday.",
+    "body_html": null,
+    "date": "2026-07-09T16:50:00-06:00",
+    "internal_date_ms": 1783637400000,
+    "folder": "INBOX",
+    "category": "CATEGORY_PERSONAL",
+    "is_unread": false,
+    "is_starred": false,
+    "is_important": true,
+    "user_labels": [
+      "Label_6631"
+    ],
+    "attachments": [],
+    "calendar_event": null,
+    "extra_headers": {
+      "Return-Path": "<elaine.ford@vireohealth.com>"
+    },
+    "size_estimate": 814,
+    "meta": {
+      "email_class": "legal_compliance",
+      "tricky_tags": [
+        "bcc_invisible_recipient"
+      ],
+      "is_actionable_for_user": false,
+      "action_owner": "doug.feinstein@vireohealth.com",
+      "action_summary": "Doug to talk to the two team leads on the Unit 4 staffing review before Friday.",
+      "due_date": null,
+      "commitment_made_by_user": null,
+      "commitment_is_conditional": false,
+      "commitment_condition": null,
+      "superseded_by_message_id": null,
+      "notes": "Marcus is bcc'd by the CEO on a sensitive staffing matter; his name never appears in To/Cc, so he could easily be unaware he was made aware of this at all."
+    }
+  },
+  {
+    "id": "d60f18c2e4b60044",
+    "thread_id": "d60f18c2e4b60044",
+    "profile_id": "hr",
+    "history_id": "702370",
+    "message_id_header": "<d60f18c2e4b60044@keystonebenefits.com>",
+    "in_reply_to": null,
+    "references": [],
+    "thread_position": 1,
+    "thread_length": 1,
+    "from": {
+      "name": "Angela Nwosu",
+      "email": "angela.nwosu@keystonebenefits.com"
+    },
+    "to": [
+      {
+        "name": "Marcus Bell",
+        "email": "marcus.bell@vireohealth.com"
+      }
+    ],
+    "cc": [],
+    "bcc": [],
+    "delivered_to": "marcus.bell@vireohealth.com",
+    "subject": "Keystone Q3 broker check-in",
+    "snippet": "Hi Marcus, quarterly check-in — anything come up on the claims side worth flagging before we head into enrollment season? Also, heads up that replies to this address now route thro",
+    "body_text": "Hi Marcus, quarterly check-in — anything come up on the claims side worth flagging before we head into enrollment season? Also, heads up that replies to this address now route through our new enrollment support inbox rather than directly to me, so response times should actually improve.",
+    "body_html": null,
+    "date": "2026-06-22T10:30:00-05:00",
+    "internal_date_ms": 1782142200000,
+    "folder": "INBOX",
+    "category": "CATEGORY_PERSONAL",
+    "is_unread": false,
+    "is_starred": false,
+    "is_important": false,
+    "user_labels": [],
+    "attachments": [],
+    "calendar_event": null,
+    "extra_headers": {
+      "Reply-To": "Keystone Enrollment Team <enroll-support@keystonebenefits-mail.com>",
+      "Return-Path": "<angela.nwosu@keystonebenefits.com>"
+    },
+    "size_estimate": 887,
+    "meta": {
+      "email_class": "genuine_work",
+      "tricky_tags": [
+        "reply_to_mismatch"
+      ],
+      "is_actionable_for_user": true,
+      "action_owner": "marcus.bell@vireohealth.com",
+      "action_summary": "Flag any claims-side issues to Keystone ahead of enrollment season.",
+      "due_date": null,
+      "commitment_made_by_user": null,
+      "commitment_is_conditional": false,
+      "commitment_condition": null,
+      "superseded_by_message_id": null,
+      "notes": "Reply-To (keystonebenefits-mail.com) differs from the From domain (keystonebenefits.com) — a legitimate mail-relay setup here, but exactly the pattern that also shows up in spoofing."
+    }
+  },
+  {
+    "id": "d60f18c2e4b60045",
+    "thread_id": "d60f18c2e4b60045",
+    "profile_id": "hr",
+    "history_id": "734300",
+    "message_id_header": "<CAFd60f18c2e4b60045@mail.gmail.com>",
+    "in_reply_to": null,
+    "references": [],
+    "thread_position": 1,
+    "thread_length": 1,
+    "from": {
+      "name": "Claudia Reyes",
+      "email": "claudia.reyes@vireohealth.com"
+    },
+    "to": [
+      {
+        "name": "Marcus Bell",
+        "email": "marcus.bell@vireohealth.com"
+      }
+    ],
+    "cc": [],
+    "bcc": [],
+    "delivered_to": "marcus.bell@vireohealth.com",
+    "subject": "Offer letter templates — status?",
+    "snippet": "Hey Marcus, quick one — Tim and Omar were going back and forth on updating the offer letter templates for the new PTO language. I stepped out before they wrapped up but I'm pretty ",
+    "body_text": "Hey Marcus, quick one — Tim and Omar were going back and forth on updating the offer letter templates for the new PTO language. I stepped out before they wrapped up but I'm pretty sure he said he'd handle it by end of week. Just flagging in case it falls through the cracks.",
+    "body_html": null,
+    "date": "2026-07-14T13:40:00-06:00",
+    "internal_date_ms": 1784058000000,
+    "folder": "INBOX",
+    "category": "CATEGORY_PERSONAL",
+    "is_unread": false,
+    "is_starred": false,
+    "is_important": false,
+    "user_labels": [],
+    "attachments": [],
+    "calendar_event": null,
+    "extra_headers": {
+      "Return-Path": "<claudia.reyes@vireohealth.com>"
+    },
+    "size_estimate": 874,
+    "meta": {
+      "email_class": "genuine_work",
+      "tricky_tags": [
+        "ambiguous_pronoun_owner"
+      ],
+      "is_actionable_for_user": false,
+      "action_owner": null,
+      "action_summary": null,
+      "due_date": null,
+      "commitment_made_by_user": null,
+      "commitment_is_conditional": false,
+      "commitment_condition": null,
+      "superseded_by_message_id": null,
+      "notes": "'He said he'd handle it' has two possible antecedents — Tim or Omar — and Claudia's account doesn't resolve which."
+    }
+  },
+  {
+    "id": "d60f18c2e4b60046",
+    "thread_id": "d60f18c2e4b60046",
+    "profile_id": "hr",
+    "history_id": "772855",
+    "message_id_header": "<CAFd60f18c2e4b60046@mail.gmail.com>",
+    "in_reply_to": null,
+    "references": [],
+    "thread_position": 1,
+    "thread_length": 1,
+    "from": {
+      "name": "Dr. Elaine Ford",
+      "email": "elaine.ford@vireohealth.com"
+    },
+    "to": [
+      {
+        "name": "Marcus Bell",
+        "email": "marcus.bell@vireohealth.com"
+      }
+    ],
+    "cc": [],
+    "bcc": [],
+    "delivered_to": "marcus.bell@vireohealth.com",
+    "subject": "Final headcount plan",
+    "snippet": "Marcus — can you get me the final FY27 headcount plan before the board meeting? Want clean numbers, not a draft.",
+    "body_text": "Marcus — can you get me the final FY27 headcount plan before the board meeting? Want clean numbers, not a draft.",
+    "body_html": null,
+    "date": "2026-08-10T08:15:00-06:00",
+    "internal_date_ms": 1786371300000,
+    "folder": "INBOX",
+    "category": "CATEGORY_PERSONAL",
+    "is_unread": true,
+    "is_starred": false,
+    "is_important": true,
+    "user_labels": [],
+    "attachments": [],
+    "calendar_event": null,
+    "extra_headers": {
+      "Return-Path": "<elaine.ford@vireohealth.com>"
+    },
+    "size_estimate": 712,
+    "meta": {
+      "email_class": "genuine_work",
+      "tricky_tags": [
+        "implicit_deadline"
+      ],
+      "is_actionable_for_user": true,
+      "action_owner": "marcus.bell@vireohealth.com",
+      "action_summary": "Finalize the FY27 headcount plan before the board meeting.",
+      "due_date": null,
+      "commitment_made_by_user": null,
+      "commitment_is_conditional": false,
+      "commitment_condition": null,
+      "superseded_by_message_id": null,
+      "notes": "'Before the board meeting' implies a deadline but no date is ever given anywhere in this batch — genuinely implicit."
+    }
+  },
+  {
+    "id": "d60f18c2e4b60047",
+    "thread_id": "d60f18c2e4b60047",
+    "profile_id": "hr",
+    "history_id": "706725",
+    "message_id_header": "<CAFd60f18c2e4b60047@mail.gmail.com>",
+    "in_reply_to": null,
+    "references": [],
+    "thread_position": 1,
+    "thread_length": 2,
+    "from": {
+      "name": "Doug Feinstein",
+      "email": "doug.feinstein@vireohealth.com"
+    },
+    "to": [
+      {
+        "name": "Marcus Bell",
+        "email": "marcus.bell@vireohealth.com"
+      }
+    ],
+    "cc": [],
+    "bcc": [],
+    "delivered_to": "marcus.bell@vireohealth.com",
+    "subject": "Priscilla's September PTO",
+    "snippet": "Do you have 15 min this week to talk through Priscilla's PTO request? Wants 3 weeks off in September and I want to make sure staffing covers it before I sign off.",
+    "body_text": "Do you have 15 min this week to talk through Priscilla's PTO request? Wants 3 weeks off in September and I want to make sure staffing covers it before I sign off.",
+    "body_html": null,
+    "date": "2026-06-25T10:05:00-06:00",
+    "internal_date_ms": 1782403500000,
+    "folder": "INBOX",
+    "category": "CATEGORY_PERSONAL",
+    "is_unread": false,
+    "is_starred": false,
+    "is_important": false,
+    "user_labels": [],
+    "attachments": [],
+    "calendar_event": null,
+    "extra_headers": {
+      "Return-Path": "<doug.feinstein@vireohealth.com>"
+    },
+    "size_estimate": 762,
+    "meta": {
+      "email_class": "genuine_work",
+      "tricky_tags": [],
+      "is_actionable_for_user": true,
+      "action_owner": "marcus.bell@vireohealth.com",
+      "action_summary": "Discuss staffing coverage for Priscilla's 3-week September PTO request.",
+      "due_date": null,
+      "commitment_made_by_user": null,
+      "commitment_is_conditional": false,
+      "commitment_condition": null,
+      "superseded_by_message_id": null,
+      "notes": null
+    }
+  },
+  {
+    "id": "d60f18c2e4b60048",
+    "thread_id": "d60f18c2e4b60047",
+    "profile_id": "hr",
+    "history_id": "742675",
+    "message_id_header": "<CAFd60f18c2e4b60048@mail.gmail.com>",
+    "in_reply_to": "<CAFd60f18c2e4b60047@mail.gmail.com>",
+    "references": [
+      "<CAFd60f18c2e4b60047@mail.gmail.com>"
+    ],
+    "thread_position": 2,
+    "thread_length": 2,
+    "from": {
+      "name": "Doug Feinstein",
+      "email": "doug.feinstein@vireohealth.com"
+    },
+    "to": [
+      {
+        "name": "Marcus Bell",
+        "email": "marcus.bell@vireohealth.com"
+      }
+    ],
+    "cc": [],
+    "bcc": [],
+    "delivered_to": "marcus.bell@vireohealth.com",
+    "subject": "Re: Priscilla's September PTO",
+    "snippet": "Bumping this — still want to grab 15 min on Priscilla's September PTO before it's a scheduling headache.",
+    "body_text": "Bumping this — still want to grab 15 min on Priscilla's September PTO before it's a scheduling headache.",
+    "body_html": null,
+    "date": "2026-07-20T09:15:00-06:00",
+    "internal_date_ms": 1784560500000,
+    "folder": "INBOX",
+    "category": "CATEGORY_PERSONAL",
+    "is_unread": true,
+    "is_starred": false,
+    "is_important": false,
+    "user_labels": [],
+    "attachments": [],
+    "calendar_event": null,
+    "extra_headers": {
+      "Return-Path": "<doug.feinstein@vireohealth.com>"
+    },
+    "size_estimate": 704,
+    "meta": {
+      "email_class": "genuine_work",
+      "tricky_tags": [],
+      "is_actionable_for_user": true,
+      "action_owner": "marcus.bell@vireohealth.com",
+      "action_summary": "Discuss staffing coverage for Priscilla's September PTO request.",
+      "due_date": null,
+      "commitment_made_by_user": null,
+      "commitment_is_conditional": false,
+      "commitment_condition": null,
+      "superseded_by_message_id": null,
+      "notes": "Multi-week gap (25 days) before this follow-up bump."
+    }
+  },
+  {
+    "id": "d60f18c2e4b60049",
+    "thread_id": "d60f18c2e4b60049",
+    "profile_id": "hr",
+    "history_id": "722490",
+    "message_id_header": "<CAFd60f18c2e4b60049@mail.gmail.com>",
+    "in_reply_to": null,
+    "references": [],
+    "thread_position": 1,
+    "thread_length": 1,
+    "from": {
+      "name": "Renata Vlasov",
+      "email": "renata.vlasov@vireohealth.com"
+    },
+    "to": [
+      {
+        "name": "Marcus Bell",
+        "email": "marcus.bell@vireohealth.com"
+      }
+    ],
+    "cc": [],
+    "bcc": [],
+    "delivered_to": "marcus.bell@vireohealth.com",
+    "subject": "I-9 for Monday's new hire",
+    "snippet": "Can you sign the I-9 for the new hire starting Monday? Section 2's ready whenever you have a sec.",
+    "body_text": "Can you sign the I-9 for the new hire starting Monday? Section 2's ready whenever you have a sec.",
+    "body_html": null,
+    "date": "2026-07-06T08:50:00-06:00",
+    "internal_date_ms": 1783349400000,
+    "folder": "INBOX",
+    "category": "CATEGORY_PERSONAL",
+    "is_unread": false,
+    "is_starred": false,
+    "is_important": false,
+    "user_labels": [],
+    "attachments": [],
+    "calendar_event": null,
+    "extra_headers": {
+      "Return-Path": "<renata.vlasov@vireohealth.com>"
+    },
+    "size_estimate": 697,
+    "meta": {
+      "email_class": "genuine_work",
+      "tricky_tags": [],
+      "is_actionable_for_user": true,
+      "action_owner": "marcus.bell@vireohealth.com",
+      "action_summary": "Sign Section 2 of the I-9 for Monday's new hire.",
+      "due_date": "2026-07-06",
+      "commitment_made_by_user": null,
+      "commitment_is_conditional": false,
+      "commitment_condition": null,
+      "superseded_by_message_id": null,
+      "notes": null
+    }
+  },
+  {
+    "id": "d60f18c2e4b60050",
+    "thread_id": "d60f18c2e4b60050",
+    "profile_id": "hr",
+    "history_id": "765640",
+    "message_id_header": "<CAFd60f18c2e4b60050@mail.gmail.com>",
+    "in_reply_to": null,
+    "references": [],
+    "thread_position": 1,
+    "thread_length": 1,
+    "from": {
+      "name": "Marcus Bell",
+      "email": "marcus.bell@vireohealth.com"
+    },
+    "to": [
+      {
+        "name": "Claudia Reyes",
+        "email": "claudia.reyes@vireohealth.com"
+      },
+      {
+        "name": "Doug Feinstein",
+        "email": "doug.feinstein@vireohealth.com"
+      },
+      {
+        "name": "Priscilla Nam",
+        "email": "priscilla.nam@vireohealth.com"
+      },
+      {
+        "name": "Tim Osei",
+        "email": "tim.osei@vireohealth.com"
+      },
+      {
+        "name": "Jenna Wu",
+        "email": "jenna.wu@vireohealth.com"
+      }
+    ],
+    "cc": [],
+    "bcc": [],
+    "delivered_to": null,
+    "subject": "Updated handbook — Colorado & Nevada multistate provisions",
+    "snippet": "Team, Wanted to get this in front of all of you before it goes out more broadly, since you're the ones who'll be fielding questions from your teams once it's live. Josh finished hi",
+    "body_text": "Team,\n\nWanted to get this in front of all of you before it goes out more broadly, since you're the ones who'll be fielding questions from your teams once it's live. Josh finished his review of the Colorado and Nevada language yesterday, so we're clear to roll out the updated handbook sections this week.\n\nThe short version: both states have specific paid-sick-leave accrual rules that differ from our existing PTO policy language, and Nevada in particular has a separate 'any reason' leave requirement that isn't tied to illness at all. Rather than try to write one policy that awkwardly covers every state, we've added state-specific addenda that sit alongside the core handbook — so the base policy doesn't change for anyone outside Colorado or Nevada, and employees in those states get an additional section that spells out exactly what applies to them.\n\nA few things worth knowing before people start asking:\n\nFor Colorado: the accrual rate is one hour of paid sick leave per 30 hours worked, capped at 48 hours per year, and it can roll over up to 48 hours into the following year. This is slightly more generous than what our general PTO policy provides in isolation, so for Colorado employees the addendum effectively sits on top of existing PTO rather than replacing any of it.\n\nFor Nevada: employees accrue 0.01923 hours of leave per hour worked, which nets out to about 40 hours a year for a full-time employee, and it can be used for literally any reason without needing to disclose why — no doctor's note, no explanation required. HR will handle tracking this separately from PTO in the system so it doesn't get commingled.\n\nNone of this changes anything for employees outside those two states — this is purely additive compliance work, not a broader policy shift, so please don't let it turn into a rumor that PTO policy is changing company-wide, because it isn't.\n\nRollout plan: the updated sections go live in the employee handbook portal Friday morning. I'll send a short all-staff note the same day pointing people to the changes, but I wanted you all to have the substance first so you're not caught flat-footed if someone on your team reads it before the announcement goes out. If you're managing anyone in Colorado or Nevada specifically, take a few minutes to read the addendum yourself — happy to walk through it live if that's easier than reading it cold.\n\nQuestions, come find me before Friday.\n\nMarcus",
+    "body_html": "<div style=\"font-family:Arial,sans-serif;font-size:14px;color:#222;line-height:1.5\"><p>Team,</p><p>Josh finished his review of the Colorado and Nevada language yesterday, so we're clear to roll out the updated handbook sections this week.</p><p><b>Colorado:</b> 1 hr sick leave per 30 hrs worked, capped at 48 hrs/yr, rolls over up to 48 hrs.</p><p><b>Nevada:</b> 0.01923 hrs/hr worked (~40 hrs/yr), usable for any reason, no explanation required.</p><p>Live in the handbook portal Friday morning. Questions before then.</p><p>Marcus</p></div>",
+    "date": "2026-08-05T08:00:00-06:00",
+    "internal_date_ms": 1785938400000,
+    "folder": "SENT",
+    "category": null,
+    "is_unread": false,
+    "is_starred": true,
+    "is_important": false,
+    "user_labels": [
+      "Label_6631"
+    ],
+    "attachments": [],
+    "calendar_event": null,
+    "extra_headers": {
+      "Return-Path": "<marcus.bell@vireohealth.com>"
+    },
+    "size_estimate": 3570,
+    "meta": {
+      "email_class": "internal_announcement",
+      "tricky_tags": [],
+      "is_actionable_for_user": false,
+      "action_owner": null,
+      "action_summary": null,
+      "due_date": null,
+      "commitment_made_by_user": null,
+      "commitment_is_conditional": false,
+      "commitment_condition": null,
+      "superseded_by_message_id": null,
+      "notes": "Fulfills the July 28 conditional promise once Josh's sign-off (the blocking condition) finally came through."
+    }
+  }
+]

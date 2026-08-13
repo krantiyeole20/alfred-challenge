@@ -1,0 +1,101 @@
+{
+  "profile_id": "marketing",
+  "question": "q4_waiting_on_others",
+  "items_reviewed": 12,
+  "verdict": "issues",
+  "findings": [
+    {
+      "type": "missed_item",
+      "severity": "medium",
+      "item_id": null,
+      "message_ids": ["b40f18c2e4b60005", "b40f18c2e4b60049", "b40f18c2e4b60050"],
+      "problem": "Hollis Grant promised a backup shoot location after the East Austin warehouse fell through and never delivered it; Jordan's Jul 28 chase drew only an out-of-office auto-reply and was never re-sent — a directed expectation open for 54 days that the set has no answer for.",
+      "evidence": "b40f18c2e4b60005 (Jun 19, Hollis): 'Scouting a backup site and will send a new invite once I have one lined up.' Jordan chased in b40f18c2e4b60049 (Jul 28): 'Any luck finding something in the same budget range?' — answered only by b40f18c2e4b60050: 'Out of the studio through August 2nd, scouting locations in San Antonio with sporadic email. Back at my desk August 3rd.' No later message in the mailbox mentions a location, scout or warehouse.",
+      "recommended_action": "add new item with these fields — tier: acceptable; claim: 'Hollis Grant still has not produced a backup location for the fall lifestyle shoot after the East Austin warehouse was pulled on Jun 19; Jordan's Jul 28 chase hit his out-of-office and was never re-sent'; thread_id b40f18c2e4b60004; anchor_message_id b40f18c2e4b60049; message_ids [b40f18c2e4b60004, b40f18c2e4b60005, b40f18c2e4b60049, b40f18c2e4b60050]; evidence_quote 'Any luck finding something in the same budget range?'; counterparty hollis@northlightstudio.co; due_date null; due_basis none; days_open 54; consequence medium; tricky_tags [out_of_office]; rank alongside marketing-q4-07"
+    },
+    {
+      "type": "missed_item",
+      "severity": "low",
+      "item_id": null,
+      "message_ids": ["b10f18c2e4b60039", "b10f18c2e4b60040"],
+      "problem": "Jordan asked Klaviyo billing (cc Wes) on Aug 6 to explain a ~$400 month-over-month jump in the SMS credit line before the invoice auto-charged on Wednesday Aug 12; no answer ever came and the charge date has now arrived.",
+      "evidence": "b10f18c2e4b60040 (Aug 6, SENT): 'The SMS credit line looks about $400 higher than June's invoice - did our per-message rate change, or did we just send more volume? Wes, flagging for you too in case it's worth a look before it auto-charges Wednesday.' No reply from billing@klaviyo.com exists in the mailbox.",
+      "recommended_action": "add new item with these fields — tier: borderline; claim: 'Klaviyo billing never answered why the July SMS credit line rose ~$400, and the invoice auto-charged Aug 12'; thread_id b10f18c2e4b60039; anchor_message_id b10f18c2e4b60040; message_ids [b10f18c2e4b60039, b10f18c2e4b60040]; evidence_quote 'did our per-message rate change, or did we just send more volume?'; counterparty billing@klaviyo.com; due_date 2026-08-12; due_basis explicit; days_open 6; consequence low; tricky_tags []"
+    },
+    {
+      "type": "missed_item",
+      "severity": "low",
+      "item_id": null,
+      "message_ids": ["b50f18c2e4b60015"],
+      "problem": "Nina never gave Jordan her read on the soft TikTok 90-day repeat-purchase rate (11.2% vs Meta's 15.4%) that Jordan asked for on Jul 22 ahead of a Thursday presentation; she has sent five messages since without touching it.",
+      "evidence": "b50f18c2e4b60015 (Jul 22, SENT, with cohort_repeat_purchase_july.csv attached): 'Want your take before I present Thursday - is this a real quality gap or a cohort-size artifact?' Nina's later messages (b60f18c2e4b60038 Jul 23, b20f18c2e4b60033, b20f18c2e4b60036, b20f18c2e4b60006, b20f18c2e4b60048 Aug 7) never answer it.",
+      "recommended_action": "add new item with these fields — tier: borderline; claim: 'Nina has not answered whether the TikTok repeat-purchase gap is a real quality gap or a cohort-size artifact, asked Jul 22 ahead of a presentation that has since passed'; anchor_message_id b50f18c2e4b60015; evidence_quote 'Want your take before I present Thursday'; counterparty nina.sokolov@habitatgoods.com; due_date 2026-07-24; due_basis implicit; days_open 21; consequence low; tricky_tags []"
+    },
+    {
+      "type": "missed_item",
+      "severity": "low",
+      "item_id": null,
+      "message_ids": ["b50f18c2e4b60017"],
+      "problem": "Cam Okafor was made point person for the sustainability trade feature with quotes and product photography due Aug 10; the date passed with no delivery message and no reply in the thread, yet the set does not list it while listing his lookbook copy.",
+      "evidence": "b50f18c2e4b60017 (Jul 30, SENT to Priyanka and Cam): 'Priyanka's got a sustainability trade feature interested in Habitat Goods, wants quotes and product photography by Aug 10.' … 'can you be the point person for content?' Cam's later mail (b60f18c2e4b60047, Aug 6) discusses Q4 editorial strategy and PR tie-ins generally but does not deliver or acknowledge this.",
+      "recommended_action": "add new item with these fields — tier: borderline; claim: 'Cam has not confirmed or delivered the sustainability-feature quotes and product photography Priyanka needed by Aug 10'; anchor_message_id b50f18c2e4b60017; evidence_quote 'wants quotes and product photography by Aug 10'; counterparty cam.okafor@habitatgoods.com; due_date 2026-08-10; due_basis explicit; days_open 13; consequence medium; tricky_tags []"
+    },
+    {
+      "type": "missed_item",
+      "severity": "low",
+      "item_id": null,
+      "message_ids": ["b50f18c2e4b60038"],
+      "problem": "Jordan told Wes in the Q4 planning kickoff to produce a weekly actuals-vs-plan number starting in August; no such report exists anywhere in the mailbox and the first August Friday (Aug 7) has already passed — a recurring commitment by someone else with a miss count, distinct from the FY27 budget model in marketing-q4-02.",
+      "evidence": "b50f18c2e4b60038 (Jul 13, SENT): 'Wes: budget tracking, I want a weekly actuals-vs-plan number starting in August, not a surprise in January'. Wes's only August message is b10f18c2e4b60049 (Aug 12), about a photoshoot PO overage.",
+      "recommended_action": "add new item with these fields — tier: borderline; claim: 'Wes has not started the weekly Q4 actuals-vs-plan reporting Jordan asked for from August onward; one occurrence (Aug 7) already missed'; anchor_message_id b50f18c2e4b60038; evidence_quote 'Wes: budget tracking, I want a weekly actuals-vs-plan number starting in August, not a surprise in January'; counterparty wes.duffy@habitatgoods.com; due_basis implicit; days_open 30; consequence low; tricky_tags []"
+    },
+    {
+      "type": "false_positive",
+      "severity": "medium",
+      "item_id": "marketing-q4-07",
+      "message_ids": ["b60f18c2e4b60019", "b60f18c2e4b60030", "b60f18c2e4b60031"],
+      "problem": "The claim that Hollis 'never answered' about the fall studio day and that the week 'has now passed unbooked' is overstated: one day after the OOO, Jordan sent studio-day logistics for the same fall lifestyle shoot and Hollis answered substantively, confirming call time and on-site equipment.",
+      "evidence": "b60f18c2e4b60030 (Jul 22, SENT): 'Confirming studio day details for the fall lifestyle shoot' — answered by b60f18c2e4b60031 (Jul 23, Hollis): 'We've got a rack and two steamers on-site, no need to bring your own. 7am works.' What remains genuinely unanswered is only the calendar date ('Does the week of Aug 10 work?', b60f18c2e4b60019); no message ever names a fall studio-day date either way.",
+      "recommended_action": "retier to borderline and narrow the claim to the unanswered date question (drop 'unbooked'), adding b60f18c2e4b60030/b60f18c2e4b60031 to message_ids so the partial answer is visible"
+    },
+    {
+      "type": "bad_distractor",
+      "severity": "medium",
+      "item_id": "b60f18c2e4b60018",
+      "message_ids": ["b60f18c2e4b60018", "b50f18c2e4b60025", "b10f18c2e4b60041"],
+      "problem": "The distractor's stated reason for excluding Tessa's conditional Meta-approval promise cites the Aug 1 congratulations message, which is about a different launch (the BFCM landing page), so as written the exclusion rests on evidence that does not close the promise — and QUESTIONS.md says a conditional promise by someone else belongs in Q4 until a message resolves it.",
+      "evidence": "b60f18c2e4b60018 (Jul 29, Tessa): 'Will let you know the second it clears.' The cited closer, b50f18c2e4b60025 (Aug 1), reads: 'BFCM landing page went live clean, zero bugs reported' — not the Meta creative campaign. The only real closing evidence is b10f18c2e4b60041 (Aug 6, Chris Baumann): '4 of your active ad creatives got flagged in a policy review this morning', which shows the Meta creative did clear review and go live.",
+      "recommended_action": "fix why_excluded to cite b10f18c2e4b60041 (creatives live and mid-flight by Aug 6) instead of the BFCM landing-page congratulation; otherwise the promise reads as still open and the distractor is unsafe"
+    },
+    {
+      "type": "misranked",
+      "severity": "low",
+      "item_id": "marketing-q4-08",
+      "message_ids": ["b50f18c2e4b60011", "b50f18c2e4b60034"],
+      "problem": "Cam's lookbook copy is the only acceptable-tier item with a hard, imminent deadline and 29 days of staleness plus a re-issued chase, yet it is ranked below the five-day-old Tessa invoice and the undated Hollis studio-date item, which inverts the stated ranking principle (dependency criticality × staleness × chases spent).",
+      "evidence": "b50f18c2e4b60011 (Jul 14): 'Rough draft to me by July 24 so I have time to route it through Sofia before the print deadline.' b50f18c2e4b60034 (Aug 11): 'Cam: final lookbook copy' due 'to Sofia's review queue by Friday EOD' — i.e. Aug 14, two days after the as-of moment.",
+      "recommended_action": "reorder above marketing-q4-06 and marketing-q4-07"
+    },
+    {
+      "type": "bad_quote",
+      "severity": "low",
+      "item_id": "marketing-q4-12",
+      "message_ids": ["b40f18c2e4b60045", "b40f18c2e4b60046"],
+      "problem": "The item's claim and tricky_tags rest on Priyanka's out-of-office reply, but message_ids lists only the outbound ask, so nothing cited attests the OOO window or the Aug 4 return; the cited message also carries no out_of_office tag in the corpus.",
+      "evidence": "b40f18c2e4b60046 (Jul 20, auto-reply, not cited): 'I'm out of the office with limited email access from July 18 through August 3, back in Austin on August 4.' b40f18c2e4b60045 carries meta.tricky_tags == [].",
+      "recommended_action": "add b40f18c2e4b60046 to message_ids (same fix pattern applies to marketing-q4-11, whose promised_attachment tag is not carried by either cited message)"
+    }
+  ],
+  "checked_and_sound": [
+    "marketing-q4-01",
+    "marketing-q4-02",
+    "marketing-q4-03",
+    "marketing-q4-04",
+    "marketing-q4-05",
+    "marketing-q4-06",
+    "marketing-q4-09",
+    "marketing-q4-10",
+    "marketing-q4-11"
+  ],
+  "notes": "Closure was checked item-by-item across the whole mailbox, not just within threads. Confirmed still open: Nina's attribution appendix paragraph (no message after b20f18c2e4b60036 mentions methodology/appendix; she has mailed five times since, so the silence is selective); Wes's FY27 budget model (Sofia's Jul 13 Drive share b40f18c2e4b60035 predates Jordan's Jul 15 bump and does not close it; Wes's 'ran this through the Q4 model' in b60f18c2e4b60013 is a different artifact); Amara's photo usage rights addendum (her Aug 11 reply b10f18c2e4b60046 is about the holiday gifting rate and closes nothing — and it leaves the contract ball on Jordan, i.e. Q3); Tessa's corrected July invoice and the Aug 5 counter (no inbound from Tessa after Aug 6). Correctly excluded: the Jun 23/Jul 6 chases for Tessa's redlined SOW (b50f18c2e4b60041/42) are closed cross-thread by the Jul 30 delivery b20f18c2e4b60025 with Habitat_Goods_Q4_SOW_Redline.pdf attached, and by the fully executed DocuSign b40f18c2e4b60031; Jordan's Aug 7 request for a B-vs-C cost comparison (b60f18c2e4b60028) is closed by Sofia's Aug 10 'Looked at the numbers Tessa sent separately'; Nina's retention-experiment readout (b50f18c2e4b60012) is not yet due ('if it's not wrapping up by mid-September'). Two corpus caveats a human should weigh. (1) The Aug 12 bounce b40f18c2e4b60044 is for a message titled 'Holiday Campaign Creative — Final Round Files', not for the SOW counter or the invoice; marketing-q4-03's wording ('mailbox bounced as over quota') is accurate, but a reader could infer the counter itself bounced, which the corpus does not say. There is also an unpaired bounce b40f18c2e4b60043 (Aug 1, priyanka.rao@vaultedpr.com 'does not exist') with no matching SENT message — a phantom wait worth flagging in Q6 rather than Q4. (2) Fold & Field retainer figures are mutually inconsistent across batches ($22,000→$25,500 in b10f18c2e4b60009, $18,500 from $14,200 in b60f18c2e4b60035, $42,000 unchanged in the Jul 30 redline, $34,500 signed in the DocuSign records). The gold correctly quotes only the Aug 5 message's own terms, so no stale-fact defect — but any system that merges these threads will produce contradictory numbers. Finally, marketing-q4-04 assumes the Aug 6 Meta QBR (b40f18c2e4b60009) did not resolve the volume-rate ask; nothing in the corpus says it did, so treating it as open is right under the as-of rules, though it is the one item whose openness rests on an unrecorded meeting."
+}

@@ -1,0 +1,3424 @@
+[
+  {
+    "id": "c40f18c2e4b60001",
+    "thread_id": "c40f18c2e4b60001",
+    "profile_id": "finance",
+    "history_id": "692580",
+    "message_id_header": "<CAFc40f18c2e4b60001@mail.gmail.com>",
+    "in_reply_to": null,
+    "references": [],
+    "thread_position": 1,
+    "thread_length": 1,
+    "from": {
+      "name": "Aditi Sharma",
+      "email": "aditi.sharma@northwindrobotics.com"
+    },
+    "to": [
+      {
+        "name": "Karen Voss",
+        "email": "karen.voss@northwindrobotics.com"
+      },
+      {
+        "name": "Miles Okonkwo",
+        "email": "miles.okonkwo@northwindrobotics.com"
+      },
+      {
+        "name": "Ilya Petrov",
+        "email": "ilya.petrov@northwindrobotics.com"
+      }
+    ],
+    "cc": [],
+    "bcc": [],
+    "delivered_to": null,
+    "subject": "Weekly Close Standup",
+    "snippet": "Starting a standing 30-min close sync every Tuesday morning so we stop losing status updates in Slack threads. First one is tomorrow — bring your open-item list.",
+    "body_text": "Starting a standing 30-min close sync every Tuesday morning so we stop losing status updates in Slack threads. First one is tomorrow — bring your open-item list.\n",
+    "body_html": null,
+    "date": "2026-06-15T16:20:00-04:00",
+    "internal_date_ms": 1781554800000,
+    "folder": "SENT",
+    "category": null,
+    "is_unread": false,
+    "is_starred": false,
+    "is_important": false,
+    "user_labels": [
+      "Label_4410"
+    ],
+    "attachments": [
+      {
+        "attachment_id": "ANGjdJ_9lKu2BfVTbCgudmtJX4W-YLPh5zBd9Ha_Hdi3IWbv2Y",
+        "filename": "invite.ics",
+        "mime_type": "text/calendar",
+        "size_bytes": 712,
+        "is_inline": false,
+        "extracted_text": "BEGIN:VCALENDAR\r\nPRODID:-//Google Inc//Google Calendar 70.9054//EN\r\nVERSION:2.0\r\nCALSCALE:GREGORIAN\r\nMETHOD:REQUEST\r\nBEGIN:VEVENT\r\nUID:4937542dc65f8cc62aaf1ac5@google.com\r\nDTSTAMP:20260616T090000Z\r\nDTSTART;TZID=America/New_York:20260616T090000\r\nDTEND;TZID=America/New_York:20260616T093000\r\nSEQUENCE:0\r\nSTATUS:CONFIRMED\r\nSUMMARY:Weekly Close Standup\r\nTRANSP:OPAQUE\r\nRRULE:FREQ=WEEKLY;BYDAY=TU\r\nLOCATION:Zoom\r\nDESCRIPTION:Recurring 30-min sync to review close status, open items, and blockers. Agenda doc pinned in the #close Slack channel.\r\nORGANIZER;CN=Aditi Sharma:mailto:aditi.sharma@northwindrobotics.com\r\nATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=NEEDS-ACTION;RSVP=TRUE;CN=Karen Voss;X-NUM-GUESTS=0:mailto:karen.voss@northwindrobotics.com\r\nATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=NEEDS-ACTION;RSVP=TRUE;CN=Miles Okonkwo;X-NUM-GUESTS=0:mailto:miles.okonkwo@northwindrobotics.com\r\nATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=NEEDS-ACTION;RSVP=TRUE;CN=Ilya Petrov;X-NUM-GUESTS=0:mailto:ilya.petrov@northwindrobotics.com\r\nEND:VEVENT\r\nEND:VCALENDAR"
+      }
+    ],
+    "calendar_event": {
+      "uid": "4937542dc65f8cc62aaf1ac5@google.com",
+      "method": "REQUEST",
+      "sequence": 0,
+      "summary": "Weekly Close Standup",
+      "description": "Recurring 30-min sync to review close status, open items, and blockers. Agenda doc pinned in the #close Slack channel.",
+      "location": "Zoom",
+      "conference_url": "https://northwindrobotics.zoom.us/j/8817023340",
+      "organizer": {
+        "name": "Aditi Sharma",
+        "email": "aditi.sharma@northwindrobotics.com"
+      },
+      "attendees": [
+        {
+          "email": "karen.voss@northwindrobotics.com",
+          "name": "Karen Voss",
+          "role": "REQ-PARTICIPANT",
+          "partstat": "NEEDS-ACTION",
+          "rsvp": true
+        },
+        {
+          "email": "miles.okonkwo@northwindrobotics.com",
+          "name": "Miles Okonkwo",
+          "role": "REQ-PARTICIPANT",
+          "partstat": "NEEDS-ACTION",
+          "rsvp": true
+        },
+        {
+          "email": "ilya.petrov@northwindrobotics.com",
+          "name": "Ilya Petrov",
+          "role": "REQ-PARTICIPANT",
+          "partstat": "NEEDS-ACTION",
+          "rsvp": true
+        }
+      ],
+      "dtstart": "2026-06-16T09:00:00-04:00",
+      "dtend": "2026-06-16T09:30:00-04:00",
+      "timezone": "America/New_York",
+      "all_day": false,
+      "rrule": "FREQ=WEEKLY;BYDAY=TU",
+      "status": "CONFIRMED"
+    },
+    "extra_headers": {},
+    "size_estimate": 3461,
+    "meta": {
+      "email_class": "calendar",
+      "tricky_tags": [],
+      "is_actionable_for_user": false,
+      "action_owner": null,
+      "action_summary": null,
+      "due_date": null,
+      "commitment_made_by_user": null,
+      "commitment_is_conditional": false,
+      "commitment_condition": null,
+      "superseded_by_message_id": null,
+      "notes": "Owner-organized recurring meeting invite; rrule weekly."
+    }
+  },
+  {
+    "id": "c40f18c2e4b60002",
+    "thread_id": "c40f18c2e4b60002",
+    "profile_id": "finance",
+    "history_id": "742665",
+    "message_id_header": "<CAFc40f18c2e4b60002@mail.gmail.com>",
+    "in_reply_to": null,
+    "references": [],
+    "thread_position": 1,
+    "thread_length": 1,
+    "from": {
+      "name": "Aditi Sharma",
+      "email": "aditi.sharma@northwindrobotics.com"
+    },
+    "to": [
+      {
+        "name": "Karen Voss",
+        "email": "karen.voss@northwindrobotics.com"
+      },
+      {
+        "name": "Miles Okonkwo",
+        "email": "miles.okonkwo@northwindrobotics.com"
+      },
+      {
+        "name": "Ilya Petrov",
+        "email": "ilya.petrov@northwindrobotics.com"
+      },
+      {
+        "name": "Derek Lang",
+        "email": "derek.lang@northwindrobotics.com"
+      },
+      {
+        "name": "Ruth Amankwah",
+        "email": "ruth.amankwah@northwindrobotics.com"
+      }
+    ],
+    "cc": [],
+    "bcc": [],
+    "delivered_to": null,
+    "subject": "Close Blackout — No PTO/Travel (Finance & Ops)",
+    "snippet": "Marking Aug 3rd as a blackout day for Finance and Ops while we close July. Please hold PTO and travel that day — Karen and I need everyone reachable for last-minute journal entries",
+    "body_text": "Marking Aug 3rd as a blackout day for Finance and Ops while we close July. Please hold PTO and travel that day — Karen and I need everyone reachable for last-minute journal entries.\n",
+    "body_html": null,
+    "date": "2026-07-20T11:05:00-04:00",
+    "internal_date_ms": 1784559900000,
+    "folder": "SENT",
+    "category": null,
+    "is_unread": false,
+    "is_starred": false,
+    "is_important": false,
+    "user_labels": [
+      "Label_4410"
+    ],
+    "attachments": [
+      {
+        "attachment_id": "ANGjdJ_S529Pt8fX96Kz8OLZNbhAaRzxVkgMNl8xZvj0VPwZ2s",
+        "filename": "invite.ics",
+        "mime_type": "text/calendar",
+        "size_bytes": 690,
+        "is_inline": false,
+        "extracted_text": "BEGIN:VCALENDAR\r\nPRODID:-//Google Inc//Google Calendar 70.9054//EN\r\nVERSION:2.0\r\nCALSCALE:GREGORIAN\r\nMETHOD:REQUEST\r\nBEGIN:VEVENT\r\nUID:3aa5998ddc01eda2334a1c7f@google.com\r\nDTSTAMP:20260803T000000Z\r\nDTSTART;VALUE=DATE:20260803\r\nDTEND;VALUE=DATE:20260804\r\nSEQUENCE:0\r\nSTATUS:CONFIRMED\r\nSUMMARY:Close Blackout — No PTO/Travel (Finance & Ops)\r\nTRANSP:OPAQUE\r\nDESCRIPTION:No PTO or travel for Finance/Ops during close week. If something is unavoidable, flag it to Aditi by EOD Friday so we can plan coverage.\r\nORGANIZER;CN=Aditi Sharma:mailto:aditi.sharma@northwindrobotics.com\r\nATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=NEEDS-ACTION;RSVP=TRUE;CN=Karen Voss;X-NUM-GUESTS=0:mailto:karen.voss@northwindrobotics.com\r\nATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=NEEDS-ACTION;RSVP=TRUE;CN=Miles Okonkwo;X-NUM-GUESTS=0:mailto:miles.okonkwo@northwindrobotics.com\r\nATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=NEEDS-ACTION;RSVP=TRUE;CN=Ilya Petrov;X-NUM-GUESTS=0:mailto:ilya.petrov@northwindrobotics.com\r\nATTENDEE;CUTYPE=INDIVIDUAL;ROLE=OPT-PARTICIPANT;PARTSTAT=NEEDS-ACTION;RSVP=TRUE;CN=Derek Lang;X-NUM-GUESTS=0:mailto:derek.lang@northwindrobotics.com\r\nATTENDEE;CUTYPE=INDIVIDUAL;ROLE=OPT-PARTICIPANT;PARTSTAT=NEEDS-ACTION;RSVP=TRUE;CN=Ruth Amankwah;X-NUM-GUESTS=0:mailto:ruth.amankwah@northwindrobotics.com\r\nEND:VEVENT\r\nEND:VCALENDAR"
+      }
+    ],
+    "calendar_event": {
+      "uid": "3aa5998ddc01eda2334a1c7f@google.com",
+      "method": "REQUEST",
+      "sequence": 0,
+      "summary": "Close Blackout — No PTO/Travel (Finance & Ops)",
+      "description": "No PTO or travel for Finance/Ops during close week. If something is unavoidable, flag it to Aditi by EOD Friday so we can plan coverage.",
+      "location": null,
+      "conference_url": null,
+      "organizer": {
+        "name": "Aditi Sharma",
+        "email": "aditi.sharma@northwindrobotics.com"
+      },
+      "attendees": [
+        {
+          "email": "karen.voss@northwindrobotics.com",
+          "name": "Karen Voss",
+          "role": "REQ-PARTICIPANT",
+          "partstat": "NEEDS-ACTION",
+          "rsvp": true
+        },
+        {
+          "email": "miles.okonkwo@northwindrobotics.com",
+          "name": "Miles Okonkwo",
+          "role": "REQ-PARTICIPANT",
+          "partstat": "NEEDS-ACTION",
+          "rsvp": true
+        },
+        {
+          "email": "ilya.petrov@northwindrobotics.com",
+          "name": "Ilya Petrov",
+          "role": "REQ-PARTICIPANT",
+          "partstat": "NEEDS-ACTION",
+          "rsvp": true
+        },
+        {
+          "email": "derek.lang@northwindrobotics.com",
+          "name": "Derek Lang",
+          "role": "OPT-PARTICIPANT",
+          "partstat": "NEEDS-ACTION",
+          "rsvp": true
+        },
+        {
+          "email": "ruth.amankwah@northwindrobotics.com",
+          "name": "Ruth Amankwah",
+          "role": "OPT-PARTICIPANT",
+          "partstat": "NEEDS-ACTION",
+          "rsvp": true
+        }
+      ],
+      "dtstart": "2026-08-03T00:00:00-04:00",
+      "dtend": "2026-08-04T00:00:00-04:00",
+      "timezone": "America/New_York",
+      "all_day": true,
+      "rrule": null,
+      "status": "CONFIRMED"
+    },
+    "extra_headers": {},
+    "size_estimate": 3432,
+    "meta": {
+      "email_class": "calendar",
+      "tricky_tags": [],
+      "is_actionable_for_user": false,
+      "action_owner": null,
+      "action_summary": null,
+      "due_date": null,
+      "commitment_made_by_user": null,
+      "commitment_is_conditional": false,
+      "commitment_condition": null,
+      "superseded_by_message_id": null,
+      "notes": "All-day close blackout event, owner-organized."
+    }
+  },
+  {
+    "id": "c40f18c2e4b60003",
+    "thread_id": "c40f18c2e4b60003",
+    "profile_id": "finance",
+    "history_id": "755510",
+    "message_id_header": "<CAFc40f18c2e4b60003@mail.gmail.com>",
+    "in_reply_to": null,
+    "references": [],
+    "thread_position": 1,
+    "thread_length": 1,
+    "from": {
+      "name": "Sam Greer",
+      "email": "sam.greer@northwindrobotics.com"
+    },
+    "to": [
+      {
+        "name": "Aditi Sharma",
+        "email": "aditi.sharma@northwindrobotics.com"
+      },
+      {
+        "name": "Karen Voss",
+        "email": "karen.voss@northwindrobotics.com"
+      },
+      {
+        "name": "Derek Lang",
+        "email": "derek.lang@northwindrobotics.com"
+      },
+      {
+        "name": "Ruth Amankwah",
+        "email": "ruth.amankwah@northwindrobotics.com"
+      }
+    ],
+    "cc": [],
+    "bcc": [],
+    "delivered_to": "aditi.sharma@northwindrobotics.com",
+    "subject": "FY27 Budget Kickoff",
+    "snippet": "Let's get FY27 planning started. Grabbing an hour on the 5th — Aditi will run through the process and templates. Come ready to talk headcount and big capex asks.",
+    "body_text": "Let's get FY27 planning started. Grabbing an hour on the 5th — Aditi will run through the process and templates. Come ready to talk headcount and big capex asks.\n",
+    "body_html": null,
+    "date": "2026-07-29T09:10:00-04:00",
+    "internal_date_ms": 1785330600000,
+    "folder": "INBOX",
+    "category": "CATEGORY_UPDATES",
+    "is_unread": false,
+    "is_starred": false,
+    "is_important": true,
+    "user_labels": [],
+    "attachments": [
+      {
+        "attachment_id": "ANGjdJ_5Mpvp9dPwHbndUUZIkEt0zgFUbAYh9-_3VGXoewl_z8",
+        "filename": "invite.ics",
+        "mime_type": "text/calendar",
+        "size_bytes": 780,
+        "is_inline": false,
+        "extracted_text": "BEGIN:VCALENDAR\r\nPRODID:-//Google Inc//Google Calendar 70.9054//EN\r\nVERSION:2.0\r\nCALSCALE:GREGORIAN\r\nMETHOD:REQUEST\r\nBEGIN:VEVENT\r\nUID:64505efd29d6a7b158016c11@google.com\r\nDTSTAMP:20260805T140000Z\r\nDTSTART;TZID=America/New_York:20260805T140000\r\nDTEND;TZID=America/New_York:20260805T150000\r\nSEQUENCE:0\r\nSTATUS:CONFIRMED\r\nSUMMARY:FY27 Budget Kickoff\r\nTRANSP:OPAQUE\r\nLOCATION:Conf Rm A / Zoom\r\nDESCRIPTION:Kicking off the FY27 budget build. Aditi will walk through the planning calendar and department templates; Derek and Ruth, come with headcount asks.\r\nORGANIZER;CN=Sam Greer:mailto:sam.greer@northwindrobotics.com\r\nATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=NEEDS-ACTION;RSVP=TRUE;CN=Aditi Sharma;X-NUM-GUESTS=0:mailto:aditi.sharma@northwindrobotics.com\r\nATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=NEEDS-ACTION;RSVP=TRUE;CN=Karen Voss;X-NUM-GUESTS=0:mailto:karen.voss@northwindrobotics.com\r\nATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=NEEDS-ACTION;RSVP=TRUE;CN=Derek Lang;X-NUM-GUESTS=0:mailto:derek.lang@northwindrobotics.com\r\nATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=NEEDS-ACTION;RSVP=TRUE;CN=Ruth Amankwah;X-NUM-GUESTS=0:mailto:ruth.amankwah@northwindrobotics.com\r\nEND:VEVENT\r\nEND:VCALENDAR"
+      }
+    ],
+    "calendar_event": {
+      "uid": "64505efd29d6a7b158016c11@google.com",
+      "method": "REQUEST",
+      "sequence": 0,
+      "summary": "FY27 Budget Kickoff",
+      "description": "Kicking off the FY27 budget build. Aditi will walk through the planning calendar and department templates; Derek and Ruth, come with headcount asks.",
+      "location": "Conf Rm A / Zoom",
+      "conference_url": "https://northwindrobotics.zoom.us/j/8892014477",
+      "organizer": {
+        "name": "Sam Greer",
+        "email": "sam.greer@northwindrobotics.com"
+      },
+      "attendees": [
+        {
+          "email": "aditi.sharma@northwindrobotics.com",
+          "name": "Aditi Sharma",
+          "role": "REQ-PARTICIPANT",
+          "partstat": "NEEDS-ACTION",
+          "rsvp": true
+        },
+        {
+          "email": "karen.voss@northwindrobotics.com",
+          "name": "Karen Voss",
+          "role": "REQ-PARTICIPANT",
+          "partstat": "NEEDS-ACTION",
+          "rsvp": true
+        },
+        {
+          "email": "derek.lang@northwindrobotics.com",
+          "name": "Derek Lang",
+          "role": "REQ-PARTICIPANT",
+          "partstat": "NEEDS-ACTION",
+          "rsvp": true
+        },
+        {
+          "email": "ruth.amankwah@northwindrobotics.com",
+          "name": "Ruth Amankwah",
+          "role": "REQ-PARTICIPANT",
+          "partstat": "NEEDS-ACTION",
+          "rsvp": true
+        }
+      ],
+      "dtstart": "2026-08-05T14:00:00-04:00",
+      "dtend": "2026-08-05T15:00:00-04:00",
+      "timezone": "America/New_York",
+      "all_day": false,
+      "rrule": null,
+      "status": "CONFIRMED"
+    },
+    "extra_headers": {},
+    "size_estimate": 3552,
+    "meta": {
+      "email_class": "calendar",
+      "tricky_tags": [],
+      "is_actionable_for_user": true,
+      "action_owner": "aditi.sharma@northwindrobotics.com",
+      "action_summary": "Attend the FY27 budget kickoff and present the planning calendar.",
+      "due_date": "2026-08-05",
+      "commitment_made_by_user": null,
+      "commitment_is_conditional": false,
+      "commitment_condition": null,
+      "superseded_by_message_id": null,
+      "notes": null
+    }
+  },
+  {
+    "id": "c40f18c2e4b60004",
+    "thread_id": "c40f18c2e4b60004",
+    "profile_id": "finance",
+    "history_id": "763100",
+    "message_id_header": "<CAFc40f18c2e4b60004@mail.gmail.com>",
+    "in_reply_to": null,
+    "references": [],
+    "thread_position": 1,
+    "thread_length": 1,
+    "from": {
+      "name": "Sam Greer",
+      "email": "sam.greer@northwindrobotics.com"
+    },
+    "to": [
+      {
+        "name": "Aditi Sharma",
+        "email": "aditi.sharma@northwindrobotics.com"
+      },
+      {
+        "name": "Karen Voss",
+        "email": "karen.voss@northwindrobotics.com"
+      },
+      {
+        "name": "Derek Lang",
+        "email": "derek.lang@northwindrobotics.com"
+      },
+      {
+        "name": "Ruth Amankwah",
+        "email": "ruth.amankwah@northwindrobotics.com"
+      }
+    ],
+    "cc": [],
+    "bcc": [],
+    "delivered_to": "aditi.sharma@northwindrobotics.com",
+    "subject": "Updated invitation: FY27 Budget Kickoff @ Thu Aug 6",
+    "snippet": "Sorry, all — this conflicted with board-deck prep. Pushing to Thursday the 6th at 10am, same room/Zoom. Calendar updated automatically.",
+    "body_text": "Sorry, all — this conflicted with board-deck prep. Pushing to Thursday the 6th at 10am, same room/Zoom. Calendar updated automatically.\n",
+    "body_html": null,
+    "date": "2026-08-03T15:40:00-04:00",
+    "internal_date_ms": 1785786000000,
+    "folder": "INBOX",
+    "category": "CATEGORY_UPDATES",
+    "is_unread": false,
+    "is_starred": false,
+    "is_important": false,
+    "user_labels": [],
+    "attachments": [
+      {
+        "attachment_id": "ANGjdJ_GgpyHLdVO5fWORTEC_ZfzW9OclAlmZ8tTzpVFB7JqE4",
+        "filename": "invite.ics",
+        "mime_type": "text/calendar",
+        "size_bytes": 800,
+        "is_inline": false,
+        "extracted_text": "BEGIN:VCALENDAR\r\nPRODID:-//Google Inc//Google Calendar 70.9054//EN\r\nVERSION:2.0\r\nCALSCALE:GREGORIAN\r\nMETHOD:REQUEST\r\nBEGIN:VEVENT\r\nUID:64505efd29d6a7b158016c11@google.com\r\nDTSTAMP:20260806T100000Z\r\nDTSTART;TZID=America/New_York:20260806T100000\r\nDTEND;TZID=America/New_York:20260806T110000\r\nSEQUENCE:1\r\nSTATUS:CONFIRMED\r\nSUMMARY:FY27 Budget Kickoff\r\nTRANSP:OPAQUE\r\nLOCATION:Conf Rm A / Zoom\r\nDESCRIPTION:Kicking off the FY27 budget build. Aditi will walk through the planning calendar and department templates; Derek and Ruth, come with headcount asks. (Moved a day — conflicted with board prep.)\r\nORGANIZER;CN=Sam Greer:mailto:sam.greer@northwindrobotics.com\r\nATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=NEEDS-ACTION;RSVP=TRUE;CN=Aditi Sharma;X-NUM-GUESTS=0:mailto:aditi.sharma@northwindrobotics.com\r\nATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=NEEDS-ACTION;RSVP=TRUE;CN=Karen Voss;X-NUM-GUESTS=0:mailto:karen.voss@northwindrobotics.com\r\nATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=NEEDS-ACTION;RSVP=TRUE;CN=Derek Lang;X-NUM-GUESTS=0:mailto:derek.lang@northwindrobotics.com\r\nATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=NEEDS-ACTION;RSVP=TRUE;CN=Ruth Amankwah;X-NUM-GUESTS=0:mailto:ruth.amankwah@northwindrobotics.com\r\nEND:VEVENT\r\nEND:VCALENDAR"
+      }
+    ],
+    "calendar_event": {
+      "uid": "64505efd29d6a7b158016c11@google.com",
+      "method": "REQUEST",
+      "sequence": 1,
+      "summary": "FY27 Budget Kickoff",
+      "description": "Kicking off the FY27 budget build. Aditi will walk through the planning calendar and department templates; Derek and Ruth, come with headcount asks. (Moved a day — conflicted with board prep.)",
+      "location": "Conf Rm A / Zoom",
+      "conference_url": "https://northwindrobotics.zoom.us/j/8892014477",
+      "organizer": {
+        "name": "Sam Greer",
+        "email": "sam.greer@northwindrobotics.com"
+      },
+      "attendees": [
+        {
+          "email": "aditi.sharma@northwindrobotics.com",
+          "name": "Aditi Sharma",
+          "role": "REQ-PARTICIPANT",
+          "partstat": "NEEDS-ACTION",
+          "rsvp": true
+        },
+        {
+          "email": "karen.voss@northwindrobotics.com",
+          "name": "Karen Voss",
+          "role": "REQ-PARTICIPANT",
+          "partstat": "NEEDS-ACTION",
+          "rsvp": true
+        },
+        {
+          "email": "derek.lang@northwindrobotics.com",
+          "name": "Derek Lang",
+          "role": "REQ-PARTICIPANT",
+          "partstat": "NEEDS-ACTION",
+          "rsvp": true
+        },
+        {
+          "email": "ruth.amankwah@northwindrobotics.com",
+          "name": "Ruth Amankwah",
+          "role": "REQ-PARTICIPANT",
+          "partstat": "NEEDS-ACTION",
+          "rsvp": true
+        }
+      ],
+      "dtstart": "2026-08-06T10:00:00-04:00",
+      "dtend": "2026-08-06T11:00:00-04:00",
+      "timezone": "America/New_York",
+      "all_day": false,
+      "rrule": null,
+      "status": "CONFIRMED"
+    },
+    "extra_headers": {},
+    "size_estimate": 3578,
+    "meta": {
+      "email_class": "calendar",
+      "tricky_tags": [],
+      "is_actionable_for_user": false,
+      "action_owner": null,
+      "action_summary": null,
+      "due_date": null,
+      "commitment_made_by_user": null,
+      "commitment_is_conditional": false,
+      "commitment_condition": null,
+      "superseded_by_message_id": null,
+      "notes": "Time-shifted update to the FY27 kickoff invite, same uid, sequence 1."
+    }
+  },
+  {
+    "id": "c40f18c2e4b60005",
+    "thread_id": "c40f18c2e4b60005",
+    "profile_id": "finance",
+    "history_id": "735330",
+    "message_id_header": "<c40f18c2e4b60005@harborlinebank.com>",
+    "in_reply_to": null,
+    "references": [],
+    "thread_position": 1,
+    "thread_length": 1,
+    "from": {
+      "name": "Frank Mireles",
+      "email": "fmireles@harborlinebank.com"
+    },
+    "to": [
+      {
+        "name": "Aditi Sharma",
+        "email": "aditi.sharma@northwindrobotics.com"
+      }
+    ],
+    "cc": [
+      {
+        "name": "Karen Voss",
+        "email": "karen.voss@northwindrobotics.com"
+      }
+    ],
+    "bcc": [],
+    "delivered_to": "aditi.sharma@northwindrobotics.com",
+    "subject": "Credit Facility Amendment — Discussion",
+    "snippet": "Aditi — let's grab 30 minutes to walk through the amendment terms before I send paper. Proposing the 22nd at 11am, dial-in below.",
+    "body_text": "Aditi — let's grab 30 minutes to walk through the amendment terms before I send paper. Proposing the 22nd at 11am, dial-in below.\n",
+    "body_html": null,
+    "date": "2026-07-15T08:50:00-04:00",
+    "internal_date_ms": 1784119800000,
+    "folder": "INBOX",
+    "category": "CATEGORY_UPDATES",
+    "is_unread": false,
+    "is_starred": false,
+    "is_important": true,
+    "user_labels": [],
+    "attachments": [
+      {
+        "attachment_id": "ANGjdJ_V5hS1OXb1QQHg1k1eJUDRJ7WDWWW-NSpR3BXbAlDRXQ",
+        "filename": "invite.ics",
+        "mime_type": "text/calendar",
+        "size_bytes": 740,
+        "is_inline": false,
+        "extracted_text": "BEGIN:VCALENDAR\r\nPRODID:-//Google Inc//Google Calendar 70.9054//EN\r\nVERSION:2.0\r\nCALSCALE:GREGORIAN\r\nMETHOD:REQUEST\r\nBEGIN:VEVENT\r\nUID:08017c1d8cf4134b36af0c4e@google.com\r\nDTSTAMP:20260722T110000Z\r\nDTSTART;TZID=America/New_York:20260722T110000\r\nDTEND;TZID=America/New_York:20260722T113000\r\nSEQUENCE:0\r\nSTATUS:CONFIRMED\r\nSUMMARY:Credit Facility Amendment — Discussion\r\nTRANSP:OPAQUE\r\nLOCATION:Phone / Conference call\r\nDESCRIPTION:Discuss extending the revolving credit facility — proposed covenant changes and the amendment timeline.\r\nORGANIZER;CN=Frank Mireles:mailto:fmireles@harborlinebank.com\r\nATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=NEEDS-ACTION;RSVP=TRUE;CN=Aditi Sharma;X-NUM-GUESTS=0:mailto:aditi.sharma@northwindrobotics.com\r\nATTENDEE;CUTYPE=INDIVIDUAL;ROLE=OPT-PARTICIPANT;PARTSTAT=NEEDS-ACTION;RSVP=TRUE;CN=Karen Voss;X-NUM-GUESTS=0:mailto:karen.voss@northwindrobotics.com\r\nEND:VEVENT\r\nEND:VCALENDAR"
+      }
+    ],
+    "calendar_event": {
+      "uid": "08017c1d8cf4134b36af0c4e@google.com",
+      "method": "REQUEST",
+      "sequence": 0,
+      "summary": "Credit Facility Amendment — Discussion",
+      "description": "Discuss extending the revolving credit facility — proposed covenant changes and the amendment timeline.",
+      "location": "Phone / Conference call",
+      "conference_url": null,
+      "organizer": {
+        "name": "Frank Mireles",
+        "email": "fmireles@harborlinebank.com"
+      },
+      "attendees": [
+        {
+          "email": "aditi.sharma@northwindrobotics.com",
+          "name": "Aditi Sharma",
+          "role": "REQ-PARTICIPANT",
+          "partstat": "NEEDS-ACTION",
+          "rsvp": true
+        },
+        {
+          "email": "karen.voss@northwindrobotics.com",
+          "name": "Karen Voss",
+          "role": "OPT-PARTICIPANT",
+          "partstat": "NEEDS-ACTION",
+          "rsvp": true
+        }
+      ],
+      "dtstart": "2026-07-22T11:00:00-04:00",
+      "dtend": "2026-07-22T11:30:00-04:00",
+      "timezone": "America/New_York",
+      "all_day": false,
+      "rrule": null,
+      "status": "CONFIRMED"
+    },
+    "extra_headers": {},
+    "size_estimate": 3498,
+    "meta": {
+      "email_class": "calendar",
+      "tricky_tags": [],
+      "is_actionable_for_user": true,
+      "action_owner": "aditi.sharma@northwindrobotics.com",
+      "action_summary": "Join the call with Harborline Bank to discuss the credit facility amendment.",
+      "due_date": "2026-07-22",
+      "commitment_made_by_user": null,
+      "commitment_is_conditional": false,
+      "commitment_condition": null,
+      "superseded_by_message_id": null,
+      "notes": null
+    }
+  },
+  {
+    "id": "c40f18c2e4b60006",
+    "thread_id": "c40f18c2e4b60006",
+    "profile_id": "finance",
+    "history_id": "744465",
+    "message_id_header": "<c40f18c2e4b60006@harborlinebank.com>",
+    "in_reply_to": null,
+    "references": [],
+    "thread_position": 1,
+    "thread_length": 1,
+    "from": {
+      "name": "Frank Mireles",
+      "email": "fmireles@harborlinebank.com"
+    },
+    "to": [
+      {
+        "name": "Aditi Sharma",
+        "email": "aditi.sharma@northwindrobotics.com"
+      }
+    ],
+    "cc": [
+      {
+        "name": "Karen Voss",
+        "email": "karen.voss@northwindrobotics.com"
+      }
+    ],
+    "bcc": [],
+    "delivered_to": "aditi.sharma@northwindrobotics.com",
+    "subject": "Cancelled: Credit Facility Amendment — Discussion",
+    "snippet": "Aditi — need to push this. Credit committee hasn't finished redlining the covenant language, so tomorrow's call would be premature. Will resend once I have real terms to discuss, l",
+    "body_text": "Aditi — need to push this. Credit committee hasn't finished redlining the covenant language, so tomorrow's call would be premature. Will resend once I have real terms to discuss, likely early next week.\n",
+    "body_html": null,
+    "date": "2026-07-21T17:05:00-04:00",
+    "internal_date_ms": 1784667900000,
+    "folder": "INBOX",
+    "category": "CATEGORY_UPDATES",
+    "is_unread": false,
+    "is_starred": false,
+    "is_important": false,
+    "user_labels": [],
+    "attachments": [
+      {
+        "attachment_id": "ANGjdJ_ZNedlVI92wCHs295MbMglZHSey_rzDqhRKtBU5k40E0",
+        "filename": "invite.ics",
+        "mime_type": "text/calendar",
+        "size_bytes": 730,
+        "is_inline": false,
+        "extracted_text": "BEGIN:VCALENDAR\r\nPRODID:-//Google Inc//Google Calendar 70.9054//EN\r\nVERSION:2.0\r\nCALSCALE:GREGORIAN\r\nMETHOD:CANCEL\r\nBEGIN:VEVENT\r\nUID:08017c1d8cf4134b36af0c4e@google.com\r\nDTSTAMP:20260722T110000Z\r\nDTSTART;TZID=America/New_York:20260722T110000\r\nDTEND;TZID=America/New_York:20260722T113000\r\nSEQUENCE:1\r\nSTATUS:CANCELLED\r\nSUMMARY:Credit Facility Amendment — Discussion\r\nTRANSP:OPAQUE\r\nLOCATION:Phone / Conference call\r\nDESCRIPTION:Discuss extending the revolving credit facility — proposed covenant changes and the amendment timeline.\r\nORGANIZER;CN=Frank Mireles:mailto:fmireles@harborlinebank.com\r\nATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=NEEDS-ACTION;RSVP=TRUE;CN=Aditi Sharma;X-NUM-GUESTS=0:mailto:aditi.sharma@northwindrobotics.com\r\nATTENDEE;CUTYPE=INDIVIDUAL;ROLE=OPT-PARTICIPANT;PARTSTAT=NEEDS-ACTION;RSVP=TRUE;CN=Karen Voss;X-NUM-GUESTS=0:mailto:karen.voss@northwindrobotics.com\r\nEND:VEVENT\r\nEND:VCALENDAR"
+      }
+    ],
+    "calendar_event": {
+      "uid": "08017c1d8cf4134b36af0c4e@google.com",
+      "method": "CANCEL",
+      "sequence": 1,
+      "summary": "Credit Facility Amendment — Discussion",
+      "description": "Discuss extending the revolving credit facility — proposed covenant changes and the amendment timeline.",
+      "location": "Phone / Conference call",
+      "conference_url": null,
+      "organizer": {
+        "name": "Frank Mireles",
+        "email": "fmireles@harborlinebank.com"
+      },
+      "attendees": [
+        {
+          "email": "aditi.sharma@northwindrobotics.com",
+          "name": "Aditi Sharma",
+          "role": "REQ-PARTICIPANT",
+          "partstat": "NEEDS-ACTION",
+          "rsvp": true
+        },
+        {
+          "email": "karen.voss@northwindrobotics.com",
+          "name": "Karen Voss",
+          "role": "OPT-PARTICIPANT",
+          "partstat": "NEEDS-ACTION",
+          "rsvp": true
+        }
+      ],
+      "dtstart": "2026-07-22T11:00:00-04:00",
+      "dtend": "2026-07-22T11:30:00-04:00",
+      "timezone": "America/New_York",
+      "all_day": false,
+      "rrule": null,
+      "status": "CANCELLED"
+    },
+    "extra_headers": {},
+    "size_estimate": 3485,
+    "meta": {
+      "email_class": "calendar",
+      "tricky_tags": [],
+      "is_actionable_for_user": false,
+      "action_owner": "fmireles@harborlinebank.com",
+      "action_summary": "Frank will reschedule once the credit committee finishes redlines.",
+      "due_date": null,
+      "commitment_made_by_user": null,
+      "commitment_is_conditional": false,
+      "commitment_condition": null,
+      "superseded_by_message_id": null,
+      "notes": "Cancellation of the credit facility call; same uid as the original invite."
+    }
+  },
+  {
+    "id": "c40f18c2e4b60007",
+    "thread_id": "c40f18c2e4b60007",
+    "profile_id": "finance",
+    "history_id": "773035",
+    "message_id_header": "<CAFc40f18c2e4b60007@mail.gmail.com>",
+    "in_reply_to": null,
+    "references": [],
+    "thread_position": 1,
+    "thread_length": 4,
+    "from": {
+      "name": "Aditi Sharma",
+      "email": "aditi.sharma@northwindrobotics.com"
+    },
+    "to": [
+      {
+        "name": "Sam Greer",
+        "email": "sam.greer@northwindrobotics.com"
+      },
+      {
+        "name": "Tomás Delgado",
+        "email": "tdelgado@arrowpointvc.com"
+      },
+      {
+        "name": "Karen Voss",
+        "email": "karen.voss@northwindrobotics.com"
+      }
+    ],
+    "cc": [],
+    "bcc": [],
+    "delivered_to": "aditi.sharma@northwindrobotics.com",
+    "subject": "Board Reporting Prep — Aug 27 Board Mtg",
+    "snippet": "Sam, Tomás, Karen — let's align before the 27th so there are no surprises in the room. I'll circulate the draft pack by the 21st.",
+    "body_text": "Sam, Tomás, Karen — let's align before the 27th so there are no surprises in the room. I'll circulate the draft pack by the 21st.\n",
+    "body_html": null,
+    "date": "2026-08-10T13:15:00-04:00",
+    "internal_date_ms": 1786382100000,
+    "folder": "INBOX",
+    "category": "CATEGORY_UPDATES",
+    "is_unread": false,
+    "is_starred": false,
+    "is_important": true,
+    "user_labels": [
+      "Label_4413"
+    ],
+    "attachments": [
+      {
+        "attachment_id": "ANGjdJ_YuvfADnL21cEtmA6yiMDM6nWQAEhdyqG432EMx_-i4M",
+        "filename": "invite.ics",
+        "mime_type": "text/calendar",
+        "size_bytes": 760,
+        "is_inline": false,
+        "extracted_text": "BEGIN:VCALENDAR\r\nPRODID:-//Google Inc//Google Calendar 70.9054//EN\r\nVERSION:2.0\r\nCALSCALE:GREGORIAN\r\nMETHOD:REQUEST\r\nBEGIN:VEVENT\r\nUID:72f8d0991fca508acba95ca6@google.com\r\nDTSTAMP:20260824T150000Z\r\nDTSTART;TZID=America/New_York:20260824T150000\r\nDTEND;TZID=America/New_York:20260824T160000\r\nSEQUENCE:0\r\nSTATUS:CONFIRMED\r\nSUMMARY:Board Reporting Prep — Aug 27 Board Mtg\r\nTRANSP:OPAQUE\r\nLOCATION:Zoom\r\nDESCRIPTION:Walk through the board pack before the Aug 27 meeting: July close numbers, FY27 budget timeline, credit facility status.\r\nORGANIZER;CN=Aditi Sharma:mailto:aditi.sharma@northwindrobotics.com\r\nATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=NEEDS-ACTION;RSVP=TRUE;CN=Sam Greer;X-NUM-GUESTS=0:mailto:sam.greer@northwindrobotics.com\r\nATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=NEEDS-ACTION;RSVP=TRUE;CN=Tomás Delgado;X-NUM-GUESTS=0:mailto:tdelgado@arrowpointvc.com\r\nATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=NEEDS-ACTION;RSVP=TRUE;CN=Karen Voss;X-NUM-GUESTS=0:mailto:karen.voss@northwindrobotics.com\r\nEND:VEVENT\r\nEND:VCALENDAR"
+      }
+    ],
+    "calendar_event": {
+      "uid": "72f8d0991fca508acba95ca6@google.com",
+      "method": "REQUEST",
+      "sequence": 0,
+      "summary": "Board Reporting Prep — Aug 27 Board Mtg",
+      "description": "Walk through the board pack before the Aug 27 meeting: July close numbers, FY27 budget timeline, credit facility status.",
+      "location": "Zoom",
+      "conference_url": "https://northwindrobotics.zoom.us/j/8817099213",
+      "organizer": {
+        "name": "Aditi Sharma",
+        "email": "aditi.sharma@northwindrobotics.com"
+      },
+      "attendees": [
+        {
+          "email": "sam.greer@northwindrobotics.com",
+          "name": "Sam Greer",
+          "role": "REQ-PARTICIPANT",
+          "partstat": "NEEDS-ACTION",
+          "rsvp": true
+        },
+        {
+          "email": "tdelgado@arrowpointvc.com",
+          "name": "Tomás Delgado",
+          "role": "REQ-PARTICIPANT",
+          "partstat": "NEEDS-ACTION",
+          "rsvp": true
+        },
+        {
+          "email": "karen.voss@northwindrobotics.com",
+          "name": "Karen Voss",
+          "role": "REQ-PARTICIPANT",
+          "partstat": "NEEDS-ACTION",
+          "rsvp": true
+        }
+      ],
+      "dtstart": "2026-08-24T15:00:00-04:00",
+      "dtend": "2026-08-24T16:00:00-04:00",
+      "timezone": "America/New_York",
+      "all_day": false,
+      "rrule": null,
+      "status": "CONFIRMED"
+    },
+    "extra_headers": {},
+    "size_estimate": 3525,
+    "meta": {
+      "email_class": "calendar",
+      "tricky_tags": [],
+      "is_actionable_for_user": false,
+      "action_owner": null,
+      "action_summary": null,
+      "due_date": null,
+      "commitment_made_by_user": null,
+      "commitment_is_conditional": false,
+      "commitment_condition": null,
+      "superseded_by_message_id": null,
+      "notes": "Owner-organized prep meeting ahead of the Aug 27 board meeting."
+    }
+  },
+  {
+    "id": "c40f18c2e4b60008",
+    "thread_id": "c40f18c2e4b60007",
+    "profile_id": "finance",
+    "history_id": "773082",
+    "message_id_header": "<CAFc40f18c2e4b60008@mail.gmail.com>",
+    "in_reply_to": "<CAFc40f18c2e4b60007@mail.gmail.com>",
+    "references": [
+      "<CAFc40f18c2e4b60007@mail.gmail.com>"
+    ],
+    "thread_position": 2,
+    "thread_length": 4,
+    "from": {
+      "name": "Sam Greer",
+      "email": "sam.greer@northwindrobotics.com"
+    },
+    "to": [
+      {
+        "name": "Aditi Sharma",
+        "email": "aditi.sharma@northwindrobotics.com"
+      }
+    ],
+    "cc": [],
+    "bcc": [],
+    "delivered_to": "aditi.sharma@northwindrobotics.com",
+    "subject": "Accepted: Board Reporting Prep — Aug 27 Board Mtg",
+    "snippet": "Sam Greer has accepted this invitation.",
+    "body_text": "Sam Greer has accepted this invitation.\n",
+    "body_html": null,
+    "date": "2026-08-10T14:02:00-04:00",
+    "internal_date_ms": 1786384920000,
+    "folder": "INBOX",
+    "category": "CATEGORY_UPDATES",
+    "is_unread": true,
+    "is_starred": false,
+    "is_important": false,
+    "user_labels": [
+      "Label_4413"
+    ],
+    "attachments": [
+      {
+        "attachment_id": "ANGjdJ_DVyaO7HQovO7PVzNbhCl7OiodvVr41X6vFxwvH27OrE",
+        "filename": "invite.ics",
+        "mime_type": "text/calendar",
+        "size_bytes": 520,
+        "is_inline": false,
+        "extracted_text": "BEGIN:VCALENDAR\r\nPRODID:-//Google Inc//Google Calendar 70.9054//EN\r\nVERSION:2.0\r\nCALSCALE:GREGORIAN\r\nMETHOD:REPLY\r\nBEGIN:VEVENT\r\nUID:72f8d0991fca508acba95ca6@google.com\r\nDTSTAMP:20260824T150000Z\r\nDTSTART;TZID=America/New_York:20260824T150000\r\nDTEND;TZID=America/New_York:20260824T160000\r\nSEQUENCE:0\r\nSTATUS:CONFIRMED\r\nSUMMARY:Board Reporting Prep — Aug 27 Board Mtg\r\nTRANSP:OPAQUE\r\nLOCATION:Zoom\r\nDESCRIPTION:Walk through the board pack before the Aug 27 meeting: July close numbers, FY27 budget timeline, credit facility status.\r\nORGANIZER;CN=Aditi Sharma:mailto:aditi.sharma@northwindrobotics.com\r\nATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=ACCEPTED;RSVP=TRUE;CN=Sam Greer;X-NUM-GUESTS=0:mailto:sam.greer@northwindrobotics.com\r\nEND:VEVENT\r\nEND:VCALENDAR"
+      }
+    ],
+    "calendar_event": {
+      "uid": "72f8d0991fca508acba95ca6@google.com",
+      "method": "REPLY",
+      "sequence": 0,
+      "summary": "Board Reporting Prep — Aug 27 Board Mtg",
+      "description": "Walk through the board pack before the Aug 27 meeting: July close numbers, FY27 budget timeline, credit facility status.",
+      "location": "Zoom",
+      "conference_url": "https://northwindrobotics.zoom.us/j/8817099213",
+      "organizer": {
+        "name": "Aditi Sharma",
+        "email": "aditi.sharma@northwindrobotics.com"
+      },
+      "attendees": [
+        {
+          "email": "sam.greer@northwindrobotics.com",
+          "name": "Sam Greer",
+          "role": "REQ-PARTICIPANT",
+          "partstat": "ACCEPTED",
+          "rsvp": true
+        }
+      ],
+      "dtstart": "2026-08-24T15:00:00-04:00",
+      "dtend": "2026-08-24T16:00:00-04:00",
+      "timezone": "America/New_York",
+      "all_day": false,
+      "rrule": null,
+      "status": "CONFIRMED"
+    },
+    "extra_headers": {},
+    "size_estimate": 3205,
+    "meta": {
+      "email_class": "calendar",
+      "tricky_tags": [],
+      "is_actionable_for_user": false,
+      "action_owner": null,
+      "action_summary": null,
+      "due_date": null,
+      "commitment_made_by_user": null,
+      "commitment_is_conditional": false,
+      "commitment_condition": null,
+      "superseded_by_message_id": null,
+      "notes": "RSVP reply — Sam accepted the board prep invite."
+    }
+  },
+  {
+    "id": "c40f18c2e4b60009",
+    "thread_id": "c40f18c2e4b60007",
+    "profile_id": "finance",
+    "history_id": "773240",
+    "message_id_header": "<c40f18c2e4b60009@arrowpointvc.com>",
+    "in_reply_to": "<CAFc40f18c2e4b60008@mail.gmail.com>",
+    "references": [
+      "<CAFc40f18c2e4b60007@mail.gmail.com>",
+      "<CAFc40f18c2e4b60008@mail.gmail.com>"
+    ],
+    "thread_position": 3,
+    "thread_length": 4,
+    "from": {
+      "name": "Tomás Delgado",
+      "email": "tdelgado@arrowpointvc.com"
+    },
+    "to": [
+      {
+        "name": "Aditi Sharma",
+        "email": "aditi.sharma@northwindrobotics.com"
+      }
+    ],
+    "cc": [],
+    "bcc": [],
+    "delivered_to": "aditi.sharma@northwindrobotics.com",
+    "subject": "Re: Board Reporting Prep — Aug 27 Board Mtg",
+    "snippet": "Tomás Delgado has accepted this invitation.",
+    "body_text": "Tomás Delgado has accepted this invitation.\n",
+    "body_html": null,
+    "date": "2026-08-10T16:40:00-04:00",
+    "internal_date_ms": 1786394400000,
+    "folder": "INBOX",
+    "category": "CATEGORY_UPDATES",
+    "is_unread": false,
+    "is_starred": false,
+    "is_important": false,
+    "user_labels": [],
+    "attachments": [
+      {
+        "attachment_id": "ANGjdJ_qW2mcB2QY9mZ14VOgDB9M_ER7fZJMlB35hoCdIELrO8",
+        "filename": "invite.ics",
+        "mime_type": "text/calendar",
+        "size_bytes": 510,
+        "is_inline": false,
+        "extracted_text": "BEGIN:VCALENDAR\r\nPRODID:-//Google Inc//Google Calendar 70.9054//EN\r\nVERSION:2.0\r\nCALSCALE:GREGORIAN\r\nMETHOD:REPLY\r\nBEGIN:VEVENT\r\nUID:72f8d0991fca508acba95ca6@google.com\r\nDTSTAMP:20260824T150000Z\r\nDTSTART;TZID=America/New_York:20260824T150000\r\nDTEND;TZID=America/New_York:20260824T160000\r\nSEQUENCE:0\r\nSTATUS:CONFIRMED\r\nSUMMARY:Board Reporting Prep — Aug 27 Board Mtg\r\nTRANSP:OPAQUE\r\nLOCATION:Zoom\r\nDESCRIPTION:Walk through the board pack before the Aug 27 meeting: July close numbers, FY27 budget timeline, credit facility status.\r\nORGANIZER;CN=Aditi Sharma:mailto:aditi.sharma@northwindrobotics.com\r\nATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=ACCEPTED;RSVP=TRUE;CN=Tomás Delgado;X-NUM-GUESTS=0:mailto:tdelgado@arrowpointvc.com\r\nEND:VEVENT\r\nEND:VCALENDAR"
+      }
+    ],
+    "calendar_event": {
+      "uid": "72f8d0991fca508acba95ca6@google.com",
+      "method": "REPLY",
+      "sequence": 0,
+      "summary": "Board Reporting Prep — Aug 27 Board Mtg",
+      "description": "Walk through the board pack before the Aug 27 meeting: July close numbers, FY27 budget timeline, credit facility status.",
+      "location": "Zoom",
+      "conference_url": "https://northwindrobotics.zoom.us/j/8817099213",
+      "organizer": {
+        "name": "Aditi Sharma",
+        "email": "aditi.sharma@northwindrobotics.com"
+      },
+      "attendees": [
+        {
+          "email": "tdelgado@arrowpointvc.com",
+          "name": "Tomás Delgado",
+          "role": "REQ-PARTICIPANT",
+          "partstat": "ACCEPTED",
+          "rsvp": true
+        }
+      ],
+      "dtstart": "2026-08-24T15:00:00-04:00",
+      "dtend": "2026-08-24T16:00:00-04:00",
+      "timezone": "America/New_York",
+      "all_day": false,
+      "rrule": null,
+      "status": "CONFIRMED"
+    },
+    "extra_headers": {},
+    "size_estimate": 3192,
+    "meta": {
+      "email_class": "calendar",
+      "tricky_tags": [],
+      "is_actionable_for_user": false,
+      "action_owner": null,
+      "action_summary": null,
+      "due_date": null,
+      "commitment_made_by_user": null,
+      "commitment_is_conditional": false,
+      "commitment_condition": null,
+      "superseded_by_message_id": null,
+      "notes": "RSVP reply — Tomás (board observer) accepted."
+    }
+  },
+  {
+    "id": "c40f18c2e4b60010",
+    "thread_id": "c40f18c2e4b60007",
+    "profile_id": "finance",
+    "history_id": "774172",
+    "message_id_header": "<CAFc40f18c2e4b60010@mail.gmail.com>",
+    "in_reply_to": "<c40f18c2e4b60009@arrowpointvc.com>",
+    "references": [
+      "<CAFc40f18c2e4b60007@mail.gmail.com>",
+      "<CAFc40f18c2e4b60008@mail.gmail.com>",
+      "<c40f18c2e4b60009@arrowpointvc.com>"
+    ],
+    "thread_position": 4,
+    "thread_length": 4,
+    "from": {
+      "name": "Karen Voss",
+      "email": "karen.voss@northwindrobotics.com"
+    },
+    "to": [
+      {
+        "name": "Aditi Sharma",
+        "email": "aditi.sharma@northwindrobotics.com"
+      }
+    ],
+    "cc": [],
+    "bcc": [],
+    "delivered_to": "aditi.sharma@northwindrobotics.com",
+    "subject": "Tentative: Board Reporting Prep — Aug 27 Board Mtg",
+    "snippet": "Karen Voss has tentatively accepted this invitation. Might have a conflict with the bank call — will confirm by Friday.",
+    "body_text": "Karen Voss has tentatively accepted this invitation. Might have a conflict with the bank call — will confirm by Friday.\n",
+    "body_html": null,
+    "date": "2026-08-11T08:12:00-04:00",
+    "internal_date_ms": 1786450320000,
+    "folder": "INBOX",
+    "category": "CATEGORY_UPDATES",
+    "is_unread": true,
+    "is_starred": false,
+    "is_important": false,
+    "user_labels": [],
+    "attachments": [
+      {
+        "attachment_id": "ANGjdJ_hYpFyG1lAh3RbvpnDwrQ0WXn1Q3rJ99ceUZOdOD1IOM",
+        "filename": "invite.ics",
+        "mime_type": "text/calendar",
+        "size_bytes": 560,
+        "is_inline": false,
+        "extracted_text": "BEGIN:VCALENDAR\r\nPRODID:-//Google Inc//Google Calendar 70.9054//EN\r\nVERSION:2.0\r\nCALSCALE:GREGORIAN\r\nMETHOD:REPLY\r\nBEGIN:VEVENT\r\nUID:72f8d0991fca508acba95ca6@google.com\r\nDTSTAMP:20260824T150000Z\r\nDTSTART;TZID=America/New_York:20260824T150000\r\nDTEND;TZID=America/New_York:20260824T160000\r\nSEQUENCE:0\r\nSTATUS:CONFIRMED\r\nSUMMARY:Board Reporting Prep — Aug 27 Board Mtg\r\nTRANSP:OPAQUE\r\nLOCATION:Zoom\r\nDESCRIPTION:Walk through the board pack before the Aug 27 meeting: July close numbers, FY27 budget timeline, credit facility status.\r\nORGANIZER;CN=Aditi Sharma:mailto:aditi.sharma@northwindrobotics.com\r\nATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=TENTATIVE;RSVP=TRUE;CN=Karen Voss;X-NUM-GUESTS=0:mailto:karen.voss@northwindrobotics.com\r\nEND:VEVENT\r\nEND:VCALENDAR"
+      }
+    ],
+    "calendar_event": {
+      "uid": "72f8d0991fca508acba95ca6@google.com",
+      "method": "REPLY",
+      "sequence": 0,
+      "summary": "Board Reporting Prep — Aug 27 Board Mtg",
+      "description": "Walk through the board pack before the Aug 27 meeting: July close numbers, FY27 budget timeline, credit facility status.",
+      "location": "Zoom",
+      "conference_url": "https://northwindrobotics.zoom.us/j/8817099213",
+      "organizer": {
+        "name": "Aditi Sharma",
+        "email": "aditi.sharma@northwindrobotics.com"
+      },
+      "attendees": [
+        {
+          "email": "karen.voss@northwindrobotics.com",
+          "name": "Karen Voss",
+          "role": "REQ-PARTICIPANT",
+          "partstat": "TENTATIVE",
+          "rsvp": true
+        }
+      ],
+      "dtstart": "2026-08-24T15:00:00-04:00",
+      "dtend": "2026-08-24T16:00:00-04:00",
+      "timezone": "America/New_York",
+      "all_day": false,
+      "rrule": null,
+      "status": "CONFIRMED"
+    },
+    "extra_headers": {},
+    "size_estimate": 3258,
+    "meta": {
+      "email_class": "calendar",
+      "tricky_tags": [],
+      "is_actionable_for_user": false,
+      "action_owner": null,
+      "action_summary": null,
+      "due_date": null,
+      "commitment_made_by_user": null,
+      "commitment_is_conditional": false,
+      "commitment_condition": null,
+      "superseded_by_message_id": null,
+      "notes": "RSVP reply — Karen tentative, possible conflict."
+    }
+  },
+  {
+    "id": "c40f18c2e4b60011",
+    "thread_id": "c40f18c2e4b60011",
+    "profile_id": "finance",
+    "history_id": "762730",
+    "message_id_header": "<c40f18c2e4b60011@pembertonwells.com>",
+    "in_reply_to": null,
+    "references": [],
+    "thread_position": 1,
+    "thread_length": 1,
+    "from": {
+      "name": "Nadia Haddad",
+      "email": "nhaddad@pembertonwells.com"
+    },
+    "to": [
+      {
+        "name": "Aditi Sharma",
+        "email": "aditi.sharma@northwindrobotics.com"
+      },
+      {
+        "name": "Karen Voss",
+        "email": "karen.voss@northwindrobotics.com"
+      }
+    ],
+    "cc": [],
+    "bcc": [],
+    "delivered_to": "aditi.sharma@northwindrobotics.com",
+    "subject": "FY26 Audit Kickoff — Pemberton & Wells",
+    "snippet": "Aditi, Karen — proposing the 10th to kick off FY26 fieldwork. I'll bring the draft PBC list; let's lock the timeline so we can hold the November deadline.",
+    "body_text": "Aditi, Karen — proposing the 10th to kick off FY26 fieldwork. I'll bring the draft PBC list; let's lock the timeline so we can hold the November deadline.\n",
+    "body_html": null,
+    "date": "2026-08-03T09:30:00-04:00",
+    "internal_date_ms": 1785763800000,
+    "folder": "INBOX",
+    "category": "CATEGORY_UPDATES",
+    "is_unread": false,
+    "is_starred": false,
+    "is_important": false,
+    "user_labels": [
+      "Label_4411"
+    ],
+    "attachments": [
+      {
+        "attachment_id": "ANGjdJ_p2B11PYXGOsD5BCoHAGiu7PtsWCiG_3OIKlhN38HpYw",
+        "filename": "invite.ics",
+        "mime_type": "text/calendar",
+        "size_bytes": 770,
+        "is_inline": false,
+        "extracted_text": "BEGIN:VCALENDAR\r\nPRODID:-//Google Inc//Google Calendar 70.9054//EN\r\nVERSION:2.0\r\nCALSCALE:GREGORIAN\r\nMETHOD:REQUEST\r\nBEGIN:VEVENT\r\nUID:cc809351088b5c5629ebd2aa@google.com\r\nDTSTAMP:20260810T100000Z\r\nDTSTART;TZID=America/New_York:20260810T100000\r\nDTEND;TZID=America/New_York:20260810T110000\r\nSEQUENCE:0\r\nSTATUS:CONFIRMED\r\nSUMMARY:FY26 Audit Kickoff — Pemberton & Wells\r\nTRANSP:OPAQUE\r\nLOCATION:Zoom\r\nDESCRIPTION:Kickoff for the FY26 annual audit. We'll confirm the PBC list deadline, fieldwork dates, and key contacts on your side.\r\nORGANIZER;CN=Nadia Haddad:mailto:nhaddad@pembertonwells.com\r\nATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=NEEDS-ACTION;RSVP=TRUE;CN=Aditi Sharma;X-NUM-GUESTS=0:mailto:aditi.sharma@northwindrobotics.com\r\nATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=NEEDS-ACTION;RSVP=TRUE;CN=Karen Voss;X-NUM-GUESTS=0:mailto:karen.voss@northwindrobotics.com\r\nEND:VEVENT\r\nEND:VCALENDAR"
+      }
+    ],
+    "calendar_event": {
+      "uid": "cc809351088b5c5629ebd2aa@google.com",
+      "method": "REQUEST",
+      "sequence": 0,
+      "summary": "FY26 Audit Kickoff — Pemberton & Wells",
+      "description": "Kickoff for the FY26 annual audit. We'll confirm the PBC list deadline, fieldwork dates, and key contacts on your side.",
+      "location": "Zoom",
+      "conference_url": "https://pembertonwells.zoom.us/j/2201887744",
+      "organizer": {
+        "name": "Nadia Haddad",
+        "email": "nhaddad@pembertonwells.com"
+      },
+      "attendees": [
+        {
+          "email": "aditi.sharma@northwindrobotics.com",
+          "name": "Aditi Sharma",
+          "role": "REQ-PARTICIPANT",
+          "partstat": "NEEDS-ACTION",
+          "rsvp": true
+        },
+        {
+          "email": "karen.voss@northwindrobotics.com",
+          "name": "Karen Voss",
+          "role": "REQ-PARTICIPANT",
+          "partstat": "NEEDS-ACTION",
+          "rsvp": true
+        }
+      ],
+      "dtstart": "2026-08-10T10:00:00-04:00",
+      "dtend": "2026-08-10T11:00:00-04:00",
+      "timezone": "America/New_York",
+      "all_day": false,
+      "rrule": null,
+      "status": "CONFIRMED"
+    },
+    "extra_headers": {},
+    "size_estimate": 3538,
+    "meta": {
+      "email_class": "calendar",
+      "tricky_tags": [],
+      "is_actionable_for_user": true,
+      "action_owner": "aditi.sharma@northwindrobotics.com",
+      "action_summary": "Attend audit kickoff and confirm the PBC list timeline with Pemberton & Wells.",
+      "due_date": "2026-08-10",
+      "commitment_made_by_user": null,
+      "commitment_is_conditional": false,
+      "commitment_condition": null,
+      "superseded_by_message_id": null,
+      "notes": null
+    }
+  },
+  {
+    "id": "c40f18c2e4b60012",
+    "thread_id": "c40f18c2e4b60012",
+    "profile_id": "finance",
+    "history_id": "762825",
+    "message_id_header": "<CAFc40f18c2e4b60012@mail.gmail.com>",
+    "in_reply_to": null,
+    "references": [],
+    "thread_position": 1,
+    "thread_length": 1,
+    "from": {
+      "name": "Karen Voss",
+      "email": "karen.voss@northwindrobotics.com"
+    },
+    "to": [
+      {
+        "name": "Nadia Haddad",
+        "email": "nhaddad@pembertonwells.com"
+      }
+    ],
+    "cc": [
+      {
+        "name": "Aditi Sharma",
+        "email": "aditi.sharma@northwindrobotics.com"
+      }
+    ],
+    "bcc": [],
+    "delivered_to": "aditi.sharma@northwindrobotics.com",
+    "subject": "Accepted: FY26 Audit Kickoff — Pemberton & Wells",
+    "snippet": "Karen Voss has accepted this invitation. Looking forward to it — will have the trial balance export ready.",
+    "body_text": "Karen Voss has accepted this invitation. Looking forward to it — will have the trial balance export ready.\n",
+    "body_html": null,
+    "date": "2026-08-03T11:05:00-04:00",
+    "internal_date_ms": 1785769500000,
+    "folder": "INBOX",
+    "category": "CATEGORY_UPDATES",
+    "is_unread": false,
+    "is_starred": false,
+    "is_important": false,
+    "user_labels": [
+      "Label_4411"
+    ],
+    "attachments": [
+      {
+        "attachment_id": "ANGjdJ_zGFxdcZslOO_CqgEJIBlEcba5jqG9WfFnMH06yWI0cc",
+        "filename": "invite.ics",
+        "mime_type": "text/calendar",
+        "size_bytes": 540,
+        "is_inline": false,
+        "extracted_text": "BEGIN:VCALENDAR\r\nPRODID:-//Google Inc//Google Calendar 70.9054//EN\r\nVERSION:2.0\r\nCALSCALE:GREGORIAN\r\nMETHOD:REPLY\r\nBEGIN:VEVENT\r\nUID:cc809351088b5c5629ebd2aa@google.com\r\nDTSTAMP:20260810T100000Z\r\nDTSTART;TZID=America/New_York:20260810T100000\r\nDTEND;TZID=America/New_York:20260810T110000\r\nSEQUENCE:0\r\nSTATUS:CONFIRMED\r\nSUMMARY:FY26 Audit Kickoff — Pemberton & Wells\r\nTRANSP:OPAQUE\r\nLOCATION:Zoom\r\nDESCRIPTION:Kickoff for the FY26 annual audit. We'll confirm the PBC list deadline, fieldwork dates, and key contacts on your side.\r\nORGANIZER;CN=Nadia Haddad:mailto:nhaddad@pembertonwells.com\r\nATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=ACCEPTED;RSVP=TRUE;CN=Karen Voss;X-NUM-GUESTS=0:mailto:karen.voss@northwindrobotics.com\r\nEND:VEVENT\r\nEND:VCALENDAR"
+      }
+    ],
+    "calendar_event": {
+      "uid": "cc809351088b5c5629ebd2aa@google.com",
+      "method": "REPLY",
+      "sequence": 0,
+      "summary": "FY26 Audit Kickoff — Pemberton & Wells",
+      "description": "Kickoff for the FY26 annual audit. We'll confirm the PBC list deadline, fieldwork dates, and key contacts on your side.",
+      "location": "Zoom",
+      "conference_url": "https://pembertonwells.zoom.us/j/2201887744",
+      "organizer": {
+        "name": "Nadia Haddad",
+        "email": "nhaddad@pembertonwells.com"
+      },
+      "attendees": [
+        {
+          "email": "karen.voss@northwindrobotics.com",
+          "name": "Karen Voss",
+          "role": "REQ-PARTICIPANT",
+          "partstat": "ACCEPTED",
+          "rsvp": true
+        }
+      ],
+      "dtstart": "2026-08-10T10:00:00-04:00",
+      "dtend": "2026-08-10T11:00:00-04:00",
+      "timezone": "America/New_York",
+      "all_day": false,
+      "rrule": null,
+      "status": "CONFIRMED"
+    },
+    "extra_headers": {},
+    "size_estimate": 3232,
+    "meta": {
+      "email_class": "calendar",
+      "tricky_tags": [],
+      "is_actionable_for_user": false,
+      "action_owner": null,
+      "action_summary": null,
+      "due_date": null,
+      "commitment_made_by_user": null,
+      "commitment_is_conditional": false,
+      "commitment_condition": null,
+      "superseded_by_message_id": null,
+      "notes": "RSVP reply — Karen accepted, cc'd to Aditi as fellow invitee."
+    }
+  },
+  {
+    "id": "c40f18c2e4b60013",
+    "thread_id": "c40f18c2e4b60013",
+    "profile_id": "finance",
+    "history_id": "728200",
+    "message_id_header": "<CAFc40f18c2e4b60013@mail.gmail.com>",
+    "in_reply_to": null,
+    "references": [],
+    "thread_position": 1,
+    "thread_length": 1,
+    "from": {
+      "name": "Aditi Sharma",
+      "email": "aditi.sharma@northwindrobotics.com"
+    },
+    "to": [
+      {
+        "name": "Karen Voss",
+        "email": "karen.voss@northwindrobotics.com"
+      }
+    ],
+    "cc": [],
+    "bcc": [],
+    "delivered_to": null,
+    "subject": "Aditi / Karen — Close Review",
+    "snippet": "Grabbing 30 min Tuesday to go over the June close wrap-up before July gets busy.",
+    "body_text": "Grabbing 30 min Tuesday to go over the June close wrap-up before July gets busy.\n",
+    "body_html": null,
+    "date": "2026-07-10T10:00:00-04:00",
+    "internal_date_ms": 1783692000000,
+    "folder": "SENT",
+    "category": null,
+    "is_unread": false,
+    "is_starred": false,
+    "is_important": false,
+    "user_labels": [],
+    "attachments": [
+      {
+        "attachment_id": "ANGjdJ_HGxlQ_6SmKcC8ImawDwhBGM2yz9qt74cmdqBudDxyYc",
+        "filename": "invite.ics",
+        "mime_type": "text/calendar",
+        "size_bytes": 650,
+        "is_inline": false,
+        "extracted_text": "BEGIN:VCALENDAR\r\nPRODID:-//Google Inc//Google Calendar 70.9054//EN\r\nVERSION:2.0\r\nCALSCALE:GREGORIAN\r\nMETHOD:REQUEST\r\nBEGIN:VEVENT\r\nUID:c2a089fb270e2dc430dc7e21@google.com\r\nDTSTAMP:20260714T090000Z\r\nDTSTART;TZID=America/New_York:20260714T090000\r\nDTEND;TZID=America/New_York:20260714T093000\r\nSEQUENCE:0\r\nSTATUS:CONFIRMED\r\nSUMMARY:Aditi / Karen — Close Review\r\nTRANSP:OPAQUE\r\nLOCATION:Aditi's office\r\nDESCRIPTION:Quick check-in on June close wrap-up and open reconciling items before the July cycle starts.\r\nORGANIZER;CN=Aditi Sharma:mailto:aditi.sharma@northwindrobotics.com\r\nATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=NEEDS-ACTION;RSVP=TRUE;CN=Karen Voss;X-NUM-GUESTS=0:mailto:karen.voss@northwindrobotics.com\r\nEND:VEVENT\r\nEND:VCALENDAR"
+      }
+    ],
+    "calendar_event": {
+      "uid": "c2a089fb270e2dc430dc7e21@google.com",
+      "method": "REQUEST",
+      "sequence": 0,
+      "summary": "Aditi / Karen — Close Review",
+      "description": "Quick check-in on June close wrap-up and open reconciling items before the July cycle starts.",
+      "location": "Aditi's office",
+      "conference_url": null,
+      "organizer": {
+        "name": "Aditi Sharma",
+        "email": "aditi.sharma@northwindrobotics.com"
+      },
+      "attendees": [
+        {
+          "email": "karen.voss@northwindrobotics.com",
+          "name": "Karen Voss",
+          "role": "REQ-PARTICIPANT",
+          "partstat": "NEEDS-ACTION",
+          "rsvp": true
+        }
+      ],
+      "dtstart": "2026-07-14T09:00:00-04:00",
+      "dtend": "2026-07-14T09:30:00-04:00",
+      "timezone": "America/New_York",
+      "all_day": false,
+      "rrule": null,
+      "status": "CONFIRMED"
+    },
+    "extra_headers": {},
+    "size_estimate": 3378,
+    "meta": {
+      "email_class": "calendar",
+      "tricky_tags": [],
+      "is_actionable_for_user": false,
+      "action_owner": null,
+      "action_summary": null,
+      "due_date": null,
+      "commitment_made_by_user": null,
+      "commitment_is_conditional": false,
+      "commitment_condition": null,
+      "superseded_by_message_id": null,
+      "notes": "Owner-organized 1:1, older date bucket."
+    }
+  },
+  {
+    "id": "c40f18c2e4b60014",
+    "thread_id": "c40f18c2e4b60014",
+    "profile_id": "finance",
+    "history_id": "744025",
+    "message_id_header": "<c40f18c2e4b60014@fairhavenrisk.com>",
+    "in_reply_to": null,
+    "references": [],
+    "thread_position": 1,
+    "thread_length": 1,
+    "from": {
+      "name": "Gail Underwood",
+      "email": "gunderwood@fairhavenrisk.com"
+    },
+    "to": [
+      {
+        "name": "Aditi Sharma",
+        "email": "aditi.sharma@northwindrobotics.com"
+      }
+    ],
+    "cc": [],
+    "bcc": [],
+    "delivered_to": "aditi.sharma@northwindrobotics.com",
+    "subject": "Insurance Renewal Review",
+    "snippet": "Aditi — let's get 45 minutes on the calendar to review the D&O and property coverage before we start marketing the September renewal. I'll bring last year's premiums for comparison",
+    "body_text": "Aditi — let's get 45 minutes on the calendar to review the D&O and property coverage before we start marketing the September renewal. I'll bring last year's premiums for comparison.\n",
+    "body_html": null,
+    "date": "2026-07-21T09:45:00-04:00",
+    "internal_date_ms": 1784641500000,
+    "folder": "INBOX",
+    "category": "CATEGORY_UPDATES",
+    "is_unread": false,
+    "is_starred": false,
+    "is_important": false,
+    "user_labels": [],
+    "attachments": [
+      {
+        "attachment_id": "ANGjdJ_iJZJ4AWGO4dcgh71MS95a-2H6JxQudK5ZO37V1-UtuI",
+        "filename": "invite.ics",
+        "mime_type": "text/calendar",
+        "size_bytes": 700,
+        "is_inline": false,
+        "extracted_text": "BEGIN:VCALENDAR\r\nPRODID:-//Google Inc//Google Calendar 70.9054//EN\r\nVERSION:2.0\r\nCALSCALE:GREGORIAN\r\nMETHOD:REQUEST\r\nBEGIN:VEVENT\r\nUID:5b0ff8c65cb68eaf6431a1e2@google.com\r\nDTSTAMP:20260728T130000Z\r\nDTSTART;TZID=America/New_York:20260728T130000\r\nDTEND;TZID=America/New_York:20260728T140000\r\nSEQUENCE:0\r\nSTATUS:CONFIRMED\r\nSUMMARY:Insurance Renewal Review\r\nTRANSP:OPAQUE\r\nLOCATION:Phone\r\nDESCRIPTION:Annual review of the D&O, GL, and property coverage ahead of the September renewal.\r\nORGANIZER;CN=Gail Underwood:mailto:gunderwood@fairhavenrisk.com\r\nATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=NEEDS-ACTION;RSVP=TRUE;CN=Aditi Sharma;X-NUM-GUESTS=0:mailto:aditi.sharma@northwindrobotics.com\r\nEND:VEVENT\r\nEND:VCALENDAR"
+      }
+    ],
+    "calendar_event": {
+      "uid": "5b0ff8c65cb68eaf6431a1e2@google.com",
+      "method": "REQUEST",
+      "sequence": 0,
+      "summary": "Insurance Renewal Review",
+      "description": "Annual review of the D&O, GL, and property coverage ahead of the September renewal.",
+      "location": "Phone",
+      "conference_url": null,
+      "organizer": {
+        "name": "Gail Underwood",
+        "email": "gunderwood@fairhavenrisk.com"
+      },
+      "attendees": [
+        {
+          "email": "aditi.sharma@northwindrobotics.com",
+          "name": "Aditi Sharma",
+          "role": "REQ-PARTICIPANT",
+          "partstat": "NEEDS-ACTION",
+          "rsvp": true
+        }
+      ],
+      "dtstart": "2026-07-28T13:00:00-04:00",
+      "dtend": "2026-07-28T14:00:00-04:00",
+      "timezone": "America/New_York",
+      "all_day": false,
+      "rrule": null,
+      "status": "CONFIRMED"
+    },
+    "extra_headers": {},
+    "size_estimate": 3445,
+    "meta": {
+      "email_class": "calendar",
+      "tricky_tags": [],
+      "is_actionable_for_user": true,
+      "action_owner": "aditi.sharma@northwindrobotics.com",
+      "action_summary": "Review insurance coverage with broker ahead of September renewal.",
+      "due_date": "2026-07-28",
+      "commitment_made_by_user": null,
+      "commitment_is_conditional": false,
+      "commitment_condition": null,
+      "superseded_by_message_id": null,
+      "notes": null
+    }
+  },
+  {
+    "id": "c40f18c2e4b60015",
+    "thread_id": "c40f18c2e4b60015",
+    "profile_id": "finance",
+    "history_id": "764156",
+    "message_id_header": "<c40f18c2e4b60015@googlemail.com>",
+    "in_reply_to": null,
+    "references": [],
+    "thread_position": 1,
+    "thread_length": 1,
+    "from": {
+      "name": "Mail Delivery Subsystem",
+      "email": "mailer-daemon@googlemail.com"
+    },
+    "to": [
+      {
+        "name": "Aditi Sharma",
+        "email": "aditi.sharma@northwindrobotics.com"
+      }
+    ],
+    "cc": [],
+    "bcc": [],
+    "delivered_to": "aditi.sharma@northwindrobotics.com",
+    "subject": "Delivery Status Notification (Failure) — ap@ferrocraft-industries.com",
+    "snippet": "Delivery to the following recipient failed permanently: ap@ferrocraft-industries.com Technical details of permanent failure: Google tried to deliver your message, but it was reject",
+    "body_text": "Delivery to the following recipient failed permanently:\n\n     ap@ferrocraft-industries.com\n\nTechnical details of permanent failure:\nGoogle tried to deliver your message, but it was rejected by the recipient\ndomain. We recommend contacting the other email provider for further\ninformation about the cause of this error. The error that the other server\nreturned was: 550 5.1.1 The email account that you tried to reach does not\nexist. Please try double-checking the recipient's email address for typos\nor unnecessary spaces.\n\nThe response from the remote server was:\n550 5.1.1 <ap@ferrocraft-industries.com>: Recipient address rejected: User\nunknown in virtual mailbox table\n\n----- Original message -----\n\nMessage-ID: <CAFc40f18c2e4b6fff1@mail.gmail.com>\nDate: Mon, 3 Aug 2026 16:44:02 -0400\nSubject: Invoice NWR-2287 — Q2 Servo Assembly Order ($118,240.00)\nFrom: Aditi Sharma <aditi.sharma@northwindrobotics.com>\nTo: ap@ferrocraft-industries.com\n\nI sent Ferrocraft's AP inbox invoice NWR-2287 on Monday and it bounced silently in Gmail's queue for three days before this notice finally surfaced — worth knowing, because I'd assumed it went through and Ilya had already logged it as sent in the AR aging report.\n\nGiven Ferrocraft is already 12 days past terms on the prior invoice, a second delivery failure on top of a first one that we didn't know about is not a good look, and it also means our 90-day aging bucket is going to be wrong until this gets corrected and re-sent to a working address. I checked our CRM record and it still lists ap@ferrocraft-industries.com as the primary billing contact, last verified back in March, so either their AP inbox was decommissioned in a systems migration or the domain itself changed hands — Derek mentioned in June that Ferrocraft was migrating off their old ERP, which lines up.\n\nIlya — can you call their controller's office directly (not email, since we don't have a working address) and get the current billing contact? Once we have it, resend NWR-2287 immediately and note the delay in our collections log so it doesn't count against them for late-fee purposes. I'd also flag this to Derek since he owns the relationship and should know the AP contact is stale before this happens again on a future order.\n\nFor what it's worth, I went back through the last six months of AR correspondence with Ferrocraft before writing this up, and this is the first delivery failure we've had with them — every prior invoice, remittance reminder, and statement went through cleanly to the same address, which makes the ERP-migration theory more likely than a typo on our end. I also pulled the DNS records for ferrocraft-industries.com out of curiosity: their MX records changed on July 29th, which lines up almost exactly with when Derek said the migration was happening, so I'm fairly confident this isn't something we did wrong on our side.\n\nOne more thing worth flagging while this is open: if their AP inbox structure changed, it's possible other vendors or customers who email that same address are hitting the same wall, and Ferrocraft may not even know yet that inbound invoices are silently failing. It might be worth a courtesy heads-up to their controller once Ilya has a live contact, since a vendor telling them about a broken AP alias is the kind of thing that builds goodwill going into a renewal conversation. Given Ferrocraft is one of our top five customers by revenue this year, I'd rather over-communicate here than let a technical mail failure turn into a real relationship problem or a missed payment because nobody upstream realized the invoice never landed.\n",
+    "body_html": null,
+    "date": "2026-08-04T09:16:00-04:00",
+    "internal_date_ms": 1785849360000,
+    "folder": "INBOX",
+    "category": "CATEGORY_UPDATES",
+    "is_unread": true,
+    "is_starred": true,
+    "is_important": true,
+    "user_labels": [],
+    "attachments": [],
+    "calendar_event": null,
+    "extra_headers": {
+      "X-Failed-Recipients": "ap@ferrocraft-industries.com",
+      "Auto-Submitted": "auto-replied"
+    },
+    "size_estimate": 11390,
+    "meta": {
+      "email_class": "bounce",
+      "tricky_tags": [],
+      "is_actionable_for_user": true,
+      "action_owner": "aditi.sharma@northwindrobotics.com",
+      "action_summary": "Get Ferrocraft's current AP contact from Ilya and resend invoice NWR-2287.",
+      "due_date": "2026-08-06",
+      "commitment_made_by_user": null,
+      "commitment_is_conditional": false,
+      "commitment_condition": null,
+      "superseded_by_message_id": null,
+      "notes": "Real delivery failure — a customer invoice silently bounced for days."
+    }
+  },
+  {
+    "id": "c40f18c2e4b60016",
+    "thread_id": "c40f18c2e4b60016",
+    "profile_id": "finance",
+    "history_id": "739483",
+    "message_id_header": "<c40f18c2e4b60016@googlemail.com>",
+    "in_reply_to": null,
+    "references": [],
+    "thread_position": 1,
+    "thread_length": 1,
+    "from": {
+      "name": "Mail Delivery Subsystem",
+      "email": "mailer-daemon@googlemail.com"
+    },
+    "to": [
+      {
+        "name": "Aditi Sharma",
+        "email": "aditi.sharma@northwindrobotics.com"
+      }
+    ],
+    "cc": [],
+    "bcc": [],
+    "delivered_to": "aditi.sharma@northwindrobotics.com",
+    "subject": "Delivery Status Notification (Failure) — j.ferreira@northwindrobotics.com",
+    "snippet": "Delivery to j.ferreira@northwindrobotics.com failed: mailbox disabled (account deprovisioned). Original message: \"Gusto: Your 2025 W-2 is available\" from no-reply@gusto.com.",
+    "body_text": "Delivery to j.ferreira@northwindrobotics.com failed: mailbox disabled (account deprovisioned). Original message: \"Gusto: Your 2025 W-2 is available\" from no-reply@gusto.com.\n",
+    "body_html": null,
+    "date": "2026-07-18T06:03:00-04:00",
+    "internal_date_ms": 1784368980000,
+    "folder": "INBOX",
+    "category": "CATEGORY_UPDATES",
+    "is_unread": false,
+    "is_starred": false,
+    "is_important": false,
+    "user_labels": [],
+    "attachments": [],
+    "calendar_event": null,
+    "extra_headers": {
+      "X-Failed-Recipients": "j.ferreira@northwindrobotics.com",
+      "Auto-Submitted": "auto-replied"
+    },
+    "size_estimate": 2512,
+    "meta": {
+      "email_class": "bounce",
+      "tricky_tags": [],
+      "is_actionable_for_user": false,
+      "action_owner": "hannah.cho@northwindrobotics.com",
+      "action_summary": "People team should update the forwarding address for departed employees in Gusto.",
+      "due_date": null,
+      "commitment_made_by_user": null,
+      "commitment_is_conditional": false,
+      "commitment_condition": null,
+      "superseded_by_message_id": null,
+      "notes": "Routine bounce — payroll system notice to a deprovisioned mailbox."
+    }
+  },
+  {
+    "id": "c40f18c2e4b60017",
+    "thread_id": "c40f18c2e4b60017",
+    "profile_id": "finance",
+    "history_id": "706862",
+    "message_id_header": "<c40f18c2e4b60017@googlemail.com>",
+    "in_reply_to": null,
+    "references": [],
+    "thread_position": 1,
+    "thread_length": 1,
+    "from": {
+      "name": "Mail Delivery Subsystem",
+      "email": "mailer-daemon@googlemail.com"
+    },
+    "to": [
+      {
+        "name": "Aditi Sharma",
+        "email": "aditi.sharma@northwindrobotics.com"
+      }
+    ],
+    "cc": [],
+    "bcc": [],
+    "delivered_to": "aditi.sharma@northwindrobotics.com",
+    "subject": "Delivery Status Notification (Failure) — finance-archive@northwindrobotics.com",
+    "snippet": "Delivery to finance-archive@northwindrobotics.com failed: address does not exist. Original message: \"NetSuite: Vendor Bill VB-32410 Approved\" from no-reply@system.netsuite.com.",
+    "body_text": "Delivery to finance-archive@northwindrobotics.com failed: address does not exist. Original message: \"NetSuite: Vendor Bill VB-32410 Approved\" from no-reply@system.netsuite.com.\n",
+    "body_html": null,
+    "date": "2026-06-25T14:22:00-04:00",
+    "internal_date_ms": 1782411720000,
+    "folder": "INBOX",
+    "category": "CATEGORY_UPDATES",
+    "is_unread": false,
+    "is_starred": false,
+    "is_important": false,
+    "user_labels": [],
+    "attachments": [],
+    "calendar_event": null,
+    "extra_headers": {
+      "X-Failed-Recipients": "finance-archive@northwindrobotics.com",
+      "Auto-Submitted": "auto-replied"
+    },
+    "size_estimate": 2512,
+    "meta": {
+      "email_class": "bounce",
+      "tricky_tags": [],
+      "is_actionable_for_user": false,
+      "action_owner": null,
+      "action_summary": null,
+      "due_date": null,
+      "commitment_made_by_user": null,
+      "commitment_is_conditional": false,
+      "commitment_condition": null,
+      "superseded_by_message_id": null,
+      "notes": "Routine bounce — a stale internal distribution address on a CC line."
+    }
+  },
+  {
+    "id": "c40f18c2e4b60018",
+    "thread_id": "c40f18c2e4b60018",
+    "profile_id": "finance",
+    "history_id": "752700",
+    "message_id_header": "<CAFc40f18c2e4b60018@mail.gmail.com>",
+    "in_reply_to": null,
+    "references": [],
+    "thread_position": 1,
+    "thread_length": 2,
+    "from": {
+      "name": "Aditi Sharma",
+      "email": "aditi.sharma@northwindrobotics.com"
+    },
+    "to": [
+      {
+        "name": "Kenji Watanabe",
+        "email": "kenji@watanabetax.com"
+      }
+    ],
+    "cc": [],
+    "bcc": [],
+    "delivered_to": null,
+    "subject": "Q2 estimated tax payment — quick question",
+    "snippet": "Kenji — for the Q2 federal estimate, are we still using the safe-harbor 110% of last year's liability, or did you want to true it up against the higher FY26 forecast? Trying to loc",
+    "body_text": "Kenji — for the Q2 federal estimate, are we still using the safe-harbor 110% of last year's liability, or did you want to true it up against the higher FY26 forecast? Trying to lock the number before Friday's cash forecast.\n\nAditi Sharma\nVP Finance, Northwind Robotics\naditi.sharma@northwindrobotics.com | (617) 555-0148\n",
+    "body_html": null,
+    "date": "2026-07-27T10:20:00-04:00",
+    "internal_date_ms": 1785162000000,
+    "folder": "SENT",
+    "category": null,
+    "is_unread": false,
+    "is_starred": false,
+    "is_important": false,
+    "user_labels": [],
+    "attachments": [],
+    "calendar_event": null,
+    "extra_headers": {},
+    "size_estimate": 2512,
+    "meta": {
+      "email_class": "genuine_work",
+      "tricky_tags": [],
+      "is_actionable_for_user": false,
+      "action_owner": "kenji@watanabetax.com",
+      "action_summary": "Kenji owes a call on the Q2 estimated tax methodology.",
+      "due_date": "2026-07-31",
+      "commitment_made_by_user": null,
+      "commitment_is_conditional": false,
+      "commitment_condition": null,
+      "superseded_by_message_id": null,
+      "notes": null
+    }
+  },
+  {
+    "id": "c40f18c2e4b60019",
+    "thread_id": "c40f18c2e4b60018",
+    "profile_id": "finance",
+    "history_id": "752701",
+    "message_id_header": "<c40f18c2e4b60019@watanabetax.com>",
+    "in_reply_to": "<CAFc40f18c2e4b60018@mail.gmail.com>",
+    "references": [
+      "<CAFc40f18c2e4b60018@mail.gmail.com>"
+    ],
+    "thread_position": 2,
+    "thread_length": 2,
+    "from": {
+      "name": "Kenji Watanabe",
+      "email": "kenji@watanabetax.com"
+    },
+    "to": [
+      {
+        "name": "Aditi Sharma",
+        "email": "aditi.sharma@northwindrobotics.com"
+      }
+    ],
+    "cc": [],
+    "bcc": [],
+    "delivered_to": "aditi.sharma@northwindrobotics.com",
+    "subject": "Automatic reply: Q2 estimated tax payment — quick question",
+    "snippet": "I am out of the office with limited email access until Monday, August 3rd. For anything time-sensitive before then, please contact my colleague Marie Suarez (marie@watanabetax.com)",
+    "body_text": "I am out of the office with limited email access until Monday, August 3rd. For anything time-sensitive before then, please contact my colleague Marie Suarez (marie@watanabetax.com). I'll respond to non-urgent messages when I'm back.\n",
+    "body_html": null,
+    "date": "2026-07-27T10:21:00-04:00",
+    "internal_date_ms": 1785162060000,
+    "folder": "INBOX",
+    "category": "CATEGORY_UPDATES",
+    "is_unread": true,
+    "is_starred": false,
+    "is_important": false,
+    "user_labels": [],
+    "attachments": [],
+    "calendar_event": null,
+    "extra_headers": {
+      "Auto-Submitted": "auto-replied",
+      "X-Auto-Response-Suppress": "All",
+      "Precedence": "bulk"
+    },
+    "size_estimate": 2512,
+    "meta": {
+      "email_class": "auto_reply",
+      "tricky_tags": [],
+      "is_actionable_for_user": false,
+      "action_owner": null,
+      "action_summary": null,
+      "due_date": null,
+      "commitment_made_by_user": null,
+      "commitment_is_conditional": false,
+      "commitment_condition": null,
+      "superseded_by_message_id": null,
+      "notes": "Out-of-office auto-reply from Kenji Watanabe, not a reply to the owner's own send in batch 6."
+    }
+  },
+  {
+    "id": "c40f18c2e4b60020",
+    "thread_id": "c40f18c2e4b60020",
+    "profile_id": "finance",
+    "history_id": "722500",
+    "message_id_header": "<CAFc40f18c2e4b60020@mail.gmail.com>",
+    "in_reply_to": null,
+    "references": [],
+    "thread_position": 1,
+    "thread_length": 2,
+    "from": {
+      "name": "Aditi Sharma",
+      "email": "aditi.sharma@northwindrobotics.com"
+    },
+    "to": [
+      {
+        "name": "Gail Underwood",
+        "email": "gunderwood@fairhavenrisk.com"
+      }
+    ],
+    "cc": [],
+    "bcc": [],
+    "delivered_to": null,
+    "subject": "D&O quote comparison",
+    "snippet": "Gail — did the second D&O quote come back from Chubb yet? Want to compare before we lock the September renewal budget.",
+    "body_text": "Gail — did the second D&O quote come back from Chubb yet? Want to compare before we lock the September renewal budget.\n",
+    "body_html": null,
+    "date": "2026-07-06T11:00:00-04:00",
+    "internal_date_ms": 1783350000000,
+    "folder": "SENT",
+    "category": null,
+    "is_unread": false,
+    "is_starred": false,
+    "is_important": false,
+    "user_labels": [],
+    "attachments": [],
+    "calendar_event": null,
+    "extra_headers": {},
+    "size_estimate": 2512,
+    "meta": {
+      "email_class": "genuine_work",
+      "tricky_tags": [],
+      "is_actionable_for_user": false,
+      "action_owner": "gunderwood@fairhavenrisk.com",
+      "action_summary": "Gail owes the second D&O quote for comparison.",
+      "due_date": "2026-07-10",
+      "commitment_made_by_user": null,
+      "commitment_is_conditional": false,
+      "commitment_condition": null,
+      "superseded_by_message_id": null,
+      "notes": null
+    }
+  },
+  {
+    "id": "c40f18c2e4b60021",
+    "thread_id": "c40f18c2e4b60020",
+    "profile_id": "finance",
+    "history_id": "722501",
+    "message_id_header": "<c40f18c2e4b60021@fairhavenrisk.com>",
+    "in_reply_to": "<CAFc40f18c2e4b60020@mail.gmail.com>",
+    "references": [
+      "<CAFc40f18c2e4b60020@mail.gmail.com>"
+    ],
+    "thread_position": 2,
+    "thread_length": 2,
+    "from": {
+      "name": "Gail Underwood",
+      "email": "gunderwood@fairhavenrisk.com"
+    },
+    "to": [
+      {
+        "name": "Aditi Sharma",
+        "email": "aditi.sharma@northwindrobotics.com"
+      }
+    ],
+    "cc": [],
+    "bcc": [],
+    "delivered_to": "aditi.sharma@northwindrobotics.com",
+    "subject": "Automatic reply: D&O quote comparison",
+    "snippet": "Thank you for your email. I am out of the office at an industry conference through July 10th with limited connectivity. For urgent binding or claims matters, please contact our ser",
+    "body_text": "Thank you for your email. I am out of the office at an industry conference through July 10th with limited connectivity. For urgent binding or claims matters, please contact our service team at service@fairhavenrisk.com. Otherwise I'll follow up as soon as I'm back.\n",
+    "body_html": null,
+    "date": "2026-07-06T11:01:00-04:00",
+    "internal_date_ms": 1783350060000,
+    "folder": "INBOX",
+    "category": "CATEGORY_UPDATES",
+    "is_unread": false,
+    "is_starred": false,
+    "is_important": false,
+    "user_labels": [],
+    "attachments": [],
+    "calendar_event": null,
+    "extra_headers": {
+      "Auto-Submitted": "auto-replied",
+      "X-Auto-Response-Suppress": "All",
+      "Precedence": "bulk"
+    },
+    "size_estimate": 2512,
+    "meta": {
+      "email_class": "auto_reply",
+      "tricky_tags": [],
+      "is_actionable_for_user": false,
+      "action_owner": null,
+      "action_summary": null,
+      "due_date": null,
+      "commitment_made_by_user": null,
+      "commitment_is_conditional": false,
+      "commitment_condition": null,
+      "superseded_by_message_id": null,
+      "notes": "Out-of-office auto-reply from Gail Underwood."
+    }
+  },
+  {
+    "id": "c40f18c2e4b60022",
+    "thread_id": "c40f18c2e4b60022",
+    "profile_id": "finance",
+    "history_id": "759835",
+    "message_id_header": "<CAFc40f18c2e4b60022@mail.gmail.com>",
+    "in_reply_to": null,
+    "references": [],
+    "thread_position": 1,
+    "thread_length": 2,
+    "from": {
+      "name": "Aditi Sharma",
+      "email": "aditi.sharma@northwindrobotics.com"
+    },
+    "to": [
+      {
+        "name": "Nadia Haddad",
+        "email": "nhaddad@pembertonwells.com"
+      }
+    ],
+    "cc": [],
+    "bcc": [],
+    "delivered_to": null,
+    "subject": "PBC list — a few line items need clarification",
+    "snippet": "Nadia — going through the draft PBC list. A couple of the fixed-asset items reference a schedule we haven't built (rollforward by asset class). Can we sync briefly before kickoff t",
+    "body_text": "Nadia — going through the draft PBC list. A couple of the fixed-asset items reference a schedule we haven't built (rollforward by asset class). Can we sync briefly before kickoff to scope that out?\n",
+    "body_html": null,
+    "date": "2026-08-01T09:15:00-04:00",
+    "internal_date_ms": 1785590100000,
+    "folder": "SENT",
+    "category": null,
+    "is_unread": false,
+    "is_starred": false,
+    "is_important": false,
+    "user_labels": [
+      "Label_4411"
+    ],
+    "attachments": [],
+    "calendar_event": null,
+    "extra_headers": {},
+    "size_estimate": 2512,
+    "meta": {
+      "email_class": "genuine_work",
+      "tricky_tags": [],
+      "is_actionable_for_user": false,
+      "action_owner": "nhaddad@pembertonwells.com",
+      "action_summary": "Nadia owes clarification on the fixed-asset PBC line items.",
+      "due_date": "2026-08-08",
+      "commitment_made_by_user": null,
+      "commitment_is_conditional": false,
+      "commitment_condition": null,
+      "superseded_by_message_id": null,
+      "notes": null
+    }
+  },
+  {
+    "id": "c40f18c2e4b60023",
+    "thread_id": "c40f18c2e4b60022",
+    "profile_id": "finance",
+    "history_id": "759836",
+    "message_id_header": "<c40f18c2e4b60023@pembertonwells.com>",
+    "in_reply_to": "<CAFc40f18c2e4b60022@mail.gmail.com>",
+    "references": [
+      "<CAFc40f18c2e4b60022@mail.gmail.com>"
+    ],
+    "thread_position": 2,
+    "thread_length": 2,
+    "from": {
+      "name": "Nadia Haddad",
+      "email": "nhaddad@pembertonwells.com"
+    },
+    "to": [
+      {
+        "name": "Aditi Sharma",
+        "email": "aditi.sharma@northwindrobotics.com"
+      }
+    ],
+    "cc": [],
+    "bcc": [],
+    "delivered_to": "aditi.sharma@northwindrobotics.com",
+    "subject": "Automatic reply: PBC list — a few line items need clarification",
+    "snippet": "I'm out of the office attending Pemberton & Wells' internal training week and will have limited email access through August 3rd. For anything urgent, please reach my manager, Priya",
+    "body_text": "I'm out of the office attending Pemberton & Wells' internal training week and will have limited email access through August 3rd. For anything urgent, please reach my manager, Priya Chandra (pchandra@pembertonwells.com). I'll pick this up as soon as I'm back — we're still on track for the kickoff.\n",
+    "body_html": null,
+    "date": "2026-08-01T09:16:00-04:00",
+    "internal_date_ms": 1785590160000,
+    "folder": "INBOX",
+    "category": "CATEGORY_UPDATES",
+    "is_unread": false,
+    "is_starred": false,
+    "is_important": false,
+    "user_labels": [
+      "Label_4411"
+    ],
+    "attachments": [],
+    "calendar_event": null,
+    "extra_headers": {
+      "Auto-Submitted": "auto-replied",
+      "X-Auto-Response-Suppress": "All",
+      "Precedence": "bulk"
+    },
+    "size_estimate": 2512,
+    "meta": {
+      "email_class": "auto_reply",
+      "tricky_tags": [],
+      "is_actionable_for_user": false,
+      "action_owner": null,
+      "action_summary": null,
+      "due_date": null,
+      "commitment_made_by_user": null,
+      "commitment_is_conditional": false,
+      "commitment_condition": null,
+      "superseded_by_message_id": null,
+      "notes": "Out-of-office auto-reply from Nadia Haddad, audit-season training."
+    }
+  },
+  {
+    "id": "c40f18c2e4b60024",
+    "thread_id": "c40f18c2e4b60024",
+    "profile_id": "finance",
+    "history_id": "772161",
+    "message_id_header": "<c40f18c2e4b60024@system.netsuite.com>",
+    "in_reply_to": null,
+    "references": [],
+    "thread_position": 1,
+    "thread_length": 1,
+    "from": {
+      "name": "NetSuite Security",
+      "email": "security@system.netsuite.com"
+    },
+    "to": [
+      {
+        "name": "Aditi Sharma",
+        "email": "aditi.sharma@northwindrobotics.com"
+      }
+    ],
+    "cc": [],
+    "bcc": [],
+    "delivered_to": "aditi.sharma@northwindrobotics.com",
+    "subject": "New sign-in to your NetSuite account",
+    "snippet": "We noticed a new sign-in to your NetSuite account (aditi.sharma@northwindrobotics.com) from a Windows device in Boston, MA at 10:41 PM ET. If this was you, no action is needed. If ",
+    "body_text": "We noticed a new sign-in to your NetSuite account (aditi.sharma@northwindrobotics.com) from a Windows device in Boston, MA at 10:41 PM ET. If this was you, no action is needed. If not, reset your password immediately.\n",
+    "body_html": null,
+    "date": "2026-08-09T22:41:00-04:00",
+    "internal_date_ms": 1786329660000,
+    "folder": "INBOX",
+    "category": "CATEGORY_UPDATES",
+    "is_unread": true,
+    "is_starred": false,
+    "is_important": false,
+    "user_labels": [],
+    "attachments": [],
+    "calendar_event": null,
+    "extra_headers": {},
+    "size_estimate": 2512,
+    "meta": {
+      "email_class": "security_alert",
+      "tricky_tags": [],
+      "is_actionable_for_user": true,
+      "action_owner": "aditi.sharma@northwindrobotics.com",
+      "action_summary": "Confirm the late sign-in was legitimate.",
+      "due_date": null,
+      "commitment_made_by_user": null,
+      "commitment_is_conditional": false,
+      "commitment_condition": null,
+      "superseded_by_message_id": null,
+      "notes": null
+    }
+  },
+  {
+    "id": "c40f18c2e4b60025",
+    "thread_id": "c40f18c2e4b60025",
+    "profile_id": "finance",
+    "history_id": "756592",
+    "message_id_header": "<c40f18c2e4b60025@accounts.google.com>",
+    "in_reply_to": null,
+    "references": [],
+    "thread_position": 1,
+    "thread_length": 1,
+    "from": {
+      "name": "Google",
+      "email": "no-reply@accounts.google.com"
+    },
+    "to": [
+      {
+        "name": "Aditi Sharma",
+        "email": "aditi.sharma@northwindrobotics.com"
+      }
+    ],
+    "cc": [],
+    "bcc": [],
+    "delivered_to": "aditi.sharma@northwindrobotics.com",
+    "subject": "Suspicious login attempt blocked",
+    "snippet": "Google blocked a sign-in attempt to your account aditi.sharma@northwindrobotics.com from an unrecognized device in Hanoi, Vietnam. If this wasn't you, we recommend reviewing your a",
+    "body_text": "Google blocked a sign-in attempt to your account aditi.sharma@northwindrobotics.com from an unrecognized device in Hanoi, Vietnam. If this wasn't you, we recommend reviewing your account's recent security activity and changing your password.\n",
+    "body_html": null,
+    "date": "2026-07-30T03:12:00-04:00",
+    "internal_date_ms": 1785395520000,
+    "folder": "INBOX",
+    "category": "CATEGORY_UPDATES",
+    "is_unread": false,
+    "is_starred": false,
+    "is_important": true,
+    "user_labels": [],
+    "attachments": [],
+    "calendar_event": null,
+    "extra_headers": {},
+    "size_estimate": 2512,
+    "meta": {
+      "email_class": "security_alert",
+      "tricky_tags": [],
+      "is_actionable_for_user": true,
+      "action_owner": "aditi.sharma@northwindrobotics.com",
+      "action_summary": "Review recent account activity and confirm no unauthorized access.",
+      "due_date": null,
+      "commitment_made_by_user": null,
+      "commitment_is_conditional": false,
+      "commitment_condition": null,
+      "superseded_by_message_id": null,
+      "notes": null
+    }
+  },
+  {
+    "id": "c40f18c2e4b60026",
+    "thread_id": "c40f18c2e4b60026",
+    "profile_id": "finance",
+    "history_id": "748770",
+    "message_id_header": "<c40f18c2e4b60026@bill.com>",
+    "in_reply_to": null,
+    "references": [],
+    "thread_position": 1,
+    "thread_length": 1,
+    "from": {
+      "name": "Bill.com",
+      "email": "notifications@bill.com"
+    },
+    "to": [
+      {
+        "name": "Aditi Sharma",
+        "email": "aditi.sharma@northwindrobotics.com"
+      }
+    ],
+    "cc": [],
+    "bcc": [],
+    "delivered_to": "aditi.sharma@northwindrobotics.com",
+    "subject": "Your Bill.com role was changed to Payment Approver",
+    "snippet": "Your role on the Northwind Robotics Bill.com account was changed by Karen Voss: you can now approve payment batches up to $250,000 without a secondary approver. If you did not expe",
+    "body_text": "Your role on the Northwind Robotics Bill.com account was changed by Karen Voss: you can now approve payment batches up to $250,000 without a secondary approver. If you did not expect this change, contact your account admin.\n",
+    "body_html": null,
+    "date": "2026-07-24T16:50:00-04:00",
+    "internal_date_ms": 1784926200000,
+    "folder": "INBOX",
+    "category": "CATEGORY_UPDATES",
+    "is_unread": false,
+    "is_starred": false,
+    "is_important": true,
+    "user_labels": [],
+    "attachments": [],
+    "calendar_event": null,
+    "extra_headers": {},
+    "size_estimate": 2512,
+    "meta": {
+      "email_class": "security_alert",
+      "tricky_tags": [],
+      "is_actionable_for_user": true,
+      "action_owner": "aditi.sharma@northwindrobotics.com",
+      "action_summary": "Confirm the permission change to sole payment-approver was expected.",
+      "due_date": null,
+      "commitment_made_by_user": null,
+      "commitment_is_conditional": false,
+      "commitment_condition": null,
+      "superseded_by_message_id": null,
+      "notes": null
+    }
+  },
+  {
+    "id": "c40f18c2e4b60027",
+    "thread_id": "c40f18c2e4b60027",
+    "profile_id": "finance",
+    "history_id": "735283",
+    "message_id_header": "<c40f18c2e4b60027@system.netsuite.com>",
+    "in_reply_to": null,
+    "references": [],
+    "thread_position": 1,
+    "thread_length": 1,
+    "from": {
+      "name": "NetSuite",
+      "email": "no-reply@system.netsuite.com"
+    },
+    "to": [
+      {
+        "name": "Aditi Sharma",
+        "email": "aditi.sharma@northwindrobotics.com"
+      }
+    ],
+    "cc": [],
+    "bcc": [],
+    "delivered_to": "aditi.sharma@northwindrobotics.com",
+    "subject": "Approval Needed: PO-10482 — Precision Servo Motors ($38,120.00)",
+    "snippet": "The following purchase order has been submitted and is pending your approval in NetSuite. PO-10482 — Requested by: Ruth Amankwah (VP Operations) Approval threshold: purchases over ",
+    "body_text": "The following purchase order has been submitted and is pending your approval in NetSuite.\n\nPO-10482 — Requested by: Ruth Amankwah (VP Operations)\nApproval threshold: purchases over $25,000 require VP Finance sign-off per the June expense-policy update.\n\nLine items:\n  PSM-4471 | Precision Servo Motors LLC | 220x NEMA-23 servo motor, 3-phase | $14,300.00\n  PSM-4471 | Precision Servo Motors LLC | Freight — LTL, 2 pallets | $1,180.00\n  BRG-1102 | Boston Bearing & Rail | 1,400x sealed ball bearing, 6205-2RS | $6,930.00\n  STL-9903 | Suffolk Steel Fabricators | Custom chassis brackets, 60 units | $9,840.00\n  STL-9903 | Suffolk Steel Fabricators | Powder coat finish, 60 units | $2,220.00\n  CTL-2280 | Cortland Cable & Wire | Shielded servo cable, 2,000 ft spool | $3,650.00\n\nSubtotal: $37,940.00\nSales tax (MA, est.): $180.00\nTotal: $38,120.00\n\nJustification from requester: \"Q3 production ramp for the new warehouse-picking arm line. Precision Servo and Suffolk Steel are both on our approved vendor list; Boston Bearing is a new vendor pending a W-9 on file with AP. Lead times are running 5-6 weeks on servo motors right now so we need to release this by end of week to hit the September ship date.\"\n\nBudget impact: this PO draws against the FY26 Ops capex line, which is currently at 71% utilization with two months remaining in the fiscal year. Approving this PO would bring utilization to roughly 84%, leaving a thin cushion for any late-cycle change orders on the picking-arm line before the fiscal year closes at the end of September.\n\nVendor notes: Precision Servo Motors and Suffolk Steel are both long-standing vendors with clean payment histories and net-30 terms already on file, so no additional AP setup is required for those two lines. Boston Bearing & Rail is new to Northwind this fiscal year — Ilya has their W-9 in hand but it has not yet been countersigned, so approving this PO will also trigger a parallel task in AP to finish onboarding them as a vendor before the invoice can be paid on the agreed net-30 terms. Cortland Cable & Wire is an existing vendor but this is a larger order than their typical run rate, roughly 3x the average of the last four purchase orders, which is expected given the picking-arm ramp but worth noting in case it trips any anomaly flags in next month's spend review.\n\nApproval history: this PO was reviewed and initialed by Ruth Amankwah on July 14th and does not require a secondary Ops sign-off before reaching Finance, since it falls under her existing delegation of authority for production-line capex up to $50,000. Your approval is the final step before the purchase orders are released to each vendor and lead times start counting.\n\nTo approve, decline, or request changes, log in to NetSuite and open the Purchase Order Approval queue. This notification was generated automatically and does not require a reply.\n",
+    "body_html": null,
+    "date": "2026-07-15T08:03:00-04:00",
+    "internal_date_ms": 1784116980000,
+    "folder": "INBOX",
+    "category": "CATEGORY_UPDATES",
+    "is_unread": false,
+    "is_starred": false,
+    "is_important": true,
+    "user_labels": [],
+    "attachments": [
+      {
+        "attachment_id": "ANGjdJ_zn5HmQCFxnWU81GDo7TH7kVq7WMOS2zSQrBNYw5aCnc",
+        "filename": "PO-10482_detail.pdf",
+        "mime_type": "application/pdf",
+        "size_bytes": 58000,
+        "is_inline": false,
+        "extracted_text": "PURCHASE ORDER PO-10482\nVendor: Precision Servo Motors LLC / Boston Bearing & Rail / Suffolk Steel Fabricators / Cortland Cable & Wire\nRequested by: Ruth Amankwah\nPSM-4471 - 220x NEMA-23 servo motor, 3-phase - $14,300.00\nPSM-4471 - Freight — LTL, 2 pallets - $1,180.00\nBRG-1102 - 1,400x sealed ball bearing, 6205-2RS - $6,930.00\nSTL-9903 - Custom chassis brackets, 60 units - $9,840.00\nSTL-9903 - Powder coat finish, 60 units - $2,220.00\nCTL-2280 - Shielded servo cable, 2,000 ft spool - $3,650.00\nSubtotal: $37,940.00\nTax: $180.00\nTotal: $38,120.00\nStatus: Pending VP Finance approval"
+      }
+    ],
+    "calendar_event": null,
+    "extra_headers": {},
+    "size_estimate": 86488,
+    "meta": {
+      "email_class": "automated_notification",
+      "tricky_tags": [],
+      "is_actionable_for_user": true,
+      "action_owner": "aditi.sharma@northwindrobotics.com",
+      "action_summary": "Approve or decline PO-10482 in NetSuite.",
+      "due_date": "2026-07-17",
+      "commitment_made_by_user": null,
+      "commitment_is_conditional": false,
+      "commitment_condition": null,
+      "superseded_by_message_id": null,
+      "notes": null
+    }
+  },
+  {
+    "id": "c40f18c2e4b60028",
+    "thread_id": "c40f18c2e4b60028",
+    "profile_id": "finance",
+    "history_id": "759745",
+    "message_id_header": "<c40f18c2e4b60028@system.netsuite.com>",
+    "in_reply_to": null,
+    "references": [],
+    "thread_position": 1,
+    "thread_length": 1,
+    "from": {
+      "name": "NetSuite",
+      "email": "no-reply@system.netsuite.com"
+    },
+    "to": [
+      {
+        "name": "Aditi Sharma",
+        "email": "aditi.sharma@northwindrobotics.com"
+      }
+    ],
+    "cc": [],
+    "bcc": [],
+    "delivered_to": "aditi.sharma@northwindrobotics.com",
+    "subject": "Approval Needed: Journal Entry JE-2291 — July Accrual Reversal",
+    "snippet": "Journal entry JE-2291 (July accrual reversal, $61,240.00 across 4 lines) was submitted by Miles Okonkwo and is pending your approval before the July period can be locked. Review in",
+    "body_text": "Journal entry JE-2291 (July accrual reversal, $61,240.00 across 4 lines) was submitted by Miles Okonkwo and is pending your approval before the July period can be locked. Review in NetSuite > Approvals.\n",
+    "body_html": null,
+    "date": "2026-08-01T07:45:00-04:00",
+    "internal_date_ms": 1785584700000,
+    "folder": "INBOX",
+    "category": "CATEGORY_UPDATES",
+    "is_unread": false,
+    "is_starred": false,
+    "is_important": false,
+    "user_labels": [],
+    "attachments": [],
+    "calendar_event": null,
+    "extra_headers": {},
+    "size_estimate": 2512,
+    "meta": {
+      "email_class": "automated_notification",
+      "tricky_tags": [],
+      "is_actionable_for_user": true,
+      "action_owner": "aditi.sharma@northwindrobotics.com",
+      "action_summary": "Approve JE-2291 so the July period can be locked.",
+      "due_date": "2026-08-02",
+      "commitment_made_by_user": null,
+      "commitment_is_conditional": false,
+      "commitment_condition": null,
+      "superseded_by_message_id": null,
+      "notes": null
+    }
+  },
+  {
+    "id": "c40f18c2e4b60029",
+    "thread_id": "c40f18c2e4b60029",
+    "profile_id": "finance",
+    "history_id": "767032",
+    "message_id_header": "<c40f18c2e4b60029@system.netsuite.com>",
+    "in_reply_to": null,
+    "references": [],
+    "thread_position": 1,
+    "thread_length": 1,
+    "from": {
+      "name": "NetSuite",
+      "email": "no-reply@system.netsuite.com"
+    },
+    "to": [
+      {
+        "name": "Aditi Sharma",
+        "email": "aditi.sharma@northwindrobotics.com"
+      }
+    ],
+    "cc": [],
+    "bcc": [],
+    "delivered_to": "aditi.sharma@northwindrobotics.com",
+    "subject": "Vendor Bill VB-33107 Approved by Karen Voss — Routed to You",
+    "snippet": "Vendor bill VB-33107 (Suffolk Steel Fabricators, $12,060.00) was approved by Karen Voss and routed to you for final sign-off per the two-tier approval workflow. Log in to NetSuite ",
+    "body_text": "Vendor bill VB-33107 (Suffolk Steel Fabricators, $12,060.00) was approved by Karen Voss and routed to you for final sign-off per the two-tier approval workflow. Log in to NetSuite to complete.\n",
+    "body_html": null,
+    "date": "2026-08-06T09:12:00-04:00",
+    "internal_date_ms": 1786021920000,
+    "folder": "INBOX",
+    "category": "CATEGORY_UPDATES",
+    "is_unread": false,
+    "is_starred": false,
+    "is_important": false,
+    "user_labels": [
+      "Label_4412"
+    ],
+    "attachments": [],
+    "calendar_event": null,
+    "extra_headers": {},
+    "size_estimate": 2512,
+    "meta": {
+      "email_class": "automated_notification",
+      "tricky_tags": [],
+      "is_actionable_for_user": true,
+      "action_owner": "aditi.sharma@northwindrobotics.com",
+      "action_summary": "Give final sign-off on vendor bill VB-33107.",
+      "due_date": "2026-08-07",
+      "commitment_made_by_user": null,
+      "commitment_is_conditional": false,
+      "commitment_condition": null,
+      "superseded_by_message_id": null,
+      "notes": null
+    }
+  },
+  {
+    "id": "c40f18c2e4b60030",
+    "thread_id": "c40f18c2e4b60030",
+    "profile_id": "finance",
+    "history_id": "768550",
+    "message_id_header": "<c40f18c2e4b60030@bill.com>",
+    "in_reply_to": null,
+    "references": [],
+    "thread_position": 1,
+    "thread_length": 1,
+    "from": {
+      "name": "Bill.com",
+      "email": "notifications@bill.com"
+    },
+    "to": [
+      {
+        "name": "Aditi Sharma",
+        "email": "aditi.sharma@northwindrobotics.com"
+      }
+    ],
+    "cc": [],
+    "bcc": [],
+    "delivered_to": "aditi.sharma@northwindrobotics.com",
+    "subject": "Payment Batch Ready for Approval — 14 vendors, $97,425.55",
+    "snippet": "A batch of 14 vendor payments totaling $97,425.55 is ready for your approval. Vendor | Amount | Terms | Due Precision Servo Motors LLC | $14,300.00 | Net 30 | Aug 9 Boston Bearing ",
+    "body_text": "A batch of 14 vendor payments totaling $97,425.55 is ready for your approval.\n\nVendor | Amount | Terms | Due\nPrecision Servo Motors LLC | $14,300.00 | Net 30 | Aug 9\nBoston Bearing & Rail | $6,930.00 | Net 30 | Aug 10\nSuffolk Steel Fabricators | $12,060.00 | Net 30 | Aug 9\nCortland Cable & Wire | $3,650.00 | Net 45 | Aug 21\nFairhaven Risk Partners | $4,180.00 | Due on receipt | Aug 7\nWeWork Boston — Seaport | $18,400.00 | Net 15 | Aug 9\nComcast Business | $1,240.00 | Net 15 | Aug 8\nStaples Business Advantage | $620.15 | Net 30 | Aug 20\nSequoia Payroll Services | $2,400.00 | Net 15 | Aug 9\nDatto Backup Solutions | $3,100.00 | Net 30 | Aug 25\nHarborline Bank — Wire Fees | $85.00 | Due on receipt | Aug 7\nRand McNally Freight Audit | $960.40 | Net 30 | Aug 18\nKenji Watanabe, CPA — Tax Advisory | $4,500.00 | Net 15 | Aug 12\nPemberton & Wells LLP — Audit Retainer | $25,000.00 | Due on receipt | Aug 8\n\nTwo items are worth a second look before you approve the batch. The Pemberton & Wells retainer ($25,000.00) is the first installment of the FY26 audit fee and is due on receipt per the engagement letter Karen countersigned last week. The WeWork Seaport payment ($18,400.00) reflects the quarterly true-up for the extra desks we added in June — Ruth flagged that headcount there should come down once the two open reqs backfill, so budget for this line to shrink next quarter.\n\nAll other vendors are recurring and match prior-month amounts within 3%. Bill.com will release ACH payments automatically 24 hours after approval unless you flag an exception. To review line-by-line detail or hold an individual payment, open the batch in Bill.com.\n\nA few more notes on this cycle: the Datto Backup Solutions line ($3,100.00) is a step up from last month's $2,400.00 because IT added an extra storage tier after the May ransomware scare at one of our suppliers — Omar signed off on that increase separately, so no action needed from you beyond the routine approval. The Rand McNally Freight Audit charge ($960.40) is a one-time true-up covering three shipments that were misclassified in June; Ilya has already reconciled it against the freight accrual so it will not double-count in next month's close. Kenji Watanabe's advisory invoice ($4,500.00) covers the Q2 estimated tax work and the nexus review Avalara flagged for Ohio, and is billed against the tax-advisory line in the FY26 budget rather than the audit line, so it will not affect the Pemberton & Wells retainer tracking.\n\nAs a reminder, anything held past its due date will accrue late fees per each vendor's standard terms, and Comcast Business in particular has a habit of escalating to a collections call within 48 hours of a missed due date, so that one is worth prioritizing if you only have time to review a subset of the batch today.\n\nThis is an automated notification from your Bill.com account. Please do not reply to this email.\n",
+    "body_html": null,
+    "date": "2026-08-07T10:30:00-04:00",
+    "internal_date_ms": 1786113000000,
+    "folder": "INBOX",
+    "category": "CATEGORY_UPDATES",
+    "is_unread": false,
+    "is_starred": false,
+    "is_important": true,
+    "user_labels": [
+      "Label_4412"
+    ],
+    "attachments": [
+      {
+        "attachment_id": "ANGjdJ_rlHu3onWaDRqNwL9LIKiuwe-wyDx5xOZ2jjcDcN1X34",
+        "filename": "payment_batch_20260807.csv",
+        "mime_type": "text/csv",
+        "size_bytes": 4400,
+        "is_inline": false,
+        "extracted_text": "vendor,amount,terms,due_date\n\"Precision Servo Motors LLC\",$14,300.00,\"Net 30\",Aug 9\n\"Boston Bearing & Rail\",$6,930.00,\"Net 30\",Aug 10\n\"Suffolk Steel Fabricators\",$12,060.00,\"Net 30\",Aug 9\n\"Cortland Cable & Wire\",$3,650.00,\"Net 45\",Aug 21\n\"Fairhaven Risk Partners\",$4,180.00,\"Due on receipt\",Aug 7\n\"WeWork Boston — Seaport\",$18,400.00,\"Net 15\",Aug 9\n\"Comcast Business\",$1,240.00,\"Net 15\",Aug 8\n\"Staples Business Advantage\",$620.15,\"Net 30\",Aug 20\n\"Sequoia Payroll Services\",$2,400.00,\"Net 15\",Aug 9\n\"Datto Backup Solutions\",$3,100.00,\"Net 30\",Aug 25\n\"Harborline Bank — Wire Fees\",$85.00,\"Due on receipt\",Aug 7\n\"Rand McNally Freight Audit\",$960.40,\"Net 30\",Aug 18\n\"Kenji Watanabe, CPA — Tax Advisory\",$4,500.00,\"Net 15\",Aug 12\n\"Pemberton & Wells LLP — Audit Retainer\",$25,000.00,\"Due on receipt\",Aug 8"
+      }
+    ],
+    "calendar_event": null,
+    "extra_headers": {},
+    "size_estimate": 15126,
+    "meta": {
+      "email_class": "automated_notification",
+      "tricky_tags": [],
+      "is_actionable_for_user": true,
+      "action_owner": "aditi.sharma@northwindrobotics.com",
+      "action_summary": "Approve or hold the Aug 7 vendor payment batch in Bill.com.",
+      "due_date": "2026-08-08",
+      "commitment_made_by_user": null,
+      "commitment_is_conditional": false,
+      "commitment_condition": null,
+      "superseded_by_message_id": null,
+      "notes": null
+    }
+  },
+  {
+    "id": "c40f18c2e4b60031",
+    "thread_id": "c40f18c2e4b60031",
+    "profile_id": "finance",
+    "history_id": "758335",
+    "message_id_header": "<c40f18c2e4b60031@bill.com>",
+    "in_reply_to": null,
+    "references": [],
+    "thread_position": 1,
+    "thread_length": 1,
+    "from": {
+      "name": "Bill.com",
+      "email": "notifications@bill.com"
+    },
+    "to": [
+      {
+        "name": "Aditi Sharma",
+        "email": "aditi.sharma@northwindrobotics.com"
+      }
+    ],
+    "cc": [],
+    "bcc": [],
+    "delivered_to": "aditi.sharma@northwindrobotics.com",
+    "subject": "Urgent: Payment Due Today — Fairhaven Risk Partners Invoice #INV-88213",
+    "snippet": "Invoice #INV-88213 from Fairhaven Risk Partners ($4,180.00) is due today and has not yet been approved. Approve now to avoid a late payment on the D&O policy installment.",
+    "body_text": "Invoice #INV-88213 from Fairhaven Risk Partners ($4,180.00) is due today and has not yet been approved. Approve now to avoid a late payment on the D&O policy installment.\n",
+    "body_html": null,
+    "date": "2026-07-31T08:15:00-04:00",
+    "internal_date_ms": 1785500100000,
+    "folder": "INBOX",
+    "category": "CATEGORY_UPDATES",
+    "is_unread": false,
+    "is_starred": false,
+    "is_important": false,
+    "user_labels": [],
+    "attachments": [],
+    "calendar_event": null,
+    "extra_headers": {},
+    "size_estimate": 2512,
+    "meta": {
+      "email_class": "automated_notification",
+      "tricky_tags": [],
+      "is_actionable_for_user": true,
+      "action_owner": "aditi.sharma@northwindrobotics.com",
+      "action_summary": "Approve the Fairhaven Risk payment before end of day to avoid a late fee.",
+      "due_date": "2026-07-31",
+      "commitment_made_by_user": null,
+      "commitment_is_conditional": false,
+      "commitment_condition": null,
+      "superseded_by_message_id": null,
+      "notes": null
+    }
+  },
+  {
+    "id": "c40f18c2e4b60032",
+    "thread_id": "c40f18c2e4b60032",
+    "profile_id": "finance",
+    "history_id": "748545",
+    "message_id_header": "<c40f18c2e4b60032@ramp.com>",
+    "in_reply_to": null,
+    "references": [],
+    "thread_position": 1,
+    "thread_length": 1,
+    "from": {
+      "name": "Ramp",
+      "email": "notifications@ramp.com"
+    },
+    "to": [
+      {
+        "name": "Aditi Sharma",
+        "email": "aditi.sharma@northwindrobotics.com"
+      }
+    ],
+    "cc": [],
+    "bcc": [],
+    "delivered_to": "aditi.sharma@northwindrobotics.com",
+    "subject": "Large transaction flagged: $6,240.00 at Delta Air Lines",
+    "snippet": "$6,240.00 charged to Derek Lang's Ramp card at Delta Air Lines. Flagged for review — tap to approve or dispute.",
+    "body_text": "$6,240.00 charged to Derek Lang's Ramp card at Delta Air Lines. Flagged for review — tap to approve or dispute.\n",
+    "body_html": null,
+    "date": "2026-07-24T13:05:00-04:00",
+    "internal_date_ms": 1784912700000,
+    "folder": "INBOX",
+    "category": "CATEGORY_UPDATES",
+    "is_unread": false,
+    "is_starred": false,
+    "is_important": false,
+    "user_labels": [],
+    "attachments": [],
+    "calendar_event": null,
+    "extra_headers": {},
+    "size_estimate": 2512,
+    "meta": {
+      "email_class": "automated_notification",
+      "tricky_tags": [],
+      "is_actionable_for_user": true,
+      "action_owner": "aditi.sharma@northwindrobotics.com",
+      "action_summary": "Review the flagged $6,240 Ramp charge on Derek Lang's card.",
+      "due_date": "2026-07-26",
+      "commitment_made_by_user": null,
+      "commitment_is_conditional": false,
+      "commitment_condition": null,
+      "superseded_by_message_id": null,
+      "notes": null
+    }
+  },
+  {
+    "id": "c40f18c2e4b60033",
+    "thread_id": "c40f18c2e4b60033",
+    "profile_id": "finance",
+    "history_id": "765720",
+    "message_id_header": "<c40f18c2e4b60033@ramp.com>",
+    "in_reply_to": null,
+    "references": [],
+    "thread_position": 1,
+    "thread_length": 1,
+    "from": {
+      "name": "Ramp",
+      "email": "notifications@ramp.com"
+    },
+    "to": [
+      {
+        "name": "Aditi Sharma",
+        "email": "aditi.sharma@northwindrobotics.com"
+      }
+    ],
+    "cc": [],
+    "bcc": [],
+    "delivered_to": "aditi.sharma@northwindrobotics.com",
+    "subject": "Card limit increase requested — Ruth Amankwah",
+    "snippet": "Ruth Amankwah has requested a monthly limit increase on her Ramp card from $5,000 to $12,000, citing increased vendor site-visit travel. Approve or deny in the Ramp admin console.",
+    "body_text": "Ruth Amankwah has requested a monthly limit increase on her Ramp card from $5,000 to $12,000, citing increased vendor site-visit travel. Approve or deny in the Ramp admin console.\n",
+    "body_html": null,
+    "date": "2026-08-05T11:20:00-04:00",
+    "internal_date_ms": 1785943200000,
+    "folder": "INBOX",
+    "category": "CATEGORY_UPDATES",
+    "is_unread": false,
+    "is_starred": false,
+    "is_important": false,
+    "user_labels": [],
+    "attachments": [],
+    "calendar_event": null,
+    "extra_headers": {},
+    "size_estimate": 2512,
+    "meta": {
+      "email_class": "automated_notification",
+      "tricky_tags": [],
+      "is_actionable_for_user": true,
+      "action_owner": "aditi.sharma@northwindrobotics.com",
+      "action_summary": "Approve or deny Ruth's Ramp limit increase request.",
+      "due_date": "2026-08-08",
+      "commitment_made_by_user": null,
+      "commitment_is_conditional": false,
+      "commitment_condition": null,
+      "superseded_by_message_id": null,
+      "notes": null
+    }
+  },
+  {
+    "id": "c40f18c2e4b60034",
+    "thread_id": "c40f18c2e4b60034",
+    "profile_id": "finance",
+    "history_id": "697900",
+    "message_id_header": "<c40f18c2e4b60034@ramp.com>",
+    "in_reply_to": null,
+    "references": [],
+    "thread_position": 1,
+    "thread_length": 1,
+    "from": {
+      "name": "Ramp",
+      "email": "notifications@ramp.com"
+    },
+    "to": [
+      {
+        "name": "Aditi Sharma",
+        "email": "aditi.sharma@northwindrobotics.com"
+      }
+    ],
+    "cc": [],
+    "bcc": [],
+    "delivered_to": "aditi.sharma@northwindrobotics.com",
+    "subject": "New virtual card issued for AWS",
+    "snippet": "A new virtual card was issued for the vendor \"Amazon Web Services\" with a $2,500/month limit, requested by Miles Okonkwo.",
+    "body_text": "A new virtual card was issued for the vendor \"Amazon Web Services\" with a $2,500/month limit, requested by Miles Okonkwo.\n",
+    "body_html": null,
+    "date": "2026-06-19T09:00:00-04:00",
+    "internal_date_ms": 1781874000000,
+    "folder": "INBOX",
+    "category": "CATEGORY_UPDATES",
+    "is_unread": false,
+    "is_starred": false,
+    "is_important": false,
+    "user_labels": [],
+    "attachments": [],
+    "calendar_event": null,
+    "extra_headers": {},
+    "size_estimate": 2512,
+    "meta": {
+      "email_class": "automated_notification",
+      "tricky_tags": [],
+      "is_actionable_for_user": false,
+      "action_owner": null,
+      "action_summary": null,
+      "due_date": null,
+      "commitment_made_by_user": null,
+      "commitment_is_conditional": false,
+      "commitment_condition": null,
+      "superseded_by_message_id": null,
+      "notes": "Routine card-issuance notice, no action needed."
+    }
+  },
+  {
+    "id": "c40f18c2e4b60035",
+    "thread_id": "c40f18c2e4b60035",
+    "profile_id": "finance",
+    "history_id": "738740",
+    "message_id_header": "<c40f18c2e4b60035@expensify.com>",
+    "in_reply_to": null,
+    "references": [],
+    "thread_position": 1,
+    "thread_length": 1,
+    "from": {
+      "name": "Expensify",
+      "email": "concierge@expensify.com"
+    },
+    "to": [
+      {
+        "name": "Aditi Sharma",
+        "email": "aditi.sharma@northwindrobotics.com"
+      }
+    ],
+    "cc": [],
+    "bcc": [],
+    "delivered_to": "aditi.sharma@northwindrobotics.com",
+    "subject": "Derek Lang submitted an expense report: $2,184.19",
+    "snippet": "Derek Lang submitted \"Detroit Auto Show — Client Visits\" for $2,184.19 (11 expenses, Jul 8-11). Per policy, reports over $2,000 require VP Finance approval. Review in Expensify.",
+    "body_text": "Derek Lang submitted \"Detroit Auto Show — Client Visits\" for $2,184.19 (11 expenses, Jul 8-11). Per policy, reports over $2,000 require VP Finance approval. Review in Expensify.\n",
+    "body_html": null,
+    "date": "2026-07-17T17:40:00-04:00",
+    "internal_date_ms": 1784324400000,
+    "folder": "INBOX",
+    "category": "CATEGORY_UPDATES",
+    "is_unread": false,
+    "is_starred": false,
+    "is_important": false,
+    "user_labels": [],
+    "attachments": [],
+    "calendar_event": null,
+    "extra_headers": {},
+    "size_estimate": 2512,
+    "meta": {
+      "email_class": "automated_notification",
+      "tricky_tags": [],
+      "is_actionable_for_user": true,
+      "action_owner": "aditi.sharma@northwindrobotics.com",
+      "action_summary": "Approve or reject Derek's $2,184.19 expense report.",
+      "due_date": "2026-07-24",
+      "commitment_made_by_user": null,
+      "commitment_is_conditional": false,
+      "commitment_condition": null,
+      "superseded_by_message_id": null,
+      "notes": null
+    }
+  },
+  {
+    "id": "c40f18c2e4b60036",
+    "thread_id": "c40f18c2e4b60036",
+    "profile_id": "finance",
+    "history_id": "727010",
+    "message_id_header": "<c40f18c2e4b60036@expensify.com>",
+    "in_reply_to": null,
+    "references": [],
+    "thread_position": 1,
+    "thread_length": 1,
+    "from": {
+      "name": "Expensify",
+      "email": "concierge@expensify.com"
+    },
+    "to": [
+      {
+        "name": "Aditi Sharma",
+        "email": "aditi.sharma@northwindrobotics.com"
+      }
+    ],
+    "cc": [],
+    "bcc": [],
+    "delivered_to": "aditi.sharma@northwindrobotics.com",
+    "subject": "Ruth Amankwah submitted an expense report: $612.40",
+    "snippet": "Ruth Amankwah submitted \"Vendor Site Visit — Suffolk Steel, Ohio\" for $612.40 (4 expenses, Jul 6-7). Under the $2,000 threshold — auto-routed to Karen Voss for approval, no action ",
+    "body_text": "Ruth Amankwah submitted \"Vendor Site Visit — Suffolk Steel, Ohio\" for $612.40 (4 expenses, Jul 6-7). Under the $2,000 threshold — auto-routed to Karen Voss for approval, no action needed from you.\n",
+    "body_html": null,
+    "date": "2026-07-09T14:10:00-04:00",
+    "internal_date_ms": 1783620600000,
+    "folder": "INBOX",
+    "category": "CATEGORY_UPDATES",
+    "is_unread": false,
+    "is_starred": false,
+    "is_important": false,
+    "user_labels": [],
+    "attachments": [],
+    "calendar_event": null,
+    "extra_headers": {},
+    "size_estimate": 2512,
+    "meta": {
+      "email_class": "automated_notification",
+      "tricky_tags": [],
+      "is_actionable_for_user": false,
+      "action_owner": "karen.voss@northwindrobotics.com",
+      "action_summary": null,
+      "due_date": null,
+      "commitment_made_by_user": null,
+      "commitment_is_conditional": false,
+      "commitment_condition": null,
+      "superseded_by_message_id": null,
+      "notes": "Below the VP Finance approval threshold; informational only."
+    }
+  },
+  {
+    "id": "c40f18c2e4b60037",
+    "thread_id": "c40f18c2e4b60037",
+    "profile_id": "finance",
+    "history_id": "758805",
+    "message_id_header": "<c40f18c2e4b60037@gusto.com>",
+    "in_reply_to": null,
+    "references": [],
+    "thread_position": 1,
+    "thread_length": 1,
+    "from": {
+      "name": "Gusto",
+      "email": "no-reply@gusto.com"
+    },
+    "to": [
+      {
+        "name": "Aditi Sharma",
+        "email": "aditi.sharma@northwindrobotics.com"
+      }
+    ],
+    "cc": [],
+    "bcc": [],
+    "delivered_to": "aditi.sharma@northwindrobotics.com",
+    "subject": "July 31 payroll run processed",
+    "snippet": "The July 31 payroll run has been processed: $412,880.10 net pay across 50 employees, plus $118,240.55 in employer taxes and benefits. Funds will be debited from your Harborline Ban",
+    "body_text": "The July 31 payroll run has been processed: $412,880.10 net pay across 50 employees, plus $118,240.55 in employer taxes and benefits. Funds will be debited from your Harborline Bank account on Aug 3. Full report available in Gusto.\n",
+    "body_html": null,
+    "date": "2026-07-31T16:05:00-04:00",
+    "internal_date_ms": 1785528300000,
+    "folder": "INBOX",
+    "category": "CATEGORY_UPDATES",
+    "is_unread": false,
+    "is_starred": false,
+    "is_important": true,
+    "user_labels": [],
+    "attachments": [],
+    "calendar_event": null,
+    "extra_headers": {},
+    "size_estimate": 2512,
+    "meta": {
+      "email_class": "automated_notification",
+      "tricky_tags": [],
+      "is_actionable_for_user": false,
+      "action_owner": null,
+      "action_summary": null,
+      "due_date": null,
+      "commitment_made_by_user": null,
+      "commitment_is_conditional": false,
+      "commitment_condition": null,
+      "superseded_by_message_id": null,
+      "notes": "Confirmation of a completed payroll run."
+    }
+  },
+  {
+    "id": "c40f18c2e4b60038",
+    "thread_id": "c40f18c2e4b60038",
+    "profile_id": "finance",
+    "history_id": "774220",
+    "message_id_header": "<c40f18c2e4b60038@gusto.com>",
+    "in_reply_to": null,
+    "references": [],
+    "thread_position": 1,
+    "thread_length": 1,
+    "from": {
+      "name": "Gusto",
+      "email": "no-reply@gusto.com"
+    },
+    "to": [
+      {
+        "name": "Aditi Sharma",
+        "email": "aditi.sharma@northwindrobotics.com"
+      }
+    ],
+    "cc": [],
+    "bcc": [],
+    "delivered_to": "aditi.sharma@northwindrobotics.com",
+    "subject": "Upcoming payroll: Aug 15 run — approve by Aug 13, 5pm ET",
+    "snippet": "Your next payroll run (pay date Aug 15) is ready for review. Estimated total: $418,910.40. Please approve by Thursday, Aug 13 at 5:00pm ET, or the run will not process on schedule.",
+    "body_text": "Your next payroll run (pay date Aug 15) is ready for review. Estimated total: $418,910.40. Please approve by Thursday, Aug 13 at 5:00pm ET, or the run will not process on schedule.\n",
+    "body_html": null,
+    "date": "2026-08-11T09:00:00-04:00",
+    "internal_date_ms": 1786453200000,
+    "folder": "INBOX",
+    "category": "CATEGORY_UPDATES",
+    "is_unread": true,
+    "is_starred": false,
+    "is_important": false,
+    "user_labels": [],
+    "attachments": [],
+    "calendar_event": null,
+    "extra_headers": {},
+    "size_estimate": 2512,
+    "meta": {
+      "email_class": "automated_notification",
+      "tricky_tags": [],
+      "is_actionable_for_user": true,
+      "action_owner": "aditi.sharma@northwindrobotics.com",
+      "action_summary": "Approve the Aug 15 payroll run in Gusto before the deadline.",
+      "due_date": "2026-08-13",
+      "commitment_made_by_user": null,
+      "commitment_is_conditional": false,
+      "commitment_condition": null,
+      "superseded_by_message_id": null,
+      "notes": null
+    }
+  },
+  {
+    "id": "c40f18c2e4b60039",
+    "thread_id": "c40f18c2e4b60039",
+    "profile_id": "finance",
+    "history_id": "737162",
+    "message_id_header": "<c40f18c2e4b60039@harborlinebank.com>",
+    "in_reply_to": null,
+    "references": [],
+    "thread_position": 1,
+    "thread_length": 1,
+    "from": {
+      "name": "Harborline Bank Alerts",
+      "email": "alerts@harborlinebank.com"
+    },
+    "to": [
+      {
+        "name": "Aditi Sharma",
+        "email": "aditi.sharma@northwindrobotics.com"
+      }
+    ],
+    "cc": [],
+    "bcc": [],
+    "delivered_to": "aditi.sharma@northwindrobotics.com",
+    "subject": "Outgoing wire confirmed: $250,000.00 to Precision Servo Motors LLC",
+    "snippet": "Your outgoing wire of $250,000.00 to Precision Servo Motors LLC (ref: NWR-Q3-DEPOSIT) has been confirmed and sent. Confirmation #HB-771402.",
+    "body_text": "Your outgoing wire of $250,000.00 to Precision Servo Motors LLC (ref: NWR-Q3-DEPOSIT) has been confirmed and sent. Confirmation #HB-771402.\n",
+    "body_html": null,
+    "date": "2026-07-16T15:22:00-04:00",
+    "internal_date_ms": 1784229720000,
+    "folder": "INBOX",
+    "category": "CATEGORY_UPDATES",
+    "is_unread": false,
+    "is_starred": false,
+    "is_important": false,
+    "user_labels": [],
+    "attachments": [],
+    "calendar_event": null,
+    "extra_headers": {},
+    "size_estimate": 2512,
+    "meta": {
+      "email_class": "automated_notification",
+      "tricky_tags": [],
+      "is_actionable_for_user": false,
+      "action_owner": null,
+      "action_summary": null,
+      "due_date": null,
+      "commitment_made_by_user": null,
+      "commitment_is_conditional": false,
+      "commitment_condition": null,
+      "superseded_by_message_id": null,
+      "notes": "Wire confirmation, informational."
+    }
+  },
+  {
+    "id": "c40f18c2e4b60040",
+    "thread_id": "c40f18c2e4b60040",
+    "profile_id": "finance",
+    "history_id": "764211",
+    "message_id_header": "<c40f18c2e4b60040@harborlinebank.com>",
+    "in_reply_to": null,
+    "references": [],
+    "thread_position": 1,
+    "thread_length": 1,
+    "from": {
+      "name": "Harborline Bank Alerts",
+      "email": "alerts@harborlinebank.com"
+    },
+    "to": [
+      {
+        "name": "Aditi Sharma",
+        "email": "aditi.sharma@northwindrobotics.com"
+      }
+    ],
+    "cc": [],
+    "bcc": [],
+    "delivered_to": "aditi.sharma@northwindrobotics.com",
+    "subject": "ACH credit received: $84,500.00 from Cascade Fulfillment Inc.",
+    "snippet": "An ACH credit of $84,500.00 was received from Cascade Fulfillment Inc., referencing invoice NWR-2291. Funds are available now.",
+    "body_text": "An ACH credit of $84,500.00 was received from Cascade Fulfillment Inc., referencing invoice NWR-2291. Funds are available now.\n",
+    "body_html": null,
+    "date": "2026-08-04T10:11:00-04:00",
+    "internal_date_ms": 1785852660000,
+    "folder": "INBOX",
+    "category": "CATEGORY_UPDATES",
+    "is_unread": false,
+    "is_starred": false,
+    "is_important": false,
+    "user_labels": [],
+    "attachments": [],
+    "calendar_event": null,
+    "extra_headers": {},
+    "size_estimate": 2512,
+    "meta": {
+      "email_class": "automated_notification",
+      "tricky_tags": [],
+      "is_actionable_for_user": false,
+      "action_owner": null,
+      "action_summary": null,
+      "due_date": null,
+      "commitment_made_by_user": null,
+      "commitment_is_conditional": false,
+      "commitment_condition": null,
+      "superseded_by_message_id": null,
+      "notes": "Incoming customer payment confirmation."
+    }
+  },
+  {
+    "id": "c40f18c2e4b60041",
+    "thread_id": "c40f18c2e4b60041",
+    "profile_id": "finance",
+    "history_id": "713920",
+    "message_id_header": "<c40f18c2e4b60041@carta.com>",
+    "in_reply_to": null,
+    "references": [],
+    "thread_position": 1,
+    "thread_length": 1,
+    "from": {
+      "name": "Carta",
+      "email": "notifications@carta.com"
+    },
+    "to": [
+      {
+        "name": "Aditi Sharma",
+        "email": "aditi.sharma@northwindrobotics.com"
+      }
+    ],
+    "cc": [],
+    "bcc": [],
+    "delivered_to": "aditi.sharma@northwindrobotics.com",
+    "subject": "Cap table updated: 12,500 options granted",
+    "snippet": "12,500 stock options were granted and recorded on the Northwind Robotics cap table (vesting starts Sep 1, 2026). View the updated table in Carta.",
+    "body_text": "12,500 stock options were granted and recorded on the Northwind Robotics cap table (vesting starts Sep 1, 2026). View the updated table in Carta.\n",
+    "body_html": null,
+    "date": "2026-06-30T12:00:00-04:00",
+    "internal_date_ms": 1782835200000,
+    "folder": "INBOX",
+    "category": "CATEGORY_UPDATES",
+    "is_unread": false,
+    "is_starred": false,
+    "is_important": false,
+    "user_labels": [],
+    "attachments": [],
+    "calendar_event": null,
+    "extra_headers": {},
+    "size_estimate": 2512,
+    "meta": {
+      "email_class": "automated_notification",
+      "tricky_tags": [],
+      "is_actionable_for_user": false,
+      "action_owner": null,
+      "action_summary": null,
+      "due_date": null,
+      "commitment_made_by_user": null,
+      "commitment_is_conditional": false,
+      "commitment_condition": null,
+      "superseded_by_message_id": null,
+      "notes": "Routine cap-table update, informational."
+    }
+  },
+  {
+    "id": "c40f18c2e4b60042",
+    "thread_id": "c40f18c2e4b60042",
+    "profile_id": "finance",
+    "history_id": "754090",
+    "message_id_header": "<c40f18c2e4b60042@carta.com>",
+    "in_reply_to": null,
+    "references": [],
+    "thread_position": 1,
+    "thread_length": 1,
+    "from": {
+      "name": "Carta",
+      "email": "notifications@carta.com"
+    },
+    "to": [
+      {
+        "name": "Aditi Sharma",
+        "email": "aditi.sharma@northwindrobotics.com"
+      }
+    ],
+    "cc": [],
+    "bcc": [],
+    "delivered_to": "aditi.sharma@northwindrobotics.com",
+    "subject": "Your 409A valuation report is ready for review",
+    "snippet": "The updated 409A valuation report ($4.85 fair market value per share, effective Jul 1) is ready for your review and sign-off before it can be finalized and used for new option gran",
+    "body_text": "The updated 409A valuation report ($4.85 fair market value per share, effective Jul 1) is ready for your review and sign-off before it can be finalized and used for new option grants.\n",
+    "body_html": null,
+    "date": "2026-07-28T09:30:00-04:00",
+    "internal_date_ms": 1785245400000,
+    "folder": "INBOX",
+    "category": "CATEGORY_UPDATES",
+    "is_unread": false,
+    "is_starred": false,
+    "is_important": true,
+    "user_labels": [],
+    "attachments": [],
+    "calendar_event": null,
+    "extra_headers": {},
+    "size_estimate": 2512,
+    "meta": {
+      "email_class": "automated_notification",
+      "tricky_tags": [],
+      "is_actionable_for_user": true,
+      "action_owner": "aditi.sharma@northwindrobotics.com",
+      "action_summary": "Review and sign off on the new 409A valuation.",
+      "due_date": "2026-08-04",
+      "commitment_made_by_user": null,
+      "commitment_is_conditional": false,
+      "commitment_condition": null,
+      "superseded_by_message_id": null,
+      "notes": null
+    }
+  },
+  {
+    "id": "c40f18c2e4b60043",
+    "thread_id": "c40f18c2e4b60043",
+    "profile_id": "finance",
+    "history_id": "769840",
+    "message_id_header": "<c40f18c2e4b60043@avalara.com>",
+    "in_reply_to": null,
+    "references": [],
+    "thread_position": 1,
+    "thread_length": 1,
+    "from": {
+      "name": "Avalara",
+      "email": "notifications@avalara.com"
+    },
+    "to": [
+      {
+        "name": "Aditi Sharma",
+        "email": "aditi.sharma@northwindrobotics.com"
+      }
+    ],
+    "cc": [],
+    "bcc": [],
+    "delivered_to": "aditi.sharma@northwindrobotics.com",
+    "subject": "Sales tax filing due: Massachusetts — Aug 20",
+    "snippet": "Your Massachusetts sales and use tax return is due Aug 20, 2026. Estimated liability based on June/July transactions: $9,412.60. Log in to Avalara to review and file.",
+    "body_text": "Your Massachusetts sales and use tax return is due Aug 20, 2026. Estimated liability based on June/July transactions: $9,412.60. Log in to Avalara to review and file.\n",
+    "body_html": null,
+    "date": "2026-08-08T08:00:00-04:00",
+    "internal_date_ms": 1786190400000,
+    "folder": "INBOX",
+    "category": "CATEGORY_UPDATES",
+    "is_unread": true,
+    "is_starred": true,
+    "is_important": true,
+    "user_labels": [],
+    "attachments": [],
+    "calendar_event": null,
+    "extra_headers": {},
+    "size_estimate": 2512,
+    "meta": {
+      "email_class": "automated_notification",
+      "tricky_tags": [],
+      "is_actionable_for_user": true,
+      "action_owner": "aditi.sharma@northwindrobotics.com",
+      "action_summary": "Review and file the Massachusetts sales tax return.",
+      "due_date": "2026-08-20",
+      "commitment_made_by_user": null,
+      "commitment_is_conditional": false,
+      "commitment_condition": null,
+      "superseded_by_message_id": null,
+      "notes": null
+    }
+  },
+  {
+    "id": "c40f18c2e4b60044",
+    "thread_id": "c40f18c2e4b60044",
+    "profile_id": "finance",
+    "history_id": "705040",
+    "message_id_header": "<c40f18c2e4b60044@avalara.com>",
+    "in_reply_to": null,
+    "references": [],
+    "thread_position": 1,
+    "thread_length": 1,
+    "from": {
+      "name": "Avalara",
+      "email": "notifications@avalara.com"
+    },
+    "to": [
+      {
+        "name": "Aditi Sharma",
+        "email": "aditi.sharma@northwindrobotics.com"
+      }
+    ],
+    "cc": [],
+    "bcc": [],
+    "delivered_to": "aditi.sharma@northwindrobotics.com",
+    "subject": "Nexus alert: Ohio economic nexus threshold reached",
+    "snippet": "Based on your transaction volume, Northwind Robotics has reached the economic nexus threshold in Ohio ($100,000 in sales over the trailing 12 months). You may now be required to re",
+    "body_text": "Based on your transaction volume, Northwind Robotics has reached the economic nexus threshold in Ohio ($100,000 in sales over the trailing 12 months). You may now be required to register and collect sales tax there. Review the nexus study in Avalara for next steps.\n",
+    "body_html": null,
+    "date": "2026-06-24T08:00:00-04:00",
+    "internal_date_ms": 1782302400000,
+    "folder": "INBOX",
+    "category": "CATEGORY_UPDATES",
+    "is_unread": false,
+    "is_starred": false,
+    "is_important": false,
+    "user_labels": [],
+    "attachments": [],
+    "calendar_event": null,
+    "extra_headers": {},
+    "size_estimate": 2512,
+    "meta": {
+      "email_class": "automated_notification",
+      "tricky_tags": [],
+      "is_actionable_for_user": true,
+      "action_owner": "aditi.sharma@northwindrobotics.com",
+      "action_summary": "Evaluate whether to register for Ohio sales tax collection.",
+      "due_date": "2026-07-24",
+      "commitment_made_by_user": null,
+      "commitment_is_conditional": false,
+      "commitment_condition": null,
+      "superseded_by_message_id": null,
+      "notes": null
+    }
+  },
+  {
+    "id": "c40f18c2e4b60045",
+    "thread_id": "c40f18c2e4b60045",
+    "profile_id": "finance",
+    "history_id": "774387",
+    "message_id_header": "<c40f18c2e4b60045@docusign.net>",
+    "in_reply_to": null,
+    "references": [],
+    "thread_position": 1,
+    "thread_length": 1,
+    "from": {
+      "name": "DocuSign",
+      "email": "dse@docusign.net"
+    },
+    "to": [
+      {
+        "name": "Aditi Sharma",
+        "email": "aditi.sharma@northwindrobotics.com"
+      }
+    ],
+    "cc": [],
+    "bcc": [],
+    "delivered_to": "aditi.sharma@northwindrobotics.com",
+    "subject": "Please DocuSign: Credit Facility Amendment — Harborline Bank",
+    "snippet": "Frank Mireles sent you a document to review and sign: \"Northwind Robotics — Third Amendment to Credit Agreement.\" Message from sender: \"Aditi — final redline attached per our call.",
+    "body_text": "Frank Mireles sent you a document to review and sign: \"Northwind Robotics — Third Amendment to Credit Agreement.\" Message from sender: \"Aditi — final redline attached per our call. Please sign and return by Friday so we can fund the increased revolver in time for the September draw.\" Review Documents.\n",
+    "body_html": null,
+    "date": "2026-08-11T11:47:00-04:00",
+    "internal_date_ms": 1786463220000,
+    "folder": "INBOX",
+    "category": "CATEGORY_UPDATES",
+    "is_unread": true,
+    "is_starred": true,
+    "is_important": true,
+    "user_labels": [],
+    "attachments": [],
+    "calendar_event": null,
+    "extra_headers": {},
+    "size_estimate": 2512,
+    "meta": {
+      "email_class": "automated_notification",
+      "tricky_tags": [],
+      "is_actionable_for_user": true,
+      "action_owner": "aditi.sharma@northwindrobotics.com",
+      "action_summary": "Sign the credit facility amendment via DocuSign.",
+      "due_date": "2026-08-14",
+      "commitment_made_by_user": null,
+      "commitment_is_conditional": false,
+      "commitment_condition": null,
+      "superseded_by_message_id": null,
+      "notes": null
+    }
+  },
+  {
+    "id": "c40f18c2e4b60046",
+    "thread_id": "c40f18c2e4b60046",
+    "profile_id": "finance",
+    "history_id": "775665",
+    "message_id_header": "<c40f18c2e4b60046@docusign.net>",
+    "in_reply_to": null,
+    "references": [],
+    "thread_position": 1,
+    "thread_length": 1,
+    "from": {
+      "name": "DocuSign",
+      "email": "dse@docusign.net"
+    },
+    "to": [
+      {
+        "name": "Aditi Sharma",
+        "email": "aditi.sharma@northwindrobotics.com"
+      }
+    ],
+    "cc": [],
+    "bcc": [],
+    "delivered_to": "aditi.sharma@northwindrobotics.com",
+    "subject": "Completed: Credit Facility Amendment — Harborline Bank",
+    "snippet": "All parties have signed \"Northwind Robotics — Third Amendment to Credit Agreement.\" A copy of the completed, signed document is attached to this email for your records.",
+    "body_text": "All parties have signed \"Northwind Robotics — Third Amendment to Credit Agreement.\" A copy of the completed, signed document is attached to this email for your records.\n",
+    "body_html": null,
+    "date": "2026-08-12T09:05:00-04:00",
+    "internal_date_ms": 1786539900000,
+    "folder": "INBOX",
+    "category": "CATEGORY_UPDATES",
+    "is_unread": true,
+    "is_starred": false,
+    "is_important": true,
+    "user_labels": [],
+    "attachments": [],
+    "calendar_event": null,
+    "extra_headers": {},
+    "size_estimate": 2512,
+    "meta": {
+      "email_class": "automated_notification",
+      "tricky_tags": [],
+      "is_actionable_for_user": false,
+      "action_owner": null,
+      "action_summary": null,
+      "due_date": null,
+      "commitment_made_by_user": null,
+      "commitment_is_conditional": false,
+      "commitment_condition": null,
+      "superseded_by_message_id": null,
+      "notes": "Fully executed credit facility amendment; informational."
+    }
+  },
+  {
+    "id": "c40f18c2e4b60047",
+    "thread_id": "c40f18c2e4b60047",
+    "profile_id": "finance",
+    "history_id": "730210",
+    "message_id_header": "<c40f18c2e4b60047@system.netsuite.com>",
+    "in_reply_to": null,
+    "references": [],
+    "thread_position": 1,
+    "thread_length": 1,
+    "from": {
+      "name": "NetSuite Security",
+      "email": "security@system.netsuite.com"
+    },
+    "to": [
+      {
+        "name": "Aditi Sharma",
+        "email": "aditi.sharma@northwindrobotics.com"
+      }
+    ],
+    "cc": [],
+    "bcc": [],
+    "delivered_to": "aditi.sharma@northwindrobotics.com",
+    "subject": "Your NetSuite password was changed",
+    "snippet": "This confirms the password for your NetSuite account (aditi.sharma@northwindrobotics.com) was changed on Jul 11, 2026 at 7:30 PM ET. If you didn't make this change, contact your ac",
+    "body_text": "This confirms the password for your NetSuite account (aditi.sharma@northwindrobotics.com) was changed on Jul 11, 2026 at 7:30 PM ET. If you didn't make this change, contact your account administrator immediately.\n",
+    "body_html": null,
+    "date": "2026-07-11T19:30:00-04:00",
+    "internal_date_ms": 1783812600000,
+    "folder": "INBOX",
+    "category": "CATEGORY_UPDATES",
+    "is_unread": false,
+    "is_starred": false,
+    "is_important": false,
+    "user_labels": [],
+    "attachments": [],
+    "calendar_event": null,
+    "extra_headers": {},
+    "size_estimate": 2512,
+    "meta": {
+      "email_class": "automated_notification",
+      "tricky_tags": [],
+      "is_actionable_for_user": false,
+      "action_owner": null,
+      "action_summary": null,
+      "due_date": null,
+      "commitment_made_by_user": null,
+      "commitment_is_conditional": false,
+      "commitment_condition": null,
+      "superseded_by_message_id": null,
+      "notes": "Routine password-change confirmation."
+    }
+  },
+  {
+    "id": "c40f18c2e4b60048",
+    "thread_id": "c40f18c2e4b60048",
+    "profile_id": "finance",
+    "history_id": "761080",
+    "message_id_header": "<c40f18c2e4b60048@google.com>",
+    "in_reply_to": null,
+    "references": [],
+    "thread_position": 1,
+    "thread_length": 1,
+    "from": {
+      "name": "Google Workspace",
+      "email": "workspace-noreply@google.com"
+    },
+    "to": [
+      {
+        "name": "Aditi Sharma",
+        "email": "aditi.sharma@northwindrobotics.com"
+      }
+    ],
+    "cc": [],
+    "bcc": [],
+    "delivered_to": "aditi.sharma@northwindrobotics.com",
+    "subject": "Google Workspace storage 92% full for northwindrobotics.com",
+    "snippet": "Your organization's Google Workspace storage is 92% full (18.4 TB of 20 TB used). Your Workspace admin should review storage usage or purchase additional capacity to avoid disrupti",
+    "body_text": "Your organization's Google Workspace storage is 92% full (18.4 TB of 20 TB used). Your Workspace admin should review storage usage or purchase additional capacity to avoid disruptions to Gmail and Drive.\n",
+    "body_html": null,
+    "date": "2026-08-02T06:00:00-04:00",
+    "internal_date_ms": 1785664800000,
+    "folder": "INBOX",
+    "category": "CATEGORY_UPDATES",
+    "is_unread": false,
+    "is_starred": false,
+    "is_important": false,
+    "user_labels": [],
+    "attachments": [],
+    "calendar_event": null,
+    "extra_headers": {},
+    "size_estimate": 2512,
+    "meta": {
+      "email_class": "automated_notification",
+      "tricky_tags": [],
+      "is_actionable_for_user": false,
+      "action_owner": null,
+      "action_summary": null,
+      "due_date": null,
+      "commitment_made_by_user": null,
+      "commitment_is_conditional": false,
+      "commitment_condition": null,
+      "superseded_by_message_id": null,
+      "notes": "Org-wide storage warning; not the profile owner's responsibility."
+    }
+  },
+  {
+    "id": "c40f18c2e4b60049",
+    "thread_id": "c40f18c2e4b60049",
+    "profile_id": "finance",
+    "history_id": "732820",
+    "message_id_header": "<c40f18c2e4b60049@google.com>",
+    "in_reply_to": null,
+    "references": [],
+    "thread_position": 1,
+    "thread_length": 1,
+    "from": {
+      "name": "Google Drive",
+      "email": "drive-shares-noreply@google.com"
+    },
+    "to": [
+      {
+        "name": "Aditi Sharma",
+        "email": "aditi.sharma@northwindrobotics.com"
+      }
+    ],
+    "cc": [],
+    "bcc": [],
+    "delivered_to": "aditi.sharma@northwindrobotics.com",
+    "subject": "Kenji Watanabe shared \"NWR_Q2_Estimated_Tax_Workpaper.pdf\" with you",
+    "snippet": "Kenji Watanabe (kenji@watanabetax.com) shared the file \"NWR_Q2_Estimated_Tax_Workpaper.pdf\" with you on Google Drive. Open in Drive.",
+    "body_text": "Kenji Watanabe (kenji@watanabetax.com) shared the file \"NWR_Q2_Estimated_Tax_Workpaper.pdf\" with you on Google Drive. Open in Drive.\n",
+    "body_html": null,
+    "date": "2026-07-13T15:00:00-04:00",
+    "internal_date_ms": 1783969200000,
+    "folder": "INBOX",
+    "category": "CATEGORY_UPDATES",
+    "is_unread": false,
+    "is_starred": false,
+    "is_important": false,
+    "user_labels": [],
+    "attachments": [],
+    "calendar_event": null,
+    "extra_headers": {},
+    "size_estimate": 2512,
+    "meta": {
+      "email_class": "automated_notification",
+      "tricky_tags": [],
+      "is_actionable_for_user": true,
+      "action_owner": "aditi.sharma@northwindrobotics.com",
+      "action_summary": "Review the Q2 estimated tax workpaper Kenji shared.",
+      "due_date": "2026-07-20",
+      "commitment_made_by_user": null,
+      "commitment_is_conditional": false,
+      "commitment_condition": null,
+      "superseded_by_message_id": null,
+      "notes": null
+    }
+  },
+  {
+    "id": "c40f18c2e4b60050",
+    "thread_id": "c40f18c2e4b60050",
+    "profile_id": "finance",
+    "history_id": "725395",
+    "message_id_header": "<CAFc40f18c2e4b60050@mail.gmail.com>",
+    "in_reply_to": null,
+    "references": [],
+    "thread_position": 1,
+    "thread_length": 1,
+    "from": {
+      "name": "Northwind IT Helpdesk",
+      "email": "it-helpdesk@northwindrobotics.com"
+    },
+    "to": [
+      {
+        "name": "Aditi Sharma",
+        "email": "aditi.sharma@northwindrobotics.com"
+      }
+    ],
+    "cc": [],
+    "bcc": [],
+    "delivered_to": "aditi.sharma@northwindrobotics.com",
+    "subject": "Ticket #4521 update: NetSuite SSO access restored",
+    "snippet": "Your ticket #4521 (\"Can't log in to NetSuite via SSO\") has been resolved. Access was restored after an Okta group sync issue was fixed. Reply to reopen if the issue recurs.",
+    "body_text": "Your ticket #4521 (\"Can't log in to NetSuite via SSO\") has been resolved. Access was restored after an Okta group sync issue was fixed. Reply to reopen if the issue recurs.\n",
+    "body_html": null,
+    "date": "2026-07-08T11:15:00-04:00",
+    "internal_date_ms": 1783523700000,
+    "folder": "INBOX",
+    "category": "CATEGORY_UPDATES",
+    "is_unread": false,
+    "is_starred": false,
+    "is_important": false,
+    "user_labels": [],
+    "attachments": [],
+    "calendar_event": null,
+    "extra_headers": {},
+    "size_estimate": 2512,
+    "meta": {
+      "email_class": "automated_notification",
+      "tricky_tags": [],
+      "is_actionable_for_user": false,
+      "action_owner": null,
+      "action_summary": null,
+      "due_date": null,
+      "commitment_made_by_user": null,
+      "commitment_is_conditional": false,
+      "commitment_condition": null,
+      "superseded_by_message_id": null,
+      "notes": "Resolved IT ticket, informational."
+    }
+  }
+]

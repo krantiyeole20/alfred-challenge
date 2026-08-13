@@ -1,0 +1,90 @@
+{
+  "profile_id": "finance",
+  "question": "q3_waiting_on_me",
+  "items_reviewed": 12,
+  "verdict": "issues",
+  "findings": [
+    {
+      "type": "missed_item",
+      "severity": "high",
+      "item_id": null,
+      "message_ids": ["c60f18c2e4b60010", "c60f18c2e4b60011"],
+      "problem": "Gail Underwood's FY27 warehouse property & casualty renewal quote ($58,400, effective Sept 1) has never been answered — she resent it on Jul 1 asking whether Aditi wants it shopped against a second carrier, with a hard Aug 15 deadline to bind, and no reply exists anywhere in the mailbox; this is the mailbox's planted duplicate_resend, which the Q3 traps matrix says must appear as one boosted entry, yet it is absent from both items and must_not_include.",
+      "evidence": "c60f18c2e4b60011: \"Resending — did this reach you? Wanted to make sure you have the renewal quote before the August 15 deadline to bind. Same numbers as Tuesday: $58,400 annual premium, effective September 1.\" The original ask is c60f18c2e4b60010: \"Let me know if you want to shop it against a second carrier before we lock it in; happy to run that in parallel if there's time.\"",
+      "recommended_action": "add new item with these fields — tier must_include, claim: 'Gail Underwood is waiting on a decision on the FY27 warehouse property & casualty renewal ($58,400, up from $52,100) — whether to remarket it or bind with the incumbent before the Aug 15 deadline; she asked Jun 29, resent Jul 1, and has had no answer', thread_id c60f18c2e4b60010, anchor_message_id c60f18c2e4b60011, message_ids [c60f18c2e4b60010, c60f18c2e4b60011], evidence_quote 'Wanted to make sure you have the renewal quote before the August 15 deadline to bind.', counterparty gunderwood@fairhavenrisk.com, due_date 2026-08-15, due_basis explicit, days_open 42, consequence high, tricky_tags [duplicate_resend]; rank it around 3-4 (42 days blocked, external counterparty, deadline three days out). Note the one mitigating fact: on Jul 31 (c50f18c2e4b60026) Aditi introduced Gail to Ruth 'on the property/liability renewal' — that delegates the underwriting conversation but not the bind/remarket decision, which is still hers."
+    },
+    {
+      "type": "false_positive",
+      "severity": "high",
+      "item_id": "finance-q3-09",
+      "message_ids": ["c40f18c2e4b60028", "c60f18c2e4b60044", "c50f18c2e4b60022", "c60f18c2e4b60049"],
+      "problem": "The JE-2291 / July GL close approval is closed: the only thing it blocks is the July period lock, and Aditi's own Aug 7 SENT recap states the July close was finalised on Aug 6, six days before the as-of moment.",
+      "evidence": "c40f18c2e4b60028 states the blocker: \"pending your approval before the July period can be locked\". c50f18c2e4b60022 (SENT, Aug 7): \"July close is final as of yesterday, and I want to give everyone the same picture before we start FY27 budget season\". Corroborated by c60f18c2e4b60049 (Karen, Aug 7): \"Trial balance attached, ties out to the $1.92M opex figure we sent the board for Customer Support and everything else on the close checklist.\"",
+      "recommended_action": "remove item | move to must_not_include with trap 'already-completed' and why_excluded 'JE-2291 gates the July period lock; Aditi's own Aug 7 note says July close is final as of Aug 6, so the approval is no longer outstanding.' Also drop finance-q3-09 from ranked."
+    },
+    {
+      "type": "double_counted",
+      "severity": "medium",
+      "item_id": "finance-q3-10",
+      "message_ids": ["c40f18c2e4b60029", "c40f18c2e4b60030"],
+      "problem": "VB-33107 and the Bill.com batch are the same $12,060 payable to Suffolk Steel Fabricators counted twice — the bill routed to Aditi in NetSuite on Aug 6 appears the next morning as a line inside the payment batch that is item finance-q3-04, which also indicates the vendor-bill step already cleared.",
+      "evidence": "c40f18c2e4b60029: \"Vendor bill VB-33107 (Suffolk Steel Fabricators, $12,060.00) was approved by Karen Voss and routed to you for final sign-off per the two-tier approval workflow.\" c40f18c2e4b60030 (next day) lists among the 14 payments: \"Suffolk Steel Fabricators | $12,060.00 | Net 30 | Aug 9\".",
+      "recommended_action": "remove item and fold its message_id into finance-q3-04's message_ids | move to must_not_include with trap 'already-actioned'. Secondary defect if it is kept: its due_date '2026-08-07' with due_basis 'explicit' is unsupported — c40f18c2e4b60029 contains no date at all."
+    },
+    {
+      "type": "stale_fact",
+      "severity": "medium",
+      "item_id": "finance-q3-02",
+      "message_ids": ["c60f18c2e4b60046", "c40f18c2e4b60045", "c40f18c2e4b60046"],
+      "problem": "The claim still lists 'the executed amendment' as one of three things Frank Mireles is waiting for, but the Third Amendment to the Credit Agreement was signed by all parties on Aug 12 at 09:05, before the as-of moment; only the updated FY27 financials and the June AR aging remain outstanding.",
+      "evidence": "c40f18c2e4b60046 (Aug 12, 09:05): \"All parties have signed \\\"Northwind Robotics — Third Amendment to Credit Agreement.\\\" A copy of the completed, signed document is attached to this email for your records.\" The envelope came from Frank himself — c40f18c2e4b60045: \"Frank Mireles sent you a document to review and sign\".",
+      "recommended_action": "fix claim to 'Frank Mireles is waiting on the updated FY27 financials and the June AR aging for Harborline's credit committee by Aug 18 (the executed amendment was completed in DocuSign on Aug 12).' Add c40f18c2e4b60046 to message_ids. The item stays must_include; only the content of the claim is stale."
+    },
+    {
+      "type": "missed_item",
+      "severity": "medium",
+      "item_id": null,
+      "message_ids": ["c40f18c2e4b60035"],
+      "problem": "Derek Lang's $2,184.19 'Detroit Auto Show — Client Visits' expense report has been sitting in Aditi's VP-Finance approval queue since Jul 17 with no closing message anywhere in the mailbox — the identical pattern to finance-q3-05 (Derek's $4,230 report) and finance-q3-12 (Ruth's Ramp limit), both of which the set includes.",
+      "evidence": "c40f18c2e4b60035: \"Derek Lang submitted \\\"Detroit Auto Show — Client Visits\\\" for $2,184.19 (11 expenses, Jul 8-11). Per policy, reports over $2,000 require VP Finance approval. Review in Expensify.\" Contrast the report the set does include, c40f18c2e4b60036: \"Under the $2,000 threshold — auto-routed to Karen Voss for approval, no action needed\" — the corpus draws the line explicitly, and this one falls on Aditi's side of it.",
+      "recommended_action": "add new item with these fields — tier borderline (or acceptable), claim: 'Derek Lang has been waiting since Jul 17 for VP Finance approval of his $2,184.19 Detroit Auto Show expense report, which is over the $2,000 threshold that requires Aditi personally', anchor c40f18c2e4b60035, counterparty derek.lang@northwindrobotics.com, due_date null, due_basis none, days_open 26, consequence low, tricky_tags []. If the curator instead judges that it is subsumed by the later $4,230 Q3 report (same employee, overlapping Jul-Aug travel window), say so explicitly in a must_not_include entry — leaving it unmentioned is the one option that is not defensible."
+    },
+    {
+      "type": "missed_item",
+      "severity": "medium",
+      "item_id": null,
+      "message_ids": ["c10f18c2e4b60031", "c10f18c2e4b60032", "c10f18c2e4b60033"],
+      "problem": "Chris Doyle at Avalara answered Aditi's counter-offer on Jul 29 with a 2-year order form expiring Aug 15 and has had no reply — a named external counterparty who spoke last, whose deal window closes three days after the as-of moment.",
+      "evidence": "c10f18c2e4b60033: \"Absolutely, we can do a 2-year term at $13,600/year (6% discount). Sending over the updated order form now — valid through August 15.\" He is answering Aditi's own ask in c10f18c2e4b60032: \"Chris — any chance you can do a 2-year term instead of 3?\"",
+      "recommended_action": "add new item with these fields — tier borderline, claim: 'Chris Doyle at Avalara is waiting for Aditi to sign the 2-year renewal order form she asked him to produce ($13,600/year, 6% discount); the offer is valid only through Aug 15 and the current contract expires Sept 30', anchor c10f18c2e4b60033, counterparty chris.doyle@avalara.com, due_date 2026-08-15, due_basis explicit, days_open 14, consequence medium. Weighing against it: his message states an intent to send rather than an explicit request, and two earlier SENT notes ('Approved — go ahead and pay the Avalara renewal', c60f18c2e4b60015; 'yes, sign it', c50f18c2e4b60032) show the renewal was blessed internally before this negotiation concluded — hence borderline rather than must_include."
+    },
+    {
+      "type": "stale_fact",
+      "severity": "low",
+      "item_id": "finance-q3-12",
+      "message_ids": ["c40f18c2e4b60033"],
+      "problem": "The item carries due_date '2026-08-08' with due_basis 'explicit', but the Ramp notification states no deadline of any kind.",
+      "evidence": "c40f18c2e4b60033 in full: \"Ruth Amankwah has requested a monthly limit increase on her Ramp card from $5,000 to $12,000, citing increased vendor site-visit travel. Approve or deny in the Ramp admin console.\" — no date appears anywhere in the message.",
+      "recommended_action": "fix due_date to null and due_basis to 'none' (days_open 7 from the Aug 5 request is correct)."
+    },
+    {
+      "type": "misranked",
+      "severity": "low",
+      "item_id": "finance-q3-11",
+      "message_ids": ["c60f18c2e4b60042"],
+      "problem": "The board financial package promised to Tomás Delgado — consequence 'high', an external board observer, a firm Aug 26 date — is ranked 11th, below two routine internal approval-queue items (finance-q3-09 and -10) that the set itself scores as medium consequence.",
+      "evidence": "c60f18c2e4b60042: \"Aditi's team will have the updated financial package ready for you and the rest of the board by the Wednesday before.\" Compare finance-q3-10's own why_it_qualifies, which rests on nothing more than 'a workflow acting for a named human (Karen) who has already done her half'.",
+      "recommended_action": "reorder above finance-q3-09 and finance-q3-10 (moot if both are removed per the findings above, in which case finance-q3-11 lands at rank 9)."
+    }
+  ],
+  "checked_and_sound": [
+    "finance-q3-01",
+    "finance-q3-03",
+    "finance-q3-04",
+    "finance-q3-05",
+    "finance-q3-06",
+    "finance-q3-07",
+    "finance-q3-08"
+  ],
+  "notes": "RULING ON THE APPROVAL-WORKFLOW QUESTION (the curator's flagged uncertainty). The contract admits them, and the corpus supports it. QUESTIONS.md §3 inclusion criterion 1 is 'a specific, identifiable requester — a human or a system acting for one (DocuSign envelope; the expense-approval workflow ... where Maya is the designated approver)', and the matching exclusion is narrow: 'automated reminders with no human requester behind them (a SaaS \"your trial expires\" is nobody waiting)'. The test is therefore whether a named human has already done their half and is stuck at the owner's step. Applying it: JE-2291 passes on its face — 'was submitted by Miles Okonkwo and is pending your approval' (c40f18c2e4b60028) — it fails only on closure (see finding 2). VB-33107 passes — 'was approved by Karen Voss and routed to you for final sign-off' (c40f18c2e4b60029) — it fails only on double counting (finding 3). Ruth's Ramp limit passes — 'Ruth Amankwah has requested a monthly limit increase on her Ramp card' (c40f18c2e4b60033) — borderline is the right tier, since Ruth has never chased it. The Bill.com batch (c40f18c2e4b60030) is the weakest of the four on requester identity, since Bill.com names no individual sender, but it passes on the same principle: fourteen named vendors with due dates now past, and the body names the humans behind two of the lines ('the first installment of the FY26 audit fee and is due on receipt per the engagement letter Karen countersigned last week'), while 'Bill.com will release ACH payments automatically 24 hours after approval' establishes that nothing moves until Aditi clicks. Include it, at must_include. The line the set should hold consistently: a machine message with a named human behind the ask counts; a machine message with no human behind it does not — which is why the Gusto payroll approval (c40f18c2e4b60038, 'approve by Thursday, Aug 13 at 5:00pm ET', $418,910.40) and the Carta 409A sign-off (c40f18c2e4b60042) are correctly out of Q3 despite being loud and imminent. Both, plus the completed DocuSign envelope (c40f18c2e4b60045 answered by c40f18c2e4b60046) and PO-10482, deserve must_not_include entries — a naive system will return all four.\n\nPO-10482 (c40f18c2e4b60027, $38,120, 'Requested by: Ruth Amankwah', 'Your approval is the final step before the purchase orders are released to each vendor') looks at first like a missed item of exactly the class above. It is not, and the reason is worth recording: its line items reappear as invoices in the Aug 7 payment batch — Precision Servo $14,300, Boston Bearing $6,930, Suffolk Steel $9,840+$2,220=$12,060, Cortland Cable $3,650 — which means the PO was released and the vendors have shipped and billed. Correctly omitted; add it as a distractor so the reasoning is visible.\n\nfinance-q3-01 (rank 1) survives, but not cleanly, and a human reviewer should see the argument on the other side. Nadia enumerated what was still outstanding twice after her Jul 24 escalation — c50f18c2e4b60005 (Aug 3): 'we're still missing four items off the PBC list: the lease amortization schedule, the related-party disclosures, the Q4 bank confirmations, and the fixed asset roll-forward', and c10f18c2e4b60044 (Aug 7): 'Two items ahead of fieldwork: the ASC 842 lease schedule for the Waltham warehouse, and a fresh Carta cap table export' — and the Meridian lease amendment appears in neither. That is the strongest closure-shaped evidence in the thread. It does not carry, for two reasons: no message anywhere shows the redline delivered, and Nadia's lists are demonstrably not exhaustive — she lists the Q4 bank confirmations as missing on Aug 3 although Aditi's own PBC tracker (attachment to c50f18c2e4b60024) marks them 'delivered' on Jul 25. Per the spec, silence and inconsistent re-listing do not close an obligation. Keep the item; the merge of nhaddad@pembertonwells.com and nadia.haddad.cpa@gmail.com into one requester is handled correctly.\n\nOther candidates swept and correctly excluded: Karen's deferred-revenue reclass nudge (c60f18c2e4b60012, 'can you nudge him if you talk to him before I do?') died with the July close lock; the inventory-obsolescence memo Nadia wants (c20f18c2e4b60009) is explicitly assigned elsewhere — 'If Miles can turn that around by early next week' — and is addressed to four people; the ASC 606 memo (c20f18c2e4b60040, 'Send the memo over for the file when it's ready') is likewise group-addressed and owned by Miles; Derek's entertainment-cap thread (c50f18c2e4b60011) ends with Aditi's own answer and her own new promise ('I'll get you a one-page pre-approval exception process by Friday'), which is Q2, not Q3; the CFO Alliance panel logistics (c30f18c2e4b60024) are due Oct 1. All six existing distractors check out."
+}

@@ -1,0 +1,3369 @@
+[
+  {
+    "id": "c20f18c2e4b60001",
+    "thread_id": "c20f18c2e4b60001",
+    "profile_id": "finance",
+    "history_id": "705175",
+    "message_id_header": "<c20f18c2e4b60001@pembertonwells.com>",
+    "in_reply_to": null,
+    "references": [],
+    "thread_position": 1,
+    "thread_length": 10,
+    "from": {
+      "name": "Nadia Haddad",
+      "email": "nhaddad@pembertonwells.com"
+    },
+    "to": [
+      {
+        "name": "Aditi Sharma",
+        "email": "aditi.sharma@northwindrobotics.com"
+      }
+    ],
+    "cc": [
+      {
+        "name": "Karen Voss",
+        "email": "karen.voss@northwindrobotics.com"
+      }
+    ],
+    "bcc": [],
+    "delivered_to": "aditi.sharma@northwindrobotics.com",
+    "subject": "Inventory obsolescence reserve — testing exception",
+    "snippet": "Hi Aditi, Quick flag from fieldwork this week. When we tested the inventory obsolescence reserve as of 5/31, our sample pulled three SKUs — the AGV-100 wheel hub casting, the older",
+    "body_text": "Hi Aditi,\n\nQuick flag from fieldwork this week. When we tested the inventory obsolescence reserve as of 5/31, our sample pulled three SKUs — the AGV-100 wheel hub casting, the older Gen 2 lidar mount, and the discontinued conveyor bracket kit — where the reserve percentage applied doesn't match what's in the calc workbook Miles sent over in April. The workbook uses a flat 15% reserve on anything untouched for 180+ days, but these three items have had zero sales activity for over a year and carry a combined book value of about $410K.\n\nUnder our normal aging methodology that would put them closer to a 60-80% reserve, not 15%. I want to understand the rationale before we close out this section — is there a planned use for this inventory (service parts, a customer commitment, something) that the flat rate doesn't capture, or does the reserve calc need to be revisited?\n\nHappy to hop on a call, but wanted to get this in front of you and Karen in writing first since it could be a book-to-book adjustment depending on where we land.\n\nBest,\nNadia\n\nNadia Haddad, CPA\nSenior Manager, Assurance\nPemberton & Wells LLP",
+    "body_html": "<div style=\"font-family:Arial,Helvetica,sans-serif;font-size:14px;color:#222222;line-height:1.5;\"><p style=\"margin:0 0 10px 0;\">Hi Aditi,</p><p style=\"margin:0 0 10px 0;\">Quick flag from fieldwork this week. When we tested the inventory obsolescence reserve as of 5/31, our sample pulled three SKUs — the AGV-100 wheel hub casting, the older Gen 2 lidar mount, and the discontinued conveyor bracket kit — where the reserve percentage applied doesn't match what's in the calc workbook Miles sent over in April. The workbook uses a flat 15% reserve on anything untouched for 180+ days, but these three items have had zero sales activity for over a year and carry a combined book value of about $410K.</p><p style=\"margin:0 0 10px 0;\">Under our normal aging methodology that would put them closer to a 60-80% reserve, not 15%. I want to understand the rationale before we close out this section — is there a planned use for this inventory (service parts, a customer commitment, something) that the flat rate doesn't capture, or does the reserve calc need to be revisited?</p><p style=\"margin:0 0 10px 0;\">Happy to hop on a call, but wanted to get this in front of you and Karen in writing first since it could be a book-to-book adjustment depending on where we land.</p><p style=\"margin:0 0 10px 0;\">Best,<br>Nadia</p><p style=\"margin:0 0 10px 0;\">Nadia Haddad, CPA<br>Senior Manager, Assurance<br>Pemberton & Wells LLP</p></div>",
+    "date": "2026-06-24T10:15:00-04:00",
+    "internal_date_ms": 1782310500000,
+    "folder": "INBOX",
+    "category": "CATEGORY_PERSONAL",
+    "is_unread": false,
+    "is_starred": false,
+    "is_important": true,
+    "user_labels": [
+      "Label_4411"
+    ],
+    "attachments": [],
+    "calendar_event": null,
+    "extra_headers": {
+      "Return-Path": "<nhaddad@pembertonwells.com>"
+    },
+    "size_estimate": 4279,
+    "meta": {
+      "email_class": "genuine_work",
+      "tricky_tags": [],
+      "is_actionable_for_user": true,
+      "action_owner": "aditi.sharma@northwindrobotics.com",
+      "action_summary": "Respond to the auditor's question about the reserve rate methodology applied to three flagged inventory SKUs.",
+      "due_date": null,
+      "commitment_made_by_user": null,
+      "commitment_is_conditional": false,
+      "commitment_condition": null,
+      "superseded_by_message_id": null,
+      "notes": null
+    }
+  },
+  {
+    "id": "c20f18c2e4b60002",
+    "thread_id": "c20f18c2e4b60001",
+    "profile_id": "finance",
+    "history_id": "706880",
+    "message_id_header": "<CAFc20f18c2e4b60002@mail.gmail.com>",
+    "in_reply_to": "<c20f18c2e4b60001@pembertonwells.com>",
+    "references": [
+      "<c20f18c2e4b60001@pembertonwells.com>"
+    ],
+    "thread_position": 2,
+    "thread_length": 10,
+    "from": {
+      "name": "Aditi Sharma",
+      "email": "aditi.sharma@northwindrobotics.com"
+    },
+    "to": [
+      {
+        "name": "Nadia Haddad",
+        "email": "nhaddad@pembertonwells.com"
+      }
+    ],
+    "cc": [
+      {
+        "name": "Karen Voss",
+        "email": "karen.voss@northwindrobotics.com"
+      }
+    ],
+    "bcc": [],
+    "delivered_to": null,
+    "subject": "Re: Inventory obsolescence reserve — testing exception",
+    "snippet": "Hi Nadia, Thanks for flagging — the 15% rate on those three SKUs is intentional but I agree the workbook doesn't explain why, that's on us. The lidar mounts and conveyor brackets a",
+    "body_text": "Hi Nadia,\n\nThanks for flagging — the 15% rate on those three SKUs is intentional but I agree the workbook doesn't explain why, that's on us. The lidar mounts and conveyor brackets are being held as service/warranty stock for units still under our extended coverage program (we don't obsolete inventory that's earmarked for warranty replacements the same way we do dead retail stock). The wheel hub casting is different though — I'd have to check with Miles on that one, I don't think we have a warranty rationale for it.\n\nKaren, can you and Miles pull the warranty allocation detail for these three and get Nadia a clean writeup? Want to make sure our story actually holds up.\n\nAditi",
+    "body_html": null,
+    "date": "2026-06-25T14:40:00-04:00",
+    "internal_date_ms": 1782412800000,
+    "folder": "SENT",
+    "category": null,
+    "is_unread": false,
+    "is_starred": false,
+    "is_important": false,
+    "user_labels": [],
+    "attachments": [],
+    "calendar_event": null,
+    "extra_headers": {
+      "Return-Path": "<aditi.sharma@northwindrobotics.com>"
+    },
+    "size_estimate": 2468,
+    "meta": {
+      "email_class": "genuine_work",
+      "tricky_tags": [],
+      "is_actionable_for_user": false,
+      "action_owner": "karen.voss@northwindrobotics.com",
+      "action_summary": "Karen and Miles to pull warranty allocation detail on the three flagged SKUs and send Nadia a writeup.",
+      "due_date": null,
+      "commitment_made_by_user": null,
+      "commitment_is_conditional": false,
+      "commitment_condition": null,
+      "superseded_by_message_id": null,
+      "notes": null
+    }
+  },
+  {
+    "id": "c20f18c2e4b60003",
+    "thread_id": "c20f18c2e4b60001",
+    "profile_id": "finance",
+    "history_id": "708105",
+    "message_id_header": "<CAFc20f18c2e4b60003@mail.gmail.com>",
+    "in_reply_to": "<CAFc20f18c2e4b60002@mail.gmail.com>",
+    "references": [
+      "<c20f18c2e4b60001@pembertonwells.com>",
+      "<CAFc20f18c2e4b60002@mail.gmail.com>"
+    ],
+    "thread_position": 3,
+    "thread_length": 10,
+    "from": {
+      "name": "Karen Voss",
+      "email": "karen.voss@northwindrobotics.com"
+    },
+    "to": [
+      {
+        "name": "Aditi Sharma",
+        "email": "aditi.sharma@northwindrobotics.com"
+      },
+      {
+        "name": "Nadia Haddad",
+        "email": "nhaddad@pembertonwells.com"
+      }
+    ],
+    "cc": [],
+    "bcc": [],
+    "delivered_to": "aditi.sharma@northwindrobotics.com",
+    "subject": "Re: Inventory obsolescence reserve — testing exception",
+    "snippet": "Aditi — agreed on the lidar mounts and conveyor brackets, I pulled the warranty parts list and both SKUs are tagged to the extended coverage program, about $260K of the $410K. The ",
+    "body_text": "Aditi — agreed on the lidar mounts and conveyor brackets, I pulled the warranty parts list and both SKUs are tagged to the extended coverage program, about $260K of the $410K.\n\nThe wheel hub casting is the problem child. I checked with Ruth's team and there's no warranty hold on it — it's just old stock from the Gen 1 AGV run we stopped selling in 2024. That one should be at the higher reserve rate. Miles, can you rerun the calc on just that SKU and get us a number? Adding you here directly rather than relaying through me.\n\nKaren",
+    "body_html": null,
+    "date": "2026-06-26T11:05:00-04:00",
+    "internal_date_ms": 1782486300000,
+    "folder": "INBOX",
+    "category": "CATEGORY_PERSONAL",
+    "is_unread": false,
+    "is_starred": false,
+    "is_important": false,
+    "user_labels": [],
+    "attachments": [],
+    "calendar_event": null,
+    "extra_headers": {
+      "Return-Path": "<karen.voss@northwindrobotics.com>"
+    },
+    "size_estimate": 2375,
+    "meta": {
+      "email_class": "genuine_work",
+      "tricky_tags": [],
+      "is_actionable_for_user": false,
+      "action_owner": "miles.okonkwo@northwindrobotics.com",
+      "action_summary": "Miles to rerun the reserve calc on the Gen 1 wheel hub casting SKU.",
+      "due_date": null,
+      "commitment_made_by_user": null,
+      "commitment_is_conditional": false,
+      "commitment_condition": null,
+      "superseded_by_message_id": null,
+      "notes": null
+    }
+  },
+  {
+    "id": "c20f18c2e4b60004",
+    "thread_id": "c20f18c2e4b60001",
+    "profile_id": "finance",
+    "history_id": "712740",
+    "message_id_header": "<CAFc20f18c2e4b60004@mail.gmail.com>",
+    "in_reply_to": "<CAFc20f18c2e4b60003@mail.gmail.com>",
+    "references": [
+      "<c20f18c2e4b60001@pembertonwells.com>",
+      "<CAFc20f18c2e4b60002@mail.gmail.com>",
+      "<CAFc20f18c2e4b60003@mail.gmail.com>"
+    ],
+    "thread_position": 4,
+    "thread_length": 10,
+    "from": {
+      "name": "Miles Okonkwo",
+      "email": "miles.okonkwo@northwindrobotics.com"
+    },
+    "to": [
+      {
+        "name": "Aditi Sharma",
+        "email": "aditi.sharma@northwindrobotics.com"
+      },
+      {
+        "name": "Karen Voss",
+        "email": "karen.voss@northwindrobotics.com"
+      },
+      {
+        "name": "Nadia Haddad",
+        "email": "nhaddad@pembertonwells.com"
+      }
+    ],
+    "cc": [],
+    "bcc": [],
+    "delivered_to": "aditi.sharma@northwindrobotics.com",
+    "subject": "Re: Inventory obsolescence reserve — testing exception",
+    "snippet": "All — Reran it. The Gen 1 wheel hub casting has $148K in book value, zero units sold or consumed in 14 months. At our standard aged-inventory schedule (60% at 12-18 months, 80% at ",
+    "body_text": "All —\n\nReran it. The Gen 1 wheel hub casting has $148K in book value, zero units sold or consumed in 14 months. At our standard aged-inventory schedule (60% at 12-18 months, 80% at 18mo+) it should carry a 60% reserve, which is $88.8K versus the $22.2K (15%) currently booked. That's a $65.8K incremental reserve just on this one SKU.\n\nAttached is the updated schedule with the corrected line and the warranty-tagged SKUs broken out separately so it's clear which methodology applies to what. Let me know if you want me to push this into the June close or hold it for a formal AJE discussion.\n\nMiles",
+    "body_html": null,
+    "date": "2026-06-29T16:20:00-04:00",
+    "internal_date_ms": 1782764400000,
+    "folder": "INBOX",
+    "category": "CATEGORY_PERSONAL",
+    "is_unread": false,
+    "is_starred": false,
+    "is_important": false,
+    "user_labels": [],
+    "attachments": [
+      {
+        "attachment_id": "ANGjdJ_NyJSnv8Qi5ZYJzq-V2PHa8P8HeQG21ngx9YYvL1n9JE",
+        "filename": "Inventory_Reserve_Schedule_Q2.xlsx",
+        "mime_type": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+        "size_bytes": 18420,
+        "is_inline": false,
+        "content_id": null,
+        "extracted_text": "Inventory Reserve Schedule — Q2 2026 (as of 6/30)\nSKU,Description,Book Value,Age (days),Category,Reserve Rate,Reserve Amount\nAGV-100-WH,Gen 1 wheel hub casting,148000,430,Dead stock,60%,88800\nLID-G2-MT,Gen 2 lidar mount,165000,210,Warranty hold,15%,24750\nCNV-BRK-KT,Conveyor bracket kit,95000,245,Warranty hold,15%,14250\nTotal flagged inventory,,408000,,,,127800\nPrior booked reserve (15% flat),,,,,,61200\nIncremental reserve if corrected,,,,,,66600\nNote: Warranty-hold SKUs (LID-G2-MT, CNV-BRK-KT) tagged to extended coverage program per Karen Voss 6/26. Wheel hub casting has no warranty hold — recommend standard aging schedule."
+      }
+    ],
+    "calendar_event": null,
+    "extra_headers": {
+      "Return-Path": "<miles.okonkwo@northwindrobotics.com>"
+    },
+    "size_estimate": 27264,
+    "meta": {
+      "email_class": "genuine_work",
+      "tricky_tags": [],
+      "is_actionable_for_user": true,
+      "action_owner": "aditi.sharma@northwindrobotics.com",
+      "action_summary": "Decide whether to book the $65.8K correction into the June close or defer it to a formal AJE discussion.",
+      "due_date": null,
+      "commitment_made_by_user": null,
+      "commitment_is_conditional": false,
+      "commitment_condition": null,
+      "superseded_by_message_id": null,
+      "notes": null
+    }
+  },
+  {
+    "id": "c20f18c2e4b60005",
+    "thread_id": "c20f18c2e4b60001",
+    "profile_id": "finance",
+    "history_id": "715230",
+    "message_id_header": "<c20f18c2e4b60005@pembertonwells.com>",
+    "in_reply_to": "<CAFc20f18c2e4b60004@mail.gmail.com>",
+    "references": [
+      "<c20f18c2e4b60001@pembertonwells.com>",
+      "<CAFc20f18c2e4b60002@mail.gmail.com>",
+      "<CAFc20f18c2e4b60003@mail.gmail.com>",
+      "<CAFc20f18c2e4b60004@mail.gmail.com>"
+    ],
+    "thread_position": 5,
+    "thread_length": 10,
+    "from": {
+      "name": "Nadia Haddad",
+      "email": "nhaddad@pembertonwells.com"
+    },
+    "to": [
+      {
+        "name": "Aditi Sharma",
+        "email": "aditi.sharma@northwindrobotics.com"
+      },
+      {
+        "name": "Karen Voss",
+        "email": "karen.voss@northwindrobotics.com"
+      },
+      {
+        "name": "Miles Okonkwo",
+        "email": "miles.okonkwo@northwindrobotics.com"
+      }
+    ],
+    "cc": [],
+    "bcc": [],
+    "delivered_to": "aditi.sharma@northwindrobotics.com",
+    "subject": "Re: Inventory obsolescence reserve — testing exception",
+    "snippet": "All, Thanks Miles, that's helpful and I agree with the item-level math on the wheel hub casting. But I want to walk through why I don't think we can treat this as an isolated $65.8",
+    "body_text": "All,\n\nThanks Miles, that's helpful and I agree with the item-level math on the wheel hub casting. But I want to walk through why I don't think we can treat this as an isolated $65.8K correction and stop there.\n\nThe wheel hub casting is one SKU in a broader family of Gen 1 AGV components that were discontinued in the same 2024 product transition. When we widened our sample this week to look at the other Gen 1-era parts in inventory — not just the three SKUs from the original testing — we found six additional SKUs with the same characteristics: zero movement in 12+ months, no warranty hold, still carried at the flat 15% rate. Combined book value across those six is roughly $612K.\n\nIf we apply the same aging logic Miles used on the wheel hub casting consistently across that population, we're looking at something closer to a $340K total incremental reserve, not $65.8K. I recognize that's a much bigger number and I want to be transparent about how we got there rather than spring it on you at the end of fieldwork.\n\nA few things I'd want to understand before we finalize a position: (1) is there a documented policy for how Northwind ages out discontinued product lines, or has this been case-by-case; (2) do any of these six SKUs have a plausible future use we're not capturing (spare parts program, a customer with older-generation units still in the field); and (3) if the answer to #2 is no for most of them, I think we need a written accounting policy memo on inventory reserve methodology so this doesn't recur every audit cycle.\n\nI know this changes the shape of the conversation from where we started. Given where we are in the interim review timeline, I'd like to get aligned on an approach in the next couple of weeks if possible — happy to set up time with you and Sam.\n\nOne more thing worth mentioning: our testing approach here was a targeted extension rather than a full statistical sample, so I want to be upfront that $340K is our best estimate based on applying a consistent methodology to the population we identified, not a precise number derived from testing every unit. If Northwind has better information than we do about expected future use for any of these SKUs — service parts commitments, a specific customer still running Gen 1 units under a support contract, anything like that — that would change our view SKU by SKU, and I'd rather factor that in now than have it come up as a disagreement after we've drafted language. It's also worth noting that this is very similar in shape to a finding we raised with another hardware client last cycle, where the root cause ended up being exactly what I suspect is happening here: a product transition that outpaced the reserve policy update. If it's useful, I can share (anonymized) how that one was ultimately resolved once we're on the call.\n\nBest,\nNadia",
+    "body_html": null,
+    "date": "2026-07-01T09:50:00-04:00",
+    "internal_date_ms": 1782913800000,
+    "folder": "INBOX",
+    "category": "CATEGORY_PERSONAL",
+    "is_unread": false,
+    "is_starred": false,
+    "is_important": false,
+    "user_labels": [],
+    "attachments": [],
+    "calendar_event": null,
+    "extra_headers": {
+      "Return-Path": "<nhaddad@pembertonwells.com>"
+    },
+    "size_estimate": 4881,
+    "meta": {
+      "email_class": "genuine_work",
+      "tricky_tags": [],
+      "is_actionable_for_user": true,
+      "action_owner": "aditi.sharma@northwindrobotics.com",
+      "action_summary": "Respond to the auditor's proposal to extrapolate the reserve correction to $340K across the broader Gen 1 inventory population.",
+      "due_date": null,
+      "commitment_made_by_user": null,
+      "commitment_is_conditional": false,
+      "commitment_condition": null,
+      "superseded_by_message_id": null,
+      "notes": null
+    }
+  },
+  {
+    "id": "c20f18c2e4b60006",
+    "thread_id": "c20f18c2e4b60001",
+    "profile_id": "finance",
+    "history_id": "716990",
+    "message_id_header": "<CAFc20f18c2e4b60006@mail.gmail.com>",
+    "in_reply_to": "<c20f18c2e4b60005@pembertonwells.com>",
+    "references": [
+      "<c20f18c2e4b60001@pembertonwells.com>",
+      "<CAFc20f18c2e4b60002@mail.gmail.com>",
+      "<CAFc20f18c2e4b60003@mail.gmail.com>",
+      "<CAFc20f18c2e4b60004@mail.gmail.com>",
+      "<c20f18c2e4b60005@pembertonwells.com>"
+    ],
+    "thread_position": 6,
+    "thread_length": 10,
+    "from": {
+      "name": "Sam Greer",
+      "email": "sam.greer@northwindrobotics.com"
+    },
+    "to": [
+      {
+        "name": "Aditi Sharma",
+        "email": "aditi.sharma@northwindrobotics.com"
+      },
+      {
+        "name": "Karen Voss",
+        "email": "karen.voss@northwindrobotics.com"
+      },
+      {
+        "name": "Nadia Haddad",
+        "email": "nhaddad@pembertonwells.com"
+      },
+      {
+        "name": "Miles Okonkwo",
+        "email": "miles.okonkwo@northwindrobotics.com"
+      }
+    ],
+    "cc": [],
+    "bcc": [],
+    "delivered_to": "aditi.sharma@northwindrobotics.com",
+    "subject": "Re: Inventory obsolescence reserve — testing exception",
+    "snippet": "Catching up on this thread — a $340K adjustment feels like a lot to swallow based on one bad SKU. Before we go there I want to understand how Nadia gets from a $65K item-level corr",
+    "body_text": "Catching up on this thread — a $340K adjustment feels like a lot to swallow based on one bad SKU. Before we go there I want to understand how Nadia gets from a $65K item-level correction to $340K across the population. Can we get on a call this week? I don't want to surprise the board with a number like this without a real explanation of why it's not just isolated to the wheel hub casting.\n\nSam",
+    "body_html": null,
+    "date": "2026-07-02T15:10:00-04:00",
+    "internal_date_ms": 1783019400000,
+    "folder": "INBOX",
+    "category": "CATEGORY_PERSONAL",
+    "is_unread": false,
+    "is_starred": false,
+    "is_important": true,
+    "user_labels": [
+      "Label_4411"
+    ],
+    "attachments": [],
+    "calendar_event": null,
+    "extra_headers": {
+      "Return-Path": "<sam.greer@northwindrobotics.com>"
+    },
+    "size_estimate": 2580,
+    "meta": {
+      "email_class": "genuine_work",
+      "tricky_tags": [],
+      "is_actionable_for_user": true,
+      "action_owner": "aditi.sharma@northwindrobotics.com",
+      "action_summary": "Set up a call with Nadia to walk through the extrapolation math before agreeing to a $340K adjustment.",
+      "due_date": null,
+      "commitment_made_by_user": null,
+      "commitment_is_conditional": false,
+      "commitment_condition": null,
+      "superseded_by_message_id": null,
+      "notes": null
+    }
+  },
+  {
+    "id": "c20f18c2e4b60007",
+    "thread_id": "c20f18c2e4b60001",
+    "profile_id": "finance",
+    "history_id": "748305",
+    "message_id_header": "<CAFc20f18c2e4b60007@mail.gmail.com>",
+    "in_reply_to": "<CAFc20f18c2e4b60006@mail.gmail.com>",
+    "references": [
+      "<c20f18c2e4b60001@pembertonwells.com>",
+      "<CAFc20f18c2e4b60002@mail.gmail.com>",
+      "<CAFc20f18c2e4b60003@mail.gmail.com>",
+      "<CAFc20f18c2e4b60004@mail.gmail.com>",
+      "<c20f18c2e4b60005@pembertonwells.com>",
+      "<CAFc20f18c2e4b60006@mail.gmail.com>"
+    ],
+    "thread_position": 7,
+    "thread_length": 10,
+    "from": {
+      "name": "Aditi Sharma",
+      "email": "aditi.sharma@northwindrobotics.com"
+    },
+    "to": [
+      {
+        "name": "Nadia Haddad",
+        "email": "nhaddad@pembertonwells.com"
+      },
+      {
+        "name": "Sam Greer",
+        "email": "sam.greer@northwindrobotics.com"
+      },
+      {
+        "name": "Karen Voss",
+        "email": "karen.voss@northwindrobotics.com"
+      },
+      {
+        "name": "Miles Okonkwo",
+        "email": "miles.okonkwo@northwindrobotics.com"
+      }
+    ],
+    "cc": [],
+    "bcc": [],
+    "delivered_to": null,
+    "subject": "Re: Inventory obsolescence reserve — testing exception",
+    "snippet": "Bumping this — we let it sit longer than I meant to with the July close crunch. We need to close this out before I start building the August board deck. Nadia, Sam — where did we l",
+    "body_text": "Bumping this — we let it sit longer than I meant to with the July close crunch. We need to close this out before I start building the August board deck. Nadia, Sam — where did we land, or do we need that call after all? I'd like to have a number by end of next week.\n\nAditi",
+    "body_html": null,
+    "date": "2026-07-24T09:05:00-04:00",
+    "internal_date_ms": 1784898300000,
+    "folder": "SENT",
+    "category": null,
+    "is_unread": false,
+    "is_starred": false,
+    "is_important": false,
+    "user_labels": [],
+    "attachments": [],
+    "calendar_event": null,
+    "extra_headers": {
+      "Return-Path": "<aditi.sharma@northwindrobotics.com>"
+    },
+    "size_estimate": 2513,
+    "meta": {
+      "email_class": "genuine_work",
+      "tricky_tags": [],
+      "is_actionable_for_user": false,
+      "action_owner": "karen.voss@northwindrobotics.com",
+      "action_summary": "Karen and the team to propose a resolution on the reserve question before the August board deck.",
+      "due_date": null,
+      "commitment_made_by_user": null,
+      "commitment_is_conditional": false,
+      "commitment_condition": null,
+      "superseded_by_message_id": null,
+      "notes": null
+    }
+  },
+  {
+    "id": "c20f18c2e4b60008",
+    "thread_id": "c20f18c2e4b60001",
+    "profile_id": "finance",
+    "history_id": "752890",
+    "message_id_header": "<CAFc20f18c2e4b60008@mail.gmail.com>",
+    "in_reply_to": "<CAFc20f18c2e4b60007@mail.gmail.com>",
+    "references": [
+      "<c20f18c2e4b60001@pembertonwells.com>",
+      "<CAFc20f18c2e4b60002@mail.gmail.com>",
+      "<CAFc20f18c2e4b60003@mail.gmail.com>",
+      "<CAFc20f18c2e4b60004@mail.gmail.com>",
+      "<c20f18c2e4b60005@pembertonwells.com>",
+      "<CAFc20f18c2e4b60006@mail.gmail.com>",
+      "<CAFc20f18c2e4b60007@mail.gmail.com>"
+    ],
+    "thread_position": 8,
+    "thread_length": 10,
+    "from": {
+      "name": "Karen Voss",
+      "email": "karen.voss@northwindrobotics.com"
+    },
+    "to": [
+      {
+        "name": "Aditi Sharma",
+        "email": "aditi.sharma@northwindrobotics.com"
+      },
+      {
+        "name": "Sam Greer",
+        "email": "sam.greer@northwindrobotics.com"
+      },
+      {
+        "name": "Nadia Haddad",
+        "email": "nhaddad@pembertonwells.com"
+      },
+      {
+        "name": "Miles Okonkwo",
+        "email": "miles.okonkwo@northwindrobotics.com"
+      }
+    ],
+    "cc": [],
+    "bcc": [],
+    "delivered_to": "aditi.sharma@northwindrobotics.com",
+    "subject": "Re: Inventory obsolescence reserve — testing exception",
+    "snippet": "I talked this through with Miles over the last week. Our recommendation: book the $65.8K item-level correction on the wheel hub casting now (that one's clean, no real argument agai",
+    "body_text": "I talked this through with Miles over the last week. Our recommendation: book the $65.8K item-level correction on the wheel hub casting now (that one's clean, no real argument against it), and instead of extrapolating to a $340K population-wide adjustment, we expand footnote disclosure in the financials to describe the aging methodology and flag that management continues to evaluate reserve adequacy on the broader Gen 1 product line as it winds down.\n\nNet booked adjustment: roughly $190K when you add in two smaller SKUs Miles found in the same family that had the same issue. That's a real number but it's defensible item-by-item rather than a statistical leap, and it gets Nadia something more concrete than a policy promise.\n\nKaren",
+    "body_html": null,
+    "date": "2026-07-27T13:30:00-04:00",
+    "internal_date_ms": 1785173400000,
+    "folder": "INBOX",
+    "category": "CATEGORY_PERSONAL",
+    "is_unread": false,
+    "is_starred": false,
+    "is_important": false,
+    "user_labels": [],
+    "attachments": [],
+    "calendar_event": null,
+    "extra_headers": {
+      "Return-Path": "<karen.voss@northwindrobotics.com>"
+    },
+    "size_estimate": 3030,
+    "meta": {
+      "email_class": "genuine_work",
+      "tricky_tags": [],
+      "is_actionable_for_user": false,
+      "action_owner": "sam.greer@northwindrobotics.com",
+      "action_summary": "Sam to approve or reject Karen's proposed $190K reserve correction plus expanded disclosure language.",
+      "due_date": null,
+      "commitment_made_by_user": null,
+      "commitment_is_conditional": false,
+      "commitment_condition": null,
+      "superseded_by_message_id": null,
+      "notes": null
+    }
+  },
+  {
+    "id": "c20f18c2e4b60009",
+    "thread_id": "c20f18c2e4b60001",
+    "profile_id": "finance",
+    "history_id": "754120",
+    "message_id_header": "<c20f18c2e4b60009@pembertonwells.com>",
+    "in_reply_to": "<CAFc20f18c2e4b60008@mail.gmail.com>",
+    "references": [
+      "<c20f18c2e4b60001@pembertonwells.com>",
+      "<CAFc20f18c2e4b60002@mail.gmail.com>",
+      "<CAFc20f18c2e4b60003@mail.gmail.com>",
+      "<CAFc20f18c2e4b60004@mail.gmail.com>",
+      "<c20f18c2e4b60005@pembertonwells.com>",
+      "<CAFc20f18c2e4b60006@mail.gmail.com>",
+      "<CAFc20f18c2e4b60007@mail.gmail.com>",
+      "<CAFc20f18c2e4b60008@mail.gmail.com>"
+    ],
+    "thread_position": 9,
+    "thread_length": 10,
+    "from": {
+      "name": "Nadia Haddad",
+      "email": "nhaddad@pembertonwells.com"
+    },
+    "to": [
+      {
+        "name": "Aditi Sharma",
+        "email": "aditi.sharma@northwindrobotics.com"
+      },
+      {
+        "name": "Karen Voss",
+        "email": "karen.voss@northwindrobotics.com"
+      },
+      {
+        "name": "Sam Greer",
+        "email": "sam.greer@northwindrobotics.com"
+      },
+      {
+        "name": "Miles Okonkwo",
+        "email": "miles.okonkwo@northwindrobotics.com"
+      }
+    ],
+    "cc": [],
+    "bcc": [],
+    "delivered_to": "aditi.sharma@northwindrobotics.com",
+    "subject": "Re: Inventory obsolescence reserve — testing exception",
+    "snippet": "That works on our end, with one condition — I need a short written memo (a page is fine) documenting the methodology for the $190K and the rationale for treating the rest as a disc",
+    "body_text": "That works on our end, with one condition — I need a short written memo (a page is fine) documenting the methodology for the $190K and the rationale for treating the rest as a disclosure matter rather than a further reserve. We'll need that in the file to support our sign-off at interim. If Miles can turn that around by early next week we should be in good shape to close this section out.\n\nNadia",
+    "body_html": null,
+    "date": "2026-07-28T10:00:00-04:00",
+    "internal_date_ms": 1785247200000,
+    "folder": "INBOX",
+    "category": "CATEGORY_PERSONAL",
+    "is_unread": true,
+    "is_starred": false,
+    "is_important": false,
+    "user_labels": [
+      "Label_4411"
+    ],
+    "attachments": [],
+    "calendar_event": null,
+    "extra_headers": {
+      "Return-Path": "<nhaddad@pembertonwells.com>"
+    },
+    "size_estimate": 2746,
+    "meta": {
+      "email_class": "genuine_work",
+      "tricky_tags": [],
+      "is_actionable_for_user": false,
+      "action_owner": "miles.okonkwo@northwindrobotics.com",
+      "action_summary": "Miles to draft a one-page memo documenting the $190K reserve methodology for the audit file.",
+      "due_date": "2026-08-03",
+      "commitment_made_by_user": null,
+      "commitment_is_conditional": false,
+      "commitment_condition": null,
+      "superseded_by_message_id": null,
+      "notes": null
+    }
+  },
+  {
+    "id": "c20f18c2e4b60010",
+    "thread_id": "c20f18c2e4b60001",
+    "profile_id": "finance",
+    "history_id": "755965",
+    "message_id_header": "<CAFc20f18c2e4b60010@mail.gmail.com>",
+    "in_reply_to": "<c20f18c2e4b60009@pembertonwells.com>",
+    "references": [
+      "<c20f18c2e4b60001@pembertonwells.com>",
+      "<CAFc20f18c2e4b60002@mail.gmail.com>",
+      "<CAFc20f18c2e4b60003@mail.gmail.com>",
+      "<CAFc20f18c2e4b60004@mail.gmail.com>",
+      "<c20f18c2e4b60005@pembertonwells.com>",
+      "<CAFc20f18c2e4b60006@mail.gmail.com>",
+      "<CAFc20f18c2e4b60007@mail.gmail.com>",
+      "<CAFc20f18c2e4b60008@mail.gmail.com>",
+      "<c20f18c2e4b60009@pembertonwells.com>"
+    ],
+    "thread_position": 10,
+    "thread_length": 10,
+    "from": {
+      "name": "Sam Greer",
+      "email": "sam.greer@northwindrobotics.com"
+    },
+    "to": [
+      {
+        "name": "Aditi Sharma",
+        "email": "aditi.sharma@northwindrobotics.com"
+      },
+      {
+        "name": "Karen Voss",
+        "email": "karen.voss@northwindrobotics.com"
+      },
+      {
+        "name": "Nadia Haddad",
+        "email": "nhaddad@pembertonwells.com"
+      },
+      {
+        "name": "Miles Okonkwo",
+        "email": "miles.okonkwo@northwindrobotics.com"
+      }
+    ],
+    "cc": [],
+    "bcc": [],
+    "delivered_to": "aditi.sharma@northwindrobotics.com",
+    "subject": "Re: Inventory obsolescence reserve — testing exception",
+    "snippet": "Works for me — go with Karen's $190K plus the disclosure. Let's get Nadia her memo and close this out. Sam",
+    "body_text": "Works for me — go with Karen's $190K plus the disclosure. Let's get Nadia her memo and close this out.\n\nSam",
+    "body_html": null,
+    "date": "2026-07-29T16:45:00-04:00",
+    "internal_date_ms": 1785357900000,
+    "folder": "INBOX",
+    "category": "CATEGORY_PERSONAL",
+    "is_unread": false,
+    "is_starred": true,
+    "is_important": true,
+    "user_labels": [
+      "Label_4411"
+    ],
+    "attachments": [],
+    "calendar_event": null,
+    "extra_headers": {
+      "Return-Path": "<sam.greer@northwindrobotics.com>"
+    },
+    "size_estimate": 2510,
+    "meta": {
+      "email_class": "genuine_work",
+      "tricky_tags": [],
+      "is_actionable_for_user": false,
+      "action_owner": "miles.okonkwo@northwindrobotics.com",
+      "action_summary": "Miles to finish the reserve memo for Nadia; Karen to book the $190K correction.",
+      "due_date": null,
+      "commitment_made_by_user": null,
+      "commitment_is_conditional": false,
+      "commitment_condition": null,
+      "superseded_by_message_id": null,
+      "notes": null
+    }
+  },
+  {
+    "id": "c20f18c2e4b60011",
+    "thread_id": "c20f18c2e4b60011",
+    "profile_id": "finance",
+    "history_id": "735370",
+    "message_id_header": "<CAFc20f18c2e4b60011@mail.gmail.com>",
+    "in_reply_to": null,
+    "references": [],
+    "thread_position": 1,
+    "thread_length": 9,
+    "from": {
+      "name": "Derek Lang",
+      "email": "derek.lang@northwindrobotics.com"
+    },
+    "to": [
+      {
+        "name": "Aditi Sharma",
+        "email": "aditi.sharma@northwindrobotics.com"
+      }
+    ],
+    "cc": [
+      {
+        "name": "Karen Voss",
+        "email": "karen.voss@northwindrobotics.com"
+      }
+    ],
+    "bcc": [],
+    "delivered_to": "aditi.sharma@northwindrobotics.com",
+    "subject": "Q2 commission plan — accelerator calculation dispute",
+    "snippet": "Aditi — got a call this morning from one of the reps pretty upset about their Q2 commission statement. The plan says accelerator kicks in at 110% of quota, paid at 1.5x on everythi",
+    "body_text": "Aditi — got a call this morning from one of the reps pretty upset about their Q2 commission statement. The plan says accelerator kicks in at 110% of quota, paid at 1.5x on everything above. Finance calculated it using the quarterly attainment average instead of applying the accelerator deal-by-deal once they crossed the threshold mid-quarter. That's a real difference in payout — probably $8-9K for this one rep alone. Can someone walk me through how AP/finance is interpreting the plan language? I want to make sure I'm telling the team the right thing before this becomes a bigger issue.\n\nDerek",
+    "body_html": null,
+    "date": "2026-07-15T09:30:00-04:00",
+    "internal_date_ms": 1784122200000,
+    "folder": "INBOX",
+    "category": "CATEGORY_PERSONAL",
+    "is_unread": false,
+    "is_starred": false,
+    "is_important": true,
+    "user_labels": [],
+    "attachments": [],
+    "calendar_event": null,
+    "extra_headers": {
+      "Return-Path": "<derek.lang@northwindrobotics.com>"
+    },
+    "size_estimate": 2326,
+    "meta": {
+      "email_class": "genuine_work",
+      "tricky_tags": [],
+      "is_actionable_for_user": true,
+      "action_owner": "aditi.sharma@northwindrobotics.com",
+      "action_summary": "Explain how finance is calculating the accelerator and whether the quarterly-average interpretation is correct.",
+      "due_date": null,
+      "commitment_made_by_user": null,
+      "commitment_is_conditional": false,
+      "commitment_condition": null,
+      "superseded_by_message_id": null,
+      "notes": null
+    }
+  },
+  {
+    "id": "c20f18c2e4b60012",
+    "thread_id": "c20f18c2e4b60011",
+    "profile_id": "finance",
+    "history_id": "735640",
+    "message_id_header": "<CAFc20f18c2e4b60012@mail.gmail.com>",
+    "in_reply_to": "<CAFc20f18c2e4b60011@mail.gmail.com>",
+    "references": [
+      "<CAFc20f18c2e4b60011@mail.gmail.com>"
+    ],
+    "thread_position": 2,
+    "thread_length": 9,
+    "from": {
+      "name": "Aditi Sharma",
+      "email": "aditi.sharma@northwindrobotics.com"
+    },
+    "to": [
+      {
+        "name": "Derek Lang",
+        "email": "derek.lang@northwindrobotics.com"
+      }
+    ],
+    "cc": [
+      {
+        "name": "Karen Voss",
+        "email": "karen.voss@northwindrobotics.com"
+      }
+    ],
+    "bcc": [],
+    "delivered_to": null,
+    "subject": "Re: Q2 commission plan — accelerator calculation dispute",
+    "snippet": "Which rep and which deal number? Want to pull the contract before I weigh in. — Aditi",
+    "body_text": "Which rep and which deal number? Want to pull the contract before I weigh in.\n\n— Aditi",
+    "body_html": null,
+    "date": "2026-07-15T14:00:00-04:00",
+    "internal_date_ms": 1784138400000,
+    "folder": "SENT",
+    "category": null,
+    "is_unread": false,
+    "is_starred": false,
+    "is_important": false,
+    "user_labels": [],
+    "attachments": [],
+    "calendar_event": null,
+    "extra_headers": {
+      "Return-Path": "<aditi.sharma@northwindrobotics.com>"
+    },
+    "size_estimate": 1871,
+    "meta": {
+      "email_class": "genuine_work",
+      "tricky_tags": [],
+      "is_actionable_for_user": false,
+      "action_owner": "derek.lang@northwindrobotics.com",
+      "action_summary": "Derek to provide the rep name and deal number.",
+      "due_date": null,
+      "commitment_made_by_user": null,
+      "commitment_is_conditional": false,
+      "commitment_condition": null,
+      "superseded_by_message_id": null,
+      "notes": null
+    }
+  },
+  {
+    "id": "c20f18c2e4b60013",
+    "thread_id": "c20f18c2e4b60011",
+    "profile_id": "finance",
+    "history_id": "736765",
+    "message_id_header": "<CAFc20f18c2e4b60013@mail.gmail.com>",
+    "in_reply_to": "<CAFc20f18c2e4b60012@mail.gmail.com>",
+    "references": [
+      "<CAFc20f18c2e4b60011@mail.gmail.com>",
+      "<CAFc20f18c2e4b60012@mail.gmail.com>"
+    ],
+    "thread_position": 3,
+    "thread_length": 9,
+    "from": {
+      "name": "Derek Lang",
+      "email": "derek.lang@northwindrobotics.com"
+    },
+    "to": [
+      {
+        "name": "Aditi Sharma",
+        "email": "aditi.sharma@northwindrobotics.com"
+      },
+      {
+        "name": "Karen Voss",
+        "email": "karen.voss@northwindrobotics.com"
+      }
+    ],
+    "cc": [],
+    "bcc": [],
+    "delivered_to": "aditi.sharma@northwindrobotics.com",
+    "subject": "Re: Q2 commission plan — accelerator calculation dispute",
+    "snippet": "It's Owen Castillo, deal is the Q2 renewal + expansion for the Meridyne Labs account (SFDC-40218). Owen crossed 110% attainment on 5/22 and everything after that should get the 1.5",
+    "body_text": "It's Owen Castillo, deal is the Q2 renewal + expansion for the Meridyne Labs account (SFDC-40218). Owen crossed 110% attainment on 5/22 and everything after that should get the 1.5x multiplier — finance is averaging it over the full quarter instead.\n\nSeparate but related question while I have you — how are we booking the Vantage Foods deal for comp purposes? That's the 3-year contract we signed in June. If it only counts as bookings in the quarter it was signed, that changes a lot of reps' Q2 numbers versus if it's supposed to be spread as recognized ratably over the contract term. Didn't want to open a second thread for it.\n\nDerek",
+    "body_html": null,
+    "date": "2026-07-16T08:45:00-04:00",
+    "internal_date_ms": 1784205900000,
+    "folder": "INBOX",
+    "category": "CATEGORY_PERSONAL",
+    "is_unread": false,
+    "is_starred": false,
+    "is_important": false,
+    "user_labels": [],
+    "attachments": [],
+    "calendar_event": null,
+    "extra_headers": {
+      "Return-Path": "<derek.lang@northwindrobotics.com>"
+    },
+    "size_estimate": 2481,
+    "meta": {
+      "email_class": "genuine_work",
+      "tricky_tags": [],
+      "is_actionable_for_user": false,
+      "action_owner": "karen.voss@northwindrobotics.com",
+      "action_summary": "Karen/Aditi to resolve Owen Castillo's accelerator calculation and the Vantage Foods booking treatment.",
+      "due_date": null,
+      "commitment_made_by_user": null,
+      "commitment_is_conditional": false,
+      "commitment_condition": null,
+      "superseded_by_message_id": null,
+      "notes": null
+    }
+  },
+  {
+    "id": "c20f18c2e4b60014",
+    "thread_id": "c20f18c2e4b60011",
+    "profile_id": "finance",
+    "history_id": "737215",
+    "message_id_header": "<CAFc20f18c2e4b60014@mail.gmail.com>",
+    "in_reply_to": "<CAFc20f18c2e4b60013@mail.gmail.com>",
+    "references": [
+      "<CAFc20f18c2e4b60011@mail.gmail.com>",
+      "<CAFc20f18c2e4b60012@mail.gmail.com>",
+      "<CAFc20f18c2e4b60013@mail.gmail.com>"
+    ],
+    "thread_position": 4,
+    "thread_length": 9,
+    "from": {
+      "name": "Karen Voss",
+      "email": "karen.voss@northwindrobotics.com"
+    },
+    "to": [
+      {
+        "name": "Aditi Sharma",
+        "email": "aditi.sharma@northwindrobotics.com"
+      },
+      {
+        "name": "Derek Lang",
+        "email": "derek.lang@northwindrobotics.com"
+      }
+    ],
+    "cc": [
+      {
+        "name": "Hannah Cho",
+        "email": "hannah.cho@northwindrobotics.com"
+      }
+    ],
+    "bcc": [],
+    "delivered_to": "aditi.sharma@northwindrobotics.com",
+    "subject": "Re: Q2 commission plan — accelerator calculation dispute",
+    "snippet": "On Owen's deal — the plan document Hannah's team issued in Jan says accelerator is calculated on 'quarterly attainment,' which is genuinely ambiguous between average-of-quarter and",
+    "body_text": "On Owen's deal — the plan document Hannah's team issued in Jan says accelerator is calculated on 'quarterly attainment,' which is genuinely ambiguous between average-of-quarter and threshold-crossing. We've always applied it as an average in the two years I've been here, but I can see the deal-by-deal reading too.\n\nAdding Hannah since this is really a comp plan language question before it's a finance calc question — we should get this cleaned up either way.\n\nKaren",
+    "body_html": null,
+    "date": "2026-07-16T16:15:00-04:00",
+    "internal_date_ms": 1784232900000,
+    "folder": "INBOX",
+    "category": "CATEGORY_PERSONAL",
+    "is_unread": false,
+    "is_starred": false,
+    "is_important": false,
+    "user_labels": [],
+    "attachments": [],
+    "calendar_event": null,
+    "extra_headers": {
+      "Return-Path": "<karen.voss@northwindrobotics.com>"
+    },
+    "size_estimate": 2455,
+    "meta": {
+      "email_class": "genuine_work",
+      "tricky_tags": [],
+      "is_actionable_for_user": false,
+      "action_owner": "hannah.cho@northwindrobotics.com",
+      "action_summary": "Hannah to weigh in on the intended meaning of the 'quarterly attainment' comp plan language.",
+      "due_date": null,
+      "commitment_made_by_user": null,
+      "commitment_is_conditional": false,
+      "commitment_condition": null,
+      "superseded_by_message_id": null,
+      "notes": null
+    }
+  },
+  {
+    "id": "c20f18c2e4b60015",
+    "thread_id": "c20f18c2e4b60011",
+    "profile_id": "finance",
+    "history_id": "738280",
+    "message_id_header": "<CAFc20f18c2e4b60015@mail.gmail.com>",
+    "in_reply_to": "<CAFc20f18c2e4b60014@mail.gmail.com>",
+    "references": [
+      "<CAFc20f18c2e4b60011@mail.gmail.com>",
+      "<CAFc20f18c2e4b60012@mail.gmail.com>",
+      "<CAFc20f18c2e4b60013@mail.gmail.com>",
+      "<CAFc20f18c2e4b60014@mail.gmail.com>"
+    ],
+    "thread_position": 5,
+    "thread_length": 9,
+    "from": {
+      "name": "Hannah Cho",
+      "email": "hannah.cho@northwindrobotics.com"
+    },
+    "to": [
+      {
+        "name": "Aditi Sharma",
+        "email": "aditi.sharma@northwindrobotics.com"
+      },
+      {
+        "name": "Derek Lang",
+        "email": "derek.lang@northwindrobotics.com"
+      },
+      {
+        "name": "Karen Voss",
+        "email": "karen.voss@northwindrobotics.com"
+      }
+    ],
+    "cc": [],
+    "bcc": [],
+    "delivered_to": "aditi.sharma@northwindrobotics.com",
+    "subject": "Re: Q2 commission plan — accelerator calculation dispute",
+    "snippet": "Agreed the language is ambiguous — I inherited that wording from the 2025 plan and never revisited it. My read of intent when it was written was average-of-quarter (that's how it's",
+    "body_text": "Agreed the language is ambiguous — I inherited that wording from the 2025 plan and never revisited it. My read of intent when it was written was average-of-quarter (that's how it's modeled in the comp calculator spreadsheet), but I understand why a rep reading the plain text would expect deal-by-deal.\n\nI'd rather we make a call and fix the language for Q3 than argue interpretation retroactively. What do people think about honoring deal-by-deal for Owen specifically as a one-time goodwill gesture, then clarifying the plan going forward?\n\nHannah",
+    "body_html": null,
+    "date": "2026-07-17T10:00:00-04:00",
+    "internal_date_ms": 1784296800000,
+    "folder": "INBOX",
+    "category": "CATEGORY_PERSONAL",
+    "is_unread": false,
+    "is_starred": false,
+    "is_important": false,
+    "user_labels": [],
+    "attachments": [],
+    "calendar_event": null,
+    "extra_headers": {
+      "Return-Path": "<hannah.cho@northwindrobotics.com>"
+    },
+    "size_estimate": 2589,
+    "meta": {
+      "email_class": "genuine_work",
+      "tricky_tags": [],
+      "is_actionable_for_user": true,
+      "action_owner": "aditi.sharma@northwindrobotics.com",
+      "action_summary": "Decide whether to approve a one-time deal-by-deal accelerator exception for Owen Castillo.",
+      "due_date": null,
+      "commitment_made_by_user": null,
+      "commitment_is_conditional": false,
+      "commitment_condition": null,
+      "superseded_by_message_id": null,
+      "notes": null
+    }
+  },
+  {
+    "id": "c20f18c2e4b60016",
+    "thread_id": "c20f18c2e4b60011",
+    "profile_id": "finance",
+    "history_id": "744120",
+    "message_id_header": "<CAFc20f18c2e4b60016@mail.gmail.com>",
+    "in_reply_to": "<CAFc20f18c2e4b60015@mail.gmail.com>",
+    "references": [
+      "<CAFc20f18c2e4b60011@mail.gmail.com>",
+      "<CAFc20f18c2e4b60012@mail.gmail.com>",
+      "<CAFc20f18c2e4b60013@mail.gmail.com>",
+      "<CAFc20f18c2e4b60014@mail.gmail.com>",
+      "<CAFc20f18c2e4b60015@mail.gmail.com>"
+    ],
+    "thread_position": 6,
+    "thread_length": 9,
+    "from": {
+      "name": "Aditi Sharma",
+      "email": "aditi.sharma@northwindrobotics.com"
+    },
+    "to": [
+      {
+        "name": "Derek Lang",
+        "email": "derek.lang@northwindrobotics.com"
+      },
+      {
+        "name": "Karen Voss",
+        "email": "karen.voss@northwindrobotics.com"
+      },
+      {
+        "name": "Hannah Cho",
+        "email": "hannah.cho@northwindrobotics.com"
+      }
+    ],
+    "cc": [],
+    "bcc": [],
+    "delivered_to": null,
+    "subject": "Re: Q2 commission plan — accelerator calculation dispute",
+    "snippet": "Circling back on the Vantage Foods piece — Karen and I looked at it, and for comp purposes we're treating it as bookings in the quarter signed (Q2), not ratably. That's consistent ",
+    "body_text": "Circling back on the Vantage Foods piece — Karen and I looked at it, and for comp purposes we're treating it as bookings in the quarter signed (Q2), not ratably. That's consistent with how we treated a similar multi-year deal last year. Full contract value counts toward Q2 attainment for any rep with a stake in it.\n\nAditi",
+    "body_html": null,
+    "date": "2026-07-21T11:20:00-04:00",
+    "internal_date_ms": 1784647200000,
+    "folder": "SENT",
+    "category": null,
+    "is_unread": false,
+    "is_starred": false,
+    "is_important": false,
+    "user_labels": [],
+    "attachments": [],
+    "calendar_event": null,
+    "extra_headers": {
+      "Return-Path": "<aditi.sharma@northwindrobotics.com>"
+    },
+    "size_estimate": 2418,
+    "meta": {
+      "email_class": "genuine_work",
+      "tricky_tags": [],
+      "is_actionable_for_user": false,
+      "action_owner": "karen.voss@northwindrobotics.com",
+      "action_summary": "Karen to finalize the Owen Castillo accelerator exception decision, which is still unresolved.",
+      "due_date": null,
+      "commitment_made_by_user": null,
+      "commitment_is_conditional": false,
+      "commitment_condition": null,
+      "superseded_by_message_id": null,
+      "notes": null
+    }
+  },
+  {
+    "id": "c20f18c2e4b60017",
+    "thread_id": "c20f18c2e4b60011",
+    "profile_id": "finance",
+    "history_id": "745430",
+    "message_id_header": "<CAFc20f18c2e4b60017@mail.gmail.com>",
+    "in_reply_to": "<CAFc20f18c2e4b60016@mail.gmail.com>",
+    "references": [
+      "<CAFc20f18c2e4b60011@mail.gmail.com>",
+      "<CAFc20f18c2e4b60012@mail.gmail.com>",
+      "<CAFc20f18c2e4b60013@mail.gmail.com>",
+      "<CAFc20f18c2e4b60014@mail.gmail.com>",
+      "<CAFc20f18c2e4b60015@mail.gmail.com>",
+      "<CAFc20f18c2e4b60016@mail.gmail.com>"
+    ],
+    "thread_position": 7,
+    "thread_length": 9,
+    "from": {
+      "name": "Derek Lang",
+      "email": "derek.lang@northwindrobotics.com"
+    },
+    "to": [
+      {
+        "name": "Aditi Sharma",
+        "email": "aditi.sharma@northwindrobotics.com"
+      },
+      {
+        "name": "Karen Voss",
+        "email": "karen.voss@northwindrobotics.com"
+      },
+      {
+        "name": "Hannah Cho",
+        "email": "hannah.cho@northwindrobotics.com"
+      }
+    ],
+    "cc": [],
+    "bcc": [],
+    "delivered_to": "aditi.sharma@northwindrobotics.com",
+    "subject": "Re: Q2 commission plan — accelerator calculation dispute",
+    "snippet": "Sorry — I think two different things got tangled together in this thread. To separate them clearly: 1) Owen's accelerator on the Meridyne renewal — still unresolved, this is the on",
+    "body_text": "Sorry — I think two different things got tangled together in this thread. To separate them clearly:\n\n1) Owen's accelerator on the Meridyne renewal — still unresolved, this is the one costing him real money right now.\n2) Vantage Foods booking treatment for comp — got it, thank you, that one's answered.\n\nCan we close the loop on #1? I'd like to tell Owen something concrete this week if possible.\n\nDerek",
+    "body_html": null,
+    "date": "2026-07-22T09:10:00-04:00",
+    "internal_date_ms": 1784725800000,
+    "folder": "INBOX",
+    "category": "CATEGORY_PERSONAL",
+    "is_unread": false,
+    "is_starred": false,
+    "is_important": false,
+    "user_labels": [],
+    "attachments": [],
+    "calendar_event": null,
+    "extra_headers": {
+      "Return-Path": "<derek.lang@northwindrobotics.com>"
+    },
+    "size_estimate": 2557,
+    "meta": {
+      "email_class": "genuine_work",
+      "tricky_tags": [],
+      "is_actionable_for_user": false,
+      "action_owner": "karen.voss@northwindrobotics.com",
+      "action_summary": "Karen to finalize numbers on Owen's accelerator exception.",
+      "due_date": null,
+      "commitment_made_by_user": null,
+      "commitment_is_conditional": false,
+      "commitment_condition": null,
+      "superseded_by_message_id": null,
+      "notes": null
+    }
+  },
+  {
+    "id": "c20f18c2e4b60018",
+    "thread_id": "c20f18c2e4b60011",
+    "profile_id": "finance",
+    "history_id": "748700",
+    "message_id_header": "<CAFc20f18c2e4b60018@mail.gmail.com>",
+    "in_reply_to": "<CAFc20f18c2e4b60017@mail.gmail.com>",
+    "references": [
+      "<CAFc20f18c2e4b60011@mail.gmail.com>",
+      "<CAFc20f18c2e4b60012@mail.gmail.com>",
+      "<CAFc20f18c2e4b60013@mail.gmail.com>",
+      "<CAFc20f18c2e4b60014@mail.gmail.com>",
+      "<CAFc20f18c2e4b60015@mail.gmail.com>",
+      "<CAFc20f18c2e4b60016@mail.gmail.com>",
+      "<CAFc20f18c2e4b60017@mail.gmail.com>"
+    ],
+    "thread_position": 8,
+    "thread_length": 9,
+    "from": {
+      "name": "Karen Voss",
+      "email": "karen.voss@northwindrobotics.com"
+    },
+    "to": [
+      {
+        "name": "Aditi Sharma",
+        "email": "aditi.sharma@northwindrobotics.com"
+      },
+      {
+        "name": "Derek Lang",
+        "email": "derek.lang@northwindrobotics.com"
+      },
+      {
+        "name": "Hannah Cho",
+        "email": "hannah.cho@northwindrobotics.com"
+      }
+    ],
+    "cc": [],
+    "bcc": [],
+    "delivered_to": "aditi.sharma@northwindrobotics.com",
+    "subject": "Re: Q2 commission plan — accelerator calculation dispute",
+    "snippet": "Landed on this internally. For Owen: we'll honor deal-by-deal accelerator as a one-time exception per Hannah's goodwill suggestion, retroactive to 5/22 — that's an extra $8,400 on ",
+    "body_text": "Landed on this internally. For Owen: we'll honor deal-by-deal accelerator as a one-time exception per Hannah's goodwill suggestion, retroactive to 5/22 — that's an extra $8,400 on his Q2 statement, Ilya will process it with the next off-cycle run. For Q3 forward, comp plan language gets rewritten to say explicitly 'accelerator applies to attainment above threshold, calculated deal-by-deal at time of close,' which Hannah's team will circulate.\n\nVantage Foods booking treatment stands as Aditi described — full value, quarter signed.\n\nKaren",
+    "body_html": null,
+    "date": "2026-07-24T15:40:00-04:00",
+    "internal_date_ms": 1784922000000,
+    "folder": "INBOX",
+    "category": "CATEGORY_PERSONAL",
+    "is_unread": false,
+    "is_starred": false,
+    "is_important": false,
+    "user_labels": [],
+    "attachments": [],
+    "calendar_event": null,
+    "extra_headers": {
+      "Return-Path": "<karen.voss@northwindrobotics.com>"
+    },
+    "size_estimate": 2749,
+    "meta": {
+      "email_class": "genuine_work",
+      "tricky_tags": [],
+      "is_actionable_for_user": false,
+      "action_owner": "sam.greer@northwindrobotics.com",
+      "action_summary": "Sam to give final sign-off on the $8,400 commission exception for Owen Castillo.",
+      "due_date": null,
+      "commitment_made_by_user": null,
+      "commitment_is_conditional": false,
+      "commitment_condition": null,
+      "superseded_by_message_id": null,
+      "notes": null
+    }
+  },
+  {
+    "id": "c20f18c2e4b60019",
+    "thread_id": "c20f18c2e4b60011",
+    "profile_id": "finance",
+    "history_id": "762775",
+    "message_id_header": "<CAFc20f18c2e4b60019@mail.gmail.com>",
+    "in_reply_to": "<CAFc20f18c2e4b60018@mail.gmail.com>",
+    "references": [
+      "<CAFc20f18c2e4b60011@mail.gmail.com>",
+      "<CAFc20f18c2e4b60012@mail.gmail.com>",
+      "<CAFc20f18c2e4b60013@mail.gmail.com>",
+      "<CAFc20f18c2e4b60014@mail.gmail.com>",
+      "<CAFc20f18c2e4b60015@mail.gmail.com>",
+      "<CAFc20f18c2e4b60016@mail.gmail.com>",
+      "<CAFc20f18c2e4b60017@mail.gmail.com>",
+      "<CAFc20f18c2e4b60018@mail.gmail.com>"
+    ],
+    "thread_position": 9,
+    "thread_length": 9,
+    "from": {
+      "name": "Sam Greer",
+      "email": "sam.greer@northwindrobotics.com"
+    },
+    "to": [
+      {
+        "name": "Aditi Sharma",
+        "email": "aditi.sharma@northwindrobotics.com"
+      },
+      {
+        "name": "Karen Voss",
+        "email": "karen.voss@northwindrobotics.com"
+      },
+      {
+        "name": "Derek Lang",
+        "email": "derek.lang@northwindrobotics.com"
+      },
+      {
+        "name": "Hannah Cho",
+        "email": "hannah.cho@northwindrobotics.com"
+      }
+    ],
+    "cc": [],
+    "bcc": [],
+    "delivered_to": "aditi.sharma@northwindrobotics.com",
+    "subject": "Re: Q2 commission plan — accelerator calculation dispute",
+    "snippet": "Approved — go with Karen's numbers on both. Thanks for chasing this down. Sam",
+    "body_text": "Approved — go with Karen's numbers on both. Thanks for chasing this down.\n\nSam",
+    "body_html": null,
+    "date": "2026-08-03T10:15:00-04:00",
+    "internal_date_ms": 1785766500000,
+    "folder": "INBOX",
+    "category": "CATEGORY_PERSONAL",
+    "is_unread": true,
+    "is_starred": false,
+    "is_important": true,
+    "user_labels": [],
+    "attachments": [],
+    "calendar_event": null,
+    "extra_headers": {
+      "Return-Path": "<sam.greer@northwindrobotics.com>"
+    },
+    "size_estimate": 2428,
+    "meta": {
+      "email_class": "genuine_work",
+      "tricky_tags": [],
+      "is_actionable_for_user": false,
+      "action_owner": null,
+      "action_summary": "Resolved — Owen's accelerator exception and the Vantage Foods booking treatment are both approved.",
+      "due_date": null,
+      "commitment_made_by_user": null,
+      "commitment_is_conditional": false,
+      "commitment_condition": null,
+      "superseded_by_message_id": null,
+      "notes": null
+    }
+  },
+  {
+    "id": "c20f18c2e4b60020",
+    "thread_id": "c20f18c2e4b60020",
+    "profile_id": "finance",
+    "history_id": "722370",
+    "message_id_header": "<CAFc20f18c2e4b60020@mail.gmail.com>",
+    "in_reply_to": null,
+    "references": [],
+    "thread_position": 1,
+    "thread_length": 8,
+    "from": {
+      "name": "Ruth Amankwah",
+      "email": "ruth.amankwah@northwindrobotics.com"
+    },
+    "to": [
+      {
+        "name": "Aditi Sharma",
+        "email": "aditi.sharma@northwindrobotics.com"
+      }
+    ],
+    "cc": [
+      {
+        "name": "Miles Okonkwo",
+        "email": "miles.okonkwo@northwindrobotics.com"
+      }
+    ],
+    "bcc": [],
+    "delivered_to": "aditi.sharma@northwindrobotics.com",
+    "subject": "Hardware COGS variance — Q2 unit cost investigation",
+    "snippet": "Aditi — flagging something in the July WIP numbers before you finalize the June close. Unit cost on the AGV-200 chassis assembly is running about 11-12% over standard, and it's not",
+    "body_text": "Aditi — flagging something in the July WIP numbers before you finalize the June close. Unit cost on the AGV-200 chassis assembly is running about 11-12% over standard, and it's not a one-off, it's been trending up since April. I don't have full visibility into whether this is a purchasing issue or something in the process, but wanted to get it in front of you and Miles before it compounds another quarter.\n\nRuth",
+    "body_html": null,
+    "date": "2026-07-06T08:50:00-04:00",
+    "internal_date_ms": 1783342200000,
+    "folder": "INBOX",
+    "category": "CATEGORY_PERSONAL",
+    "is_unread": false,
+    "is_starred": false,
+    "is_important": false,
+    "user_labels": [],
+    "attachments": [],
+    "calendar_event": null,
+    "extra_headers": {
+      "Return-Path": "<ruth.amankwah@northwindrobotics.com>"
+    },
+    "size_estimate": 2139,
+    "meta": {
+      "email_class": "genuine_work",
+      "tricky_tags": [],
+      "is_actionable_for_user": true,
+      "action_owner": "aditi.sharma@northwindrobotics.com",
+      "action_summary": "Look into the AGV-200 chassis unit cost variance flagged by Ruth.",
+      "due_date": null,
+      "commitment_made_by_user": null,
+      "commitment_is_conditional": false,
+      "commitment_condition": null,
+      "superseded_by_message_id": null,
+      "notes": null
+    }
+  },
+  {
+    "id": "c20f18c2e4b60021",
+    "thread_id": "c20f18c2e4b60020",
+    "profile_id": "finance",
+    "history_id": "724075",
+    "message_id_header": "<CAFc20f18c2e4b60021@mail.gmail.com>",
+    "in_reply_to": "<CAFc20f18c2e4b60020@mail.gmail.com>",
+    "references": [
+      "<CAFc20f18c2e4b60020@mail.gmail.com>"
+    ],
+    "thread_position": 2,
+    "thread_length": 8,
+    "from": {
+      "name": "Miles Okonkwo",
+      "email": "miles.okonkwo@northwindrobotics.com"
+    },
+    "to": [
+      {
+        "name": "Aditi Sharma",
+        "email": "aditi.sharma@northwindrobotics.com"
+      },
+      {
+        "name": "Ruth Amankwah",
+        "email": "ruth.amankwah@northwindrobotics.com"
+      }
+    ],
+    "cc": [],
+    "bcc": [],
+    "delivered_to": "aditi.sharma@northwindrobotics.com",
+    "subject": "Re: Hardware COGS variance — Q2 unit cost investigation",
+    "snippet": "Pulled the numbers — Ruth's right, actual unit cost is $4,180 against a $3,760 standard, that's an 11.2% unfavorable variance and it's the biggest single driver of our COGS overage",
+    "body_text": "Pulled the numbers — Ruth's right, actual unit cost is $4,180 against a $3,760 standard, that's an 11.2% unfavorable variance and it's the biggest single driver of our COGS overage for the quarter. Standard cost table was last updated in January. Going to dig into the BOM cost lines by component to see where the drift is coming from — servo motors, castings, and electronics are the biggest line items so I'll start there.\n\nMiles",
+    "body_html": null,
+    "date": "2026-07-07T13:15:00-04:00",
+    "internal_date_ms": 1783444500000,
+    "folder": "INBOX",
+    "category": "CATEGORY_PERSONAL",
+    "is_unread": false,
+    "is_starred": false,
+    "is_important": false,
+    "user_labels": [],
+    "attachments": [],
+    "calendar_event": null,
+    "extra_headers": {
+      "Return-Path": "<miles.okonkwo@northwindrobotics.com>"
+    },
+    "size_estimate": 2217,
+    "meta": {
+      "email_class": "genuine_work",
+      "tricky_tags": [],
+      "is_actionable_for_user": false,
+      "action_owner": "miles.okonkwo@northwindrobotics.com",
+      "action_summary": "Miles to dig into BOM cost lines to find the source of the variance.",
+      "due_date": null,
+      "commitment_made_by_user": null,
+      "commitment_is_conditional": false,
+      "commitment_condition": null,
+      "superseded_by_message_id": null,
+      "notes": null
+    }
+  },
+  {
+    "id": "c20f18c2e4b60022",
+    "thread_id": "c20f18c2e4b60020",
+    "profile_id": "finance",
+    "history_id": "725300",
+    "message_id_header": "<CAFc20f18c2e4b60022@mail.gmail.com>",
+    "in_reply_to": "<CAFc20f18c2e4b60021@mail.gmail.com>",
+    "references": [
+      "<CAFc20f18c2e4b60020@mail.gmail.com>",
+      "<CAFc20f18c2e4b60021@mail.gmail.com>"
+    ],
+    "thread_position": 3,
+    "thread_length": 8,
+    "from": {
+      "name": "Aditi Sharma",
+      "email": "aditi.sharma@northwindrobotics.com"
+    },
+    "to": [
+      {
+        "name": "Ilya Petrov",
+        "email": "ilya.petrov@northwindrobotics.com"
+      }
+    ],
+    "cc": [
+      {
+        "name": "Miles Okonkwo",
+        "email": "miles.okonkwo@northwindrobotics.com"
+      },
+      {
+        "name": "Ruth Amankwah",
+        "email": "ruth.amankwah@northwindrobotics.com"
+      }
+    ],
+    "bcc": [],
+    "delivered_to": null,
+    "subject": "Re: Hardware COGS variance — Q2 unit cost investigation",
+    "snippet": "Ilya — can you pull all vendor invoices for the servo motor line (Dynatech Componentry) going back to January and check whether pricing has moved without a PO amendment on file? Th",
+    "body_text": "Ilya — can you pull all vendor invoices for the servo motor line (Dynatech Componentry) going back to January and check whether pricing has moved without a PO amendment on file? Thanks, Aditi",
+    "body_html": null,
+    "date": "2026-07-08T09:40:00-04:00",
+    "internal_date_ms": 1783518000000,
+    "folder": "SENT",
+    "category": null,
+    "is_unread": false,
+    "is_starred": false,
+    "is_important": false,
+    "user_labels": [],
+    "attachments": [],
+    "calendar_event": null,
+    "extra_headers": {
+      "Return-Path": "<aditi.sharma@northwindrobotics.com>"
+    },
+    "size_estimate": 2120,
+    "meta": {
+      "email_class": "genuine_work",
+      "tricky_tags": [],
+      "is_actionable_for_user": false,
+      "action_owner": "ilya.petrov@northwindrobotics.com",
+      "action_summary": "Ilya to pull Dynatech servo motor invoices and check for unauthorized pricing changes.",
+      "due_date": null,
+      "commitment_made_by_user": null,
+      "commitment_is_conditional": false,
+      "commitment_condition": null,
+      "superseded_by_message_id": null,
+      "notes": null
+    }
+  },
+  {
+    "id": "c20f18c2e4b60023",
+    "thread_id": "c20f18c2e4b60020",
+    "profile_id": "finance",
+    "history_id": "727065",
+    "message_id_header": "<CAFc20f18c2e4b60023@mail.gmail.com>",
+    "in_reply_to": "<CAFc20f18c2e4b60022@mail.gmail.com>",
+    "references": [
+      "<CAFc20f18c2e4b60020@mail.gmail.com>",
+      "<CAFc20f18c2e4b60021@mail.gmail.com>",
+      "<CAFc20f18c2e4b60022@mail.gmail.com>"
+    ],
+    "thread_position": 4,
+    "thread_length": 8,
+    "from": {
+      "name": "Ilya Petrov",
+      "email": "ilya.petrov@northwindrobotics.com"
+    },
+    "to": [
+      {
+        "name": "Aditi Sharma",
+        "email": "aditi.sharma@northwindrobotics.com"
+      },
+      {
+        "name": "Miles Okonkwo",
+        "email": "miles.okonkwo@northwindrobotics.com"
+      },
+      {
+        "name": "Ruth Amankwah",
+        "email": "ruth.amankwah@northwindrobotics.com"
+      }
+    ],
+    "cc": [],
+    "bcc": [],
+    "delivered_to": "aditi.sharma@northwindrobotics.com",
+    "subject": "Re: Hardware COGS variance — Q2 unit cost investigation",
+    "snippet": "Found it. Dynatech raised unit pricing on the SM-40 servo motor from $286 to $312 (9.1% increase) effective the May 1 invoice — I don't see a PO amendment or an updated pricing agr",
+    "body_text": "Found it. Dynatech raised unit pricing on the SM-40 servo motor from $286 to $312 (9.1% increase) effective the May 1 invoice — I don't see a PO amendment or an updated pricing agreement anywhere in the vendor file, it just shows up on the invoices starting in May with no notice that I can find in our email records. We've paid four invoices at the new price already, total overpay versus the old PO price is about $9,700 so far. I'll reach out to our Dynatech rep to ask what happened.\n\nIlya",
+    "body_html": null,
+    "date": "2026-07-09T15:05:00-04:00",
+    "internal_date_ms": 1783623900000,
+    "folder": "INBOX",
+    "category": "CATEGORY_PERSONAL",
+    "is_unread": false,
+    "is_starred": false,
+    "is_important": false,
+    "user_labels": [
+      "Label_4412"
+    ],
+    "attachments": [],
+    "calendar_event": null,
+    "extra_headers": {
+      "Return-Path": "<ilya.petrov@northwindrobotics.com>"
+    },
+    "size_estimate": 2477,
+    "meta": {
+      "email_class": "genuine_work",
+      "tricky_tags": [],
+      "is_actionable_for_user": true,
+      "action_owner": "aditi.sharma@northwindrobotics.com",
+      "action_summary": "Decide how to handle the ~$9,700 already overpaid to Dynatech and next steps on the pricing discrepancy.",
+      "due_date": null,
+      "commitment_made_by_user": null,
+      "commitment_is_conditional": false,
+      "commitment_condition": null,
+      "superseded_by_message_id": null,
+      "notes": null
+    }
+  },
+  {
+    "id": "c20f18c2e4b60024",
+    "thread_id": "c20f18c2e4b60020",
+    "profile_id": "finance",
+    "history_id": "732580",
+    "message_id_header": "<CAFc20f18c2e4b60024@mail.gmail.com>",
+    "in_reply_to": "<CAFc20f18c2e4b60023@mail.gmail.com>",
+    "references": [
+      "<CAFc20f18c2e4b60020@mail.gmail.com>",
+      "<CAFc20f18c2e4b60021@mail.gmail.com>",
+      "<CAFc20f18c2e4b60022@mail.gmail.com>",
+      "<CAFc20f18c2e4b60023@mail.gmail.com>"
+    ],
+    "thread_position": 5,
+    "thread_length": 8,
+    "from": {
+      "name": "Ruth Amankwah",
+      "email": "ruth.amankwah@northwindrobotics.com"
+    },
+    "to": [
+      {
+        "name": "Aditi Sharma",
+        "email": "aditi.sharma@northwindrobotics.com"
+      },
+      {
+        "name": "Miles Okonkwo",
+        "email": "miles.okonkwo@northwindrobotics.com"
+      },
+      {
+        "name": "Ilya Petrov",
+        "email": "ilya.petrov@northwindrobotics.com"
+      }
+    ],
+    "cc": [],
+    "bcc": [],
+    "delivered_to": "aditi.sharma@northwindrobotics.com",
+    "subject": "Re: Hardware COGS variance — Q2 unit cost investigation",
+    "snippet": "On top of the Dynatech pricing, I pulled our scrap data for the gripper subassembly line and it's climbed from 3.0% to 6.2% since March — one of the pneumatic suppliers changed the",
+    "body_text": "On top of the Dynatech pricing, I pulled our scrap data for the gripper subassembly line and it's climbed from 3.0% to 6.2% since March — one of the pneumatic suppliers changed their fitting tolerance spec and we're seeing more rework and outright scrap on final assembly. Ops has already flagged it to the supplier but a fix isn't expected before late Q3.\n\nBetween the servo pricing and the scrap rate, I think that's most of what's driving the variance. Happy to pull exact scrap cost if useful for your analysis.\n\nRuth",
+    "body_html": null,
+    "date": "2026-07-13T11:00:00-04:00",
+    "internal_date_ms": 1783954800000,
+    "folder": "INBOX",
+    "category": "CATEGORY_PERSONAL",
+    "is_unread": false,
+    "is_starred": false,
+    "is_important": false,
+    "user_labels": [],
+    "attachments": [],
+    "calendar_event": null,
+    "extra_headers": {
+      "Return-Path": "<ruth.amankwah@northwindrobotics.com>"
+    },
+    "size_estimate": 2560,
+    "meta": {
+      "email_class": "genuine_work",
+      "tricky_tags": [],
+      "is_actionable_for_user": false,
+      "action_owner": "ruth.amankwah@northwindrobotics.com",
+      "action_summary": "Ruth already proposing next steps on the scrap rate issue.",
+      "due_date": null,
+      "commitment_made_by_user": null,
+      "commitment_is_conditional": false,
+      "commitment_condition": null,
+      "superseded_by_message_id": null,
+      "notes": null
+    }
+  },
+  {
+    "id": "c20f18c2e4b60025",
+    "thread_id": "c20f18c2e4b60020",
+    "profile_id": "finance",
+    "history_id": "735790",
+    "message_id_header": "<CAFc20f18c2e4b60025@mail.gmail.com>",
+    "in_reply_to": "<CAFc20f18c2e4b60024@mail.gmail.com>",
+    "references": [
+      "<CAFc20f18c2e4b60020@mail.gmail.com>",
+      "<CAFc20f18c2e4b60021@mail.gmail.com>",
+      "<CAFc20f18c2e4b60022@mail.gmail.com>",
+      "<CAFc20f18c2e4b60023@mail.gmail.com>",
+      "<CAFc20f18c2e4b60024@mail.gmail.com>"
+    ],
+    "thread_position": 6,
+    "thread_length": 8,
+    "from": {
+      "name": "Aditi Sharma",
+      "email": "aditi.sharma@northwindrobotics.com"
+    },
+    "to": [
+      {
+        "name": "Ruth Amankwah",
+        "email": "ruth.amankwah@northwindrobotics.com"
+      },
+      {
+        "name": "Miles Okonkwo",
+        "email": "miles.okonkwo@northwindrobotics.com"
+      },
+      {
+        "name": "Ilya Petrov",
+        "email": "ilya.petrov@northwindrobotics.com"
+      }
+    ],
+    "cc": [],
+    "bcc": [],
+    "delivered_to": null,
+    "subject": "Re: Hardware COGS variance — Q2 unit cost investigation",
+    "snippet": "Ruth, Miles, Ilya — Pulling this together so we have one clean summary before I finalize the July numbers and before this needs to go in front of Sam if it keeps trending this dire",
+    "body_text": "Ruth, Miles, Ilya —\n\nPulling this together so we have one clean summary before I finalize the July numbers and before this needs to go in front of Sam if it keeps trending this direction.\n\nTotal Q2 unfavorable COGS variance on the AGV-200 chassis line: approximately $187,000 against standard, across roughly 445 units produced in the quarter. Breaking that down by driver:\n\n1) Servo motor pricing (Dynatech Componentry) — the SM-40 unit price moved from $286 to $312 without a documented PO amendment, a $26/unit increase. Across all units using that component this quarter (chassis assembly plus two other product lines that share the part), that's roughly $61,000 of the total variance. Ilya is following up with Dynatech's rep both on the retroactive amount already paid and on getting this properly documented going forward so it doesn't happen again without visibility.\n\n2) Scrap rate on the gripper subassembly — up from 3.0% to 6.2% since March, tied to a tolerance change from one of our pneumatic fitting suppliers. At current volumes that's adding roughly $54,000 in scrapped material and rework labor for the quarter. Ruth's team is working a corrective action with the supplier.\n\n3) The remaining approximately $72,000 doesn't trace to a single root cause as cleanly — it's a mix of smaller component price creep across about a dozen line items (nothing individually over 3%) and some labor efficiency loss that Ruth's team attributes to two new hires still ramping on the assembly line who started in May.\n\nFor the close, I'm booking the full $187K as unfavorable COGS variance for Q2 rather than trying to split it into \"one-time\" vs. \"structural\" buckets — I don't think we have enough certainty yet on the servo motor pricing to call that temporary, and I'd rather be conservative given the auditors are already in the building this month for other things.\n\nRuth — can you put together a short corrective action plan I can reference if this comes up with Sam or the board? Specifically want to know: (a) timeline to resolve the scrap issue, (b) whether we're going to push back harder on Dynatech or just eat the increase, and (c) whether the new-hire ramp issue resolves itself by Q3 or needs a training intervention.\n\nAppreciate everyone digging into this fast — this kind of variance compounds quickly if it sits for a quarter or two unexamined.\n\nOne more data point for context: this is the first quarter since we brought the AGV-200 line fully in-house last year that we've seen a variance this size, so I don't think it reflects a structural problem with the standard cost table itself — more that two independent issues (a vendor that quietly raised prices and a supplier tolerance change) happened to land in the same quarter. Still worth tightening our process so a vendor price change can't flow through four invoice cycles without someone catching it — Ilya, once the Dynatech situation is resolved, can you and I talk about adding a quarterly spot-check on our top ten COGS-driving vendors against the standard cost table? Doesn't need to be elaborate, just enough that we'd catch a 9% price move in the first invoice instead of the fourth.\n\nAditi",
+    "body_html": null,
+    "date": "2026-07-15T16:30:00-04:00",
+    "internal_date_ms": 1784147400000,
+    "folder": "SENT",
+    "category": null,
+    "is_unread": false,
+    "is_starred": false,
+    "is_important": true,
+    "user_labels": [
+      "Label_4410"
+    ],
+    "attachments": [
+      {
+        "attachment_id": "ANGjdJ_aQB2YQiI_EHnsrw9_53kF2g0MBPJKrY7S7QLXCdD8pI",
+        "filename": "COGS_Variance_Q2.csv",
+        "mime_type": "text/csv",
+        "size_bytes": 3210,
+        "is_inline": false,
+        "content_id": null,
+        "extracted_text": "AGV-200 Chassis COGS Variance — Q2 2026\nDriver,Amount,Notes\nServo motor pricing (Dynatech SM-40),61000,Unit price $286->$312, no PO amendment on file\nGripper subassembly scrap,54000,Scrap rate 3.0%->6.2%, pneumatic fitting tolerance change\nOther component price creep + labor ramp,72000,No single SKU over 3%; two new hires ramping\nTotal unfavorable variance,187000,\nUnits produced (Q2),445,\nStandard unit cost,3760,\nActual unit cost,4180,+11.2%"
+      }
+    ],
+    "calendar_event": null,
+    "extra_headers": {
+      "Return-Path": "<aditi.sharma@northwindrobotics.com>"
+    },
+    "size_estimate": 9587,
+    "meta": {
+      "email_class": "genuine_work",
+      "tricky_tags": [],
+      "is_actionable_for_user": false,
+      "action_owner": "ruth.amankwah@northwindrobotics.com",
+      "action_summary": "Ruth to put together a corrective action plan on the Dynatech pricing, scrap rate, and labor ramp issues.",
+      "due_date": null,
+      "commitment_made_by_user": "Aditi will book the full $187K as unfavorable COGS variance in the July close and brief Sam or the board if the trend continues.",
+      "commitment_is_conditional": false,
+      "commitment_condition": null,
+      "superseded_by_message_id": null,
+      "notes": null
+    }
+  },
+  {
+    "id": "c20f18c2e4b60026",
+    "thread_id": "c20f18c2e4b60020",
+    "profile_id": "finance",
+    "history_id": "742620",
+    "message_id_header": "<CAFc20f18c2e4b60026@mail.gmail.com>",
+    "in_reply_to": "<CAFc20f18c2e4b60025@mail.gmail.com>",
+    "references": [
+      "<CAFc20f18c2e4b60020@mail.gmail.com>",
+      "<CAFc20f18c2e4b60021@mail.gmail.com>",
+      "<CAFc20f18c2e4b60022@mail.gmail.com>",
+      "<CAFc20f18c2e4b60023@mail.gmail.com>",
+      "<CAFc20f18c2e4b60024@mail.gmail.com>",
+      "<CAFc20f18c2e4b60025@mail.gmail.com>"
+    ],
+    "thread_position": 7,
+    "thread_length": 8,
+    "from": {
+      "name": "Ruth Amankwah",
+      "email": "ruth.amankwah@northwindrobotics.com"
+    },
+    "to": [
+      {
+        "name": "Aditi Sharma",
+        "email": "aditi.sharma@northwindrobotics.com"
+      },
+      {
+        "name": "Miles Okonkwo",
+        "email": "miles.okonkwo@northwindrobotics.com"
+      }
+    ],
+    "cc": [],
+    "bcc": [],
+    "delivered_to": "aditi.sharma@northwindrobotics.com",
+    "subject": "Re: Hardware COGS variance — Q2 unit cost investigation",
+    "snippet": "Corrective plan: we're requalifying an alternate supplier for the pneumatic fittings (should resolve the scrap issue by early August, they're sending qualification samples this wee",
+    "body_text": "Corrective plan: we're requalifying an alternate supplier for the pneumatic fittings (should resolve the scrap issue by early August, they're sending qualification samples this week). On the servo motor pricing, I had ops procurement go back to Dynatech — they're holding firm on the $312 price citing their own input costs, but agreed to honor $298 through year-end as a concession since we didn't get proper notice. I'll get that in writing and forward it to Ilya so he can update the PO.\n\nNot going to get us all the way back to $3,760 standard, but should bring the unit cost down to roughly $3,920, about half the current overage.\n\nRuth",
+    "body_html": null,
+    "date": "2026-07-20T10:20:00-04:00",
+    "internal_date_ms": 1784557200000,
+    "folder": "INBOX",
+    "category": "CATEGORY_PERSONAL",
+    "is_unread": true,
+    "is_starred": false,
+    "is_important": false,
+    "user_labels": [],
+    "attachments": [],
+    "calendar_event": null,
+    "extra_headers": {
+      "Return-Path": "<ruth.amankwah@northwindrobotics.com>"
+    },
+    "size_estimate": 2700,
+    "meta": {
+      "email_class": "genuine_work",
+      "tricky_tags": [],
+      "is_actionable_for_user": false,
+      "action_owner": "ilya.petrov@northwindrobotics.com",
+      "action_summary": "Ilya to update the PO once Ruth sends the written $298 price concession from Dynatech.",
+      "due_date": null,
+      "commitment_made_by_user": null,
+      "commitment_is_conditional": false,
+      "commitment_condition": null,
+      "superseded_by_message_id": null,
+      "notes": null
+    }
+  },
+  {
+    "id": "c20f18c2e4b60027",
+    "thread_id": "c20f18c2e4b60020",
+    "profile_id": "finance",
+    "history_id": "747160",
+    "message_id_header": "<CAFc20f18c2e4b60027@mail.gmail.com>",
+    "in_reply_to": "<CAFc20f18c2e4b60026@mail.gmail.com>",
+    "references": [
+      "<CAFc20f18c2e4b60020@mail.gmail.com>",
+      "<CAFc20f18c2e4b60021@mail.gmail.com>",
+      "<CAFc20f18c2e4b60022@mail.gmail.com>",
+      "<CAFc20f18c2e4b60023@mail.gmail.com>",
+      "<CAFc20f18c2e4b60024@mail.gmail.com>",
+      "<CAFc20f18c2e4b60025@mail.gmail.com>",
+      "<CAFc20f18c2e4b60026@mail.gmail.com>"
+    ],
+    "thread_position": 8,
+    "thread_length": 8,
+    "from": {
+      "name": "Miles Okonkwo",
+      "email": "miles.okonkwo@northwindrobotics.com"
+    },
+    "to": [
+      {
+        "name": "Aditi Sharma",
+        "email": "aditi.sharma@northwindrobotics.com"
+      },
+      {
+        "name": "Ruth Amankwah",
+        "email": "ruth.amankwah@northwindrobotics.com"
+      }
+    ],
+    "cc": [],
+    "bcc": [],
+    "delivered_to": "aditi.sharma@northwindrobotics.com",
+    "subject": "Re: Hardware COGS variance — Q2 unit cost investigation",
+    "snippet": "Standard cost table updated in NetSuite, effective 8/1. Closing this out on my end. Miles",
+    "body_text": "Standard cost table updated in NetSuite, effective 8/1. Closing this out on my end.\n\nMiles",
+    "body_html": null,
+    "date": "2026-07-23T14:00:00-04:00",
+    "internal_date_ms": 1784829600000,
+    "folder": "INBOX",
+    "category": "CATEGORY_PERSONAL",
+    "is_unread": true,
+    "is_starred": false,
+    "is_important": false,
+    "user_labels": [],
+    "attachments": [],
+    "calendar_event": null,
+    "extra_headers": {
+      "Return-Path": "<miles.okonkwo@northwindrobotics.com>"
+    },
+    "size_estimate": 2202,
+    "meta": {
+      "email_class": "genuine_work",
+      "tricky_tags": [],
+      "is_actionable_for_user": false,
+      "action_owner": null,
+      "action_summary": "Resolved — standard cost table updated in NetSuite.",
+      "due_date": null,
+      "commitment_made_by_user": null,
+      "commitment_is_conditional": false,
+      "commitment_condition": null,
+      "superseded_by_message_id": null,
+      "notes": null
+    }
+  },
+  {
+    "id": "c20f18c2e4b60028",
+    "thread_id": "c20f18c2e4b60028",
+    "profile_id": "finance",
+    "history_id": "733900",
+    "message_id_header": "<c20f18c2e4b60028@harborlinebank.com>",
+    "in_reply_to": null,
+    "references": [],
+    "thread_position": 1,
+    "thread_length": 7,
+    "from": {
+      "name": "Frank Mireles",
+      "email": "fmireles@harborlinebank.com"
+    },
+    "to": [
+      {
+        "name": "Aditi Sharma",
+        "email": "aditi.sharma@northwindrobotics.com"
+      }
+    ],
+    "cc": [
+      {
+        "name": "Karen Voss",
+        "email": "karen.voss@northwindrobotics.com"
+      }
+    ],
+    "bcc": [],
+    "delivered_to": "aditi.sharma@northwindrobotics.com",
+    "subject": "Credit facility — leverage covenant check ahead of Q2 reporting",
+    "snippet": "Hi Aditi, Routine reminder — your quarterly compliance certificate for the credit facility is due 7/28 per Section 5.2 of the credit agreement. Usual format, same as Q1. Also flagg",
+    "body_text": "Hi Aditi,\n\nRoutine reminder — your quarterly compliance certificate for the credit facility is due 7/28 per Section 5.2 of the credit agreement. Usual format, same as Q1. Also flagging that our credit team will be doing a slightly closer read this quarter given the capex Northwind's been running — just want to make sure the leverage ratio calc reflects everything correctly so there are no surprises on either side.\n\nLet me know if you have questions.\n\nFrank Mireles\nVP, Commercial Banking\nHarborline Bank",
+    "body_html": "<div style=\"font-family:Arial,Helvetica,sans-serif;font-size:14px;color:#222222;line-height:1.5;\"><p style=\"margin:0 0 10px 0;\">Hi Aditi,</p><p style=\"margin:0 0 10px 0;\">Routine reminder — your quarterly compliance certificate for the credit facility is due 7/28 per Section 5.2 of the credit agreement. Usual format, same as Q1. Also flagging that our credit team will be doing a slightly closer read this quarter given the capex Northwind's been running — just want to make sure the leverage ratio calc reflects everything correctly so there are no surprises on either side.</p><p style=\"margin:0 0 10px 0;\">Let me know if you have questions.</p><p style=\"margin:0 0 10px 0;\">Frank Mireles<br>VP, Commercial Banking<br>Harborline Bank</p></div>",
+    "date": "2026-07-14T09:00:00-04:00",
+    "internal_date_ms": 1784034000000,
+    "folder": "INBOX",
+    "category": "CATEGORY_PERSONAL",
+    "is_unread": false,
+    "is_starred": false,
+    "is_important": false,
+    "user_labels": [],
+    "attachments": [],
+    "calendar_event": null,
+    "extra_headers": {
+      "Return-Path": "<fmireles@harborlinebank.com>"
+    },
+    "size_estimate": 2997,
+    "meta": {
+      "email_class": "genuine_work",
+      "tricky_tags": [],
+      "is_actionable_for_user": true,
+      "action_owner": "aditi.sharma@northwindrobotics.com",
+      "action_summary": "Prepare and submit the Q2 covenant compliance certificate to Harborline Bank.",
+      "due_date": "2026-07-28",
+      "commitment_made_by_user": null,
+      "commitment_is_conditional": false,
+      "commitment_condition": null,
+      "superseded_by_message_id": null,
+      "notes": null
+    }
+  },
+  {
+    "id": "c20f18c2e4b60029",
+    "thread_id": "c20f18c2e4b60028",
+    "profile_id": "finance",
+    "history_id": "734340",
+    "message_id_header": "<CAFc20f18c2e4b60029@mail.gmail.com>",
+    "in_reply_to": "<c20f18c2e4b60028@harborlinebank.com>",
+    "references": [
+      "<c20f18c2e4b60028@harborlinebank.com>"
+    ],
+    "thread_position": 2,
+    "thread_length": 7,
+    "from": {
+      "name": "Aditi Sharma",
+      "email": "aditi.sharma@northwindrobotics.com"
+    },
+    "to": [
+      {
+        "name": "Frank Mireles",
+        "email": "fmireles@harborlinebank.com"
+      }
+    ],
+    "cc": [
+      {
+        "name": "Karen Voss",
+        "email": "karen.voss@northwindrobotics.com"
+      }
+    ],
+    "bcc": [],
+    "delivered_to": null,
+    "subject": "Re: Credit facility — leverage covenant check ahead of Q2 reporting",
+    "snippet": "Hi Frank, Will have the certificate to you before the 28th. One question while I'm doing the calc — the Q2 capex on the new automation line pushed our trailing Debt/EBITDA close to",
+    "body_text": "Hi Frank,\n\nWill have the certificate to you before the 28th. One question while I'm doing the calc — the Q2 capex on the new automation line pushed our trailing Debt/EBITDA close to the 3.0x cap. Per Section 6.1(b) of the agreement, capitalized R&D can be added back to EBITDA for covenant purposes. Can you confirm that still applies the way I'm reading it? If so it gives us meaningful headroom; if not, I want to know now rather than when I submit the certificate.\n\nAditi",
+    "body_html": null,
+    "date": "2026-07-14T16:20:00-04:00",
+    "internal_date_ms": 1784060400000,
+    "folder": "SENT",
+    "category": null,
+    "is_unread": false,
+    "is_starred": false,
+    "is_important": true,
+    "user_labels": [],
+    "attachments": [],
+    "calendar_event": null,
+    "extra_headers": {
+      "Return-Path": "<aditi.sharma@northwindrobotics.com>"
+    },
+    "size_estimate": 2270,
+    "meta": {
+      "email_class": "genuine_work",
+      "tricky_tags": [],
+      "is_actionable_for_user": false,
+      "action_owner": "fmireles@harborlinebank.com",
+      "action_summary": "Frank to confirm whether the capitalized R&D addback applies to the leverage covenant.",
+      "due_date": null,
+      "commitment_made_by_user": "Aditi commits to sending the compliance certificate before July 28.",
+      "commitment_is_conditional": false,
+      "commitment_condition": null,
+      "superseded_by_message_id": null,
+      "notes": null
+    }
+  },
+  {
+    "id": "c20f18c2e4b60030",
+    "thread_id": "c20f18c2e4b60028",
+    "profile_id": "finance",
+    "history_id": "735460",
+    "message_id_header": "<c20f18c2e4b60030@harborlinebank.com>",
+    "in_reply_to": "<CAFc20f18c2e4b60029@mail.gmail.com>",
+    "references": [
+      "<c20f18c2e4b60028@harborlinebank.com>",
+      "<CAFc20f18c2e4b60029@mail.gmail.com>"
+    ],
+    "thread_position": 3,
+    "thread_length": 7,
+    "from": {
+      "name": "Frank Mireles",
+      "email": "fmireles@harborlinebank.com"
+    },
+    "to": [
+      {
+        "name": "Aditi Sharma",
+        "email": "aditi.sharma@northwindrobotics.com"
+      },
+      {
+        "name": "Karen Voss",
+        "email": "karen.voss@northwindrobotics.com"
+      }
+    ],
+    "cc": [],
+    "bcc": [],
+    "delivered_to": "aditi.sharma@northwindrobotics.com",
+    "subject": "Re: Credit facility — leverage covenant check ahead of Q2 reporting",
+    "snippet": "Let me check with our credit committee and pull the exact agreement language before I confirm anything in writing — don't want to give you a wrong answer. Back to you by end of wee",
+    "body_text": "Let me check with our credit committee and pull the exact agreement language before I confirm anything in writing — don't want to give you a wrong answer. Back to you by end of week.\n\nFrank",
+    "body_html": null,
+    "date": "2026-07-15T11:00:00-04:00",
+    "internal_date_ms": 1784127600000,
+    "folder": "INBOX",
+    "category": "CATEGORY_PERSONAL",
+    "is_unread": false,
+    "is_starred": false,
+    "is_important": false,
+    "user_labels": [],
+    "attachments": [],
+    "calendar_event": null,
+    "extra_headers": {
+      "Return-Path": "<fmireles@harborlinebank.com>"
+    },
+    "size_estimate": 2040,
+    "meta": {
+      "email_class": "genuine_work",
+      "tricky_tags": [],
+      "is_actionable_for_user": false,
+      "action_owner": "fmireles@harborlinebank.com",
+      "action_summary": "Frank to confirm the addback treatment with the credit committee.",
+      "due_date": null,
+      "commitment_made_by_user": null,
+      "commitment_is_conditional": false,
+      "commitment_condition": null,
+      "superseded_by_message_id": null,
+      "notes": null
+    }
+  },
+  {
+    "id": "c20f18c2e4b60031",
+    "thread_id": "c20f18c2e4b60028",
+    "profile_id": "finance",
+    "history_id": "738550",
+    "message_id_header": "<CAFc20f18c2e4b60031@mail.gmail.com>",
+    "in_reply_to": "<c20f18c2e4b60030@harborlinebank.com>",
+    "references": [
+      "<c20f18c2e4b60028@harborlinebank.com>",
+      "<CAFc20f18c2e4b60029@mail.gmail.com>",
+      "<c20f18c2e4b60030@harborlinebank.com>"
+    ],
+    "thread_position": 4,
+    "thread_length": 7,
+    "from": {
+      "name": "Karen Voss",
+      "email": "karen.voss@northwindrobotics.com"
+    },
+    "to": [
+      {
+        "name": "Aditi Sharma",
+        "email": "aditi.sharma@northwindrobotics.com"
+      },
+      {
+        "name": "Frank Mireles",
+        "email": "fmireles@harborlinebank.com"
+      }
+    ],
+    "cc": [
+      {
+        "name": "Tomás Delgado",
+        "email": "tdelgado@arrowpointvc.com"
+      }
+    ],
+    "bcc": [],
+    "delivered_to": "aditi.sharma@northwindrobotics.com",
+    "subject": "Re: Credit facility — leverage covenant check ahead of Q2 reporting",
+    "snippet": "Aditi — while we wait on Frank, adding Tomás here for visibility since this is exactly the covenant headroom question that came up at the last board sync. Tomás, wanted you looped ",
+    "body_text": "Aditi — while we wait on Frank, adding Tomás here for visibility since this is exactly the covenant headroom question that came up at the last board sync. Tomás, wanted you looped in before this goes further in case the board wants a heads up either way on where we land.\n\nKaren",
+    "body_html": null,
+    "date": "2026-07-17T14:30:00-04:00",
+    "internal_date_ms": 1784313000000,
+    "folder": "INBOX",
+    "category": "CATEGORY_PERSONAL",
+    "is_unread": false,
+    "is_starred": false,
+    "is_important": false,
+    "user_labels": [
+      "Label_4413"
+    ],
+    "attachments": [],
+    "calendar_event": null,
+    "extra_headers": {
+      "Return-Path": "<karen.voss@northwindrobotics.com>"
+    },
+    "size_estimate": 2276,
+    "meta": {
+      "email_class": "genuine_work",
+      "tricky_tags": [],
+      "is_actionable_for_user": false,
+      "action_owner": "tdelgado@arrowpointvc.com",
+      "action_summary": "Tomás now looped in on the covenant headroom question.",
+      "due_date": null,
+      "commitment_made_by_user": null,
+      "commitment_is_conditional": false,
+      "commitment_condition": null,
+      "superseded_by_message_id": null,
+      "notes": null
+    }
+  },
+  {
+    "id": "c20f18c2e4b60032",
+    "thread_id": "c20f18c2e4b60028",
+    "profile_id": "finance",
+    "history_id": "742585",
+    "message_id_header": "<c20f18c2e4b60032@arrowpointvc.com>",
+    "in_reply_to": "<CAFc20f18c2e4b60031@mail.gmail.com>",
+    "references": [
+      "<c20f18c2e4b60028@harborlinebank.com>",
+      "<CAFc20f18c2e4b60029@mail.gmail.com>",
+      "<c20f18c2e4b60030@harborlinebank.com>",
+      "<CAFc20f18c2e4b60031@mail.gmail.com>"
+    ],
+    "thread_position": 5,
+    "thread_length": 7,
+    "from": {
+      "name": "Tomás Delgado",
+      "email": "tdelgado@arrowpointvc.com"
+    },
+    "to": [
+      {
+        "name": "Aditi Sharma",
+        "email": "aditi.sharma@northwindrobotics.com"
+      },
+      {
+        "name": "Karen Voss",
+        "email": "karen.voss@northwindrobotics.com"
+      },
+      {
+        "name": "Frank Mireles",
+        "email": "fmireles@harborlinebank.com"
+      }
+    ],
+    "cc": [],
+    "bcc": [],
+    "delivered_to": "aditi.sharma@northwindrobotics.com",
+    "subject": "Re: Credit facility — leverage covenant check ahead of Q2 reporting",
+    "snippet": "Thanks for the loop-in, Karen. Before I take a view on this for the board, can someone send over the actual EBITDA bridge — starting EBITDA, the capex add-back if it applies, and w",
+    "body_text": "Thanks for the loop-in, Karen. Before I take a view on this for the board, can someone send over the actual EBITDA bridge — starting EBITDA, the capex add-back if it applies, and where that puts the ratio both with and without it? I'd rather see the real numbers than characterize this secondhand when it comes up in the next update. Not trying to create extra work, just want to be precise given how close to the line we're running.\n\nTomás",
+    "body_html": "<div style=\"font-family:Arial,Helvetica,sans-serif;font-size:14px;color:#222222;line-height:1.5;\"><p style=\"margin:0 0 10px 0;\">Thanks for the loop-in, Karen. Before I take a view on this for the board, can someone send over the actual EBITDA bridge — starting EBITDA, the capex add-back if it applies, and where that puts the ratio both with and without it? I'd rather see the real numbers than characterize this secondhand when it comes up in the next update. Not trying to create extra work, just want to be precise given how close to the line we're running.</p><p style=\"margin:0 0 10px 0;\">Tomás</p></div>",
+    "date": "2026-07-20T09:45:00-04:00",
+    "internal_date_ms": 1784555100000,
+    "folder": "INBOX",
+    "category": "CATEGORY_PERSONAL",
+    "is_unread": false,
+    "is_starred": false,
+    "is_important": false,
+    "user_labels": [
+      "Label_4413"
+    ],
+    "attachments": [],
+    "calendar_event": null,
+    "extra_headers": {
+      "Return-Path": "<tdelgado@arrowpointvc.com>"
+    },
+    "size_estimate": 3105,
+    "meta": {
+      "email_class": "genuine_work",
+      "tricky_tags": [],
+      "is_actionable_for_user": true,
+      "action_owner": "aditi.sharma@northwindrobotics.com",
+      "action_summary": "Send Tomás and Frank the full EBITDA bridge with and without the R&D addback.",
+      "due_date": null,
+      "commitment_made_by_user": null,
+      "commitment_is_conditional": false,
+      "commitment_condition": null,
+      "superseded_by_message_id": null,
+      "notes": null
+    }
+  },
+  {
+    "id": "c20f18c2e4b60033",
+    "thread_id": "c20f18c2e4b60028",
+    "profile_id": "finance",
+    "history_id": "745795",
+    "message_id_header": "<CAFc20f18c2e4b60033@mail.gmail.com>",
+    "in_reply_to": "<c20f18c2e4b60032@arrowpointvc.com>",
+    "references": [
+      "<c20f18c2e4b60028@harborlinebank.com>",
+      "<CAFc20f18c2e4b60029@mail.gmail.com>",
+      "<c20f18c2e4b60030@harborlinebank.com>",
+      "<CAFc20f18c2e4b60031@mail.gmail.com>",
+      "<c20f18c2e4b60032@arrowpointvc.com>"
+    ],
+    "thread_position": 6,
+    "thread_length": 7,
+    "from": {
+      "name": "Aditi Sharma",
+      "email": "aditi.sharma@northwindrobotics.com"
+    },
+    "to": [
+      {
+        "name": "Tomás Delgado",
+        "email": "tdelgado@arrowpointvc.com"
+      },
+      {
+        "name": "Karen Voss",
+        "email": "karen.voss@northwindrobotics.com"
+      },
+      {
+        "name": "Frank Mireles",
+        "email": "fmireles@harborlinebank.com"
+      }
+    ],
+    "cc": [],
+    "bcc": [],
+    "delivered_to": null,
+    "subject": "Re: Credit facility — leverage covenant check ahead of Q2 reporting",
+    "snippet": "Tomás, Karen, Frank — Here's the full bridge so everyone's looking at the same numbers rather than a summary secondhand. Trailing twelve-month EBITDA as reported (before any addbac",
+    "body_text": "Tomás, Karen, Frank —\n\nHere's the full bridge so everyone's looking at the same numbers rather than a summary secondhand.\n\nTrailing twelve-month EBITDA as reported (before any addbacks): $4.82M. Total funded debt as of 6/30: $14.71M. That's a raw Debt/EBITDA of 3.05x, which on its own would trip the 3.0x cap in Section 6.1 of the credit agreement.\n\nPer Section 6.1(b), capitalized internal-use R&D spend is an eligible addback to EBITDA for covenant purposes — this exists specifically because a hardware company like us runs meaningful capitalized engineering spend that GAAP requires we capitalize rather than expense, even though economically it's closer to an operating cost from a cash flow standpoint. Our capitalized R&D for the trailing twelve months is $410K, almost entirely tied to the next-gen AGV controller board redesign that the engineering team has been running since Q4 last year.\n\nAdding that back: adjusted EBITDA becomes $5.23M, and Debt/EBITDA comes down to 2.94x. That's the number I'd use for the compliance certificate, and it's the number Frank's credit committee needs to bless in writing before I file it, since we're using an addback provision that hasn't come up in a certificate before.\n\nFor context on the trend: this ratio was 2.41x at year-end and has climbed steadily through the two capex-heavy quarters funding the new automation line and the AGV-300 tooling buildout. Both of those are substantially done as of this quarter, so absent a new debt raise I'd expect the ratio to flatten and start improving again by Q4 as EBITDA continues to grow into the existing debt load rather than the debt load growing further.\n\nAttached is the full bridge workbook with the EBITDA build, the addback detail, and both ratio calculations (with and without the addback) so anyone can check the math. Tomás — happy to walk the board through this at whatever level of detail is useful; my read is it's a real number to flag as \"worth watching\" but not a crisis, especially with the addback in play.\n\nFrank — let me know as soon as your credit committee signs off on the addback treatment so I can finalize the certificate before the 28th.\n\nOne more piece of context in case it's useful for the board conversation: the capex driving this — the automation line and the AGV-300 tooling — is fully funded out of the existing facility, we haven't drawn anything beyond what was already contemplated in this year's plan, and neither project required a separate approval under the agreement's capex basket. So this isn't a case of us running ahead of what the bank already knows about; it's just the timing of the ratio math catching up to spend that was always in the plan. I'd also note our cash balance hasn't moved much despite the capex, since both projects were financed through the existing revolver rather than a draw against the cash cushion, which I think matters more to the credit story than the ratio in isolation.\n\nAditi",
+    "body_html": null,
+    "date": "2026-07-22T15:15:00-04:00",
+    "internal_date_ms": 1784747700000,
+    "folder": "SENT",
+    "category": null,
+    "is_unread": false,
+    "is_starred": false,
+    "is_important": true,
+    "user_labels": [
+      "Label_4413"
+    ],
+    "attachments": [
+      {
+        "attachment_id": "ANGjdJ_Zdi2vMne7bs358fCTQCFjpZD84LWFklIl1wR4PQWsE8",
+        "filename": "EBITDA_Bridge_Q2_2026.xlsx",
+        "mime_type": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+        "size_bytes": 15680,
+        "is_inline": false,
+        "content_id": null,
+        "extracted_text": "EBITDA Bridge — Q2 2026 (TTM as of 6/30)\nReported EBITDA (TTM),4820000\nAdd: Capitalized R&D (TTM),410000\nAdjusted EBITDA (TTM),5230000\nTotal Funded Debt (6/30),14710000\nDebt/EBITDA (unadjusted),3.05x\nDebt/EBITDA (with R&D addback),2.94x\nCovenant cap (Section 6.1),3.00x\nTrend: YE2025 2.41x -> Q1'26 2.68x -> Q2'26 2.94x (adjusted)"
+      }
+    ],
+    "calendar_event": null,
+    "extra_headers": {
+      "Return-Path": "<aditi.sharma@northwindrobotics.com>"
+    },
+    "size_estimate": 26079,
+    "meta": {
+      "email_class": "genuine_work",
+      "tricky_tags": [],
+      "is_actionable_for_user": false,
+      "action_owner": "fmireles@harborlinebank.com",
+      "action_summary": "Frank's credit committee to confirm the R&D addback treatment in writing before the certificate is filed.",
+      "due_date": "2026-07-28",
+      "commitment_made_by_user": null,
+      "commitment_is_conditional": false,
+      "commitment_condition": null,
+      "superseded_by_message_id": null,
+      "notes": null
+    }
+  },
+  {
+    "id": "c20f18c2e4b60034",
+    "thread_id": "c20f18c2e4b60028",
+    "profile_id": "finance",
+    "history_id": "748370",
+    "message_id_header": "<c20f18c2e4b60034@harborlinebank.com>",
+    "in_reply_to": "<CAFc20f18c2e4b60033@mail.gmail.com>",
+    "references": [
+      "<c20f18c2e4b60028@harborlinebank.com>",
+      "<CAFc20f18c2e4b60029@mail.gmail.com>",
+      "<c20f18c2e4b60030@harborlinebank.com>",
+      "<CAFc20f18c2e4b60031@mail.gmail.com>",
+      "<c20f18c2e4b60032@arrowpointvc.com>",
+      "<CAFc20f18c2e4b60033@mail.gmail.com>"
+    ],
+    "thread_position": 7,
+    "thread_length": 7,
+    "from": {
+      "name": "Frank Mireles",
+      "email": "fmireles@harborlinebank.com"
+    },
+    "to": [
+      {
+        "name": "Aditi Sharma",
+        "email": "aditi.sharma@northwindrobotics.com"
+      },
+      {
+        "name": "Karen Voss",
+        "email": "karen.voss@northwindrobotics.com"
+      },
+      {
+        "name": "Tomás Delgado",
+        "email": "tdelgado@arrowpointvc.com"
+      }
+    ],
+    "cc": [],
+    "bcc": [],
+    "delivered_to": "aditi.sharma@northwindrobotics.com",
+    "subject": "Re: Credit facility — leverage covenant check ahead of Q2 reporting",
+    "snippet": "Confirmed — the R&D addback is permitted under 6.1(b). You're covered at 2.94x. Nice work. Frank",
+    "body_text": "Confirmed — the R&D addback is permitted under 6.1(b). You're covered at 2.94x. Nice work.\n\nFrank",
+    "body_html": "<div style=\"font-family:Arial,Helvetica,sans-serif;font-size:14px;color:#222222;line-height:1.5;\"><p style=\"margin:0 0 10px 0;\">Confirmed — the R&D addback is permitted under 6.1(b). You're covered at 2.94x. Nice work.</p><p style=\"margin:0 0 10px 0;\">Frank</p></div>",
+    "date": "2026-07-24T10:10:00-04:00",
+    "internal_date_ms": 1784902200000,
+    "folder": "INBOX",
+    "category": "CATEGORY_PERSONAL",
+    "is_unread": false,
+    "is_starred": true,
+    "is_important": false,
+    "user_labels": [],
+    "attachments": [],
+    "calendar_event": null,
+    "extra_headers": {
+      "Return-Path": "<fmireles@harborlinebank.com>"
+    },
+    "size_estimate": 2527,
+    "meta": {
+      "email_class": "genuine_work",
+      "tricky_tags": [],
+      "is_actionable_for_user": false,
+      "action_owner": null,
+      "action_summary": "Resolved — covenant satisfied at 2.94x with the R&D addback confirmed.",
+      "due_date": null,
+      "commitment_made_by_user": null,
+      "commitment_is_conditional": false,
+      "commitment_condition": null,
+      "superseded_by_message_id": null,
+      "notes": null
+    }
+  },
+  {
+    "id": "c20f18c2e4b60035",
+    "thread_id": "c20f18c2e4b60035",
+    "profile_id": "finance",
+    "history_id": "726790",
+    "message_id_header": "<CAFc20f18c2e4b60035@mail.gmail.com>",
+    "in_reply_to": null,
+    "references": [],
+    "thread_position": 1,
+    "thread_length": 6,
+    "from": {
+      "name": "Miles Okonkwo",
+      "email": "miles.okonkwo@northwindrobotics.com"
+    },
+    "to": [
+      {
+        "name": "Aditi Sharma",
+        "email": "aditi.sharma@northwindrobotics.com"
+      }
+    ],
+    "cc": [
+      {
+        "name": "Karen Voss",
+        "email": "karen.voss@northwindrobotics.com"
+      }
+    ],
+    "bcc": [],
+    "delivered_to": "aditi.sharma@northwindrobotics.com",
+    "subject": "ASC 606 — bundled extended warranty revenue split",
+    "snippet": "Aditi — the new AGV-250 SKU launching in August bundles the hardware with a 2-year extended warranty as a single list price ($64,500 total, warranty isn't sold separately today). S",
+    "body_text": "Aditi — the new AGV-250 SKU launching in August bundles the hardware with a 2-year extended warranty as a single list price ($64,500 total, warranty isn't sold separately today). Sales wants pricing finalized by end of month. Before I set up the rev rec treatment in NetSuite I need to know how we're splitting the transaction price between the hardware performance obligation and the warranty — right now our system would just recognize the whole thing at delivery, which I don't think is right under 606 for the warranty piece.\n\nMiles",
+    "body_html": null,
+    "date": "2026-07-09T10:30:00-04:00",
+    "internal_date_ms": 1783607400000,
+    "folder": "INBOX",
+    "category": "CATEGORY_PERSONAL",
+    "is_unread": false,
+    "is_starred": false,
+    "is_important": false,
+    "user_labels": [],
+    "attachments": [],
+    "calendar_event": null,
+    "extra_headers": {
+      "Return-Path": "<miles.okonkwo@northwindrobotics.com>"
+    },
+    "size_estimate": 2261,
+    "meta": {
+      "email_class": "genuine_work",
+      "tricky_tags": [],
+      "is_actionable_for_user": true,
+      "action_owner": "aditi.sharma@northwindrobotics.com",
+      "action_summary": "Decide how to split the AGV-250 bundle transaction price between hardware and warranty for rev rec.",
+      "due_date": "2026-07-31",
+      "commitment_made_by_user": null,
+      "commitment_is_conditional": false,
+      "commitment_condition": null,
+      "superseded_by_message_id": null,
+      "notes": null
+    }
+  },
+  {
+    "id": "c20f18c2e4b60036",
+    "thread_id": "c20f18c2e4b60035",
+    "profile_id": "finance",
+    "history_id": "732475",
+    "message_id_header": "<CAFc20f18c2e4b60036@mail.gmail.com>",
+    "in_reply_to": "<CAFc20f18c2e4b60035@mail.gmail.com>",
+    "references": [
+      "<CAFc20f18c2e4b60035@mail.gmail.com>"
+    ],
+    "thread_position": 2,
+    "thread_length": 6,
+    "from": {
+      "name": "Karen Voss",
+      "email": "karen.voss@northwindrobotics.com"
+    },
+    "to": [
+      {
+        "name": "Aditi Sharma",
+        "email": "aditi.sharma@northwindrobotics.com"
+      },
+      {
+        "name": "Miles Okonkwo",
+        "email": "miles.okonkwo@northwindrobotics.com"
+      }
+    ],
+    "cc": [],
+    "bcc": [],
+    "delivered_to": "aditi.sharma@northwindrobotics.com",
+    "subject": "Re: ASC 606 — bundled extended warranty revenue split",
+    "snippet": "Agree it needs to be split. I'd propose relative standalone selling price — we do sell the base 1-year-warranty version of similar hardware separately, so we have a reasonable SSP ",
+    "body_text": "Agree it needs to be split. I'd propose relative standalone selling price — we do sell the base 1-year-warranty version of similar hardware separately, so we have a reasonable SSP anchor. Rough math gets us to about 92% hardware / 8% warranty of the $64,500, so roughly $59,340 hardware / $5,160 warranty. The warranty piece would then recognize ratably over the 24-month coverage period rather than at delivery.\n\nKaren",
+    "body_html": null,
+    "date": "2026-07-13T09:15:00-04:00",
+    "internal_date_ms": 1783948500000,
+    "folder": "INBOX",
+    "category": "CATEGORY_PERSONAL",
+    "is_unread": false,
+    "is_starred": false,
+    "is_important": true,
+    "user_labels": [],
+    "attachments": [],
+    "calendar_event": null,
+    "extra_headers": {
+      "Return-Path": "<karen.voss@northwindrobotics.com>"
+    },
+    "size_estimate": 2201,
+    "meta": {
+      "email_class": "genuine_work",
+      "tricky_tags": [],
+      "is_actionable_for_user": true,
+      "action_owner": "aditi.sharma@northwindrobotics.com",
+      "action_summary": "Approve Karen's proposed 92/8 standalone selling price split for the AGV-250 bundle.",
+      "due_date": null,
+      "commitment_made_by_user": null,
+      "commitment_is_conditional": false,
+      "commitment_condition": null,
+      "superseded_by_message_id": null,
+      "notes": null
+    }
+  },
+  {
+    "id": "c20f18c2e4b60037",
+    "thread_id": "c20f18c2e4b60035",
+    "profile_id": "finance",
+    "history_id": "734180",
+    "message_id_header": "<CAFc20f18c2e4b60037@mail.gmail.com>",
+    "in_reply_to": "<CAFc20f18c2e4b60036@mail.gmail.com>",
+    "references": [
+      "<CAFc20f18c2e4b60035@mail.gmail.com>",
+      "<CAFc20f18c2e4b60036@mail.gmail.com>"
+    ],
+    "thread_position": 3,
+    "thread_length": 6,
+    "from": {
+      "name": "Aditi Sharma",
+      "email": "aditi.sharma@northwindrobotics.com"
+    },
+    "to": [
+      {
+        "name": "Karen Voss",
+        "email": "karen.voss@northwindrobotics.com"
+      },
+      {
+        "name": "Miles Okonkwo",
+        "email": "miles.okonkwo@northwindrobotics.com"
+      }
+    ],
+    "cc": [],
+    "bcc": [],
+    "delivered_to": null,
+    "subject": "Re: ASC 606 — bundled extended warranty revenue split",
+    "snippet": "Agreed, let's go with the 92/8 split. Miles, can you update the rev rec memo?",
+    "body_text": "Agreed, let's go with the 92/8 split. Miles, can you update the rev rec memo?",
+    "body_html": null,
+    "date": "2026-07-14T13:40:00-04:00",
+    "internal_date_ms": 1784050800000,
+    "folder": "SENT",
+    "category": null,
+    "is_unread": false,
+    "is_starred": false,
+    "is_important": false,
+    "user_labels": [],
+    "attachments": [],
+    "calendar_event": null,
+    "extra_headers": {
+      "Return-Path": "<aditi.sharma@northwindrobotics.com>"
+    },
+    "size_estimate": 1912,
+    "meta": {
+      "email_class": "genuine_work",
+      "tricky_tags": [],
+      "is_actionable_for_user": false,
+      "action_owner": "miles.okonkwo@northwindrobotics.com",
+      "action_summary": "Miles to update the rev rec memo with the 92/8 split.",
+      "due_date": null,
+      "commitment_made_by_user": null,
+      "commitment_is_conditional": false,
+      "commitment_condition": null,
+      "superseded_by_message_id": null,
+      "notes": null
+    }
+  },
+  {
+    "id": "c20f18c2e4b60038",
+    "thread_id": "c20f18c2e4b60035",
+    "profile_id": "finance",
+    "history_id": "736905",
+    "message_id_header": "<CAFc20f18c2e4b60038@mail.gmail.com>",
+    "in_reply_to": "<CAFc20f18c2e4b60037@mail.gmail.com>",
+    "references": [
+      "<CAFc20f18c2e4b60035@mail.gmail.com>",
+      "<CAFc20f18c2e4b60036@mail.gmail.com>",
+      "<CAFc20f18c2e4b60037@mail.gmail.com>"
+    ],
+    "thread_position": 4,
+    "thread_length": 6,
+    "from": {
+      "name": "Miles Okonkwo",
+      "email": "miles.okonkwo@northwindrobotics.com"
+    },
+    "to": [
+      {
+        "name": "Aditi Sharma",
+        "email": "aditi.sharma@northwindrobotics.com"
+      },
+      {
+        "name": "Karen Voss",
+        "email": "karen.voss@northwindrobotics.com"
+      }
+    ],
+    "cc": [],
+    "bcc": [],
+    "delivered_to": "aditi.sharma@northwindrobotics.com",
+    "subject": "Re: ASC 606 — bundled extended warranty revenue split",
+    "snippet": "Working on the memo, but ran into a wrinkle I want to flag before I finalize it. The 92/8 split assumes this is a service-type warranty (which gets deferred and recognized ratably ",
+    "body_text": "Working on the memo, but ran into a wrinkle I want to flag before I finalize it. The 92/8 split assumes this is a service-type warranty (which gets deferred and recognized ratably — that's the treatment we want). But under 606, if the warranty is really just an assurance that the product works as intended for a standard period, it doesn't get treated as a separate performance obligation at all — it'd just be a cost accrual, no revenue deferral.\n\nOur standard warranty is 1 year; this is an optional 2-year extension customers pay extra for. I think that points to service-type, but wanted a second opinion before I put it in writing.\n\nMiles",
+    "body_html": null,
+    "date": "2026-07-16T11:05:00-04:00",
+    "internal_date_ms": 1784214300000,
+    "folder": "INBOX",
+    "category": "CATEGORY_PERSONAL",
+    "is_unread": false,
+    "is_starred": false,
+    "is_important": false,
+    "user_labels": [],
+    "attachments": [],
+    "calendar_event": null,
+    "extra_headers": {
+      "Return-Path": "<miles.okonkwo@northwindrobotics.com>"
+    },
+    "size_estimate": 2538,
+    "meta": {
+      "email_class": "genuine_work",
+      "tricky_tags": [],
+      "is_actionable_for_user": false,
+      "action_owner": "karen.voss@northwindrobotics.com",
+      "action_summary": "Karen to weigh in on whether the extended warranty is service-type or assurance-type under 606.",
+      "due_date": null,
+      "commitment_made_by_user": null,
+      "commitment_is_conditional": false,
+      "commitment_condition": null,
+      "superseded_by_message_id": null,
+      "notes": null
+    }
+  },
+  {
+    "id": "c20f18c2e4b60039",
+    "thread_id": "c20f18c2e4b60035",
+    "profile_id": "finance",
+    "history_id": "742950",
+    "message_id_header": "<CAFc20f18c2e4b60039@mail.gmail.com>",
+    "in_reply_to": "<CAFc20f18c2e4b60038@mail.gmail.com>",
+    "references": [
+      "<CAFc20f18c2e4b60035@mail.gmail.com>",
+      "<CAFc20f18c2e4b60036@mail.gmail.com>",
+      "<CAFc20f18c2e4b60037@mail.gmail.com>",
+      "<CAFc20f18c2e4b60038@mail.gmail.com>"
+    ],
+    "thread_position": 5,
+    "thread_length": 6,
+    "from": {
+      "name": "Karen Voss",
+      "email": "karen.voss@northwindrobotics.com"
+    },
+    "to": [
+      {
+        "name": "Aditi Sharma",
+        "email": "aditi.sharma@northwindrobotics.com"
+      },
+      {
+        "name": "Miles Okonkwo",
+        "email": "miles.okonkwo@northwindrobotics.com"
+      }
+    ],
+    "cc": [],
+    "bcc": [],
+    "delivered_to": "aditi.sharma@northwindrobotics.com",
+    "subject": "Re: ASC 606 — bundled extended warranty revenue split",
+    "snippet": "I think you're right that it's service-type — the fact that it's priced separately in the bundle math and extends coverage beyond the standard 1-year assurance warranty both point ",
+    "body_text": "I think you're right that it's service-type — the fact that it's priced separately in the bundle math and extends coverage beyond the standard 1-year assurance warranty both point that direction under the 606 guidance on this. The standard 1-year piece stays an assurance-type cost accrual, only the incremental 1-year extension gets treated as a distinct performance obligation with deferred revenue.\n\nGiven this is a new pattern for us, let's get Nadia's read on it before Miles finalizes the memo — cheaper to ask now than restate later.\n\nKaren",
+    "body_html": null,
+    "date": "2026-07-20T15:50:00-04:00",
+    "internal_date_ms": 1784577000000,
+    "folder": "INBOX",
+    "category": "CATEGORY_PERSONAL",
+    "is_unread": false,
+    "is_starred": false,
+    "is_important": false,
+    "user_labels": [],
+    "attachments": [],
+    "calendar_event": null,
+    "extra_headers": {
+      "Return-Path": "<karen.voss@northwindrobotics.com>"
+    },
+    "size_estimate": 2496,
+    "meta": {
+      "email_class": "genuine_work",
+      "tricky_tags": [],
+      "is_actionable_for_user": false,
+      "action_owner": "miles.okonkwo@northwindrobotics.com",
+      "action_summary": "Miles to get Nadia's sign-off before finalizing the rev rec memo.",
+      "due_date": null,
+      "commitment_made_by_user": null,
+      "commitment_is_conditional": false,
+      "commitment_condition": null,
+      "superseded_by_message_id": null,
+      "notes": null
+    }
+  },
+  {
+    "id": "c20f18c2e4b60040",
+    "thread_id": "c20f18c2e4b60035",
+    "profile_id": "finance",
+    "history_id": "752680",
+    "message_id_header": "<c20f18c2e4b60040@pembertonwells.com>",
+    "in_reply_to": "<CAFc20f18c2e4b60039@mail.gmail.com>",
+    "references": [
+      "<CAFc20f18c2e4b60035@mail.gmail.com>",
+      "<CAFc20f18c2e4b60036@mail.gmail.com>",
+      "<CAFc20f18c2e4b60037@mail.gmail.com>",
+      "<CAFc20f18c2e4b60038@mail.gmail.com>",
+      "<CAFc20f18c2e4b60039@mail.gmail.com>"
+    ],
+    "thread_position": 6,
+    "thread_length": 6,
+    "from": {
+      "name": "Nadia Haddad",
+      "email": "nhaddad@pembertonwells.com"
+    },
+    "to": [
+      {
+        "name": "Aditi Sharma",
+        "email": "aditi.sharma@northwindrobotics.com"
+      },
+      {
+        "name": "Karen Voss",
+        "email": "karen.voss@northwindrobotics.com"
+      },
+      {
+        "name": "Miles Okonkwo",
+        "email": "miles.okonkwo@northwindrobotics.com"
+      }
+    ],
+    "cc": [],
+    "bcc": [],
+    "delivered_to": "aditi.sharma@northwindrobotics.com",
+    "subject": "Re: ASC 606 — bundled extended warranty revenue split",
+    "snippet": "Service-type classification looks right to us. Send the memo over for the file when it's ready. Nadia",
+    "body_text": "Service-type classification looks right to us. Send the memo over for the file when it's ready.\n\nNadia",
+    "body_html": null,
+    "date": "2026-07-27T10:00:00-04:00",
+    "internal_date_ms": 1785160800000,
+    "folder": "INBOX",
+    "category": "CATEGORY_PERSONAL",
+    "is_unread": true,
+    "is_starred": false,
+    "is_important": false,
+    "user_labels": [
+      "Label_4411"
+    ],
+    "attachments": [],
+    "calendar_event": null,
+    "extra_headers": {
+      "Return-Path": "<nhaddad@pembertonwells.com>"
+    },
+    "size_estimate": 2192,
+    "meta": {
+      "email_class": "genuine_work",
+      "tricky_tags": [],
+      "is_actionable_for_user": false,
+      "action_owner": "miles.okonkwo@northwindrobotics.com",
+      "action_summary": "Miles to finalize and send the rev rec memo for the audit file.",
+      "due_date": null,
+      "commitment_made_by_user": null,
+      "commitment_is_conditional": false,
+      "commitment_condition": null,
+      "superseded_by_message_id": null,
+      "notes": null
+    }
+  },
+  {
+    "id": "c20f18c2e4b60041",
+    "thread_id": "c20f18c2e4b60041",
+    "profile_id": "finance",
+    "history_id": "754080",
+    "message_id_header": "<c20f18c2e4b60041@fairhavenrisk.com>",
+    "in_reply_to": null,
+    "references": [],
+    "thread_position": 1,
+    "thread_length": 5,
+    "from": {
+      "name": "Gail Underwood",
+      "email": "gunderwood@fairhavenrisk.com"
+    },
+    "to": [
+      {
+        "name": "Aditi Sharma",
+        "email": "aditi.sharma@northwindrobotics.com"
+      }
+    ],
+    "cc": [
+      {
+        "name": "Sam Greer",
+        "email": "sam.greer@northwindrobotics.com"
+      }
+    ],
+    "bcc": [],
+    "delivered_to": "aditi.sharma@northwindrobotics.com",
+    "subject": "D&O / GL renewal — premium increase",
+    "snippet": "Hi Aditi, Renewal terms are in for your D&O and general liability package, effective 9/1. Premium is coming in at $86,400, up from $73,220 last year — about 18%. The market's harde",
+    "body_text": "Hi Aditi,\n\nRenewal terms are in for your D&O and general liability package, effective 9/1. Premium is coming in at $86,400, up from $73,220 last year — about 18%. The market's hardening for tech/hardware companies broadly this year, and a couple of the carriers we quoted last renewal have pulled back from your size segment entirely, which narrowed our options some.\n\nFull terms attached, including retention and limits (unchanged from last year — $50K retention, $5M/$5M limits). Renewal deadline is 8/15 to avoid a lapse.\n\nGail Underwood\nFairhaven Risk Partners",
+    "body_html": "<div style=\"font-family:Arial,Helvetica,sans-serif;font-size:14px;color:#222222;line-height:1.5;\"><p style=\"margin:0 0 10px 0;\">Hi Aditi,</p><p style=\"margin:0 0 10px 0;\">Renewal terms are in for your D&O and general liability package, effective 9/1. Premium is coming in at $86,400, up from $73,220 last year — about 18%. The market's hardening for tech/hardware companies broadly this year, and a couple of the carriers we quoted last renewal have pulled back from your size segment entirely, which narrowed our options some.</p><p style=\"margin:0 0 10px 0;\">Full terms attached, including retention and limits (unchanged from last year — $50K retention, $5M/$5M limits). Renewal deadline is 8/15 to avoid a lapse.</p><p style=\"margin:0 0 10px 0;\">Gail Underwood<br>Fairhaven Risk Partners</p></div>",
+    "date": "2026-07-28T09:20:00-04:00",
+    "internal_date_ms": 1785244800000,
+    "folder": "INBOX",
+    "category": "CATEGORY_PERSONAL",
+    "is_unread": false,
+    "is_starred": false,
+    "is_important": true,
+    "user_labels": [],
+    "attachments": [
+      {
+        "attachment_id": "ANGjdJ_nXhFCtUb9XB7Tvap_O_nGapvl-JYwLWdpyONxjXCSBU",
+        "filename": "DO_GL_Renewal_Terms_2026.pdf",
+        "mime_type": "application/pdf",
+        "size_bytes": 41200,
+        "is_inline": false,
+        "content_id": null,
+        "extracted_text": "D&O and General Liability Renewal Summary — Northwind Robotics, Inc.\nEffective: 9/1/2026\nPremium: $86,400 (prior year $73,220, +17.99%)\nRetention: $50,000\nLimits: $5,000,000 per claim / $5,000,000 aggregate\nCarrier: Meridian Assurance Group\nRenewal deadline: 8/15/2026\nNotes: Two prior-year quoting carriers (Sentry Commercial, Ashworth Mutual) declined to quote this segment for 2026."
+      }
+    ],
+    "calendar_event": null,
+    "extra_headers": {
+      "Return-Path": "<gunderwood@fairhavenrisk.com>"
+    },
+    "size_estimate": 58288,
+    "meta": {
+      "email_class": "genuine_work",
+      "tricky_tags": [],
+      "is_actionable_for_user": true,
+      "action_owner": "aditi.sharma@northwindrobotics.com",
+      "action_summary": "Review the D&O/GL renewal terms and decide whether to renew or remarket before the 8/15 deadline.",
+      "due_date": "2026-08-15",
+      "commitment_made_by_user": null,
+      "commitment_is_conditional": false,
+      "commitment_condition": null,
+      "superseded_by_message_id": null,
+      "notes": null
+    }
+  },
+  {
+    "id": "c20f18c2e4b60042",
+    "thread_id": "c20f18c2e4b60041",
+    "profile_id": "finance",
+    "history_id": "754405",
+    "message_id_header": "<CAFc20f18c2e4b60042@mail.gmail.com>",
+    "in_reply_to": "<c20f18c2e4b60041@fairhavenrisk.com>",
+    "references": [
+      "<c20f18c2e4b60041@fairhavenrisk.com>"
+    ],
+    "thread_position": 2,
+    "thread_length": 5,
+    "from": {
+      "name": "Aditi Sharma",
+      "email": "aditi.sharma@northwindrobotics.com"
+    },
+    "to": [
+      {
+        "name": "Gail Underwood",
+        "email": "gunderwood@fairhavenrisk.com"
+      }
+    ],
+    "cc": [
+      {
+        "name": "Sam Greer",
+        "email": "sam.greer@northwindrobotics.com"
+      },
+      {
+        "name": "Karen Voss",
+        "email": "karen.voss@northwindrobotics.com"
+      }
+    ],
+    "bcc": [],
+    "delivered_to": null,
+    "subject": "Re: D&O / GL renewal — premium increase",
+    "snippet": "Thanks Gail. An 18% jump is a lot to just accept — can you remarket this before we commit? Even one more competitive quote would help us know if this is a market-wide move or somet",
+    "body_text": "Thanks Gail. An 18% jump is a lot to just accept — can you remarket this before we commit? Even one more competitive quote would help us know if this is a market-wide move or something specific to us. Sam, Karen — flagging for visibility, will keep you posted before the 8/15 deadline.\n\nAditi",
+    "body_html": null,
+    "date": "2026-07-28T14:45:00-04:00",
+    "internal_date_ms": 1785264300000,
+    "folder": "SENT",
+    "category": null,
+    "is_unread": false,
+    "is_starred": false,
+    "is_important": false,
+    "user_labels": [],
+    "attachments": [],
+    "calendar_event": null,
+    "extra_headers": {
+      "Return-Path": "<aditi.sharma@northwindrobotics.com>"
+    },
+    "size_estimate": 2152,
+    "meta": {
+      "email_class": "genuine_work",
+      "tricky_tags": [],
+      "is_actionable_for_user": false,
+      "action_owner": "gunderwood@fairhavenrisk.com",
+      "action_summary": "Gail to remarket the D&O/GL package before the renewal deadline.",
+      "due_date": null,
+      "commitment_made_by_user": null,
+      "commitment_is_conditional": false,
+      "commitment_condition": null,
+      "superseded_by_message_id": null,
+      "notes": null
+    }
+  },
+  {
+    "id": "c20f18c2e4b60043",
+    "thread_id": "c20f18c2e4b60041",
+    "profile_id": "finance",
+    "history_id": "757015",
+    "message_id_header": "<CAFc20f18c2e4b60043@mail.gmail.com>",
+    "in_reply_to": "<CAFc20f18c2e4b60042@mail.gmail.com>",
+    "references": [
+      "<c20f18c2e4b60041@fairhavenrisk.com>",
+      "<CAFc20f18c2e4b60042@mail.gmail.com>"
+    ],
+    "thread_position": 3,
+    "thread_length": 5,
+    "from": {
+      "name": "Sam Greer",
+      "email": "sam.greer@northwindrobotics.com"
+    },
+    "to": [
+      {
+        "name": "Aditi Sharma",
+        "email": "aditi.sharma@northwindrobotics.com"
+      },
+      {
+        "name": "Gail Underwood",
+        "email": "gunderwood@fairhavenrisk.com"
+      }
+    ],
+    "cc": [],
+    "bcc": [],
+    "delivered_to": "aditi.sharma@northwindrobotics.com",
+    "subject": "Re: D&O / GL renewal — premium increase",
+    "snippet": "Agreed, get one more quote before we renew anything. If it's genuinely a hard market that's one thing, but I want to see it in writing first. Sam",
+    "body_text": "Agreed, get one more quote before we renew anything. If it's genuinely a hard market that's one thing, but I want to see it in writing first.\n\nSam",
+    "body_html": null,
+    "date": "2026-07-30T10:15:00-04:00",
+    "internal_date_ms": 1785420900000,
+    "folder": "INBOX",
+    "category": "CATEGORY_PERSONAL",
+    "is_unread": false,
+    "is_starred": false,
+    "is_important": false,
+    "user_labels": [],
+    "attachments": [],
+    "calendar_event": null,
+    "extra_headers": {
+      "Return-Path": "<sam.greer@northwindrobotics.com>"
+    },
+    "size_estimate": 1967,
+    "meta": {
+      "email_class": "genuine_work",
+      "tricky_tags": [],
+      "is_actionable_for_user": false,
+      "action_owner": "gunderwood@fairhavenrisk.com",
+      "action_summary": "Gail to remarket the D&O/GL package before the renewal deadline.",
+      "due_date": null,
+      "commitment_made_by_user": null,
+      "commitment_is_conditional": false,
+      "commitment_condition": null,
+      "superseded_by_message_id": null,
+      "notes": null
+    }
+  },
+  {
+    "id": "c20f18c2e4b60044",
+    "thread_id": "c20f18c2e4b60041",
+    "profile_id": "finance",
+    "history_id": "764380",
+    "message_id_header": "<c20f18c2e4b60044@fairhavenrisk.com>",
+    "in_reply_to": "<CAFc20f18c2e4b60043@mail.gmail.com>",
+    "references": [
+      "<c20f18c2e4b60041@fairhavenrisk.com>",
+      "<CAFc20f18c2e4b60042@mail.gmail.com>",
+      "<CAFc20f18c2e4b60043@mail.gmail.com>"
+    ],
+    "thread_position": 4,
+    "thread_length": 5,
+    "from": {
+      "name": "Gail Underwood",
+      "email": "gunderwood@fairhavenrisk.com"
+    },
+    "to": [
+      {
+        "name": "Aditi Sharma",
+        "email": "aditi.sharma@northwindrobotics.com"
+      },
+      {
+        "name": "Sam Greer",
+        "email": "sam.greer@northwindrobotics.com"
+      }
+    ],
+    "cc": [
+      {
+        "name": "Karen Voss",
+        "email": "karen.voss@northwindrobotics.com"
+      }
+    ],
+    "bcc": [],
+    "delivered_to": "aditi.sharma@northwindrobotics.com",
+    "subject": "Re: D&O / GL renewal — premium increase",
+    "snippet": "Went back out to three markets. Two declined to quote your segment at all right now (echoing what I mentioned before), and the one that did come back landed at $91,300 — higher tha",
+    "body_text": "Went back out to three markets. Two declined to quote your segment at all right now (echoing what I mentioned before), and the one that did come back landed at $91,300 — higher than your incumbent renewal, not lower. I know that's not the answer you were hoping for, but it does confirm this is a broader market move and not something specific to Northwind's loss history, which is clean.\n\nMy recommendation is to renew with the incumbent at $86,400.\n\nGail",
+    "body_html": "<div style=\"font-family:Arial,Helvetica,sans-serif;font-size:14px;color:#222222;line-height:1.5;\"><p style=\"margin:0 0 10px 0;\">Went back out to three markets. Two declined to quote your segment at all right now (echoing what I mentioned before), and the one that did come back landed at $91,300 — higher than your incumbent renewal, not lower. I know that's not the answer you were hoping for, but it does confirm this is a broader market move and not something specific to Northwind's loss history, which is clean.</p><p style=\"margin:0 0 10px 0;\">My recommendation is to renew with the incumbent at $86,400.</p><p style=\"margin:0 0 10px 0;\">Gail</p></div>",
+    "date": "2026-08-04T13:00:00-04:00",
+    "internal_date_ms": 1785862800000,
+    "folder": "INBOX",
+    "category": "CATEGORY_PERSONAL",
+    "is_unread": true,
+    "is_starred": false,
+    "is_important": false,
+    "user_labels": [],
+    "attachments": [],
+    "calendar_event": null,
+    "extra_headers": {
+      "Return-Path": "<gunderwood@fairhavenrisk.com>"
+    },
+    "size_estimate": 3084,
+    "meta": {
+      "email_class": "genuine_work",
+      "tricky_tags": [],
+      "is_actionable_for_user": true,
+      "action_owner": "aditi.sharma@northwindrobotics.com",
+      "action_summary": "Decide whether to renew the D&O/GL package with the incumbent at $86,400.",
+      "due_date": "2026-08-15",
+      "commitment_made_by_user": null,
+      "commitment_is_conditional": false,
+      "commitment_condition": null,
+      "superseded_by_message_id": null,
+      "notes": null
+    }
+  },
+  {
+    "id": "c20f18c2e4b60045",
+    "thread_id": "c20f18c2e4b60041",
+    "profile_id": "finance",
+    "history_id": "767170",
+    "message_id_header": "<CAFc20f18c2e4b60045@mail.gmail.com>",
+    "in_reply_to": "<c20f18c2e4b60044@fairhavenrisk.com>",
+    "references": [
+      "<c20f18c2e4b60041@fairhavenrisk.com>",
+      "<CAFc20f18c2e4b60042@mail.gmail.com>",
+      "<CAFc20f18c2e4b60043@mail.gmail.com>",
+      "<c20f18c2e4b60044@fairhavenrisk.com>"
+    ],
+    "thread_position": 5,
+    "thread_length": 5,
+    "from": {
+      "name": "Karen Voss",
+      "email": "karen.voss@northwindrobotics.com"
+    },
+    "to": [
+      {
+        "name": "Aditi Sharma",
+        "email": "aditi.sharma@northwindrobotics.com"
+      },
+      {
+        "name": "Gail Underwood",
+        "email": "gunderwood@fairhavenrisk.com"
+      }
+    ],
+    "cc": [
+      {
+        "name": "Sam Greer",
+        "email": "sam.greer@northwindrobotics.com"
+      }
+    ],
+    "bcc": [],
+    "delivered_to": "aditi.sharma@northwindrobotics.com",
+    "subject": "Re: D&O / GL renewal — premium increase",
+    "snippet": "Approved — renew with current carrier at $86,400. Aditi, please countersign the binder when it comes through. Karen",
+    "body_text": "Approved — renew with current carrier at $86,400. Aditi, please countersign the binder when it comes through.\n\nKaren",
+    "body_html": null,
+    "date": "2026-08-06T11:30:00-04:00",
+    "internal_date_ms": 1786030200000,
+    "folder": "INBOX",
+    "category": "CATEGORY_PERSONAL",
+    "is_unread": true,
+    "is_starred": true,
+    "is_important": false,
+    "user_labels": [],
+    "attachments": [],
+    "calendar_event": null,
+    "extra_headers": {
+      "Return-Path": "<karen.voss@northwindrobotics.com>"
+    },
+    "size_estimate": 2139,
+    "meta": {
+      "email_class": "genuine_work",
+      "tricky_tags": [],
+      "is_actionable_for_user": true,
+      "action_owner": "aditi.sharma@northwindrobotics.com",
+      "action_summary": "Countersign the D&O/GL renewal binder with Fairhaven once it arrives.",
+      "due_date": "2026-08-15",
+      "commitment_made_by_user": null,
+      "commitment_is_conditional": false,
+      "commitment_condition": null,
+      "superseded_by_message_id": null,
+      "notes": null
+    }
+  },
+  {
+    "id": "c20f18c2e4b60046",
+    "thread_id": "c20f18c2e4b60046",
+    "profile_id": "finance",
+    "history_id": "733900",
+    "message_id_header": "<CAFc20f18c2e4b60046@mail.gmail.com>",
+    "in_reply_to": null,
+    "references": [],
+    "thread_position": 1,
+    "thread_length": 5,
+    "from": {
+      "name": "Hannah Cho",
+      "email": "hannah.cho@northwindrobotics.com"
+    },
+    "to": [
+      {
+        "name": "Aditi Sharma",
+        "email": "aditi.sharma@northwindrobotics.com"
+      }
+    ],
+    "cc": [
+      {
+        "name": "Karen Voss",
+        "email": "karen.voss@northwindrobotics.com"
+      }
+    ],
+    "bcc": [],
+    "delivered_to": "aditi.sharma@northwindrobotics.com",
+    "subject": "Multi-state payroll tax nexus — new remote hires",
+    "snippet": "Quick one — we have two new remote hires starting 8/1, one based in Fort Collins, CO and one in Raleigh, NC. Neither state is one we currently have payroll tax registrations in. Do",
+    "body_text": "Quick one — we have two new remote hires starting 8/1, one based in Fort Collins, CO and one in Raleigh, NC. Neither state is one we currently have payroll tax registrations in. Do we need to get that set up before their start date, and is there someone who normally handles this?\n\nHannah",
+    "body_html": null,
+    "date": "2026-07-14T09:00:00-04:00",
+    "internal_date_ms": 1784034000000,
+    "folder": "INBOX",
+    "category": "CATEGORY_PERSONAL",
+    "is_unread": false,
+    "is_starred": false,
+    "is_important": false,
+    "user_labels": [],
+    "attachments": [],
+    "calendar_event": null,
+    "extra_headers": {
+      "Return-Path": "<hannah.cho@northwindrobotics.com>"
+    },
+    "size_estimate": 2010,
+    "meta": {
+      "email_class": "genuine_work",
+      "tricky_tags": [],
+      "is_actionable_for_user": true,
+      "action_owner": "aditi.sharma@northwindrobotics.com",
+      "action_summary": "Determine whether Colorado and North Carolina payroll tax registrations are needed before the 8/1 start date.",
+      "due_date": "2026-08-01",
+      "commitment_made_by_user": null,
+      "commitment_is_conditional": false,
+      "commitment_condition": null,
+      "superseded_by_message_id": null,
+      "notes": null
+    }
+  },
+  {
+    "id": "c20f18c2e4b60047",
+    "thread_id": "c20f18c2e4b60046",
+    "profile_id": "finance",
+    "history_id": "735480",
+    "message_id_header": "<CAFc20f18c2e4b60047@mail.gmail.com>",
+    "in_reply_to": "<CAFc20f18c2e4b60046@mail.gmail.com>",
+    "references": [
+      "<CAFc20f18c2e4b60046@mail.gmail.com>"
+    ],
+    "thread_position": 2,
+    "thread_length": 5,
+    "from": {
+      "name": "Aditi Sharma",
+      "email": "aditi.sharma@northwindrobotics.com"
+    },
+    "to": [
+      {
+        "name": "Hannah Cho",
+        "email": "hannah.cho@northwindrobotics.com"
+      }
+    ],
+    "cc": [
+      {
+        "name": "Karen Voss",
+        "email": "karen.voss@northwindrobotics.com"
+      }
+    ],
+    "bcc": [],
+    "delivered_to": null,
+    "subject": "Re: Multi-state payroll tax nexus — new remote hires",
+    "snippet": "Good catch — looping in Kenji, he handles our state registrations. Kenji, can you take a look? — Aditi",
+    "body_text": "Good catch — looping in Kenji, he handles our state registrations. Kenji, can you take a look?\n\n— Aditi",
+    "body_html": null,
+    "date": "2026-07-15T11:20:00-04:00",
+    "internal_date_ms": 1784128800000,
+    "folder": "SENT",
+    "category": null,
+    "is_unread": false,
+    "is_starred": false,
+    "is_important": false,
+    "user_labels": [],
+    "attachments": [],
+    "calendar_event": null,
+    "extra_headers": {
+      "Return-Path": "<aditi.sharma@northwindrobotics.com>"
+    },
+    "size_estimate": 1886,
+    "meta": {
+      "email_class": "genuine_work",
+      "tricky_tags": [],
+      "is_actionable_for_user": false,
+      "action_owner": "kenji@watanabetax.com",
+      "action_summary": "Kenji to assess the CO/NC payroll tax registration requirement.",
+      "due_date": null,
+      "commitment_made_by_user": null,
+      "commitment_is_conditional": false,
+      "commitment_condition": null,
+      "superseded_by_message_id": null,
+      "notes": null
+    }
+  },
+  {
+    "id": "c20f18c2e4b60048",
+    "thread_id": "c20f18c2e4b60046",
+    "profile_id": "finance",
+    "history_id": "738610",
+    "message_id_header": "<c20f18c2e4b60048@watanabetax.com>",
+    "in_reply_to": "<CAFc20f18c2e4b60047@mail.gmail.com>",
+    "references": [
+      "<CAFc20f18c2e4b60046@mail.gmail.com>",
+      "<CAFc20f18c2e4b60047@mail.gmail.com>"
+    ],
+    "thread_position": 3,
+    "thread_length": 5,
+    "from": {
+      "name": "Kenji Watanabe",
+      "email": "kenji@watanabetax.com"
+    },
+    "to": [
+      {
+        "name": "Aditi Sharma",
+        "email": "aditi.sharma@northwindrobotics.com"
+      },
+      {
+        "name": "Hannah Cho",
+        "email": "hannah.cho@northwindrobotics.com"
+      },
+      {
+        "name": "Karen Voss",
+        "email": "karen.voss@northwindrobotics.com"
+      }
+    ],
+    "cc": [],
+    "bcc": [],
+    "delivered_to": "aditi.sharma@northwindrobotics.com",
+    "subject": "Re: Multi-state payroll tax nexus — new remote hires",
+    "snippet": "Confirmed, both states trigger withholding nexus once you have an employee physically working there, regardless of whether you have any other business presence. For Colorado and No",
+    "body_text": "Confirmed, both states trigger withholding nexus once you have an employee physically working there, regardless of whether you have any other business presence. For Colorado and North Carolina I'll need to file the standard withholding tax registrations — turnaround is usually 5-10 business days for both. There's also an unemployment insurance registration in each state, separate process, similar timeline.\n\nAll-in cost is registration fees plus my time, figure around $1,200 total across both states. I can have everything filed by 7/28 if I start this week, which gives buffer before the 8/1 start date.\n\nKenji",
+    "body_html": "<div style=\"font-family:Arial,Helvetica,sans-serif;font-size:14px;color:#222222;line-height:1.5;\"><p style=\"margin:0 0 10px 0;\">Confirmed, both states trigger withholding nexus once you have an employee physically working there, regardless of whether you have any other business presence. For Colorado and North Carolina I'll need to file the standard withholding tax registrations — turnaround is usually 5-10 business days for both. There's also an unemployment insurance registration in each state, separate process, similar timeline.</p><p style=\"margin:0 0 10px 0;\">All-in cost is registration fees plus my time, figure around $1,200 total across both states. I can have everything filed by 7/28 if I start this week, which gives buffer before the 8/1 start date.</p><p style=\"margin:0 0 10px 0;\">Kenji</p></div>",
+    "date": "2026-07-17T15:30:00-04:00",
+    "internal_date_ms": 1784316600000,
+    "folder": "INBOX",
+    "category": "CATEGORY_PERSONAL",
+    "is_unread": false,
+    "is_starred": false,
+    "is_important": false,
+    "user_labels": [],
+    "attachments": [],
+    "calendar_event": null,
+    "extra_headers": {
+      "Return-Path": "<kenji@watanabetax.com>"
+    },
+    "size_estimate": 3360,
+    "meta": {
+      "email_class": "genuine_work",
+      "tricky_tags": [],
+      "is_actionable_for_user": true,
+      "action_owner": "aditi.sharma@northwindrobotics.com",
+      "action_summary": "Confirm go-ahead for the ~$1,200 in state registration costs so Kenji can proceed.",
+      "due_date": "2026-07-28",
+      "commitment_made_by_user": null,
+      "commitment_is_conditional": false,
+      "commitment_condition": null,
+      "superseded_by_message_id": null,
+      "notes": null
+    }
+  },
+  {
+    "id": "c20f18c2e4b60049",
+    "thread_id": "c20f18c2e4b60046",
+    "profile_id": "finance",
+    "history_id": "744085",
+    "message_id_header": "<CAFc20f18c2e4b60049@mail.gmail.com>",
+    "in_reply_to": "<c20f18c2e4b60048@watanabetax.com>",
+    "references": [
+      "<CAFc20f18c2e4b60046@mail.gmail.com>",
+      "<CAFc20f18c2e4b60047@mail.gmail.com>",
+      "<c20f18c2e4b60048@watanabetax.com>"
+    ],
+    "thread_position": 4,
+    "thread_length": 5,
+    "from": {
+      "name": "Karen Voss",
+      "email": "karen.voss@northwindrobotics.com"
+    },
+    "to": [
+      {
+        "name": "Aditi Sharma",
+        "email": "aditi.sharma@northwindrobotics.com"
+      },
+      {
+        "name": "Kenji Watanabe",
+        "email": "kenji@watanabetax.com"
+      }
+    ],
+    "cc": [],
+    "bcc": [],
+    "delivered_to": "aditi.sharma@northwindrobotics.com",
+    "subject": "Re: Multi-state payroll tax nexus — new remote hires",
+    "snippet": "Kenji — while you're in there, can you also check whether having employees in these two states creates any apportionment issue for the R&D tax credit we've been claiming? Want to m",
+    "body_text": "Kenji — while you're in there, can you also check whether having employees in these two states creates any apportionment issue for the R&D tax credit we've been claiming? Want to make sure we're not creating a problem in one area while fixing another.\n\nKaren",
+    "body_html": null,
+    "date": "2026-07-21T10:45:00-04:00",
+    "internal_date_ms": 1784645100000,
+    "folder": "INBOX",
+    "category": "CATEGORY_PERSONAL",
+    "is_unread": false,
+    "is_starred": false,
+    "is_important": false,
+    "user_labels": [],
+    "attachments": [],
+    "calendar_event": null,
+    "extra_headers": {
+      "Return-Path": "<karen.voss@northwindrobotics.com>"
+    },
+    "size_estimate": 2149,
+    "meta": {
+      "email_class": "genuine_work",
+      "tricky_tags": [],
+      "is_actionable_for_user": false,
+      "action_owner": "kenji@watanabetax.com",
+      "action_summary": "Kenji to check R&D tax credit apportionment impact.",
+      "due_date": null,
+      "commitment_made_by_user": null,
+      "commitment_is_conditional": false,
+      "commitment_condition": null,
+      "superseded_by_message_id": null,
+      "notes": null
+    }
+  },
+  {
+    "id": "c20f18c2e4b60050",
+    "thread_id": "c20f18c2e4b60046",
+    "profile_id": "finance",
+    "history_id": "747175",
+    "message_id_header": "<c20f18c2e4b60050@watanabetax.com>",
+    "in_reply_to": "<CAFc20f18c2e4b60049@mail.gmail.com>",
+    "references": [
+      "<CAFc20f18c2e4b60046@mail.gmail.com>",
+      "<CAFc20f18c2e4b60047@mail.gmail.com>",
+      "<c20f18c2e4b60048@watanabetax.com>",
+      "<CAFc20f18c2e4b60049@mail.gmail.com>"
+    ],
+    "thread_position": 5,
+    "thread_length": 5,
+    "from": {
+      "name": "Kenji Watanabe",
+      "email": "kenji@watanabetax.com"
+    },
+    "to": [
+      {
+        "name": "Aditi Sharma",
+        "email": "aditi.sharma@northwindrobotics.com"
+      },
+      {
+        "name": "Karen Voss",
+        "email": "karen.voss@northwindrobotics.com"
+      },
+      {
+        "name": "Hannah Cho",
+        "email": "hannah.cho@northwindrobotics.com"
+      }
+    ],
+    "cc": [],
+    "bcc": [],
+    "delivered_to": "aditi.sharma@northwindrobotics.com",
+    "subject": "Re: Multi-state payroll tax nexus — new remote hires",
+    "snippet": "Confirmed — no impact on the R&D credit. Both registrations filed, done well ahead of the 8/1 start date. Kenji",
+    "body_text": "Confirmed — no impact on the R&D credit. Both registrations filed, done well ahead of the 8/1 start date.\n\nKenji",
+    "body_html": null,
+    "date": "2026-07-23T14:15:00-04:00",
+    "internal_date_ms": 1784830500000,
+    "folder": "INBOX",
+    "category": "CATEGORY_PERSONAL",
+    "is_unread": true,
+    "is_starred": false,
+    "is_important": false,
+    "user_labels": [],
+    "attachments": [],
+    "calendar_event": null,
+    "extra_headers": {
+      "Return-Path": "<kenji@watanabetax.com>"
+    },
+    "size_estimate": 2148,
+    "meta": {
+      "email_class": "genuine_work",
+      "tricky_tags": [],
+      "is_actionable_for_user": false,
+      "action_owner": null,
+      "action_summary": "Resolved — both state registrations filed with no R&D credit impact.",
+      "due_date": null,
+      "commitment_made_by_user": null,
+      "commitment_is_conditional": false,
+      "commitment_condition": null,
+      "superseded_by_message_id": null,
+      "notes": null
+    }
+  }
+]

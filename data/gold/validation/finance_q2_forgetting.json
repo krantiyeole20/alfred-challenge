@@ -1,0 +1,72 @@
+{
+  "profile_id": "finance",
+  "question": "q2_forgetting",
+  "items_reviewed": 13,
+  "verdict": "issues",
+  "findings": [
+    {
+      "type": "false_positive",
+      "severity": "high",
+      "item_id": "finance-q2-07",
+      "message_ids": ["c60f18c2e4b60026", "c40f18c2e4b60045", "c40f18c2e4b60046"],
+      "problem": "The conditional promise to get Frank the fully executed credit-facility amendment was discharged on Aug 12, before the as-of moment — the amendment was signed by all parties through Frank's own DocuSign envelope, so it is closed, not forgotten.",
+      "evidence": "c40f18c2e4b60046 (2026-08-12 09:05, subject 'Completed: Credit Facility Amendment — Harborline Bank'): \"All parties have signed \\\"Northwind Robotics — Third Amendment to Credit Agreement.\\\" A copy of the completed, signed document is attached to this email for your records.\" The envelope itself came from Frank: c40f18c2e4b60045 (Aug 11), \"Aditi — final redline attached per our call. Please sign and return by Friday so we can fund the increased revolver in time for the September draw.\"",
+      "recommended_action": "move to must_not_include (trap: already-completed / cancelled-or-closed-commitment), noting that the item's own why_it_qualifies concedes 'The signature finally landed Aug 12'. If the curator wants to retain any residual, it is only the unfulfilled 'I'll keep you posted either way' status update, which is a much smaller, borderline-tier obligation, not the amendment delivery."
+    },
+    {
+      "type": "stale_fact",
+      "severity": "medium",
+      "item_id": "finance-q2-02",
+      "message_ids": ["c50f18c2e4b60006", "c10f18c2e4b60044", "c10f18c2e4b60045"],
+      "problem": "The lease-amortization half of this item is superseded: on Aug 10 Aditi re-dated the lease schedule to Friday Aug 14 and transferred it to Miles, so it is neither six days overdue nor hers as of the as-of moment; only the related-party disclosures survive as her own overdue commitment.",
+      "evidence": "c10f18c2e4b60044 (Nadia, Aug 7): \"Two items ahead of fieldwork: the ASC 842 lease schedule for the Waltham warehouse, and a fresh Carta cap table export as of July 31.\" c10f18c2e4b60045 (Aditi, SENT, Aug 10): \"Miles will have both to you by Friday (8/14).\"",
+      "recommended_action": "fix claim to cover only the related-party disclosures ('promised to Nadia by Thursday EOD Aug 6, still an unsent Jul 5 draft'), add c10f18c2e4b60044/c10f18c2e4b60045 to message_ids as the superseding state, and note in why_it_qualifies that the lease schedule was re-dated to Aug 14 and delegated to Miles. Keep the item at must_include on the related-party piece; the evidence_quote can stay as-is since it is verbatim in c50f18c2e4b60006."
+    },
+    {
+      "type": "stale_fact",
+      "severity": "medium",
+      "item_id": "finance-q2-01",
+      "message_ids": ["c50f18c2e4b60010", "c50f18c2e4b60024", "c60f18c2e4b60023"],
+      "problem": "The claim that the revenue-recognition memo 'still does not exist' and that Nadia 'has been asking for it in writing since Jul 21' is contradicted by the Jul 25 PBC transmittal, which delivers the memo to Nadia; what is genuinely open is the promised *update* carrying the Jul 29 Vantage Foundries license/install determination.",
+      "evidence": "c50f18c2e4b60024 (Aditi to Nadia, SENT, Jul 25), under '**Ready now (attached):**': \"- Revenue recognition memo, including the ASC 606 treatment we finalized for bundled license/install deals\", and its attachment PBC_List_FY26_Audit.xlsx: \"Revenue recognition memo,delivered,Aditi Sharma,2026-07-25\".",
+      "recommended_action": "fix claim to 'The ASC 606 determination Aditi gave Karen on Jul 29 for the Vantage Foundries bundle was never written into the revenue-recognition memo she promised to update by end of week (Jul 31)'; demote c60f18c2e4b60023 from co-evidence of the same open obligation to background, or drop it. The same overstatement appears in prose_answer ('is still unwritten, and Nadia has been asking for it in writing since Jul 21') and should be corrected there too."
+    },
+    {
+      "type": "missed_item",
+      "severity": "medium",
+      "item_id": null,
+      "message_ids": ["c10f18c2e4b60001", "c10f18c2e4b60002", "c50f18c2e4b60042"],
+      "problem": "Aditi's oldest unkept promise is absent: the signed D&O/property renewal application she told Gail Underwood she would return by July 10 — 33 days overdue, with no message anywhere in the mailbox showing it went back.",
+      "evidence": "c10f18c2e4b60002 (SENT, Jun 23): \"I'll get the signed application back to you by July 10, ahead of your deadline.\" The counterparty's binding deadline is in c10f18c2e4b60001 (Gail, Jun 22): \"I need the signed application back by July 15 to bind coverage before the August 1 effective date — carriers won't hold the quote past that.\" Engagement continued but the application never went: c50f18c2e4b60042 (SENT, Jul 13): \"Before we finalize the D&O binder renewal, a few questions\".",
+      "recommended_action": "add new item with these fields — tier: acceptable; claim: 'The signed D&O/property renewal application Aditi promised Gail Underwood by Jul 10 (Gail's binding deadline was Jul 15 for Aug 1 effective coverage) was never returned'; anchor_message_id: c10f18c2e4b60002; message_ids: [c10f18c2e4b60001, c10f18c2e4b60002, c50f18c2e4b60042]; evidence_quote: \"I'll get the signed application back to you by July 10, ahead of your deadline.\"; counterparty: gunderwood@fairhavenrisk.com; due_date: 2026-07-10; due_basis: explicit; days_open: 50; consequence: medium. Caveat for the human reviewer: the mailbox carries three overlapping insurance packages (Jun 18 $184,600 GL/property/umbrella, Jun 22 D&O $38,400 + property $9,200 effective Aug 1, Jul 28 D&O/GL $86,400 effective 9/1) and none of them is ever shown as bound, so if the curator judges the Aug 1 package superseded by the 9/1 renewal, tier this borderline rather than dropping it."
+    },
+    {
+      "type": "misranked",
+      "severity": "low",
+      "item_id": "finance-q2-04",
+      "message_ids": ["c20f18c2e4b60029", "c20f18c2e4b60034", "c50f18c2e4b60017"],
+      "problem": "Under the stated ranking principle — (how overdue) x (counterparty chased) x (consequence) — the covenant compliance certificate (15 days overdue, external bank, blocking condition already cleared) sits below the board-deck slide (5 days overdue, no chase from anyone), which is an inversion.",
+      "evidence": "c20f18c2e4b60029 (Jul 14): \"Will have the certificate to you before the 28th.\" The blocker cleared four days before the date: c20f18c2e4b60034 (Frank, Jul 24): \"Confirmed — the R&D addback is permitted under 6.1(b).\" By contrast the board-slide promise is only five days old: c50f18c2e4b60017 (Aug 6): \"I'll send the final version to Sam by tomorrow morning.\"",
+      "recommended_action": "reorder finance-q2-04 above finance-q2-03 (rank 3 vs 4 swap); with finance-q2-07 removed the ranked list should read 01, 02, 04, 03, 05, 06, 08, 09, 10."
+    },
+    {
+      "type": "double_counted",
+      "severity": "low",
+      "item_id": "finance-q2-05",
+      "message_ids": ["c50f18c2e4b60049", "c50f18c2e4b60020"],
+      "problem": "The Ironforge item merges two distinct obligations pointing in opposite directions: Aditi's own unsent apology/payment release (Q2) and her outstanding chase for Ironforge's signed W-9, which is something she is waiting on the vendor for (Q4).",
+      "evidence": "c50f18c2e4b60020 (SENT, Jul 9): \"we still need a signed W-9 on file before we can process the Ironforge invoice from last month. Can you send that over this week?\" — the actor there is ap@ironforgeautomation.com, not Aditi. Her own commitment lives only in the draft, c50f18c2e4b60049: \"I'm releasing payment today\".",
+      "recommended_action": "fix claim to drop the W-9 clause ('...and the signed W-9 she chased on Jul 9 never arrived either'), keeping c50f18c2e4b60020 in message_ids as context only; the W-9 wait belongs in q4_waiting_on_others."
+    }
+  ],
+  "checked_and_sound": [
+    "finance-q2-06",
+    "finance-q2-08",
+    "finance-q2-09",
+    "finance-q2-10",
+    "finance-q2-11",
+    "finance-q2-12",
+    "finance-q2-13"
+  ],
+  "notes": "Method: swept all 300 messages, read every SENT and DRAFT body in full, enumerated all 17 messages carrying meta.commitment_made_by_user, and regex-swept owner-authored bodies for un-annotated promise language ('I'll', 'will have', 'by Friday/Monday/Thursday', 'eod', 'get back to you'). All 13 evidence_quote strings verify as exact substrings of their anchor's body_text (script-checked); all days_open values recompute correctly against the 2026-08-12 as-of; every item is owner-authored SENT or DRAFT mail, so the engagement test passes on all 13.\n\nCommitments deliberately confirmed as NOT Q2, for the record: (a) 'I'll fold it into the budget model by Monday and send you the first cut' to Hannah (c50f18c2e4b60015) — the input it depends on never arrived and Aditi re-chased it on Aug 7 ('Hannah — headcount actuals as of July 31 with fully-loaded cost, which I've already asked for separately but flagging here too'), so this is a live Q4 wait, not a lapse; (b) 'I'll have the first full model in your inbox by August 21st' (c50f18c2e4b60023) — not yet due; (c) the first PBC batch by Aug 15 (c10f18c2e4b60021) — delivered Jul 25; (d) the $187K COGS booking (c20f18c2e4b60025) — closed by 'July close is locked' (c60f18c2e4b60038), so that distractor is sound; (e) the Meridian equipment-lease amendment redline Nadia escalated from her personal address on Jul 24 ('if the redline isn't fully executed by Monday, I may need to escalate it internally as an open item in our status memo to the partner', c60f18c2e4b60025) — Aditi never engaged with it in any owner-authored message, so it is correctly kept out of Q2; it is a strong Q6 candidate and the Q6 validator should check it; (f) the inventory-reserve methodology memo Nadia conditioned her sign-off on (c20f18c2e4b60009, 'If Miles can turn that around by early next week') — named to Miles, not Aditi.\n\nAll five must_not_include entries survive scrutiny; none is a wrongly-excluded qualifying item.\n\nCorpus inconsistency the human should be aware of when re-reading finance-q2-01/02: fieldwork start is stated three different ways — 'targeting fieldwork the week of September 8' (c10f18c2e4b60020, Jul 20), 'Fieldwork starts Monday the 11th' (c50f18c2e4b60005, Aug 3), and 'before we start on September 8' (c10f18c2e4b60044, Aug 7). The gold set's 'fieldwork started Aug 11' is supported by c50f18c2e4b60005 but is not the only reading, which slightly softens the urgency framing on the audit items.\n\nAlso worth noting: the Carta cap-table export promised in the same Aug 10 message (c10f18c2e4b60045) is a live owner commitment due Aug 14 that appears nowhere in the set. It is delegated to Miles and not yet due, so omission is defensible, but if the curator adds the corrected lease/Carta state per finding 2 it should be mentioned there rather than becoming a separate item."
+}

@@ -1,0 +1,101 @@
+{
+  "profile_id": "founder",
+  "question": "q1_needs_attention",
+  "items_reviewed": 12,
+  "verdict": "issues",
+  "findings": [
+    {
+      "type": "missed_item",
+      "severity": "high",
+      "item_id": null,
+      "message_ids": ["a20f18c2e4b60009", "a20f18c2e4b60010", "a40f18c2e4b60017", "a10f18c2e4b60048"],
+      "problem": "The Lumenpay DPA addendum — the document Dana's procurement team requires signed BEFORE the SSO go-live — was promised signed by Aug 5 and nothing in the mailbox closes it; the go-live Maya firmly committed to on Aug 10 is Monday Aug 17, five days after the as-of moment.",
+      "evidence": "a20f18c2e4b60009 (Dana, Jul 28): \"our procurement team is now asking for a signed addendum to the DPA covering the SSO metadata we're passing you ... Is there any chance your legal counsel could turn that around by August 5th? I know it's tight but our exec sponsor wants it buttoned up before go-live, not after.\" Maya's own commitment, a20f18c2e4b60010 (Jul 30): \"Beth Ranganathan, our outside counsel, is already on the DPA addendum and is targeting Aug 5 for a signed version, so that should line up fine with go-live.\" The redline went to Beth on Jul 20 (a40f18c2e4b60017) and no later message in any thread reports it signed or sent; a grep of the whole mailbox for 'DPA|addendum' returns nothing after Jul 30 on this document. Meanwhile a10f18c2e4b60048 (Aug 10): \"We're targeting Monday, August 17 for production go-live\".",
+      "recommended_action": "add new item with these fields — tier must_include, anchor a20f18c2e4b60010, message_ids [a40f18c2e4b60017, a20f18c2e4b60009, a20f18c2e4b60010, a10f18c2e4b60048], claim 'The Lumenpay DPA addendum covering SSO metadata, promised signed by Aug 5, is still unsigned seven days later and Lumenpay's exec sponsor requires it before the Aug 17 go-live Maya just committed to', due_date 2026-08-05, due_basis explicit, consequence high, counterparty dana.kowalski@lumenpay.io. Rank it in the overdue-external-counterparty band, i.e. around current rank 4-5. Note it is a distinct document from the MSA amendment (founder-q1-04, indemnification) and the security addendum (founder-q1-07, SOC2 Section 4.2) — three separate Lumenpay legal instruments, so this is not double counting."
+    },
+    {
+      "type": "missed_item",
+      "severity": "high",
+      "item_id": null,
+      "message_ids": ["a40f18c2e4b60026"],
+      "problem": "The genuine Google security alert — a blocked sign-in from Lagos using Maya's actual password — is absent from both items and must_not_include, even though QUESTIONS.md names this exact message as a Q1 item and Q1 inclusion criterion 3 lists 'a genuine security alert' as a qualifying hazard.",
+      "evidence": "a40f18c2e4b60026 (no-reply@accounts.google.com, Jul 28, still UNREAD): \"Someone just used your password to try to sign in to your account. Google blocked them, but you should check your recent activity and consider changing your password.\" No message anywhere in the mailbox shows a password change or activity review afterwards (grep for 'password|sign-in' returns only a Jun 22 new-device notice and a 1Password marketing blast). QUESTIONS.md §3 Boundary: \"the suspicious-sign-in alert (a40f18c2e4b60026, Q1 only — Google is not 'waiting')\".",
+      "recommended_action": "add new item with these fields — tier must_include, anchor a40f18c2e4b60026, claim 'A suspicious sign-in to maya@kettlehq.com using her real password was blocked on Jul 28 from Lagos, Nigeria; the password has never been changed and recent activity was never reviewed', due_date null / due_basis none, consequence high, tricky_tags []. It is a hazard-with-no-requester, so rank it in the same band as the lookalike invoice (around rank 6)."
+    },
+    {
+      "type": "false_positive",
+      "severity": "medium",
+      "item_id": "founder-q1-08",
+      "message_ids": ["a50f18c2e4b60033", "a50f18c2e4b60035"],
+      "problem": "The Aug 15 draft-financials promise to Ellen and Greg was almost certainly discharged early on Aug 1 — Maya sent both of them the rough numbers plus a metrics CSV, explicitly framed as the thing they discussed — so the item reports as pending an obligation the thread shows delivered, leaving only the Aug 20 deck (outside the ~7-day horizon and being assembled by Sana).",
+      "evidence": "a50f18c2e4b60035 (Maya to ellen@northbridge.vc, cc greg.whitfield, Aug 1, attachment july_metrics_summary.csv): \"Getting you the rough numbers early like we discussed, ahead of the full deck on the 20th.\" Ellen's original ask (a50f18c2e4b60032) was \"Even a rough numbers-only version two weeks out would help\"; Maya's Aug 1 mail names only the 20th as the remaining milestone, never an Aug 15 one.",
+      "recommended_action": "retier to borderline and re-anchor on a50f18c2e4b60035 with the surviving obligation stated as the Aug 20 finished deck — or move to must_not_include with trap 'already-completed' if the reviewer reads the Aug 1 pre-read as full delivery. Either way remove the 'three days out' Aug 15 framing from the prose_answer's implied urgency."
+    },
+    {
+      "type": "missed_item",
+      "severity": "medium",
+      "item_id": null,
+      "message_ids": ["a40f18c2e4b60041"],
+      "problem": "Wendy's $3,180.44 expense report has been sitting on Maya as the designated approver since Jul 29 with a Aug 1 due date — eleven days overdue, a named internal counterparty blocked on reimbursement — and appears in neither items nor must_not_include.",
+      "evidence": "a40f18c2e4b60041 (notify@ramp.com, Jul 29, to maya only): \"Wendy Osei submitted an expense report for your approval.\" / \"Total: $3,180.44 across 6 items — SOC 2 auditor travel reimbursement and the July team offsite deposit.\" meta.action_owner = maya@kettlehq.com, meta.due_date = 2026-08-01. QUESTIONS.md §3 cites this message as a legitimate 'system acting for a human' requester, and Q3 ⊂ candidate-Q1.",
+      "recommended_action": "add new item with these fields — tier acceptable, anchor a40f18c2e4b60041, claim 'Wendy's $3,180.44 expense report (SOC2 auditor travel + offsite deposit) has needed Maya's approver sign-off since Jul 29 and is 11 days past its Aug 1 date', due_date 2026-08-01, due_basis explicit, consequence medium, counterparty wendy@kettlehq.com. Rank in the overdue band, roughly alongside founder-q1-09."
+    },
+    {
+      "type": "missed_item",
+      "severity": "medium",
+      "item_id": null,
+      "message_ids": ["a50f18c2e4b60017", "a10f18c2e4b60027", "a10f18c2e4b60046"],
+      "problem": "The weekly Friday status update Maya promised Dana as the trust-rebuilding mechanism has produced no Friday email in four weeks, and the next occurrence (Fri Aug 14) falls inside the Q1 window and immediately precedes the Aug 17 go-live; QUESTIONS.md explicitly assigns this obligation to Q1 as well as Q2, and the gold set has it in neither items nor must_not_include.",
+      "evidence": "a50f18c2e4b60017 (Maya to Dana, Jul 14): \"you'll get a written status update from me — not Dev, not support — every Friday until this is closed out, whether or not there's news.\" Reinforced in a10f18c2e4b60027 (Jul 31): \"I'll personally check in with you Friday either way.\" Enumerating every SENT message to dana.kowalski@lumenpay.io: Jun 30, Jul 14, Jul 16 (x2), Jul 21, Jul 30 (x2), Jul 31, Aug 4 (the invoice, which bounced), Aug 10 — no send at all on Fri Jul 17, Fri Jul 24 or Fri Aug 7.",
+      "recommended_action": "add new item with these fields — tier acceptable (or borderline if the reviewer holds that Maya's Aug 10 reply defuses the escalation), anchor a50f18c2e4b60017, claim 'The weekly Friday status update Maya promised Dana on Jul 14 has been missed at least three Fridays running, the most recent Aug 7; the next one is due Fri Aug 14, three days before the Aug 17 go-live', due_date 2026-08-14, due_basis implicit, consequence medium-high, counterparty dana.kowalski@lumenpay.io. At minimum it must appear in must_not_include with an explicit rationale, since QUESTIONS.md §2 states it is 'Q2 (and, because Dana is now escalating, also Q1)'."
+    },
+    {
+      "type": "missed_item",
+      "severity": "medium",
+      "item_id": null,
+      "message_ids": ["a50f18c2e4b60047"],
+      "problem": "Maya owes Raj Malhotra an externally-formatted numbers packet by end of this week ahead of a Thursday Aug 13 conversation, and the internal draft she asked Sana for was due Wednesday Aug 12 — the as-of day itself — yet the item is absent.",
+      "evidence": "a50f18c2e4b60047 (Maya to Sana, Aug 7): \"Raj is going to get a data-room-style packet from Ellen and Greg with the June numbers before we talk again Thursday. Can you pull together the same summary sheet we used for the board pre-read, just formatted cleanly for external eyes ... I told Raj end of week, so if you can get me a draft by Wednesday that'd help.\" No later message shows the draft arriving or the packet going out.",
+      "recommended_action": "add new item with these fields — tier acceptable, anchor a50f18c2e4b60047, claim 'Maya told Raj (Foundry Line) he would have an externally-formatted numbers packet by end of this week ahead of their Thursday Aug 13 call; Sana's draft was due Wednesday Aug 12 and has not surfaced', due_date 2026-08-14, due_basis implicit, consequence medium, counterparty raj.malhotra@foundryline.com."
+    },
+    {
+      "type": "missed_item",
+      "severity": "low",
+      "item_id": null,
+      "message_ids": ["a60f18c2e4b60039", "a60f18c2e4b60040"],
+      "problem": "The Foundry Line technical diligence call Raj asked Maya to arrange was never addressed — her reply talks only about dinner — and the Question x TrickyTag matrix marks quoted_text_only_task as a Q1 inclusion; the item appears nowhere in this set, not even as a distractor.",
+      "evidence": "a60f18c2e4b60039 (Raj, Jul 23): \"One more thing — could you loop in Dev for a quick technical diligence call before Friday? Our partner doing the tech review has a narrow window and Friday is really the only slot that works before he's out for two weeks.\" Maya's reply a60f18c2e4b60040 (Jul 24) discusses only a Hayes Valley dinner; the ask survives only in the '>'-quoted block. Nothing in the later Foundry Line threads (a10f18c2e4b60011, a50f18c2e4b60047) shows Dev ever being looped in.",
+      "recommended_action": "add new item with these fields — tier borderline, anchor a60f18c2e4b60040, claim 'Raj's request to loop Dev in for Foundry Line's technical diligence call was never answered; 19 days on, the tech review is still unscheduled while a Thursday Aug 13 conversation approaches', due_basis implicit, consequence medium. If the curator prefers to keep this exclusively in Q6, add it to must_not_include with trap 'quoted_text_only_task' so the routing decision is visible."
+    },
+    {
+      "type": "wrong_owner",
+      "severity": "low",
+      "item_id": "founder-q1-02",
+      "message_ids": ["a60f18c2e4b60034", "a60f18c2e4b60035", "a20f18c2e4b60026"],
+      "problem": "Both Certiva messages put the SOC2 evidence upload on Wendy with Maya only on cc — the exact FYI-cc pattern Q1's exclusion rules call out — and the parallel Vantage Assurance thread says fieldwork is already substantially complete, which undercuts 'the hardest external date in the window' framing of a must_include.",
+      "evidence": "a60f18c2e4b60034 and a60f18c2e4b60035 are both addressed To: Wendy Osei with Maya on Cc, and both carry meta.action_owner = wendy@kettlehq.com. Meanwhile a20f18c2e4b60026 (Grace Liu, Vantage Assurance, Aug 4, To: Maya): \"Fieldwork is otherwise substantially complete. We'll issue a draft report by August 20th with that one exception noted\".",
+      "recommended_action": "retier to acceptable and reword why_it_qualifies to lead with the hazard/awareness rationale (the schedule collision that broke the Sept 1 SSO promise, evidenced in a60f18c2e4b60007 and a60f18c2e4b60009) rather than an owner-obligation rationale. Keep it in ranked — QUESTIONS.md's Q1 Traps section explicitly directs the moved Aug 13 date into Q1 — but a system that routes it to Wendy should not be scored as having missed a must_include."
+    },
+    {
+      "type": "misranked",
+      "severity": "low",
+      "item_id": "founder-q1-12",
+      "message_ids": ["a40f18c2e4b60050", "a30f18c2e4b60038", "a30f18c2e4b60039"],
+      "problem": "The board consent DocuSign is ranked last, below a vendor renewal and a conference upload, despite the ranking principle's explicit tiebreak of board > vendor > stranger and despite QUESTIONS.md using this very message as its lead example of a qualifying Q1 obligation.",
+      "evidence": "a40f18c2e4b60050: \"This needs all board members' signatures before the Aug 27 meeting so the increase is effective for the Head of Marketing offer. 2 of 4 signatures collected so far.\" Compare the counterparties it sits below: billing@datadoghq.com (a30f18c2e4b60038) and speakers@saastr.com (a30f18c2e4b60039), both dated Aug 25 versus the consent's Aug 26 — a one-day date gap that the counterparty tiebreak should dominate, especially with the Naomi Chen offer gated on it.",
+      "recommended_action": "reorder above founder-q1-10 and founder-q1-11 (new rank 10), shifting Datadog and SaaStr to 11 and 12."
+    }
+  ],
+  "checked_and_sound": [
+    "founder-q1-01",
+    "founder-q1-03",
+    "founder-q1-04",
+    "founder-q1-05",
+    "founder-q1-06",
+    "founder-q1-07",
+    "founder-q1-09",
+    "founder-q1-10",
+    "founder-q1-11"
+  ],
+  "notes": "Method: every item's full thread read in date order to the last message; all twelve evidence_quote strings machine-verified as exact substrings of the cited message's body_text or attachment extracted_text (12/12 pass, item 03 correctly resolving into the PDF's extracted_text). No double counting found — the three Lumenpay legal documents (MSA amendment / security addendum / DPA addendum) are genuinely distinct instruments, and no thread yields two items. All eight distractors survive scrutiny and none should be promoted: payroll really was approved (a10f18c2e4b60049 'Approved — go ahead'), the diffused SOC2 ask really was claimed by Luis 47 minutes later (a60f18c2e4b60024 position 2, 'I'll grab this'), and the Stripe dispute really is Wendy's (meta.action_owner = wendy@kettlehq.com). Two smaller observations that did not rise to findings: (a) founder-q1-04 carries due_date 2026-07-03 while its anchor is the Aug 7 envelope — defensible as obligation-origin dating, but the 'overdue by nearly six weeks' phrasing understates that the stated condition (Beth's sign-off) was demonstrably still unmet on Jul 22 per a60f18c2e4b60020, so the honest framing is a conditional promise whose condition resolved late, not a flatly blown deadline; (b) founder-q1-12 versus a10f18c2e4b60042, where Sana tells Greg at 16:50 on Aug 6 'it'll be a live agenda item, not a written consent' — 80 minutes after the written-consent envelope went out at 15:30. Most likely two different instruments (an immediate 800K-share consent for the Naomi Chen offer versus the broader 8% refresh discussion), but a human reviewer should confirm the corpus intends that reading. Finally, the corpus contains two audit firms running what reads like one SOC2 Type II (Certiva/Rachel Kim and Vantage/Owen Fitch then Grace Liu) with incompatible schedules — Aug 13 evidence deadline versus 'fieldwork substantially complete' on Aug 4. That is a corpus-generation artifact rather than a gold-set defect, but it is the reason founder-q1-02's must_include tier is worth softening."
+}

@@ -1,0 +1,1852 @@
+{
+  "profile_id": "hr",
+  "owner": {
+    "name": "Marcus Bell",
+    "email": "marcus.bell@vireohealth.com",
+    "role": "Head of People, Vireo Health Systems",
+    "timezone": "America/Denver"
+  },
+  "as_of": "2026-08-12T23:59:00-06:00",
+  "answers": {
+    "q1_needs_attention": {
+      "question": "What needs my attention?",
+      "prose_answer": "Five things can't wait. Checkr came back on Maria Chen with records found and an adverse-action review due Aug 14 — her offer letter is already countersigned, so any step you take without the FCRA pre-adverse notice is the expensive one. Elaine overrode the committee on Aug 11 and wants Castillo's offer moving; nobody has been assigned the Anthony conversation, and he cannot hear it secondhand. She also asked Aug 10 for Rich to prep Michael Tran's offer. On compliance: six employees are still missing I-9 Section 2 past the Jul 31 window, and Farida needs your sign-off on the remediation package now due Aug 22. Angela has asked twice about the SBC cost-share numbers and finalizes Aug 14. Also overdue: Priscilla's merit increase sitting in Workday since Jul 24, and the PIP window that closed Aug 5.",
+      "ranked": [
+        "hr-q1-01",
+        "hr-q1-06",
+        "hr-q1-02",
+        "hr-q1-04",
+        "hr-q1-08",
+        "hr-q1-03",
+        "hr-q1-05",
+        "hr-q1-07",
+        "hr-q1-09",
+        "hr-q1-10",
+        "hr-q1-11",
+        "hr-q1-12"
+      ],
+      "items": [
+        {
+          "item_id": "hr-q1-01",
+          "rank": 1,
+          "tier": "must_include",
+          "claim": "Checkr returned records on Maria Chen (Senior RN Case Manager) requiring an adverse-action review by Aug 14, and her offer letter was already countersigned and completed on Aug 6 — the FCRA pre-adverse-action notice must go out before any decision either way.",
+          "thread_id": "d40f18c2e4b60037",
+          "anchor_message_id": "d40f18c2e4b60037",
+          "message_ids": [
+            "d40f18c2e4b60037",
+            "d40f18c2e4b60039",
+            "d40f18c2e4b60040"
+          ],
+          "evidence_quote": "you must send a pre-adverse action notice with a copy of the report and a summary of rights before taking any adverse action",
+          "why_it_qualifies": "Hard statutory deadline two days out, irreversible if handled wrong, and it collides with an offer Marcus has already signed — the highest-cost mistake available in this mailbox this week.",
+          "counterparty": "notifications@checkr.com",
+          "due_date": "2026-08-14",
+          "due_basis": "explicit",
+          "days_open": 5,
+          "consequence": "high",
+          "tricky_tags": []
+        },
+        {
+          "item_id": "hr-q1-02",
+          "rank": 3,
+          "tier": "must_include",
+          "claim": "Elaine decided on Aug 10 to hire Michael Tran for VP Clinical Ops and asked Marcus to have Rich Delacroix prep the offer for early next week, and to work with Doug on how Dr. Castellano is told she wasn't selected.",
+          "thread_id": "d60f18c2e4b60014",
+          "anchor_message_id": "d60f18c2e4b60022",
+          "message_ids": [
+            "d60f18c2e4b60018",
+            "d60f18c2e4b60020",
+            "d60f18c2e4b60021",
+            "d60f18c2e4b60022"
+          ],
+          "evidence_quote": "Marcus, can you have Rich prep the offer — I'd like to get it in front of him by early next week if we can, given he mentioned a competing process.",
+          "why_it_qualifies": "Direct, named ask from the CEO two days ago with a candidate in a competing process; no reply from Marcus anywhere in the thread. Cite Tran, not Castellano — the Jul 29 consensus was reversed.",
+          "counterparty": "elaine.ford@vireohealth.com",
+          "due_date": "2026-08-17",
+          "due_basis": "implicit",
+          "days_open": 2,
+          "consequence": "high",
+          "tricky_tags": [
+            "long_thread"
+          ]
+        },
+        {
+          "item_id": "hr-q1-03",
+          "rank": 6,
+          "tier": "must_include",
+          "claim": "Angela Nwosu is still waiting on Marcus to confirm the SBC cost-share numbers — asked Jun 29, resent Jul 1, never answered — and the SBC packet is due to be finalized Aug 14.",
+          "thread_id": "d60f18c2e4b60033",
+          "anchor_message_id": "d60f18c2e4b60034",
+          "message_ids": [
+            "d60f18c2e4b60033",
+            "d60f18c2e4b60034",
+            "d60f18c2e4b60023",
+            "d60f18c2e4b60012"
+          ],
+          "evidence_quote": "Resending — did this reach you? Haven't heard back and want to make sure it didn't get caught in a filter with the attachment.",
+          "why_it_qualifies": "Owner-owned review with an external counterparty who has already chased once, 42 days open, and a firm Aug 14 finalization date that Marcus himself referenced on Aug 5. One item, urgency raised by the resend.",
+          "counterparty": "angela.nwosu@keystonebenefits.com",
+          "due_date": "2026-08-14",
+          "due_basis": "explicit",
+          "days_open": 44,
+          "consequence": "high",
+          "tricky_tags": [
+            "duplicate_resend"
+          ]
+        },
+        {
+          "item_id": "hr-q1-04",
+          "rank": 4,
+          "tier": "must_include",
+          "claim": "Six employees (Rosa Delgadillo, Trevor Bianchi, Yusuf Karimi, Devon Mackay, Otis Greenberg, Cyrus Whelan) still have no completed I-9 Section 2 and blew through the Jul 31 remediation window twelve days ago.",
+          "thread_id": "d40f18c2e4b60041",
+          "anchor_message_id": "d40f18c2e4b60041",
+          "message_ids": [
+            "d40f18c2e4b60019",
+            "d40f18c2e4b60041"
+          ],
+          "evidence_quote": "still need to be completed before July 31 to stay within our recommended remediation window",
+          "why_it_qualifies": "Overdue compliance exposure with per-form penalties, named individuals, and no message anywhere showing the six were completed — the internal audit threads closed a different sample, not this backlog.",
+          "counterparty": "noreply@i9advantage.com",
+          "due_date": "2026-07-31",
+          "due_basis": "explicit",
+          "days_open": 56,
+          "consequence": "high",
+          "tricky_tags": []
+        },
+        {
+          "item_id": "hr-q1-05",
+          "rank": 7,
+          "tier": "must_include",
+          "claim": "Farida Bashir needs Marcus's sign-off on the I-9 remediation process changes and a confirmed point of contact for the two reverification cases; the response package is due Aug 22, not Aug 15.",
+          "thread_id": "d60f18c2e4b60035",
+          "anchor_message_id": "d60f18c2e4b60036",
+          "message_ids": [
+            "d60f18c2e4b60035",
+            "d60f18c2e4b60036"
+          ],
+          "evidence_quote": "Correction — outside counsel got us a one-week extension. New deadline is August 22, not the 15th.",
+          "why_it_qualifies": "Live compliance-committee deadline inside the horizon, owner-owned sign-off, and the date moved — a system citing Aug 15 is citing a superseded fact.",
+          "counterparty": "farida.bashir@vireohealth.com",
+          "due_date": "2026-08-22",
+          "due_basis": "explicit",
+          "days_open": 26,
+          "consequence": "high",
+          "tricky_tags": [
+            "deadline_moved"
+          ]
+        },
+        {
+          "item_id": "hr-q1-06",
+          "rank": 2,
+          "tier": "must_include",
+          "claim": "Elaine overrode the hiring committee on Aug 11 and is extending the VP Clinical Operations (West) offer to Dr. Castillo; the conversation with Anthony Vogel is still unassigned and Marcus's response to her is sitting unsent in a draft.",
+          "thread_id": "d20f18c2e4b60001",
+          "anchor_message_id": "d20f18c2e4b60010",
+          "message_ids": [
+            "d20f18c2e4b60007",
+            "d20f18c2e4b60009",
+            "d20f18c2e4b60010",
+            "d50f18c2e4b60049"
+          ],
+          "evidence_quote": "And someone needs to have the Anthony conversation before he hears about the offer secondhand.",
+          "why_it_qualifies": "Becomes unrecoverable the moment the internal candidate hears secondhand; CEO reversed a near-unanimous vote yesterday and Marcus has drafted but not sent a reply. Rich also warned on Jul 28 that Castillo is 2-3 weeks from being off the market.",
+          "counterparty": "elaine.ford@vireohealth.com",
+          "due_date": "2026-08-12",
+          "due_basis": "implicit",
+          "days_open": 1,
+          "consequence": "high",
+          "tricky_tags": [
+            "long_thread"
+          ]
+        },
+        {
+          "item_id": "hr-q1-07",
+          "rank": 8,
+          "tier": "acceptable",
+          "claim": "Priscilla Nam's merit increase to Grade 8 / $126,200 has been sitting in Marcus's Workday queue since Jul 24, past its Jul 31 approval date and past its Aug 1 effective date.",
+          "thread_id": "d40f18c2e4b60029",
+          "anchor_message_id": "d40f18c2e4b60029",
+          "message_ids": [
+            "d40f18c2e4b60029"
+          ],
+          "evidence_quote": "Justification: Retention risk following two peer departures this spring",
+          "why_it_qualifies": "Overdue approval that Doug submitted specifically as a retention play for the Director of Nursing, in the middle of the nurse-retention problem; every day it sits is a day her raise is late.",
+          "counterparty": "doug.feinstein@vireohealth.com",
+          "due_date": "2026-07-31",
+          "due_basis": "explicit",
+          "days_open": 19,
+          "consequence": "high",
+          "tricky_tags": []
+        },
+        {
+          "item_id": "hr-q1-08",
+          "rank": 5,
+          "tier": "acceptable",
+          "claim": "The 30-day PIP window on the Unit 3 billing coordinator role closed Aug 5 with no recorded decision, and Marcus's own notes flag an unanswered question to Claudia about whether the window has to be extended.",
+          "thread_id": "d50f18c2e4b60047",
+          "anchor_message_id": "d50f18c2e4b60047",
+          "message_ids": [
+            "d50f18c2e4b60047"
+          ],
+          "evidence_quote": "PIP issued July 6 with 30-day window, window closes Aug 5",
+          "why_it_qualifies": "A performance-management deadline that has already passed with the process question open; letting a PIP lapse undocumented is exactly the kind of gap that is hard to defend later.",
+          "counterparty": "claudia.reyes@vireohealth.com",
+          "due_date": "2026-08-05",
+          "due_basis": "explicit",
+          "days_open": 16,
+          "consequence": "high",
+          "tricky_tags": []
+        },
+        {
+          "item_id": "hr-q1-09",
+          "rank": 9,
+          "tier": "acceptable",
+          "claim": "A Workday requisition approval for a new Clinical Nurse Educator role requested by Priscilla Nam is due Aug 13, with a Sept 14 target start.",
+          "thread_id": "d40f18c2e4b60030",
+          "anchor_message_id": "d40f18c2e4b60030",
+          "message_ids": [
+            "d40f18c2e4b60030"
+          ],
+          "evidence_quote": "You have a pending requisition approval in Workday.",
+          "why_it_qualifies": "Dated approval inside the seven-day horizon with a real requester behind the workflow; missing it pushes a September start.",
+          "counterparty": "priscilla.nam@vireohealth.com",
+          "due_date": "2026-08-13",
+          "due_basis": "explicit",
+          "days_open": 6,
+          "consequence": "medium",
+          "tricky_tags": []
+        },
+        {
+          "item_id": "hr-q1-10",
+          "rank": 10,
+          "tier": "acceptable",
+          "claim": "The 2027 plan rates were never loaded into Gusto by the Aug 5 cutoff, so the enrollment portal is set to launch showing 2026 rates as a placeholder; Angela's final numbers only arrived Aug 10.",
+          "thread_id": "d40f18c2e4b60035",
+          "anchor_message_id": "d40f18c2e4b60035",
+          "message_ids": [
+            "d40f18c2e4b60035",
+            "d20f18c2e4b60050"
+          ],
+          "evidence_quote": "If rates aren't confirmed by the 5th, the enrollment portal will launch with 2026 rates showing as a placeholder",
+          "why_it_qualifies": "Passed deadline with a concrete employee-facing consequence, and the blocking input (final renewal numbers) landed Aug 10, so it is now actionable.",
+          "counterparty": "notifications@gusto.com",
+          "due_date": "2026-08-05",
+          "due_basis": "explicit",
+          "days_open": 14,
+          "consequence": "medium",
+          "tricky_tags": []
+        },
+        {
+          "item_id": "hr-q1-11",
+          "rank": 11,
+          "tier": "acceptable",
+          "claim": "Two lookalike-domain lures are sitting in the mailbox: a gift-card request signed 'Elaine' from elaine.ford@vireo-health.net on Aug 6, and a credential-harvest 'confirm your benefits enrollment' from notifications@vireohealth-benefits.com. Neither domain is vireohealth.com.",
+          "thread_id": "d30f18c2e4b60047",
+          "anchor_message_id": "d30f18c2e4b60047",
+          "message_ids": [
+            "d30f18c2e4b60047",
+            "d60f18c2e4b60032"
+          ],
+          "evidence_quote": "Need you to pick up gift cards for a client thing, kind of urgent.",
+          "why_it_qualifies": "Hazards requiring awareness with no legitimate task attached: CEO impersonation aimed at the Head of People, and a benefits-enrollment lure that mimics exactly the mail People is about to send 200 employees. Attention means report and warn, never comply.",
+          "counterparty": null,
+          "due_date": null,
+          "due_basis": "none",
+          "days_open": 6,
+          "consequence": "medium",
+          "tricky_tags": [
+            "lookalike_domain"
+          ]
+        },
+        {
+          "item_id": "hr-q1-12",
+          "rank": 12,
+          "tier": "acceptable",
+          "claim": "Google blocked a sign-in attempt on Marcus's account from Kyiv on Aug 2 and recommends a password change and recovery review — unresolved in the mailbox.",
+          "thread_id": "d40f18c2e4b60043",
+          "anchor_message_id": "d40f18c2e4b60043",
+          "message_ids": [
+            "d40f18c2e4b60043"
+          ],
+          "evidence_quote": "We blocked a sign-in attempt to your account marcus.bell@vireohealth.com from an unfamiliar location (Kyiv, Ukraine).",
+          "why_it_qualifies": "Genuine security alert on the account that holds employee-relations and compliance material; nobody is waiting on Marcus but the hazard is real.",
+          "counterparty": null,
+          "due_date": null,
+          "due_basis": "none",
+          "days_open": 10,
+          "consequence": "medium",
+          "tricky_tags": []
+        },
+        {
+          "item_id": "hr-q1-13",
+          "rank": 13,
+          "tier": "borderline",
+          "claim": "Marcus agreed to speak on the Rocky Mountain HR retention panel Oct 15 and owes the conference his session title and a 75-100 word bio by Aug 25.",
+          "thread_id": "d30f18c2e4b60034",
+          "anchor_message_id": "d30f18c2e4b60034",
+          "message_ids": [
+            "d30f18c2e4b60034"
+          ],
+          "evidence_quote": "your session title and a 75-100 word bio, due by August 25",
+          "why_it_qualifies": "A genuine commitment wearing conference-marketing styling, but the date is outside the seven-day horizon and the cost of slipping is reputational only — defensible to include or drop.",
+          "counterparty": "info@rmhrconference.org",
+          "due_date": "2026-08-25",
+          "due_basis": "explicit",
+          "days_open": 4,
+          "consequence": "low",
+          "tricky_tags": []
+        }
+      ],
+      "must_not_include": [
+        {
+          "message_id": "d60f18c2e4b60001",
+          "subject": "Fwd: Onboarding schedule for the two new ICU nurses",
+          "why_excluded": "Claudia forwarded this for awareness only — 'no action needed on your end'. The 'can you' in the quoted block is Priscilla asking Claudia to chase Renata, not an ask of Marcus.",
+          "trap": "forwarded_task_not_users"
+        },
+        {
+          "message_id": "d40f18c2e4b60033",
+          "subject": "5 direct reports haven't submitted self-reviews -- due Friday",
+          "why_excluded": "Automated Lattice nag citing a July 24 due date that has long passed; no human requester and no owner action attached.",
+          "trap": "automated-not-human"
+        },
+        {
+          "message_id": "d30f18c2e4b60017",
+          "subject": "SHRM26 Annual Conference & Expo — early bird registration ends Friday",
+          "why_excluded": "Marketing deadline for a June 2027 conference Marcus has no commitment to; urgency is the vendor's, not his.",
+          "trap": "newsletter-deadline"
+        },
+        {
+          "message_id": "d30f18c2e4b60002",
+          "subject": "Your BambooHR free trial expires in 5 days",
+          "why_excluded": "Vendor trial nag. Vireo's actual BambooHR work is the contracted migration with Dana Ricci, which has nothing to do with this trial clock.",
+          "trap": "newsletter-deadline"
+        },
+        {
+          "message_id": "d60f18c2e4b60009",
+          "subject": "Badge photos for Thursday's orientation",
+          "why_excluded": "Renata asked six people with nobody named, and Claudia claimed it the same morning — 'I've got it'. Neither unclaimed nor Marcus's.",
+          "trap": "diffused_group_ask"
+        },
+        {
+          "message_id": "d10f18c2e4b60049",
+          "subject": "BBQ this Saturday?",
+          "why_excluded": "Personal invitation from a friend for Aug 22; a reply is polite, not urgent, and nothing expensive happens if it waits.",
+          "trap": "low-stakes-personal"
+        },
+        {
+          "message_id": "d60f18c2e4b60039",
+          "subject": "Off-cycle payroll batch — details attached",
+          "why_excluded": "The real ask — Head of People approval by Thursday 5pm — exists only in the attachment's text, which makes it a classic trap, but Marcus approved it the next morning ('Yes, go ahead and process it as discussed'). Closed.",
+          "trap": "task_in_attachment_only"
+        }
+      ],
+      "curator_notes": "Q1 horizon read as Aug 12-19 plus everything overdue. Two same-storyline VP Clinical Ops threads exist in this corpus with different casts (Castellano/Tran in d60f18c2e4b60014, Castillo/Vogel in d20f18c2e4b60001); both carry live, separately-attested CEO asks dated Aug 10 and Aug 11, so both are listed rather than merged. Tran's offer due date is resolved from Elaine's 'early next week' written Mon Aug 10 -> week of Aug 17, which is later than meta's Aug 14. The I-9 story splits in two: the internal 25-record self-audit is closed (d50f18c2e4b60025), but the I-9 Advantage Section 2 backlog and Farida's compliance-committee response package are both still open — a system that reads 'fully closed out' as global will miss two real deadlines. A Lattice auto-renewal on Sept 11 ($21,600 -> $26,400) was considered and dropped as outside the horizon; it is a live decision window if the question is re-asked in late August."
+    },
+    "q2_forgetting": {
+      "question": "What am I forgetting?",
+      "prose_answer": "Six things you said you'd do and haven't. You told Josh Lieberman on Jul 31 you'd have the revised New Mexico meal-break section to him by Monday — the Albuquerque office opened Aug 3 and that section is still the version he redlined. Your own notes on the Unit 3 PIP flag a question for Claudia that was never resolved before the window closed Aug 5. You promised Priscilla comp benchmarking 'within two weeks' on Jul 16 and Doug the exit-interview theme summary 'later this week' on Jul 15; neither has appeared, and both feed the retention case you want to take to Elaine. You told Claudia, Tim, Renata and Farida they'd have manager-facing Q3 FAQ content by Jul 18. You told Dana Ricci at BambooHR she'd have the roster export by Jul 10. And Elaine green-lit both VP finalist onsites on Jul 22 — never scheduled.",
+      "ranked": [
+        "hr-q2-01",
+        "hr-q2-05",
+        "hr-q2-02",
+        "hr-q2-03",
+        "hr-q2-07",
+        "hr-q2-04",
+        "hr-q2-08",
+        "hr-q2-06",
+        "hr-q2-10",
+        "hr-q2-09"
+      ],
+      "items": [
+        {
+          "item_id": "hr-q2-01",
+          "rank": 1,
+          "tier": "must_include",
+          "claim": "Marcus told Josh Lieberman on Jul 31 he would send the revised New Mexico meal-break waiver section 'by Monday' (Aug 3); nothing has gone back to Josh and the Albuquerque office opened that same day.",
+          "thread_id": "d10f18c2e4b60027",
+          "anchor_message_id": "d10f18c2e4b60029",
+          "message_ids": [
+            "d10f18c2e4b60027",
+            "d10f18c2e4b60028",
+            "d10f18c2e4b60029"
+          ],
+          "evidence_quote": "Understood, I'll get you the revised section by Monday. Opening date is still Aug 3.",
+          "why_it_qualifies": "Explicit owner commitment to outside counsel, nine days past its date, on language Josh already flagged as non-compliant with New Mexico's written-waiver rule — and staff are now working under it.",
+          "counterparty": "jlieberman@bramwell-law.com",
+          "due_date": "2026-08-03",
+          "due_basis": "implicit",
+          "days_open": 12,
+          "consequence": "high",
+          "tricky_tags": []
+        },
+        {
+          "item_id": "hr-q2-02",
+          "rank": 3,
+          "tier": "must_include",
+          "claim": "Marcus promised Priscilla Nam comp benchmarking against local travel and agency rates 'within two weeks' on Jul 16; it is 27 days later with no delivery and no update.",
+          "thread_id": "d10f18c2e4b60015",
+          "anchor_message_id": "d10f18c2e4b60016",
+          "message_ids": [
+            "d10f18c2e4b60015",
+            "d10f18c2e4b60016",
+            "d10f18c2e4b60017"
+          ],
+          "evidence_quote": "I can have the comp benchmarking back within two weeks.",
+          "why_it_qualifies": "Owner-authored promise with a resolvable date (Jul 30), accepted by Priscilla the next day ('Let's do it'), and it is the analytical half of the retention plan Marcus wants in front of Elaine before FY27 budget talks.",
+          "counterparty": "priscilla.nam@vireohealth.com",
+          "due_date": "2026-07-30",
+          "due_basis": "implicit",
+          "days_open": 27,
+          "consequence": "high",
+          "tricky_tags": []
+        },
+        {
+          "item_id": "hr-q2-03",
+          "rank": 4,
+          "tier": "must_include",
+          "claim": "Marcus told Doug Feinstein on Jul 15 he'd send the full exit-interview theme summary 'later this week'; it has never been sent, and the raw notes he asked Claudia for on Jul 14 never came back either.",
+          "thread_id": "d50f18c2e4b60001",
+          "anchor_message_id": "d50f18c2e4b60002",
+          "message_ids": [
+            "d50f18c2e4b60001",
+            "d50f18c2e4b60002",
+            "d50f18c2e4b60027"
+          ],
+          "evidence_quote": "I'll have the full exit-interview theme summary to you separately later this week.",
+          "why_it_qualifies": "Dated owner commitment to a peer who is briefing the CEO on retention; four weeks stale. The dependency on Claudia's notes is a Q4 edge, not an excuse — Marcus never chased her.",
+          "counterparty": "doug.feinstein@vireohealth.com",
+          "due_date": "2026-07-17",
+          "due_basis": "implicit",
+          "days_open": 28,
+          "consequence": "medium",
+          "tricky_tags": []
+        },
+        {
+          "item_id": "hr-q2-04",
+          "rank": 6,
+          "tier": "must_include",
+          "claim": "Marcus committed in the Jul 13 Q3 performance-cycle kickoff to send manager-facing FAQ content to Claudia, Tim, Renata and Farida by Jul 18; no such email exists and manager check-ins are due Aug 14.",
+          "thread_id": "d50f18c2e4b60020",
+          "anchor_message_id": "d50f18c2e4b60020",
+          "message_ids": [
+            "d50f18c2e4b60020"
+          ],
+          "evidence_quote": "you'll each get manager-facing FAQ content from me by the 18th to pre-empt the obvious questions",
+          "why_it_qualifies": "Explicit dated promise to four named people, 25 days overdue, and the cycle it supports hits its Aug 14 manager-check-in deadline this week — the exact moment the FAQ was meant to prevent inconsistent answers.",
+          "counterparty": "claudia.reyes@vireohealth.com",
+          "due_date": "2026-07-18",
+          "due_basis": "explicit",
+          "days_open": 30,
+          "consequence": "medium",
+          "tricky_tags": []
+        },
+        {
+          "item_id": "hr-q2-05",
+          "rank": 2,
+          "tier": "must_include",
+          "claim": "Marcus's Jul 27 notes-to-self on the Unit 3 billing coordinator PIP end mid-sentence with an unresolved question for Claudia about extending the window; the 30-day window closed Aug 5 with no decision on record.",
+          "thread_id": "d50f18c2e4b60047",
+          "anchor_message_id": "d50f18c2e4b60047",
+          "message_ids": [
+            "d50f18c2e4b60047"
+          ],
+          "evidence_quote": "Need to check with Claudia whether we're required to extend the PIP given the medical leave in the middle of it",
+          "why_it_qualifies": "A self-directed intention with a hard date that Marcus demonstrably registered — he wrote it down the night before he meant to raise it — and the date has passed unresolved.",
+          "counterparty": "claudia.reyes@vireohealth.com",
+          "due_date": "2026-08-05",
+          "due_basis": "explicit",
+          "days_open": 16,
+          "consequence": "high",
+          "tricky_tags": []
+        },
+        {
+          "item_id": "hr-q2-06",
+          "rank": 8,
+          "tier": "acceptable",
+          "claim": "Marcus apologised to Doug and Priscilla on Jul 20 for the late merit guidance and said the worksheet was coming 'in the follow-up'; no follow-up email carrying the worksheet exists in the mailbox.",
+          "thread_id": "d50f18c2e4b60019",
+          "anchor_message_id": "d50f18c2e4b60019",
+          "message_ids": [
+            "d50f18c2e4b60019",
+            "d50f18c2e4b60032"
+          ],
+          "evidence_quote": "Worksheet's attached in the follow-up, funding pool confirmed at 3.2% this cycle.",
+          "why_it_qualifies": "Owner-promised deliverable with no delivery message anywhere; he had already slipped it once and apologised for exactly this pattern, which makes a second silent lapse costlier than the first.",
+          "counterparty": "doug.feinstein@vireohealth.com",
+          "due_date": null,
+          "due_basis": "none",
+          "days_open": 23,
+          "consequence": "medium",
+          "tricky_tags": []
+        },
+        {
+          "item_id": "hr-q2-07",
+          "rank": 5,
+          "tier": "acceptable",
+          "claim": "Marcus told Dana Ricci at BambooHR on Jul 7 that the validated roster export would reach her by Jul 10; there is no confirmation from Renata or anyone else that it was ever sent, and the vendor needed it by Jul 20 to reconcile before cutover.",
+          "thread_id": "d10f18c2e4b60009",
+          "anchor_message_id": "d10f18c2e4b60010",
+          "message_ids": [
+            "d10f18c2e4b60009",
+            "d10f18c2e4b60010"
+          ],
+          "evidence_quote": "Roster export is on Renata's calendar for this Friday. You'll have it by the 10th.",
+          "why_it_qualifies": "Owner commitment to an external vendor with a date that passed 33 days ago and no closing message; migration cutover slips quietly if nobody notices.",
+          "counterparty": "dana.ricci@bamboohr.com",
+          "due_date": "2026-07-10",
+          "due_basis": "explicit",
+          "days_open": 36,
+          "consequence": "medium",
+          "tricky_tags": []
+        },
+        {
+          "item_id": "hr-q2-08",
+          "rank": 7,
+          "tier": "acceptable",
+          "claim": "Marcus proposed half-day onsites for both VP Clinical Ops finalists and Elaine approved them on Jul 22 for 'next week', asking to sit in on Grace Whitcomb's; three weeks on there is no scheduling message.",
+          "thread_id": "d10f18c2e4b60018",
+          "anchor_message_id": "d10f18c2e4b60020",
+          "message_ids": [
+            "d10f18c2e4b60018",
+            "d10f18c2e4b60019",
+            "d10f18c2e4b60020"
+          ],
+          "evidence_quote": "Let's get both in for onsites next week. I want to sit in on Grace's.",
+          "why_it_qualifies": "Marcus proposed the onsites himself and the CEO said go — clear engagement, then silence. Passes the engagement test for forgetting rather than a visibility gap.",
+          "counterparty": "elaine.ford@vireohealth.com",
+          "due_date": "2026-07-31",
+          "due_basis": "implicit",
+          "days_open": 21,
+          "consequence": "medium",
+          "tricky_tags": []
+        },
+        {
+          "item_id": "hr-q2-09",
+          "rank": 10,
+          "tier": "acceptable",
+          "claim": "The updated attendance and call-out policy Marcus began drafting Jun 22 stops mid-sentence, still needs Elaine's and Farida's input and a real effective date from Jenna, and has sat untouched for seven weeks.",
+          "thread_id": "d50f18c2e4b60048",
+          "anchor_message_id": "d50f18c2e4b60048",
+          "message_ids": [
+            "d50f18c2e4b60048"
+          ],
+          "evidence_quote": "[STOPPED HERE -- need Elaine and Farida to both weigh in before this goes out",
+          "why_it_qualifies": "Owner-authored draft that was never sent — the canonical forgetting pattern. Low urgency, but it was written in response to survey feedback that has since got louder, not quieter.",
+          "counterparty": "elaine.ford@vireohealth.com",
+          "due_date": null,
+          "due_basis": "none",
+          "days_open": 51,
+          "consequence": "low",
+          "tricky_tags": []
+        },
+        {
+          "item_id": "hr-q2-10",
+          "rank": 9,
+          "tier": "acceptable",
+          "claim": "In the Aug 5 handbook rollout note Marcus told the leadership group he'd send a short all-staff note on Friday Aug 7 pointing employees to the Colorado and Nevada changes; no all-staff note appears in the mailbox.",
+          "thread_id": "d60f18c2e4b60050",
+          "anchor_message_id": "d60f18c2e4b60050",
+          "message_ids": [
+            "d60f18c2e4b60050"
+          ],
+          "evidence_quote": "I'll send a short all-staff note the same day pointing people to the changes",
+          "why_it_qualifies": "Dated owner commitment five days past, and the managers were told to expect it — if it never goes out they field questions on a handbook change employees were never told about.",
+          "counterparty": "claudia.reyes@vireohealth.com",
+          "due_date": "2026-08-07",
+          "due_basis": "implicit",
+          "days_open": 7,
+          "consequence": "medium",
+          "tricky_tags": []
+        }
+      ],
+      "must_not_include": [
+        {
+          "message_id": "d60f18c2e4b60037",
+          "subject": "Signing bonus for the ICU nurse practitioner req",
+          "why_excluded": "Marcus promised Tim a $5,000 signing bonus on Jul 9 and explicitly retracted it on Jul 16 after comp committee rejected it. Retracted, not forgotten — this is a Q5 change.",
+          "trap": "cancelled_commitment"
+        },
+        {
+          "message_id": "d60f18c2e4b60004",
+          "subject": "Multistate handbook language — timing",
+          "why_excluded": "The conditional promise ('if Josh signs off today...by Friday') resolved: Josh completed his review and Marcus circulated the updated Colorado/Nevada sections on Aug 5. Only the all-staff note remains open.",
+          "trap": "conditional_promise"
+        },
+        {
+          "message_id": "d60f18c2e4b60030",
+          "subject": "Finalized comp bands — sending shortly",
+          "why_excluded": "Promised attachment delivered — Marcus sent the FY27 comp band spreadsheet to Elaine on Jul 27 with the file attached. Closed.",
+          "trap": "delivered_attachment"
+        },
+        {
+          "message_id": "d50f18c2e4b60033",
+          "subject": "Q3 update -- retention trend, performance cycle, and what's on my plate",
+          "why_excluded": "The commitment to brief Elaine verbally on Unit 4B was met — Marcus's Aug 10 note says he's calling her in five minutes to talk it through before his 2pm with Josh.",
+          "trap": "already-completed"
+        },
+        {
+          "message_id": "d50f18c2e4b60050",
+          "subject": "Unit 4B -- draft written summary (not sending yet)",
+          "why_excluded": "Deliberately withheld, not forgotten — Marcus wrote on Aug 11 that he is holding it until after the call with counsel rather than committing detail to writing.",
+          "trap": "deliberate-hold"
+        },
+        {
+          "message_id": "d50f18c2e4b60011",
+          "subject": "E-Verify check — the two flagged I-9 files (VH-1290, VH-1187)",
+          "why_excluded": "Chased on Aug 3 and closed on Aug 6 — Omar pulled the case records and Marcus reported both files clean to Farida with the spreadsheet attached.",
+          "trap": "already-completed"
+        }
+      ],
+      "curator_notes": "Applied the engagement test throughout: every item here has owner-authored evidence that Marcus registered the obligation (a SENT promise, a self-authored draft, or a proposal the other side accepted). Items where Marcus never engaged at all are in Q6 instead. Four commitments that look open on a naive scan are actually closed and sit in must_not_include — the signing bonus (retracted), the handbook conditional promise (Josh signed off, sections circulated Aug 5), the comp bands (attachment delivered Jul 27) and the E-Verify check (closed Aug 6). The Unit 3 PIP item is deliberately described at process level only."
+    },
+    "q3_waiting_on_me": {
+      "question": "What is waiting on me?",
+      "prose_answer": "Ten people are blocked on you. Josh Lieberman still has no shift logs for the Ridley response letter — he asked Jul 20, chased Jul 23 from his Vireo address, and the Jul 24 target has gone by. Angela Nwosu has been waiting since Jun 29, and resent Jul 1, for your read on the SBC cost-share numbers; she finalizes the packet Aug 14. Doug has asked twice, most recently Jul 20, for fifteen minutes on Priscilla's three weeks of September PTO. Farida needs your sign-off on the I-9 remediation process and a named point of contact, due Aug 22. Elaine wants three things: the phlebotomist req reopened with Tim told the count is 6, Rich prepping Michael Tran's offer plus the Castellano conversation, and the final FY27 headcount plan before the Aug 27 board meeting. In Workday: Priscilla's merit increase is 12 days overdue, plus a nurse educator req and Jenna's PTO.",
+      "ranked": [
+        "hr-q3-12",
+        "hr-q3-04",
+        "hr-q3-05",
+        "hr-q3-06",
+        "hr-q3-03",
+        "hr-q3-01",
+        "hr-q3-02",
+        "hr-q3-08",
+        "hr-q3-07",
+        "hr-q3-09"
+      ],
+      "items": [
+        {
+          "item_id": "hr-q3-01",
+          "rank": 6,
+          "tier": "must_include",
+          "claim": "Elaine is waiting on Marcus to have Rich Delacroix prep Michael Tran's VP Clinical Ops offer and to work with Doug on how Dr. Castellano is told she wasn't selected.",
+          "thread_id": "d60f18c2e4b60014",
+          "anchor_message_id": "d60f18c2e4b60022",
+          "message_ids": [
+            "d60f18c2e4b60021",
+            "d60f18c2e4b60022"
+          ],
+          "evidence_quote": "And Marcus, can you and Doug talk about how we let Dr. Castellano down",
+          "why_it_qualifies": "CEO named Marcus twice in the last substantive message of the thread, dated Aug 10, with two concrete asks and no reply from him since.",
+          "counterparty": "elaine.ford@vireohealth.com",
+          "due_date": "2026-08-17",
+          "due_basis": "implicit",
+          "days_open": 2,
+          "consequence": "high",
+          "tricky_tags": [
+            "long_thread"
+          ]
+        },
+        {
+          "item_id": "hr-q3-02",
+          "rank": 7,
+          "tier": "must_include",
+          "claim": "Elaine asked Marcus on Aug 10 for the final FY27 headcount plan — finished numbers, not a draft — ahead of the board meeting, which the mailbox dates to Aug 27.",
+          "thread_id": "d60f18c2e4b60046",
+          "anchor_message_id": "d60f18c2e4b60046",
+          "message_ids": [
+            "d60f18c2e4b60046",
+            "d40f18c2e4b60021"
+          ],
+          "evidence_quote": "can you get me the final FY27 headcount plan before the board meeting? Want clean numbers, not a draft.",
+          "why_it_qualifies": "Sole-recipient ask from the CEO, unanswered. The deadline is implicit but resolvable: Marcus's own Jun 30 note to Angela puts the board deck on Aug 27.",
+          "counterparty": "elaine.ford@vireohealth.com",
+          "due_date": "2026-08-27",
+          "due_basis": "implicit",
+          "days_open": 2,
+          "consequence": "high",
+          "tricky_tags": [
+            "implicit_deadline"
+          ]
+        },
+        {
+          "item_id": "hr-q3-03",
+          "rank": 5,
+          "tier": "must_include",
+          "claim": "Elaine asked Marcus on Jul 27 to reopen the phlebotomist requisition and tell Tim the final approved req count is 6; sixteen days on there is no reply and no message to Tim.",
+          "thread_id": "d60f18c2e4b60006",
+          "anchor_message_id": "d60f18c2e4b60008",
+          "message_ids": [
+            "d60f18c2e4b60006",
+            "d60f18c2e4b60007",
+            "d60f18c2e4b60008"
+          ],
+          "evidence_quote": "Can you get the phlebotomist req reopened and let Tim know the final number is 6?",
+          "why_it_qualifies": "Direct CEO request, last move in the thread, still open — and the number to act on is 6, the compromise that superseded both 8 and 5. Tim is holding warm candidates in the meantime.",
+          "counterparty": "elaine.ford@vireohealth.com",
+          "due_date": "2026-07-29",
+          "due_basis": "explicit",
+          "days_open": 16,
+          "consequence": "high",
+          "tricky_tags": [
+            "shifting_number"
+          ]
+        },
+        {
+          "item_id": "hr-q3-04",
+          "rank": 2,
+          "tier": "must_include",
+          "claim": "Angela Nwosu is blocked on Marcus's confirmation of the SBC cost-share numbers — sent Jun 29, resent Jul 1 after no answer — and the packet is due to be finalized Aug 14.",
+          "thread_id": "d60f18c2e4b60033",
+          "anchor_message_id": "d60f18c2e4b60034",
+          "message_ids": [
+            "d60f18c2e4b60033",
+            "d60f18c2e4b60034"
+          ],
+          "evidence_quote": "Haven't heard back and want to make sure it didn't get caught in a filter with the attachment.",
+          "why_it_qualifies": "Longest-standing external block with proof the requester still considers it open. One item, not two — the resend raises urgency rather than creating a second obligation.",
+          "counterparty": "angela.nwosu@keystonebenefits.com",
+          "due_date": "2026-08-14",
+          "due_basis": "explicit",
+          "days_open": 44,
+          "consequence": "high",
+          "tricky_tags": [
+            "duplicate_resend"
+          ]
+        },
+        {
+          "item_id": "hr-q3-05",
+          "rank": 3,
+          "tier": "must_include",
+          "claim": "Doug Feinstein has been waiting since Jun 25 — and bumped it on Jul 20 — for fifteen minutes with Marcus on Priscilla's request for three weeks off in September, which he won't sign off until staffing coverage is settled.",
+          "thread_id": "d60f18c2e4b60047",
+          "anchor_message_id": "d60f18c2e4b60048",
+          "message_ids": [
+            "d60f18c2e4b60047",
+            "d60f18c2e4b60048"
+          ],
+          "evidence_quote": "Bumping this — still want to grab 15 min on Priscilla's September PTO before it's a scheduling headache.",
+          "why_it_qualifies": "Sole-recipient ask, bumped once, 48 days blocked, and the window it protects (September nursing coverage) is now close enough that the answer stops being free.",
+          "counterparty": "doug.feinstein@vireohealth.com",
+          "due_date": null,
+          "due_basis": "none",
+          "days_open": 48,
+          "consequence": "medium",
+          "tricky_tags": []
+        },
+        {
+          "item_id": "hr-q3-06",
+          "rank": 4,
+          "tier": "must_include",
+          "claim": "Farida Bashir is waiting on Marcus's sign-off on the I-9 remediation process changes and a confirmed point of contact for the two live reverification cases; the response package is now due Aug 22.",
+          "thread_id": "d60f18c2e4b60035",
+          "anchor_message_id": "d60f18c2e4b60036",
+          "message_ids": [
+            "d60f18c2e4b60035",
+            "d60f18c2e4b60036"
+          ],
+          "evidence_quote": "Correction — outside counsel got us a one-week extension. New deadline is August 22, not the 15th.",
+          "why_it_qualifies": "Named, individual ask from the compliance officer that no later message answers; she cannot finish the committee package without the process language and the contact. Cite Aug 22, not the original Aug 15.",
+          "counterparty": "farida.bashir@vireohealth.com",
+          "due_date": "2026-08-22",
+          "due_basis": "explicit",
+          "days_open": 26,
+          "consequence": "high",
+          "tricky_tags": [
+            "deadline_moved"
+          ]
+        },
+        {
+          "item_id": "hr-q3-07",
+          "rank": 9,
+          "tier": "acceptable",
+          "claim": "Priscilla Nam's new Clinical Nurse Educator requisition is sitting in Marcus's Workday queue for approval by Aug 13, with a Sept 14 target start.",
+          "thread_id": "d40f18c2e4b60030",
+          "anchor_message_id": "d40f18c2e4b60030",
+          "message_ids": [
+            "d40f18c2e4b60030"
+          ],
+          "evidence_quote": "Position: Clinical Nurse Educator (new headcount, not a backfill)",
+          "why_it_qualifies": "Approval workflow acting for a specific, identifiable requester with Marcus as the designated approver and a stated date — a system standing in for Priscilla, not an automated nag.",
+          "counterparty": "priscilla.nam@vireohealth.com",
+          "due_date": "2026-08-13",
+          "due_basis": "explicit",
+          "days_open": 6,
+          "consequence": "medium",
+          "tricky_tags": []
+        },
+        {
+          "item_id": "hr-q3-08",
+          "rank": 8,
+          "tier": "acceptable",
+          "claim": "Doug's merit-increase submission for Priscilla Nam routes to Marcus as second approver; it was due Jul 31, its effective date of Aug 1 has passed, and Finance has already cleared the budget.",
+          "thread_id": "d40f18c2e4b60029",
+          "anchor_message_id": "d40f18c2e4b60029",
+          "message_ids": [
+            "d40f18c2e4b60029"
+          ],
+          "evidence_quote": "This request routes to you as second approver after Doug. Finance has already signed off on budget availability.",
+          "why_it_qualifies": "Marcus is the only remaining approver, the requester is named, and both Doug and Priscilla are waiting — twelve days past due with nothing else blocking it.",
+          "counterparty": "doug.feinstein@vireohealth.com",
+          "due_date": "2026-07-31",
+          "due_basis": "explicit",
+          "days_open": 19,
+          "consequence": "high",
+          "tricky_tags": []
+        },
+        {
+          "item_id": "hr-q3-09",
+          "rank": 10,
+          "tier": "acceptable",
+          "claim": "Jenna Wu's request for five days of PTO (Aug 24-28) needs Marcus's approval by Aug 14.",
+          "thread_id": "d40f18c2e4b60031",
+          "anchor_message_id": "d40f18c2e4b60031",
+          "message_ids": [
+            "d40f18c2e4b60031"
+          ],
+          "evidence_quote": "Jenna Wu requested 5 days PTO (Aug 24-28, 2026). Approve or deny in Workday.",
+          "why_it_qualifies": "Named individual waiting on a decision only Marcus can make, with a date this week — low stakes but genuinely blocked, and her leave overlaps the Aug 24 differential go-live.",
+          "counterparty": "jenna.wu@vireohealth.com",
+          "due_date": "2026-08-14",
+          "due_basis": "explicit",
+          "days_open": 5,
+          "consequence": "low",
+          "tricky_tags": []
+        },
+        {
+          "item_id": "hr-q3-10",
+          "rank": 11,
+          "tier": "borderline",
+          "claim": "Doug's $1,240.55 conference-travel expense report has been awaiting Marcus's Workday approval since Jul 17, past its Jul 20 due date.",
+          "thread_id": "d40f18c2e4b60028",
+          "anchor_message_id": "d40f18c2e4b60028",
+          "message_ids": [
+            "d40f18c2e4b60028"
+          ],
+          "evidence_quote": "Doug Feinstein submitted an expense report for $1,240.55 (conference travel). Approve or deny in Workday.",
+          "why_it_qualifies": "Genuinely open and genuinely Marcus's, but small enough that reasonable systems drop it from a nine-item guilt list; included as borderline rather than scored.",
+          "counterparty": "doug.feinstein@vireohealth.com",
+          "due_date": "2026-07-20",
+          "due_basis": "explicit",
+          "days_open": 26,
+          "consequence": "low",
+          "tricky_tags": []
+        },
+        {
+          "item_id": "hr-q3-11",
+          "rank": 12,
+          "tier": "borderline",
+          "claim": "Elaine's Aug 11 override on the VP Clinical Operations (West) hire leaves the conversation with Anthony Vogel unassigned; Marcus's reply to her exists only as an unsent draft.",
+          "thread_id": "d20f18c2e4b60001",
+          "anchor_message_id": "d20f18c2e4b60010",
+          "message_ids": [
+            "d20f18c2e4b60010",
+            "d50f18c2e4b60049"
+          ],
+          "evidence_quote": "And someone needs to have the Anthony conversation before he hears about the offer secondhand.",
+          "why_it_qualifies": "Borderline on purpose: Elaine directed the offer action at Tim and left the Anthony conversation to 'someone', so ownership is not textually pinned to Marcus — but he is Head of People and has drafted a response, so a system putting it here is not wrong.",
+          "counterparty": "elaine.ford@vireohealth.com",
+          "due_date": "2026-08-12",
+          "due_basis": "implicit",
+          "days_open": 1,
+          "consequence": "high",
+          "tricky_tags": [
+            "long_thread"
+          ]
+        },
+        {
+          "item_id": "hr-q3-12",
+          "rank": 1,
+          "tier": "must_include",
+          "claim": "Josh Lieberman is blocked on the two weeks of shift logs he asked Marcus to have Renata pull for the Ridley complaint response letter — requested Jul 20 for Wednesday, chased Jul 23 from his Vireo address, never answered, and the Jul 24 response-letter target has passed.",
+          "thread_id": "d60f18c2e4b60003",
+          "anchor_message_id": "d60f18c2e4b60003",
+          "message_ids": [
+            "d60f18c2e4b60002",
+            "d60f18c2e4b60003"
+          ],
+          "evidence_quote": "Marcus — did Renata get a chance to pull those shift logs? Wednesday's come and gone and I want to finalize the draft this weekend so we're not scrambling before the 24th.",
+          "why_it_qualifies": "Outside counsel, named directly, chased once, and the deadline the records feed has already gone by with no reply in the mailbox. Merge the two addresses — jlieberman@bramwell-law.com and josh.lieberman@vireohealth.com are one person and one queue, and the Wednesday deadline was set only in the first.",
+          "counterparty": "jlieberman@bramwell-law.com",
+          "due_date": "2026-07-22",
+          "due_basis": "implicit",
+          "days_open": 23,
+          "consequence": "high",
+          "tricky_tags": [
+            "same_person_two_addresses"
+          ]
+        },
+        {
+          "item_id": "hr-q3-13",
+          "rank": 13,
+          "tier": "borderline",
+          "claim": "Renata asked Marcus on Jul 6 to sign Section 2 of the I-9 for a new hire starting that Monday; no reply exists in the mailbox.",
+          "thread_id": "d60f18c2e4b60049",
+          "anchor_message_id": "d60f18c2e4b60049",
+          "message_ids": [
+            "d60f18c2e4b60049"
+          ],
+          "evidence_quote": "Can you sign the I-9 for the new hire starting Monday? Section 2's ready whenever you have a sec.",
+          "why_it_qualifies": "Genuinely a direct unanswered ask with a three-business-day statutory clock, but five weeks of subsequent I-9 remediation work makes it plausible this was handled in person and simply never acknowledged by email — defensible either way, so unscored.",
+          "counterparty": "renata.vlasov@vireohealth.com",
+          "due_date": "2026-07-09",
+          "due_basis": "implicit",
+          "days_open": 37,
+          "consequence": "medium",
+          "tricky_tags": []
+        }
+      ],
+      "must_not_include": [
+        {
+          "message_id": "d60f18c2e4b60045",
+          "subject": "Offer letter templates — status?",
+          "why_excluded": "Claudia's 'he said he'd handle it' points at either Tim or Omar and the text cannot resolve which. Ownership is unresolvable, and it is not Marcus's — this belongs in cracks, not the guilt list.",
+          "trap": "ambiguous_pronoun_owner"
+        },
+        {
+          "message_id": "d60f18c2e4b60009",
+          "subject": "Badge photos for Thursday's orientation",
+          "why_excluded": "Six recipients, nobody named, and Claudia claimed it three hours later. Nobody is waiting on Marcus.",
+          "trap": "diffused_group_ask"
+        },
+        {
+          "message_id": "d60f18c2e4b60001",
+          "subject": "Fwd: Onboarding schedule for the two new ICU nurses",
+          "why_excluded": "FYI forward — 'no action needed on your end'. The second-person ask in the quoted block is Priscilla to Claudia about Renata.",
+          "trap": "forwarded_task_not_users"
+        },
+        {
+          "message_id": "d40f18c2e4b60039",
+          "subject": "Please DocuSign: Offer Letter -- Maria Chen, Senior RN Case Manager",
+          "why_excluded": "The envelope was completed by all parties on Aug 6, so the signature workflow is closed. What remains live on Maria Chen is the Checkr adverse-action review, which is a different obligation.",
+          "trap": "already-completed"
+        },
+        {
+          "message_id": "d50f18c2e4b60009",
+          "subject": "Unit 4B matter — status check",
+          "why_excluded": "Josh asked for a status and a time to connect on Aug 7; Marcus answered the same day and asked Josh to send windows. The ball is on Josh's side of the net.",
+          "trap": "already-answered"
+        },
+        {
+          "message_id": "d60f18c2e4b60032",
+          "subject": "Action Required: Confirm Your 2026 Benefits Enrollment",
+          "why_excluded": "Demands a response within 48 hours but the sender is vireohealth-benefits.com, not vireohealth.com. A fraudulent requester is nobody legitimately waiting.",
+          "trap": "lookalike_domain"
+        },
+        {
+          "message_id": "d20f18c2e4b60015",
+          "subject": "Re: Night/weekend shift differential — proposal",
+          "why_excluded": "Priscilla's Jul 15 bump was answered: Marcus approved the FTE+PRN scope on Jul 16 and confirmed it final on Aug 10 at $3.25 nights / $2.00 weekends effective the 8/24 pay period.",
+          "trap": "already-answered"
+        }
+      ],
+      "curator_notes": "Ranked by how long each requester has been blocked, weighted by who they are and any stated date — which puts Angela (44 days, resent) and Doug (48 days, bumped) above two-day-old CEO asks, per the Raj-over-Wendy principle. Workday approval workflows are included because a named human sits behind each one; Greenhouse and Lattice reminder mail is not. Josh's Aug 7 status check is excluded because Marcus answered it the same day — a common false positive. Marcus's genuinely open obligations to Josh live in Q2 (the New Mexico meal-break section) and Q6 (the Aug 5 review request that hit his out-of-office). Josh Lieberman's two addresses are merged into one requester and one queue; the Wednesday deadline exists only in the Bramwell-address message, so a system that splits the identity loses the date. Renata's Jul 6 I-9 signature request is left borderline: it is textually unanswered, but the later remediation work makes silent in-person completion plausible."
+    },
+    "q4_waiting_on_others": {
+      "question": "What am I waiting on someone else for?",
+      "prose_answer": "Ten chases. Farida owes you the redline shift-differential language she promised 'by Monday' on Jul 20 — nothing goes out to staff without it and the new rates hit the Aug 24 pay period. Priscilla still hasn't sent her unit leads' input on the retention survey questions; you asked Jul 16 and bumped Jul 23. Angela owes two things: confirmation the SBC packet still holds for Aug 14 (your Aug 5 check-in only reached her auto-responder, and she came back Aug 10 without answering it) and the full plan comparison sheet she said was coming this week. Claudia owes the raw July exit-interview notes you asked for Jul 14 — which is what's blocking your summary to Doug — plus weekly Unit 4B updates and the Aug 21 findings memo. Also outstanding: Jenna's merit worksheet template, Tim's read on time-to-fill, and Rich on the Summit fee questions.",
+      "ranked": [
+        "hr-q4-03",
+        "hr-q4-02",
+        "hr-q4-04",
+        "hr-q4-01",
+        "hr-q4-09",
+        "hr-q4-05",
+        "hr-q4-10",
+        "hr-q4-07",
+        "hr-q4-08",
+        "hr-q4-06"
+      ],
+      "items": [
+        {
+          "item_id": "hr-q4-01",
+          "rank": 4,
+          "tier": "must_include",
+          "claim": "Angela Nwosu said on Aug 10 that the full plan comparison sheet is coming 'next week' once the carrier finalizes the summary of benefits; no attachment has arrived and the benefits fair materials depend on it.",
+          "thread_id": "d20f18c2e4b60046",
+          "anchor_message_id": "d20f18c2e4b60050",
+          "message_ids": [
+            "d20f18c2e4b60046",
+            "d20f18c2e4b60049",
+            "d20f18c2e4b60050"
+          ],
+          "evidence_quote": "Full plan comparison sheet is coming next week once the carrier finalizes the summary of benefits document",
+          "why_it_qualifies": "Explicit promise made to Marcus with no delivery yet — a promised attachment inside its open window. Track it; the headline rates arrived but the document employees actually get did not.",
+          "counterparty": "angela.nwosu@keystonebenefits.com",
+          "due_date": "2026-08-17",
+          "due_basis": "implicit",
+          "days_open": 2,
+          "consequence": "medium",
+          "tricky_tags": [
+            "promised_attachment"
+          ]
+        },
+        {
+          "item_id": "hr-q4-02",
+          "rank": 2,
+          "tier": "must_include",
+          "claim": "Priscilla Nam has not sent her unit leads' input on the nurse retention survey questions — requested Jul 16 for that Friday, chased again Jul 23 — and the survey is still not in the field.",
+          "thread_id": "d50f18c2e4b60013",
+          "anchor_message_id": "d50f18c2e4b60014",
+          "message_ids": [
+            "d50f18c2e4b60013",
+            "d50f18c2e4b60014"
+          ],
+          "evidence_quote": "Following up — still need this. Even rough notes are fine, I just don't want to hold the survey another week.",
+          "why_it_qualifies": "Owner asked, chased once, no response of any kind. It gates the diagnostic data Marcus told Elaine on Aug 5 he expects by mid-August, and behind that the Q4 budget ask.",
+          "counterparty": "priscilla.nam@vireohealth.com",
+          "due_date": "2026-07-17",
+          "due_basis": "explicit",
+          "days_open": 27,
+          "consequence": "high",
+          "tricky_tags": []
+        },
+        {
+          "item_id": "hr-q4-03",
+          "rank": 1,
+          "tier": "must_include",
+          "claim": "Farida Bashir promised on Jul 20 to send Marcus redline shift-differential language for the multi-state handbook addendum 'by Monday'; it has not arrived, and she flagged it as required before the new differential is communicated externally.",
+          "thread_id": "d20f18c2e4b60011",
+          "anchor_message_id": "d20f18c2e4b60017",
+          "message_ids": [
+            "d20f18c2e4b60016",
+            "d20f18c2e4b60017",
+            "d20f18c2e4b60019"
+          ],
+          "evidence_quote": "I'll have redline language to Marcus by Monday.",
+          "why_it_qualifies": "Inbound promise to the owner, 16 days past its date, and it is the last gate on announcing a rate change Marcus approved as final on Aug 10 that goes live in the Aug 24 pay period. Highest dependency criticality in the chase list.",
+          "counterparty": "farida.bashir@vireohealth.com",
+          "due_date": "2026-07-27",
+          "due_basis": "implicit",
+          "days_open": 23,
+          "consequence": "high",
+          "tricky_tags": []
+        },
+        {
+          "item_id": "hr-q4-04",
+          "rank": 3,
+          "tier": "must_include",
+          "claim": "Marcus's Aug 5 question to Angela — is the draft SBC packet still on track for the 14th — reached only her out-of-office; she returned Aug 10 and wrote about renewal rates without ever answering it.",
+          "thread_id": "d60f18c2e4b60012",
+          "anchor_message_id": "d60f18c2e4b60013",
+          "message_ids": [
+            "d60f18c2e4b60012",
+            "d60f18c2e4b60013"
+          ],
+          "evidence_quote": "I'm out of the office through August 10 with limited email access.",
+          "why_it_qualifies": "An auto-reply is not a human response, so the thread is still unanswered. The wait now has a floor (she was dark until Aug 10) and a workaround (her colleague Marta Diaz) — and the date in question is two days away.",
+          "counterparty": "angela.nwosu@keystonebenefits.com",
+          "due_date": "2026-08-14",
+          "due_basis": "explicit",
+          "days_open": 7,
+          "consequence": "high",
+          "tricky_tags": [
+            "out_of_office"
+          ]
+        },
+        {
+          "item_id": "hr-q4-05",
+          "rank": 6,
+          "tier": "must_include",
+          "claim": "Claudia Reyes never sent the raw July exit-interview notes Marcus asked for on Jul 14, which is the input behind the theme summary he owes Doug.",
+          "thread_id": "d50f18c2e4b60027",
+          "anchor_message_id": "d50f18c2e4b60027",
+          "message_ids": [
+            "d50f18c2e4b60027"
+          ],
+          "evidence_quote": "can you send me your raw notes from the July exit interviews when you get a chance?",
+          "why_it_qualifies": "Directed ask with no responsive reply in 29 days, and it sits directly under one of Marcus's own overdue promises — one edge in each direction on the same obligation.",
+          "counterparty": "claudia.reyes@vireohealth.com",
+          "due_date": null,
+          "due_basis": "none",
+          "days_open": 29,
+          "consequence": "medium",
+          "tricky_tags": []
+        },
+        {
+          "item_id": "hr-q4-06",
+          "rank": 10,
+          "tier": "acceptable",
+          "claim": "Rich Delacroix owes answers on the Summit fee arrangements — the revised Q3 contingency structure Marcus raised Jul 13 and the Jul 20 question about how the placement fee on a $205K base should be coded, which landed in his out-of-office and was never re-sent after his Jul 27 return.",
+          "thread_id": "d40f18c2e4b60047",
+          "anchor_message_id": "d40f18c2e4b60048",
+          "message_ids": [
+            "d60f18c2e4b60042",
+            "d40f18c2e4b60047",
+            "d40f18c2e4b60048"
+          ],
+          "evidence_quote": "I'm attending the SHRM Talent Conference in Nashville and will have limited email access through Monday, July 27.",
+          "why_it_qualifies": "Two unanswered money questions to the same vendor; the auto-reply gave a return date and a delegate (Kim Alsup) and nothing was re-sent, so the wait has quietly stalled rather than progressed.",
+          "counterparty": "rich@summitexecsearch.com",
+          "due_date": null,
+          "due_basis": "none",
+          "days_open": 30,
+          "consequence": "medium",
+          "tricky_tags": [
+            "out_of_office"
+          ]
+        },
+        {
+          "item_id": "hr-q4-07",
+          "rank": 8,
+          "tier": "acceptable",
+          "claim": "Jenna Wu has not delivered the payroll-system-ready merit worksheet template Marcus asked for on Jul 21 'by next week', which Doug and Priscilla need for their merit conversations.",
+          "thread_id": "d50f18c2e4b60032",
+          "anchor_message_id": "d50f18c2e4b60032",
+          "message_ids": [
+            "d50f18c2e4b60032"
+          ],
+          "evidence_quote": "Can you get me the payroll-system-ready worksheet template by next week so Doug and Priscilla aren't starting from a blank spreadsheet?",
+          "why_it_qualifies": "Directed request with a stated window that passed three weeks ago and no reply; it compounds Marcus's own late merit guidance to the same two managers.",
+          "counterparty": "jenna.wu@vireohealth.com",
+          "due_date": "2026-07-27",
+          "due_basis": "implicit",
+          "days_open": 22,
+          "consequence": "medium",
+          "tricky_tags": []
+        },
+        {
+          "item_id": "hr-q4-08",
+          "rank": 9,
+          "tier": "acceptable",
+          "claim": "Tim Osei owes Marcus a read on whether the 46-day average time-to-fill across 14 open clinical reqs is a sourcing problem or a hiring-manager-responsiveness problem, asked Jul 31 and needed for the board deck.",
+          "thread_id": "d50f18c2e4b60040",
+          "anchor_message_id": "d50f18c2e4b60040",
+          "message_ids": [
+            "d50f18c2e4b60040"
+          ],
+          "evidence_quote": "Want your read on whether that's a sourcing problem or a hiring-manager-responsiveness problem before I put a number in the board deck",
+          "why_it_qualifies": "Explicit ask with no reply, and it feeds the Aug 27 board materials Elaine is also waiting on — the dependency is what raises it above a routine nudge.",
+          "counterparty": "tim.osei@vireohealth.com",
+          "due_date": "2026-08-27",
+          "due_basis": "implicit",
+          "days_open": 12,
+          "consequence": "medium",
+          "tricky_tags": []
+        },
+        {
+          "item_id": "hr-q4-09",
+          "rank": 5,
+          "tier": "acceptable",
+          "claim": "Claudia committed to weekly Unit 4B status updates and a findings memo to Marcus and Elaine by Aug 21; Marcus signed off on the plan Aug 5 and no status update has come back since.",
+          "thread_id": "d10f18c2e4b60030",
+          "anchor_message_id": "d10f18c2e4b60030",
+          "message_ids": [
+            "d10f18c2e4b60030",
+            "d10f18c2e4b60031",
+            "d10f18c2e4b60032"
+          ],
+          "evidence_quote": "I'm targeting a findings memo and recommendation to you and Elaine by August 21.",
+          "why_it_qualifies": "A promise made to the owner with a date inside the horizon, on the most sensitive matter open. Marcus explicitly held calendar time for updates that have not materialised.",
+          "counterparty": "claudia.reyes@vireohealth.com",
+          "due_date": "2026-08-21",
+          "due_basis": "explicit",
+          "days_open": 7,
+          "consequence": "high",
+          "tricky_tags": []
+        },
+        {
+          "item_id": "hr-q4-10",
+          "rank": 7,
+          "tier": "acceptable",
+          "claim": "Angela was asked on Jun 19 to market the medical plan to other carriers and come back with a marketed comparison by the second week of July; the Aug 10 message delivered final renewal numbers but no competing quotes.",
+          "thread_id": "d50f18c2e4b60003",
+          "anchor_message_id": "d50f18c2e4b60004",
+          "message_ids": [
+            "d50f18c2e4b60003",
+            "d50f18c2e4b60004",
+            "d50f18c2e4b60033"
+          ],
+          "evidence_quote": "If you can get me a marketed comparison and a revised number by the second week of July, I'll take it to Elaine before we lock anything for open enrollment.",
+          "why_it_qualifies": "The revised number finally landed Aug 10, but the leverage half of the ask — quotes from other carriers — never did, and Marcus told Elaine on Aug 5 he was still expecting the remarketing outcome.",
+          "counterparty": "angela.nwosu@keystonebenefits.com",
+          "due_date": "2026-07-10",
+          "due_basis": "implicit",
+          "days_open": 54,
+          "consequence": "medium",
+          "tricky_tags": []
+        },
+        {
+          "item_id": "hr-q4-11",
+          "rank": 11,
+          "tier": "borderline",
+          "claim": "Omar Haddix never confirmed that the New Mexico worksite and tax-jurisdiction configuration was completed in Workday, although Marcus gave him the final effective date and address on Jun 30 and the Albuquerque office opened Aug 3.",
+          "thread_id": "d10f18c2e4b60007",
+          "anchor_message_id": "d10f18c2e4b60008",
+          "message_ids": [
+            "d10f18c2e4b60007",
+            "d10f18c2e4b60008"
+          ],
+          "evidence_quote": "Effective date is August 1. Worksite address is 4820 Osuna Rd NE, Suite 210, Albuquerque, NM 87109 — that's final.",
+          "why_it_qualifies": "Borderline: Omar warned payroll would not run clean until this was configured and never confirmed completion, but no later message shows a payroll failure either, so silence may simply mean it was done.",
+          "counterparty": "omar.haddix@vireohealth.com",
+          "due_date": null,
+          "due_basis": "none",
+          "days_open": 43,
+          "consequence": "medium",
+          "tricky_tags": []
+        }
+      ],
+      "must_not_include": [
+        {
+          "message_id": "d20f18c2e4b60032",
+          "subject": "Re: Regional Nurse Manager offer — Danielle Ruiz countered",
+          "why_excluded": "The condition resolved and the obligation closed: Tim confirmed on Jul 17 that Lena cleared the sign-on pool, and Danielle accepted the $7,500 / 3-week PTO / Aug 3 package on Jul 20.",
+          "trap": "conditional_promise"
+        },
+        {
+          "message_id": "d50f18c2e4b60012",
+          "subject": "Re: E-Verify check — the two flagged I-9 files (VH-1290, VH-1187)",
+          "why_excluded": "Marcus's bump to Omar was answered — he pulled the case records and Marcus reported both files clean to Farida on Aug 6 with the crosscheck attached. Nothing outstanding.",
+          "trap": "delivered_attachment"
+        },
+        {
+          "message_id": "d50f18c2e4b60039",
+          "subject": "Tomorrow at 2? -- Unit 4B",
+          "why_excluded": "Looks like an unanswered scheduling ask, but Marcus's Aug 11 draft refers to holding the summary 'until after tomorrow's call' — the call was confirmed off-thread.",
+          "trap": "already-answered"
+        },
+        {
+          "message_id": "d10f18c2e4b60011",
+          "subject": "Sequoia One PEO renewal — signed",
+          "why_excluded": "Priya promised the executed MSA and W-9 to Jenna, not to Marcus. No directed expectation of his, so it is not his wait to track.",
+          "trap": "not-owners-wait"
+        },
+        {
+          "message_id": "d60f18c2e4b60038",
+          "subject": "Re: Signing bonus for the ICU nurse practitioner req",
+          "why_excluded": "The $5,000 signing bonus was retracted, not delayed. A cancelled commitment leaves the chase list entirely and becomes a Q5 change.",
+          "trap": "cancelled_commitment"
+        },
+        {
+          "message_id": "d60f18c2e4b60001",
+          "subject": "Fwd: Onboarding schedule for the two new ICU nurses",
+          "why_excluded": "Renata owes Priscilla the onboarding schedule; Marcus was copied for awareness with 'no action needed'. He is not the creditor here.",
+          "trap": "forwarded_task_not_users"
+        }
+      ],
+      "curator_notes": "Two out-of-office cases sit here rather than being read as answers: Angela (Aug 5-10, delegate Marta Diaz) and Rich (Jul 20-27, delegate Kim Alsup). In both the auto-reply set a floor on the wait and neither ask was re-sent after the return date. The Q4 renewal item is deliberately narrowed: Angela's Aug 10 message did deliver a revised renewal number, so only the marketed carrier comparison remains outstanding — claiming the whole thing is open would be wrong. Josh's call scheduling looks unanswered but Marcus's own Aug 11 draft shows the Aug 12 call was confirmed, so it is a distractor rather than an item."
+    },
+    "q5_what_changed": {
+      "question": "What changed?",
+      "prose_answer": "Several things you probably still believe are wrong. Elaine reversed the committee twice this month: on Aug 10 the VP Clinical Ops pick moved from Dr. Castellano to Michael Tran after references, and on Aug 11 she overrode the 3-of-4 vote for Anthony Vogel and is extending the West offer to Dr. Castillo. The approved req count is 6, not the 8 she gave you Jul 16 or the 5 the CFO cut it to Jul 20. Farida's I-9 response package is due Aug 22, not Aug 15. The medical renewal is not +14% — final numbers came Aug 10 at PPO +4.2% family, +3.1% employee-only, HSA flat with the deductible moving $3,200 to $3,400. The $5,000 ICU NP signing bonus was withdrawn Jul 16. Shift differential is now final: $3.25 nights, $2.00 weekends, effective the Aug 24 pay period.",
+      "ranked": [
+        "hr-q5-04",
+        "hr-q5-03",
+        "hr-q5-06",
+        "hr-q5-09",
+        "hr-q5-07",
+        "hr-q5-02",
+        "hr-q5-01",
+        "hr-q5-05",
+        "hr-q5-12",
+        "hr-q5-08",
+        "hr-q5-10"
+      ],
+      "items": [
+        {
+          "item_id": "hr-q5-01",
+          "rank": 7,
+          "tier": "must_include",
+          "claim": "The number of frozen requisitions Marcus is cleared to post for the August hiring push is 6 — Elaine said 8 on Jul 16, the CFO cut it to 5 on Jul 20, and the compromise landed at 6 on Jul 27 with the phlebotomist role added back and the two clinical support reqs still frozen until Q4.",
+          "thread_id": "d60f18c2e4b60006",
+          "anchor_message_id": "d60f18c2e4b60008",
+          "message_ids": [
+            "d60f18c2e4b60006",
+            "d60f18c2e4b60007",
+            "d60f18c2e4b60008"
+          ],
+          "evidence_quote": "Compromise: we land at 6 — he agreed to add back the phlebotomist role since Tim already has someone ready to sign, but the two clinical support reqs stay frozen until Q4 as planned.",
+          "why_it_qualifies": "A three-step superseding chain over eleven days. Both earlier figures are still sitting in the inbox and either would be wrong to act on; the stale belief is still operative because Marcus has not yet told Tim the final number.",
+          "counterparty": "elaine.ford@vireohealth.com",
+          "due_date": null,
+          "due_basis": "none",
+          "days_open": 27,
+          "consequence": "high",
+          "tricky_tags": [
+            "shifting_number"
+          ],
+          "changed_field": "Approved open req count for the August hiring push",
+          "previous_value": "8 reqs (Jul 16), then capped at 5 (Jul 20)",
+          "current_value": "6 reqs, phlebotomist reopened, two clinical support reqs frozen to Q4",
+          "from_message_id": "d60f18c2e4b60006",
+          "to_message_id": "d60f18c2e4b60008"
+        },
+        {
+          "item_id": "hr-q5-02",
+          "rank": 6,
+          "tier": "must_include",
+          "claim": "The I-9 audit response package is due to the compliance committee on Aug 22, not the Aug 15 date Farida first gave on Jul 17 — outside counsel secured a one-week extension.",
+          "thread_id": "d60f18c2e4b60035",
+          "anchor_message_id": "d60f18c2e4b60036",
+          "message_ids": [
+            "d60f18c2e4b60035",
+            "d60f18c2e4b60036"
+          ],
+          "evidence_quote": "Correction — outside counsel got us a one-week extension. New deadline is August 22, not the 15th.",
+          "why_it_qualifies": "A moved date on a regulator-facing deliverable. It re-ranks the Q1 list in the opposite direction to the usual trap — the work got a week of breathing room, and a system still driving to Aug 15 will misprioritise the week.",
+          "counterparty": "farida.bashir@vireohealth.com",
+          "due_date": "2026-08-22",
+          "due_basis": "explicit",
+          "days_open": 26,
+          "consequence": "high",
+          "tricky_tags": [
+            "deadline_moved"
+          ],
+          "changed_field": "I-9 audit response package deadline",
+          "previous_value": "August 15, 2026",
+          "current_value": "August 22, 2026",
+          "from_message_id": "d60f18c2e4b60035",
+          "to_message_id": "d60f18c2e4b60036"
+        },
+        {
+          "item_id": "hr-q5-03",
+          "rank": 2,
+          "tier": "must_include",
+          "claim": "The VP Clinical Ops finalist is Michael Tran, not Dr. Renee Castellano — the group converged on Castellano on Jul 29 with an Aug 7 offer target, then two independent references described a pattern of departures on her team and Elaine landed on Tran on Aug 10.",
+          "thread_id": "d60f18c2e4b60014",
+          "anchor_message_id": "d60f18c2e4b60022",
+          "message_ids": [
+            "d60f18c2e4b60018",
+            "d60f18c2e4b60019",
+            "d60f18c2e4b60021",
+            "d60f18c2e4b60022"
+          ],
+          "evidence_quote": "So: let's go with Tran.",
+          "why_it_qualifies": "A decision reached at the end of a long thread that contradicts what was agreed in the middle. Anyone acting on the Jul 29 consensus would extend an offer to the wrong candidate.",
+          "counterparty": "elaine.ford@vireohealth.com",
+          "due_date": null,
+          "due_basis": "none",
+          "days_open": 2,
+          "consequence": "high",
+          "tricky_tags": [
+            "long_thread"
+          ],
+          "changed_field": "VP Clinical Ops selected candidate",
+          "previous_value": "Dr. Renee Castellano, offer targeted for Aug 7",
+          "current_value": "Michael Tran, offer to be prepped for the week of Aug 17",
+          "from_message_id": "d60f18c2e4b60018",
+          "to_message_id": "d60f18c2e4b60022"
+        },
+        {
+          "item_id": "hr-q5-04",
+          "rank": 1,
+          "tier": "must_include",
+          "claim": "On the VP Clinical Operations (West) search, Elaine overrode the hiring committee on Aug 11: the 3-of-4 vote for Anthony Vogel that Marcus reported on Aug 4 is no longer the decision, and the offer is going to Dr. Renee Castillo, with a Senior Director role to be discussed with Vogel.",
+          "thread_id": "d20f18c2e4b60001",
+          "anchor_message_id": "d20f18c2e4b60010",
+          "message_ids": [
+            "d20f18c2e4b60005",
+            "d20f18c2e4b60009",
+            "d20f18c2e4b60010"
+          ],
+          "evidence_quote": "I've sat with this for a week and I want to override, and I want to be straight with all of you about why rather than just pull rank.",
+          "why_it_qualifies": "Yesterday's reversal of a decision the group thought was settled, with immediate downstream actions (offer to Castillo, retention conversation with Vogel). The most recent and most consequential stale belief in the mailbox.",
+          "counterparty": "elaine.ford@vireohealth.com",
+          "due_date": null,
+          "due_basis": "none",
+          "days_open": 1,
+          "consequence": "high",
+          "tricky_tags": [
+            "long_thread"
+          ],
+          "changed_field": "VP Clinical Operations (West) hiring decision",
+          "previous_value": "Anthony Vogel — committee vote 3 of 4 on Aug 4",
+          "current_value": "Dr. Renee Castillo — CEO override on Aug 11; Vogel offered a Senior Director path instead",
+          "from_message_id": "d20f18c2e4b60009",
+          "to_message_id": "d20f18c2e4b60010"
+        },
+        {
+          "item_id": "hr-q5-05",
+          "rank": 8,
+          "tier": "must_include",
+          "claim": "The $5,000 signing bonus Marcus told Tim to offer the ICU nurse practitioner candidate on Jul 9 was withdrawn on Jul 16 after comp committee rejected it on precedent grounds; Tim is walking it back with the candidate.",
+          "thread_id": "d60f18c2e4b60037",
+          "anchor_message_id": "d60f18c2e4b60038",
+          "message_ids": [
+            "d60f18c2e4b60037",
+            "d60f18c2e4b60038"
+          ],
+          "evidence_quote": "Tim — bad news, comp committee shot it down this morning. Precedent concern since we didn't offer it to the last two NP hires.",
+          "why_it_qualifies": "A retracted commitment: the change is from 'promised $5,000' to 'not happening'. It must appear here and nowhere else — it is neither a forgotten promise nor an outstanding wait.",
+          "counterparty": "tim.osei@vireohealth.com",
+          "due_date": null,
+          "due_basis": "none",
+          "days_open": 27,
+          "consequence": "medium",
+          "tricky_tags": [
+            "cancelled_commitment"
+          ],
+          "changed_field": "ICU nurse practitioner signing bonus",
+          "previous_value": "$5,000 approved and communicated to the candidate",
+          "current_value": "Withdrawn — comp committee declined on precedent grounds",
+          "from_message_id": "d60f18c2e4b60037",
+          "to_message_id": "d60f18c2e4b60038"
+        },
+        {
+          "item_id": "hr-q5-06",
+          "rank": 3,
+          "tier": "must_include",
+          "claim": "The medical renewal is no longer the +14% Angela flagged on Jun 18: final numbers arrived Aug 10 at PPO +4.2% family / +3.1% employee-only, with the HSA plan flat on premium but its deductible moving from $3,200 to $3,400.",
+          "thread_id": "d20f18c2e4b60046",
+          "anchor_message_id": "d20f18c2e4b60050",
+          "message_ids": [
+            "d50f18c2e4b60003",
+            "d60f18c2e4b60033",
+            "d20f18c2e4b60050"
+          ],
+          "evidence_quote": "PPO premiums are rising 4.2% for the family tier and 3.1% for employee-only; the HSA plan is flat year over year, no premium change, though the deductible is moving from $3,200 to $3,400",
+          "why_it_qualifies": "Large-magnitude figure change two days old, and it also supersedes the $3,200 HSA deductible printed in the draft SBC packet Marcus still owes Angela a review on.",
+          "counterparty": "angela.nwosu@keystonebenefits.com",
+          "due_date": null,
+          "due_basis": "none",
+          "days_open": 2,
+          "consequence": "high",
+          "tricky_tags": [],
+          "changed_field": "Medical plan renewal / HSA deductible",
+          "previous_value": "+14% over current premium (initial carrier quote, Jun 18); HSA deductible $3,200",
+          "current_value": "PPO +4.2% family, +3.1% employee-only; HSA premium flat, deductible $3,400",
+          "from_message_id": "d50f18c2e4b60003",
+          "to_message_id": "d20f18c2e4b60050"
+        },
+        {
+          "item_id": "hr-q5-07",
+          "rank": 5,
+          "tier": "acceptable",
+          "claim": "The VP, Clinical Operations requisition (job #4471) went On Hold on Aug 3 pending FY27 budget re-approval, and Dana Whitfield's onsite — already moved once from Jun 29 to Jul 22 — was cancelled outright.",
+          "thread_id": "d40f18c2e4b60004",
+          "anchor_message_id": "d40f18c2e4b60004",
+          "message_ids": [
+            "d40f18c2e4b60002",
+            "d40f18c2e4b60003",
+            "d40f18c2e4b60004",
+            "d40f18c2e4b60027"
+          ],
+          "evidence_quote": "Finance froze the VP Clin Ops req this morning pending the FY27 budget re-approval -- Sam wants it revisited after the board meeting.",
+          "why_it_qualifies": "A calendar cancellation plus a requisition status flip; the panel all had the afternoon blocked and candidates were told it is a pause, not a pass. The prior belief — an active search with a scheduled onsite — is squarely stale.",
+          "counterparty": "tim.osei@vireohealth.com",
+          "due_date": null,
+          "due_basis": "none",
+          "days_open": 9,
+          "consequence": "medium",
+          "tricky_tags": [],
+          "changed_field": "VP, Clinical Operations requisition status",
+          "previous_value": "Active; onsite panel rescheduled from Jun 29 to Jul 22",
+          "current_value": "On Hold pending FY27 budget re-approval; onsite cancelled",
+          "from_message_id": "d40f18c2e4b60003",
+          "to_message_id": "d40f18c2e4b60004"
+        },
+        {
+          "item_id": "hr-q5-08",
+          "rank": 10,
+          "tier": "acceptable",
+          "claim": "Josh Lieberman now writes from josh.lieberman@vireohealth.com as well as jlieberman@bramwell-law.com — same person, switching addresses depending on whether he is billing Bramwell hours or working under the Vireo contractor engagement.",
+          "thread_id": "d60f18c2e4b60003",
+          "anchor_message_id": "d60f18c2e4b60003",
+          "message_ids": [
+            "d60f18c2e4b60002",
+            "d60f18c2e4b60003"
+          ],
+          "evidence_quote": "Also — using this address since I'm doing the drafting under the Vireo contractor engagement rather than billing Bramwell hours for it. Same me, just wearing the in-house hat today.",
+          "why_it_qualifies": "A small administrative shift that changes how threads connect: his Jul 23 follow-up assumes Marcus remembers a Wednesday deadline set only in the Jul 20 message from the other address. Treat the two as one counsel, one queue.",
+          "counterparty": "jlieberman@bramwell-law.com",
+          "due_date": null,
+          "due_basis": "none",
+          "days_open": 20,
+          "consequence": "low",
+          "tricky_tags": [
+            "same_person_two_addresses"
+          ],
+          "changed_field": "Josh Lieberman's sending address",
+          "previous_value": "jlieberman@bramwell-law.com only",
+          "current_value": "Also josh.lieberman@vireohealth.com for contractor-engagement work",
+          "from_message_id": "d60f18c2e4b60002",
+          "to_message_id": "d60f18c2e4b60003"
+        },
+        {
+          "item_id": "hr-q5-09",
+          "rank": 4,
+          "tier": "acceptable",
+          "claim": "The night/weekend shift differential is settled: $3.25/hr nights (up from $2.10) and a new $2.00/hr weekend differential, covering FTE and PRN staff, effective the Aug 24 pay period with Workday codes tested by Aug 17.",
+          "thread_id": "d20f18c2e4b60011",
+          "anchor_message_id": "d20f18c2e4b60019",
+          "message_ids": [
+            "d20f18c2e4b60011",
+            "d20f18c2e4b60016",
+            "d20f18c2e4b60018",
+            "d20f18c2e4b60019"
+          ],
+          "evidence_quote": "Approved as final — $3.25 nights, $2.00 weekends, FTE+PRN, effective 8/24 pay period.",
+          "why_it_qualifies": "A live proposal became a committed rate change two days ago, with a payroll go-live date and roughly $345K annualised cost. Anyone still describing this as under discussion is a week behind.",
+          "counterparty": "priscilla.nam@vireohealth.com",
+          "due_date": null,
+          "due_basis": "none",
+          "days_open": 2,
+          "consequence": "high",
+          "tricky_tags": [],
+          "changed_field": "Night/weekend shift differential",
+          "previous_value": "$2.10/hr nights, no weekend differential; scope undecided",
+          "current_value": "$3.25/hr nights, $2.00/hr weekends, FTE+PRN, effective the Aug 24 pay period",
+          "from_message_id": "d20f18c2e4b60011",
+          "to_message_id": "d20f18c2e4b60019"
+        },
+        {
+          "item_id": "hr-q5-10",
+          "rank": 11,
+          "tier": "acceptable",
+          "claim": "Voluntary RN turnover is 21.7% annualised as of July, down from the 24.1% May figure Doug was still quoting, though Unit 4B remains an outlier at 31%.",
+          "thread_id": "d50f18c2e4b60001",
+          "anchor_message_id": "d50f18c2e4b60002",
+          "message_ids": [
+            "d50f18c2e4b60001",
+            "d50f18c2e4b60002",
+            "d50f18c2e4b60033"
+          ],
+          "evidence_quote": "July voluntary RN turnover came in at 21.7%, down from 24.1% in May.",
+          "why_it_qualifies": "A superseded figure that Doug carried into a CEO 1:1 and that Marcus repeated to Elaine on Aug 5; small magnitude but it is the headline retention number everyone quotes.",
+          "counterparty": "doug.feinstein@vireohealth.com",
+          "due_date": null,
+          "due_basis": "none",
+          "days_open": 28,
+          "consequence": "medium",
+          "tricky_tags": [],
+          "changed_field": "Voluntary RN turnover (annualised)",
+          "previous_value": "24.1% (May)",
+          "current_value": "21.7% (July); Unit 4B still 31%",
+          "from_message_id": "d50f18c2e4b60001",
+          "to_message_id": "d50f18c2e4b60002"
+        },
+        {
+          "item_id": "hr-q5-11",
+          "rank": 12,
+          "tier": "borderline",
+          "claim": "The all-staff open enrollment webinar moved from the week of Aug 18 to the week of Aug 25 so it would not collide with the nurse retention town hall.",
+          "thread_id": "d60f18c2e4b60023",
+          "anchor_message_id": "d60f18c2e4b60025",
+          "message_ids": [
+            "d60f18c2e4b60023",
+            "d60f18c2e4b60024",
+            "d60f18c2e4b60025"
+          ],
+          "evidence_quote": "Works for me on the 25th.",
+          "why_it_qualifies": "A genuine date change agreed in-thread, but low magnitude and quickly settled — defensible to report or to treat as ordinary thread progress.",
+          "counterparty": "claudia.reyes@vireohealth.com",
+          "due_date": null,
+          "due_basis": "none",
+          "days_open": 28,
+          "consequence": "low",
+          "tricky_tags": [
+            "topic_drift"
+          ],
+          "changed_field": "Open enrollment all-staff webinar timing",
+          "previous_value": "Week of August 18",
+          "current_value": "Week of August 25",
+          "from_message_id": "d60f18c2e4b60023",
+          "to_message_id": "d60f18c2e4b60025"
+        },
+        {
+          "item_id": "hr-q5-12",
+          "rank": 9,
+          "tier": "acceptable",
+          "claim": "Nursing engagement is 68% favorable in the Q3 survey, up 17 points from the 51% spring figure, though nursing is still the lowest department and 16 points behind Corporate/Admin.",
+          "thread_id": "d40f18c2e4b60038",
+          "anchor_message_id": "d40f18c2e4b60038",
+          "message_ids": [
+            "d40f18c2e4b60018",
+            "d40f18c2e4b60038"
+          ],
+          "evidence_quote": "Nursing came in at 68% favorable -- still the lowest of any department, though up 17 points from spring's 51%",
+          "why_it_qualifies": "An automated notification that reveals genuinely new state against a prior in-corpus figure — the spring pulse — and it directly contradicts the pessimistic read Marcus has been carrying into the retention work.",
+          "counterparty": "noreply@cultureamp.com",
+          "due_date": null,
+          "due_basis": "none",
+          "days_open": 8,
+          "consequence": "medium",
+          "tricky_tags": [],
+          "changed_field": "Nursing engagement (favorable)",
+          "previous_value": "51% (spring pulse)",
+          "current_value": "68% (Q3 survey, 91% response rate)",
+          "from_message_id": "d40f18c2e4b60018",
+          "to_message_id": "d40f18c2e4b60038"
+        }
+      ],
+      "must_not_include": [
+        {
+          "message_id": "d60f18c2e4b60034",
+          "subject": "Re: Draft SBC packet for review",
+          "why_excluded": "Identical content to the Jun 29 send with a new timestamp. A duplicate resend changes nothing about the world — it raises urgency on an existing obligation.",
+          "trap": "duplicate_resend"
+        },
+        {
+          "message_id": "d50f18c2e4b60032",
+          "subject": "Comp cycle -- merit pool funding confirmed at 3.2%",
+          "why_excluded": "The merit pool has never moved: 3.2% is stated on Jul 20 and again on Jul 21. The first statement of a figure is a fact, not a change — the number that actually drifted this quarter is the open req count.",
+          "trap": "first-statement-not-change"
+        },
+        {
+          "message_id": "d10f18c2e4b60023",
+          "subject": "Re: Open enrollment kickoff — 2027 plan year",
+          "why_excluded": "Angela committing to deliver SBCs and notices by October 1 is a new commitment, not a revision of anything Marcus previously believed.",
+          "trap": "new-not-changed"
+        },
+        {
+          "message_id": "d60f18c2e4b60011",
+          "subject": "HR Brew: Return-to-office mandates keep backfiring",
+          "why_excluded": "A subscription newsletter describing change in the industry, with full unsubscribe machinery. Nothing here supersedes a belief about Vireo.",
+          "trap": "newsletter_unsubscribe"
+        },
+        {
+          "message_id": "d40f18c2e4b60012",
+          "subject": "Accepted: Benefits Broker Renewal Review @ Tue Jul 14, 10am - 11am (MDT)",
+          "why_excluded": "An RSVP reply at sequence 0 — the meeting neither moved nor cancelled. Attendance status is a fact, not a delta.",
+          "trap": "rsvp-not-change"
+        },
+        {
+          "message_id": "d40f18c2e4b60016",
+          "subject": "Payroll processed: pay period 6/16-6/30",
+          "why_excluded": "Routine automated confirmation restating expected state; no prior belief is corrected.",
+          "trap": "automated-not-human"
+        }
+      ],
+      "curator_notes": "The planted shifting_number case in this mailbox is the open req count (8 -> 5 -> 6), not the merit pool: 3.2% is stated twice and never moves, so it is filed as a distractor. Two separate CEO reversals land within 24 hours of each other in two different VP Clinical Ops threads (Castellano->Tran on Aug 10, Vogel->Castillo on Aug 11); the corpus carries both as distinct threads with distinct casts, so both are reported. A third VP thread shows the requisition itself frozen on Aug 3 — that is reported as its own change rather than reconciled against the other two, because no message in the corpus reconciles them. Q5 entries cite both endpoints; the superseded values (8 reqs, 5 reqs, +14%, Aug 15, $3,200 deductible, Castellano, Vogel) may never be cited as current anywhere else."
+    },
+    "q6_slipping_through_cracks": {
+      "question": "What important thing might be slipping through the cracks?",
+      "prose_answer": "Eight things nobody is chasing. Rich asked on Jul 10 for Renée Aubry's signed offer letter by Wednesday against a competing offer — your Jul 13 reply only answered his fee question, so that ask survives only in the quoted text and has sat 33 days. Six employees still have no I-9 Section 2 past the Jul 31 window; every internal thread says the I-9 work is 'closed', which is what hides it. Your Aug 5 request for Josh's review of the ER documentation hit his auto-responder and was never re-sent after he returned Aug 10. Elaine bcc'd you on Jul 9 asking that HR be looped in formally on the Unit 4 staffing review — your name is nowhere in the recipients, and that Friday regroup never happened. Claudia's flag that 'he said he'd handle it' on the offer letter templates was never pinned to Tim or Omar. And a bounce shows your offer email to Maria Chen went to a mistyped address.",
+      "ranked": [
+        "hr-q6-01",
+        "hr-q6-02",
+        "hr-q6-06",
+        "hr-q6-04",
+        "hr-q6-03",
+        "hr-q6-05",
+        "hr-q6-07",
+        "hr-q6-08"
+      ],
+      "items": [
+        {
+          "item_id": "hr-q6-01",
+          "rank": 1,
+          "tier": "must_include",
+          "claim": "Rich Delacroix asked on Jul 10 for the signed offer letter for Director of Case Management candidate Renée Aubry by Wednesday Jul 15, against a competing offer with a Friday deadline; Marcus's Jul 13 reply answered only the fee-structure question and the ask has never been addressed.",
+          "thread_id": "d60f18c2e4b60041",
+          "anchor_message_id": "d60f18c2e4b60042",
+          "message_ids": [
+            "d60f18c2e4b60041",
+            "d60f18c2e4b60042"
+          ],
+          "evidence_quote": "> Case Management candidate, Renée Aubry, by Wednesday? She's got a competing",
+          "why_it_qualifies": "Consequence plus burial: a named candidate with a competing offer, and the only surviving trace of the request is the quoted block under Marcus's own reply. Touching the thread is not engaging with the obligation — which is exactly why nothing has surfaced it since.",
+          "counterparty": "rich@summitexecsearch.com",
+          "due_date": "2026-07-15",
+          "due_basis": "explicit",
+          "days_open": 33,
+          "consequence": "high",
+          "tricky_tags": [
+            "quoted_text_only_task"
+          ]
+        },
+        {
+          "item_id": "hr-q6-02",
+          "rank": 2,
+          "tier": "must_include",
+          "claim": "Six named employees still have no completed I-9 Section 2 and passed the Jul 31 remediation window twelve days ago, while every internal thread on I-9 work reports the audit as closed.",
+          "thread_id": "d40f18c2e4b60041",
+          "anchor_message_id": "d40f18c2e4b60041",
+          "message_ids": [
+            "d40f18c2e4b60019",
+            "d40f18c2e4b60041"
+          ],
+          "evidence_quote": "The remaining 6 (Rosa Delgadillo, Trevor Bianchi, Yusuf Karimi, Devon Mackay, Otis Greenberg, Cyrus Whelan) still need to be completed before July 31",
+          "why_it_qualifies": "High consequence and structurally invisible: it lives in vendor automated mail, while Marcus's own Aug 5 note to Elaine and the Aug 6 note to Farida both declare the I-9 self-audit 'fully closed'. Those statements are about the internal 25-record sample, not this backlog, and they are what will keep anyone from looking.",
+          "counterparty": "noreply@i9advantage.com",
+          "due_date": "2026-07-31",
+          "due_basis": "explicit",
+          "days_open": 56,
+          "consequence": "high",
+          "tricky_tags": []
+        },
+        {
+          "item_id": "hr-q6-03",
+          "rank": 5,
+          "tier": "must_include",
+          "claim": "Marcus's Aug 5 request for Josh Lieberman to review the employee-relations documentation before Vireo responds reached only an out-of-office reply; Josh returned Aug 10 and the request has never been re-sent.",
+          "thread_id": "d40f18c2e4b60049",
+          "anchor_message_id": "d40f18c2e4b60050",
+          "message_ids": [
+            "d40f18c2e4b60049",
+            "d40f18c2e4b60050"
+          ],
+          "evidence_quote": "I'm out of the office until Monday, August 10, with no email access.",
+          "why_it_qualifies": "The request died in an auto-responder on the most sensitive matter open, and later contact with Josh has been about scheduling a call rather than the documentation review, so nothing in the thread signals it is still outstanding.",
+          "counterparty": "josh.lieberman@vireohealth.com",
+          "due_date": null,
+          "due_basis": "none",
+          "days_open": 7,
+          "consequence": "high",
+          "tricky_tags": [
+            "out_of_office"
+          ]
+        },
+        {
+          "item_id": "hr-q6-04",
+          "rank": 4,
+          "tier": "must_include",
+          "claim": "Elaine bcc'd Marcus on Jul 9 asking that HR be formally looped in on the Unit 4 staffing review once Doug had spoken to the two team leads, with a Friday regroup; no later message shows the formal HR involvement or the regroup happening.",
+          "thread_id": "d60f18c2e4b60043",
+          "anchor_message_id": "d60f18c2e4b60043",
+          "message_ids": [
+            "d60f18c2e4b60043"
+          ],
+          "evidence_quote": "I'd like HR looped in formally once you've had a chance to talk to the two team leads, just so there's a clean record if it goes further.",
+          "why_it_qualifies": "Misdirected visibility in its purest form: Marcus's name appears in no recipient list, so any reply-all drops him and he may not register that he was made aware at all. The CEO's stated reason for the loop-in — a clean record if it escalates — is precisely what is lost by silence.",
+          "counterparty": "elaine.ford@vireohealth.com",
+          "due_date": "2026-07-10",
+          "due_basis": "implicit",
+          "days_open": 34,
+          "consequence": "high",
+          "tricky_tags": [
+            "bcc_invisible_recipient"
+          ]
+        },
+        {
+          "item_id": "hr-q6-05",
+          "rank": 6,
+          "tier": "must_include",
+          "claim": "Updating the offer letter templates for the new PTO language was never assigned — Claudia flagged on Jul 14 that either Tim or Omar said he'd handle it by end of week, and no message from either shows it done, while offers have continued to go out since.",
+          "thread_id": "d60f18c2e4b60045",
+          "anchor_message_id": "d60f18c2e4b60045",
+          "message_ids": [
+            "d60f18c2e4b60045"
+          ],
+          "evidence_quote": "I'm pretty sure he said he'd handle it by end of week. Just flagging in case it falls through the cracks.",
+          "why_it_qualifies": "Ownership never resolved: the pronoun has two possible antecedents and the text cannot settle which, so no one holds it. The end-of-week date passed four weeks ago and offer letters carrying outdated PTO language have real downstream cost.",
+          "counterparty": "claudia.reyes@vireohealth.com",
+          "due_date": "2026-07-17",
+          "due_basis": "implicit",
+          "days_open": 29,
+          "consequence": "medium",
+          "tricky_tags": [
+            "ambiguous_pronoun_owner"
+          ]
+        },
+        {
+          "item_id": "hr-q6-06",
+          "rank": 3,
+          "tier": "acceptable",
+          "claim": "The offer email to Maria Chen bounced on Aug 4 because the address on file is mistyped (gmial.com), which matters now that Checkr's Aug 7 finding requires an FCRA pre-adverse-action notice to reach her by Aug 14.",
+          "thread_id": "d40f18c2e4b60045",
+          "anchor_message_id": "d40f18c2e4b60045",
+          "message_ids": [
+            "d40f18c2e4b60045",
+            "d40f18c2e4b60037"
+          ],
+          "evidence_quote": "Recipient address rejected: Domain gmial.com does not exist",
+          "why_it_qualifies": "A silent delivery failure that looks like nothing: the DocuSign envelope completed separately on Aug 6, so everyone believes the candidate is reachable. The statutory notice now has to go to a candidate whose email of record does not exist.",
+          "counterparty": "notifications@checkr.com",
+          "due_date": "2026-08-14",
+          "due_basis": "explicit",
+          "days_open": 8,
+          "consequence": "high",
+          "tricky_tags": []
+        },
+        {
+          "item_id": "hr-q6-07",
+          "rank": 7,
+          "tier": "acceptable",
+          "claim": "The $180K retention bonus pool — its structure, the no-tenure-cutoff eligibility read, and the commitment to take it to the September comp committee — is filed entirely under a thread titled 'Open enrollment kickoff — timeline'.",
+          "thread_id": "d60f18c2e4b60023",
+          "anchor_message_id": "d60f18c2e4b60028",
+          "message_ids": [
+            "d60f18c2e4b60026",
+            "d60f18c2e4b60027",
+            "d60f18c2e4b60028",
+            "d60f18c2e4b60029"
+          ],
+          "evidence_quote": "Going to put the final structure on the September comp committee agenda so it's formally approved before anyone hears a number.",
+          "why_it_qualifies": "The thread's label lies. Anyone searching for the retention bonus pool, or reviewing what is queued for the September comp committee, will not find it under a benefits-timeline subject — and Priscilla has already been told a structure that no committee has approved.",
+          "counterparty": "doug.feinstein@vireohealth.com",
+          "due_date": "2026-09-01",
+          "due_basis": "explicit",
+          "days_open": 23,
+          "consequence": "medium",
+          "tricky_tags": [
+            "topic_drift"
+          ]
+        },
+        {
+          "item_id": "hr-q6-08",
+          "rank": 8,
+          "tier": "acceptable",
+          "claim": "A credential-harvest email impersonating Vireo's benefits enrollment, sent from vireohealth-benefits.com, sits unflagged in spam; nothing in the mailbox shows IT or employees were warned, with enrollment comms about to go out company-wide.",
+          "thread_id": "d60f18c2e4b60032",
+          "anchor_message_id": "d60f18c2e4b60032",
+          "message_ids": [
+            "d60f18c2e4b60032"
+          ],
+          "evidence_quote": "Your enrollment window closes in 48 hours. Click below to verify your current elections and avoid a lapse in coverage:",
+          "why_it_qualifies": "Consequence plus invisibility: it landed in spam so nobody looked, but it targets the exact communication People is about to send 200 employees. The hazard is not that Marcus clicks it — it is that staff receive the same lure during enrollment and nobody has told them what real benefits mail looks like.",
+          "counterparty": null,
+          "due_date": null,
+          "due_basis": "none",
+          "days_open": 55,
+          "consequence": "medium",
+          "tricky_tags": [
+            "lookalike_domain"
+          ]
+        },
+        {
+          "item_id": "hr-q6-09",
+          "rank": 9,
+          "tier": "borderline",
+          "claim": "A message Marcus sent on Aug 9 to benefits-qustions@vireohealth.com bounced — the alias is mistyped and the intended recipients never got it.",
+          "thread_id": "d40f18c2e4b60046",
+          "anchor_message_id": "d40f18c2e4b60046",
+          "message_ids": [
+            "d40f18c2e4b60046"
+          ],
+          "evidence_quote": "benefits-qustions@vireohealth.com",
+          "why_it_qualifies": "A genuine silent delivery failure during enrollment prep, but the corpus never shows what was sent or who was waiting for it, so the consequence test is only weakly met — borderline rather than scored.",
+          "counterparty": null,
+          "due_date": null,
+          "due_basis": "none",
+          "days_open": 3,
+          "consequence": "low",
+          "tricky_tags": []
+        }
+      ],
+      "must_not_include": [
+        {
+          "message_id": "d60f18c2e4b60048",
+          "subject": "Re: Priscilla's September PTO",
+          "why_excluded": "Doug has bumped this himself. An ask that the requester is actively keeping alive is many things — Q3, overdue — but it is not slipping through cracks.",
+          "trap": "loudly-attested"
+        },
+        {
+          "message_id": "d60f18c2e4b60009",
+          "subject": "Badge photos for Thursday's orientation",
+          "why_excluded": "A diffused ask only becomes a crack if nobody claims it. Claudia claimed it three hours later — 'I've got it, I'm in the building Thursday morning anyway'.",
+          "trap": "diffused_group_ask"
+        },
+        {
+          "message_id": "d60f18c2e4b60044",
+          "subject": "Keystone Q3 broker check-in",
+          "why_excluded": "The Reply-To domain (keystonebenefits-mail.com) differs from the From domain, which looks fraud-adjacent, but Angela explains the new relay in the body and the sender survives a domain check. Not a hazard.",
+          "trap": "reply_to_mismatch"
+        },
+        {
+          "message_id": "d40f18c2e4b60020",
+          "subject": "Delivery Status Notification (Failure)",
+          "why_excluded": "A bounce, but to a mistyped internal announce alias with no attested content, counterparty or amount behind it. Fails the consequence test — not every bounce is the Maria Chen bounce.",
+          "trap": "low-consequence-bounce"
+        },
+        {
+          "message_id": "d60f18c2e4b60001",
+          "subject": "Fwd: Onboarding schedule for the two new ICU nurses",
+          "why_excluded": "Buried-looking and time-pressured, but the obligation is Renata's to Priscilla and Claudia says explicitly that nothing is needed from Marcus.",
+          "trap": "forwarded_task_not_users"
+        },
+        {
+          "message_id": "d50f18c2e4b60048",
+          "subject": "Draft: Updated attendance policy -- for review",
+          "why_excluded": "Buried in Drafts, but Marcus wrote it himself and annotated what it still needs — that is owner engagement, so it is a forgetting (Q2), not a visibility failure.",
+          "trap": "engagement-test-fails"
+        }
+      ],
+      "curator_notes": "Every item pairs a real consequence with a burial factor, and each burial factor is different: quote-only text, vendor automated mail masked by internal 'closed' declarations, an auto-responder, a bcc, an unresolvable pronoun, a bounce, a lying subject line, and a spam-foldered lookalike. Items Marcus visibly engaged with (the attendance policy draft, the PIP notes, the promises to Priscilla and Doug) are deliberately left to Q2 under the engagement test. Priscilla's stalled Workday merit increase is also a strong crack, but it is already carried in Q1 and Q3 and is not repeated here. Sensitive matters are described at process level only."
+    }
+  }
+}

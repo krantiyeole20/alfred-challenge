@@ -1,0 +1,93 @@
+{
+  "profile_id": "founder",
+  "question": "q4_waiting_on_others",
+  "items_reviewed": 12,
+  "verdict": "issues",
+  "findings": [
+    {
+      "type": "false_positive",
+      "severity": "high",
+      "item_id": "founder-q4-03",
+      "message_ids": ["a60f18c2e4b60023", "a40f18c2e4b60017", "a10f18c2e4b60015", "a50f18c2e4b60043", "a60f18c2e4b60042"],
+      "problem": "Lumenpay's legal redlines that Tom promised on Jul 15 actually arrived — they were in Maya's hands by Jul 20 and are in active counsel review as of Aug 5 — so the claim 'four weeks later there is no sign of them' is closed, not open.",
+      "evidence": "a50f18c2e4b60043 (Beth Ranganathan, Aug 5): 'Reviewing Lumenpay's redlines on the enterprise agreement. Their legal team wants to broaden the indemnification clause to cover any data handling issue, not just breaches caused by our negligence'. Corroborated by a40f18c2e4b60017 (Maya to Beth, Jul 20, five days after Tom's promise): 'Attaching Lumenpay's requested changes to section 8.2 (liability cap) and the new data processing addendum.' and by a10f18c2e4b60015 (Beth, Jul 24): 'Lumenpay's legal team sent over their standard security addendum as part of the enterprise expansion order'. The resulting amendment came back for signature on Aug 7 (a60f18c2e4b60042): 'the finalized MSA amendment (indemnification language as discussed with Beth) is ready for your signature'.",
+      "recommended_action": "remove item and move a60f18c2e4b60023 to must_not_include with trap 'already-completed' (why_excluded: Lumenpay's redlines arrived by Jul 20 and are in counsel review; the delivery lands in different threads, which is exactly the cross-thread closure a naive system misses). Note the gold set already cites the closing message a50f18c2e4b60043 under founder-q4-05 without noticing it closes this item. Replace the Tom slot in `ranked` with the Aug 10 written-seat-count ask below."
+    },
+    {
+      "type": "missed_item",
+      "severity": "high",
+      "item_id": null,
+      "message_ids": ["a60f18c2e4b60050", "a60f18c2e4b60023"],
+      "problem": "Maya asked Tom Ashford by name on Aug 10 to get the 450-seat count confirmed in writing from Dana before it goes in the Aug 27 board deck; no reply from Tom anywhere in the mailbox. This is the live, current-state Tom wait that should replace the (closed) redlines item.",
+      "evidence": "a60f18c2e4b60050 (Maya to the leadership team, Aug 10 18:00): 'the seat count on their renewal has moved around more than I'd like over the last month — 400, then 320, now apparently 450 with an EU buffer — and I don't want us building the board deck around whichever number happened to be the most recent one Tom heard on a call. Tom, can you get something in writing from Dana before it goes in the deck.'",
+      "recommended_action": "add new item with these fields — tier: must_include; claim: 'Tom Ashford owes Maya written confirmation from Dana of the 450-seat Lumenpay renewal figure before it goes into the Aug 27 board deck; asked Aug 10, no reply.'; thread_id a60f18c2e4b60050; anchor_message_id a60f18c2e4b60050; message_ids [a60f18c2e4b60050, a60f18c2e4b60023]; evidence_quote 'Tom, can you get something in writing from Dana before it goes in the deck.'; counterparty tom@kettlehq.com; due_date 2026-08-20; due_basis implicit; days_open 2; consequence high; tricky_tags ['shifting_number']"
+    },
+    {
+      "type": "missed_item",
+      "severity": "medium",
+      "item_id": null,
+      "message_ids": ["a60f18c2e4b60048"],
+      "problem": "Tom promised Maya an updated Tarrow Health forecast 'Friday' on Jul 17 and never sent it — no forecast appears anywhere later in the mailbox — yet it is neither in items nor in must_not_include.",
+      "evidence": "a60f18c2e4b60048 (Tom Ashford to Maya, sole recipient, Jul 17): 'Good call with Marcus at Tarrow today — they want to expand to three more clinics in Q4, which could be a $150K ARR bump if it closes. Will send an updated forecast Friday once I've run the numbers by finance.'",
+      "recommended_action": "add new item with these fields — tier: acceptable; claim: 'Tom Ashford owes Maya the updated Tarrow Health forecast covering the three-clinic Q4 expansion (~$150K ARR), promised for Friday Jul 24 and never sent.'; thread_id a60f18c2e4b60048; anchor_message_id a60f18c2e4b60048; message_ids [a60f18c2e4b60048]; evidence_quote 'Will send an updated forecast Friday once I've run the numbers by finance.'; counterparty tom@kettlehq.com; due_date 2026-07-24; due_basis implicit; days_open 26; consequence medium; tricky_tags []"
+    },
+    {
+      "type": "missed_item",
+      "severity": "medium",
+      "item_id": null,
+      "message_ids": ["a50f18c2e4b60040"],
+      "problem": "Maya asked Peter Nkemelu a direct question on Aug 3 that gates paying an invoice; Peter has sent nothing since (his last message in the mailbox is Jul 9). This is the canonical SENT + question + no inbound reply pattern and is absent from the set.",
+      "evidence": "a50f18c2e4b60040 (Maya to peter@brightline-cpa.com, sole recipient, Aug 3): 'Peter — the Brightline invoice for July has a line item labeled ''catch-up bookkeeping, Q2'' that I don't remember approving separately. Can you send me what that covers before I pay it?'",
+      "recommended_action": "add new item with these fields — tier: acceptable; claim: 'Peter Nkemelu has not answered Maya''s Aug 3 question about the unexplained ''catch-up bookkeeping, Q2'' line item on Brightline''s July invoice, which she is holding payment on.'; thread_id a50f18c2e4b60040; anchor_message_id a50f18c2e4b60040; message_ids [a50f18c2e4b60040]; evidence_quote 'Can you send me what that covers before I pay it?'; counterparty peter@brightline-cpa.com; due_date null; due_basis none; days_open 9; consequence medium; tricky_tags []"
+    },
+    {
+      "type": "missed_item",
+      "severity": "medium",
+      "item_id": null,
+      "message_ids": ["a50f18c2e4b60017"],
+      "problem": "Maya committed in writing to Dana that Wendy would send the August fee-credit memo to Lumenpay AP 'this week' (Jul 14); nothing shows Wendy ever sent it. The curator note excludes it as 'folded into Q2', but this is structurally identical to founder-q4-02 (Priya's SSO link) and founder-q4-10 (Wendy schedules the EDP call), both of which are included — the treatment is inconsistent.",
+      "evidence": "a50f18c2e4b60017 (Maya to Dana, Jul 14): 'I'm crediting Lumenpay 100% of August platform fees regardless of how the migration lands. Wendy will get the credit memo to your AP contact this week so it's not just something I said in an email.'",
+      "recommended_action": "add new item with these fields — tier: acceptable; claim: 'Wendy Osei owes Lumenpay AP the August 100% platform-fee credit memo Maya promised Dana on Jul 14 ''this week''; no message shows it was ever sent.'; thread_id a50f18c2e4b60016; anchor_message_id a50f18c2e4b60017; message_ids [a50f18c2e4b60016, a50f18c2e4b60017]; evidence_quote 'Wendy will get the credit memo to your AP contact this week so it's not just something I said in an email.'; counterparty wendy@kettlehq.com; due_date 2026-07-17; due_basis implicit; days_open 29; consequence medium; tricky_tags []. If the curator prefers to keep it in Q2 only, say so explicitly in curator_notes and add it to must_not_include with trap 'owner-owed-not-owed-to-owner' so the exclusion is testable rather than silent."
+    },
+    {
+      "type": "missed_item",
+      "severity": "low",
+      "item_id": null,
+      "message_ids": ["a50f18c2e4b60011"],
+      "problem": "Beth Ranganathan never answered Maya's Jul 8 California non-solicit question; the thread is one SENT message with no reply anywhere in the mailbox, and the Head of Marketing offer is still live (Naomi Chen's final loop was Aug 5).",
+      "evidence": "a50f18c2e4b60011 (Maya to Beth, Jul 8): 'The draft offer letter for our Head of Marketing finalist has a 12-month non-solicit, which feels long for California. Can you confirm that actually holds up here, or whether we should just drop it?'",
+      "recommended_action": "add new item with these fields — tier: borderline; claim: 'Beth Ranganathan never answered whether the 12-month non-solicit in the Head of Marketing offer letter is enforceable in California; asked Jul 8, no reply, and the offer is still pending.'; thread_id a50f18c2e4b60011; anchor_message_id a50f18c2e4b60011; message_ids [a50f18c2e4b60011]; evidence_quote 'Can you confirm that actually holds up here, or whether we should just drop it?'; counterparty branganathan@hoytgrieve.com; due_date null; due_basis none; days_open 35; consequence low; tricky_tags []"
+    },
+    {
+      "type": "missed_item",
+      "severity": "low",
+      "item_id": null,
+      "message_ids": ["a50f18c2e4b60013"],
+      "problem": "Maya delegated the Lumenpay migration runbook to Dev on Jul 13 with a Jul 31 anchor date; no message shows it delivered (the only later 'runbook' reference, in a50f18c2e4b60031, is the separate SOC2 incident-response runbook).",
+      "evidence": "a50f18c2e4b60013 (Maya to Dev, Jul 13): 'now that we've got a real date for Lumenpay (July 31), can you own writing the migration runbook? I don't want Priya's team relearning this live mid-cutover again, and I want something Dana's team can point to if they ask what changed.'",
+      "recommended_action": "add new item with these fields — tier: borderline; claim: 'Dev Patel has not delivered the Lumenpay migration runbook Maya asked him to own on Jul 13 ahead of the Jul 31 cutover.'; thread_id a50f18c2e4b60013; anchor_message_id a50f18c2e4b60013; message_ids [a50f18c2e4b60013]; evidence_quote 'can you own writing the migration runbook?'; counterparty dev@kettlehq.com; due_date 2026-07-31; due_basis explicit; days_open 30; consequence low; tricky_tags []"
+    },
+    {
+      "type": "bad_quote",
+      "severity": "low",
+      "item_id": "founder-q4-06",
+      "message_ids": ["a40f18c2e4b60019", "a40f18c2e4b60020"],
+      "problem": "The evidence_quote is Alice's auto-responder text, which attests the OOO floor but shows neither the ask nor a promise — the obligation itself is unquoted.",
+      "evidence": "a40f18c2e4b60019 (Maya to Alice, Aug 5) carries the actual ask: 'Board meeting is Aug 27 and I'd like to have a name to bring. Where do things stand with the two candidates from the shortlist?'",
+      "recommended_action": "fix quote to 'Board meeting is Aug 27 and I'd like to have a name to bring. Where do things stand with the two candidates from the shortlist?' (anchor may stay a40f18c2e4b60020 for the Aug 11 return floor, or move to a40f18c2e4b60019 with the OOO cited in why_it_qualifies)."
+    }
+  ],
+  "checked_and_sound": [
+    "founder-q4-01",
+    "founder-q4-02",
+    "founder-q4-04",
+    "founder-q4-05",
+    "founder-q4-07",
+    "founder-q4-08",
+    "founder-q4-09",
+    "founder-q4-10",
+    "founder-q4-11",
+    "founder-q4-12"
+  ],
+  "notes": "Method: read every cited thread end to end, then swept the whole 300-message mailbox for (a) later deliveries in other threads, (b) inbound promise language to Maya, (c) SENT threads ending on a Maya question with no reply. All twelve evidence_quotes are verbatim substrings of their anchor messages; every anchor_message_id belongs to its stated thread_id; all twelve days_open values reconcile against the as-of moment. \n\nCross-thread delivery checks that CONFIRM the gold: Peter's June financials really are closed by a60f18c2e4b60030; Tom's Tarrow beta really is retracted by a60f18c2e4b60037; Beth's indemnification-review wait (a60f18c2e4b60019/a60f18c2e4b60020) really is closed by the Aug 7 e-signature request a60f18c2e4b60042, and the gold correctly omits it; Priya's standup notes (a60f18c2e4b60045, Aug 10) do NOT mention the test SSO link, so founder-q4-02 stays open; nothing shows Sana delivering the Raj packet, Wendy reporting the AWS case outcome, or Alice replying after Aug 11. The seven must_not_include distractors all check out — none is a live unfulfilled wait.\n\nThe one defect that matters is founder-q4-03. It is a genuine cross-thread closure: Tom promised Lumenpay's legal redlines on Jul 15, and by Jul 20 Maya is forwarding those exact redlines to counsel (a40f18c2e4b60017), with Beth actively negotiating them on Aug 5 (a50f18c2e4b60043 — the very message founder-q4-05 already cites) and the resulting amendment out for signature on Aug 7. Note that docs/QUESTIONS.md lists this message as a Q4 inclusion example, but the doc's own precedence rule says the corpus outranks its worked examples, and this is a fourth example that does not survive a full read. Worth adding to curator_notes alongside the three the doc already concedes. The live Tom wait as of Aug 12 is the Aug 10 written-seat-count ask, which is buried mid-way through a long all-hands email — a good Q4 test case in its own right.\n\nOn founder-q4-02, founder-q4-05 and founder-q4-10: all three are 'Maya announced someone else's action to a third party' delegations with no message showing she asked the delegate. That is defensible under the QUESTIONS.md 'Have Wendy schedule the EDP call with Katie' precedent, but it must be applied uniformly — which is why Wendy's Lumenpay credit memo (finding 5) should not be silently dropped.\n\nMinor, not filed as findings: founder-q4-10 sets counterparty to wendy@kettlehq.com while its anchor states the paperwork now sits with Peter Nkemelu (counterparty is arguably peter@brightline-cpa.com, or both); founder-q4-11's quote is likewise the auto-responder rather than the ask, though there the OOO is the substance of the claim. Ranking is defensible as written; if founder-q4-03 is removed, ranks 4-12 shift up one and the new Tom item slots at or near rank 3.\n\nCorpus inconsistency worth a human eye (not a gold-set defect): the SOC 2 auditor is variously Halcyon Assurance (Meredith Voss), Vantage Assurance (Owen Fitch / Grace Liu), Certiva Assurance (Rachel Kim) and Anchor Assurance, with different observation periods. founder-q4-01's claim tracks the Halcyon thread consistently, so it is internally sound, but a system that merges the auditors will produce confusing output here."
+}

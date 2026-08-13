@@ -1,0 +1,2847 @@
+[
+  {
+    "id": "c30f18c2e4b60001",
+    "thread_id": "c30f18c2e4b60001",
+    "profile_id": "finance",
+    "history_id": "734092",
+    "message_id_header": "<c30f18c2e4b60001@netsuite.com>",
+    "in_reply_to": null,
+    "references": [],
+    "thread_position": 1,
+    "thread_length": 1,
+    "from": {
+      "name": "NetSuite",
+      "email": "release-notes@netsuite.com"
+    },
+    "to": [
+      {
+        "name": "Aditi Sharma",
+        "email": "aditi.sharma@northwindrobotics.com"
+      }
+    ],
+    "cc": [],
+    "bcc": [],
+    "delivered_to": "aditi.sharma@northwindrobotics.com",
+    "subject": "Your NetSuite 2026.2 release notes are here",
+    "snippet": "Hi Aditi, The 2026.2 release is rolling out to your account this month. Highlights for finance teams: - Multi-book accounting now supports intercompany eliminations natively - Suit",
+    "body_text": "Hi Aditi,\n\nThe 2026.2 release is rolling out to your account this month. Highlights for finance teams:\n\n- Multi-book accounting now supports intercompany eliminations natively\n- SuiteAnalytics Workbook adds a variance-to-budget template\n- Faster period close: bank reconciliation matching is ~3x faster on accounts with 10K+ monthly lines\n\nFull release notes and upgrade schedule are in the Help Center. Your account will be upgraded automatically the weekend of August 22-23; no action needed unless you have custom SuiteScript that touches the GL posting API.\n\n\u2014 The NetSuite Team",
+    "body_html": "<div style='font-family:Arial,sans-serif;color:#1a1a1a'><h2 style='color:#1c4587'>NetSuite 2026.2 is here</h2><p>Hi Aditi,</p><p>Highlights for finance teams: intercompany eliminations, faster bank rec, budget variance workbook.</p><p style='color:#666;font-size:12px'>Upgrade weekend: Aug 22-23. No action needed unless you use custom SuiteScript.</p></div>",
+    "date": "2026-07-14T09:12:00-07:00",
+    "internal_date_ms": 1784045520000,
+    "folder": "INBOX",
+    "category": "CATEGORY_PROMOTIONS",
+    "is_unread": false,
+    "is_starred": false,
+    "is_important": false,
+    "user_labels": [],
+    "attachments": [],
+    "calendar_event": null,
+    "extra_headers": {
+      "List-Unsubscribe": "<mailto:unsubscribe@netsuite.com?subject=unsubscribe>, <https://netsuite.com/unsubscribe?u=rn2026v2>",
+      "List-Unsubscribe-Post": "List-Unsubscribe=One-Click",
+      "List-ID": "NetSuite Product Updates <bulk.netsuite.com>",
+      "Precedence": "bulk",
+      "Feedback-ID": "rn2026v2:netsuite.com:campaign:gmail",
+      "Return-Path": "<release-notes@netsuite.com>"
+    },
+    "size_estimate": 1454,
+    "meta": {
+      "email_class": "newsletter",
+      "tricky_tags": [],
+      "is_actionable_for_user": false,
+      "action_owner": null,
+      "action_summary": null,
+      "due_date": null,
+      "commitment_made_by_user": null,
+      "commitment_is_conditional": false,
+      "commitment_condition": null,
+      "superseded_by_message_id": null,
+      "notes": "Routine ERP release-notes email."
+    }
+  },
+  {
+    "id": "c30f18c2e4b60002",
+    "thread_id": "c30f18c2e4b60002",
+    "profile_id": "finance",
+    "history_id": "693825",
+    "message_id_header": "<c30f18c2e4b60002@netsuite.com>",
+    "in_reply_to": null,
+    "references": [],
+    "thread_position": 1,
+    "thread_length": 1,
+    "from": {
+      "name": "NetSuite Insights",
+      "email": "insights@netsuite.com"
+    },
+    "to": [
+      {
+        "name": "Aditi Sharma",
+        "email": "aditi.sharma@northwindrobotics.com"
+      }
+    ],
+    "cc": [],
+    "bcc": [],
+    "delivered_to": "aditi.sharma@northwindrobotics.com",
+    "subject": "3 signs your ERP can't scale with a 50-person team",
+    "snippet": "Growing manufacturers hit a wall around 40-60 employees when their accounting system was built for 10. The three signs we hear most from finance leaders: (1) close takes longer eve",
+    "body_text": "Growing manufacturers hit a wall around 40-60 employees when their accounting system was built for 10.\n\nThe three signs we hear most from finance leaders: (1) close takes longer every quarter instead of shorter, (2) inventory costing is a spreadsheet side-project, (3) your board deck numbers don't tie to the general ledger without a reconciliation exercise the night before.\n\nRead the full piece on the NetSuite blog to see how hardware and robotics companies are solving this.",
+    "body_html": "<div style='font-family:Arial'><p>Growing manufacturers hit a wall around 40-60 employees...</p><p><a href='https://netsuite.com/blog/erp-scale'>Read more</a></p></div>",
+    "date": "2026-06-16T10:05:00-07:00",
+    "internal_date_ms": 1781629500000,
+    "folder": "INBOX",
+    "category": "CATEGORY_PROMOTIONS",
+    "is_unread": false,
+    "is_starred": false,
+    "is_important": false,
+    "user_labels": [],
+    "attachments": [],
+    "calendar_event": null,
+    "extra_headers": {
+      "Return-Path": "<insights@netsuite.com>"
+    },
+    "size_estimate": 1159,
+    "meta": {
+      "email_class": "promotional",
+      "tricky_tags": [],
+      "is_actionable_for_user": false,
+      "action_owner": null,
+      "action_summary": null,
+      "due_date": null,
+      "commitment_made_by_user": null,
+      "commitment_is_conditional": false,
+      "commitment_condition": null,
+      "superseded_by_message_id": null,
+      "notes": null
+    }
+  },
+  {
+    "id": "c30f18c2e4b60003",
+    "thread_id": "c30f18c2e4b60003",
+    "profile_id": "finance",
+    "history_id": "734060",
+    "message_id_header": "<c30f18c2e4b60003@ramp.com>",
+    "in_reply_to": null,
+    "references": [],
+    "thread_position": 1,
+    "thread_length": 1,
+    "from": {
+      "name": "Ramp",
+      "email": "product@ramp.com"
+    },
+    "to": [
+      {
+        "name": "Aditi Sharma",
+        "email": "aditi.sharma@northwindrobotics.com"
+      }
+    ],
+    "cc": [],
+    "bcc": [],
+    "delivered_to": "aditi.sharma@northwindrobotics.com",
+    "subject": "Ramp Intelligence: catch duplicate spend before it happens",
+    "snippet": "New: Ramp Intelligence now flags duplicate vendor charges in real time, before they post. Turn it on in Settings > Controls.",
+    "body_text": "New: Ramp Intelligence now flags duplicate vendor charges in real time, before they post. Turn it on in Settings > Controls.",
+    "body_html": "<div style='font-family:Helvetica'><p>New: Ramp Intelligence flags duplicate vendor charges in real time.</p><p><a href='https://ramp.com/intelligence'>Turn it on</a></p></div>",
+    "date": "2026-07-14T11:40:00-04:00",
+    "internal_date_ms": 1784043600000,
+    "folder": "INBOX",
+    "category": "CATEGORY_PROMOTIONS",
+    "is_unread": false,
+    "is_starred": false,
+    "is_important": false,
+    "user_labels": [],
+    "attachments": [],
+    "calendar_event": null,
+    "extra_headers": {
+      "Return-Path": "<product@ramp.com>"
+    },
+    "size_estimate": 812,
+    "meta": {
+      "email_class": "promotional",
+      "tricky_tags": [],
+      "is_actionable_for_user": false,
+      "action_owner": null,
+      "action_summary": null,
+      "due_date": null,
+      "commitment_made_by_user": null,
+      "commitment_is_conditional": false,
+      "commitment_condition": null,
+      "superseded_by_message_id": null,
+      "notes": null
+    }
+  },
+  {
+    "id": "c30f18c2e4b60004",
+    "thread_id": "c30f18c2e4b60004",
+    "profile_id": "finance",
+    "history_id": "696490",
+    "message_id_header": "<c30f18c2e4b60004@ramp.com>",
+    "in_reply_to": null,
+    "references": [],
+    "thread_position": 1,
+    "thread_length": 1,
+    "from": {
+      "name": "Ramp Events",
+      "email": "events@ramp.com"
+    },
+    "to": [
+      {
+        "name": "Aditi Sharma",
+        "email": "aditi.sharma@northwindrobotics.com"
+      }
+    ],
+    "cc": [],
+    "bcc": [],
+    "delivered_to": "aditi.sharma@northwindrobotics.com",
+    "subject": "You're invited: Ramp's State of Corporate Spend 2026 webinar",
+    "snippet": "Join Ramp's finance team on August 26 at 1:00 PM ET for a look at spend benchmarks across 25,000 companies. We'll cover software spend trends, T&E policy shifts, and where finance ",
+    "body_text": "Join Ramp's finance team on August 26 at 1:00 PM ET for a look at spend benchmarks across 25,000 companies. We'll cover software spend trends, T&E policy shifts, and where finance teams are cutting in a tighter rate environment. 40 minutes, live Q&A at the end. Register at ramp.com/webinar-2026.",
+    "body_html": "<div><p>Join Ramp's finance team on August 26 at 1:00 PM ET.</p><p><a href='https://ramp.com/webinar-2026'>Register</a></p></div>",
+    "date": "2026-06-18T09:30:00-04:00",
+    "internal_date_ms": 1781789400000,
+    "folder": "INBOX",
+    "category": "CATEGORY_PROMOTIONS",
+    "is_unread": false,
+    "is_starred": false,
+    "is_important": false,
+    "user_labels": [],
+    "attachments": [],
+    "calendar_event": null,
+    "extra_headers": {
+      "Return-Path": "<events@ramp.com>"
+    },
+    "size_estimate": 937,
+    "meta": {
+      "email_class": "promotional",
+      "tricky_tags": [],
+      "is_actionable_for_user": false,
+      "action_owner": null,
+      "action_summary": null,
+      "due_date": null,
+      "commitment_made_by_user": null,
+      "commitment_is_conditional": false,
+      "commitment_condition": null,
+      "superseded_by_message_id": null,
+      "notes": null
+    }
+  },
+  {
+    "id": "c30f18c2e4b60005",
+    "thread_id": "c30f18c2e4b60005",
+    "profile_id": "finance",
+    "history_id": "735510",
+    "message_id_header": "<c30f18c2e4b60005@bill.com>",
+    "in_reply_to": null,
+    "references": [],
+    "thread_position": 1,
+    "thread_length": 1,
+    "from": {
+      "name": "Bill.com Insights",
+      "email": "insights@bill.com"
+    },
+    "to": [
+      {
+        "name": "Aditi Sharma",
+        "email": "aditi.sharma@northwindrobotics.com"
+      }
+    ],
+    "cc": [],
+    "bcc": [],
+    "delivered_to": "aditi.sharma@northwindrobotics.com",
+    "subject": "The 2026 AP Automation Benchmark Report is live",
+    "snippet": "Hi Aditi, We just published our annual AP Automation Benchmark Report, pulling data from 1,240 companies. A few numbers that stood out for manufacturers your size: automated AP tea",
+    "body_text": "Hi Aditi,\n\nWe just published our annual AP Automation Benchmark Report, pulling data from 1,240 companies. A few numbers that stood out for manufacturers your size: automated AP teams close the subledger in 1.6 days versus 4.2 for manual processes, and capture early-pay discounts 4x more often.\n\nFull report attached \u2014 happy to walk your team through the manufacturing-specific data if useful.\n\nBest,\nThe Bill.com Team",
+    "body_html": "<div style='font-family:Georgia'><p>We just published our annual AP Automation Benchmark Report.</p><p>Full report attached.</p></div>",
+    "date": "2026-07-15T08:50:00-07:00",
+    "internal_date_ms": 1784130600000,
+    "folder": "INBOX",
+    "category": "CATEGORY_PROMOTIONS",
+    "is_unread": false,
+    "is_starred": false,
+    "is_important": false,
+    "user_labels": [
+      "Label_4412"
+    ],
+    "attachments": [
+      {
+        "attachment_id": "ANGjdJ_5f9a2c1e8b7d6034ff21aa88cc0912de45b6",
+        "filename": "AP-Automation-Benchmark-2026.pdf",
+        "mime_type": "application/pdf",
+        "size_bytes": 412000,
+        "extracted_text": "AP Automation Benchmark Report 2026 - Executive Summary\n\nSample: 1,240 companies, 20-500 employees\nMedian days to close AP subledger: 4.2 (manual) vs 1.6 (automated)\nMedian invoice processing cost: $12.60 (manual) vs $3.10 (automated)\nDuplicate payment rate: 1.8% (manual) vs 0.2% (automated)\nEarly-pay discount capture rate: 11% (manual) vs 47% (automated)\n\nManufacturing sector callout: companies with 40-75 employees see the largest relative gains, driven by high invoice volume per accountant. Median headcount running AP: 0.8 FTE at automated companies vs 1.6 FTE at manual companies.\n\nMethodology and full data tables available at bill.com/research."
+      }
+    ],
+    "calendar_event": null,
+    "extra_headers": {
+      "Return-Path": "<insights@bill.com>"
+    },
+    "size_estimate": 550400,
+    "meta": {
+      "email_class": "newsletter",
+      "tricky_tags": [],
+      "is_actionable_for_user": false,
+      "action_owner": null,
+      "action_summary": null,
+      "due_date": null,
+      "commitment_made_by_user": null,
+      "commitment_is_conditional": false,
+      "commitment_condition": null,
+      "superseded_by_message_id": null,
+      "notes": null
+    }
+  },
+  {
+    "id": "c30f18c2e4b60006",
+    "thread_id": "c30f18c2e4b60006",
+    "profile_id": "finance",
+    "history_id": "702655",
+    "message_id_header": "<c30f18c2e4b60006@bill.com>",
+    "in_reply_to": null,
+    "references": [],
+    "thread_position": 1,
+    "thread_length": 1,
+    "from": {
+      "name": "Bill.com",
+      "email": "marketing@bill.com"
+    },
+    "to": [
+      {
+        "name": "Aditi Sharma",
+        "email": "aditi.sharma@northwindrobotics.com"
+      }
+    ],
+    "cc": [],
+    "bcc": [],
+    "delivered_to": "aditi.sharma@northwindrobotics.com",
+    "subject": "How Meridian Fabrication cut AP processing time 60%",
+    "snippet": "Meridian Fabrication, a 65-person precision parts manufacturer, was spending 3 days a month reconciling vendor invoices by hand. After moving to Bill.com's AP automation, their con",
+    "body_text": "Meridian Fabrication, a 65-person precision parts manufacturer, was spending 3 days a month reconciling vendor invoices by hand. After moving to Bill.com's AP automation, their controller cut that to under a day and freed up 15 hours a month for FP&A work instead of data entry.\n\nRead the full case study to see their before/after workflow, including how they handled multi-entity approvals.",
+    "body_html": "<div><p>Meridian Fabrication cut AP processing time 60% with Bill.com.</p><p><a href='https://bill.com/customers/meridian'>Read case study</a></p></div>",
+    "date": "2026-06-22T13:15:00-07:00",
+    "internal_date_ms": 1782159300000,
+    "folder": "INBOX",
+    "category": "CATEGORY_PROMOTIONS",
+    "is_unread": false,
+    "is_starred": false,
+    "is_important": false,
+    "user_labels": [],
+    "attachments": [],
+    "calendar_event": null,
+    "extra_headers": {
+      "Return-Path": "<marketing@bill.com>"
+    },
+    "size_estimate": 1055,
+    "meta": {
+      "email_class": "promotional",
+      "tricky_tags": [],
+      "is_actionable_for_user": false,
+      "action_owner": null,
+      "action_summary": null,
+      "due_date": null,
+      "commitment_made_by_user": null,
+      "commitment_is_conditional": false,
+      "commitment_condition": null,
+      "superseded_by_message_id": null,
+      "notes": null
+    }
+  },
+  {
+    "id": "c30f18c2e4b60007",
+    "thread_id": "c30f18c2e4b60007",
+    "profile_id": "finance",
+    "history_id": "736965",
+    "message_id_header": "<c30f18c2e4b60007@expensify.com>",
+    "in_reply_to": null,
+    "references": [],
+    "thread_position": 1,
+    "thread_length": 1,
+    "from": {
+      "name": "Expensify",
+      "email": "news@expensify.com"
+    },
+    "to": [
+      {
+        "name": "Aditi Sharma",
+        "email": "aditi.sharma@northwindrobotics.com"
+      }
+    ],
+    "cc": [],
+    "bcc": [],
+    "delivered_to": "aditi.sharma@northwindrobotics.com",
+    "subject": "Expensify Card: cash back on every swipe",
+    "snippet": "Earn up to 2% cash back on the Expensify Card, automatically applied to your subscription. No forms, no waiting.",
+    "body_text": "Earn up to 2% cash back on the Expensify Card, automatically applied to your subscription. No forms, no waiting.",
+    "body_html": "<div><p>Earn up to 2% cash back on the Expensify Card.</p></div>",
+    "date": "2026-07-16T09:05:00-07:00",
+    "internal_date_ms": 1784217900000,
+    "folder": "INBOX",
+    "category": "CATEGORY_PROMOTIONS",
+    "is_unread": false,
+    "is_starred": false,
+    "is_important": false,
+    "user_labels": [],
+    "attachments": [],
+    "calendar_event": null,
+    "extra_headers": {
+      "Return-Path": "<news@expensify.com>"
+    },
+    "size_estimate": 688,
+    "meta": {
+      "email_class": "promotional",
+      "tricky_tags": [],
+      "is_actionable_for_user": false,
+      "action_owner": null,
+      "action_summary": null,
+      "due_date": null,
+      "commitment_made_by_user": null,
+      "commitment_is_conditional": false,
+      "commitment_condition": null,
+      "superseded_by_message_id": null,
+      "notes": null
+    }
+  },
+  {
+    "id": "c30f18c2e4b60008",
+    "thread_id": "c30f18c2e4b60008",
+    "profile_id": "finance",
+    "history_id": "738460",
+    "message_id_header": "<c30f18c2e4b60008@gusto.com>",
+    "in_reply_to": null,
+    "references": [],
+    "thread_position": 1,
+    "thread_length": 1,
+    "from": {
+      "name": "Gusto Research",
+      "email": "insights@gusto.com"
+    },
+    "to": [
+      {
+        "name": "Aditi Sharma",
+        "email": "aditi.sharma@northwindrobotics.com"
+      }
+    ],
+    "cc": [],
+    "bcc": [],
+    "delivered_to": "aditi.sharma@northwindrobotics.com",
+    "subject": "Payroll trends: what 50,000 small businesses taught us in H1",
+    "snippet": "Hi Aditi, Every six months we pull anonymized data from the 50,000+ small and mid-size businesses running payroll on Gusto and publish what we're seeing. Here's the H1 2026 edition",
+    "body_text": "Hi Aditi,\n\nEvery six months we pull anonymized data from the 50,000+ small and mid-size businesses running payroll on Gusto and publish what we're seeing. Here's the H1 2026 edition, with a few things that might be relevant to a hardware company like Northwind heading into budget season.\n\n1. Average pay increases have cooled. Median merit increase across our book fell from 4.1% in H1 2025 to 3.4% in H1 2026, the third straight half-year of deceleration. Manufacturing and hardware specifically are running slightly below that at 3.1%, likely reflecting tighter capital markets for hardware-heavy startups.\n\n2. Benefits costs keep climbing faster than wages. Median employer health premium per employee per month is up 9.8% year over year, the steepest increase we've tracked since we started this report in 2019. Companies under 100 employees are absorbing more of that increase than larger companies, since they have less negotiating leverage with carriers.\n\n3. Time-to-fill for skilled technical roles (mechanical engineers, embedded systems, robotics technicians) is averaging 54 days, up from 41 days a year ago. Companies that widened their remote-eligible postings filled roles about 18 days faster on average.\n\n4. Voluntary turnover ticked down to 11.2% annualized, the lowest we've measured since 2021 -- consistent with a cooler overall labor market giving employees fewer reasons to jump.\n\n5. R&D tax credit claims are up sharply among hardware and robotics companies specifically -- 38% of eligible companies in that category claimed the federal credit in their most recent filing, versus 22% two years ago. If you haven't run the numbers on this for Northwind, it's worth 20 minutes with your tax accountant; the credit can offset payroll tax liability directly for pre-profitability companies.\n\n6. Contractor and 1099 usage is up 14% year over year across our book, concentrated in engineering and design roles rather than administrative functions. We think this reflects companies wanting flexibility while capital markets stay uncertain -- easier to scale a contractor relationship up or down than a full-time headcount plan. Worth noting for anyone doing worker classification reviews: state auditors have gotten more aggressive about misclassification enforcement in this same window, so document the independent-contractor factors carefully if your mix is shifting.\n\n7. Multi-state payroll complexity keeps climbing. The average company on our platform now runs payroll across 3.4 states, up from 2.6 three years ago, largely driven by remote hiring. Each additional state adds an average of 40 minutes per pay period in registration and filing overhead until it's automated, which is the single most common reason companies our size cite for finally moving off manual multi-state filing.\n\nWe'll publish the H2 numbers in January. As always, methodology and the full data set (anonymized, aggregated) are available on request if you want to compare Northwind's numbers against the cohort directly.\n\nTake care,\nThe Gusto Research Team",
+    "body_html": "<div style='font-family:Arial'><p>H1 2026 payroll and benefits trends across 50,000+ Gusto companies.</p><p>Read the full breakdown attached below.</p></div>",
+    "date": "2026-07-17T10:00:00-07:00",
+    "internal_date_ms": 1784307600000,
+    "folder": "INBOX",
+    "category": "CATEGORY_PROMOTIONS",
+    "is_unread": false,
+    "is_starred": false,
+    "is_important": false,
+    "user_labels": [],
+    "attachments": [],
+    "calendar_event": null,
+    "extra_headers": {
+      "List-Unsubscribe": "<mailto:unsubscribe@gusto.com?subject=unsubscribe>, <https://gusto.com/unsubscribe?u=h1trends26>",
+      "List-Unsubscribe-Post": "List-Unsubscribe=One-Click",
+      "List-ID": "Gusto Research Digest <bulk.gusto.com>",
+      "Precedence": "bulk",
+      "Feedback-ID": "h1trends26:gusto.com:campaign:gmail",
+      "Return-Path": "<insights@gusto.com>"
+    },
+    "size_estimate": 3724,
+    "meta": {
+      "email_class": "newsletter",
+      "tricky_tags": [],
+      "is_actionable_for_user": false,
+      "action_owner": null,
+      "action_summary": null,
+      "due_date": null,
+      "commitment_made_by_user": null,
+      "commitment_is_conditional": false,
+      "commitment_condition": null,
+      "superseded_by_message_id": null,
+      "notes": null
+    }
+  },
+  {
+    "id": "c30f18c2e4b60009",
+    "thread_id": "c30f18c2e4b60009",
+    "profile_id": "finance",
+    "history_id": "705325",
+    "message_id_header": "<c30f18c2e4b60009@gusto.com>",
+    "in_reply_to": null,
+    "references": [],
+    "thread_position": 1,
+    "thread_length": 1,
+    "from": {
+      "name": "Gusto",
+      "email": "news@gusto.com"
+    },
+    "to": [
+      {
+        "name": "Aditi Sharma",
+        "email": "aditi.sharma@northwindrobotics.com"
+      }
+    ],
+    "cc": [],
+    "bcc": [],
+    "delivered_to": "aditi.sharma@northwindrobotics.com",
+    "subject": "Open enrollment is coming \u2014 is your benefits stack ready?",
+    "snippet": "Open enrollment season starts in Q4. Gusto customers who set up their benefits review by September see 30% fewer employee questions during enrollment week. Book a 20-minute readine",
+    "body_text": "Open enrollment season starts in Q4. Gusto customers who set up their benefits review by September see 30% fewer employee questions during enrollment week. Book a 20-minute readiness check.",
+    "body_html": "<div><p>Open enrollment season starts in Q4. Book a readiness check.</p></div>",
+    "date": "2026-06-24T09:45:00-07:00",
+    "internal_date_ms": 1782319500000,
+    "folder": "INBOX",
+    "category": "CATEGORY_PROMOTIONS",
+    "is_unread": false,
+    "is_starred": false,
+    "is_important": false,
+    "user_labels": [],
+    "attachments": [],
+    "calendar_event": null,
+    "extra_headers": {
+      "Return-Path": "<news@gusto.com>"
+    },
+    "size_estimate": 779,
+    "meta": {
+      "email_class": "promotional",
+      "tricky_tags": [],
+      "is_actionable_for_user": false,
+      "action_owner": null,
+      "action_summary": null,
+      "due_date": null,
+      "commitment_made_by_user": null,
+      "commitment_is_conditional": false,
+      "commitment_condition": null,
+      "superseded_by_message_id": null,
+      "notes": null
+    }
+  },
+  {
+    "id": "c30f18c2e4b60010",
+    "thread_id": "c30f18c2e4b60010",
+    "profile_id": "finance",
+    "history_id": "738360",
+    "message_id_header": "<c30f18c2e4b60010@carta.com>",
+    "in_reply_to": null,
+    "references": [],
+    "thread_position": 1,
+    "thread_length": 1,
+    "from": {
+      "name": "Carta",
+      "email": "notifications@carta.com"
+    },
+    "to": [
+      {
+        "name": "Aditi Sharma",
+        "email": "aditi.sharma@northwindrobotics.com"
+      }
+    ],
+    "cc": [],
+    "bcc": [],
+    "delivered_to": "aditi.sharma@northwindrobotics.com",
+    "subject": "New: Carta 409A valuations in half the time",
+    "snippet": "Carta's new 409A workflow pulls your cap table and financials automatically, cutting typical turnaround from 10 business days to 5. No extra cost for existing 409A customers.",
+    "body_text": "Carta's new 409A workflow pulls your cap table and financials automatically, cutting typical turnaround from 10 business days to 5. No extra cost for existing 409A customers.",
+    "body_html": "<div><p>Carta 409A valuations, now in half the time.</p></div>",
+    "date": "2026-07-17T08:20:00-07:00",
+    "internal_date_ms": 1784301600000,
+    "folder": "INBOX",
+    "category": "CATEGORY_PROMOTIONS",
+    "is_unread": false,
+    "is_starred": false,
+    "is_important": false,
+    "user_labels": [],
+    "attachments": [],
+    "calendar_event": null,
+    "extra_headers": {
+      "Return-Path": "<notifications@carta.com>"
+    },
+    "size_estimate": 748,
+    "meta": {
+      "email_class": "promotional",
+      "tricky_tags": [],
+      "is_actionable_for_user": false,
+      "action_owner": null,
+      "action_summary": null,
+      "due_date": null,
+      "commitment_made_by_user": null,
+      "commitment_is_conditional": false,
+      "commitment_condition": null,
+      "superseded_by_message_id": null,
+      "notes": null
+    }
+  },
+  {
+    "id": "c30f18c2e4b60011",
+    "thread_id": "c30f18c2e4b60011",
+    "profile_id": "finance",
+    "history_id": "770020",
+    "message_id_header": "<c30f18c2e4b60011@carta.com>",
+    "in_reply_to": null,
+    "references": [],
+    "thread_position": 1,
+    "thread_length": 1,
+    "from": {
+      "name": "Carta",
+      "email": "billing@carta.com"
+    },
+    "to": [
+      {
+        "name": "Aditi Sharma",
+        "email": "aditi.sharma@northwindrobotics.com"
+      }
+    ],
+    "cc": [],
+    "bcc": [],
+    "delivered_to": "aditi.sharma@northwindrobotics.com",
+    "subject": "Action required: your Carta plan renews in 5 days",
+    "snippet": "Hi Aditi, Northwind Robotics' Carta Launch plan (cap table management + 409A) is set to renew on August 13 at $1,800/quarter, billed to the card ending in 4471. If your headcount o",
+    "body_text": "Hi Aditi,\n\nNorthwind Robotics' Carta Launch plan (cap table management + 409A) is set to renew on August 13 at $1,800/quarter, billed to the card ending in 4471. If your headcount or option pool has changed materially since your last valuation, we recommend refreshing your 409A before renewal to keep your strike prices defensible.\n\nNo action needed if everything looks right \u2014 the renewal will process automatically. To review your plan or update billing, log in to your Carta account.\n\n\u2014 Carta Billing",
+    "body_html": "<div style='font-family:Arial;border:1px solid #eee;padding:16px'><h3 style='color:#5b2a86'>Your Carta plan renews soon</h3><p>Northwind Robotics' Launch plan renews August 13 at $1,800/quarter.</p><p><a href='https://app.carta.com/billing' style='background:#5b2a86;color:#fff;padding:8px 16px;text-decoration:none'>Review plan</a></p></div>",
+    "date": "2026-08-08T08:00:00-07:00",
+    "internal_date_ms": 1786201200000,
+    "folder": "INBOX",
+    "category": "CATEGORY_PROMOTIONS",
+    "is_unread": true,
+    "is_starred": true,
+    "is_important": true,
+    "user_labels": [
+      "Label_4412"
+    ],
+    "attachments": [],
+    "calendar_event": null,
+    "extra_headers": {
+      "Return-Path": "<billing@carta.com>"
+    },
+    "size_estimate": 1362,
+    "meta": {
+      "email_class": "promotional",
+      "tricky_tags": [],
+      "is_actionable_for_user": true,
+      "action_owner": "aditi.sharma@northwindrobotics.com",
+      "action_summary": "Confirm the Carta Launch plan renewal (Aug 13, $1,800/quarter) or update billing before it auto-charges.",
+      "due_date": "2026-08-13",
+      "commitment_made_by_user": null,
+      "commitment_is_conditional": false,
+      "commitment_condition": null,
+      "superseded_by_message_id": null,
+      "notes": "Genuine renewal notice dressed up in marketing styling \u2014 one of the two B3 records that actually matters."
+    }
+  },
+  {
+    "id": "c30f18c2e4b60012",
+    "thread_id": "c30f18c2e4b60012",
+    "profile_id": "finance",
+    "history_id": "739850",
+    "message_id_header": "<c30f18c2e4b60012@brex.com>",
+    "in_reply_to": null,
+    "references": [],
+    "thread_position": 1,
+    "thread_length": 1,
+    "from": {
+      "name": "Brex",
+      "email": "product@brex.com"
+    },
+    "to": [
+      {
+        "name": "Aditi Sharma",
+        "email": "aditi.sharma@northwindrobotics.com"
+      }
+    ],
+    "cc": [],
+    "bcc": [],
+    "delivered_to": "aditi.sharma@northwindrobotics.com",
+    "subject": "Introducing Brex Empower: AI-powered spend controls",
+    "snippet": "Brex Empower auto-categorizes spend and flags out-of-policy transactions before your card statement closes, not after. Available now for all Brex customers at no extra cost.",
+    "body_text": "Brex Empower auto-categorizes spend and flags out-of-policy transactions before your card statement closes, not after. Available now for all Brex customers at no extra cost.",
+    "body_html": "<div><p>Brex Empower: AI-powered spend controls, live now.</p></div>",
+    "date": "2026-07-18T09:10:00-07:00",
+    "internal_date_ms": 1784391000000,
+    "folder": "INBOX",
+    "category": "CATEGORY_PROMOTIONS",
+    "is_unread": false,
+    "is_starred": false,
+    "is_important": false,
+    "user_labels": [],
+    "attachments": [],
+    "calendar_event": null,
+    "extra_headers": {
+      "Return-Path": "<product@brex.com>"
+    },
+    "size_estimate": 753,
+    "meta": {
+      "email_class": "promotional",
+      "tricky_tags": [],
+      "is_actionable_for_user": false,
+      "action_owner": null,
+      "action_summary": null,
+      "due_date": null,
+      "commitment_made_by_user": null,
+      "commitment_is_conditional": false,
+      "commitment_condition": null,
+      "superseded_by_message_id": null,
+      "notes": null
+    }
+  },
+  {
+    "id": "c30f18c2e4b60013",
+    "thread_id": "c30f18c2e4b60013",
+    "profile_id": "finance",
+    "history_id": "708140",
+    "message_id_header": "<c30f18c2e4b60013@mercury.com>",
+    "in_reply_to": null,
+    "references": [],
+    "thread_position": 1,
+    "thread_length": 1,
+    "from": {
+      "name": "Mercury",
+      "email": "news@mercury.com"
+    },
+    "to": [
+      {
+        "name": "Aditi Sharma",
+        "email": "aditi.sharma@northwindrobotics.com"
+      }
+    ],
+    "cc": [],
+    "bcc": [],
+    "delivered_to": "aditi.sharma@northwindrobotics.com",
+    "subject": "Mercury Treasury: now earning 4.35% APY on idle cash",
+    "snippet": "Mercury Treasury now offers 4.35% APY on cash you're not using this quarter, with same-day liquidity. No lockups, no minimums beyond your existing account.",
+    "body_text": "Mercury Treasury now offers 4.35% APY on cash you're not using this quarter, with same-day liquidity. No lockups, no minimums beyond your existing account.",
+    "body_html": "<div><p>Mercury Treasury: 4.35% APY, same-day liquidity.</p></div>",
+    "date": "2026-06-26T08:40:00-07:00",
+    "internal_date_ms": 1782488400000,
+    "folder": "INBOX",
+    "category": "CATEGORY_PROMOTIONS",
+    "is_unread": false,
+    "is_starred": false,
+    "is_important": false,
+    "user_labels": [],
+    "attachments": [],
+    "calendar_event": null,
+    "extra_headers": {
+      "Return-Path": "<news@mercury.com>"
+    },
+    "size_estimate": 733,
+    "meta": {
+      "email_class": "promotional",
+      "tricky_tags": [],
+      "is_actionable_for_user": false,
+      "action_owner": null,
+      "action_summary": null,
+      "due_date": null,
+      "commitment_made_by_user": null,
+      "commitment_is_conditional": false,
+      "commitment_condition": null,
+      "superseded_by_message_id": null,
+      "notes": null
+    }
+  },
+  {
+    "id": "c30f18c2e4b60014",
+    "thread_id": "c30f18c2e4b60014",
+    "profile_id": "finance",
+    "history_id": "742805",
+    "message_id_header": "<c30f18c2e4b60014@stripe.com>",
+    "in_reply_to": null,
+    "references": [],
+    "thread_position": 1,
+    "thread_length": 1,
+    "from": {
+      "name": "Stripe",
+      "email": "product@stripe.com"
+    },
+    "to": [
+      {
+        "name": "Aditi Sharma",
+        "email": "aditi.sharma@northwindrobotics.com"
+      }
+    ],
+    "cc": [],
+    "bcc": [],
+    "delivered_to": "aditi.sharma@northwindrobotics.com",
+    "subject": "What's new in Stripe Billing: Q3 2026",
+    "snippet": "This quarter's Stripe Billing updates: usage-based pricing now supports tiered graduated pricing with a single API call, dunning emails can be customized per customer segment, and ",
+    "body_text": "This quarter's Stripe Billing updates: usage-based pricing now supports tiered graduated pricing with a single API call, dunning emails can be customized per customer segment, and revenue recognition schedules export directly to NetSuite and QuickBooks. Full changelog and migration notes are on the Stripe blog.",
+    "body_html": "<div><p>Q3 2026 Stripe Billing changelog: tiered pricing, custom dunning, NetSuite export.</p></div>",
+    "date": "2026-07-20T10:25:00-07:00",
+    "internal_date_ms": 1784568300000,
+    "folder": "INBOX",
+    "category": "CATEGORY_UPDATES",
+    "is_unread": false,
+    "is_starred": false,
+    "is_important": false,
+    "user_labels": [],
+    "attachments": [],
+    "calendar_event": null,
+    "extra_headers": {
+      "List-Unsubscribe": "<mailto:unsubscribe@stripe.com?subject=unsubscribe>, <https://stripe.com/unsubscribe?u=billingq3>",
+      "List-Unsubscribe-Post": "List-Unsubscribe=One-Click",
+      "List-ID": "Stripe Product Updates <bulk.stripe.com>",
+      "Precedence": "bulk",
+      "Feedback-ID": "billingq3:stripe.com:campaign:gmail",
+      "Return-Path": "<product@stripe.com>"
+    },
+    "size_estimate": 924,
+    "meta": {
+      "email_class": "newsletter",
+      "tricky_tags": [],
+      "is_actionable_for_user": false,
+      "action_owner": null,
+      "action_summary": null,
+      "due_date": null,
+      "commitment_made_by_user": null,
+      "commitment_is_conditional": false,
+      "commitment_condition": null,
+      "superseded_by_message_id": null,
+      "notes": null
+    }
+  },
+  {
+    "id": "c30f18c2e4b60015",
+    "thread_id": "c30f18c2e4b60015",
+    "profile_id": "finance",
+    "history_id": "744175",
+    "message_id_header": "<c30f18c2e4b60015@avalara.com>",
+    "in_reply_to": null,
+    "references": [],
+    "thread_position": 1,
+    "thread_length": 1,
+    "from": {
+      "name": "Avalara",
+      "email": "insights@avalara.com"
+    },
+    "to": [
+      {
+        "name": "Aditi Sharma",
+        "email": "aditi.sharma@northwindrobotics.com"
+      }
+    ],
+    "cc": [],
+    "bcc": [],
+    "delivered_to": "aditi.sharma@northwindrobotics.com",
+    "subject": "Are you ready for 2026 economic nexus changes?",
+    "snippet": "Six states have adjusted their economic nexus thresholds for 2026, including two that dropped the transaction-count test entirely and now rely on revenue alone. If Northwind Roboti",
+    "body_text": "Six states have adjusted their economic nexus thresholds for 2026, including two that dropped the transaction-count test entirely and now rely on revenue alone. If Northwind Robotics ships hardware into Texas, Illinois, or Washington, it's worth a quick nexus study \u2014 thresholds moved enough this year to change filing obligations for companies just under $500K in a given state. Details on each state's new rule in the attached-to-web guide.",
+    "body_html": "<div><p>Six states adjusted economic nexus thresholds for 2026.</p></div>",
+    "date": "2026-07-21T09:15:00-07:00",
+    "internal_date_ms": 1784650500000,
+    "folder": "INBOX",
+    "category": "CATEGORY_UPDATES",
+    "is_unread": false,
+    "is_starred": false,
+    "is_important": false,
+    "user_labels": [],
+    "attachments": [],
+    "calendar_event": null,
+    "extra_headers": {
+      "List-Unsubscribe": "<mailto:unsubscribe@avalara.com?subject=unsubscribe>, <https://avalara.com/unsubscribe?u=nexus2026>",
+      "List-Unsubscribe-Post": "List-Unsubscribe=One-Click",
+      "List-ID": "Avalara Tax Changes Digest <bulk.avalara.com>",
+      "Precedence": "bulk",
+      "Feedback-ID": "nexus2026:avalara.com:campaign:gmail",
+      "Return-Path": "<insights@avalara.com>"
+    },
+    "size_estimate": 1029,
+    "meta": {
+      "email_class": "newsletter",
+      "tricky_tags": [],
+      "is_actionable_for_user": false,
+      "action_owner": null,
+      "action_summary": null,
+      "due_date": null,
+      "commitment_made_by_user": null,
+      "commitment_is_conditional": false,
+      "commitment_condition": null,
+      "superseded_by_message_id": null,
+      "notes": null
+    }
+  },
+  {
+    "id": "c30f18c2e4b60016",
+    "thread_id": "c30f18c2e4b60016",
+    "profile_id": "finance",
+    "history_id": "712480",
+    "message_id_header": "<c30f18c2e4b60016@avalara.com>",
+    "in_reply_to": null,
+    "references": [],
+    "thread_position": 1,
+    "thread_length": 1,
+    "from": {
+      "name": "Avalara Events",
+      "email": "events@avalara.com"
+    },
+    "to": [
+      {
+        "name": "Aditi Sharma",
+        "email": "aditi.sharma@northwindrobotics.com"
+      }
+    ],
+    "cc": [],
+    "bcc": [],
+    "delivered_to": "aditi.sharma@northwindrobotics.com",
+    "subject": "Webinar: Multi-state sales tax for scaling hardware companies",
+    "snippet": "Free 30-minute webinar August 5, 11am PT: multi-state sales tax pitfalls for hardware and robotics companies crossing $10M in revenue. Register on the Avalara events page.",
+    "body_text": "Free 30-minute webinar August 5, 11am PT: multi-state sales tax pitfalls for hardware and robotics companies crossing $10M in revenue. Register on the Avalara events page.",
+    "body_html": "<div><p>Free webinar: multi-state sales tax for hardware companies. Aug 5, 11am PT.</p></div>",
+    "date": "2026-06-29T09:00:00-07:00",
+    "internal_date_ms": 1782748800000,
+    "folder": "INBOX",
+    "category": "CATEGORY_PROMOTIONS",
+    "is_unread": false,
+    "is_starred": false,
+    "is_important": false,
+    "user_labels": [],
+    "attachments": [],
+    "calendar_event": null,
+    "extra_headers": {
+      "Return-Path": "<events@avalara.com>"
+    },
+    "size_estimate": 776,
+    "meta": {
+      "email_class": "promotional",
+      "tricky_tags": [],
+      "is_actionable_for_user": false,
+      "action_owner": null,
+      "action_summary": null,
+      "due_date": null,
+      "commitment_made_by_user": null,
+      "commitment_is_conditional": false,
+      "commitment_condition": null,
+      "superseded_by_message_id": null,
+      "notes": null
+    }
+  },
+  {
+    "id": "c30f18c2e4b60017",
+    "thread_id": "c30f18c2e4b60017",
+    "profile_id": "finance",
+    "history_id": "745390",
+    "message_id_header": "<c30f18c2e4b60017@adp.com>",
+    "in_reply_to": null,
+    "references": [],
+    "thread_position": 1,
+    "thread_length": 1,
+    "from": {
+      "name": "ADP",
+      "email": "insights@adp.com"
+    },
+    "to": [
+      {
+        "name": "Aditi Sharma",
+        "email": "aditi.sharma@northwindrobotics.com"
+      }
+    ],
+    "cc": [],
+    "bcc": [],
+    "delivered_to": "aditi.sharma@northwindrobotics.com",
+    "subject": "The hidden cost of manual payroll compliance",
+    "snippet": "Manual payroll compliance costs the average 50-person company an estimated $42,000 a year once you count penalty risk, HR time, and multi-state filing complexity. Our latest guide ",
+    "body_text": "Manual payroll compliance costs the average 50-person company an estimated $42,000 a year once you count penalty risk, HR time, and multi-state filing complexity. Our latest guide breaks down where that number comes from and what automated compliance actually saves. Worth 10 minutes if you run payroll across more than one state.",
+    "body_html": "<div><p>Manual payroll compliance costs ~$42,000/year for a 50-person company.</p></div>",
+    "date": "2026-07-22T08:30:00-04:00",
+    "internal_date_ms": 1784723400000,
+    "folder": "INBOX",
+    "category": "CATEGORY_PROMOTIONS",
+    "is_unread": false,
+    "is_starred": false,
+    "is_important": false,
+    "user_labels": [],
+    "attachments": [],
+    "calendar_event": null,
+    "extra_headers": {
+      "Return-Path": "<insights@adp.com>"
+    },
+    "size_estimate": 930,
+    "meta": {
+      "email_class": "promotional",
+      "tricky_tags": [],
+      "is_actionable_for_user": false,
+      "action_owner": null,
+      "action_summary": null,
+      "due_date": null,
+      "commitment_made_by_user": null,
+      "commitment_is_conditional": false,
+      "commitment_condition": null,
+      "superseded_by_message_id": null,
+      "notes": null
+    }
+  },
+  {
+    "id": "c30f18c2e4b60018",
+    "thread_id": "c30f18c2e4b60018",
+    "profile_id": "finance",
+    "history_id": "746710",
+    "message_id_header": "<c30f18c2e4b60018@cfodive.com>",
+    "in_reply_to": null,
+    "references": [],
+    "thread_position": 1,
+    "thread_length": 1,
+    "from": {
+      "name": "CFO Dive",
+      "email": "briefing@cfodive.com"
+    },
+    "to": [
+      {
+        "name": "Aditi Sharma",
+        "email": "aditi.sharma@northwindrobotics.com"
+      }
+    ],
+    "cc": [],
+    "bcc": [],
+    "delivered_to": "aditi.sharma@northwindrobotics.com",
+    "subject": "CFO Dive Daily Briefing: Fed holds rates, manufacturers brace for Q4",
+    "snippet": "CFO DIVE DAILY BRIEFING \u2014 Thursday, July 23, 2026 TOP STORY: Fed holds rates steady at 4.25-4.50%, signals no cuts before Q1 2027 The Federal Reserve held its benchmark rate unchan",
+    "body_text": "CFO DIVE DAILY BRIEFING \u2014 Thursday, July 23, 2026\n\nTOP STORY: Fed holds rates steady at 4.25-4.50%, signals no cuts before Q1 2027\nThe Federal Reserve held its benchmark rate unchanged for the fourth consecutive meeting, with Chair language suggesting the committee wants two more quarters of cooling inflation data before considering cuts. For finance leaders managing credit facilities, this means budgeting for current borrowing costs through at least early 2027 rather than assuming relief. Several regional banks have already signaled they will hold commercial lending rates flat rather than move ahead of the Fed.\n\nMANUFACTURING: Hardware and robotics startups face tighter venture debt terms\nA survey of 40 venture debt providers found average covenant packages have tightened for hardware-heavy borrowers specifically, with more lenders requiring minimum cash runway covenants of 9 months (up from 6) and quarterly board reporting requirements as a condition of the facility. CFOs at pre-Series-C hardware companies report longer diligence timelines as a result -- often 8-10 weeks versus 4-6 for software peers.\n\nBUDGET SEASON: Q4 planning starts earlier this year\nNearly 60% of finance leaders surveyed say they began FY27 budget planning in July this year, up from 44% who started that early last year, citing macro uncertainty as the driver. The most common change: building three scenarios (base, downside, upside) rather than one, and revisiting the downside case monthly through year-end rather than treating it as a one-time exercise.\n\nAUDIT & COMPLIANCE: PCAOB flags rising deficiency rate in smaller audit firms\nThe PCAOB's latest inspection report found a higher-than-average deficiency rate among audit firms serving companies under $100M in revenue, particularly around revenue recognition testing and related-party disclosures. Boards and audit committees are being encouraged to ask their auditors directly about recent inspection results.\n\nQUICK HITS\n- R&D tax credit refund claims are running 6-8 weeks slower than last year at the IRS due to staffing cuts\n- Expensify, Ramp, and Brex have all shipped AI-based duplicate-spend detection in the last 60 days\n- A growing share of Series A/B companies are moving treasury cash into money-market funds yielding 4.2-4.4% rather than sitting in non-interest-bearing checking\n- Insurance brokers report commercial property and casualty renewal rates up 6-9% for manufacturers with on-site assembly or testing operations, the fourth consecutive year of increases in that segment\n- A growing number of finance teams are consolidating their vendor stack ahead of year-end, citing both cost control and a desire to reduce the number of systems in scope for SOC 2 and audit testing\n\nDEAL WATCH\nThree notable debt and equity raises this week in the industrial and hardware space, all closing on terms roughly 50-75 basis points tighter than a year ago. Bankers we spoke with expect that gap to persist through at least the next two Fed meetings given the current rate guidance.\n\nThat's it for today. See you tomorrow.\n\u2014 The CFO Dive Editorial Team",
+    "body_html": "<div style='font-family:Georgia'><h3>CFO Dive Daily Briefing</h3><p>Fed holds rates steady; venture debt tightens for hardware borrowers; budget season starts early.</p></div>",
+    "date": "2026-07-23T06:30:00-04:00",
+    "internal_date_ms": 1784802600000,
+    "folder": "INBOX",
+    "category": "CATEGORY_UPDATES",
+    "is_unread": false,
+    "is_starred": false,
+    "is_important": true,
+    "user_labels": [
+      "Label_4413"
+    ],
+    "attachments": [],
+    "calendar_event": null,
+    "extra_headers": {
+      "List-Unsubscribe": "<mailto:unsubscribe@cfodive.com?subject=unsubscribe>, <https://cfodive.com/unsubscribe?u=briefing0723>",
+      "List-Unsubscribe-Post": "List-Unsubscribe=One-Click",
+      "List-ID": "CFO Dive Daily Briefing <bulk.cfodive.com>",
+      "Precedence": "bulk",
+      "Feedback-ID": "briefing0723:cfodive.com:campaign:gmail",
+      "Return-Path": "<briefing@cfodive.com>"
+    },
+    "size_estimate": 3800,
+    "meta": {
+      "email_class": "newsletter",
+      "tricky_tags": [],
+      "is_actionable_for_user": false,
+      "action_owner": null,
+      "action_summary": null,
+      "due_date": null,
+      "commitment_made_by_user": null,
+      "commitment_is_conditional": false,
+      "commitment_condition": null,
+      "superseded_by_message_id": null,
+      "notes": null
+    }
+  },
+  {
+    "id": "c30f18c2e4b60019",
+    "thread_id": "c30f18c2e4b60019",
+    "profile_id": "finance",
+    "history_id": "715045",
+    "message_id_header": "<c30f18c2e4b60019@cfodive.com>",
+    "in_reply_to": null,
+    "references": [],
+    "thread_position": 1,
+    "thread_length": 1,
+    "from": {
+      "name": "CFO Dive",
+      "email": "briefing@cfodive.com"
+    },
+    "to": [
+      {
+        "name": "Aditi Sharma",
+        "email": "aditi.sharma@northwindrobotics.com"
+      }
+    ],
+    "cc": [],
+    "bcc": [],
+    "delivered_to": "aditi.sharma@northwindrobotics.com",
+    "subject": "Weekly Roundup: Manufacturing PMI slips to 48.2",
+    "snippet": "This week: ISM Manufacturing PMI slipped to 48.2, the third month below the 50 expansion line. New orders and employment sub-indices both softened. Separately, a survey of manufact",
+    "body_text": "This week: ISM Manufacturing PMI slipped to 48.2, the third month below the 50 expansion line. New orders and employment sub-indices both softened. Separately, a survey of manufacturing CFOs found 41% are delaying capex decisions until after Q3 results are in. Full roundup with five more stories on the CFO Dive site.",
+    "body_html": "<div><p>Weekly Roundup: Manufacturing PMI slips to 48.2.</p></div>",
+    "date": "2026-07-01T06:45:00-04:00",
+    "internal_date_ms": 1782902700000,
+    "folder": "INBOX",
+    "category": "CATEGORY_UPDATES",
+    "is_unread": false,
+    "is_starred": false,
+    "is_important": false,
+    "user_labels": [],
+    "attachments": [],
+    "calendar_event": null,
+    "extra_headers": {
+      "List-Unsubscribe": "<mailto:unsubscribe@cfodive.com?subject=unsubscribe>, <https://cfodive.com/unsubscribe?u=weekly0701>",
+      "List-Unsubscribe-Post": "List-Unsubscribe=One-Click",
+      "List-ID": "CFO Dive Weekly Roundup <bulk.cfodive.com>",
+      "Precedence": "bulk",
+      "Feedback-ID": "weekly0701:cfodive.com:campaign:gmail",
+      "Return-Path": "<briefing@cfodive.com>"
+    },
+    "size_estimate": 896,
+    "meta": {
+      "email_class": "newsletter",
+      "tricky_tags": [],
+      "is_actionable_for_user": false,
+      "action_owner": null,
+      "action_summary": null,
+      "due_date": null,
+      "commitment_made_by_user": null,
+      "commitment_is_conditional": false,
+      "commitment_condition": null,
+      "superseded_by_message_id": null,
+      "notes": null
+    }
+  },
+  {
+    "id": "c30f18c2e4b60020",
+    "thread_id": "c30f18c2e4b60020",
+    "profile_id": "finance",
+    "history_id": "748150",
+    "message_id_header": "<c30f18c2e4b60020@cfodive.com>",
+    "in_reply_to": null,
+    "references": [],
+    "thread_position": 1,
+    "thread_length": 1,
+    "from": {
+      "name": "CFO Dive",
+      "email": "briefing@cfodive.com"
+    },
+    "to": [
+      {
+        "name": "Aditi Sharma",
+        "email": "aditi.sharma@northwindrobotics.com"
+      }
+    ],
+    "cc": [],
+    "bcc": [],
+    "delivered_to": "aditi.sharma@northwindrobotics.com",
+    "subject": "5 metrics your board actually cares about",
+    "snippet": "We asked 30 board members at pre-IPO companies which finance metrics they actually read closely versus skim. The top five: cash runway in months, gross margin trend (not just the n",
+    "body_text": "We asked 30 board members at pre-IPO companies which finance metrics they actually read closely versus skim. The top five: cash runway in months, gross margin trend (not just the number), net revenue retention, burn multiple, and headcount plan versus actual. Notably absent from the top five: EBITDA, which most board members said they trust the CFO to have already normalized before it hits the deck.",
+    "body_html": "<div><p>5 metrics your board actually reads closely, per 30 board members surveyed.</p></div>",
+    "date": "2026-07-24T06:30:00-04:00",
+    "internal_date_ms": 1784889000000,
+    "folder": "INBOX",
+    "category": "CATEGORY_UPDATES",
+    "is_unread": false,
+    "is_starred": false,
+    "is_important": false,
+    "user_labels": [],
+    "attachments": [],
+    "calendar_event": null,
+    "extra_headers": {
+      "List-Unsubscribe": "<mailto:unsubscribe@cfodive.com?subject=unsubscribe>, <https://cfodive.com/unsubscribe?u=briefing0724>",
+      "List-Unsubscribe-Post": "List-Unsubscribe=One-Click",
+      "List-ID": "CFO Dive Daily Briefing <bulk.cfodive.com>",
+      "Precedence": "bulk",
+      "Feedback-ID": "briefing0724:cfodive.com:campaign:gmail",
+      "Return-Path": "<briefing@cfodive.com>"
+    },
+    "size_estimate": 1007,
+    "meta": {
+      "email_class": "newsletter",
+      "tricky_tags": [],
+      "is_actionable_for_user": false,
+      "action_owner": null,
+      "action_summary": null,
+      "due_date": null,
+      "commitment_made_by_user": null,
+      "commitment_is_conditional": false,
+      "commitment_condition": null,
+      "superseded_by_message_id": null,
+      "notes": null
+    }
+  },
+  {
+    "id": "c30f18c2e4b60021",
+    "thread_id": "c30f18c2e4b60021",
+    "profile_id": "finance",
+    "history_id": "748180",
+    "message_id_header": "<c30f18c2e4b60021@wsj.com>",
+    "in_reply_to": null,
+    "references": [],
+    "thread_position": 1,
+    "thread_length": 1,
+    "from": {
+      "name": "WSJ CFO Journal",
+      "email": "cfojournal@wsj.com"
+    },
+    "to": [
+      {
+        "name": "Aditi Sharma",
+        "email": "aditi.sharma@northwindrobotics.com"
+      }
+    ],
+    "cc": [],
+    "bcc": [],
+    "delivered_to": "aditi.sharma@northwindrobotics.com",
+    "subject": "WSJ CFO Journal: Private credit courts mid-market manufacturers",
+    "snippet": "Private credit funds, flush with capital after a slow M&A year, are increasingly courting mid-market manufacturers directly rather than waiting for bank syndicate deals. Terms are ",
+    "body_text": "Private credit funds, flush with capital after a slow M&A year, are increasingly courting mid-market manufacturers directly rather than waiting for bank syndicate deals. Terms are competitive with traditional commercial banks on rate but often come with fewer covenants and faster close timelines -- sometimes under 30 days versus 60-90 for a bank facility. The tradeoff, several CFOs told the Journal, is less relationship flexibility if the company needs a covenant waiver down the line. Full story and CFO interviews in today's edition.",
+    "body_html": "<div style='font-family:Georgia'><p>Private credit funds are courting mid-market manufacturers directly.</p></div>",
+    "date": "2026-07-24T07:00:00-04:00",
+    "internal_date_ms": 1784890800000,
+    "folder": "INBOX",
+    "category": "CATEGORY_UPDATES",
+    "is_unread": false,
+    "is_starred": false,
+    "is_important": true,
+    "user_labels": [
+      "Label_4413"
+    ],
+    "attachments": [],
+    "calendar_event": null,
+    "extra_headers": {
+      "List-Unsubscribe": "<mailto:unsubscribe@wsj.com?subject=unsubscribe>, <https://wsj.com/unsubscribe?u=cfoj0724>",
+      "List-Unsubscribe-Post": "List-Unsubscribe=One-Click",
+      "List-ID": "WSJ CFO Journal <bulk.wsj.com>",
+      "Precedence": "bulk",
+      "Feedback-ID": "cfoj0724:wsj.com:campaign:gmail",
+      "Return-Path": "<cfojournal@wsj.com>"
+    },
+    "size_estimate": 1165,
+    "meta": {
+      "email_class": "newsletter",
+      "tricky_tags": [],
+      "is_actionable_for_user": false,
+      "action_owner": null,
+      "action_summary": null,
+      "due_date": null,
+      "commitment_made_by_user": null,
+      "commitment_is_conditional": false,
+      "commitment_condition": null,
+      "superseded_by_message_id": null,
+      "notes": null
+    }
+  },
+  {
+    "id": "c30f18c2e4b60022",
+    "thread_id": "c30f18c2e4b60022",
+    "profile_id": "finance",
+    "history_id": "718060",
+    "message_id_header": "<c30f18c2e4b60022@wsj.com>",
+    "in_reply_to": null,
+    "references": [],
+    "thread_position": 1,
+    "thread_length": 1,
+    "from": {
+      "name": "WSJ Membership",
+      "email": "membership@wsj.com"
+    },
+    "to": [
+      {
+        "name": "Aditi Sharma",
+        "email": "aditi.sharma@northwindrobotics.com"
+      }
+    ],
+    "cc": [],
+    "bcc": [],
+    "delivered_to": "aditi.sharma@northwindrobotics.com",
+    "subject": "Your WSJ subscription: renew now and save 40%",
+    "snippet": "Your introductory WSJ rate ends soon. Lock in 40% off the standard rate for another 12 months if you renew before it expires.",
+    "body_text": "Your introductory WSJ rate ends soon. Lock in 40% off the standard rate for another 12 months if you renew before it expires.",
+    "body_html": "<div><p>Renew your WSJ subscription now and save 40%.</p></div>",
+    "date": "2026-07-03T09:00:00-04:00",
+    "internal_date_ms": 1783083600000,
+    "folder": "INBOX",
+    "category": "CATEGORY_UPDATES",
+    "is_unread": false,
+    "is_starred": false,
+    "is_important": false,
+    "user_labels": [],
+    "attachments": [],
+    "calendar_event": null,
+    "extra_headers": {
+      "Return-Path": "<membership@wsj.com>"
+    },
+    "size_estimate": 700,
+    "meta": {
+      "email_class": "promotional",
+      "tricky_tags": [],
+      "is_actionable_for_user": false,
+      "action_owner": null,
+      "action_summary": null,
+      "due_date": null,
+      "commitment_made_by_user": null,
+      "commitment_is_conditional": false,
+      "commitment_condition": null,
+      "superseded_by_message_id": null,
+      "notes": null
+    }
+  },
+  {
+    "id": "c30f18c2e4b60023",
+    "thread_id": "c30f18c2e4b60023",
+    "profile_id": "finance",
+    "history_id": "752515",
+    "message_id_header": "<c30f18c2e4b60023@theledger.io>",
+    "in_reply_to": null,
+    "references": [],
+    "thread_position": 1,
+    "thread_length": 1,
+    "from": {
+      "name": "The Ledger",
+      "email": "hello@theledger.io"
+    },
+    "to": [
+      {
+        "name": "Aditi Sharma",
+        "email": "aditi.sharma@northwindrobotics.com"
+      }
+    ],
+    "cc": [],
+    "bcc": [],
+    "delivered_to": "aditi.sharma@northwindrobotics.com",
+    "subject": "Why more CFOs are ditching spreadsheets for FP&A tools",
+    "snippet": "In this week's Ledger: we talked to eight finance leaders at 30-150 person companies about why they finally moved off Google Sheets for budgeting and forecasting. The common trigge",
+    "body_text": "In this week's Ledger: we talked to eight finance leaders at 30-150 person companies about why they finally moved off Google Sheets for budgeting and forecasting. The common trigger wasn't a specific tool feature -- it was a single bad month where two people had different numbers in a board meeting. Read the full piece, plus our usual roundup of FP&A job openings and a reader question about multi-entity consolidation.",
+    "body_html": "<div><p>Why more CFOs are ditching spreadsheets for FP&A tools.</p></div>",
+    "date": "2026-07-27T07:15:00-04:00",
+    "internal_date_ms": 1785150900000,
+    "folder": "INBOX",
+    "category": "CATEGORY_PROMOTIONS",
+    "is_unread": false,
+    "is_starred": false,
+    "is_important": false,
+    "user_labels": [],
+    "attachments": [],
+    "calendar_event": null,
+    "extra_headers": {
+      "List-Unsubscribe": "<mailto:unsubscribe@theledger.io?subject=unsubscribe>, <https://theledger.io/unsubscribe?u=ledger0727>",
+      "List-Unsubscribe-Post": "List-Unsubscribe=One-Click",
+      "List-ID": "The Ledger <bulk.theledger.io>",
+      "Precedence": "bulk",
+      "Feedback-ID": "ledger0727:theledger.io:campaign:gmail",
+      "Return-Path": "<hello@theledger.io>"
+    },
+    "size_estimate": 1006,
+    "meta": {
+      "email_class": "newsletter",
+      "tricky_tags": [],
+      "is_actionable_for_user": false,
+      "action_owner": null,
+      "action_summary": null,
+      "due_date": null,
+      "commitment_made_by_user": null,
+      "commitment_is_conditional": false,
+      "commitment_condition": null,
+      "superseded_by_message_id": null,
+      "notes": null
+    }
+  },
+  {
+    "id": "c30f18c2e4b60024",
+    "thread_id": "c30f18c2e4b60024",
+    "profile_id": "finance",
+    "history_id": "754140",
+    "message_id_header": "<c30f18c2e4b60024@cfoalliance.org>",
+    "in_reply_to": null,
+    "references": [],
+    "thread_position": 1,
+    "thread_length": 1,
+    "from": {
+      "name": "CFO Alliance",
+      "email": "events@cfoalliance.org"
+    },
+    "to": [
+      {
+        "name": "Aditi Sharma",
+        "email": "aditi.sharma@northwindrobotics.com"
+      }
+    ],
+    "cc": [],
+    "bcc": [],
+    "delivered_to": "aditi.sharma@northwindrobotics.com",
+    "subject": "You're speaking at CFO Alliance Northeast Summit \u2014 details inside",
+    "snippet": "Hi Aditi, Thanks for confirming your spot on the 'Financing Growth in Hardware & Robotics' panel at our Northeast Summit, October 14-15 in Boston. Your session is Day 1, 11:15am-12",
+    "body_text": "Hi Aditi,\n\nThanks for confirming your spot on the 'Financing Growth in Hardware & Robotics' panel at our Northeast Summit, October 14-15 in Boston. Your session is Day 1, 11:15am-12:00pm, Salon C, 45 minutes including audience Q&A.\n\nA few logistics: we need your slides by October 1, and please plan to arrive by 8:15am on the 14th for an AV check. Draft agenda attached \u2014 let us know if your bio needs updating for the program.\n\nLooking forward to having you,\nCFO Alliance Events Team",
+    "body_html": "<div style='font-family:Arial'><p>You're confirmed to speak at the CFO Alliance Northeast Summit, Oct 14-15.</p><p>Session: Financing Growth in Hardware &amp; Robotics, Day 1, 11:15am.</p></div>",
+    "date": "2026-07-28T10:20:00-04:00",
+    "internal_date_ms": 1785248400000,
+    "folder": "INBOX",
+    "category": "CATEGORY_PROMOTIONS",
+    "is_unread": false,
+    "is_starred": true,
+    "is_important": true,
+    "user_labels": [],
+    "attachments": [
+      {
+        "attachment_id": "ANGjdJ_9c3e7712fa04b581d0e2f6a1b8c94de07753a",
+        "filename": "CFO-Alliance-Northeast-Summit-Agenda.pdf",
+        "mime_type": "application/pdf",
+        "size_bytes": 188000,
+        "extracted_text": "CFO Alliance Northeast Summit \u2014 Agenda (Draft v3)\nOctober 14-15, 2026, Boston Marriott Copley Place\n\nDay 1 \u2014 Oct 14\n9:00 Registration & breakfast\n10:00 Opening keynote: The Rate Environment Through 2027\n11:15 Panel: Financing Growth in Hardware & Robotics\n  Speaker: Aditi Sharma, VP Finance, Northwind Robotics \u2014 confirmed\n  Panel topic: extending credit facilities without giving up covenant flexibility\n  Slot: 45 minutes, 11:15am-12:00pm, Salon C\n1:00 Breakout sessions (3 tracks)\n6:00 Networking reception\n\nDay 2 \u2014 Oct 15\n9:00 Workshop: FY27 budget scenario planning\n1:00 Closing keynote\n\nSpeaker logistics: slides due Oct 1, AV check Oct 14 at 8:15am, speaker green room on Mezzanine level."
+      }
+    ],
+    "calendar_event": null,
+    "extra_headers": {
+      "Return-Path": "<events@cfoalliance.org>"
+    },
+    "size_estimate": 251859,
+    "meta": {
+      "email_class": "promotional",
+      "tricky_tags": [],
+      "is_actionable_for_user": true,
+      "action_owner": "aditi.sharma@northwindrobotics.com",
+      "action_summary": "Send speaker slides for the CFO Alliance panel by October 1 and arrive by 8:15am on Oct 14 for AV check.",
+      "due_date": "2026-10-01",
+      "commitment_made_by_user": null,
+      "commitment_is_conditional": false,
+      "commitment_condition": null,
+      "superseded_by_message_id": null,
+      "notes": "Real conference commitment buried in a promotional-styled invite \u2014 the second of the two B3 records that actually matters."
+    }
+  },
+  {
+    "id": "c30f18c2e4b60025",
+    "thread_id": "c30f18c2e4b60025",
+    "profile_id": "finance",
+    "history_id": "755560",
+    "message_id_header": "<c30f18c2e4b60025@argyle.com>",
+    "in_reply_to": null,
+    "references": [],
+    "thread_position": 1,
+    "thread_length": 1,
+    "from": {
+      "name": "Argyle",
+      "email": "webinars@argyle.com"
+    },
+    "to": [
+      {
+        "name": "Aditi Sharma",
+        "email": "aditi.sharma@northwindrobotics.com"
+      }
+    ],
+    "cc": [],
+    "bcc": [],
+    "delivered_to": "aditi.sharma@northwindrobotics.com",
+    "subject": "Webinar: Scaling FP&A Without Scaling Headcount",
+    "snippet": "Free webinar August 6: how three finance teams under 10 people built a full FP&A process without hiring an FP&A analyst. Register at argyle.com/events.",
+    "body_text": "Free webinar August 6: how three finance teams under 10 people built a full FP&A process without hiring an FP&A analyst. Register at argyle.com/events.",
+    "body_html": "<div><p>Webinar: Scaling FP&amp;A Without Scaling Headcount. Aug 6.</p></div>",
+    "date": "2026-07-29T09:00:00-05:00",
+    "internal_date_ms": 1785333600000,
+    "folder": "INBOX",
+    "category": "CATEGORY_PROMOTIONS",
+    "is_unread": false,
+    "is_starred": false,
+    "is_important": false,
+    "user_labels": [],
+    "attachments": [],
+    "calendar_event": null,
+    "extra_headers": {
+      "Return-Path": "<webinars@argyle.com>"
+    },
+    "size_estimate": 740,
+    "meta": {
+      "email_class": "promotional",
+      "tricky_tags": [],
+      "is_actionable_for_user": false,
+      "action_owner": null,
+      "action_summary": null,
+      "due_date": null,
+      "commitment_made_by_user": null,
+      "commitment_is_conditional": false,
+      "commitment_condition": null,
+      "superseded_by_message_id": null,
+      "notes": null
+    }
+  },
+  {
+    "id": "c30f18c2e4b60026",
+    "thread_id": "c30f18c2e4b60026",
+    "profile_id": "finance",
+    "history_id": "722365",
+    "message_id_header": "<c30f18c2e4b60026@corporatefinanceinstitute.com>",
+    "in_reply_to": null,
+    "references": [],
+    "thread_position": 1,
+    "thread_length": 1,
+    "from": {
+      "name": "Corporate Finance Institute",
+      "email": "events@corporatefinanceinstitute.com"
+    },
+    "to": [
+      {
+        "name": "Aditi Sharma",
+        "email": "aditi.sharma@northwindrobotics.com"
+      }
+    ],
+    "cc": [],
+    "bcc": [],
+    "delivered_to": "aditi.sharma@northwindrobotics.com",
+    "subject": "Early bird pricing ends Friday: CFO Leadership Conference",
+    "snippet": "Early bird pricing for the CFO Leadership Conference (Nov 4-5, Chicago) ends this Friday. Save $400 off the standard registration rate if you book before then.",
+    "body_text": "Early bird pricing for the CFO Leadership Conference (Nov 4-5, Chicago) ends this Friday. Save $400 off the standard registration rate if you book before then.",
+    "body_html": "<div><p>Early bird pricing ends Friday \u2014 save $400.</p></div>",
+    "date": "2026-07-06T08:45:00-04:00",
+    "internal_date_ms": 1783341900000,
+    "folder": "INBOX",
+    "category": "CATEGORY_PROMOTIONS",
+    "is_unread": false,
+    "is_starred": false,
+    "is_important": false,
+    "user_labels": [],
+    "attachments": [],
+    "calendar_event": null,
+    "extra_headers": {
+      "Return-Path": "<events@corporatefinanceinstitute.com>"
+    },
+    "size_estimate": 734,
+    "meta": {
+      "email_class": "promotional",
+      "tricky_tags": [],
+      "is_actionable_for_user": false,
+      "action_owner": null,
+      "action_summary": null,
+      "due_date": null,
+      "commitment_made_by_user": null,
+      "commitment_is_conditional": false,
+      "commitment_condition": null,
+      "superseded_by_message_id": null,
+      "notes": null
+    }
+  },
+  {
+    "id": "c30f18c2e4b60027",
+    "thread_id": "c30f18c2e4b60027",
+    "profile_id": "finance",
+    "history_id": "757000",
+    "message_id_header": "<c30f18c2e4b60027@bostonsaasfinance.org>",
+    "in_reply_to": null,
+    "references": [],
+    "thread_position": 1,
+    "thread_length": 1,
+    "from": {
+      "name": "Boston SaaS Finance Meetup",
+      "email": "hello@bostonsaasfinance.org"
+    },
+    "to": [
+      {
+        "name": "Aditi Sharma",
+        "email": "aditi.sharma@northwindrobotics.com"
+      }
+    ],
+    "cc": [],
+    "bcc": [],
+    "delivered_to": "aditi.sharma@northwindrobotics.com",
+    "subject": "Panel Tuesday: Runway Extension Strategies for Hardware Startups",
+    "snippet": "Panel this Tuesday, 6pm, at WeWork Back Bay. Free pizza. RSVP if you're coming.",
+    "body_text": "Panel this Tuesday, 6pm, at WeWork Back Bay. Free pizza. RSVP if you're coming.",
+    "body_html": "<div><p>Panel Tuesday, 6pm, WeWork Back Bay. RSVP if coming.</p></div>",
+    "date": "2026-07-30T10:00:00-04:00",
+    "internal_date_ms": 1785420000000,
+    "folder": "INBOX",
+    "category": "CATEGORY_PROMOTIONS",
+    "is_unread": false,
+    "is_starred": false,
+    "is_important": false,
+    "user_labels": [],
+    "attachments": [],
+    "calendar_event": null,
+    "extra_headers": {
+      "Return-Path": "<hello@bostonsaasfinance.org>"
+    },
+    "size_estimate": 661,
+    "meta": {
+      "email_class": "promotional",
+      "tricky_tags": [],
+      "is_actionable_for_user": false,
+      "action_owner": null,
+      "action_summary": null,
+      "due_date": null,
+      "commitment_made_by_user": null,
+      "commitment_is_conditional": false,
+      "commitment_condition": null,
+      "superseded_by_message_id": null,
+      "notes": null
+    }
+  },
+  {
+    "id": "c30f18c2e4b60028",
+    "thread_id": "c30f18c2e4b60028",
+    "profile_id": "finance",
+    "history_id": "758455",
+    "message_id_header": "<c30f18c2e4b60028@meridiantreasury.com>",
+    "in_reply_to": null,
+    "references": [],
+    "thread_position": 1,
+    "thread_length": 1,
+    "from": {
+      "name": "David Kwan",
+      "email": "david.kwan@meridiantreasury.com"
+    },
+    "to": [
+      {
+        "name": "Aditi Sharma",
+        "email": "aditi.sharma@northwindrobotics.com"
+      }
+    ],
+    "cc": [],
+    "bcc": [],
+    "delivered_to": "aditi.sharma@northwindrobotics.com",
+    "subject": "Aditi \u2014 saw Northwind's Series numbers, let's talk treasury yield",
+    "snippet": "Aditi, Congrats on Northwind Robotics' growth this year \u2014 saw the coverage in a few robotics trade publications. We work with a handful of hardware companies your size on treasury ",
+    "body_text": "Aditi,\n\nCongrats on Northwind Robotics' growth this year \u2014 saw the coverage in a few robotics trade publications. We work with a handful of hardware companies your size on treasury management, and most of them were sitting on idle cash earning under 1% before we talked. Current yields we're placing for similar companies are running 4.4-4.6% with same-week liquidity.\n\nWorth 15 minutes to see if there's a fit? Happy to work around your schedule.\n\nBest,\nDavid Kwan\nMeridian Treasury Advisors",
+    "body_html": null,
+    "date": "2026-07-31T10:15:00-04:00",
+    "internal_date_ms": 1785507300000,
+    "folder": "INBOX",
+    "category": "CATEGORY_PROMOTIONS",
+    "is_unread": false,
+    "is_starred": false,
+    "is_important": false,
+    "user_labels": [],
+    "attachments": [],
+    "calendar_event": null,
+    "extra_headers": {
+      "X-Mailer": "Apollo.io",
+      "Return-Path": "<david.kwan@meridiantreasury.com>"
+    },
+    "size_estimate": 1006,
+    "meta": {
+      "email_class": "cold_outreach",
+      "tricky_tags": [],
+      "is_actionable_for_user": false,
+      "action_owner": null,
+      "action_summary": null,
+      "due_date": null,
+      "commitment_made_by_user": null,
+      "commitment_is_conditional": false,
+      "commitment_condition": null,
+      "superseded_by_message_id": null,
+      "notes": null
+    }
+  },
+  {
+    "id": "c30f18c2e4b60029",
+    "thread_id": "c30f18c2e4b60029",
+    "profile_id": "finance",
+    "history_id": "725350",
+    "message_id_header": "<c30f18c2e4b60029@coreledger-erp.com>",
+    "in_reply_to": null,
+    "references": [],
+    "thread_position": 1,
+    "thread_length": 1,
+    "from": {
+      "name": "Sarah Byrne",
+      "email": "sarah.byrne@coreledger-erp.com"
+    },
+    "to": [
+      {
+        "name": "Aditi Sharma",
+        "email": "aditi.sharma@northwindrobotics.com"
+      }
+    ],
+    "cc": [],
+    "bcc": [],
+    "delivered_to": "aditi.sharma@northwindrobotics.com",
+    "subject": "Northwind Robotics + CoreLedger = a close that takes days, not weeks",
+    "snippet": "Hi Aditi, I work with finance teams at hardware and robotics companies moving off spreadsheets and legacy ERPs. A few of our customers your size (Kestrel Robotics, Fenwick Automati",
+    "body_text": "Hi Aditi,\n\nI work with finance teams at hardware and robotics companies moving off spreadsheets and legacy ERPs. A few of our customers your size (Kestrel Robotics, Fenwick Automation) cut their monthly close from 9 days to 4 within the first two quarters on CoreLedger.\n\nWould a 20-minute call make sense to see if it's worth exploring for Northwind? No pressure either way.\n\nSarah Byrne\nCoreLedger ERP",
+    "body_html": null,
+    "date": "2026-07-08T09:30:00-05:00",
+    "internal_date_ms": 1783521000000,
+    "folder": "INBOX",
+    "category": "CATEGORY_PROMOTIONS",
+    "is_unread": false,
+    "is_starred": false,
+    "is_important": false,
+    "user_labels": [],
+    "attachments": [],
+    "calendar_event": null,
+    "extra_headers": {
+      "X-Mailer": "Outreach.io",
+      "Return-Path": "<sarah.byrne@coreledger-erp.com>"
+    },
+    "size_estimate": 915,
+    "meta": {
+      "email_class": "cold_outreach",
+      "tricky_tags": [],
+      "is_actionable_for_user": false,
+      "action_owner": null,
+      "action_summary": null,
+      "due_date": null,
+      "commitment_made_by_user": null,
+      "commitment_is_conditional": false,
+      "commitment_condition": null,
+      "superseded_by_message_id": null,
+      "notes": null
+    }
+  },
+  {
+    "id": "c30f18c2e4b60030",
+    "thread_id": "c30f18c2e4b60030",
+    "profile_id": "finance",
+    "history_id": "759940",
+    "message_id_header": "<c30f18c2e4b60030@vendr.com>",
+    "in_reply_to": null,
+    "references": [],
+    "thread_position": 1,
+    "thread_length": 1,
+    "from": {
+      "name": "Marcus Chen",
+      "email": "marcus.chen@vendr.com"
+    },
+    "to": [
+      {
+        "name": "Aditi Sharma",
+        "email": "aditi.sharma@northwindrobotics.com"
+      }
+    ],
+    "cc": [],
+    "bcc": [],
+    "delivered_to": "aditi.sharma@northwindrobotics.com",
+    "subject": "We can cut Northwind Robotics' SaaS spend by 30% \u2014 free audit",
+    "snippet": "Aditi \u2014 we run free SaaS spend audits for finance teams at companies your size. Most 50-person companies we look at are running 15-25 paid tools with real overlap (two e-signature ",
+    "body_text": "Aditi \u2014 we run free SaaS spend audits for finance teams at companies your size. Most 50-person companies we look at are running 15-25 paid tools with real overlap (two e-signature tools, three project management tools is common). We typically find 25-35% in savings just from renegotiating renewal terms and cutting duplicate seats. No cost for the audit, no commitment after. Interested?\n\nMarcus",
+    "body_html": null,
+    "date": "2026-08-01T11:00:00-04:00",
+    "internal_date_ms": 1785596400000,
+    "folder": "INBOX",
+    "category": "CATEGORY_PROMOTIONS",
+    "is_unread": false,
+    "is_starred": false,
+    "is_important": false,
+    "user_labels": [],
+    "attachments": [],
+    "calendar_event": null,
+    "extra_headers": {
+      "X-Mailer": "Salesloft",
+      "Return-Path": "<marcus.chen@vendr.com>"
+    },
+    "size_estimate": 910,
+    "meta": {
+      "email_class": "cold_outreach",
+      "tricky_tags": [],
+      "is_actionable_for_user": false,
+      "action_owner": null,
+      "action_summary": null,
+      "due_date": null,
+      "commitment_made_by_user": null,
+      "commitment_is_conditional": false,
+      "commitment_condition": null,
+      "superseded_by_message_id": null,
+      "notes": null
+    }
+  },
+  {
+    "id": "c30f18c2e4b60031",
+    "thread_id": "c30f18c2e4b60031",
+    "profile_id": "finance",
+    "history_id": "761305",
+    "message_id_header": "<c30f18c2e4b60031@bluesprucetax.com>",
+    "in_reply_to": null,
+    "references": [],
+    "thread_position": 1,
+    "thread_length": 1,
+    "from": {
+      "name": "Julia Ferraro",
+      "email": "j.ferraro@bluesprucetax.com"
+    },
+    "to": [
+      {
+        "name": "Aditi Sharma",
+        "email": "aditi.sharma@northwindrobotics.com"
+      }
+    ],
+    "cc": [],
+    "bcc": [],
+    "delivered_to": "aditi.sharma@northwindrobotics.com",
+    "subject": "Northwind Robotics may qualify for $180K+ in R&D tax credits",
+    "snippet": "Aditi, I'm reaching out because Northwind Robotics is exactly the profile of company that tends to under-claim the federal R&D tax credit -- hardware companies doing genuine engine",
+    "body_text": "Aditi,\n\nI'm reaching out because Northwind Robotics is exactly the profile of company that tends to under-claim the federal R&D tax credit -- hardware companies doing genuine engineering work often assume the credit is a software-company thing, and it isn't.\n\nA quick overview of how this works for a company like yours: the federal credit applies to wages for employees doing qualified research (engineers, technicians, and a portion of supervisory time), a portion of supply costs consumed in the R&D process (prototype materials, test units that don't ship), and contract research costs at 65% of the invoiced amount. For a 50-person hardware company with a meaningful engineering team, we typically see credits in the $120,000-$220,000 range on a first-year study, depending on payroll mix and how much of the team's time is genuinely R&D versus production support.\n\nTwo things make this particularly relevant right now. First, if Northwind is pre-profitability or has limited income tax liability, the credit can offset payroll tax liability directly (up to $500,000 per year under the qualified small business election) rather than sitting unused until you're profitable. Second, the credit is retroactive -- companies can typically amend the prior three years of returns to claim credits they missed, which for a lot of our hardware clients has meant a meaningful one-time cash benefit on top of the go-forward credit.\n\nWe do this exclusively for hardware, robotics, and industrial companies -- it's a different documentation exercise than software R&D credits, since it involves prototype iteration, testing protocols, and physical material costs rather than just engineering time logs. Happy to do a free 20-minute estimate call with no obligation; we'd just need a rough sense of your engineering headcount and total payroll to give you a range.\n\nLet me know if that's useful, and if there's a better person on your team to loop in (I'd guess your tax accountant would want to be part of this conversation too).\n\nFor what it's worth, the two most common objections we hear -- and why they usually don't hold up once we look at the actual payroll data -- are worth mentioning up front. The first is 'we're not a tech company, this doesn't apply to us,' which misunderstands the statute: the credit was written around the definition of qualified research (technological in nature, aimed at resolving uncertainty, involving a process of experimentation), not around industry codes. Prototype iteration on a robotics arm qualifies just as cleanly as software R&D, often more cleanly given the physical testing evidence trail. The second objection is 'our CPA already looks at this,' which is usually true but incomplete -- most general-practice CPA firms flag the credit exists without doing the underlying time-tracking and cost-allocation study needed to substantiate a claim that would survive an IRS exam, which is where a specialist firm like ours adds the most value.\n\nBest,\nJulia Ferraro\nBlueSpruce R&D Tax Advisors\n(617) 555-0148",
+    "body_html": null,
+    "date": "2026-08-02T09:45:00-04:00",
+    "internal_date_ms": 1785678300000,
+    "folder": "INBOX",
+    "category": "CATEGORY_PROMOTIONS",
+    "is_unread": false,
+    "is_starred": false,
+    "is_important": false,
+    "user_labels": [
+      "Label_4411"
+    ],
+    "attachments": [],
+    "calendar_event": null,
+    "extra_headers": {
+      "X-Mailer": "Apollo.io",
+      "Return-Path": "<j.ferraro@bluesprucetax.com>"
+    },
+    "size_estimate": 3555,
+    "meta": {
+      "email_class": "cold_outreach",
+      "tricky_tags": [],
+      "is_actionable_for_user": false,
+      "action_owner": null,
+      "action_summary": null,
+      "due_date": null,
+      "commitment_made_by_user": null,
+      "commitment_is_conditional": false,
+      "commitment_condition": null,
+      "superseded_by_message_id": null,
+      "notes": null
+    }
+  },
+  {
+    "id": "c30f18c2e4b60032",
+    "thread_id": "c30f18c2e4b60032",
+    "profile_id": "finance",
+    "history_id": "762760",
+    "message_id_header": "<c30f18c2e4b60032@halpernvoss.com>",
+    "in_reply_to": null,
+    "references": [],
+    "thread_position": 1,
+    "thread_length": 1,
+    "from": {
+      "name": "Halpern & Voss Partners",
+      "email": "partners@halpernvoss.com"
+    },
+    "to": [
+      {
+        "name": "Aditi Sharma",
+        "email": "aditi.sharma@northwindrobotics.com"
+      }
+    ],
+    "cc": [],
+    "bcc": [],
+    "delivered_to": "aditi.sharma@northwindrobotics.com",
+    "subject": "Is your auditor slowing down your close? Let's talk.",
+    "snippet": "Aditi, We work with a number of pre-IPO hardware and industrial companies as their audit firm, and one thing we hear consistently from finance leaders switching to us is that their",
+    "body_text": "Aditi,\n\nWe work with a number of pre-IPO hardware and industrial companies as their audit firm, and one thing we hear consistently from finance leaders switching to us is that their prior auditor's PBC list process was the single biggest drag on their close timeline. We run a leaner PBC process with a dedicated engagement manager who's available year-round, not just during fieldwork.\n\nIf your current audit relationship isn't working the way you'd like, we'd welcome a conversation -- no pressure, just an honest comparison of how we work.\n\nBest,\nHalpern & Voss Partners, LLP",
+    "body_html": null,
+    "date": "2026-08-03T10:00:00-04:00",
+    "internal_date_ms": 1785765600000,
+    "folder": "INBOX",
+    "category": "CATEGORY_PROMOTIONS",
+    "is_unread": false,
+    "is_starred": false,
+    "is_important": false,
+    "user_labels": [
+      "Label_4411"
+    ],
+    "attachments": [],
+    "calendar_event": null,
+    "extra_headers": {
+      "Return-Path": "<partners@halpernvoss.com>"
+    },
+    "size_estimate": 1090,
+    "meta": {
+      "email_class": "cold_outreach",
+      "tricky_tags": [],
+      "is_actionable_for_user": false,
+      "action_owner": null,
+      "action_summary": null,
+      "due_date": null,
+      "commitment_made_by_user": null,
+      "commitment_is_conditional": false,
+      "commitment_condition": null,
+      "superseded_by_message_id": null,
+      "notes": null
+    }
+  },
+  {
+    "id": "c30f18c2e4b60033",
+    "thread_id": "c30f18c2e4b60033",
+    "profile_id": "finance",
+    "history_id": "728140",
+    "message_id_header": "<c30f18c2e4b60033@anchorpointbank.com>",
+    "in_reply_to": null,
+    "references": [],
+    "thread_position": 1,
+    "thread_length": 1,
+    "from": {
+      "name": "Anchorpoint Business Banking",
+      "email": "business.banking@anchorpointbank.com"
+    },
+    "to": [
+      {
+        "name": "Aditi Sharma",
+        "email": "aditi.sharma@northwindrobotics.com"
+      }
+    ],
+    "cc": [],
+    "bcc": [],
+    "delivered_to": "aditi.sharma@northwindrobotics.com",
+    "subject": "Exclusive line of credit offer for Northwind Robotics",
+    "snippet": "Northwind Robotics has been pre-qualified for an Anchorpoint Business Line of Credit up to $2,000,000, with rates as low as Prime + 1.25% for qualified borrowers. No annual fee for",
+    "body_text": "Northwind Robotics has been pre-qualified for an Anchorpoint Business Line of Credit up to $2,000,000, with rates as low as Prime + 1.25% for qualified borrowers. No annual fee for the first 12 months. A relationship banker can walk you through terms in a 15-minute call -- reply to schedule.",
+    "body_html": null,
+    "date": "2026-07-10T09:00:00-04:00",
+    "internal_date_ms": 1783688400000,
+    "folder": "INBOX",
+    "category": "CATEGORY_PROMOTIONS",
+    "is_unread": false,
+    "is_starred": false,
+    "is_important": false,
+    "user_labels": [],
+    "attachments": [],
+    "calendar_event": null,
+    "extra_headers": {
+      "Return-Path": "<business.banking@anchorpointbank.com>"
+    },
+    "size_estimate": 804,
+    "meta": {
+      "email_class": "cold_outreach",
+      "tricky_tags": [],
+      "is_actionable_for_user": false,
+      "action_owner": null,
+      "action_summary": null,
+      "due_date": null,
+      "commitment_made_by_user": null,
+      "commitment_is_conditional": false,
+      "commitment_condition": null,
+      "superseded_by_message_id": null,
+      "notes": null
+    }
+  },
+  {
+    "id": "c30f18c2e4b60034",
+    "thread_id": "c30f18c2e4b60034",
+    "profile_id": "finance",
+    "history_id": "764400",
+    "message_id_header": "<c30f18c2e4b60034@ledgersearchpartners.com>",
+    "in_reply_to": null,
+    "references": [],
+    "thread_position": 1,
+    "thread_length": 1,
+    "from": {
+      "name": "Ledger Search Partners",
+      "email": "recruiter@ledgersearchpartners.com"
+    },
+    "to": [
+      {
+        "name": "Aditi Sharma",
+        "email": "aditi.sharma@northwindrobotics.com"
+      }
+    ],
+    "cc": [],
+    "bcc": [],
+    "delivered_to": "aditi.sharma@northwindrobotics.com",
+    "subject": "Aditi, do you know a great Controller?",
+    "snippet": "We're placing a strong Controller candidate in Boston this month. Know anyone who might fit? Happy to send the profile.",
+    "body_text": "We're placing a strong Controller candidate in Boston this month. Know anyone who might fit? Happy to send the profile.",
+    "body_html": null,
+    "date": "2026-08-04T13:20:00-04:00",
+    "internal_date_ms": 1785864000000,
+    "folder": "INBOX",
+    "category": "CATEGORY_PROMOTIONS",
+    "is_unread": true,
+    "is_starred": false,
+    "is_important": false,
+    "user_labels": [],
+    "attachments": [],
+    "calendar_event": null,
+    "extra_headers": {
+      "Return-Path": "<recruiter@ledgersearchpartners.com>"
+    },
+    "size_estimate": 631,
+    "meta": {
+      "email_class": "cold_outreach",
+      "tricky_tags": [],
+      "is_actionable_for_user": false,
+      "action_owner": null,
+      "action_summary": null,
+      "due_date": null,
+      "commitment_made_by_user": null,
+      "commitment_is_conditional": false,
+      "commitment_condition": null,
+      "superseded_by_message_id": null,
+      "notes": null
+    }
+  },
+  {
+    "id": "c30f18c2e4b60035",
+    "thread_id": "c30f18c2e4b60035",
+    "profile_id": "finance",
+    "history_id": "764445",
+    "message_id_header": "<c30f18c2e4b60035@cfosearchgroup.com>",
+    "in_reply_to": null,
+    "references": [],
+    "thread_position": 1,
+    "thread_length": 1,
+    "from": {
+      "name": "CFO Search Group",
+      "email": "team@cfosearchgroup.com"
+    },
+    "to": [
+      {
+        "name": "Aditi Sharma",
+        "email": "aditi.sharma@northwindrobotics.com"
+      }
+    ],
+    "cc": [],
+    "bcc": [],
+    "delivered_to": "aditi.sharma@northwindrobotics.com",
+    "subject": "Top Senior Accountant candidates available this week",
+    "snippet": "Three strong Senior Accountant candidates just came available in the Boston market. Want profiles sent over?",
+    "body_text": "Three strong Senior Accountant candidates just came available in the Boston market. Want profiles sent over?",
+    "body_html": null,
+    "date": "2026-08-04T14:05:00-04:00",
+    "internal_date_ms": 1785866700000,
+    "folder": "INBOX",
+    "category": "CATEGORY_PROMOTIONS",
+    "is_unread": true,
+    "is_starred": false,
+    "is_important": false,
+    "user_labels": [],
+    "attachments": [],
+    "calendar_event": null,
+    "extra_headers": {
+      "Return-Path": "<team@cfosearchgroup.com>"
+    },
+    "size_estimate": 620,
+    "meta": {
+      "email_class": "cold_outreach",
+      "tricky_tags": [],
+      "is_actionable_for_user": false,
+      "action_owner": null,
+      "action_summary": null,
+      "due_date": null,
+      "commitment_made_by_user": null,
+      "commitment_is_conditional": false,
+      "commitment_condition": null,
+      "superseded_by_message_id": null,
+      "notes": null
+    }
+  },
+  {
+    "id": "c30f18c2e4b60036",
+    "thread_id": "c30f18c2e4b60036",
+    "profile_id": "finance",
+    "history_id": "765640",
+    "message_id_header": "<c30f18c2e4b60036@linkedin.com>",
+    "in_reply_to": null,
+    "references": [],
+    "thread_position": 1,
+    "thread_length": 1,
+    "from": {
+      "name": "LinkedIn",
+      "email": "searches-noreply@linkedin.com"
+    },
+    "to": [
+      {
+        "name": "Aditi Sharma",
+        "email": "aditi.sharma@northwindrobotics.com"
+      }
+    ],
+    "cc": [],
+    "bcc": [],
+    "delivered_to": "aditi.sharma@northwindrobotics.com",
+    "subject": "You appeared in 9 searches this week",
+    "snippet": "Aditi, you appeared in 9 searches this week. See who's looking for someone like you.",
+    "body_text": "Aditi, you appeared in 9 searches this week. See who's looking for someone like you.",
+    "body_html": "<div style='font-family:Arial;color:#000'><p>You appeared in <b>9 searches</b> this week.</p></div>",
+    "date": "2026-08-05T07:00:00-07:00",
+    "internal_date_ms": 1785938400000,
+    "folder": "INBOX",
+    "category": "CATEGORY_SOCIAL",
+    "is_unread": false,
+    "is_starred": false,
+    "is_important": false,
+    "user_labels": [],
+    "attachments": [],
+    "calendar_event": null,
+    "extra_headers": {
+      "Return-Path": "<searches-noreply@linkedin.com>"
+    },
+    "size_estimate": 695,
+    "meta": {
+      "email_class": "social",
+      "tricky_tags": [],
+      "is_actionable_for_user": false,
+      "action_owner": null,
+      "action_summary": null,
+      "due_date": null,
+      "commitment_made_by_user": null,
+      "commitment_is_conditional": false,
+      "commitment_condition": null,
+      "superseded_by_message_id": null,
+      "notes": null
+    }
+  },
+  {
+    "id": "c30f18c2e4b60037",
+    "thread_id": "c30f18c2e4b60037",
+    "profile_id": "finance",
+    "history_id": "767650",
+    "message_id_header": "<c30f18c2e4b60037@linkedin.com>",
+    "in_reply_to": null,
+    "references": [],
+    "thread_position": 1,
+    "thread_length": 1,
+    "from": {
+      "name": "LinkedIn",
+      "email": "notifications-noreply@linkedin.com"
+    },
+    "to": [
+      {
+        "name": "Aditi Sharma",
+        "email": "aditi.sharma@northwindrobotics.com"
+      }
+    ],
+    "cc": [],
+    "bcc": [],
+    "delivered_to": "aditi.sharma@northwindrobotics.com",
+    "subject": "Sam Greer commented on your post",
+    "snippet": "Sam Greer commented on your post: \"Great close this quarter, team.\" See the full comment.",
+    "body_text": "Sam Greer commented on your post: \"Great close this quarter, team.\" See the full comment.",
+    "body_html": "<div><p>Sam Greer commented on your post.</p></div>",
+    "date": "2026-08-06T16:30:00-07:00",
+    "internal_date_ms": 1786059000000,
+    "folder": "INBOX",
+    "category": "CATEGORY_SOCIAL",
+    "is_unread": false,
+    "is_starred": false,
+    "is_important": false,
+    "user_labels": [],
+    "attachments": [],
+    "calendar_event": null,
+    "extra_headers": {
+      "Return-Path": "<notifications-noreply@linkedin.com>"
+    },
+    "size_estimate": 652,
+    "meta": {
+      "email_class": "social",
+      "tricky_tags": [],
+      "is_actionable_for_user": false,
+      "action_owner": null,
+      "action_summary": null,
+      "due_date": null,
+      "commitment_made_by_user": null,
+      "commitment_is_conditional": false,
+      "commitment_condition": null,
+      "superseded_by_message_id": null,
+      "notes": null
+    }
+  },
+  {
+    "id": "c30f18c2e4b60038",
+    "thread_id": "c30f18c2e4b60038",
+    "profile_id": "finance",
+    "history_id": "768595",
+    "message_id_header": "<c30f18c2e4b60038@linkedin.com>",
+    "in_reply_to": null,
+    "references": [],
+    "thread_position": 1,
+    "thread_length": 1,
+    "from": {
+      "name": "LinkedIn",
+      "email": "invitations-noreply@linkedin.com"
+    },
+    "to": [
+      {
+        "name": "Aditi Sharma",
+        "email": "aditi.sharma@northwindrobotics.com"
+      }
+    ],
+    "cc": [],
+    "bcc": [],
+    "delivered_to": "aditi.sharma@northwindrobotics.com",
+    "subject": "Frank Mireles wants to connect",
+    "snippet": "Frank Mireles, Commercial Banker at Harborline Bank, wants to connect with you on LinkedIn.",
+    "body_text": "Frank Mireles, Commercial Banker at Harborline Bank, wants to connect with you on LinkedIn.",
+    "body_html": "<div><p>Frank Mireles wants to connect with you.</p></div>",
+    "date": "2026-08-07T08:15:00-07:00",
+    "internal_date_ms": 1786115700000,
+    "folder": "INBOX",
+    "category": "CATEGORY_SOCIAL",
+    "is_unread": true,
+    "is_starred": false,
+    "is_important": false,
+    "user_labels": [],
+    "attachments": [],
+    "calendar_event": null,
+    "extra_headers": {
+      "Return-Path": "<invitations-noreply@linkedin.com>"
+    },
+    "size_estimate": 661,
+    "meta": {
+      "email_class": "social",
+      "tricky_tags": [],
+      "is_actionable_for_user": false,
+      "action_owner": null,
+      "action_summary": null,
+      "due_date": null,
+      "commitment_made_by_user": null,
+      "commitment_is_conditional": false,
+      "commitment_condition": null,
+      "superseded_by_message_id": null,
+      "notes": null
+    }
+  },
+  {
+    "id": "c30f18c2e4b60039",
+    "thread_id": "c30f18c2e4b60039",
+    "profile_id": "finance",
+    "history_id": "771430",
+    "message_id_header": "<c30f18c2e4b60039@linkedin.com>",
+    "in_reply_to": null,
+    "references": [],
+    "thread_position": 1,
+    "thread_length": 1,
+    "from": {
+      "name": "LinkedIn Jobs",
+      "email": "jobs-noreply@linkedin.com"
+    },
+    "to": [
+      {
+        "name": "Aditi Sharma",
+        "email": "aditi.sharma@northwindrobotics.com"
+      }
+    ],
+    "cc": [],
+    "bcc": [],
+    "delivered_to": "aditi.sharma@northwindrobotics.com",
+    "subject": "New jobs for 'VP Finance' similar to yours",
+    "snippet": "12 new jobs matching 'VP Finance' were posted this week near Boston, MA. See the list.",
+    "body_text": "12 new jobs matching 'VP Finance' were posted this week near Boston, MA. See the list.",
+    "body_html": "<div><p>12 new jobs matching 'VP Finance' posted this week.</p></div>",
+    "date": "2026-08-09T07:30:00-07:00",
+    "internal_date_ms": 1786285800000,
+    "folder": "INBOX",
+    "category": "CATEGORY_SOCIAL",
+    "is_unread": true,
+    "is_starred": false,
+    "is_important": false,
+    "user_labels": [],
+    "attachments": [],
+    "calendar_event": null,
+    "extra_headers": {
+      "Return-Path": "<jobs-noreply@linkedin.com>"
+    },
+    "size_estimate": 667,
+    "meta": {
+      "email_class": "social",
+      "tricky_tags": [],
+      "is_actionable_for_user": false,
+      "action_owner": null,
+      "action_summary": null,
+      "due_date": null,
+      "commitment_made_by_user": null,
+      "commitment_is_conditional": false,
+      "commitment_condition": null,
+      "superseded_by_message_id": null,
+      "notes": null
+    }
+  },
+  {
+    "id": "c30f18c2e4b60040",
+    "thread_id": "c30f18c2e4b60040",
+    "profile_id": "finance",
+    "history_id": "772840",
+    "message_id_header": "<c30f18c2e4b60040@linkedin.com>",
+    "in_reply_to": null,
+    "references": [],
+    "thread_position": 1,
+    "thread_length": 1,
+    "from": {
+      "name": "LinkedIn",
+      "email": "digest-noreply@linkedin.com"
+    },
+    "to": [
+      {
+        "name": "Aditi Sharma",
+        "email": "aditi.sharma@northwindrobotics.com"
+      }
+    ],
+    "cc": [],
+    "bcc": [],
+    "delivered_to": "aditi.sharma@northwindrobotics.com",
+    "subject": "Your weekly LinkedIn digest",
+    "snippet": "Your network shared 24 updates this week. Catch up on what you missed.",
+    "body_text": "Your network shared 24 updates this week. Catch up on what you missed.",
+    "body_html": "<div><p>Your network shared 24 updates this week.</p></div>",
+    "date": "2026-08-10T07:00:00-07:00",
+    "internal_date_ms": 1786370400000,
+    "folder": "INBOX",
+    "category": "CATEGORY_SOCIAL",
+    "is_unread": false,
+    "is_starred": false,
+    "is_important": false,
+    "user_labels": [],
+    "attachments": [],
+    "calendar_event": null,
+    "extra_headers": {
+      "Return-Path": "<digest-noreply@linkedin.com>"
+    },
+    "size_estimate": 641,
+    "meta": {
+      "email_class": "social",
+      "tricky_tags": [],
+      "is_actionable_for_user": false,
+      "action_owner": null,
+      "action_summary": null,
+      "due_date": null,
+      "commitment_made_by_user": null,
+      "commitment_is_conditional": false,
+      "commitment_condition": null,
+      "superseded_by_message_id": null,
+      "notes": null
+    }
+  },
+  {
+    "id": "c30f18c2e4b60041",
+    "thread_id": "c30f18c2e4b60041",
+    "profile_id": "finance",
+    "history_id": "772960",
+    "message_id_header": "<c30f18c2e4b60041@netsuite.com>",
+    "in_reply_to": null,
+    "references": [],
+    "thread_position": 1,
+    "thread_length": 1,
+    "from": {
+      "name": "NetSuite Events",
+      "email": "events@netsuite.com"
+    },
+    "to": [
+      {
+        "name": "Aditi Sharma",
+        "email": "aditi.sharma@northwindrobotics.com"
+      }
+    ],
+    "cc": [],
+    "bcc": [],
+    "delivered_to": "aditi.sharma@northwindrobotics.com",
+    "subject": "Live demo: NetSuite for manufacturers, Aug 20 at 1pm ET",
+    "snippet": "Join a live 30-minute demo of NetSuite's manufacturing edition on August 20 at 1pm ET, covering inventory costing, work orders, and multi-entity consolidation. Register on the NetS",
+    "body_text": "Join a live 30-minute demo of NetSuite's manufacturing edition on August 20 at 1pm ET, covering inventory costing, work orders, and multi-entity consolidation. Register on the NetSuite site.",
+    "body_html": "<div><p>Live demo: NetSuite for Manufacturers. Aug 20, 1pm ET.</p></div>",
+    "date": "2026-08-10T09:00:00-07:00",
+    "internal_date_ms": 1786377600000,
+    "folder": "INBOX",
+    "category": "CATEGORY_PROMOTIONS",
+    "is_unread": true,
+    "is_starred": false,
+    "is_important": false,
+    "user_labels": [],
+    "attachments": [],
+    "calendar_event": null,
+    "extra_headers": {
+      "Return-Path": "<events@netsuite.com>"
+    },
+    "size_estimate": 774,
+    "meta": {
+      "email_class": "promotional",
+      "tricky_tags": [],
+      "is_actionable_for_user": false,
+      "action_owner": null,
+      "action_summary": null,
+      "due_date": null,
+      "commitment_made_by_user": null,
+      "commitment_is_conditional": false,
+      "commitment_condition": null,
+      "superseded_by_message_id": null,
+      "notes": null
+    }
+  },
+  {
+    "id": "c30f18c2e4b60042",
+    "thread_id": "c30f18c2e4b60042",
+    "profile_id": "finance",
+    "history_id": "774340",
+    "message_id_header": "<c30f18c2e4b60042@bill.com>",
+    "in_reply_to": null,
+    "references": [],
+    "thread_position": 1,
+    "thread_length": 1,
+    "from": {
+      "name": "Bill.com",
+      "email": "insights@bill.com"
+    },
+    "to": [
+      {
+        "name": "Aditi Sharma",
+        "email": "aditi.sharma@northwindrobotics.com"
+      }
+    ],
+    "cc": [],
+    "bcc": [],
+    "delivered_to": "aditi.sharma@northwindrobotics.com",
+    "subject": "5 red flags of invoice fraud (and how to catch them)",
+    "snippet": "Invoice fraud costs mid-size companies an average of $130,000 per incident when it succeeds, and the most common entry point is a spoofed vendor email requesting updated bank detai",
+    "body_text": "Invoice fraud costs mid-size companies an average of $130,000 per incident when it succeeds, and the most common entry point is a spoofed vendor email requesting updated bank details. Our latest guide covers the five red flags AP teams miss most often: urgency language, last-minute bank changes, lookalike domains (one character off from the real vendor), requests to skip the normal approval workflow, and pressure to avoid confirming by phone. Worth a five-minute read and a share with your AP team.",
+    "body_html": "<div><p>5 red flags of invoice fraud \u2014 and how to catch them before they cost you.</p></div>",
+    "date": "2026-08-11T08:00:00-07:00",
+    "internal_date_ms": 1786460400000,
+    "folder": "INBOX",
+    "category": "CATEGORY_PROMOTIONS",
+    "is_unread": false,
+    "is_starred": false,
+    "is_important": false,
+    "user_labels": [
+      "Label_4412"
+    ],
+    "attachments": [],
+    "calendar_event": null,
+    "extra_headers": {
+      "List-Unsubscribe": "<mailto:unsubscribe@bill.com?subject=unsubscribe>, <https://bill.com/unsubscribe?u=fraudredflags>",
+      "List-Unsubscribe-Post": "List-Unsubscribe=One-Click",
+      "List-ID": "Bill.com Insights <bulk.bill.com>",
+      "Precedence": "bulk",
+      "Feedback-ID": "fraudredflags:bill.com:campaign:gmail",
+      "Return-Path": "<insights@bill.com>"
+    },
+    "size_estimate": 1108,
+    "meta": {
+      "email_class": "newsletter",
+      "tricky_tags": [],
+      "is_actionable_for_user": false,
+      "action_owner": null,
+      "action_summary": null,
+      "due_date": null,
+      "commitment_made_by_user": null,
+      "commitment_is_conditional": false,
+      "commitment_condition": null,
+      "superseded_by_message_id": null,
+      "notes": null
+    }
+  },
+  {
+    "id": "c30f18c2e4b60043",
+    "thread_id": "c30f18c2e4b60043",
+    "profile_id": "finance",
+    "history_id": "774490",
+    "message_id_header": "<c30f18c2e4b60043@stripe.com>",
+    "in_reply_to": null,
+    "references": [],
+    "thread_position": 1,
+    "thread_length": 1,
+    "from": {
+      "name": "Stripe",
+      "email": "billing@stripe.com"
+    },
+    "to": [
+      {
+        "name": "Aditi Sharma",
+        "email": "aditi.sharma@northwindrobotics.com"
+      }
+    ],
+    "cc": [],
+    "bcc": [],
+    "delivered_to": "aditi.sharma@northwindrobotics.com",
+    "subject": "Reminder: Stripe Tax now auto-files in 3 new states",
+    "snippet": "Stripe Tax now auto-files sales tax returns in Massachusetts, Ohio, and Georgia. If you're registered in any of these states, enable auto-filing in your Stripe Tax settings to skip",
+    "body_text": "Stripe Tax now auto-files sales tax returns in Massachusetts, Ohio, and Georgia. If you're registered in any of these states, enable auto-filing in your Stripe Tax settings to skip manual filing.",
+    "body_html": "<div><p>Stripe Tax now auto-files in Massachusetts, Ohio, and Georgia.</p></div>",
+    "date": "2026-08-11T10:30:00-07:00",
+    "internal_date_ms": 1786469400000,
+    "folder": "INBOX",
+    "category": "CATEGORY_UPDATES",
+    "is_unread": true,
+    "is_starred": false,
+    "is_important": false,
+    "user_labels": [],
+    "attachments": [],
+    "calendar_event": null,
+    "extra_headers": {
+      "Return-Path": "<billing@stripe.com>"
+    },
+    "size_estimate": 787,
+    "meta": {
+      "email_class": "promotional",
+      "tricky_tags": [],
+      "is_actionable_for_user": false,
+      "action_owner": null,
+      "action_summary": null,
+      "due_date": null,
+      "commitment_made_by_user": null,
+      "commitment_is_conditional": false,
+      "commitment_condition": null,
+      "superseded_by_message_id": null,
+      "notes": null
+    }
+  },
+  {
+    "id": "c30f18c2e4b60044",
+    "thread_id": "c30f18c2e4b60044",
+    "profile_id": "finance",
+    "history_id": "775780",
+    "message_id_header": "<c30f18c2e4b60044@gusto.com>",
+    "in_reply_to": null,
+    "references": [],
+    "thread_position": 1,
+    "thread_length": 1,
+    "from": {
+      "name": "Gusto",
+      "email": "news@gusto.com"
+    },
+    "to": [
+      {
+        "name": "Aditi Sharma",
+        "email": "aditi.sharma@northwindrobotics.com"
+      }
+    ],
+    "cc": [],
+    "bcc": [],
+    "delivered_to": "aditi.sharma@northwindrobotics.com",
+    "subject": "It's benefits open enrollment season \u2014 here's your checklist",
+    "snippet": "Open enrollment for most Gusto customers on a calendar-year plan starts in the next 4-6 weeks. Our checklist covers: confirming your plan renewal rates with your broker, setting yo",
+    "body_text": "Open enrollment for most Gusto customers on a calendar-year plan starts in the next 4-6 weeks. Our checklist covers: confirming your plan renewal rates with your broker, setting your enrollment window in Gusto, drafting an employee communication, and scheduling a benefits Q&A session. Most customers who start this checklist by mid-August report fewer last-minute employee questions.",
+    "body_html": "<div><p>Your open enrollment checklist for this year.</p></div>",
+    "date": "2026-08-12T08:00:00-07:00",
+    "internal_date_ms": 1786546800000,
+    "folder": "INBOX",
+    "category": "CATEGORY_UPDATES",
+    "is_unread": true,
+    "is_starred": false,
+    "is_important": false,
+    "user_labels": [],
+    "attachments": [],
+    "calendar_event": null,
+    "extra_headers": {
+      "Return-Path": "<news@gusto.com>"
+    },
+    "size_estimate": 959,
+    "meta": {
+      "email_class": "promotional",
+      "tricky_tags": [],
+      "is_actionable_for_user": false,
+      "action_owner": null,
+      "action_summary": null,
+      "due_date": null,
+      "commitment_made_by_user": null,
+      "commitment_is_conditional": false,
+      "commitment_condition": null,
+      "superseded_by_message_id": null,
+      "notes": null
+    }
+  },
+  {
+    "id": "c30f18c2e4b60045",
+    "thread_id": "c30f18c2e4b60045",
+    "profile_id": "finance",
+    "history_id": "731020",
+    "message_id_header": "<c30f18c2e4b60045@adp.com>",
+    "in_reply_to": null,
+    "references": [],
+    "thread_position": 1,
+    "thread_length": 1,
+    "from": {
+      "name": "ADP Research Institute",
+      "email": "research@adp.com"
+    },
+    "to": [
+      {
+        "name": "Aditi Sharma",
+        "email": "aditi.sharma@northwindrobotics.com"
+      }
+    ],
+    "cc": [],
+    "bcc": [],
+    "delivered_to": "aditi.sharma@northwindrobotics.com",
+    "subject": "ADP Research: 2026 mid-year pay equity trends",
+    "snippet": "ADP's mid-year pay equity analysis, drawn from anonymized payroll data across 30,000+ companies, found the median unexplained gender pay gap (controlling for role, tenure, and loca",
+    "body_text": "ADP's mid-year pay equity analysis, drawn from anonymized payroll data across 30,000+ companies, found the median unexplained gender pay gap (controlling for role, tenure, and location) narrowed slightly to 3.1% from 3.6% a year ago. Manufacturing and hardware sectors specifically remain above the cross-industry median at 4.4%, which the report attributes partly to a smaller female talent pool in engineering roles. Full methodology and sector breakdowns available in the report.",
+    "body_html": "<div><p>ADP Research: 2026 mid-year pay equity trends across 30,000+ companies.</p></div>",
+    "date": "2026-07-12T09:00:00-04:00",
+    "internal_date_ms": 1783861200000,
+    "folder": "INBOX",
+    "category": "CATEGORY_UPDATES",
+    "is_unread": false,
+    "is_starred": false,
+    "is_important": false,
+    "user_labels": [],
+    "attachments": [],
+    "calendar_event": null,
+    "extra_headers": {
+      "List-Unsubscribe": "<mailto:unsubscribe@adp.com?subject=unsubscribe>, <https://adp.com/unsubscribe?u=payequity26>",
+      "List-Unsubscribe-Post": "List-Unsubscribe=One-Click",
+      "List-ID": "ADP Research Institute <bulk.adp.com>",
+      "Precedence": "bulk",
+      "Feedback-ID": "payequity26:adp.com:campaign:gmail",
+      "Return-Path": "<research@adp.com>"
+    },
+    "size_estimate": 1083,
+    "meta": {
+      "email_class": "newsletter",
+      "tricky_tags": [],
+      "is_actionable_for_user": false,
+      "action_owner": null,
+      "action_summary": null,
+      "due_date": null,
+      "commitment_made_by_user": null,
+      "commitment_is_conditional": false,
+      "commitment_condition": null,
+      "superseded_by_message_id": null,
+      "notes": null
+    }
+  },
+  {
+    "id": "c30f18c2e4b60046",
+    "thread_id": "c30f18c2e4b60046",
+    "profile_id": "finance",
+    "history_id": "774682",
+    "message_id_header": "<c30f18c2e4b60046@harborlinebank-support.com>",
+    "in_reply_to": null,
+    "references": [],
+    "thread_position": 1,
+    "thread_length": 1,
+    "from": {
+      "name": "Frank Mireles",
+      "email": "frank.mireles@harborlinebank-support.com"
+    },
+    "to": [
+      {
+        "name": "Aditi Sharma",
+        "email": "aditi.sharma@northwindrobotics.com"
+      }
+    ],
+    "cc": [],
+    "bcc": [],
+    "delivered_to": "aditi.sharma@northwindrobotics.com",
+    "subject": "URGENT: Updated Wire Instructions for Credit Facility Closing",
+    "snippet": "Aditi, Due to a routine system migration on our end, Harborline Bank has updated the wire receiving instructions for your credit facility closing. Please use the account and routin",
+    "body_text": "Aditi,\n\nDue to a routine system migration on our end, Harborline Bank has updated the wire receiving instructions for your credit facility closing. Please use the account and routing numbers below for ALL outgoing transfers related to this closing, effective immediately -- the old instructions will be rejected starting tomorrow.\n\nNew Receiving Bank: Harborline National Trust\nRouting: 071925432\nAccount: 8834471209\nReference: NWR-CREDIT-2026\n\nThis is time-sensitive given our closing deadline. Please confirm receipt of this email and do not call the branch directly as our phone lines are affected by the same migration -- reply to this email to confirm.\n\nFrank Mireles\nHarborline Bank",
+    "body_html": "<div style='font-family:Arial;border:2px solid #c00;padding:12px'><p style='color:#c00;font-weight:bold'>URGENT: Updated Wire Instructions</p><p>Please use the new receiving account below for all outgoing transfers, effective immediately.</p><p>Routing: 071925432 &nbsp; Account: 8834471209</p><p>Reply to confirm receipt \u2014 do not call the branch.</p></div>",
+    "date": "2026-08-11T16:42:00-04:00",
+    "internal_date_ms": 1786480920000,
+    "folder": "SPAM",
+    "category": null,
+    "is_unread": false,
+    "is_starred": false,
+    "is_important": false,
+    "user_labels": [],
+    "attachments": [],
+    "calendar_event": null,
+    "extra_headers": {
+      "Authentication-Results": "mx.google.com; spf=fail smtp.mailfrom=harborlinebank-support.com; dkim=none; dmarc=fail",
+      "Reply-To": "frank.mireles@harborlinebank-support.com",
+      "Return-Path": "<frank.mireles@harborlinebank-support.com>"
+    },
+    "size_estimate": 1559,
+    "meta": {
+      "email_class": "phishing",
+      "tricky_tags": [],
+      "is_actionable_for_user": false,
+      "action_owner": null,
+      "action_summary": null,
+      "due_date": null,
+      "commitment_made_by_user": null,
+      "commitment_is_conditional": false,
+      "commitment_condition": null,
+      "superseded_by_message_id": null,
+      "notes": "Invoice/wire-fraud phishing attempt impersonating Frank Mireles (real banker at harborlinebank.com) from lookalike domain harborlinebank-support.com, timed against the real credit-facility-extension storyline."
+    }
+  },
+  {
+    "id": "c30f18c2e4b60047",
+    "thread_id": "c30f18c2e4b60047",
+    "profile_id": "finance",
+    "history_id": "770992",
+    "message_id_header": "<c30f18c2e4b60047@globalcrypto-rewards.com>",
+    "in_reply_to": null,
+    "references": [],
+    "thread_position": 1,
+    "thread_length": 1,
+    "from": {
+      "name": "Global Crypto Rewards",
+      "email": "claims@globalcrypto-rewards.com"
+    },
+    "to": [
+      {
+        "name": "Aditi Sharma",
+        "email": "aditi.sharma@northwindrobotics.com"
+      }
+    ],
+    "cc": [],
+    "bcc": [],
+    "delivered_to": "aditi.sharma@northwindrobotics.com",
+    "subject": "CONGRATULATIONS! You've been selected to claim 2.4 BTC",
+    "snippet": "Your email was randomly selected to receive 2.4 BTC (approx $148,000). Claim within 48 hours or forfeit. Reply with your full name and wallet address to begin.",
+    "body_text": "Your email was randomly selected to receive 2.4 BTC (approx $148,000). Claim within 48 hours or forfeit. Reply with your full name and wallet address to begin.",
+    "body_html": "<div style='background:#fffbe6;padding:16px;text-align:center'><h2 style='color:#c9a227'>YOU'VE WON 2.4 BTC!</h2><p>Claim within 48 hours. Reply now.</p></div>",
+    "date": "2026-08-09T03:12:00-04:00",
+    "internal_date_ms": 1786259520000,
+    "folder": "SPAM",
+    "category": null,
+    "is_unread": false,
+    "is_starred": false,
+    "is_important": false,
+    "user_labels": [],
+    "attachments": [],
+    "calendar_event": null,
+    "extra_headers": {
+      "Authentication-Results": "mx.google.com; spf=fail; dkim=none; dmarc=fail",
+      "Return-Path": "<claims@globalcrypto-rewards.com>"
+    },
+    "size_estimate": 830,
+    "meta": {
+      "email_class": "spam",
+      "tricky_tags": [],
+      "is_actionable_for_user": false,
+      "action_owner": null,
+      "action_summary": null,
+      "due_date": null,
+      "commitment_made_by_user": null,
+      "commitment_is_conditional": false,
+      "commitment_condition": null,
+      "superseded_by_message_id": null,
+      "notes": null
+    }
+  },
+  {
+    "id": "c30f18c2e4b60048",
+    "thread_id": "c30f18c2e4b60048",
+    "profile_id": "finance",
+    "history_id": "766655",
+    "message_id_header": "<c30f18c2e4b60048@quickpay-invoices.net>",
+    "in_reply_to": null,
+    "references": [],
+    "thread_position": 1,
+    "thread_length": 1,
+    "from": {
+      "name": "QuickPay Billing",
+      "email": "billing@quickpay-invoices.net"
+    },
+    "to": [
+      {
+        "name": "Aditi Sharma",
+        "email": "aditi.sharma@northwindrobotics.com"
+      }
+    ],
+    "cc": [],
+    "bcc": [],
+    "delivered_to": "aditi.sharma@northwindrobotics.com",
+    "subject": "OVERDUE: Invoice_44821.zip \u2014 pay immediately to avoid service suspension",
+    "snippet": "Your account has an overdue balance. See attached invoice for payment details. Failure to remit within 24 hours will result in service suspension.",
+    "body_text": "Your account has an overdue balance. See attached invoice for payment details. Failure to remit within 24 hours will result in service suspension.",
+    "body_html": null,
+    "date": "2026-08-06T02:55:00-04:00",
+    "internal_date_ms": 1785999300000,
+    "folder": "SPAM",
+    "category": null,
+    "is_unread": false,
+    "is_starred": false,
+    "is_important": false,
+    "user_labels": [],
+    "attachments": [],
+    "calendar_event": null,
+    "extra_headers": {
+      "Authentication-Results": "mx.google.com; spf=softfail; dkim=none; dmarc=fail",
+      "Return-Path": "<billing@quickpay-invoices.net>"
+    },
+    "size_estimate": 658,
+    "meta": {
+      "email_class": "spam",
+      "tricky_tags": [],
+      "is_actionable_for_user": false,
+      "action_owner": null,
+      "action_summary": null,
+      "due_date": null,
+      "commitment_made_by_user": null,
+      "commitment_is_conditional": false,
+      "commitment_condition": null,
+      "superseded_by_message_id": null,
+      "notes": null
+    }
+  },
+  {
+    "id": "c30f18c2e4b60049",
+    "thread_id": "c30f18c2e4b60049",
+    "profile_id": "finance",
+    "history_id": "765300",
+    "message_id_header": "<c30f18c2e4b60049@nationalcreditrecovery.net>",
+    "in_reply_to": null,
+    "references": [],
+    "thread_position": 1,
+    "thread_length": 1,
+    "from": {
+      "name": "National Credit Recovery",
+      "email": "collections@nationalcreditrecovery.net"
+    },
+    "to": [
+      {
+        "name": "Aditi Sharma",
+        "email": "aditi.sharma@northwindrobotics.com"
+      }
+    ],
+    "cc": [],
+    "bcc": [],
+    "delivered_to": "aditi.sharma@northwindrobotics.com",
+    "subject": "FINAL NOTICE: Northwind Robotics LLC account #88213 referred for collection",
+    "snippet": "This is a final notice regarding an outstanding balance of $4,812.00 on account #88213 associated with Northwind Robotics LLC. This matter has been referred to our recovery divisio",
+    "body_text": "This is a final notice regarding an outstanding balance of $4,812.00 on account #88213 associated with Northwind Robotics LLC. This matter has been referred to our recovery division. To avoid further action, settle immediately by calling the number below or replying with payment authorization.",
+    "body_html": null,
+    "date": "2026-08-05T04:20:00-04:00",
+    "internal_date_ms": 1785918000000,
+    "folder": "SPAM",
+    "category": null,
+    "is_unread": false,
+    "is_starred": false,
+    "is_important": false,
+    "user_labels": [],
+    "attachments": [],
+    "calendar_event": null,
+    "extra_headers": {
+      "Authentication-Results": "mx.google.com; spf=fail; dkim=none; dmarc=fail",
+      "Return-Path": "<collections@nationalcreditrecovery.net>"
+    },
+    "size_estimate": 806,
+    "meta": {
+      "email_class": "spam",
+      "tricky_tags": [],
+      "is_actionable_for_user": false,
+      "action_owner": null,
+      "action_summary": null,
+      "due_date": null,
+      "commitment_made_by_user": null,
+      "commitment_is_conditional": false,
+      "commitment_condition": null,
+      "superseded_by_message_id": null,
+      "notes": null
+    }
+  },
+  {
+    "id": "c30f18c2e4b60050",
+    "thread_id": "c30f18c2e4b60050",
+    "profile_id": "finance",
+    "history_id": "762468",
+    "message_id_header": "<c30f18c2e4b60050@softlicensehub.biz>",
+    "in_reply_to": null,
+    "references": [],
+    "thread_position": 1,
+    "thread_length": 1,
+    "from": {
+      "name": "Software Deals",
+      "email": "deals@softlicensehub.biz"
+    },
+    "to": [
+      {
+        "name": "Aditi Sharma",
+        "email": "aditi.sharma@northwindrobotics.com"
+      }
+    ],
+    "cc": [],
+    "bcc": [],
+    "delivered_to": "aditi.sharma@northwindrobotics.com",
+    "subject": "90% OFF QuickBooks Enterprise licenses \u2014 today only",
+    "snippet": "QuickBooks Enterprise licenses at 90% off retail, today only. Instant download, all versions available. Limited stock.",
+    "body_text": "QuickBooks Enterprise licenses at 90% off retail, today only. Instant download, all versions available. Limited stock.",
+    "body_html": null,
+    "date": "2026-08-03T05:08:00-04:00",
+    "internal_date_ms": 1785748080000,
+    "folder": "SPAM",
+    "category": null,
+    "is_unread": false,
+    "is_starred": false,
+    "is_important": false,
+    "user_labels": [],
+    "attachments": [],
+    "calendar_event": null,
+    "extra_headers": {
+      "Authentication-Results": "mx.google.com; spf=fail; dkim=none; dmarc=fail",
+      "Return-Path": "<deals@softlicensehub.biz>"
+    },
+    "size_estimate": 630,
+    "meta": {
+      "email_class": "spam",
+      "tricky_tags": [],
+      "is_actionable_for_user": false,
+      "action_owner": null,
+      "action_summary": null,
+      "due_date": null,
+      "commitment_made_by_user": null,
+      "commitment_is_conditional": false,
+      "commitment_condition": null,
+      "superseded_by_message_id": null,
+      "notes": null
+    }
+  }
+]

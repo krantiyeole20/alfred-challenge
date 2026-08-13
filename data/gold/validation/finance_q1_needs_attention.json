@@ -1,0 +1,84 @@
+{
+  "profile_id": "finance",
+  "question": "q1_needs_attention",
+  "items_reviewed": 19,
+  "verdict": "issues",
+  "findings": [
+    {
+      "type": "missed_item",
+      "severity": "high",
+      "item_id": null,
+      "message_ids": ["c40f18c2e4b60015"],
+      "problem": "The permanent bounce of invoice NWR-2287 ($118,240) to Ferrocraft's dead AP address is absent from `items` and from `must_not_include` — it is the exact Q1 hazard archetype named in QUESTIONS.md §1 inclusion 3 (\"the bounced invoice to a typo'd address\"), it is still unread, its action is owned by Aditi with due_date 2026-08-06 (passed), and a full-mailbox search shows no closure anywhere: 'Ferrocraft', 'ferrocraft' and 'NWR-2287' each appear in exactly this one message.",
+      "evidence": "c40f18c2e4b60015: \"I sent Ferrocraft's AP inbox invoice NWR-2287 on Monday and it bounced silently in Gmail's queue for three days before this notice finally surfaced — worth knowing, because I'd assumed it went through and Ilya had already logged it as sent in the AR aging report.\" (same message: \"550 5.1.1 The email account that you tried to reach does not exist\"; meta.action_owner = aditi.sharma@northwindrobotics.com, meta.due_date = 2026-08-06)",
+      "recommended_action": "add new item with these fields — tier: must_include; claim: 'Invoice NWR-2287 ($118,240) to Ferrocraft never reached them — ap@ferrocraft-industries.com bounced permanently on Aug 3-4 and the AR aging still shows it as sent; Ilya has to phone their controller for a live billing contact and re-send'; thread_id/anchor_message_id: c40f18c2e4b60015; evidence_quote as above; counterparty: ap@ferrocraft-industries.com; due_date 2026-08-06 (explicit, passed); days_open 8; consequence high; tricky_tags []. Rank it above finance-q1-05 (irreversibility + a top-five customer's $118K receivable with zero visible urgency)."
+    },
+    {
+      "type": "missed_item",
+      "severity": "medium",
+      "item_id": null,
+      "message_ids": ["c40f18c2e4b60028", "c60f18c2e4b60044", "c10f18c2e4b60039"],
+      "problem": "The July GL close is blocked on Aditi's own journal-entry approvals — JE-2291 ($61,240) due Aug 2 and the NetSuite period-close task 'Approve Journal Entries — July 2026 GL Close' due Aug 6, both assigned to her, both past due, with no message anywhere in the mailbox showing either approved or the July period locked. Neither appears in `items` nor in `must_not_include`, even though the gold happily admits three other automated-sender obligations (Gusto, Bill.com, Avalara).",
+      "evidence": "c40f18c2e4b60028: \"Journal entry JE-2291 (July accrual reversal, $61,240.00 across 4 lines) was submitted by Miles Okonkwo and is pending your approval before the July period can be locked.\" and c60f18c2e4b60044: \"A period close task has been assigned to you: 'Approve Journal Entries — July 2026 GL Close'.\" Aditi herself pushed the lock in c10f18c2e4b60039: \"Let's not lock trial balance until the payroll accrual is confirmed — push to day 6 (Monday, Aug 10) if we need to.\" — that date has also passed with no lock message.",
+      "recommended_action": "add new item with these fields — tier: acceptable (or must_include); claim: 'The July 2026 GL close is still waiting on Aditi to approve JE-2291 ($61,240 accrual reversal) and the assigned period-close approval task — both due Aug 2/Aug 6, both unactioned, and the period cannot lock until they clear'; anchor_message_id c60f18c2e4b60044; message_ids [c40f18c2e4b60028, c60f18c2e4b60044, c10f18c2e4b60039]; due_date 2026-08-06 explicit; consequence high (it gates the board pack and the FY27 financials Frank needs by Aug 18). Treat the two notifications as one obligation, not two."
+    },
+    {
+      "type": "stale_fact",
+      "severity": "medium",
+      "item_id": "finance-q1-04",
+      "message_ids": ["c60f18c2e4b60046", "c40f18c2e4b60045", "c40f18c2e4b60046"],
+      "problem": "The claim still lists 'the executed amendment' as one of three things Frank is owed by Aug 18, but DocuSign confirmed on the morning of the as-of day that the Third Amendment to the Credit Agreement was fully executed by all parties — including Harborline, whose Frank Mireles sent the envelope — so only the FY27 financials and the June AR aging remain outstanding.",
+      "evidence": "c40f18c2e4b60046 (Aug 12, 09:05): \"All parties have signed \\\"Northwind Robotics — Third Amendment to Credit Agreement.\\\" A copy of the completed, signed document is attached to this email for your records.\" The envelope was sent by Frank himself — c40f18c2e4b60045: \"Frank Mireles sent you a document to review and sign\".",
+      "recommended_action": "fix claim to 'Frank Mireles needs the updated FY27 financials and the June AR aging by Aug 18 — moved up seven days from Aug 25 because Harborline's credit committee re-scheduled; the amendment was executed Aug 12 (c40f18c2e4b60046), so that leg is closed' and add c40f18c2e4b60046 to message_ids. Note the same fact makes the gold's own prose_answer sentence about the 'executed amendment' stale."
+    },
+    {
+      "type": "missed_item",
+      "severity": "medium",
+      "item_id": null,
+      "message_ids": ["c50f18c2e4b60006", "c50f18c2e4b60005", "c10f18c2e4b60045", "c60f18c2e4b60025"],
+      "problem": "Aditi personally committed two overdue audit deliverables to Pemberton & Wells and neither is in the answer set: the lease amortization schedule and the related-party disclosures promised 'by Thursday EOD' (Aug 6), with fieldwork having started Aug 11 and no delivery message anywhere; plus the re-promise on Aug 10 that Miles will have the ASC 842 lease schedule and Carta export to Nadia by Friday Aug 14 — a date inside the Q1 horizon. The lease-schedule strand has already drawn an explicit escalation threat from the auditor.",
+      "evidence": "c50f18c2e4b60006 (Aug 3, SENT): \"For the other two: you'll have the lease amortization schedule and related-party disclosures by Thursday EOD — I'm pulling the related-party piece myself since it touches the loan from Sam.\" Nadia's escalation, c60f18c2e4b60025: \"if the redline isn't fully executed by Monday, I may need to escalate it internally as an open item in our status memo to the partner.\" Aditi's Aug 10 re-commitment, c10f18c2e4b60045: \"Miles will have both to you by Friday (8/14).\"",
+      "recommended_action": "add new item with these fields — tier: acceptable; claim: 'The Pemberton & Wells PBC items Aditi promised by Thursday Aug 6 (lease amortization schedule, related-party disclosures) were never sent, fieldwork started Aug 11 without them, and she has re-committed the lease schedule and Carta export for Friday Aug 14'; anchor_message_id c10f18c2e4b60045; due_date 2026-08-14 explicit; counterparty nhaddad@pembertonwells.com; consequence medium-high (Aug 22 substantial-completion target). Flag in curator_notes that this is primarily a Q2 item and enters Q1 on urgency; if the curator judges it Q2-only, it still belongs in must_not_include with that reason rather than being silently absent."
+    },
+    {
+      "type": "missed_item",
+      "severity": "medium",
+      "item_id": null,
+      "message_ids": ["c40f18c2e4b60024"],
+      "problem": "QUESTIONS.md §1 inclusion 3 names 'a genuine security alert' as a Q1 hazard, and this mailbox has exactly one: an unread notice of a *successful* new sign-in to Aditi's NetSuite account from a Windows device at 10:41pm on a Sunday, classed EmailClass.SECURITY_ALERT with action_owner = Aditi. The gold set excludes the Google alert (correctly, since that attempt was blocked) but never addresses the NetSuite one, which appears in neither list.",
+      "evidence": "c40f18c2e4b60024 (Aug 9, 22:41, UNREAD): \"We noticed a new sign-in to your NetSuite account (aditi.sharma@northwindrobotics.com) from a Windows device in Boston, MA at 10:41 PM ET. If this was you, no action is needed. If not, reset your password immediately.\" (meta.email_class = security_alert, meta.action_owner = aditi.sharma@northwindrobotics.com)",
+      "recommended_action": "add new item with these fields — tier: borderline; claim: 'An unrecognised late-night sign-in to Aditi's NetSuite account (Windows device, Boston, Aug 9 10:41pm) is unread and unconfirmed — worth a two-minute check given she is the sole Bill.com payment approver and two wire-fraud attempts are live in this mailbox'; anchor c40f18c2e4b60024; due_date null; consequence medium. If the curator instead judges it routine, it must go into must_not_include with a stated reason, so a system is not penalised for a hazard the contract explicitly invites."
+    },
+    {
+      "type": "missed_item",
+      "severity": "low",
+      "item_id": null,
+      "message_ids": ["c10f18c2e4b60033", "c10f18c2e4b60032"],
+      "problem": "The Avalara 2-year order form Aditi asked for is sitting unsigned with a hard Aug 15 expiry — a real, non-automated decision window closing inside three days, from a named human account manager, with no later message showing it signed.",
+      "evidence": "c10f18c2e4b60033 (Jul 29, Chris Doyle): \"Absolutely, we can do a 2-year term at $13,600/year (6% discount). Sending over the updated order form now — valid through August 15.\" Aditi had asked for it in c10f18c2e4b60032: \"any chance you can do a 2-year term instead of 3?\"",
+      "recommended_action": "add new item with these fields — tier: acceptable or borderline; claim: 'The Avalara 2-year order form at $13,600/year that Aditi asked Chris Doyle for is unsigned and the quote expires Aug 15'; anchor c10f18c2e4b60033; due_date 2026-08-15 explicit; counterparty chris.doyle@avalara.com; consequence low-medium. Note the earlier 'yes, sign it' (c50f18c2e4b60032, Jul 21) refers to the standard renewal, not this multi-year form, so it does not close it."
+    },
+    {
+      "type": "misranked",
+      "severity": "low",
+      "item_id": "finance-q1-07",
+      "message_ids": ["c60f18c2e4b60037", "c60f18c2e4b60029"],
+      "problem": "The two live fraud hazards are ranked inconsistently under the same principle: the Solent lookalike sits at rank 2 while the structurally identical Harborline wire-fraud attempt — which is addressed to Aditi personally and asks her to disclose Northwind's account and routing numbers — sits at rank 7, below a $4,230 expense-report approval and an internal capex sign-off. Under (irreversibility) → (time pressure) → (counterparty weight), a disclosed routing number is at least as irreversible as a late expense reimbursement.",
+      "evidence": "c60f18c2e4b60037: \"Please reply with your account and routing number so we can verify against our records, or call the number below to confirm verbally.\" — From: wireservices@harborlinebank.com but reply_to = wireservices@harborline-banksecure.com; \"This is time-sensitive given the amendment is close to execution.\"",
+      "recommended_action": "reorder above finance-q1-05 (i.e. place the Harborline hazard immediately after finance-q1-03, adjacent to the Solent hazard) so the two fraud items are ranked on the same basis."
+    }
+  ],
+  "checked_and_sound": [
+    "finance-q1-01",
+    "finance-q1-02",
+    "finance-q1-03",
+    "finance-q1-05",
+    "finance-q1-06",
+    "finance-q1-08",
+    "finance-q1-09",
+    "finance-q1-10",
+    "finance-q1-11",
+    "finance-q1-12"
+  ],
+  "notes": "Scope: 12 items plus 7 must_not_include entries reviewed (19 total). Closure sweep: every item's full thread was read in date order and the whole mailbox was searched for cross-thread resolution; none of the 12 items is closed by a later message. Evidence check: all 12 evidence_quote values are exact substrings of the cited body_text or attachment extracted_text (verified programmatically); finance-q1-05 correctly quotes the attachment, finance-q1-06 correctly quotes the surviving blockquote. days_open is arithmetically correct on all 12. Fraud framing passes: finance-q1-02 says 'do not reroute payment; warn Ilya in AP and pay only the account on file', finance-q1-07 says 'Verify with Frank by phone; never reply', finance-q1-12 is flagged as a spam-quarantined hazard — no paying-shaped language anywhere, and the legitimate Solent invoice (c60f18c2e4b60024, net-30 due Aug 21) is cited only as the grounding context that proves the lookalike is fake. finance-q1-11 correctly cites the current $1.92M / 10-rep figure and never the superseded $1.84M or $2.05M, and resolves 'before the board meeting' to Aug 27 from the invite. must_not_include was re-tested item by item and all 7 hold: c40f18c2e4b60045 is genuinely closed by c40f18c2e4b60046; c60f18c2e4b60016 was claimed by Miles the next morning ('I'll grab this one'); c60f18c2e4b60013 says 'keeping you in the loop' with the ask directed at Derek's AP team; c30f18c2e4b60011 says 'No action needed if everything looks right'; c40f18c2e4b60031 is the same $4,180 Fairhaven line that reappears in the Aug 7 batch. Two things a human should weigh but which I did not raise as findings. (1) Possible overlap between finance-q1-08 (D&O/GL, $86,400, deadline 8/15, Gail Underwood) and finance-q1-09 (warehouse P&C, $58,400, deadline 8/15, Gail Underwood): the corpus carries four mutually inconsistent Fairhaven quote sets ($184,600 GL/property/umbrella on Jun 18; $38,400 D&O + $9,200 property on Jun 22; $58,400 warehouse P&C on Jun 29; $86,400 D&O/GL on Jul 28), and c10f18c2e4b60001 bundles 'D&O and commercial property' under one signed application. They are separate threads with separate numbers so I treated them as two obligations, but a reviewer could reasonably collapse them. (2) finance-q1-09's premise that the decision is still Aditi's is slightly softened by c50f18c2e4b60026 (Jul 31), where she hands the property/liability renewal conversation to Ruth and Gail directly — the bind decision still reads as hers, so I left the item alone. Also noted: several lower-stakes overdue owner approvals are absent from both lists — VB-33107 ($12,060, routed to her Aug 6, due Aug 7, c40f18c2e4b60029), Ruth's Ramp limit increase (due Aug 8, c40f18c2e4b60033), the 409A sign-off gating new option grants (due Aug 4, c40f18c2e4b60042) and PO-10482 ($38,120, due Jul 17, c40f18c2e4b60027). Individually each is thin for Q1, but the set of them suggests the sweep of automated approval workflows stopped after Bill.com and Gusto."
+}

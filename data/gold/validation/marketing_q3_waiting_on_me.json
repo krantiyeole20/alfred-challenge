@@ -1,0 +1,46 @@
+{
+  "profile_id": "marketing",
+  "question": "q3_waiting_on_me",
+  "items_reviewed": 10,
+  "verdict": "issues",
+  "findings": [
+    {
+      "type": "missed_item",
+      "severity": "high",
+      "item_id": null,
+      "message_ids": ["b20f18c2e4b60025", "b20f18c2e4b60024", "b20f18c2e4b60023", "b20f18c2e4b60019"],
+      "problem": "Tessa Brandt (Fold & Field) is blocked on Jordan's countersignature of the redlined Q4 2026 SOW she sent on Jul 30 — she spoke last, the client signature block is still blank, the terms take effect with the August billing cycle, and no later message anywhere in the mailbox closes it.",
+      "evidence": "b20f18c2e4b60025 body: 'Sending the redlined SOW over today — thanks for working through this with us.' and its attachment Habitat_Goods_Q4_SOW_Redline.pdf extracted_text: 'NET CHANGE: +$400/month, effective August billing cycle.' / 'Client signature: ______________________  Date: __________' (agency line already signed: 'Agency signature: Tessa Brandt, Account Director  Date: 07/30/2026'). Jordan herself asked for it — b20f18c2e4b60024, SENT Jul 29: 'Works for us. Can you send the redlined SOW by Friday?'",
+      "recommended_action": "add new item with these fields — item_id marketing-q3-11 (insert at rank ~4), tier must_include, thread_id b20f18c2e4b60019, anchor_message_id b20f18c2e4b60025, message_ids [b20f18c2e4b60019, b20f18c2e4b60021, b20f18c2e4b60023, b20f18c2e4b60024, b20f18c2e4b60025], counterparty tessa@foldandfield.agency, due_date 2026-08-01 (due_basis implicit — 'effective August billing cycle'), days_open 13, consequence high, tricky_tags [task_in_attachment_only]. Note this is a DIFFERENT document from the FY27 SOW DocuSign envelope already listed in must_not_include (b40f18c2e4b60030, executed Jul 23) and from the FY27 retainer negotiation in b50f18c2e4b60019 — the Q4 SOW is $42,000/mo, supersedes the May 4 SOW, and is unsigned."
+    },
+    {
+      "type": "stale_fact",
+      "severity": "medium",
+      "item_id": "marketing-q3-07",
+      "message_ids": ["b60f18c2e4b60047"],
+      "problem": "The implicit deadline on Cam's Q4 editorial ask is resolved to 2026-08-14, a week too late — his message is dated Thursday Aug 6 and 'Friday' resolves to Aug 7, so the item is five days overdue rather than upcoming, which also changes where it should rank.",
+      "evidence": "b60f18c2e4b60047 (dated 2026-08-06 15:00, a Thursday): 'Wanted to get you the full Q4 editorial strategy before our sync Friday so you have time to react.' and 'Let me know if any of this conflicts with where you and Sofia are landing on overall priorities — happy to adjust before Friday.' The message's own meta.due_date is '2026-08-07'.",
+      "recommended_action": "fix due_date to '2026-08-07' (due_basis implicit) and reword the claim from 'before Friday's sync' to 'was due before the Aug 7 sync, now five days overdue; the live constraint is Cam's Aug 22 September-content lock'."
+    },
+    {
+      "type": "misranked",
+      "severity": "low",
+      "item_id": "marketing-q3-03",
+      "message_ids": ["b10f18c2e4b60046", "b60f18c2e4b60041", "b60f18c2e4b60045"],
+      "problem": "Amara's contract (blocked 1 day, no stated due date, consequence medium) is ranked above Wes's Q4 budget template (blocked 15 days, hard Aug 21 5pm deadline, consequence high) and above both of Sofia's asks, inverting Q3's ranking principle of (age of the requester's block) x (requester weight) x (stated due date).",
+      "evidence": "b10f18c2e4b60046 (2026-08-11): '$4,800 with the 60-day usage extension works for me. Send the contract whenever you're ready!' — 'whenever you're ready' is the opposite of blocked-with-a-date, versus b60f18c2e4b60041 attachment (2026-07-28): 'Final numbers are due Friday, August 21 by 5:00pm CT. Submissions received after this time will not be included in the FY27 board deck draft.'",
+      "recommended_action": "reorder below marketing-q3-04 (and below marketing-q3-05), i.e. move Amara to rank 5 and promote Wes/Sofia one position each."
+    }
+  ],
+  "checked_and_sound": [
+    "marketing-q3-01",
+    "marketing-q3-02",
+    "marketing-q3-04",
+    "marketing-q3-05",
+    "marketing-q3-06",
+    "marketing-q3-08",
+    "marketing-q3-09",
+    "marketing-q3-10"
+  ],
+  "notes": "Method: loaded all 300 marketing messages, enumerated every thread whose last message is inbound (130 threads), read every human-sender candidate in full, then cross-checked each gold item against the whole mailbox for later closure. All 10 evidence_quotes verified as exact substrings of the cited message's body_text or attachment extracted_text; all message_ids exist; no double-counting (the Priyanka resend b60f18c2e4b60039/40 is correctly one item, and Cam's whitelisting ask correctly spans the cross-thread pair b60f18c2e4b60042 + b60f18c2e4b60043).\n\nClosure checks that PASSED (items correctly left open): item 01 — no reply to Priyanka on the press release anywhere, and the Aug 6 Fast Company thread is a separate topic; item 02 — Jordan's Aug 1 reply (b60f18c2e4b60043) answers only the banner compliment, the $2,800 approval survives solely in the quoted block; item 08 — verified Jordan never told the team Nov 4 is final: her Aug 11 team note (b50f18c2e4b60034) omits it, and the Holiday Hero thread is still transacting on the old date as late as Aug 10 ('Given the Nov 1 deadline pressure' — Sofia, quoted in b20f18c2e4b60010, Aug 12), which makes this item stronger than the curator claimed.\n\nAll 7 must_not_include entries independently confirmed as correct exclusions: the vendor-spend audit was claimed by Nina the next morning ('I'll take this — pretty sure it's the Semrush renewal that got double-billed', b60f18c2e4b60015); the Business Insider forward is FYI ('keeping you in the loop... can you just make sure it's on his radar?', b60f18c2e4b60001, action_owner Cam); Ben shipped the cart flow Aug 8 (b60f18c2e4b60049); the klaviyo-billing.com sender is a lookalike; Sofia's Direction C note assigns the brief to Rachel; the $18,400 PO was approved by Jordan the same morning (b10f18c2e4b60050, Aug 12); the FY27 DocuSign envelope completed Jul 23 (b40f18c2e4b60031). No bad_distractor findings.\n\nJudgement calls a human should weigh, not filed as findings:\n1. Item 09 (DTC Growth Summit) — Jordan explicitly DECLINED an Oct 14 panel on Jun 25: 'I have to pass on the panel this year — Oct 14 lands right in the middle of our BFCM prep' (b50f18c2e4b60020, to marisol@dtcsummit.co). Priya's Jul 30 confirmation (b30f18c2e4b60024, priya@dtcgrowthsummit.com) cites 'our call last week where you agreed to speak on the retention panel'. Different name and domain, same date and same panel topic. Under the precedence rule the later message governs and the item stands, but if these are meant to be the same event the curator should say so in curator_notes — a system that reads only the June message will score this as a false positive.\n2. Wes's $120K paid-social correction (b60f18c2e4b60013, Jul 24, sole to: Jordan, 'Let's talk Monday if this changes the media mix', meta.action_owner = Jordan) is the last inbound message in its thread and is arguably a live Q3 edge. I did not file it because the Question x TrickyTag matrix puts shifting_number at '—' for Q3 and Jordan has demonstrably engaged with the $120K figure elsewhere (b50f18c2e4b60002 to Sofia). It would make a good must_not_include entry with trap 'shifting_number'.\n3. The Aug 12 bounce (b40f18c2e4b60044) — Jordan's 8:14am send of 'Holiday Campaign Creative — Final Round Files' never reached Tessa (mailbox over quota). Tessa is functionally blocked and does not know it, but no human requester spoke last, so it is Q1/Q6 rather than Q3. Worth adding to must_not_include with trap 'automated-not-human' since it is exactly the kind of thing a system will file here.\n4. Wes's July expense reminder (b10f18c2e4b60034, 'they'll age out of the reimbursement window in about three weeks', unanswered since Jul 8) is individually directed and open, but nobody's work is blocked on it — correctly out of Q3, and a reasonable Q6 candidate.\n5. Tessa's Jun 27 terracotta paint decision (b60f18c2e4b60003, same_person_two_addresses) has no reply in the corpus, but the Aug 4-5 shoot it fed has already happened, so it is closed by events — correctly excluded.\n6. Minor, not filed: item 02's anchor is the ask (b60f18c2e4b60042) rather than the message that establishes the current state (b60f18c2e4b60043, the non-answer). Defensible either way."
+}

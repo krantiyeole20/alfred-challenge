@@ -1,0 +1,2767 @@
+[
+  {
+    "id": "a30f18c2e4b60001",
+    "thread_id": "a30f18c2e4b60001",
+    "profile_id": "founder",
+    "history_id": "693823",
+    "message_id_header": "<a30f18c2e4b60001@aws.amazon.com>",
+    "in_reply_to": null,
+    "references": [],
+    "thread_position": 1,
+    "thread_length": 1,
+    "from": {
+      "name": "AWS Startups",
+      "email": "no-reply@aws.amazon.com"
+    },
+    "to": [
+      {
+        "name": "Maya Rodriguez",
+        "email": "maya@kettlehq.com"
+      }
+    ],
+    "cc": [],
+    "bcc": [],
+    "delivered_to": "maya@kettlehq.com",
+    "subject": "AWS re:Invent 2026 registration is now open",
+    "snippet": "Hi Maya, Registration for AWS re:Invent 2026 (Dec 1-5, Las Vegas) is now open. As a member of AWS Activate, Kettle is eligible for one complimentary Explorer pass. This year's agil",
+    "body_text": "Hi Maya,\n\nRegistration for AWS re:Invent 2026 (Dec 1-5, Las Vegas) is now open. As a member of AWS Activate, Kettle is eligible for one complimentary Explorer pass.\n\nThis year's agility track covers cost optimization for scaling startups, which felt relevant given your account's usage growth over the last two quarters.\n\nRegister before September 1 to lock in your Activate discount code.\n\nSee you in Vegas,\nThe AWS Startups Team",
+    "body_html": "<div style=\"font-family:Arial,Helvetica,sans-serif;font-size:14px;color:#222222;line-height:1.5;max-width:600px\"><div style=\"background:#232f3e;color:#ffffff;padding:16px 20px;font-size:18px;font-weight:bold;border-radius:4px 4px 0 0\">AWS re:Invent 2026</div><div style=\"padding:16px 20px\"><p>Hi Maya,</p><p>Registration for AWS re:Invent 2026 (Dec 1&ndash;5, Las Vegas) is now open. As an AWS Activate member, Kettle gets one complimentary Explorer pass.</p><p><a href=\"https://reinvent.awsevents.com/register\" style=\"background:#ff9900;color:#111;padding:10px 18px;text-decoration:none;border-radius:3px;display:inline-block\">Register now</a></p></div></div>",
+    "date": "2026-06-16T10:03:00-07:00",
+    "internal_date_ms": 1781629380000,
+    "folder": "INBOX",
+    "category": "CATEGORY_PROMOTIONS",
+    "is_unread": false,
+    "is_starred": false,
+    "is_important": false,
+    "user_labels": [],
+    "attachments": [],
+    "calendar_event": null,
+    "extra_headers": {
+      "Precedence": "bulk",
+      "X-Mailer": "AWS Marketing Cloud"
+    },
+    "size_estimate": 1983,
+    "meta": {
+      "email_class": "promotional",
+      "tricky_tags": [],
+      "is_actionable_for_user": false,
+      "action_owner": null,
+      "action_summary": null,
+      "due_date": null,
+      "commitment_made_by_user": null,
+      "commitment_is_conditional": false,
+      "commitment_condition": null,
+      "superseded_by_message_id": null,
+      "notes": null
+    }
+  },
+  {
+    "id": "a30f18c2e4b60002",
+    "thread_id": "a30f18c2e4b60002",
+    "profile_id": "founder",
+    "history_id": "732650",
+    "message_id_header": "<a30f18c2e4b60002@vercel.com>",
+    "in_reply_to": null,
+    "references": [],
+    "thread_position": 1,
+    "thread_length": 1,
+    "from": {
+      "name": "Vercel",
+      "email": "hello@vercel.com"
+    },
+    "to": [
+      {
+        "name": "Maya Rodriguez",
+        "email": "maya@kettlehq.com"
+      }
+    ],
+    "cc": [],
+    "bcc": [],
+    "delivered_to": "maya@kettlehq.com",
+    "subject": "Introducing Edge Functions v2: 40% faster cold starts",
+    "snippet": "Hey Maya, We just shipped Edge Functions v2. Cold starts are down 40% and the new runtime supports streaming responses out of the box. If Kettle's dashboard is on the old edge runt",
+    "body_text": "Hey Maya,\n\nWe just shipped Edge Functions v2. Cold starts are down 40% and the new runtime supports streaming responses out of the box.\n\nIf Kettle's dashboard is on the old edge runtime, migrating is a one-line config change \u2014 docs are linked below.\n\nLet us know what you build.\n\n\u2014 The Vercel Team",
+    "body_html": "<div style=\"font-family:Arial,Helvetica,sans-serif;font-size:14px;color:#222222;line-height:1.5;max-width:600px\"><div style=\"background:#000000;color:#ffffff;padding:16px 20px;font-size:18px;font-weight:bold;border-radius:4px 4px 0 0\">Edge Functions v2</div><div style=\"padding:16px 20px\"><p>Cold starts are down 40%, and the new runtime supports streaming responses out of the box.</p><p><a href=\"https://vercel.com/changelog/edge-v2\">Read the changelog &rarr;</a></p></div></div>",
+    "date": "2026-07-13T09:10:00-07:00",
+    "internal_date_ms": 1783959000000,
+    "folder": "INBOX",
+    "category": "CATEGORY_PROMOTIONS",
+    "is_unread": false,
+    "is_starred": false,
+    "is_important": false,
+    "user_labels": [],
+    "attachments": [],
+    "calendar_event": null,
+    "extra_headers": {
+      "Precedence": "bulk"
+    },
+    "size_estimate": 1639,
+    "meta": {
+      "email_class": "promotional",
+      "tricky_tags": [],
+      "is_actionable_for_user": false,
+      "action_owner": null,
+      "action_summary": null,
+      "due_date": null,
+      "commitment_made_by_user": null,
+      "commitment_is_conditional": false,
+      "commitment_condition": null,
+      "superseded_by_message_id": null,
+      "notes": null
+    }
+  },
+  {
+    "id": "a30f18c2e4b60003",
+    "thread_id": "a30f18c2e4b60003",
+    "profile_id": "founder",
+    "history_id": "733840",
+    "message_id_header": "<a30f18c2e4b60003@datadoghq.com>",
+    "in_reply_to": null,
+    "references": [],
+    "thread_position": 1,
+    "thread_length": 1,
+    "from": {
+      "name": "Datadog Events",
+      "email": "events@datadoghq.com"
+    },
+    "to": [
+      {
+        "name": "Maya Rodriguez",
+        "email": "maya@kettlehq.com"
+      }
+    ],
+    "cc": [],
+    "bcc": [],
+    "delivered_to": "maya@kettlehq.com",
+    "subject": "Live webinar: Observability at scale for Series A teams",
+    "snippet": "Hi Maya, You're invited to a live session on how Series A engineering teams keep observability costs predictable while scaling ingest. Thursday, July 30 at 10:00am PT (60 minutes) ",
+    "body_text": "Hi Maya,\n\nYou're invited to a live session on how Series A engineering teams keep observability costs predictable while scaling ingest.\n\nThursday, July 30 at 10:00am PT (60 minutes)\nSpeakers: Datadog's Director of Product for APM, plus the Head of Infra at a Series B fintech who cut their monthly bill by 31% after a host-tagging cleanup.\n\nAgenda:\n- Why host count, not data volume, usually drives the bill\n- Log pipeline sampling strategies that don't lose the incidents that matter\n- A live Q&A on APM trace retention policy\n\nThis one felt worth flagging given the account growth we've seen on Kettle's side over the last two billing cycles. Registration is free but capped at 500 seats.\n\nSave your seat,\nThe Datadog Events Team",
+    "body_html": "<div style=\"font-family:Arial,Helvetica,sans-serif;font-size:14px;color:#222222;line-height:1.5;max-width:600px\"><div style=\"background:#632ca6;color:#ffffff;padding:16px 20px;font-size:18px;font-weight:bold;border-radius:4px 4px 0 0\">Datadog Live Webinar</div><div style=\"padding:16px 20px\"><p><strong>Observability at scale for Series A teams</strong></p><p>Thursday, July 30 &middot; 10:00am PT &middot; 60 minutes</p><ul><li>Why host count usually drives the bill</li><li>Log pipeline sampling without losing incidents</li><li>Live Q&amp;A on APM trace retention</li></ul><p><a href=\"https://www.datadoghq.com/events/webinar-series-a\" style=\"background:#632ca6;color:#fff;padding:10px 18px;text-decoration:none;border-radius:3px;display:inline-block\">Save my seat</a></p></div></div>",
+    "date": "2026-07-14T08:00:00-04:00",
+    "internal_date_ms": 1784030400000,
+    "folder": "INBOX",
+    "category": "CATEGORY_PROMOTIONS",
+    "is_unread": false,
+    "is_starred": false,
+    "is_important": false,
+    "user_labels": [],
+    "attachments": [],
+    "calendar_event": null,
+    "extra_headers": {
+      "Precedence": "bulk"
+    },
+    "size_estimate": 2392,
+    "meta": {
+      "email_class": "promotional",
+      "tricky_tags": [],
+      "is_actionable_for_user": false,
+      "action_owner": null,
+      "action_summary": null,
+      "due_date": null,
+      "commitment_made_by_user": null,
+      "commitment_is_conditional": false,
+      "commitment_condition": null,
+      "superseded_by_message_id": null,
+      "notes": null
+    }
+  },
+  {
+    "id": "a30f18c2e4b60004",
+    "thread_id": "a30f18c2e4b60004",
+    "profile_id": "founder",
+    "history_id": "735445",
+    "message_id_header": "<a30f18c2e4b60004@linear.app>",
+    "in_reply_to": null,
+    "references": [],
+    "thread_position": 1,
+    "thread_length": 1,
+    "from": {
+      "name": "Linear",
+      "email": "team@linear.app"
+    },
+    "to": [
+      {
+        "name": "Maya Rodriguez",
+        "email": "maya@kettlehq.com"
+      }
+    ],
+    "cc": [],
+    "bcc": [],
+    "delivered_to": "maya@kettlehq.com",
+    "subject": "New: Linear Insights turns your cycle data into charts",
+    "snippet": "Hi Maya, Linear Insights is out of beta. You can now see cycle velocity, scope creep, and time-in-status charts for any team, filterable by label. It's live on Kettle's workspace a",
+    "body_text": "Hi Maya,\n\nLinear Insights is out of beta. You can now see cycle velocity, scope creep, and time-in-status charts for any team, filterable by label.\n\nIt's live on Kettle's workspace already \u2014 no setup needed. Check it out under the new Insights tab.\n\n\u2014 The Linear Team",
+    "body_html": "<div style=\"font-family:Arial,Helvetica,sans-serif;font-size:14px;color:#222222;line-height:1.5;max-width:600px\"><div style=\"background:#5e6ad2;color:#ffffff;padding:16px 20px;font-size:18px;font-weight:bold;border-radius:4px 4px 0 0\">Linear Insights</div><div style=\"padding:16px 20px\"><p>Cycle velocity, scope creep, and time-in-status charts, filterable by label. Live on your workspace now.</p></div></div>",
+    "date": "2026-07-15T07:45:00-07:00",
+    "internal_date_ms": 1784126700000,
+    "folder": "INBOX",
+    "category": "CATEGORY_PROMOTIONS",
+    "is_unread": false,
+    "is_starred": false,
+    "is_important": false,
+    "user_labels": [],
+    "attachments": [],
+    "calendar_event": null,
+    "extra_headers": {
+      "Precedence": "bulk"
+    },
+    "size_estimate": 1538,
+    "meta": {
+      "email_class": "promotional",
+      "tricky_tags": [],
+      "is_actionable_for_user": false,
+      "action_owner": null,
+      "action_summary": null,
+      "due_date": null,
+      "commitment_made_by_user": null,
+      "commitment_is_conditional": false,
+      "commitment_condition": null,
+      "superseded_by_message_id": null,
+      "notes": null
+    }
+  },
+  {
+    "id": "a30f18c2e4b60005",
+    "thread_id": "a30f18c2e4b60005",
+    "profile_id": "founder",
+    "history_id": "736810",
+    "message_id_header": "<a30f18c2e4b60005@notion.so>",
+    "in_reply_to": null,
+    "references": [],
+    "thread_position": 1,
+    "thread_length": 1,
+    "from": {
+      "name": "Notion",
+      "email": "mail@notion.so"
+    },
+    "to": [
+      {
+        "name": "Maya Rodriguez",
+        "email": "maya@kettlehq.com"
+      }
+    ],
+    "cc": [],
+    "bcc": [],
+    "delivered_to": "maya@kettlehq.com",
+    "subject": "10 Notion templates every startup ops team needs",
+    "snippet": "Hi Maya, We pulled together the 10 most-duplicated templates from teams your size: board meeting trackers, a hiring pipeline, an OKR grid, and a vendor renewal calendar among them.",
+    "body_text": "Hi Maya,\n\nWe pulled together the 10 most-duplicated templates from teams your size: board meeting trackers, a hiring pipeline, an OKR grid, and a vendor renewal calendar among them.\n\nThe vendor renewal one in particular has saved teams from missing auto-renew windows \u2014 worth a look before your next SaaS renewal sneaks up on you.\n\nBrowse the pack here.\n\n\u2014 Notion",
+    "body_html": "<div style=\"font-family:Arial,Helvetica,sans-serif;font-size:14px;color:#222222;line-height:1.5;max-width:600px\"><div style=\"background:#000000;color:#ffffff;padding:16px 20px;font-size:18px;font-weight:bold;border-radius:4px 4px 0 0\">10 templates for startup ops</div><div style=\"padding:16px 20px\"><p>Board meeting trackers, a hiring pipeline, an OKR grid, and a vendor renewal calendar &mdash; the templates duplicated most by teams your size.</p><p><a href=\"https://notion.so/templates/startup-ops\">Browse the pack &rarr;</a></p></div></div>",
+    "date": "2026-07-16T06:30:00-07:00",
+    "internal_date_ms": 1784208600000,
+    "folder": "INBOX",
+    "category": "CATEGORY_PROMOTIONS",
+    "is_unread": false,
+    "is_starred": false,
+    "is_important": false,
+    "user_labels": [],
+    "attachments": [],
+    "calendar_event": null,
+    "extra_headers": {
+      "Precedence": "bulk"
+    },
+    "size_estimate": 1761,
+    "meta": {
+      "email_class": "promotional",
+      "tricky_tags": [],
+      "is_actionable_for_user": false,
+      "action_owner": null,
+      "action_summary": null,
+      "due_date": null,
+      "commitment_made_by_user": null,
+      "commitment_is_conditional": false,
+      "commitment_condition": null,
+      "superseded_by_message_id": null,
+      "notes": null
+    }
+  },
+  {
+    "id": "a30f18c2e4b60006",
+    "thread_id": "a30f18c2e4b60006",
+    "profile_id": "founder",
+    "history_id": "738472",
+    "message_id_header": "<a30f18c2e4b60006@mercury.com>",
+    "in_reply_to": null,
+    "references": [],
+    "thread_position": 1,
+    "thread_length": 1,
+    "from": {
+      "name": "Mercury",
+      "email": "raise@mercury.com"
+    },
+    "to": [
+      {
+        "name": "Maya Rodriguez",
+        "email": "maya@kettlehq.com"
+      }
+    ],
+    "cc": [],
+    "bcc": [],
+    "delivered_to": "maya@kettlehq.com",
+    "subject": "Mercury Raise: get in front of 200+ investors this fall",
+    "snippet": "Hi Maya, Congrats again on closing your Series A with Northbridge earlier this year. A lot of founders in our network start fundraising conversations for their next round 9-12 mont",
+    "body_text": "Hi Maya,\n\nCongrats again on closing your Series A with Northbridge earlier this year. A lot of founders in our network start fundraising conversations for their next round 9-12 months out \u2014 which puts you right in the window.\n\nMercury Raise connects Mercury customers with a curated list of 200+ active investors across seed through growth stage, based on your sector and stage. It's free, and participation is opt-in \u2014 we only share your profile with investors you approve.\n\nIf Series B conversations are starting to come up for Kettle, it might be worth setting up a Raise profile now rather than scrambling later.\n\nReply if you'd like an intro to the Raise team.\n\nBest,\nThe Mercury Team",
+    "body_html": "<div style=\"font-family:Arial,Helvetica,sans-serif;font-size:14px;color:#222222;line-height:1.5;max-width:600px\"><div style=\"background:#5a37d6;color:#ffffff;padding:16px 20px;font-size:18px;font-weight:bold;border-radius:4px 4px 0 0\">Mercury Raise</div><div style=\"padding:16px 20px\"><p>Get in front of 200+ active investors across seed through growth stage &mdash; free, opt-in, matched to your sector and stage.</p><p><a href=\"https://mercury.com/raise\">Set up your profile &rarr;</a></p></div></div>",
+    "date": "2026-07-17T10:12:00-07:00",
+    "internal_date_ms": 1784308320000,
+    "folder": "INBOX",
+    "category": "CATEGORY_PROMOTIONS",
+    "is_unread": false,
+    "is_starred": false,
+    "is_important": false,
+    "user_labels": [
+      "Label_8842"
+    ],
+    "attachments": [],
+    "calendar_event": null,
+    "extra_headers": {
+      "Precedence": "bulk"
+    },
+    "size_estimate": 2058,
+    "meta": {
+      "email_class": "promotional",
+      "tricky_tags": [],
+      "is_actionable_for_user": false,
+      "action_owner": null,
+      "action_summary": null,
+      "due_date": null,
+      "commitment_made_by_user": null,
+      "commitment_is_conditional": false,
+      "commitment_condition": null,
+      "superseded_by_message_id": null,
+      "notes": null
+    }
+  },
+  {
+    "id": "a30f18c2e4b60007",
+    "thread_id": "a30f18c2e4b60007",
+    "profile_id": "founder",
+    "history_id": "739840",
+    "message_id_header": "<a30f18c2e4b60007@brex.com>",
+    "in_reply_to": null,
+    "references": [],
+    "thread_position": 1,
+    "thread_length": 1,
+    "from": {
+      "name": "Brex",
+      "email": "rewards@brex.com"
+    },
+    "to": [
+      {
+        "name": "Maya Rodriguez",
+        "email": "maya@kettlehq.com"
+      }
+    ],
+    "cc": [],
+    "bcc": [],
+    "delivered_to": "maya@kettlehq.com",
+    "subject": "You've earned 84,500 points \u2014 redeem before they expire",
+    "snippet": "Maya, your Kettle corporate card has 84,500 unredeemed points expiring Sept 30. Redeem for travel, cash back, or gift cards in the Brex dashboard.",
+    "body_text": "Maya, your Kettle corporate card has 84,500 unredeemed points expiring Sept 30. Redeem for travel, cash back, or gift cards in the Brex dashboard.",
+    "body_html": "<div style=\"font-family:Arial,Helvetica,sans-serif;font-size:14px;color:#222222;line-height:1.5;max-width:600px\"><div style=\"padding:16px 20px\"><p><strong>84,500 points</strong> expiring Sept 30. <a href=\"https://brex.com/rewards\">Redeem now</a></p></div></div>",
+    "date": "2026-07-18T09:00:00-07:00",
+    "internal_date_ms": 1784390400000,
+    "folder": "INBOX",
+    "category": "CATEGORY_PROMOTIONS",
+    "is_unread": false,
+    "is_starred": false,
+    "is_important": false,
+    "user_labels": [],
+    "attachments": [],
+    "calendar_event": null,
+    "extra_headers": {
+      "Precedence": "bulk"
+    },
+    "size_estimate": 1262,
+    "meta": {
+      "email_class": "promotional",
+      "tricky_tags": [],
+      "is_actionable_for_user": false,
+      "action_owner": null,
+      "action_summary": null,
+      "due_date": null,
+      "commitment_made_by_user": null,
+      "commitment_is_conditional": false,
+      "commitment_condition": null,
+      "superseded_by_message_id": null,
+      "notes": null
+    }
+  },
+  {
+    "id": "a30f18c2e4b60008",
+    "thread_id": "a30f18c2e4b60008",
+    "profile_id": "founder",
+    "history_id": "742500",
+    "message_id_header": "<a30f18c2e4b60008@ramp.com>",
+    "in_reply_to": null,
+    "references": [],
+    "thread_position": 1,
+    "thread_length": 1,
+    "from": {
+      "name": "Ramp",
+      "email": "intelligence@ramp.com"
+    },
+    "to": [
+      {
+        "name": "Maya Rodriguez",
+        "email": "maya@kettlehq.com"
+      }
+    ],
+    "cc": [],
+    "bcc": [],
+    "delivered_to": "maya@kettlehq.com",
+    "subject": "Ramp Intelligence found $18,400 in wasted SaaS spend",
+    "snippet": "Hi Maya, Ramp Intelligence flagged $18,400/year across Kettle's connected cards in tools with under 20% seat utilization \u2014 three of them haven't been logged into in over 60 days. Y",
+    "body_text": "Hi Maya,\n\nRamp Intelligence flagged $18,400/year across Kettle's connected cards in tools with under 20% seat utilization \u2014 three of them haven't been logged into in over 60 days.\n\nYour finance team can review the full list and cancel unused seats directly from the dashboard, no vendor calls required.\n\nSee the breakdown here.\n\n\u2014 Ramp",
+    "body_html": "<div style=\"font-family:Arial,Helvetica,sans-serif;font-size:14px;color:#222222;line-height:1.5;max-width:600px\"><div style=\"background:#1c1c1e;color:#ffffff;padding:16px 20px;font-size:18px;font-weight:bold;border-radius:4px 4px 0 0\">Ramp Intelligence</div><div style=\"padding:16px 20px\"><p><strong>$18,400/yr</strong> flagged across tools under 20% seat utilization. Three haven't been logged into in 60+ days.</p><p><a href=\"https://ramp.com/intelligence\">Review the breakdown &rarr;</a></p></div></div>",
+    "date": "2026-07-20T08:20:00-04:00",
+    "internal_date_ms": 1784550000000,
+    "folder": "INBOX",
+    "category": "CATEGORY_PROMOTIONS",
+    "is_unread": false,
+    "is_starred": false,
+    "is_important": false,
+    "user_labels": [],
+    "attachments": [],
+    "calendar_event": null,
+    "extra_headers": {
+      "Precedence": "bulk"
+    },
+    "size_estimate": 1702,
+    "meta": {
+      "email_class": "promotional",
+      "tricky_tags": [],
+      "is_actionable_for_user": false,
+      "action_owner": null,
+      "action_summary": null,
+      "due_date": null,
+      "commitment_made_by_user": null,
+      "commitment_is_conditional": false,
+      "commitment_condition": null,
+      "superseded_by_message_id": null,
+      "notes": null
+    }
+  },
+  {
+    "id": "a30f18c2e4b60009",
+    "thread_id": "a30f18c2e4b60009",
+    "profile_id": "founder",
+    "history_id": "744280",
+    "message_id_header": "<a30f18c2e4b60009@carta.com>",
+    "in_reply_to": null,
+    "references": [],
+    "thread_position": 1,
+    "thread_length": 1,
+    "from": {
+      "name": "Carta",
+      "email": "events@carta.com"
+    },
+    "to": [
+      {
+        "name": "Maya Rodriguez",
+        "email": "maya@kettlehq.com"
+      }
+    ],
+    "cc": [],
+    "bcc": [],
+    "delivered_to": "maya@kettlehq.com",
+    "subject": "Webinar: Running a tender offer post-Series A",
+    "snippet": "Hi Maya, A growing number of Series A companies are running small secondary tenders to give early employees partial liquidity without waiting for a priced round. Join Carta's Head ",
+    "body_text": "Hi Maya,\n\nA growing number of Series A companies are running small secondary tenders to give early employees partial liquidity without waiting for a priced round.\n\nJoin Carta's Head of Liquidity Solutions on August 12 at 11am PT for a walkthrough of structure, pricing mechanics, and the compliance steps most companies get wrong the first time.\n\nWe'll also cover how a 409A valuation interacts with tender pricing, which trips up a lot of first-timers.\n\nRegister here \u2014 recording available after if you can't make it live.\n\n\u2014 The Carta Events Team",
+    "body_html": "<div style=\"font-family:Arial,Helvetica,sans-serif;font-size:14px;color:#222222;line-height:1.5;max-width:600px\"><div style=\"background:#0b3d91;color:#ffffff;padding:16px 20px;font-size:18px;font-weight:bold;border-radius:4px 4px 0 0\">Carta Webinar</div><div style=\"padding:16px 20px\"><p><strong>Running a tender offer post-Series A</strong></p><p>August 12, 11am PT. Structure, pricing mechanics, and the compliance steps most companies miss the first time.</p><p><a href=\"https://carta.com/events/tender-webinar\">Register &rarr;</a></p></div></div>",
+    "date": "2026-07-21T11:00:00-07:00",
+    "internal_date_ms": 1784656800000,
+    "folder": "INBOX",
+    "category": "CATEGORY_PROMOTIONS",
+    "is_unread": false,
+    "is_starred": false,
+    "is_important": false,
+    "user_labels": [],
+    "attachments": [],
+    "calendar_event": null,
+    "extra_headers": {
+      "Precedence": "bulk"
+    },
+    "size_estimate": 1949,
+    "meta": {
+      "email_class": "promotional",
+      "tricky_tags": [],
+      "is_actionable_for_user": false,
+      "action_owner": null,
+      "action_summary": null,
+      "due_date": null,
+      "commitment_made_by_user": null,
+      "commitment_is_conditional": false,
+      "commitment_condition": null,
+      "superseded_by_message_id": null,
+      "notes": null
+    }
+  },
+  {
+    "id": "a30f18c2e4b60010",
+    "thread_id": "a30f18c2e4b60010",
+    "profile_id": "founder",
+    "history_id": "745640",
+    "message_id_header": "<a30f18c2e4b60010@rippling.com>",
+    "in_reply_to": null,
+    "references": [],
+    "thread_position": 1,
+    "thread_length": 1,
+    "from": {
+      "name": "Rippling",
+      "email": "growth@rippling.com"
+    },
+    "to": [
+      {
+        "name": "Maya Rodriguez",
+        "email": "maya@kettlehq.com"
+      }
+    ],
+    "cc": [],
+    "bcc": [],
+    "delivered_to": "maya@kettlehq.com",
+    "subject": "Hire your first engineer in Portugal without an entity",
+    "snippet": "Hi Maya, Saw Kettle's team page has grown a lot this year. If you're looking outside the US for engineering hires, Rippling's EOR product lets you hire full-time in Portugal, Polan",
+    "body_text": "Hi Maya,\n\nSaw Kettle's team page has grown a lot this year. If you're looking outside the US for engineering hires, Rippling's EOR product lets you hire full-time in Portugal, Poland, or 20+ other countries without standing up a local entity \u2014 payroll, benefits, and compliance handled on our side.\n\nMost customers your size get a new hire's contract out within 48 hours of approval.\n\nHappy to set up a quick walkthrough if useful.\n\nBest,\nThe Rippling Team",
+    "body_html": "<div style=\"font-family:Arial,Helvetica,sans-serif;font-size:14px;color:#222222;line-height:1.5;max-width:600px\"><div style=\"background:#0f6fff;color:#ffffff;padding:16px 20px;font-size:18px;font-weight:bold;border-radius:4px 4px 0 0\">Rippling EOR</div><div style=\"padding:16px 20px\"><p>Hire full-time in Portugal, Poland, or 20+ other countries without standing up a local entity. Contracts out in 48 hours.</p></div></div>",
+    "date": "2026-07-22T09:40:00-07:00",
+    "internal_date_ms": 1784738400000,
+    "folder": "INBOX",
+    "category": "CATEGORY_PROMOTIONS",
+    "is_unread": false,
+    "is_starred": false,
+    "is_important": false,
+    "user_labels": [],
+    "attachments": [],
+    "calendar_event": null,
+    "extra_headers": {
+      "Precedence": "bulk"
+    },
+    "size_estimate": 1747,
+    "meta": {
+      "email_class": "promotional",
+      "tricky_tags": [],
+      "is_actionable_for_user": false,
+      "action_owner": null,
+      "action_summary": null,
+      "due_date": null,
+      "commitment_made_by_user": null,
+      "commitment_is_conditional": false,
+      "commitment_condition": null,
+      "superseded_by_message_id": null,
+      "notes": null
+    }
+  },
+  {
+    "id": "a30f18c2e4b60011",
+    "thread_id": "a30f18c2e4b60011",
+    "profile_id": "founder",
+    "history_id": "747220",
+    "message_id_header": "<a30f18c2e4b60011@github.com>",
+    "in_reply_to": null,
+    "references": [],
+    "thread_position": 1,
+    "thread_length": 1,
+    "from": {
+      "name": "GitHub",
+      "email": "noreply@github.com"
+    },
+    "to": [
+      {
+        "name": "Maya Rodriguez",
+        "email": "maya@kettlehq.com"
+      }
+    ],
+    "cc": [],
+    "bcc": [],
+    "delivered_to": "maya@kettlehq.com",
+    "subject": "GitHub Copilot Enterprise: ship 55% faster, your team says",
+    "snippet": "Hi Maya, Teams on GitHub Copilot Enterprise report shipping 55% faster on average, with the biggest gains on codebase-wide refactors and PR review turnaround. Kettle's org is curre",
+    "body_text": "Hi Maya,\n\nTeams on GitHub Copilot Enterprise report shipping 55% faster on average, with the biggest gains on codebase-wide refactors and PR review turnaround.\n\nKettle's org is currently on Copilot Business \u2014 Enterprise adds fine-tuned suggestions on your private repos and a chat interface scoped to your own codebase.\n\nWant a 30-day trial for the eng team? Reply and we'll set it up.\n\n\u2014 GitHub",
+    "body_html": "<div style=\"font-family:Arial,Helvetica,sans-serif;font-size:14px;color:#222222;line-height:1.5;max-width:600px\"><div style=\"background:#24292e;color:#ffffff;padding:16px 20px;font-size:18px;font-weight:bold;border-radius:4px 4px 0 0\">GitHub Copilot Enterprise</div><div style=\"padding:16px 20px\"><p>Teams report shipping <strong>55% faster</strong> on average, with the biggest gains on refactors and PR review turnaround.</p></div></div>",
+    "date": "2026-07-23T12:00:00-07:00",
+    "internal_date_ms": 1784833200000,
+    "folder": "INBOX",
+    "category": "CATEGORY_PROMOTIONS",
+    "is_unread": false,
+    "is_starred": false,
+    "is_important": false,
+    "user_labels": [],
+    "attachments": [],
+    "calendar_event": null,
+    "extra_headers": {
+      "Precedence": "bulk"
+    },
+    "size_estimate": 1702,
+    "meta": {
+      "email_class": "promotional",
+      "tricky_tags": [],
+      "is_actionable_for_user": false,
+      "action_owner": null,
+      "action_summary": null,
+      "due_date": null,
+      "commitment_made_by_user": null,
+      "commitment_is_conditional": false,
+      "commitment_condition": null,
+      "superseded_by_message_id": null,
+      "notes": null
+    }
+  },
+  {
+    "id": "a30f18c2e4b60012",
+    "thread_id": "a30f18c2e4b60012",
+    "profile_id": "founder",
+    "history_id": "748435",
+    "message_id_header": "<a30f18c2e4b60012@pagerduty.com>",
+    "in_reply_to": null,
+    "references": [],
+    "thread_position": 1,
+    "thread_length": 1,
+    "from": {
+      "name": "PagerDuty",
+      "email": "product@pagerduty.com"
+    },
+    "to": [
+      {
+        "name": "Maya Rodriguez",
+        "email": "maya@kettlehq.com"
+      }
+    ],
+    "cc": [],
+    "bcc": [],
+    "delivered_to": "maya@kettlehq.com",
+    "subject": "New: AI-generated incident summaries in PagerDuty",
+    "snippet": "Hi Maya, PagerDuty now auto-generates a plain-English incident summary the moment an incident resolves \u2014 timeline, likely root cause, and who was paged, drafted for you before the ",
+    "body_text": "Hi Maya,\n\nPagerDuty now auto-generates a plain-English incident summary the moment an incident resolves \u2014 timeline, likely root cause, and who was paged, drafted for you before the postmortem doc even opens.\n\nIt's rolling out to all Business tier accounts this month, no action needed on your end.\n\n\u2014 The PagerDuty Team",
+    "body_html": "<div style=\"font-family:Arial,Helvetica,sans-serif;font-size:14px;color:#222222;line-height:1.5;max-width:600px\"><div style=\"background:#06ac38;color:#ffffff;padding:16px 20px;font-size:18px;font-weight:bold;border-radius:4px 4px 0 0\">AI Incident Summaries</div><div style=\"padding:16px 20px\"><p>Auto-generated the moment an incident resolves: timeline, likely root cause, who was paged.</p></div></div>",
+    "date": "2026-07-24T08:15:00-07:00",
+    "internal_date_ms": 1784906100000,
+    "folder": "INBOX",
+    "category": "CATEGORY_UPDATES",
+    "is_unread": false,
+    "is_starred": false,
+    "is_important": false,
+    "user_labels": [],
+    "attachments": [],
+    "calendar_event": null,
+    "extra_headers": {
+      "Precedence": "bulk"
+    },
+    "size_estimate": 1590,
+    "meta": {
+      "email_class": "automated_notification",
+      "tricky_tags": [],
+      "is_actionable_for_user": false,
+      "action_owner": null,
+      "action_summary": null,
+      "due_date": null,
+      "commitment_made_by_user": null,
+      "commitment_is_conditional": false,
+      "commitment_condition": null,
+      "superseded_by_message_id": null,
+      "notes": null
+    }
+  },
+  {
+    "id": "a30f18c2e4b60013",
+    "thread_id": "a30f18c2e4b60013",
+    "profile_id": "founder",
+    "history_id": "696655",
+    "message_id_header": "<a30f18c2e4b60013@ycombinator.com>",
+    "in_reply_to": null,
+    "references": [],
+    "thread_position": 1,
+    "thread_length": 1,
+    "from": {
+      "name": "Y Combinator",
+      "email": "events@ycombinator.com"
+    },
+    "to": [
+      {
+        "name": "Maya Rodriguez",
+        "email": "maya@kettlehq.com"
+      }
+    ],
+    "cc": [],
+    "bcc": [],
+    "delivered_to": "maya@kettlehq.com",
+    "subject": "YC Female Founders Conference 2026 \u2014 apply to attend",
+    "snippet": "Hi Maya, Applications are open for the YC Female Founders Conference, happening September 24 at the YC campus in Mountain View. This year's agenda includes a fireside chat with the",
+    "body_text": "Hi Maya,\n\nApplications are open for the YC Female Founders Conference, happening September 24 at the YC campus in Mountain View.\n\nThis year's agenda includes a fireside chat with the founders of two recent Series B companies on navigating board dynamics post-Series A, a workshop track on hiring your first VP-level exec, and small-group office hours with YC partners.\n\nAttendance is capped at 400 and selected by application \u2014 we're prioritizing founders who've raised institutional funding in the last 18 months, which puts Kettle's timeline in a good spot.\n\nThe application takes about 10 minutes: company stage, round raised, and a short note on what you're hoping to get out of the day.\n\nApplications close August 15. We'd love to see Kettle represented.\n\nBest,\nThe YC Events Team",
+    "body_html": "<div style=\"font-family:Arial,Helvetica,sans-serif;font-size:14px;color:#222222;line-height:1.5;max-width:600px\"><div style=\"background:#f26522;color:#ffffff;padding:16px 20px;font-size:18px;font-weight:bold;border-radius:4px 4px 0 0\">YC Female Founders Conference</div><div style=\"padding:16px 20px\"><p>September 24, YC campus, Mountain View. Fireside chat on board dynamics post-Series A, a VP-hiring workshop, and small-group office hours with YC partners.</p><p><a href=\"https://ycombinator.com/events/ffc2026\">Apply by August 15 &rarr;</a></p></div></div>",
+    "date": "2026-06-18T09:15:00-07:00",
+    "internal_date_ms": 1781799300000,
+    "folder": "INBOX",
+    "category": "CATEGORY_PROMOTIONS",
+    "is_unread": false,
+    "is_starred": false,
+    "is_important": false,
+    "user_labels": [],
+    "attachments": [],
+    "calendar_event": null,
+    "extra_headers": {
+      "Precedence": "bulk"
+    },
+    "size_estimate": 2220,
+    "meta": {
+      "email_class": "promotional",
+      "tricky_tags": [],
+      "is_actionable_for_user": false,
+      "action_owner": null,
+      "action_summary": null,
+      "due_date": null,
+      "commitment_made_by_user": null,
+      "commitment_is_conditional": false,
+      "commitment_condition": null,
+      "superseded_by_message_id": null,
+      "notes": null
+    }
+  },
+  {
+    "id": "a30f18c2e4b60014",
+    "thread_id": "a30f18c2e4b60014",
+    "profile_id": "founder",
+    "history_id": "749950",
+    "message_id_header": "<a30f18c2e4b60014@saastr.com>",
+    "in_reply_to": null,
+    "references": [],
+    "thread_position": 1,
+    "thread_length": 1,
+    "from": {
+      "name": "SaaStr",
+      "email": "team@saastr.com"
+    },
+    "to": [
+      {
+        "name": "Maya Rodriguez",
+        "email": "maya@kettlehq.com"
+      }
+    ],
+    "cc": [],
+    "bcc": [],
+    "delivered_to": "maya@kettlehq.com",
+    "subject": "SaaStr Annual 2026: Early bird pricing ends Friday",
+    "snippet": "Hi Maya, Early bird pricing for SaaStr Annual (Sept 22-24, San Mateo) ends Friday \u2014 $400 off the door rate. This year's tracks include a full day on API-first and infrastructure Sa",
+    "body_text": "Hi Maya,\n\nEarly bird pricing for SaaStr Annual (Sept 22-24, San Mateo) ends Friday \u2014 $400 off the door rate.\n\nThis year's tracks include a full day on API-first and infrastructure SaaS go-to-market, which felt like a fit for where Kettle is right now.\n\nLock in your pass before Friday at midnight PT.\n\n\u2014 The SaaStr Team",
+    "body_html": "<div style=\"font-family:Arial,Helvetica,sans-serif;font-size:14px;color:#222222;line-height:1.5;max-width:600px\"><div style=\"background:#e8443c;color:#ffffff;padding:16px 20px;font-size:18px;font-weight:bold;border-radius:4px 4px 0 0\">SaaStr Annual 2026</div><div style=\"padding:16px 20px\"><p>Sept 22&ndash;24, San Mateo. Early bird ends Friday &mdash; $400 off the door rate.</p><p><a href=\"https://saastrannual2026.com\">Lock in your pass &rarr;</a></p></div></div>",
+    "date": "2026-07-25T09:30:00-07:00",
+    "internal_date_ms": 1784997000000,
+    "folder": "INBOX",
+    "category": "CATEGORY_PROMOTIONS",
+    "is_unread": false,
+    "is_starred": false,
+    "is_important": false,
+    "user_labels": [],
+    "attachments": [],
+    "calendar_event": null,
+    "extra_headers": {
+      "Precedence": "bulk"
+    },
+    "size_estimate": 1642,
+    "meta": {
+      "email_class": "promotional",
+      "tricky_tags": [],
+      "is_actionable_for_user": false,
+      "action_owner": null,
+      "action_summary": null,
+      "due_date": null,
+      "commitment_made_by_user": null,
+      "commitment_is_conditional": false,
+      "commitment_condition": null,
+      "superseded_by_message_id": null,
+      "notes": null
+    }
+  },
+  {
+    "id": "a30f18c2e4b60015",
+    "thread_id": "a30f18c2e4b60015",
+    "profile_id": "founder",
+    "history_id": "752680",
+    "message_id_header": "<a30f18c2e4b60015@producthunt.com>",
+    "in_reply_to": null,
+    "references": [],
+    "thread_position": 1,
+    "thread_length": 1,
+    "from": {
+      "name": "Product Hunt",
+      "email": "digest@producthunt.com"
+    },
+    "to": [
+      {
+        "name": "Maya Rodriguez",
+        "email": "maya@kettlehq.com"
+      }
+    ],
+    "cc": [],
+    "bcc": [],
+    "delivered_to": "maya@kettlehq.com",
+    "subject": "5 products blowing up on Product Hunt today",
+    "snippet": "Good morning, Today's top launches: 1. Fathom AI Notetaker 3.0 \u2014 812 upvotes 2. Ledgerly \u2014 automated bookkeeping for agencies \u2014 640 upvotes 3. Groove Standup \u2014 async standups in Sl",
+    "body_text": "Good morning,\n\nToday's top launches:\n\n1. Fathom AI Notetaker 3.0 \u2014 812 upvotes\n2. Ledgerly \u2014 automated bookkeeping for agencies \u2014 640 upvotes\n3. Groove Standup \u2014 async standups in Slack \u2014 511 upvotes\n4. PixelForge \u2014 AI product photography \u2014 470 upvotes\n5. Cadence CRM \u2014 398 upvotes\n\nSee the full leaderboard and today's comments on the site.\n\n\u2014 Product Hunt",
+    "body_html": "<div style=\"font-family:Arial,Helvetica,sans-serif;font-size:14px;color:#222222;line-height:1.5;max-width:600px\"><div style=\"background:#da552f;color:#ffffff;padding:16px 20px;font-size:18px;font-weight:bold;border-radius:4px 4px 0 0\">Today's Top Launches</div><div style=\"padding:16px 20px\"><ol><li>Fathom AI Notetaker 3.0 &mdash; 812 upvotes</li><li>Ledgerly &mdash; 640 upvotes</li><li>Groove Standup &mdash; 511 upvotes</li><li>PixelForge &mdash; 470 upvotes</li><li>Cadence CRM &mdash; 398 upvotes</li></ol></div></div>",
+    "date": "2026-07-27T07:00:00-07:00",
+    "internal_date_ms": 1785160800000,
+    "folder": "INBOX",
+    "category": "CATEGORY_PROMOTIONS",
+    "is_unread": false,
+    "is_starred": false,
+    "is_important": false,
+    "user_labels": [],
+    "attachments": [],
+    "calendar_event": null,
+    "extra_headers": {
+      "List-Unsubscribe": "<mailto:unsubscribe@mail.producthunt.com?subject=unsubscribe>, <https://mail.producthunt.com/unsubscribe?u=maya-kettlehq>",
+      "List-Unsubscribe-Post": "List-Unsubscribe=One-Click",
+      "List-ID": "<mail.producthunt.com>",
+      "Precedence": "bulk",
+      "Feedback-ID": "1a2b3c:ph-digest"
+    },
+    "size_estimate": 2011,
+    "meta": {
+      "email_class": "newsletter",
+      "tricky_tags": [],
+      "is_actionable_for_user": false,
+      "action_owner": null,
+      "action_summary": null,
+      "due_date": null,
+      "commitment_made_by_user": null,
+      "commitment_is_conditional": false,
+      "commitment_condition": null,
+      "superseded_by_message_id": null,
+      "notes": null
+    }
+  },
+  {
+    "id": "a30f18c2e4b60016",
+    "thread_id": "a30f18c2e4b60016",
+    "profile_id": "founder",
+    "history_id": "754290",
+    "message_id_header": "<a30f18c2e4b60016@vanta.com>",
+    "in_reply_to": null,
+    "references": [],
+    "thread_position": 1,
+    "thread_length": 1,
+    "from": {
+      "name": "Anna Whitfield",
+      "email": "anna.whitfield@vanta.com"
+    },
+    "to": [
+      {
+        "name": "Maya Rodriguez",
+        "email": "maya@kettlehq.com"
+      }
+    ],
+    "cc": [],
+    "bcc": [],
+    "delivered_to": "maya@kettlehq.com",
+    "subject": "Congrats on the Series A \u2014 is SOC 2 slowing down your Lumenpay rollout?",
+    "snippet": "Hi Maya, Congrats on Kettle's $14M Series A with Northbridge back in February \u2014 big milestone. I work with early-stage security teams at Vanta, and a pattern I see constantly with ",
+    "body_text": "Hi Maya,\n\nCongrats on Kettle's $14M Series A with Northbridge back in February \u2014 big milestone.\n\nI work with early-stage security teams at Vanta, and a pattern I see constantly with Series A infra companies: an enterprise customer (in your case it looks like it might be a fintech, based on your job postings) asks for SOC 2 Type II mid-deal, and the audit timeline becomes the actual bottleneck on a rollout that's otherwise ready to go.\n\nVanta automates about 80% of the control monitoring your auditor will ask for \u2014 access reviews, vendor risk, change management logs \u2014 so the audit itself takes weeks instead of months. We work with a lot of companies going through Type II for the first time post-raise.\n\nWorth 20 minutes to see if it'd shorten your timeline? Happy to share a comp of what a company Kettle's size typically spends on this.\n\nBest,\nAnna Whitfield\nAccount Executive, Vanta",
+    "body_html": null,
+    "date": "2026-07-28T09:50:00-07:00",
+    "internal_date_ms": 1785257400000,
+    "folder": "INBOX",
+    "category": "CATEGORY_PROMOTIONS",
+    "is_unread": false,
+    "is_starred": false,
+    "is_important": true,
+    "user_labels": [
+      "Label_1120"
+    ],
+    "attachments": [],
+    "calendar_event": null,
+    "extra_headers": {},
+    "size_estimate": 1741,
+    "meta": {
+      "email_class": "cold_outreach",
+      "tricky_tags": [],
+      "is_actionable_for_user": false,
+      "action_owner": null,
+      "action_summary": null,
+      "due_date": null,
+      "commitment_made_by_user": null,
+      "commitment_is_conditional": false,
+      "commitment_condition": null,
+      "superseded_by_message_id": null,
+      "notes": "Unsolicited but coincidentally on-theme \u2014 Kettle is mid-SOC2 Type II audit for the Lumenpay deal."
+    }
+  },
+  {
+    "id": "a30f18c2e4b60017",
+    "thread_id": "a30f18c2e4b60017",
+    "profile_id": "founder",
+    "history_id": "702360",
+    "message_id_header": "<a30f18c2e4b60017@skylinenarrative.com>",
+    "in_reply_to": null,
+    "references": [],
+    "thread_position": 1,
+    "thread_length": 1,
+    "from": {
+      "name": "Marcus Feld",
+      "email": "marcus@skylinenarrative.com"
+    },
+    "to": [
+      {
+        "name": "Maya Rodriguez",
+        "email": "maya@kettlehq.com"
+      }
+    ],
+    "cc": [],
+    "bcc": [],
+    "delivered_to": "maya@kettlehq.com",
+    "subject": "Saw Kettle's $14M raise \u2014 let's get you in TechCrunch",
+    "snippet": "Hi Maya, Congrats on the $14M Series A led by Northbridge Capital \u2014 I saw the announcement come through Crunchbase this week. I run comms for a handful of Series A infrastructure a",
+    "body_text": "Hi Maya,\n\nCongrats on the $14M Series A led by Northbridge Capital \u2014 I saw the announcement come through Crunchbase this week.\n\nI run comms for a handful of Series A infrastructure and dev-tools companies (most recently helped a similar observability startup land a TechCrunch feature and a Forbes 30 Under 30 slot for their founder). A lot of companies at your stage wait too long to build a press narrative and end up reactive instead of proactive when reporters come asking about layoffs or down rounds later.\n\nGiven Kettle's positioning against the bigger observability incumbents, I think there's a real angle here around API-first tooling for engineering teams that outgrew generic dashboards.\n\nWe work on a monthly retainer, typically $6-9K depending on scope. Would you be open to a 15-minute call to talk through what a 90-day press plan could look like for Kettle?\n\nBest,\nMarcus Feld\nSkyline Narrative PR",
+    "body_html": null,
+    "date": "2026-06-22T11:20:00-04:00",
+    "internal_date_ms": 1782141600000,
+    "folder": "INBOX",
+    "category": "CATEGORY_PROMOTIONS",
+    "is_unread": false,
+    "is_starred": false,
+    "is_important": false,
+    "user_labels": [],
+    "attachments": [],
+    "calendar_event": null,
+    "extra_headers": {
+      "X-Mailer": "Apollo.io"
+    },
+    "size_estimate": 1771,
+    "meta": {
+      "email_class": "cold_outreach",
+      "tricky_tags": [],
+      "is_actionable_for_user": false,
+      "action_owner": null,
+      "action_summary": null,
+      "due_date": null,
+      "commitment_made_by_user": null,
+      "commitment_is_conditional": false,
+      "commitment_condition": null,
+      "superseded_by_message_id": null,
+      "notes": null
+    }
+  },
+  {
+    "id": "a30f18c2e4b60018",
+    "thread_id": "a30f18c2e4b60018",
+    "profile_id": "founder",
+    "history_id": "705265",
+    "message_id_header": "<a30f18c2e4b60018@zoominfo.com>",
+    "in_reply_to": null,
+    "references": [],
+    "thread_position": 1,
+    "thread_length": 1,
+    "from": {
+      "name": "ZoomInfo Sales",
+      "email": "sales@zoominfo.com"
+    },
+    "to": [
+      {
+        "name": "Maya Rodriguez",
+        "email": "maya@kettlehq.com"
+      }
+    ],
+    "cc": [],
+    "bcc": [],
+    "delivered_to": "maya@kettlehq.com",
+    "subject": "Congrats on your Series A, Maya \u2014 here's how Series A startups hit pipeline targets",
+    "snippet": "Hi Maya, Congrats on closing Kettle's Series A \u2014 always a good moment to double down on go-to-market before the next raise conversation starts. We work with a lot of Series A infra",
+    "body_text": "Hi Maya,\n\nCongrats on closing Kettle's Series A \u2014 always a good moment to double down on go-to-market before the next raise conversation starts.\n\nWe work with a lot of Series A infrastructure companies whose sales team is 1-3 reps, like Tom's team looks to be from your job postings. The pattern we see: reps spend 60%+ of their week on manual prospecting instead of selling.\n\nZoomInfo gives your team verified contact data, intent signals (which accounts are actively researching observability tools right now), and org chart mapping so a rep can walk into a call already knowing who the economic buyer is.\n\nCompanies your size typically see a 25-30% lift in qualified pipeline within the first quarter.\n\nWorth a 15-minute call this week or next?\n\nBest,\nThe ZoomInfo Team",
+    "body_html": null,
+    "date": "2026-06-24T08:45:00-07:00",
+    "internal_date_ms": 1782315900000,
+    "folder": "INBOX",
+    "category": "CATEGORY_PROMOTIONS",
+    "is_unread": false,
+    "is_starred": false,
+    "is_important": false,
+    "user_labels": [],
+    "attachments": [],
+    "calendar_event": null,
+    "extra_headers": {
+      "X-Mailer": "Outreach.io"
+    },
+    "size_estimate": 1647,
+    "meta": {
+      "email_class": "cold_outreach",
+      "tricky_tags": [],
+      "is_actionable_for_user": false,
+      "action_owner": null,
+      "action_summary": null,
+      "due_date": null,
+      "commitment_made_by_user": null,
+      "commitment_is_conditional": false,
+      "commitment_condition": null,
+      "superseded_by_message_id": null,
+      "notes": null
+    }
+  },
+  {
+    "id": "a30f18c2e4b60019",
+    "thread_id": "a30f18c2e4b60019",
+    "profile_id": "founder",
+    "history_id": "748545",
+    "message_id_header": "<a30f18c2e4b60019@vouch.us>",
+    "in_reply_to": null,
+    "references": [],
+    "thread_position": 1,
+    "thread_length": 1,
+    "from": {
+      "name": "Devon Marsh",
+      "email": "devon.marsh@vouch.us"
+    },
+    "to": [
+      {
+        "name": "Maya Rodriguez",
+        "email": "maya@kettlehq.com"
+      }
+    ],
+    "cc": [],
+    "bcc": [],
+    "delivered_to": "maya@kettlehq.com",
+    "subject": "Post-Series A founders need $5M+ in D&O coverage \u2014 do you have it?",
+    "snippet": "Hi Maya, Congrats on the Series A \u2014 Vouch works with a lot of founders in exactly this window, right after a priced round closes and the board adds outside directors. One thing tha",
+    "body_text": "Hi Maya,\n\nCongrats on the Series A \u2014 Vouch works with a lot of founders in exactly this window, right after a priced round closes and the board adds outside directors.\n\nOne thing that catches a lot of Series A founders off guard: once you have independent board members (looks like Kettle added at least one with the Northbridge round), your D&O policy limits usually need to jump from the seed-stage $1-2M range to $5M or more, since board members will often ask about coverage before agreeing to serve.\n\nWe quote D&O, tech E&O, and cyber as a bundle built for venture-backed software companies \u2014 most Series A quotes come back in 48 hours.\n\nHappy to run a no-obligation quote if you can share your current coverage limits.\n\nBest,\nDevon Marsh\nVouch Insurance",
+    "body_html": null,
+    "date": "2026-07-24T10:05:00-07:00",
+    "internal_date_ms": 1784912700000,
+    "folder": "INBOX",
+    "category": "CATEGORY_PROMOTIONS",
+    "is_unread": false,
+    "is_starred": false,
+    "is_important": false,
+    "user_labels": [],
+    "attachments": [],
+    "calendar_event": null,
+    "extra_headers": {
+      "X-Mailer": "Apollo.io"
+    },
+    "size_estimate": 1612,
+    "meta": {
+      "email_class": "cold_outreach",
+      "tricky_tags": [],
+      "is_actionable_for_user": false,
+      "action_owner": null,
+      "action_summary": null,
+      "due_date": null,
+      "commitment_made_by_user": null,
+      "commitment_is_conditional": false,
+      "commitment_condition": null,
+      "superseded_by_message_id": null,
+      "notes": null
+    }
+  },
+  {
+    "id": "a30f18c2e4b60020",
+    "thread_id": "a30f18c2e4b60020",
+    "profile_id": "founder",
+    "history_id": "751315",
+    "message_id_header": "<a30f18c2e4b60020@bridgelinesearch.com>",
+    "in_reply_to": null,
+    "references": [],
+    "thread_position": 1,
+    "thread_length": 1,
+    "from": {
+      "name": "Priya Chandrasekar",
+      "email": "priya@bridgelinesearch.com"
+    },
+    "to": [
+      {
+        "name": "Maya Rodriguez",
+        "email": "maya@kettlehq.com"
+      }
+    ],
+    "cc": [],
+    "bcc": [],
+    "delivered_to": "maya@kettlehq.com",
+    "subject": "Heard Kettle is hiring a Head of Marketing \u2014 we have 3 you should meet",
+    "snippet": "Hi Maya, One of our clients mentioned Kettle is looking for a Head of Marketing \u2014 congrats on the Series A, by the way, saw the Northbridge announcement. We specialize in marketing",
+    "body_text": "Hi Maya,\n\nOne of our clients mentioned Kettle is looking for a Head of Marketing \u2014 congrats on the Series A, by the way, saw the Northbridge announcement.\n\nWe specialize in marketing leadership placements for Series A/B infra and dev-tools companies. Right now we have three candidates who'd be strong fits: a former VP Marketing from a Series B observability competitor, a Head of Growth from a dev-tools company that just had a strong Series A extension, and a demand-gen leader who scaled a similar company from 25 to 80 people.\n\nOur placement fee is 20% of first-year comp, contingent \u2014 no fee unless you hire.\n\nWorth a quick call to see if any of the three are a fit?\n\nBest,\nPriya Chandrasekar\nBridgeline Search",
+    "body_html": null,
+    "date": "2026-07-26T11:15:00-04:00",
+    "internal_date_ms": 1785078900000,
+    "folder": "INBOX",
+    "category": "CATEGORY_PROMOTIONS",
+    "is_unread": false,
+    "is_starred": false,
+    "is_important": false,
+    "user_labels": [
+      "Label_5567"
+    ],
+    "attachments": [],
+    "calendar_event": null,
+    "extra_headers": {
+      "X-Mailer": "Apollo.io"
+    },
+    "size_estimate": 1598,
+    "meta": {
+      "email_class": "cold_outreach",
+      "tricky_tags": [],
+      "is_actionable_for_user": false,
+      "action_owner": null,
+      "action_summary": null,
+      "due_date": null,
+      "commitment_made_by_user": null,
+      "commitment_is_conditional": false,
+      "commitment_condition": null,
+      "superseded_by_message_id": null,
+      "notes": null
+    }
+  },
+  {
+    "id": "a30f18c2e4b60021",
+    "thread_id": "a30f18c2e4b60021",
+    "profile_id": "founder",
+    "history_id": "753000",
+    "message_id_header": "<a30f18c2e4b60021@ascentgrowthpartners.com>",
+    "in_reply_to": null,
+    "references": [],
+    "thread_position": 1,
+    "thread_length": 1,
+    "from": {
+      "name": "Jules Ferrara",
+      "email": "jules@ascentgrowthpartners.com"
+    },
+    "to": [
+      {
+        "name": "Maya Rodriguez",
+        "email": "maya@kettlehq.com"
+      }
+    ],
+    "cc": [],
+    "bcc": [],
+    "delivered_to": "maya@kettlehq.com",
+    "subject": "Quick note on Kettle's growth marketing",
+    "snippet": "Hi Maya \u2014 congrats on the $14M raise. We help Series A B2B startups build paid + lifecycle from scratch. Worth 15 minutes?",
+    "body_text": "Hi Maya \u2014 congrats on the $14M raise. We help Series A B2B startups build paid + lifecycle from scratch. Worth 15 minutes?",
+    "body_html": null,
+    "date": "2026-07-27T14:20:00-05:00",
+    "internal_date_ms": 1785180000000,
+    "folder": "INBOX",
+    "category": "CATEGORY_PROMOTIONS",
+    "is_unread": false,
+    "is_starred": false,
+    "is_important": false,
+    "user_labels": [],
+    "attachments": [],
+    "calendar_event": null,
+    "extra_headers": {},
+    "size_estimate": 955,
+    "meta": {
+      "email_class": "cold_outreach",
+      "tricky_tags": [],
+      "is_actionable_for_user": false,
+      "action_owner": null,
+      "action_summary": null,
+      "due_date": null,
+      "commitment_made_by_user": null,
+      "commitment_is_conditional": false,
+      "commitment_condition": null,
+      "superseded_by_message_id": null,
+      "notes": null
+    }
+  },
+  {
+    "id": "a30f18c2e4b60022",
+    "thread_id": "a30f18c2e4b60022",
+    "profile_id": "founder",
+    "history_id": "754180",
+    "message_id_header": "<a30f18c2e4b60022@talentpooldirect.com>",
+    "in_reply_to": null,
+    "references": [],
+    "thread_position": 1,
+    "thread_length": 1,
+    "from": {
+      "name": "TalentPool Direct",
+      "email": "outreach@talentpooldirect.com"
+    },
+    "to": [
+      {
+        "name": "Maya Rodriguez",
+        "email": "maya@kettlehq.com"
+      }
+    ],
+    "cc": [],
+    "bcc": [],
+    "delivered_to": "maya@kettlehq.com",
+    "subject": "500+ pre-vetted senior engineers ready to interview this week",
+    "snippet": "Hi Maya, TalentPool Direct maintains a database of 500+ pre-vetted senior software engineers, all available to interview this week. Candidates are screened for system design, take-",
+    "body_text": "Hi Maya,\n\nTalentPool Direct maintains a database of 500+ pre-vetted senior software engineers, all available to interview this week. Candidates are screened for system design, take-home performance, and culture fit before we ever send a profile over.\n\nNo retainer required \u2014 you only pay if you make a hire, flat fee of $18,000 regardless of the role's seniority.\n\nReply with your open roles and we'll send matching profiles within 24 hours.\n\nBest,\nThe TalentPool Direct Team",
+    "body_html": null,
+    "date": "2026-07-28T08:00:00-07:00",
+    "internal_date_ms": 1785250800000,
+    "folder": "INBOX",
+    "category": "CATEGORY_PROMOTIONS",
+    "is_unread": false,
+    "is_starred": false,
+    "is_important": false,
+    "user_labels": [
+      "Label_5567"
+    ],
+    "attachments": [],
+    "calendar_event": null,
+    "extra_headers": {
+      "Precedence": "bulk"
+    },
+    "size_estimate": 1345,
+    "meta": {
+      "email_class": "cold_outreach",
+      "tricky_tags": [],
+      "is_actionable_for_user": false,
+      "action_owner": null,
+      "action_summary": null,
+      "due_date": null,
+      "commitment_made_by_user": null,
+      "commitment_is_conditional": false,
+      "commitment_condition": null,
+      "superseded_by_message_id": null,
+      "notes": null
+    }
+  },
+  {
+    "id": "a30f18c2e4b60023",
+    "thread_id": "a30f18c2e4b60023",
+    "profile_id": "founder",
+    "history_id": "755695",
+    "message_id_header": "<a30f18c2e4b60023@hirewave.io>",
+    "in_reply_to": null,
+    "references": [],
+    "thread_position": 1,
+    "thread_length": 1,
+    "from": {
+      "name": "HireWave",
+      "email": "team@hirewave.io"
+    },
+    "to": [
+      {
+        "name": "Maya Rodriguez",
+        "email": "maya@kettlehq.com"
+      }
+    ],
+    "cc": [],
+    "bcc": [],
+    "delivered_to": "maya@kettlehq.com",
+    "subject": "Your next VP of Engineering is one email away",
+    "snippet": "Hi Maya, HireWave specializes in VP and Director-level engineering placements for Series A-C companies. We have a shortlist of five VP Eng candidates currently open to new roles, t",
+    "body_text": "Hi Maya,\n\nHireWave specializes in VP and Director-level engineering placements for Series A-C companies. We have a shortlist of five VP Eng candidates currently open to new roles, three of whom have shipped through a SOC 2 audit before.\n\nReply and we'll send the shortlist \u2014 no cost until you make an offer.\n\n\u2014 HireWave",
+    "body_html": "<div style=\"font-family:Arial,Helvetica,sans-serif;font-size:14px;color:#222222;line-height:1.5;max-width:600px\"><div style=\"padding:16px 20px\"><p>Five VP Eng candidates currently open to new roles. No cost until you make an offer.</p></div></div>",
+    "date": "2026-07-29T09:15:00-07:00",
+    "internal_date_ms": 1785341700000,
+    "folder": "INBOX",
+    "category": "CATEGORY_PROMOTIONS",
+    "is_unread": false,
+    "is_starred": false,
+    "is_important": false,
+    "user_labels": [],
+    "attachments": [],
+    "calendar_event": null,
+    "extra_headers": {
+      "Precedence": "bulk"
+    },
+    "size_estimate": 1422,
+    "meta": {
+      "email_class": "cold_outreach",
+      "tricky_tags": [],
+      "is_actionable_for_user": false,
+      "action_owner": null,
+      "action_summary": null,
+      "due_date": null,
+      "commitment_made_by_user": null,
+      "commitment_is_conditional": false,
+      "commitment_condition": null,
+      "superseded_by_message_id": null,
+      "notes": null
+    }
+  },
+  {
+    "id": "a30f18c2e4b60024",
+    "thread_id": "a30f18c2e4b60024",
+    "profile_id": "founder",
+    "history_id": "756940",
+    "message_id_header": "<a30f18c2e4b60024@websummit.com>",
+    "in_reply_to": null,
+    "references": [],
+    "thread_position": 1,
+    "thread_length": 1,
+    "from": {
+      "name": "Web Summit",
+      "email": "founders@websummit.com"
+    },
+    "to": [
+      {
+        "name": "Maya Rodriguez",
+        "email": "maya@kettlehq.com"
+      }
+    ],
+    "cc": [],
+    "bcc": [],
+    "delivered_to": "maya@kettlehq.com",
+    "subject": "Web Summit 2026: Founder passes now available",
+    "snippet": "Hi Maya, Web Summit 2026 runs November 9-12 in Lisbon, and Founder passes are now available for early-stage and Series A companies. The Founder track includes access to investor sp",
+    "body_text": "Hi Maya,\n\nWeb Summit 2026 runs November 9-12 in Lisbon, and Founder passes are now available for early-stage and Series A companies.\n\nThe Founder track includes access to investor speed-networking sessions (this year's list includes partners from over 40 VC firms across the US and Europe), a dedicated startup pavilion with a booth, and priority seating at the main-stage keynotes.\n\nLast year, over 60% of Founder pass holders reported at least one follow-up investor meeting within a month of the event.\n\nFounder passes are $1,850 (regular attendee passes run $2,600+) and include two team members. Availability is limited \u2014 we cap Founder track attendance at 800 companies.\n\nApply for a pass by August 20.\n\nSee you in Lisbon,\nThe Web Summit Team",
+    "body_html": "<div style=\"font-family:Arial,Helvetica,sans-serif;font-size:14px;color:#222222;line-height:1.5;max-width:600px\"><div style=\"background:#e6007a;color:#ffffff;padding:16px 20px;font-size:18px;font-weight:bold;border-radius:4px 4px 0 0\">Web Summit 2026</div><div style=\"padding:16px 20px\"><p>November 9&ndash;12, Lisbon. Founder passes include investor speed-networking, a startup pavilion booth, and priority keynote seating.</p><p><a href=\"https://websummit.com/founder-pass\">Apply by August 20 &rarr;</a></p></div></div>",
+    "date": "2026-07-30T09:00:00-04:00",
+    "internal_date_ms": 1785416400000,
+    "folder": "INBOX",
+    "category": "CATEGORY_PROMOTIONS",
+    "is_unread": false,
+    "is_starred": false,
+    "is_important": false,
+    "user_labels": [],
+    "attachments": [],
+    "calendar_event": null,
+    "extra_headers": {
+      "Precedence": "bulk"
+    },
+    "size_estimate": 2133,
+    "meta": {
+      "email_class": "promotional",
+      "tricky_tags": [],
+      "is_actionable_for_user": false,
+      "action_owner": null,
+      "action_summary": null,
+      "due_date": null,
+      "commitment_made_by_user": null,
+      "commitment_is_conditional": false,
+      "commitment_condition": null,
+      "superseded_by_message_id": null,
+      "notes": null
+    }
+  },
+  {
+    "id": "a30f18c2e4b60025",
+    "thread_id": "a30f18c2e4b60025",
+    "profile_id": "founder",
+    "history_id": "758470",
+    "message_id_header": "<a30f18c2e4b60025@config.figma.com>",
+    "in_reply_to": null,
+    "references": [],
+    "thread_position": 1,
+    "thread_length": 1,
+    "from": {
+      "name": "Config",
+      "email": "hello@config.figma.com"
+    },
+    "to": [
+      {
+        "name": "Maya Rodriguez",
+        "email": "maya@kettlehq.com"
+      }
+    ],
+    "cc": [],
+    "bcc": [],
+    "delivered_to": "maya@kettlehq.com",
+    "subject": "Config 2026 is back \u2014 save your seat",
+    "snippet": "Config returns to SF in June 2027. Early bird passes ($399) go live Monday at 10am PT. Kettle's design team should be here.",
+    "body_text": "Config returns to SF in June 2027. Early bird passes ($399) go live Monday at 10am PT. Kettle's design team should be here.",
+    "body_html": "<div style=\"font-family:Arial,Helvetica,sans-serif;font-size:14px;color:#222222;line-height:1.5;max-width:600px\"><div style=\"padding:16px 20px\"><p><strong>Config 2027</strong> \u2014 early bird passes $399, live Monday 10am PT.</p></div></div>",
+    "date": "2026-07-31T07:30:00-07:00",
+    "internal_date_ms": 1785508200000,
+    "folder": "INBOX",
+    "category": "CATEGORY_PROMOTIONS",
+    "is_unread": false,
+    "is_starred": false,
+    "is_important": false,
+    "user_labels": [],
+    "attachments": [],
+    "calendar_event": null,
+    "extra_headers": {
+      "Precedence": "bulk"
+    },
+    "size_estimate": 1215,
+    "meta": {
+      "email_class": "promotional",
+      "tricky_tags": [],
+      "is_actionable_for_user": false,
+      "action_owner": null,
+      "action_summary": null,
+      "due_date": null,
+      "commitment_made_by_user": null,
+      "commitment_is_conditional": false,
+      "commitment_condition": null,
+      "superseded_by_message_id": null,
+      "notes": null
+    }
+  },
+  {
+    "id": "a30f18c2e4b60026",
+    "thread_id": "a30f18c2e4b60026",
+    "profile_id": "founder",
+    "history_id": "759985",
+    "message_id_header": "<a30f18c2e4b60026@techcrunch.com>",
+    "in_reply_to": null,
+    "references": [],
+    "thread_position": 1,
+    "thread_length": 1,
+    "from": {
+      "name": "TechCrunch Disrupt",
+      "email": "disrupt@techcrunch.com"
+    },
+    "to": [
+      {
+        "name": "Maya Rodriguez",
+        "email": "maya@kettlehq.com"
+      }
+    ],
+    "cc": [],
+    "bcc": [],
+    "delivered_to": "maya@kettlehq.com",
+    "subject": "Apply for Startup Battlefield at TechCrunch Disrupt 2026",
+    "snippet": "Hi Maya, Applications for Startup Battlefield at TechCrunch Disrupt (Oct 27-29, San Francisco) are open through August 28. Selected companies pitch live on the main stage in front ",
+    "body_text": "Hi Maya,\n\nApplications for Startup Battlefield at TechCrunch Disrupt (Oct 27-29, San Francisco) are open through August 28.\n\nSelected companies pitch live on the main stage in front of a judging panel of investors and press, with a $100,000 prize for the winner and guaranteed TechCrunch coverage for every finalist.\n\nGiven Kettle raised its Series A earlier this year, you'd apply in the growth track rather than early-stage \u2014 the bar is a bit different but the press exposure is the same.\n\nApply here.\n\n\u2014 The TechCrunch Events Team",
+    "body_html": "<div style=\"font-family:Arial,Helvetica,sans-serif;font-size:14px;color:#222222;line-height:1.5;max-width:600px\"><div style=\"background:#0a9928;color:#ffffff;padding:16px 20px;font-size:18px;font-weight:bold;border-radius:4px 4px 0 0\">TechCrunch Disrupt</div><div style=\"padding:16px 20px\"><p>Startup Battlefield applications close August 28. $100,000 prize, guaranteed press coverage for every finalist.</p></div></div>",
+    "date": "2026-08-01T08:45:00-07:00",
+    "internal_date_ms": 1785599100000,
+    "folder": "INBOX",
+    "category": "CATEGORY_PROMOTIONS",
+    "is_unread": true,
+    "is_starred": false,
+    "is_important": false,
+    "user_labels": [],
+    "attachments": [],
+    "calendar_event": null,
+    "extra_headers": {
+      "Precedence": "bulk"
+    },
+    "size_estimate": 1839,
+    "meta": {
+      "email_class": "promotional",
+      "tricky_tags": [],
+      "is_actionable_for_user": false,
+      "action_owner": null,
+      "action_summary": null,
+      "due_date": null,
+      "commitment_made_by_user": null,
+      "commitment_is_conditional": false,
+      "commitment_condition": null,
+      "superseded_by_message_id": null,
+      "notes": null
+    }
+  },
+  {
+    "id": "a30f18c2e4b60027",
+    "thread_id": "a30f18c2e4b60027",
+    "profile_id": "founder",
+    "history_id": "761530",
+    "message_id_header": "<a30f18c2e4b60027@ironcladapp.com>",
+    "in_reply_to": null,
+    "references": [],
+    "thread_position": 1,
+    "thread_length": 1,
+    "from": {
+      "name": "Sarah Kim",
+      "email": "sarah.kim@ironcladapp.com"
+    },
+    "to": [
+      {
+        "name": "Maya Rodriguez",
+        "email": "maya@kettlehq.com"
+      }
+    ],
+    "cc": [],
+    "bcc": [],
+    "delivered_to": "maya@kettlehq.com",
+    "subject": "Congrats on the Series A \u2014 your legal team is about to get busier",
+    "snippet": "Hi Maya, Congrats on Kettle's $14M Series A. One thing that catches a lot of founders off guard post-raise: contract volume roughly doubles in the 12 months after a Series A as ent",
+    "body_text": "Hi Maya,\n\nCongrats on Kettle's $14M Series A. One thing that catches a lot of founders off guard post-raise: contract volume roughly doubles in the 12 months after a Series A as enterprise deals, vendor agreements, and employment paperwork all ramp at once \u2014 and most teams are still running redlines over email at that point.\n\nIronclad's contract lifecycle platform routes NDAs, MSAs, and vendor agreements through approval workflows automatically, and gives your counsel a single place to see everything in flight. A lot of Series A companies bring us in right around when they start their first SOC 2 audit, since auditors ask for a documented contract approval process anyway.\n\nWorth 20 minutes to see if it'd help ahead of your board meeting?\n\nBest,\nSarah Kim\nAccount Executive, Ironclad",
+    "body_html": null,
+    "date": "2026-08-02T10:30:00-07:00",
+    "internal_date_ms": 1785691800000,
+    "folder": "INBOX",
+    "category": "CATEGORY_PROMOTIONS",
+    "is_unread": false,
+    "is_starred": false,
+    "is_important": false,
+    "user_labels": [
+      "Label_1120"
+    ],
+    "attachments": [],
+    "calendar_event": null,
+    "extra_headers": {
+      "X-Mailer": "Outreach.io"
+    },
+    "size_estimate": 1654,
+    "meta": {
+      "email_class": "cold_outreach",
+      "tricky_tags": [],
+      "is_actionable_for_user": false,
+      "action_owner": null,
+      "action_summary": null,
+      "due_date": null,
+      "commitment_made_by_user": null,
+      "commitment_is_conditional": false,
+      "commitment_condition": null,
+      "superseded_by_message_id": null,
+      "notes": null
+    }
+  },
+  {
+    "id": "a30f18c2e4b60028",
+    "thread_id": "a30f18c2e4b60028",
+    "profile_id": "founder",
+    "history_id": "762700",
+    "message_id_header": "<a30f18c2e4b60028@deel.com>",
+    "in_reply_to": null,
+    "references": [],
+    "thread_position": 1,
+    "thread_length": 1,
+    "from": {
+      "name": "Deel Sales",
+      "email": "sales@deel.com"
+    },
+    "to": [
+      {
+        "name": "Maya Rodriguez",
+        "email": "maya@kettlehq.com"
+      }
+    ],
+    "cc": [],
+    "bcc": [],
+    "delivered_to": "maya@kettlehq.com",
+    "subject": "Hiring internationally after your Series A? Deel can help",
+    "snippet": "Hi Maya, Congrats on the raise. A lot of Series A companies start hiring their first international engineers within 6 months of closing \u2014 usually to stretch runway further on comp.",
+    "body_text": "Hi Maya,\n\nCongrats on the raise. A lot of Series A companies start hiring their first international engineers within 6 months of closing \u2014 usually to stretch runway further on comp.\n\nDeel handles contracts, payroll, and compliance in 150+ countries, with new hires onboarded in as little as 5 days. No entity setup required on your end.\n\nHappy to send a quote for a couple of sample countries if useful \u2014 just let me know where you're looking.\n\nBest,\nThe Deel Team",
+    "body_html": null,
+    "date": "2026-08-03T09:00:00-04:00",
+    "internal_date_ms": 1785762000000,
+    "folder": "INBOX",
+    "category": "CATEGORY_PROMOTIONS",
+    "is_unread": true,
+    "is_starred": false,
+    "is_important": false,
+    "user_labels": [],
+    "attachments": [],
+    "calendar_event": null,
+    "extra_headers": {},
+    "size_estimate": 1282,
+    "meta": {
+      "email_class": "cold_outreach",
+      "tricky_tags": [],
+      "is_actionable_for_user": false,
+      "action_owner": null,
+      "action_summary": null,
+      "due_date": null,
+      "commitment_made_by_user": null,
+      "commitment_is_conditional": false,
+      "commitment_condition": null,
+      "superseded_by_message_id": null,
+      "notes": null
+    }
+  },
+  {
+    "id": "a30f18c2e4b60029",
+    "thread_id": "a30f18c2e4b60029",
+    "profile_id": "founder",
+    "history_id": "708010",
+    "message_id_header": "<a30f18c2e4b60029@techstars.com>",
+    "in_reply_to": null,
+    "references": [],
+    "thread_position": 1,
+    "thread_length": 1,
+    "from": {
+      "name": "Techstars",
+      "email": "community@techstars.com"
+    },
+    "to": [
+      {
+        "name": "Maya Rodriguez",
+        "email": "maya@kettlehq.com"
+      }
+    ],
+    "cc": [],
+    "bcc": [],
+    "delivered_to": "maya@kettlehq.com",
+    "subject": "Techstars Boulder: mentor applications open for Kettle-stage founders",
+    "snippet": "Hi Maya, Techstars Boulder is opening mentor applications for our fall cohort, and we're specifically looking for Series A founders who can speak to the jump from seed to scaling a",
+    "body_text": "Hi Maya,\n\nTechstars Boulder is opening mentor applications for our fall cohort, and we're specifically looking for Series A founders who can speak to the jump from seed to scaling a first go-to-market team.\n\nMentors typically commit 4-6 hours over the 13-week program, mostly office hours with early-stage founders. It's a good way to build your own network of pre-seed and seed companies that could be Kettle customers down the line.\n\nInterested? Reply and we'll send the application.\n\n\u2014 The Techstars Community Team",
+    "body_html": "<div style=\"font-family:Arial,Helvetica,sans-serif;font-size:14px;color:#222222;line-height:1.5;max-width:600px\"><div style=\"background:#f6871f;color:#ffffff;padding:16px 20px;font-size:18px;font-weight:bold;border-radius:4px 4px 0 0\">Techstars Boulder</div><div style=\"padding:16px 20px\"><p>Mentor applications open for the fall cohort. 4&ndash;6 hours over 13 weeks, mostly office hours with early-stage founders.</p></div></div>",
+    "date": "2026-06-26T07:30:00-06:00",
+    "internal_date_ms": 1782480600000,
+    "folder": "INBOX",
+    "category": "CATEGORY_PROMOTIONS",
+    "is_unread": false,
+    "is_starred": false,
+    "is_important": false,
+    "user_labels": [],
+    "attachments": [],
+    "calendar_event": null,
+    "extra_headers": {
+      "Precedence": "bulk"
+    },
+    "size_estimate": 1836,
+    "meta": {
+      "email_class": "promotional",
+      "tricky_tags": [],
+      "is_actionable_for_user": false,
+      "action_owner": null,
+      "action_summary": null,
+      "due_date": null,
+      "commitment_made_by_user": null,
+      "commitment_is_conditional": false,
+      "commitment_condition": null,
+      "superseded_by_message_id": null,
+      "notes": null
+    }
+  },
+  {
+    "id": "a30f18c2e4b60030",
+    "thread_id": "a30f18c2e4b60030",
+    "profile_id": "founder",
+    "history_id": "712300",
+    "message_id_header": "<a30f18c2e4b60030@1password.com>",
+    "in_reply_to": null,
+    "references": [],
+    "thread_position": 1,
+    "thread_length": 1,
+    "from": {
+      "name": "1Password",
+      "email": "business@1password.com"
+    },
+    "to": [
+      {
+        "name": "Maya Rodriguez",
+        "email": "maya@kettlehq.com"
+      }
+    ],
+    "cc": [],
+    "bcc": [],
+    "delivered_to": "maya@kettlehq.com",
+    "subject": "Secure Kettle's growing team with 1Password Business",
+    "snippet": "Hi Maya, As Kettle's headcount grows, so does the number of shared logins floating around in Slack DMs and shared docs. 1Password Business gives every employee a personal vault plu",
+    "body_text": "Hi Maya,\n\nAs Kettle's headcount grows, so does the number of shared logins floating around in Slack DMs and shared docs. 1Password Business gives every employee a personal vault plus shared vaults for team credentials, with admin visibility into weak or reused passwords across the org.\n\nA lot of companies bring this in right before a SOC 2 audit \u2014 access control and credential hygiene are usually early findings.\n\nTry it free for 14 days, no card required.\n\n\u2014 The 1Password Team",
+    "body_html": "<div style=\"font-family:Arial,Helvetica,sans-serif;font-size:14px;color:#222222;line-height:1.5;max-width:600px\"><div style=\"background:#1a8cff;color:#ffffff;padding:16px 20px;font-size:18px;font-weight:bold;border-radius:4px 4px 0 0\">1Password Business</div><div style=\"padding:16px 20px\"><p>Personal vaults for every employee, shared vaults for team credentials, admin visibility into weak or reused passwords.</p></div></div>",
+    "date": "2026-06-29T06:00:00-07:00",
+    "internal_date_ms": 1782738000000,
+    "folder": "INBOX",
+    "category": "CATEGORY_PROMOTIONS",
+    "is_unread": false,
+    "is_starred": false,
+    "is_important": false,
+    "user_labels": [],
+    "attachments": [],
+    "calendar_event": null,
+    "extra_headers": {
+      "Precedence": "bulk"
+    },
+    "size_estimate": 1781,
+    "meta": {
+      "email_class": "promotional",
+      "tricky_tags": [],
+      "is_actionable_for_user": false,
+      "action_owner": null,
+      "action_summary": null,
+      "due_date": null,
+      "commitment_made_by_user": null,
+      "commitment_is_conditional": false,
+      "commitment_condition": null,
+      "superseded_by_message_id": null,
+      "notes": null
+    }
+  },
+  {
+    "id": "a30f18c2e4b60031",
+    "thread_id": "a30f18c2e4b60031",
+    "profile_id": "founder",
+    "history_id": "715195",
+    "message_id_header": "<a30f18c2e4b60031@techcrunch.com>",
+    "in_reply_to": null,
+    "references": [],
+    "thread_position": 1,
+    "thread_length": 1,
+    "from": {
+      "name": "TechCrunch",
+      "email": "newsletters@techcrunch.com"
+    },
+    "to": [
+      {
+        "name": "Maya Rodriguez",
+        "email": "maya@kettlehq.com"
+      }
+    ],
+    "cc": [],
+    "bcc": [],
+    "delivered_to": "maya@kettlehq.com",
+    "subject": "TechCrunch AM: AI infra funding surges, plus today's top stories",
+    "snippet": "Good morning, Here's what's moving in startup land today. TOP STORY: AI infrastructure funding surges past $8B in H1 2026 Venture funding into AI infrastructure and observability t",
+    "body_text": "Good morning,\n\nHere's what's moving in startup land today.\n\nTOP STORY: AI infrastructure funding surges past $8B in H1 2026\nVenture funding into AI infrastructure and observability tooling crossed $8.1B in the first half of 2026, up 64% year over year, driven by a wave of Series A and B rounds as enterprises move AI workloads from pilot to production. Investors we spoke to point to rising operational complexity \u2014 and the cost of downtime in production AI systems \u2014 as the driver behind renewed interest in monitoring and observability plays.\n\nALSO TODAY:\n\n- A Boston-based warehouse robotics company closed a $40M Series B led by a new industrial-focused fund, its first outside round in two years.\n\n- Three enterprise SaaS companies announced layoffs this week totaling roughly 400 roles, as boards push harder on default-alive timelines heading into Q4 budget season.\n\n- A wave of Series A companies are reporting longer diligence periods on SOC 2 and security reviews before enterprise contracts close, according to a survey of 200 B2B SaaS founders released this morning \u2014 average time from LOI to signed contract is now 11 weeks, up from 7 weeks two years ago.\n\n- Y Combinator's latest batch demo day drew record attendance from corporate VC arms, with several strategics reportedly writing first checks directly off demo day pitches.\n\n- A well-known observability incumbent quietly raised prices on its usage-based tiers for the second time this year, prompting a wave of complaints on social media from customers who say their bills doubled without a corresponding jump in usage. Several smaller challengers in the space have started running ad campaigns directly referencing the price hike, betting that migration friction is lower than the incumbent assumes.\n\n- A survey of 150 VCs released this morning found that 71% expect Series A round sizes to grow modestly in H2 2026, reversing the flat-to-down trend of the last two years, as capital deployment picks back up across growth-stage funds flush with fresh commitments.\n\nFUNDING ROUNDUP: 14 rounds closed yesterday totaling $612M across seed through Series C. The largest was a $95M Series C for a logistics-software company; the smallest was a $2.5M pre-seed for a two-person team building tooling for AI agent evaluation. Full list on the site.\n\nONE MORE THING: We're tracking a growing number of Series A companies bringing on a part-time or fractional CFO in the 6-12 months after closing, rather than waiting for a Series B to make the hire full-time \u2014 worth a longer piece if there's reader interest, reply and let us know.\n\nThat's it for today \u2014 see you tomorrow.\n\n\u2014 The TechCrunch AM Team",
+    "body_html": "<div style=\"font-family:Arial,Helvetica,sans-serif;font-size:14px;color:#222222;line-height:1.5;max-width:600px\"><div style=\"background:#0a9928;color:#ffffff;padding:16px 20px;font-size:18px;font-weight:bold;border-radius:4px 4px 0 0\">TechCrunch AM</div><div style=\"padding:16px 20px\"><p><strong>AI infrastructure funding surges past $8B in H1 2026</strong>, up 64% YoY as enterprises move AI workloads to production.</p><p>Also today: a $40M Series B for a warehouse robotics company, ~400 SaaS layoffs this week, and SOC 2 diligence now averaging 11 weeks pre-contract.</p><p><a href=\"https://techcrunch.com/newsletter/am\">Read the full edition &rarr;</a></p><p style=\"font-size:11px;color:#888888;margin-top:24px\">You are receiving this because you subscribed. <a href=\"https://techcrunch.com/newsletters/unsubscribe?u=maya-kettlehq\" style=\"color:#888888\">Unsubscribe</a></p></div></div>",
+    "date": "2026-07-01T06:15:00-07:00",
+    "internal_date_ms": 1782911700000,
+    "folder": "INBOX",
+    "category": "CATEGORY_PROMOTIONS",
+    "is_unread": false,
+    "is_starred": false,
+    "is_important": false,
+    "user_labels": [],
+    "attachments": [],
+    "calendar_event": null,
+    "extra_headers": {
+      "List-Unsubscribe": "<mailto:unsubscribe@newsletters.techcrunch.com?subject=unsubscribe>, <https://newsletters.techcrunch.com/unsubscribe?u=maya-kettlehq>",
+      "List-Unsubscribe-Post": "List-Unsubscribe=One-Click",
+      "List-ID": "<newsletters.techcrunch.com>",
+      "Precedence": "bulk",
+      "Feedback-ID": "2c3d4e:tc-am"
+    },
+    "size_estimate": 4713,
+    "meta": {
+      "email_class": "newsletter",
+      "tricky_tags": [],
+      "is_actionable_for_user": false,
+      "action_owner": null,
+      "action_summary": null,
+      "due_date": null,
+      "commitment_made_by_user": null,
+      "commitment_is_conditional": false,
+      "commitment_condition": null,
+      "superseded_by_message_id": null,
+      "notes": null
+    }
+  },
+  {
+    "id": "a30f18c2e4b60032",
+    "thread_id": "a30f18c2e4b60032",
+    "profile_id": "founder",
+    "history_id": "764140",
+    "message_id_header": "<a30f18c2e4b60032@lennysnewsletter.com>",
+    "in_reply_to": null,
+    "references": [],
+    "thread_position": 1,
+    "thread_length": 1,
+    "from": {
+      "name": "Lenny's Newsletter",
+      "email": "lenny@lennysnewsletter.com"
+    },
+    "to": [
+      {
+        "name": "Maya Rodriguez",
+        "email": "maya@kettlehq.com"
+      }
+    ],
+    "cc": [],
+    "bcc": [],
+    "delivered_to": "maya@kettlehq.com",
+    "subject": "How the best Series A founders run their board meetings",
+    "snippet": "Hi all, I've sat in on a lot of board meetings over the years, both as an operator and later as an advisor, and the gap between a board meeting that builds trust and one that burns",
+    "body_text": "Hi all,\n\nI've sat in on a lot of board meetings over the years, both as an operator and later as an advisor, and the gap between a board meeting that builds trust and one that burns it usually comes down to a handful of habits. Here's what I've seen work.\n\n1. Send the deck 48-72 hours ahead, not the night before.\nThis sounds obvious, but I'd guess fewer than half of Series A founders actually do it consistently. A deck that arrives the night before gets skimmed in the car on the way to the meeting. A deck that arrives three days early gets read twice, and board members show up with real questions instead of surface-level ones. The best founders I know treat the pre-read as more important than the meeting itself.\n\n2. Lead with the bad news, not the good news.\nEvery founder wants to open with the win of the quarter. Don't. Open with what's off track \u2014 a slipping enterprise deal, a metric that missed plan, a hire who didn't work out \u2014 and frame it before anyone else can. Boards that hear bad news from the founder first trust the founder more, not less. Boards that discover it themselves, or hear it buried on slide 14, start wondering what else isn't being said.\n\n3. Bring one real decision, not ten status updates.\nMost board decks are 80% reporting and 20% decision-making, and it should be closer to the reverse. Pick the one or two decisions that actually need the board's input \u2014 a pricing change, a key hire, a runway-extending trade-off \u2014 and spend most of the meeting there. Status updates can live in an async pre-read.\n\n4. Get ahead of the number that's about to change.\nIf a metric is about to move in a way that will surprise the board next quarter \u2014 a big customer churning, a renewal slipping, a cost line jumping \u2014 flag it this quarter, even directionally. Nothing erodes trust faster than a board member feeling blindsided by something the founder clearly saw coming.\n\n5. End with a specific ask.\nDon't let the meeting end on 'any questions?' End with 'here's what I need from each of you before we talk next' \u2014 an intro, a decision, a gut check on a hire. Boards that leave with a job to do stay engaged between meetings. Boards that leave with nothing to do drift.\n\nIf you're prepping for a board meeting in the next few weeks, I'd genuinely love to hear which of these lands hardest for you \u2014 reply and let me know.\n\n\u2014 Lenny",
+    "body_html": "<div style=\"font-family:Arial,Helvetica,sans-serif;font-size:14px;color:#222222;line-height:1.5;max-width:600px\"><div style=\"background:#eb5424;color:#ffffff;padding:16px 20px;font-size:18px;font-weight:bold;border-radius:4px 4px 0 0\">Lenny's Newsletter</div><div style=\"padding:16px 20px\"><p><strong>How the best Series A founders run their board meetings</strong></p><p>Five habits: send the deck 48&ndash;72 hours early, lead with bad news, bring one real decision instead of ten status updates, flag the metric about to move, and end with a specific ask.</p><p><a href=\"https://lennysnewsletter.com/p/board-meetings\">Read the full essay &rarr;</a></p><p style=\"font-size:11px;color:#888888;margin-top:24px\">You are receiving this because you subscribed. <a href=\"https://lennysnewsletter.com/unsubscribe?u=maya-kettlehq\" style=\"color:#888888\">Unsubscribe</a></p></div></div>",
+    "date": "2026-08-04T06:00:00-07:00",
+    "internal_date_ms": 1785848400000,
+    "folder": "INBOX",
+    "category": "CATEGORY_PROMOTIONS",
+    "is_unread": true,
+    "is_starred": false,
+    "is_important": false,
+    "user_labels": [],
+    "attachments": [],
+    "calendar_event": null,
+    "extra_headers": {
+      "List-Unsubscribe": "<mailto:unsubscribe@lennysnewsletter.com?subject=unsubscribe>, <https://lennysnewsletter.com/unsubscribe?u=maya-kettlehq>",
+      "List-Unsubscribe-Post": "List-Unsubscribe=One-Click",
+      "List-ID": "<lennysnewsletter.com>",
+      "Precedence": "bulk",
+      "Feedback-ID": "3d4e5f:lenny-weekly"
+    },
+    "size_estimate": 4395,
+    "meta": {
+      "email_class": "newsletter",
+      "tricky_tags": [],
+      "is_actionable_for_user": false,
+      "action_owner": null,
+      "action_summary": null,
+      "due_date": null,
+      "commitment_made_by_user": null,
+      "commitment_is_conditional": false,
+      "commitment_condition": null,
+      "superseded_by_message_id": null,
+      "notes": null
+    }
+  },
+  {
+    "id": "a30f18c2e4b60033",
+    "thread_id": "a30f18c2e4b60033",
+    "profile_id": "founder",
+    "history_id": "718045",
+    "message_id_header": "<a30f18c2e4b60033@crunchbase.com>",
+    "in_reply_to": null,
+    "references": [],
+    "thread_position": 1,
+    "thread_length": 1,
+    "from": {
+      "name": "Crunchbase Daily",
+      "email": "daily@crunchbase.com"
+    },
+    "to": [
+      {
+        "name": "Maya Rodriguez",
+        "email": "maya@kettlehq.com"
+      }
+    ],
+    "cc": [],
+    "bcc": [],
+    "delivered_to": "maya@kettlehq.com",
+    "subject": "Crunchbase Daily: A $2.1B week for AI infrastructure startups",
+    "snippet": "Good morning, Here's what closed this week. BIG ROUND: An AI observability startup out of Seattle closed a $180M Series C at a $2.4B valuation, led by a growth-stage fund making it",
+    "body_text": "Good morning,\n\nHere's what closed this week.\n\nBIG ROUND: An AI observability startup out of Seattle closed a $180M Series C at a $2.4B valuation, led by a growth-stage fund making its first bet in the category. The round brings the company's total raised to $340M since its 2022 seed.\n\nSERIES A/B ROUNDUP:\n- A developer tools startup building CI/CD for AI pipelines raised a $22M Series A.\n- A fintech infrastructure company closed a $45M Series B, its second round in 14 months.\n- A supply chain visibility platform raised a $31M Series A led by a logistics-focused fund.\n- An API security startup closed an $18M Series A, its first institutional round after two years bootstrapped.\n\nTOTAL FOR THE WEEK: $2.1B across 34 announced rounds in infrastructure and dev tools, the highest weekly total in the category since March.\n\nWHAT WE'RE WATCHING: Several investors we track are flagging that Series A infra rounds are increasingly conditioned on customer concentration \u2014 boards want to see revenue spread across at least 3-4 meaningful accounts before a B round, not one large logo carrying the metrics.\n\nACQUISITIONS: A monitoring startup was acquired by a larger observability platform for an undisclosed sum, its third acquisition in the space this year. A separate deal saw a log-management vendor absorbed into a larger security suite, part of a broader trend of point-solution observability tools consolidating under bigger platform plays as customers push back on tool sprawl.\n\nVALUATIONS: Median Series A pre-money valuation for infrastructure and dev-tools companies ticked up to $42M this quarter, from $38M last quarter, though still below the 2024 peak of $58M. Investors we spoke with attribute the modest recovery to stronger enterprise pull-through on AI-adjacent tooling rather than a broad re-rating of the category.\n\nPEOPLE MOVES: A former VP Engineering at a well-known observability unicorn joined a growth-stage fund as an operating partner focused on infrastructure investments \u2014 the third such hire among major funds this year, a sign that firms are leaning harder on operator diligence before writing infra checks.\n\nWHAT'S NEXT: Several bankers we track expect the fall to bring a wave of Series B processes for companies that raised Series A rounds in late 2024 and early 2025, as those cohorts hit the 18-24 month mark that typically triggers the next fundraising cycle.\n\nThat's the week \u2014 see you tomorrow.\n\n\u2014 Crunchbase Daily",
+    "body_html": "<div style=\"font-family:Arial,Helvetica,sans-serif;font-size:14px;color:#222222;line-height:1.5;max-width:600px\"><div style=\"background:#0288d1;color:#ffffff;padding:16px 20px;font-size:18px;font-weight:bold;border-radius:4px 4px 0 0\">Crunchbase Daily</div><div style=\"padding:16px 20px\"><p><strong>$2.1B across 34 rounds</strong> in infrastructure and dev tools this week &mdash; the highest weekly total since March.</p><p>Big round: an AI observability startup closed a $180M Series C at a $2.4B valuation.</p><p><a href=\"https://crunchbase.com/daily\">Read the full roundup &rarr;</a></p><p style=\"font-size:11px;color:#888888;margin-top:24px\">You are receiving this because you subscribed. <a href=\"https://crunchbase.com/daily/unsubscribe?u=maya-kettlehq\" style=\"color:#888888\">Unsubscribe</a></p></div></div>",
+    "date": "2026-07-03T05:45:00-07:00",
+    "internal_date_ms": 1783082700000,
+    "folder": "INBOX",
+    "category": "CATEGORY_PROMOTIONS",
+    "is_unread": false,
+    "is_starred": false,
+    "is_important": false,
+    "user_labels": [],
+    "attachments": [],
+    "calendar_event": null,
+    "extra_headers": {
+      "List-Unsubscribe": "<mailto:unsubscribe@news.crunchbase.com?subject=unsubscribe>, <https://news.crunchbase.com/unsubscribe?u=maya-kettlehq>",
+      "List-Unsubscribe-Post": "List-Unsubscribe=One-Click",
+      "List-ID": "<news.crunchbase.com>",
+      "Precedence": "bulk",
+      "Feedback-ID": "4e5f6a:cb-daily"
+    },
+    "size_estimate": 4402,
+    "meta": {
+      "email_class": "newsletter",
+      "tricky_tags": [],
+      "is_actionable_for_user": false,
+      "action_owner": null,
+      "action_summary": null,
+      "due_date": null,
+      "commitment_made_by_user": null,
+      "commitment_is_conditional": false,
+      "commitment_condition": null,
+      "superseded_by_message_id": null,
+      "notes": null
+    }
+  },
+  {
+    "id": "a30f18c2e4b60034",
+    "thread_id": "a30f18c2e4b60034",
+    "profile_id": "founder",
+    "history_id": "765570",
+    "message_id_header": "<a30f18c2e4b60034@crunchbase.com>",
+    "in_reply_to": null,
+    "references": [],
+    "thread_position": 1,
+    "thread_length": 1,
+    "from": {
+      "name": "Crunchbase Daily",
+      "email": "daily@crunchbase.com"
+    },
+    "to": [
+      {
+        "name": "Maya Rodriguez",
+        "email": "maya@kettlehq.com"
+      }
+    ],
+    "cc": [],
+    "bcc": [],
+    "delivered_to": "maya@kettlehq.com",
+    "subject": "Crunchbase Daily: Northbridge Capital closes $500M Fund IV",
+    "snippet": "Good morning, TOP STORY: Northbridge Capital closed its fourth flagship fund at $500M, its largest to date and roughly 40% bigger than Fund III. The firm said it plans to keep its ",
+    "body_text": "Good morning,\n\nTOP STORY: Northbridge Capital closed its fourth flagship fund at $500M, its largest to date and roughly 40% bigger than Fund III. The firm said it plans to keep its Series A focus, with a growing allocation toward follow-on checks into its existing portfolio at Series B and C.\n\nNorthbridge partner Ellen Barsotti told Crunchbase the firm is 'doubling down on infrastructure and dev tools,' citing several portfolio companies (unnamed) that have seen strong enterprise pull this year.\n\nALSO TODAY:\n- A payments infrastructure company raised a $60M Series C.\n- Two Series A rounds closed in the healthtech space totaling $38M combined.\n- A cybersecurity startup extended its Series B by $15M at the same valuation, a sign of cautious but continued investor appetite in the category.\n\nThat's the week's top story \u2014 full roundup on the site.\n\n\u2014 Crunchbase Daily",
+    "body_html": "<div style=\"font-family:Arial,Helvetica,sans-serif;font-size:14px;color:#222222;line-height:1.5;max-width:600px\"><div style=\"background:#0288d1;color:#ffffff;padding:16px 20px;font-size:18px;font-weight:bold;border-radius:4px 4px 0 0\">Crunchbase Daily</div><div style=\"padding:16px 20px\"><p><strong>Northbridge Capital closes $500M Fund IV</strong>, 40% bigger than Fund III, with a growing allocation toward follow-on checks into existing portfolio companies at Series B and C.</p><p><a href=\"https://crunchbase.com/daily\">Read more &rarr;</a></p><p style=\"font-size:11px;color:#888888;margin-top:24px\">You are receiving this because you subscribed. <a href=\"https://crunchbase.com/daily/unsubscribe?u=maya-kettlehq\" style=\"color:#888888\">Unsubscribe</a></p></div></div>",
+    "date": "2026-08-05T05:50:00-07:00",
+    "internal_date_ms": 1785934200000,
+    "folder": "INBOX",
+    "category": "CATEGORY_UPDATES",
+    "is_unread": true,
+    "is_starred": true,
+    "is_important": true,
+    "user_labels": [
+      "Label_8842"
+    ],
+    "attachments": [],
+    "calendar_event": null,
+    "extra_headers": {
+      "List-Unsubscribe": "<mailto:unsubscribe@news.crunchbase.com?subject=unsubscribe>, <https://news.crunchbase.com/unsubscribe?u=maya-kettlehq>",
+      "List-Unsubscribe-Post": "List-Unsubscribe=One-Click",
+      "List-ID": "<news.crunchbase.com>",
+      "Precedence": "bulk",
+      "Feedback-ID": "5f6a7b:cb-daily"
+    },
+    "size_estimate": 2773,
+    "meta": {
+      "email_class": "newsletter",
+      "tricky_tags": [],
+      "is_actionable_for_user": false,
+      "action_owner": null,
+      "action_summary": null,
+      "due_date": null,
+      "commitment_made_by_user": null,
+      "commitment_is_conditional": false,
+      "commitment_condition": null,
+      "superseded_by_message_id": null,
+      "notes": "Mentions Northbridge (Kettle's own board investor) and Ellen Barsotti by name \u2014 noticed, not actionable."
+    }
+  },
+  {
+    "id": "a30f18c2e4b60035",
+    "thread_id": "a30f18c2e4b60035",
+    "profile_id": "founder",
+    "history_id": "768340",
+    "message_id_header": "<a30f18c2e4b60035@stripe.com>",
+    "in_reply_to": null,
+    "references": [],
+    "thread_position": 1,
+    "thread_length": 1,
+    "from": {
+      "name": "Stripe",
+      "email": "reports@stripe.com"
+    },
+    "to": [
+      {
+        "name": "Maya Rodriguez",
+        "email": "maya@kettlehq.com"
+      }
+    ],
+    "cc": [],
+    "bcc": [],
+    "delivered_to": "maya@kettlehq.com",
+    "subject": "Your July payment summary from Stripe",
+    "snippet": "Hi Maya, Here's Kettle's July summary: $86,420 processed across 41 successful charges, a 12% increase over June. Net volume after Stripe fees was $83,891. Two disputes were opened ",
+    "body_text": "Hi Maya,\n\nHere's Kettle's July summary: $86,420 processed across 41 successful charges, a 12% increase over June. Net volume after Stripe fees was $83,891.\n\nTwo disputes were opened and both resolved in your favor. No unusual activity flagged this period.\n\nView the full report in your Dashboard.\n\n\u2014 Stripe",
+    "body_html": "<div style=\"font-family:Arial,Helvetica,sans-serif;font-size:14px;color:#222222;line-height:1.5;max-width:600px\"><div style=\"padding:16px 20px\"><p><strong>July: $86,420</strong> processed across 41 charges, up 12% over June. Two disputes opened, both resolved in your favor.</p></div></div>",
+    "date": "2026-08-07T04:00:00-07:00",
+    "internal_date_ms": 1786100400000,
+    "folder": "INBOX",
+    "category": "CATEGORY_UPDATES",
+    "is_unread": false,
+    "is_starred": false,
+    "is_important": false,
+    "user_labels": [],
+    "attachments": [],
+    "calendar_event": null,
+    "extra_headers": {},
+    "size_estimate": 1425,
+    "meta": {
+      "email_class": "automated_notification",
+      "tricky_tags": [],
+      "is_actionable_for_user": false,
+      "action_owner": null,
+      "action_summary": null,
+      "due_date": null,
+      "commitment_made_by_user": null,
+      "commitment_is_conditional": false,
+      "commitment_condition": null,
+      "superseded_by_message_id": null,
+      "notes": null
+    }
+  },
+  {
+    "id": "a30f18c2e4b60036",
+    "thread_id": "a30f18c2e4b60036",
+    "profile_id": "founder",
+    "history_id": "769960",
+    "message_id_header": "<a30f18c2e4b60036@notion.so>",
+    "in_reply_to": null,
+    "references": [],
+    "thread_position": 1,
+    "thread_length": 1,
+    "from": {
+      "name": "Notion",
+      "email": "mail@notion.so"
+    },
+    "to": [
+      {
+        "name": "Maya Rodriguez",
+        "email": "maya@kettlehq.com"
+      }
+    ],
+    "cc": [],
+    "bcc": [],
+    "delivered_to": "maya@kettlehq.com",
+    "subject": "What's new in Notion: Q3 release notes",
+    "snippet": "Hi Maya, This quarter's highlights: database views now support nested rollups, the mobile app got a redesigned command menu, and API rate limits doubled for Business-tier workspace",
+    "body_text": "Hi Maya,\n\nThis quarter's highlights: database views now support nested rollups, the mobile app got a redesigned command menu, and API rate limits doubled for Business-tier workspaces like Kettle's.\n\nWe also shipped a much-requested feature: locked blocks, so board deck templates can't get accidentally edited mid-cycle.\n\nFull changelog linked below.\n\n\u2014 The Notion Team",
+    "body_html": "<div style=\"font-family:Arial,Helvetica,sans-serif;font-size:14px;color:#222222;line-height:1.5;max-width:600px\"><div style=\"background:#000000;color:#ffffff;padding:16px 20px;font-size:18px;font-weight:bold;border-radius:4px 4px 0 0\">Q3 Release Notes</div><div style=\"padding:16px 20px\"><p>Nested rollups in database views, a redesigned mobile command menu, doubled API rate limits for Business-tier workspaces, and locked blocks.</p></div></div>",
+    "date": "2026-08-08T07:00:00-07:00",
+    "internal_date_ms": 1786197600000,
+    "folder": "INBOX",
+    "category": "CATEGORY_UPDATES",
+    "is_unread": true,
+    "is_starred": false,
+    "is_important": false,
+    "user_labels": [],
+    "attachments": [],
+    "calendar_event": null,
+    "extra_headers": {
+      "Precedence": "bulk"
+    },
+    "size_estimate": 1657,
+    "meta": {
+      "email_class": "automated_notification",
+      "tricky_tags": [],
+      "is_actionable_for_user": false,
+      "action_owner": null,
+      "action_summary": null,
+      "due_date": null,
+      "commitment_made_by_user": null,
+      "commitment_is_conditional": false,
+      "commitment_condition": null,
+      "superseded_by_message_id": null,
+      "notes": null
+    }
+  },
+  {
+    "id": "a30f18c2e4b60037",
+    "thread_id": "a30f18c2e4b60037",
+    "profile_id": "founder",
+    "history_id": "771400",
+    "message_id_header": "<a30f18c2e4b60037@pagerduty.com>",
+    "in_reply_to": null,
+    "references": [],
+    "thread_position": 1,
+    "thread_length": 1,
+    "from": {
+      "name": "PagerDuty",
+      "email": "digest@pagerduty.com"
+    },
+    "to": [
+      {
+        "name": "Maya Rodriguez",
+        "email": "maya@kettlehq.com"
+      }
+    ],
+    "cc": [],
+    "bcc": [],
+    "delivered_to": "maya@kettlehq.com",
+    "subject": "Your week in review: 3 incidents, 98.2% uptime",
+    "snippet": "Kettle triggered 3 incidents this week, MTTR 22 minutes, uptime 98.2%. Full breakdown in your PagerDuty analytics dashboard.",
+    "body_text": "Kettle triggered 3 incidents this week, MTTR 22 minutes, uptime 98.2%. Full breakdown in your PagerDuty analytics dashboard.",
+    "body_html": "<div style=\"font-family:Arial,Helvetica,sans-serif;font-size:14px;color:#222222;line-height:1.5;max-width:600px\"><div style=\"padding:16px 20px\"><p><strong>3 incidents</strong>, MTTR 22 min, uptime 98.2%.</p></div></div>",
+    "date": "2026-08-09T07:00:00-07:00",
+    "internal_date_ms": 1786284000000,
+    "folder": "INBOX",
+    "category": "CATEGORY_UPDATES",
+    "is_unread": true,
+    "is_starred": false,
+    "is_important": false,
+    "user_labels": [],
+    "attachments": [],
+    "calendar_event": null,
+    "extra_headers": {},
+    "size_estimate": 1187,
+    "meta": {
+      "email_class": "automated_notification",
+      "tricky_tags": [],
+      "is_actionable_for_user": false,
+      "action_owner": null,
+      "action_summary": null,
+      "due_date": null,
+      "commitment_made_by_user": null,
+      "commitment_is_conditional": false,
+      "commitment_condition": null,
+      "superseded_by_message_id": null,
+      "notes": null
+    }
+  },
+  {
+    "id": "a30f18c2e4b60038",
+    "thread_id": "a30f18c2e4b60038",
+    "profile_id": "founder",
+    "history_id": "768670",
+    "message_id_header": "<a30f18c2e4b60038@datadoghq.com>",
+    "in_reply_to": null,
+    "references": [],
+    "thread_position": 1,
+    "thread_length": 1,
+    "from": {
+      "name": "Datadog",
+      "email": "billing@datadoghq.com"
+    },
+    "to": [
+      {
+        "name": "Maya Rodriguez",
+        "email": "maya@kettlehq.com"
+      }
+    ],
+    "cc": [],
+    "bcc": [],
+    "delivered_to": "maya@kettlehq.com",
+    "subject": "\ud83c\udf89 Your Datadog plan is leveling up!",
+    "snippet": "Hi Maya, Great news \u2014 Kettle's usage has grown a lot this year! Your host count is up from 40 to 72 hosts since your plan started, which puts you solidly in our Pro tier usage band",
+    "body_text": "Hi Maya,\n\nGreat news \u2014 Kettle's usage has grown a lot this year! Your host count is up from 40 to 72 hosts since your plan started, which puts you solidly in our Pro tier usage band.\n\nStarting with your next billing cycle on August 30, your plan will automatically renew at the Pro tier rate reflecting your current usage: $4,200/mo, up from your current $2,850/mo.\n\nNo action is needed if this works for your team \u2014 we'll just keep monitoring humming along. If you'd like to review your host count and see whether any decommissioned or duplicate hosts can be removed before the renewal (which could bring the rate back down), you can do that from your usage dashboard any time before August 25.\n\nAfter August 25, the new rate locks in for the cycle.\n\nQuestions? Reply to this email or reach your account team.\n\nHappy monitoring,\nThe Datadog Team",
+    "body_html": "<div style=\"font-family:Arial,Helvetica,sans-serif;font-size:14px;color:#222222;line-height:1.5;max-width:600px\"><div style=\"background:#8b5cf6;color:#ffffff;padding:16px 20px;font-size:18px;font-weight:bold;border-radius:4px 4px 0 0\">\ud83c\udf89 You're leveling up!</div><div style=\"padding:16px 20px\"><p>Kettle's host count is up from 40 to 72 &mdash; congrats on the growth! Your plan renews at the Pro tier rate on August 30: <strong>$4,200/mo</strong> (up from $2,850/mo).</p><p><a href=\"https://app.datadoghq.com/billing/usage\" style=\"background:#8b5cf6;color:#fff;padding:10px 18px;text-decoration:none;border-radius:3px;display:inline-block\">Review usage before Aug 25</a></p></div></div>",
+    "date": "2026-08-07T09:30:00-07:00",
+    "internal_date_ms": 1786120200000,
+    "folder": "INBOX",
+    "category": "CATEGORY_UPDATES",
+    "is_unread": true,
+    "is_starred": true,
+    "is_important": true,
+    "user_labels": [
+      "Label_3391"
+    ],
+    "attachments": [],
+    "calendar_event": null,
+    "extra_headers": {},
+    "size_estimate": 2371,
+    "meta": {
+      "email_class": "vendor_invoice",
+      "tricky_tags": [],
+      "is_actionable_for_user": true,
+      "action_owner": "maya@kettlehq.com",
+      "action_summary": "Review Datadog host count and decide whether to accept the Pro-tier renewal ($4,200/mo, up from $2,850/mo) or trim hosts before Aug 25.",
+      "due_date": "2026-08-25",
+      "commitment_made_by_user": null,
+      "commitment_is_conditional": false,
+      "commitment_condition": null,
+      "superseded_by_message_id": null,
+      "notes": "Renewal notice styled as a celebratory product update \u2014 the real ask (a ~47% price increase auto-renewing Aug 30) is easy to miss under the marketing framing."
+    }
+  },
+  {
+    "id": "a30f18c2e4b60039",
+    "thread_id": "a30f18c2e4b60039",
+    "profile_id": "founder",
+    "history_id": "773035",
+    "message_id_header": "<a30f18c2e4b60039@saastr.com>",
+    "in_reply_to": null,
+    "references": [],
+    "thread_position": 1,
+    "thread_length": 1,
+    "from": {
+      "name": "SaaStr Speaker Relations",
+      "email": "speakers@saastr.com"
+    },
+    "to": [
+      {
+        "name": "Maya Rodriguez",
+        "email": "maya@kettlehq.com"
+      }
+    ],
+    "cc": [],
+    "bcc": [],
+    "delivered_to": "maya@kettlehq.com",
+    "subject": "SaaStr Annual 2026 \u2014 Speaker Portal Access + Slide Deck Deadline (Aug 25)",
+    "snippet": "Hi Maya, We're thrilled to confirm your session at SaaStr Annual 2026. Here's everything you need for the next few weeks. YOUR SESSION Title: 'Scaling Observability Trust With Ente",
+    "body_text": "Hi Maya,\n\nWe're thrilled to confirm your session at SaaStr Annual 2026. Here's everything you need for the next few weeks.\n\nYOUR SESSION\nTitle: 'Scaling Observability Trust With Enterprise Customers'\nDate/Time: Tuesday, September 22, 2:15pm-2:45pm PT\nRoom: Cloud Stage B, San Mateo Event Center\nFormat: Solo talk with 10 minutes of Q&A\n\nWHAT WE NEED FROM YOU\n1. Slide deck (16:9, PDF or PPTX) \u2014 due August 25. Our AV team needs lead time to load decks onto the venue systems and do a tech check.\n2. Updated headshot and 100-word bio \u2014 due August 25, same deadline as the deck. This goes on the event app and printed signage.\n3. A one-sentence session abstract for the printed program, if you'd like to revise the one submitted at CFP time \u2014 optional, due August 25 if you want changes.\n\nSPEAKER PORTAL\nYou can upload all of the above directly through the speaker portal: portal.saastr.com/speakers (login: the email this was sent to). The portal also has your green room access code and a map of backstage entrances for Cloud Stage B.\n\nDAY-OF LOGISTICS\nPlease arrive at the green room by 1:30pm for a mic check and a quick run-through with our stage manager. Green room access is through the west loading dock \u2014 your badge will be flagged for speaker access at registration.\n\nWe'll also need a $0 W-9 on file for our records even though this is an unpaid speaking slot, standard for our vendor system \u2014 the portal has a template if you don't have one handy.\n\nHOTEL AND TRAVEL\nWe've held a small block of rooms at the San Mateo Marriott (0.4 miles from the venue) at the conference rate of $289/night for speakers, available through August 30 or until the block sells out, whichever comes first. The booking link is also in the speaker portal under 'Travel.' Flights and ground transport are on you, but the portal has a list of discounted rideshare codes valid for the event week.\n\nOTHER SESSIONS YOU MIGHT WANT TO CATCH\nIf you're arriving the day before, Monday afternoon has a track on Series A-to-B fundraising dynamics that a few other speakers flagged as worth attending, and there's a speakers-only dinner Monday night at 7pm if you'd like to meet the rest of the Cloud Stage B lineup beforehand \u2014 RSVP through the portal if you can make it.\n\nPRESS AND RECORDING\nYour session will be recorded and posted to the SaaStr YouTube channel within two weeks of the event, and a few press outlets typically sit in on Cloud Stage sessions \u2014 let us know in the portal if there's anything you'd prefer to keep off the record.\n\nLet us know if anything above needs adjusting, and congratulations again on being selected \u2014 this track had over 400 submissions this year.\n\nBest,\nThe SaaStr Speaker Relations Team",
+    "body_html": "<div style=\"font-family:Arial,Helvetica,sans-serif;font-size:14px;color:#222222;line-height:1.5;max-width:600px\"><div style=\"background:#e8443c;color:#ffffff;padding:16px 20px;font-size:18px;font-weight:bold;border-radius:4px 4px 0 0\">You're confirmed to speak</div><div style=\"padding:16px 20px\"><p><strong>Scaling Observability Trust With Enterprise Customers</strong><br>Tuesday, Sept 22, 2:15&ndash;2:45pm PT &middot; Cloud Stage B</p><p>Deck, headshot, and bio all due <strong>August 25</strong> via the speaker portal.</p><p><a href=\"https://portal.saastr.com/speakers\" style=\"background:#e8443c;color:#fff;padding:10px 18px;text-decoration:none;border-radius:3px;display:inline-block\">Open speaker portal</a></p></div></div>",
+    "date": "2026-08-10T10:15:00-07:00",
+    "internal_date_ms": 1786382100000,
+    "folder": "INBOX",
+    "category": "CATEGORY_UPDATES",
+    "is_unread": true,
+    "is_starred": true,
+    "is_important": true,
+    "user_labels": [],
+    "attachments": [],
+    "calendar_event": null,
+    "extra_headers": {},
+    "size_estimate": 4331,
+    "meta": {
+      "email_class": "automated_notification",
+      "tricky_tags": [],
+      "is_actionable_for_user": true,
+      "action_owner": "maya@kettlehq.com",
+      "action_summary": "Upload slide deck, headshot, and bio to the SaaStr speaker portal by Aug 25 ahead of the Sept 22 talk.",
+      "due_date": "2026-08-25",
+      "commitment_made_by_user": null,
+      "commitment_is_conditional": false,
+      "commitment_condition": null,
+      "superseded_by_message_id": null,
+      "notes": "Second genuinely-actionable item in this batch \u2014 a real conference the owner agreed to speak at, with a concrete deadline the same week as the Datadog renewal."
+    }
+  },
+  {
+    "id": "a30f18c2e4b60040",
+    "thread_id": "a30f18c2e4b60040",
+    "profile_id": "founder",
+    "history_id": "755500",
+    "message_id_header": "<a30f18c2e4b60040@linkedin.com>",
+    "in_reply_to": null,
+    "references": [],
+    "thread_position": 1,
+    "thread_length": 1,
+    "from": {
+      "name": "LinkedIn",
+      "email": "notifications-noreply@linkedin.com"
+    },
+    "to": [
+      {
+        "name": "Maya Rodriguez",
+        "email": "maya@kettlehq.com"
+      }
+    ],
+    "cc": [],
+    "bcc": [],
+    "delivered_to": "maya@kettlehq.com",
+    "subject": "You have 4 new connection requests",
+    "snippet": "Maya, you have 4 new invitations to connect, including Raj Malhotra (Foundry Line) and 3 others. View and respond on LinkedIn.",
+    "body_text": "Maya, you have 4 new invitations to connect, including Raj Malhotra (Foundry Line) and 3 others. View and respond on LinkedIn.",
+    "body_html": "<div style=\"font-family:Arial,Helvetica,sans-serif;font-size:14px;color:#222222;line-height:1.5;max-width:600px\"><div style=\"padding:16px 20px\"><p><strong>4 new invitations</strong>, including Raj Malhotra (Foundry Line). <a href=\"https://linkedin.com/mynetwork\">View invitations</a></p></div></div>",
+    "date": "2026-07-29T06:00:00-07:00",
+    "internal_date_ms": 1785330000000,
+    "folder": "INBOX",
+    "category": "CATEGORY_SOCIAL",
+    "is_unread": false,
+    "is_starred": false,
+    "is_important": false,
+    "user_labels": [],
+    "attachments": [],
+    "calendar_event": null,
+    "extra_headers": {
+      "Precedence": "bulk"
+    },
+    "size_estimate": 1285,
+    "meta": {
+      "email_class": "social",
+      "tricky_tags": [],
+      "is_actionable_for_user": false,
+      "action_owner": null,
+      "action_summary": null,
+      "due_date": null,
+      "commitment_made_by_user": null,
+      "commitment_is_conditional": false,
+      "commitment_condition": null,
+      "superseded_by_message_id": null,
+      "notes": null
+    }
+  },
+  {
+    "id": "a30f18c2e4b60041",
+    "thread_id": "a30f18c2e4b60041",
+    "profile_id": "founder",
+    "history_id": "756945",
+    "message_id_header": "<a30f18c2e4b60041@linkedin.com>",
+    "in_reply_to": null,
+    "references": [],
+    "thread_position": 1,
+    "thread_length": 1,
+    "from": {
+      "name": "LinkedIn",
+      "email": "notifications-noreply@linkedin.com"
+    },
+    "to": [
+      {
+        "name": "Maya Rodriguez",
+        "email": "maya@kettlehq.com"
+      }
+    ],
+    "cc": [],
+    "bcc": [],
+    "delivered_to": "maya@kettlehq.com",
+    "subject": "12 people viewed your profile this week",
+    "snippet": "Your profile appeared in 12 searches and was viewed by people at Northbridge Capital, Sequoia, and Andreessen Horowitz this week. See who's looking.",
+    "body_text": "Your profile appeared in 12 searches and was viewed by people at Northbridge Capital, Sequoia, and Andreessen Horowitz this week. See who's looking.",
+    "body_html": "<div style=\"font-family:Arial,Helvetica,sans-serif;font-size:14px;color:#222222;line-height:1.5;max-width:600px\"><div style=\"padding:16px 20px\"><p><strong>12 profile views</strong> this week, including people at Northbridge Capital, Sequoia, and Andreessen Horowitz.</p></div></div>",
+    "date": "2026-07-30T06:05:00-07:00",
+    "internal_date_ms": 1785416700000,
+    "folder": "INBOX",
+    "category": "CATEGORY_SOCIAL",
+    "is_unread": false,
+    "is_starred": false,
+    "is_important": false,
+    "user_labels": [],
+    "attachments": [],
+    "calendar_event": null,
+    "extra_headers": {
+      "Precedence": "bulk"
+    },
+    "size_estimate": 1295,
+    "meta": {
+      "email_class": "social",
+      "tricky_tags": [],
+      "is_actionable_for_user": false,
+      "action_owner": null,
+      "action_summary": null,
+      "due_date": null,
+      "commitment_made_by_user": null,
+      "commitment_is_conditional": false,
+      "commitment_condition": null,
+      "superseded_by_message_id": null,
+      "notes": null
+    }
+  },
+  {
+    "id": "a30f18c2e4b60042",
+    "thread_id": "a30f18c2e4b60042",
+    "profile_id": "founder",
+    "history_id": "758390",
+    "message_id_header": "<a30f18c2e4b60042@linkedin.com>",
+    "in_reply_to": null,
+    "references": [],
+    "thread_position": 1,
+    "thread_length": 1,
+    "from": {
+      "name": "LinkedIn",
+      "email": "notifications-noreply@linkedin.com"
+    },
+    "to": [
+      {
+        "name": "Maya Rodriguez",
+        "email": "maya@kettlehq.com"
+      }
+    ],
+    "cc": [],
+    "bcc": [],
+    "delivered_to": "maya@kettlehq.com",
+    "subject": "Your post is getting attention: 61 reactions",
+    "snippet": "Your post about Kettle's Series A milestone has 61 reactions and 8 comments in the last 24 hours. Reply to keep the conversation going.",
+    "body_text": "Your post about Kettle's Series A milestone has 61 reactions and 8 comments in the last 24 hours. Reply to keep the conversation going.",
+    "body_html": "<div style=\"font-family:Arial,Helvetica,sans-serif;font-size:14px;color:#222222;line-height:1.5;max-width:600px\"><div style=\"padding:16px 20px\"><p><strong>61 reactions</strong>, 8 comments in the last 24 hours on your Series A milestone post.</p></div></div>",
+    "date": "2026-07-31T06:10:00-07:00",
+    "internal_date_ms": 1785503400000,
+    "folder": "INBOX",
+    "category": "CATEGORY_SOCIAL",
+    "is_unread": false,
+    "is_starred": false,
+    "is_important": false,
+    "user_labels": [],
+    "attachments": [],
+    "calendar_event": null,
+    "extra_headers": {
+      "Precedence": "bulk"
+    },
+    "size_estimate": 1263,
+    "meta": {
+      "email_class": "social",
+      "tricky_tags": [],
+      "is_actionable_for_user": false,
+      "action_owner": null,
+      "action_summary": null,
+      "due_date": null,
+      "commitment_made_by_user": null,
+      "commitment_is_conditional": false,
+      "commitment_condition": null,
+      "superseded_by_message_id": null,
+      "notes": null
+    }
+  },
+  {
+    "id": "a30f18c2e4b60043",
+    "thread_id": "a30f18c2e4b60043",
+    "profile_id": "founder",
+    "history_id": "722500",
+    "message_id_header": "<a30f18c2e4b60043@linkedin.com>",
+    "in_reply_to": null,
+    "references": [],
+    "thread_position": 1,
+    "thread_length": 1,
+    "from": {
+      "name": "LinkedIn",
+      "email": "notifications-noreply@linkedin.com"
+    },
+    "to": [
+      {
+        "name": "Maya Rodriguez",
+        "email": "maya@kettlehq.com"
+      }
+    ],
+    "cc": [],
+    "bcc": [],
+    "delivered_to": "maya@kettlehq.com",
+    "subject": "Congratulate Raj Malhotra on 5 years at Foundry Line",
+    "snippet": "Maya, Raj Malhotra is celebrating 5 years at Foundry Line today. Send a quick congratulations to stay top of mind \u2014 a short note goes a long way with people in your network who mig",
+    "body_text": "Maya, Raj Malhotra is celebrating 5 years at Foundry Line today. Send a quick congratulations to stay top of mind \u2014 a short note goes a long way with people in your network who might matter for a future round.",
+    "body_html": "<div style=\"font-family:Arial,Helvetica,sans-serif;font-size:14px;color:#222222;line-height:1.5;max-width:600px\"><div style=\"padding:16px 20px\"><p>Raj Malhotra is celebrating <strong>5 years</strong> at Foundry Line today. <a href=\"https://linkedin.com/in/rajmalhotra\">Send congratulations</a></p></div></div>",
+    "date": "2026-07-06T08:00:00-07:00",
+    "internal_date_ms": 1783350000000,
+    "folder": "INBOX",
+    "category": "CATEGORY_SOCIAL",
+    "is_unread": false,
+    "is_starred": false,
+    "is_important": false,
+    "user_labels": [],
+    "attachments": [],
+    "calendar_event": null,
+    "extra_headers": {
+      "Precedence": "bulk"
+    },
+    "size_estimate": 1398,
+    "meta": {
+      "email_class": "social",
+      "tricky_tags": [],
+      "is_actionable_for_user": false,
+      "action_owner": null,
+      "action_summary": null,
+      "due_date": null,
+      "commitment_made_by_user": null,
+      "commitment_is_conditional": false,
+      "commitment_condition": null,
+      "superseded_by_message_id": null,
+      "notes": null
+    }
+  },
+  {
+    "id": "a30f18c2e4b60044",
+    "thread_id": "a30f18c2e4b60044",
+    "profile_id": "founder",
+    "history_id": "761340",
+    "message_id_header": "<a30f18c2e4b60044@producthunt.com>",
+    "in_reply_to": null,
+    "references": [],
+    "thread_position": 1,
+    "thread_length": 1,
+    "from": {
+      "name": "Product Hunt",
+      "email": "notifications@producthunt.com"
+    },
+    "to": [
+      {
+        "name": "Maya Rodriguez",
+        "email": "maya@kettlehq.com"
+      }
+    ],
+    "cc": [],
+    "bcc": [],
+    "delivered_to": "maya@kettlehq.com",
+    "subject": "Your comment on Retool got 6 upvotes",
+    "snippet": "Your comment on the Retool launch thread just crossed 6 upvotes. See the full discussion and reply on Product Hunt.",
+    "body_text": "Your comment on the Retool launch thread just crossed 6 upvotes. See the full discussion and reply on Product Hunt.",
+    "body_html": "<div style=\"font-family:Arial,Helvetica,sans-serif;font-size:14px;color:#222222;line-height:1.5;max-width:600px\"><div style=\"padding:16px 20px\"><p>Your comment on the Retool launch thread crossed <strong>6 upvotes</strong>.</p></div></div>",
+    "date": "2026-08-02T07:20:00-07:00",
+    "internal_date_ms": 1785680400000,
+    "folder": "INBOX",
+    "category": "CATEGORY_SOCIAL",
+    "is_unread": false,
+    "is_starred": false,
+    "is_important": false,
+    "user_labels": [],
+    "attachments": [],
+    "calendar_event": null,
+    "extra_headers": {
+      "Precedence": "bulk"
+    },
+    "size_estimate": 1218,
+    "meta": {
+      "email_class": "social",
+      "tricky_tags": [],
+      "is_actionable_for_user": false,
+      "action_owner": null,
+      "action_summary": null,
+      "due_date": null,
+      "commitment_made_by_user": null,
+      "commitment_is_conditional": false,
+      "commitment_condition": null,
+      "superseded_by_message_id": null,
+      "notes": null
+    }
+  },
+  {
+    "id": "a30f18c2e4b60045",
+    "thread_id": "a30f18c2e4b60045",
+    "profile_id": "founder",
+    "history_id": "767140",
+    "message_id_header": "<a30f18c2e4b60045@producthunt.com>",
+    "in_reply_to": null,
+    "references": [],
+    "thread_position": 1,
+    "thread_length": 1,
+    "from": {
+      "name": "Product Hunt",
+      "email": "notifications@producthunt.com"
+    },
+    "to": [
+      {
+        "name": "Maya Rodriguez",
+        "email": "maya@kettlehq.com"
+      }
+    ],
+    "cc": [],
+    "bcc": [],
+    "delivered_to": "maya@kettlehq.com",
+    "subject": "Kettle was featured in a Product Hunt collection",
+    "snippet": "Hi Maya, Kettle just got added to the 'Best API Observability Tools of 2026' collection, curated by the Product Hunt editorial team. The collection has 3,200 followers and gets fea",
+    "body_text": "Hi Maya,\n\nKettle just got added to the 'Best API Observability Tools of 2026' collection, curated by the Product Hunt editorial team. The collection has 3,200 followers and gets featured on the homepage rotation this week.\n\nWorth sharing with the team \u2014 collection placements tend to drive a steady trickle of signups over the following month rather than a single spike.\n\n\u2014 Product Hunt",
+    "body_html": "<div style=\"font-family:Arial,Helvetica,sans-serif;font-size:14px;color:#222222;line-height:1.5;max-width:600px\"><div style=\"background:#da552f;color:#ffffff;padding:16px 20px;font-size:18px;font-weight:bold;border-radius:4px 4px 0 0\">You're in a collection!</div><div style=\"padding:16px 20px\"><p>Kettle was added to <strong>Best API Observability Tools of 2026</strong>, curated by the editorial team &mdash; 3,200 followers, featured on the homepage this week.</p></div></div>",
+    "date": "2026-08-06T08:00:00-07:00",
+    "internal_date_ms": 1786028400000,
+    "folder": "INBOX",
+    "category": "CATEGORY_SOCIAL",
+    "is_unread": true,
+    "is_starred": false,
+    "is_important": false,
+    "user_labels": [],
+    "attachments": [],
+    "calendar_event": null,
+    "extra_headers": {
+      "Precedence": "bulk"
+    },
+    "size_estimate": 1745,
+    "meta": {
+      "email_class": "social",
+      "tricky_tags": [],
+      "is_actionable_for_user": false,
+      "action_owner": null,
+      "action_summary": null,
+      "due_date": null,
+      "commitment_made_by_user": null,
+      "commitment_is_conditional": false,
+      "commitment_condition": null,
+      "superseded_by_message_id": null,
+      "notes": null
+    }
+  },
+  {
+    "id": "a30f18c2e4b60046",
+    "thread_id": "a30f18c2e4b60046",
+    "profile_id": "founder",
+    "history_id": "734847",
+    "message_id_header": "<a30f18c2e4b60046@accounts-google-verify.net>",
+    "in_reply_to": null,
+    "references": [],
+    "thread_position": 1,
+    "thread_length": 1,
+    "from": {
+      "name": "Google Workspace Security",
+      "email": "no-reply@accounts-google-verify.net"
+    },
+    "to": [
+      {
+        "name": "Maya Rodriguez",
+        "email": "maya@kettlehq.com"
+      }
+    ],
+    "cc": [],
+    "bcc": [],
+    "delivered_to": "maya@kettlehq.com",
+    "subject": "URGENT: Your Google Workspace storage will be suspended in 24 hours",
+    "snippet": "Dear User, Our system has detected that your Google Workspace account for kettlehq.com has EXCEEDED its storage limit. To avoid suspension of email services within 24 HOURS, you mu",
+    "body_text": "Dear User,\n\nOur system has detected that your Google Workspace account for kettlehq.com has EXCEEDED its storage limit. To avoid suspension of email services within 24 HOURS, you must verify your account immediately.\n\nCLICK HERE TO VERIFY YOUR ACCOUNT: http://accounts-google-verify.net/workspace/confirm?id=kettlehq\n\nFailure to verify will result in permanent loss of access to your emails, contacts, and calendar.\n\nGoogle Workspace Security Team\nThis is an automated message, do not reply.",
+    "body_html": "<div style=\"font-family:Arial,Helvetica,sans-serif;font-size:14px;color:#222222;line-height:1.5;max-width:600px\"><div style=\"background:#d93025;color:#fff;padding:14px 20px;font-weight:bold\">\u26a0 ACTION REQUIRED: Storage limit exceeded</div><div style=\"padding:16px 20px\"><p>Your Workspace account for kettlehq.com will be <strong>suspended in 24 hours</strong> unless verified.</p><p><a href=\"http://accounts-google-verify.net/workspace/confirm?id=kettlehq\" style=\"background:#d93025;color:#fff;padding:10px 18px;text-decoration:none;border-radius:3px;display:inline-block\">Verify Account Now</a></p></div></div>",
+    "date": "2026-07-14T23:47:00-05:00",
+    "internal_date_ms": 1784090820000,
+    "folder": "SPAM",
+    "category": null,
+    "is_unread": false,
+    "is_starred": false,
+    "is_important": false,
+    "user_labels": [],
+    "attachments": [],
+    "calendar_event": null,
+    "extra_headers": {
+      "Authentication-Results": "spf=fail smtp.mailfrom=accounts-google-verify.net; dkim=none"
+    },
+    "size_estimate": 2096,
+    "meta": {
+      "email_class": "phishing",
+      "tricky_tags": [],
+      "is_actionable_for_user": false,
+      "action_owner": null,
+      "action_summary": null,
+      "due_date": null,
+      "commitment_made_by_user": null,
+      "commitment_is_conditional": false,
+      "commitment_condition": null,
+      "superseded_by_message_id": null,
+      "notes": "Crude phishing attempt impersonating Google Workspace security \u2014 urgency, lookalike domain, mismatched sender."
+    }
+  },
+  {
+    "id": "a30f18c2e4b60047",
+    "thread_id": "a30f18c2e4b60047",
+    "profile_id": "founder",
+    "history_id": "736375",
+    "message_id_header": "<a30f18c2e4b60047@coinbase-anniversary-bonus.net>",
+    "in_reply_to": null,
+    "references": [],
+    "thread_position": 1,
+    "thread_length": 1,
+    "from": {
+      "name": "Coinbase Rewards Center",
+      "email": "rewards@coinbase-anniversary-bonus.net"
+    },
+    "to": [
+      {
+        "name": "Maya Rodriguez",
+        "email": "maya@kettlehq.com"
+      }
+    ],
+    "cc": [],
+    "bcc": [],
+    "delivered_to": "maya@kettlehq.com",
+    "subject": "Maya, you've been selected to receive 2.4 BTC",
+    "snippet": "CONGRATULATIONS Maya Rodriguez! Your email address was randomly selected in the Coinbase 14th Anniversary Global Rewards Draw. You have been awarded 2.4 BTC (approximately $164,000",
+    "body_text": "CONGRATULATIONS Maya Rodriguez!\n\nYour email address was randomly selected in the Coinbase 14th Anniversary Global Rewards Draw. You have been awarded 2.4 BTC (approximately $164,000 USD at current rates)!\n\nTo claim your reward, you must verify your wallet by sending a small network fee of 0.005 BTC to the address below within 48 hours, after which your full reward will be released:\n\nWallet: bc1q_claim_verify_9f8x2m\n\nThis offer expires in 48 hours. Act now to claim your prize!\n\nCoinbase Rewards Center\n(This is not affiliated with Coinbase Inc. official promotions.)",
+    "body_html": "<div style=\"font-family:Arial,Helvetica,sans-serif;font-size:14px;color:#222222;line-height:1.5;max-width:600px\"><div style=\"background:#f7931a;color:#ffffff;padding:16px 20px;font-size:18px;font-weight:bold;border-radius:4px 4px 0 0\">\ud83c\udf89 You've won 2.4 BTC!</div><div style=\"padding:16px 20px\"><p>Approximately <strong>$164,000 USD</strong>. Send a 0.005 BTC verification fee within 48 hours to release your full reward.</p></div></div>",
+    "date": "2026-07-16T02:15:00-04:00",
+    "internal_date_ms": 1784182500000,
+    "folder": "SPAM",
+    "category": null,
+    "is_unread": false,
+    "is_starred": false,
+    "is_important": false,
+    "user_labels": [],
+    "attachments": [],
+    "calendar_event": null,
+    "extra_headers": {},
+    "size_estimate": 1900,
+    "meta": {
+      "email_class": "spam",
+      "tricky_tags": [],
+      "is_actionable_for_user": false,
+      "action_owner": null,
+      "action_summary": null,
+      "due_date": null,
+      "commitment_made_by_user": null,
+      "commitment_is_conditional": false,
+      "commitment_condition": null,
+      "superseded_by_message_id": null,
+      "notes": "Classic advance-fee lottery/crypto scam."
+    }
+  },
+  {
+    "id": "a30f18c2e4b60048",
+    "thread_id": "a30f18c2e4b60048",
+    "profile_id": "founder",
+    "history_id": "727851",
+    "message_id_header": "<a30f18c2e4b60048@jobconnectglobal.biz>",
+    "in_reply_to": null,
+    "references": [],
+    "thread_position": 1,
+    "thread_length": 1,
+    "from": {
+      "name": "Global Talent Connect",
+      "email": "info@jobconnectglobal.biz"
+    },
+    "to": [
+      {
+        "name": "Maya Rodriguez",
+        "email": "maya@kettlehq.com"
+      }
+    ],
+    "cc": [],
+    "bcc": [],
+    "delivered_to": "maya@kettlehq.com",
+    "subject": "Dear Hiring Manager, We Have Candidates For You!!!",
+    "snippet": "Dear Sir/Madam, We have 1000+ resumes ready for any position. Reply YES for full database access. Limited time offer!!!",
+    "body_text": "Dear Sir/Madam, We have 1000+ resumes ready for any position. Reply YES for full database access. Limited time offer!!!",
+    "body_html": null,
+    "date": "2026-07-10T03:11:00-05:00",
+    "internal_date_ms": 1783671060000,
+    "folder": "SPAM",
+    "category": null,
+    "is_unread": false,
+    "is_starred": false,
+    "is_important": false,
+    "user_labels": [],
+    "attachments": [],
+    "calendar_event": null,
+    "extra_headers": {},
+    "size_estimate": 960,
+    "meta": {
+      "email_class": "spam",
+      "tricky_tags": [],
+      "is_actionable_for_user": false,
+      "action_owner": null,
+      "action_summary": null,
+      "due_date": null,
+      "commitment_made_by_user": null,
+      "commitment_is_conditional": false,
+      "commitment_condition": null,
+      "superseded_by_message_id": null,
+      "notes": null
+    }
+  },
+  {
+    "id": "a30f18c2e4b60049",
+    "thread_id": "a30f18c2e4b60049",
+    "profile_id": "founder",
+    "history_id": "741553",
+    "message_id_header": "<a30f18c2e4b60049@rankboost-seo.net>",
+    "in_reply_to": null,
+    "references": [],
+    "thread_position": 1,
+    "thread_length": 1,
+    "from": {
+      "name": "RankBoost SEO",
+      "email": "sales@rankboost-seo.net"
+    },
+    "to": [
+      {
+        "name": "Maya Rodriguez",
+        "email": "maya@kettlehq.com"
+      }
+    ],
+    "cc": [],
+    "bcc": [],
+    "delivered_to": "maya@kettlehq.com",
+    "subject": "kettlehq.com is losing $10,000/month in search traffic",
+    "snippet": "Hello, We ran an automated audit of kettlehq.com and found 47 critical SEO errors costing you an estimated $10,000/month in lost organic traffic. Your competitors are outranking yo",
+    "body_text": "Hello,\n\nWe ran an automated audit of kettlehq.com and found 47 critical SEO errors costing you an estimated $10,000/month in lost organic traffic. Your competitors are outranking you for 12 high-value keywords.\n\nWe can fix this in 30 days guaranteed, or your money back. Reply for a free full report.\n\nBest,\nRankBoost SEO Sales Team",
+    "body_html": "<div style=\"font-family:Arial,Helvetica,sans-serif;font-size:14px;color:#222222;line-height:1.5;max-width:600px\"><div style=\"padding:16px 20px\"><p><strong>47 critical SEO errors</strong> found on kettlehq.com, costing an estimated $10,000/month.</p></div></div>",
+    "date": "2026-07-19T15:33:00-05:00",
+    "internal_date_ms": 1784493180000,
+    "folder": "SPAM",
+    "category": null,
+    "is_unread": false,
+    "is_starred": false,
+    "is_important": false,
+    "user_labels": [],
+    "attachments": [],
+    "calendar_event": null,
+    "extra_headers": {
+      "Precedence": "bulk"
+    },
+    "size_estimate": 1472,
+    "meta": {
+      "email_class": "spam",
+      "tricky_tags": [],
+      "is_actionable_for_user": false,
+      "action_owner": null,
+      "action_summary": null,
+      "due_date": null,
+      "commitment_made_by_user": null,
+      "commitment_is_conditional": false,
+      "commitment_condition": null,
+      "superseded_by_message_id": null,
+      "notes": null
+    }
+  },
+  {
+    "id": "a30f18c2e4b60050",
+    "thread_id": "a30f18c2e4b60050",
+    "profile_id": "founder",
+    "history_id": "725582",
+    "message_id_header": "<a30f18c2e4b60050@vitalboost-rx.com>",
+    "in_reply_to": null,
+    "references": [],
+    "thread_position": 1,
+    "thread_length": 1,
+    "from": {
+      "name": "Vital Boost Rx",
+      "email": "offers@vitalboost-rx.com"
+    },
+    "to": [
+      {
+        "name": "Maya Rodriguez",
+        "email": "maya@kettlehq.com"
+      }
+    ],
+    "cc": [],
+    "bcc": [],
+    "delivered_to": "maya@kettlehq.com",
+    "subject": "Maya, still tired by 3pm? Try this.",
+    "snippet": "Founders don't have time to crash mid-afternoon. VitalBoost gives you 8 hours of clean focus, no jitters. First order 40% off today only.",
+    "body_text": "Founders don't have time to crash mid-afternoon. VitalBoost gives you 8 hours of clean focus, no jitters. First order 40% off today only.",
+    "body_html": null,
+    "date": "2026-07-08T14:22:00-04:00",
+    "internal_date_ms": 1783534920000,
+    "folder": "SPAM",
+    "category": null,
+    "is_unread": false,
+    "is_starred": false,
+    "is_important": false,
+    "user_labels": [],
+    "attachments": [],
+    "calendar_event": null,
+    "extra_headers": {},
+    "size_estimate": 952,
+    "meta": {
+      "email_class": "spam",
+      "tricky_tags": [],
+      "is_actionable_for_user": false,
+      "action_owner": null,
+      "action_summary": null,
+      "due_date": null,
+      "commitment_made_by_user": null,
+      "commitment_is_conditional": false,
+      "commitment_condition": null,
+      "superseded_by_message_id": null,
+      "notes": null
+    }
+  }
+]

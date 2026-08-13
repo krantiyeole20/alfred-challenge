@@ -1,0 +1,82 @@
+{
+  "profile_id": "marketing",
+  "question": "q1_needs_attention",
+  "items_reviewed": 17,
+  "verdict": "issues",
+  "findings": [
+    {
+      "type": "missed_item",
+      "severity": "high",
+      "item_id": null,
+      "message_ids": ["b30f18c2e4b60024", "b50f18c2e4b60020"],
+      "problem": "The DTC Growth Summit speaking confirmation — a real, agreed-to commitment with a hard Aug 25 deliverable list and a Sept 1 program lock — appears nowhere in the answer set, neither as an item nor as a distractor, despite being the exact archetype QUESTIONS.md Q1 inclusion criterion 4 names (a genuine deadline wearing promotional styling; the message sits in CATEGORY_PROMOTIONS among conference spam).",
+      "evidence": "b30f18c2e4b60024: \"Thrilled to confirm your session at this year's DTC Growth Summit — following up on our call last week where you agreed to speak on the retention panel.\" and \"What we need from you by August 25:\" and \"we lock the printed program on September 1 and can't make changes after that without an asterisk next to your name\". Its own corpus annotation reads \"Real, agreed-to speaking commitment arriving in an inbox otherwise full of conference spam — easy to file away as noise if skimmed.\" Sharpening the hazard: on Jun 25 Jordan wrote to the same event family (b50f18c2e4b60020) \"I have to pass on the panel this year — Oct 14 lands right in the middle of our BFCM prep\", yet the Jul 30 confirmation books her for Oct 14 at 2:15pm.",
+      "recommended_action": "add new item with these fields — tier must_include or acceptable; claim: 'DTC Growth Summit has Jordan confirmed for the Oct 14 retention panel and needs bio, headshot, session title, three discussion questions and A/V requirements by Aug 25; the printed program locks Sept 1, and Jordan's Jun 25 note to the organizers passed on this same Oct 14 panel, so the booking needs correcting or the materials sending'; anchor_message_id b30f18c2e4b60024; message_ids [b30f18c2e4b60024, b50f18c2e4b60020]; evidence_quote 'What we need from you by August 25:'; due_date 2026-08-25; due_basis explicit; consequence medium; counterparty priya@dtcgrowthsummit.com"
+    },
+    {
+      "type": "missed_item",
+      "severity": "high",
+      "item_id": null,
+      "message_ids": ["b60f18c2e4b60046"],
+      "problem": "Sofia Marchetti's Aug 5 'Q4 Planning Priorities' — a sole-recipient, manager-level directive that puts a Q4 department OKR draft on Jordan by Aug 21, plus a requested retention-vs-acquisition recommendation and a replatform contingency plan — is absent from items and from must_not_include, even though the set already treats the identically-dated Aug 21 budget template as must_include.",
+      "evidence": "b60f18c2e4b60046: \"Let's grab 45 minutes this week to talk through it before you finalize the OKR doc. I'd like to review a draft before it goes to the broader team, ideally by August 21st so we have runway to socialize it before the offsite.\" Same message: \"I'd like a proposal from you on whether we invest further here in Q4 or hold steady\" and \"Want a contingency plan in case it slips again\".",
+      "recommended_action": "add new item with these fields — tier must_include; claim: 'Sofia wants a draft of the Q4 marketing OKR doc, built on her five stated priorities, in her hands by Aug 21, plus Jordan's read on retention-vs-acquisition investment and a replatform-slip contingency plan; no reply or draft exists'; anchor_message_id b60f18c2e4b60046; evidence_quote \"I'd like to review a draft before it goes to the broader team, ideally by August 21st so we have runway to socialize it before the offsite.\"; due_date 2026-08-21; due_basis explicit; days_open 7; consequence high; counterparty sofia.marchetti@habitatgoods.com"
+    },
+    {
+      "type": "missed_item",
+      "severity": "medium",
+      "item_id": null,
+      "message_ids": ["b10f18c2e4b60035"],
+      "problem": "The Aug 14 half-day school pickup is an unmovable, irreversible personal commitment two days out that the answer set never surfaces — and it collides with the same Friday that carries the Aug 14 board-deck attribution deadline (item 03) and Wes's month-end close.",
+      "evidence": "b10f18c2e4b60035: \"A reminder that this Friday, August 14, is a half day for a staff training. Pickup will be at 12:30pm instead of the usual 3:00pm. Aftercare is not available that day. Please make arrangements accordingly.\"",
+      "recommended_action": "add new item with these fields — tier acceptable or borderline; claim: 'Friday Aug 14 is a half day at Little Sprouts with no aftercare — pickup moves to 12:30pm and needs arranging, on the same day the board-deck attribution number is due'; anchor_message_id b10f18c2e4b60035; evidence_quote 'Pickup will be at 12:30pm instead of the usual 3:00pm. Aftercare is not available that day.'; due_date 2026-08-14; due_basis explicit; consequence medium"
+    },
+    {
+      "type": "missed_item",
+      "severity": "low",
+      "item_id": null,
+      "message_ids": ["b60f18c2e4b60047"],
+      "problem": "Cam Okafor's Q4 editorial strategy carries a hard Aug 22 content-lock constraint and a headcount flag that need Jordan's decision; the Friday sync it was written for (Aug 7) has already passed with no reply anywhere in the mailbox, so the decision is now unowned inside the Q1 horizon.",
+      "evidence": "b60f18c2e4b60047: \"TIMELINE RISK: The themed-month structure only works if September content is locked by August 22nd at the latest — anything later and we lose the back-to-school traffic window entirely, since that search demand falls off a cliff after Labor Day.\"",
+      "recommended_action": "add new item with these fields — tier borderline; claim: 'Cam needs a go/no-go on the themed-month Q4 editorial structure plus a read on his contractor/headcount flag; September content has to lock by Aug 22 or the back-to-school window is lost, and the Aug 7 sync it was written for passed without a reply'; anchor_message_id b60f18c2e4b60047; due_date 2026-08-22; due_basis explicit; consequence medium"
+    },
+    {
+      "type": "false_positive",
+      "severity": "medium",
+      "item_id": "marketing-q1-09",
+      "message_ids": ["b50f18c2e4b60019"],
+      "problem": "This item is a waiting-on-someone-else edge, not a Q1 inclusion case: Jordan has already acted (she sent the counter on Aug 5), her own next step is explicitly gated on Tessa replying, and it satisfies none of Q1's four inclusion criteria — no open obligation of Jordan's, no counterparty blocked on her, no hazard, no closing decision window.",
+      "evidence": "b50f18c2e4b60019 (Jordan, SENT): \"Let me know which direction works on your end and I'll take it to Wes.\" The corpus annotation on that same message states the owner action as \"Confirm final SOW numbers with Wes once Tessa responds to the counter-offer\" — i.e. conditional on the other side moving first.",
+      "recommended_action": "retier to borderline (removing it from `ranked`), or, if kept in `ranked`, set due_date to 2026-08-14 rather than null so the time pressure is stated rather than asserted in prose"
+    },
+    {
+      "type": "misranked",
+      "severity": "medium",
+      "item_id": "marketing-q1-11",
+      "message_ids": ["b40f18c2e4b60040", "b40f18c2e4b60034"],
+      "problem": "The credential-compromise alert is ranked last (11), below three items with no due date at all and below deadlines nine and thirteen days out, even though Q1's ranking principle puts irreversibility first — an attacker in possession of the current password on the account that owns Klaviyo, Meta and Google Ads is the most irreversible loss in the set.",
+      "evidence": "b40f18c2e4b60040: \"Someone just used your password to try to sign in to your Google Account jordan.feld@habitatgoods.com. Google blocked them, but you should check what happened.\" — dated Aug 11, i.e. three days after b40f18c2e4b60034 (\"Your password was changed on Aug 8, 2026, 4:48 PM CDT\"), so the password in the attacker's hands is the current one.",
+      "recommended_action": "reorder above marketing-q1-07 (roughly rank 5-7); at minimum it must sit above marketing-q1-08, -09 and -10, which have no due date or an Aug 25 date"
+    },
+    {
+      "type": "bad_quote",
+      "severity": "low",
+      "item_id": "marketing-q1-08",
+      "message_ids": ["b10f18c2e4b60006", "b10f18c2e4b60007", "b10f18c2e4b60008"],
+      "problem": "The claim's second half — 'Alan Chetty still needs to review it before it goes to her' — is not attested by any of the item's three cited message_ids (b10f18c2e4b60044/45/46), which never mention Alan; the supporting exchange lives in an entirely different thread that the item does not cite.",
+      "evidence": "b10f18c2e4b60008 (Jordan to Alan Chetty, SENT Jul 17): \"This is great, thank you. Will send you the draft contract early next week.\" — the only corpus basis for the Alan clause, and it is Jordan owing Alan the draft, not Alan owing a review of a drafted contract.",
+      "recommended_action": "add b10f18c2e4b60006, b10f18c2e4b60007 and b10f18c2e4b60008 to message_ids, or restate the clause as 'Jordan still owes Alan the draft contract she promised on Jul 17 before it can go to Amara'"
+    }
+  ],
+  "checked_and_sound": [
+    "marketing-q1-01",
+    "marketing-q1-02",
+    "marketing-q1-03",
+    "marketing-q1-04",
+    "marketing-q1-05",
+    "marketing-q1-06",
+    "marketing-q1-07",
+    "marketing-q1-10"
+  ],
+  "notes": "All eleven evidence_quote strings were machine-verified as exact substrings of the cited message body_text or attachment extracted_text (item 04's quote correctly comes from the spreadsheet's extracted_text). Closure was checked item by item against the whole mailbox: the press-release edits (01) have no closing message anywhere; Nina's methodology paragraph (03) never arrives — 'appendix' appears in exactly one message, her Jul 31 promise; the Cam $2,800 approval (07) is confirmed open because Jordan's Aug 1 reply (b60f18c2e4b60043) answers only the banner compliment; Amara's Aug 11 acceptance (08) is the last word in that thread. All six must_not_include entries survive scrutiny and none belongs in items — Nina genuinely claimed the vendor audit (b60f18c2e4b60015: 'I'll take this'), Ben's approval genuinely closed the same afternoon (b10f18c2e4b60048: 'Approved, go ahead and send.'), and the TikTok Reply-To really is growth-leads@tt-adpartners.net against a tiktokforbusiness.com From. Correct exclusions worth crediting: the two other bounces (b40f18c2e4b60042 hgrant@, b40f18c2e4b60043 priyanka.rao@) are annotated as harmless mistypes that were resent correctly, unlike the Tessa bounce; the Meta creative flag (b10f18c2e4b60041) closed Aug 10; the DocuSign SOW closed Jul 23; the Aug 12 PO overage was approved the same morning; the domain and SSL notices belong to Denise per their own annotations. Three further candidates I looked at and did not raise as findings, but a human should weigh: (a) the replatform go-live moved Aug 3 to Aug 17 (b60f18c2e4b60007, 'replatform launch is moving to August 17th') with QA week Aug 10-14 running right now — Jordan engaged it on Aug 10 asking Denise for Marco, so it is arguably handled, but it is the single largest dated event inside the horizon and appears nowhere; (b) the July Klaviyo invoice auto-charged on Aug 12 with Jordan's Aug 6 query about a $400 SMS discrepancy still unanswered; (c) item 03's message_ids omit b20f18c2e4b60033, Nina's methodology explanation, which is genuine supporting evidence for the item. Item 05's placement in Q1 rather than Q5 is defensible exactly as curator_notes argues — the $14,400 figure exists only inside the message announcing $17,940, so there is no prior belief to diff. Item 06's hazard framing is clean, with no payable language anywhere in the claim or prose_answer. The prose_answer is accurate on every figure I checked and would need updating for the OKR draft and the speaking-slot materials if those items are added."
+}

@@ -1,0 +1,637 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Email Indexing for alfred_ — Data Model &amp; Flows</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Figtree:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/site.css">
+</head>
+<body>
+<div class="shell">
+
+  <aside class="side">
+    <div class="brand">
+      <div class="brand-mark">a_</div>
+      <div class="brand-name">alfred_ <span>/ design doc</span></div>
+    </div>
+    <p class="side-label">Contents</p>
+    <nav class="toc" id="toc">
+      <a href="#approach"><span class="tnum">01</span>Approach</a>
+      <a href="#principles"><span class="tnum">02</span>Design principles</a>
+      <a href="#schema"><span class="tnum">03</span>Schema</a>
+      <a href="#schema-layers" class="sub">3.1 Layers &amp; write discipline</a>
+      <a href="#sec-identity" class="sub">3.2 Identity &amp; sync</a>
+      <a href="#sec-counterparties" class="sub">3.3 Counterparties</a>
+      <a href="#sec-messages" class="sub">3.4 Messages &amp; threads</a>
+      <a href="#sec-signals" class="sub">3.5 Signals</a>
+      <a href="#sec-evidence" class="sub">3.6 Evidence</a>
+      <a href="#sec-projection" class="sub">3.7 Projection</a>
+      <a href="#sec-attention" class="sub">3.8 Attention</a>
+      <a href="#sec-surface" class="sub">3.9 Surface</a>
+      <a href="#sec-pipeline" class="sub">3.10 Pipeline control</a>
+      <a href="#sec-evaluation" class="sub">3.11 Evaluation</a>
+      <a href="#dataflows"><span class="tnum">04</span>Dataflows</a>
+      <a href="#flow-e2e" class="sub">4.1 One email, end to end</a>
+      <a href="#flow-context" class="sub">4.2 What the extractor sees</a>
+      <a href="#flow-ordering" class="sub">4.3 Changing information</a>
+      <a href="#flow-backfill" class="sub">4.4 Backfill vs steady state</a>
+      <a href="#flow-example" class="sub">4.5 Worked example</a>
+      <a href="#jobs"><span class="tnum">05</span>Jobs</a>
+      <a href="#questions"><span class="tnum">06</span>The six questions</a>
+      <a href="#failures"><span class="tnum">07</span>Failure modes</a>
+      <a href="#evaluation"><span class="tnum">08</span>Evaluation</a>
+      <a href="#scale"><span class="tnum">09</span>Scale &amp; cost</a>
+      <a href="#deferred"><span class="tnum">10</span>Deferred work</a>
+    </nav>
+    <div class="side-foot">rev 0.4 · 2026-08-13<br>data-platform</div>
+  </aside>
+
+  <main>
+    <header>
+      <span class="doc-kicker">design document · rev 0.4</span>
+      <h1>Email Indexing for alfred_</h1>
+      <p class="doc-sub">A design for understanding the work inside an inbox.</p>
+      <div class="doc-meta"><span>PostgreSQL · 35 tables</span><span>1 LLM call on the write path</span><span>read path: pure SQL with citations</span><span>status: draft</span></div>
+    </header>
+
+    <!-- ================================================== 01 APPROACH -->
+    <section id="approach">
+      <h2><span class="snum">01</span>Approach</h2>
+      <h3>The question behind the questions</h3>
+      <p class="section-lede">The six questions alfred_ must answer look like search problems. They are not.</p>
+      <div class="table-scroll"><table class="doc-table">
+        <thead><tr><th>Question</th><th>What it actually requires</th></tr></thead>
+        <tbody>
+          <tr><td>What is waiting on me?</td><td>A state that has <b>persisted</b></td></tr>
+          <tr><td>What am I waiting on?</td><td>The same state, ownership inverted</td></tr>
+          <tr><td>What changed?</td><td>A <b>comparison between two points in time</b></td></tr>
+          <tr><td>What am I forgetting?</td><td>The <b>absence</b> of an expected event</td></tr>
+          <tr><td>What needs attention?</td><td>A <b>ranking</b> over open state</td></tr>
+          <tr><td>What's slipping?</td><td>Open state plus <b>unusual silence</b></td></tr>
+        </tbody>
+      </table></div>
+      <div class="stance"><span class="stance-tag">design stance</span>
+        <p>Every one of these is <b>temporal</b> or relational. None is semantic. The standard chunk-embed-retrieve pipeline is <b>stateless on every query</b> — it has no memory of what it concluded yesterday, so it has nothing to compare against. Embedding similarity has no concept of <i>before</i>, <i>still</i>, or <i>no longer</i>. Asked "what changed," such a system retrieves text that mentions change and confidently invents a change that never happened. So this design does not build a search engine over email. It builds a <b>ledger of claims over time</b>, and the six questions become ordinary indexed queries.</p>
+      </div>
+
+      <h3>The architectural commitment</h3>
+      <div class="commitment">
+        <p>The LLM proposes. A deterministic layer disposes.</p>
+        <small>The model looks at one email and emits structured claims with supporting quotes. It does not decide current state, does not update records, does not delete anything. A plain, testable, non-AI reducer folds those claims into answers.</small>
+      </div>
+      <p>Consequences of this split: every stage after extraction is deterministic and unit-testable · "what changed" is a range scan, not a generation task · every answer carries a citation by construction, not by prompting · extraction can be re-run with a better prompt without corrupting history.</p>
+
+      <h3>What this borrows, and what it can't</h3>
+      <p>A useful reference point is Sybill, which does structured extraction from sales email into CRM fields. Their design works because <b>everything anchors to a CRM object</b> — an email attaches to a Deal, which belongs to an Account, which has known Contacts. That single fact hands them an ontology, entity resolution, and a retrieval scope. alfred_ has none of that. There is no Deal record, no externally-defined schema for "things I owe people," and no contact database resolving which humans and threads belong to the same matter. <b>The anchor has to be manufactured.</b> That is the central design problem here, and Section 03 is the answer to it.</p>
+    </section>
+
+    <!-- ================================================ 02 PRINCIPLES -->
+    <section id="principles">
+      <h2><span class="snum">02</span>Design principles</h2>
+      <div class="principles">
+        <div class="principle"><span class="pnum">P1</span><h4>Raw observation is permanent; interpretation is revisable.</h4><p>We keep the original address even after resolving it to a person, the surface form of a date even after normalising it, and the rejected extraction even after rejecting it. Anything derived can be recomputed. Anything observed cannot.</p></div>
+        <div class="principle"><span class="pnum">P2</span><h4>Append-only where history is the product.</h4><p>Monday says the deadline is Aug 15. Wednesday says Aug 20. If we stored one row and updated it, "what changed" would be unanswerable. We store both claims and compute the current value on top. Append-only storage is not hygiene here; it is the feature.</p></div>
+        <div class="principle"><span class="pnum">P3</span><h4>One source of truth per fact.</h4><p>Ownership is stored. "Waiting on me" is derived from it. Storing both means two writers for one fact, and they will eventually disagree — after which no query knows which to trust.</p></div>
+        <div class="principle"><span class="pnum">P4</span><h4>Complexity belongs on the write path.</h4><p>The quality gate runs once per email at ingest, not on every read. This is what lets the reducer stay a simple, correct one-liner.</p></div>
+        <div class="principle"><span class="pnum">P5</span><h4>Silent failure is the enemy.</h4><p>In this system a crash is not the dangerous failure. A missing obligation is. The user sees a shorter list and has no way to know something is absent. Every stage therefore records what it did, what it rejected, and why.</p></div>
+        <div class="principle hl"><span class="pnum">P6</span><h4>Role changes ranking, never schema.</h4><p>A founder tracks funding; a VP Finance tracks vendor spend; a Head of HR tracks offers. Underneath, all three are: <b>someone owes someone something by some date.</b> Topic differs, structure does not. If role drove schema, every new customer segment would be a migration, and a founder who is also the finance lead would break the model.</p></div>
+      </div>
+    </section>
+
+    <!-- ==================================================== 03 SCHEMA -->
+    <section id="schema">
+      <h2><span class="snum">03</span>Schema</h2>
+      <p class="section-lede">Presented one section at a time, in the order data flows through them. Click any table to open it in full — columns, neighbors, write mode, and rationale. Dashed chips are tables that live in another section; clicking one jumps there.</p>
+
+      <div id="schema-layers">
+        <h3 class="subhead"><span class="snum">3.1</span>Layers, the spine, and write discipline</h3>
+        <div id="layers"></div>
+        <div class="spine"><b>user</b><span class="arr">→</span><b>account</b><span class="arr">→</span><b>email</b><span class="arr">→</span><b>thread</b><span class="arr">→</span><b>evidence</b><span class="arr">→</span><b>work_item</b><span class="arr">→</span><b>change</b><span class="arr">→</span><b>attention</b></div>
+        <p><b>Nothing above L0 is a source of truth.</b> Every layer can be dropped and rebuilt from the one below. If a hand-written UPDATE ever touches L4, the design has broken.</p>
+        <h3>Invariants</h3>
+        <div id="invariants"></div>
+        <h3>Write discipline</h3>
+        <p>Every table has exactly <b>one owning job</b>. Two writers on one table eventually disagree, and then no query knows which to trust. Every table in the diagrams below carries its write-mode badge:</p>
+        <div class="mode-legend" id="mode-legend"></div>
+        <div class="stat-strip">
+          <div class="stat"><div class="n">35</div><div class="l">tables (34 + work_item_threads, v0.4)</div></div>
+          <div class="stat"><div class="n">13</div><div class="l">append-only — why "what changed" is a query, not a guess</div></div>
+          <div class="stat"><div class="n">1</div><div class="l">LLM call on the write path (extraction)</div></div>
+          <div class="stat"><div class="n">0</div><div class="l">vector stores, query routers, text-to-SQL</div></div>
+        </div>
+      </div>
+
+      <!-- schema sections are mounted here in document order -->
+      <div id="schema-sections"></div>
+    </section>
+
+    <!-- ================================================= 04 DATAFLOWS -->
+    <section id="dataflows">
+      <h2><span class="snum">04</span>Dataflows</h2>
+
+      <div id="flow-e2e">
+        <h3 class="subhead"><span class="snum">4.1</span>One email, end to end</h3>
+        <div id="flow-mount-e2e"></div>
+        <div class="stance"><span class="stance-tag">design stance · automation is not discarded</span>
+          <p>Automated, organizational, and non-human messages are <b>never thrown away</b>. They take the index-only lane: raw storage and deterministic signals over full history, no model calls. That lane is what makes "how much of my inbox is automated," volume trends, and every behavioral aggregate answerable — while keeping extraction cost proportional to genuinely human mail (~⅓ of volume).</p>
+        </div>
+      </div>
+
+      <div id="flow-context">
+        <h3 class="subhead"><span class="snum">4.2</span>What the extractor sees</h3>
+        <p class="sub-lede">The extractor receives the novel content of the current message <b>plus the novel content of the previous 3–5 messages in the thread</b>, token-capped, with the thread root always included.</p>
+        <p><i>Why prior messages:</i> "Sounds good, I'll do it tomorrow" is meaningless alone. Do what?</p>
+        <div class="stance"><span class="stance-tag">design stance · extraction stays blind on purpose</span>
+          <p><i>Why NOT the current work-item state:</i> this is a deliberate refusal. If the model sees what we already believe, it anchors on it and confirms it. Claims stop being independent evidence and become a chain of self-agreement — which is exactly what destroys change detection. The model reads "deadline: Friday," sees ambiguous new text, and re-emits Friday. Supersession is detected downstream, where it is deterministic.</p>
+        </div>
+        <p><i>Why not semantically similar emails from elsewhere:</i> pulling a similar message from an unrelated deal invites the model to extract a deadline that is not in the source document. It also breaks the quote check, since the quote will not be found in this body.</p>
+      </div>
+
+      <div id="flow-ordering">
+        <h3 class="subhead"><span class="snum">4.3</span>Changing information &amp; the ordering rule</h3>
+        <div class="transcript">
+          <div class="tr-mail"><span class="tr-date">Monday</span><span class="tr-quote">“Launch is June 10”</span></div>
+          <div class="tr-body"><div class="tr-row"><dt>evidence</dt><dd>row A · <code>valid_from = Jun 10</code></dd></div></div>
+          <div class="tr-mail"><span class="tr-date">Wednesday</span><span class="tr-quote">“Launch moved to 17”</span></div>
+          <div class="tr-body">
+            <div class="tr-row"><dt>evidence</dt><dd>row B · <code>valid_from = Jun 17</code></dd></div>
+            <div class="tr-row"><dt>reducer</dt><dd><code>work_items.due_at = Jun 17</code></dd></div>
+            <div class="tr-row"><dt>change</dt><dd><code>{field: due_at, prior: Jun 10, new: Jun 17, evidence: B, email: #456}</code></dd></div>
+          </div>
+        </div>
+        <p>Nothing was overwritten in the ledger. The change is a first-class record with a citation, available instantly to <i>"what changed?"</i></p>
+        <p><b>The ordering rule that prevents silent corruption.</b> Current value is "most recent claim wins" — but <i>most recent by which clock?</i> Operate the fold yourself:</p>
+        <div id="ordering-demo"></div>
+        <p class="sql-caption">the reducer's view — current value per (thread, attribute)</p>
+        <pre class="sql">CREATE VIEW v_current_thread_facts AS
+SELECT DISTINCT ON (e.user_id, e.thread_id, e.attribute)
+       e.user_id, e.thread_id, e.attribute, e.value, e.confidence,
+       e.id AS source_evidence_id, e.extractor_version
+FROM evidence e
+JOIN emails m ON m.id = e.source_email_id
+WHERE e.invalidated_at IS NULL
+ORDER BY e.user_id, e.thread_id, e.attribute,
+         m.provider_ts DESC, e.observed_at DESC;   -- provider_ts first. Always.</pre>
+      </div>
+
+      <div id="flow-backfill">
+        <h3 class="subhead"><span class="snum">4.4</span>Historical context and backfill</h3>
+        <p class="sub-lede">A new user may have five years of email. We do <b>not</b> extract over all of it. Retention and extraction depth are separate knobs:</p>
+        <div class="table-scroll"><table class="doc-table">
+          <thead><tr><th>Depth</th><th>Coverage</th><th>Cost</th><th>Enables</th></tr></thead>
+          <tbody>
+            <tr><td>Raw storage</td><td>All history</td><td>Storage only</td><td>Rebuild anything, later</td></tr>
+            <tr><td>Deterministic signals</td><td>All history</td><td>CPU only</td><td>Historical aggregates</td></tr>
+            <tr><td>LLM extraction</td><td>Recent window</td><td>Model calls</td><td>The six questions</td></tr>
+          </tbody>
+        </table></div>
+        <p>Collapsing these is the common mistake. If we only processed 30 days, a month-over-month question would not be <i>expensive</i> — it would be <b>unanswerable</b>, and the assistant would confabulate a trend from four data points.</p>
+        <div class="table-scroll"><table class="doc-table">
+          <thead><tr><th></th><th>Steady state</th><th>Backfill</th></tr></thead>
+          <tbody>
+            <tr><td>Direction</td><td>Forward in time</td><td><b>Newest-first</b></td></tr>
+            <tr><td>Extraction scope</td><td>All non-automated</td><td>Recent window only</td></tr>
+            <tr><td>Signals scope</td><td>Per email</td><td>Full history</td></tr>
+            <tr><td>Priority</td><td>High</td><td>Rate-limited, never starves live traffic</td></tr>
+            <tr><td>Reducer input order</td><td>Chronological</td><td><b>Out of order</b> — safe, because the fold orders by provider_ts</td></tr>
+          </tbody>
+        </table></div>
+        <p>Backfill checkpoints its cursor. Five years of mail will fail partway through something; resuming versus restarting is the difference between a hiccup and a disaster.</p>
+      </div>
+
+      <div id="flow-example">
+        <h3 class="subhead"><span class="snum">4.5</span>Worked example</h3>
+        <div class="transcript">
+          <div class="tr-mail"><span class="tr-date">Aug 04</span><span class="tr-who">Sarah → user</span><span class="tr-quote">“Can you send me the Q3 forecast by Friday?”</span></div>
+          <div class="tr-body">
+            <div class="tr-row"><dt>signals</dt><dd><code>is_automated = false</code> · <code>user_in_to = true</code></dd></div>
+            <div class="tr-row"><dt>evidence</dt><dd>speech_act <b>request</b> · attribute <b>deliverable</b> = “Q3 forecast” · owner: user (via user_identities) · quote verified · <code>valid_from = Aug 08</code> · confidence 0.94</dd></div>
+            <div class="tr-row"><dt>match</dt><dd>no candidate → <b>created_new</b></dd></div>
+            <div class="tr-row"><dt>work_item</dt><dd>OPEN · owner_is_self · due Aug 08</dd></div>
+            <div class="tr-row"><dt>attention</dt><dd>reason = <b>due_soon</b></dd></div>
+          </div>
+          <div class="tr-mail"><span class="tr-date">Aug 07</span><span class="tr-who">Sarah → user</span><span class="tr-quote">“Any update on that forecast?”</span></div>
+          <div class="tr-body">
+            <div class="tr-row"><dt>evidence</dt><dd>speech_act request, same deliverable, confidence 0.88</dd></div>
+            <div class="tr-row"><dt>match</dt><dd><b>matched_existing</b> (score 0.91 &gt; threshold 0.75)</dd></div>
+            <div class="tr-row"><dt>attention</dt><dd>reason = <b>repeated_followup</b>, urgency raised</dd></div>
+          </div>
+          <div class="tr-mail"><span class="tr-date">Aug 08</span><span class="tr-who">user → Sarah</span><span class="tr-quote">“Attached — sorry for the delay.”</span></div>
+          <div class="tr-body">
+            <div class="tr-row"><dt>signals</dt><dd><code>user_is_sender = true</code> · <code>has_attachments = true</code></dd></div>
+            <div class="tr-row"><dt>evidence</dt><dd>speech_act commitment fulfilled, confidence 0.82</dd></div>
+            <div class="tr-row"><dt>reducer</dt><dd>below the higher CLOSE threshold (0.90) → status stays OPEN, <span class="tr-flag">flagged likely_resolved</span></dd></div>
+            <div class="tr-row"><dt>change</dt><dd>field: status · prior: OPEN · new: OPEN (likely_resolved)</dd></div>
+          </div>
+        </div>
+        <div class="stance"><span class="stance-tag">design stance · closing is more dangerous than opening</span>
+          <p>A falsely-opened item is visible noise the user can dismiss in one tap. A falsely-closed item vanishes and the user never learns it existed. So completion requires higher confidence than creation, and marginal cases surface as "looks done — confirm?"</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- ====================================================== 05 JOBS -->
+    <section id="jobs">
+      <h2><span class="snum">05</span>Jobs</h2>
+      <p class="section-lede">What runs continuously to keep alfred_'s understanding of an inbox accurate — split by trigger, because the distinction is what makes proactive assistance possible.</p>
+      <div class="table-scroll"><table class="doc-table">
+        <tbody>
+          <tr><td>Event-driven</td><td>"Something happened"</td><td>new email arrived</td></tr>
+          <tr><td>Scheduled</td><td>"Time made it matter"</td><td>deadline near, thread quiet</td></tr>
+          <tr><td>Maintenance</td><td>"The system watching itself"</td><td>sync alive, failures visible</td></tr>
+        </tbody>
+      </table></div>
+      <p>Only the second category can surface things the user never asked about. Nothing arrived — a deadline simply got closer, or a conversation went silent for longer than that thread's normal rhythm. That is only possible because state is <b>materialised on write</b>. A system that computes everything at query time has nothing to scan when no query comes.</p>
+
+      <div id="flow-mount-jobs" style="margin-top:26px"></div>
+
+      <h3>Scheduled — time passed and made something matter</h3>
+      <div class="table-scroll"><table class="doc-table">
+        <thead><tr><th>Job</th><th>Cadence</th><th>Detects</th></tr></thead>
+        <tbody>
+          <tr><td>Deadline scan</td><td>Hourly</td><td>Due soon, overdue</td></tr>
+          <tr><td>Staleness scan</td><td>Daily</td><td>Open work gone quiet</td></tr>
+          <tr><td>Waiting scan</td><td>Daily</td><td>User blocked, counterparty silent</td></tr>
+          <tr><td>Commitment scan</td><td>Daily</td><td>Promises with no sign of delivery</td></tr>
+          <tr><td>Pending sweeper</td><td>Daily</td><td>Ambiguous claims at TTL</td></tr>
+          <tr><td>Attention rebuild</td><td>Daily</td><td>Converges the candidate set</td></tr>
+          <tr><td>Digest</td><td>Daily, per timezone</td><td>Tomorrow's precomputed answer</td></tr>
+        </tbody>
+      </table></div>
+      <p><b>Staleness is measured against the thread's own rhythm</b>, not a fixed number of days. A thread that normally replies hourly and has been silent two days is stale; one that replies weekly is not. A global threshold would flag half the inbox. <code>threads.median_reply_gap_sec</code> is the baseline.</p>
+
+      <h3>Maintenance — the system watching itself</h3>
+      <div class="table-scroll"><table class="doc-table">
+        <thead><tr><th>Job</th><th>Cadence</th><th>Why</th></tr></thead>
+        <tbody>
+          <tr><td><b>Subscription renewal</b></td><td>6h</td><td>Gmail watch expires ~7d, Graph ~3d</td></tr>
+          <tr><td>Reconciliation poll</td><td>6h</td><td>Push delivery is lossy and unordered</td></tr>
+          <tr><td>Retry / dead-letter</td><td>15 min</td><td>A failed stage is a missing obligation</td></tr>
+          <tr><td>Consistency checks</td><td>Daily</td><td>Orphans, quarantine spikes, stale accounts</td></tr>
+        </tbody>
+      </table></div>
+      <div class="stance warn"><span class="stance-tag">the most important job in the system</span>
+        <p>If subscription renewal dies, sync stops. No error, no exception — every answer just goes quietly stale while the system appears healthy. It runs far more often than strictly necessary precisely because the failure is invisible.</p>
+      </div>
+
+      <h3>Six rules I would defend</h3>
+      <ol class="invariants">
+        <li><b>The cursor advances only after the batch commits.</b> Advance it first and a crash loses that window permanently — provider history cursors expire and the range cannot be re-read.</li>
+        <li><b>Extraction is a queue consumer, not a cron.</b> A backfill burst of 400 emails must not become 400 simultaneous model calls. Concurrency is capped independently of inbound volume, so a burst degrades latency rather than breaking rate limits.</li>
+        <li><b>The reducer folds by emails.provider_ts, not evidence.observed_at.</b> Backfill runs newest-first, so an old email processed today has the newest observed_at. The hazard exists only during backfill, which is exactly why it survives testing and breaks in production.</li>
+        <li><b>The change row is written before the projection, in one transaction.</b> Reverse them and a crash between the two loses the prior value permanently — "what changed" gets a hole nobody can see.</li>
+        <li><b>is_automated is detected from headers, never by a model.</b> It gates whether extraction runs at all, removing roughly two thirds of volume before any model call. It sits on the cost path for every message, so it must be deterministic.</li>
+        <li><b>Closing a work item requires higher confidence than opening one.</b> A falsely-opened item is visible noise; a falsely-closed item vanishes and the user never learns it existed.</li>
+      </ol>
+
+      <h3>The three numbers that matter</h3>
+      <p class="sub-lede">These failures raise no exceptions and degrade the product invisibly.</p>
+      <div class="table-scroll"><table class="doc-table">
+        <thead><tr><th>Signal</th><th>Means</th></tr></thead>
+        <tbody>
+          <tr><td>Subscriptions expiring within 24h</td><td>Sync about to die silently</td></tr>
+          <tr><td>Quarantine rate by reason</td><td>A spike in quote_not_found means the model started fabricating</td></tr>
+          <tr><td>created_new vs matched_existing ratio</td><td>Sudden shift means work items are duplicating or disappearing</td></tr>
+        </tbody>
+      </table></div>
+
+      <h3>Failure and recovery</h3>
+      <p>Every stage is independently re-runnable, because nothing above the raw layer is a source of truth. <b>No recovery path requires re-fetching from the provider</b> — deliberate; history cursors expire.</p>
+      <div class="table-scroll"><table class="doc-table">
+        <thead><tr><th>Failed stage</th><th>Recovery</th></tr></thead>
+        <tbody>
+          <tr><td>Normalize</td><td>Re-run from raw in object storage</td></tr>
+          <tr><td>Signals, clustering</td><td>Re-run from stored headers and text</td></tr>
+          <tr><td>Extraction</td><td>Re-run from body_text_novel</td></tr>
+          <tr><td>Reconcile</td><td>Replay evidence in provider_ts order</td></tr>
+          <tr><td>Attention</td><td>Regenerate from work_items</td></tr>
+        </tbody>
+      </table></div>
+    </section>
+
+    <!-- ================================================= 06 QUESTIONS -->
+    <section id="questions">
+      <h2><span class="snum">06</span>Answering the six questions</h2>
+      <p class="section-lede">All six are SQL. No embeddings, no router, no text-to-SQL generation.</p>
+
+      <p class="sql-caption">what is waiting on me?</p>
+      <pre class="sql">SELECT w.*, p.canonical_name AS requester
+FROM work_items w
+LEFT JOIN people p ON p.id = w.requester_person_id
+WHERE w.user_id = $1
+  AND w.status = 'OPEN'
+  AND w.owner_is_self
+  AND NOT EXISTS (
+      SELECT 1 FROM attention_suppressions s
+      WHERE s.work_item_id = w.id
+        AND (s.suppressed_until IS NULL OR s.suppressed_until > now())
+  )
+ORDER BY w.due_at NULLS LAST, w.last_activity_at;</pre>
+      <p><b>What am I waiting on someone else for?</b> The same query with <code>owner_is_self = FALSE</code>, ranked by wait duration and counterparty importance. <b>One boolean apart</b> — which is exactly why ownership had to be modelled properly rather than inferred from status strings.</p>
+
+      <p class="sql-caption">what changed?</p>
+      <pre class="sql">SELECT c.field, c.prior_value, c.new_value, c.detected_at,
+       w.title, e.evidence_quote, m.subject
+FROM work_item_changes c
+JOIN work_items w ON w.id = c.work_item_id
+JOIN evidence   e ON e.id = c.new_evidence_id
+JOIN emails     m ON m.id = c.triggering_email_id
+WHERE c.user_id = $1 AND c.detected_at >= $2
+ORDER BY c.detected_at DESC;</pre>
+      <p>Old value, new value, when, why, and the citation — all in one indexed scan. <b>The model's only remaining job on that question is phrasing the sentence.</b></p>
+
+      <h3>Attention, forgetting, slipping — one pool, three filters</h3>
+      <div class="table-scroll"><table class="doc-table">
+        <thead><tr><th>Surface</th><th>reason values</th><th>Framing</th></tr></thead>
+        <tbody>
+          <tr><td>Needs attention</td><td><code>due_soon</code>, <code>overdue</code>, <code>unanswered_request</code></td><td>"These need you today"</td></tr>
+          <tr><td>Forgetting</td><td><code>unfulfilled_commitment</code></td><td>"You said you'd…"</td></tr>
+          <tr><td>Slipping</td><td><code>stale</code>, <code>repeated_followup</code></td><td>"This has gone quiet"</td></tr>
+        </tbody>
+      </table></div>
+      <p>Cross-surface suppression ensures one item appears under one framing per digest.</p>
+
+      <div class="stance warn"><span class="stance-tag">the honest limitation on "what am I forgetting"</span>
+        <p>Most commitments are fulfilled somewhere other than email — a call, a Slack message, a shared doc. So <i>"a commitment with no completion evidence in email"</i> also describes the majority of <b>fulfilled</b> commitments. This is a <b>base-rate problem, not a prompt problem</b>. No amount of prompt tuning fixes it; only narrowing the candidate definition does: surface only where someone visibly waited (a follow-up was sent, or the thread shows an unanswered ask), <b>and</b> the promised time has clearly passed.</p>
+      </div>
+
+      <h3>Beyond the six — what the primitives already pay for</h3>
+      <p class="sub-lede">The six questions define the shape of the schema, but the schema is broader than the six because the primitives are general: an obligation with an owner, a direction, a due date, and a citation. Once you have that plus a change log, most inbox questions are a GROUP BY away.</p>
+      <div class="tiers">
+        <div class="tier t-free">
+          <h4>Free today</h4>
+          <p class="tier-sub">Pure SQL over the scoped schema. No new tables.</p>
+          <h5>Ownership &amp; load</h5>
+          <ul><li>What's overdue, and by how long</li><li>Due today / this week / this month</li><li>Who is blocking me most often — and who am I blocking</li><li>What I committed to vs what I was asked for (speech_act split by owner)</li><li>Open work carried, trending over time</li></ul>
+          <h5>Behavioral — from signals over full history</h5>
+          <ul><li>Who I reply to fastest, and slowest</li><li>Who am I ignoring — inbound with no outbound reply</li><li>Needed vs merely informed (To vs Cc per sender)</li><li>Automated vs human share; volume trends</li></ul>
+          <h5>Change history</h5>
+          <ul><li>How often deadlines slip, and whose slip most</li><li>What I missed while away — a window query, not a digest</li><li>Which threads churn the most</li></ul>
+          <h5>Relationship</h5>
+          <ul><li>First contact, cadence, warming or cooling</li></ul>
+          <div class="prov-spot"><b>Provenance — what most assistants structurally cannot do:</b> why do you think I owe this (the actual sentence) · what was this before it changed · how confident, which extractor version · everything concluded from this one email. It falls out of append-only storage for free.</div>
+        </div>
+        <div class="tier t-near">
+          <h4>One small addition away</h4>
+          <p class="tier-sub">No model work. Days, not weeks.</p>
+          <ul>
+            <li><b>Spend and amounts</b> — money_mentions is one JSONB column and one regex pass. Unlocks month-over-month spend, vendor totals, invoice tracking over all history. Cheapest high-value addition on the list.</li>
+            <li><b>Company-level views</b> — "what's open with Acme" needs organizations + organization_domains back. Two tables, domain matching, no model.</li>
+            <li><b>Meeting-adjacent obligations</b> — anything derivable from date_mentions that isn't yet a work item.</li>
+          </ul>
+        </div>
+        <div class="tier t-far">
+          <h4>Needs deferred work</h4>
+          <p class="tier-sub">Structural additions, listed in §10.</p>
+          <ul>
+            <li>Anything semantic — "what did we discuss with Acme about pricing" needs embeddings and a router</li>
+            <li>Topic-level questions — "what are my active workstreams" needs segment topic labels</li>
+            <li>Calendar-linked questions — separate object, different mutation rules</li>
+            <li>Free-form anything — no text-to-SQL in scope</li>
+          </ul>
+        </div>
+      </div>
+      <p>The honest boundary: everything above is <b>structural</b> — who, when, whose, how long, what changed. Nothing here answers a question about content. That's the line semantic search sits on, and it's the right first thing to add after this.</p>
+    </section>
+
+    <!-- ================================================== 07 FAILURES -->
+    <section id="failures">
+      <h2><span class="snum">07</span>Failure modes</h2>
+      <p class="section-lede">Ordered by how hard they are to detect.</p>
+      <div class="table-scroll"><table class="doc-table">
+        <thead><tr><th>Failure</th><th>Symptom</th><th>Mitigation</th></tr></thead>
+        <tbody>
+          <tr><td><b>Fabricated extraction</b></td><td>Confident claim, no supporting text</td><td>Verbatim quote check before insert; quarantine rate monitored</td></tr>
+          <tr><td><b>Backfill clobbers state</b></td><td>Old deadline overwrites current</td><td>Fold orders by provider_ts, not observed_at</td></tr>
+          <tr><td><b>Over-matching</b></td><td>A real task vanishes into an existing one</td><td>Every match decision logged with score and threshold</td></tr>
+          <tr><td><b>Under-matching</b></td><td>List fills with duplicates</td><td>Same log, opposite tail</td></tr>
+          <tr><td><b>Wrong cross-thread merge</b> <i>(v0.4)</i></td><td>Work hides in a conversation the user isn't looking at</td><td>Cross-thread attach threshold &gt; same-thread; thread_overlap logged in match_features</td></tr>
+          <tr><td><b>False completion</b></td><td>Item silently disappears</td><td>Higher confidence threshold to close than to open</td></tr>
+          <tr><td><b>Quarantine black hole</b></td><td>Extractions die unnoticed</td><td>sweeper_runs counters</td></tr>
+          <tr><td><b>Subscription lapse</b></td><td>Sync stops, no error</td><td>Expiry-scanning renewal cron + reconciliation poll</td></tr>
+          <tr><td><b>Attribute rename</b></td><td>Old value can never be superseded</td><td>Vocabulary is append-only; deprecate, never rename</td></tr>
+          <tr><td><b>Presentation bias</b></td><td>Ranker confirms its own choices</td><td>Impressions logged with rank; exploration slots reserved</td></tr>
+          <tr><td><b>Ambiguous ownership</b></td><td>Wrong "you owe this"</td><td>pending_evidence; promote unconfirmed, never with a guessed owner</td></tr>
+          <tr><td><b>Topic drift</b> <i>(known gap)</i></td><td>Two deadlines fold onto one key</td><td>Deferred — see §10</td></tr>
+        </tbody>
+      </table></div>
+      <div class="stance"><span class="stance-tag">the asymmetry</span>
+        <p>Throughout, false positives are preferred to false negatives, because a false positive is visible and dismissible while a false negative is invisible. This drives the higher close threshold, the promote-as-unconfirmed policy, and the bias toward over-segmenting when segmentation arrives.</p>
+      </div>
+    </section>
+
+    <!-- ================================================ 08 EVALUATION -->
+    <section id="evaluation">
+      <h2><span class="snum">08</span>Evaluation</h2>
+      <p class="section-lede">The system is a chain — clustering → person resolution → extraction → matching → ranking. Errors <b>multiply</b>: five stages at 90% each is roughly <b>59% correct end to end</b>. Without per-stage measurement, tuning goes to whichever stage happens to be under the light.</p>
+      <div class="table-scroll"><table class="doc-table">
+        <thead><tr><th>Component</th><th>Metric</th><th>Label source</th></tr></thead>
+        <tbody>
+          <tr><td>Thread clustering</td><td>Pairwise P/R</td><td>Hand-labelled sample</td></tr>
+          <tr><td>Person resolution</td><td>Cluster purity</td><td>Hand-labelled sample</td></tr>
+          <tr><td>Extraction</td><td>P/R per attribute</td><td>Hand-labelled + quarantine rate</td></tr>
+          <tr><td>Ownership</td><td>Accuracy</td><td>Hand-labelled</td></tr>
+          <tr><td>Work item matching</td><td>P/R on duplicates and merges</td><td>User corrections</td></tr>
+          <tr><td>Ranking</td><td>NDCG @ 5</td><td>feedback_events</td></tr>
+          <tr><td>End to end</td><td>Answer accuracy on the six</td><td>Curated question set</td></tr>
+        </tbody>
+      </table></div>
+      <p><b>Free labelled data.</b> work_item_changes records prior value, new value, causing email, and timestamp. That is a ready-made test set for extraction and matching without anyone hand-labelling anything.</p>
+      <div class="stance"><span class="stance-tag">proposed first experiment</span>
+        <p>Run the same corpus with and without the verbatim quote check and report the fabrication rate. It is cheap, and it directly validates the most load-bearing decision in the design.</p>
+      </div>
+    </section>
+
+    <!-- ===================================================== 09 SCALE -->
+    <section id="scale">
+      <h2><span class="snum">09</span>Scale and cost</h2>
+      <p class="section-lede">Working assumption for a heavy user: <b>100–200 emails/day, roughly a third genuinely human.</b></p>
+      <div class="stat-strip">
+        <div class="stat"><div class="n">~50</div><div class="l">extractions/day/user, steady state</div></div>
+        <div class="stat"><div class="n">~1,500</div><div class="l">extractions/user for a 30-day backfill, one time</div></div>
+        <div class="stat"><div class="n">0</div><div class="l">model calls on 5-year history — raw + signals only</div></div>
+      </div>
+      <p>Levers, in order of effect:</p>
+      <ol class="invariants">
+        <li><b>Automated filtering</b> — removes ~two thirds of volume before any model runs; detected from headers (List-Unsubscribe, Precedence: bulk, Auto-Submitted, no-reply patterns), never by model judgment, because it sits on the cost path for every message.</li>
+        <li><b>Novel-content-only extraction</b> — cuts tokens substantially on long threads.</li>
+        <li><b>Recent-window extraction</b> — bounds backfill regardless of history depth.</li>
+        <li><b>Deterministic signals over full history</b> — historical aggregates never touch a model.</li>
+      </ol>
+      <div class="stance"><span class="stance-tag">design stance</span>
+        <p><b>Number-shaped questions should never touch an LLM.</b> Models are unreliable at arithmetic over long context and the data is already in SQL. Deterministic aggregation is both cheaper and more correct. Concurrency is bounded by the extraction queue, not by inbound volume, so a backfill burst degrades latency rather than breaking rate limits.</p>
+      </div>
+    </section>
+
+    <!-- ================================================== 10 DEFERRED -->
+    <section id="deferred">
+      <h2><span class="snum">10</span>Scope and deferred work</h2>
+      <p class="section-lede">Scoped to exactly what the six questions require: <b>35 tables</b> (34 scoped + work_item_threads added in v0.4), no vector store, no query router, no text-to-SQL. Extraction is the only LLM on the write path; the read path is entirely deterministic SQL with citations. Deferred items are listed with reasoning rather than omitted silently.</p>
+
+      <div class="stance warn"><span class="stance-tag">topic drift within a thread — the largest known gap</span>
+        <p>The current design assumes one thread is about one thing. In reality a thread that begins as "Q3 budget review" can drift into "office lease renewal." Both produce a due_date claim on the same thread, and latest-wins overwrites one — <b>producing a wrong answer with a real citation attached, which is the worst failure class in the system.</b> The fix is to segment threads and key state on the segment. Boundaries are mostly detectable without a model: a gap unusually long relative to that thread's own cadence · participants joining or leaving · the subject stem changing · semantic distance between consecutive messages against the thread's own distribution · a reply pointing several hops back. An LLM breaks ties only when signals disagree. Boundaries should be <b>soft for retrieval but hard for state</b> — the extractor may read across a boundary for context, but the fold must not cross one.</p>
+      </div>
+
+      <div class="table-scroll"><table class="doc-table">
+        <thead><tr><th>Deferred</th><th>Reasoning</th><th>Unlocks</th></tr></thead>
+        <tbody>
+          <tr><td>Semantic search</td><td>No question in scope is semantic</td><td>"What did we discuss with Acme about pricing?"</td></tr>
+          <tr><td>Query router</td><td>All six queries are fixed shapes</td><td>Free-form questions</td></tr>
+          <tr><td><s>Cross-thread work items</s></td><td><b>Promoted into v0.4</b> — see §3.7 work_item_threads</td><td>A negotiation spanning three threads ✓</td></tr>
+          <tr><td>Learned ranking</td><td>Feedback logged from day one; ranking on role priors</td><td>Personalisation</td></tr>
+          <tr><td>Fuzzy person merging</td><td>A wrong merge hides work silently</td><td>Better recall on identity</td></tr>
+          <tr><td>Organizations</td><td>Reply latency substitutes as importance</td><td>Company-level views</td></tr>
+          <tr><td>Money aggregation</td><td>Signals already capture amounts over full history</td><td>Month-over-month spend</td></tr>
+          <tr><td>Calendar</td><td>Different object, different mutation rules</td><td>Meeting-linked obligations</td></tr>
+          <tr><td>Labels, drafts, deletions</td><td>Not read by any of the six</td><td>Folder-scoped views</td></tr>
+        </tbody>
+      </table></div>
+
+      <h3>If I had another week</h3>
+      <ol class="invariants">
+        <li>Segment threads — it is the only known gap that produces confidently wrong answers.</li>
+        <li>Build the labelled evaluation set from work_item_changes and get per-stage baselines.</li>
+        <li>Instrument the matching threshold against real duplicate rates rather than intuition.</li>
+      </ol>
+
+      <h3>References</h3>
+      <p style="font-size:13.5px; color:var(--ink-soft); max-width:720px">Kleppmann, <i>Designing Data-Intensive Applications</i>, ch. 2, 3, 11 · Snodgrass, <i>Developing Time-Oriented Database Applications in SQL</i> · Cohen, Carvalho &amp; Mitchell, <i>Learning to Classify Email into Speech Acts</i>, EMNLP 2004 · Hearst, <i>TextTiling</i>, Computational Linguistics 1997 · Beeferman, Berger &amp; Lafferty, <i>Statistical Models for Text Segmentation</i>, Machine Learning 1999 · RFC 5322 §3.6.4.</p>
+    </section>
+
+    <footer class="doc-footer"><span>alfred_ · email indexing · rev 0.4</span><span>schema: data/schema-data.js · flows: data/flow-data.js</span></footer>
+  </main>
+</div>
+
+<script src="data/schema-data.js"></script>
+<script src="data/flow-data.js"></script>
+<script src="assets/schema-view.js"></script>
+<script src="assets/flow-view.js"></script>
+<script src="assets/doc-widgets.js"></script>
+<script>
+/* ---------- overview: layers + invariants + mode legend ---------- */
+(function () {
+  const layersTbl = document.createElement('table');
+  layersTbl.className = 'layers';
+  const tb = document.createElement('tbody');
+  LAYERS.forEach(function (r) {
+    const tr = document.createElement('tr');
+    tr.innerHTML = '<td class="layer-l">' + r.l + '</td><td class="layer-name">' + r.name + '</td><td class="layer-desc">' + r.desc + '</td>';
+    tb.appendChild(tr);
+  });
+  layersTbl.appendChild(tb);
+  document.getElementById('layers').appendChild(layersTbl);
+
+  const ol = document.createElement('ol');
+  ol.className = 'invariants';
+  INVARIANTS.forEach(function (s) {
+    const li = document.createElement('li');
+    li.textContent = s;
+    ol.appendChild(li);
+  });
+  document.getElementById('invariants').appendChild(ol);
+
+  const legend = document.getElementById('mode-legend');
+  Object.entries(WRITE_MODES).forEach(function (pair) {
+    const item = document.createElement('span');
+    item.className = 'item';
+    item.innerHTML = '<span class="sv-mode mode-' + pair[0] + '">' + pair[1].short + '</span> ' + pair[1].label + ' — ' + pair[1].desc;
+    legend.appendChild(item);
+  });
+})();
+
+/* ---------- schema sections, one after another ---------- */
+(function () {
+  const host = document.getElementById('schema-sections');
+  const extras = {
+    evidence: function (wrap) {
+      const d = document.createElement('div');
+      d.innerHTML =
+        '<p style="margin-top:22px">Four decisions worth defending: <b>evidence_quote is NOT NULL and verified</b> — before insert we check the quote appears verbatim in the message body; if it does not, the model invented it and the row is rejected. <b>Two time columns</b> — valid_from is when the deadline is; observed_at is when the email told us; collapsing them makes one of "what\'s due next week" and "what changed since Monday" unanswerable. <b>work_item_id is nullable</b> — evidence exists before the item it justifies, and the rejected claims are precisely what we need to debug matching. <b>prompt_hash and extractor_version</b> — when extraction improves, we can tell old claims from new ones and measure whether it actually improved.</p>';
+      wrap.appendChild(d);
+    },
+    projection: function (wrap) {
+      const d = document.createElement('div');
+      d.innerHTML =
+        '<div class="stance"><span class="stance-tag">changed in v0.4 · a work item is thread-independent</span>' +
+        '<p>An obligation is anchored to the <b>obligation</b>, not to the conversation that happened to carry it. The same vendor negotiation can span three threads and a dozen emails; one work item, many conversations. So thread membership moved out of work_items into <b>work_item_threads</b>, and match_key no longer contains the thread — the matcher scores candidates across threads, with thread overlap as one feature among title similarity, owner, and due-date proximity. Cross-thread attachment demands a <b>stricter threshold</b> than same-thread, because a wrong cross-thread merge hides work in a conversation the user is not looking at, and both matching failure modes are silent.</p></div>' +
+        '<p class="sql-caption">work_items + work_item_threads (v0.4)</p>' +
+        '<pre class="sql">-- v0.4: thread_id removed from work_items. Membership lives in the junction.\n' +
+        'CREATE TABLE work_items (\n' +
+        '    id                  UUID PRIMARY KEY DEFAULT gen_random_uuid(),\n' +
+        '    user_id             UUID NOT NULL REFERENCES users(id) ON DELETE CASCADE,\n' +
+        '    origin_thread_id    UUID REFERENCES threads(id),  -- display anchor only\n' +
+        '    speech_act          TEXT NOT NULL,     -- request | commitment | decision\n' +
+        '    title               TEXT NOT NULL,\n' +
+        '    owner_person_id     UUID REFERENCES people(id),\n' +
+        '    requester_person_id UUID REFERENCES people(id),\n' +
+        '    owner_is_self       BOOLEAN,\n' +
+        '    owner_resolved      BOOLEAN NOT NULL DEFAULT FALSE,\n' +
+        '    status              TEXT NOT NULL,     -- OPEN | RESOLVED | CANCELLED | EXPIRED\n' +
+        '    is_unconfirmed      BOOLEAN NOT NULL DEFAULT FALSE,\n' +
+        '    due_at              TIMESTAMPTZ,\n' +
+        '    due_confidence      NUMERIC(3,2),\n' +
+        '    first_seen_email_id UUID NOT NULL REFERENCES emails(id),\n' +
+        '    last_activity_at    TIMESTAMPTZ NOT NULL,\n' +
+        '    opened_at           TIMESTAMPTZ NOT NULL,\n' +
+        '    resolved_at         TIMESTAMPTZ,\n' +
+        '    match_key           TEXT NOT NULL,     -- v0.4: speech_act + owner + normalized title\n' +
+        '    reducer_version     TEXT NOT NULL\n' +
+        ');\n\n' +
+        '-- NEW in v0.4: one obligation, many conversations.\n' +
+        'CREATE TABLE work_item_threads (\n' +
+        '    work_item_id          UUID NOT NULL REFERENCES work_items(id) ON DELETE CASCADE,\n' +
+        '    thread_id             UUID NOT NULL REFERENCES threads(id),\n' +
+        '    first_linked_email_id UUID REFERENCES emails(id),\n' +
+        '    linked_by             TEXT NOT NULL,   -- matcher | user | promotion\n' +
+        '    link_score            NUMERIC(4,3),    -- NULL when linked_by = user\n' +
+        '    linked_at             TIMESTAMPTZ NOT NULL DEFAULT now(),\n' +
+        '    PRIMARY KEY (work_item_id, thread_id)\n' +
+        ');</pre>' +
+        '<p><b>What is deliberately absent from the type list.</b> DEADLINE is not a type — it is due_at. FOLLOW_UP is not a type — it is derived from elapsed time with no reply. REQUEST and COMMITMENT are one obligation seen from two sides — that is ownership, already stored. What remains is the <b>speech act</b>: request, commitment, decision — mutually exclusive, observable in text, directly testable. <b>Absent from status:</b> WAITING_ON_ME restates owner_is_self as an enum; IN_PROGRESS is not observable from email; STALE is a function of now(); UNKNOWN is a confidence value wearing a status costume. Status is lifecycle only; everything else derives.</p>';
+      wrap.appendChild(d);
+    },
+  };
+
+  SCHEMA_SECTIONS.forEach(function (sec) {
+    const block = document.createElement('div');
+    block.id = 'sec-' + sec.id;
+    const h = document.createElement('h3');
+    h.className = 'subhead';
+    h.innerHTML = '<span class="snum">' + sec.num + '</span>' + sec.title;
+    const lede = document.createElement('p');
+    lede.className = 'sub-lede';
+    lede.textContent = sec.lede;
+    block.append(h, lede);
+    const mount = document.createElement('div');
+    block.appendChild(mount);
+    host.appendChild(block);
+    SchemaView.render(mount, sec);
+    if (extras[sec.id]) extras[sec.id](block);
+  });
+})();
+
+/* ---------- dataflows + widgets ---------- */
+FlowView.render(document.getElementById('flow-mount-e2e'), FLOWS.find(function (f) { return f.id === 'ingestion'; }));
+FlowView.render(document.getElementById('flow-mount-jobs'), FLOWS.find(function (f) { return f.id === 'jobs-pipeline'; }));
+renderOrderingDemo(document.getElementById('ordering-demo'));
+highlightSQL();
+
+/* ---------- sidebar scrollspy ---------- */
+(function () {
+  const links = Array.prototype.slice.call(document.querySelectorAll('#toc a'));
+  const targets = links.map(function (a) { return document.querySelector(a.getAttribute('href')); }).filter(Boolean);
+  const obs = new IntersectionObserver(function (es) {
+    es.forEach(function (e) {
+      if (e.isIntersecting) {
+        links.forEach(function (a) { a.classList.toggle('active', a.getAttribute('href') === '#' + e.target.id); });
+      }
+    });
+  }, { rootMargin: '-15% 0px -75% 0px' });
+  targets.forEach(function (t) { obs.observe(t); });
+})();
+</script>
+</body>
+</html>

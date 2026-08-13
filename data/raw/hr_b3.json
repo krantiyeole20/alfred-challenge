@@ -1,0 +1,2805 @@
+[
+  {
+    "id": "d30f18c2e4b60001",
+    "thread_id": "d30f18c2e4b60001",
+    "profile_id": "hr",
+    "history_id": "742734",
+    "message_id_header": "<d30f18c2e4b60001@myworkday.com>",
+    "in_reply_to": null,
+    "references": [],
+    "thread_position": 1,
+    "thread_length": 1,
+    "from": {
+      "name": "Workday Events",
+      "email": "events@myworkday.com"
+    },
+    "to": [
+      {
+        "name": "Marcus Bell",
+        "email": "marcus.bell@vireohealth.com"
+      }
+    ],
+    "cc": [],
+    "bcc": [],
+    "delivered_to": "marcus.bell@vireohealth.com",
+    "subject": "Workday Rising 2026: Register free for the Denver watch party",
+    "snippet": "Hi Marcus, Workday Rising is going virtual again this year, and we're hosting an in-person watch party at the Denver Tech Center on September 22-23. Join HR and Finance leaders fro",
+    "body_text": "Hi Marcus,\n\nWorkday Rising is going virtual again this year, and we're hosting an in-person watch party at the Denver Tech Center on September 22-23. Join HR and Finance leaders from Vireo Health Systems' peer organizations for sessions on AI-powered talent management, workforce planning, and the new Workday Extend toolkit.\n\nRegistration is free for current customers. Seats at the Denver venue are limited to 120.\n\nRegister: https://rising.workday.com/register?loc=denver\n\nSee you there,\nThe Workday Events Team",
+    "body_html": "<div style='font-family:Arial,sans-serif;max-width:600px'><h2 style='color:#0875e1'>Workday Rising 2026</h2><p>Join us in Denver, Sept 22-23. Free for current customers.</p><a href='https://rising.workday.com/register?loc=denver' style='background:#0875e1;color:#fff;padding:10px 18px;text-decoration:none;border-radius:4px;display:inline-block'>Register Now</a><p style='font-size:12px;color:#888'>Workday, Inc. 6110 Stoneridge Mall Rd, Pleasanton, CA 94588</p></div>",
+    "date": "2026-07-20T09:14:00-07:00",
+    "internal_date_ms": 1784564040000,
+    "folder": "INBOX",
+    "category": "CATEGORY_PROMOTIONS",
+    "is_unread": false,
+    "is_starred": false,
+    "is_important": false,
+    "user_labels": [],
+    "attachments": [],
+    "calendar_event": null,
+    "extra_headers": {
+      "List-Unsubscribe": "<mailto:unsubscribe-workday@myworkday.com>, <https://myworkday.com/e/unsub?id=8827341>",
+      "List-Unsubscribe-Post": "List-Unsubscribe=One-Click",
+      "Precedence": "bulk"
+    },
+    "size_estimate": 2782,
+    "meta": {
+      "email_class": "promotional",
+      "tricky_tags": [],
+      "is_actionable_for_user": false,
+      "action_owner": null,
+      "action_summary": "No action required; marketing webinar invite.",
+      "due_date": null,
+      "commitment_made_by_user": null,
+      "commitment_is_conditional": false,
+      "commitment_condition": null,
+      "superseded_by_message_id": null,
+      "notes": null
+    }
+  },
+  {
+    "id": "d30f18c2e4b60002",
+    "thread_id": "d30f18c2e4b60002",
+    "profile_id": "hr",
+    "history_id": "775603",
+    "message_id_header": "<d30f18c2e4b60002@bamboohr.com>",
+    "in_reply_to": null,
+    "references": [],
+    "thread_position": 1,
+    "thread_length": 1,
+    "from": {
+      "name": "BambooHR",
+      "email": "trial@bamboohr.com"
+    },
+    "to": [
+      {
+        "name": "Marcus Bell",
+        "email": "marcus.bell@vireohealth.com"
+      }
+    ],
+    "cc": [],
+    "bcc": [],
+    "delivered_to": "marcus.bell@vireohealth.com",
+    "subject": "Your BambooHR free trial expires in 5 days",
+    "snippet": "Your 14-day trial ends August 17. Upgrade now to keep your data.",
+    "body_text": "Your 14-day trial ends August 17. Upgrade now to keep your data.",
+    "body_html": "<p style='font-family:Arial'>Your trial ends Aug 17. <a href='https://bamboohr.com/upgrade'>Upgrade now</a> to keep your data.</p>",
+    "date": "2026-08-12T06:03:00-06:00",
+    "internal_date_ms": 1786536180000,
+    "folder": "INBOX",
+    "category": "CATEGORY_UPDATES",
+    "is_unread": true,
+    "is_starred": false,
+    "is_important": false,
+    "user_labels": [],
+    "attachments": [],
+    "calendar_event": null,
+    "extra_headers": {
+      "List-Unsubscribe": "<mailto:unsub@bamboohr.com>, <https://bamboohr.com/e/unsub/88213>",
+      "List-Unsubscribe-Post": "List-Unsubscribe=One-Click",
+      "Precedence": "bulk"
+    },
+    "size_estimate": 2000,
+    "meta": {
+      "email_class": "promotional",
+      "tricky_tags": [],
+      "is_actionable_for_user": false,
+      "action_owner": null,
+      "action_summary": "No action required; Marcus never started a BambooHR trial \u2014 likely a stale lead from a conference badge scan.",
+      "due_date": null,
+      "commitment_made_by_user": null,
+      "commitment_is_conditional": false,
+      "commitment_condition": null,
+      "superseded_by_message_id": null,
+      "notes": null
+    }
+  },
+  {
+    "id": "d30f18c2e4b60003",
+    "thread_id": "d30f18c2e4b60003",
+    "profile_id": "hr",
+    "history_id": "772862",
+    "message_id_header": "<d30f18c2e4b60003@linkedin.com>",
+    "in_reply_to": null,
+    "references": [],
+    "thread_position": 1,
+    "thread_length": 1,
+    "from": {
+      "name": "LinkedIn",
+      "email": "notifications-noreply@linkedin.com"
+    },
+    "to": [
+      {
+        "name": "Marcus Bell",
+        "email": "marcus.bell@vireohealth.com"
+      }
+    ],
+    "cc": [],
+    "bcc": [],
+    "delivered_to": "marcus.bell@vireohealth.com",
+    "subject": "You appeared in 9 searches this week",
+    "snippet": "Marcus, you appeared in 9 searches this week. See who's looking at linkedin.com/me/search-appearances.",
+    "body_text": "Marcus, you appeared in 9 searches this week. See who's looking at linkedin.com/me/search-appearances.",
+    "body_html": "<p>You appeared in <b>9 searches</b> this week. <a href='https://linkedin.com/me/search-appearances'>See who</a>.</p>",
+    "date": "2026-08-10T07:22:00-07:00",
+    "internal_date_ms": 1786371720000,
+    "folder": "INBOX",
+    "category": "CATEGORY_SOCIAL",
+    "is_unread": false,
+    "is_starred": false,
+    "is_important": false,
+    "user_labels": [],
+    "attachments": [],
+    "calendar_event": null,
+    "extra_headers": {
+      "List-Unsubscribe": "<https://linkedin.com/psettings/email-unsubscribe>",
+      "Precedence": "bulk"
+    },
+    "size_estimate": 2019,
+    "meta": {
+      "email_class": "social",
+      "tricky_tags": [],
+      "is_actionable_for_user": false,
+      "action_owner": null,
+      "action_summary": "No action required; LinkedIn engagement digest.",
+      "due_date": null,
+      "commitment_made_by_user": null,
+      "commitment_is_conditional": false,
+      "commitment_condition": null,
+      "superseded_by_message_id": null,
+      "notes": null
+    }
+  },
+  {
+    "id": "d30f18c2e4b60004",
+    "thread_id": "d30f18c2e4b60004",
+    "profile_id": "hr",
+    "history_id": "736881",
+    "message_id_header": "<d30f18c2e4b60004@greenhouse.io>",
+    "in_reply_to": null,
+    "references": [],
+    "thread_position": 1,
+    "thread_length": 1,
+    "from": {
+      "name": "Greenhouse Team",
+      "email": "marketing@greenhouse.io"
+    },
+    "to": [
+      {
+        "name": "Marcus Bell",
+        "email": "marcus.bell@vireohealth.com"
+      }
+    ],
+    "cc": [],
+    "bcc": [],
+    "delivered_to": "marcus.bell@vireohealth.com",
+    "subject": "5 ways top healthcare systems are cutting time-to-fill",
+    "snippet": "Hi Marcus, Healthcare hiring is brutal right now \u2014 especially for clinical roles. We pulled data from 400+ Greenhouse customers in healthcare and found the orgs cutting time-to-fil",
+    "body_text": "Hi Marcus,\n\nHealthcare hiring is brutal right now \u2014 especially for clinical roles. We pulled data from 400+ Greenhouse customers in healthcare and found the orgs cutting time-to-fill fastest share five things in common: structured scorecards, same-week interview loops, a dedicated clinical recruiter, SMS-first candidate communication, and a 48-hour offer turnaround.\n\nFull breakdown (with benchmarks by org size) in the guide below. We'd also love to show you how Vireo Health Systems could shorten your RN requisition cycle \u2014 reply and we'll set up 20 minutes.\n\nRead the guide: https://greenhouse.io/guides/healthcare-time-to-fill\n\nBest,\nThe Greenhouse Team",
+    "body_html": "<div style='font-family:Helvetica,Arial,sans-serif;max-width:600px'><h3>5 ways top healthcare systems cut time-to-fill</h3><p>Data from 400+ Greenhouse healthcare customers.</p><a href='https://greenhouse.io/guides/healthcare-time-to-fill' style='color:#24a47f;font-weight:bold'>Read the guide &rarr;</a></div>",
+    "date": "2026-07-16T10:41:00-04:00",
+    "internal_date_ms": 1784212860000,
+    "folder": "INBOX",
+    "category": "CATEGORY_PROMOTIONS",
+    "is_unread": false,
+    "is_starred": false,
+    "is_important": false,
+    "user_labels": [],
+    "attachments": [],
+    "calendar_event": null,
+    "extra_headers": {
+      "List-Unsubscribe": "<mailto:unsubscribe@greenhouse.io>, <https://greenhouse.io/e/unsub?c=vireohealth>",
+      "List-Unsubscribe-Post": "List-Unsubscribe=One-Click",
+      "Precedence": "bulk",
+      "List-ID": "Greenhouse Insights <insights.greenhouse.io>"
+    },
+    "size_estimate": 2774,
+    "meta": {
+      "email_class": "promotional",
+      "tricky_tags": [],
+      "is_actionable_for_user": false,
+      "action_owner": null,
+      "action_summary": "No action required; vendor content marketing.",
+      "due_date": null,
+      "commitment_made_by_user": null,
+      "commitment_is_conditional": false,
+      "commitment_condition": null,
+      "superseded_by_message_id": null,
+      "notes": null
+    }
+  },
+  {
+    "id": "d30f18c2e4b60005",
+    "thread_id": "d30f18c2e4b60005",
+    "profile_id": "hr",
+    "history_id": "765027",
+    "message_id_header": "<d30f18c2e4b60005@vireohealth-alerts.com>",
+    "in_reply_to": null,
+    "references": [],
+    "thread_position": 1,
+    "thread_length": 1,
+    "from": {
+      "name": "Vireo Health IT Support",
+      "email": "security-support@vireohealth-alerts.com"
+    },
+    "to": [
+      {
+        "name": "Marcus Bell",
+        "email": "marcus.bell@vireohealth.com"
+      }
+    ],
+    "cc": [],
+    "bcc": [],
+    "delivered_to": "marcus.bell@vireohealth.com",
+    "subject": "URGENT: Your password expires in 24 hours - Verify Now",
+    "snippet": "Dear User, your vireohealth.com email password will EXPIRE in 24 hours. to avoid lose access to your mailbox pls verify your account immediately by clicking the link bellow and con",
+    "body_text": "Dear User,\n\nyour vireohealth.com email password will EXPIRE in 24 hours. to avoid lose access to your mailbox pls verify your account immediately by clicking the link bellow and confirm your login detail.\n\nVERIFY NOW: http://vireohealth-alerts.com/secure-login/verify.php?u=marcus.bell\n\nFailure to verify will result in permanent account suspension within 24 hrs.\n\nIT Helpdesk\nVireo Health Systems",
+    "body_html": null,
+    "date": "2026-08-05T03:47:00+00:00",
+    "internal_date_ms": 1785901620000,
+    "folder": "SPAM",
+    "category": null,
+    "is_unread": true,
+    "is_starred": false,
+    "is_important": false,
+    "user_labels": [],
+    "attachments": [],
+    "calendar_event": null,
+    "extra_headers": {
+      "Authentication-Results": "mx.google.com; spf=fail smtp.mailfrom=vireohealth-alerts.com",
+      "Return-Path": "<bounce@vireohealth-alerts.com>"
+    },
+    "size_estimate": 2197,
+    "meta": {
+      "email_class": "phishing",
+      "tricky_tags": [],
+      "is_actionable_for_user": false,
+      "action_owner": null,
+      "action_summary": "No action required; crude credential-phishing attempt spoofing internal IT.",
+      "due_date": null,
+      "commitment_made_by_user": null,
+      "commitment_is_conditional": false,
+      "commitment_condition": null,
+      "superseded_by_message_id": null,
+      "notes": "Phishing: lookalike domain vireohealth-alerts.com (not vireohealth.com), urgency pressure, bad grammar, generic 'Dear User' greeting, raw IP-less link to a non-Vireo domain."
+    }
+  },
+  {
+    "id": "d30f18c2e4b60006",
+    "thread_id": "d30f18c2e4b60006",
+    "profile_id": "hr",
+    "history_id": "755932",
+    "message_id_header": "<CAFd30f18c2e4b60006@mail.gmail.com>",
+    "in_reply_to": null,
+    "references": [],
+    "thread_position": 1,
+    "thread_length": 1,
+    "from": {
+      "name": "Renee Castillo",
+      "email": "renee.castillo83@gmail.com"
+    },
+    "to": [
+      {
+        "name": "Marcus Bell",
+        "email": "marcus.bell@vireohealth.com"
+      }
+    ],
+    "cc": [],
+    "bcc": [],
+    "delivered_to": "marcus.bell@vireohealth.com",
+    "subject": "Application for any open HR/People Ops roles",
+    "snippet": "Hi Mr. Bell, I came across Vireo Health Systems while researching Denver healthcare employers and wanted to reach out directly. I have 6 years of HR generalist experience, most rec",
+    "body_text": "Hi Mr. Bell,\n\nI came across Vireo Health Systems while researching Denver healthcare employers and wanted to reach out directly. I have 6 years of HR generalist experience, most recently at Foothills Medical Group, and I'd love to be considered for any People Ops or HR Coordinator openings you may have, even if nothing is posted yet.\n\nResume attached. Happy to send references.\n\nThank you for your time,\nRenee Castillo\n(720) 555-0148",
+    "body_html": null,
+    "date": "2026-07-29T14:12:00-06:00",
+    "internal_date_ms": 1785355920000,
+    "folder": "INBOX",
+    "category": "CATEGORY_PROMOTIONS",
+    "is_unread": false,
+    "is_starred": false,
+    "is_important": false,
+    "user_labels": [
+      "Label_6630"
+    ],
+    "attachments": [
+      {
+        "attachment_id": "ANGjdJ_V-nULt-BhNlO5voqbOKhaCQRShUrJCrC9PkZBftMCso",
+        "filename": "Renee_Castillo_Resume.pdf",
+        "mime_type": "application/pdf",
+        "size_bytes": 41230,
+        "is_inline": false,
+        "content_id": null,
+        "extracted_text": "RENEE CASTILLO\nDenver, CO | renee.castillo83@gmail.com | (720) 555-0148\n\nSUMMARY\nHR Generalist with 6 years of experience in benefits administration, onboarding, and employee relations for mid-size healthcare and services organizations.\n\nEXPERIENCE\nHR Generalist, Foothills Medical Group (2021-2026)\n- Administered benefits enrollment for 340 employees across 3 clinic locations\n- Managed FMLA and leave-of-absence tracking; reduced processing errors 30%\n- Ran new-hire onboarding for 90+ hires annually\n\nHR Coordinator, Denver Health Partners (2018-2021)\n- Supported payroll data entry and I-9 verification for 200-person clinic network\n\nEDUCATION\nB.A. Human Resource Management, University of Colorado Denver, 2018\n\nSHRM-CP certified, 2022"
+      }
+    ],
+    "calendar_event": null,
+    "extra_headers": {},
+    "size_estimate": 57483,
+    "meta": {
+      "email_class": "cold_outreach",
+      "tricky_tags": [],
+      "is_actionable_for_user": false,
+      "action_owner": "tim.osei@vireohealth.com",
+      "action_summary": "Unsolicited resume; would normally be triaged by Recruiting (Tim Osei), not directly actionable for Marcus.",
+      "due_date": null,
+      "commitment_made_by_user": null,
+      "commitment_is_conditional": false,
+      "commitment_condition": null,
+      "superseded_by_message_id": null,
+      "notes": null
+    }
+  },
+  {
+    "id": "d30f18c2e4b60007",
+    "thread_id": "d30f18c2e4b60007",
+    "profile_id": "hr",
+    "history_id": "774525",
+    "message_id_header": "<d30f18c2e4b60007@checkr.com>",
+    "in_reply_to": null,
+    "references": [],
+    "thread_position": 1,
+    "thread_length": 1,
+    "from": {
+      "name": "Checkr",
+      "email": "noreply@checkr.com"
+    },
+    "to": [
+      {
+        "name": "Marcus Bell",
+        "email": "marcus.bell@vireohealth.com"
+      }
+    ],
+    "cc": [],
+    "bcc": [],
+    "delivered_to": "marcus.bell@vireohealth.com",
+    "subject": "Order #CHK-88213 status update: Report ready",
+    "snippet": "Background check order #CHK-88213 for candidate J.M. is complete. View the report in your Checkr dashboard.",
+    "body_text": "Background check order #CHK-88213 for candidate J.M. is complete. View the report in your Checkr dashboard.",
+    "body_html": "<p>Order <b>#CHK-88213</b> is complete. <a href='https://checkr.com/dashboard/orders/88213'>View report</a>.</p>",
+    "date": "2026-08-11T11:05:00-07:00",
+    "internal_date_ms": 1786471500000,
+    "folder": "INBOX",
+    "category": "CATEGORY_UPDATES",
+    "is_unread": true,
+    "is_starred": false,
+    "is_important": false,
+    "user_labels": [],
+    "attachments": [],
+    "calendar_event": null,
+    "extra_headers": {},
+    "size_estimate": 2019,
+    "meta": {
+      "email_class": "automated_notification",
+      "tricky_tags": [],
+      "is_actionable_for_user": false,
+      "action_owner": "tim.osei@vireohealth.com",
+      "action_summary": "No action required for Marcus; report routes to Recruiting for the hiring manager's decision.",
+      "due_date": null,
+      "commitment_made_by_user": null,
+      "commitment_is_conditional": false,
+      "commitment_condition": null,
+      "superseded_by_message_id": null,
+      "notes": null
+    }
+  },
+  {
+    "id": "d30f18c2e4b60008",
+    "thread_id": "d30f18c2e4b60008",
+    "profile_id": "hr",
+    "history_id": "745570",
+    "message_id_header": "<d30f18c2e4b60008@lattice.com>",
+    "in_reply_to": null,
+    "references": [],
+    "thread_position": 1,
+    "thread_length": 1,
+    "from": {
+      "name": "Lattice",
+      "email": "news@lattice.com"
+    },
+    "to": [
+      {
+        "name": "Marcus Bell",
+        "email": "marcus.bell@vireohealth.com"
+      }
+    ],
+    "cc": [],
+    "bcc": [],
+    "delivered_to": "marcus.bell@vireohealth.com",
+    "subject": "New: AI-powered performance review summaries in Lattice",
+    "snippet": "Hi Marcus, Review season is exhausting for managers \u2014 we get it. Lattice AI now drafts a summary of each employee's review from their peer feedback, goals, and 1:1 notes, so manage",
+    "body_text": "Hi Marcus,\n\nReview season is exhausting for managers \u2014 we get it. Lattice AI now drafts a summary of each employee's review from their peer feedback, goals, and 1:1 notes, so managers spend less time writing and more time coaching.\n\nIt's rolling out to all customers this month at no extra cost. Log in to try it on your next cycle.\n\nTry it: https://lattice.com/product/ai-summaries\n\n\u2014 The Lattice Team",
+    "body_html": "<div style='font-family:Arial;max-width:600px'><h3>AI review summaries, now live</h3><p>Less writing, more coaching. Free for all customers this month.</p><a href='https://lattice.com/product/ai-summaries' style='color:#5851e5'>Try it &rarr;</a></div>",
+    "date": "2026-07-22T08:30:00-07:00",
+    "internal_date_ms": 1784734200000,
+    "folder": "INBOX",
+    "category": "CATEGORY_PROMOTIONS",
+    "is_unread": false,
+    "is_starred": false,
+    "is_important": false,
+    "user_labels": [],
+    "attachments": [],
+    "calendar_event": null,
+    "extra_headers": {
+      "List-Unsubscribe": "<mailto:unsub@lattice.com>, <https://lattice.com/e/unsub?id=vireo0912>",
+      "List-Unsubscribe-Post": "List-Unsubscribe=One-Click",
+      "Precedence": "bulk"
+    },
+    "size_estimate": 2457,
+    "meta": {
+      "email_class": "promotional",
+      "tricky_tags": [],
+      "is_actionable_for_user": false,
+      "action_owner": null,
+      "action_summary": "No action required; product feature announcement.",
+      "due_date": null,
+      "commitment_made_by_user": null,
+      "commitment_is_conditional": false,
+      "commitment_condition": null,
+      "superseded_by_message_id": null,
+      "notes": null
+    }
+  },
+  {
+    "id": "d30f18c2e4b60009",
+    "thread_id": "d30f18c2e4b60009",
+    "profile_id": "hr",
+    "history_id": "735988",
+    "message_id_header": "<d30f18c2e4b60009@linkedin.com>",
+    "in_reply_to": null,
+    "references": [],
+    "thread_position": 1,
+    "thread_length": 1,
+    "from": {
+      "name": "Tasha Whitfield via LinkedIn",
+      "email": "inmail-hit-reply@linkedin.com"
+    },
+    "to": [
+      {
+        "name": "Marcus Bell",
+        "email": "marcus.bell@vireohealth.com"
+      }
+    ],
+    "cc": [],
+    "bcc": [],
+    "delivered_to": "marcus.bell@vireohealth.com",
+    "subject": "New InMail: Exciting Director of Talent Acquisition opportunity",
+    "snippet": "Hi Marcus, I came across your profile and was really impressed by your work scaling People at Vireo Health Systems. I'm recruiting for a Director of Talent Acquisition role at a fa",
+    "body_text": "Hi Marcus,\n\nI came across your profile and was really impressed by your work scaling People at Vireo Health Systems. I'm recruiting for a Director of Talent Acquisition role at a fast-growing healthcare staffing platform (Series C, fully remote) and think you could be a strong fit \u2014 comp range is $190-220K plus equity.\n\nOpen to a quick call this week?\n\nBest,\nTasha Whitfield\nExecutive Search, Vantage Partners Recruiting\n\nReply to this InMail or view my profile: linkedin.com/in/tashawhitfield",
+    "body_html": "<p>Hi Marcus, I'm recruiting for a Director of TA role, $190-220K + equity. Open to a quick call? <a href='https://linkedin.com/in/tashawhitfield'>View profile</a></p>",
+    "date": "2026-07-15T16:48:00-07:00",
+    "internal_date_ms": 1784159280000,
+    "folder": "INBOX",
+    "category": "CATEGORY_SOCIAL",
+    "is_unread": false,
+    "is_starred": false,
+    "is_important": false,
+    "user_labels": [],
+    "attachments": [],
+    "calendar_event": null,
+    "extra_headers": {
+      "List-Unsubscribe": "<https://linkedin.com/psettings/email-unsubscribe>",
+      "Precedence": "bulk"
+    },
+    "size_estimate": 2464,
+    "meta": {
+      "email_class": "recruiting",
+      "tricky_tags": [],
+      "is_actionable_for_user": false,
+      "action_owner": null,
+      "action_summary": "No action required; unsolicited recruiter outreach to Marcus himself, not a work task.",
+      "due_date": null,
+      "commitment_made_by_user": null,
+      "commitment_is_conditional": false,
+      "commitment_condition": null,
+      "superseded_by_message_id": null,
+      "notes": null
+    }
+  },
+  {
+    "id": "d30f18c2e4b60010",
+    "thread_id": "d30f18c2e4b60010",
+    "profile_id": "hr",
+    "history_id": "752855",
+    "message_id_header": "<d30f18c2e4b60010@lyrahealth.com>",
+    "in_reply_to": null,
+    "references": [],
+    "thread_position": 1,
+    "thread_length": 1,
+    "from": {
+      "name": "Lyra Health",
+      "email": "partnerships@lyrahealth.com"
+    },
+    "to": [
+      {
+        "name": "Marcus Bell",
+        "email": "marcus.bell@vireohealth.com"
+      }
+    ],
+    "cc": [],
+    "bcc": [],
+    "delivered_to": "marcus.bell@vireohealth.com",
+    "subject": "Give your 200 employees better mental health support (and cut costs)",
+    "snippet": "Marcus, Healthcare workers burn out fast, and clinical staff are the hardest hit. Lyra Health gives your 200 employees same-week access to therapists and coaches, with an average o",
+    "body_text": "Marcus,\n\nHealthcare workers burn out fast, and clinical staff are the hardest hit. Lyra Health gives your 200 employees same-week access to therapists and coaches, with an average of 30% lower per-episode cost than a traditional EAP.\n\nWe work with several Colorado health systems already and can share utilization benchmarks specific to your size. Worth 20 minutes to compare against your current EAP vendor?\n\nBook time: https://calendly.com/lyra-partnerships/intro\n\nBest,\nThe Lyra Health Partnerships Team",
+    "body_html": "<div style='font-family:Arial;max-width:600px'><h3>Mental health benefits that actually get used</h3><p>30% lower cost per episode than a traditional EAP.</p><a href='https://calendly.com/lyra-partnerships/intro' style='color:#00a19a'>Book 20 minutes &rarr;</a></div>",
+    "date": "2026-07-27T09:55:00-07:00",
+    "internal_date_ms": 1785171300000,
+    "folder": "INBOX",
+    "category": "CATEGORY_PROMOTIONS",
+    "is_unread": false,
+    "is_starred": false,
+    "is_important": false,
+    "user_labels": [],
+    "attachments": [],
+    "calendar_event": null,
+    "extra_headers": {
+      "List-Unsubscribe": "<mailto:unsub@lyrahealth.com>, <https://lyrahealth.com/e/unsub/4471>",
+      "List-Unsubscribe-Post": "List-Unsubscribe=One-Click",
+      "Precedence": "bulk"
+    },
+    "size_estimate": 2573,
+    "meta": {
+      "email_class": "cold_outreach",
+      "tricky_tags": [],
+      "is_actionable_for_user": false,
+      "action_owner": null,
+      "action_summary": "No action required; benefits vendor cold pitch.",
+      "due_date": null,
+      "commitment_made_by_user": null,
+      "commitment_is_conditional": false,
+      "commitment_condition": null,
+      "superseded_by_message_id": null,
+      "notes": null
+    }
+  },
+  {
+    "id": "d30f18c2e4b60011",
+    "thread_id": "d30f18c2e4b60011",
+    "profile_id": "hr",
+    "history_id": "771160",
+    "message_id_header": "<d30f18c2e4b60011@indeed.com>",
+    "in_reply_to": null,
+    "references": [],
+    "thread_position": 1,
+    "thread_length": 1,
+    "from": {
+      "name": "Indeed Job Alerts",
+      "email": "alerts@indeed.com"
+    },
+    "to": [
+      {
+        "name": "Marcus Bell",
+        "email": "marcus.bell@vireohealth.com"
+      }
+    ],
+    "cc": [],
+    "bcc": [],
+    "delivered_to": "marcus.bell@vireohealth.com",
+    "subject": "Your job alert: 12 new Registered Nurse jobs near Denver, CO",
+    "snippet": "12 new Registered Nurse jobs match your alert near Denver, CO. View them on Indeed.com.",
+    "body_text": "12 new Registered Nurse jobs match your alert near Denver, CO. View them on Indeed.com.",
+    "body_html": "<p>12 new <b>Registered Nurse</b> jobs near Denver, CO. <a href='https://indeed.com/jobs?q=registered+nurse&l=Denver'>View jobs</a></p>",
+    "date": "2026-08-09T05:00:00-05:00",
+    "internal_date_ms": 1786269600000,
+    "folder": "INBOX",
+    "category": "CATEGORY_UPDATES",
+    "is_unread": true,
+    "is_starred": false,
+    "is_important": false,
+    "user_labels": [],
+    "attachments": [],
+    "calendar_event": null,
+    "extra_headers": {},
+    "size_estimate": 2022,
+    "meta": {
+      "email_class": "automated_notification",
+      "tricky_tags": [],
+      "is_actionable_for_user": false,
+      "action_owner": null,
+      "action_summary": "No action required; stale job-seeker alert from a job board account Marcus no longer uses personally.",
+      "due_date": null,
+      "commitment_made_by_user": null,
+      "commitment_is_conditional": false,
+      "commitment_condition": null,
+      "superseded_by_message_id": null,
+      "notes": null
+    }
+  },
+  {
+    "id": "d30f18c2e4b60012",
+    "thread_id": "d30f18c2e4b60012",
+    "profile_id": "hr",
+    "history_id": "762640",
+    "message_id_header": "<d30f18c2e4b60012@shrm.org>",
+    "in_reply_to": null,
+    "references": [],
+    "thread_position": 1,
+    "thread_length": 1,
+    "from": {
+      "name": "SHRM Membership",
+      "email": "membership@shrm.org"
+    },
+    "to": [
+      {
+        "name": "Marcus Bell",
+        "email": "marcus.bell@vireohealth.com"
+      }
+    ],
+    "cc": [],
+    "bcc": [],
+    "delivered_to": "marcus.bell@vireohealth.com",
+    "subject": "Your SHRM membership renews in 30 days",
+    "snippet": "Your SHRM membership (member #SH-2249817) auto-renews September 11 at $259/year unless cancelled.",
+    "body_text": "Your SHRM membership (member #SH-2249817) auto-renews September 11 at $259/year unless cancelled.",
+    "body_html": "<p>Membership #SH-2249817 auto-renews Sept 11 at $259/yr. <a href='https://shrm.org/account/membership'>Manage membership</a></p>",
+    "date": "2026-08-03T08:00:00-04:00",
+    "internal_date_ms": 1785758400000,
+    "folder": "INBOX",
+    "category": "CATEGORY_UPDATES",
+    "is_unread": false,
+    "is_starred": false,
+    "is_important": false,
+    "user_labels": [],
+    "attachments": [],
+    "calendar_event": null,
+    "extra_headers": {},
+    "size_estimate": 2026,
+    "meta": {
+      "email_class": "automated_notification",
+      "tricky_tags": [],
+      "is_actionable_for_user": false,
+      "action_owner": null,
+      "action_summary": "No action required; auto-renewal proceeds by default and the fee is immaterial.",
+      "due_date": null,
+      "commitment_made_by_user": null,
+      "commitment_is_conditional": false,
+      "commitment_condition": null,
+      "superseded_by_message_id": null,
+      "notes": null
+    }
+  },
+  {
+    "id": "d30f18c2e4b60013",
+    "thread_id": "d30f18c2e4b60013",
+    "profile_id": "hr",
+    "history_id": "732720",
+    "message_id_header": "<d30f18c2e4b60013@gusto.com>",
+    "in_reply_to": null,
+    "references": [],
+    "thread_position": 1,
+    "thread_length": 1,
+    "from": {
+      "name": "Gusto for Employers",
+      "email": "news@gusto.com"
+    },
+    "to": [
+      {
+        "name": "Marcus Bell",
+        "email": "marcus.bell@vireohealth.com"
+      }
+    ],
+    "cc": [],
+    "bcc": [],
+    "delivered_to": "marcus.bell@vireohealth.com",
+    "subject": "Open enrollment season is coming \u2014 are you ready?",
+    "snippet": "Hi Marcus, Open enrollment sneaks up fast. Gusto's benefits platform handles plan comparisons, employee elections, and carrier file feeds automatically \u2014 no more spreadsheet reconc",
+    "body_text": "Hi Marcus,\n\nOpen enrollment sneaks up fast. Gusto's benefits platform handles plan comparisons, employee elections, and carrier file feeds automatically \u2014 no more spreadsheet reconciliation at 11pm in November.\n\nWe'd love to show you how teams around 200 employees run enrollment in Gusto in about half the time. First 30 days free if you switch before October.\n\nSee a demo: https://gusto.com/demo/open-enrollment\n\nThe Gusto Team",
+    "body_html": "<div style='font-family:Arial;max-width:600px'><h3>Open enrollment, without the spreadsheets</h3><p>First 30 days free if you switch before October.</p><a href='https://gusto.com/demo/open-enrollment' style='color:#f45d48'>See a demo &rarr;</a></div>",
+    "date": "2026-07-13T10:20:00-07:00",
+    "internal_date_ms": 1783963200000,
+    "folder": "INBOX",
+    "category": "CATEGORY_PROMOTIONS",
+    "is_unread": false,
+    "is_starred": false,
+    "is_important": false,
+    "user_labels": [],
+    "attachments": [],
+    "calendar_event": null,
+    "extra_headers": {
+      "List-Unsubscribe": "<mailto:unsub@gusto.com>, <https://gusto.com/e/unsub?t=vireo>",
+      "List-Unsubscribe-Post": "List-Unsubscribe=One-Click",
+      "Precedence": "bulk"
+    },
+    "size_estimate": 2481,
+    "meta": {
+      "email_class": "promotional",
+      "tricky_tags": [],
+      "is_actionable_for_user": false,
+      "action_owner": null,
+      "action_summary": "No action required; Vireo already runs payroll on a different platform, this is cold vendor marketing.",
+      "due_date": null,
+      "commitment_made_by_user": null,
+      "commitment_is_conditional": false,
+      "commitment_condition": null,
+      "superseded_by_message_id": null,
+      "notes": null
+    }
+  },
+  {
+    "id": "d30f18c2e4b60014",
+    "thread_id": "d30f18c2e4b60014",
+    "profile_id": "hr",
+    "history_id": "748760",
+    "message_id_header": "<d30f18c2e4b60014@checkr.com>",
+    "in_reply_to": null,
+    "references": [],
+    "thread_position": 1,
+    "thread_length": 1,
+    "from": {
+      "name": "Checkr",
+      "email": "hello@checkr.com"
+    },
+    "to": [
+      {
+        "name": "Marcus Bell",
+        "email": "marcus.bell@vireohealth.com"
+      }
+    ],
+    "cc": [],
+    "bcc": [],
+    "delivered_to": "marcus.bell@vireohealth.com",
+    "subject": "Faster background checks for healthcare hiring",
+    "snippet": "Hi Marcus, Healthcare and clinical background checks (license verification, OIG/SAM exclusion checks, sanctions screening) usually take 5-7 business days with most providers. Check",
+    "body_text": "Hi Marcus,\n\nHealthcare and clinical background checks (license verification, OIG/SAM exclusion checks, sanctions screening) usually take 5-7 business days with most providers. Checkr Healthcare Edition gets it down to 24-48 hours for most candidates, with automatic re-screening on license renewal dates.\n\nGiven your nurse hiring volume, this could meaningfully shorten your time-to-start. Want a side-by-side of your current turnaround vs. ours?\n\nReply and we'll pull the numbers.\n\nBest,\nThe Checkr Team",
+    "body_html": "<p style='font-family:Arial'>Clinical checks in 24-48 hrs, not 5-7 days. <a href='https://checkr.com/healthcare'>See how</a>.</p>",
+    "date": "2026-07-24T13:40:00-07:00",
+    "internal_date_ms": 1784925600000,
+    "folder": "INBOX",
+    "category": "CATEGORY_PROMOTIONS",
+    "is_unread": false,
+    "is_starred": false,
+    "is_important": false,
+    "user_labels": [],
+    "attachments": [],
+    "calendar_event": null,
+    "extra_headers": {
+      "List-Unsubscribe": "<mailto:unsub@checkr.com>, <https://checkr.com/e/unsub/vireo>",
+      "List-Unsubscribe-Post": "List-Unsubscribe=One-Click",
+      "Precedence": "bulk"
+    },
+    "size_estimate": 2433,
+    "meta": {
+      "email_class": "cold_outreach",
+      "tricky_tags": [],
+      "is_actionable_for_user": false,
+      "action_owner": null,
+      "action_summary": "No action required; competitive vendor pitch, Checkr is already the incumbent (see order #CHK-88213).",
+      "due_date": null,
+      "commitment_made_by_user": null,
+      "commitment_is_conditional": false,
+      "commitment_condition": null,
+      "superseded_by_message_id": null,
+      "notes": null
+    }
+  },
+  {
+    "id": "d30f18c2e4b60015",
+    "thread_id": "d30f18c2e4b60015",
+    "profile_id": "hr",
+    "history_id": "758695",
+    "message_id_header": "<d30f18c2e4b60015@cultureamp.com>",
+    "in_reply_to": null,
+    "references": [],
+    "thread_position": 1,
+    "thread_length": 1,
+    "from": {
+      "name": "Culture Amp Research",
+      "email": "insights@cultureamp.com"
+    },
+    "to": [
+      {
+        "name": "Marcus Bell",
+        "email": "marcus.bell@vireohealth.com"
+      }
+    ],
+    "cc": [],
+    "bcc": [],
+    "delivered_to": "marcus.bell@vireohealth.com",
+    "subject": "Benchmark report: How healthcare orgs compare on engagement",
+    "snippet": "Hi Marcus, We just closed out our 2026 mid-year benchmark analysis, pulling engagement survey data from more than 210 healthcare and healthcare-services organizations on Culture Am",
+    "body_text": "Hi Marcus,\n\nWe just closed out our 2026 mid-year benchmark analysis, pulling engagement survey data from more than 210 healthcare and healthcare-services organizations on Culture Amp, ranging from 50 to 5,000 employees. I wanted to share the highlights directly since Vireo Health Systems ran its own engagement survey with us back in Q1, and several of these trends line up closely with patterns we're seeing across your peer set.\n\nFirst, the headline number: average engagement across healthcare organizations sits at 68% this year, down two points from 2025. The drop is almost entirely concentrated in frontline clinical roles \u2014 nursing, in particular, is down five points year over year, while corporate and administrative functions actually ticked up slightly. Manager relationship and workload/burnout questions are the two categories dragging the overall score down the hardest. Organizations that scored well on both tend to share a few practices: skip-level check-ins at least once a quarter, a formal process for escalating staffing-ratio concerns, and manager training that specifically addresses recognition, not just performance management.\n\nSecond, retention. Voluntary turnover among RNs across our healthcare cohort averaged 19.4% this year, essentially flat versus last year, but the organizations in the bottom quartile for engagement had turnover north of 27%. The correlation between engagement score and RN retention is stronger this year than any year we've measured it, which suggests engagement work isn't just a nice-to-have right now \u2014 for organizations fighting a nursing retention problem, it may be one of the more cost-effective levers available, especially compared to sign-on bonuses, which our data continues to show have a weak effect on 12-month retention.\n\nThird, a smaller but interesting finding: organizations that shared survey results back with employees within two weeks of close (versus the more typical 4-6 weeks) saw participation rates in the following cycle rise by an average of 11 points. Speed of communication seems to matter more than the specifics of what's communicated.\n\nI'd like to walk you through the full report and, if useful, pull a custom cut comparing Vireo's Q1 results against this healthcare-specific benchmark rather than our all-industry default. Given the nurse retention conversations I know are live for you right now, I think the RN-specific slice would be the most actionable part.\n\nOne more thing worth flagging: we also broke the data out by tenure band this year for the first time. Engagement among staff in their first 90 days is actually quite high across the cohort \u2014 averaging 76% \u2014 but it falls off sharply between month 6 and month 18, which is a pattern we don't see nearly as strongly outside healthcare. A few organizations we work with have started running a dedicated 'stay interview' at the six-month mark specifically to catch that dip before it turns into a resignation, and early results look promising, though the sample size is still small enough that I'd call it a trend to watch rather than a proven fix.\n\nHappy to send the raw benchmark deck ahead of any call if that's easier than scheduling something cold \u2014 just let me know which is more useful.\n\nLet me know if a 30-minute review call works sometime in the next couple of weeks.\n\nBest,\nThe Culture Amp Research Team\ninsights@cultureamp.com",
+    "body_html": "<div style='font-family:Georgia,serif;max-width:640px'><h2>2026 Healthcare Engagement Benchmark</h2><p>210+ organizations. Engagement down to 68%, nursing down 5 points.</p><a href='https://cultureamp.com/benchmarks/healthcare-2026' style='color:#7952cc'>Read the full report &rarr;</a></div>",
+    "date": "2026-07-31T11:15:00-07:00",
+    "internal_date_ms": 1785521700000,
+    "folder": "INBOX",
+    "category": "CATEGORY_PROMOTIONS",
+    "is_unread": false,
+    "is_starred": false,
+    "is_important": false,
+    "user_labels": [],
+    "attachments": [],
+    "calendar_event": null,
+    "extra_headers": {
+      "List-Unsubscribe": "<mailto:unsub@cultureamp.com>, <https://cultureamp.com/e/unsub/vireo881>",
+      "List-Unsubscribe-Post": "List-Unsubscribe=One-Click",
+      "Precedence": "bulk",
+      "List-ID": "Culture Amp Research <research.cultureamp.com>"
+    },
+    "size_estimate": 5493,
+    "meta": {
+      "email_class": "promotional",
+      "tricky_tags": [],
+      "is_actionable_for_user": false,
+      "action_owner": null,
+      "action_summary": "Interesting benchmark data but no obligation created; Marcus may choose to request the custom cut later.",
+      "due_date": null,
+      "commitment_made_by_user": null,
+      "commitment_is_conditional": false,
+      "commitment_condition": null,
+      "superseded_by_message_id": null,
+      "notes": null
+    }
+  },
+  {
+    "id": "d30f18c2e4b60016",
+    "thread_id": "d30f18c2e4b60016",
+    "profile_id": "hr",
+    "history_id": "738405",
+    "message_id_header": "<d30f18c2e4b60016@sequoia.com>",
+    "in_reply_to": null,
+    "references": [],
+    "thread_position": 1,
+    "thread_length": 1,
+    "from": {
+      "name": "Sequoia One",
+      "email": "hello@sequoia.com"
+    },
+    "to": [
+      {
+        "name": "Marcus Bell",
+        "email": "marcus.bell@vireohealth.com"
+      }
+    ],
+    "cc": [],
+    "bcc": [],
+    "delivered_to": "marcus.bell@vireohealth.com",
+    "subject": "Introducing Sequoia One Wellness+: mental health benefits built for frontline healthcare teams",
+    "snippet": "Hi Marcus, We're launching Wellness+, a mental health add-on designed specifically for frontline healthcare staff \u2014 24/7 crisis line, shift-friendly scheduling for therapy sessions",
+    "body_text": "Hi Marcus,\n\nWe're launching Wellness+, a mental health add-on designed specifically for frontline healthcare staff \u2014 24/7 crisis line, shift-friendly scheduling for therapy sessions, and a manager toolkit for supporting staff through critical incidents.\n\nPricing starts around $8/employee/month depending on group size. Happy to run the numbers for a 200-person org.\n\nLearn more: https://sequoia.com/wellness-plus\n\nBest,\nThe Sequoia One Team",
+    "body_html": "<p style='font-family:Arial'>Wellness+ for frontline healthcare teams. From $8/employee/mo. <a href='https://sequoia.com/wellness-plus'>Learn more</a></p>",
+    "date": "2026-07-17T09:05:00-07:00",
+    "internal_date_ms": 1784304300000,
+    "folder": "INBOX",
+    "category": "CATEGORY_PROMOTIONS",
+    "is_unread": false,
+    "is_starred": false,
+    "is_important": false,
+    "user_labels": [
+      "Label_6632"
+    ],
+    "attachments": [],
+    "calendar_event": null,
+    "extra_headers": {
+      "List-Unsubscribe": "<mailto:unsub@sequoia.com>, <https://sequoia.com/e/unsub/vireo>",
+      "List-Unsubscribe-Post": "List-Unsubscribe=One-Click",
+      "Precedence": "bulk"
+    },
+    "size_estimate": 2397,
+    "meta": {
+      "email_class": "promotional",
+      "tricky_tags": [],
+      "is_actionable_for_user": false,
+      "action_owner": null,
+      "action_summary": "No action required; add-on product announcement from PEO/benefits vendor.",
+      "due_date": null,
+      "commitment_made_by_user": null,
+      "commitment_is_conditional": false,
+      "commitment_condition": null,
+      "superseded_by_message_id": null,
+      "notes": null
+    }
+  },
+  {
+    "id": "d30f18c2e4b60017",
+    "thread_id": "d30f18c2e4b60017",
+    "profile_id": "hr",
+    "history_id": "741055",
+    "message_id_header": "<d30f18c2e4b60017@shrm.org>",
+    "in_reply_to": null,
+    "references": [],
+    "thread_position": 1,
+    "thread_length": 1,
+    "from": {
+      "name": "SHRM26 Annual Conference",
+      "email": "registration@shrm.org"
+    },
+    "to": [
+      {
+        "name": "Marcus Bell",
+        "email": "marcus.bell@vireohealth.com"
+      }
+    ],
+    "cc": [],
+    "bcc": [],
+    "delivered_to": "marcus.bell@vireohealth.com",
+    "subject": "SHRM26 Annual Conference & Expo \u2014 early bird registration ends Friday",
+    "snippet": "Hi Marcus, Early bird pricing for SHRM26 (June 2027, San Diego) ends this Friday \u2014 save $300 off the standard rate. This year's tracks include AI in talent acquisition, healthcare ",
+    "body_text": "Hi Marcus,\n\nEarly bird pricing for SHRM26 (June 2027, San Diego) ends this Friday \u2014 save $300 off the standard rate. This year's tracks include AI in talent acquisition, healthcare workforce strategy, and pay transparency compliance across all 50 states.\n\nRegister before Friday to lock in $1,395 (vs. $1,695 standard).\n\nRegister now: https://shrm.org/shrm26/register\n\nSee you in San Diego,\nSHRM Events",
+    "body_html": "<div style='font-family:Arial;max-width:600px'><h3>SHRM26: Early bird ends Friday</h3><p>Save $300 \u2014 register for $1,395.</p><a href='https://shrm.org/shrm26/register' style='color:#e87722'>Register now &rarr;</a></div>",
+    "date": "2026-07-19T08:15:00-04:00",
+    "internal_date_ms": 1784463300000,
+    "folder": "INBOX",
+    "category": "CATEGORY_PROMOTIONS",
+    "is_unread": false,
+    "is_starred": false,
+    "is_important": false,
+    "user_labels": [],
+    "attachments": [],
+    "calendar_event": null,
+    "extra_headers": {
+      "List-Unsubscribe": "<mailto:unsub@shrm.org>, <https://shrm.org/e/unsub/shrm26>",
+      "List-Unsubscribe-Post": "List-Unsubscribe=One-Click",
+      "Precedence": "bulk"
+    },
+    "size_estimate": 2425,
+    "meta": {
+      "email_class": "promotional",
+      "tricky_tags": [],
+      "is_actionable_for_user": false,
+      "action_owner": null,
+      "action_summary": "No action required; standard conference registration marketing, not one Marcus has committed to attending.",
+      "due_date": null,
+      "commitment_made_by_user": null,
+      "commitment_is_conditional": false,
+      "commitment_condition": null,
+      "superseded_by_message_id": null,
+      "notes": null
+    }
+  },
+  {
+    "id": "d30f18c2e4b60018",
+    "thread_id": "d30f18c2e4b60018",
+    "profile_id": "hr",
+    "history_id": "764290",
+    "message_id_header": "<d30f18c2e4b60018@indeed.com>",
+    "in_reply_to": null,
+    "references": [],
+    "thread_position": 1,
+    "thread_length": 1,
+    "from": {
+      "name": "Indeed for Employers",
+      "email": "employer-updates@indeed.com"
+    },
+    "to": [
+      {
+        "name": "Marcus Bell",
+        "email": "marcus.bell@vireohealth.com"
+      }
+    ],
+    "cc": [],
+    "bcc": [],
+    "delivered_to": "marcus.bell@vireohealth.com",
+    "subject": "Boost your Registered Nurse postings \u2014 Sponsored Jobs get 3x more applies",
+    "snippet": "Hi Marcus, Your Registered Nurse posting has been live for 18 days with 6 applicants. Sponsored Jobs get 3x more applies on average \u2014 for RN roles in the Denver metro, that's typic",
+    "body_text": "Hi Marcus,\n\nYour Registered Nurse posting has been live for 18 days with 6 applicants. Sponsored Jobs get 3x more applies on average \u2014 for RN roles in the Denver metro, that's typically an extra 12-15 applicants within a week.\n\nBoost this posting for as little as $5/day: https://employers.indeed.com/boost?job=rn-vireo-8842\n\nThe Indeed Team",
+    "body_html": "<p>Your RN posting: 6 applicants in 18 days. Sponsored Jobs average 3x more. <a href='https://employers.indeed.com/boost?job=rn-vireo-8842'>Boost for $5/day</a></p>",
+    "date": "2026-08-04T10:30:00-05:00",
+    "internal_date_ms": 1785857400000,
+    "folder": "INBOX",
+    "category": "CATEGORY_PROMOTIONS",
+    "is_unread": true,
+    "is_starred": false,
+    "is_important": false,
+    "user_labels": [],
+    "attachments": [],
+    "calendar_event": null,
+    "extra_headers": {
+      "List-Unsubscribe": "<mailto:unsub@indeed.com>, <https://indeed.com/e/unsub/employer>",
+      "List-Unsubscribe-Post": "List-Unsubscribe=One-Click",
+      "Precedence": "bulk"
+    },
+    "size_estimate": 2307,
+    "meta": {
+      "email_class": "promotional",
+      "tricky_tags": [],
+      "is_actionable_for_user": false,
+      "action_owner": "tim.osei@vireohealth.com",
+      "action_summary": "No action required for Marcus directly; would route to Recruiting if the posting needs a boost.",
+      "due_date": null,
+      "commitment_made_by_user": null,
+      "commitment_is_conditional": false,
+      "commitment_condition": null,
+      "superseded_by_message_id": null,
+      "notes": null
+    }
+  },
+  {
+    "id": "d30f18c2e4b60019",
+    "thread_id": "d30f18c2e4b60019",
+    "profile_id": "hr",
+    "history_id": "696625",
+    "message_id_header": "<d30f18c2e4b60019@bamboohr.com>",
+    "in_reply_to": null,
+    "references": [],
+    "thread_position": 1,
+    "thread_length": 1,
+    "from": {
+      "name": "BambooHR",
+      "email": "hello@bamboohr.com"
+    },
+    "to": [
+      {
+        "name": "Marcus Bell",
+        "email": "marcus.bell@vireohealth.com"
+      }
+    ],
+    "cc": [],
+    "bcc": [],
+    "delivered_to": "marcus.bell@vireohealth.com",
+    "subject": "Ditch the spreadsheets: BambooHR for growing healthcare teams",
+    "snippet": "Hi Marcus, At 200 employees, most HR teams we talk to are still tracking PTO, onboarding checklists, and org charts across four or five different spreadsheets. BambooHR consolidate",
+    "body_text": "Hi Marcus,\n\nAt 200 employees, most HR teams we talk to are still tracking PTO, onboarding checklists, and org charts across four or five different spreadsheets. BambooHR consolidates all of it into one system, with a mobile app employees actually use.\n\nWe work with a few healthcare systems your size already and can share a rough implementation timeline. Worth a look?\n\nSee a demo: https://bamboohr.com/demo\n\nThe BambooHR Team",
+    "body_html": "<p style='font-family:Arial'>One system instead of five spreadsheets. <a href='https://bamboohr.com/demo'>See a demo</a></p>",
+    "date": "2026-06-18T09:45:00-06:00",
+    "internal_date_ms": 1781797500000,
+    "folder": "INBOX",
+    "category": "CATEGORY_PROMOTIONS",
+    "is_unread": false,
+    "is_starred": false,
+    "is_important": false,
+    "user_labels": [],
+    "attachments": [],
+    "calendar_event": null,
+    "extra_headers": {
+      "List-Unsubscribe": "<mailto:unsub@bamboohr.com>, <https://bamboohr.com/e/unsub/vireo>",
+      "List-Unsubscribe-Post": "List-Unsubscribe=One-Click",
+      "Precedence": "bulk"
+    },
+    "size_estimate": 2351,
+    "meta": {
+      "email_class": "cold_outreach",
+      "tricky_tags": [],
+      "is_actionable_for_user": false,
+      "action_owner": null,
+      "action_summary": "No action required; unsolicited HRIS pitch, Vireo already runs Workday.",
+      "due_date": null,
+      "commitment_made_by_user": null,
+      "commitment_is_conditional": false,
+      "commitment_condition": null,
+      "superseded_by_message_id": null,
+      "notes": null
+    }
+  },
+  {
+    "id": "d30f18c2e4b60020",
+    "thread_id": "d30f18c2e4b60020",
+    "profile_id": "hr",
+    "history_id": "759820",
+    "message_id_header": "<d30f18c2e4b60020@gusto.com>",
+    "in_reply_to": null,
+    "references": [],
+    "thread_position": 1,
+    "thread_length": 1,
+    "from": {
+      "name": "Gusto",
+      "email": "payroll-noreply@gusto.com"
+    },
+    "to": [
+      {
+        "name": "Marcus Bell",
+        "email": "marcus.bell@vireohealth.com"
+      }
+    ],
+    "cc": [],
+    "bcc": [],
+    "delivered_to": "marcus.bell@vireohealth.com",
+    "subject": "Your Gusto payroll summary for July is ready",
+    "snippet": "Your July payroll summary is ready to view in your Gusto account.",
+    "body_text": "Your July payroll summary is ready to view in your Gusto account.",
+    "body_html": "<p>Your July payroll summary is ready. <a href='https://gusto.com/reports'>View it</a>.</p>",
+    "date": "2026-08-01T06:00:00-07:00",
+    "internal_date_ms": 1785589200000,
+    "folder": "INBOX",
+    "category": "CATEGORY_UPDATES",
+    "is_unread": false,
+    "is_starred": false,
+    "is_important": false,
+    "user_labels": [],
+    "attachments": [],
+    "calendar_event": null,
+    "extra_headers": {},
+    "size_estimate": 2000,
+    "meta": {
+      "email_class": "automated_notification",
+      "tricky_tags": [],
+      "is_actionable_for_user": false,
+      "action_owner": null,
+      "action_summary": "No action required; Vireo doesn't run payroll through Gusto \u2014 likely a demo account artifact from an earlier sales call.",
+      "due_date": null,
+      "commitment_made_by_user": null,
+      "commitment_is_conditional": false,
+      "commitment_condition": null,
+      "superseded_by_message_id": null,
+      "notes": null
+    }
+  },
+  {
+    "id": "d30f18c2e4b60021",
+    "thread_id": "d30f18c2e4b60021",
+    "profile_id": "hr",
+    "history_id": "733990",
+    "message_id_header": "<d30f18c2e4b60021@cultureamp.com>",
+    "in_reply_to": null,
+    "references": [],
+    "thread_position": 1,
+    "thread_length": 1,
+    "from": {
+      "name": "Culture Amp",
+      "email": "notifications@cultureamp.com"
+    },
+    "to": [
+      {
+        "name": "Marcus Bell",
+        "email": "marcus.bell@vireohealth.com"
+      }
+    ],
+    "cc": [],
+    "bcc": [],
+    "delivered_to": "marcus.bell@vireohealth.com",
+    "subject": "Reminder: your engagement survey results are ready to view",
+    "snippet": "Hi Marcus, Your Q1 engagement survey results have been ready to view for a few weeks now. Response rate was 84% (168 of 200 employees). Log in to see the breakdown by department an",
+    "body_text": "Hi Marcus,\n\nYour Q1 engagement survey results have been ready to view for a few weeks now. Response rate was 84% (168 of 200 employees). Log in to see the breakdown by department and manager.\n\nView results: https://cultureamp.com/results/vireo-q1\n\n\u2014 Culture Amp",
+    "body_html": "<p>Q1 results ready \u2014 84% response rate. <a href='https://cultureamp.com/results/vireo-q1'>View results</a></p>",
+    "date": "2026-07-14T07:30:00-07:00",
+    "internal_date_ms": 1784039400000,
+    "folder": "INBOX",
+    "category": "CATEGORY_UPDATES",
+    "is_unread": false,
+    "is_starred": false,
+    "is_important": false,
+    "user_labels": [],
+    "attachments": [],
+    "calendar_event": null,
+    "extra_headers": {},
+    "size_estimate": 2176,
+    "meta": {
+      "email_class": "automated_notification",
+      "tricky_tags": [],
+      "is_actionable_for_user": false,
+      "action_owner": null,
+      "action_summary": "No action required for this reminder itself; results were already reviewed with leadership in Q1.",
+      "due_date": null,
+      "commitment_made_by_user": null,
+      "commitment_is_conditional": false,
+      "commitment_condition": null,
+      "superseded_by_message_id": null,
+      "notes": null
+    }
+  },
+  {
+    "id": "d30f18c2e4b60022",
+    "thread_id": "d30f18c2e4b60022",
+    "profile_id": "hr",
+    "history_id": "756790",
+    "message_id_header": "<d30f18c2e4b60022@hr-brew.com>",
+    "in_reply_to": null,
+    "references": [],
+    "thread_position": 1,
+    "thread_length": 1,
+    "from": {
+      "name": "HR Brew",
+      "email": "crew@hr-brew.com"
+    },
+    "to": [
+      {
+        "name": "Marcus Bell",
+        "email": "marcus.bell@vireohealth.com"
+      }
+    ],
+    "cc": [],
+    "bcc": [],
+    "delivered_to": "marcus.bell@vireohealth.com",
+    "subject": "HR Brew: Why nurse burnout is reshaping retention strategy",
+    "snippet": "Good morning, THE BIG STORY: Why nurse burnout is reshaping retention strategy A new joint survey from the American Nurses Foundation and a coalition of health system HR leaders fi",
+    "body_text": "Good morning,\n\nTHE BIG STORY: Why nurse burnout is reshaping retention strategy\n\nA new joint survey from the American Nurses Foundation and a coalition of health system HR leaders finds that 41% of bedside nurses say they're 'somewhat' or 'very' likely to leave their current role in the next 12 months \u2014 up from 34% two years ago. The reasons aren't primarily about pay. Staffing ratios, mandatory overtime, and a perceived lack of voice in scheduling decisions top the list.\n\nWhat's working: health systems that have stood up formal 'staffing escalation' processes \u2014 a defined, fast path for a charge nurse to flag an unsafe ratio and get a response within the shift, not the following week \u2014 report meaningfully lower turnover among tenured nurses (3+ years). Several HR leaders we talked to this month said the escalation process mattered more to retention than sign-on bonus size, which tracks with what we've seen reported elsewhere.\n\nALSO IN HR THIS WEEK\n\n- Pay transparency: two more states have introduced legislation requiring salary ranges on all job postings, bringing the total to 14 states plus DC. If you hire remote or multi-state, it's worth checking whether your postings already comply with the strictest state you touch.\n\n- AI in hiring: the EEOC issued informal guidance clarifying that employers remain liable for adverse impact caused by AI screening tools, even third-party ones. Several readers wrote in asking whether this changes anything practically \u2014 short answer, it reinforces existing obligations rather than creating new ones, but it's a good prompt to audit whatever screening tool you're using.\n\n- Benefits: open enrollment season is around the corner for calendar-year plans. Early data from brokers suggests average premium increases in the 7-9% range for 2027, driven mostly by specialty drug costs and GLP-1 utilization.\n\n- Comp: a growing number of mid-size employers are moving to twice-yearly comp reviews instead of one annual cycle, citing retention pressure in competitive labor markets. Early data is mixed on whether it actually moves the needle versus just adding administrative overhead.\n\nWORTH YOUR TIME\nA deep dive on how three regional health systems restructured float pools to cut agency nurse spend by 20-30% without increasing core headcount. Read it here: https://hr-brew.com/stories/float-pool-restructuring\n\nREADER MAILBAG\nA People leader at a 250-bed hospital system wrote in last week asking how other HR teams are handling exit interviews for clinical staff, given how time-strapped charge nurses and unit managers already are. The most common answer: a short, five-question async survey sent automatically on the employee's last day, with a live exit interview reserved only for RNs with three or more years of tenure or anyone flagged as a regret loss by their manager. A few readers noted this cut their exit-interview completion rate roughly in half in terms of raw volume, but nearly doubled the completion rate among the tenured group specifically \u2014 which is the population most HR teams actually care about for retention analysis anyway.\n\nThat's it for this week \u2014 see you Thursday.\n\n\u2014 The HR Brew Crew",
+    "body_html": "<div style='font-family:Georgia,serif;max-width:640px'><h2 style='color:#222'>HR Brew</h2><h3>Why nurse burnout is reshaping retention strategy</h3><p>41% of bedside nurses say they're likely to leave in the next 12 months.</p><a href='https://hr-brew.com/stories/float-pool-restructuring' style='color:#ff6b35'>Read the float pool story &rarr;</a><p style='font-size:11px;color:#999'>You're receiving this because you subscribed to HR Brew. <a href='https://hr-brew.com/unsubscribe?u=88213'>Unsubscribe</a></p></div>",
+    "date": "2026-07-30T06:30:00-04:00",
+    "internal_date_ms": 1785407400000,
+    "folder": "INBOX",
+    "category": "CATEGORY_UPDATES",
+    "is_unread": false,
+    "is_starred": false,
+    "is_important": false,
+    "user_labels": [],
+    "attachments": [],
+    "calendar_event": null,
+    "extra_headers": {
+      "List-Unsubscribe": "<mailto:unsubscribe@hr-brew.com>, <https://hr-brew.com/unsubscribe?u=88213>",
+      "List-Unsubscribe-Post": "List-Unsubscribe=One-Click",
+      "Precedence": "bulk",
+      "List-ID": "HR Brew Daily <daily.hr-brew.com>",
+      "Feedback-ID": "88213:hrbrew:daily:BrewFBL"
+    },
+    "size_estimate": 5502,
+    "meta": {
+      "email_class": "newsletter",
+      "tricky_tags": [],
+      "is_actionable_for_user": false,
+      "action_owner": null,
+      "action_summary": "No action required; industry newsletter.",
+      "due_date": null,
+      "commitment_made_by_user": null,
+      "commitment_is_conditional": false,
+      "commitment_condition": null,
+      "superseded_by_message_id": null,
+      "notes": null
+    }
+  },
+  {
+    "id": "d30f18c2e4b60023",
+    "thread_id": "d30f18c2e4b60023",
+    "profile_id": "hr",
+    "history_id": "735400",
+    "message_id_header": "<d30f18c2e4b60023@sequoia.com>",
+    "in_reply_to": null,
+    "references": [],
+    "thread_position": 1,
+    "thread_length": 1,
+    "from": {
+      "name": "Sequoia One Billing",
+      "email": "billing@sequoia.com"
+    },
+    "to": [
+      {
+        "name": "Marcus Bell",
+        "email": "marcus.bell@vireohealth.com"
+      }
+    ],
+    "cc": [],
+    "bcc": [],
+    "delivered_to": "marcus.bell@vireohealth.com",
+    "subject": "Your Q3 benefits invoice is available",
+    "snippet": "Your Q3 benefits administration invoice ($14,220.50) is now available in the Sequoia One portal.",
+    "body_text": "Your Q3 benefits administration invoice ($14,220.50) is now available in the Sequoia One portal.",
+    "body_html": "<p>Q3 invoice: <b>$14,220.50</b>. <a href='https://sequoia.com/billing'>View invoice</a>.</p>",
+    "date": "2026-07-15T07:00:00-07:00",
+    "internal_date_ms": 1784124000000,
+    "folder": "INBOX",
+    "category": "CATEGORY_UPDATES",
+    "is_unread": false,
+    "is_starred": false,
+    "is_important": false,
+    "user_labels": [
+      "Label_6632"
+    ],
+    "attachments": [],
+    "calendar_event": null,
+    "extra_headers": {},
+    "size_estimate": 2000,
+    "meta": {
+      "email_class": "automated_notification",
+      "tricky_tags": [],
+      "is_actionable_for_user": false,
+      "action_owner": "jenna.wu@vireohealth.com",
+      "action_summary": "No action required from Marcus directly; routes to Finance/AP for payment.",
+      "due_date": null,
+      "commitment_made_by_user": null,
+      "commitment_is_conditional": false,
+      "commitment_condition": null,
+      "superseded_by_message_id": null,
+      "notes": null
+    }
+  },
+  {
+    "id": "d30f18c2e4b60024",
+    "thread_id": "d30f18c2e4b60024",
+    "profile_id": "hr",
+    "history_id": "767212",
+    "message_id_header": "<d30f18c2e4b60024@lattice.com>",
+    "in_reply_to": null,
+    "references": [],
+    "thread_position": 1,
+    "thread_length": 1,
+    "from": {
+      "name": "Lattice Billing",
+      "email": "billing@lattice.com"
+    },
+    "to": [
+      {
+        "name": "Marcus Bell",
+        "email": "marcus.bell@vireohealth.com"
+      }
+    ],
+    "cc": [],
+    "bcc": [],
+    "delivered_to": "marcus.bell@vireohealth.com",
+    "subject": "Your Lattice plan: lock in 2026 pricing before it changes",
+    "snippet": "Hi Marcus, Just a heads up \u2014 your Vireo Health Systems Lattice subscription (200 seats, Growth plan) is set to auto-renew on September 11 for another 12 months. Great news: if you ",
+    "body_text": "Hi Marcus,\n\nJust a heads up \u2014 your Vireo Health Systems Lattice subscription (200 seats, Growth plan) is set to auto-renew on September 11 for another 12 months. Great news: if you confirm before then, we can lock in your current rate of $9/seat/month. After September 11, renewals move to our new 2027 pricing of $11/seat/month, which would bring your annual total from roughly $21,600 to $26,400.\n\nNo action needed if you're happy to renew at the new rate \u2014 it'll happen automatically. But if you'd like to lock in current pricing, or want to talk through your seat count before renewal (a few teams find they're paying for seats no one's using), reply here or grab time with your account rep before September 11.\n\nBook a renewal review: https://lattice.com/renewal/schedule\n\nThanks,\nThe Lattice Billing Team",
+    "body_html": "<div style='font-family:Arial;max-width:600px;background:#f9f8ff;padding:16px'><h2 style='color:#5851e5'>Lock in your 2026 rate \ud83c\udf89</h2><p>Renews Sept 11 \u2014 confirm now to keep $9/seat/mo instead of $11/seat/mo.</p><a href='https://lattice.com/renewal/schedule' style='background:#5851e5;color:#fff;padding:10px 18px;border-radius:4px;text-decoration:none;display:inline-block'>Review My Renewal</a></div>",
+    "date": "2026-08-06T09:12:00-07:00",
+    "internal_date_ms": 1786032720000,
+    "folder": "INBOX",
+    "category": "CATEGORY_PROMOTIONS",
+    "is_unread": false,
+    "is_starred": true,
+    "is_important": true,
+    "user_labels": [
+      "Label_6633"
+    ],
+    "attachments": [],
+    "calendar_event": null,
+    "extra_headers": {
+      "List-Unsubscribe": "<mailto:unsub@lattice.com>, <https://lattice.com/e/unsub?id=vireo0912>",
+      "List-Unsubscribe-Post": "List-Unsubscribe=One-Click",
+      "Precedence": "bulk"
+    },
+    "size_estimate": 3021,
+    "meta": {
+      "email_class": "promotional",
+      "tricky_tags": [],
+      "is_actionable_for_user": true,
+      "action_owner": "marcus.bell@vireohealth.com",
+      "action_summary": "Confirm the Lattice renewal before Sept 11 to lock in $9/seat/month; otherwise it auto-renews at $11/seat/month ($26,400/yr vs $21,600/yr).",
+      "due_date": "2026-09-11",
+      "commitment_made_by_user": null,
+      "commitment_is_conditional": false,
+      "commitment_condition": null,
+      "superseded_by_message_id": null,
+      "notes": "Genuinely actionable renewal notice dressed up in marketing/promo styling (confetti emoji, bright CTA button) \u2014 easy to mistake for routine vendor spam and miss the Sept 11 deadline."
+    }
+  },
+  {
+    "id": "d30f18c2e4b60025",
+    "thread_id": "d30f18c2e4b60025",
+    "profile_id": "hr",
+    "history_id": "744100",
+    "message_id_header": "<d30f18c2e4b60025@milestonebenefits.com>",
+    "in_reply_to": null,
+    "references": [],
+    "thread_position": 1,
+    "thread_length": 1,
+    "from": {
+      "name": "Milestone Benefits Advisors",
+      "email": "webinars@milestonebenefits.com"
+    },
+    "to": [
+      {
+        "name": "Marcus Bell",
+        "email": "marcus.bell@vireohealth.com"
+      }
+    ],
+    "cc": [],
+    "bcc": [],
+    "delivered_to": "marcus.bell@vireohealth.com",
+    "subject": "Free webinar: Navigating open enrollment for multi-state healthcare employers",
+    "snippet": "Hi Marcus, Open enrollment for calendar-year plans is 10 weeks out. Join our free 45-minute webinar on August 26 covering: ACA reporting changes for 2027, how to communicate a prem",
+    "body_text": "Hi Marcus,\n\nOpen enrollment for calendar-year plans is 10 weeks out. Join our free 45-minute webinar on August 26 covering: ACA reporting changes for 2027, how to communicate a premium increase without tanking participation, and a checklist for multi-state compliance if you have remote employees.\n\nRegister: https://milestonebenefits.com/webinar/oe2027\n\nMilestone Benefits Advisors",
+    "body_html": "<p style='font-family:Arial'>Free webinar Aug 26: Open enrollment for multi-state employers. <a href='https://milestonebenefits.com/webinar/oe2027'>Register</a></p>",
+    "date": "2026-07-21T09:00:00-06:00",
+    "internal_date_ms": 1784646000000,
+    "folder": "INBOX",
+    "category": "CATEGORY_PROMOTIONS",
+    "is_unread": false,
+    "is_starred": false,
+    "is_important": false,
+    "user_labels": [],
+    "attachments": [],
+    "calendar_event": null,
+    "extra_headers": {
+      "List-Unsubscribe": "<mailto:unsub@milestonebenefits.com>, <https://milestonebenefits.com/e/unsub/8821>",
+      "List-Unsubscribe-Post": "List-Unsubscribe=One-Click",
+      "Precedence": "bulk"
+    },
+    "size_estimate": 2346,
+    "meta": {
+      "email_class": "promotional",
+      "tricky_tags": [],
+      "is_actionable_for_user": false,
+      "action_owner": null,
+      "action_summary": "No action required; general open-enrollment webinar invite from a broker Vireo doesn't currently use.",
+      "due_date": null,
+      "commitment_made_by_user": null,
+      "commitment_is_conditional": false,
+      "commitment_condition": null,
+      "superseded_by_message_id": null,
+      "notes": null
+    }
+  },
+  {
+    "id": "d30f18c2e4b60026",
+    "thread_id": "d30f18c2e4b60026",
+    "profile_id": "hr",
+    "history_id": "761820",
+    "message_id_header": "<d30f18c2e4b60026@glassdoor.com>",
+    "in_reply_to": null,
+    "references": [],
+    "thread_position": 1,
+    "thread_length": 1,
+    "from": {
+      "name": "Glassdoor for Employers",
+      "email": "employers@glassdoor.com"
+    },
+    "to": [
+      {
+        "name": "Marcus Bell",
+        "email": "marcus.bell@vireohealth.com"
+      }
+    ],
+    "cc": [],
+    "bcc": [],
+    "delivered_to": "marcus.bell@vireohealth.com",
+    "subject": "New review posted for Vireo Health Systems: 3.5 stars",
+    "snippet": "A new employee review was posted for Vireo Health Systems. Rating: 3.5/5 \"Decent benefits, but scheduling flexibility for clinical staff could be better. Management is approachable",
+    "body_text": "A new employee review was posted for Vireo Health Systems.\n\nRating: 3.5/5\n\"Decent benefits, but scheduling flexibility for clinical staff could be better. Management is approachable and open enrollment communication has improved this year.\" \u2014 Former Employee, Nursing\n\nView and respond: https://glassdoor.com/employers/vireo-health-systems/reviews",
+    "body_html": "<p>New review (3.5/5): \"Decent benefits, scheduling flexibility could be better...\" <a href='https://glassdoor.com/employers/vireo-health-systems/reviews'>View and respond</a></p>",
+    "date": "2026-08-02T15:20:00-07:00",
+    "internal_date_ms": 1785709200000,
+    "folder": "INBOX",
+    "category": "CATEGORY_SOCIAL",
+    "is_unread": false,
+    "is_starred": false,
+    "is_important": false,
+    "user_labels": [],
+    "attachments": [],
+    "calendar_event": null,
+    "extra_headers": {},
+    "size_estimate": 2328,
+    "meta": {
+      "email_class": "automated_notification",
+      "tricky_tags": [],
+      "is_actionable_for_user": false,
+      "action_owner": null,
+      "action_summary": "No action required; optional to respond, not an obligation.",
+      "due_date": null,
+      "commitment_made_by_user": null,
+      "commitment_is_conditional": false,
+      "commitment_condition": null,
+      "superseded_by_message_id": null,
+      "notes": null
+    }
+  },
+  {
+    "id": "d30f18c2e4b60027",
+    "thread_id": "d30f18c2e4b60027",
+    "profile_id": "hr",
+    "history_id": "742780",
+    "message_id_header": "<d30f18c2e4b60027@nurselinkstaffing.com>",
+    "in_reply_to": null,
+    "references": [],
+    "thread_position": 1,
+    "thread_length": 1,
+    "from": {
+      "name": "NurseLink Staffing",
+      "email": "info@nurselinkstaffing.com"
+    },
+    "to": [
+      {
+        "name": "Marcus Bell",
+        "email": "marcus.bell@vireohealth.com"
+      }
+    ],
+    "cc": [],
+    "bcc": [],
+    "delivered_to": "marcus.bell@vireohealth.com",
+    "subject": "Nurse retention crisis? We can help Vireo Health Systems.",
+    "snippet": "Hi Marcus, We work with mid-size health systems across Colorado to bridge RN staffing gaps while you rebuild your permanent bench. Our travel and per-diem nurses can be on the floo",
+    "body_text": "Hi Marcus,\n\nWe work with mid-size health systems across Colorado to bridge RN staffing gaps while you rebuild your permanent bench. Our travel and per-diem nurses can be on the floor within 5-7 business days, and we handle all credentialing and compliance paperwork.\n\nIf Vireo Health Systems is feeling the retention crunch like a lot of health systems this year, happy to talk rates \u2014 our average bill rate for RN med-surg coverage in the Denver market is $78/hour all-in.\n\nCall or reply anytime.\n\nBest,\nNurseLink Staffing Solutions Team",
+    "body_html": null,
+    "date": "2026-07-20T11:00:00-06:00",
+    "internal_date_ms": 1784566800000,
+    "folder": "INBOX",
+    "category": "CATEGORY_PROMOTIONS",
+    "is_unread": false,
+    "is_starred": false,
+    "is_important": false,
+    "user_labels": [
+      "Label_6630"
+    ],
+    "attachments": [],
+    "calendar_event": null,
+    "extra_headers": {},
+    "size_estimate": 2340,
+    "meta": {
+      "email_class": "cold_outreach",
+      "tricky_tags": [],
+      "is_actionable_for_user": false,
+      "action_owner": null,
+      "action_summary": "No action required; unsolicited staffing agency pitch.",
+      "due_date": null,
+      "commitment_made_by_user": null,
+      "commitment_is_conditional": false,
+      "commitment_condition": null,
+      "superseded_by_message_id": null,
+      "notes": null
+    }
+  },
+  {
+    "id": "d30f18c2e4b60028",
+    "thread_id": "d30f18c2e4b60028",
+    "profile_id": "hr",
+    "history_id": "722585",
+    "message_id_header": "<d30f18c2e4b60028@carestaffpartners.com>",
+    "in_reply_to": null,
+    "references": [],
+    "thread_position": 1,
+    "thread_length": 1,
+    "from": {
+      "name": "CareStaff Partners",
+      "email": "solutions@carestaffpartners.com"
+    },
+    "to": [
+      {
+        "name": "Marcus Bell",
+        "email": "marcus.bell@vireohealth.com"
+      }
+    ],
+    "cc": [],
+    "bcc": [],
+    "delivered_to": "marcus.bell@vireohealth.com",
+    "subject": "Fill your open RN roles in 14 days \u2014 CareStaff Partners",
+    "snippet": "Hi Marcus, My name is Deborah Klinger and I run healthcare partnerships for CareStaff Partners in the Mountain West region. I wanted to reach out directly because we've been workin",
+    "body_text": "Hi Marcus,\n\nMy name is Deborah Klinger and I run healthcare partnerships for CareStaff Partners in the Mountain West region. I wanted to reach out directly because we've been working with several health systems in the Denver metro this year who are dealing with the same story: RN vacancies staying open 60-90+ days, agency spend climbing to cover the gap, and a permanent hiring pipeline that just can't keep pace with turnover.\n\nI don't know the specifics of what Vireo Health Systems is dealing with, but given your size (roughly 200 employees, if our data is right) and the general environment for clinical hiring in Colorado right now, I'd guess you're feeling some version of this. A few things that have worked well for organizations like yours that we partner with:\n\n1. A dedicated 'gap coverage' contract that guarantees a minimum number of credentialed RNs on 30-day notice, so you're not scrambling every time someone gives notice.\n2. A conversion pathway \u2014 travelers and per-diem staff who want to convert to permanent roles do so at a fixed, pre-negotiated placement fee (typically 15% of first-year salary), which tends to be far cheaper than a search firm and results in people who already know your floors and your team.\n3. Credentialing handled entirely on our side \u2014 license verification, background checks, competency testing \u2014 so your People Ops team isn't doing double work when a traveler starts.\n\nWe currently support four health systems in the Front Range with a combined 60+ active placements, and our average time-to-start for an RN med-surg or ICU role is 9 days from signed contract to first shift.\n\nOne more data point that might be useful regardless of whether we ever work together: across our Front Range partners, the single biggest predictor of whether a traveler converts to a permanent hire isn't pay \u2014 it's whether they get a real orientation to the unit's specific workflows in the first week, versus being treated as plug-and-play coverage. Units that assign a dedicated preceptor for the first five shifts see conversion rates roughly twice as high as units that don't, even when pay and schedule are identical. It's a small operational fix but it seems to matter more than almost anything else we track.\n\nI'd love 20 minutes to hear what your current staffing model looks like and whether there's a fit. No pressure either way \u2014 happy to just share our Denver-market rate card if that's more useful right now.\n\nBest,\nDeborah Klinger\nRegional Partnerships, CareStaff Partners\n(303) 555-0177 | solutions@carestaffpartners.com",
+    "body_html": null,
+    "date": "2026-07-06T10:25:00-06:00",
+    "internal_date_ms": 1783355100000,
+    "folder": "INBOX",
+    "category": "CATEGORY_PROMOTIONS",
+    "is_unread": false,
+    "is_starred": false,
+    "is_important": false,
+    "user_labels": [
+      "Label_6630"
+    ],
+    "attachments": [],
+    "calendar_event": null,
+    "extra_headers": {},
+    "size_estimate": 4374,
+    "meta": {
+      "email_class": "cold_outreach",
+      "tricky_tags": [],
+      "is_actionable_for_user": false,
+      "action_owner": null,
+      "action_summary": "No action required; staffing agency cold pitch, though relevant given the ongoing nurse retention problem.",
+      "due_date": null,
+      "commitment_made_by_user": null,
+      "commitment_is_conditional": false,
+      "commitment_condition": null,
+      "superseded_by_message_id": null,
+      "notes": null
+    }
+  },
+  {
+    "id": "d30f18c2e4b60029",
+    "thread_id": "d30f18c2e4b60029",
+    "profile_id": "hr",
+    "history_id": "706610",
+    "message_id_header": "<d30f18c2e4b60029@vantageequitypartners.com>",
+    "in_reply_to": null,
+    "references": [],
+    "thread_position": 1,
+    "thread_length": 1,
+    "from": {
+      "name": "Vantage Equity Partners",
+      "email": "hello@vantageequitypartners.com"
+    },
+    "to": [
+      {
+        "name": "Marcus Bell",
+        "email": "marcus.bell@vireohealth.com"
+      }
+    ],
+    "cc": [],
+    "bcc": [],
+    "delivered_to": "marcus.bell@vireohealth.com",
+    "subject": "A DEI audit built for 200-person healthcare organizations",
+    "snippet": "Hi Marcus, Many healthcare employers are re-evaluating their DEI programs this year in light of shifting regulatory guidance. Vantage runs a structured audit \u2014 pay equity analysis ",
+    "body_text": "Hi Marcus,\n\nMany healthcare employers are re-evaluating their DEI programs this year in light of shifting regulatory guidance. Vantage runs a structured audit \u2014 pay equity analysis by role and demographic, promotion-rate review, and a legal-risk read on current policies \u2014 tailored for organizations around 200 employees. Typical engagement is 6 weeks, starting around $18,000.\n\nHappy to send a sample findings deck from a recent healthcare client (anonymized) if useful.\n\nBest,\nVantage Equity Partners",
+    "body_html": "<p style='font-family:Arial'>DEI audit for 200-person healthcare orgs, starting at $18,000. <a href='https://vantageequitypartners.com'>Learn more</a></p>",
+    "date": "2026-06-25T10:10:00-04:00",
+    "internal_date_ms": 1782396600000,
+    "folder": "INBOX",
+    "category": "CATEGORY_PROMOTIONS",
+    "is_unread": false,
+    "is_starred": true,
+    "is_important": false,
+    "user_labels": [],
+    "attachments": [],
+    "calendar_event": null,
+    "extra_headers": {},
+    "size_estimate": 2460,
+    "meta": {
+      "email_class": "cold_outreach",
+      "tricky_tags": [],
+      "is_actionable_for_user": false,
+      "action_owner": null,
+      "action_summary": "No action required; consulting cold pitch.",
+      "due_date": null,
+      "commitment_made_by_user": null,
+      "commitment_is_conditional": false,
+      "commitment_condition": null,
+      "superseded_by_message_id": null,
+      "notes": null
+    }
+  },
+  {
+    "id": "d30f18c2e4b60030",
+    "thread_id": "d30f18c2e4b60030",
+    "profile_id": "hr",
+    "history_id": "754375",
+    "message_id_header": "<d30f18c2e4b60030@inclusionworksconsulting.com>",
+    "in_reply_to": null,
+    "references": [],
+    "thread_position": 1,
+    "thread_length": 1,
+    "from": {
+      "name": "InclusionWorks Consulting",
+      "email": "info@inclusionworksconsulting.com"
+    },
+    "to": [
+      {
+        "name": "Marcus Bell",
+        "email": "marcus.bell@vireohealth.com"
+      }
+    ],
+    "cc": [],
+    "bcc": [],
+    "delivered_to": "marcus.bell@vireohealth.com",
+    "subject": "Is your handbook keeping up? DEI training bundle for Q4",
+    "snippet": "Hi Marcus, With several states updating harassment-prevention and anti-discrimination training requirements this year, Q4 is a good window to refresh your DEI training before year-",
+    "body_text": "Hi Marcus,\n\nWith several states updating harassment-prevention and anti-discrimination training requirements this year, Q4 is a good window to refresh your DEI training before year-end. Our bundle includes manager-specific modules on inclusive interviewing and a policy review against your current handbook.\n\nPricing starts at $95/employee for the full bundle, with volume discounts above 150 seats.\n\nWant a quote tailored to your headcount?\n\nInclusionWorks Consulting",
+    "body_html": null,
+    "date": "2026-07-28T13:15:00-05:00",
+    "internal_date_ms": 1785262500000,
+    "folder": "INBOX",
+    "category": "CATEGORY_PROMOTIONS",
+    "is_unread": false,
+    "is_starred": false,
+    "is_important": false,
+    "user_labels": [],
+    "attachments": [],
+    "calendar_event": null,
+    "extra_headers": {},
+    "size_estimate": 2268,
+    "meta": {
+      "email_class": "cold_outreach",
+      "tricky_tags": [],
+      "is_actionable_for_user": false,
+      "action_owner": null,
+      "action_summary": "No action required; training vendor pitch.",
+      "due_date": null,
+      "commitment_made_by_user": null,
+      "commitment_is_conditional": false,
+      "commitment_condition": null,
+      "superseded_by_message_id": null,
+      "notes": null
+    }
+  },
+  {
+    "id": "d30f18c2e4b60031",
+    "thread_id": "d30f18c2e4b60031",
+    "profile_id": "hr",
+    "history_id": "716650",
+    "message_id_header": "<d30f18c2e4b60031@traliant.com>",
+    "in_reply_to": null,
+    "references": [],
+    "thread_position": 1,
+    "thread_length": 1,
+    "from": {
+      "name": "Traliant",
+      "email": "compliance@traliant.com"
+    },
+    "to": [
+      {
+        "name": "Marcus Bell",
+        "email": "marcus.bell@vireohealth.com"
+      }
+    ],
+    "cc": [],
+    "bcc": [],
+    "delivered_to": "marcus.bell@vireohealth.com",
+    "subject": "New state harassment-training requirements \u2014 is Vireo Health Systems compliant?",
+    "snippet": "Hi Marcus, Colorado's harassment-prevention training requirements were updated this year, and several other states you may have remote staff in have made similar changes. Traliant'",
+    "body_text": "Hi Marcus,\n\nColorado's harassment-prevention training requirements were updated this year, and several other states you may have remote staff in have made similar changes. Traliant's compliance tracker automatically flags which of your employees are due for refresher training and in which jurisdiction.\n\nWe work with several healthcare employers who need this at scale. Want a quick compliance snapshot for your headcount?\n\nLearn more: https://traliant.com/compliance-check\n\nTraliant Team",
+    "body_html": "<p style='font-family:Arial'>New CO harassment-training rules. <a href='https://traliant.com/compliance-check'>Get a compliance snapshot</a></p>",
+    "date": "2026-07-02T09:30:00-04:00",
+    "internal_date_ms": 1782999000000,
+    "folder": "INBOX",
+    "category": "CATEGORY_PROMOTIONS",
+    "is_unread": false,
+    "is_starred": false,
+    "is_important": false,
+    "user_labels": [],
+    "attachments": [],
+    "calendar_event": null,
+    "extra_headers": {
+      "List-Unsubscribe": "<mailto:unsub@traliant.com>, <https://traliant.com/e/unsub/vireo>",
+      "List-Unsubscribe-Post": "List-Unsubscribe=One-Click",
+      "Precedence": "bulk"
+    },
+    "size_estimate": 2433,
+    "meta": {
+      "email_class": "cold_outreach",
+      "tricky_tags": [],
+      "is_actionable_for_user": false,
+      "action_owner": "farida.bashir@vireohealth.com",
+      "action_summary": "No action required from this email specifically; compliance training is owned by Farida Bashir's team on its normal cadence.",
+      "due_date": null,
+      "commitment_made_by_user": null,
+      "commitment_is_conditional": false,
+      "commitment_condition": null,
+      "superseded_by_message_id": null,
+      "notes": null
+    }
+  },
+  {
+    "id": "d30f18c2e4b60032",
+    "thread_id": "d30f18c2e4b60032",
+    "profile_id": "hr",
+    "history_id": "749910",
+    "message_id_header": "<d30f18c2e4b60032@everfi.com>",
+    "in_reply_to": null,
+    "references": [],
+    "thread_position": 1,
+    "thread_length": 1,
+    "from": {
+      "name": "EVERFI",
+      "email": "info@everfi.com"
+    },
+    "to": [
+      {
+        "name": "Marcus Bell",
+        "email": "marcus.bell@vireohealth.com"
+      }
+    ],
+    "cc": [],
+    "bcc": [],
+    "delivered_to": "marcus.bell@vireohealth.com",
+    "subject": "I-9 compliance just got harder. Here's how to stay ahead.",
+    "snippet": "Hi Marcus, I-9 audits have increased significantly this year, and remediation costs for improperly completed forms can run $250-$2,500 per violation. EVERFI's I-9 compliance module",
+    "body_text": "Hi Marcus,\n\nI-9 audits have increased significantly this year, and remediation costs for improperly completed forms can run $250-$2,500 per violation. EVERFI's I-9 compliance module walks new hires through the form with built-in error checking and keeps a searchable, audit-ready record.\n\nIf you're not already using an automated I-9 system, happy to show you how it works.\n\nSee a demo: https://everfi.com/i9-compliance\n\nEVERFI Team",
+    "body_html": "<p style='font-family:Arial'>I-9 violations can run up to $2,500 each. <a href='https://everfi.com/i9-compliance'>See a demo</a></p>",
+    "date": "2026-07-25T11:50:00-04:00",
+    "internal_date_ms": 1784994600000,
+    "folder": "INBOX",
+    "category": "CATEGORY_PROMOTIONS",
+    "is_unread": false,
+    "is_starred": false,
+    "is_important": false,
+    "user_labels": [],
+    "attachments": [],
+    "calendar_event": null,
+    "extra_headers": {},
+    "size_estimate": 2364,
+    "meta": {
+      "email_class": "cold_outreach",
+      "tricky_tags": [],
+      "is_actionable_for_user": false,
+      "action_owner": null,
+      "action_summary": "No action required from this email; timely given the ongoing I-9 audit, but this is a generic mass blast, not a personalized notice tied to it.",
+      "due_date": null,
+      "commitment_made_by_user": null,
+      "commitment_is_conditional": false,
+      "commitment_condition": null,
+      "superseded_by_message_id": null,
+      "notes": null
+    }
+  },
+  {
+    "id": "d30f18c2e4b60033",
+    "thread_id": "d30f18c2e4b60033",
+    "profile_id": "hr",
+    "history_id": "768625",
+    "message_id_header": "<d30f18c2e4b60033@hrtransform.com>",
+    "in_reply_to": null,
+    "references": [],
+    "thread_position": 1,
+    "thread_length": 1,
+    "from": {
+      "name": "HR Transform",
+      "email": "speakers@hrtransform.com"
+    },
+    "to": [
+      {
+        "name": "Marcus Bell",
+        "email": "marcus.bell@vireohealth.com"
+      }
+    ],
+    "cc": [],
+    "bcc": [],
+    "delivered_to": "marcus.bell@vireohealth.com",
+    "subject": "Speak at HR Transform 2027 \u2014 CFP closes Aug 31",
+    "snippet": "Hi Marcus, HR Transform 2027 (Las Vegas, March) is now accepting speaker submissions. We're especially interested in sessions on frontline/clinical workforce retention this year gi",
+    "body_text": "Hi Marcus,\n\nHR Transform 2027 (Las Vegas, March) is now accepting speaker submissions. We're especially interested in sessions on frontline/clinical workforce retention this year given how many attendees are dealing with it.\n\nSubmit a session proposal by August 31: https://hrtransform.com/cfp\n\nHR Transform Team",
+    "body_html": "<p>CFP for HR Transform 2027 closes Aug 31. <a href='https://hrtransform.com/cfp'>Submit a proposal</a></p>",
+    "date": "2026-08-07T08:45:00-07:00",
+    "internal_date_ms": 1786117500000,
+    "folder": "INBOX",
+    "category": "CATEGORY_PROMOTIONS",
+    "is_unread": false,
+    "is_starred": false,
+    "is_important": false,
+    "user_labels": [],
+    "attachments": [],
+    "calendar_event": null,
+    "extra_headers": {
+      "List-Unsubscribe": "<mailto:unsub@hrtransform.com>, <https://hrtransform.com/e/unsub/8821>",
+      "List-Unsubscribe-Post": "List-Unsubscribe=One-Click",
+      "Precedence": "bulk"
+    },
+    "size_estimate": 2219,
+    "meta": {
+      "email_class": "promotional",
+      "tricky_tags": [],
+      "is_actionable_for_user": false,
+      "action_owner": null,
+      "action_summary": "No action required; open call for proposals, Marcus has not committed to submitting.",
+      "due_date": null,
+      "commitment_made_by_user": null,
+      "commitment_is_conditional": false,
+      "commitment_condition": null,
+      "superseded_by_message_id": null,
+      "notes": null
+    }
+  },
+  {
+    "id": "d30f18c2e4b60034",
+    "thread_id": "d30f18c2e4b60034",
+    "profile_id": "hr",
+    "history_id": "770320",
+    "message_id_header": "<d30f18c2e4b60034@rmhrconference.org>",
+    "in_reply_to": null,
+    "references": [],
+    "thread_position": 1,
+    "thread_length": 1,
+    "from": {
+      "name": "RMHR Conference",
+      "email": "info@rmhrconference.org"
+    },
+    "to": [
+      {
+        "name": "Marcus Bell",
+        "email": "marcus.bell@vireohealth.com"
+      }
+    ],
+    "cc": [],
+    "bcc": [],
+    "delivered_to": "marcus.bell@vireohealth.com",
+    "subject": "You're confirmed: RMHR Conference Oct 14-15, Denver",
+    "snippet": "Hi Marcus, Thanks again for agreeing to speak at the Rocky Mountain HR Conference this October \u2014 we're thrilled to have you on the 'Retention in Frontline Healthcare' panel on Octo",
+    "body_text": "Hi Marcus,\n\nThanks again for agreeing to speak at the Rocky Mountain HR Conference this October \u2014 we're thrilled to have you on the 'Retention in Frontline Healthcare' panel on October 15 at 10:30am.\n\nA couple of things we need from you before we finalize the printed program: your session title and a 75-100 word bio, due by August 25. We also need your AV requirements (slides? yes/no) by September 1.\n\nSubmit your bio and title here: https://rmhrconference.org/speaker-portal\n\nExcited to have you, and let us know if you have any questions.\n\nBest,\nRMHR Conference Team",
+    "body_html": "<div style='font-family:Arial;max-width:600px'><h3>You're a confirmed speaker!</h3><p>Retention in Frontline Healthcare panel \u2014 Oct 15, 10:30am.</p><p><b>Due Aug 25:</b> session title + bio.</p><a href='https://rmhrconference.org/speaker-portal' style='background:#2f6f4e;color:#fff;padding:10px 18px;border-radius:4px;text-decoration:none'>Speaker Portal</a></div>",
+    "date": "2026-08-08T14:00:00-06:00",
+    "internal_date_ms": 1786219200000,
+    "folder": "INBOX",
+    "category": "CATEGORY_PROMOTIONS",
+    "is_unread": false,
+    "is_starred": true,
+    "is_important": true,
+    "user_labels": [],
+    "attachments": [],
+    "calendar_event": null,
+    "extra_headers": {
+      "List-Unsubscribe": "<mailto:unsub@rmhrconference.org>, <https://rmhrconference.org/e/unsub/8821>",
+      "List-Unsubscribe-Post": "List-Unsubscribe=One-Click",
+      "Precedence": "bulk"
+    },
+    "size_estimate": 2740,
+    "meta": {
+      "email_class": "promotional",
+      "tricky_tags": [],
+      "is_actionable_for_user": true,
+      "action_owner": "marcus.bell@vireohealth.com",
+      "action_summary": "Submit session title and 75-100 word speaker bio via the RMHR speaker portal by August 25 for the Oct 15 'Retention in Frontline Healthcare' panel.",
+      "due_date": "2026-08-25",
+      "commitment_made_by_user": null,
+      "commitment_is_conditional": false,
+      "commitment_condition": null,
+      "superseded_by_message_id": null,
+      "notes": "Genuinely actionable \u2014 Marcus already agreed to speak \u2014 but arrives styled like a routine conference marketing email, easy to skim past as noise."
+    }
+  },
+  {
+    "id": "d30f18c2e4b60035",
+    "thread_id": "d30f18c2e4b60035",
+    "profile_id": "hr",
+    "history_id": "747020",
+    "message_id_header": "<d30f18c2e4b60035@alpinebenefitsgroup.com>",
+    "in_reply_to": null,
+    "references": [],
+    "thread_position": 1,
+    "thread_length": 1,
+    "from": {
+      "name": "Alpine Benefits Group",
+      "email": "jturner@alpinebenefitsgroup.com"
+    },
+    "to": [
+      {
+        "name": "Marcus Bell",
+        "email": "marcus.bell@vireohealth.com"
+      }
+    ],
+    "cc": [],
+    "bcc": [],
+    "delivered_to": "marcus.bell@vireohealth.com",
+    "subject": "Is Keystone Benefits still getting you the best rates? Free rate check.",
+    "snippet": "Hi Marcus, I'm Jake Turner with Alpine Benefits Group \u2014 we're a Denver-based employee benefits brokerage and I wanted to reach out because we've picked up three healthcare clients ",
+    "body_text": "Hi Marcus,\n\nI'm Jake Turner with Alpine Benefits Group \u2014 we're a Denver-based employee benefits brokerage and I wanted to reach out because we've picked up three healthcare clients in the last year who moved off Keystone Benefits, and in each case the story was pretty similar: renewal increases north of 12% with limited plan design alternatives offered, and slow turnaround on claims escalations.\n\nI don't know the specifics of your relationship with Keystone, and they may well be serving you fine \u2014 but given that open enrollment planning is likely starting soon, I thought it was worth a quick outside look before you're locked into next year's rates.\n\nHere's roughly what we found for the last client we brought over, also a ~200-person healthcare employer in the Denver metro:\n\n  Medical (PPO, same carrier network): previous renewal +14.2% -> Alpine remarket result +6.8%\n  Dental: previous renewal +9.0% -> Alpine remarket result +3.1%\n  Ancillary (life/disability): flat in both cases\n  Estimated total annual savings: roughly $118,000 across the group\n\nWe do this by remarketing against 8-10 carriers instead of the 3-4 most brokers default to, and we don't charge the employer directly \u2014 we're paid the standard carrier commission, same as Keystone likely is.\n\nIf you're open to it, we could do a no-obligation remarket in parallel with your current renewal process \u2014 worst case, you use our numbers as leverage with Keystone and stay put. Best case, you save six figures.\n\nHappy to set up 20 minutes whenever works. No pressure if the timing's wrong given everything else on your plate this quarter.\n\nBest,\nJake Turner\nAlpine Benefits Group\n(303) 555-0122 | jturner@alpinebenefitsgroup.com",
+    "body_html": null,
+    "date": "2026-07-23T09:40:00-06:00",
+    "internal_date_ms": 1784821200000,
+    "folder": "INBOX",
+    "category": "CATEGORY_PROMOTIONS",
+    "is_unread": false,
+    "is_starred": false,
+    "is_important": false,
+    "user_labels": [
+      "Label_6632"
+    ],
+    "attachments": [
+      {
+        "attachment_id": "ANGjdJ_eXANcD8UhlvZhOCI1wv-pwf1PC-SbDKsVN0vSPewqdE",
+        "filename": "Alpine_Rate_Comparison_Sample.xlsx",
+        "mime_type": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+        "size_bytes": 18440,
+        "is_inline": false,
+        "content_id": null,
+        "extracted_text": "Sheet1: Sample Remarket Comparison (200-employee healthcare client)\nLine,Previous Renewal,Alpine Remarket Result\nMedical (PPO),+14.2%,+6.8%\nDental,+9.0%,+3.1%\nLife/Disability,flat,flat\nEstimated Annual Savings,,~$118,000"
+      }
+    ],
+    "calendar_event": null,
+    "extra_headers": {},
+    "size_estimate": 28219,
+    "meta": {
+      "email_class": "cold_outreach",
+      "tricky_tags": [],
+      "is_actionable_for_user": false,
+      "action_owner": null,
+      "action_summary": "No action required; competitive broker pitch against the incumbent (Keystone/Angela Nwosu), not something Marcus has to respond to.",
+      "due_date": null,
+      "commitment_made_by_user": null,
+      "commitment_is_conditional": false,
+      "commitment_condition": null,
+      "superseded_by_message_id": null,
+      "notes": null
+    }
+  },
+  {
+    "id": "d30f18c2e4b60036",
+    "thread_id": "d30f18c2e4b60036",
+    "profile_id": "hr",
+    "history_id": "713925",
+    "message_id_header": "<d30f18c2e4b60036@summitriskbenefits.com>",
+    "in_reply_to": null,
+    "references": [],
+    "thread_position": 1,
+    "thread_length": 1,
+    "from": {
+      "name": "Summit Risk & Benefits",
+      "email": "pgarcia@summitriskbenefits.com"
+    },
+    "to": [
+      {
+        "name": "Marcus Bell",
+        "email": "marcus.bell@vireohealth.com"
+      }
+    ],
+    "cc": [],
+    "bcc": [],
+    "delivered_to": "marcus.bell@vireohealth.com",
+    "subject": "We saved a 200-person healthcare system 18% on premiums. Can we do the same for Vireo Health Systems?",
+    "snippet": "Hi Marcus, Quick note from Summit Risk & Benefits \u2014 we recently helped a 200-employee healthcare system in the Denver area cut their medical premium renewal from a proposed +16% do",
+    "body_text": "Hi Marcus,\n\nQuick note from Summit Risk & Benefits \u2014 we recently helped a 200-employee healthcare system in the Denver area cut their medical premium renewal from a proposed +16% down to -2% (yes, a decrease) by remarketing across a wider carrier panel and restructuring their plan tiers.\n\nWould you be open to a free, no-obligation benchmark of your current plan against the market? Takes about 15 minutes of your time to get started.\n\nBest,\nPaula Garcia\nSummit Risk & Benefits\n(720) 555-0199",
+    "body_html": null,
+    "date": "2026-06-30T10:05:00-06:00",
+    "internal_date_ms": 1782835500000,
+    "folder": "INBOX",
+    "category": "CATEGORY_PROMOTIONS",
+    "is_unread": false,
+    "is_starred": false,
+    "is_important": false,
+    "user_labels": [
+      "Label_6632"
+    ],
+    "attachments": [],
+    "calendar_event": null,
+    "extra_headers": {},
+    "size_estimate": 2295,
+    "meta": {
+      "email_class": "cold_outreach",
+      "tricky_tags": [],
+      "is_actionable_for_user": false,
+      "action_owner": null,
+      "action_summary": "No action required; another benefits broker cold pitch.",
+      "due_date": null,
+      "commitment_made_by_user": null,
+      "commitment_is_conditional": false,
+      "commitment_condition": null,
+      "superseded_by_message_id": null,
+      "notes": null
+    }
+  },
+  {
+    "id": "d30f18c2e4b60037",
+    "thread_id": "d30f18c2e4b60037",
+    "profile_id": "hr",
+    "history_id": "764280",
+    "message_id_header": "<d30f18c2e4b60037@peoplegrid.io>",
+    "in_reply_to": null,
+    "references": [],
+    "thread_position": 1,
+    "thread_length": 1,
+    "from": {
+      "name": "Dana Whitcomb",
+      "email": "dana@peoplegrid.io"
+    },
+    "to": [
+      {
+        "name": "Marcus Bell",
+        "email": "marcus.bell@vireohealth.com"
+      }
+    ],
+    "cc": [],
+    "bcc": [],
+    "delivered_to": "marcus.bell@vireohealth.com",
+    "subject": "Marcus \u2014 quick question about Vireo Health Systems' HRIS stack",
+    "snippet": "Hey Marcus, Saw that Vireo Health Systems has been growing headcount this year \u2014 congrats. Quick question: are you still stitching together Workday, Greenhouse, and Gusto manually,",
+    "body_text": "Hey Marcus,\n\nSaw that Vireo Health Systems has been growing headcount this year \u2014 congrats. Quick question: are you still stitching together Workday, Greenhouse, and Gusto manually, or have you found a way to sync them? We built PeopleGrid specifically to solve that sync problem for mid-size healthcare employers.\n\nWorth a quick chat, or should I stop bugging you? Either answer is fine :)\n\nDana",
+    "body_html": null,
+    "date": "2026-08-04T08:20:00-07:00",
+    "internal_date_ms": 1785856800000,
+    "folder": "INBOX",
+    "category": "CATEGORY_PROMOTIONS",
+    "is_unread": true,
+    "is_starred": false,
+    "is_important": false,
+    "user_labels": [],
+    "attachments": [],
+    "calendar_event": null,
+    "extra_headers": {},
+    "size_estimate": 2198,
+    "meta": {
+      "email_class": "cold_outreach",
+      "tricky_tags": [],
+      "is_actionable_for_user": false,
+      "action_owner": null,
+      "action_summary": "No action required; unsolicited SDR-style cold email.",
+      "due_date": null,
+      "commitment_made_by_user": null,
+      "commitment_is_conditional": false,
+      "commitment_condition": null,
+      "superseded_by_message_id": null,
+      "notes": null
+    }
+  },
+  {
+    "id": "d30f18c2e4b60038",
+    "thread_id": "d30f18c2e4b60038",
+    "profile_id": "hr",
+    "history_id": "737170",
+    "message_id_header": "<d30f18c2e4b60038@talently.ai>",
+    "in_reply_to": null,
+    "references": [],
+    "thread_position": 1,
+    "thread_length": 1,
+    "from": {
+      "name": "Talently AI",
+      "email": "growth@talently.ai"
+    },
+    "to": [
+      {
+        "name": "Marcus Bell",
+        "email": "marcus.bell@vireohealth.com"
+      }
+    ],
+    "cc": [],
+    "bcc": [],
+    "delivered_to": "marcus.bell@vireohealth.com",
+    "subject": "AI resume screening for healthcare hiring teams",
+    "snippet": "Hi Marcus, Talently AI screens resumes against your job requirements in seconds instead of hours, with built-in bias auditing so you can defend your process if ever challenged. A f",
+    "body_text": "Hi Marcus,\n\nTalently AI screens resumes against your job requirements in seconds instead of hours, with built-in bias auditing so you can defend your process if ever challenged. A few healthcare systems your size are using it to cut screening time by 70%.\n\nOpen to a 15-minute demo this week?\n\nBook time: https://talently.ai/demo\n\nTalently AI Team",
+    "body_html": "<p style='font-family:Arial'>Cut resume screening time by 70%. <a href='https://talently.ai/demo'>Book a demo</a></p>",
+    "date": "2026-07-16T12:30:00-07:00",
+    "internal_date_ms": 1784230200000,
+    "folder": "INBOX",
+    "category": "CATEGORY_PROMOTIONS",
+    "is_unread": false,
+    "is_starred": false,
+    "is_important": false,
+    "user_labels": [],
+    "attachments": [],
+    "calendar_event": null,
+    "extra_headers": {
+      "List-Unsubscribe": "<mailto:unsub@talently.ai>, <https://talently.ai/e/unsub/8821>",
+      "List-Unsubscribe-Post": "List-Unsubscribe=One-Click",
+      "Precedence": "bulk"
+    },
+    "size_estimate": 2264,
+    "meta": {
+      "email_class": "cold_outreach",
+      "tricky_tags": [],
+      "is_actionable_for_user": false,
+      "action_owner": null,
+      "action_summary": "No action required; AI hiring tool cold pitch.",
+      "due_date": null,
+      "commitment_made_by_user": null,
+      "commitment_is_conditional": false,
+      "commitment_condition": null,
+      "superseded_by_message_id": null,
+      "notes": null
+    }
+  },
+  {
+    "id": "d30f18c2e4b60039",
+    "thread_id": "d30f18c2e4b60039",
+    "profile_id": "hr",
+    "history_id": "772100",
+    "message_id_header": "<CAFd30f18c2e4b60039@mail.gmail.com>",
+    "in_reply_to": null,
+    "references": [],
+    "thread_position": 1,
+    "thread_length": 1,
+    "from": {
+      "name": "David Okonjo",
+      "email": "d.okonjo.rn@gmail.com"
+    },
+    "to": [
+      {
+        "name": "Marcus Bell",
+        "email": "marcus.bell@vireohealth.com"
+      }
+    ],
+    "cc": [],
+    "bcc": [],
+    "delivered_to": "marcus.bell@vireohealth.com",
+    "subject": "Experienced ICU nurse looking for opportunities at Vireo Health Systems",
+    "snippet": "Hello Mr. Bell, I'm an ICU RN with 8 years of experience, currently at Rangeview Medical Center, and I've heard good things about Vireo Health Systems' culture from a former cowork",
+    "body_text": "Hello Mr. Bell,\n\nI'm an ICU RN with 8 years of experience, currently at Rangeview Medical Center, and I've heard good things about Vireo Health Systems' culture from a former coworker. I'm looking for a change, mainly for better scheduling predictability.\n\nResume attached \u2014 Colorado license #RN-448821, active. Would welcome the chance to talk about any ICU or med-surg openings.\n\nThank you,\nDavid Okonjo, RN, CCRN",
+    "body_html": null,
+    "date": "2026-08-09T19:40:00-06:00",
+    "internal_date_ms": 1786326000000,
+    "folder": "INBOX",
+    "category": "CATEGORY_PROMOTIONS",
+    "is_unread": true,
+    "is_starred": false,
+    "is_important": false,
+    "user_labels": [
+      "Label_6630"
+    ],
+    "attachments": [
+      {
+        "attachment_id": "ANGjdJ_kVb-fQwhHY4p2FIHAK_L-62PwRPjpisqnjCp5ySAbpI",
+        "filename": "David_Okonjo_RN_Resume.pdf",
+        "mime_type": "application/pdf",
+        "size_bytes": 38900,
+        "is_inline": false,
+        "content_id": null,
+        "extracted_text": "DAVID OKONJO, RN\nAurora, CO | d.okonjo.rn@gmail.com | (303) 555-0166\n\nSUMMARY\nICU-experienced Registered Nurse, 8 years, seeking a role with better scheduling stability and a stronger staffing ratio commitment.\n\nEXPERIENCE\nICU Staff Nurse, Rangeview Medical Center (2019-2026)\n- Level II trauma ICU, typical ratio 1:2\n- Charge nurse rotation since 2023\n\nMed-Surg Nurse, Aurora Community Hospital (2016-2019)\n\nLICENSURE\nColorado RN License #RN-448821, active, no restrictions\nBLS, ACLS, CCRN certified\n\nEDUCATION\nB.S.N., Regis University, 2016"
+      }
+    ],
+    "calendar_event": null,
+    "extra_headers": {},
+    "size_estimate": 54343,
+    "meta": {
+      "email_class": "cold_outreach",
+      "tricky_tags": [],
+      "is_actionable_for_user": false,
+      "action_owner": "tim.osei@vireohealth.com",
+      "action_summary": "Unsolicited resume from a licensed RN; relevant to the nurse retention problem but would be triaged by Recruiting, not Marcus directly.",
+      "due_date": null,
+      "commitment_made_by_user": null,
+      "commitment_is_conditional": false,
+      "commitment_condition": null,
+      "superseded_by_message_id": null,
+      "notes": null
+    }
+  },
+  {
+    "id": "d30f18c2e4b60040",
+    "thread_id": "d30f18c2e4b60040",
+    "profile_id": "hr",
+    "history_id": "741885",
+    "message_id_header": "<CAFd30f18c2e4b60040@mail.gmail.com>",
+    "in_reply_to": null,
+    "references": [],
+    "thread_position": 1,
+    "thread_length": 1,
+    "from": {
+      "name": "Priya Shah",
+      "email": "priya.shah.hr@gmail.com"
+    },
+    "to": [
+      {
+        "name": "Marcus Bell",
+        "email": "marcus.bell@vireohealth.com"
+      }
+    ],
+    "cc": [],
+    "bcc": [],
+    "delivered_to": "marcus.bell@vireohealth.com",
+    "subject": "Open to any HR coordinator roles?",
+    "snippet": "Hi, I'm an HR coordinator with 2 years experience, open to any openings at Vireo Health Systems. Happy to send my resume if useful!",
+    "body_text": "Hi, I'm an HR coordinator with 2 years experience, open to any openings at Vireo Health Systems. Happy to send my resume if useful!",
+    "body_html": null,
+    "date": "2026-07-19T20:05:00-06:00",
+    "internal_date_ms": 1784513100000,
+    "folder": "INBOX",
+    "category": "CATEGORY_PROMOTIONS",
+    "is_unread": false,
+    "is_starred": false,
+    "is_important": false,
+    "user_labels": [
+      "Label_6630"
+    ],
+    "attachments": [],
+    "calendar_event": null,
+    "extra_headers": {},
+    "size_estimate": 2000,
+    "meta": {
+      "email_class": "cold_outreach",
+      "tricky_tags": [],
+      "is_actionable_for_user": false,
+      "action_owner": "tim.osei@vireohealth.com",
+      "action_summary": "Unsolicited, low-effort inquiry; would route to Recruiting, not actionable for Marcus.",
+      "due_date": null,
+      "commitment_made_by_user": null,
+      "commitment_is_conditional": false,
+      "commitment_condition": null,
+      "superseded_by_message_id": null,
+      "notes": null
+    }
+  },
+  {
+    "id": "d30f18c2e4b60041",
+    "thread_id": "d30f18c2e4b60041",
+    "profile_id": "hr",
+    "history_id": "702220",
+    "message_id_header": "<d30f18c2e4b60041@linkedin.com>",
+    "in_reply_to": null,
+    "references": [],
+    "thread_position": 1,
+    "thread_length": 1,
+    "from": {
+      "name": "LinkedIn",
+      "email": "messaging-digest-noreply@linkedin.com"
+    },
+    "to": [
+      {
+        "name": "Marcus Bell",
+        "email": "marcus.bell@vireohealth.com"
+      }
+    ],
+    "cc": [],
+    "bcc": [],
+    "delivered_to": "marcus.bell@vireohealth.com",
+    "subject": "Dr. Elaine Ford and 4 others shared updates on LinkedIn",
+    "snippet": "Dr. Elaine Ford, Farida Bashir, and 3 others shared updates this week. See what your network is posting at linkedin.com/feed.",
+    "body_text": "Dr. Elaine Ford, Farida Bashir, and 3 others shared updates this week. See what your network is posting at linkedin.com/feed.",
+    "body_html": "<p>Dr. Elaine Ford, Farida Bashir, and 3 others shared updates. <a href='https://linkedin.com/feed'>See your feed</a></p>",
+    "date": "2026-06-22T06:00:00-07:00",
+    "internal_date_ms": 1782133200000,
+    "folder": "INBOX",
+    "category": "CATEGORY_SOCIAL",
+    "is_unread": false,
+    "is_starred": false,
+    "is_important": false,
+    "user_labels": [],
+    "attachments": [],
+    "calendar_event": null,
+    "extra_headers": {
+      "List-Unsubscribe": "<https://linkedin.com/psettings/email-unsubscribe>",
+      "Precedence": "bulk"
+    },
+    "size_estimate": 2046,
+    "meta": {
+      "email_class": "social",
+      "tricky_tags": [],
+      "is_actionable_for_user": false,
+      "action_owner": null,
+      "action_summary": "No action required; LinkedIn digest.",
+      "due_date": null,
+      "commitment_made_by_user": null,
+      "commitment_is_conditional": false,
+      "commitment_condition": null,
+      "superseded_by_message_id": null,
+      "notes": null
+    }
+  },
+  {
+    "id": "d30f18c2e4b60042",
+    "thread_id": "d30f18c2e4b60042",
+    "profile_id": "hr",
+    "history_id": "775630",
+    "message_id_header": "<d30f18c2e4b60042@linkedin.com>",
+    "in_reply_to": null,
+    "references": [],
+    "thread_position": 1,
+    "thread_length": 1,
+    "from": {
+      "name": "LinkedIn",
+      "email": "notifications-noreply@linkedin.com"
+    },
+    "to": [
+      {
+        "name": "Marcus Bell",
+        "email": "marcus.bell@vireohealth.com"
+      }
+    ],
+    "cc": [],
+    "bcc": [],
+    "delivered_to": "marcus.bell@vireohealth.com",
+    "subject": "Congratulate Tim Osei on 5 years at Vireo Health Systems",
+    "snippet": "Tim Osei is celebrating 5 years at Vireo Health Systems. Send a quick congrats on LinkedIn.",
+    "body_text": "Tim Osei is celebrating 5 years at Vireo Health Systems. Send a quick congrats on LinkedIn.",
+    "body_html": "<p>Tim Osei: 5 years at Vireo Health Systems. <a href='https://linkedin.com/in/timosei'>Send congrats</a></p>",
+    "date": "2026-08-12T05:30:00-07:00",
+    "internal_date_ms": 1786537800000,
+    "folder": "INBOX",
+    "category": "CATEGORY_SOCIAL",
+    "is_unread": true,
+    "is_starred": false,
+    "is_important": false,
+    "user_labels": [],
+    "attachments": [],
+    "calendar_event": null,
+    "extra_headers": {},
+    "size_estimate": 2000,
+    "meta": {
+      "email_class": "social",
+      "tricky_tags": [],
+      "is_actionable_for_user": false,
+      "action_owner": null,
+      "action_summary": "No action required; optional, low-stakes social gesture.",
+      "due_date": null,
+      "commitment_made_by_user": null,
+      "commitment_is_conditional": false,
+      "commitment_condition": null,
+      "superseded_by_message_id": null,
+      "notes": null
+    }
+  },
+  {
+    "id": "d30f18c2e4b60043",
+    "thread_id": "d30f18c2e4b60043",
+    "profile_id": "hr",
+    "history_id": "692320",
+    "message_id_header": "<d30f18c2e4b60043@glassdoor.com>",
+    "in_reply_to": null,
+    "references": [],
+    "thread_position": 1,
+    "thread_length": 1,
+    "from": {
+      "name": "Glassdoor for Employers",
+      "email": "employers@glassdoor.com"
+    },
+    "to": [
+      {
+        "name": "Marcus Bell",
+        "email": "marcus.bell@vireohealth.com"
+      }
+    ],
+    "cc": [],
+    "bcc": [],
+    "delivered_to": "marcus.bell@vireohealth.com",
+    "subject": "Respond to your company's Glassdoor reviews to boost your employer brand",
+    "snippet": "Hi Marcus, Companies that respond to at least 50% of their reviews see a 12% higher application rate on average. Vireo Health Systems currently has 3 unanswered reviews. Upgrade to",
+    "body_text": "Hi Marcus,\n\nCompanies that respond to at least 50% of their reviews see a 12% higher application rate on average. Vireo Health Systems currently has 3 unanswered reviews. Upgrade to a paid Glassdoor Employer account to respond publicly and manage your profile.\n\nSee plans: https://glassdoor.com/employers/pricing\n\nGlassdoor for Employers",
+    "body_html": "<p style='font-family:Arial'>3 unanswered reviews. Responding boosts applications by 12%. <a href='https://glassdoor.com/employers/pricing'>See plans</a></p>",
+    "date": "2026-06-15T09:00:00-07:00",
+    "internal_date_ms": 1781539200000,
+    "folder": "INBOX",
+    "category": "CATEGORY_SOCIAL",
+    "is_unread": false,
+    "is_starred": false,
+    "is_important": false,
+    "user_labels": [],
+    "attachments": [],
+    "calendar_event": null,
+    "extra_headers": {
+      "List-Unsubscribe": "<mailto:unsub@glassdoor.com>, <https://glassdoor.com/e/unsub/8821>",
+      "List-Unsubscribe-Post": "List-Unsubscribe=One-Click",
+      "Precedence": "bulk"
+    },
+    "size_estimate": 2294,
+    "meta": {
+      "email_class": "promotional",
+      "tricky_tags": [],
+      "is_actionable_for_user": false,
+      "action_owner": null,
+      "action_summary": "No action required; upsell email.",
+      "due_date": null,
+      "commitment_made_by_user": null,
+      "commitment_is_conditional": false,
+      "commitment_condition": null,
+      "superseded_by_message_id": null,
+      "notes": null
+    }
+  },
+  {
+    "id": "d30f18c2e4b60044",
+    "thread_id": "d30f18c2e4b60044",
+    "profile_id": "hr",
+    "history_id": "743333",
+    "message_id_header": "<d30f18c2e4b60044@msn-globalsweep.com>",
+    "in_reply_to": null,
+    "references": [],
+    "thread_position": 1,
+    "thread_length": 1,
+    "from": {
+      "name": "MSN Global Sweepstakes Dept",
+      "email": "claims@msn-globalsweep.com"
+    },
+    "to": [
+      {
+        "name": "Marcus Bell",
+        "email": "marcus.bell@vireohealth.com"
+      }
+    ],
+    "cc": [],
+    "bcc": [],
+    "delivered_to": "marcus.bell@vireohealth.com",
+    "subject": "CONGRATULATIONS!!! You have WON $2,850,000 USD in the MSN Bitcoin Lottery",
+    "snippet": "ATTENTION WINNER, This is to officially inform you that your email address was selected among 50,000 email address that was randomly selected as a WINNER of $2,850,000.00 USD (Two ",
+    "body_text": "ATTENTION WINNER,\n\nThis is to officially inform you that your email address was selected among 50,000 email address that was randomly selected as a WINNER of $2,850,000.00 USD (Two Million Eight Hundred and Fifty Thousand US Dollars) in the MSN BITCOIN GLOBAL SWEEPSTAKE PROMOTION held on 28th July 2026.\n\nTo claim your winning, kindly contact our claims processing officer Mr. Robert Hendricks with your Full Name, Address, Phone Number and a copy of your ID for verification purpose. A small processing fee of $850 USD is required to release your fund via bitcoin transfer.\n\nContact: claims@msn-globalsweep.com\n\nCongratulations once again!!!\nMSN Global Sweepstakes Dept.",
+    "body_html": null,
+    "date": "2026-07-21T02:13:00+00:00",
+    "internal_date_ms": 1784599980000,
+    "folder": "SPAM",
+    "category": null,
+    "is_unread": true,
+    "is_starred": false,
+    "is_important": false,
+    "user_labels": [],
+    "attachments": [],
+    "calendar_event": null,
+    "extra_headers": {},
+    "size_estimate": 2472,
+    "meta": {
+      "email_class": "spam",
+      "tricky_tags": [],
+      "is_actionable_for_user": false,
+      "action_owner": null,
+      "action_summary": "No action required; classic advance-fee lottery/crypto scam.",
+      "due_date": null,
+      "commitment_made_by_user": null,
+      "commitment_is_conditional": false,
+      "commitment_condition": null,
+      "superseded_by_message_id": null,
+      "notes": "Lottery/crypto scam: fake sweepstakes, upfront 'processing fee' request, generic mass-blast phrasing, non-MSN domain."
+    }
+  },
+  {
+    "id": "d30f18c2e4b60045",
+    "thread_id": "d30f18c2e4b60045",
+    "profile_id": "hr",
+    "history_id": "710322",
+    "message_id_header": "<d30f18c2e4b60045@canadameds-savings.ru>",
+    "in_reply_to": null,
+    "references": [],
+    "thread_position": 1,
+    "thread_length": 1,
+    "from": {
+      "name": "CanadaMeds Direct",
+      "email": "deals@canadameds-savings.ru"
+    },
+    "to": [
+      {
+        "name": "Marcus Bell",
+        "email": "marcus.bell@vireohealth.com"
+      }
+    ],
+    "cc": [],
+    "bcc": [],
+    "delivered_to": "marcus.bell@vireohealth.com",
+    "subject": "Cialis 80% OFF - No Prescription Needed",
+    "snippet": "SUMMER SALE!! Cialis, Viagra, Levitra - up to 80% OFF, no prescription required. Discreet shipping worldwide. FDA-approved generics. ORDER NOW: http://canadameds-savings.ru/shop?re",
+    "body_text": "SUMMER SALE!! Cialis, Viagra, Levitra - up to 80% OFF, no prescription required. Discreet shipping worldwide. FDA-approved generics.\n\nORDER NOW: http://canadameds-savings.ru/shop?ref=8821\n\nUnsubscribe: http://canadameds-savings.ru/unsub",
+    "body_html": null,
+    "date": "2026-06-28T04:02:00+00:00",
+    "internal_date_ms": 1782619320000,
+    "folder": "SPAM",
+    "category": null,
+    "is_unread": true,
+    "is_starred": false,
+    "is_important": false,
+    "user_labels": [],
+    "attachments": [],
+    "calendar_event": null,
+    "extra_headers": {},
+    "size_estimate": 2036,
+    "meta": {
+      "email_class": "spam",
+      "tricky_tags": [],
+      "is_actionable_for_user": false,
+      "action_owner": null,
+      "action_summary": "No action required; pharmaceutical spam.",
+      "due_date": null,
+      "commitment_made_by_user": null,
+      "commitment_is_conditional": false,
+      "commitment_condition": null,
+      "superseded_by_message_id": null,
+      "notes": null
+    }
+  },
+  {
+    "id": "d30f18c2e4b60046",
+    "thread_id": "d30f18c2e4b60046",
+    "profile_id": "hr",
+    "history_id": "717635",
+    "message_id_header": "<d30f18c2e4b60046@rankboost-leads.net>",
+    "in_reply_to": null,
+    "references": [],
+    "thread_position": 1,
+    "thread_length": 1,
+    "from": {
+      "name": "RankBoost SEO",
+      "email": "noreply@rankboost-leads.net"
+    },
+    "to": [
+      {
+        "name": "Marcus Bell",
+        "email": "marcus.bell@vireohealth.com"
+      }
+    ],
+    "cc": [],
+    "bcc": [],
+    "delivered_to": "marcus.bell@vireohealth.com",
+    "subject": "vireohealth.com isn't ranking #1 - free audit inside",
+    "snippet": "Hi there, We ran an automated scan of vireohealth.com and found 14 SEO issues hurting your Google ranking. Get your FREE 20-page audit report instantly \u2014 no call required. Get my f",
+    "body_text": "Hi there,\n\nWe ran an automated scan of vireohealth.com and found 14 SEO issues hurting your Google ranking. Get your FREE 20-page audit report instantly \u2014 no call required.\n\nGet my free audit: http://rankboost-leads.net/audit?d=vireohealth.com\n\nReply STOP to opt out.\n\nRankBoost SEO Team",
+    "body_html": null,
+    "date": "2026-07-03T05:55:00+00:00",
+    "internal_date_ms": 1783058100000,
+    "folder": "SPAM",
+    "category": null,
+    "is_unread": false,
+    "is_starred": false,
+    "is_important": false,
+    "user_labels": [],
+    "attachments": [],
+    "calendar_event": null,
+    "extra_headers": {},
+    "size_estimate": 2089,
+    "meta": {
+      "email_class": "spam",
+      "tricky_tags": [],
+      "is_actionable_for_user": false,
+      "action_owner": null,
+      "action_summary": "No action required; automated SEO spam blast, name-drops the domain but clearly templated.",
+      "due_date": null,
+      "commitment_made_by_user": null,
+      "commitment_is_conditional": false,
+      "commitment_condition": null,
+      "superseded_by_message_id": null,
+      "notes": null
+    }
+  },
+  {
+    "id": "d30f18c2e4b60047",
+    "thread_id": "d30f18c2e4b60047",
+    "profile_id": "hr",
+    "history_id": "766918",
+    "message_id_header": "<d30f18c2e4b60047@vireo-health.net>",
+    "in_reply_to": null,
+    "references": [],
+    "thread_position": 1,
+    "thread_length": 1,
+    "from": {
+      "name": "Elaine Ford",
+      "email": "elaine.ford@vireo-health.net"
+    },
+    "to": [
+      {
+        "name": "Marcus Bell",
+        "email": "marcus.bell@vireohealth.com"
+      }
+    ],
+    "cc": [],
+    "bcc": [],
+    "delivered_to": "marcus.bell@vireohealth.com",
+    "subject": "Quick favor",
+    "snippet": "Marcus, are you at your desk? Need you to pick up gift cards for a client thing, kind of urgent. -Elaine",
+    "body_text": "Marcus, are you at your desk? Need you to pick up gift cards for a client thing, kind of urgent. -Elaine",
+    "body_html": null,
+    "date": "2026-08-06T11:18:00+00:00",
+    "internal_date_ms": 1786015080000,
+    "folder": "SPAM",
+    "category": null,
+    "is_unread": true,
+    "is_starred": false,
+    "is_important": false,
+    "user_labels": [],
+    "attachments": [],
+    "calendar_event": null,
+    "extra_headers": {
+      "Reply-To": "elainefordvireo@protonmail.com",
+      "Authentication-Results": "mx.google.com; spf=fail smtp.mailfrom=vireo-health.net"
+    },
+    "size_estimate": 2000,
+    "meta": {
+      "email_class": "phishing",
+      "tricky_tags": [],
+      "is_actionable_for_user": false,
+      "action_owner": null,
+      "action_summary": "No action required; business-email-compromise gift card scam impersonating CEO Dr. Elaine Ford from a lookalike domain (vireo-health.net, not vireohealth.com).",
+      "due_date": null,
+      "commitment_made_by_user": null,
+      "commitment_is_conditional": false,
+      "commitment_condition": null,
+      "superseded_by_message_id": null,
+      "notes": "Second phishing example (BEC/gift-card scam): spoofed display name 'Elaine Ford', lookalike sender domain, urgency, no prior context, classic pretext for a gift-card fraud request."
+    }
+  },
+  {
+    "id": "d30f18c2e4b60048",
+    "thread_id": "d30f18c2e4b60048",
+    "profile_id": "hr",
+    "history_id": "720955",
+    "message_id_header": "<d30f18c2e4b60048@springhealth.com>",
+    "in_reply_to": null,
+    "references": [],
+    "thread_position": 1,
+    "thread_length": 1,
+    "from": {
+      "name": "Spring Health",
+      "email": "hello@springhealth.com"
+    },
+    "to": [
+      {
+        "name": "Marcus Bell",
+        "email": "marcus.bell@vireohealth.com"
+      }
+    ],
+    "cc": [],
+    "bcc": [],
+    "delivered_to": "marcus.bell@vireohealth.com",
+    "subject": "See how Spring Health cut absenteeism 22% at healthcare systems like yours",
+    "snippet": "Hi Marcus, Healthcare employers using Spring Health for mental health benefits see an average 22% reduction in stress-related absenteeism within the first year. Coverage includes t",
+    "body_text": "Hi Marcus,\n\nHealthcare employers using Spring Health for mental health benefits see an average 22% reduction in stress-related absenteeism within the first year. Coverage includes therapy, medication management, and manager coaching resources \u2014 all through one benefit.\n\nWorth comparing against your current EAP? Happy to share a cost estimate for 200 employees.\n\nLearn more: https://springhealth.com/employers\n\nThe Spring Health Team",
+    "body_html": "<p style='font-family:Arial'>22% less stress-related absenteeism. <a href='https://springhealth.com/employers'>Learn more</a></p>",
+    "date": "2026-07-05T09:15:00-04:00",
+    "internal_date_ms": 1783257300000,
+    "folder": "INBOX",
+    "category": "CATEGORY_PROMOTIONS",
+    "is_unread": false,
+    "is_starred": false,
+    "is_important": false,
+    "user_labels": [],
+    "attachments": [],
+    "calendar_event": null,
+    "extra_headers": {
+      "List-Unsubscribe": "<mailto:unsub@springhealth.com>, <https://springhealth.com/e/unsub/8821>",
+      "List-Unsubscribe-Post": "List-Unsubscribe=One-Click",
+      "Precedence": "bulk"
+    },
+    "size_estimate": 2365,
+    "meta": {
+      "email_class": "cold_outreach",
+      "tricky_tags": [],
+      "is_actionable_for_user": false,
+      "action_owner": null,
+      "action_summary": "No action required; benefits vendor cold pitch.",
+      "due_date": null,
+      "commitment_made_by_user": null,
+      "commitment_is_conditional": false,
+      "commitment_condition": null,
+      "superseded_by_message_id": null,
+      "notes": null
+    }
+  },
+  {
+    "id": "d30f18c2e4b60049",
+    "thread_id": "d30f18c2e4b60049",
+    "profile_id": "hr",
+    "history_id": "699500",
+    "message_id_header": "<d30f18c2e4b60049@calm.com>",
+    "in_reply_to": null,
+    "references": [],
+    "thread_position": 1,
+    "thread_length": 1,
+    "from": {
+      "name": "Calm for Business",
+      "email": "business@calm.com"
+    },
+    "to": [
+      {
+        "name": "Marcus Bell",
+        "email": "marcus.bell@vireohealth.com"
+      }
+    ],
+    "cc": [],
+    "bcc": [],
+    "delivered_to": "marcus.bell@vireohealth.com",
+    "subject": "Bring Calm to Vireo Health Systems employees",
+    "snippet": "Hi Marcus, Calm for Business gives your 200 employees free access to the full Calm app \u2014 sleep, meditation, and stress-management content \u2014 for about $4/employee/year. A low-cost a",
+    "body_text": "Hi Marcus,\n\nCalm for Business gives your 200 employees free access to the full Calm app \u2014 sleep, meditation, and stress-management content \u2014 for about $4/employee/year. A low-cost addition to your wellness offerings, especially for shift workers dealing with irregular sleep schedules.\n\nInterested in a quote?\n\nCalm for Business Team",
+    "body_html": "<p style='font-family:Arial'>Calm for Business: ~$4/employee/year. <a href='https://calm.com/business'>Get a quote</a></p>",
+    "date": "2026-06-20T08:40:00-07:00",
+    "internal_date_ms": 1781970000000,
+    "folder": "INBOX",
+    "category": "CATEGORY_PROMOTIONS",
+    "is_unread": false,
+    "is_starred": false,
+    "is_important": false,
+    "user_labels": [],
+    "attachments": [],
+    "calendar_event": null,
+    "extra_headers": {},
+    "size_estimate": 2259,
+    "meta": {
+      "email_class": "cold_outreach",
+      "tricky_tags": [],
+      "is_actionable_for_user": false,
+      "action_owner": null,
+      "action_summary": "No action required; low-cost wellness perk cold pitch.",
+      "due_date": null,
+      "commitment_made_by_user": null,
+      "commitment_is_conditional": false,
+      "commitment_condition": null,
+      "superseded_by_message_id": null,
+      "notes": null
+    }
+  },
+  {
+    "id": "d30f18c2e4b60050",
+    "thread_id": "d30f18c2e4b60050",
+    "profile_id": "hr",
+    "history_id": "739675",
+    "message_id_header": "<d30f18c2e4b60050@myworkday.com>",
+    "in_reply_to": null,
+    "references": [],
+    "thread_position": 1,
+    "thread_length": 1,
+    "from": {
+      "name": "Workday",
+      "email": "admin-notify@myworkday.com"
+    },
+    "to": [
+      {
+        "name": "Marcus Bell",
+        "email": "marcus.bell@vireohealth.com"
+      }
+    ],
+    "cc": [],
+    "bcc": [],
+    "delivered_to": "marcus.bell@vireohealth.com",
+    "subject": "Your Workday admin console: 2 pending action items",
+    "snippet": "You have 2 pending action items in your Workday admin console. Log in to review.",
+    "body_text": "You have 2 pending action items in your Workday admin console. Log in to review.",
+    "body_html": "<p>2 pending action items in your Workday admin console. <a href='https://myworkday.com/vireo/admin'>Log in to review</a>.</p>",
+    "date": "2026-07-18T06:15:00-07:00",
+    "internal_date_ms": 1784380500000,
+    "folder": "INBOX",
+    "category": "CATEGORY_UPDATES",
+    "is_unread": false,
+    "is_starred": false,
+    "is_important": false,
+    "user_labels": [],
+    "attachments": [],
+    "calendar_event": null,
+    "extra_headers": {},
+    "size_estimate": 2006,
+    "meta": {
+      "email_class": "automated_notification",
+      "tricky_tags": [],
+      "is_actionable_for_user": false,
+      "action_owner": "renata.vlasov@vireohealth.com",
+      "action_summary": "No action required from Marcus directly; routine admin queue items handled by Renata Vlasov in People Ops.",
+      "due_date": null,
+      "commitment_made_by_user": null,
+      "commitment_is_conditional": false,
+      "commitment_condition": null,
+      "superseded_by_message_id": null,
+      "notes": null
+    }
+  }
+]

@@ -1,0 +1,74 @@
+{
+  "profile_id": "founder",
+  "question": "q2_forgetting",
+  "items_reviewed": 12,
+  "verdict": "issues",
+  "findings": [
+    {
+      "type": "false_positive",
+      "severity": "high",
+      "item_id": "founder-q2-08",
+      "message_ids": ["a50f18c2e4b60032", "a50f18c2e4b60033", "a50f18c2e4b60035"],
+      "problem": "Maya already delivered the draft board financials to Ellen AND Greg on Aug 1 — two weeks before the Aug 15 date she promised — with a metrics CSV attached; the commitment is discharged, not forgotten (and its date has not even passed yet as of Aug 12).",
+      "evidence": "a50f18c2e4b60035 (2026-08-01, SENT, To: ellen@northbridge.vc, Cc: greg.whitfield@whitfieldadvisory.com, attachment july_metrics_summary.csv): \"Ellen, Greg —\\n\\nGetting you the rough numbers early like we discussed, ahead of the full deck on the 20th. Attached is a summary; headline figures below so you have something to skim before you open it.\" The attachment's extracted_text carries ARR, NRR, gross margin, headcount and runway — exactly the \"rough numbers-only version two weeks out\" Ellen asked for in a50f18c2e4b60032.",
+      "recommended_action": "remove item | move to must_not_include with why_excluded 'Promised draft financials by Aug 15; delivered Aug 1 to both Ellen and Greg with july_metrics_summary.csv attached (a50f18c2e4b60035)' and trap 'delivered_attachment'. Then re-rank 09/10/11 up one and drop founder-q2-08 from `ranked`. If any part of this thread is kept, it must be re-scoped to the *finished deck by Aug 20*, which is still future and visibly in motion (a20f18c2e4b60019, Aug 12: 'updating the deck now, will send the final version Wednesday morning before the meeting')."
+    },
+    {
+      "type": "stale_fact",
+      "severity": "medium",
+      "item_id": "founder-q2-01",
+      "message_ids": ["a50f18c2e4b60017", "a10f18c2e4b60027"],
+      "problem": "The claim asserts four missed Fridays (Jul 17, 24, 31, Aug 7) with 'no such email sent', but Jul 31 IS a Friday and Maya did send Dana a written status update from herself that day; the true miss count is three, and the item omits the message that both partially satisfies and then re-promises the cadence.",
+      "evidence": "a10f18c2e4b60027 (2026-07-31T08:15:00-07:00, SENT, Maya -> dana.kowalski@lumenpay.io): \"Assuming tomorrow's call with your IT lead goes clean, we're targeting Monday, August 10 for production go-live ... I'll personally check in with you Friday either way.\" No Maya->Dana message exists on Friday Aug 7; the next contact is a10f18c2e4b60048 on Monday Aug 10, which opens \"Dana — fair, and sorry for the vague answer last week.\"",
+      "recommended_action": "fix claim to 'three Fridays (Jul 17, Jul 24, Aug 7) passed with no status email; the Jul 31 update went out but the Aug 7 check-in she re-promised on Jul 31 did not' and add 'a10f18c2e4b60027' to message_ids as supporting evidence. Update prose_answer accordingly ('Jul 17, 24, 31 and Aug 7 have all gone by with nothing' is wrong as written)."
+    },
+    {
+      "type": "missed_item",
+      "severity": "medium",
+      "item_id": null,
+      "message_ids": ["a50f18c2e4b60024", "a50f18c2e4b60035", "a10f18c2e4b60039", "a60f18c2e4b60050"],
+      "problem": "Maya promised Wendy the updated hiring-plan assumptions by Wednesday Jul 22 and never sent them; the mailbox now carries three mutually inconsistent runway figures going into the board deck, which is exactly the damage this handoff was meant to prevent.",
+      "evidence": "a50f18c2e4b60024 (2026-07-20, SENT, Maya -> wendy@kettlehq.com): \"Can you rerun the model with the actual July AWS number once Dev's optimization work lands? I'll get you the updated hiring plan assumptions by Wednesday so you're not guessing. — M\" No later message to Wendy mentions hiring plan assumptions. Consequence is visible: a50f18c2e4b60035 (Aug 1, to the board) says \"Runway: 14 months at current burn\"; a10f18c2e4b60039 (Aug 6, Wendy's board financials slide) says \"22 months of runway as of end of July\"; a60f18c2e4b60050 (Aug 10, to the team) says \"we're sitting around 11.5 months at current burn\".",
+      "recommended_action": "add new item with these fields — tier: acceptable; claim: 'Maya promised Wendy the updated hiring-plan assumptions by Wednesday Jul 22 for the runway model and never sent them; the board pack now carries three different runway numbers (14 / 22 / 11.5 months).'; thread_id a50f18c2e4b60024; anchor_message_id a50f18c2e4b60024; evidence_quote \"I'll get you the updated hiring plan assumptions by Wednesday so you're not guessing.\"; counterparty wendy@kettlehq.com; due_date 2026-07-22; due_basis explicit; days_open 23; consequence high; tricky_tags []. Rank around 5-6."
+    },
+    {
+      "type": "missed_item",
+      "severity": "medium",
+      "item_id": null,
+      "message_ids": ["a50f18c2e4b60003", "a10f18c2e4b60029", "a10f18c2e4b60032"],
+      "problem": "Maya's oldest live owner commitment — looping finance in on Tarrow pricing flexibility by Friday Jun 19 — is absent from both `items` and `must_not_include`, despite being flagged in meta as commitment_made_by_user, having an explicit passed date, and no discharging message anywhere in the mailbox.",
+      "evidence": "a50f18c2e4b60003 (2026-06-18, SENT, Maya -> tom@kettlehq.com): \"If it helps, I'll loop finance in on pricing flexibility by Friday so you're not negotiating blind.\" Single-message thread; a full-corpus search for 'pricing flexibility' / 'loop finance' returns only this message, and no Maya->Wendy message ever raises Tarrow pricing. The renewal is live and commercially material — a10f18c2e4b60029 (Aug 3, Beth): \"this is now your second-largest contract by ACV at $186K/year\" — and Maya was still making unilateral pricing calls on it on Aug 4 (a10f18c2e4b60032, \"counter at $350K\").",
+      "recommended_action": "add new item with these fields — tier: acceptable; claim: 'Maya told Tom on Jun 18 she would loop finance in on Tarrow Health pricing flexibility by Friday Jun 19 so he was not negotiating blind; 54 days later there is no evidence finance was ever involved, and the $186K renewal is now in redline.'; thread_id/anchor a50f18c2e4b60003; evidence_quote \"I'll loop finance in on pricing flexibility by Friday so you're not negotiating blind.\"; counterparty tom@kettlehq.com; due_date 2026-06-19; due_basis explicit; days_open 55; consequence medium; tricky_tags []. If the curator judges the renewal to have moved on without it, it must at minimum appear in must_not_include with that reasoning — silent omission of a tagged owner commitment is not defensible."
+    },
+    {
+      "type": "missed_item",
+      "severity": "medium",
+      "item_id": null,
+      "message_ids": ["a20f18c2e4b60009", "a20f18c2e4b60010", "a40f18c2e4b60017", "a40f18c2e4b60018"],
+      "problem": "Maya told Dana in writing that the DPA addendum would be signed by Aug 5; Aug 5 passed with nothing, and her only request to Beth on that document bounced off an out-of-office auto-reply on Jul 20 and was never re-sent — so the chase she implicitly owes herself is a live forgetting, not merely a wait on counsel.",
+      "evidence": "a20f18c2e4b60010 (2026-07-30, SENT, Maya -> dana.kowalski@lumenpay.io): \"Dana — Beth Ranganathan, our outside counsel, is already on the DPA addendum and is targeting Aug 5 for a signed version, so that should line up fine with go-live.\" The underlying ask, a40f18c2e4b60017 (Jul 20, Maya -> Beth, \"Attaching Lumenpay's requested changes to section 8.2 (liability cap) and the new data processing addendum\"), is answered only by a40f18c2e4b60018, an auto-reply: \"I am out of the office at the AmLaw Tech Counsel conference and will have limited access to email through Thursday, July 23rd.\" Nothing in the mailbox relays Dana's Aug 5 procurement deadline to Beth.",
+      "recommended_action": "add new item (tier borderline or acceptable) anchored on a20f18c2e4b60010, or — if the curator reads it as Beth's obligation (Q4) — move to must_not_include with an explicit why_excluded. QUESTIONS.md's out_of_office row puts the un-re-sent follow-up in Q2/Q6 territory, and here Maya additionally staked a date to a flagship customer, so leaving it entirely unaddressed in this answer set is a gap."
+    },
+    {
+      "type": "stale_fact",
+      "severity": "medium",
+      "item_id": "founder-q2-10",
+      "message_ids": ["a20f18c2e4b60039"],
+      "problem": "The claim says 'the first Thursday has passed' and sets due_date 2026-08-10, but the promise was made Monday Aug 3 for 'Thursdays starting next week' — the first occurrence is Thursday Aug 13, which is after the as-of moment.",
+      "evidence": "a20f18c2e4b60039 (2026-08-03T16:20:00-07:00, SENT): \"...probably by putting a standing thirty-minute pricing/packaging sync on the calendar rather than relitigating things over five-person CC threads every time. I'll set that up for Thursdays starting next week.\" Aug 3 2026 is a Monday; the Thursday of the following week is Aug 13. No pricing-sync invite exists anywhere in the mailbox's calendar traffic.",
+      "recommended_action": "fix claim to 'no invite has gone out with the first Thursday (Aug 13) one day away' and set due_date to 2026-08-13 (due_basis implicit). The item still qualifies — the setup action is overdue — but the stated basis is wrong."
+    }
+  ],
+  "checked_and_sound": [
+    "founder-q2-02",
+    "founder-q2-03",
+    "founder-q2-04",
+    "founder-q2-05",
+    "founder-q2-06",
+    "founder-q2-07",
+    "founder-q2-09",
+    "founder-q2-11",
+    "founder-q2-12"
+  ],
+  "notes": "Verification performed: all 12 evidence_quote strings were confirmed as exact substrings of a cited message's body_text (none required attachment text); all message_ids resolve; declared thread_ids are consistent (items 02 and 05 legitimately span threads under the cross-thread-obligation rule). All 12 items are owner-authored (SENT or DRAFT), so the engagement test is satisfied everywhere — no misfiled Q6 items found. No double-counting found: 01 and 03 both anchor on a50f18c2e4b60017 but are genuinely independent deliverables (recurring status cadence vs. a dollar credit memo), which the curator_notes already defend.\n\nAll seven must_not_include distractors were checked against the corpus and all hold: a50f18c2e4b60015 is genuinely superseded by the fuller a50f18c2e4b60017 sent the next day (the curator correctly overrode QUESTIONS.md's worked example per the precedence rule); a60f18c2e4b60024 was claimed by Luis within 47 minutes (a60f18c2e4b60025, 'I'll grab this — just sent Rachel three time slots for Thursday'); a10f18c2e4b60047 was approved Aug 11 (a10f18c2e4b60049); the Peter, Tom and ambiguous-pronoun entries are all correctly non-Maya. No bad distractors found.\n\nItem 02 is sound as written, but a human reviewer should note a latent tension in the corpus: on Aug 5-6 Beth is still negotiating the Lumenpay indemnification clause with their legal team (a50f18c2e4b60043 / a50f18c2e4b60045), yet on Aug 7 the e-signature vendor calls the amendment 'finalized (indemnification language as discussed with Beth)'. Taking the corpus at face value the condition has resolved and Maya owes the signature, which is what the item says.\n\nItem 07's condition may not have fired: Beth's Jul 28 reply (a10f18c2e4b60020) says she will contact Lumenpay's counsel 'once we have language back from Halcyon', and no Halcyon response appears in the mailbox. The item is tagged conditional_promise and its why_it_qualifies is honest about this, so I did not raise it as a finding, but its stated due_date of Aug 14 has not passed and a strict reading of the Q2 conditional_promise rule ('belongs here once the stated date passes unresolved') would defer it.\n\nItem 03 carries a mild wrong-owner smell — the literal sentence is 'Wendy will get the credit memo to your AP contact this week' — but it survives, because the underlying credit commitment is Maya's own ('I'm crediting Lumenpay 100% of August platform fees') and, decisively, there is no message anywhere from Maya to Wendy tasking her with the memo, so the delegation itself was never made.\n\nRanking: with founder-q2-08 removed, `ranked` should become 01, 02, 03, 04, 05, 06, 07, 09, 10, 11 plus the two proposed new items. I considered whether 06 (counsel explicitly blocked, consequence high, 5 days overdue) should outrank 04 and 05 (both medium consequence) under (overdue x chased x consequence) and think it is defensible either way, so I did not file it as misranked.\n\nprose_answer needs two edits after the above: it repeats the four-Fridays error and it states 'Ellen's draft financials are due Aug 15' as an outstanding obligation, which finding 1 shows was delivered on Aug 1."
+}

@@ -1,0 +1,2858 @@
+[
+  {
+    "id": "e30f18c2e4b60001",
+    "thread_id": "e30f18c2e4b60001",
+    "profile_id": "consulting",
+    "history_id": "690760",
+    "message_id_header": "<e30f18c2e4b60001@getharvest.com>",
+    "in_reply_to": null,
+    "references": [],
+    "thread_position": 1,
+    "thread_length": 1,
+    "from": {
+      "name": "Harvest",
+      "email": "hello@getharvest.com"
+    },
+    "to": [
+      {
+        "name": "Evelyn Thorne",
+        "email": "evelyn.thorne@thornecadwell.com"
+      }
+    ],
+    "cc": [],
+    "bcc": [],
+    "delivered_to": "evelyn.thorne@thornecadwell.com",
+    "subject": "Your 2025 Harvest Wrapped is here",
+    "snippet": "Thorne & Cadwell logged 9,842 hours in Harvest last year. See your full team's 2025 Wrapped: getharvest.com/wrapped",
+    "body_text": "Thorne & Cadwell logged 9,842 hours in Harvest last year. See your full team's 2025 Wrapped: getharvest.com/wrapped",
+    "body_html": null,
+    "date": "2026-06-14T10:00:00-04:00",
+    "internal_date_ms": 1781445600000,
+    "folder": "INBOX",
+    "category": "CATEGORY_PROMOTIONS",
+    "is_unread": false,
+    "is_starred": false,
+    "is_important": false,
+    "user_labels": [],
+    "attachments": [],
+    "calendar_event": null,
+    "extra_headers": {
+      "List-Unsubscribe": "<mailto:unsubscribe@getharvest.com>",
+      "Precedence": "bulk",
+      "Return-Path": "<hello@getharvest.com>"
+    },
+    "size_estimate": 755,
+    "meta": {
+      "email_class": "promotional",
+      "tricky_tags": [],
+      "is_actionable_for_user": false,
+      "action_owner": null,
+      "action_summary": null,
+      "due_date": null,
+      "commitment_made_by_user": null,
+      "commitment_is_conditional": false,
+      "commitment_condition": null,
+      "superseded_by_message_id": null,
+      "notes": null
+    }
+  },
+  {
+    "id": "e30f18c2e4b60002",
+    "thread_id": "e30f18c2e4b60002",
+    "profile_id": "consulting",
+    "history_id": "693772",
+    "message_id_header": "<e30f18c2e4b60002@quickbooks.intuit.com>",
+    "in_reply_to": null,
+    "references": [],
+    "thread_position": 1,
+    "thread_length": 1,
+    "from": {
+      "name": "QuickBooks",
+      "email": "marketing@quickbooks.intuit.com"
+    },
+    "to": [
+      {
+        "name": "Evelyn Thorne",
+        "email": "evelyn.thorne@thornecadwell.com"
+      }
+    ],
+    "cc": [],
+    "bcc": [],
+    "delivered_to": "evelyn.thorne@thornecadwell.com",
+    "subject": "Save 30% on QuickBooks Online Advanced through August",
+    "snippet": "Hi Evelyn, For a limited time, upgrade to QuickBooks Online Advanced and save 30% for your first 6 months. Advanced gives growing firms like Thorne & Cadwell: - Custom user permiss",
+    "body_text": "Hi Evelyn,\n\nFor a limited time, upgrade to QuickBooks Online Advanced and save 30% for your first 6 months. Advanced gives growing firms like Thorne & Cadwell:\n\n- Custom user permissions for up to 25 seats\n- Batch invoicing and automated workflows\n- Dedicated account manager\n\nFirms your size typically save 4+ hours a week on billing admin. Upgrade before August 31 to lock in the discount.\n\nUpgrade now: quickbooks.intuit.com/upgrade-advanced\n\nThe QuickBooks Team",
+    "body_html": "<div style=\"font-family:Arial,sans-serif;font-size:14px;color:#222;line-height:1.5;\"><p>Hi Evelyn,</p><p>For a limited time, upgrade to QuickBooks Online Advanced and save 30% for your first 6 months. Advanced gives growing firms like Thorne & Cadwell:</p><p>- Custom user permissions for up to 25 seats<br>- Batch invoicing and automated workflows<br>- Dedicated account manager</p><p>Firms your size typically save 4+ hours a week on billing admin. Upgrade before August 31 to lock in the discount.</p><p>Upgrade now: quickbooks.intuit.com/upgrade-advanced</p><p>The QuickBooks Team</p></div>",
+    "date": "2026-06-16T09:12:00-07:00",
+    "internal_date_ms": 1781626320000,
+    "folder": "INBOX",
+    "category": "CATEGORY_PROMOTIONS",
+    "is_unread": false,
+    "is_starred": false,
+    "is_important": false,
+    "user_labels": [],
+    "attachments": [],
+    "calendar_event": null,
+    "extra_headers": {
+      "List-Unsubscribe": "<mailto:unsubscribe@quickbooks.intuit.com>, <https://quickbooks.intuit.com/unsubscribe?u=88213>",
+      "List-Unsubscribe-Post": "List-Unsubscribe=One-Click",
+      "Precedence": "bulk",
+      "Return-Path": "<marketing@quickbooks.intuit.com>"
+    },
+    "size_estimate": 1699,
+    "meta": {
+      "email_class": "promotional",
+      "tricky_tags": [],
+      "is_actionable_for_user": false,
+      "action_owner": null,
+      "action_summary": null,
+      "due_date": null,
+      "commitment_made_by_user": null,
+      "commitment_is_conditional": false,
+      "commitment_condition": null,
+      "superseded_by_message_id": null,
+      "notes": null
+    }
+  },
+  {
+    "id": "e30f18c2e4b60003",
+    "thread_id": "e30f18c2e4b60003",
+    "profile_id": "consulting",
+    "history_id": "695020",
+    "message_id_header": "<e30f18c2e4b60003@chicagomfgcouncil.org>",
+    "in_reply_to": null,
+    "references": [],
+    "thread_position": 1,
+    "thread_length": 1,
+    "from": {
+      "name": "Chicago Manufacturing Council",
+      "email": "newsletter@chicagomfgcouncil.org"
+    },
+    "to": [
+      {
+        "name": "Evelyn Thorne",
+        "email": "evelyn.thorne@thornecadwell.com"
+      }
+    ],
+    "cc": [],
+    "bcc": [],
+    "delivered_to": "evelyn.thorne@thornecadwell.com",
+    "subject": "CMC Monthly: Member Spotlight & Events",
+    "snippet": "CMC MONTHLY This month we spotlight Halberd Packaging's new automated case-sealing line, toured by 30 members last week. Thanks to COO Lucia Ferraro for hosting. Upcoming: our Sept",
+    "body_text": "CMC MONTHLY\n\nThis month we spotlight Halberd Packaging's new automated case-sealing line, toured by 30 members last week. Thanks to COO Lucia Ferraro for hosting.\n\nUpcoming: our September plant tour will be at a member facility in Elk Grove Village \u2014 sign up in the members portal, spots are limited to 25.\n\nAlso: nominations are open for the 2026 CMC Manufacturing Advisor of the Year award. If you know an advisor or consultant who's made a real impact at a member company, nominate them by August 30.\n\nChicago Manufacturing Council",
+    "body_html": null,
+    "date": "2026-06-17T08:00:00-05:00",
+    "internal_date_ms": 1781701200000,
+    "folder": "INBOX",
+    "category": "CATEGORY_UPDATES",
+    "is_unread": false,
+    "is_starred": false,
+    "is_important": false,
+    "user_labels": [],
+    "attachments": [],
+    "calendar_event": null,
+    "extra_headers": {
+      "List-Unsubscribe": "<mailto:unsubscribe@chicagomfgcouncil.org>, <https://chicagomfgcouncil.org/unsubscribe?u=6621>",
+      "List-Unsubscribe-Post": "List-Unsubscribe=One-Click",
+      "List-ID": "CMC Monthly <newsletter.chicagomfgcouncil.org>",
+      "Precedence": "bulk",
+      "Feedback-ID": "cmc-monthly:jun:2026:cmc",
+      "Return-Path": "<newsletter@chicagomfgcouncil.org>"
+    },
+    "size_estimate": 1176,
+    "meta": {
+      "email_class": "newsletter",
+      "tricky_tags": [],
+      "is_actionable_for_user": false,
+      "action_owner": null,
+      "action_summary": null,
+      "due_date": null,
+      "commitment_made_by_user": null,
+      "commitment_is_conditional": false,
+      "commitment_condition": null,
+      "superseded_by_message_id": null,
+      "notes": null
+    }
+  },
+  {
+    "id": "e30f18c2e4b60004",
+    "thread_id": "e30f18c2e4b60004",
+    "profile_id": "consulting",
+    "history_id": "696520",
+    "message_id_header": "<e30f18c2e4b60004@thegeraghtyevents.com>",
+    "in_reply_to": null,
+    "references": [],
+    "thread_position": 1,
+    "thread_length": 1,
+    "from": {
+      "name": "The Geraghty Events",
+      "email": "events@thegeraghtyevents.com"
+    },
+    "to": [
+      {
+        "name": "Evelyn Thorne",
+        "email": "evelyn.thorne@thornecadwell.com"
+      }
+    ],
+    "cc": [],
+    "bcc": [],
+    "delivered_to": "evelyn.thorne@thornecadwell.com",
+    "subject": "Book Thorne & Cadwell's next offsite at The Geraghty",
+    "snippet": "Planning a firm offsite or client dinner? The Geraghty's private dining room seats up to 40 in Bridgeport with in-house catering. Ask about our fall availability: thegeraghtyevents",
+    "body_text": "Planning a firm offsite or client dinner? The Geraghty's private dining room seats up to 40 in Bridgeport with in-house catering. Ask about our fall availability: thegeraghtyevents.com/inquire",
+    "body_html": null,
+    "date": "2026-06-18T09:00:00-05:00",
+    "internal_date_ms": 1781791200000,
+    "folder": "INBOX",
+    "category": "CATEGORY_PROMOTIONS",
+    "is_unread": false,
+    "is_starred": false,
+    "is_important": false,
+    "user_labels": [],
+    "attachments": [],
+    "calendar_event": null,
+    "extra_headers": {
+      "Return-Path": "<events@thegeraghtyevents.com>"
+    },
+    "size_estimate": 832,
+    "meta": {
+      "email_class": "promotional",
+      "tricky_tags": [],
+      "is_actionable_for_user": false,
+      "action_owner": null,
+      "action_summary": null,
+      "due_date": null,
+      "commitment_made_by_user": null,
+      "commitment_is_conditional": false,
+      "commitment_condition": null,
+      "superseded_by_message_id": null,
+      "notes": null
+    }
+  },
+  {
+    "id": "e30f18c2e4b60005",
+    "thread_id": "e30f18c2e4b60005",
+    "profile_id": "consulting",
+    "history_id": "697962",
+    "message_id_header": "<CAFe30f18c2e4b60005@mail.gmail.com>",
+    "in_reply_to": null,
+    "references": [],
+    "thread_position": 1,
+    "thread_length": 1,
+    "from": {
+      "name": "Barrister James Okafor",
+      "email": "barrister.j.okafor77@gmail.com"
+    },
+    "to": [
+      {
+        "name": "Evelyn Thorne",
+        "email": "evelyn.thorne@thornecadwell.com"
+      }
+    ],
+    "cc": [],
+    "bcc": [],
+    "delivered_to": "evelyn.thorne@thornecadwell.com",
+    "subject": "URGENT NOTIFICATION: Unclaimed Inheritance Fund USD 8,700,000",
+    "snippet": "Attn: Evelyn Thorne, I am Barrister James Okafor, personal attorney to late Engr. Thomas Reinholt who died in a plane crash along with his wife and two children on the 4th of March",
+    "body_text": "Attn: Evelyn Thorne,\n\nI am Barrister James Okafor, personal attorney to late Engr. Thomas Reinholt who died in a plane crash along with his wife and two children on the 4th of March 2019 leaving behind the sum of Eight Million Seven Hundred Thousand United States Dollars (USD 8,700,000.00) deposited with a Prime Bank here in Europe.\n\nSince his death, i have made several enquiries to his embassy to locate any of my late client extended relatives but this has proved unsuccessful. After further investigation, it was disclosed that Mr Reinholt did not declare any next of kin in his official Bank Deposit documents and the said amount has now been declared UNCLAIMED by the Bank Management.\n\nI am inviting you to stand in as the Next of Kin to my late client so that the fund of USD 8,700,000.00 can be paid to you, and we shall share the proceed at an agreed percentage. This is 100% risk free and legitimate as i have all legal documents to back up this claim, including the Certificate of Deposit, the Death Certificate of my late client, and a Letter of Administration issued by the probate registry.\n\nLet me explain briefly how the process will work once you accept to proceed with me. First, I will file an application to the Bank Directorate of my late client, presenting you as the beneficiary and Next of Kin, backed by the aforementioned documents already in my possession. Second, upon approval, the Bank will issue us a Payment Approval Letter authorizing transfer of the funds into any bank account you nominate anywhere in the world. Third, I will personally travel to your country to conclude the sharing formalities once the funds have been confirmed received, so that everything is transparent between us and there is no ambiguity on either side.\n\nI must state clearly that this transaction is 100% risk free to you, as I am a licensed Barrister and Notary Public and will use my professional standing to guarantee the process from beginning to end. All you need to provide at this stage is your consent to proceed, along with a few identification details so I can begin preparing the necessary paperwork on your behalf without delay.\n\nIf you find this business proposal reasonable, kindly respond immediately with the following:\n1. Your Full Name and Contact Address\n2. Direct Telephone Number\n3. Occupation and Company Name\n4. A copy of your International Passport or Driving License\n\nPlease treat this matter with the utmost confidentiality it deserves, as I am still bound by professional ethics as an attorney and cannot be seen to be soliciting outside proper legal channels. I have selected you carefully after a diligent search, and I trust that you will not betray this confidence once the funds are in your care, particularly regarding the percentage we agree upon.\n\nI await your urgent response as time is not on our side, the Bank Compliance Department is under pressure to close all dormant accounts by end of quarter, after which unclaimed funds of this nature are transferred to the state treasury and become permanently unrecoverable by any next of kin, real or nominated.\n\nYours faithfully,\nBarrister James Okafor\nAttorney at Law\nTel: +44 703 195 8862\nEmail: barrister.j.okafor77@gmail.com\n\nThis is a private and confidential correspondence intended solely for the person to whom it is addressed. Please treat as strictly confidential and reply only to this email address.",
+    "body_html": null,
+    "date": "2026-06-19T14:02:00+00:00",
+    "internal_date_ms": 1781877720000,
+    "folder": "SPAM",
+    "category": null,
+    "is_unread": false,
+    "is_starred": false,
+    "is_important": false,
+    "user_labels": [],
+    "attachments": [],
+    "calendar_event": null,
+    "extra_headers": {
+      "Return-Path": "<barrister.j.okafor77@gmail.com>"
+    },
+    "size_estimate": 4048,
+    "meta": {
+      "email_class": "spam",
+      "tricky_tags": [],
+      "is_actionable_for_user": false,
+      "action_owner": null,
+      "action_summary": null,
+      "due_date": null,
+      "commitment_made_by_user": null,
+      "commitment_is_conditional": false,
+      "commitment_condition": null,
+      "superseded_by_message_id": null,
+      "notes": "Crude classic inheritance/lottery scam from a free gmail address."
+    }
+  },
+  {
+    "id": "e30f18c2e4b60006",
+    "thread_id": "e30f18c2e4b60006",
+    "profile_id": "consulting",
+    "history_id": "702400",
+    "message_id_header": "<e30f18c2e4b60006@mail.docusign.com>",
+    "in_reply_to": null,
+    "references": [],
+    "thread_position": 1,
+    "thread_length": 1,
+    "from": {
+      "name": "DocuSign",
+      "email": "events@mail.docusign.com"
+    },
+    "to": [
+      {
+        "name": "Evelyn Thorne",
+        "email": "evelyn.thorne@thornecadwell.com"
+      }
+    ],
+    "cc": [],
+    "bcc": [],
+    "delivered_to": "evelyn.thorne@thornecadwell.com",
+    "subject": "Live demo: DocuSign for professional services firms",
+    "snippet": "Join our 20-minute live demo Wednesday at 11 AM PT showing how professional services firms use DocuSign for engagement letters, NDAs, and change orders. Register: docusign.com/demo",
+    "body_text": "Join our 20-minute live demo Wednesday at 11 AM PT showing how professional services firms use DocuSign for engagement letters, NDAs, and change orders. Register: docusign.com/demo-services",
+    "body_html": null,
+    "date": "2026-06-22T09:00:00-07:00",
+    "internal_date_ms": 1782144000000,
+    "folder": "INBOX",
+    "category": "CATEGORY_PROMOTIONS",
+    "is_unread": false,
+    "is_starred": false,
+    "is_important": false,
+    "user_labels": [],
+    "attachments": [],
+    "calendar_event": null,
+    "extra_headers": {
+      "List-Unsubscribe": "<mailto:unsubscribe@mail.docusign.com>",
+      "Precedence": "bulk",
+      "Return-Path": "<events@mail.docusign.com>"
+    },
+    "size_estimate": 829,
+    "meta": {
+      "email_class": "promotional",
+      "tricky_tags": [],
+      "is_actionable_for_user": false,
+      "action_owner": null,
+      "action_summary": null,
+      "due_date": null,
+      "commitment_made_by_user": null,
+      "commitment_is_conditional": false,
+      "commitment_condition": null,
+      "superseded_by_message_id": null,
+      "notes": null
+    }
+  },
+  {
+    "id": "e30f18c2e4b60007",
+    "thread_id": "e30f18c2e4b60007",
+    "profile_id": "consulting",
+    "history_id": "703791",
+    "message_id_header": "<e30f18c2e4b60007@apexoutboundpartners.com>",
+    "in_reply_to": null,
+    "references": [],
+    "thread_position": 1,
+    "thread_length": 1,
+    "from": {
+      "name": "Derek Munn",
+      "email": "derek@apexoutboundpartners.com"
+    },
+    "to": [
+      {
+        "name": "Evelyn Thorne",
+        "email": "evelyn.thorne@thornecadwell.com"
+      }
+    ],
+    "cc": [],
+    "bcc": [],
+    "delivered_to": "evelyn.thorne@thornecadwell.com",
+    "subject": "I can get Thorne & Cadwell 10 qualified manufacturing calls a month",
+    "snippet": "Evelyn, I run outbound for boutique consulting firms \u2014 mostly ops/strategy shops working with mid-market manufacturers, which is why Thorne & Cadwell caught my eye. We book 8-12 qu",
+    "body_text": "Evelyn,\n\nI run outbound for boutique consulting firms \u2014 mostly ops/strategy shops working with mid-market manufacturers, which is why Thorne & Cadwell caught my eye.\n\nWe book 8-12 qualified discovery calls a month with VP Ops and Plant Manager titles at $50M-$500M manufacturers, using a mix of cold email and LinkedIn outreach under your firm's name. No retainer \u2014 you only pay per booked call ($275/call), and we handle the SDR headcount so you don't have to.\n\nWorth a 15-minute call to see if it's a fit? I can work around your calendar this week or next.\n\nBest,\nDerek Munn\nFounder, Apex Outbound Partners\nderek@apexoutboundpartners.com | 312-555-0148",
+    "body_html": null,
+    "date": "2026-06-23T10:11:00-05:00",
+    "internal_date_ms": 1782227460000,
+    "folder": "INBOX",
+    "category": "CATEGORY_PROMOTIONS",
+    "is_unread": false,
+    "is_starred": false,
+    "is_important": false,
+    "user_labels": [
+      "Label_7751"
+    ],
+    "attachments": [],
+    "calendar_event": null,
+    "extra_headers": {
+      "Return-Path": "<derek@apexoutboundpartners.com>"
+    },
+    "size_estimate": 1298,
+    "meta": {
+      "email_class": "cold_outreach",
+      "tricky_tags": [],
+      "is_actionable_for_user": false,
+      "action_owner": null,
+      "action_summary": null,
+      "due_date": null,
+      "commitment_made_by_user": null,
+      "commitment_is_conditional": false,
+      "commitment_condition": null,
+      "superseded_by_message_id": null,
+      "notes": null
+    }
+  },
+  {
+    "id": "e30f18c2e4b60008",
+    "thread_id": "e30f18c2e4b60008",
+    "profile_id": "consulting",
+    "history_id": "705681",
+    "message_id_header": "<e30f18c2e4b60008@linkedin.com>",
+    "in_reply_to": null,
+    "references": [],
+    "thread_position": 1,
+    "thread_length": 1,
+    "from": {
+      "name": "LinkedIn",
+      "email": "notifications-noreply@linkedin.com"
+    },
+    "to": [
+      {
+        "name": "Evelyn Thorne",
+        "email": "evelyn.thorne@thornecadwell.com"
+      }
+    ],
+    "cc": [],
+    "bcc": [],
+    "delivered_to": "evelyn.thorne@thornecadwell.com",
+    "subject": "Owen McCabe accepted your connection request",
+    "snippet": "Owen McCabe (VP Supply Chain at Stratus Industrial) accepted your invitation to connect. Start a conversation on LinkedIn.",
+    "body_text": "Owen McCabe (VP Supply Chain at Stratus Industrial) accepted your invitation to connect. Start a conversation on LinkedIn.",
+    "body_html": null,
+    "date": "2026-06-24T15:41:00-07:00",
+    "internal_date_ms": 1782340860000,
+    "folder": "INBOX",
+    "category": "CATEGORY_SOCIAL",
+    "is_unread": false,
+    "is_starred": false,
+    "is_important": false,
+    "user_labels": [],
+    "attachments": [],
+    "calendar_event": null,
+    "extra_headers": {
+      "Precedence": "bulk",
+      "Return-Path": "<notifications-noreply@linkedin.com>"
+    },
+    "size_estimate": 762,
+    "meta": {
+      "email_class": "social",
+      "tricky_tags": [],
+      "is_actionable_for_user": false,
+      "action_owner": null,
+      "action_summary": null,
+      "due_date": null,
+      "commitment_made_by_user": null,
+      "commitment_is_conditional": false,
+      "commitment_condition": null,
+      "superseded_by_message_id": null,
+      "notes": null
+    }
+  },
+  {
+    "id": "e30f18c2e4b60009",
+    "thread_id": "e30f18c2e4b60009",
+    "profile_id": "consulting",
+    "history_id": "708145",
+    "message_id_header": "<e30f18c2e4b60009@elevateconsultingsearch.com>",
+    "in_reply_to": null,
+    "references": [],
+    "thread_position": 1,
+    "thread_length": 1,
+    "from": {
+      "name": "Priya Chandran",
+      "email": "priya@elevateconsultingsearch.com"
+    },
+    "to": [
+      {
+        "name": "Evelyn Thorne",
+        "email": "evelyn.thorne@thornecadwell.com"
+      }
+    ],
+    "cc": [],
+    "bcc": [],
+    "delivered_to": "evelyn.thorne@thornecadwell.com",
+    "subject": "3 pre-vetted operations consultants ready to interview this week",
+    "snippet": "Hi Evelyn, Saw Thorne & Cadwell is likely still growing the consulting bench \u2014 we specialize in placing operations and supply chain consultants at boutique advisory firms and have ",
+    "body_text": "Hi Evelyn,\n\nSaw Thorne & Cadwell is likely still growing the consulting bench \u2014 we specialize in placing operations and supply chain consultants at boutique advisory firms and have three candidates on the market right now with manufacturing-client experience (ex-McKinsey, ex-Deloitte S&O, and one strong industry-to-consulting transition from a Tier 1 auto supplier).\n\nNo fee unless you hire \u2014 happy to send resumes if useful, no strings attached.\n\nPriya Chandran\nElevate Consulting Search\npriya@elevateconsultingsearch.com",
+    "body_html": null,
+    "date": "2026-06-26T10:45:00-05:00",
+    "internal_date_ms": 1782488700000,
+    "folder": "INBOX",
+    "category": "CATEGORY_PROMOTIONS",
+    "is_unread": false,
+    "is_starred": false,
+    "is_important": false,
+    "user_labels": [
+      "Label_7751"
+    ],
+    "attachments": [],
+    "calendar_event": null,
+    "extra_headers": {
+      "Return-Path": "<priya@elevateconsultingsearch.com>"
+    },
+    "size_estimate": 1168,
+    "meta": {
+      "email_class": "cold_outreach",
+      "tricky_tags": [],
+      "is_actionable_for_user": false,
+      "action_owner": null,
+      "action_summary": null,
+      "due_date": null,
+      "commitment_made_by_user": null,
+      "commitment_is_conditional": false,
+      "commitment_condition": null,
+      "superseded_by_message_id": null,
+      "notes": null
+    }
+  },
+  {
+    "id": "e30f18c2e4b60010",
+    "thread_id": "e30f18c2e4b60010",
+    "profile_id": "consulting",
+    "history_id": "712360",
+    "message_id_header": "<e30f18c2e4b60010@email.hertz.com>",
+    "in_reply_to": null,
+    "references": [],
+    "thread_position": 1,
+    "thread_length": 1,
+    "from": {
+      "name": "Hertz Gold Plus Rewards",
+      "email": "rewards@email.hertz.com"
+    },
+    "to": [
+      {
+        "name": "Evelyn Thorne",
+        "email": "evelyn.thorne@thornecadwell.com"
+      }
+    ],
+    "cc": [],
+    "bcc": [],
+    "delivered_to": "evelyn.thorne@thornecadwell.com",
+    "subject": "Status match: enjoy Hertz President's Circle free for a year",
+    "snippet": "Match your status from any major loyalty program and enjoy Hertz President's Circle \u2014 free upgrades, no-wait pickup, and dedicated counters \u2014 free for 12 months. Offer ends August ",
+    "body_text": "Match your status from any major loyalty program and enjoy Hertz President's Circle \u2014 free upgrades, no-wait pickup, and dedicated counters \u2014 free for 12 months. Offer ends August 15: hertz.com/statusmatch",
+    "body_html": null,
+    "date": "2026-06-29T10:00:00-04:00",
+    "internal_date_ms": 1782741600000,
+    "folder": "INBOX",
+    "category": "CATEGORY_PROMOTIONS",
+    "is_unread": true,
+    "is_starred": false,
+    "is_important": false,
+    "user_labels": [],
+    "attachments": [],
+    "calendar_event": null,
+    "extra_headers": {
+      "List-Unsubscribe": "<mailto:unsubscribe@email.hertz.com>",
+      "Precedence": "bulk",
+      "Return-Path": "<rewards@email.hertz.com>"
+    },
+    "size_estimate": 849,
+    "meta": {
+      "email_class": "promotional",
+      "tricky_tags": [],
+      "is_actionable_for_user": false,
+      "action_owner": null,
+      "action_summary": null,
+      "due_date": null,
+      "commitment_made_by_user": null,
+      "commitment_is_conditional": false,
+      "commitment_condition": null,
+      "superseded_by_message_id": null,
+      "notes": null
+    }
+  },
+  {
+    "id": "e30f18c2e4b60011",
+    "thread_id": "e30f18c2e4b60011",
+    "profile_id": "consulting",
+    "history_id": "713800",
+    "message_id_header": "<e30f18c2e4b60011@mfgtechexpo.com>",
+    "in_reply_to": null,
+    "references": [],
+    "thread_position": 1,
+    "thread_length": 1,
+    "from": {
+      "name": "MFG Tech Expo",
+      "email": "sales@mfgtechexpo.com"
+    },
+    "to": [
+      {
+        "name": "Evelyn Thorne",
+        "email": "evelyn.thorne@thornecadwell.com"
+      }
+    ],
+    "cc": [],
+    "bcc": [],
+    "delivered_to": "evelyn.thorne@thornecadwell.com",
+    "subject": "Exhibit at MFG Tech Expo 2026 \u2014 booth pricing inside",
+    "snippet": "10x10 booths starting at $2,400 for the September MFG Tech Expo at McCormick Place. 12,000+ attendees from manufacturing operations and plant engineering. Book by July 15 for early",
+    "body_text": "10x10 booths starting at $2,400 for the September MFG Tech Expo at McCormick Place. 12,000+ attendees from manufacturing operations and plant engineering. Book by July 15 for early pricing: mfgtechexpo.com/exhibit",
+    "body_html": null,
+    "date": "2026-06-30T09:00:00-05:00",
+    "internal_date_ms": 1782828000000,
+    "folder": "INBOX",
+    "category": "CATEGORY_PROMOTIONS",
+    "is_unread": false,
+    "is_starred": false,
+    "is_important": false,
+    "user_labels": [],
+    "attachments": [],
+    "calendar_event": null,
+    "extra_headers": {
+      "List-Unsubscribe": "<mailto:unsubscribe@mfgtechexpo.com>",
+      "Precedence": "bulk",
+      "Return-Path": "<sales@mfgtechexpo.com>"
+    },
+    "size_estimate": 853,
+    "meta": {
+      "email_class": "promotional",
+      "tricky_tags": [],
+      "is_actionable_for_user": false,
+      "action_owner": null,
+      "action_summary": null,
+      "due_date": null,
+      "commitment_made_by_user": null,
+      "commitment_is_conditional": false,
+      "commitment_condition": null,
+      "superseded_by_message_id": null,
+      "notes": null
+    }
+  },
+  {
+    "id": "e30f18c2e4b60012",
+    "thread_id": "e30f18c2e4b60012",
+    "profile_id": "consulting",
+    "history_id": "732340",
+    "message_id_header": "<e30f18c2e4b60012@ame.org>",
+    "in_reply_to": null,
+    "references": [],
+    "thread_position": 1,
+    "thread_length": 1,
+    "from": {
+      "name": "AME Insights",
+      "email": "insights@ame.org"
+    },
+    "to": [
+      {
+        "name": "Evelyn Thorne",
+        "email": "evelyn.thorne@thornecadwell.com"
+      }
+    ],
+    "cc": [],
+    "bcc": [],
+    "delivered_to": "evelyn.thorne@thornecadwell.com",
+    "subject": "AME Insights: Q3 Lean Manufacturing Trends",
+    "snippet": "AME INSIGHTS \u2014 Q3 2026 Welcome back to AME Insights, your quarterly digest on lean manufacturing and operational excellence trends across North America. RESHORING MOMENTUM CONTINUE",
+    "body_text": "AME INSIGHTS \u2014 Q3 2026\n\nWelcome back to AME Insights, your quarterly digest on lean manufacturing and operational excellence trends across North America.\n\nRESHORING MOMENTUM CONTINUES\nOur latest member survey of 340 manufacturers shows 38% have reshored at least one product line in the past 18 months, up from 24% last year. The primary driver remains supply chain risk rather than pure cost \u2014 respondents cited lead-time volatility and single-source dependency as the top two concerns, ahead of labor cost differentials. For consultants advising clients on facility strategy, this suggests total-cost-of-ownership models that weight resilience alongside unit cost are increasingly what wins board approval.\n\nWORKFORCE: THE SKILLS GAP ISN'T CLOSING\nDespite record investment in automation, 61% of member plants report unfilled skilled-trades positions, with CNC machinists and industrial electricians the hardest to fill. Several members have had success with in-house apprenticeship programs partnered with community colleges \u2014 Ridgefield Manufacturing's program, profiled in this issue, cut time-to-productivity for new hires from 9 months to 5.\n\nDIGITAL THREAD ADOPTION\nAdoption of digital thread / MES integration remains uneven. Plants under 100 employees report only 22% adoption versus 58% for plants over 500 employees, largely due to upfront implementation cost and lack of internal IT resources. This is a real opportunity area for outside advisors who can de-risk the business case and phase implementation around cash flow constraints rather than a big-bang rollout.\n\nUPCOMING EVENTS\n- AME 2026 Chicago Summit, October 6-9, McCormick Place\n- Regional Lean Roundtable (Midwest chapter), September 12, Rockford IL\n- Webinar: \"Building the Business Case for Digital Thread,\" August 28\n\nMEMBER SPOTLIGHT\nThis quarter we profile a mid-market automotive supplier that cut changeover time 34% through a SMED initiative led by an outside consulting team \u2014 a useful case study to reference with clients weighing whether outside help is worth the fee. The engagement ran 14 weeks, involved three plant floor workshops, and the client credits the outside facilitator with getting operators to buy in where two prior internal attempts had stalled. We also spotlight a packaging manufacturer that used a rolling six-week diagnostic before committing to a larger transformation program, a structure several members have told us they're now requesting explicitly from their advisors rather than accepting a full-scope proposal up front.\n\nCHAPTER NEWS\nThe Midwest chapter welcomes two new board members this quarter, both plant operations leaders from member companies. The chapter's fall calendar includes plant tours, a benchmarking roundtable on labor cost trends, and a joint session with the local ASCM chapter on integrating lean and supply chain planning \u2014 a combination several consulting members have asked us to cover more often given how frequently the two disciplines show up together in client engagements.\n\nCERTIFICATION UPDATES\nThe Lean Bronze Certification exam window opens again in September, and early registration discounts are available for members through August 31. AME is also piloting a new credential aimed specifically at external advisors and consultants, recognizing that a growing share of our membership works client-side rather than as in-house practitioners. If that's a track you'd find useful, reply to this email \u2014 we're collecting interest before finalizing the curriculum.\n\nRESEARCH NOTE\nA recurring theme in this quarter's member interviews: leadership teams are asking for faster proof of ROI before greenlighting the next phase of any improvement program, a shift from the multi-year transformation roadmaps common a few years ago. Advisors who can show measurable wins within a single quarter are reporting stronger renewal rates on follow-on work.\n\nAs always, thank you for being an AME member. Questions or story ideas for future issues can be sent to insights@ame.org.\n\nAME Insights Editorial Team\nAssociation for Manufacturing Excellence",
+    "body_html": "<div style=\"font-family:Arial,sans-serif;font-size:14px;color:#222;line-height:1.5;\"><p>AME INSIGHTS \u2014 Q3 2026</p><p>Welcome back to AME Insights, your quarterly digest on lean manufacturing and operational excellence trends across North America.</p><p>RESHORING MOMENTUM CONTINUES<br>Our latest member survey of 340 manufacturers shows 38% have reshored at least one product line in the past 18 months, up from 24% last year. The primary driver remains supply chain risk rather than pure cost \u2014 respondents cited lead-time volatility and single-source dependency as the top two concerns, ahead of labor cost differentials. For consultants advising clients on facility strategy, this suggests total-cost-of-ownership models that weight resilience alongside unit cost are increasingly what wins board approval.</p><p>WORKFORCE: THE SKILLS GAP ISN'T CLOSING<br>Despite record investment in automation, 61% of member plants report unfilled skilled-trades positions, with CNC machinists and industrial electricians the hardest to fill. Several members have had success with in-house apprenticeship programs partnered with community colleges \u2014 Ridgefield Manufacturing's program, profiled in this issue, cut time-to-productivity for new hires from 9 months to 5.</p><p>DIGITAL THREAD ADOPTION<br>Adoption of digital thread / MES integration remains uneven. Plants under 100 employees report only 22% adoption versus 58% for plants over 500 employees, largely due to upfront implementation cost and lack of internal IT resources. This is a real opportunity area for outside advisors who can de-risk the business case and phase implementation around cash flow constraints rather than a big-bang rollout.</p><p>UPCOMING EVENTS<br>- AME 2026 Chicago Summit, October 6-9, McCormick Place<br>- Regional Lean Roundtable (Midwest chapter), September 12, Rockford IL<br>- Webinar: \"Building the Business Case for Digital Thread,\" August 28</p><p>MEMBER SPOTLIGHT<br>This quarter we profile a mid-market automotive supplier that cut changeover time 34% through a SMED initiative led by an outside consulting team \u2014 a useful case study to reference with clients weighing whether outside help is worth the fee. The engagement ran 14 weeks, involved three plant floor workshops, and the client credits the outside facilitator with getting operators to buy in where two prior internal attempts had stalled. We also spotlight a packaging manufacturer that used a rolling six-week diagnostic before committing to a larger transformation program, a structure several members have told us they're now requesting explicitly from their advisors rather than accepting a full-scope proposal up front.</p><p>CHAPTER NEWS<br>The Midwest chapter welcomes two new board members this quarter, both plant operations leaders from member companies. The chapter's fall calendar includes plant tours, a benchmarking roundtable on labor cost trends, and a joint session with the local ASCM chapter on integrating lean and supply chain planning \u2014 a combination several consulting members have asked us to cover more often given how frequently the two disciplines show up together in client engagements.</p><p>CERTIFICATION UPDATES<br>The Lean Bronze Certification exam window opens again in September, and early registration discounts are available for members through August 31. AME is also piloting a new credential aimed specifically at external advisors and consultants, recognizing that a growing share of our membership works client-side rather than as in-house practitioners. If that's a track you'd find useful, reply to this email \u2014 we're collecting interest before finalizing the curriculum.</p><p>RESEARCH NOTE<br>A recurring theme in this quarter's member interviews: leadership teams are asking for faster proof of ROI before greenlighting the next phase of any improvement program, a shift from the multi-year transformation roadmaps common a few years ago. Advisors who can show measurable wins within a single quarter are reporting stronger renewal rates on follow-on work.</p><p>As always, thank you for being an AME member. Questions or story ideas for future issues can be sent to insights@ame.org.</p><p>AME Insights Editorial Team<br>Association for Manufacturing Excellence</p></div>",
+    "date": "2026-07-13T07:00:00-04:00",
+    "internal_date_ms": 1783940400000,
+    "folder": "INBOX",
+    "category": "CATEGORY_UPDATES",
+    "is_unread": false,
+    "is_starred": false,
+    "is_important": false,
+    "user_labels": [],
+    "attachments": [],
+    "calendar_event": null,
+    "extra_headers": {
+      "List-Unsubscribe": "<mailto:unsubscribe@ame.org>, <https://ame.org/unsubscribe?u=insights-20194>",
+      "List-Unsubscribe-Post": "List-Unsubscribe=One-Click",
+      "List-ID": "AME Insights Newsletter <insights.ame.org>",
+      "Precedence": "bulk",
+      "Feedback-ID": "ame-insights:q3:2026:ame",
+      "Return-Path": "<insights@ame.org>"
+    },
+    "size_estimate": 9010,
+    "meta": {
+      "email_class": "newsletter",
+      "tricky_tags": [],
+      "is_actionable_for_user": false,
+      "action_owner": null,
+      "action_summary": null,
+      "due_date": null,
+      "commitment_made_by_user": null,
+      "commitment_is_conditional": false,
+      "commitment_condition": null,
+      "superseded_by_message_id": null,
+      "notes": null
+    }
+  },
+  {
+    "id": "e30f18c2e4b60013",
+    "thread_id": "e30f18c2e4b60013",
+    "profile_id": "consulting",
+    "history_id": "732400",
+    "message_id_header": "<e30f18c2e4b60013@ame.org>",
+    "in_reply_to": null,
+    "references": [],
+    "thread_position": 1,
+    "thread_length": 1,
+    "from": {
+      "name": "AME Membership",
+      "email": "membership@ame.org"
+    },
+    "to": [
+      {
+        "name": "Evelyn Thorne",
+        "email": "evelyn.thorne@thornecadwell.com"
+      }
+    ],
+    "cc": [],
+    "bcc": [],
+    "delivered_to": "evelyn.thorne@thornecadwell.com",
+    "subject": "Your AME membership renews in 30 days",
+    "snippet": "Your AME individual membership ($395/year) auto-renews on August 12 using the card ending 2290. No action needed unless you'd like to change your payment method or plan: ame.org/ac",
+    "body_text": "Your AME individual membership ($395/year) auto-renews on August 12 using the card ending 2290. No action needed unless you'd like to change your payment method or plan: ame.org/account/billing",
+    "body_html": null,
+    "date": "2026-07-13T08:00:00-04:00",
+    "internal_date_ms": 1783944000000,
+    "folder": "INBOX",
+    "category": "CATEGORY_UPDATES",
+    "is_unread": false,
+    "is_starred": false,
+    "is_important": false,
+    "user_labels": [
+      "Label_7753"
+    ],
+    "attachments": [],
+    "calendar_event": null,
+    "extra_headers": {
+      "Precedence": "bulk",
+      "Return-Path": "<membership@ame.org>"
+    },
+    "size_estimate": 833,
+    "meta": {
+      "email_class": "automated_notification",
+      "tricky_tags": [],
+      "is_actionable_for_user": false,
+      "action_owner": null,
+      "action_summary": null,
+      "due_date": null,
+      "commitment_made_by_user": null,
+      "commitment_is_conditional": false,
+      "commitment_condition": null,
+      "superseded_by_message_id": null,
+      "notes": null
+    }
+  },
+  {
+    "id": "e30f18c2e4b60014",
+    "thread_id": "e30f18c2e4b60014",
+    "profile_id": "consulting",
+    "history_id": "733380",
+    "message_id_header": "<e30f18c2e4b60014@codecrewoffshore.com>",
+    "in_reply_to": null,
+    "references": [],
+    "thread_position": 1,
+    "thread_length": 1,
+    "from": {
+      "name": "CodeCrew Offshore",
+      "email": "partnerships@codecrewoffshore.com"
+    },
+    "to": [
+      {
+        "name": "Evelyn Thorne",
+        "email": "evelyn.thorne@thornecadwell.com"
+      }
+    ],
+    "cc": [],
+    "bcc": [],
+    "delivered_to": "evelyn.thorne@thornecadwell.com",
+    "subject": "Scale your delivery team with vetted offshore engineers \u2014 $18/hr",
+    "snippet": "Dear Evelyn Thorne, Thorne & Cadwell Advisory's work with manufacturers on operational data and analytics caught our attention. CodeCrew Offshore provides vetted software engineers",
+    "body_text": "Dear Evelyn Thorne,\n\nThorne & Cadwell Advisory's work with manufacturers on operational data and analytics caught our attention. CodeCrew Offshore provides vetted software engineers and data analysts from our Manila and Krakow teams starting at $18/hr \u2014 ideal for firms building custom dashboards or automating client deliverables without adding US headcount.\n\nWe've supported several boutique consulting firms building internal tools for exactly this kind of work. Portfolio and rate card attached on request.\n\nOpen to a short intro call this month?\n\nBest regards,\nPartnerships Team\nCodeCrew Offshore\npartnerships@codecrewoffshore.com",
+    "body_html": null,
+    "date": "2026-07-14T04:20:00+00:00",
+    "internal_date_ms": 1784002800000,
+    "folder": "INBOX",
+    "category": "CATEGORY_PROMOTIONS",
+    "is_unread": false,
+    "is_starred": false,
+    "is_important": false,
+    "user_labels": [],
+    "attachments": [],
+    "calendar_event": null,
+    "extra_headers": {
+      "Return-Path": "<partnerships@codecrewoffshore.com>"
+    },
+    "size_estimate": 1277,
+    "meta": {
+      "email_class": "cold_outreach",
+      "tricky_tags": [],
+      "is_actionable_for_user": false,
+      "action_owner": null,
+      "action_summary": null,
+      "due_date": null,
+      "commitment_made_by_user": null,
+      "commitment_is_conditional": false,
+      "commitment_condition": null,
+      "superseded_by_message_id": null,
+      "notes": null
+    }
+  },
+  {
+    "id": "e30f18c2e4b60015",
+    "thread_id": "e30f18c2e4b60015",
+    "profile_id": "consulting",
+    "history_id": "734064",
+    "message_id_header": "<e30f18c2e4b60015@e.zoom.us>",
+    "in_reply_to": null,
+    "references": [],
+    "thread_position": 1,
+    "thread_length": 1,
+    "from": {
+      "name": "Zoom",
+      "email": "news@e.zoom.us"
+    },
+    "to": [
+      {
+        "name": "Evelyn Thorne",
+        "email": "evelyn.thorne@thornecadwell.com"
+      }
+    ],
+    "cc": [],
+    "bcc": [],
+    "delivered_to": "evelyn.thorne@thornecadwell.com",
+    "subject": "Introducing Zoom AI Companion for your team",
+    "snippet": "Evelyn, Meet Zoom AI Companion \u2014 automatic meeting summaries, action items, and smart recaps for every call, included free with your Business plan. For a 10-person firm running cli",
+    "body_text": "Evelyn,\n\nMeet Zoom AI Companion \u2014 automatic meeting summaries, action items, and smart recaps for every call, included free with your Business plan.\n\nFor a 10-person firm running client calls all day, AI Companion can save each consultant ~3 hours a week on note-taking.\n\nTurn it on: zoom.us/ai-companion\n\nThe Zoom Team",
+    "body_html": null,
+    "date": "2026-07-14T08:44:00-07:00",
+    "internal_date_ms": 1784043840000,
+    "folder": "INBOX",
+    "category": "CATEGORY_PROMOTIONS",
+    "is_unread": true,
+    "is_starred": false,
+    "is_important": false,
+    "user_labels": [],
+    "attachments": [],
+    "calendar_event": null,
+    "extra_headers": {
+      "List-Unsubscribe": "<mailto:unsubscribe@e.zoom.us>, <https://e.zoom.us/unsubscribe?u=55021>",
+      "List-Unsubscribe-Post": "List-Unsubscribe=One-Click",
+      "Precedence": "bulk",
+      "Return-Path": "<news@e.zoom.us>"
+    },
+    "size_estimate": 961,
+    "meta": {
+      "email_class": "promotional",
+      "tricky_tags": [],
+      "is_actionable_for_user": false,
+      "action_owner": null,
+      "action_summary": null,
+      "due_date": null,
+      "commitment_made_by_user": null,
+      "commitment_is_conditional": false,
+      "commitment_condition": null,
+      "superseded_by_message_id": null,
+      "notes": null
+    }
+  },
+  {
+    "id": "e30f18c2e4b60016",
+    "thread_id": "e30f18c2e4b60016",
+    "profile_id": "consulting",
+    "history_id": "733960",
+    "message_id_header": "<e30f18c2e4b60016@contractradar.io>",
+    "in_reply_to": null,
+    "references": [],
+    "thread_position": 1,
+    "thread_length": 1,
+    "from": {
+      "name": "ContractRadar",
+      "email": "team@contractradar.io"
+    },
+    "to": [
+      {
+        "name": "Evelyn Thorne",
+        "email": "evelyn.thorne@thornecadwell.com"
+      }
+    ],
+    "cc": [],
+    "bcc": [],
+    "delivered_to": "evelyn.thorne@thornecadwell.com",
+    "subject": "Never miss a manufacturing RFP again \u2014 free trial",
+    "snippet": "Evelyn, Manufacturers and their advisors miss an average of 3 relevant RFPs a month simply because they weren't watching the right procurement boards. ContractRadar scans 400+ stat",
+    "body_text": "Evelyn,\n\nManufacturers and their advisors miss an average of 3 relevant RFPs a month simply because they weren't watching the right procurement boards. ContractRadar scans 400+ state, municipal, and private procurement sites and alerts you the day a matching RFP posts.\n\nSet up a free alert for \"operations consulting\" or \"supply chain consulting\" in the Midwest and see what you've been missing: contractradar.io/trial\n\nContractRadar Team",
+    "body_html": null,
+    "date": "2026-07-14T09:00:00-05:00",
+    "internal_date_ms": 1784037600000,
+    "folder": "INBOX",
+    "category": "CATEGORY_PROMOTIONS",
+    "is_unread": false,
+    "is_starred": false,
+    "is_important": false,
+    "user_labels": [],
+    "attachments": [],
+    "calendar_event": null,
+    "extra_headers": {
+      "List-Unsubscribe": "<mailto:unsubscribe@contractradar.io>",
+      "Precedence": "bulk",
+      "Return-Path": "<team@contractradar.io>"
+    },
+    "size_estimate": 1079,
+    "meta": {
+      "email_class": "promotional",
+      "tricky_tags": [],
+      "is_actionable_for_user": false,
+      "action_owner": null,
+      "action_summary": null,
+      "due_date": null,
+      "commitment_made_by_user": null,
+      "commitment_is_conditional": false,
+      "commitment_condition": null,
+      "superseded_by_message_id": null,
+      "notes": null
+    }
+  },
+  {
+    "id": "e30f18c2e4b60017",
+    "thread_id": "e30f18c2e4b60017",
+    "profile_id": "consulting",
+    "history_id": "735190",
+    "message_id_header": "<e30f18c2e4b60017@manufacturingdive.com>",
+    "in_reply_to": null,
+    "references": [],
+    "thread_position": 1,
+    "thread_length": 1,
+    "from": {
+      "name": "Manufacturing Dive",
+      "email": "dailybrief@manufacturingdive.com"
+    },
+    "to": [
+      {
+        "name": "Evelyn Thorne",
+        "email": "evelyn.thorne@thornecadwell.com"
+      }
+    ],
+    "cc": [],
+    "bcc": [],
+    "delivered_to": "evelyn.thorne@thornecadwell.com",
+    "subject": "Manufacturing Dive: Daily Brief",
+    "snippet": "Today's top stories in manufacturing: 1. Tariff changes on imported steel components take effect Sept 1 \u2014 mid-market fabricators are already adjusting sourcing. 2. A regional surve",
+    "body_text": "Today's top stories in manufacturing:\n\n1. Tariff changes on imported steel components take effect Sept 1 \u2014 mid-market fabricators are already adjusting sourcing.\n2. A regional survey shows 44% of manufacturers plan to add automation headcount despite hiring freezes elsewhere.\n3. Case study: how one Ohio supplier cut scrap rate 12% with a simple SPC dashboard.\n\nRead the full brief: manufacturingdive.com/daily/0715\n\nManufacturing Dive",
+    "body_html": null,
+    "date": "2026-07-15T06:30:00-04:00",
+    "internal_date_ms": 1784111400000,
+    "folder": "INBOX",
+    "category": "CATEGORY_UPDATES",
+    "is_unread": false,
+    "is_starred": false,
+    "is_important": false,
+    "user_labels": [],
+    "attachments": [],
+    "calendar_event": null,
+    "extra_headers": {
+      "List-Unsubscribe": "<mailto:unsubscribe@manufacturingdive.com>, <https://manufacturingdive.com/unsubscribe?u=44102>",
+      "List-Unsubscribe-Post": "List-Unsubscribe=One-Click",
+      "List-ID": "Manufacturing Dive Daily Brief <dailybrief.manufacturingdive.com>",
+      "Precedence": "bulk",
+      "Feedback-ID": "mfgdive-daily:0715:mfgdive",
+      "Return-Path": "<dailybrief@manufacturingdive.com>"
+    },
+    "size_estimate": 1078,
+    "meta": {
+      "email_class": "newsletter",
+      "tricky_tags": [],
+      "is_actionable_for_user": false,
+      "action_owner": null,
+      "action_summary": null,
+      "due_date": null,
+      "commitment_made_by_user": null,
+      "commitment_is_conditional": false,
+      "commitment_condition": null,
+      "superseded_by_message_id": null,
+      "notes": null
+    }
+  },
+  {
+    "id": "e30f18c2e4b60018",
+    "thread_id": "e30f18c2e4b60018",
+    "profile_id": "consulting",
+    "history_id": "735045",
+    "message_id_header": "<e30f18c2e4b60018@peakperformancelabs.biz>",
+    "in_reply_to": null,
+    "references": [],
+    "thread_position": 1,
+    "thread_length": 1,
+    "from": {
+      "name": "Peak Performance Labs",
+      "email": "offers@peakperformancelabs.biz"
+    },
+    "to": [
+      {
+        "name": "Evelyn Thorne",
+        "email": "evelyn.thorne@thornecadwell.com"
+      }
+    ],
+    "cc": [],
+    "bcc": [],
+    "delivered_to": "evelyn.thorne@thornecadwell.com",
+    "subject": "Wall Street execs are quietly using this before every negotiation",
+    "snippet": "Consultants and execs swear by this focus supplement before big client pitches. 72% off today only, ships free: peakperformancelabs.biz/deal",
+    "body_text": "Consultants and execs swear by this focus supplement before big client pitches. 72% off today only, ships free: peakperformancelabs.biz/deal",
+    "body_html": null,
+    "date": "2026-07-15T08:05:00+00:00",
+    "internal_date_ms": 1784102700000,
+    "folder": "SPAM",
+    "category": null,
+    "is_unread": false,
+    "is_starred": false,
+    "is_important": false,
+    "user_labels": [],
+    "attachments": [],
+    "calendar_event": null,
+    "extra_headers": {
+      "Return-Path": "<offers@peakperformancelabs.biz>"
+    },
+    "size_estimate": 780,
+    "meta": {
+      "email_class": "spam",
+      "tricky_tags": [],
+      "is_actionable_for_user": false,
+      "action_owner": null,
+      "action_summary": null,
+      "due_date": null,
+      "commitment_made_by_user": null,
+      "commitment_is_conditional": false,
+      "commitment_condition": null,
+      "superseded_by_message_id": null,
+      "notes": "Crude off-topic supplement spam, short."
+    }
+  },
+  {
+    "id": "e30f18c2e4b60019",
+    "thread_id": "e30f18c2e4b60019",
+    "profile_id": "consulting",
+    "history_id": "735400",
+    "message_id_header": "<e30f18c2e4b60019@ascm.org>",
+    "in_reply_to": null,
+    "references": [],
+    "thread_position": 1,
+    "thread_length": 1,
+    "from": {
+      "name": "ASCM (APICS)",
+      "email": "webinars@ascm.org"
+    },
+    "to": [
+      {
+        "name": "Evelyn Thorne",
+        "email": "evelyn.thorne@thornecadwell.com"
+      }
+    ],
+    "cc": [],
+    "bcc": [],
+    "delivered_to": "evelyn.thorne@thornecadwell.com",
+    "subject": "Free webinar: Lean Inventory Strategies for Mid-Market Manufacturers",
+    "snippet": "Join us Thursday, July 23 at 1:00 PM CT for a free ASCM webinar: \"Lean Inventory Strategies for Mid-Market Manufacturers,\" featuring case studies on cutting carrying costs 15-20% w",
+    "body_text": "Join us Thursday, July 23 at 1:00 PM CT for a free ASCM webinar: \"Lean Inventory Strategies for Mid-Market Manufacturers,\" featuring case studies on cutting carrying costs 15-20% without hurting fill rates.\n\nIdeal for consultants advising manufacturing clients on working capital.\n\nRegister: ascm.org/webinars/lean-inventory-july\n\nASCM (formerly APICS)",
+    "body_html": null,
+    "date": "2026-07-15T09:00:00-05:00",
+    "internal_date_ms": 1784124000000,
+    "folder": "INBOX",
+    "category": "CATEGORY_PROMOTIONS",
+    "is_unread": false,
+    "is_starred": false,
+    "is_important": false,
+    "user_labels": [],
+    "attachments": [],
+    "calendar_event": null,
+    "extra_headers": {
+      "List-Unsubscribe": "<mailto:unsubscribe@ascm.org>",
+      "Precedence": "bulk",
+      "Return-Path": "<webinars@ascm.org>"
+    },
+    "size_estimate": 992,
+    "meta": {
+      "email_class": "promotional",
+      "tricky_tags": [],
+      "is_actionable_for_user": false,
+      "action_owner": null,
+      "action_summary": null,
+      "due_date": null,
+      "commitment_made_by_user": null,
+      "commitment_is_conditional": false,
+      "commitment_condition": null,
+      "superseded_by_message_id": null,
+      "notes": null
+    }
+  },
+  {
+    "id": "e30f18c2e4b60020",
+    "thread_id": "e30f18c2e4b60020",
+    "profile_id": "consulting",
+    "history_id": "736750",
+    "message_id_header": "<e30f18c2e4b60020@ame.org>",
+    "in_reply_to": null,
+    "references": [],
+    "thread_position": 1,
+    "thread_length": 1,
+    "from": {
+      "name": "AME Events",
+      "email": "events@ame.org"
+    },
+    "to": [
+      {
+        "name": "Evelyn Thorne",
+        "email": "evelyn.thorne@thornecadwell.com"
+      }
+    ],
+    "cc": [],
+    "bcc": [],
+    "delivered_to": "evelyn.thorne@thornecadwell.com",
+    "subject": "Early bird pricing ends Friday: AME 2026 Chicago Summit",
+    "snippet": "AME member, Early bird pricing for the AME 2026 Chicago Summit (October 6-9, McCormick Place) ends this Friday, July 17. Register now and save $200 off the standard rate. This year",
+    "body_text": "AME member,\n\nEarly bird pricing for the AME 2026 Chicago Summit (October 6-9, McCormick Place) ends this Friday, July 17. Register now and save $200 off the standard rate.\n\nThis year's tracks include Lean Leadership, Digital Manufacturing, and Workforce Development \u2014 120+ sessions, 3,000+ attendees from manufacturing operations.\n\nRegister: ame.org/chicago2026\n\nAME Events Team",
+    "body_html": null,
+    "date": "2026-07-16T08:30:00-04:00",
+    "internal_date_ms": 1784205000000,
+    "folder": "INBOX",
+    "category": "CATEGORY_PROMOTIONS",
+    "is_unread": true,
+    "is_starred": false,
+    "is_important": false,
+    "user_labels": [],
+    "attachments": [],
+    "calendar_event": null,
+    "extra_headers": {
+      "List-Unsubscribe": "<mailto:unsubscribe@ame.org>, <https://ame.org/unsubscribe?u=20194>",
+      "List-Unsubscribe-Post": "List-Unsubscribe=One-Click",
+      "Precedence": "bulk",
+      "Return-Path": "<events@ame.org>"
+    },
+    "size_estimate": 1020,
+    "meta": {
+      "email_class": "promotional",
+      "tricky_tags": [],
+      "is_actionable_for_user": false,
+      "action_owner": null,
+      "action_summary": null,
+      "due_date": null,
+      "commitment_made_by_user": null,
+      "commitment_is_conditional": false,
+      "commitment_condition": null,
+      "superseded_by_message_id": null,
+      "notes": null
+    }
+  },
+  {
+    "id": "e30f18c2e4b60021",
+    "thread_id": "e30f18c2e4b60021",
+    "profile_id": "consulting",
+    "history_id": "738662",
+    "message_id_header": "<e30f18c2e4b60021@linkedin.com>",
+    "in_reply_to": null,
+    "references": [],
+    "thread_position": 1,
+    "thread_length": 1,
+    "from": {
+      "name": "LinkedIn",
+      "email": "notifications-noreply@linkedin.com"
+    },
+    "to": [
+      {
+        "name": "Evelyn Thorne",
+        "email": "evelyn.thorne@thornecadwell.com"
+      }
+    ],
+    "cc": [],
+    "bcc": [],
+    "delivered_to": "evelyn.thorne@thornecadwell.com",
+    "subject": "Gordon Cadwell commented on a post you're tagged in",
+    "snippet": "Gordon Cadwell commented \"Great case study, well done team\" on a post you're tagged in. View the comment on LinkedIn.",
+    "body_text": "Gordon Cadwell commented \"Great case study, well done team\" on a post you're tagged in. View the comment on LinkedIn.",
+    "body_html": null,
+    "date": "2026-07-17T13:22:00-07:00",
+    "internal_date_ms": 1784319720000,
+    "folder": "INBOX",
+    "category": "CATEGORY_SOCIAL",
+    "is_unread": false,
+    "is_starred": false,
+    "is_important": false,
+    "user_labels": [],
+    "attachments": [],
+    "calendar_event": null,
+    "extra_headers": {
+      "Precedence": "bulk",
+      "Return-Path": "<notifications-noreply@linkedin.com>"
+    },
+    "size_estimate": 757,
+    "meta": {
+      "email_class": "social",
+      "tricky_tags": [],
+      "is_actionable_for_user": false,
+      "action_owner": null,
+      "action_summary": null,
+      "due_date": null,
+      "commitment_made_by_user": null,
+      "commitment_is_conditional": false,
+      "commitment_condition": null,
+      "superseded_by_message_id": null,
+      "notes": null
+    }
+  },
+  {
+    "id": "e30f18c2e4b60022",
+    "thread_id": "e30f18c2e4b60022",
+    "profile_id": "consulting",
+    "history_id": "739870",
+    "message_id_header": "<e30f18c2e4b60022@mail.docusign.com>",
+    "in_reply_to": null,
+    "references": [],
+    "thread_position": 1,
+    "thread_length": 1,
+    "from": {
+      "name": "DocuSign",
+      "email": "marketing@mail.docusign.com"
+    },
+    "to": [
+      {
+        "name": "Evelyn Thorne",
+        "email": "evelyn.thorne@thornecadwell.com"
+      }
+    ],
+    "cc": [],
+    "bcc": [],
+    "delivered_to": "evelyn.thorne@thornecadwell.com",
+    "subject": "Close deals faster with DocuSign eSignature + Maestro",
+    "snippet": "Hi Evelyn, Consulting firms using DocuSign Maestro close SOWs 40% faster by automating the entire signature-to-kickoff workflow \u2014 engagement letter, MSA, and first invoice in one g",
+    "body_text": "Hi Evelyn,\n\nConsulting firms using DocuSign Maestro close SOWs 40% faster by automating the entire signature-to-kickoff workflow \u2014 engagement letter, MSA, and first invoice in one guided journey.\n\nSee it in a 15-minute demo: docusign.com/maestro-demo\n\nDocuSign",
+    "body_html": null,
+    "date": "2026-07-18T09:30:00-07:00",
+    "internal_date_ms": 1784392200000,
+    "folder": "INBOX",
+    "category": "CATEGORY_PROMOTIONS",
+    "is_unread": false,
+    "is_starred": false,
+    "is_important": false,
+    "user_labels": [],
+    "attachments": [],
+    "calendar_event": null,
+    "extra_headers": {
+      "List-Unsubscribe": "<mailto:unsubscribe@mail.docusign.com>, <https://mail.docusign.com/unsubscribe?u=90212>",
+      "List-Unsubscribe-Post": "List-Unsubscribe=One-Click",
+      "Precedence": "bulk",
+      "Return-Path": "<marketing@mail.docusign.com>"
+    },
+    "size_estimate": 902,
+    "meta": {
+      "email_class": "promotional",
+      "tricky_tags": [],
+      "is_actionable_for_user": false,
+      "action_owner": null,
+      "action_summary": null,
+      "due_date": null,
+      "commitment_made_by_user": null,
+      "commitment_is_conditional": false,
+      "commitment_condition": null,
+      "superseded_by_message_id": null,
+      "notes": null
+    }
+  },
+  {
+    "id": "e30f18c2e4b60023",
+    "thread_id": "e30f18c2e4b60023",
+    "profile_id": "consulting",
+    "history_id": "741040",
+    "message_id_header": "<e30f18c2e4b60023@email.united.com>",
+    "in_reply_to": null,
+    "references": [],
+    "thread_position": 1,
+    "thread_length": 1,
+    "from": {
+      "name": "United MileagePlus",
+      "email": "mileageplus@email.united.com"
+    },
+    "to": [
+      {
+        "name": "Evelyn Thorne",
+        "email": "evelyn.thorne@thornecadwell.com"
+      }
+    ],
+    "cc": [],
+    "bcc": [],
+    "delivered_to": "evelyn.thorne@thornecadwell.com",
+    "subject": "Double miles on flights to Chicago this fall",
+    "snippet": "Fly ORD this fall and earn 2X miles on every eligible flight booked by August 31. Terms apply. Book now: united.com/promotions/2xfall",
+    "body_text": "Fly ORD this fall and earn 2X miles on every eligible flight booked by August 31. Terms apply. Book now: united.com/promotions/2xfall",
+    "body_html": "<div style=\"font-family:Arial,sans-serif;font-size:14px;color:#222;line-height:1.5;\"><p>Fly ORD this fall and earn 2X miles on every eligible flight booked by August 31. Terms apply. Book now: united.com/promotions/2xfall</p></div>",
+    "date": "2026-07-19T07:00:00-05:00",
+    "internal_date_ms": 1784462400000,
+    "folder": "INBOX",
+    "category": "CATEGORY_PROMOTIONS",
+    "is_unread": false,
+    "is_starred": false,
+    "is_important": false,
+    "user_labels": [],
+    "attachments": [],
+    "calendar_event": null,
+    "extra_headers": {
+      "List-Unsubscribe": "<mailto:unsubscribe@email.united.com>, <https://email.united.com/unsubscribe?u=61829>",
+      "List-Unsubscribe-Post": "List-Unsubscribe=One-Click",
+      "Precedence": "bulk",
+      "Return-Path": "<mileageplus@email.united.com>"
+    },
+    "size_estimate": 1004,
+    "meta": {
+      "email_class": "promotional",
+      "tricky_tags": [],
+      "is_actionable_for_user": false,
+      "action_owner": null,
+      "action_summary": null,
+      "due_date": null,
+      "commitment_made_by_user": null,
+      "commitment_is_conditional": false,
+      "commitment_condition": null,
+      "superseded_by_message_id": null,
+      "notes": null
+    }
+  },
+  {
+    "id": "e30f18c2e4b60024",
+    "thread_id": "e30f18c2e4b60024",
+    "profile_id": "consulting",
+    "history_id": "741280",
+    "message_id_header": "<e30f18c2e4b60024@linkedin.com>",
+    "in_reply_to": null,
+    "references": [],
+    "thread_position": 1,
+    "thread_length": 1,
+    "from": {
+      "name": "LinkedIn Groups",
+      "email": "notifications-noreply@linkedin.com"
+    },
+    "to": [
+      {
+        "name": "Evelyn Thorne",
+        "email": "evelyn.thorne@thornecadwell.com"
+      }
+    ],
+    "cc": [],
+    "bcc": [],
+    "delivered_to": "evelyn.thorne@thornecadwell.com",
+    "subject": "New discussion in Manufacturing Operations Leaders group",
+    "snippet": "There's new activity in Manufacturing Operations Leaders, a group you're part of. Top discussion: \"How are you handling reshoring cost models for FY27 budgets?\" \u2014 84 comments this ",
+    "body_text": "There's new activity in Manufacturing Operations Leaders, a group you're part of.\n\nTop discussion: \"How are you handling reshoring cost models for FY27 budgets?\" \u2014 84 comments this week.\n\nView the discussion: linkedin.com/groups/mfgopsleaders",
+    "body_html": null,
+    "date": "2026-07-19T09:00:00-07:00",
+    "internal_date_ms": 1784476800000,
+    "folder": "INBOX",
+    "category": "CATEGORY_SOCIAL",
+    "is_unread": false,
+    "is_starred": false,
+    "is_important": false,
+    "user_labels": [],
+    "attachments": [],
+    "calendar_event": null,
+    "extra_headers": {
+      "Precedence": "bulk",
+      "Return-Path": "<notifications-noreply@linkedin.com>"
+    },
+    "size_estimate": 884,
+    "meta": {
+      "email_class": "social",
+      "tricky_tags": [],
+      "is_actionable_for_user": false,
+      "action_owner": null,
+      "action_summary": null,
+      "due_date": null,
+      "commitment_made_by_user": null,
+      "commitment_is_conditional": false,
+      "commitment_condition": null,
+      "superseded_by_message_id": null,
+      "notes": null
+    }
+  },
+  {
+    "id": "e30f18c2e4b60025",
+    "thread_id": "e30f18c2e4b60025",
+    "profile_id": "consulting",
+    "history_id": "742600",
+    "message_id_header": "<e30f18c2e4b60025@chicagolandchamber.org>",
+    "in_reply_to": null,
+    "references": [],
+    "thread_position": 1,
+    "thread_length": 1,
+    "from": {
+      "name": "Chicagoland Chamber of Commerce",
+      "email": "events@chicagolandchamber.org"
+    },
+    "to": [
+      {
+        "name": "Evelyn Thorne",
+        "email": "evelyn.thorne@thornecadwell.com"
+      }
+    ],
+    "cc": [],
+    "bcc": [],
+    "delivered_to": "evelyn.thorne@thornecadwell.com",
+    "subject": "Chicagoland Chamber of Commerce: Q3 networking mixer",
+    "snippet": "Members, Join us Thursday, August 20, 5:30-7:30 PM at the Union League Club for our Q3 networking mixer. Complimentary drinks and appetizers, RSVP appreciated. This quarter's spotl",
+    "body_text": "Members,\n\nJoin us Thursday, August 20, 5:30-7:30 PM at the Union League Club for our Q3 networking mixer. Complimentary drinks and appetizers, RSVP appreciated.\n\nThis quarter's spotlight: manufacturing and supply chain resilience in the Chicago metro.\n\nRSVP: chicagolandchamber.org/events/q3-mixer\n\nChicagoland Chamber of Commerce",
+    "body_html": null,
+    "date": "2026-07-20T09:00:00-05:00",
+    "internal_date_ms": 1784556000000,
+    "folder": "INBOX",
+    "category": "CATEGORY_PROMOTIONS",
+    "is_unread": true,
+    "is_starred": false,
+    "is_important": false,
+    "user_labels": [
+      "Label_7753"
+    ],
+    "attachments": [],
+    "calendar_event": null,
+    "extra_headers": {
+      "List-Unsubscribe": "<mailto:unsubscribe@chicagolandchamber.org>",
+      "Precedence": "bulk",
+      "Return-Path": "<events@chicagolandchamber.org>"
+    },
+    "size_estimate": 970,
+    "meta": {
+      "email_class": "promotional",
+      "tricky_tags": [],
+      "is_actionable_for_user": false,
+      "action_owner": null,
+      "action_summary": null,
+      "due_date": null,
+      "commitment_made_by_user": null,
+      "commitment_is_conditional": false,
+      "commitment_condition": null,
+      "superseded_by_message_id": null,
+      "notes": null
+    }
+  },
+  {
+    "id": "e30f18c2e4b60026",
+    "thread_id": "e30f18c2e4b60026",
+    "profile_id": "consulting",
+    "history_id": "744095",
+    "message_id_header": "<e30f18c2e4b60026@mail.expensify.com>",
+    "in_reply_to": null,
+    "references": [],
+    "thread_position": 1,
+    "thread_length": 1,
+    "from": {
+      "name": "Expensify",
+      "email": "hello@mail.expensify.com"
+    },
+    "to": [
+      {
+        "name": "Evelyn Thorne",
+        "email": "evelyn.thorne@thornecadwell.com"
+      }
+    ],
+    "cc": [],
+    "bcc": [],
+    "delivered_to": "evelyn.thorne@thornecadwell.com",
+    "subject": "Expensify Card: 2% cash back on all business spend",
+    "snippet": "No annual fee, 2% cash back, and expense reports that build themselves. Apply for the Expensify Card in under 5 minutes: expensify.com/card",
+    "body_text": "No annual fee, 2% cash back, and expense reports that build themselves. Apply for the Expensify Card in under 5 minutes: expensify.com/card",
+    "body_html": null,
+    "date": "2026-07-21T07:55:00-07:00",
+    "internal_date_ms": 1784645700000,
+    "folder": "INBOX",
+    "category": "CATEGORY_PROMOTIONS",
+    "is_unread": false,
+    "is_starred": false,
+    "is_important": false,
+    "user_labels": [],
+    "attachments": [],
+    "calendar_event": null,
+    "extra_headers": {
+      "List-Unsubscribe": "<mailto:unsubscribe@mail.expensify.com>, <https://mail.expensify.com/unsubscribe?u=33410>",
+      "List-Unsubscribe-Post": "List-Unsubscribe=One-Click",
+      "Precedence": "bulk",
+      "Return-Path": "<hello@mail.expensify.com>"
+    },
+    "size_estimate": 779,
+    "meta": {
+      "email_class": "promotional",
+      "tricky_tags": [],
+      "is_actionable_for_user": false,
+      "action_owner": null,
+      "action_summary": null,
+      "due_date": null,
+      "commitment_made_by_user": null,
+      "commitment_is_conditional": false,
+      "commitment_condition": null,
+      "superseded_by_message_id": null,
+      "notes": null
+    }
+  },
+  {
+    "id": "e30f18c2e4b60027",
+    "thread_id": "e30f18c2e4b60027",
+    "profile_id": "consulting",
+    "history_id": "744834",
+    "message_id_header": "<e30f18c2e4b60027@sam-govupdate.com>",
+    "in_reply_to": null,
+    "references": [],
+    "thread_position": 1,
+    "thread_length": 1,
+    "from": {
+      "name": "SAM.gov Entity Management",
+      "email": "no-reply@sam-govupdate.com"
+    },
+    "to": [
+      {
+        "name": "Evelyn Thorne",
+        "email": "evelyn.thorne@thornecadwell.com"
+      }
+    ],
+    "cc": [],
+    "bcc": [],
+    "delivered_to": "evelyn.thorne@thornecadwell.com",
+    "subject": "ACTION REQUIRED: Your SAM.gov registration will be deactivated in 24 hours",
+    "snippet": "ATTENTION: SAM.GOV ENTITY REGISTRATION - THORNE & CADWELL ADVISORY Your entity registration (UEI: T8CW29X4KLM7) is scheduled for deactivation in 24 hours due to an incomplete banki",
+    "body_text": "ATTENTION: SAM.GOV ENTITY REGISTRATION - THORNE & CADWELL ADVISORY\n\nYour entity registration (UEI: T8CW29X4KLM7) is scheduled for deactivation in 24 hours due to an incomplete banking verification on file.\n\nFederal contract opportunities requiring an active SAM.gov registration will NOT be visible to your firm until this is resolved. To avoid deactivation and continued eligibility for set-aside notifications, verify your entity information immediately:\n\nVerify now: http://sam-govupdate.com/entity/verify?id=T8CW29X4KLM7\n\nYou will need:\n- Employer Identification Number (EIN)\n- Bank routing and account number for Electronic Funds Transfer\n- Authorized representative signature\n\nThis request was generated automatically. Failure to verify within 24 hours will result in removal from all federal opportunity notification lists.\n\nSAM.gov Entity Management Team\nThis is an automated message.",
+    "body_html": null,
+    "date": "2026-07-22T03:14:07+00:00",
+    "internal_date_ms": 1784690047000,
+    "folder": "SPAM",
+    "category": null,
+    "is_unread": false,
+    "is_starred": false,
+    "is_important": false,
+    "user_labels": [],
+    "attachments": [],
+    "calendar_event": null,
+    "extra_headers": {
+      "Return-Path": "<bounce@sam-govupdate.com>",
+      "Authentication-Results": "spf=softfail"
+    },
+    "size_estimate": 1532,
+    "meta": {
+      "email_class": "phishing",
+      "tricky_tags": [],
+      "is_actionable_for_user": false,
+      "action_owner": null,
+      "action_summary": null,
+      "due_date": null,
+      "commitment_made_by_user": null,
+      "commitment_is_conditional": false,
+      "commitment_condition": null,
+      "superseded_by_message_id": null,
+      "notes": "Phishing: lookalike domain impersonating SAM.gov (real domain is sam.gov), pressures Evelyn to re-enter the firm's EIN and bank routing number to avoid losing federal set-aside eligibility."
+    }
+  },
+  {
+    "id": "e30f18c2e4b60028",
+    "thread_id": "e30f18c2e4b60028",
+    "profile_id": "consulting",
+    "history_id": "745570",
+    "message_id_header": "<e30f18c2e4b60028@midwestprofessionalliab.com>",
+    "in_reply_to": null,
+    "references": [],
+    "thread_position": 1,
+    "thread_length": 1,
+    "from": {
+      "name": "Midwest Professional Liability",
+      "email": "quotes@midwestprofessionalliab.com"
+    },
+    "to": [
+      {
+        "name": "Evelyn Thorne",
+        "email": "evelyn.thorne@thornecadwell.com"
+      }
+    ],
+    "cc": [],
+    "bcc": [],
+    "delivered_to": "evelyn.thorne@thornecadwell.com",
+    "subject": "Is your E&O policy keeping up with your growth?",
+    "snippet": "Evelyn, As advisory firms take on larger fixed-fee engagements \u2014 like the kind Thorne & Cadwell runs with manufacturing clients \u2014 errors & omissions coverage limits often don't kee",
+    "body_text": "Evelyn,\n\nAs advisory firms take on larger fixed-fee engagements \u2014 like the kind Thorne & Cadwell runs with manufacturing clients \u2014 errors & omissions coverage limits often don't keep pace with contract value. A $2M limit that was fine at $500K in average engagement fees may be light once a single SOW clears $150K.\n\nHappy to run a no-obligation coverage review against your current policy. Takes about 15 minutes.\n\nMidwest Professional Liability\nquotes@midwestprofessionalliab.com",
+    "body_html": null,
+    "date": "2026-07-22T10:30:00-05:00",
+    "internal_date_ms": 1784734200000,
+    "folder": "INBOX",
+    "category": "CATEGORY_PROMOTIONS",
+    "is_unread": false,
+    "is_starred": false,
+    "is_important": false,
+    "user_labels": [],
+    "attachments": [],
+    "calendar_event": null,
+    "extra_headers": {
+      "Return-Path": "<quotes@midwestprofessionalliab.com>"
+    },
+    "size_estimate": 1125,
+    "meta": {
+      "email_class": "cold_outreach",
+      "tricky_tags": [],
+      "is_actionable_for_user": false,
+      "action_owner": null,
+      "action_summary": null,
+      "due_date": null,
+      "commitment_made_by_user": null,
+      "commitment_is_conditional": false,
+      "commitment_condition": null,
+      "superseded_by_message_id": null,
+      "notes": null
+    }
+  },
+  {
+    "id": "e30f18c2e4b60029",
+    "thread_id": "e30f18c2e4b60029",
+    "profile_id": "consulting",
+    "history_id": "747175",
+    "message_id_header": "<e30f18c2e4b60029@linkedin.com>",
+    "in_reply_to": null,
+    "references": [],
+    "thread_position": 1,
+    "thread_length": 1,
+    "from": {
+      "name": "LinkedIn Sales Solutions",
+      "email": "sales-solutions-noreply@linkedin.com"
+    },
+    "to": [
+      {
+        "name": "Evelyn Thorne",
+        "email": "evelyn.thorne@thornecadwell.com"
+      }
+    ],
+    "cc": [],
+    "bcc": [],
+    "delivered_to": "evelyn.thorne@thornecadwell.com",
+    "subject": "Evelyn, unlock 50 new leads this month with Sales Navigator",
+    "snippet": "Evelyn Thorne, Based on your profile, we think Sales Navigator could help Thorne & Cadwell Advisory find more manufacturing operations leaders like Lucia Ferraro and Owen McCabe. -",
+    "body_text": "Evelyn Thorne,\n\nBased on your profile, we think Sales Navigator could help Thorne & Cadwell Advisory find more manufacturing operations leaders like Lucia Ferraro and Owen McCabe.\n\n- Advanced lead search filtered by industry, headcount, and title\n- InMail credits to reach decision-makers directly\n- Alerts when target accounts post job changes\n\nTry it free for 30 days: linkedin.com/sales/onboarding\n\nLinkedIn Sales Solutions",
+    "body_html": null,
+    "date": "2026-07-23T11:15:00-07:00",
+    "internal_date_ms": 1784830500000,
+    "folder": "INBOX",
+    "category": "CATEGORY_PROMOTIONS",
+    "is_unread": false,
+    "is_starred": false,
+    "is_important": false,
+    "user_labels": [],
+    "attachments": [],
+    "calendar_event": null,
+    "extra_headers": {
+      "List-Unsubscribe": "<mailto:unsubscribe@linkedin.com>, <https://www.linkedin.com/psettings/unsubscribe?u=771029>",
+      "List-Unsubscribe-Post": "List-Unsubscribe=One-Click",
+      "Precedence": "bulk",
+      "Return-Path": "<sales-solutions-noreply@linkedin.com>"
+    },
+    "size_estimate": 1066,
+    "meta": {
+      "email_class": "promotional",
+      "tricky_tags": [],
+      "is_actionable_for_user": false,
+      "action_owner": null,
+      "action_summary": null,
+      "due_date": null,
+      "commitment_made_by_user": null,
+      "commitment_is_conditional": false,
+      "commitment_condition": null,
+      "superseded_by_message_id": null,
+      "notes": null
+    }
+  },
+  {
+    "id": "e30f18c2e4b60030",
+    "thread_id": "e30f18c2e4b60030",
+    "profile_id": "consulting",
+    "history_id": "748380",
+    "message_id_header": "<e30f18c2e4b60030@proposaledge.io>",
+    "in_reply_to": null,
+    "references": [],
+    "thread_position": 1,
+    "thread_length": 1,
+    "from": {
+      "name": "Sam Whitlock",
+      "email": "sam@proposaledge.io"
+    },
+    "to": [
+      {
+        "name": "Evelyn Thorne",
+        "email": "evelyn.thorne@thornecadwell.com"
+      }
+    ],
+    "cc": [],
+    "bcc": [],
+    "delivered_to": "evelyn.thorne@thornecadwell.com",
+    "subject": "Automate your SOWs and engagement letters \u2014 built for boutique firms",
+    "snippet": "Hi Evelyn, Noticed Thorne & Cadwell Advisory runs fixed-fee engagements \u2014 ProposalEdge helps firms your size turn a scoping call into a signed SOW in under 48 hours, with templated",
+    "body_text": "Hi Evelyn,\n\nNoticed Thorne & Cadwell Advisory runs fixed-fee engagements \u2014 ProposalEdge helps firms your size turn a scoping call into a signed SOW in under 48 hours, with templated fee structures, e-signature, and automatic Harvest sync for kickoff.\n\nA few boutique ops-consulting shops use us specifically to standardize their SOW language across consultants. Want a quick look?\n\nSam Whitlock\nProposalEdge",
+    "body_html": null,
+    "date": "2026-07-24T09:20:00-05:00",
+    "internal_date_ms": 1784902800000,
+    "folder": "INBOX",
+    "category": "CATEGORY_PROMOTIONS",
+    "is_unread": true,
+    "is_starred": false,
+    "is_important": false,
+    "user_labels": [],
+    "attachments": [],
+    "calendar_event": null,
+    "extra_headers": {
+      "Return-Path": "<sam@proposaledge.io>"
+    },
+    "size_estimate": 1049,
+    "meta": {
+      "email_class": "cold_outreach",
+      "tricky_tags": [],
+      "is_actionable_for_user": false,
+      "action_owner": null,
+      "action_summary": null,
+      "due_date": null,
+      "commitment_made_by_user": null,
+      "commitment_is_conditional": false,
+      "commitment_condition": null,
+      "superseded_by_message_id": null,
+      "notes": null
+    }
+  },
+  {
+    "id": "e30f18c2e4b60031",
+    "thread_id": "e30f18c2e4b60031",
+    "profile_id": "consulting",
+    "history_id": "749560",
+    "message_id_header": "<e30f18c2e4b60031@industryweek.com>",
+    "in_reply_to": null,
+    "references": [],
+    "thread_position": 1,
+    "thread_length": 1,
+    "from": {
+      "name": "IndustryWeek",
+      "email": "offers@industryweek.com"
+    },
+    "to": [
+      {
+        "name": "Evelyn Thorne",
+        "email": "evelyn.thorne@thornecadwell.com"
+      }
+    ],
+    "cc": [],
+    "bcc": [],
+    "delivered_to": "evelyn.thorne@thornecadwell.com",
+    "subject": "Upgrade to IndustryWeek Premium \u2014 40% off annual plans",
+    "snippet": "Unlock IndustryWeek's full research library, salary benchmarking data, and the Manufacturing Leadership Council directory. 40% off annual plans through end of month: industryweek.c",
+    "body_text": "Unlock IndustryWeek's full research library, salary benchmarking data, and the Manufacturing Leadership Council directory. 40% off annual plans through end of month: industryweek.com/premium",
+    "body_html": null,
+    "date": "2026-07-25T06:00:00-04:00",
+    "internal_date_ms": 1784973600000,
+    "folder": "INBOX",
+    "category": "CATEGORY_PROMOTIONS",
+    "is_unread": false,
+    "is_starred": false,
+    "is_important": false,
+    "user_labels": [],
+    "attachments": [],
+    "calendar_event": null,
+    "extra_headers": {
+      "List-Unsubscribe": "<mailto:unsubscribe@industryweek.com>",
+      "Precedence": "bulk",
+      "Return-Path": "<offers@industryweek.com>"
+    },
+    "size_estimate": 830,
+    "meta": {
+      "email_class": "promotional",
+      "tricky_tags": [],
+      "is_actionable_for_user": false,
+      "action_owner": null,
+      "action_summary": null,
+      "due_date": null,
+      "commitment_made_by_user": null,
+      "commitment_is_conditional": false,
+      "commitment_condition": null,
+      "superseded_by_message_id": null,
+      "notes": null
+    }
+  },
+  {
+    "id": "e30f18c2e4b60032",
+    "thread_id": "e30f18c2e4b60032",
+    "profile_id": "consulting",
+    "history_id": "749890",
+    "message_id_header": "<e30f18c2e4b60032@linkedin.com>",
+    "in_reply_to": null,
+    "references": [],
+    "thread_position": 1,
+    "thread_length": 1,
+    "from": {
+      "name": "LinkedIn",
+      "email": "notifications-noreply@linkedin.com"
+    },
+    "to": [
+      {
+        "name": "Evelyn Thorne",
+        "email": "evelyn.thorne@thornecadwell.com"
+      }
+    ],
+    "cc": [],
+    "bcc": [],
+    "delivered_to": "evelyn.thorne@thornecadwell.com",
+    "subject": "Your post is getting attention \u2014 see who's engaging",
+    "snippet": "Your post about lean transformation ROI has 47 reactions and 12 comments. Reply to keep the conversation going: linkedin.com/feed/update/12234",
+    "body_text": "Your post about lean transformation ROI has 47 reactions and 12 comments. Reply to keep the conversation going: linkedin.com/feed/update/12234",
+    "body_html": null,
+    "date": "2026-07-25T08:30:00-07:00",
+    "internal_date_ms": 1784993400000,
+    "folder": "INBOX",
+    "category": "CATEGORY_SOCIAL",
+    "is_unread": false,
+    "is_starred": false,
+    "is_important": false,
+    "user_labels": [],
+    "attachments": [],
+    "calendar_event": null,
+    "extra_headers": {
+      "Precedence": "bulk",
+      "Return-Path": "<notifications-noreply@linkedin.com>"
+    },
+    "size_estimate": 782,
+    "meta": {
+      "email_class": "social",
+      "tricky_tags": [],
+      "is_actionable_for_user": false,
+      "action_owner": null,
+      "action_summary": null,
+      "due_date": null,
+      "commitment_made_by_user": null,
+      "commitment_is_conditional": false,
+      "commitment_condition": null,
+      "superseded_by_message_id": null,
+      "notes": null
+    }
+  },
+  {
+    "id": "e30f18c2e4b60033",
+    "thread_id": "e30f18c2e4b60033",
+    "profile_id": "consulting",
+    "history_id": "751120",
+    "message_id_header": "<e30f18c2e4b60033@mfgleadershipsummit.com>",
+    "in_reply_to": null,
+    "references": [],
+    "thread_position": 1,
+    "thread_length": 1,
+    "from": {
+      "name": "MLS Events",
+      "email": "register@mfgleadershipsummit.com"
+    },
+    "to": [
+      {
+        "name": "Evelyn Thorne",
+        "email": "evelyn.thorne@thornecadwell.com"
+      }
+    ],
+    "cc": [],
+    "bcc": [],
+    "delivered_to": "evelyn.thorne@thornecadwell.com",
+    "subject": "Reserve your seat: Manufacturing Leadership Summit 2026",
+    "snippet": "Manufacturing Leadership Summit 2026 brings together 800+ plant leaders, COOs, and their advisors November 3-5 in Nashville. Sessions on AI-driven quality control, reshoring econom",
+    "body_text": "Manufacturing Leadership Summit 2026 brings together 800+ plant leaders, COOs, and their advisors November 3-5 in Nashville. Sessions on AI-driven quality control, reshoring economics, and workforce automation.\n\nAdvisory-firm delegate passes are $1,395 (regularly $1,895) if booked before August 1.\n\nReserve your seat: mfgleadershipsummit.com/register\n\nMLS Events Team",
+    "body_html": null,
+    "date": "2026-07-26T08:00:00-04:00",
+    "internal_date_ms": 1785067200000,
+    "folder": "INBOX",
+    "category": "CATEGORY_PROMOTIONS",
+    "is_unread": false,
+    "is_starred": false,
+    "is_important": false,
+    "user_labels": [],
+    "attachments": [],
+    "calendar_event": null,
+    "extra_headers": {
+      "List-Unsubscribe": "<mailto:unsubscribe@mfgleadershipsummit.com>",
+      "Precedence": "bulk",
+      "Return-Path": "<register@mfgleadershipsummit.com>"
+    },
+    "size_estimate": 1008,
+    "meta": {
+      "email_class": "promotional",
+      "tricky_tags": [],
+      "is_actionable_for_user": false,
+      "action_owner": null,
+      "action_summary": null,
+      "due_date": null,
+      "commitment_made_by_user": null,
+      "commitment_is_conditional": false,
+      "commitment_condition": null,
+      "superseded_by_message_id": null,
+      "notes": null
+    }
+  },
+  {
+    "id": "e30f18c2e4b60034",
+    "thread_id": "e30f18c2e4b60034",
+    "profile_id": "consulting",
+    "history_id": "752440",
+    "message_id_header": "<e30f18c2e4b60034@industryweek.com>",
+    "in_reply_to": null,
+    "references": [],
+    "thread_position": 1,
+    "thread_length": 1,
+    "from": {
+      "name": "IndustryWeek",
+      "email": "briefing@industryweek.com"
+    },
+    "to": [
+      {
+        "name": "Evelyn Thorne",
+        "email": "evelyn.thorne@thornecadwell.com"
+      }
+    ],
+    "cc": [],
+    "bcc": [],
+    "delivered_to": "evelyn.thorne@thornecadwell.com",
+    "subject": "IndustryWeek Executive Briefing",
+    "snippet": "IN THIS ISSUE FEATURE: Why Fixed-Fee Consulting Engagements Are Replacing Time-and-Materials in Manufacturing As manufacturers grow wary of open-ended consulting spend, a growing s",
+    "body_text": "IN THIS ISSUE\n\nFEATURE: Why Fixed-Fee Consulting Engagements Are Replacing Time-and-Materials in Manufacturing\nAs manufacturers grow wary of open-ended consulting spend, a growing share of operations engagements are structured as fixed-fee, milestone-based contracts. We spoke with three boutique advisory firms about how they scope and price this way without eating the risk of scope creep \u2014 a theme worth watching if your own engagements are trending the same direction.\n\nDATA: Q2 industrial production ticked up 1.4% quarter over quarter, driven largely by durable goods. Capacity utilization remains below the 15-year average, suggesting continued appetite for efficiency-focused consulting engagements over pure capacity expansion.\n\nPEOPLE MOVES: Ridgefield Mfg names a new VP of Operations; three other executive moves across the Midwest manufacturing corridor.\n\nTOOLS: A roundup of five ERP add-ons gaining traction with mid-market manufacturers this quarter, including two aimed specifically at improving forecast accuracy for make-to-order shops. Several readers wrote in after last month's issue asking for more detail on implementation timelines, so this roundup includes real customer-reported rollout windows rather than vendor marketing estimates \u2014 most ran 4 to 7 months longer than initially quoted, a pattern worth flagging to any client currently evaluating a system change.\n\nDEEP DIVE: THE CONSULTANT'S ROLE IN CAPEX DECISIONS\nA growing number of manufacturers are bringing outside advisors into capital equipment decisions earlier than in past cycles, not just for post-purchase process design. We interviewed five plant-level finance leaders who described a shift from \"call the consultant once the machine is installed\" to \"get a second opinion before the PO is cut.\" For advisory firms, this means capex evaluation frameworks and vendor-neutral ROI modeling are becoming a more explicit part of the sales conversation, not an afterthought bundled into a broader engagement.\n\nLABOR MARKET WATCH: Wage growth for skilled manufacturing roles held at 5.8% year over year in the Midwest, slightly ahead of the national average. Several members report that overtime costs, not base wage inflation, are now the bigger line-item pressure, driven by continued difficulty filling second and third shifts.\n\nREADER MAILBAG: A plant manager in Indiana wrote in asking how peers are structuring fixed-fee versus time-and-materials contracts with outside consultants on multi-phase projects. We're compiling responses for a future issue \u2014 reply if you have a structure that's worked well for your organization.\n\nEVENTS CALENDAR: A full list of manufacturing conferences and webinars through year-end, including several with consulting-firm delegate rates.\n\nRead the full briefing at industryweek.com/briefing\n\nIndustryWeek Editorial",
+    "body_html": "<div style=\"font-family:Arial,sans-serif;font-size:14px;color:#222;line-height:1.5;\"><p>IN THIS ISSUE</p><p>FEATURE: Why Fixed-Fee Consulting Engagements Are Replacing Time-and-Materials in Manufacturing<br>As manufacturers grow wary of open-ended consulting spend, a growing share of operations engagements are structured as fixed-fee, milestone-based contracts. We spoke with three boutique advisory firms about how they scope and price this way without eating the risk of scope creep \u2014 a theme worth watching if your own engagements are trending the same direction.</p><p>DATA: Q2 industrial production ticked up 1.4% quarter over quarter, driven largely by durable goods. Capacity utilization remains below the 15-year average, suggesting continued appetite for efficiency-focused consulting engagements over pure capacity expansion.</p><p>PEOPLE MOVES: Ridgefield Mfg names a new VP of Operations; three other executive moves across the Midwest manufacturing corridor.</p><p>TOOLS: A roundup of five ERP add-ons gaining traction with mid-market manufacturers this quarter, including two aimed specifically at improving forecast accuracy for make-to-order shops. Several readers wrote in after last month's issue asking for more detail on implementation timelines, so this roundup includes real customer-reported rollout windows rather than vendor marketing estimates \u2014 most ran 4 to 7 months longer than initially quoted, a pattern worth flagging to any client currently evaluating a system change.</p><p>DEEP DIVE: THE CONSULTANT'S ROLE IN CAPEX DECISIONS<br>A growing number of manufacturers are bringing outside advisors into capital equipment decisions earlier than in past cycles, not just for post-purchase process design. We interviewed five plant-level finance leaders who described a shift from \"call the consultant once the machine is installed\" to \"get a second opinion before the PO is cut.\" For advisory firms, this means capex evaluation frameworks and vendor-neutral ROI modeling are becoming a more explicit part of the sales conversation, not an afterthought bundled into a broader engagement.</p><p>LABOR MARKET WATCH: Wage growth for skilled manufacturing roles held at 5.8% year over year in the Midwest, slightly ahead of the national average. Several members report that overtime costs, not base wage inflation, are now the bigger line-item pressure, driven by continued difficulty filling second and third shifts.</p><p>READER MAILBAG: A plant manager in Indiana wrote in asking how peers are structuring fixed-fee versus time-and-materials contracts with outside consultants on multi-phase projects. We're compiling responses for a future issue \u2014 reply if you have a structure that's worked well for your organization.</p><p>EVENTS CALENDAR: A full list of manufacturing conferences and webinars through year-end, including several with consulting-firm delegate rates.</p><p>Read the full briefing at industryweek.com/briefing</p><p>IndustryWeek Editorial</p></div>",
+    "date": "2026-07-27T06:00:00-04:00",
+    "internal_date_ms": 1785146400000,
+    "folder": "INBOX",
+    "category": "CATEGORY_UPDATES",
+    "is_unread": false,
+    "is_starred": false,
+    "is_important": false,
+    "user_labels": [],
+    "attachments": [],
+    "calendar_event": null,
+    "extra_headers": {
+      "List-Unsubscribe": "<mailto:unsubscribe@industryweek.com>, <https://industryweek.com/unsubscribe?u=90341>",
+      "List-Unsubscribe-Post": "List-Unsubscribe=One-Click",
+      "List-ID": "IndustryWeek Executive Briefing <briefing.industryweek.com>",
+      "Precedence": "bulk",
+      "Feedback-ID": "iw-briefing:0727:iw",
+      "Return-Path": "<briefing@industryweek.com>"
+    },
+    "size_estimate": 6486,
+    "meta": {
+      "email_class": "newsletter",
+      "tricky_tags": [],
+      "is_actionable_for_user": false,
+      "action_owner": null,
+      "action_summary": null,
+      "due_date": null,
+      "commitment_made_by_user": null,
+      "commitment_is_conditional": false,
+      "commitment_condition": null,
+      "superseded_by_message_id": null,
+      "notes": null
+    }
+  },
+  {
+    "id": "e30f18c2e4b60035",
+    "thread_id": "e30f18c2e4b60035",
+    "profile_id": "consulting",
+    "history_id": "752960",
+    "message_id_header": "<e30f18c2e4b60035@pipelineproleads.com>",
+    "in_reply_to": null,
+    "references": [],
+    "thread_position": 1,
+    "thread_length": 1,
+    "from": {
+      "name": "Marisol Vega",
+      "email": "marisol@pipelineproleads.com"
+    },
+    "to": [
+      {
+        "name": "Evelyn Thorne",
+        "email": "evelyn.thorne@thornecadwell.com"
+      }
+    ],
+    "cc": [],
+    "bcc": [],
+    "delivered_to": "evelyn.thorne@thornecadwell.com",
+    "subject": "Appointment setting for consulting firms \u2014 pay per booked call",
+    "snippet": "Hi Evelyn, Following up in case my last note got buried \u2014 PipelinePro specializes in appointment setting for boutique advisory and consulting firms targeting manufacturing and indu",
+    "body_text": "Hi Evelyn,\n\nFollowing up in case my last note got buried \u2014 PipelinePro specializes in appointment setting for boutique advisory and consulting firms targeting manufacturing and industrial clients.\n\nOur clients (similar size to yours) typically see 6-10 booked discovery calls/month once campaigns ramp. We built a lookalike list off firms like Meridian Castings and Halberd Packaging that match your ICP.\n\nHappy to send a sample of the outreach copy we'd use under the Thorne & Cadwell name if you want to see it before committing to anything.\n\nMarisol Vega\nBusiness Development, PipelinePro\nmarisol@pipelineproleads.com",
+    "body_html": null,
+    "date": "2026-07-27T13:40:00-05:00",
+    "internal_date_ms": 1785177600000,
+    "folder": "INBOX",
+    "category": "CATEGORY_PROMOTIONS",
+    "is_unread": true,
+    "is_starred": false,
+    "is_important": false,
+    "user_labels": [
+      "Label_7751"
+    ],
+    "attachments": [],
+    "calendar_event": null,
+    "extra_headers": {
+      "Return-Path": "<marisol@pipelineproleads.com>"
+    },
+    "size_estimate": 1262,
+    "meta": {
+      "email_class": "cold_outreach",
+      "tricky_tags": [],
+      "is_actionable_for_user": false,
+      "action_owner": null,
+      "action_summary": null,
+      "due_date": null,
+      "commitment_made_by_user": null,
+      "commitment_is_conditional": false,
+      "commitment_condition": null,
+      "superseded_by_message_id": null,
+      "notes": null
+    }
+  },
+  {
+    "id": "e30f18c2e4b60036",
+    "thread_id": "e30f18c2e4b60036",
+    "profile_id": "consulting",
+    "history_id": "754245",
+    "message_id_header": "<e30f18c2e4b60036@ironcladcyberpartners.com>",
+    "in_reply_to": null,
+    "references": [],
+    "thread_position": 1,
+    "thread_length": 1,
+    "from": {
+      "name": "Ironclad Cyber Partners",
+      "email": "outreach@ironcladcyberpartners.com"
+    },
+    "to": [
+      {
+        "name": "Evelyn Thorne",
+        "email": "evelyn.thorne@thornecadwell.com"
+      }
+    ],
+    "cc": [],
+    "bcc": [],
+    "delivered_to": "evelyn.thorne@thornecadwell.com",
+    "subject": "Thorne & Cadwell: is your client data secure?",
+    "snippet": "Evelyn, Boutique consulting firms are increasingly targeted specifically because they hold sensitive operational and financial data from clients like Meridian Castings and Halberd ",
+    "body_text": "Evelyn,\n\nBoutique consulting firms are increasingly targeted specifically because they hold sensitive operational and financial data from clients like Meridian Castings and Halberd Packaging, without the security budget of a Big 4 shop.\n\nWe do a free 20-minute exposure scan \u2014 checks for leaked credentials, open cloud storage, and email spoofing risk on thornecadwell.com. No obligation, results in 48 hours.\n\nWant us to run it?\n\nIronclad Cyber Partners",
+    "body_html": null,
+    "date": "2026-07-28T11:05:00-05:00",
+    "internal_date_ms": 1785254700000,
+    "folder": "INBOX",
+    "category": "CATEGORY_PROMOTIONS",
+    "is_unread": false,
+    "is_starred": false,
+    "is_important": false,
+    "user_labels": [],
+    "attachments": [],
+    "calendar_event": null,
+    "extra_headers": {
+      "Return-Path": "<outreach@ironcladcyberpartners.com>"
+    },
+    "size_estimate": 1096,
+    "meta": {
+      "email_class": "cold_outreach",
+      "tricky_tags": [],
+      "is_actionable_for_user": false,
+      "action_owner": null,
+      "action_summary": null,
+      "due_date": null,
+      "commitment_made_by_user": null,
+      "commitment_is_conditional": false,
+      "commitment_condition": null,
+      "superseded_by_message_id": null,
+      "notes": null
+    }
+  },
+  {
+    "id": "e30f18c2e4b60037",
+    "thread_id": "e30f18c2e4b60037",
+    "profile_id": "consulting",
+    "history_id": "755900",
+    "message_id_header": "<e30f18c2e4b60037@fastbizgrantsusa.net>",
+    "in_reply_to": null,
+    "references": [],
+    "thread_position": 1,
+    "thread_length": 1,
+    "from": {
+      "name": "Small Business Grants Dept",
+      "email": "claims@fastbizgrantsusa.net"
+    },
+    "to": [
+      {
+        "name": "Evelyn Thorne",
+        "email": "evelyn.thorne@thornecadwell.com"
+      }
+    ],
+    "cc": [],
+    "bcc": [],
+    "delivered_to": "evelyn.thorne@thornecadwell.com",
+    "subject": "FINAL NOTICE: Claim your $250,000 business grant today",
+    "snippet": "You qualify for a $250,000 government business grant, NO REPAYMENT required \u2014 claim before midnight: http://fastbizgrantsusa.net/claim?id=88213",
+    "body_text": "You qualify for a $250,000 government business grant, NO REPAYMENT required \u2014 claim before midnight: http://fastbizgrantsusa.net/claim?id=88213",
+    "body_html": null,
+    "date": "2026-07-29T19:40:00+00:00",
+    "internal_date_ms": 1785354000000,
+    "folder": "SPAM",
+    "category": null,
+    "is_unread": false,
+    "is_starred": false,
+    "is_important": false,
+    "user_labels": [],
+    "attachments": [],
+    "calendar_event": null,
+    "extra_headers": {
+      "Return-Path": "<bounce@fastbizgrantsusa.net>"
+    },
+    "size_estimate": 785,
+    "meta": {
+      "email_class": "spam",
+      "tricky_tags": [],
+      "is_actionable_for_user": false,
+      "action_owner": null,
+      "action_summary": null,
+      "due_date": null,
+      "commitment_made_by_user": null,
+      "commitment_is_conditional": false,
+      "commitment_condition": null,
+      "superseded_by_message_id": null,
+      "notes": "Crude one-line grant scam blast, deliberately short to hit the under-25-word bucket."
+    }
+  },
+  {
+    "id": "e30f18c2e4b60038",
+    "thread_id": "e30f18c2e4b60038",
+    "profile_id": "consulting",
+    "history_id": "756570",
+    "message_id_header": "<e30f18c2e4b60038@virtuassistglobal.com>",
+    "in_reply_to": null,
+    "references": [],
+    "thread_position": 1,
+    "thread_length": 1,
+    "from": {
+      "name": "VirtuAssist Global",
+      "email": "hello@virtuassistglobal.com"
+    },
+    "to": [
+      {
+        "name": "Evelyn Thorne",
+        "email": "evelyn.thorne@thornecadwell.com"
+      }
+    ],
+    "cc": [],
+    "bcc": [],
+    "delivered_to": "evelyn.thorne@thornecadwell.com",
+    "subject": "Free up 20 hours a week with a dedicated virtual assistant",
+    "snippet": "Hi Evelyn, Running a 10-person advisory firm means you're probably still doing scheduling, inbox triage, and travel booking yourself. Our dedicated VAs (starting at $9/hr, US busin",
+    "body_text": "Hi Evelyn,\n\nRunning a 10-person advisory firm means you're probably still doing scheduling, inbox triage, and travel booking yourself. Our dedicated VAs (starting at $9/hr, US business hours coverage) handle exactly that for founders and firm principals.\n\nMost clients get their VA fully ramped within a week. Want a free 2-hour trial to see if it's useful before committing to anything?\n\nVirtuAssist Global",
+    "body_html": null,
+    "date": "2026-07-30T06:50:00+00:00",
+    "internal_date_ms": 1785394200000,
+    "folder": "INBOX",
+    "category": "CATEGORY_PROMOTIONS",
+    "is_unread": false,
+    "is_starred": false,
+    "is_important": false,
+    "user_labels": [],
+    "attachments": [],
+    "calendar_event": null,
+    "extra_headers": {
+      "Return-Path": "<hello@virtuassistglobal.com>"
+    },
+    "size_estimate": 1047,
+    "meta": {
+      "email_class": "cold_outreach",
+      "tricky_tags": [],
+      "is_actionable_for_user": false,
+      "action_owner": null,
+      "action_summary": null,
+      "due_date": null,
+      "commitment_made_by_user": null,
+      "commitment_is_conditional": false,
+      "commitment_condition": null,
+      "superseded_by_message_id": null,
+      "notes": null
+    }
+  },
+  {
+    "id": "e30f18c2e4b60039",
+    "thread_id": "e30f18c2e4b60039",
+    "profile_id": "consulting",
+    "history_id": "758320",
+    "message_id_header": "<e30f18c2e4b60039@email.marriott.com>",
+    "in_reply_to": null,
+    "references": [],
+    "thread_position": 1,
+    "thread_length": 1,
+    "from": {
+      "name": "Marriott Bonvoy",
+      "email": "bonvoy@email.marriott.com"
+    },
+    "to": [
+      {
+        "name": "Evelyn Thorne",
+        "email": "evelyn.thorne@thornecadwell.com"
+      }
+    ],
+    "cc": [],
+    "bcc": [],
+    "delivered_to": "evelyn.thorne@thornecadwell.com",
+    "subject": "Your Bonvoy points are about to expire \u2014 redeem now",
+    "snippet": "Evelyn, 42,300 Bonvoy points on your account will expire October 1 due to inactivity. Book a stay or redeem for a gift card to keep your account active: marriott.com/loyalty/redeem",
+    "body_text": "Evelyn, 42,300 Bonvoy points on your account will expire October 1 due to inactivity. Book a stay or redeem for a gift card to keep your account active: marriott.com/loyalty/redeem",
+    "body_html": "<div style=\"font-family:Arial,sans-serif;font-size:14px;color:#222;line-height:1.5;\"><p>Evelyn, 42,300 Bonvoy points on your account will expire October 1 due to inactivity. Book a stay or redeem for a gift card to keep your account active: marriott.com/loyalty/redeem</p></div>",
+    "date": "2026-07-31T08:00:00-04:00",
+    "internal_date_ms": 1785499200000,
+    "folder": "INBOX",
+    "category": "CATEGORY_PROMOTIONS",
+    "is_unread": false,
+    "is_starred": false,
+    "is_important": false,
+    "user_labels": [],
+    "attachments": [],
+    "calendar_event": null,
+    "extra_headers": {
+      "List-Unsubscribe": "<mailto:unsubscribe@email.marriott.com>, <https://email.marriott.com/unsubscribe?u=50291>",
+      "List-Unsubscribe-Post": "List-Unsubscribe=One-Click",
+      "Precedence": "bulk",
+      "Return-Path": "<bonvoy@email.marriott.com>"
+    },
+    "size_estimate": 1098,
+    "meta": {
+      "email_class": "promotional",
+      "tricky_tags": [],
+      "is_actionable_for_user": false,
+      "action_owner": null,
+      "action_summary": null,
+      "due_date": null,
+      "commitment_made_by_user": null,
+      "commitment_is_conditional": false,
+      "commitment_condition": null,
+      "superseded_by_message_id": null,
+      "notes": null
+    }
+  },
+  {
+    "id": "e30f18c2e4b60040",
+    "thread_id": "e30f18c2e4b60040",
+    "profile_id": "consulting",
+    "history_id": "759880",
+    "message_id_header": "<e30f18c2e4b60040@govcontractwatch.com>",
+    "in_reply_to": null,
+    "references": [],
+    "thread_position": 1,
+    "thread_length": 1,
+    "from": {
+      "name": "GovContract Alerts",
+      "email": "alerts@govcontractwatch.com"
+    },
+    "to": [
+      {
+        "name": "Evelyn Thorne",
+        "email": "evelyn.thorne@thornecadwell.com"
+      }
+    ],
+    "cc": [],
+    "bcc": [],
+    "delivered_to": "evelyn.thorne@thornecadwell.com",
+    "subject": "3 new SBA set-aside contracts matching your NAICS code",
+    "snippet": "3 new opportunities match NAICS 541611 (Administrative Management Consulting): - Dept. of Defense \u2014 Manufacturing Process Improvement Support, est. $180K - State of Illinois \u2014 Oper",
+    "body_text": "3 new opportunities match NAICS 541611 (Administrative Management Consulting):\n\n- Dept. of Defense \u2014 Manufacturing Process Improvement Support, est. $180K\n- State of Illinois \u2014 Operational Efficiency Advisory, est. $95K\n- City of Peoria \u2014 Small Business Manufacturing Assistance, est. $60K\n\nUpgrade to Pro ($49/mo) to see full solicitation details and submission deadlines: govcontractwatch.com/upgrade",
+    "body_html": null,
+    "date": "2026-08-01T09:00:00-05:00",
+    "internal_date_ms": 1785592800000,
+    "folder": "INBOX",
+    "category": "CATEGORY_PROMOTIONS",
+    "is_unread": true,
+    "is_starred": false,
+    "is_important": false,
+    "user_labels": [],
+    "attachments": [],
+    "calendar_event": null,
+    "extra_headers": {
+      "List-Unsubscribe": "<mailto:unsubscribe@govcontractwatch.com>",
+      "Precedence": "bulk",
+      "Return-Path": "<alerts@govcontractwatch.com>"
+    },
+    "size_estimate": 1048,
+    "meta": {
+      "email_class": "promotional",
+      "tricky_tags": [],
+      "is_actionable_for_user": false,
+      "action_owner": null,
+      "action_summary": null,
+      "due_date": null,
+      "commitment_made_by_user": null,
+      "commitment_is_conditional": false,
+      "commitment_condition": null,
+      "superseded_by_message_id": null,
+      "notes": null
+    }
+  },
+  {
+    "id": "e30f18c2e4b60041",
+    "thread_id": "e30f18c2e4b60041",
+    "profile_id": "consulting",
+    "history_id": "761380",
+    "message_id_header": "<e30f18c2e4b60041@mail.gusto.com>",
+    "in_reply_to": null,
+    "references": [],
+    "thread_position": 1,
+    "thread_length": 1,
+    "from": {
+      "name": "Gusto",
+      "email": "hello@mail.gusto.com"
+    },
+    "to": [
+      {
+        "name": "Evelyn Thorne",
+        "email": "evelyn.thorne@thornecadwell.com"
+      }
+    ],
+    "cc": [],
+    "bcc": [],
+    "delivered_to": "evelyn.thorne@thornecadwell.com",
+    "subject": "Run payroll for your 10-person team in minutes",
+    "snippet": "Switch to Gusto and run payroll for your whole team in under 5 minutes, with automatic tax filing in every state you hire. First 3 months free for firms under 15 employees: gusto.c",
+    "body_text": "Switch to Gusto and run payroll for your whole team in under 5 minutes, with automatic tax filing in every state you hire. First 3 months free for firms under 15 employees: gusto.com/switch",
+    "body_html": null,
+    "date": "2026-08-02T08:00:00-07:00",
+    "internal_date_ms": 1785682800000,
+    "folder": "INBOX",
+    "category": "CATEGORY_PROMOTIONS",
+    "is_unread": false,
+    "is_starred": false,
+    "is_important": false,
+    "user_labels": [],
+    "attachments": [],
+    "calendar_event": null,
+    "extra_headers": {
+      "List-Unsubscribe": "<mailto:unsubscribe@mail.gusto.com>",
+      "Precedence": "bulk",
+      "Return-Path": "<hello@mail.gusto.com>"
+    },
+    "size_estimate": 829,
+    "meta": {
+      "email_class": "promotional",
+      "tricky_tags": [],
+      "is_actionable_for_user": false,
+      "action_owner": null,
+      "action_summary": null,
+      "due_date": null,
+      "commitment_made_by_user": null,
+      "commitment_is_conditional": false,
+      "commitment_condition": null,
+      "superseded_by_message_id": null,
+      "notes": null
+    }
+  },
+  {
+    "id": "e30f18c2e4b60042",
+    "thread_id": "e30f18c2e4b60042",
+    "profile_id": "consulting",
+    "history_id": "762640",
+    "message_id_header": "<e30f18c2e4b60042@ascm.org>",
+    "in_reply_to": null,
+    "references": [],
+    "thread_position": 1,
+    "thread_length": 1,
+    "from": {
+      "name": "ASCM (APICS)",
+      "email": "digest@ascm.org"
+    },
+    "to": [
+      {
+        "name": "Evelyn Thorne",
+        "email": "evelyn.thorne@thornecadwell.com"
+      }
+    ],
+    "cc": [],
+    "bcc": [],
+    "delivered_to": "evelyn.thorne@thornecadwell.com",
+    "subject": "ASCM SCMep Digest: August 2026",
+    "snippet": "This month in the SCMep Digest: inventory optimization case studies, a certification exam schedule update, and new research on nearshoring economics. Featured article: \"Why Safety ",
+    "body_text": "This month in the SCMep Digest: inventory optimization case studies, a certification exam schedule update, and new research on nearshoring economics.\n\nFeatured article: \"Why Safety Stock Formulas Are Failing Mid-Market Manufacturers\" \u2014 a look at how static reorder points miss demand volatility that's become the norm since 2023.\n\nAlso inside: chapter events near you, a member discount on the September CSCP exam prep course, and this month's supply chain jobs roundup.\n\nRead the full digest: ascm.org/digest/august2026\n\nASCM Communications",
+    "body_html": null,
+    "date": "2026-08-03T07:00:00-05:00",
+    "internal_date_ms": 1785758400000,
+    "folder": "INBOX",
+    "category": "CATEGORY_UPDATES",
+    "is_unread": false,
+    "is_starred": false,
+    "is_important": false,
+    "user_labels": [],
+    "attachments": [],
+    "calendar_event": null,
+    "extra_headers": {
+      "List-Unsubscribe": "<mailto:unsubscribe@ascm.org>, <https://ascm.org/unsubscribe?u=88123>",
+      "List-Unsubscribe-Post": "List-Unsubscribe=One-Click",
+      "List-ID": "ASCM SCMep Digest <digest.ascm.org>",
+      "Precedence": "bulk",
+      "Feedback-ID": "ascm-digest:aug:2026:ascm",
+      "Return-Path": "<digest@ascm.org>"
+    },
+    "size_estimate": 1183,
+    "meta": {
+      "email_class": "newsletter",
+      "tricky_tags": [],
+      "is_actionable_for_user": false,
+      "action_owner": null,
+      "action_summary": null,
+      "due_date": null,
+      "commitment_made_by_user": null,
+      "commitment_is_conditional": false,
+      "commitment_condition": null,
+      "superseded_by_message_id": null,
+      "notes": null
+    }
+  },
+  {
+    "id": "e30f18c2e4b60043",
+    "thread_id": "e30f18c2e4b60043",
+    "profile_id": "consulting",
+    "history_id": "764020",
+    "message_id_header": "<e30f18c2e4b60043@crainschicago.com>",
+    "in_reply_to": null,
+    "references": [],
+    "thread_position": 1,
+    "thread_length": 1,
+    "from": {
+      "name": "Crain's Chicago Business",
+      "email": "newsletter@crainschicago.com"
+    },
+    "to": [
+      {
+        "name": "Evelyn Thorne",
+        "email": "evelyn.thorne@thornecadwell.com"
+      }
+    ],
+    "cc": [],
+    "bcc": [],
+    "delivered_to": "evelyn.thorne@thornecadwell.com",
+    "subject": "Crain's Chicago Business: Manufacturing & Industrials Weekly",
+    "snippet": "THIS WEEK IN CHICAGO MANUFACTURING & INDUSTRIALS A roundup of the stories our readers in operations and industrial services are talking about: - A West Loop-based packaging supplie",
+    "body_text": "THIS WEEK IN CHICAGO MANUFACTURING & INDUSTRIALS\n\nA roundup of the stories our readers in operations and industrial services are talking about:\n\n- A West Loop-based packaging supplier lands $22M in growth financing to expand its Elk Grove Village plant.\n- Cook County manufacturers report continued difficulty filling skilled-trades roles despite wage increases averaging 6% this year.\n- Q&A: three Chicago-area consulting firm principals on what's actually changing in how manufacturers buy advisory services in 2026.\n- Deal Watch: a mid-market industrial distributor in the south suburbs is exploring a sale, per sources close to the process.\n\nRead the full issue: crainschicago.com/manufacturing-weekly\n\nCrain's Chicago Business",
+    "body_html": null,
+    "date": "2026-08-04T06:00:00-05:00",
+    "internal_date_ms": 1785841200000,
+    "folder": "INBOX",
+    "category": "CATEGORY_UPDATES",
+    "is_unread": false,
+    "is_starred": false,
+    "is_important": false,
+    "user_labels": [],
+    "attachments": [],
+    "calendar_event": null,
+    "extra_headers": {
+      "List-Unsubscribe": "<mailto:unsubscribe@crainschicago.com>, <https://crainschicago.com/unsubscribe?u=71029>",
+      "List-Unsubscribe-Post": "List-Unsubscribe=One-Click",
+      "List-ID": "Crain's Manufacturing Weekly <manufacturing.crainschicago.com>",
+      "Precedence": "bulk",
+      "Feedback-ID": "crains-mfg:0804:crains",
+      "Return-Path": "<newsletter@crainschicago.com>"
+    },
+    "size_estimate": 1371,
+    "meta": {
+      "email_class": "newsletter",
+      "tricky_tags": [],
+      "is_actionable_for_user": false,
+      "action_owner": null,
+      "action_summary": null,
+      "due_date": null,
+      "commitment_made_by_user": null,
+      "commitment_is_conditional": false,
+      "commitment_condition": null,
+      "superseded_by_message_id": null,
+      "notes": null
+    }
+  },
+  {
+    "id": "e30f18c2e4b60044",
+    "thread_id": "e30f18c2e4b60044",
+    "profile_id": "consulting",
+    "history_id": "764042",
+    "message_id_header": "<e30f18c2e4b60044@secure-pcguard.com>",
+    "in_reply_to": null,
+    "references": [],
+    "thread_position": 1,
+    "thread_length": 1,
+    "from": {
+      "name": "Billing Support",
+      "email": "billing-alert@secure-pcguard.com"
+    },
+    "to": [
+      {
+        "name": "Evelyn Thorne",
+        "email": "evelyn.thorne@thornecadwell.com"
+      }
+    ],
+    "cc": [],
+    "bcc": [],
+    "delivered_to": "evelyn.thorne@thornecadwell.com",
+    "subject": "Your antivirus subscription auto-renewed for $499.99",
+    "snippet": "Dear Customer, Your PC Guard Total Security subscription has been AUTO-RENEWED for $499.99 and will be charged to your card on file within 24 hours. If you did not authorize this r",
+    "body_text": "Dear Customer,\n\nYour PC Guard Total Security subscription has been AUTO-RENEWED for $499.99 and will be charged to your card on file within 24 hours.\n\nIf you did not authorize this renewal or wish to cancel and receive a full refund, call our billing department immediately at 1-888-555-0173. Have your invoice number (INV-2026-88431) ready.\n\nDo not ignore this notice \u2014 refund requests after 24 hours cannot be processed.\n\nPC Guard Billing Team",
+    "body_html": null,
+    "date": "2026-08-04T11:22:00+00:00",
+    "internal_date_ms": 1785842520000,
+    "folder": "SPAM",
+    "category": null,
+    "is_unread": false,
+    "is_starred": false,
+    "is_important": false,
+    "user_labels": [],
+    "attachments": [],
+    "calendar_event": null,
+    "extra_headers": {
+      "Return-Path": "<billing-alert@secure-pcguard.com>"
+    },
+    "size_estimate": 1087,
+    "meta": {
+      "email_class": "spam",
+      "tricky_tags": [],
+      "is_actionable_for_user": false,
+      "action_owner": null,
+      "action_summary": null,
+      "due_date": null,
+      "commitment_made_by_user": null,
+      "commitment_is_conditional": false,
+      "commitment_condition": null,
+      "superseded_by_message_id": null,
+      "notes": "Tech-support scam blast \u2014 fake renewal charge with a callback number."
+    }
+  },
+  {
+    "id": "e30f18c2e4b60045",
+    "thread_id": "e30f18c2e4b60045",
+    "profile_id": "consulting",
+    "history_id": "765775",
+    "message_id_header": "<e30f18c2e4b60045@quickbooks.intuit.com>",
+    "in_reply_to": null,
+    "references": [],
+    "thread_position": 1,
+    "thread_length": 1,
+    "from": {
+      "name": "QuickBooks",
+      "email": "marketing@quickbooks.intuit.com"
+    },
+    "to": [
+      {
+        "name": "Evelyn Thorne",
+        "email": "evelyn.thorne@thornecadwell.com"
+      }
+    ],
+    "cc": [],
+    "bcc": [],
+    "delivered_to": "evelyn.thorne@thornecadwell.com",
+    "subject": "QuickBooks Time: track billable hours effortlessly",
+    "snippet": "Add QuickBooks Time to your plan and let each consultant clock billable hours from their phone \u2014 synced straight to invoicing. $8/user/month: quickbooks.intuit.com/time",
+    "body_text": "Add QuickBooks Time to your plan and let each consultant clock billable hours from their phone \u2014 synced straight to invoicing. $8/user/month: quickbooks.intuit.com/time",
+    "body_html": null,
+    "date": "2026-08-05T09:15:00-07:00",
+    "internal_date_ms": 1785946500000,
+    "folder": "INBOX",
+    "category": "CATEGORY_PROMOTIONS",
+    "is_unread": true,
+    "is_starred": false,
+    "is_important": false,
+    "user_labels": [],
+    "attachments": [],
+    "calendar_event": null,
+    "extra_headers": {
+      "List-Unsubscribe": "<mailto:unsubscribe@quickbooks.intuit.com>",
+      "Precedence": "bulk",
+      "Return-Path": "<marketing@quickbooks.intuit.com>"
+    },
+    "size_estimate": 810,
+    "meta": {
+      "email_class": "promotional",
+      "tricky_tags": [],
+      "is_actionable_for_user": false,
+      "action_owner": null,
+      "action_summary": null,
+      "due_date": null,
+      "commitment_made_by_user": null,
+      "commitment_is_conditional": false,
+      "commitment_condition": null,
+      "superseded_by_message_id": null,
+      "notes": null
+    }
+  },
+  {
+    "id": "e30f18c2e4b60046",
+    "thread_id": "e30f18c2e4b60046",
+    "profile_id": "consulting",
+    "history_id": "767083",
+    "message_id_header": "<e30f18c2e4b60046@getharvest.com>",
+    "in_reply_to": null,
+    "references": [],
+    "thread_position": 1,
+    "thread_length": 1,
+    "from": {
+      "name": "Harvest",
+      "email": "billing@getharvest.com"
+    },
+    "to": [
+      {
+        "name": "Evelyn Thorne",
+        "email": "evelyn.thorne@thornecadwell.com"
+      }
+    ],
+    "cc": [],
+    "bcc": [],
+    "delivered_to": "evelyn.thorne@thornecadwell.com",
+    "subject": "Your Harvest plan renews in 5 days \u2014 update your payment method",
+    "snippet": "Hey Evelyn, Quick heads up \u2014 your Thorne & Cadwell Advisory annual plan (5 seats, Harvest Pro) renews on August 11 for $624.00, but the Visa ending in 4471 on file expired last mon",
+    "body_text": "Hey Evelyn,\n\nQuick heads up \u2014 your Thorne & Cadwell Advisory annual plan (5 seats, Harvest Pro) renews on August 11 for $624.00, but the Visa ending in 4471 on file expired last month.\n\nNothing to worry about, just update your card before renewal so Kyle, Ana, Fiona, and Sheila don't lose access to time tracking and invoicing mid-project.\n\nUpdate payment method: getharvest.com/billing/thornecadwell\n\nThanks for being with us!\nThe Harvest Team\n\nP.S. \u2014 while you're in there, check out the new Harvest + Slack integration for automatic timer reminders.",
+    "body_html": "<div style=\"font-family:Arial,sans-serif;font-size:14px;color:#222;line-height:1.5;\"><p>Hey Evelyn,</p><p>Quick heads up \u2014 your Thorne & Cadwell Advisory annual plan (5 seats, Harvest Pro) renews on August 11 for $624.00, but the Visa ending in 4471 on file expired last month.</p><p>Nothing to worry about, just update your card before renewal so Kyle, Ana, Fiona, and Sheila don't lose access to time tracking and invoicing mid-project.</p><p>Update payment method: getharvest.com/billing/thornecadwell</p><p>Thanks for being with us!<br>The Harvest Team</p><p>P.S. \u2014 while you're in there, check out the new Harvest + Slack integration for automatic timer reminders.</p></div>",
+    "date": "2026-08-06T10:03:00-04:00",
+    "internal_date_ms": 1786024980000,
+    "folder": "INBOX",
+    "category": "CATEGORY_PROMOTIONS",
+    "is_unread": false,
+    "is_starred": false,
+    "is_important": true,
+    "user_labels": [
+      "Label_7752"
+    ],
+    "attachments": [],
+    "calendar_event": null,
+    "extra_headers": {
+      "List-Unsubscribe": "<mailto:unsubscribe@getharvest.com>, <https://getharvest.com/unsubscribe?u=41207>",
+      "List-Unsubscribe-Post": "List-Unsubscribe=One-Click",
+      "Precedence": "bulk",
+      "Return-Path": "<billing@getharvest.com>"
+    },
+    "size_estimate": 1880,
+    "meta": {
+      "email_class": "vendor_invoice",
+      "tricky_tags": [],
+      "is_actionable_for_user": true,
+      "action_owner": "evelyn.thorne@thornecadwell.com",
+      "action_summary": "Evelyn needs to confirm the firm's payment method before the Harvest annual plan renews on Aug 11, or time tracking and invoicing for all 5 consultants will lock.",
+      "due_date": "2026-08-11",
+      "commitment_made_by_user": null,
+      "commitment_is_conditional": false,
+      "commitment_condition": null,
+      "superseded_by_message_id": null,
+      "notes": "Genuinely-matters record: a real renewal notice dressed up like a marketing blast \u2014 bright banner, casual tone, but the card on file expired and renewal will fail without action."
+    }
+  },
+  {
+    "id": "e30f18c2e4b60047",
+    "thread_id": "e30f18c2e4b60047",
+    "profile_id": "consulting",
+    "history_id": "768520",
+    "message_id_header": "<e30f18c2e4b60047@ame.org>",
+    "in_reply_to": null,
+    "references": [],
+    "thread_position": 1,
+    "thread_length": 1,
+    "from": {
+      "name": "AME Events",
+      "email": "speakers@ame.org"
+    },
+    "to": [
+      {
+        "name": "Evelyn Thorne",
+        "email": "evelyn.thorne@thornecadwell.com"
+      }
+    ],
+    "cc": [],
+    "bcc": [],
+    "delivered_to": "evelyn.thorne@thornecadwell.com",
+    "subject": "AME Chicago Summit: your speaker session details",
+    "snippet": "Hi Evelyn, Thanks for confirming as a speaker for the AME 2026 Chicago Summit. Here are your session details: Session: \"Right-Sizing Lean Programs for Mid-Market Manufacturers\" Dat",
+    "body_text": "Hi Evelyn,\n\nThanks for confirming as a speaker for the AME 2026 Chicago Summit. Here are your session details:\n\nSession: \"Right-Sizing Lean Programs for Mid-Market Manufacturers\"\nDate/Time: Wednesday, October 7, 2:15-3:00 PM\nRoom: McCormick Place, Room 302\nFormat: 30-min talk + 15-min Q&A\n\nTo finalize your listing in the printed program, please submit:\n1. Final slide deck (PDF, 16:9)\n2. A 100-word speaker bio and headshot\n\nDeadline for both: August 21. Submissions after this date won't make the printed program, though they can still go in the digital agenda.\n\nSubmit here: ame.org/speakers/upload?event=chicago2026\n\nLooking forward to having you on stage.\n\nAME Events Team",
+    "body_html": null,
+    "date": "2026-08-07T10:00:00-04:00",
+    "internal_date_ms": 1786111200000,
+    "folder": "INBOX",
+    "category": "CATEGORY_UPDATES",
+    "is_unread": true,
+    "is_starred": true,
+    "is_important": true,
+    "user_labels": [
+      "Label_7751"
+    ],
+    "attachments": [],
+    "calendar_event": null,
+    "extra_headers": {
+      "List-Unsubscribe": "<mailto:unsubscribe@ame.org>",
+      "Precedence": "bulk",
+      "Return-Path": "<speakers@ame.org>"
+    },
+    "size_estimate": 1318,
+    "meta": {
+      "email_class": "genuine_work",
+      "tricky_tags": [],
+      "is_actionable_for_user": true,
+      "action_owner": "evelyn.thorne@thornecadwell.com",
+      "action_summary": "Evelyn must submit her session slide deck and 100-word speaker bio for the AME Chicago Summit by August 21.",
+      "due_date": "2026-08-21",
+      "commitment_made_by_user": null,
+      "commitment_is_conditional": false,
+      "commitment_condition": null,
+      "superseded_by_message_id": null,
+      "notes": "Genuinely-matters record: reads like a routine automated confirmation from the events system but contains a real deliverable deadline tied to the firm's live speaking-circuit storyline."
+    }
+  },
+  {
+    "id": "e30f18c2e4b60048",
+    "thread_id": "e30f18c2e4b60048",
+    "profile_id": "consulting",
+    "history_id": "769960",
+    "message_id_header": "<e30f18c2e4b60048@linkedin.com>",
+    "in_reply_to": null,
+    "references": [],
+    "thread_position": 1,
+    "thread_length": 1,
+    "from": {
+      "name": "LinkedIn",
+      "email": "notifications-noreply@linkedin.com"
+    },
+    "to": [
+      {
+        "name": "Evelyn Thorne",
+        "email": "evelyn.thorne@thornecadwell.com"
+      }
+    ],
+    "cc": [],
+    "bcc": [],
+    "delivered_to": "evelyn.thorne@thornecadwell.com",
+    "subject": "5 people from Meridian Castings viewed your profile",
+    "snippet": "5 people from Meridian Castings checked out your profile this month. See who they are with Premium: linkedin.com/premium",
+    "body_text": "5 people from Meridian Castings checked out your profile this month. See who they are with Premium: linkedin.com/premium",
+    "body_html": null,
+    "date": "2026-08-08T07:00:00-07:00",
+    "internal_date_ms": 1786197600000,
+    "folder": "INBOX",
+    "category": "CATEGORY_SOCIAL",
+    "is_unread": false,
+    "is_starred": false,
+    "is_important": false,
+    "user_labels": [],
+    "attachments": [],
+    "calendar_event": null,
+    "extra_headers": {
+      "Precedence": "bulk",
+      "Return-Path": "<notifications-noreply@linkedin.com>"
+    },
+    "size_estimate": 760,
+    "meta": {
+      "email_class": "social",
+      "tricky_tags": [],
+      "is_actionable_for_user": false,
+      "action_owner": null,
+      "action_summary": null,
+      "due_date": null,
+      "commitment_made_by_user": null,
+      "commitment_is_conditional": false,
+      "commitment_condition": null,
+      "superseded_by_message_id": null,
+      "notes": null
+    }
+  },
+  {
+    "id": "e30f18c2e4b60049",
+    "thread_id": "e30f18c2e4b60049",
+    "profile_id": "consulting",
+    "history_id": "771712",
+    "message_id_header": "<e30f18c2e4b60049@email.united.com>",
+    "in_reply_to": null,
+    "references": [],
+    "thread_position": 1,
+    "thread_length": 1,
+    "from": {
+      "name": "United Airlines",
+      "email": "reservations@email.united.com"
+    },
+    "to": [
+      {
+        "name": "Evelyn Thorne",
+        "email": "evelyn.thorne@thornecadwell.com"
+      }
+    ],
+    "cc": [],
+    "bcc": [],
+    "delivered_to": "evelyn.thorne@thornecadwell.com",
+    "subject": "Your trip confirmation: ORD to PIT, Aug 24",
+    "snippet": "Confirmation code: QK7L2M Evelyn Thorne Mon, Aug 24 \u2014 ORD (Chicago O'Hare) to PIT (Pittsburgh) Flight UA 2214, Departs 7:05 AM, Arrives 9:22 AM Seat 14C, Economy Plus Return: Tue, ",
+    "body_text": "Confirmation code: QK7L2M\n\nEvelyn Thorne\nMon, Aug 24 \u2014 ORD (Chicago O'Hare) to PIT (Pittsburgh)\nFlight UA 2214, Departs 7:05 AM, Arrives 9:22 AM\nSeat 14C, Economy Plus\n\nReturn: Tue, Aug 25 \u2014 PIT to ORD, Flight UA 887, Departs 6:40 PM\n\nManage your trip: united.com/mytrips\n\nThank you for flying United.",
+    "body_html": "<div style=\"font-family:Arial,sans-serif;font-size:14px;color:#222;line-height:1.5;\"><p>Confirmation code: QK7L2M</p><p>Evelyn Thorne<br>Mon, Aug 24 \u2014 ORD (Chicago O'Hare) to PIT (Pittsburgh)<br>Flight UA 2214, Departs 7:05 AM, Arrives 9:22 AM<br>Seat 14C, Economy Plus</p><p>Return: Tue, Aug 25 \u2014 PIT to ORD, Flight UA 887, Departs 6:40 PM</p><p>Manage your trip: united.com/mytrips</p><p>Thank you for flying United.</p></div>",
+    "date": "2026-08-09T14:12:00-05:00",
+    "internal_date_ms": 1786302720000,
+    "folder": "INBOX",
+    "category": "CATEGORY_UPDATES",
+    "is_unread": true,
+    "is_starred": false,
+    "is_important": false,
+    "user_labels": [],
+    "attachments": [],
+    "calendar_event": null,
+    "extra_headers": {
+      "Return-Path": "<reservations@email.united.com>"
+    },
+    "size_estimate": 1377,
+    "meta": {
+      "email_class": "automated_notification",
+      "tricky_tags": [],
+      "is_actionable_for_user": false,
+      "action_owner": null,
+      "action_summary": null,
+      "due_date": null,
+      "commitment_made_by_user": null,
+      "commitment_is_conditional": false,
+      "commitment_condition": null,
+      "superseded_by_message_id": null,
+      "notes": null
+    }
+  },
+  {
+    "id": "e30f18c2e4b60050",
+    "thread_id": "e30f18c2e4b60050",
+    "profile_id": "consulting",
+    "history_id": "772840",
+    "message_id_header": "<e30f18c2e4b60050@linkedin.com>",
+    "in_reply_to": null,
+    "references": [],
+    "thread_position": 1,
+    "thread_length": 1,
+    "from": {
+      "name": "LinkedIn",
+      "email": "notifications-noreply@linkedin.com"
+    },
+    "to": [
+      {
+        "name": "Evelyn Thorne",
+        "email": "evelyn.thorne@thornecadwell.com"
+      }
+    ],
+    "cc": [],
+    "bcc": [],
+    "delivered_to": "evelyn.thorne@thornecadwell.com",
+    "subject": "You have 3 new profile views this week",
+    "snippet": "Evelyn, 3 people viewed your profile this week, including someone from a Fortune 500 manufacturer. See who's looking: linkedin.com/me/profile-views",
+    "body_text": "Evelyn, 3 people viewed your profile this week, including someone from a Fortune 500 manufacturer. See who's looking: linkedin.com/me/profile-views",
+    "body_html": null,
+    "date": "2026-08-10T07:00:00-07:00",
+    "internal_date_ms": 1786370400000,
+    "folder": "INBOX",
+    "category": "CATEGORY_SOCIAL",
+    "is_unread": true,
+    "is_starred": false,
+    "is_important": false,
+    "user_labels": [],
+    "attachments": [],
+    "calendar_event": null,
+    "extra_headers": {
+      "List-Unsubscribe": "<mailto:unsubscribe@linkedin.com>",
+      "Precedence": "bulk",
+      "Return-Path": "<notifications-noreply@linkedin.com>"
+    },
+    "size_estimate": 787,
+    "meta": {
+      "email_class": "social",
+      "tricky_tags": [],
+      "is_actionable_for_user": false,
+      "action_owner": null,
+      "action_summary": null,
+      "due_date": null,
+      "commitment_made_by_user": null,
+      "commitment_is_conditional": false,
+      "commitment_condition": null,
+      "superseded_by_message_id": null,
+      "notes": null
+    }
+  }
+]

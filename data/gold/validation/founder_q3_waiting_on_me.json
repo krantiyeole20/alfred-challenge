@@ -1,0 +1,73 @@
+{
+  "profile_id": "founder",
+  "question": "q3_waiting_on_me",
+  "items_reviewed": 12,
+  "verdict": "issues",
+  "findings": [
+    {
+      "type": "missed_item",
+      "severity": "high",
+      "item_id": null,
+      "message_ids": ["a20f18c2e4b60046", "a20f18c2e4b60050"],
+      "problem": "Marcus Webb (VP Corp Dev, Solvane) emailed Maya alone on Jun 25 asking for a call and has never received any reply — 48 days blocked, the longest-blocked legitimate requester in the mailbox — yet he appears in neither `items` nor `must_not_include`.",
+      "evidence": "a20f18c2e4b60046 (from marcus.webb@solvane.com, to: maya@kettlehq.com only): \"Would you be open to a call in the next couple weeks?\" — Maya's only two moves in the thread are internal (a20f18c2e4b60047 to Dev, a20f18c2e4b60049 to Greg); Greg then advised on a10f/a20f18c2e4b60050: \"Take the 30 minutes.\" A grep of the whole mailbox for solvane/marcus.webb returns no SENT message to him.",
+      "recommended_action": "add new item with these fields — tier: acceptable (or must_include if stranger-weight is not disqualifying), thread_id a20f18c2e4b60046, anchor_message_id a20f18c2e4b60046, message_ids [a20f18c2e4b60046, a20f18c2e4b60048, a20f18c2e4b60050], claim 'Marcus Webb (Solvane corp dev) asked Maya on Jun 25 for an exploratory call; Dev and Greg both advised taking it, and Maya has never replied to Marcus', counterparty marcus.webb@solvane.com, due_basis none, days_open 48, consequence medium. If the curator judges cold M&A outreach as non-blocking, it must instead go into must_not_include with that reasoning — silence in both lists is the defect."
+    },
+    {
+      "type": "stale_fact",
+      "severity": "medium",
+      "item_id": "founder-q3-02",
+      "message_ids": ["a60f18c2e4b60033", "a40f18c2e4b60019", "a40f18c2e4b60020"],
+      "problem": "The item (and the prose_answer) assert Alice Yun is 'blocked longest', 16 days, but Maya wrote to Alice on Aug 5 about the same search and the same shortlist, hitting Alice's vacation auto-responder; the gold's own founder-q4-06 codes Alice as the party who now owes Maya, so the ball demonstrably moved off Maya's side.",
+      "evidence": "a40f18c2e4b60019 (SENT, 2026-08-05, maya -> alice@vectortalent.co): \"Checking in — it's been a couple weeks since the last update. Board meeting is Aug 27 and I'd like to have a name to bring. Where do things stand with the two candidates from the shortlist?\" followed by a40f18c2e4b60020, Alice's auto-reply: \"I'm on vacation with no email access until Monday, August 11th.\"",
+      "recommended_action": "retire to acceptable, fix days_open to 14 (age of Alice's last unanswered message, Jul 29, per the Q3 ranking rule) and delete 'the longest wait on this list' from why_it_qualifies; rewrite the prose sentence 'Alice Yun has been blocked longest' — it is false under the corpus and inconsistent with founder-q4-06."
+    },
+    {
+      "type": "missed_item",
+      "severity": "medium",
+      "item_id": null,
+      "message_ids": ["a60f18c2e4b60039", "a60f18c2e4b60040", "a10f18c2e4b60036", "a60f18c2e4b60050"],
+      "problem": "Raj Malhotra's Jul 23 message carries two concrete asks directed at Maya — a logo-level ARR/retention export and a technical diligence call with Dev — and Maya's only reply in that thread changed the subject to dinner; her Aug 5 data-room reply gave access plus headline metrics but neither of those two things, and as of Aug 10 she still describes the diligence session as not yet arranged. This near-miss appears in neither `items` nor `must_not_include` (only the separate Aug 4 bump, a10f18c2e4b60031, is listed there).",
+      "evidence": "a60f18c2e4b60039 (raj.malhotra@foundryline.com -> maya only): \"One more thing — could you loop in Dev for a quick technical diligence call before Friday?\"; Maya's reply a60f18c2e4b60040 answers only \"are you still planning to be in SF the week of the 10th?\"; and a60f18c2e4b60050 (SENT, Aug 10) still says \"Dev, you may hear from me about a technical diligence session with their partner soon\".",
+      "recommended_action": "add new item at borderline/acceptable (anchor a60f18c2e4b60039, counterparty raj.malhotra@foundryline.com, due_basis implicit) OR, if the who-spoke-last gate is applied strictly because Maya technically replied last, move to must_not_include with trap 'quoted_text_only_task / topic_drift — Maya replied but answered a different question'. Leaving it in neither list means a system that surfaces it gets no signal either way."
+    },
+    {
+      "type": "bad_distractor",
+      "severity": "low",
+      "item_id": null,
+      "message_ids": ["a40f18c2e4b60038", "a20f18c2e4b60026", "a20f18c2e4b60027"],
+      "problem": "The Notion @-mention carries a named human's dated ask addressed to Maya by name and Maya never answered it directly — exactly the item a naive system will return — but it is absent from must_not_include, so the trap is untested.",
+      "evidence": "a40f18c2e4b60038 (team@mail.notion.so -> maya): \"Dev Patel mentioned you: \\\"@Maya can you confirm the access review cadence for the auditors by Friday?\\\"\" — the substance was in fact settled without Maya by a20f18c2e4b60026 (Grace Liu, Aug 4: the Q1 access-review gap becomes a noted exception) and closed by Maya's a20f18c2e4b60027 on Aug 6.",
+      "recommended_action": "move to must_not_include with trap 'automated-not-human / already-completed — @-mention notification whose underlying question was resolved in the SOC 2 fieldwork thread'."
+    },
+    {
+      "type": "stale_fact",
+      "severity": "low",
+      "item_id": "founder-q3-01",
+      "message_ids": ["a60f18c2e4b60042", "a60f18c2e4b60019"],
+      "problem": "due_date '2026-07-03' with due_basis 'explicit' is taken from a conditional promise that the corpus tags conditional_promise; the anchor message (Aug 7) states no date of its own, and QUESTIONS.md lists 'drops a required condition' as a wrongness class.",
+      "evidence": "a60f18c2e4b60019 (SENT, Jun 30): \"If she signs off on the language as-is, I'll have the countersigned MSA amendment to you by Friday. If she wants changes we'll need another round\" — and a60f18c2e4b60042's body contains no date at all: \"Please review and sign via the link below.\"",
+      "recommended_action": "fix due_basis to 'implicit' (or add tricky_tag 'conditional_promise' and state in the claim that the Jul 3 date was conditional on Beth's sign-off, which only arrived Aug 7)."
+    },
+    {
+      "type": "double_counted",
+      "severity": "low",
+      "item_id": "founder-q3-04",
+      "message_ids": ["a60f18c2e4b60038", "a60f18c2e4b60049"],
+      "problem": "The Ramp card-limit increase is the substance of both founder-q3-03 and founder-q3-04, so a system answering the limit question once is scored against two items; the two entries are defensibly distinct (immediate payment workaround vs. renewal-call prep) but the overlap is unflagged.",
+      "evidence": "a60f18c2e4b60038 attachment: \"1. Approve increasing the corporate card limit from $50,000 to $85,000/mo.\" vs a60f18c2e4b60049: \"Ramp card for the AWS renewal got declined — bump the limit or use the backup card?\"",
+      "recommended_action": "keep both but state the relationship in why_it_qualifies (q3-03 is the same limit decision forced early by the decline; q3-04 additionally covers the two new cardholders and the sub-$500 auto-approval), so a grader does not read a single correct answer as half a miss."
+    }
+  ],
+  "checked_and_sound": [
+    "founder-q3-05",
+    "founder-q3-06",
+    "founder-q3-07",
+    "founder-q3-08",
+    "founder-q3-09",
+    "founder-q3-10",
+    "founder-q3-11",
+    "founder-q3-12"
+  ],
+  "notes": "Method: every one of the 12 items was read to the last message of its thread AND cross-checked against every SENT/DRAFT message Maya wrote from Aug 1 onward, plus a mailbox-wide grep per counterparty, to rule out an out-of-thread reply. That check is what surfaced the Alice defect (a40f18c2e4b60019) — the only false-positive-shaped problem in the set. No already-answered items otherwise: Wendy's cap table, Ramp prep, Ramp decline and expense report, the DocuSign consent, the e-signature envelope, Dev's offsite ask, Elena's Labor Day note and Luis's mockups all have no Maya response anywhere in the mailbox. All 12 evidence_quote strings verified verbatim against the cited message bodies or attachment extracted_text (founder-q3-04's lives only in the PDF, as claimed). No machine-mail contamination: the Gmail-layer headers for a40f18c2e4b60041 (Ramp), a40f18c2e4b60050 (DocuSign) and a60f18c2e4b60042 (Hoyt & Grieve e-sign) carry no Auto-Submitted, Precedence: bulk or List-Unsubscribe, and each has an identifiable human behind it, so their inclusion is correct. No wrong-owner problems: every item is sole-to: or names Maya in the body, and the two bcc/cc-adjacent cases (q3-10, q3-11) are correctly demoted to borderline. All seven must_not_include entries were re-read and are correctly excluded — Luis claimed the diffused group ask 47 minutes later (a60f18c2e4b60025), Dev's forward literally says 'nothing needed from you', Raj's bump was answered Aug 5 (a10f18c2e4b60036), Ellen's ARR question was answered the same day (a20f18c2e4b60018), and the kettlehq-billing.com invoice is fraudulent. Two things a human reviewer should weigh: (1) the Marcus Webb omission is the substantive gap — the gold set surfaces that thread only in Q4 (founder-q4-12, Greg's background calls) and never notices that the external requester himself has been unanswered since Jun 25, which also falsifies the prose claim about Alice; note the corpus reuses the name 'Marcus Webb' for Lumenpay's IT lead in a10f18c2e4b60023, so any added item must pin the address marcus.webb@solvane.com. (2) SaaStr Speaker Relations (a30f18c2e4b60039, deck due Aug 25) was checked and correctly kept out — the sender signs as a team, not a named individual, so it is Q1 material with no waiting human."
+}

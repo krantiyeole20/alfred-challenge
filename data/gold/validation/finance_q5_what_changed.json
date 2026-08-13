@@ -1,0 +1,103 @@
+{
+  "profile_id": "finance",
+  "question": "q5_what_changed",
+  "items_reviewed": 16,
+  "verdict": "issues",
+  "findings": [
+    {
+      "type": "missed_item",
+      "severity": "medium",
+      "item_id": null,
+      "message_ids": [
+        "c20f18c2e4b60011",
+        "c20f18c2e4b60014",
+        "c20f18c2e4b60015",
+        "c20f18c2e4b60018",
+        "c20f18c2e4b60019"
+      ],
+      "problem": "The Q2 commission accelerator interpretation was reversed and the comp plan language rewritten, and none of it appears in the answer set — a textbook 'decision reached near the end of a long thread that contradicts what was agreed in the middle', approved Aug 3 (nine days before as_of) and structurally identical to the two long_thread items the set does include (finance-q5-04, finance-q5-07).",
+      "evidence": "Prior belief, Karen Voss in c20f18c2e4b60014: \"We've always applied it as an average in the two years I've been here, but I can see the deal-by-deal reading too.\" Current state, Karen Voss in c20f18c2e4b60018: \"For Owen: we'll honor deal-by-deal accelerator as a one-time exception per Hannah's goodwill suggestion, retroactive to 5/22 — that's an extra $8,400 on his Q2 statement, Ilya will process it with the next off-cycle run. For Q3 forward, comp plan language gets rewritten to say explicitly 'accelerator applies to attainment above threshold, calculated deal-by-deal at time of close,' which Hannah's team will circulate.\" Ratified by Sam Greer in c20f18c2e4b60019: \"Approved — go with Karen's numbers on both.\"",
+      "recommended_action": "add new item with these fields — item_id finance-q5-12, tier acceptable, thread_id c20f18c2e4b60011, anchor_message_id c20f18c2e4b60019, from_message_id c20f18c2e4b60014, to_message_id c20f18c2e4b60018, changed_field 'Q2 commission accelerator methodology', previous_value 'Accelerator calculated on quarterly attainment average (standing finance practice)', current_value 'Deal-by-deal at time of close — honored retroactively to 5/22 for Owen Castillo (+$8,400 on his Q2 statement, off-cycle run), and plan language rewritten deal-by-deal for Q3 forward'. Rank it in the Jul 29+ recency bucket (approved Aug 3), around rank 5-6."
+    },
+    {
+      "type": "missed_item",
+      "severity": "medium",
+      "item_id": null,
+      "message_ids": [
+        "c10f18c2e4b60018",
+        "c50f18c2e4b60003",
+        "c50f18c2e4b60004",
+        "c10f18c2e4b60043",
+        "c50f18c2e4b60050"
+      ],
+      "problem": "The mailbox carries two irreconcilable statements of the Harborline renewal terms from the same source six days apart, the later one is materially different, and the owner is demonstrably still repeating the earlier one to a board member on Aug 6 — the exact 'stale belief still operative' pattern Q5 exists to catch. It appears neither in items nor in must_not_include, so a system that surfaces it is neither rewarded nor penalised and the set is silent on the corpus's largest unresolved figure conflict.",
+      "evidence": "Frank Mireles, c10f18c2e4b60018 (Jul 16): \"Rate: SOFR + 2.50% (down from SOFR + 2.75%)\" with \"Facility limit unchanged at $2.5M\" and the commitment letter due Aug 15. Frank Mireles, c50f18c2e4b60003 (Jul 22): \"Here's where Harborline landed on the renewal: $3M revolving facility, SOFR + 275 bps, minimum cash covenant of $500K, and we can drop the personal guarantee requirement given two clean years. Documentation would need to be signed by August 31 to avoid a lapse.\" Aditi then repeats the superseded version to the board on Aug 6 in c10f18c2e4b60043: \"The Harborline renewal (better rate, same $2.5M limit) extends our cushion further once it's signed.\"",
+      "recommended_action": "Decide explicitly and record it: either add a borderline item (changed_field 'Harborline renewal terms', previous_value '$2.5M revolver, SOFR+2.50%, $350K min liquidity, commitment letter due Aug 15', current_value '$3M revolver, SOFR+275bps, $500K min cash, no personal guarantee, docs by Aug 31 — Aditi's SOFR+225 counter still open per c50f18c2e4b60050'), or move c50f18c2e4b60003 / c10f18c2e4b60018 to must_not_include with the reason stated. Same treatment is warranted for the parallel cross-thread conflicts noted in `notes`."
+    },
+    {
+      "type": "missed_item",
+      "severity": "low",
+      "item_id": null,
+      "message_ids": [
+        "c20f18c2e4b60021",
+        "c20f18c2e4b60023",
+        "c20f18c2e4b60026",
+        "c20f18c2e4b60027"
+      ],
+      "problem": "A two-step figure chain on the AGV-200 chassis cost — the SM-40 servo unit price moved $286 -> $312 (unauthorised) -> $298 (negotiated concession), and the NetSuite standard cost table was reset effective 8/1 — is a genuine belief-diff with both endpoints in-corpus and is absent from the set.",
+      "evidence": "Ilya Petrov, c20f18c2e4b60023: \"Dynatech raised unit pricing on the SM-40 servo motor from $286 to $312 (9.1% increase) effective the May 1 invoice\". Ruth Amankwah, c20f18c2e4b60026: \"they're holding firm on the $312 price citing their own input costs, but agreed to honor $298 through year-end as a concession since we didn't get proper notice... should bring the unit cost down to roughly $3,920\". Miles Okonkwo, c20f18c2e4b60027: \"Standard cost table updated in NetSuite, effective 8/1.\"",
+      "recommended_action": "add new item with these fields — tier borderline or acceptable, thread_id c20f18c2e4b60020, anchor_message_id c20f18c2e4b60027, from_message_id c20f18c2e4b60023, to_message_id c20f18c2e4b60026, changed_field 'AGV-200 chassis input cost / SM-40 servo price', previous_value '$286/unit per PO; $3,760 standard chassis cost', current_value '$298/unit through year-end (Dynatech concession); chassis unit cost ~$3,920, NetSuite standard cost table updated effective 8/1'."
+    },
+    {
+      "type": "missed_item",
+      "severity": "low",
+      "item_id": null,
+      "message_ids": [
+        "c20f18c2e4b60036",
+        "c20f18c2e4b60037",
+        "c20f18c2e4b60039",
+        "c20f18c2e4b60040"
+      ],
+      "problem": "The owner explicitly agreed to a rev-rec treatment on Jul 14 that was materially revised six days later and confirmed by the auditor on Jul 27; the belief she is on record holding is now wrong, which is a Q5 delta rather than ordinary thread detail.",
+      "evidence": "Aditi Sharma, c20f18c2e4b60037: \"Agreed, let's go with the 92/8 split. Miles, can you update the rev rec memo?\" Karen Voss, c20f18c2e4b60039: \"The standard 1-year piece stays an assurance-type cost accrual, only the incremental 1-year extension gets treated as a distinct performance obligation with deferred revenue.\" Nadia Haddad, c20f18c2e4b60040: \"Service-type classification looks right to us.\"",
+      "recommended_action": "add new item with these fields — tier borderline, thread_id c20f18c2e4b60035, anchor_message_id c20f18c2e4b60040, from_message_id c20f18c2e4b60037, to_message_id c20f18c2e4b60039, changed_field 'AGV-250 bundled warranty rev-rec treatment', previous_value '92/8 split of $64,500 with the whole warranty piece deferred ratably over 24 months', current_value 'Only the incremental 1-year extension is a distinct performance obligation with deferred revenue; the standard 1-year assurance piece stays a cost accrual (auditor-confirmed)'."
+    },
+    {
+      "type": "bad_quote",
+      "severity": "low",
+      "item_id": "finance-q5-04",
+      "message_ids": [
+        "c20f18c2e4b60005",
+        "c20f18c2e4b60006"
+      ],
+      "problem": "The item's previous_value ($340K population-wide extrapolation) is sourced to from_message_id c20f18c2e4b60006 (Sam reacting to the number), while the message that actually originates and derives the $340K — Nadia's c20f18c2e4b60005 — is not in message_ids at all, so the stale endpoint is cited second-hand.",
+      "evidence": "Nadia Haddad, c20f18c2e4b60005: \"If we apply the same aging logic Miles used on the wheel hub casting consistently across that population, we're looking at something closer to a $340K total incremental reserve, not $65.8K.\" Sam Greer's c20f18c2e4b60006 only says \"a $340K adjustment feels like a lot to swallow based on one bad SKU.\"",
+      "recommended_action": "add c20f18c2e4b60005 to message_ids and set from_message_id to 'c20f18c2e4b60005'"
+    },
+    {
+      "type": "missed_item",
+      "severity": "low",
+      "item_id": null,
+      "message_ids": [
+        "c60f18c2e4b60029",
+        "c30f18c2e4b60046"
+      ],
+      "problem": "The two highest-risk Q5 false positives in this mailbox — fraudulent 'our banking details have changed' messages, which read exactly like superseded-fact deltas — are absent from must_not_include, so the distractor set does not test the single confusion most likely to produce a confidently wrong Q5 answer here.",
+      "evidence": "c60f18c2e4b60029 (ap@solentmachining-ap.com, lookalike of solentmachining.com): \"This is to inform you that Solent Machining Co. has changed banks effective immediately. Please update your records for all outstanding invoices, including INV-10452 ($27,650, PO-4498), to the new remittance details below\". c30f18c2e4b60046 (frank.mireles@harborlinebank-support.com, SPAM): \"Harborline Bank has updated the wire receiving instructions for your credit facility closing... the old instructions will be rejected starting tomorrow.\"",
+      "recommended_action": "move to must_not_include — add both with trap 'lookalike_domain' and why_excluded 'A fraudulent sender asserting a change; no legitimate prior belief was superseded. Belongs to Q1/Q6 as a hazard, never to Q5 as a fact update.'"
+    }
+  ],
+  "checked_and_sound": [
+    "finance-q5-01",
+    "finance-q5-02",
+    "finance-q5-03",
+    "finance-q5-05",
+    "finance-q5-06",
+    "finance-q5-07",
+    "finance-q5-08",
+    "finance-q5-09",
+    "finance-q5-10",
+    "finance-q5-11"
+  ],
+  "notes": "ASSIGNED CHECK — FY27 opex drift: verified and clean. The chain is exactly three links in one thread (c60f18c2e4b60020 Karen $1.84M/9 reps -> c60f18c2e4b60021 Aditi $2.05M/11 reps + senior lead -> c60f18c2e4b60022 Sam $1.92M/10 reps), correctly reported as ONE item (finance-q5-02) spanning the chain rather than three, with $1.92M as current_value and both older figures relegated to history. I swept the entire mailbox for any later movement (regex over body_text, subjects and attachment extracted_text for 1.84/2.05/1.92/opex/Customer Support/reps/senior lead/headcount) and found none: the latest touch is Karen Voss on Aug 7 in c60f18c2e4b60049, which CORROBORATES the figure — \"Trial balance attached, ties out to the $1.92M opex figure we sent the board for Customer Support and everything else on the close checklist.\" Recommend adding c60f18c2e4b60049 to finance-q5-02's message_ids as closing evidence that $1.92M survived the July close. Sam's Aug 10 c60f18c2e4b60050 asks for the summary of \"the compromise numbers on Customer Support\" but restates no figure, so it does not move it either. Note the decoy: c10f18c2e4b60043 contains \"$1.84M\" as the Aug 5 CASH BALANCE, not the opex line — a system matching on the number alone will mis-thread it.\n\nEVIDENCE INTEGRITY — all 11 evidence_quotes are verbatim substrings of a cited message's body_text (checked programmatically); none is lifted from a >-quoted block or attributed to the wrong speaker. All anchor/from/to message ids resolve to real messages. Calendar coverage is complete: the corpus contains exactly two mutations (SEQUENCE:1 on UID 64505efd... = finance-q5-06, and METHOD:CANCEL on UID 08017c1d... = finance-q5-10) and both are captured; every other .ics is SEQUENCE:0 REQUEST or a REPLY, correctly excluded.\n\nCLOSURE AND CURRENCY — spot-checked each item to its thread end and across the mailbox: the Aug 18 Harborline date is the last word in that thread; Hannah never supplied a replacement headcount date (her later mentions are 'headcount actuals', a different artifact); the D&O decision at $86,400 is unreverted; Titan was released in full and the only later touch (c60f18c2e4b60018, Karen still arranging a dispute letter) is a stale belief on Karen's side, not a reversal of the payment.\n\nSTRUCTURAL WARNING for the human reviewer — the corpus batches (c10/c20/c30/c40/c50/c60) carry PARALLEL, MUTUALLY INCONSISTENT storylines for the same facts, and by QUESTIONS.md's own fallback rule ('absent annotation, take the latest statement by the same source on the same subject') several of them read as textbook Q5 deltas. Confirmed instances: (a) Harborline renewal terms, c10f18c2e4b60018 vs c50f18c2e4b60003 (see finding 2); (b) insurance premiums — D&O $38,400 eff. 8/1 (c10f18c2e4b60001), D&O/GL $86,400 eff. 9/1 (c20f18c2e4b60041, used by finance-q5-05), warehouse P&C $58,400 eff. 9/1 (c60f18c2e4b60010), and GL/property/umbrella $184,600 (c50f18c2e4b60018), all from the same broker Gail Underwood; (c) audit fieldwork — 'week of September 8' (c10f18c2e4b60020) vs 'Fieldwork starts Monday the 11th' of August (c50f18c2e4b60005); (d) client entertainment cap — '$150 per person... up from an informal $100' effective Sept 1 (c10f18c2e4b60046, Aug 10 11:00) vs Derek four hours later describing 'The $75/person cap on client entertainment that rolled out Aug 1' (c50f18c2e4b60011). I deliberately did NOT file (b), (c) or (d) as missed items because the pattern is systemic and almost certainly a generation artifact rather than a planted delta — but every one of them is a plausible high-confidence answer from a system reading the mailbox as a single coherent world, and the gold set is silent on all of them. Whichever way the curator rules, the ruling should be recorded in must_not_include so precision scoring is defined.\n\nMINOR — finance-q5-06, -09, -10 and -11 each declare a single thread_id while their message_ids span two thread_ids (the corpus files updated invitations, cancellations and the DocuSign completion as separate threads). That is legitimate per spec §'Cross-thread obligations' but the thread_id field is then only half-true. The must_not_include rationale for c40f18c2e4b60048 ('An automated notification restating known state') is slightly inaccurate — there is no earlier storage warning in this mailbox — though the exclusion itself is correct on the 'no prior belief' ground. No double-counting, no wrong-owner, no stale current_value, and no bad distractor found: all five must_not_include entries survive scrutiny."
+}

@@ -1,0 +1,2868 @@
+[
+  {
+    "id": "b30f18c2e4b60001",
+    "thread_id": "b30f18c2e4b60001",
+    "profile_id": "marketing",
+    "history_id": "764152",
+    "message_id_header": "<b30f18c2e4b60001@klaviyo.com>",
+    "in_reply_to": null,
+    "references": [],
+    "thread_position": 1,
+    "thread_length": 1,
+    "from": {
+      "name": "Klaviyo Billing",
+      "email": "billing@klaviyo.com"
+    },
+    "to": [
+      {
+        "name": "Jordan Feld",
+        "email": "jordan.feld@habitatgoods.com"
+      }
+    ],
+    "cc": [],
+    "bcc": [],
+    "delivered_to": "jordan.feld@habitatgoods.com",
+    "subject": "Action needed: your Klaviyo plan renews in 8 days",
+    "snippet": "Hi Jordan, Your Habitat Goods Klaviyo account (plan: Email + SMS Pro, 185K profiles) is set to renew on August 20, 2026. Based on your current usage, your annual rate is increasing",
+    "body_text": "Hi Jordan,\n\nYour Habitat Goods Klaviyo account (plan: Email + SMS Pro, 185K profiles) is set to renew on August 20, 2026. Based on your current usage, your annual rate is increasing from $14,400/yr to $17,940/yr — this reflects your profile growth over the last 12 months and the new SMS compliance tooling now included by default.\n\nIf you'd like to review your plan, downgrade profile tiers, or lock in pricing before the increase takes effect, you'll need to confirm changes in your account settings before August 20. After that date the new rate bills automatically to the card on file ending in 4471.\n\nQuestions about your specific usage or a custom quote? Reply here or reach your account manager, Danny Osei, directly.\n\n— The Klaviyo Billing Team",
+    "body_html": "<div style=\"font-family:Arial,Helvetica,sans-serif;font-size:14px;color:#222;max-width:600px;margin:0 auto;line-height:1.5;\"><div style=\"border-top:3px solid #000000;padding:16px 0;\"><p style=\"margin:0 0 12px 0;\">Hi Jordan,</p><p style=\"margin:0 0 12px 0;\">Your Habitat Goods Klaviyo account (plan: Email + SMS Pro, 185K profiles) is set to renew on August 20, 2026. Based on your current usage, your annual rate is increasing from $14,400/yr to $17,940/yr — this reflects your profile growth over the last 12 months and the new SMS compliance tooling now included by default.</p><p style=\"margin:0 0 12px 0;\">If you'd like to review your plan, downgrade profile tiers, or lock in pricing before the increase takes effect, you'll need to confirm changes in your account settings before August 20. After that date the new rate bills automatically to the card on file ending in 4471.</p><p style=\"margin:0 0 12px 0;\">Questions about your specific usage or a custom quote? Reply here or reach your account manager, Danny Osei, directly.</p><p style=\"margin:0 0 12px 0;\">— The Klaviyo Billing Team</p></div><p style=\"font-size:11px;color:#888;margin-top:16px;\">You are receiving this email because you subscribed or interacted with our product. <a href=\"https://example-unsub.com/u/{TOKEN}\" style=\"color:#888;\">Unsubscribe</a></p></div>",
+    "date": "2026-08-04T09:12:00-04:00",
+    "internal_date_ms": 1785849120000,
+    "folder": "INBOX",
+    "category": "CATEGORY_UPDATES",
+    "is_unread": true,
+    "is_starred": true,
+    "is_important": true,
+    "user_labels": [
+      "Label_2204"
+    ],
+    "attachments": [],
+    "calendar_event": null,
+    "extra_headers": {
+      "Precedence": "bulk",
+      "Return-Path": "<billing@klaviyo.com>"
+    },
+    "size_estimate": 3992,
+    "meta": {
+      "email_class": "automated_notification",
+      "tricky_tags": [],
+      "is_actionable_for_user": true,
+      "action_owner": "jordan.feld@habitatgoods.com",
+      "action_summary": "Decide whether to accept the Klaviyo renewal price increase ($14,400 to $17,940/yr) or adjust plan tiers before the Aug 20 renewal date.",
+      "due_date": "2026-08-20",
+      "commitment_made_by_user": null,
+      "commitment_is_conditional": false,
+      "commitment_condition": null,
+      "superseded_by_message_id": null,
+      "notes": "Genuinely actionable renewal notice dressed up in routine billing-email styling — easy to miss among the marketing noise."
+    }
+  },
+  {
+    "id": "b30f18c2e4b60002",
+    "thread_id": "b30f18c2e4b60002",
+    "profile_id": "marketing",
+    "history_id": "745483",
+    "message_id_header": "<b30f18c2e4b60002@klaviyo.com>",
+    "in_reply_to": null,
+    "references": [],
+    "thread_position": 1,
+    "thread_length": 1,
+    "from": {
+      "name": "Klaviyo",
+      "email": "news@klaviyo.com"
+    },
+    "to": [
+      {
+        "name": "Jordan Feld",
+        "email": "jordan.feld@habitatgoods.com"
+      }
+    ],
+    "cc": [],
+    "bcc": [],
+    "delivered_to": "jordan.feld@habitatgoods.com",
+    "subject": "New: Predictive CLV segments now live in Klaviyo",
+    "snippet": "Meet your new favorite segment: Predicted CLV. Klaviyo's machine learning model now scores every profile on predicted lifetime value, so you can build flows that treat your highest",
+    "body_text": "Meet your new favorite segment: Predicted CLV.\n\nKlaviyo's machine learning model now scores every profile on predicted lifetime value, so you can build flows that treat your highest-value customers differently from day one — free shipping thresholds, early access drops, or a dedicated win-back cadence.\n\nBrands piloting this feature saw a 12% lift in repeat purchase rate within 60 days. Turn it on from Analytics > Predictive Analytics — no extra setup required, it backfills against your existing history automatically.\n\nSee it in action →",
+    "body_html": "<div style=\"font-family:Arial,Helvetica,sans-serif;font-size:14px;color:#222;max-width:600px;margin:0 auto;line-height:1.5;\"><div style=\"border-top:3px solid #2f5233;padding:16px 0;\"><p style=\"margin:0 0 12px 0;\">Meet your new favorite segment: Predicted CLV.</p><p style=\"margin:0 0 12px 0;\">Klaviyo's machine learning model now scores every profile on predicted lifetime value, so you can build flows that treat your highest-value customers differently from day one — free shipping thresholds, early access drops, or a dedicated win-back cadence.</p><p style=\"margin:0 0 12px 0;\">Brands piloting this feature saw a 12% lift in repeat purchase rate within 60 days. Turn it on from Analytics > Predictive Analytics — no extra setup required, it backfills against your existing history automatically.</p><p style=\"margin:0 0 12px 0;\">See it in action →</p></div><p style=\"font-size:11px;color:#888;margin-top:16px;\">You are receiving this email because you subscribed or interacted with our product. <a href=\"https://example-unsub.com/u/{TOKEN}\" style=\"color:#888;\">Unsubscribe</a></p></div>",
+    "date": "2026-07-22T10:03:00-04:00",
+    "internal_date_ms": 1784728980000,
+    "folder": "INBOX",
+    "category": "CATEGORY_PROMOTIONS",
+    "is_unread": false,
+    "is_starred": false,
+    "is_important": false,
+    "user_labels": [],
+    "attachments": [],
+    "calendar_event": null,
+    "extra_headers": {
+      "List-Unsubscribe": "<mailto:unsubscribe@klaviyo.com>, <https://klaviyo.com/unsub/x1>",
+      "List-Unsubscribe-Post": "List-Unsubscribe=One-Click",
+      "Precedence": "bulk",
+      "Return-Path": "<news@klaviyo.com>"
+    },
+    "size_estimate": 3544,
+    "meta": {
+      "email_class": "promotional",
+      "tricky_tags": [],
+      "is_actionable_for_user": false,
+      "action_owner": null,
+      "action_summary": null,
+      "due_date": null,
+      "commitment_made_by_user": null,
+      "commitment_is_conditional": false,
+      "commitment_condition": null,
+      "superseded_by_message_id": null,
+      "notes": null
+    }
+  },
+  {
+    "id": "b30f18c2e4b60003",
+    "thread_id": "b30f18c2e4b60003",
+    "profile_id": "marketing",
+    "history_id": "735505",
+    "message_id_header": "<b30f18c2e4b60003@attentive.com>",
+    "in_reply_to": null,
+    "references": [],
+    "thread_position": 1,
+    "thread_length": 1,
+    "from": {
+      "name": "Attentive",
+      "email": "hello@attentive.com"
+    },
+    "to": [
+      {
+        "name": "Jordan Feld",
+        "email": "jordan.feld@habitatgoods.com"
+      }
+    ],
+    "cc": [],
+    "bcc": [],
+    "delivered_to": "jordan.feld@habitatgoods.com",
+    "subject": "Attentive AI: personalized SMS copy at scale",
+    "snippet": "Writing 20 SMS variants for a single flash sale is over. Attentive AI now drafts on-brand SMS copy from a single prompt, tuned to your account's historical click-through data. Feed",
+    "body_text": "Writing 20 SMS variants for a single flash sale is over.\n\nAttentive AI now drafts on-brand SMS copy from a single prompt, tuned to your account's historical click-through data. Feed it your brand voice guide once and it stays consistent across every send.\n\nEarly access brands are seeing draft-to-send time drop by 70%. Want a walkthrough with your CSM?",
+    "body_html": "<div style=\"font-family:Arial,Helvetica,sans-serif;font-size:14px;color:#222;max-width:600px;margin:0 auto;line-height:1.5;\"><div style=\"border-top:3px solid #5B2EFF;padding:16px 0;\"><p style=\"margin:0 0 12px 0;\">Writing 20 SMS variants for a single flash sale is over.</p><p style=\"margin:0 0 12px 0;\">Attentive AI now drafts on-brand SMS copy from a single prompt, tuned to your account's historical click-through data. Feed it your brand voice guide once and it stays consistent across every send.</p><p style=\"margin:0 0 12px 0;\">Early access brands are seeing draft-to-send time drop by 70%. Want a walkthrough with your CSM?</p></div><p style=\"font-size:11px;color:#888;margin-top:16px;\">You are receiving this email because you subscribed or interacted with our product. <a href=\"https://example-unsub.com/u/{TOKEN}\" style=\"color:#888;\">Unsubscribe</a></p></div>",
+    "date": "2026-07-15T11:45:00-04:00",
+    "internal_date_ms": 1784130300000,
+    "folder": "INBOX",
+    "category": "CATEGORY_PROMOTIONS",
+    "is_unread": false,
+    "is_starred": false,
+    "is_important": false,
+    "user_labels": [],
+    "attachments": [],
+    "calendar_event": null,
+    "extra_headers": {
+      "List-Unsubscribe": "<mailto:unsubscribe@attentive.com>, <https://attentive.com/u/x2>",
+      "List-Unsubscribe-Post": "List-Unsubscribe=One-Click",
+      "Precedence": "bulk",
+      "Return-Path": "<hello@attentive.com>"
+    },
+    "size_estimate": 3122,
+    "meta": {
+      "email_class": "promotional",
+      "tricky_tags": [],
+      "is_actionable_for_user": false,
+      "action_owner": null,
+      "action_summary": null,
+      "due_date": null,
+      "commitment_made_by_user": null,
+      "commitment_is_conditional": false,
+      "commitment_condition": null,
+      "superseded_by_message_id": null,
+      "notes": null
+    }
+  },
+  {
+    "id": "b30f18c2e4b60004",
+    "thread_id": "b30f18c2e4b60004",
+    "profile_id": "marketing",
+    "history_id": "732430",
+    "message_id_header": "<b30f18c2e4b60004@shopify.com>",
+    "in_reply_to": null,
+    "references": [],
+    "thread_position": 1,
+    "thread_length": 1,
+    "from": {
+      "name": "Shopify",
+      "email": "editions@shopify.com"
+    },
+    "to": [
+      {
+        "name": "Jordan Feld",
+        "email": "jordan.feld@habitatgoods.com"
+      }
+    ],
+    "cc": [],
+    "bcc": [],
+    "delivered_to": "jordan.feld@habitatgoods.com",
+    "subject": "Shopify Editions Summer '26: everything new for merchants",
+    "snippet": "Twice a year we ship hundreds of updates across the platform. Here's what matters most for a brand your size. Checkout: Shop Pay's one-click flow now supports split payments with K",
+    "body_text": "Twice a year we ship hundreds of updates across the platform. Here's what matters most for a brand your size.\n\nCheckout: Shop Pay's one-click flow now supports split payments with Klarna and Afterpay in the same checkout session, and merchants report a 6% lift in conversion on mobile when both are surfaced together.\n\nInventory: The new Bundles app is now native — build kits (like your seasonal gift sets) without a third-party app, with inventory synced automatically across bundle components.\n\nStorefront: Section groups now support metaobject-driven content blocks, which means your merchandising team can swap homepage modules without touching Liquid code — worth a look before your holiday homepage refresh.\n\nMarkets: If you're evaluating international expansion, Shopify Markets Pro now handles duties and import taxes at checkout for 15 additional countries, including the UK and Germany.\n\nB2B: Wholesale storefronts get company-specific catalogs and net payment terms — relevant if you're exploring a trade program for interior designers.\n\nFull changelog and video walkthroughs are on the Editions page. As always, reach out to your merchant success rep with questions about rolling any of this into your Q4 build.",
+    "body_html": "<div style=\"font-family:Arial,Helvetica,sans-serif;font-size:14px;color:#222;max-width:600px;margin:0 auto;line-height:1.5;\"><div style=\"border-top:3px solid #95BF47;padding:16px 0;\"><p style=\"margin:0 0 12px 0;\">Twice a year we ship hundreds of updates across the platform. Here's what matters most for a brand your size.</p><p style=\"margin:0 0 12px 0;\">Checkout: Shop Pay's one-click flow now supports split payments with Klarna and Afterpay in the same checkout session, and merchants report a 6% lift in conversion on mobile when both are surfaced together.</p><p style=\"margin:0 0 12px 0;\">Inventory: The new Bundles app is now native — build kits (like your seasonal gift sets) without a third-party app, with inventory synced automatically across bundle components.</p><p style=\"margin:0 0 12px 0;\">Storefront: Section groups now support metaobject-driven content blocks, which means your merchandising team can swap homepage modules without touching Liquid code — worth a look before your holiday homepage refresh.</p><p style=\"margin:0 0 12px 0;\">Markets: If you're evaluating international expansion, Shopify Markets Pro now handles duties and import taxes at checkout for 15 additional countries, including the UK and Germany.</p><p style=\"margin:0 0 12px 0;\">B2B: Wholesale storefronts get company-specific catalogs and net payment terms — relevant if you're exploring a trade program for interior designers.</p></div><p style=\"font-size:11px;color:#888;margin-top:16px;\">You are receiving this email because you subscribed or interacted with our product. <a href=\"https://example-unsub.com/u/{TOKEN}\" style=\"color:#888;\">Unsubscribe</a></p></div>",
+    "date": "2026-07-13T08:30:00-04:00",
+    "internal_date_ms": 1783945800000,
+    "folder": "INBOX",
+    "category": "CATEGORY_PROMOTIONS",
+    "is_unread": false,
+    "is_starred": false,
+    "is_important": false,
+    "user_labels": [],
+    "attachments": [],
+    "calendar_event": null,
+    "extra_headers": {
+      "List-Unsubscribe": "<mailto:unsubscribe@shopify.com>, <https://shopify.com/u/x3>",
+      "List-Unsubscribe-Post": "List-Unsubscribe=One-Click",
+      "Precedence": "bulk",
+      "Return-Path": "<editions@shopify.com>"
+    },
+    "size_estimate": 4796,
+    "meta": {
+      "email_class": "promotional",
+      "tricky_tags": [],
+      "is_actionable_for_user": false,
+      "action_owner": null,
+      "action_summary": null,
+      "due_date": null,
+      "commitment_made_by_user": null,
+      "commitment_is_conditional": false,
+      "commitment_condition": null,
+      "superseded_by_message_id": null,
+      "notes": null
+    }
+  },
+  {
+    "id": "b30f18c2e4b60005",
+    "thread_id": "b30f18c2e4b60005",
+    "profile_id": "marketing",
+    "history_id": "757140",
+    "message_id_header": "<b30f18c2e4b60005@figma.com>",
+    "in_reply_to": null,
+    "references": [],
+    "thread_position": 1,
+    "thread_length": 1,
+    "from": {
+      "name": "Figma",
+      "email": "updates@figma.com"
+    },
+    "to": [
+      {
+        "name": "Jordan Feld",
+        "email": "jordan.feld@habitatgoods.com"
+      }
+    ],
+    "cc": [],
+    "bcc": [],
+    "delivered_to": "jordan.feld@habitatgoods.com",
+    "subject": "New in Figma: Slides and Dev Mode MCP",
+    "snippet": "Two things shipped this month worth a look. Figma Slides now supports live-embedded prototypes, so your creative reviews can include an interactive click-through instead of static ",
+    "body_text": "Two things shipped this month worth a look.\n\nFigma Slides now supports live-embedded prototypes, so your creative reviews can include an interactive click-through instead of static frames.\n\nDev Mode's new MCP server lets engineering pull design tokens directly into code — handy if your website replatform team wants pixel-accurate handoff without a manual spec doc.\n\nTry both from any file today.",
+    "body_html": "<div style=\"font-family:Arial,Helvetica,sans-serif;font-size:14px;color:#222;max-width:600px;margin:0 auto;line-height:1.5;\"><div style=\"border-top:3px solid #0ACF83;padding:16px 0;\"><p style=\"margin:0 0 12px 0;\">Two things shipped this month worth a look.</p><p style=\"margin:0 0 12px 0;\">Figma Slides now supports live-embedded prototypes, so your creative reviews can include an interactive click-through instead of static frames.</p><p style=\"margin:0 0 12px 0;\">Dev Mode's new MCP server lets engineering pull design tokens directly into code — handy if your website replatform team wants pixel-accurate handoff without a manual spec doc.</p><p style=\"margin:0 0 12px 0;\">Try both from any file today.</p></div><p style=\"font-size:11px;color:#888;margin-top:16px;\">You are receiving this email because you subscribed or interacted with our product. <a href=\"https://example-unsub.com/u/{TOKEN}\" style=\"color:#888;\">Unsubscribe</a></p></div>",
+    "date": "2026-07-30T09:20:00-07:00",
+    "internal_date_ms": 1785428400000,
+    "folder": "INBOX",
+    "category": "CATEGORY_PROMOTIONS",
+    "is_unread": false,
+    "is_starred": false,
+    "is_important": false,
+    "user_labels": [],
+    "attachments": [],
+    "calendar_event": null,
+    "extra_headers": {
+      "List-Unsubscribe": "<mailto:unsubscribe@figma.com>, <https://figma.com/u/x4>",
+      "List-Unsubscribe-Post": "List-Unsubscribe=One-Click",
+      "Precedence": "bulk",
+      "Return-Path": "<updates@figma.com>"
+    },
+    "size_estimate": 3246,
+    "meta": {
+      "email_class": "promotional",
+      "tricky_tags": [],
+      "is_actionable_for_user": false,
+      "action_owner": null,
+      "action_summary": null,
+      "due_date": null,
+      "commitment_made_by_user": null,
+      "commitment_is_conditional": false,
+      "commitment_condition": null,
+      "superseded_by_message_id": null,
+      "notes": null
+    }
+  },
+  {
+    "id": "b30f18c2e4b60006",
+    "thread_id": "b30f18c2e4b60006",
+    "profile_id": "marketing",
+    "history_id": "752455",
+    "message_id_header": "<b30f18c2e4b60006@semrush.com>",
+    "in_reply_to": null,
+    "references": [],
+    "thread_position": 1,
+    "thread_length": 1,
+    "from": {
+      "name": "Semrush",
+      "email": "alerts@semrush.com"
+    },
+    "to": [
+      {
+        "name": "Jordan Feld",
+        "email": "jordan.feld@habitatgoods.com"
+      }
+    ],
+    "cc": [],
+    "bcc": [],
+    "delivered_to": "jordan.feld@habitatgoods.com",
+    "subject": "Your habitatgoods.com Site Health score dropped 4 points",
+    "snippet": "Your latest Site Audit found new issues on habitatgoods.com. Site Health: 84/100 (down from 88) New issues: 12 pages with duplicate title tags, 3 broken internal links in the /coll",
+    "body_text": "Your latest Site Audit found new issues on habitatgoods.com.\n\nSite Health: 84/100 (down from 88)\nNew issues: 12 pages with duplicate title tags, 3 broken internal links in the /collections/fall-preview section, 1 redirect chain on /pages/shipping\n\nNone of these are critical, but duplicate titles on collection pages can dilute keyword targeting ahead of a seasonal push. Full report available in your dashboard.",
+    "body_html": "<div style=\"font-family:Arial,Helvetica,sans-serif;font-size:14px;color:#222;max-width:600px;margin:0 auto;line-height:1.5;\"><div style=\"border-top:3px solid #FF642D;padding:16px 0;\"><p style=\"margin:0 0 12px 0;\">Your latest Site Audit found new issues on habitatgoods.com.</p><p style=\"margin:0 0 12px 0;\">Site Health: 84/100 (down from 88)<br>New issues: 12 pages with duplicate title tags, 3 broken internal links in the /collections/fall-preview section, 1 redirect chain on /pages/shipping</p><p style=\"margin:0 0 12px 0;\">None of these are critical, but duplicate titles on collection pages can dilute keyword targeting ahead of a seasonal push. Full report available in your dashboard.</p></div><p style=\"font-size:11px;color:#888;margin-top:16px;\">You are receiving this email because you subscribed or interacted with our product. <a href=\"https://example-unsub.com/u/{TOKEN}\" style=\"color:#888;\">Unsubscribe</a></p></div>",
+    "date": "2026-07-27T06:15:00-04:00",
+    "internal_date_ms": 1785147300000,
+    "folder": "INBOX",
+    "category": "CATEGORY_UPDATES",
+    "is_unread": false,
+    "is_starred": false,
+    "is_important": false,
+    "user_labels": [],
+    "attachments": [],
+    "calendar_event": null,
+    "extra_headers": {
+      "List-Unsubscribe": "<mailto:unsubscribe@semrush.com>, <https://semrush.com/u/x5>",
+      "List-Unsubscribe-Post": "List-Unsubscribe=One-Click",
+      "Precedence": "bulk",
+      "Return-Path": "<alerts@semrush.com>"
+    },
+    "size_estimate": 3243,
+    "meta": {
+      "email_class": "automated_notification",
+      "tricky_tags": [],
+      "is_actionable_for_user": false,
+      "action_owner": null,
+      "action_summary": null,
+      "due_date": null,
+      "commitment_made_by_user": null,
+      "commitment_is_conditional": false,
+      "commitment_condition": null,
+      "superseded_by_message_id": null,
+      "notes": null
+    }
+  },
+  {
+    "id": "b30f18c2e4b60007",
+    "thread_id": "b30f18c2e4b60007",
+    "profile_id": "marketing",
+    "history_id": "738280",
+    "message_id_header": "<b30f18c2e4b60007@hubspot.com>",
+    "in_reply_to": null,
+    "references": [],
+    "thread_position": 1,
+    "thread_length": 1,
+    "from": {
+      "name": "HubSpot Marketing",
+      "email": "marketing@hubspot.com"
+    },
+    "to": [
+      {
+        "name": "Jordan Feld",
+        "email": "jordan.feld@habitatgoods.com"
+      }
+    ],
+    "cc": [],
+    "bcc": [],
+    "delivered_to": "jordan.feld@habitatgoods.com",
+    "subject": "Free webinar: building a lifecycle program that scales",
+    "snippet": "Join us Thursday, August 6 at 1pm ET for a live session on lifecycle marketing maturity: how DTC teams move from single-flow automation to a fully mapped customer journey. We'll co",
+    "body_text": "Join us Thursday, August 6 at 1pm ET for a live session on lifecycle marketing maturity: how DTC teams move from single-flow automation to a fully mapped customer journey.\n\nWe'll cover segmentation frameworks, when to sunset a flow versus rebuild it, and a case study from a home goods brand that cut unsubscribe rate by 30% after restructuring their post-purchase sequence.\n\nSeats are limited to 500 — save yours.",
+    "body_html": "<div style=\"font-family:Arial,Helvetica,sans-serif;font-size:14px;color:#222;max-width:600px;margin:0 auto;line-height:1.5;\"><div style=\"border-top:3px solid #FF7A59;padding:16px 0;\"><p style=\"margin:0 0 12px 0;\">Join us Thursday, August 6 at 1pm ET for a live session on lifecycle marketing maturity: how DTC teams move from single-flow automation to a fully mapped customer journey.</p><p style=\"margin:0 0 12px 0;\">We'll cover segmentation frameworks, when to sunset a flow versus rebuild it, and a case study from a home goods brand that cut unsubscribe rate by 30% after restructuring their post-purchase sequence.</p><p style=\"margin:0 0 12px 0;\">Seats are limited to 500 — save yours.</p></div><p style=\"font-size:11px;color:#888;margin-top:16px;\">You are receiving this email because you subscribed or interacted with our product. <a href=\"https://example-unsub.com/u/{TOKEN}\" style=\"color:#888;\">Unsubscribe</a></p></div>",
+    "date": "2026-07-17T10:00:00-04:00",
+    "internal_date_ms": 1784296800000,
+    "folder": "INBOX",
+    "category": "CATEGORY_PROMOTIONS",
+    "is_unread": false,
+    "is_starred": false,
+    "is_important": false,
+    "user_labels": [],
+    "attachments": [],
+    "calendar_event": null,
+    "extra_headers": {
+      "List-Unsubscribe": "<mailto:unsubscribe@hubspot.com>, <https://hubspot.com/u/x6>",
+      "List-Unsubscribe-Post": "List-Unsubscribe=One-Click",
+      "Precedence": "bulk",
+      "Return-Path": "<marketing@hubspot.com>"
+    },
+    "size_estimate": 3248,
+    "meta": {
+      "email_class": "promotional",
+      "tricky_tags": [],
+      "is_actionable_for_user": false,
+      "action_owner": null,
+      "action_summary": null,
+      "due_date": null,
+      "commitment_made_by_user": null,
+      "commitment_is_conditional": false,
+      "commitment_condition": null,
+      "superseded_by_message_id": null,
+      "notes": null
+    }
+  },
+  {
+    "id": "b30f18c2e4b60008",
+    "thread_id": "b30f18c2e4b60008",
+    "profile_id": "marketing",
+    "history_id": "705100",
+    "message_id_header": "<b30f18c2e4b60008@hubspot.com>",
+    "in_reply_to": null,
+    "references": [],
+    "thread_position": 1,
+    "thread_length": 1,
+    "from": {
+      "name": "HubSpot Research",
+      "email": "research@hubspot.com"
+    },
+    "to": [
+      {
+        "name": "Jordan Feld",
+        "email": "jordan.feld@habitatgoods.com"
+      }
+    ],
+    "cc": [],
+    "bcc": [],
+    "delivered_to": "jordan.feld@habitatgoods.com",
+    "subject": "The State of Marketing 2026: what 1,400 marketers told us",
+    "snippet": "We surveyed 1,400 marketing leaders across DTC, B2B, and services businesses for our annual State of Marketing report. A few findings worth your time this planning season. Budget a",
+    "body_text": "We surveyed 1,400 marketing leaders across DTC, B2B, and services businesses for our annual State of Marketing report. A few findings worth your time this planning season.\n\nBudget allocation is shifting again. Paid social remains the largest single line item for consumer brands (averaging 34% of paid budget), but the growth is now coming from retail media and creator partnerships rather than traditional programmatic display, which fell for the third straight year. Teams that reallocated more than 15% of budget toward retail media in the last 12 months reported blended CAC improvements averaging 9%, though the range was wide and heavily dependent on category.\n\nAI adoption has moved past the experimentation phase for most respondents. 68% now use generative tools for first-draft copy, and 41% use them for creative testing at scale — but only 22% have a formal review process to catch brand-voice drift, which correlates with a rise in customer complaints about 'off' tone in automated messaging. If your team is leaning on AI drafts for lifecycle or paid social copy, this is worth a look before your Q4 volume ramps.\n\nAttribution remains the top frustration. 54% of respondents rated their current attribution model as 'somewhat' or 'not at all' reliable, and multi-touch models are losing ground to simpler incrementality testing as privacy changes continue to erode platform-reported data. Brands running quarterly holdout tests report significantly higher confidence in reallocating budget mid-quarter than those relying solely on platform attribution.\n\nTeam structure is consolidating. The average headcount-per-function ratio for a 150-250 person DTC company now favors generalist 'growth marketer' roles over narrow channel specialists, a reversal from three years ago. Respondents cited faster iteration and lower coordination overhead as the driver, though several noted a steeper ramp time for new hires without deep channel expertise.\n\nRetention investment is up sharply. 61% of respondents increased lifecycle/retention budget year over year, the largest shift of any category we tracked, as acquisition costs continue to climb across paid channels.\n\nThe full 64-page report, including channel-by-channel benchmarks and a downloadable budget planning template, is available now. We built the benchmarks to be filterable by company size and vertical, so home goods and DTC-specific cuts are available if you download the interactive version rather than the static PDF.\n\nA few smaller findings that didn't make the headline list but are worth a skim if you're building next year's plan: brands running quarterly creative refresh cycles reported meaningfully lower CPMs than brands refreshing twice a year, though the sample size on this cut was smaller than we'd like. Marketing teams that shared a single source-of-truth dashboard with finance reported faster budget reallocation decisions mid-quarter than teams reconciling numbers across separate tools. And headcount growth in marketing organizations broadly lagged revenue growth for the second year running, which respondents attributed partly to AI-assisted productivity gains and partly to simple budget caution given the macro environment.\n\nWe also asked respondents to rank their top three unsolved problems heading into next year. Attribution reliability topped the list, followed closely by creative production velocity — keeping pace with the volume of assets needed across paid social, lifecycle, and organic without ballooning the creative team. Third was cross-functional alignment with finance on how to model marketing's contribution to revenue, an old problem that apparently hasn't gotten any easier despite years of better tooling.\n\nIf you only have ten minutes, skip to the executive summary and the budget allocation chapter — those two sections cover most of what tends to matter for Q4 planning conversations with leadership.",
+    "body_html": "<div style=\"font-family:Arial,Helvetica,sans-serif;font-size:14px;color:#222;max-width:600px;margin:0 auto;line-height:1.5;\"><div style=\"border-top:3px solid #FF7A59;padding:16px 0;\"><p style=\"margin:0 0 12px 0;\">We surveyed 1,400 marketing leaders across DTC, B2B, and services businesses for our annual State of Marketing report. A few findings worth your time this planning season.</p><p style=\"margin:0 0 12px 0;\">Budget allocation is shifting again. Paid social remains the largest single line item for consumer brands (averaging 34% of paid budget), but the growth is now coming from retail media and creator partnerships rather than traditional programmatic display, which fell for the third straight year. Teams that reallocated more than 15% of budget toward retail media in the last 12 months reported blended CAC improvements averaging 9%, though the range was wide and heavily dependent on category.</p><p style=\"margin:0 0 12px 0;\">AI adoption has moved past the experimentation phase for most respondents. 68% now use generative tools for first-draft copy, and 41% use them for creative testing at scale — but only 22% have a formal review process to catch brand-voice drift, which correlates with a rise in customer complaints about 'off' tone in automated messaging. If your team is leaning on AI drafts for lifecycle or paid social copy, this is worth a look before your Q4 volume ramps.</p><p style=\"margin:0 0 12px 0;\">Attribution remains the top frustration. 54% of respondents rated their current attribution model as 'somewhat' or 'not at all' reliable, and multi-touch models are losing ground to simpler incrementality testing as privacy changes continue to erode platform-reported data. Brands running quarterly holdout tests report significantly higher confidence in reallocating budget mid-quarter than those relying solely on platform attribution.</p><p style=\"margin:0 0 12px 0;\">Team structure is consolidating. The average headcount-per-function ratio for a 150-250 person DTC company now favors generalist 'growth marketer' roles over narrow channel specialists, a reversal from three years ago. Respondents cited faster iteration and lower coordination overhead as the driver, though several noted a steeper ramp time for new hires without deep channel expertise.</p><p style=\"margin:0 0 12px 0;\">Retention investment is up sharply. 61% of respondents increased lifecycle/retention budget year over year, the largest shift of any category we tracked, as acquisition costs continue to climb across paid channels.</p></div><p style=\"font-size:11px;color:#888;margin-top:16px;\">You are receiving this email because you subscribed or interacted with our product. <a href=\"https://example-unsub.com/u/{TOKEN}\" style=\"color:#888;\">Unsubscribe</a></p></div>",
+    "date": "2026-06-24T09:00:00-04:00",
+    "internal_date_ms": 1782306000000,
+    "folder": "INBOX",
+    "category": "CATEGORY_PROMOTIONS",
+    "is_unread": false,
+    "is_starred": false,
+    "is_important": false,
+    "user_labels": [
+      "Label_2201"
+    ],
+    "attachments": [],
+    "calendar_event": null,
+    "extra_headers": {
+      "List-Unsubscribe": "<mailto:unsubscribe@hubspot.com>, <https://hubspot.com/u/x7>",
+      "List-Unsubscribe-Post": "List-Unsubscribe=One-Click",
+      "Precedence": "bulk",
+      "Return-Path": "<research@hubspot.com>"
+    },
+    "size_estimate": 8611,
+    "meta": {
+      "email_class": "promotional",
+      "tricky_tags": [],
+      "is_actionable_for_user": false,
+      "action_owner": null,
+      "action_summary": null,
+      "due_date": null,
+      "commitment_made_by_user": null,
+      "commitment_is_conditional": false,
+      "commitment_condition": null,
+      "superseded_by_message_id": null,
+      "notes": null
+    }
+  },
+  {
+    "id": "b30f18c2e4b60009",
+    "thread_id": "b30f18c2e4b60009",
+    "profile_id": "marketing",
+    "history_id": "742970",
+    "message_id_header": "<b30f18c2e4b60009@amplitude.com>",
+    "in_reply_to": null,
+    "references": [],
+    "thread_position": 1,
+    "thread_length": 1,
+    "from": {
+      "name": "Amplitude",
+      "email": "product-news@amplitude.com"
+    },
+    "to": [
+      {
+        "name": "Jordan Feld",
+        "email": "jordan.feld@habitatgoods.com"
+      }
+    ],
+    "cc": [],
+    "bcc": [],
+    "delivered_to": "jordan.feld@habitatgoods.com",
+    "subject": "New: Amplitude Guides & Surveys for lifecycle teams",
+    "snippet": "You can now trigger in-app guides and surveys directly from Amplitude behavioral cohorts — no separate tool, no engineering ticket. For a DTC team, the obvious use case is post-pur",
+    "body_text": "You can now trigger in-app guides and surveys directly from Amplitude behavioral cohorts — no separate tool, no engineering ticket.\n\nFor a DTC team, the obvious use case is post-purchase: build a cohort of customers who completed checkout but haven't opened the confirmation email in 48 hours, then trigger an on-site nudge the next time they land on your homepage. Early testers saw survey response rates 3x higher than email-only prompts, since the ask happens in-context.\n\nIt's included in your current Growth plan at no extra cost. Setup takes about 20 minutes if your event schema is already clean — check the migration guide if you're not sure yours is.",
+    "body_html": "<div style=\"font-family:Arial,Helvetica,sans-serif;font-size:14px;color:#222;max-width:600px;margin:0 auto;line-height:1.5;\"><div style=\"border-top:3px solid #1E1E3F;padding:16px 0;\"><p style=\"margin:0 0 12px 0;\">You can now trigger in-app guides and surveys directly from Amplitude behavioral cohorts — no separate tool, no engineering ticket.</p><p style=\"margin:0 0 12px 0;\">For a DTC team, the obvious use case is post-purchase: build a cohort of customers who completed checkout but haven't opened the confirmation email in 48 hours, then trigger an on-site nudge the next time they land on your homepage. Early testers saw survey response rates 3x higher than email-only prompts, since the ask happens in-context.</p><p style=\"margin:0 0 12px 0;\">It's included in your current Growth plan at no extra cost. Setup takes about 20 minutes if your event schema is already clean — check the migration guide if you're not sure yours is.</p></div><p style=\"font-size:11px;color:#888;margin-top:16px;\">You are receiving this email because you subscribed or interacted with our product. <a href=\"https://example-unsub.com/u/{TOKEN}\" style=\"color:#888;\">Unsubscribe</a></p></div>",
+    "date": "2026-07-20T13:10:00-07:00",
+    "internal_date_ms": 1784578200000,
+    "folder": "INBOX",
+    "category": "CATEGORY_PROMOTIONS",
+    "is_unread": false,
+    "is_starred": false,
+    "is_important": false,
+    "user_labels": [
+      "Label_2203"
+    ],
+    "attachments": [],
+    "calendar_event": null,
+    "extra_headers": {
+      "List-Unsubscribe": "<mailto:unsubscribe@amplitude.com>, <https://amplitude.com/u/x8>",
+      "List-Unsubscribe-Post": "List-Unsubscribe=One-Click",
+      "Precedence": "bulk",
+      "Return-Path": "<product-news@amplitude.com>"
+    },
+    "size_estimate": 3742,
+    "meta": {
+      "email_class": "promotional",
+      "tricky_tags": [],
+      "is_actionable_for_user": false,
+      "action_owner": null,
+      "action_summary": null,
+      "due_date": null,
+      "commitment_made_by_user": null,
+      "commitment_is_conditional": false,
+      "commitment_condition": null,
+      "superseded_by_message_id": null,
+      "notes": null
+    }
+  },
+  {
+    "id": "b30f18c2e4b60010",
+    "thread_id": "b30f18c2e4b60010",
+    "profile_id": "marketing",
+    "history_id": "759920",
+    "message_id_header": "<b30f18c2e4b60010@googleads.google.com>",
+    "in_reply_to": null,
+    "references": [],
+    "thread_position": 1,
+    "thread_length": 1,
+    "from": {
+      "name": "Google Ads",
+      "email": "noreply@googleads.google.com"
+    },
+    "to": [
+      {
+        "name": "Jordan Feld",
+        "email": "jordan.feld@habitatgoods.com"
+      }
+    ],
+    "cc": [],
+    "bcc": [],
+    "delivered_to": "jordan.feld@habitatgoods.com",
+    "subject": "New recommendations for your Performance Max campaign",
+    "snippet": "Your Performance Max campaign 'Habitat Goods - Fall Prospecting' has 3 new recommendations that could improve performance: - Add 2 more headline variations (currently 4 of 15 used)",
+    "body_text": "Your Performance Max campaign 'Habitat Goods - Fall Prospecting' has 3 new recommendations that could improve performance:\n\n- Add 2 more headline variations (currently 4 of 15 used)\n- Expand audience signals with a customer match list\n- Increase target ROAS from 320% to 350% based on recent conversion data\n\nApplying all recommendations could improve your Optimization Score from 78% to 91%. Review in Google Ads.",
+    "body_html": "<div style=\"font-family:Arial,Helvetica,sans-serif;font-size:14px;color:#222;max-width:600px;margin:0 auto;line-height:1.5;\"><div style=\"border-top:3px solid #4285F4;padding:16px 0;\"><p style=\"margin:0 0 12px 0;\">Your Performance Max campaign 'Habitat Goods - Fall Prospecting' has 3 new recommendations that could improve performance:</p><p style=\"margin:0 0 12px 0;\">- Add 2 more headline variations (currently 4 of 15 used)<br>- Expand audience signals with a customer match list<br>- Increase target ROAS from 320% to 350% based on recent conversion data</p><p style=\"margin:0 0 12px 0;\">Applying all recommendations could improve your Optimization Score from 78% to 91%. Review in Google Ads.</p></div><p style=\"font-size:11px;color:#888;margin-top:16px;\">You are receiving this email because you subscribed or interacted with our product. <a href=\"https://example-unsub.com/u/{TOKEN}\" style=\"color:#888;\">Unsubscribe</a></p></div>",
+    "date": "2026-08-01T07:40:00-07:00",
+    "internal_date_ms": 1785595200000,
+    "folder": "INBOX",
+    "category": "CATEGORY_UPDATES",
+    "is_unread": false,
+    "is_starred": false,
+    "is_important": false,
+    "user_labels": [],
+    "attachments": [],
+    "calendar_event": null,
+    "extra_headers": {
+      "Precedence": "bulk",
+      "Return-Path": "<noreply@googleads.google.com>"
+    },
+    "size_estimate": 3250,
+    "meta": {
+      "email_class": "automated_notification",
+      "tricky_tags": [],
+      "is_actionable_for_user": false,
+      "action_owner": null,
+      "action_summary": null,
+      "due_date": null,
+      "commitment_made_by_user": null,
+      "commitment_is_conditional": false,
+      "commitment_condition": null,
+      "superseded_by_message_id": null,
+      "notes": null
+    }
+  },
+  {
+    "id": "b30f18c2e4b60011",
+    "thread_id": "b30f18c2e4b60011",
+    "profile_id": "marketing",
+    "history_id": "748600",
+    "message_id_header": "<b30f18c2e4b60011@tiktok.com>",
+    "in_reply_to": null,
+    "references": [],
+    "thread_position": 1,
+    "thread_length": 1,
+    "from": {
+      "name": "TikTok for Business",
+      "email": "business@tiktok.com"
+    },
+    "to": [
+      {
+        "name": "Jordan Feld",
+        "email": "jordan.feld@habitatgoods.com"
+      }
+    ],
+    "cc": [],
+    "bcc": [],
+    "delivered_to": "jordan.feld@habitatgoods.com",
+    "subject": "Your TikTok Shop holiday readiness checklist",
+    "snippet": "Q4 shopping on TikTok starts earlier every year — here's what top-performing shops are doing in July to prepare. Catalog: Make sure your full fall/winter catalog is synced at least",
+    "body_text": "Q4 shopping on TikTok starts earlier every year — here's what top-performing shops are doing in July to prepare.\n\nCatalog: Make sure your full fall/winter catalog is synced at least 60 days before your first big push. Shops that sync early see 2x more organic discovery once Shop tab traffic ramps in October.\n\nCreators: Lock in your Q4 creator roster now — booked slots fill up fast once Black Friday briefs go out across the platform. Consider a mix of always-on affiliates and a few dedicated campaign creators.\n\nLIVE: Shops running at least 2 LIVE sessions per week in the 6 weeks before Black Friday saw 40% higher LIVE GMV during the holiday window itself than shops that started LIVE cold in November.\n\nAds: Consider testing Video Shopping Ads now against a smaller budget so you have learnings before scaling spend in your biggest month.\n\nFull checklist and a downloadable planning template are linked below.",
+    "body_html": "<div style=\"font-family:Arial,Helvetica,sans-serif;font-size:14px;color:#222;max-width:600px;margin:0 auto;line-height:1.5;\"><div style=\"border-top:3px solid #000000;padding:16px 0;\"><p style=\"margin:0 0 12px 0;\">Q4 shopping on TikTok starts earlier every year — here's what top-performing shops are doing in July to prepare.</p><p style=\"margin:0 0 12px 0;\">Catalog: Make sure your full fall/winter catalog is synced at least 60 days before your first big push. Shops that sync early see 2x more organic discovery once Shop tab traffic ramps in October.</p><p style=\"margin:0 0 12px 0;\">Creators: Lock in your Q4 creator roster now — booked slots fill up fast once Black Friday briefs go out across the platform. Consider a mix of always-on affiliates and a few dedicated campaign creators.</p><p style=\"margin:0 0 12px 0;\">LIVE: Shops running at least 2 LIVE sessions per week in the 6 weeks before Black Friday saw 40% higher LIVE GMV during the holiday window itself than shops that started LIVE cold in November.</p><p style=\"margin:0 0 12px 0;\">Ads: Consider testing Video Shopping Ads now against a smaller budget so you have learnings before scaling spend in your biggest month.</p><p style=\"margin:0 0 12px 0;\">Full checklist and a downloadable planning template are linked below.</p></div><p style=\"font-size:11px;color:#888;margin-top:16px;\">You are receiving this email because you subscribed or interacted with our product. <a href=\"https://example-unsub.com/u/{TOKEN}\" style=\"color:#888;\">Unsubscribe</a></p></div>",
+    "date": "2026-07-24T11:00:00-07:00",
+    "internal_date_ms": 1784916000000,
+    "folder": "INBOX",
+    "category": "CATEGORY_PROMOTIONS",
+    "is_unread": false,
+    "is_starred": false,
+    "is_important": false,
+    "user_labels": [
+      "Label_2201"
+    ],
+    "attachments": [],
+    "calendar_event": null,
+    "extra_headers": {
+      "List-Unsubscribe": "<mailto:unsubscribe@tiktok.com>, <https://tiktok.com/u/x9>",
+      "List-Unsubscribe-Post": "List-Unsubscribe=One-Click",
+      "Precedence": "bulk",
+      "Return-Path": "<business@tiktok.com>"
+    },
+    "size_estimate": 4352,
+    "meta": {
+      "email_class": "promotional",
+      "tricky_tags": [],
+      "is_actionable_for_user": false,
+      "action_owner": null,
+      "action_summary": null,
+      "due_date": null,
+      "commitment_made_by_user": null,
+      "commitment_is_conditional": false,
+      "commitment_condition": null,
+      "superseded_by_message_id": null,
+      "notes": null
+    }
+  },
+  {
+    "id": "b30f18c2e4b60012",
+    "thread_id": "b30f18c2e4b60012",
+    "profile_id": "marketing",
+    "history_id": "741662",
+    "message_id_header": "<b30f18c2e4b60012@tiktok.com>",
+    "in_reply_to": null,
+    "references": [],
+    "thread_position": 1,
+    "thread_length": 1,
+    "from": {
+      "name": "TikTok Ads Manager",
+      "email": "no-reply@tiktok.com"
+    },
+    "to": [
+      {
+        "name": "Jordan Feld",
+        "email": "jordan.feld@habitatgoods.com"
+      }
+    ],
+    "cc": [],
+    "bcc": [],
+    "delivered_to": "jordan.feld@habitatgoods.com",
+    "subject": "Ad account spend threshold reached",
+    "snippet": "Your ad account (Habitat Goods, account ID ending 8821) has reached its billing threshold and will be charged automatically. Current balance: $2,340.18. No action is needed unless ",
+    "body_text": "Your ad account (Habitat Goods, account ID ending 8821) has reached its billing threshold and will be charged automatically. Current balance: $2,340.18. No action is needed unless you want to adjust your billing threshold in account settings.",
+    "body_html": null,
+    "date": "2026-07-19T15:22:00-07:00",
+    "internal_date_ms": 1784499720000,
+    "folder": "INBOX",
+    "category": "CATEGORY_UPDATES",
+    "is_unread": false,
+    "is_starred": false,
+    "is_important": false,
+    "user_labels": [],
+    "attachments": [],
+    "calendar_event": null,
+    "extra_headers": {
+      "Precedence": "bulk",
+      "Return-Path": "<no-reply@tiktok.com>"
+    },
+    "size_estimate": 2142,
+    "meta": {
+      "email_class": "automated_notification",
+      "tricky_tags": [],
+      "is_actionable_for_user": false,
+      "action_owner": null,
+      "action_summary": null,
+      "due_date": null,
+      "commitment_made_by_user": null,
+      "commitment_is_conditional": false,
+      "commitment_condition": null,
+      "superseded_by_message_id": null,
+      "notes": null
+    }
+  },
+  {
+    "id": "b30f18c2e4b60013",
+    "thread_id": "b30f18c2e4b60013",
+    "profile_id": "marketing",
+    "history_id": "733160",
+    "message_id_header": "<b30f18c2e4b60013@canva.com>",
+    "in_reply_to": null,
+    "references": [],
+    "thread_position": 1,
+    "thread_length": 1,
+    "from": {
+      "name": "Canva",
+      "email": "hello@canva.com"
+    },
+    "to": [
+      {
+        "name": "Jordan Feld",
+        "email": "jordan.feld@habitatgoods.com"
+      }
+    ],
+    "cc": [],
+    "bcc": [],
+    "delivered_to": "jordan.feld@habitatgoods.com",
+    "subject": "Canva for Teams: new Brand Kit controls",
+    "snippet": "Lock fonts and colors at the team level so every designer stays on-brand automatically — even in templates they didn't create. Brand Kit now supports up to 5 logo variants and auto",
+    "body_text": "Lock fonts and colors at the team level so every designer stays on-brand automatically — even in templates they didn't create. Brand Kit now supports up to 5 logo variants and auto-applies your palette to new designs by default.\n\nRoll it out from Brand Hub in a few clicks.",
+    "body_html": "<div style=\"font-family:Arial,Helvetica,sans-serif;font-size:14px;color:#222;max-width:600px;margin:0 auto;line-height:1.5;\"><div style=\"border-top:3px solid #8B3DFF;padding:16px 0;\"><p style=\"margin:0 0 12px 0;\">Lock fonts and colors at the team level so every designer stays on-brand automatically — even in templates they didn't create. Brand Kit now supports up to 5 logo variants and auto-applies your palette to new designs by default.</p><p style=\"margin:0 0 12px 0;\">Roll it out from Brand Hub in a few clicks.</p></div><p style=\"font-size:11px;color:#888;margin-top:16px;\">You are receiving this email because you subscribed or interacted with our product. <a href=\"https://example-unsub.com/u/{TOKEN}\" style=\"color:#888;\">Unsubscribe</a></p></div>",
+    "date": "2026-07-14T10:40:00+10:00",
+    "internal_date_ms": 1783989600000,
+    "folder": "INBOX",
+    "category": "CATEGORY_PROMOTIONS",
+    "is_unread": false,
+    "is_starred": false,
+    "is_important": false,
+    "user_labels": [],
+    "attachments": [],
+    "calendar_event": null,
+    "extra_headers": {
+      "List-Unsubscribe": "<mailto:unsubscribe@canva.com>, <https://canva.com/u/x10>",
+      "List-Unsubscribe-Post": "List-Unsubscribe=One-Click",
+      "Precedence": "bulk",
+      "Return-Path": "<hello@canva.com>"
+    },
+    "size_estimate": 2934,
+    "meta": {
+      "email_class": "promotional",
+      "tricky_tags": [],
+      "is_actionable_for_user": false,
+      "action_owner": null,
+      "action_summary": null,
+      "due_date": null,
+      "commitment_made_by_user": null,
+      "commitment_is_conditional": false,
+      "commitment_condition": null,
+      "superseded_by_message_id": null,
+      "notes": null
+    }
+  },
+  {
+    "id": "b30f18c2e4b60014",
+    "thread_id": "b30f18c2e4b60014",
+    "profile_id": "marketing",
+    "history_id": "766185",
+    "message_id_header": "<b30f18c2e4b60014@canva.com>",
+    "in_reply_to": null,
+    "references": [],
+    "thread_position": 1,
+    "thread_length": 1,
+    "from": {
+      "name": "Canva",
+      "email": "notifications@canva.com"
+    },
+    "to": [
+      {
+        "name": "Jordan Feld",
+        "email": "jordan.feld@habitatgoods.com"
+      }
+    ],
+    "cc": [],
+    "bcc": [],
+    "delivered_to": "jordan.feld@habitatgoods.com",
+    "subject": "Your team's Canva storage is almost full",
+    "snippet": "Habitat Goods' Canva workspace is at 92% of your 1TB storage limit. Once you hit 100%, new uploads will be blocked until you free up space or upgrade. You can clear old exports fro",
+    "body_text": "Habitat Goods' Canva workspace is at 92% of your 1TB storage limit. Once you hit 100%, new uploads will be blocked until you free up space or upgrade. You can clear old exports from Trash or upgrade your plan from Workspace Settings.",
+    "body_html": null,
+    "date": "2026-08-06T09:05:00+10:00",
+    "internal_date_ms": 1785971100000,
+    "folder": "INBOX",
+    "category": "CATEGORY_UPDATES",
+    "is_unread": true,
+    "is_starred": false,
+    "is_important": false,
+    "user_labels": [],
+    "attachments": [],
+    "calendar_event": null,
+    "extra_headers": {
+      "Precedence": "bulk",
+      "Return-Path": "<notifications@canva.com>"
+    },
+    "size_estimate": 2133,
+    "meta": {
+      "email_class": "automated_notification",
+      "tricky_tags": [],
+      "is_actionable_for_user": false,
+      "action_owner": null,
+      "action_summary": null,
+      "due_date": null,
+      "commitment_made_by_user": null,
+      "commitment_is_conditional": false,
+      "commitment_condition": null,
+      "superseded_by_message_id": null,
+      "notes": null
+    }
+  },
+  {
+    "id": "b30f18c2e4b60015",
+    "thread_id": "b30f18c2e4b60015",
+    "profile_id": "marketing",
+    "history_id": "754180",
+    "message_id_header": "<b30f18c2e4b60015@later.com>",
+    "in_reply_to": null,
+    "references": [],
+    "thread_position": 1,
+    "thread_length": 1,
+    "from": {
+      "name": "Later",
+      "email": "hello@later.com"
+    },
+    "to": [
+      {
+        "name": "Jordan Feld",
+        "email": "jordan.feld@habitatgoods.com"
+      }
+    ],
+    "cc": [],
+    "bcc": [],
+    "delivered_to": "jordan.feld@habitatgoods.com",
+    "subject": "Your Instagram best time to post just changed",
+    "snippet": "Based on your last 30 days, your audience is now most active Tuesdays at 7:45pm. Update your schedule to match.",
+    "body_text": "Based on your last 30 days, your audience is now most active Tuesdays at 7:45pm. Update your schedule to match.",
+    "body_html": "<div style=\"font-family:Arial,Helvetica,sans-serif;font-size:14px;color:#222;max-width:600px;margin:0 auto;line-height:1.5;\"><div style=\"border-top:3px solid #3D9BE9;padding:16px 0;\"><p style=\"margin:0 0 12px 0;\">Based on your last 30 days, your audience is now most active Tuesdays at 7:45pm. Update your schedule to match.</p></div><p style=\"font-size:11px;color:#888;margin-top:16px;\">You are receiving this email because you subscribed or interacted with our product. <a href=\"https://example-unsub.com/u/{TOKEN}\" style=\"color:#888;\">Unsubscribe</a></p></div>",
+    "date": "2026-07-28T08:00:00-07:00",
+    "internal_date_ms": 1785250800000,
+    "folder": "INBOX",
+    "category": "CATEGORY_PROMOTIONS",
+    "is_unread": false,
+    "is_starred": false,
+    "is_important": false,
+    "user_labels": [],
+    "attachments": [],
+    "calendar_event": null,
+    "extra_headers": {
+      "List-Unsubscribe": "<mailto:unsubscribe@later.com>, <https://later.com/u/x11>",
+      "List-Unsubscribe-Post": "List-Unsubscribe=One-Click",
+      "Precedence": "bulk",
+      "Return-Path": "<hello@later.com>"
+    },
+    "size_estimate": 2574,
+    "meta": {
+      "email_class": "promotional",
+      "tricky_tags": [],
+      "is_actionable_for_user": false,
+      "action_owner": null,
+      "action_summary": null,
+      "due_date": null,
+      "commitment_made_by_user": null,
+      "commitment_is_conditional": false,
+      "commitment_condition": null,
+      "superseded_by_message_id": null,
+      "notes": null
+    }
+  },
+  {
+    "id": "b30f18c2e4b60016",
+    "thread_id": "b30f18c2e4b60016",
+    "profile_id": "marketing",
+    "history_id": "761380",
+    "message_id_header": "<b30f18c2e4b60016@later.com>",
+    "in_reply_to": null,
+    "references": [],
+    "thread_position": 1,
+    "thread_length": 1,
+    "from": {
+      "name": "Later",
+      "email": "analytics@later.com"
+    },
+    "to": [
+      {
+        "name": "Jordan Feld",
+        "email": "jordan.feld@habitatgoods.com"
+      }
+    ],
+    "cc": [],
+    "bcc": [],
+    "delivered_to": "jordan.feld@habitatgoods.com",
+    "subject": "Your July analytics recap is ready",
+    "snippet": "Habitat Goods' July recap: 42 posts published, 1.2M impressions (+8% MoM), engagement rate 3.1%. Your top post was the walnut console table reel with 61K plays. Full breakdown in y",
+    "body_text": "Habitat Goods' July recap: 42 posts published, 1.2M impressions (+8% MoM), engagement rate 3.1%. Your top post was the walnut console table reel with 61K plays. Full breakdown in your dashboard.",
+    "body_html": "<div style=\"font-family:Arial,Helvetica,sans-serif;font-size:14px;color:#222;max-width:600px;margin:0 auto;line-height:1.5;\"><div style=\"border-top:3px solid #3D9BE9;padding:16px 0;\"><p style=\"margin:0 0 12px 0;\">Habitat Goods' July recap: 42 posts published, 1.2M impressions (+8% MoM), engagement rate 3.1%. Your top post was the walnut console table reel with 61K plays. Full breakdown in your dashboard.</p></div><p style=\"font-size:11px;color:#888;margin-top:16px;\">You are receiving this email because you subscribed or interacted with our product. <a href=\"https://example-unsub.com/u/{TOKEN}\" style=\"color:#888;\">Unsubscribe</a></p></div>",
+    "date": "2026-08-02T08:00:00-07:00",
+    "internal_date_ms": 1785682800000,
+    "folder": "INBOX",
+    "category": "CATEGORY_UPDATES",
+    "is_unread": false,
+    "is_starred": false,
+    "is_important": false,
+    "user_labels": [],
+    "attachments": [],
+    "calendar_event": null,
+    "extra_headers": {
+      "Precedence": "bulk",
+      "Return-Path": "<analytics@later.com>"
+    },
+    "size_estimate": 2740,
+    "meta": {
+      "email_class": "automated_notification",
+      "tricky_tags": [],
+      "is_actionable_for_user": false,
+      "action_owner": null,
+      "action_summary": null,
+      "due_date": null,
+      "commitment_made_by_user": null,
+      "commitment_is_conditional": false,
+      "commitment_condition": null,
+      "superseded_by_message_id": null,
+      "notes": null
+    }
+  },
+  {
+    "id": "b30f18c2e4b60017",
+    "thread_id": "b30f18c2e4b60017",
+    "profile_id": "marketing",
+    "history_id": "696460",
+    "message_id_header": "<b30f18c2e4b60017@mailchimp.com>",
+    "in_reply_to": null,
+    "references": [],
+    "thread_position": 1,
+    "thread_length": 1,
+    "from": {
+      "name": "Mailchimp",
+      "email": "winback@mailchimp.com"
+    },
+    "to": [
+      {
+        "name": "Jordan Feld",
+        "email": "jordan.feld@habitatgoods.com"
+      }
+    ],
+    "cc": [],
+    "bcc": [],
+    "delivered_to": "jordan.feld@habitatgoods.com",
+    "subject": "We miss you! Come back to Mailchimp",
+    "snippet": "It's been a while. Reactivate your account and get 3 months at 40% off — just click below.",
+    "body_text": "It's been a while. Reactivate your account and get 3 months at 40% off — just click below.",
+    "body_html": "<div style=\"font-family:Arial,Helvetica,sans-serif;font-size:14px;color:#222;max-width:600px;margin:0 auto;line-height:1.5;\"><div style=\"border-top:3px solid #FFE01B;padding:16px 0;\"><p style=\"margin:0 0 12px 0;\">It's been a while. Reactivate your account and get 3 months at 40% off — just click below.</p></div><p style=\"font-size:11px;color:#888;margin-top:16px;\">You are receiving this email because you subscribed or interacted with our product. <a href=\"https://example-unsub.com/u/{TOKEN}\" style=\"color:#888;\">Unsubscribe</a></p></div>",
+    "date": "2026-06-18T09:00:00-04:00",
+    "internal_date_ms": 1781787600000,
+    "folder": "INBOX",
+    "category": "CATEGORY_PROMOTIONS",
+    "is_unread": false,
+    "is_starred": false,
+    "is_important": false,
+    "user_labels": [],
+    "attachments": [],
+    "calendar_event": null,
+    "extra_headers": {
+      "List-Unsubscribe": "<mailto:unsubscribe@mailchimp.com>, <https://mailchimp.com/u/x12>",
+      "List-Unsubscribe-Post": "List-Unsubscribe=One-Click",
+      "Precedence": "bulk",
+      "Return-Path": "<winback@mailchimp.com>"
+    },
+    "size_estimate": 2536,
+    "meta": {
+      "email_class": "promotional",
+      "tricky_tags": [],
+      "is_actionable_for_user": false,
+      "action_owner": null,
+      "action_summary": null,
+      "due_date": null,
+      "commitment_made_by_user": null,
+      "commitment_is_conditional": false,
+      "commitment_condition": null,
+      "superseded_by_message_id": null,
+      "notes": null
+    }
+  },
+  {
+    "id": "b30f18c2e4b60018",
+    "thread_id": "b30f18c2e4b60018",
+    "profile_id": "marketing",
+    "history_id": "699340",
+    "message_id_header": "<b30f18c2e4b60018@mailchimp.com>",
+    "in_reply_to": null,
+    "references": [],
+    "thread_position": 1,
+    "thread_length": 1,
+    "from": {
+      "name": "Mailchimp",
+      "email": "no-reply@mailchimp.com"
+    },
+    "to": [
+      {
+        "name": "Jordan Feld",
+        "email": "jordan.feld@habitatgoods.com"
+      }
+    ],
+    "cc": [],
+    "bcc": [],
+    "delivered_to": "jordan.feld@habitatgoods.com",
+    "subject": "Your monthly account summary from Mailchimp",
+    "snippet": "Your legacy Mailchimp account (inactive, 3,200 contacts) had no campaigns sent this month. If you no longer need this account, you can export your contacts before it's archived aft",
+    "body_text": "Your legacy Mailchimp account (inactive, 3,200 contacts) had no campaigns sent this month. If you no longer need this account, you can export your contacts before it's archived after 12 months of inactivity.",
+    "body_html": null,
+    "date": "2026-06-20T09:00:00-04:00",
+    "internal_date_ms": 1781960400000,
+    "folder": "INBOX",
+    "category": "CATEGORY_UPDATES",
+    "is_unread": false,
+    "is_starred": false,
+    "is_important": false,
+    "user_labels": [],
+    "attachments": [],
+    "calendar_event": null,
+    "extra_headers": {
+      "Precedence": "bulk",
+      "Return-Path": "<no-reply@mailchimp.com>"
+    },
+    "size_estimate": 2107,
+    "meta": {
+      "email_class": "automated_notification",
+      "tricky_tags": [],
+      "is_actionable_for_user": false,
+      "action_owner": null,
+      "action_summary": null,
+      "due_date": null,
+      "commitment_made_by_user": null,
+      "commitment_is_conditional": false,
+      "commitment_condition": null,
+      "superseded_by_message_id": null,
+      "notes": null
+    }
+  },
+  {
+    "id": "b30f18c2e4b60019",
+    "thread_id": "b30f18c2e4b60019",
+    "profile_id": "marketing",
+    "history_id": "733780",
+    "message_id_header": "<b30f18c2e4b60019@adweek.com>",
+    "in_reply_to": null,
+    "references": [],
+    "thread_position": 1,
+    "thread_length": 1,
+    "from": {
+      "name": "Adweek",
+      "email": "newsletter@adweek.com"
+    },
+    "to": [
+      {
+        "name": "Jordan Feld",
+        "email": "jordan.feld@habitatgoods.com"
+      }
+    ],
+    "cc": [],
+    "bcc": [],
+    "delivered_to": "jordan.feld@habitatgoods.com",
+    "subject": "Adweek Daily: retail media's next fight, agency layoffs, and a very online rebrand",
+    "snippet": "Good morning. Here's what the industry is talking about today. RETAIL MEDIA'S NEXT FIGHT: Three of the largest retail media networks are quietly renegotiating minimum spend commitm",
+    "body_text": "Good morning. Here's what the industry is talking about today.\n\nRETAIL MEDIA'S NEXT FIGHT: Three of the largest retail media networks are quietly renegotiating minimum spend commitments with mid-market brands, according to five media buyers we spoke with. The networks say it's about data quality tiers; buyers say it's a floor increase in disguise. Either way, if you're under $500K annual spend on any single network, expect a call from your rep this quarter.\n\nAGENCY LAYOFFS: A mid-size independent shop in Chicago cut 8% of staff this week, mostly in paid media, citing client consolidation onto in-house teams. It's the third such cut we've tracked this month among agencies serving consumer brands under $50M revenue — a segment that's increasingly bringing performance marketing in-house while keeping creative and brand work with outside partners.\n\nA VERY ONLINE REBRAND: A DTC mattress brand's overnight logo change sparked over 40,000 posts calling it a downgrade. The brand hasn't responded publicly, but internal sources say the switch was tied to a packaging cost reduction, not purely aesthetic choice — a reminder that 'why' rarely survives contact with the internet.\n\nNUMBER OF THE DAY: 61%. The share of marketers in a new industry survey who say they increased lifecycle/retention budget this year, even as overall marketing budgets held flat or shrank. Acquisition costs are the stated driver across nearly every category we cover.\n\nWORTH YOUR TIME: A long read on how three home goods brands are handling the shift away from third-party cookies in their paid social measurement — worth a skim if your Q4 attribution model still leans on platform-reported ROAS.\n\nJOB MOVES: A former VP Marketing at a national furniture retailer has joined a Series B kitchenware startup as CMO. A well-known agency creative director is leaving to launch an independent studio.\n\nPLATFORM WATCH: One major social platform quietly rolled back a controversial change to how it weights recency versus engagement in its main feed algorithm after publishers reported a sharp drop in referral traffic over the last two weeks — the kind of change that rarely gets an official announcement but shows up immediately in analytics dashboards. If your organic reach dipped unexpectedly in late June, this may be why, and it may also explain why it's since partially recovered.\n\nCREATOR ECONOMY: A new report on creator partnership rates shows a widening gap between micro-influencers (10K-100K followers) and mid-tier creators (100K-500K), with brands increasingly favoring the former for cost efficiency despite lower individual reach — the logic being that a coordinated slate of ten micro-creators now often outperforms a single mid-tier partnership on both cost-per-engagement and perceived authenticity, according to the brands surveyed.\n\nAGENCY WATCH, CONTINUED: Several holding companies are reportedly in early talks about further consolidation among their performance marketing units, following a similar deal announced last quarter. Independent shops we spoke with are split on whether this creates opportunity (clients fleeing bureaucracy) or existential risk (pricing pressure from bigger competitors).\n\nThat's it for today — see you tomorrow.",
+    "body_html": "<div style=\"font-family:Arial,Helvetica,sans-serif;font-size:14px;color:#222;max-width:600px;margin:0 auto;line-height:1.5;\"><div style=\"border-top:3px solid #000000;padding:16px 0;\"><p style=\"margin:0 0 12px 0;\">Good morning. Here's what the industry is talking about today.</p><p style=\"margin:0 0 12px 0;\">RETAIL MEDIA'S NEXT FIGHT: Three of the largest retail media networks are quietly renegotiating minimum spend commitments with mid-market brands, according to five media buyers we spoke with. The networks say it's about data quality tiers; buyers say it's a floor increase in disguise. Either way, if you're under $500K annual spend on any single network, expect a call from your rep this quarter.</p><p style=\"margin:0 0 12px 0;\">AGENCY LAYOFFS: A mid-size independent shop in Chicago cut 8% of staff this week, mostly in paid media, citing client consolidation onto in-house teams. It's the third such cut we've tracked this month among agencies serving consumer brands under $50M revenue — a segment that's increasingly bringing performance marketing in-house while keeping creative and brand work with outside partners.</p><p style=\"margin:0 0 12px 0;\">A VERY ONLINE REBRAND: A DTC mattress brand's overnight logo change sparked over 40,000 posts calling it a downgrade. The brand hasn't responded publicly, but internal sources say the switch was tied to a packaging cost reduction, not purely aesthetic choice — a reminder that 'why' rarely survives contact with the internet.</p><p style=\"margin:0 0 12px 0;\">NUMBER OF THE DAY: 61%. The share of marketers in a new industry survey who say they increased lifecycle/retention budget this year, even as overall marketing budgets held flat or shrank. Acquisition costs are the stated driver across nearly every category we cover.</p><p style=\"margin:0 0 12px 0;\">WORTH YOUR TIME: A long read on how three home goods brands are handling the shift away from third-party cookies in their paid social measurement — worth a skim if your Q4 attribution model still leans on platform-reported ROAS.</p></div><p style=\"font-size:11px;color:#888;margin-top:16px;\">You are receiving this email because you subscribed or interacted with our product. <a href=\"https://example-unsub.com/u/{TOKEN}\" style=\"color:#888;\">Unsubscribe</a></p></div>",
+    "date": "2026-07-14T07:00:00-04:00",
+    "internal_date_ms": 1784026800000,
+    "folder": "INBOX",
+    "category": "CATEGORY_PROMOTIONS",
+    "is_unread": false,
+    "is_starred": false,
+    "is_important": false,
+    "user_labels": [],
+    "attachments": [],
+    "calendar_event": null,
+    "extra_headers": {
+      "List-Unsubscribe": "<mailto:unsubscribe@adweek.com>, <https://adweek.com/unsubscribe/b30f18c2e4b60019>",
+      "List-Unsubscribe-Post": "List-Unsubscribe=One-Click",
+      "List-ID": "Adweek Daily <daily.adweek.com>",
+      "Precedence": "bulk",
+      "Feedback-ID": "b30f18c2:adweek.com:newsletter:flag",
+      "Return-Path": "<newsletter@adweek.com>"
+    },
+    "size_estimate": 7454,
+    "meta": {
+      "email_class": "newsletter",
+      "tricky_tags": [],
+      "is_actionable_for_user": false,
+      "action_owner": null,
+      "action_summary": null,
+      "due_date": null,
+      "commitment_made_by_user": null,
+      "commitment_is_conditional": false,
+      "commitment_condition": null,
+      "superseded_by_message_id": null,
+      "notes": null
+    }
+  },
+  {
+    "id": "b30f18c2e4b60020",
+    "thread_id": "b30f18c2e4b60020",
+    "profile_id": "marketing",
+    "history_id": "743830",
+    "message_id_header": "<b30f18c2e4b60020@marketingbrew.com>",
+    "in_reply_to": null,
+    "references": [],
+    "thread_position": 1,
+    "thread_length": 1,
+    "from": {
+      "name": "Marketing Brew",
+      "email": "crew@marketingbrew.com"
+    },
+    "to": [
+      {
+        "name": "Jordan Feld",
+        "email": "jordan.feld@habitatgoods.com"
+      }
+    ],
+    "cc": [],
+    "bcc": [],
+    "delivered_to": "jordan.feld@habitatgoods.com",
+    "subject": "Marketing Brew: the loyalty program arms race",
+    "snippet": "Together with a sponsor you'll skim past — let's get into it. THE BIG STORY: Loyalty programs are having a moment again, and not the punch-card kind. Paid loyalty tiers — think $99",
+    "body_text": "Together with a sponsor you'll skim past — let's get into it.\n\nTHE BIG STORY: Loyalty programs are having a moment again, and not the punch-card kind. Paid loyalty tiers — think $99/year for free shipping, early access, and members-only drops — are spreading well beyond the retailers that made them famous. We talked to marketing leads at six DTC brands who've launched or are building a paid tier this year. The pitch to leadership is consistent: paid members spend 2-4x more annually than free members and churn less, but the upfront lift is real — most brands underestimate the customer service load a paid tier creates once members expect white-glove treatment.\n\nOne home goods operator (unnamed, mid-eight-figure revenue) told us their biggest surprise wasn't the tech build, it was pricing psychology: testing showed $79/year converted better than both $49 and $99, landing in a sweet spot that felt 'serious but not scary.'\n\nWHY IT MATTERS: With acquisition costs still climbing across paid social, loyalty is one of the few levers marketing teams fully control without fighting a platform algorithm. But several brand leaders warned against copying the model wholesale — a paid tier only works if there's a genuinely differentiated benefit behind it, not just a 10% discount with a subscription fee attached.\n\nALSO IN THE INBOX:\n- A major social platform is testing a new ad format that blends shoppable video with live chat — early advertiser feedback is mixed on measurement.\n- Email deliverability rules are tightening again; if your bounce rate crept up after the last major inbox provider update, you're not alone.\n- A roundup of the best-performing UGC ad formats this quarter, by category.\n\nSTAT OF THE DAY: 34% — the average share of paid budget consumer brands now allocate to paid social, per new survey data, with retail media eating into what used to be display and programmatic spend.\n\nREADER MAILBAG: Last week we asked how brands are handling the shift to first-party data collection. A lifecycle lead at a home goods company (name withheld) wrote in to say their quiz-based email capture flow — a short 'find your style' quiz that gates a discount code behind three questions — now outperforms their old static popup by 3x on conversion, with the added benefit of usable zero-party data for segmentation. A few other readers pushed back, arguing quizzes add friction that isn't worth it below a certain traffic threshold. We'll keep tracking the debate.\n\nONE MORE STAT: Brands that segment their loyalty communications by tenure (new member vs. year-two-plus) reported 22% higher engagement on those emails than brands sending the same content to all loyalty members regardless of how long they've been enrolled — a reminder that 'loyalty' isn't a single audience.\n\nOne more thing: we're hiring a retail reporter — know someone good? Reply and tell us.",
+    "body_html": "<div style=\"font-family:Arial,Helvetica,sans-serif;font-size:14px;color:#222;max-width:600px;margin:0 auto;line-height:1.5;\"><div style=\"border-top:3px solid #FFD23F;padding:16px 0;\"><p style=\"margin:0 0 12px 0;\">Together with a sponsor you'll skim past — let's get into it.</p><p style=\"margin:0 0 12px 0;\">THE BIG STORY: Loyalty programs are having a moment again, and not the punch-card kind. Paid loyalty tiers — think $99/year for free shipping, early access, and members-only drops — are spreading well beyond the retailers that made them famous. We talked to marketing leads at six DTC brands who've launched or are building a paid tier this year. The pitch to leadership is consistent: paid members spend 2-4x more annually than free members and churn less, but the upfront lift is real — most brands underestimate the customer service load a paid tier creates once members expect white-glove treatment.</p><p style=\"margin:0 0 12px 0;\">One home goods operator (unnamed, mid-eight-figure revenue) told us their biggest surprise wasn't the tech build, it was pricing psychology: testing showed $79/year converted better than both $49 and $99, landing in a sweet spot that felt 'serious but not scary.'</p><p style=\"margin:0 0 12px 0;\">WHY IT MATTERS: With acquisition costs still climbing across paid social, loyalty is one of the few levers marketing teams fully control without fighting a platform algorithm. But several brand leaders warned against copying the model wholesale — a paid tier only works if there's a genuinely differentiated benefit behind it, not just a 10% discount with a subscription fee attached.</p><p style=\"margin:0 0 12px 0;\">ALSO IN THE INBOX:<br>- A major social platform is testing a new ad format that blends shoppable video with live chat — early advertiser feedback is mixed on measurement.<br>- Email deliverability rules are tightening again; if your bounce rate crept up after the last major inbox provider update, you're not alone.<br>- A roundup of the best-performing UGC ad formats this quarter, by category.</p><p style=\"margin:0 0 12px 0;\">STAT OF THE DAY: 34% — the average share of paid budget consumer brands now allocate to paid social, per new survey data, with retail media eating into what used to be display and programmatic spend.</p></div><p style=\"font-size:11px;color:#888;margin-top:16px;\">You are receiving this email because you subscribed or interacted with our product. <a href=\"https://example-unsub.com/u/{TOKEN}\" style=\"color:#888;\">Unsubscribe</a></p></div>",
+    "date": "2026-07-21T06:30:00-04:00",
+    "internal_date_ms": 1784629800000,
+    "folder": "INBOX",
+    "category": "CATEGORY_PROMOTIONS",
+    "is_unread": false,
+    "is_starred": false,
+    "is_important": false,
+    "user_labels": [
+      "Label_2203"
+    ],
+    "attachments": [],
+    "calendar_event": null,
+    "extra_headers": {
+      "List-Unsubscribe": "<mailto:unsubscribe@marketingbrew.com>, <https://marketingbrew.com/unsubscribe/b30f18c2e4b60020>",
+      "List-Unsubscribe-Post": "List-Unsubscribe=One-Click",
+      "List-ID": "Marketing Brew <news.marketingbrew.com>",
+      "Precedence": "bulk",
+      "Feedback-ID": "b30f18c2:marketingbrew.com:newsletter:flag",
+      "Return-Path": "<crew@marketingbrew.com>"
+    },
+    "size_estimate": 7340,
+    "meta": {
+      "email_class": "newsletter",
+      "tricky_tags": [],
+      "is_actionable_for_user": false,
+      "action_owner": null,
+      "action_summary": null,
+      "due_date": null,
+      "commitment_made_by_user": null,
+      "commitment_is_conditional": false,
+      "commitment_condition": null,
+      "superseded_by_message_id": null,
+      "notes": null
+    }
+  },
+  {
+    "id": "b30f18c2e4b60021",
+    "thread_id": "b30f18c2e4b60021",
+    "profile_id": "marketing",
+    "history_id": "765415",
+    "message_id_header": "<b30f18c2e4b60021@morningbrew.com>",
+    "in_reply_to": null,
+    "references": [],
+    "thread_position": 1,
+    "thread_length": 1,
+    "from": {
+      "name": "Morning Brew",
+      "email": "crew@morningbrew.com"
+    },
+    "to": [
+      {
+        "name": "Jordan Feld",
+        "email": "jordan.feld@habitatgoods.com"
+      }
+    ],
+    "cc": [],
+    "bcc": [],
+    "delivered_to": "jordan.feld@habitatgoods.com",
+    "subject": "Morning Brew: consumer spending holds, chip stocks wobble",
+    "snippet": "Good morning. Coffee's on, markets are mixed, and we've got a lot to cover. MARKETS: Futures are flat this morning after a choppy session yesterday. Semiconductor stocks pulled bac",
+    "body_text": "Good morning. Coffee's on, markets are mixed, and we've got a lot to cover.\n\nMARKETS: Futures are flat this morning after a choppy session yesterday. Semiconductor stocks pulled back on renewed export-control concerns, dragging the broader tech index down slightly, while consumer discretionary names ticked up on a stronger-than-expected retail spending report. The 10-year yield held roughly steady.\n\nRETAIL SPENDING HOLDS: July retail sales came in ahead of estimates, driven largely by home goods and apparel categories, even as economists continue to flag softening in lower-income consumer segments. Several public retailers cited 'value-conscious but not pulling back entirely' as the defining shopper behavior of the summer — a phrase we expect to see repeated on every Q3 earnings call.\n\nWHAT ELSE IS BREWING:\n- A wave of return-to-office mandates is hitting a new sector this week, with mixed employee reaction.\n- Freight rates ticked up ahead of the holiday shipping season, a trend worth watching if your fulfillment costs are already tight.\n- A major airline announced a loyalty program overhaul that's getting panned online.\n- Regulators in two states advanced new data privacy rules that could affect ad targeting for companies doing business there, with compliance deadlines early next year.\n\nBUSINESS OF THE DAY: A profile on a founder who bootstrapped a home furnishings brand to eight figures without outside funding, on the tradeoffs of staying lean versus raising to chase category leadership.\n\nNUMBER TO KNOW: 4.2% — the year-over-year growth rate in e-commerce sales for the home and garden category last quarter, outpacing overall retail growth for the third consecutive quarter.\n\nThat's a wrap. See you tomorrow.",
+    "body_html": "<div style=\"font-family:Arial,Helvetica,sans-serif;font-size:14px;color:#222;max-width:600px;margin:0 auto;line-height:1.5;\"><div style=\"border-top:3px solid #F9E018;padding:16px 0;\"><p style=\"margin:0 0 12px 0;\">Good morning. Coffee's on, markets are mixed, and we've got a lot to cover.</p><p style=\"margin:0 0 12px 0;\">MARKETS: Futures are flat this morning after a choppy session yesterday. Semiconductor stocks pulled back on renewed export-control concerns, dragging the broader tech index down slightly, while consumer discretionary names ticked up on a stronger-than-expected retail spending report. The 10-year yield held roughly steady.</p><p style=\"margin:0 0 12px 0;\">RETAIL SPENDING HOLDS: July retail sales came in ahead of estimates, driven largely by home goods and apparel categories, even as economists continue to flag softening in lower-income consumer segments. Several public retailers cited 'value-conscious but not pulling back entirely' as the defining shopper behavior of the summer — a phrase we expect to see repeated on every Q3 earnings call.</p><p style=\"margin:0 0 12px 0;\">WHAT ELSE IS BREWING:<br>- A wave of return-to-office mandates is hitting a new sector this week, with mixed employee reaction.<br>- Freight rates ticked up ahead of the holiday shipping season, a trend worth watching if your fulfillment costs are already tight.<br>- A major airline announced a loyalty program overhaul that's getting panned online.<br>- Regulators in two states advanced new data privacy rules that could affect ad targeting for companies doing business there, with compliance deadlines early next year.</p><p style=\"margin:0 0 12px 0;\">BUSINESS OF THE DAY: A profile on a founder who bootstrapped a home furnishings brand to eight figures without outside funding, on the tradeoffs of staying lean versus raising to chase category leadership.</p><p style=\"margin:0 0 12px 0;\">NUMBER TO KNOW: 4.2% — the year-over-year growth rate in e-commerce sales for the home and garden category last quarter, outpacing overall retail growth for the third consecutive quarter.</p></div><p style=\"font-size:11px;color:#888;margin-top:16px;\">You are receiving this email because you subscribed or interacted with our product. <a href=\"https://example-unsub.com/u/{TOKEN}\" style=\"color:#888;\">Unsubscribe</a></p></div>",
+    "date": "2026-08-05T06:15:00-04:00",
+    "internal_date_ms": 1785924900000,
+    "folder": "INBOX",
+    "category": "CATEGORY_PROMOTIONS",
+    "is_unread": true,
+    "is_starred": false,
+    "is_important": false,
+    "user_labels": [],
+    "attachments": [],
+    "calendar_event": null,
+    "extra_headers": {
+      "List-Unsubscribe": "<mailto:unsubscribe@morningbrew.com>, <https://morningbrew.com/unsubscribe/b30f18c2e4b60021>",
+      "List-Unsubscribe-Post": "List-Unsubscribe=One-Click",
+      "List-ID": "Morning Brew Daily <daily.morningbrew.com>",
+      "Precedence": "bulk",
+      "Feedback-ID": "b30f18c2:morningbrew.com:newsletter:flag",
+      "Return-Path": "<crew@morningbrew.com>"
+    },
+    "size_estimate": 5972,
+    "meta": {
+      "email_class": "newsletter",
+      "tricky_tags": [],
+      "is_actionable_for_user": false,
+      "action_owner": null,
+      "action_summary": null,
+      "due_date": null,
+      "commitment_made_by_user": null,
+      "commitment_is_conditional": false,
+      "commitment_condition": null,
+      "superseded_by_message_id": null,
+      "notes": null
+    }
+  },
+  {
+    "id": "b30f18c2e4b60022",
+    "thread_id": "b30f18c2e4b60022",
+    "profile_id": "marketing",
+    "history_id": "752800",
+    "message_id_header": "<b30f18c2e4b60022@demandcurve.substack.com>",
+    "in_reply_to": null,
+    "references": [],
+    "thread_position": 1,
+    "thread_length": 1,
+    "from": {
+      "name": "Demand Curve",
+      "email": "newsletter@demandcurve.substack.com"
+    },
+    "to": [
+      {
+        "name": "Jordan Feld",
+        "email": "jordan.feld@habitatgoods.com"
+      }
+    ],
+    "cc": [],
+    "bcc": [],
+    "delivered_to": "jordan.feld@habitatgoods.com",
+    "subject": "Demand Curve Weekly: the creative testing framework we keep recommending",
+    "snippet": "This week: a simple creative testing framework that most performance teams skip. Instead of testing 10 ad variations against each other blind, test in pairs where exactly one varia",
+    "body_text": "This week: a simple creative testing framework that most performance teams skip.\n\nInstead of testing 10 ad variations against each other blind, test in pairs where exactly one variable changes — hook, format, or offer, never all three at once. It's slower to reach statistical significance on any single test, but you actually learn *why* something won, which compounds across every future brief.\n\nWe also break down a $30K/month paid social budget for a home goods brand: 60% evergreen always-on, 25% seasonal creative refresh, 15% pure testing budget that's allowed to lose money.\n\nPlus: a reader question on when to sunset an underperforming creative concept versus iterate on it one more time.",
+    "body_html": "<div style=\"font-family:Arial,Helvetica,sans-serif;font-size:14px;color:#222;max-width:600px;margin:0 auto;line-height:1.5;\"><div style=\"border-top:3px solid #FF6154;padding:16px 0;\"><p style=\"margin:0 0 12px 0;\">This week: a simple creative testing framework that most performance teams skip.</p><p style=\"margin:0 0 12px 0;\">Instead of testing 10 ad variations against each other blind, test in pairs where exactly one variable changes — hook, format, or offer, never all three at once. It's slower to reach statistical significance on any single test, but you actually learn *why* something won, which compounds across every future brief.</p><p style=\"margin:0 0 12px 0;\">We also break down a $30K/month paid social budget for a home goods brand: 60% evergreen always-on, 25% seasonal creative refresh, 15% pure testing budget that's allowed to lose money.</p><p style=\"margin:0 0 12px 0;\">Plus: a reader question on when to sunset an underperforming creative concept versus iterate on it one more time.</p></div><p style=\"font-size:11px;color:#888;margin-top:16px;\">You are receiving this email because you subscribed or interacted with our product. <a href=\"https://example-unsub.com/u/{TOKEN}\" style=\"color:#888;\">Unsubscribe</a></p></div>",
+    "date": "2026-07-27T09:00:00-07:00",
+    "internal_date_ms": 1785168000000,
+    "folder": "INBOX",
+    "category": "CATEGORY_PROMOTIONS",
+    "is_unread": false,
+    "is_starred": false,
+    "is_important": false,
+    "user_labels": [],
+    "attachments": [],
+    "calendar_event": null,
+    "extra_headers": {
+      "List-Unsubscribe": "<mailto:unsubscribe@demandcurve.substack.com>, <https://demandcurve.substack.com/unsubscribe/b30f18c2e4b60022>",
+      "List-Unsubscribe-Post": "List-Unsubscribe=One-Click",
+      "List-ID": "Demand Curve Weekly <demandcurve.substack.com>",
+      "Precedence": "bulk",
+      "Feedback-ID": "b30f18c2:demandcurve.substack.com:newsletter:flag",
+      "Return-Path": "<newsletter@demandcurve.substack.com>"
+    },
+    "size_estimate": 3846,
+    "meta": {
+      "email_class": "newsletter",
+      "tricky_tags": [],
+      "is_actionable_for_user": false,
+      "action_owner": null,
+      "action_summary": null,
+      "due_date": null,
+      "commitment_made_by_user": null,
+      "commitment_is_conditional": false,
+      "commitment_condition": null,
+      "superseded_by_message_id": null,
+      "notes": null
+    }
+  },
+  {
+    "id": "b30f18c2e4b60023",
+    "thread_id": "b30f18c2e4b60023",
+    "profile_id": "marketing",
+    "history_id": "712420",
+    "message_id_header": "<b30f18c2e4b60023@ecommbraintrust.substack.com>",
+    "in_reply_to": null,
+    "references": [],
+    "thread_position": 1,
+    "thread_length": 1,
+    "from": {
+      "name": "Ecommerce Braintrust",
+      "email": "hello@ecommbraintrust.substack.com"
+    },
+    "to": [
+      {
+        "name": "Jordan Feld",
+        "email": "jordan.feld@habitatgoods.com"
+      }
+    ],
+    "cc": [],
+    "bcc": [],
+    "delivered_to": "jordan.feld@habitatgoods.com",
+    "subject": "Ecommerce Braintrust: three checkout tweaks worth stealing",
+    "snippet": "Quick one this week: three checkout page tweaks that showed real lift across the brands in our reader survey. 1. Moving your shipping threshold progress bar above the fold (not jus",
+    "body_text": "Quick one this week: three checkout page tweaks that showed real lift across the brands in our reader survey.\n\n1. Moving your shipping threshold progress bar above the fold (not just in cart)\n2. Adding a one-line return policy note next to the buy button, not buried in FAQ\n3. Defaulting to the express payment button instead of the standard form on mobile\n\nNone of these are novel, but the survey data on lift size might surprise you — full numbers in the post.",
+    "body_html": "<div style=\"font-family:Arial,Helvetica,sans-serif;font-size:14px;color:#222;max-width:600px;margin:0 auto;line-height:1.5;\"><div style=\"border-top:3px solid #2D6A4F;padding:16px 0;\"><p style=\"margin:0 0 12px 0;\">Quick one this week: three checkout page tweaks that showed real lift across the brands in our reader survey.</p><p style=\"margin:0 0 12px 0;\">1. Moving your shipping threshold progress bar above the fold (not just in cart)<br>2. Adding a one-line return policy note next to the buy button, not buried in FAQ<br>3. Defaulting to the express payment button instead of the standard form on mobile</p><p style=\"margin:0 0 12px 0;\">None of these are novel, but the survey data on lift size might surprise you — full numbers in the post.</p></div><p style=\"font-size:11px;color:#888;margin-top:16px;\">You are receiving this email because you subscribed or interacted with our product. <a href=\"https://example-unsub.com/u/{TOKEN}\" style=\"color:#888;\">Unsubscribe</a></p></div>",
+    "date": "2026-06-29T08:00:00-07:00",
+    "internal_date_ms": 1782745200000,
+    "folder": "INBOX",
+    "category": "CATEGORY_PROMOTIONS",
+    "is_unread": false,
+    "is_starred": false,
+    "is_important": false,
+    "user_labels": [],
+    "attachments": [],
+    "calendar_event": null,
+    "extra_headers": {
+      "List-Unsubscribe": "<mailto:unsubscribe@ecommbraintrust.substack.com>, <https://ecommbraintrust.substack.com/unsubscribe/b30f18c2e4b60023>",
+      "List-Unsubscribe-Post": "List-Unsubscribe=One-Click",
+      "List-ID": "Ecommerce Braintrust <ecommbraintrust.substack.com>",
+      "Precedence": "bulk",
+      "Feedback-ID": "b30f18c2:ecommbraintrust.substack.com:newsletter:flag",
+      "Return-Path": "<hello@ecommbraintrust.substack.com>"
+    },
+    "size_estimate": 3350,
+    "meta": {
+      "email_class": "newsletter",
+      "tricky_tags": [],
+      "is_actionable_for_user": false,
+      "action_owner": null,
+      "action_summary": null,
+      "due_date": null,
+      "commitment_made_by_user": null,
+      "commitment_is_conditional": false,
+      "commitment_condition": null,
+      "superseded_by_message_id": null,
+      "notes": null
+    }
+  },
+  {
+    "id": "b30f18c2e4b60024",
+    "thread_id": "b30f18c2e4b60024",
+    "profile_id": "marketing",
+    "history_id": "757320",
+    "message_id_header": "<b30f18c2e4b60024@dtcgrowthsummit.com>",
+    "in_reply_to": null,
+    "references": [],
+    "thread_position": 1,
+    "thread_length": 1,
+    "from": {
+      "name": "Priya Kessler — DTC Growth Summit",
+      "email": "priya@dtcgrowthsummit.com"
+    },
+    "to": [
+      {
+        "name": "Jordan Feld",
+        "email": "jordan.feld@habitatgoods.com"
+      }
+    ],
+    "cc": [],
+    "bcc": [],
+    "delivered_to": "jordan.feld@habitatgoods.com",
+    "subject": "Confirming your speaking slot: DTC Growth Summit, Oct 14-15",
+    "snippet": "Hi Jordan, Thrilled to confirm your session at this year's DTC Growth Summit — following up on our call last week where you agreed to speak on the retention panel. Here's everythin",
+    "body_text": "Hi Jordan,\n\nThrilled to confirm your session at this year's DTC Growth Summit — following up on our call last week where you agreed to speak on the retention panel. Here's everything we need from you to finalize the program.\n\nSession details: 'Beyond the Welcome Flow: Building a Lifecycle Program That Compounds,' a 35-minute panel with two other DTC marketing leaders, moderated by our editorial team. Currently scheduled for Wednesday, October 14 at 2:15pm in the Commerce Track room. Expected attendance for this slot is 200-300.\n\nWhat we need from you by August 25:\n1. A 75-word speaker bio and a headshot (min. 1000px)\n2. Confirmation of your session title (as above, or send an edit)\n3. Three discussion questions you'd like the moderator to be sure to ask\n4. Your A/V requirements — the room has a lapel mic, confidence monitor, and a shared clicker; let us know if you need anything beyond that\n\nLogistics: we'll cover your conference badge and one night's hotel at the Westin downtown (Oct 13-14). Travel is on you, but we can share our group rate on flights if helpful. A green room will be available 30 minutes before your session for prep.\n\nWe'll also want to list Habitat Goods as a program sponsor logo alongside your bio, consistent with the speaker package we discussed — no additional cost, just visibility for the brand.\n\nIf anything above doesn't work, let me know as soon as you can — we lock the printed program on September 1 and can't make changes after that without an asterisk next to your name, which nobody wants.\n\nReally looking forward to having you on stage.\n\nBest,\nPriya Kessler\nProgram Director, DTC Growth Summit\npriya@dtcgrowthsummit.com | (312) 555-0148",
+    "body_html": null,
+    "date": "2026-07-30T14:20:00-05:00",
+    "internal_date_ms": 1785439200000,
+    "folder": "INBOX",
+    "category": "CATEGORY_PROMOTIONS",
+    "is_unread": false,
+    "is_starred": true,
+    "is_important": true,
+    "user_labels": [
+      "Label_2203"
+    ],
+    "attachments": [],
+    "calendar_event": null,
+    "extra_headers": {
+      "Return-Path": "<priya@dtcgrowthsummit.com>"
+    },
+    "size_estimate": 3597,
+    "meta": {
+      "email_class": "genuine_work",
+      "tricky_tags": [],
+      "is_actionable_for_user": true,
+      "action_owner": "jordan.feld@habitatgoods.com",
+      "action_summary": "Send speaker bio, headshot, session title confirmation, discussion questions, and A/V requirements to DTC Growth Summit by Aug 25.",
+      "due_date": "2026-08-25",
+      "commitment_made_by_user": null,
+      "commitment_is_conditional": false,
+      "commitment_condition": null,
+      "superseded_by_message_id": null,
+      "notes": "Real, agreed-to speaking commitment arriving in an inbox otherwise full of conference spam — easy to file away as noise if skimmed."
+    }
+  },
+  {
+    "id": "b30f18c2e4b60025",
+    "thread_id": "b30f18c2e4b60025",
+    "profile_id": "marketing",
+    "history_id": "706660",
+    "message_id_header": "<b30f18c2e4b60025@modernretaillive.com>",
+    "in_reply_to": null,
+    "references": [],
+    "thread_position": 1,
+    "thread_length": 1,
+    "from": {
+      "name": "Modern Retail Live",
+      "email": "speakers@modernretaillive.com"
+    },
+    "to": [
+      {
+        "name": "Jordan Feld",
+        "email": "jordan.feld@habitatgoods.com"
+      }
+    ],
+    "cc": [],
+    "bcc": [],
+    "delivered_to": "jordan.feld@habitatgoods.com",
+    "subject": "Speak at Modern Retail Live 2026 — applications open",
+    "snippet": "We're building the speaker lineup for Modern Retail Live 2026 (Nov 4-5, Austin) and would love to have a home goods perspective on the retention track. If you're interested in subm",
+    "body_text": "We're building the speaker lineup for Modern Retail Live 2026 (Nov 4-5, Austin) and would love to have a home goods perspective on the retention track.\n\nIf you're interested in submitting a session proposal, applications are open through July 20. Selected speakers get a complimentary pass and hotel for two nights. Past years have featured leaders from several category-leading DTC brands.\n\nApply here — happy to answer questions.",
+    "body_html": "<div style=\"font-family:Arial,Helvetica,sans-serif;font-size:14px;color:#222;max-width:600px;margin:0 auto;line-height:1.5;\"><div style=\"border-top:3px solid #111827;padding:16px 0;\"><p style=\"margin:0 0 12px 0;\">We're building the speaker lineup for Modern Retail Live 2026 (Nov 4-5, Austin) and would love to have a home goods perspective on the retention track.</p><p style=\"margin:0 0 12px 0;\">If you're interested in submitting a session proposal, applications are open through July 20. Selected speakers get a complimentary pass and hotel for two nights. Past years have featured leaders from several category-leading DTC brands.</p><p style=\"margin:0 0 12px 0;\">Apply here — happy to answer questions.</p></div><p style=\"font-size:11px;color:#888;margin-top:16px;\">You are receiving this email because you subscribed or interacted with our product. <a href=\"https://example-unsub.com/u/{TOKEN}\" style=\"color:#888;\">Unsubscribe</a></p></div>",
+    "date": "2026-06-25T10:00:00-05:00",
+    "internal_date_ms": 1782399600000,
+    "folder": "INBOX",
+    "category": "CATEGORY_PROMOTIONS",
+    "is_unread": false,
+    "is_starred": false,
+    "is_important": false,
+    "user_labels": [
+      "Label_2201"
+    ],
+    "attachments": [],
+    "calendar_event": null,
+    "extra_headers": {
+      "List-Unsubscribe": "<mailto:unsubscribe@modernretaillive.com>, <https://modernretaillive.com/u/x13>",
+      "List-Unsubscribe-Post": "List-Unsubscribe=One-Click",
+      "Precedence": "bulk",
+      "Return-Path": "<speakers@modernretaillive.com>"
+    },
+    "size_estimate": 3282,
+    "meta": {
+      "email_class": "cold_outreach",
+      "tricky_tags": [],
+      "is_actionable_for_user": false,
+      "action_owner": null,
+      "action_summary": null,
+      "due_date": null,
+      "commitment_made_by_user": null,
+      "commitment_is_conditional": false,
+      "commitment_condition": null,
+      "superseded_by_message_id": null,
+      "notes": null
+    }
+  },
+  {
+    "id": "b30f18c2e4b60026",
+    "thread_id": "b30f18c2e4b60026",
+    "profile_id": "marketing",
+    "history_id": "736870",
+    "message_id_header": "<b30f18c2e4b60026@triform.io>",
+    "in_reply_to": null,
+    "references": [],
+    "thread_position": 1,
+    "thread_length": 1,
+    "from": {
+      "name": "Triform Attribution",
+      "email": "events@triform.io"
+    },
+    "to": [
+      {
+        "name": "Jordan Feld",
+        "email": "jordan.feld@habitatgoods.com"
+      }
+    ],
+    "cc": [],
+    "bcc": [],
+    "delivered_to": "jordan.feld@habitatgoods.com",
+    "subject": "Webinar: the state of attribution for DTC in 2026",
+    "snippet": "45 minutes on incrementality testing, why platform ROAS keeps drifting from reality, and a live Q&A with our head of data science. Thursday at noon CT — register free.",
+    "body_text": "45 minutes on incrementality testing, why platform ROAS keeps drifting from reality, and a live Q&A with our head of data science. Thursday at noon CT — register free.",
+    "body_html": "<div style=\"font-family:Arial,Helvetica,sans-serif;font-size:14px;color:#222;max-width:600px;margin:0 auto;line-height:1.5;\"><div style=\"border-top:3px solid #1A73E8;padding:16px 0;\"><p style=\"margin:0 0 12px 0;\">45 minutes on incrementality testing, why platform ROAS keeps drifting from reality, and a live Q&A with our head of data science. Thursday at noon CT — register free.</p></div><p style=\"font-size:11px;color:#888;margin-top:16px;\">You are receiving this email because you subscribed or interacted with our product. <a href=\"https://example-unsub.com/u/{TOKEN}\" style=\"color:#888;\">Unsubscribe</a></p></div>",
+    "date": "2026-07-16T09:30:00-05:00",
+    "internal_date_ms": 1784212200000,
+    "folder": "INBOX",
+    "category": "CATEGORY_PROMOTIONS",
+    "is_unread": false,
+    "is_starred": false,
+    "is_important": false,
+    "user_labels": [],
+    "attachments": [],
+    "calendar_event": null,
+    "extra_headers": {
+      "List-Unsubscribe": "<mailto:unsubscribe@triform.io>, <https://triform.io/u/x14>",
+      "List-Unsubscribe-Post": "List-Unsubscribe=One-Click",
+      "Precedence": "bulk",
+      "Return-Path": "<events@triform.io>"
+    },
+    "size_estimate": 2690,
+    "meta": {
+      "email_class": "cold_outreach",
+      "tricky_tags": [],
+      "is_actionable_for_user": false,
+      "action_owner": null,
+      "action_summary": null,
+      "due_date": null,
+      "commitment_made_by_user": null,
+      "commitment_is_conditional": false,
+      "commitment_condition": null,
+      "superseded_by_message_id": null,
+      "notes": null
+    }
+  },
+  {
+    "id": "b30f18c2e4b60027",
+    "thread_id": "b30f18c2e4b60027",
+    "profile_id": "marketing",
+    "history_id": "749874",
+    "message_id_header": "<b30f18c2e4b60027@ledgermetrics.io>",
+    "in_reply_to": null,
+    "references": [],
+    "thread_position": 1,
+    "thread_length": 1,
+    "from": {
+      "name": "Devon Marsh",
+      "email": "devon@ledgermetrics.io"
+    },
+    "to": [
+      {
+        "name": "Jordan Feld",
+        "email": "jordan.feld@habitatgoods.com"
+      }
+    ],
+    "cc": [],
+    "bcc": [],
+    "delivered_to": "jordan.feld@habitatgoods.com",
+    "subject": "Quick question about Habitat Goods' attribution stack",
+    "snippet": "Hi Jordan, Saw Habitat Goods' fall preview launch last week — the paid social creative around the walnut collection was sharp. Congrats on what looked like a strong week. I'm reach",
+    "body_text": "Hi Jordan,\n\nSaw Habitat Goods' fall preview launch last week — the paid social creative around the walnut collection was sharp. Congrats on what looked like a strong week.\n\nI'm reaching out because I lead partnerships at Ledger Metrics, an attribution platform built specifically for brands running paid social plus SMS/email in parallel. A few brands in the home goods space (I won't name names without permission, but you'd recognize a couple) have used us to untangle which channel actually drove a purchase when a customer sees an ad, gets an SMS, then converts three days later from an email click — the kind of overlap that makes platform-reported ROAS mostly fiction once you run more than two channels at once.\n\nTypical setup takes about two weeks and doesn't require ripping out your existing analytics stack — we sit alongside it. Happy to send a short deck or, if it's easier, grab 20 minutes on a call to see if it's even relevant to how your team is set up right now.\n\nNo worries if the timing's off — feel free to point me to whoever owns attribution on your team if that's not you.\n\nBest,\nDevon Marsh\nPartnerships, Ledger Metrics\ndevon@ledgermetrics.io",
+    "body_html": null,
+    "date": "2026-07-25T11:14:00-04:00",
+    "internal_date_ms": 1784992440000,
+    "folder": "INBOX",
+    "category": "CATEGORY_PROMOTIONS",
+    "is_unread": false,
+    "is_starred": false,
+    "is_important": false,
+    "user_labels": [],
+    "attachments": [],
+    "calendar_event": null,
+    "extra_headers": {
+      "Return-Path": "<devon@ledgermetrics.io>"
+    },
+    "size_estimate": 3075,
+    "meta": {
+      "email_class": "cold_outreach",
+      "tricky_tags": [],
+      "is_actionable_for_user": false,
+      "action_owner": null,
+      "action_summary": null,
+      "due_date": null,
+      "commitment_made_by_user": null,
+      "commitment_is_conditional": false,
+      "commitment_condition": null,
+      "superseded_by_message_id": null,
+      "notes": null
+    }
+  },
+  {
+    "id": "b30f18c2e4b60028",
+    "thread_id": "b30f18c2e4b60028",
+    "profile_id": "marketing",
+    "history_id": "768522",
+    "message_id_header": "<b30f18c2e4b60028@northstardata.io>",
+    "in_reply_to": null,
+    "references": [],
+    "thread_position": 1,
+    "thread_length": 1,
+    "from": {
+      "name": "Kayla Ruiz",
+      "email": "kayla@northstardata.io"
+    },
+    "to": [
+      {
+        "name": "Jordan Feld",
+        "email": "jordan.feld@habitatgoods.com"
+      }
+    ],
+    "cc": [],
+    "bcc": [],
+    "delivered_to": "jordan.feld@habitatgoods.com",
+    "subject": "15 min re: your customer data setup?",
+    "snippet": "Hi Jordan — quick one. We help DTC brands unify Shopify, Klaviyo, and ad platform data into a single customer profile without an engineering lift. Worth 15 minutes to see if it'd b",
+    "body_text": "Hi Jordan — quick one. We help DTC brands unify Shopify, Klaviyo, and ad platform data into a single customer profile without an engineering lift. Worth 15 minutes to see if it'd be useful for Habitat Goods, or should I check back closer to Q1?",
+    "body_html": null,
+    "date": "2026-08-07T10:02:00-04:00",
+    "internal_date_ms": 1786111320000,
+    "folder": "INBOX",
+    "category": "CATEGORY_PROMOTIONS",
+    "is_unread": true,
+    "is_starred": false,
+    "is_important": false,
+    "user_labels": [],
+    "attachments": [],
+    "calendar_event": null,
+    "extra_headers": {
+      "Return-Path": "<kayla@northstardata.io>"
+    },
+    "size_estimate": 2146,
+    "meta": {
+      "email_class": "cold_outreach",
+      "tricky_tags": [],
+      "is_actionable_for_user": false,
+      "action_owner": null,
+      "action_summary": null,
+      "due_date": null,
+      "commitment_made_by_user": null,
+      "commitment_is_conditional": false,
+      "commitment_condition": null,
+      "superseded_by_message_id": null,
+      "notes": null
+    }
+  },
+  {
+    "id": "b30f18c2e4b60029",
+    "thread_id": "b30f18c2e4b60029",
+    "profile_id": "marketing",
+    "history_id": "740005",
+    "message_id_header": "<b30f18c2e4b60029@brightpathcreative.com>",
+    "in_reply_to": null,
+    "references": [],
+    "thread_position": 1,
+    "thread_length": 1,
+    "from": {
+      "name": "Marcus Whitfield",
+      "email": "marcus@brightpathcreative.com"
+    },
+    "to": [
+      {
+        "name": "Jordan Feld",
+        "email": "jordan.feld@habitatgoods.com"
+      }
+    ],
+    "cc": [],
+    "bcc": [],
+    "delivered_to": "jordan.feld@habitatgoods.com",
+    "subject": "An outside look at your paid social creative",
+    "snippet": "Hi Jordan, I run creative strategy at Bright Path — we work with a handful of home and lifestyle DTC brands on paid social creative specifically (not full-funnel, not media buying,",
+    "body_text": "Hi Jordan,\n\nI run creative strategy at Bright Path — we work with a handful of home and lifestyle DTC brands on paid social creative specifically (not full-funnel, not media buying, just the creative engine that feeds it).\n\nI pulled a few of Habitat Goods' recent Meta ads from the ad library and put together a short, unsolicited breakdown of what's working and where I'd push harder — happy to send it over even if there's no interest in working together, no strings attached.\n\nIf your current agency setup ever needs a specialist creative bench for a specific campaign (rather than a full agency-of-record switch), that's usually how we start with brands your size. Open to a short call if useful, otherwise feel free to ignore.\n\nMarcus Whitfield\nBright Path Creative\nmarcus@brightpathcreative.com | brightpathcreative.com",
+    "body_html": null,
+    "date": "2026-07-18T13:45:00-05:00",
+    "internal_date_ms": 1784400300000,
+    "folder": "INBOX",
+    "category": "CATEGORY_PROMOTIONS",
+    "is_unread": false,
+    "is_starred": false,
+    "is_important": false,
+    "user_labels": [],
+    "attachments": [],
+    "calendar_event": null,
+    "extra_headers": {
+      "Return-Path": "<marcus@brightpathcreative.com>"
+    },
+    "size_estimate": 2729,
+    "meta": {
+      "email_class": "cold_outreach",
+      "tricky_tags": [],
+      "is_actionable_for_user": false,
+      "action_owner": null,
+      "action_summary": null,
+      "due_date": null,
+      "commitment_made_by_user": null,
+      "commitment_is_conditional": false,
+      "commitment_condition": null,
+      "superseded_by_message_id": null,
+      "notes": null
+    }
+  },
+  {
+    "id": "b30f18c2e4b60030",
+    "thread_id": "b30f18c2e4b60030",
+    "profile_id": "marketing",
+    "history_id": "693620",
+    "message_id_header": "<b30f18c2e4b60030@overhauldigital.com>",
+    "in_reply_to": null,
+    "references": [],
+    "thread_position": 1,
+    "thread_length": 1,
+    "from": {
+      "name": "Renata Silva",
+      "email": "renata@overhauldigital.com"
+    },
+    "to": [
+      {
+        "name": "Jordan Feld",
+        "email": "jordan.feld@habitatgoods.com"
+      }
+    ],
+    "cc": [],
+    "bcc": [],
+    "delivered_to": "jordan.feld@habitatgoods.com",
+    "subject": "Habitat Goods + Overhaul: a full-funnel audit (unsolicited, but worth 5 minutes)",
+    "snippet": "Hi Jordan, I know cold agency pitches are the last thing your inbox needs, so I'll try to make this one worth the five minutes. We're Overhaul Digital — a 40-person performance mar",
+    "body_text": "Hi Jordan,\n\nI know cold agency pitches are the last thing your inbox needs, so I'll try to make this one worth the five minutes.\n\nWe're Overhaul Digital — a 40-person performance marketing agency that works exclusively with DTC brands in the $20M-$100M revenue range, mostly home, outdoor, and lifestyle categories. Before reaching out, we ran a light external audit of Habitat Goods' public-facing paid social presence (ad library, landing pages, and your Klaviyo sign-up flow, since that's visible without account access). A few things stood out:\n\n1. Your top-performing static ad (the walnut console table, running since roughly early June based on library timestamps) has been live for 6+ weeks without a creative refresh. Our data across similar accounts shows CPMs typically start climbing on a single creative around week 5 as audience fatigue sets in — worth checking your frequency metric if you haven't already.\n\n2. Your homepage-to-signup flow asks for email before showing any incentive copy above the fold. In split tests we've run for comparable brands, leading with the offer (e.g., '15% off your first order') before the form field lifted signup conversion by 18-24%.\n\n3. Your SMS opt-in isn't currently offered as a secondary CTA anywhere in the checkout flow we could find — most brands your size are running SMS at 20-30% of email list size at this point, and it's typically an incremental win rather than cannibalizing email.\n\nNone of this is meant as a knock — a lot of it is genuinely solid, and the brand voice across your ad creative is more consistent than most accounts we audit unprompted.\n\nWe'd love the chance to put together a fuller audit (free, no obligation) if it's ever useful timing-wise, particularly if you're evaluating your agency mix heading into next year's planning. Case studies from two comparable home goods accounts are available on request — happy to share names privately rather than in a cold email.\n\nOne last note, since I know unsolicited audits can read as a pretext for a pitch: we're not looking to replace your existing agency-of-record relationship wholesale, and we'd say so directly if that's not a fit. Most of our current home-goods clients came to us for a specific, bounded engagement — usually a paid social creative sprint or a checkout conversion project — and a few expanded from there once trust was established, but several stayed exactly at that scope, which is fine by us.\n\nIf now's not the moment, no worries at all — feel free to keep this for later or ignore entirely.\n\nBest,\nRenata Silva\nPartner, Overhaul Digital\nrenata@overhauldigital.com | overhauldigital.com | (646) 555-0113",
+    "body_html": null,
+    "date": "2026-06-16T09:40:00-04:00",
+    "internal_date_ms": 1781617200000,
+    "folder": "INBOX",
+    "category": "CATEGORY_PROMOTIONS",
+    "is_unread": false,
+    "is_starred": false,
+    "is_important": false,
+    "user_labels": [],
+    "attachments": [],
+    "calendar_event": null,
+    "extra_headers": {
+      "Return-Path": "<renata@overhauldigital.com>"
+    },
+    "size_estimate": 4570,
+    "meta": {
+      "email_class": "cold_outreach",
+      "tricky_tags": [],
+      "is_actionable_for_user": false,
+      "action_owner": null,
+      "action_summary": null,
+      "due_date": null,
+      "commitment_made_by_user": null,
+      "commitment_is_conditional": false,
+      "commitment_condition": null,
+      "superseded_by_message_id": null,
+      "notes": null
+    }
+  },
+  {
+    "id": "b30f18c2e4b60031",
+    "thread_id": "b30f18c2e4b60031",
+    "profile_id": "marketing",
+    "history_id": "734290",
+    "message_id_header": "<b30f18c2e4b60031@bridgepointsearch.com>",
+    "in_reply_to": null,
+    "references": [],
+    "thread_position": 1,
+    "thread_length": 1,
+    "from": {
+      "name": "Sarah Chen",
+      "email": "sarah.chen@bridgepointsearch.com"
+    },
+    "to": [
+      {
+        "name": "Jordan Feld",
+        "email": "jordan.feld@habitatgoods.com"
+      }
+    ],
+    "cc": [],
+    "bcc": [],
+    "delivered_to": "jordan.feld@habitatgoods.com",
+    "subject": "VP Growth Marketing opportunity — confidential",
+    "snippet": "Hi Jordan, I'm working a confidential VP Growth Marketing search for a Series C consumer brand (can share the name once there's mutual interest) — think comparable scale to Habitat",
+    "body_text": "Hi Jordan,\n\nI'm working a confidential VP Growth Marketing search for a Series C consumer brand (can share the name once there's mutual interest) — think comparable scale to Habitat Goods but earlier in their lifecycle marketing maturity, which is part of the appeal for the right person.\n\nYour background caught my eye given the work you've done on Habitat's lifecycle and brand side together, which is a rarer combination than you'd think. Compensation is competitive with meaningful equity upside given the stage.\n\nNot assuming you're looking, but if you're ever open to a confidential conversation — no pressure either way — happy to share more details.\n\nBest,\nSarah Chen\nBridgepoint Search",
+    "body_html": null,
+    "date": "2026-07-14T15:30:00-04:00",
+    "internal_date_ms": 1784057400000,
+    "folder": "INBOX",
+    "category": "CATEGORY_PERSONAL",
+    "is_unread": false,
+    "is_starred": false,
+    "is_important": false,
+    "user_labels": [],
+    "attachments": [],
+    "calendar_event": null,
+    "extra_headers": {
+      "Return-Path": "<sarah.chen@bridgepointsearch.com>"
+    },
+    "size_estimate": 2600,
+    "meta": {
+      "email_class": "cold_outreach",
+      "tricky_tags": [],
+      "is_actionable_for_user": false,
+      "action_owner": null,
+      "action_summary": null,
+      "due_date": null,
+      "commitment_made_by_user": null,
+      "commitment_is_conditional": false,
+      "commitment_condition": null,
+      "superseded_by_message_id": null,
+      "notes": null
+    }
+  },
+  {
+    "id": "b30f18c2e4b60032",
+    "thread_id": "b30f18c2e4b60032",
+    "profile_id": "marketing",
+    "history_id": "747345",
+    "message_id_header": "<CAFb30f18c2e4b60032@mail.gmail.com>",
+    "in_reply_to": null,
+    "references": [],
+    "thread_position": 1,
+    "thread_length": 1,
+    "from": {
+      "name": "Maya Lindstrom",
+      "email": "maya.lindstrom.home@gmail.com"
+    },
+    "to": [
+      {
+        "name": "Jordan Feld",
+        "email": "jordan.feld@habitatgoods.com"
+      }
+    ],
+    "cc": [],
+    "bcc": [],
+    "delivered_to": "jordan.feld@habitatgoods.com",
+    "subject": "Home & lifestyle content partnership — Maya Lindstrom (224K)",
+    "snippet": "Hi Jordan / Habitat Goods team, I'm a home and lifestyle content creator (224K on Instagram, growing fast on TikTok) based here in Austin, actually — I did a full apartment tour fe",
+    "body_text": "Hi Jordan / Habitat Goods team,\n\nI'm a home and lifestyle content creator (224K on Instagram, growing fast on TikTok) based here in Austin, actually — I did a full apartment tour featuring a few Habitat pieces I bought myself last spring and it's one of my best-performing posts this year, so I know the fit is real, not just a cold pitch.\n\nI'd love to explore a paid partnership for your fall collection — a mix of a dedicated reel, a few stories, and usage rights for you to repurpose the content in paid social if it performs well organically first. Media kit with full stats, audience demographics, and past brand partnership results attached.\n\nHappy to hop on a call whenever works, or just reply here with any questions.\n\nMaya",
+    "body_html": null,
+    "date": "2026-07-23T16:05:00-05:00",
+    "internal_date_ms": 1784840700000,
+    "folder": "INBOX",
+    "category": "CATEGORY_PROMOTIONS",
+    "is_unread": false,
+    "is_starred": false,
+    "is_important": false,
+    "user_labels": [],
+    "attachments": [
+      {
+        "attachment_id": "ANGjdJ_0000000000000000000000000000000000305212da7855d557",
+        "filename": "Maya_Lindstrom_MediaKit.pdf",
+        "mime_type": "application/pdf",
+        "size_bytes": 812000,
+        "is_inline": false,
+        "content_id": null,
+        "extracted_text": "MAYA LINDSTROM — MEDIA KIT 2026\n\nAudience: 224,000 Instagram, 98,000 TikTok\nDemographics: 89% female, 62% ages 25-40, top locations Austin, Dallas, Nashville, Denver\nEngagement rate: 4.8% (Instagram), 6.1% (TikTok)\nAvg. reel views: 61,000\n\nPast partnerships: The Linen Cut, Article, Parachute Home, West Elm (gifted)\nContent types offered: dedicated reel ($2,400), story set of 3 ($650), UGC-only package with usage rights ($1,800)\n\nCase study — Parachute Home partnership: dedicated reel reached 340K accounts, drove an estimated 1,100 site visits via swipe-up/link-in-bio in first 72 hours, brand reported a 15% lift in branded search volume that week.\n\nRates negotiable for multi-post packages or ongoing ambassador arrangements. Full portfolio and additional case studies available on request."
+      }
+    ],
+    "calendar_event": null,
+    "extra_headers": {
+      "Return-Path": "<maya.lindstrom.home@gmail.com>"
+    },
+    "size_estimate": 1090716,
+    "meta": {
+      "email_class": "cold_outreach",
+      "tricky_tags": [],
+      "is_actionable_for_user": false,
+      "action_owner": null,
+      "action_summary": null,
+      "due_date": null,
+      "commitment_made_by_user": null,
+      "commitment_is_conditional": false,
+      "commitment_condition": null,
+      "superseded_by_message_id": null,
+      "notes": null
+    }
+  },
+  {
+    "id": "b30f18c2e4b60033",
+    "thread_id": "b30f18c2e4b60033",
+    "profile_id": "marketing",
+    "history_id": "763015",
+    "message_id_header": "<b30f18c2e4b60033@thecozycorner.co>",
+    "in_reply_to": null,
+    "references": [],
+    "thread_position": 1,
+    "thread_length": 1,
+    "from": {
+      "name": "The Cozy Corner Co",
+      "email": "hello@thecozycorner.co"
+    },
+    "to": [
+      {
+        "name": "Jordan Feld",
+        "email": "jordan.feld@habitatgoods.com"
+      }
+    ],
+    "cc": [],
+    "bcc": [],
+    "delivered_to": "jordan.feld@habitatgoods.com",
+    "subject": "Partnership idea: The Cozy Corner Co x Habitat Goods",
+    "snippet": "We're a family lifestyle account (140K, mostly moms 28-40) and love your fall drop. Would you be open to a gifted-to-paid trial partnership? Happy to send our media kit if interest",
+    "body_text": "We're a family lifestyle account (140K, mostly moms 28-40) and love your fall drop. Would you be open to a gifted-to-paid trial partnership? Happy to send our media kit if interested.",
+    "body_html": null,
+    "date": "2026-08-03T12:15:00-06:00",
+    "internal_date_ms": 1785780900000,
+    "folder": "INBOX",
+    "category": "CATEGORY_PROMOTIONS",
+    "is_unread": false,
+    "is_starred": false,
+    "is_important": false,
+    "user_labels": [],
+    "attachments": [],
+    "calendar_event": null,
+    "extra_headers": {
+      "Return-Path": "<hello@thecozycorner.co>"
+    },
+    "size_estimate": 2083,
+    "meta": {
+      "email_class": "cold_outreach",
+      "tricky_tags": [],
+      "is_actionable_for_user": false,
+      "action_owner": null,
+      "action_summary": null,
+      "due_date": null,
+      "commitment_made_by_user": null,
+      "commitment_is_conditional": false,
+      "commitment_condition": null,
+      "superseded_by_message_id": null,
+      "notes": null
+    }
+  },
+  {
+    "id": "b30f18c2e4b60034",
+    "thread_id": "b30f18c2e4b60034",
+    "profile_id": "marketing",
+    "history_id": "758500",
+    "message_id_header": "<b30f18c2e4b60034@ecommexcellenceawards.com>",
+    "in_reply_to": null,
+    "references": [],
+    "thread_position": 1,
+    "thread_length": 1,
+    "from": {
+      "name": "Ecommerce Excellence Awards",
+      "email": "awards@ecommexcellenceawards.com"
+    },
+    "to": [
+      {
+        "name": "Jordan Feld",
+        "email": "jordan.feld@habitatgoods.com"
+      }
+    ],
+    "cc": [],
+    "bcc": [],
+    "delivered_to": "jordan.feld@habitatgoods.com",
+    "subject": "Submit Habitat Goods for the 2026 Ecommerce Excellence Awards",
+    "snippet": "Nominations are open for the 2026 Ecommerce Excellence Awards, recognizing standout brands across DTC, retail media, and customer experience categories. Entry fee is $495 per categ",
+    "body_text": "Nominations are open for the 2026 Ecommerce Excellence Awards, recognizing standout brands across DTC, retail media, and customer experience categories.\n\nEntry fee is $495 per category, with early-bird pricing through August 1. Winners are announced at our gala in November and receive a press kit for their PR team to distribute. Past winners include several well-known consumer brands across home, beauty, and apparel.\n\nCategories relevant to a brand your size include Best Lifecycle Program, Best Loyalty Program, and Rising Brand of the Year. Submission deadline is August 22.",
+    "body_html": "<div style=\"font-family:Arial,Helvetica,sans-serif;font-size:14px;color:#222;max-width:600px;margin:0 auto;line-height:1.5;\"><div style=\"border-top:3px solid #B8860B;padding:16px 0;\"><p style=\"margin:0 0 12px 0;\">Nominations are open for the 2026 Ecommerce Excellence Awards, recognizing standout brands across DTC, retail media, and customer experience categories.</p><p style=\"margin:0 0 12px 0;\">Entry fee is $495 per category, with early-bird pricing through August 1. Winners are announced at our gala in November and receive a press kit for their PR team to distribute. Past winners include several well-known consumer brands across home, beauty, and apparel.</p><p style=\"margin:0 0 12px 0;\">Categories relevant to a brand your size include Best Lifecycle Program, Best Loyalty Program, and Rising Brand of the Year. Submission deadline is August 22.</p></div><p style=\"font-size:11px;color:#888;margin-top:16px;\">You are receiving this email because you subscribed or interacted with our product. <a href=\"https://example-unsub.com/u/{TOKEN}\" style=\"color:#888;\">Unsubscribe</a></p></div>",
+    "date": "2026-07-31T10:00:00-05:00",
+    "internal_date_ms": 1785510000000,
+    "folder": "INBOX",
+    "category": "CATEGORY_PROMOTIONS",
+    "is_unread": false,
+    "is_starred": false,
+    "is_important": false,
+    "user_labels": [],
+    "attachments": [],
+    "calendar_event": null,
+    "extra_headers": {
+      "List-Unsubscribe": "<mailto:unsubscribe@ecommexcellenceawards.com>, <https://ecommexcellenceawards.com/u/x15>",
+      "List-Unsubscribe-Post": "List-Unsubscribe=One-Click",
+      "Precedence": "bulk",
+      "Return-Path": "<awards@ecommexcellenceawards.com>"
+    },
+    "size_estimate": 3576,
+    "meta": {
+      "email_class": "cold_outreach",
+      "tricky_tags": [],
+      "is_actionable_for_user": false,
+      "action_owner": null,
+      "action_summary": null,
+      "due_date": null,
+      "commitment_made_by_user": null,
+      "commitment_is_conditional": false,
+      "commitment_condition": null,
+      "superseded_by_message_id": null,
+      "notes": null
+    }
+  },
+  {
+    "id": "b30f18c2e4b60035",
+    "thread_id": "b30f18c2e4b60035",
+    "profile_id": "marketing",
+    "history_id": "771400",
+    "message_id_header": "<b30f18c2e4b60035@dtcbrandawards.com>",
+    "in_reply_to": null,
+    "references": [],
+    "thread_position": 1,
+    "thread_length": 1,
+    "from": {
+      "name": "DTC Brand Awards",
+      "email": "notify@dtcbrandawards.com"
+    },
+    "to": [
+      {
+        "name": "Jordan Feld",
+        "email": "jordan.feld@habitatgoods.com"
+      }
+    ],
+    "cc": [],
+    "bcc": [],
+    "delivered_to": "jordan.feld@habitatgoods.com",
+    "subject": "Nominate Habitat Goods — DTC Brand Awards 2026 closing soon",
+    "snippet": "Nominations close Friday. $350 entry, 6 categories including Best Brand Refresh and Best Retention Strategy. Submit here before the deadline.",
+    "body_text": "Nominations close Friday. $350 entry, 6 categories including Best Brand Refresh and Best Retention Strategy. Submit here before the deadline.",
+    "body_html": "<div style=\"font-family:Arial,Helvetica,sans-serif;font-size:14px;color:#222;max-width:600px;margin:0 auto;line-height:1.5;\"><div style=\"border-top:3px solid #C0392B;padding:16px 0;\"><p style=\"margin:0 0 12px 0;\">Nominations close Friday. $350 entry, 6 categories including Best Brand Refresh and Best Retention Strategy. Submit here before the deadline.</p></div><p style=\"font-size:11px;color:#888;margin-top:16px;\">You are receiving this email because you subscribed or interacted with our product. <a href=\"https://example-unsub.com/u/{TOKEN}\" style=\"color:#888;\">Unsubscribe</a></p></div>",
+    "date": "2026-08-09T09:00:00-05:00",
+    "internal_date_ms": 1786284000000,
+    "folder": "INBOX",
+    "category": "CATEGORY_PROMOTIONS",
+    "is_unread": true,
+    "is_starred": false,
+    "is_important": false,
+    "user_labels": [],
+    "attachments": [],
+    "calendar_event": null,
+    "extra_headers": {
+      "List-Unsubscribe": "<mailto:unsubscribe@dtcbrandawards.com>, <https://dtcbrandawards.com/u/x16>",
+      "List-Unsubscribe-Post": "List-Unsubscribe=One-Click",
+      "Precedence": "bulk",
+      "Return-Path": "<notify@dtcbrandawards.com>"
+    },
+    "size_estimate": 2634,
+    "meta": {
+      "email_class": "cold_outreach",
+      "tricky_tags": [],
+      "is_actionable_for_user": false,
+      "action_owner": null,
+      "action_summary": null,
+      "due_date": null,
+      "commitment_made_by_user": null,
+      "commitment_is_conditional": false,
+      "commitment_condition": null,
+      "superseded_by_message_id": null,
+      "notes": null
+    }
+  },
+  {
+    "id": "b30f18c2e4b60036",
+    "thread_id": "b30f18c2e4b60036",
+    "profile_id": "marketing",
+    "history_id": "720722",
+    "message_id_header": "<b30f18c2e4b60036@linkbuildpro.net>",
+    "in_reply_to": null,
+    "references": [],
+    "thread_position": 1,
+    "thread_length": 1,
+    "from": {
+      "name": "Outreach Team",
+      "email": "outreach@linkbuildpro.net"
+    },
+    "to": [
+      {
+        "name": "Jordan Feld",
+        "email": "jordan.feld@habitatgoods.com"
+      }
+    ],
+    "cc": [],
+    "bcc": [],
+    "delivered_to": "jordan.feld@habitatgoods.com",
+    "subject": "Guest post opportunity for habitatgoods.com",
+    "snippet": "We'd like to contribute a high-quality guest post to your blog in exchange for a backlink. Let us know if you accept guest content and your rates.",
+    "body_text": "We'd like to contribute a high-quality guest post to your blog in exchange for a backlink. Let us know if you accept guest content and your rates.",
+    "body_html": null,
+    "date": "2026-07-05T04:22:00-05:00",
+    "internal_date_ms": 1783243320000,
+    "folder": "INBOX",
+    "category": "CATEGORY_PROMOTIONS",
+    "is_unread": false,
+    "is_starred": false,
+    "is_important": false,
+    "user_labels": [],
+    "attachments": [],
+    "calendar_event": null,
+    "extra_headers": {
+      "Return-Path": "<outreach@linkbuildpro.net>"
+    },
+    "size_estimate": 2046,
+    "meta": {
+      "email_class": "cold_outreach",
+      "tricky_tags": [],
+      "is_actionable_for_user": false,
+      "action_owner": null,
+      "action_summary": null,
+      "due_date": null,
+      "commitment_made_by_user": null,
+      "commitment_is_conditional": false,
+      "commitment_condition": null,
+      "superseded_by_message_id": null,
+      "notes": null
+    }
+  },
+  {
+    "id": "b30f18c2e4b60037",
+    "thread_id": "b30f18c2e4b60037",
+    "profile_id": "marketing",
+    "history_id": "713570",
+    "message_id_header": "<b30f18c2e4b60037@webhealthcheck.io>",
+    "in_reply_to": null,
+    "references": [],
+    "thread_position": 1,
+    "thread_length": 1,
+    "from": {
+      "name": "Site Health Team",
+      "email": "seo@webhealthcheck.io"
+    },
+    "to": [
+      {
+        "name": "Jordan Feld",
+        "email": "jordan.feld@habitatgoods.com"
+      }
+    ],
+    "cc": [],
+    "bcc": [],
+    "delivered_to": "jordan.feld@habitatgoods.com",
+    "subject": "Broken link found on habitatgoods.com/blog",
+    "snippet": "Found a broken outbound link on one of your blog posts. Happy to suggest a replacement resource from our site if you'd like to fix it — just reply and I'll send the link.",
+    "body_text": "Found a broken outbound link on one of your blog posts. Happy to suggest a replacement resource from our site if you'd like to fix it — just reply and I'll send the link.",
+    "body_html": null,
+    "date": "2026-06-30T05:10:00-05:00",
+    "internal_date_ms": 1782814200000,
+    "folder": "INBOX",
+    "category": "CATEGORY_PROMOTIONS",
+    "is_unread": false,
+    "is_starred": false,
+    "is_important": false,
+    "user_labels": [],
+    "attachments": [],
+    "calendar_event": null,
+    "extra_headers": {
+      "Return-Path": "<seo@webhealthcheck.io>"
+    },
+    "size_estimate": 2072,
+    "meta": {
+      "email_class": "cold_outreach",
+      "tricky_tags": [],
+      "is_actionable_for_user": false,
+      "action_owner": null,
+      "action_summary": null,
+      "due_date": null,
+      "commitment_made_by_user": null,
+      "commitment_is_conditional": false,
+      "commitment_condition": null,
+      "superseded_by_message_id": null,
+      "notes": null
+    }
+  },
+  {
+    "id": "b30f18c2e4b60038",
+    "thread_id": "b30f18c2e4b60038",
+    "profile_id": "marketing",
+    "history_id": "773402",
+    "message_id_header": "<b30f18c2e4b60038@linkedin.com>",
+    "in_reply_to": null,
+    "references": [],
+    "thread_position": 1,
+    "thread_length": 1,
+    "from": {
+      "name": "LinkedIn",
+      "email": "notifications@linkedin.com"
+    },
+    "to": [
+      {
+        "name": "Jordan Feld",
+        "email": "jordan.feld@habitatgoods.com"
+      }
+    ],
+    "cc": [],
+    "bcc": [],
+    "delivered_to": "jordan.feld@habitatgoods.com",
+    "subject": "You have 5 new notifications on LinkedIn",
+    "snippet": "You have 5 new notifications waiting, including profile views and post reactions. See what's new.",
+    "body_text": "You have 5 new notifications waiting, including profile views and post reactions. See what's new.",
+    "body_html": "<div style=\"font-family:Arial,Helvetica,sans-serif;font-size:14px;color:#222;max-width:600px;margin:0 auto;line-height:1.5;\"><div style=\"border-top:3px solid #0A66C2;padding:16px 0;\"><p style=\"margin:0 0 12px 0;\">You have 5 new notifications waiting, including profile views and post reactions. See what's new.</p></div><p style=\"font-size:11px;color:#888;margin-top:16px;\">You are receiving this email because you subscribed or interacted with our product. <a href=\"https://example-unsub.com/u/{TOKEN}\" style=\"color:#888;\">Unsubscribe</a></p></div>",
+    "date": "2026-08-10T18:22:00-05:00",
+    "internal_date_ms": 1786404120000,
+    "folder": "INBOX",
+    "category": "CATEGORY_SOCIAL",
+    "is_unread": true,
+    "is_starred": false,
+    "is_important": false,
+    "user_labels": [],
+    "attachments": [],
+    "calendar_event": null,
+    "extra_headers": {
+      "Precedence": "bulk",
+      "Return-Path": "<notifications@linkedin.com>"
+    },
+    "size_estimate": 2546,
+    "meta": {
+      "email_class": "social",
+      "tricky_tags": [],
+      "is_actionable_for_user": false,
+      "action_owner": null,
+      "action_summary": null,
+      "due_date": null,
+      "commitment_made_by_user": null,
+      "commitment_is_conditional": false,
+      "commitment_condition": null,
+      "superseded_by_message_id": null,
+      "notes": null
+    }
+  },
+  {
+    "id": "b30f18c2e4b60039",
+    "thread_id": "b30f18c2e4b60039",
+    "profile_id": "marketing",
+    "history_id": "769971",
+    "message_id_header": "<b30f18c2e4b60039@linkedin.com>",
+    "in_reply_to": null,
+    "references": [],
+    "thread_position": 1,
+    "thread_length": 1,
+    "from": {
+      "name": "LinkedIn",
+      "email": "notifications@linkedin.com"
+    },
+    "to": [
+      {
+        "name": "Jordan Feld",
+        "email": "jordan.feld@habitatgoods.com"
+      }
+    ],
+    "cc": [],
+    "bcc": [],
+    "delivered_to": "jordan.feld@habitatgoods.com",
+    "subject": "Sofia Marchetti and 6 others viewed your profile",
+    "snippet": "7 people viewed your profile this week. See who's checking you out.",
+    "body_text": "7 people viewed your profile this week. See who's checking you out.",
+    "body_html": "<div style=\"font-family:Arial,Helvetica,sans-serif;font-size:14px;color:#222;max-width:600px;margin:0 auto;line-height:1.5;\"><div style=\"border-top:3px solid #0A66C2;padding:16px 0;\"><p style=\"margin:0 0 12px 0;\">7 people viewed your profile this week. See who's checking you out.</p></div><p style=\"font-size:11px;color:#888;margin-top:16px;\">You are receiving this email because you subscribed or interacted with our product. <a href=\"https://example-unsub.com/u/{TOKEN}\" style=\"color:#888;\">Unsubscribe</a></p></div>",
+    "date": "2026-08-08T09:11:00-05:00",
+    "internal_date_ms": 1786198260000,
+    "folder": "INBOX",
+    "category": "CATEGORY_SOCIAL",
+    "is_unread": true,
+    "is_starred": false,
+    "is_important": false,
+    "user_labels": [],
+    "attachments": [],
+    "calendar_event": null,
+    "extra_headers": {
+      "Precedence": "bulk",
+      "Return-Path": "<notifications@linkedin.com>"
+    },
+    "size_estimate": 2486,
+    "meta": {
+      "email_class": "social",
+      "tricky_tags": [],
+      "is_actionable_for_user": false,
+      "action_owner": null,
+      "action_summary": null,
+      "due_date": null,
+      "commitment_made_by_user": null,
+      "commitment_is_conditional": false,
+      "commitment_condition": null,
+      "superseded_by_message_id": null,
+      "notes": null
+    }
+  },
+  {
+    "id": "b30f18c2e4b60040",
+    "thread_id": "b30f18c2e4b60040",
+    "profile_id": "marketing",
+    "history_id": "755910",
+    "message_id_header": "<b30f18c2e4b60040@linkedin.com>",
+    "in_reply_to": null,
+    "references": [],
+    "thread_position": 1,
+    "thread_length": 1,
+    "from": {
+      "name": "LinkedIn",
+      "email": "notifications@linkedin.com"
+    },
+    "to": [
+      {
+        "name": "Jordan Feld",
+        "email": "jordan.feld@habitatgoods.com"
+      }
+    ],
+    "cc": [],
+    "bcc": [],
+    "delivered_to": "jordan.feld@habitatgoods.com",
+    "subject": "Your post is getting attention: 62 reactions",
+    "snippet": "Your recent post about Habitat Goods' Q3 lifecycle results is getting attention — 62 reactions and 14 comments so far. Reply to keep the conversation going.",
+    "body_text": "Your recent post about Habitat Goods' Q3 lifecycle results is getting attention — 62 reactions and 14 comments so far. Reply to keep the conversation going.",
+    "body_html": "<div style=\"font-family:Arial,Helvetica,sans-serif;font-size:14px;color:#222;max-width:600px;margin:0 auto;line-height:1.5;\"><div style=\"border-top:3px solid #0A66C2;padding:16px 0;\"><p style=\"margin:0 0 12px 0;\">Your recent post about Habitat Goods' Q3 lifecycle results is getting attention — 62 reactions and 14 comments so far. Reply to keep the conversation going.</p></div><p style=\"font-size:11px;color:#888;margin-top:16px;\">You are receiving this email because you subscribed or interacted with our product. <a href=\"https://example-unsub.com/u/{TOKEN}\" style=\"color:#888;\">Unsubscribe</a></p></div>",
+    "date": "2026-07-29T14:50:00-05:00",
+    "internal_date_ms": 1785354600000,
+    "folder": "INBOX",
+    "category": "CATEGORY_SOCIAL",
+    "is_unread": false,
+    "is_starred": false,
+    "is_important": false,
+    "user_labels": [],
+    "attachments": [],
+    "calendar_event": null,
+    "extra_headers": {
+      "Precedence": "bulk",
+      "Return-Path": "<notifications@linkedin.com>"
+    },
+    "size_estimate": 2668,
+    "meta": {
+      "email_class": "social",
+      "tricky_tags": [],
+      "is_actionable_for_user": false,
+      "action_owner": null,
+      "action_summary": null,
+      "due_date": null,
+      "commitment_made_by_user": null,
+      "commitment_is_conditional": false,
+      "commitment_condition": null,
+      "superseded_by_message_id": null,
+      "notes": null
+    }
+  },
+  {
+    "id": "b30f18c2e4b60041",
+    "thread_id": "b30f18c2e4b60041",
+    "profile_id": "marketing",
+    "history_id": "751363",
+    "message_id_header": "<b30f18c2e4b60041@linkedin.com>",
+    "in_reply_to": null,
+    "references": [],
+    "thread_position": 1,
+    "thread_length": 1,
+    "from": {
+      "name": "LinkedIn",
+      "email": "notifications@linkedin.com"
+    },
+    "to": [
+      {
+        "name": "Jordan Feld",
+        "email": "jordan.feld@habitatgoods.com"
+      }
+    ],
+    "cc": [],
+    "bcc": [],
+    "delivered_to": "jordan.feld@habitatgoods.com",
+    "subject": "You have a new connection request",
+    "snippet": "Chris Baumann wants to connect on LinkedIn. Accept or view profile.",
+    "body_text": "Chris Baumann wants to connect on LinkedIn. Accept or view profile.",
+    "body_html": "<div style=\"font-family:Arial,Helvetica,sans-serif;font-size:14px;color:#222;max-width:600px;margin:0 auto;line-height:1.5;\"><div style=\"border-top:3px solid #0A66C2;padding:16px 0;\"><p style=\"margin:0 0 12px 0;\">Chris Baumann wants to connect on LinkedIn. Accept or view profile.</p></div><p style=\"font-size:11px;color:#888;margin-top:16px;\">You are receiving this email because you subscribed or interacted with our product. <a href=\"https://example-unsub.com/u/{TOKEN}\" style=\"color:#888;\">Unsubscribe</a></p></div>",
+    "date": "2026-07-26T11:03:00-05:00",
+    "internal_date_ms": 1785081780000,
+    "folder": "INBOX",
+    "category": "CATEGORY_SOCIAL",
+    "is_unread": false,
+    "is_starred": false,
+    "is_important": false,
+    "user_labels": [],
+    "attachments": [],
+    "calendar_event": null,
+    "extra_headers": {
+      "Precedence": "bulk",
+      "Return-Path": "<notifications@linkedin.com>"
+    },
+    "size_estimate": 2486,
+    "meta": {
+      "email_class": "social",
+      "tricky_tags": [],
+      "is_actionable_for_user": false,
+      "action_owner": null,
+      "action_summary": null,
+      "due_date": null,
+      "commitment_made_by_user": null,
+      "commitment_is_conditional": false,
+      "commitment_condition": null,
+      "superseded_by_message_id": null,
+      "notes": null
+    }
+  },
+  {
+    "id": "b30f18c2e4b60042",
+    "thread_id": "b30f18c2e4b60042",
+    "profile_id": "marketing",
+    "history_id": "709360",
+    "message_id_header": "<b30f18c2e4b60042@linkedin.com>",
+    "in_reply_to": null,
+    "references": [],
+    "thread_position": 1,
+    "thread_length": 1,
+    "from": {
+      "name": "LinkedIn Job Alerts",
+      "email": "jobs-noreply@linkedin.com"
+    },
+    "to": [
+      {
+        "name": "Jordan Feld",
+        "email": "jordan.feld@habitatgoods.com"
+      }
+    ],
+    "cc": [],
+    "bcc": [],
+    "delivered_to": "jordan.feld@habitatgoods.com",
+    "subject": "5 jobs matching 'VP Marketing' near you",
+    "snippet": "New jobs matching your search: VP Marketing, Head of Growth Marketing, and 3 more. See all matches.",
+    "body_text": "New jobs matching your search: VP Marketing, Head of Growth Marketing, and 3 more. See all matches.",
+    "body_html": "<div style=\"font-family:Arial,Helvetica,sans-serif;font-size:14px;color:#222;max-width:600px;margin:0 auto;line-height:1.5;\"><div style=\"border-top:3px solid #0A66C2;padding:16px 0;\"><p style=\"margin:0 0 12px 0;\">New jobs matching your search: VP Marketing, Head of Growth Marketing, and 3 more. See all matches.</p></div><p style=\"font-size:11px;color:#888;margin-top:16px;\">You are receiving this email because you subscribed or interacted with our product. <a href=\"https://example-unsub.com/u/{TOKEN}\" style=\"color:#888;\">Unsubscribe</a></p></div>",
+    "date": "2026-06-27T07:00:00-05:00",
+    "internal_date_ms": 1782561600000,
+    "folder": "INBOX",
+    "category": "CATEGORY_SOCIAL",
+    "is_unread": false,
+    "is_starred": false,
+    "is_important": false,
+    "user_labels": [],
+    "attachments": [],
+    "calendar_event": null,
+    "extra_headers": {
+      "Precedence": "bulk",
+      "Return-Path": "<jobs-noreply@linkedin.com>"
+    },
+    "size_estimate": 2550,
+    "meta": {
+      "email_class": "social",
+      "tricky_tags": [],
+      "is_actionable_for_user": false,
+      "action_owner": null,
+      "action_summary": null,
+      "due_date": null,
+      "commitment_made_by_user": null,
+      "commitment_is_conditional": false,
+      "commitment_condition": null,
+      "superseded_by_message_id": null,
+      "notes": null
+    }
+  },
+  {
+    "id": "b30f18c2e4b60043",
+    "thread_id": "b30f18c2e4b60043",
+    "profile_id": "marketing",
+    "history_id": "774954",
+    "message_id_header": "<b30f18c2e4b60043@mail.instagram.com>",
+    "in_reply_to": null,
+    "references": [],
+    "thread_position": 1,
+    "thread_length": 1,
+    "from": {
+      "name": "Instagram",
+      "email": "notification@mail.instagram.com"
+    },
+    "to": [
+      {
+        "name": "Jordan Feld",
+        "email": "jordan.feld@habitatgoods.com"
+      }
+    ],
+    "cc": [],
+    "bcc": [],
+    "delivered_to": "jordan.feld@habitatgoods.com",
+    "subject": "Someone tagged Habitat Goods in their story",
+    "snippet": "@mayalindstrom_home tagged Habitat Goods in their story. Tap to view before it expires.",
+    "body_text": "@mayalindstrom_home tagged Habitat Goods in their story. Tap to view before it expires.",
+    "body_html": "<div style=\"font-family:Arial,Helvetica,sans-serif;font-size:14px;color:#222;max-width:600px;margin:0 auto;line-height:1.5;\"><div style=\"border-top:3px solid #E1306C;padding:16px 0;\"><p style=\"margin:0 0 12px 0;\">@mayalindstrom_home tagged Habitat Goods in their story. Tap to view before it expires.</p></div><p style=\"font-size:11px;color:#888;margin-top:16px;\">You are receiving this email because you subscribed or interacted with our product. <a href=\"https://example-unsub.com/u/{TOKEN}\" style=\"color:#888;\">Unsubscribe</a></p></div>",
+    "date": "2026-08-11T20:14:00-05:00",
+    "internal_date_ms": 1786497240000,
+    "folder": "INBOX",
+    "category": "CATEGORY_SOCIAL",
+    "is_unread": true,
+    "is_starred": false,
+    "is_important": false,
+    "user_labels": [],
+    "attachments": [],
+    "calendar_event": null,
+    "extra_headers": {
+      "Precedence": "bulk",
+      "Return-Path": "<notification@mail.instagram.com>"
+    },
+    "size_estimate": 2526,
+    "meta": {
+      "email_class": "social",
+      "tricky_tags": [],
+      "is_actionable_for_user": false,
+      "action_owner": null,
+      "action_summary": null,
+      "due_date": null,
+      "commitment_made_by_user": null,
+      "commitment_is_conditional": false,
+      "commitment_condition": null,
+      "superseded_by_message_id": null,
+      "notes": null
+    }
+  },
+  {
+    "id": "b30f18c2e4b60044",
+    "thread_id": "b30f18c2e4b60044",
+    "profile_id": "marketing",
+    "history_id": "758425",
+    "message_id_header": "<b30f18c2e4b60044@x.com>",
+    "in_reply_to": null,
+    "references": [],
+    "thread_position": 1,
+    "thread_length": 1,
+    "from": {
+      "name": "X",
+      "email": "info@x.com"
+    },
+    "to": [
+      {
+        "name": "Jordan Feld",
+        "email": "jordan.feld@habitatgoods.com"
+      }
+    ],
+    "cc": [],
+    "bcc": [],
+    "delivered_to": "jordan.feld@habitatgoods.com",
+    "subject": "You have 12 new followers on X",
+    "snippet": "12 new people followed @habitatgoods this week. See your new followers.",
+    "body_text": "12 new people followed @habitatgoods this week. See your new followers.",
+    "body_html": "<div style=\"font-family:Arial,Helvetica,sans-serif;font-size:14px;color:#222;max-width:600px;margin:0 auto;line-height:1.5;\"><div style=\"border-top:3px solid #000000;padding:16px 0;\"><p style=\"margin:0 0 12px 0;\">12 new people followed @habitatgoods this week. See your new followers.</p></div><p style=\"font-size:11px;color:#888;margin-top:16px;\">You are receiving this email because you subscribed or interacted with our product. <a href=\"https://example-unsub.com/u/{TOKEN}\" style=\"color:#888;\">Unsubscribe</a></p></div>",
+    "date": "2026-07-31T08:45:00-05:00",
+    "internal_date_ms": 1785505500000,
+    "folder": "INBOX",
+    "category": "CATEGORY_SOCIAL",
+    "is_unread": false,
+    "is_starred": false,
+    "is_important": false,
+    "user_labels": [],
+    "attachments": [],
+    "calendar_event": null,
+    "extra_headers": {
+      "Precedence": "bulk",
+      "Return-Path": "<info@x.com>"
+    },
+    "size_estimate": 2494,
+    "meta": {
+      "email_class": "social",
+      "tricky_tags": [],
+      "is_actionable_for_user": false,
+      "action_owner": null,
+      "action_summary": null,
+      "due_date": null,
+      "commitment_made_by_user": null,
+      "commitment_is_conditional": false,
+      "commitment_condition": null,
+      "superseded_by_message_id": null,
+      "notes": null
+    }
+  },
+  {
+    "id": "b30f18c2e4b60045",
+    "thread_id": "b30f18c2e4b60045",
+    "profile_id": "marketing",
+    "history_id": "702370",
+    "message_id_header": "<b30f18c2e4b60045@linkedin.com>",
+    "in_reply_to": null,
+    "references": [],
+    "thread_position": 1,
+    "thread_length": 1,
+    "from": {
+      "name": "LinkedIn",
+      "email": "notifications@linkedin.com"
+    },
+    "to": [
+      {
+        "name": "Jordan Feld",
+        "email": "jordan.feld@habitatgoods.com"
+      }
+    ],
+    "cc": [],
+    "bcc": [],
+    "delivered_to": "jordan.feld@habitatgoods.com",
+    "subject": "Update your skills to stand out",
+    "snippet": "Recruiters are 3x more likely to view profiles with updated skills. Add your recent experience in under 2 minutes.",
+    "body_text": "Recruiters are 3x more likely to view profiles with updated skills. Add your recent experience in under 2 minutes.",
+    "body_html": "<div style=\"font-family:Arial,Helvetica,sans-serif;font-size:14px;color:#222;max-width:600px;margin:0 auto;line-height:1.5;\"><div style=\"border-top:3px solid #0A66C2;padding:16px 0;\"><p style=\"margin:0 0 12px 0;\">Recruiters are 3x more likely to view profiles with updated skills. Add your recent experience in under 2 minutes.</p></div><p style=\"font-size:11px;color:#888;margin-top:16px;\">You are receiving this email because you subscribed or interacted with our product. <a href=\"https://example-unsub.com/u/{TOKEN}\" style=\"color:#888;\">Unsubscribe</a></p></div>",
+    "date": "2026-06-22T10:30:00-05:00",
+    "internal_date_ms": 1782142200000,
+    "folder": "INBOX",
+    "category": "CATEGORY_SOCIAL",
+    "is_unread": false,
+    "is_starred": false,
+    "is_important": false,
+    "user_labels": [],
+    "attachments": [],
+    "calendar_event": null,
+    "extra_headers": {
+      "Precedence": "bulk",
+      "Return-Path": "<notifications@linkedin.com>"
+    },
+    "size_estimate": 2580,
+    "meta": {
+      "email_class": "social",
+      "tricky_tags": [],
+      "is_actionable_for_user": false,
+      "action_owner": null,
+      "action_summary": null,
+      "due_date": null,
+      "commitment_made_by_user": null,
+      "commitment_is_conditional": false,
+      "commitment_condition": null,
+      "superseded_by_message_id": null,
+      "notes": null
+    }
+  },
+  {
+    "id": "b30f18c2e4b60046",
+    "thread_id": "b30f18c2e4b60046",
+    "profile_id": "marketing",
+    "history_id": "752334",
+    "message_id_header": "<b30f18c2e4b60046@accounts-google-verify.com>",
+    "in_reply_to": null,
+    "references": [],
+    "thread_position": 1,
+    "thread_length": 1,
+    "from": {
+      "name": "Google Security Team",
+      "email": "security-alert@accounts-google-verify.com"
+    },
+    "to": [
+      {
+        "name": "Jordan Feld",
+        "email": "jordan.feld@habitatgoods.com"
+      }
+    ],
+    "cc": [],
+    "bcc": [],
+    "delivered_to": "jordan.feld@habitatgoods.com",
+    "subject": "URGENT: Your Google Workspace account will be suspended",
+    "snippet": "Dear User, We detect unusual activity on your Google Workspace account (jordan.feld@habitatgoods.com). Your account will be SUSPENDED within 24 hours unless you verify your identit",
+    "body_text": "Dear User,\n\nWe detect unusual activity on your Google Workspace account (jordan.feld@habitatgoods.com). Your account will be SUSPENDED within 24 hours unless you verify your identity immediately.\n\nCLICK HERE TO VERIFY YOUR ACCOUNT: http://accounts-google-verify.com/login?user=jordan.feld\n\nYou must enter your email and password to confirm you are the account owner. Failure to verify will result in permanent loss of access to all your files and emails.\n\nThis is an automated message, do not reply.\n\nGoogle Security Team",
+    "body_html": "<div style=\"font-family:Arial,Helvetica,sans-serif;font-size:14px;color:#222;max-width:600px;margin:0 auto;line-height:1.5;\"><div style=\"border-top:3px solid #4285F4;padding:16px 0;\"><p style=\"margin:0 0 12px 0;\">Dear User,</p><p style=\"margin:0 0 12px 0;\">We detect unusual activity on your Google Workspace account (jordan.feld@habitatgoods.com). Your account will be SUSPENDED within 24 hours unless you verify your identity immediately.</p><p style=\"margin:0 0 12px 0;\">CLICK HERE TO VERIFY YOUR ACCOUNT: http://accounts-google-verify.com/login?user=jordan.feld</p><p style=\"margin:0 0 12px 0;\">You must enter your email and password to confirm you are the account owner. Failure to verify will result in permanent loss of access to all your files and emails.</p><p style=\"margin:0 0 12px 0;\">This is an automated message, do not reply.</p><p style=\"margin:0 0 12px 0;\">Google Security Team</p></div><p style=\"font-size:11px;color:#888;margin-top:16px;\">You are receiving this email because you subscribed or interacted with our product. <a href=\"https://example-unsub.com/u/{TOKEN}\" style=\"color:#888;\">Unsubscribe</a></p></div>",
+    "date": "2026-07-27T03:14:00-05:00",
+    "internal_date_ms": 1785140040000,
+    "folder": "SPAM",
+    "category": null,
+    "is_unread": true,
+    "is_starred": false,
+    "is_important": false,
+    "user_labels": [],
+    "attachments": [],
+    "calendar_event": null,
+    "extra_headers": {
+      "Authentication-Results": "spf=fail (google.com: domain of security-alert@accounts-google-verify.com does not designate permitted sender)",
+      "Return-Path": "<bounce@accounts-google-verify.com>"
+    },
+    "size_estimate": 3554,
+    "meta": {
+      "email_class": "phishing",
+      "tricky_tags": [],
+      "is_actionable_for_user": false,
+      "action_owner": null,
+      "action_summary": null,
+      "due_date": null,
+      "commitment_made_by_user": null,
+      "commitment_is_conditional": false,
+      "commitment_condition": null,
+      "superseded_by_message_id": null,
+      "notes": "Crude phishing attempt impersonating Google account security, mismatched lookalike domain, urgency pressure, credential-harvesting link."
+    }
+  },
+  {
+    "id": "b30f18c2e4b60047",
+    "thread_id": "b30f18c2e4b60047",
+    "profile_id": "marketing",
+    "history_id": "716318",
+    "message_id_header": "<b30f18c2e4b60047@globalmarketingawards-fund.com>",
+    "in_reply_to": null,
+    "references": [],
+    "thread_position": 1,
+    "thread_length": 1,
+    "from": {
+      "name": "International Marketing Excellence Lottery",
+      "email": "claims@globalmarketingawards-fund.com"
+    },
+    "to": [
+      {
+        "name": "Jordan Feld",
+        "email": "jordan.feld@habitatgoods.com"
+      }
+    ],
+    "cc": [],
+    "bcc": [],
+    "delivered_to": "jordan.feld@habitatgoods.com",
+    "subject": "CONGRATULATIONS!!! You have won $850,000 USD",
+    "snippet": "ATTENTION: Your email address has been randomly selected as a winner in the 2026 International Marketing Excellence Lottery, sponsored by a consortium of global advertising associa",
+    "body_text": "ATTENTION: Your email address has been randomly selected as a winner in the 2026 International Marketing Excellence Lottery, sponsored by a consortium of global advertising associations!\n\nYou have won the sum of $850,000.00 USD (Eight Hundred Fifty Thousand US Dollars).\n\nTo claim your prize, kindly send the following details to our claims agent within 7 days: Full Name, Address, Phone Number, and a processing fee of $250 (payable via Bitcoin or gift card) to cover administrative and courier charges.\n\nFailure to respond within 7 days will result in forfeiture of your winnings to the next selected winner.\n\nCongratulations once again!\n\nDr. Michael Adeyemi\nClaims Coordinator",
+    "body_html": null,
+    "date": "2026-07-02T02:58:00-05:00",
+    "internal_date_ms": 1782979080000,
+    "folder": "SPAM",
+    "category": null,
+    "is_unread": true,
+    "is_starred": false,
+    "is_important": false,
+    "user_labels": [],
+    "attachments": [],
+    "calendar_event": null,
+    "extra_headers": {
+      "Authentication-Results": "spf=fail",
+      "Return-Path": "<claims@globalmarketingawards-fund.com>"
+    },
+    "size_estimate": 2579,
+    "meta": {
+      "email_class": "spam",
+      "tricky_tags": [],
+      "is_actionable_for_user": false,
+      "action_owner": null,
+      "action_summary": null,
+      "due_date": null,
+      "commitment_made_by_user": null,
+      "commitment_is_conditional": false,
+      "commitment_condition": null,
+      "superseded_by_message_id": null,
+      "notes": "Classic advance-fee lottery scam requesting an upfront payment to release fictitious winnings."
+    }
+  },
+  {
+    "id": "b30f18c2e4b60048",
+    "thread_id": "b30f18c2e4b60048",
+    "profile_id": "marketing",
+    "history_id": "690885",
+    "message_id_header": "<b30f18c2e4b60048@domain-registry-services.com>",
+    "in_reply_to": null,
+    "references": [],
+    "thread_position": 1,
+    "thread_length": 1,
+    "from": {
+      "name": "Domain Registry Services",
+      "email": "billing@domain-registry-services.com"
+    },
+    "to": [
+      {
+        "name": "Jordan Feld",
+        "email": "jordan.feld@habitatgoods.com"
+      }
+    ],
+    "cc": [],
+    "bcc": [],
+    "delivered_to": "jordan.feld@habitatgoods.com",
+    "subject": "FINAL NOTICE: habitatgoods.com domain expiring",
+    "snippet": "This is a notice that your domain habitatgoods.com is due to expire soon. As a courtesy, we are offering you the opportunity to renew for 3 years at a discounted rate of $299.99 by",
+    "body_text": "This is a notice that your domain habitatgoods.com is due to expire soon. As a courtesy, we are offering you the opportunity to renew for 3 years at a discounted rate of $299.99 by calling the number below or completing the enclosed form and returning payment immediately.\n\nThis notice is not a bill. This is a solicitation. You are under no obligation to pay the amount stated unless you accept this offer.\n\nDomain Registry Services",
+    "body_html": null,
+    "date": "2026-06-14T11:05:00-05:00",
+    "internal_date_ms": 1781453100000,
+    "folder": "SPAM",
+    "category": null,
+    "is_unread": true,
+    "is_starred": false,
+    "is_important": false,
+    "user_labels": [],
+    "attachments": [],
+    "calendar_event": null,
+    "extra_headers": {
+      "Authentication-Results": "spf=fail",
+      "Return-Path": "<billing@domain-registry-services.com>"
+    },
+    "size_estimate": 2333,
+    "meta": {
+      "email_class": "spam",
+      "tricky_tags": [],
+      "is_actionable_for_user": false,
+      "action_owner": null,
+      "action_summary": null,
+      "due_date": null,
+      "commitment_made_by_user": null,
+      "commitment_is_conditional": false,
+      "commitment_condition": null,
+      "superseded_by_message_id": null,
+      "notes": "Fake domain-renewal solicitation designed to look like an official expiration notice; habitatgoods.com is not actually registered through this sender."
+    }
+  },
+  {
+    "id": "b30f18c2e4b60049",
+    "thread_id": "b30f18c2e4b60049",
+    "profile_id": "marketing",
+    "history_id": "740901",
+    "message_id_header": "<b30f18c2e4b60049@luxoutletdeals.top>",
+    "in_reply_to": null,
+    "references": [],
+    "thread_position": 1,
+    "thread_length": 1,
+    "from": {
+      "name": "Lux Outlet Deals",
+      "email": "deals@luxoutletdeals.top"
+    },
+    "to": [
+      {
+        "name": "Jordan Feld",
+        "email": "jordan.feld@habitatgoods.com"
+      }
+    ],
+    "cc": [],
+    "bcc": [],
+    "delivered_to": "jordan.feld@habitatgoods.com",
+    "subject": "Luxury home decor REPLICAS 80% OFF - limited time",
+    "snippet": "Designer-inspired home decor at unbeatable prices! Vases, lighting, and furniture replicas up to 80% off retail. Limited stock, ships worldwide. Shop now before it's gone!",
+    "body_text": "Designer-inspired home decor at unbeatable prices! Vases, lighting, and furniture replicas up to 80% off retail. Limited stock, ships worldwide. Shop now before it's gone!",
+    "body_html": "<div style=\"font-family:Arial,Helvetica,sans-serif;font-size:14px;color:#222;max-width:600px;margin:0 auto;line-height:1.5;\"><div style=\"border-top:3px solid #D4AF37;padding:16px 0;\"><p style=\"margin:0 0 12px 0;\">Designer-inspired home decor at unbeatable prices! Vases, lighting, and furniture replicas up to 80% off retail. Limited stock, ships worldwide. Shop now before it's gone!</p></div><p style=\"font-size:11px;color:#888;margin-top:16px;\">You are receiving this email because you subscribed or interacted with our product. <a href=\"https://example-unsub.com/u/{TOKEN}\" style=\"color:#888;\">Unsubscribe</a></p></div>",
+    "date": "2026-07-19T04:41:00-05:00",
+    "internal_date_ms": 1784454060000,
+    "folder": "SPAM",
+    "category": null,
+    "is_unread": true,
+    "is_starred": false,
+    "is_important": false,
+    "user_labels": [],
+    "attachments": [],
+    "calendar_event": null,
+    "extra_headers": {
+      "Authentication-Results": "spf=fail",
+      "Return-Path": "<deals@luxoutletdeals.top>"
+    },
+    "size_estimate": 2694,
+    "meta": {
+      "email_class": "spam",
+      "tricky_tags": [],
+      "is_actionable_for_user": false,
+      "action_owner": null,
+      "action_summary": null,
+      "due_date": null,
+      "commitment_made_by_user": null,
+      "commitment_is_conditional": false,
+      "commitment_condition": null,
+      "superseded_by_message_id": null,
+      "notes": "Generic replica-goods spam ad, unrelated cold blast."
+    }
+  },
+  {
+    "id": "b30f18c2e4b60050",
+    "thread_id": "b30f18c2e4b60050",
+    "profile_id": "marketing",
+    "history_id": "759433",
+    "message_id_header": "<b30f18c2e4b60050@cryptoboost-ai.com>",
+    "in_reply_to": null,
+    "references": [],
+    "thread_position": 1,
+    "thread_length": 1,
+    "from": {
+      "name": "CryptoBoost AI",
+      "email": "invest@cryptoboost-ai.com"
+    },
+    "to": [
+      {
+        "name": "Jordan Feld",
+        "email": "jordan.feld@habitatgoods.com"
+      }
+    ],
+    "cc": [],
+    "bcc": [],
+    "delivered_to": "jordan.feld@habitatgoods.com",
+    "subject": "Triple your marketing budget with our AI trading bot",
+    "snippet": "Hi Jordan, Marketing budgets are tight everywhere right now. What if your company's idle cash could work harder? Our AI trading bot has generated verified returns of 15-20% MONTHLY",
+    "body_text": "Hi Jordan,\n\nMarketing budgets are tight everywhere right now. What if your company's idle cash could work harder? Our AI trading bot has generated verified returns of 15-20% MONTHLY for businesses just like yours.\n\nDeposit as little as $5,000 in crypto and watch our algorithm trade 24/7 on your behalf. Withdraw anytime. No experience needed.\n\nReply 'START' to get your account set up today — limited spots available this month.\n\nCryptoBoost AI Team",
+    "body_html": null,
+    "date": "2026-08-01T01:33:00-05:00",
+    "internal_date_ms": 1785565980000,
+    "folder": "SPAM",
+    "category": null,
+    "is_unread": true,
+    "is_starred": false,
+    "is_important": false,
+    "user_labels": [],
+    "attachments": [],
+    "calendar_event": null,
+    "extra_headers": {
+      "Authentication-Results": "spf=fail",
+      "Return-Path": "<invest@cryptoboost-ai.com>"
+    },
+    "size_estimate": 2352,
+    "meta": {
+      "email_class": "spam",
+      "tricky_tags": [],
+      "is_actionable_for_user": false,
+      "action_owner": null,
+      "action_summary": null,
+      "due_date": null,
+      "commitment_made_by_user": null,
+      "commitment_is_conditional": false,
+      "commitment_condition": null,
+      "superseded_by_message_id": null,
+      "notes": "Crypto investment pyramid-scheme spam promising unrealistic guaranteed returns."
+    }
+  }
+]
