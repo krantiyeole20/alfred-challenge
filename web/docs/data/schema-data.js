@@ -27,7 +27,7 @@ const SCHEMA_SECTIONS = [
   /* ===================================================== 3.2 IDENTITY & SYNC */
   {
     id: 'identity', num: '3.2', title: 'Identity & sync',
-    lede: 'Who the user is, which mailboxes we read, and which addresses count as “me”. Two of the six questions — waiting on me vs. waiting on them — reduce to a lookup against user_identities.',
+    lede: 'The user, their connected mailboxes, and every address that counts as “me”.',
     viewportH: 560,
     tables: [
       {
@@ -117,7 +117,7 @@ const SCHEMA_SECTIONS = [
   /* ==================================================== 3.3 COUNTERPARTIES */
   {
     id: 'counterparties', num: '3.3', title: 'Counterparties',
-    lede: 'A person is a cluster of observed addresses. Scoped to exact-address resolution for now: a wrong merge hides work items silently.',
+    lede: 'One person = a cluster of observed addresses. Exact-address matching only — a wrong merge hides work silently.',
     viewportH: 420,
     tables: [
       {
@@ -162,7 +162,7 @@ const SCHEMA_SECTIONS = [
   /* ============================================== 3.4 MESSAGES & THREADS */
   {
     id: 'messages', num: '3.4', title: 'Messages & threads',
-    lede: 'Threads are OUR entity, rebuilt from RFC Message-ID and References, because Gmail and Outlook group by different rules and a dual-account user would otherwise see the same conversation twice.',
+    lede: 'Threads are our own entity, rebuilt from RFC Message-ID and References. Providers group differently; we group once.',
     viewportH: 620,
     tables: [
       {
@@ -240,7 +240,7 @@ const SCHEMA_SECTIONS = [
   /* ======================================================== 3.5 SIGNALS */
   {
     id: 'signals', num: '3.5', title: 'Deterministic signals',
-    lede: 'No LLM anywhere in this section. is_automated is the only cost lever on extraction, so it is detected from headers rather than by model judgment — it sits on the cost path for every message.',
+    lede: 'Deterministic facts per email, over full history. No LLM. is_automated gates extraction cost.',
     viewportH: 540,
     tables: [
       {
@@ -277,7 +277,7 @@ const SCHEMA_SECTIONS = [
   /* ======================================================= 3.6 EVIDENCE */
   {
     id: 'evidence', num: '3.6', title: 'Evidence — the ledger',
-    lede: 'One row per claim the model made about one email. Never updated. The quality gate runs at write time, not read time — because everything that reaches evidence has cleared the bar, the naive latest-wins reducer stays correct.',
+    lede: 'One row per model claim. Insert-only. The quality gate runs at write time, so the naive latest-wins reducer stays correct.',
     viewportH: 700,
     tables: [
       {
@@ -393,7 +393,7 @@ const SCHEMA_SECTIONS = [
   /* ===================================================== 3.7 PROJECTION */
   {
     id: 'projection', num: '3.7', title: 'Projection — work items',
-    lede: 'Disposable. Written only by the reducer. Rebuildable by replaying evidence. Changed in v0.4: a work item is no longer owned by one thread — the same obligation can be discussed across several threads, so thread membership moved to a junction table.',
+    lede: 'Current state, folded from evidence. Disposable — rebuilt by replay. v0.4: a work item spans threads.',
     viewportH: 700,
     tables: [
       {
@@ -490,7 +490,7 @@ const SCHEMA_SECTIONS = [
   /* ====================================================== 3.8 ATTENTION */
   {
     id: 'attention', num: '3.8', title: 'Attention',
-    lede: 'ONE candidate pool feeds all three of "needs attention", "forgetting", and "slipping". Separate generators would surface the same overdue invoice three times in three framings, which reads as the assistant being confused.',
+    lede: 'One candidate pool feeds "needs attention", "forgetting", and "slipping". Suppression filters; it never penalizes.',
     viewportH: 480,
     tables: [
       {
@@ -538,7 +538,7 @@ const SCHEMA_SECTIONS = [
   /* ======================================================== 3.9 SURFACE */
   {
     id: 'surface', num: '3.9', title: 'Surface — digests & feedback',
-    lede: 'Explicit window columns rather than "yesterday": a missed run or a backfill then produces a correct wider window instead of a silent gap. Impressions are logged from day one because behavioural data cannot be backfilled.',
+    lede: 'Digests, ranking priors, and feedback. Impressions logged from day one — behavioural data cannot be backfilled.',
     viewportH: 640,
     tables: [
       {
@@ -624,7 +624,7 @@ const SCHEMA_SECTIONS = [
   /* =============================================== 3.10 PIPELINE CONTROL */
   {
     id: 'pipeline', num: '3.10', title: 'Pipeline control',
-    lede: 'In this system a silent failure is not a crash, it is a MISSING OBLIGATION. The user sees a shorter list and has no way to know something is absent. Every stage therefore records what it did, what it rejected, and why.',
+    lede: 'Sync events, idempotency, backfill, retries. A silent failure here is a missing obligation.',
     viewportH: 600,
     tables: [
       {
@@ -707,7 +707,7 @@ const SCHEMA_SECTIONS = [
   /* ==================================================== 3.11 EVALUATION */
   {
     id: 'evaluation', num: '3.11', title: 'Evaluation',
-    lede: 'Clustering → person resolution → extraction → matching → ranking is a chain, so errors multiply: five stages at 90% is ~59% correct end to end. work_item_changes is effectively free labelled data — prior value, new value, causing email, timestamp.',
+    lede: 'Per-stage ground truth and metrics. Errors multiply across the chain — five stages at 90% is ~59% end to end.',
     viewportH: 500,
     tables: [
       {

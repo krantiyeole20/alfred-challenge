@@ -1,8 +1,20 @@
-# alfred-challenge — mock Gmail corpus
+# alfred-challenge
 
-A synthetic but structurally faithful Gmail dataset for five people with very
-different jobs. Built to stress-test anything that reads a mailbox and tries to
-work out what the owner actually has to do.
+**→ [Read the design doc: Email Indexing for alfred_](https://krantiyeole20.github.io/alfred-challenge/)**
+
+That doc is the full approach plan — why the six questions alfred_ has to
+answer ("what's waiting on me", "what changed", "what's slipping"...) are
+temporal/relational rather than semantic, why that rules out a plain
+chunk-embed-retrieve pipeline in favour of a ledger of LLM-extracted claims
+folded by a deterministic reducer, the 35-table Postgres schema, the
+end-to-end dataflows, job breakdown, failure modes, evaluation plan, and a
+SQL reference. Source lives at [web/docs/](web/docs/index.html); it's
+rebuilt automatically on every push via [.github/workflows/pages.yml](.github/workflows/pages.yml).
+
+This repo also contains the mock Gmail corpus the design is built and
+evaluated against: a synthetic but structurally faithful Gmail dataset for
+five people with very different jobs, built to stress-test anything that
+reads a mailbox and tries to work out what the owner actually has to do.
 
 **1,500 messages · 5 mailboxes · 300 each · window 2026-06-13 → 2026-08-12**
 (≈75 % of each mailbox falls in the last 30 days, mirroring how real inbox
@@ -41,6 +53,10 @@ src/
 results/
   corpus_report.md           coverage tables
   stats.json                 the same numbers, machine-readable
+web/docs/
+  index.html                 the design doc (approach, schema, dataflows, jobs, evaluation, SQL reference)
+  data/schema.sql            the schema referenced by the doc, as runnable SQL
+  assets/, data/             doc styling and rendering data
 ```
 
 ## Two representations of every message

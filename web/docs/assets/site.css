@@ -74,9 +74,10 @@ code { font-family: var(--mono); font-size: 0.82em; background: var(--bg-soft); 
 .layer-l { font-family: var(--mono); font-size: 11.5px; font-weight: 600; color: var(--accent); width: 44px; }
 .layer-name { font-weight: 600; width: 110px; }
 .layers .layer-desc { color: var(--ink-soft); }
-.invariants { max-width: 660px; margin: 10px 0 0; padding: 0; counter-reset: inv; list-style: none; }
-.invariants li { counter-increment: inv; position: relative; padding: 10px 14px 10px 46px; background: var(--bg-soft); border: 1px solid var(--line); border-radius: var(--radius); margin-bottom: 8px; font-size: 14px; }
-.invariants li::before { content: counter(inv, decimal-leading-zero); position: absolute; left: 14px; top: 11px; font-family: var(--mono); font-size: 11px; font-weight: 600; color: var(--accent); }
+.invariants { max-width: 740px; margin: 8px 0 0; padding: 0; counter-reset: inv; list-style: none; border-top: 1px solid var(--line-strong); }
+.invariants li { counter-increment: inv; display: grid; grid-template-columns: 40px 1fr; gap: 14px; align-items: baseline; padding: 8px 2px; border-bottom: 1px solid var(--line); font-size: 14px; color: var(--ink-soft); line-height: 1.55; }
+.invariants li::before { content: counter(inv, decimal-leading-zero); font-family: var(--mono); font-size: 11px; font-weight: 600; color: var(--accent); }
+.invariants li b { color: var(--ink); }
 
 /* ============================================================ schema view */
 .sv-top { display: flex; align-items: center; gap: 14px; flex-wrap: wrap; margin-bottom: 14px; }
@@ -275,12 +276,35 @@ h3.subhead { font-size: 18px; font-weight: 700; letter-spacing: -0.015em; margin
 h3.subhead .snum { font-family: var(--mono); font-size: 12px; color: var(--accent); font-weight: 500; }
 .sub-lede { color: var(--ink-soft); margin: 2px 0 18px; max-width: 720px; font-size: 14.5px; }
 
-/* design-stance highlight callout */
-.stance { max-width: 780px; margin: 22px 0; border: 1px solid #ddd9f2; border-left: 4px solid var(--accent); border-radius: 10px; background: var(--accent-bg); padding: 14px 20px; }
-.stance .stance-tag { font-family: var(--mono); font-size: 9.5px; font-weight: 600; text-transform: uppercase; letter-spacing: 0.1em; color: var(--accent); display: block; margin-bottom: 4px; }
-.stance p { font-size: 14.5px; margin: 0; color: var(--ink); }
-.stance.warn { border-color: #eeddc8; border-left-color: var(--warn); background: var(--warn-bg); }
-.stance.warn .stance-tag { color: var(--warn); }
+/* design-stance annotation block — numbered, accent bar, light tint */
+body { counter-reset: stance caveat; }
+.stance { max-width: 780px; margin: 30px 0; padding: 14px 20px 15px; border: 0; border-left: 3px solid var(--accent); border-radius: 0 10px 10px 0; background: linear-gradient(90deg, rgba(79,70,163,0.055), rgba(79,70,163,0.015)); }
+.stance:not(.warn) { counter-increment: stance; }
+.stance.warn { counter-increment: caveat; border-left-color: var(--warn); background: linear-gradient(90deg, rgba(162,91,30,0.06), rgba(162,91,30,0.015)); }
+.stance .stance-tag { display: flex; align-items: baseline; gap: 10px; font-family: var(--sans); font-size: 15px; font-weight: 700; letter-spacing: -0.01em; text-transform: none; color: var(--ink); margin-bottom: 6px; }
+.stance .stance-tag::before { content: "S" counter(stance, decimal-leading-zero); font-family: var(--mono); font-size: 10px; font-weight: 600; letter-spacing: 0.08em; color: var(--accent); background: var(--bg); border: 1px solid var(--accent-bright); border-radius: 5px; padding: 2px 7px; position: relative; top: -1px; }
+.stance.warn .stance-tag::before { content: "C" counter(caveat, decimal-leading-zero); color: var(--warn); border-color: #ddb98a; }
+.stance p { font-size: 14px; margin: 0; color: var(--ink-soft); line-height: 1.65; }
+.stance p b, .stance p i { color: var(--ink); }
+.stance .pointers { margin-top: 8px; }
+
+/* pointer lists — the doc's default for choices, tradeoffs, consequences */
+.pointers { list-style: none; margin: 10px 0 14px; padding: 0; max-width: 760px; }
+.pointers li { position: relative; padding: 4px 0 4px 22px; font-size: 14px; color: var(--ink-soft); line-height: 1.55; }
+.pointers li::before { content: "—"; position: absolute; left: 0; top: 4px; color: var(--accent); font-weight: 600; }
+.pointers li b, .pointers li code { color: var(--ink); }
+.pointers.tight li { padding-top: 2.5px; padding-bottom: 2.5px; }
+
+/* SQL reference — collapsed by default */
+details.sqlref { max-width: 860px; border: 1px solid var(--line); border-radius: 12px; background: var(--bg); box-shadow: var(--shadow-sm); margin: 12px 0; overflow: hidden; }
+details.sqlref summary { cursor: pointer; list-style: none; display: flex; align-items: baseline; gap: 12px; padding: 13px 18px; font-weight: 600; font-size: 14px; }
+details.sqlref summary::-webkit-details-marker { display: none; }
+details.sqlref summary::before { content: "▸"; color: var(--accent); font-size: 12px; }
+details.sqlref[open] summary::before { content: "▾"; }
+details.sqlref summary:hover { background: var(--bg-soft); }
+details.sqlref summary .sum-note { font-family: var(--mono); font-size: 11px; font-weight: 400; color: var(--ink-faint); margin-left: auto; }
+details.sqlref pre.sql { margin: 0; border-radius: 0; max-width: none; border-top: 1px solid var(--line); }
+.sqlref-loading { padding: 14px 18px; font-size: 13px; color: var(--ink-faint); }
 
 /* six-questions table + generic doc tables */
 .doc-table { max-width: 780px; width: 100%; border-collapse: collapse; font-size: 14px; border: 1px solid var(--line); border-radius: 12px; overflow: hidden; box-shadow: var(--shadow-sm); }
