@@ -240,20 +240,22 @@ const SCHEMA_SECTIONS = [
   /* ======================================================== 3.5 SIGNALS */
   {
     id: 'signals', num: '3.5', title: 'Deterministic signals',
-    lede: 'Deterministic facts per email, over full history. No LLM. is_automated gates extraction cost.',
+    lede: 'Deterministic facts per email, over full history. No LLM. is_noise — not is_automated — gates extraction cost.',
     viewportH: 540,
     tables: [
       {
         id: 'email_signals', name: 'email_signals', x: 430, y: 60, w: 290, mode: 'upsert',
-        comment: 'Facts computed from every email, human or automated, over full history. Automated mail is never discarded — it skips extraction, but its signals power behavioral aggregates (volume trends, reply latency, automated-vs-human ratios) that models never touch.',
-        indexes: ['idx_signals_user_human ON (user_id) WHERE NOT is_automated'],
-        meta: { layer: 'L2 signals', written_by: 'signals job', llm: 'none, ever', cost_role: 'is_automated gates extraction — removes ~⅔ of volume before any model call' },
+        comment: 'Facts computed from every email — noise, automated or human — over full history. Two distinct flags: is_automated records the MECHANISM (machine-sent), is_noise is the ROUTING DECISION (bulk mail with nothing to track). Only is_noise gates extraction. Nothing is discarded either way; signals power behavioral aggregates that models never touch.',
+        indexes: ['idx_signals_user_content ON (user_id) WHERE NOT is_noise'],
+        meta: { layer: 'L2 signals', written_by: 'signals job', llm: 'none, ever', cost_role: 'is_noise gates extraction — removes ~⅔ of volume before any model call', why_two_flags: 'gating on is_automated would drop application updates, receipts and ticket changes — machine-sent, but they close real work items' },
         cols: [
           { n: 'email_id', t: 'uuid', pk: true, fk: 'emails.id' },
           { n: 'user_id', t: 'uuid', fk: 'users.id', req: true },
           { n: 'thread_id', t: 'uuid', fk: 'threads.id' },
-          { n: 'is_automated', t: 'boolean', req: true },
+          { n: 'is_automated', t: 'boolean', req: true, note: 'mechanism only — machine-sent. Does NOT gate extraction' },
           { n: 'automation_reason', t: 'text', note: 'list_unsubscribe | precedence_bulk | auto_submitted | noreply_local | esp_return_path' },
+          { n: 'is_noise', t: 'boolean', req: true, note: 'THE extraction gate — bulk mail with nothing to track' },
+          { n: 'noise_reason', t: 'text', note: 'spam_label | bulk_marketing | newsletter | promotion | advert | list_archive' },
           { n: 'user_in_to', t: 'boolean', req: true, note: 'To vs Cc is the cheapest salience signal there is' },
           { n: 'user_in_cc', t: 'boolean', req: true },
           { n: 'user_is_sender', t: 'boolean', req: true },

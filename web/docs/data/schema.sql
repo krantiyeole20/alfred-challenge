@@ -202,7 +202,15 @@ CREATE INDEX idx_participants_person  ON email_participants (person_id);
 CREATE INDEX idx_participants_address ON email_participants (raw_address);
 
 -- =============================================================================
--- 4. DETERMINISTIC SIGNALS -- no LLM. is_automated is the cost lever.
+-- 4. DETERMINISTIC SIGNALS -- no LLM. is_noise is the cost lever.
+--
+-- TWO FLAGS, DELIBERATELY SEPARATE:
+--   is_automated  mechanism   -- was this machine-sent?
+--   is_noise      routing     -- is there anything here worth tracking?
+-- Only is_noise gates extraction. Gating on is_automated would silently drop
+-- application status changes, receipts, ticket updates and delivery
+-- confirmations: all machine-sent from no-reply@, all carrying state that
+-- closes or advances a real work item.
 -- =============================================================================
 
 CREATE TABLE email_signals (
@@ -210,8 +218,15 @@ CREATE TABLE email_signals (
     user_id           UUID NOT NULL REFERENCES users(id) ON DELETE CASCADE,
     thread_id         UUID REFERENCES threads(id),
 
+    -- mechanism: machine-sent. Retained for aggregates; does NOT gate extraction.
     is_automated      BOOLEAN NOT NULL DEFAULT FALSE,
     automation_reason TEXT,                        -- list_unsubscribe | precedence_bulk | auto_submitted | noreply_local | esp_return_path
+
+    -- routing: bulk mail with nothing to track. THIS is the extraction gate.
+    -- Keyed on bulk markers only -- auto_submitted / noreply_local alone are
+    -- NOT sufficient, because transactional machine mail carries real state.
+    is_noise          BOOLEAN NOT NULL DEFAULT FALSE,
+    noise_reason      TEXT,                        -- spam_label | bulk_marketing | newsletter | promotion | advert | list_archive
 
     user_in_to        BOOLEAN NOT NULL,            -- To vs Cc: cheapest salience signal
     user_in_cc        BOOLEAN NOT NULL,
@@ -229,7 +244,7 @@ CREATE TABLE email_signals (
     computed_at       TIMESTAMPTZ NOT NULL DEFAULT now()
 );
 
-CREATE INDEX idx_signals_user_human ON email_signals (user_id) WHERE NOT is_automated;
+CREATE INDEX idx_signals_user_content ON email_signals (user_id) WHERE NOT is_noise;
 
 -- =============================================================================
 -- 5. EVIDENCE (APPEND-ONLY LEDGER)

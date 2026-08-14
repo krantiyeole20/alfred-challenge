@@ -75,8 +75,8 @@ code { font-family: var(--mono); font-size: 0.82em; background: var(--bg-soft); 
 .layer-name { font-weight: 600; width: 110px; }
 .layers .layer-desc { color: var(--ink-soft); }
 .invariants { max-width: 740px; margin: 8px 0 0; padding: 0; counter-reset: inv; list-style: none; border-top: 1px solid var(--line-strong); }
-.invariants li { counter-increment: inv; display: grid; grid-template-columns: 40px 1fr; gap: 14px; align-items: baseline; padding: 8px 2px; border-bottom: 1px solid var(--line); font-size: 14px; color: var(--ink-soft); line-height: 1.55; }
-.invariants li::before { content: counter(inv, decimal-leading-zero); font-family: var(--mono); font-size: 11px; font-weight: 600; color: var(--accent); }
+.invariants li { counter-increment: inv; position: relative; padding: 8px 2px 8px 44px; border-bottom: 1px solid var(--line); font-size: 14px; color: var(--ink-soft); line-height: 1.55; }
+.invariants li::before { content: counter(inv, decimal-leading-zero); position: absolute; left: 2px; top: 9px; font-family: var(--mono); font-size: 11px; font-weight: 600; color: var(--accent); }
 .invariants li b { color: var(--ink); }
 
 /* ============================================================ schema view */
@@ -276,17 +276,30 @@ h3.subhead { font-size: 18px; font-weight: 700; letter-spacing: -0.015em; margin
 h3.subhead .snum { font-family: var(--mono); font-size: 12px; color: var(--accent); font-weight: 500; }
 .sub-lede { color: var(--ink-soft); margin: 2px 0 18px; max-width: 720px; font-size: 14.5px; }
 
-/* design-stance annotation block — numbered, accent bar, light tint */
+/* design note — a boxed print aside, not a UI card. Bordered frame on all
+   four sides, sharp-ish corners, NO fill, NO left accent bar. The label cuts
+   into the top rule like a <fieldset><legend> — the frame itself is the
+   only device; color lives in the border + legend, never in a background. */
 body { counter-reset: stance caveat; }
-.stance { max-width: 780px; margin: 30px 0; padding: 14px 20px 15px; border: 0; border-left: 3px solid var(--accent); border-radius: 0 10px 10px 0; background: linear-gradient(90deg, rgba(79,70,163,0.055), rgba(79,70,163,0.015)); }
+.stance { position: relative; max-width: 720px; margin: 40px 0 32px; padding: 21px 22px 18px; border: 1.5px solid var(--ink); border-radius: 3px; background: var(--bg); }
+.stance.warn { border-color: var(--warn); }
 .stance:not(.warn) { counter-increment: stance; }
-.stance.warn { counter-increment: caveat; border-left-color: var(--warn); background: linear-gradient(90deg, rgba(162,91,30,0.06), rgba(162,91,30,0.015)); }
-.stance .stance-tag { display: flex; align-items: baseline; gap: 10px; font-family: var(--sans); font-size: 15px; font-weight: 700; letter-spacing: -0.01em; text-transform: none; color: var(--ink); margin-bottom: 6px; }
-.stance .stance-tag::before { content: "S" counter(stance, decimal-leading-zero); font-family: var(--mono); font-size: 10px; font-weight: 600; letter-spacing: 0.08em; color: var(--accent); background: var(--bg); border: 1px solid var(--accent-bright); border-radius: 5px; padding: 2px 7px; position: relative; top: -1px; }
-.stance.warn .stance-tag::before { content: "C" counter(caveat, decimal-leading-zero); color: var(--warn); border-color: #ddb98a; }
-.stance p { font-size: 14px; margin: 0; color: var(--ink-soft); line-height: 1.65; }
-.stance p b, .stance p i { color: var(--ink); }
+.stance.warn { counter-increment: caveat; }
+.stance::before {
+  content: "Design note " counter(stance, decimal-leading-zero);
+  position: absolute; top: -9px; left: 16px;
+  background: var(--bg); padding: 0 8px;
+  font-family: var(--mono); font-size: 10.5px; font-weight: 700;
+  letter-spacing: 0.07em; text-transform: uppercase; color: var(--accent);
+}
+.stance.warn::before { content: "Caveat " counter(caveat, decimal-leading-zero); color: var(--warn); }
+.stance .stance-tag { display: block; font-size: 15.5px; font-weight: 700; color: var(--ink); margin-bottom: 7px; letter-spacing: -0.005em; }
+.stance p { font-size: 14.5px; margin: 0; color: var(--ink); line-height: 1.65; }
+.stance p b { font-weight: 700; }
+.stance p i { font-style: italic; }
 .stance .pointers { margin-top: 8px; }
+.stance .pointers li { color: var(--ink); }
+.stance .pointers li b { color: var(--ink); }
 
 /* pointer lists — the doc's default for choices, tradeoffs, consequences */
 .pointers { list-style: none; margin: 10px 0 14px; padding: 0; max-width: 760px; }
@@ -347,6 +360,20 @@ pre.sql .s { color: #ffd479; }
 .mode-legend { display: flex; flex-wrap: wrap; gap: 8px 14px; margin: 14px 0 6px; max-width: 820px; }
 .mode-legend .item { display: inline-flex; align-items: baseline; gap: 7px; font-size: 12.5px; color: var(--ink-soft); }
 
+/* write-discipline matrix — mode × tables × rule, built from the schema data */
+.mode-table { width: 100%; max-width: 900px; border-collapse: collapse; font-size: 13.5px; border: 1px solid var(--line); border-radius: 10px; overflow: hidden; margin: 16px 0 6px; }
+.mode-table th { text-align: left; font-size: 10.5px; text-transform: uppercase; letter-spacing: 0.07em; color: var(--ink-faint); background: var(--bg-soft); padding: 9px 14px; border-bottom: 1px solid var(--line); }
+.mode-table td { padding: 11px 14px; border-bottom: 1px solid var(--line); vertical-align: top; background: var(--bg); }
+.mode-table tr:last-child td { border-bottom: 0; }
+.mode-table .mcell { white-space: nowrap; width: 150px; }
+.mode-table .mname { display: block; margin-top: 5px; font-weight: 600; font-size: 12.5px; color: var(--ink); }
+.mode-table .mcount { font-family: var(--mono); font-size: 10px; color: var(--ink-faint); }
+.mode-table .trule { color: var(--ink-soft); font-size: 12.5px; width: 210px; }
+.mode-table .tlist { display: flex; flex-wrap: wrap; gap: 4px; }
+.tchip { font-family: var(--mono); font-size: 10.5px; color: var(--ink); background: var(--bg-soft); border: 1px solid var(--line-strong); border-radius: 5px; padding: 2px 7px; cursor: pointer; transition: border-color .12s ease, color .12s ease, background .12s ease; }
+.tchip:hover { border-color: var(--accent); color: var(--accent); background: var(--accent-bg); }
+@media (max-width: 900px) { .mode-table .mcell, .mode-table .trule { width: auto; } }
+
 /* stub chips on canvas */
 .sv-stub { border-style: dashed; background: var(--bg-soft); opacity: 0.9; }
 .sv-stub .sv-table-head { background: transparent; border-bottom: 0; }
@@ -406,19 +433,21 @@ pre.sql .s { color: #ffd479; }
 .result-box.evil { color: var(--bad); background: var(--bad-bg); border-color: #d9a0a0; }
 .clock-note { font-size: 13px; color: var(--ink-soft); max-width: 440px; }
 
-/* three-tier capability lists */
-.tiers { display: grid; grid-template-columns: repeat(3, 1fr); gap: 14px; margin: 18px 0; }
-.tier { border: 1px solid var(--line); border-radius: 12px; background: var(--bg); box-shadow: var(--shadow-sm); padding: 16px 18px; }
+/* three-tier capability comparison — one bordered strip, hairline-divided
+   columns, no per-tier card chrome. Distinction is in the label color only. */
+.tiers { display: grid; grid-template-columns: repeat(3, 1fr); gap: 0; margin: 18px 0; border: 1px solid var(--line); border-radius: 10px; overflow: hidden; }
+.tier { padding: 18px 20px; border-left: 1px solid var(--line); }
+.tier:first-child { border-left: 0; }
 .tier h4 { margin: 0 0 3px; font-size: 14.5px; font-weight: 700; }
-.tier .tier-sub { font-size: 12px; color: var(--ink-faint); margin: 0 0 10px; }
-.tier h5 { font-size: 10.5px; font-weight: 700; text-transform: uppercase; letter-spacing: 0.07em; color: var(--accent); margin: 12px 0 4px; }
-.tier ul { margin: 0; padding-left: 18px; font-size: 13px; color: var(--ink-soft); }
+.tier .tier-sub { font-size: 12px; color: var(--ink-faint); margin: 0 0 12px; padding-bottom: 11px; border-bottom: 1px solid var(--line); }
+.tier h5 { font-size: 10px; font-weight: 700; text-transform: uppercase; letter-spacing: 0.08em; color: var(--ink-faint); margin: 14px 0 5px; }
+.tier ul { margin: 0; padding-left: 16px; font-size: 13px; color: var(--ink-soft); }
 .tier li { margin-bottom: 4px; }
 .tier li b { color: var(--ink); }
-.tier.t-free { border-top: 3px solid var(--ok); }
-.tier.t-near { border-top: 3px solid var(--warn); }
-.tier.t-far { border-top: 3px solid var(--ink-faint); }
-.tier .prov-spot { border: 1px solid #ddd9f2; background: var(--accent-bg); border-radius: 8px; padding: 8px 10px; margin-top: 10px; font-size: 12.5px; color: var(--ink); }
+.tier.t-free h4 { color: var(--ok); }
+.tier.t-near h4 { color: var(--warn); }
+.tier.t-far h4 { color: var(--ink-soft); }
+.tier .prov-spot { border: 0; border-left: 1px solid var(--line-strong); background: none; border-radius: 0; padding: 6px 0 6px 12px; margin-top: 12px; font-size: 12.5px; color: var(--ink-soft); }
 .tier .prov-spot b { color: var(--accent); }
 
 /* stat strip */
@@ -429,7 +458,7 @@ pre.sql .s { color: #ffd479; }
 
 footer.doc-footer { border-top: 1px solid var(--line); margin-top: 80px; padding-top: 16px; font-size: 12.5px; color: var(--ink-faint); display: flex; justify-content: space-between; flex-wrap: wrap; gap: 8px; }
 
-@media (max-width: 1100px) { .fv-stages { grid-template-columns: 1fr 1fr; row-gap: 26px; } .fv-stage:nth-child(2n)::after { content: none; } .tiers { grid-template-columns: 1fr; } .principles { grid-template-columns: 1fr; } }
+@media (max-width: 1100px) { .fv-stages { grid-template-columns: 1fr 1fr; row-gap: 26px; } .fv-stage:nth-child(2n)::after { content: none; } .tiers { grid-template-columns: 1fr; } .tier { border-left: 0; border-top: 1px solid var(--line); } .tier:first-child { border-top: 0; } .principles { grid-template-columns: 1fr; } }
 @media (max-width: 980px) { .fc-cols { grid-template-columns: 1fr; gap: 18px; } .fc-meta { grid-template-columns: 1fr; } .fv-graph { grid-template-columns: 1fr; } }
 @media (max-width: 900px) {
   .shell { grid-template-columns: 1fr; }

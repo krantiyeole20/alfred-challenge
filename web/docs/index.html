@@ -117,8 +117,8 @@
         <h3>Invariants</h3>
         <div id="invariants"></div>
         <h3>Write discipline</h3>
-        <p>Every table has exactly <b>one owning job</b>. Two writers on one table eventually disagree, and then no query knows which to trust. Every table in the diagrams below carries its write-mode badge:</p>
-        <div class="mode-legend" id="mode-legend"></div>
+        <p>Every table has exactly <b>one owning job</b>. Two writers on one table eventually disagree, and then no query knows which to trust. Every table carries its mode as a badge in the diagrams below — click any name here to open it.</p>
+        <div class="table-scroll" id="mode-table"></div>
         <div class="stat-strip">
           <div class="stat"><div class="n">35</div><div class="l">tables (34 + work_item_threads, v0.4)</div></div>
           <div class="stat"><div class="n">13</div><div class="l">append-only — why "what changed" is a query, not a guess</div></div>
@@ -138,8 +138,13 @@
       <div id="flow-e2e">
         <h3 class="subhead"><span class="snum">4.1</span>One email, end to end</h3>
         <div id="flow-mount-e2e"></div>
-        <div class="stance"><span class="stance-tag">Automation is not discarded</span>
-          <p>Automated, organizational, and non-human messages are <b>never thrown away</b>. They take the index-only lane: raw storage and deterministic signals over full history, no model calls. That lane is what makes "how much of my inbox is automated," volume trends, and every behavioral aggregate answerable — while keeping extraction cost proportional to genuinely human mail (~⅓ of volume).</p>
+        <div class="stance"><span class="stance-tag">The gate is noise, not automation</span>
+          <p><b>Automated is a mechanism; noise is a judgment.</b> Only noise skips the model — spam, newsletters, adverts, promotions, list archives: bulk mail with nothing to track.</p>
+          <ul class="pointers tight">
+            <li>Machine-sent is <b>not</b> disqualifying. An application moving to interview, a receipt, a ticket update, a delivery confirmation — all arrive from <code>no-reply@</code>, all close or advance real work items. Gating on <code>is_automated</code> would silently drop every one.</li>
+            <li>So the flag is keyed on <b>bulk markers</b> (List-Unsubscribe + Precedence: bulk + ESP return-path + provider spam/promotions labels), not on Auto-Submitted or a no-reply local part alone.</li>
+            <li>Noise is <b>never thrown away</b> — stored and signalled over full history, so volume trends and "how much of my inbox is marketing" stay answerable. It just never reaches the model.</li>
+          </ul>
         </div>
       </div>
 
@@ -189,7 +194,7 @@
           <thead><tr><th></th><th>Steady state</th><th>Backfill</th></tr></thead>
           <tbody>
             <tr><td>Direction</td><td>Forward in time</td><td><b>Newest-first</b></td></tr>
-            <tr><td>Extraction scope</td><td>All non-automated</td><td>Recent window only</td></tr>
+            <tr><td>Extraction scope</td><td>All non-noise</td><td>Recent window only</td></tr>
             <tr><td>Signals scope</td><td>Per email</td><td>Full history</td></tr>
             <tr><td>Priority</td><td>High</td><td>Rate-limited, never starves live traffic</td></tr>
             <tr><td>Reducer input order</td><td>Chronological</td><td><b>Out of order</b> — safe, because the fold orders by provider_ts</td></tr>
@@ -203,7 +208,7 @@
         <div class="transcript">
           <div class="tr-mail"><span class="tr-date">Aug 04</span><span class="tr-who">Sarah → user</span><span class="tr-quote">“Can you send me the Q3 forecast by Friday?”</span></div>
           <div class="tr-body">
-            <div class="tr-row"><dt>signals</dt><dd><code>is_automated = false</code> · <code>user_in_to = true</code></dd></div>
+            <div class="tr-row"><dt>signals</dt><dd><code>is_noise = false</code> · <code>is_automated = false</code> · <code>user_in_to = true</code></dd></div>
             <div class="tr-row"><dt>evidence</dt><dd>speech_act <b>request</b> · attribute <b>deliverable</b> = “Q3 forecast” · owner: user (via user_identities) · quote verified · <code>valid_from = Aug 08</code> · confidence 0.94</dd></div>
             <div class="tr-row"><dt>match</dt><dd>no candidate → <b>created_new</b></dd></div>
             <div class="tr-row"><dt>work_item</dt><dd>OPEN · owner_is_self · due Aug 08</dd></div>
@@ -275,12 +280,12 @@
 
       <h3>Six rules I would defend</h3>
       <ol class="invariants">
-        <li><b>The cursor advances only after the batch commits.</b> Advance it first and a crash loses that window permanently — provider history cursors expire and the range cannot be re-read.</li>
-        <li><b>Extraction is a queue consumer, not a cron.</b> A backfill burst of 400 emails must not become 400 simultaneous model calls. Concurrency is capped independently of inbound volume, so a burst degrades latency rather than breaking rate limits.</li>
-        <li><b>The reducer folds by emails.provider_ts, not evidence.observed_at.</b> Backfill runs newest-first, so an old email processed today has the newest observed_at. The hazard exists only during backfill, which is exactly why it survives testing and breaks in production.</li>
-        <li><b>The change row is written before the projection, in one transaction.</b> Reverse them and a crash between the two loses the prior value permanently — "what changed" gets a hole nobody can see.</li>
-        <li><b>is_automated is detected from headers, never by a model.</b> It gates whether extraction runs at all, removing roughly two thirds of volume before any model call. It sits on the cost path for every message, so it must be deterministic.</li>
-        <li><b>Closing a work item requires higher confidence than opening one.</b> A falsely-opened item is visible noise; a falsely-closed item vanishes and the user never learns it existed.</li>
+        <li><span><b>The cursor advances only after the batch commits.</b> Advance it first and a crash loses that window permanently — provider history cursors expire and the range cannot be re-read.</span></li>
+        <li><span><b>Extraction is a queue consumer, not a cron.</b> A backfill burst of 400 emails must not become 400 simultaneous model calls. Concurrency is capped independently of inbound volume, so a burst degrades latency rather than breaking rate limits.</span></li>
+        <li><span><b>The reducer folds by emails.provider_ts, not evidence.observed_at.</b> Backfill runs newest-first, so an old email processed today has the newest observed_at. The hazard exists only during backfill, which is exactly why it survives testing and breaks in production.</span></li>
+        <li><span><b>The change row is written before the projection, in one transaction.</b> Reverse them and a crash between the two loses the prior value permanently — "what changed" gets a hole nobody can see.</span></li>
+        <li><span><b>The noise gate is detected from headers, never by a model.</b> It decides whether extraction runs at all, removing roughly two thirds of volume before any model call, so it must be deterministic. It keys on bulk markers — not on machine-sent — so transactional automated mail still reaches the model.</span></li>
+        <li><span><b>Closing a work item requires higher confidence than opening one.</b> A falsely-opened item is visible noise; a falsely-closed item vanishes and the user never learns it existed.</span></li>
       </ol>
 
       <h3>The three numbers that matter</h3>
@@ -431,10 +436,10 @@
       </div>
       <p>Levers, in order of effect:</p>
       <ol class="invariants">
-        <li><b>Automated filtering</b> — removes ~two thirds of volume before any model runs; detected from headers (List-Unsubscribe, Precedence: bulk, Auto-Submitted, no-reply patterns), never by model judgment, because it sits on the cost path for every message.</li>
-        <li><b>Novel-content-only extraction</b> — cuts tokens substantially on long threads.</li>
-        <li><b>Recent-window extraction</b> — bounds backfill regardless of history depth.</li>
-        <li><b>Deterministic signals over full history</b> — historical aggregates never touch a model.</li>
+        <li><span><b>Noise filtering</b> — removes ~two thirds of volume before any model runs; detected from headers (List-Unsubscribe, Precedence: bulk, ESP return-path, provider spam/promotions labels), never by model judgment, because it sits on the cost path for every message. Auto-Submitted and no-reply alone do not qualify — transactional machine mail still carries trackable state.</span></li>
+        <li><span><b>Novel-content-only extraction</b> — cuts tokens substantially on long threads.</span></li>
+        <li><span><b>Recent-window extraction</b> — bounds backfill regardless of history depth.</span></li>
+        <li><span><b>Deterministic signals over full history</b> — historical aggregates never touch a model.</span></li>
       </ol>
       <div class="stance"><span class="stance-tag">Numbers never touch the model</span>
         <p><b>Number-shaped questions never touch an LLM.</b> Models are unreliable at arithmetic; the data is already in SQL. Deterministic aggregation is cheaper and more correct.</p>
@@ -561,13 +566,49 @@ LIMIT 10;</pre>
   });
   document.getElementById('invariants').appendChild(ol);
 
-  const legend = document.getElementById('mode-legend');
-  Object.entries(WRITE_MODES).forEach(function (pair) {
-    const item = document.createElement('span');
-    item.className = 'item';
-    item.innerHTML = '<span class="sv-mode mode-' + pair[0] + '">' + pair[1].short + '</span> ' + pair[1].label + ' — ' + pair[1].desc;
-    legend.appendChild(item);
+  /* write-discipline matrix, derived from the schema so it can never drift */
+  const byMode = {};
+  SCHEMA_SECTIONS.forEach(function (sec) {
+    sec.tables.forEach(function (t) {
+      (byMode[t.mode] = byMode[t.mode] || []).push(t.id);
+    });
   });
+  const mt = document.createElement('table');
+  mt.className = 'mode-table';
+  mt.innerHTML = '<thead><tr><th>Mode</th><th>Tables</th><th>Rule</th></tr></thead>';
+  const mtb = document.createElement('tbody');
+  Object.keys(WRITE_MODES).forEach(function (key) {
+    const m = WRITE_MODES[key];
+    const list = byMode[key] || [];
+    const tr = document.createElement('tr');
+
+    const tdMode = document.createElement('td');
+    tdMode.className = 'mcell';
+    tdMode.innerHTML = '<span class="sv-mode mode-' + key + '">' + m.short + '</span>' +
+      '<span class="mname">' + m.label + '</span>' +
+      '<span class="mcount">' + list.length + ' table' + (list.length === 1 ? '' : 's') + '</span>';
+
+    const tdList = document.createElement('td');
+    const wrap = document.createElement('div');
+    wrap.className = 'tlist';
+    list.forEach(function (id) {
+      const chip = document.createElement('button');
+      chip.className = 'tchip';
+      chip.textContent = id;
+      chip.addEventListener('click', function () { SchemaView.open(id); });
+      wrap.appendChild(chip);
+    });
+    tdList.appendChild(wrap);
+
+    const tdRule = document.createElement('td');
+    tdRule.className = 'trule';
+    tdRule.textContent = m.desc;
+
+    tr.append(tdMode, tdList, tdRule);
+    mtb.appendChild(tr);
+  });
+  mt.appendChild(mtb);
+  document.getElementById('mode-table').appendChild(mt);
 })();
 
 /* ---------- schema sections, one after another ---------- */
