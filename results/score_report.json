@@ -294,11 +294,16 @@
     "q4_waiting_on_others": {
       "gold_items": 5,
       "answers_returned": 25,
-      "covered": 2,
-      "recall": 0.4,
-      "precision": 0.08,
+      "covered": 1,
+      "recall": 0.2,
+      "precision": 0.04,
       "leaked": [],
       "missed": [
+        {
+          "item_id": "marketing-q4-01",
+          "claim": "Nina Sokolov owes Jordan and Wes the board-readable methodology paragraph explaining the position-based attribution mode",
+          "tricky_tags": []
+        },
         {
           "item_id": "marketing-q4-03",
           "claim": "Tessa Brandt has not responded to Jordan's Aug 5 counter on the FY27 retainer \u2014 11% with a 14-month term, or flat at the",

@@ -432,14 +432,15 @@ async function askAgent(question) {
         status.textContent = "querying the ledger";
         const chip = el("span", "trace running");
         chip.append(el("b", null, name.replace(/_/g, " ")));
-        chips.set(name, chip);
+        chips.set(`${name}:${chips.size}`, chip);
+        state.lastChip = chip;
         trace.append(chip);
       },
-      onToolDone: (name, n) => {
-        const chip = chips.get(name);
+      onToolDone: (name, n, failed) => {
+        const chip = state.lastChip;
         if (!chip) return;
         chip.classList.remove("running");
-        chip.classList.add("done");
+        chip.classList.add(failed ? "failed" : "done");
         chip.append(el("span", "trace-n", n === 1 ? "1 row" : `${n} rows`));
       },
       onText: (delta) => {

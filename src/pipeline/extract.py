@@ -259,10 +259,31 @@ def extract_one(llm: LLM, row: sqlite3.Row, participants: list[sqlite3.Row]) -> 
 
 def run(conn: sqlite3.Connection, stats: dict, limit: int | None = None,
         only_email_ids: list[str] | None = None, profile: str | None = None,
-        redo: bool = False) -> None:
+        redo: bool = False, retry_failures: bool = False) -> None:
     seed_vocab(conn)
 
     primary, fallback = resolve_models()
+    if retry_failures:
+        # A quarantined claim means the cheap model wrote a quote that was not
+        # in the source. Re-running it on the same model would most likely
+        # reproduce the same miss, so escalate to the stronger one.
+        primary = fallback
+        only_email_ids = [
+            r["source_email_id"]
+            for r in conn.execute(
+                "SELECT DISTINCT source_email_id FROM evidence_quarantine"
+            )
+        ]
+        if not only_email_ids:
+            print("  nothing quarantined; nothing to retry")
+            return
+        conn.execute(
+            "DELETE FROM evidence_quarantine WHERE source_email_id IN "
+            f"({','.join('?' * len(only_email_ids))})",
+            only_email_ids,
+        )
+        redo = True
+        print(f"  retrying {len(only_email_ids)} quarantined emails on {primary}")
     print(f"  extracting with {primary} (fallback {fallback})")
     llm = LLM(primary, fallback)
 
@@ -426,10 +447,12 @@ def _quarantine(conn, row, claim, reason, model) -> None:
     )
 
 
-def main(limit: int | None = None, profile: str | None = None, redo: bool = False) -> None:
+def main(limit: int | None = None, profile: str | None = None, redo: bool = False,
+         retry_failures: bool = False) -> None:
     conn = connect()
     with run_record(conn, "extract", config.PRIMARY_MODEL) as stats:
-        run(conn, stats, limit=limit, profile=profile, redo=redo)
+        run(conn, stats, limit=limit, profile=profile, redo=redo,
+            retry_failures=retry_failures)
     kept = conn.execute("SELECT count(*) FROM evidence").fetchone()[0]
     quarantined = conn.execute("SELECT count(*) FROM evidence_quarantine").fetchone()[0]
     verified = conn.execute(

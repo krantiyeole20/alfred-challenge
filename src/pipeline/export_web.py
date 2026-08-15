@@ -102,19 +102,30 @@ def build(dest: Path = WEB_DB, compress: bool = True) -> Path:
     for stmt in INDEXES:
         out.execute(stmt)
 
-    # Full-text search over mail, so the demo's search box is a real index
-    # rather than a LIKE scan across 1,500 bodies.
+    # Search index.
+    #
+    # NOT fts5: the sql.js WASM build the demo loads is compiled without the
+    # FTS5 module, so a virtual table here creates a file that Python can
+    # query and the browser cannot -- every search throws "no such module".
+    # A plain lowercased blob with LIKE is entirely adequate for 1,500 rows
+    # and works everywhere.
     out.execute(
-        "CREATE VIRTUAL TABLE email_fts USING fts5("
-        "  subject, body, sender, email_id UNINDEXED, tokenize='porter unicode61')"
+        "CREATE TABLE email_search ("
+        "  email_id TEXT PRIMARY KEY, user_id TEXT NOT NULL,"
+        "  subject TEXT, sender TEXT, blob TEXT)"
     )
     out.execute(
-        "INSERT INTO email_fts (subject, body, sender, email_id) "
-        "SELECT e.subject, e.body_text_novel, "
+        "INSERT INTO email_search (email_id, user_id, subject, sender, blob) "
+        "SELECT e.id, e.user_id, e.subject, "
         "  COALESCE((SELECT raw_name || ' ' || raw_address FROM email_participants p "
         "            WHERE p.email_id = e.id AND p.role = 'from' LIMIT 1), ''), "
-        "  e.id FROM emails e"
+        "  lower("
+        "    COALESCE(e.subject,'') || ' ' || COALESCE(e.body_text_novel,'') || ' ' || "
+        "    COALESCE((SELECT group_concat(raw_name || ' ' || raw_address, ' ') "
+        "              FROM email_participants p WHERE p.email_id = e.id), '')"
+        "  ) FROM emails e"
     )
+    out.execute("CREATE INDEX ix_search_user ON email_search (user_id)")
 
     out.commit()
     out.execute("VACUUM")

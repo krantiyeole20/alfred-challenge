@@ -13,6 +13,14 @@
 
 import { CONFIG } from "./config.js";
 
+// Words that match nearly every email and only dilute a search.
+const STOPWORDS = new Set([
+  "the", "a", "an", "any", "anything", "some", "from", "for", "of", "to", "in",
+  "on", "do", "did", "does", "have", "has", "had", "is", "are", "was", "were",
+  "me", "my", "i", "we", "you", "your", "about", "with", "and", "or", "what",
+  "who", "when", "where", "which", "there", "this", "that", "get", "got",
+]);
+
 export class Ledger {
   constructor() {
     this.db = null;
@@ -106,28 +114,74 @@ export class Ledger {
 
   // ── agent tools ───────────────────────────────────────────────────
 
-  /** Full-text search over the mailbox. */
+  /**
+   * Search the mailbox.
+   *
+   * LIKE over a precomputed lowercase blob rather than FTS5: the sql.js WASM
+   * build has no FTS5 module, so a virtual table would throw "no such module"
+   * on every call. Over 1,500 rows this is a few milliseconds.
+   *
+   * Terms are ANDed, then if that finds nothing the search falls back to ORing
+   * them -- "Marcus Bell" should still find Marcus when only the first name
+   * appears, rather than returning nothing and stalling the agent.
+   */
   search(userId, query, limit = 15) {
-    // FTS5 treats punctuation as syntax; quote each term so a user typing
-    // an address or "Q3 - deck" doesn't produce a syntax error.
-    const safe = String(query)
+    const terms = String(query ?? "")
+      .toLowerCase()
+      .replace(/[^\w@.\- ]+/g, " ")
       .split(/\s+/)
-      .filter(Boolean)
-      .map((t) => `"${t.replace(/"/g, '""')}"`)
-      .join(" ");
-    if (!safe) return [];
-    return this.all(
-      `SELECT e.provider_message_id AS message_id,
-              e.subject, e.provider_ts AS sent_at, e.direction,
-              substr(e.body_text_novel, 1, 260) AS excerpt,
-              (SELECT raw_address FROM email_participants p
-                WHERE p.email_id = e.id AND p.role='from' LIMIT 1) AS sender
-       FROM email_fts f
-       JOIN emails e ON e.id = f.email_id
-       WHERE email_fts MATCH :q AND e.user_id = :u
-       ORDER BY bm25(email_fts) LIMIT :n`,
-      { ":q": safe, ":u": userId, ":n": limit }
+      .filter((t) => t.length > 1 && !STOPWORDS.has(t));
+    if (!terms.length) return [];
+
+    const run = (joiner) => {
+      const where = terms.map((_, i) => `s.blob LIKE :t${i}`).join(joiner);
+      const params = { ":u": userId, ":n": limit };
+      terms.forEach((t, i) => (params[`:t${i}`] = `%${t}%`));
+      return this.all(
+        `SELECT e.provider_message_id AS message_id, e.subject, e.thread_id,
+                e.provider_ts AS sent_at, e.direction, s.sender,
+                substr(e.body_text_novel, 1, 260) AS excerpt
+         FROM email_search s JOIN emails e ON e.id = s.email_id
+         WHERE s.user_id = :u AND (${where})
+         ORDER BY e.provider_ts DESC LIMIT :n`,
+        params
+      );
+    };
+
+    const strict = run(" AND ");
+    return strict.length ? strict : run(" OR ");
+  }
+
+  /**
+   * Mail involving one person, by name or address.
+   *
+   * "Do I have anything from Marcus?" is a participant question, not a
+   * full-text one -- it was the gap that sent the agent into a run_sql loop.
+   */
+  fromPerson(userId, who, limit = 15) {
+    const needle = `%${String(who ?? "").toLowerCase().trim()}%`;
+    if (needle.length < 4) return { matches: [], messages: [] };
+
+    const matches = this.all(
+      `SELECT DISTINCT p.canonical_name AS name, pi.address
+       FROM people p JOIN person_identities pi ON pi.person_id = p.id
+       WHERE p.user_id = :u
+         AND (lower(p.canonical_name) LIKE :q OR lower(pi.address) LIKE :q)
+       LIMIT 8`,
+      { ":u": userId, ":q": needle }
     );
+
+    const messages = this.all(
+      `SELECT e.provider_message_id AS message_id, e.subject, e.thread_id,
+              e.provider_ts AS sent_at, e.direction,
+              pt.role, pt.raw_name AS person, pt.raw_address AS address
+       FROM email_participants pt JOIN emails e ON e.id = pt.email_id
+       WHERE e.user_id = :u
+         AND (lower(pt.raw_name) LIKE :q OR lower(pt.raw_address) LIKE :q)
+       ORDER BY e.provider_ts DESC LIMIT :n`,
+      { ":u": userId, ":q": needle, ":n": limit }
+    );
+    return { matches, messages };
   }
 
   /** One message, with its participants and attachments. */

@@ -65,6 +65,7 @@ def cmd_extract(args) -> None:
         limit=args.limit,
         profile=getattr(args, "profile", None),
         redo=getattr(args, "redo", False),
+        retry_failures=getattr(args, "retry_failures", False),
     )
 
 
@@ -138,6 +139,10 @@ def main() -> None:
     p_ex.add_argument(
         "--redo", action="store_true",
         help="re-extract emails that already have evidence (default: resume)",
+    )
+    p_ex.add_argument(
+        "--retry-failures", action="store_true",
+        help="re-extract only quarantined emails, on the stronger fallback model",
     )
     p_ex.set_defaults(fn=cmd_extract)
 

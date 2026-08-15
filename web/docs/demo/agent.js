@@ -12,6 +12,10 @@
 
 import { CONFIG } from "./config.js";
 
+// A failing tool used to burn the whole budget in retries; 12 leaves room
+// to recover and still bounds a runaway loop.
+export const MAX_HOPS = 12;
+
 export const TOOLS = [
   {
     name: "needs_attention",
@@ -71,6 +75,21 @@ export const TOOLS = [
       type: "object",
       properties: { query: { type: "string", description: "Search terms." } },
       required: ["query"],
+    },
+  },
+  {
+    name: "mail_from_person",
+    description:
+      "Find mail involving a specific person, by name or email address, and the " +
+      "addresses that person uses. Use this FIRST for any question naming a person " +
+      "— 'anything from Marcus', 'what did Dana say', 'has legal replied'. This is " +
+      "a participant lookup; search_mail only matches text.",
+    parameters: {
+      type: "object",
+      properties: {
+        who: { type: "string", description: "A person's name or email address." },
+      },
+      required: ["who"],
     },
   },
   {
@@ -155,6 +174,12 @@ export class Agent {
     this.userId = userId;
     this.owner = owner;
     this.contents = [];
+    this.trace = [];
+  }
+
+  /** Everything the last turns did, for the UI and for debugging. */
+  telemetry() {
+    return this.trace;
   }
 
   /** Execute a tool call locally. Returns { result, rows } — rows drive citations. */
@@ -176,7 +201,29 @@ export class Agent {
     }
     if (name === "search_mail") {
       const rows = L.search(u, args.query ?? "", 12);
-      return { rows: [], result: rows };
+      return {
+        rows: [],
+        result: rows.length
+          ? rows
+          : {
+              matches: 0,
+              hint:
+                "No text match. If the question names a person, call " +
+                "mail_from_person instead — it searches participants, not body text.",
+            },
+      };
+    }
+    if (name === "mail_from_person") {
+      const found = L.fromPerson(u, args.who ?? "", 12);
+      return {
+        rows: [],
+        result: found.messages.length
+          ? found
+          : {
+              matches: 0,
+              hint: `Nobody matching "${args.who}" appears in this mailbox. Say so plainly rather than guessing.`,
+            },
+      };
     }
     if (name === "read_thread") {
       return { rows: [], result: L.thread(args.thread_id) };
@@ -185,7 +232,13 @@ export class Agent {
       return { rows: [], result: L.conflicts(u) };
     }
     if (name === "run_sql") {
-      return { rows: [], result: L.sql(u, args.sql ?? "") };
+      const out = L.sql(u, args.sql ?? "");
+      if (!out.error && out.row_count === 0) {
+        out.hint =
+          "Zero rows. Do not retry variations blindly — prefer mail_from_person " +
+          "for people, search_mail for topics, or one of the six ranked questions.";
+      }
+      return { rows: [], result: out };
     }
     if (name === "get_schema") {
       return { rows: [], result: L.schema() };
@@ -207,7 +260,7 @@ export class Agent {
     const citations = [];
     let remaining = null;
 
-    for (let hop = 0; hop < 6; hop++) {
+    for (let hop = 0; hop < MAX_HOPS; hop++) {
       const res = await fetch(`${CONFIG.WORKER_URL}/api/chat`, {
         method: "POST",
         headers: { "Content-Type": "application/json" },
@@ -289,16 +342,33 @@ export class Agent {
         } catch (err) {
           out = { rows: [], result: { error: String(err.message ?? err) } };
         }
-        const n = Array.isArray(out.result) ? out.result.length : out.rows.length;
-        onToolDone(name, n);
+        const n = Array.isArray(out.result)
+          ? out.result.length
+          : out.result?.messages?.length ?? out.result?.row_count ?? out.rows.length;
+        const failed = Boolean(out.result?.error) || n === 0;
+        const entry = {
+          hop, name, args, rows: n, failed,
+          error: out.result?.error ?? null,
+          hint: out.result?.hint ?? null,
+          at: new Date().toISOString(),
+        };
+        this.trace.push(entry);
+        // Surfaced in the console too: a silent tool failure is what turned
+        // one broken search into a six-hop stall.
+        console.debug("[alfred tool]", entry);
+        onToolDone(name, n, failed);
         citations.push(...out.rows);
         responses.push({ functionResponse: { name, response: { result: out.result } } });
       }
       this.contents.push({ role: "user", parts: responses });
     }
 
+    const tried = this.trace.slice(-MAX_HOPS).map((t) => t.name).join(", ");
     return {
-      text: "I wasn't able to settle that within the tool budget for one question.",
+      text:
+        "I couldn't settle that within the tool budget for one question. " +
+        `Tools tried: ${tried}. Try naming the person or topic more specifically, ` +
+        "or pick one of the six questions on the left.",
       citations,
       remaining,
     };

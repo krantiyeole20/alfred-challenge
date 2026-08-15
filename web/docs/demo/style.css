@@ -369,6 +369,9 @@ body {
   animation: blink 1s ease-in-out infinite;
 }
 .trace.done b { color: var(--ok); }
+.trace.failed { border-color: #e8c9c9; }
+.trace.failed b { color: var(--bad); }
+.trace.failed .trace-n { color: var(--bad); }
 @keyframes blink { 0%,100% { opacity: .25 } 50% { opacity: 1 } }
 
 /* waiting state: a moving rule, not a spinner */
