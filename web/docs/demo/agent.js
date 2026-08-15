@@ -131,7 +131,18 @@ beats "there are some outstanding items".
 - Never print a work_item_id, user_id or raw UUID. They mean nothing to the reader.
 - Do not invent quotes. The interface renders citations from the tool results itself.
 - If something looks like fraud, say so directly and say what not to do about it.
-- The corpus is frozen at ${CONFIG.AS_OF}. "Today" means that date, not the real one.`;
+- The corpus is frozen at ${CONFIG.AS_OF}. "Today" means that date, not the real one.
+- You can see exactly ONE mailbox: the one named below. If the question names a
+different person as the mailbox owner, say plainly that you are looking at this
+mailbox and they can switch accounts in the left rail — do not answer as though
+you had the other person's mail.`;
+
+/** The owner is per-session, so it rides on the system prompt, not the tools. */
+function systemFor(owner) {
+  return owner
+    ? `${SYSTEM}\n\nThe mailbox you are reading belongs to ${owner.name} <${owner.address}>, ${owner.role.replace(/_/g, " ")}.`
+    : SYSTEM;
+}
 
 export class Agent {
   constructor(ledger) {
@@ -140,8 +151,9 @@ export class Agent {
     this.userId = null;
   }
 
-  reset(userId) {
+  reset(userId, owner = null) {
     this.userId = userId;
+    this.owner = owner;
     this.contents = [];
   }
 
@@ -201,7 +213,7 @@ export class Agent {
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({
           model: CONFIG.MODEL,
-          systemInstruction: { parts: [{ text: SYSTEM }] },
+          systemInstruction: { parts: [{ text: systemFor(this.owner) }] },
           contents: this.contents,
           tools: [{ functionDeclarations: TOOLS }],
         }),

@@ -189,6 +189,22 @@ body {
 .answer h2 .snum { font-family: var(--mono); font-size: 13px; color: var(--accent); font-weight: 500; }
 .answer-why { color: var(--ink-soft); margin: 4px 0 0; max-width: 62ch; font-size: 14.5px; }
 
+.answer-actions { margin-top: 18px; }
+.action-btn {
+  display: flex; align-items: center; gap: 10px; width: 100%; max-width: 420px;
+  cursor: pointer; text-align: left; font: inherit;
+  padding: 11px 14px; background: var(--bg-soft);
+  border: 1px solid var(--line-strong); border-radius: var(--radius);
+  color: var(--ink); font-size: 13.5px; font-weight: 600;
+}
+.action-btn:hover { border-color: var(--accent); color: var(--accent); }
+.action-icon { font-size: 13px; color: var(--accent); }
+.action-hint {
+  margin-left: auto; font-family: var(--mono); font-size: 10.5px;
+  font-weight: 400; color: var(--ink-faint); white-space: nowrap;
+}
+.action-btn:hover .action-hint { color: var(--accent); }
+
 /* rows — one bordered list with hairline separators */
 .rows {
   margin-top: 22px; border: 1px solid var(--line); border-radius: var(--radius);
@@ -247,24 +263,15 @@ body {
 .cite:hover .cite-open, .cite:focus-visible .cite-open { opacity: 1; }
 .cite:hover .cite-open { color: var(--accent); }
 
-/* ---------------------------------------------------------------- how it works */
+/* ------------------------------------------------------- how it works (drawer) */
 
-.how {
-  margin-top: 26px; border-top: 1px solid var(--line); padding-top: 18px;
+.how-lede {
+  color: var(--ink-soft); font-size: 13.5px; margin: 0 0 18px; line-height: 1.6;
 }
-.how summary {
-  cursor: pointer; font-family: var(--mono); font-size: 11px;
-  text-transform: uppercase; letter-spacing: .09em; color: var(--ink-faint);
-  list-style: none;
-}
-.how summary::-webkit-details-marker { display: none; }
-.how summary::before { content: "+ "; color: var(--accent); }
-.how[open] summary::before { content: "− "; }
-.how summary:hover { color: var(--accent); }
-.how-body { padding-top: 18px; }
-
 .how-trigger {
-  font-size: 13.5px; color: var(--ink-soft); margin: 0 0 18px;
+  font-size: 13px; color: var(--ink-soft); margin: 0 0 6px;
+  padding: 11px 13px; background: var(--bg-soft);
+  border: 1px solid var(--line); border-radius: var(--radius);
 }
 .how-trigger b {
   display: block; font-family: var(--mono); font-size: 10px;
@@ -272,31 +279,42 @@ body {
   margin-bottom: 3px; font-weight: 500;
 }
 
-/* the pipeline — a numbered ladder, ruled not boxed */
-.flow { border-top: 1px solid var(--line); }
+/* the pipeline — a numbered ladder with a spine, so it reads as a sequence */
+.flow { position: relative; }
+.flow::before {
+  content: ""; position: absolute; left: 9px; top: 12px; bottom: 12px;
+  width: 1px; background: var(--line);
+}
 .flow-step {
-  display: grid; grid-template-columns: 26px 108px minmax(0,1fr);
-  gap: 14px; padding: 11px 0; border-bottom: 1px solid var(--line);
-  align-items: baseline;
+  display: grid; grid-template-columns: 20px minmax(0,1fr);
+  gap: 14px; padding: 9px 0; align-items: start; position: relative;
 }
-.flow-n { font-family: var(--mono); font-size: 11px; color: var(--ink-faint); }
-.flow-name { font-size: 13.5px; font-weight: 600; }
-.flow-desc { font-size: 13.5px; color: var(--ink-soft); }
-.flow-writes {
-  display: block; font-family: var(--mono); font-size: 10.5px;
-  color: var(--ink-faint); margin-top: 3px;
+.flow-n {
+  font-family: var(--mono); font-size: 9.5px; color: var(--ink-faint);
+  background: var(--bg); border: 1px solid var(--line);
+  border-radius: 50%; width: 20px; height: 20px;
+  display: grid; place-items: center; position: relative; z-index: 1;
 }
+.flow-step.is-read .flow-n { border-color: var(--accent); color: var(--accent); }
+.flow-name { font-size: 13.5px; font-weight: 600; margin-bottom: 1px; }
 .flow-step.is-read .flow-name { color: var(--accent); }
+.flow-desc { font-size: 13px; color: var(--ink-soft); line-height: 1.55; }
+.flow-writes {
+  display: inline-block; font-family: var(--mono); font-size: 10.5px;
+  color: var(--ink-faint); margin-top: 4px;
+}
+
+.how-reads { display: flex; flex-wrap: wrap; gap: 5px; margin: 0 0 6px; }
+.how-reads code {
+  font-family: var(--mono); font-size: 10.5px; color: var(--ink-soft);
+  border: 1px solid var(--line); border-radius: 4px; padding: 2px 7px;
+}
 
 .how-sql {
-  margin-top: 18px; font-family: var(--mono); font-size: 11.5px;
+  margin: 0; font-family: var(--mono); font-size: 11px;
   line-height: 1.7; color: #d7dae8; white-space: pre;
   background: #23263a; border-radius: var(--radius);
-  padding: 15px 17px; overflow-x: auto; max-height: 340px;
-}
-.how-reads {
-  font-family: var(--mono); font-size: 11px; color: var(--ink-faint);
-  margin-top: 12px;
+  padding: 14px 15px; overflow-x: auto; max-height: 320px;
 }
 
 /* ---------------------------------------------------------------- chat */
@@ -430,7 +448,7 @@ body {
 /* ---------------------------------------------------------------- drawer */
 
 .drawer {
-  position: fixed; top: 0; right: 0; bottom: 0; width: 500px; max-width: 94vw;
+  position: fixed; top: 0; right: 0; bottom: 0; width: 540px; max-width: 94vw;
   z-index: 60; background: var(--bg); border-left: 1px solid var(--line-strong);
   transform: translateX(100%); transition: transform .26s ease;
   display: flex; flex-direction: column;

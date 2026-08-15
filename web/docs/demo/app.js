@@ -95,7 +95,7 @@ function renderQuestions() {
 
 function selectAccount(a) {
   state.account = a;
-  state.agent.reset(a.user_id);
+  state.agent.reset(a.user_id, a);
   for (const b of document.querySelectorAll(".acct")) {
     b.classList.toggle("on", b.dataset.id === a.user_id);
   }
@@ -178,6 +178,33 @@ function showQuestion(key) {
   wrap.append(h2);
   wrap.append(el("p", "answer-why", q.why));
 
+  // The job behind the answer gets a first-class control, not a footnote:
+  // same gesture as opening a source message, opened in the same drawer.
+  const actions = el("div", "answer-actions");
+  const howBtn = el("button", "action-btn");
+  const icon = document.createElementNS("http://www.w3.org/2000/svg", "svg");
+  icon.setAttribute("viewBox", "0 0 24 24");
+  icon.setAttribute("width", "14");
+  icon.setAttribute("height", "14");
+  icon.setAttribute("fill", "none");
+  icon.setAttribute("stroke", "currentColor");
+  icon.setAttribute("stroke-width", "2");
+  icon.setAttribute("stroke-linecap", "round");
+  icon.setAttribute("stroke-linejoin", "round");
+  icon.classList.add("action-icon");
+  // a stack: the pipeline layers this answer came through
+  for (const d of ["M3 7h18", "M3 12h18", "M3 17h18"]) {
+    const path = document.createElementNS("http://www.w3.org/2000/svg", "path");
+    path.setAttribute("d", d);
+    icon.append(path);
+  }
+  howBtn.append(icon);
+  howBtn.append(el("span", null, "How this answer is produced"));
+  howBtn.append(el("span", "action-hint", `${(q.pipeline || []).length} stages \u00b7 ${q.trigger ? q.trigger.split(" \u2014 ")[0].toLowerCase() : "job"}`));
+  howBtn.onclick = () => openHow(q, idx);
+  actions.append(howBtn);
+  wrap.append(actions);
+
   if (!rows.length) {
     const e = el("div", "empty");
     e.innerHTML =
@@ -188,38 +215,44 @@ function showQuestion(key) {
     wrap.append(renderRows(rows, key));
   }
 
-  wrap.append(renderHow(q));
   stage.append(wrap);
   wrap.scrollIntoView({ block: "start", behavior: "smooth" });
 }
 
 /**
- * "How this is answered" — the designed job and dataflow behind the question.
+ * "How this answer is produced" — the designed job and dataflow, opened in the
+ * evidence drawer.
  *
- * This is the part that distinguishes a ledger from a search box: the answer
- * above was produced by a named pipeline with a named trigger, and every stage
- * of it is inspectable. The SQL shown is the SQL that ran.
+ * This is what separates a ledger from a search box: the answer was produced by
+ * a named job with a named trigger, and every stage of it is inspectable down
+ * to the SQL that ran. It gets the same affordance as opening a source message
+ * because it is the same kind of act — following a claim back to its origin.
  */
-function renderHow(q) {
-  const d = el("details", "how");
-  d.append(el("summary", null, "How this answer is produced"));
-  const body = el("div", "how-body");
+function openHow(q, idx) {
+  const body = $("drawerBody");
+  body.replaceChildren();
+  $("drawerTitle").textContent = "How it works";
+
+  body.append(el("div", "msg-subject", q.label));
+  body.append(el("p", "how-lede", q.why));
 
   if (q.trigger) {
-    const t = el("p", "how-trigger");
+    const t = el("div", "how-trigger");
     t.append(el("b", null, "Trigger"));
     t.append(document.createTextNode(q.trigger));
     body.append(t);
   }
 
   if (q.pipeline?.length) {
+    body.append(el("p", "side-label", "Pipeline"));
     const flow = el("div", "flow");
     q.pipeline.forEach(([name, desc, writes], i) => {
       const step = el("div", "flow-step");
       if (name === "Read") step.classList.add("is-read");
       step.append(el("div", "flow-n", String(i + 1).padStart(2, "0")));
-      step.append(el("div", "flow-name", name));
-      const col = el("div", "flow-desc", desc);
+      const col = el("div", "flow-body");
+      col.append(el("div", "flow-name", name));
+      col.append(el("div", "flow-desc", desc));
       if (writes) col.append(el("span", "flow-writes", `writes ${writes}`));
       step.append(col);
       flow.append(step);
@@ -228,14 +261,16 @@ function renderHow(q) {
   }
 
   if (q.reads?.length) {
-    body.append(el("p", "how-reads", `reads · ${q.reads.join(" · ")}`));
+    body.append(el("p", "side-label", "Tables read"));
+    const list = el("div", "how-reads");
+    for (const t of q.reads) list.append(el("code", null, t));
+    body.append(list);
   }
 
-  const sql = el("pre", "how-sql", (q.sql || "").trim().replace(/\n\s{8}/g, "\n"));
-  body.append(sql);
+  body.append(el("p", "side-label", "The query that ran"));
+  body.append(el("pre", "how-sql", (q.sql || "").trim().replace(/\n\s{8}/g, "\n")));
 
-  d.append(body);
-  return d;
+  openDrawer();
 }
 
 function renderRows(rows, key) {
@@ -323,9 +358,15 @@ function openSource(messageId, quote) {
     }
   }
 
+  $("drawerTitle").textContent = "Source message";
+  openDrawer();
+}
+
+function openDrawer() {
   const d = $("drawer");
   d.classList.add("open");
   d.setAttribute("aria-hidden", "false");
+  $("drawerClose").focus();
 }
 
 function highlight(text, quote) {

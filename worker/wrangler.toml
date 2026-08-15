@@ -11,7 +11,7 @@ compatibility_date = "2026-08-01"
 [[d1_databases]]
 binding = "DB"
 database_name = "alfred-demo"
-database_id = "PASTE_D1_DATABASE_ID_HERE"
+database_id = "29bfcbcf-5717-430c-8bba-dca931ea9dbd"
 
 # The API key is a secret, never a var -- vars are readable in the dashboard
 # and end up in `wrangler.toml`, which is committed.
