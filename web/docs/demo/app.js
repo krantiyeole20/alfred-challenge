@@ -41,7 +41,7 @@ async function boot() {
     });
   } catch (err) {
     status.textContent = "could not open the ledger";
-    status.style.color = "var(--hazard)";
+    status.style.color = "var(--bad)";
     $("boot").querySelector(".boot-note").textContent = String(err.message ?? err);
     return;
   }
@@ -101,7 +101,7 @@ function selectAccount(a) {
   for (const b of document.querySelectorAll(".q")) b.classList.remove("on");
 
   $("who").innerHTML = "";
-  $("who").append(el("b", null, a.name), document.createTextNode(`  ${a.address}`));
+  $("who").append(el("b", null, a.name), el("span", "who-addr", a.address));
   $("ask").placeholder = `Ask about ${a.name.split(" ")[0]}'s mailbox…`;
 
   renderIntro();
@@ -187,7 +187,7 @@ function showQuestion(key) {
 
   wrap.append(renderHow(q));
   stage.append(wrap);
-  stage.scrollTop = 0;
+  wrap.scrollIntoView({ block: "start", behavior: "smooth" });
 }
 
 /**
@@ -239,6 +239,7 @@ function renderRows(rows, key) {
   const box = el("div", "rows");
   rows.forEach((r, i) => {
     const row = el("div", "row");
+    if (i < 3) row.classList.add("is-top");
     row.style.animationDelay = `${i * 42}ms`;
 
     row.append(el("div", "row-rank", String(i + 1).padStart(2, "0")));
@@ -248,7 +249,8 @@ function renderRows(rows, key) {
 
     const meta = el("div", "row-meta");
     if (key === "q5_what_changed" && r.change_type) {
-      meta.append(el("span", "tag due", r.change_type.replace(/_/g, " ")));
+      const closed = /resolv|complet|clos|cancel/.test(r.change_type);
+      meta.append(el("span", `tag ${closed ? "ok" : ""}`, r.change_type.replace(/_/g, " ")));
       if (r.changed_at) meta.append(el("span", "tag", fmtDate(r.changed_at)));
     }
     if (r.speech_act) meta.append(el("span", "tag", r.speech_act));
@@ -266,7 +268,8 @@ function renderRows(rows, key) {
     main.append(meta);
 
     if (r.evidence_quote) {
-      const cite = el("button", "cite", r.evidence_quote);
+      const cite = el("button", "cite");
+      cite.append(el("span", "cite-q", `\u201C${r.evidence_quote}\u201D`));
       cite.append(el("span", "cite-open", "open source message"));
       cite.onclick = () => openSource(r.anchor_message_id, r.evidence_quote);
       main.append(cite);
@@ -360,7 +363,7 @@ async function askAgent(question) {
   const thinking = el("div", "thinking", "thinking");
   turn.append(thinking);
   stage.append(turn);
-  stage.scrollTop = stage.scrollHeight;
+  turn.scrollIntoView({ block: "start", behavior: "smooth" });
 
   try {
     const { text, citations, remaining } = await state.agent.ask(question, {
@@ -368,7 +371,7 @@ async function askAgent(question) {
         const t = el("span", "trace");
         t.append(el("b", null, name));
         trace.append(t);
-        stage.scrollTop = stage.scrollHeight;
+        // trace grows in place; no scroll needed
       },
     });
 
@@ -401,7 +404,7 @@ async function askAgent(question) {
   } finally {
     state.busy = false;
     $("send").disabled = false;
-    stage.scrollTop = stage.scrollHeight;
+    turn.scrollIntoView({ block: "nearest", behavior: "smooth" });
   }
 }
 
@@ -428,11 +431,22 @@ function showSchema() {
       "This is the read path, running in your browser. The full design is 35 " +
       "tables; the demo ships the ones that answer questions.")
   );
-  const body = el("div", "msg-body");
-  body.textContent = state.ledger.schema().map((t) => t.sql).join(";\n\n");
-  wrap.append(body);
+  // One collapsible block per table rather than 6,000px of raw dump.
+  for (const t of state.ledger.schema()) {
+    const d = el("details", "how");
+    d.style.marginTop = "0";
+    const rows = state.ledger.one(
+      `SELECT count(*) n FROM ${t.name}`
+    );
+    const sum = el("summary", null, `${t.name}  ·  ${Number(rows?.n ?? 0).toLocaleString()} rows`);
+    d.append(sum);
+    const pre = el("pre", "how-sql", t.sql);
+    pre.style.marginTop = "12px";
+    d.append(pre);
+    wrap.append(d);
+  }
   stage.append(wrap);
-  stage.scrollTop = 0;
+  wrap.scrollIntoView({ block: "start", behavior: "smooth" });
 }
 
 // ── wiring ──────────────────────────────────────────────────────────
@@ -447,6 +461,16 @@ function wire() {
     if (e.key === "Enter") $("send").click();
   };
   $("drawerClose").onclick = closeDrawer;
+
+  // On narrow screens the rail is a collapsible header; choosing from it must
+  // close it, otherwise the answer renders below the fold and nothing moves.
+  const collapseRail = () => {
+    const nav = document.querySelector(".side-nav");
+    if (nav && window.matchMedia("(max-width: 1000px)").matches) nav.open = false;
+  };
+  document.querySelector(".side").addEventListener("click", (e) => {
+    if (e.target.closest(".q, .acct")) collapseRail();
+  });
   $("btnSchema").onclick = showSchema;
   document.addEventListener("keydown", (e) => {
     if (e.key === "Escape") closeDrawer();
