@@ -3,3 +3,8 @@
 __pycache__/
 *.pyc
 .DS_Store
+build/
+*.db
+*.db-wal
+*.db-shm
+web/docs 2/
