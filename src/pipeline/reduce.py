@@ -34,9 +34,22 @@ CLOSING = {
 }
 
 _STOPWORDS = {
+    # grammar
     "the", "a", "an", "to", "for", "of", "on", "in", "and", "or", "is", "be",
     "please", "can", "could", "would", "you", "we", "i", "me", "my", "your",
-    "this", "that", "it", "will", "send", "get", "with", "at", "by", "from",
+    "this", "that", "it", "will", "with", "at", "by", "from", "as", "so",
+    # Action verbs are dropped on purpose. The speech act already lives in
+    # `attribute` (request.action vs completion.action), so the verb carries no
+    # matching signal -- and keeping it actively breaks the fold, because
+    # "send the Q3 deck" and "Q3 deck sent" are the same obligation described
+    # from opposite ends. Irregular forms are why a stopword list beats
+    # suffix-stripping here: send/sent share no stem.
+    "send", "sends", "sending", "sent", "get", "gets", "getting", "got",
+    "provide", "provides", "provided", "share", "shared", "sharing",
+    "return", "returned", "returning", "confirm", "confirmed", "confirming",
+    "review", "reviewed", "reviewing", "complete", "completed", "completing",
+    "finish", "finished", "deliver", "delivered", "delivering",
+    "submit", "submitted", "submitting", "approve", "approved", "approving",
 }
 _WORD = re.compile(r"[a-z0-9]+")
 

@@ -149,7 +149,16 @@ def export_questions(dest: Path | None = None) -> Path:
     dest = dest or (config.ROOT / "web" / "docs" / "demo" / "data" / "questions.json")
     dest.parent.mkdir(parents=True, exist_ok=True)
     payload = {
-        key: {"label": q["label"], "why": q["why"], "sql": q["sql"]}
+        key: {
+            "label": q["label"],
+            "why": q["why"],
+            "sql": q["sql"],
+            # The designed job behind the question, so the demo can show how an
+            # answer was produced rather than just asserting it.
+            "trigger": q.get("trigger"),
+            "reads": q.get("reads", []),
+            "pipeline": q.get("pipeline", []),
+        }
         for key, q in QUESTIONS.items()
     }
     dest.write_text(json.dumps(payload, indent=2))

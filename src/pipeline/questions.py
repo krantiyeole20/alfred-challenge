@@ -48,6 +48,15 @@ QUESTIONS: dict[str, dict] = {
         "label": "What needs my attention?",
         "why": "A ranking over open state. Ordered by the attention score, "
                "which weights urgency, importance, staleness and commitment.",
+        "trigger": "Scheduled — attention rebuild, daily; deadline scan, hourly.",
+        "reads": ["work_items", "attention_candidates", "evidence", "emails"],
+        "pipeline": [
+            ("Signals", "Noise gate decides what reaches the model at all.", "email_signals"),
+            ("Extract", "One LLM call per message emits claims with verbatim quotes.", "evidence"),
+            ("Reduce", "Claims fold into work items by match_key; nothing is overwritten.", "work_items"),
+            ("Rank", "urgency 0.40 · importance 0.25 · staleness 0.20 · commitment 0.15", "attention_candidates"),
+            ("Read", "Pure SQL join. No model involved in answering.", None),
+        ],
         "sql": f"""
             {_SELECT}
             JOIN attention_candidates ac ON ac.work_item_id = wi.id
@@ -62,6 +71,14 @@ QUESTIONS: dict[str, dict] = {
         "why": "The absence of an expected event: the owner's own promises "
                "with no completion recorded, weighted toward the ones that "
                "have gone quiet longest.",
+        "trigger": "Scheduled — commitment scan, daily.",
+        "reads": ["work_items", "evidence", "emails"],
+        "pipeline": [
+            ("Extract", "commitment.action and commitment.attachment claims are recorded.", "evidence"),
+            ("Reduce", "A later completion.action closes the item it matches.", "work_items"),
+            ("Detect", "What is left OPEN is a promise with no closing event.", None),
+            ("Read", "Filter to owner_is_self, order by silence.", None),
+        ],
         "sql": f"""
             {_SELECT}
             WHERE wi.user_id = :user_id
@@ -78,6 +95,14 @@ QUESTIONS: dict[str, dict] = {
         "label": "What is waiting on me?",
         "why": "Open state the owner owns: requests addressed to them plus "
                "commitments they made themselves.",
+        "trigger": "Scheduled — waiting scan, daily.",
+        "reads": ["work_items", "people", "evidence"],
+        "pipeline": [
+            ("Participants", "Every address resolves to a person; the owner's own addresses are flagged via user_identities.", "people"),
+            ("Extract", "Each claim records who must act, not who sent the mail.", "evidence"),
+            ("Reduce", "owner_is_self is decided once, on the fold, not per query.", "work_items"),
+            ("Read", "An indexed lookup on (user_id, owner_is_self, status).", None),
+        ],
         "sql": f"""
             {_SELECT}
             WHERE wi.user_id = :user_id
@@ -95,6 +120,14 @@ QUESTIONS: dict[str, dict] = {
         "label": "What am I waiting on?",
         "why": "The same state with ownership inverted: someone else owes the "
                "action, and nothing has closed it.",
+        "trigger": "Scheduled — waiting scan, daily. Detects counterparty silence.",
+        "reads": ["work_items", "people", "threads"],
+        "pipeline": [
+            ("Participants", "Ownership is inverted from the same resolved identities.", "people"),
+            ("Reduce", "Items owned by anyone but the mailbox owner stay OPEN until closed.", "work_items"),
+            ("Staleness", "Measured against the thread's own median reply gap, not a fixed number of days.", "threads"),
+            ("Read", "Same table, opposite ownership filter.", None),
+        ],
         "sql": f"""
             {_SELECT}
             WHERE wi.user_id = :user_id
@@ -112,6 +145,14 @@ QUESTIONS: dict[str, dict] = {
         "label": "What changed?",
         "why": "A comparison between two points in time. This is a range scan "
                "over the change log, not a generation task.",
+        "trigger": "Event-driven — a change row is written before the projection, in the same transaction.",
+        "reads": ["work_item_changes", "work_items", "evidence"],
+        "pipeline": [
+            ("Extract", "A later claim about the same thing is appended, never overwritten.", "evidence"),
+            ("Reduce", "Before any field is updated, the prior value is written to the change log.", "work_item_changes"),
+            ("Supersede", "The older evidence row is marked superseded_by, so the chain is auditable.", "evidence"),
+            ("Read", "A range scan over changed_at. This is why it is not a generation task.", None),
+        ],
         "sql": """
             SELECT
                 wic.change_type      AS change_type,
@@ -145,6 +186,14 @@ QUESTIONS: dict[str, dict] = {
         "label": "What's slipping through the cracks?",
         "why": "Open state plus unusual silence: nothing has moved, and either "
                "the deadline has passed or nobody ever claimed ownership.",
+        "trigger": "Scheduled — staleness scan, daily.",
+        "reads": ["work_items", "attention_candidates", "threads"],
+        "pipeline": [
+            ("Reduce", "Items with no closing event remain OPEN indefinitely; silence never closes one.", "work_items"),
+            ("Staleness", "Quiet time is compared against the thread's own rhythm.", "threads"),
+            ("Ownership", "An item nobody ever claimed (owner_resolved = 0) qualifies on its own.", None),
+            ("Read", "Overdue, or quiet, or unclaimed - ordered by how long it has been still.", None),
+        ],
         "sql": f"""
             {_SELECT}
             WHERE wi.user_id = :user_id

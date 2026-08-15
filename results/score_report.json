@@ -623,10 +623,10 @@
     },
     "q2_forgetting": {
       "gold_items": 5,
-      "answers_returned": 16,
+      "answers_returned": 15,
       "covered": 3,
       "recall": 0.6,
-      "precision": 0.1875,
+      "precision": 0.2,
       "leaked": [],
       "missed": [
         {
@@ -883,9 +883,9 @@
     "q4_waiting_on_others": {
       "gold_items": 6,
       "answers_returned": 25,
-      "covered": 3,
-      "recall": 0.5,
-      "precision": 0.12,
+      "covered": 2,
+      "recall": 0.3333333333333333,
+      "precision": 0.08,
       "leaked": [],
       "missed": [
         {
@@ -894,6 +894,11 @@
           "tricky_tags": [
             "out_of_office"
           ]
+        },
+        {
+          "item_id": "consulting-q4-02",
+          "claim": "Owen McCabe and CFO Preston Yao owe the signed Stratus SOW back by Friday Aug 14 to hold the week-of-Aug-24 kickoff slot",
+          "tricky_tags": []
         },
         {
           "item_id": "consulting-q4-04",
@@ -909,10 +914,10 @@
     },
     "q5_what_changed": {
       "gold_items": 5,
-      "answers_returned": 6,
+      "answers_returned": 7,
       "covered": 1,
       "recall": 0.2,
-      "precision": 0.16666666666666666,
+      "precision": 0.14285714285714285,
       "leaked": [],
       "missed": [
         {

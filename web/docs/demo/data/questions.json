@@ -2,31 +2,205 @@
   "q1_needs_attention": {
     "label": "What needs my attention?",
     "why": "A ranking over open state. Ordered by the attention score, which weights urgency, importance, staleness and commitment.",
-    "sql": "\n            \n    SELECT\n        wi.id                AS work_item_id,\n        wi.title             AS title,\n        wi.speech_act        AS speech_act,\n        wi.status            AS status,\n        wi.due_at            AS due_at,\n        wi.owner_is_self     AS owner_is_self,\n        wi.owner_resolved    AS owner_resolved,\n        wi.last_activity_at  AS last_activity_at,\n        wi.opened_at         AS opened_at,\n        owner.canonical_name AS owner_name,\n        req.canonical_name   AS requester_name,\n        th.id                AS thread_id,\n        em.provider_message_id AS anchor_message_id,\n        em.subject           AS subject,\n        ev.evidence_quote    AS evidence_quote\n    FROM work_items wi\n    LEFT JOIN people owner ON owner.id = wi.owner_person_id\n    LEFT JOIN people req   ON req.id   = wi.requester_person_id\n    LEFT JOIN threads th   ON th.id    = wi.origin_thread_id\n    JOIN emails em         ON em.id    = wi.first_seen_email_id\n    LEFT JOIN evidence ev  ON ev.id = (\n        SELECT e2.id FROM evidence e2\n        WHERE e2.work_item_id = wi.id AND e2.quote_verified = 1\n        ORDER BY e2.observed_at LIMIT 1\n    )\n\n            JOIN attention_candidates ac ON ac.work_item_id = wi.id\n            WHERE wi.user_id = :user_id AND wi.status = 'OPEN'\n            ORDER BY ac.score DESC\n            LIMIT :limit\n        "
+    "sql": "\n            \n    SELECT\n        wi.id                AS work_item_id,\n        wi.title             AS title,\n        wi.speech_act        AS speech_act,\n        wi.status            AS status,\n        wi.due_at            AS due_at,\n        wi.owner_is_self     AS owner_is_self,\n        wi.owner_resolved    AS owner_resolved,\n        wi.last_activity_at  AS last_activity_at,\n        wi.opened_at         AS opened_at,\n        owner.canonical_name AS owner_name,\n        req.canonical_name   AS requester_name,\n        th.id                AS thread_id,\n        em.provider_message_id AS anchor_message_id,\n        em.subject           AS subject,\n        ev.evidence_quote    AS evidence_quote\n    FROM work_items wi\n    LEFT JOIN people owner ON owner.id = wi.owner_person_id\n    LEFT JOIN people req   ON req.id   = wi.requester_person_id\n    LEFT JOIN threads th   ON th.id    = wi.origin_thread_id\n    JOIN emails em         ON em.id    = wi.first_seen_email_id\n    LEFT JOIN evidence ev  ON ev.id = (\n        SELECT e2.id FROM evidence e2\n        WHERE e2.work_item_id = wi.id AND e2.quote_verified = 1\n        ORDER BY e2.observed_at LIMIT 1\n    )\n\n            JOIN attention_candidates ac ON ac.work_item_id = wi.id\n            WHERE wi.user_id = :user_id AND wi.status = 'OPEN'\n            ORDER BY ac.score DESC\n            LIMIT :limit\n        ",
+    "trigger": "Scheduled \u2014 attention rebuild, daily; deadline scan, hourly.",
+    "reads": [
+      "work_items",
+      "attention_candidates",
+      "evidence",
+      "emails"
+    ],
+    "pipeline": [
+      [
+        "Signals",
+        "Noise gate decides what reaches the model at all.",
+        "email_signals"
+      ],
+      [
+        "Extract",
+        "One LLM call per message emits claims with verbatim quotes.",
+        "evidence"
+      ],
+      [
+        "Reduce",
+        "Claims fold into work items by match_key; nothing is overwritten.",
+        "work_items"
+      ],
+      [
+        "Rank",
+        "urgency 0.40 \u00b7 importance 0.25 \u00b7 staleness 0.20 \u00b7 commitment 0.15",
+        "attention_candidates"
+      ],
+      [
+        "Read",
+        "Pure SQL join. No model involved in answering.",
+        null
+      ]
+    ]
   },
   "q2_forgetting": {
     "label": "What am I forgetting?",
     "why": "The absence of an expected event: the owner's own promises with no completion recorded, weighted toward the ones that have gone quiet longest.",
-    "sql": "\n            \n    SELECT\n        wi.id                AS work_item_id,\n        wi.title             AS title,\n        wi.speech_act        AS speech_act,\n        wi.status            AS status,\n        wi.due_at            AS due_at,\n        wi.owner_is_self     AS owner_is_self,\n        wi.owner_resolved    AS owner_resolved,\n        wi.last_activity_at  AS last_activity_at,\n        wi.opened_at         AS opened_at,\n        owner.canonical_name AS owner_name,\n        req.canonical_name   AS requester_name,\n        th.id                AS thread_id,\n        em.provider_message_id AS anchor_message_id,\n        em.subject           AS subject,\n        ev.evidence_quote    AS evidence_quote\n    FROM work_items wi\n    LEFT JOIN people owner ON owner.id = wi.owner_person_id\n    LEFT JOIN people req   ON req.id   = wi.requester_person_id\n    LEFT JOIN threads th   ON th.id    = wi.origin_thread_id\n    JOIN emails em         ON em.id    = wi.first_seen_email_id\n    LEFT JOIN evidence ev  ON ev.id = (\n        SELECT e2.id FROM evidence e2\n        WHERE e2.work_item_id = wi.id AND e2.quote_verified = 1\n        ORDER BY e2.observed_at LIMIT 1\n    )\n\n            WHERE wi.user_id = :user_id\n              AND wi.status = 'OPEN'\n              AND wi.speech_act = 'commitment'\n              AND wi.owner_is_self = 1\n              AND julianday(:as_of) - julianday(wi.last_activity_at) >= 3\n            ORDER BY julianday(:as_of) - julianday(wi.last_activity_at) DESC\n            LIMIT :limit\n        "
+    "sql": "\n            \n    SELECT\n        wi.id                AS work_item_id,\n        wi.title             AS title,\n        wi.speech_act        AS speech_act,\n        wi.status            AS status,\n        wi.due_at            AS due_at,\n        wi.owner_is_self     AS owner_is_self,\n        wi.owner_resolved    AS owner_resolved,\n        wi.last_activity_at  AS last_activity_at,\n        wi.opened_at         AS opened_at,\n        owner.canonical_name AS owner_name,\n        req.canonical_name   AS requester_name,\n        th.id                AS thread_id,\n        em.provider_message_id AS anchor_message_id,\n        em.subject           AS subject,\n        ev.evidence_quote    AS evidence_quote\n    FROM work_items wi\n    LEFT JOIN people owner ON owner.id = wi.owner_person_id\n    LEFT JOIN people req   ON req.id   = wi.requester_person_id\n    LEFT JOIN threads th   ON th.id    = wi.origin_thread_id\n    JOIN emails em         ON em.id    = wi.first_seen_email_id\n    LEFT JOIN evidence ev  ON ev.id = (\n        SELECT e2.id FROM evidence e2\n        WHERE e2.work_item_id = wi.id AND e2.quote_verified = 1\n        ORDER BY e2.observed_at LIMIT 1\n    )\n\n            WHERE wi.user_id = :user_id\n              AND wi.status = 'OPEN'\n              AND wi.speech_act = 'commitment'\n              AND wi.owner_is_self = 1\n              AND julianday(:as_of) - julianday(wi.last_activity_at) >= 3\n            ORDER BY julianday(:as_of) - julianday(wi.last_activity_at) DESC\n            LIMIT :limit\n        ",
+    "trigger": "Scheduled \u2014 commitment scan, daily.",
+    "reads": [
+      "work_items",
+      "evidence",
+      "emails"
+    ],
+    "pipeline": [
+      [
+        "Extract",
+        "commitment.action and commitment.attachment claims are recorded.",
+        "evidence"
+      ],
+      [
+        "Reduce",
+        "A later completion.action closes the item it matches.",
+        "work_items"
+      ],
+      [
+        "Detect",
+        "What is left OPEN is a promise with no closing event.",
+        null
+      ],
+      [
+        "Read",
+        "Filter to owner_is_self, order by silence.",
+        null
+      ]
+    ]
   },
   "q3_waiting_on_me": {
     "label": "What is waiting on me?",
     "why": "Open state the owner owns: requests addressed to them plus commitments they made themselves.",
-    "sql": "\n            \n    SELECT\n        wi.id                AS work_item_id,\n        wi.title             AS title,\n        wi.speech_act        AS speech_act,\n        wi.status            AS status,\n        wi.due_at            AS due_at,\n        wi.owner_is_self     AS owner_is_self,\n        wi.owner_resolved    AS owner_resolved,\n        wi.last_activity_at  AS last_activity_at,\n        wi.opened_at         AS opened_at,\n        owner.canonical_name AS owner_name,\n        req.canonical_name   AS requester_name,\n        th.id                AS thread_id,\n        em.provider_message_id AS anchor_message_id,\n        em.subject           AS subject,\n        ev.evidence_quote    AS evidence_quote\n    FROM work_items wi\n    LEFT JOIN people owner ON owner.id = wi.owner_person_id\n    LEFT JOIN people req   ON req.id   = wi.requester_person_id\n    LEFT JOIN threads th   ON th.id    = wi.origin_thread_id\n    JOIN emails em         ON em.id    = wi.first_seen_email_id\n    LEFT JOIN evidence ev  ON ev.id = (\n        SELECT e2.id FROM evidence e2\n        WHERE e2.work_item_id = wi.id AND e2.quote_verified = 1\n        ORDER BY e2.observed_at LIMIT 1\n    )\n\n            WHERE wi.user_id = :user_id\n              AND wi.status = 'OPEN'\n              AND wi.owner_is_self = 1\n            ORDER BY\n                CASE WHEN wi.due_at IS NULL THEN 1 ELSE 0 END,\n                wi.due_at ASC,\n                wi.last_activity_at DESC\n            LIMIT :limit\n        "
+    "sql": "\n            \n    SELECT\n        wi.id                AS work_item_id,\n        wi.title             AS title,\n        wi.speech_act        AS speech_act,\n        wi.status            AS status,\n        wi.due_at            AS due_at,\n        wi.owner_is_self     AS owner_is_self,\n        wi.owner_resolved    AS owner_resolved,\n        wi.last_activity_at  AS last_activity_at,\n        wi.opened_at         AS opened_at,\n        owner.canonical_name AS owner_name,\n        req.canonical_name   AS requester_name,\n        th.id                AS thread_id,\n        em.provider_message_id AS anchor_message_id,\n        em.subject           AS subject,\n        ev.evidence_quote    AS evidence_quote\n    FROM work_items wi\n    LEFT JOIN people owner ON owner.id = wi.owner_person_id\n    LEFT JOIN people req   ON req.id   = wi.requester_person_id\n    LEFT JOIN threads th   ON th.id    = wi.origin_thread_id\n    JOIN emails em         ON em.id    = wi.first_seen_email_id\n    LEFT JOIN evidence ev  ON ev.id = (\n        SELECT e2.id FROM evidence e2\n        WHERE e2.work_item_id = wi.id AND e2.quote_verified = 1\n        ORDER BY e2.observed_at LIMIT 1\n    )\n\n            WHERE wi.user_id = :user_id\n              AND wi.status = 'OPEN'\n              AND wi.owner_is_self = 1\n            ORDER BY\n                CASE WHEN wi.due_at IS NULL THEN 1 ELSE 0 END,\n                wi.due_at ASC,\n                wi.last_activity_at DESC\n            LIMIT :limit\n        ",
+    "trigger": "Scheduled \u2014 waiting scan, daily.",
+    "reads": [
+      "work_items",
+      "people",
+      "evidence"
+    ],
+    "pipeline": [
+      [
+        "Participants",
+        "Every address resolves to a person; the owner's own addresses are flagged via user_identities.",
+        "people"
+      ],
+      [
+        "Extract",
+        "Each claim records who must act, not who sent the mail.",
+        "evidence"
+      ],
+      [
+        "Reduce",
+        "owner_is_self is decided once, on the fold, not per query.",
+        "work_items"
+      ],
+      [
+        "Read",
+        "An indexed lookup on (user_id, owner_is_self, status).",
+        null
+      ]
+    ]
   },
   "q4_waiting_on_others": {
     "label": "What am I waiting on?",
     "why": "The same state with ownership inverted: someone else owes the action, and nothing has closed it.",
-    "sql": "\n            \n    SELECT\n        wi.id                AS work_item_id,\n        wi.title             AS title,\n        wi.speech_act        AS speech_act,\n        wi.status            AS status,\n        wi.due_at            AS due_at,\n        wi.owner_is_self     AS owner_is_self,\n        wi.owner_resolved    AS owner_resolved,\n        wi.last_activity_at  AS last_activity_at,\n        wi.opened_at         AS opened_at,\n        owner.canonical_name AS owner_name,\n        req.canonical_name   AS requester_name,\n        th.id                AS thread_id,\n        em.provider_message_id AS anchor_message_id,\n        em.subject           AS subject,\n        ev.evidence_quote    AS evidence_quote\n    FROM work_items wi\n    LEFT JOIN people owner ON owner.id = wi.owner_person_id\n    LEFT JOIN people req   ON req.id   = wi.requester_person_id\n    LEFT JOIN threads th   ON th.id    = wi.origin_thread_id\n    JOIN emails em         ON em.id    = wi.first_seen_email_id\n    LEFT JOIN evidence ev  ON ev.id = (\n        SELECT e2.id FROM evidence e2\n        WHERE e2.work_item_id = wi.id AND e2.quote_verified = 1\n        ORDER BY e2.observed_at LIMIT 1\n    )\n\n            WHERE wi.user_id = :user_id\n              AND wi.status = 'OPEN'\n              AND (wi.owner_is_self = 0 OR wi.owner_is_self IS NULL)\n            ORDER BY\n                CASE WHEN wi.due_at IS NULL THEN 1 ELSE 0 END,\n                wi.due_at ASC,\n                julianday(:as_of) - julianday(wi.last_activity_at) DESC\n            LIMIT :limit\n        "
+    "sql": "\n            \n    SELECT\n        wi.id                AS work_item_id,\n        wi.title             AS title,\n        wi.speech_act        AS speech_act,\n        wi.status            AS status,\n        wi.due_at            AS due_at,\n        wi.owner_is_self     AS owner_is_self,\n        wi.owner_resolved    AS owner_resolved,\n        wi.last_activity_at  AS last_activity_at,\n        wi.opened_at         AS opened_at,\n        owner.canonical_name AS owner_name,\n        req.canonical_name   AS requester_name,\n        th.id                AS thread_id,\n        em.provider_message_id AS anchor_message_id,\n        em.subject           AS subject,\n        ev.evidence_quote    AS evidence_quote\n    FROM work_items wi\n    LEFT JOIN people owner ON owner.id = wi.owner_person_id\n    LEFT JOIN people req   ON req.id   = wi.requester_person_id\n    LEFT JOIN threads th   ON th.id    = wi.origin_thread_id\n    JOIN emails em         ON em.id    = wi.first_seen_email_id\n    LEFT JOIN evidence ev  ON ev.id = (\n        SELECT e2.id FROM evidence e2\n        WHERE e2.work_item_id = wi.id AND e2.quote_verified = 1\n        ORDER BY e2.observed_at LIMIT 1\n    )\n\n            WHERE wi.user_id = :user_id\n              AND wi.status = 'OPEN'\n              AND (wi.owner_is_self = 0 OR wi.owner_is_self IS NULL)\n            ORDER BY\n                CASE WHEN wi.due_at IS NULL THEN 1 ELSE 0 END,\n                wi.due_at ASC,\n                julianday(:as_of) - julianday(wi.last_activity_at) DESC\n            LIMIT :limit\n        ",
+    "trigger": "Scheduled \u2014 waiting scan, daily. Detects counterparty silence.",
+    "reads": [
+      "work_items",
+      "people",
+      "threads"
+    ],
+    "pipeline": [
+      [
+        "Participants",
+        "Ownership is inverted from the same resolved identities.",
+        "people"
+      ],
+      [
+        "Reduce",
+        "Items owned by anyone but the mailbox owner stay OPEN until closed.",
+        "work_items"
+      ],
+      [
+        "Staleness",
+        "Measured against the thread's own median reply gap, not a fixed number of days.",
+        "threads"
+      ],
+      [
+        "Read",
+        "Same table, opposite ownership filter.",
+        null
+      ]
+    ]
   },
   "q5_what_changed": {
     "label": "What changed?",
     "why": "A comparison between two points in time. This is a range scan over the change log, not a generation task.",
-    "sql": "\n            SELECT\n                wic.change_type      AS change_type,\n                wic.old_value        AS old_value,\n                wic.new_value        AS new_value,\n                wic.changed_at       AS changed_at,\n                wi.id                AS work_item_id,\n                wi.title             AS title,\n                wi.speech_act        AS speech_act,\n                wi.status            AS status,\n                wi.due_at            AS due_at,\n                wi.owner_is_self     AS owner_is_self,\n                th.id                AS thread_id,\n                em.provider_message_id AS anchor_message_id,\n                em.subject           AS subject,\n                ev.evidence_quote    AS evidence_quote\n            FROM work_item_changes wic\n            JOIN work_items wi ON wi.id = wic.work_item_id\n            LEFT JOIN threads th ON th.id = wi.origin_thread_id\n            JOIN emails em ON em.id = wi.first_seen_email_id\n            LEFT JOIN evidence ev ON ev.id = wic.evidence_id\n            WHERE wic.user_id = :user_id\n              AND julianday(:as_of) - julianday(wic.changed_at) <= :window_days\n              AND wic.change_type <> 'opened'\n            ORDER BY wic.changed_at DESC\n            LIMIT :limit\n        "
+    "sql": "\n            SELECT\n                wic.change_type      AS change_type,\n                wic.old_value        AS old_value,\n                wic.new_value        AS new_value,\n                wic.changed_at       AS changed_at,\n                wi.id                AS work_item_id,\n                wi.title             AS title,\n                wi.speech_act        AS speech_act,\n                wi.status            AS status,\n                wi.due_at            AS due_at,\n                wi.owner_is_self     AS owner_is_self,\n                th.id                AS thread_id,\n                em.provider_message_id AS anchor_message_id,\n                em.subject           AS subject,\n                ev.evidence_quote    AS evidence_quote\n            FROM work_item_changes wic\n            JOIN work_items wi ON wi.id = wic.work_item_id\n            LEFT JOIN threads th ON th.id = wi.origin_thread_id\n            JOIN emails em ON em.id = wi.first_seen_email_id\n            LEFT JOIN evidence ev ON ev.id = wic.evidence_id\n            WHERE wic.user_id = :user_id\n              AND julianday(:as_of) - julianday(wic.changed_at) <= :window_days\n              AND wic.change_type <> 'opened'\n            ORDER BY wic.changed_at DESC\n            LIMIT :limit\n        ",
+    "trigger": "Event-driven \u2014 a change row is written before the projection, in the same transaction.",
+    "reads": [
+      "work_item_changes",
+      "work_items",
+      "evidence"
+    ],
+    "pipeline": [
+      [
+        "Extract",
+        "A later claim about the same thing is appended, never overwritten.",
+        "evidence"
+      ],
+      [
+        "Reduce",
+        "Before any field is updated, the prior value is written to the change log.",
+        "work_item_changes"
+      ],
+      [
+        "Supersede",
+        "The older evidence row is marked superseded_by, so the chain is auditable.",
+        "evidence"
+      ],
+      [
+        "Read",
+        "A range scan over changed_at. This is why it is not a generation task.",
+        null
+      ]
+    ]
   },
   "q6_slipping_through_cracks": {
     "label": "What's slipping through the cracks?",
     "why": "Open state plus unusual silence: nothing has moved, and either the deadline has passed or nobody ever claimed ownership.",
-    "sql": "\n            \n    SELECT\n        wi.id                AS work_item_id,\n        wi.title             AS title,\n        wi.speech_act        AS speech_act,\n        wi.status            AS status,\n        wi.due_at            AS due_at,\n        wi.owner_is_self     AS owner_is_self,\n        wi.owner_resolved    AS owner_resolved,\n        wi.last_activity_at  AS last_activity_at,\n        wi.opened_at         AS opened_at,\n        owner.canonical_name AS owner_name,\n        req.canonical_name   AS requester_name,\n        th.id                AS thread_id,\n        em.provider_message_id AS anchor_message_id,\n        em.subject           AS subject,\n        ev.evidence_quote    AS evidence_quote\n    FROM work_items wi\n    LEFT JOIN people owner ON owner.id = wi.owner_person_id\n    LEFT JOIN people req   ON req.id   = wi.requester_person_id\n    LEFT JOIN threads th   ON th.id    = wi.origin_thread_id\n    JOIN emails em         ON em.id    = wi.first_seen_email_id\n    LEFT JOIN evidence ev  ON ev.id = (\n        SELECT e2.id FROM evidence e2\n        WHERE e2.work_item_id = wi.id AND e2.quote_verified = 1\n        ORDER BY e2.observed_at LIMIT 1\n    )\n\n            WHERE wi.user_id = :user_id\n              AND wi.status = 'OPEN'\n              AND (\n                    julianday(:as_of) - julianday(wi.last_activity_at) >= 7\n                 OR (wi.due_at IS NOT NULL AND julianday(wi.due_at) < julianday(:as_of))\n                 OR wi.owner_resolved = 0\n              )\n            ORDER BY julianday(:as_of) - julianday(wi.last_activity_at) DESC\n            LIMIT :limit\n        "
+    "sql": "\n            \n    SELECT\n        wi.id                AS work_item_id,\n        wi.title             AS title,\n        wi.speech_act        AS speech_act,\n        wi.status            AS status,\n        wi.due_at            AS due_at,\n        wi.owner_is_self     AS owner_is_self,\n        wi.owner_resolved    AS owner_resolved,\n        wi.last_activity_at  AS last_activity_at,\n        wi.opened_at         AS opened_at,\n        owner.canonical_name AS owner_name,\n        req.canonical_name   AS requester_name,\n        th.id                AS thread_id,\n        em.provider_message_id AS anchor_message_id,\n        em.subject           AS subject,\n        ev.evidence_quote    AS evidence_quote\n    FROM work_items wi\n    LEFT JOIN people owner ON owner.id = wi.owner_person_id\n    LEFT JOIN people req   ON req.id   = wi.requester_person_id\n    LEFT JOIN threads th   ON th.id    = wi.origin_thread_id\n    JOIN emails em         ON em.id    = wi.first_seen_email_id\n    LEFT JOIN evidence ev  ON ev.id = (\n        SELECT e2.id FROM evidence e2\n        WHERE e2.work_item_id = wi.id AND e2.quote_verified = 1\n        ORDER BY e2.observed_at LIMIT 1\n    )\n\n            WHERE wi.user_id = :user_id\n              AND wi.status = 'OPEN'\n              AND (\n                    julianday(:as_of) - julianday(wi.last_activity_at) >= 7\n                 OR (wi.due_at IS NOT NULL AND julianday(wi.due_at) < julianday(:as_of))\n                 OR wi.owner_resolved = 0\n              )\n            ORDER BY julianday(:as_of) - julianday(wi.last_activity_at) DESC\n            LIMIT :limit\n        ",
+    "trigger": "Scheduled \u2014 staleness scan, daily.",
+    "reads": [
+      "work_items",
+      "attention_candidates",
+      "threads"
+    ],
+    "pipeline": [
+      [
+        "Reduce",
+        "Items with no closing event remain OPEN indefinitely; silence never closes one.",
+        "work_items"
+      ],
+      [
+        "Staleness",
+        "Quiet time is compared against the thread's own rhythm.",
+        "threads"
+      ],
+      [
+        "Ownership",
+        "An item nobody ever claimed (owner_resolved = 0) qualifies on its own.",
+        null
+      ],
+      [
+        "Read",
+        "Overdue, or quiet, or unclaimed - ordered by how long it has been still.",
+        null
+      ]
+    ]
   }
 }

@@ -184,8 +184,55 @@ function showQuestion(key) {
   } else {
     wrap.append(renderRows(rows, key));
   }
+
+  wrap.append(renderHow(q));
   stage.append(wrap);
   stage.scrollTop = 0;
+}
+
+/**
+ * "How this is answered" — the designed job and dataflow behind the question.
+ *
+ * This is the part that distinguishes a ledger from a search box: the answer
+ * above was produced by a named pipeline with a named trigger, and every stage
+ * of it is inspectable. The SQL shown is the SQL that ran.
+ */
+function renderHow(q) {
+  const d = el("details", "how");
+  d.append(el("summary", null, "How this answer is produced"));
+  const body = el("div", "how-body");
+
+  if (q.trigger) {
+    const t = el("p", "how-trigger");
+    t.append(el("b", null, "Trigger"));
+    t.append(document.createTextNode(q.trigger));
+    body.append(t);
+  }
+
+  if (q.pipeline?.length) {
+    const flow = el("div", "flow");
+    q.pipeline.forEach(([name, desc, writes], i) => {
+      const step = el("div", "flow-step");
+      if (name === "Read") step.classList.add("is-read");
+      step.append(el("div", "flow-n", String(i + 1).padStart(2, "0")));
+      step.append(el("div", "flow-name", name));
+      const col = el("div", "flow-desc", desc);
+      if (writes) col.append(el("span", "flow-writes", `writes ${writes}`));
+      step.append(col);
+      flow.append(step);
+    });
+    body.append(flow);
+  }
+
+  if (q.reads?.length) {
+    body.append(el("p", "how-reads", `reads · ${q.reads.join(" · ")}`));
+  }
+
+  const sql = el("pre", "how-sql", (q.sql || "").trim().replace(/\n\s{8}/g, "\n"));
+  body.append(sql);
+
+  d.append(body);
+  return d;
 }
 
 function renderRows(rows, key) {
@@ -220,6 +267,7 @@ function renderRows(rows, key) {
 
     if (r.evidence_quote) {
       const cite = el("button", "cite", r.evidence_quote);
+      cite.append(el("span", "cite-open", "open source message"));
       cite.onclick = () => openSource(r.anchor_message_id, r.evidence_quote);
       main.append(cite);
     }
