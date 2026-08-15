@@ -2,10 +2,10 @@
   "founder": {
     "q1_needs_attention": {
       "gold_items": 8,
-      "answers_returned": 0,
-      "covered": 0,
-      "recall": 0.0,
-      "precision": null,
+      "answers_returned": 25,
+      "covered": 1,
+      "recall": 0.125,
+      "precision": 0.04,
       "leaked": [],
       "missed": [
         {
@@ -25,14 +25,6 @@
           "claim": "Before Thursday Aug 13's 2pm Ramp renewal call, Maya must approve raising the corporate card limit from $50K to $85K/mo,",
           "tricky_tags": [
             "task_in_attachment_only"
-          ]
-        },
-        {
-          "item_id": "founder-q1-04",
-          "claim": "The Kettle\u2013Lumenpay MSA amendment is sitting unsigned in a Hoyt & Grieve e-signature envelope since Aug 7; Maya promised",
-          "tricky_tags": [
-            "conditional_promise",
-            "reply_to_mismatch"
           ]
         },
         {
@@ -63,86 +55,26 @@
     },
     "q2_forgetting": {
       "gold_items": 7,
-      "answers_returned": 0,
-      "covered": 0,
-      "recall": 0.0,
-      "precision": null,
+      "answers_returned": 22,
+      "covered": 7,
+      "recall": 1.0,
+      "precision": 0.2727272727272727,
       "leaked": [],
-      "missed": [
-        {
-          "item_id": "founder-q2-01",
-          "claim": "Maya promised Dana Kowalski a written status update from her personally every Friday until the Lumenpay migration closed",
-          "tricky_tags": []
-        },
-        {
-          "item_id": "founder-q2-02",
-          "claim": "Maya promised Dana the countersigned MSA amendment by Friday Jul 3 if Beth signed off on the indemnification language; B",
-          "tricky_tags": [
-            "conditional_promise",
-            "reply_to_mismatch"
-          ]
-        },
-        {
-          "item_id": "founder-q2-03",
-          "claim": "Maya committed to crediting Lumenpay 100% of August platform fees and said Wendy would get the credit memo to Lumenpay's",
-          "tricky_tags": []
-        },
-        {
-          "item_id": "founder-q2-04",
-          "claim": "Maya told Alice Yun on Jul 18 she would send an updated Head of Marketing JD reflecting the hands-on PLG requirement 'by",
-          "tricky_tags": []
-        },
-        {
-          "item_id": "founder-q2-05",
-          "claim": "Maya told Marcus Ito the API rate-limit patch would ship by Aug 6 and that someone would confirm directly with Tarrow's ",
-          "tricky_tags": []
-        },
-        {
-          "item_id": "founder-q2-06",
-          "claim": "Maya told Beth Ranganathan she would have Dev confirm the SOC2 report contract language by Friday Aug 7 before Beth send",
-          "tricky_tags": []
-        },
-        {
-          "item_id": "founder-q2-07",
-          "claim": "Maya told Beth on Jul 27 she would personally loop Dana in on the interim SOC2 attestation approach so it wouldn't land ",
-          "tricky_tags": [
-            "conditional_promise"
-          ]
-        }
-      ]
+      "missed": []
     },
     "q3_waiting_on_me": {
       "gold_items": 6,
-      "answers_returned": 0,
-      "covered": 0,
-      "recall": 0.0,
-      "precision": null,
+      "answers_returned": 25,
+      "covered": 3,
+      "recall": 0.5,
+      "precision": 0.12,
       "leaked": [],
       "missed": [
-        {
-          "item_id": "founder-q3-01",
-          "claim": "Beth Ranganathan's office sent the finalized Kettle\u2013Lumenpay MSA amendment for Maya's countersignature on Aug 7; it is s",
-          "tricky_tags": [
-            "reply_to_mismatch"
-          ]
-        },
         {
           "item_id": "founder-q3-02",
           "claim": "Alice Yun is waiting for Maya to review the four-candidate Head of Marketing slate and say who to prioritize; she sent i",
           "tricky_tags": [
             "duplicate_resend"
-          ]
-        },
-        {
-          "item_id": "founder-q3-03",
-          "claim": "Wendy Osei needs Maya to decide whether to raise the Ramp card limit or switch to the backup card after the AWS renewal ",
-          "tricky_tags": []
-        },
-        {
-          "item_id": "founder-q3-04",
-          "claim": "Wendy needs three sign-offs from Maya before Thursday Aug 13's Ramp renewal call: the $50K\u2192$85K card-limit increase, Lui",
-          "tricky_tags": [
-            "task_in_attachment_only"
           ]
         },
         {
@@ -161,10 +93,10 @@
     },
     "q4_waiting_on_others": {
       "gold_items": 6,
-      "answers_returned": 0,
+      "answers_returned": 25,
       "covered": 0,
       "recall": 0.0,
-      "precision": null,
+      "precision": 0.0,
       "leaked": [],
       "missed": [
         {
@@ -207,24 +139,12 @@
     },
     "q5_what_changed": {
       "gold_items": 7,
-      "answers_returned": 0,
-      "covered": 0,
-      "recall": 0.0,
-      "precision": null,
+      "answers_returned": 7,
+      "covered": 2,
+      "recall": 0.2857142857142857,
+      "precision": 0.2857142857142857,
       "leaked": [],
       "missed": [
-        {
-          "item_id": "founder-q5-01",
-          "claim": "The Lumenpay SSO production go-live is now Monday Aug 17 with a rollback window through Aug 21 \u2014 not the Aug 10 date May",
-          "tricky_tags": []
-        },
-        {
-          "item_id": "founder-q5-02",
-          "claim": "Tarrow Health's early access to the new alerting API is cancelled, not delayed \u2014 Tom promised Aug 1 access on Jul 18 and",
-          "tricky_tags": [
-            "cancelled_commitment"
-          ]
-        },
         {
           "item_id": "founder-q5-03",
           "claim": "The SOC2 Type II evidence submission deadline moved a week earlier, from Aug 20 to Aug 13 \u2014 Certiva's lead assessor had ",
@@ -263,10 +183,10 @@
     },
     "q6_slipping_through_cracks": {
       "gold_items": 8,
-      "answers_returned": 0,
-      "covered": 0,
-      "recall": 0.0,
-      "precision": null,
+      "answers_returned": 25,
+      "covered": 2,
+      "recall": 0.25,
+      "precision": 0.08,
       "leaked": [],
       "missed": [
         {
@@ -303,21 +223,6 @@
           ]
         },
         {
-          "item_id": "founder-q6-06",
-          "claim": "Maya's Jun 25 request for Greg Whitfield's feedback on the board-deck runway slide never reached a human \u2014 it hit his ou",
-          "tricky_tags": [
-            "out_of_office"
-          ]
-        },
-        {
-          "item_id": "founder-q6-07",
-          "claim": "The condition on Maya's Jul 3 promise to Dana \u2014 Beth's sign-off on the indemnification language \u2014 resolved silently. The",
-          "tricky_tags": [
-            "conditional_promise",
-            "reply_to_mismatch"
-          ]
-        },
-        {
           "item_id": "founder-q6-08",
           "claim": "The Lumenpay onboarding doc was supposed to be updated before Friday Jul 31 by either Dev or Tom \u2014 the message says 'he ",
           "tricky_tags": [
@@ -330,19 +235,12 @@
   "marketing": {
     "q1_needs_attention": {
       "gold_items": 6,
-      "answers_returned": 0,
-      "covered": 0,
-      "recall": 0.0,
-      "precision": null,
+      "answers_returned": 25,
+      "covered": 2,
+      "recall": 0.3333333333333333,
+      "precision": 0.08,
       "leaked": [],
       "missed": [
-        {
-          "item_id": "marketing-q1-01",
-          "claim": "Jordan owes Priyanka Rao edits on the sustainability-line press release (sourcing claims in paragraph 2 and Sofia's quot",
-          "tricky_tags": [
-            "duplicate_resend"
-          ]
-        },
         {
           "item_id": "marketing-q1-02",
           "claim": "Jordan's Aug 12 email carrying the final holiday campaign round files never reached Tessa Brandt \u2014 Fold & Field's mailbo",
@@ -352,13 +250,6 @@
           "item_id": "marketing-q1-03",
           "claim": "The Q3 channel-attribution figure for the board deck is due Aug 14 and still has no methodology write-up: Jordan ruled '",
           "tricky_tags": []
-        },
-        {
-          "item_id": "marketing-q1-04",
-          "claim": "Marketing's completed Q4 budget submission template is due to Wes Duffy and finance-planning by Friday Aug 21 at 5:00pm ",
-          "tricky_tags": [
-            "task_in_attachment_only"
-          ]
         },
         {
           "item_id": "marketing-q1-05",
@@ -376,77 +267,21 @@
     },
     "q2_forgetting": {
       "gold_items": 5,
-      "answers_returned": 0,
-      "covered": 0,
-      "recall": 0.0,
-      "precision": null,
+      "answers_returned": 22,
+      "covered": 5,
+      "recall": 1.0,
+      "precision": 0.22727272727272727,
       "leaked": [],
-      "missed": [
-        {
-          "item_id": "marketing-q2-01",
-          "claim": "Jordan promised Denise Aoki a firm yes/no on the Sept 1 replatform go-live by Friday Jul 24 close of business, in time f",
-          "tricky_tags": []
-        },
-        {
-          "item_id": "marketing-q2-02",
-          "claim": "Jordan told Alan Chetty on Jul 17 she'd send the Linen Cut / Amara Diallo draft contract for legal review 'early next we",
-          "tricky_tags": []
-        },
-        {
-          "item_id": "marketing-q2-03",
-          "claim": "Jordan told Wes on Jul 27 she would personally walk Sofia through the extra $20K on the Aug 4-5 shoot; the explanation e",
-          "tricky_tags": []
-        },
-        {
-          "item_id": "marketing-q2-04",
-          "claim": "Jordan told Tessa on Jul 31 she was routing the agency SOW to Sofia for sign-off and would follow up 'early next week'; ",
-          "tricky_tags": [
-            "topic_drift"
-          ]
-        },
-        {
-          "item_id": "marketing-q2-05",
-          "claim": "Jordan's conditional promise to Sofia \u2014 the Amara campaign brief by Friday EOD if legal cleared the influencer contract ",
-          "tricky_tags": [
-            "conditional_promise"
-          ]
-        }
-      ]
+      "missed": []
     },
     "q3_waiting_on_me": {
       "gold_items": 5,
-      "answers_returned": 0,
-      "covered": 0,
-      "recall": 0.0,
-      "precision": null,
+      "answers_returned": 25,
+      "covered": 4,
+      "recall": 0.8,
+      "precision": 0.16,
       "leaked": [],
       "missed": [
-        {
-          "item_id": "marketing-q3-01",
-          "claim": "Priyanka Rao is blocked on Jordan's edits to the sustainability-line press release \u2014 specifically the paragraph-2 sourci",
-          "tricky_tags": [
-            "duplicate_resend"
-          ]
-        },
-        {
-          "item_id": "marketing-q3-02",
-          "claim": "Cam Okafor is waiting on Jordan's approval of the $2,800 budget bump for Amara Diallo's whitelisting spend, asked Jul 30",
-          "tricky_tags": [
-            "quoted_text_only_task"
-          ]
-        },
-        {
-          "item_id": "marketing-q3-03",
-          "claim": "Amara Diallo accepted $4,800 with the 60-day usage extension for the holiday gifting collab on Aug 11 and is waiting on ",
-          "tricky_tags": []
-        },
-        {
-          "item_id": "marketing-q3-04",
-          "claim": "Wes Duffy is waiting on marketing's completed Q4 budget submission template, due to him and finance-planning by Friday A",
-          "tricky_tags": [
-            "task_in_attachment_only"
-          ]
-        },
         {
           "item_id": "marketing-q3-05",
           "claim": "Sofia Marchetti is waiting on the Q4 brand positioning deck 'before the leadership offsite', which the calendar fixes as",
@@ -458,22 +293,12 @@
     },
     "q4_waiting_on_others": {
       "gold_items": 5,
-      "answers_returned": 0,
-      "covered": 0,
-      "recall": 0.0,
-      "precision": null,
+      "answers_returned": 25,
+      "covered": 2,
+      "recall": 0.4,
+      "precision": 0.08,
       "leaked": [],
       "missed": [
-        {
-          "item_id": "marketing-q4-01",
-          "claim": "Nina Sokolov owes Jordan and Wes the board-readable methodology paragraph explaining the position-based attribution mode",
-          "tricky_tags": []
-        },
-        {
-          "item_id": "marketing-q4-02",
-          "claim": "Wes Duffy has not delivered the FY27 marketing budget model (paid social, paid search, lifecycle tooling, agency retaine",
-          "tricky_tags": []
-        },
         {
           "item_id": "marketing-q4-03",
           "claim": "Tessa Brandt has not responded to Jordan's Aug 5 counter on the FY27 retainer \u2014 11% with a 14-month term, or flat at the",
@@ -493,10 +318,10 @@
     },
     "q5_what_changed": {
       "gold_items": 5,
-      "answers_returned": 0,
+      "answers_returned": 2,
       "covered": 0,
       "recall": 0.0,
-      "precision": null,
+      "precision": 0.0,
       "leaked": [],
       "missed": [
         {
@@ -534,10 +359,10 @@
     },
     "q6_slipping_through_cracks": {
       "gold_items": 5,
-      "answers_returned": 0,
+      "answers_returned": 25,
       "covered": 0,
       "recall": 0.0,
-      "precision": null,
+      "precision": 0.0,
       "leaked": [],
       "missed": [
         {
@@ -577,10 +402,10 @@
   "finance": {
     "q1_needs_attention": {
       "gold_items": 8,
-      "answers_returned": 0,
-      "covered": 0,
-      "recall": 0.0,
-      "precision": null,
+      "answers_returned": 25,
+      "covered": 2,
+      "recall": 0.25,
+      "precision": 0.08,
       "leaked": [],
       "missed": [
         {
@@ -608,20 +433,6 @@
           ]
         },
         {
-          "item_id": "finance-q1-05",
-          "claim": "Derek Lang's $4,230 Q3 travel expense report still needs VP Finance approval \u2014 the deadline (EOD Thursday Aug 6, ahead o",
-          "tricky_tags": [
-            "task_in_attachment_only"
-          ]
-        },
-        {
-          "item_id": "finance-q1-06",
-          "claim": "Ruth Amankwah's conveyor-system capex request still needs Aditi's sign-off \u2014 asked Aug 3 for Monday Aug 10, and the only",
-          "tricky_tags": [
-            "quoted_text_only_task"
-          ]
-        },
-        {
           "item_id": "finance-q1-07",
           "claim": "The 'Wire Instructions Update \u2014 Credit Facility Draw #4471' email asking for Northwind's account and routing numbers is ",
           "tricky_tags": [
@@ -637,45 +448,19 @@
     },
     "q2_forgetting": {
       "gold_items": 5,
-      "answers_returned": 0,
-      "covered": 0,
-      "recall": 0.0,
-      "precision": null,
+      "answers_returned": 24,
+      "covered": 5,
+      "recall": 1.0,
+      "precision": 0.20833333333333334,
       "leaked": [],
-      "missed": [
-        {
-          "item_id": "finance-q2-01",
-          "claim": "The revenue-recognition memo Aditi promised to write up 'by end of week' on Jul 29 still does not exist \u2014 Nadia has been",
-          "tricky_tags": []
-        },
-        {
-          "item_id": "finance-q2-02",
-          "claim": "The lease amortization schedule and related-party disclosures Aditi personally promised Nadia 'by Thursday EOD' (Aug 6) ",
-          "tricky_tags": []
-        },
-        {
-          "item_id": "finance-q2-03",
-          "claim": "Aditi told Karen on Aug 6 she would send Sam the final board-deck financials slide 'by tomorrow morning' \u2014 the deck was ",
-          "tricky_tags": []
-        },
-        {
-          "item_id": "finance-q2-04",
-          "claim": "The Q2 covenant compliance certificate Aditi promised Frank Mireles 'before the 28th' was never filed, even though Frank",
-          "tricky_tags": []
-        },
-        {
-          "item_id": "finance-q2-05",
-          "claim": "Ironforge Automation's invoice IF-3312 is still unpaid: Aditi drafted an apology on Aug 1 saying she was releasing payme",
-          "tricky_tags": []
-        }
-      ]
+      "missed": []
     },
     "q3_waiting_on_me": {
       "gold_items": 6,
-      "answers_returned": 0,
-      "covered": 0,
-      "recall": 0.0,
-      "precision": null,
+      "answers_returned": 25,
+      "covered": 5,
+      "recall": 0.8333333333333334,
+      "precision": 0.2,
       "leaked": [],
       "missed": [
         {
@@ -684,71 +469,23 @@
           "tricky_tags": [
             "same_person_two_addresses"
           ]
-        },
-        {
-          "item_id": "finance-q3-02",
-          "claim": "Frank Mireles is waiting on the updated FY27 financials, the executed amendment and the June AR aging for Harborline's c",
-          "tricky_tags": [
-            "deadline_moved"
-          ]
-        },
-        {
-          "item_id": "finance-q3-03",
-          "claim": "Sam Greer is waiting on the updated FY27 budget summary ahead of the Aug 27 board meeting, carrying the compromise Custo",
-          "tricky_tags": [
-            "implicit_deadline"
-          ]
-        },
-        {
-          "item_id": "finance-q3-04",
-          "claim": "Fourteen vendors and the AP team are waiting on Aditi to approve the $97,425.55 Bill.com payment batch, which has been p",
-          "tricky_tags": []
-        },
-        {
-          "item_id": "finance-q3-05",
-          "claim": "Ilya Petrov (and Derek Lang) are waiting on VP Finance approval of Derek's $4,230 Q3 travel expense report, which needed",
-          "tricky_tags": [
-            "task_in_attachment_only"
-          ]
-        },
-        {
-          "item_id": "finance-q3-06",
-          "claim": "Ruth Amankwah is waiting on Aditi's sign-off of the conveyor-system capex request she asked for on Aug 3 with a Monday A",
-          "tricky_tags": [
-            "quoted_text_only_task"
-          ]
         }
       ]
     },
     "q4_waiting_on_others": {
       "gold_items": 5,
-      "answers_returned": 0,
-      "covered": 0,
-      "recall": 0.0,
-      "precision": null,
+      "answers_returned": 25,
+      "covered": 3,
+      "recall": 0.6,
+      "precision": 0.12,
       "leaked": [],
       "missed": [
-        {
-          "item_id": "finance-q4-01",
-          "claim": "Derek Lang and Ruth Amankwah still owe their FY27 department budget inputs \u2014 the template went out around Jul 21, Aditi ",
-          "tricky_tags": []
-        },
-        {
-          "item_id": "finance-q4-02",
-          "claim": "Miles Okonkwo owes Nadia the ASC 842 lease schedule for the Waltham warehouse and a July 31 Carta cap-table export by Fr",
-          "tricky_tags": []
-        },
         {
           "item_id": "finance-q4-03",
           "claim": "Kenji Watanabe has never answered whether the Q3 estimated tax payment should be trued up for the revenue running ahead ",
           "tricky_tags": [
             "out_of_office"
           ]
-        },
-        {
-          "item_id": "finance-q4-04",
-          "claim": "Hannah Cho still owes the July headcount numbers \u2014 Aditi asked on Jul 17 for end-of-July headcount by department with fu",
-          "tricky_tags": []
         },
         {
           "item_id": "finance-q4-05",
@@ -759,10 +496,10 @@
     },
     "q5_what_changed": {
       "gold_items": 4,
-      "answers_returned": 0,
-      "covered": 0,
-      "recall": 0.0,
-      "precision": null,
+      "answers_returned": 4,
+      "covered": 1,
+      "recall": 0.25,
+      "precision": 0.25,
       "leaked": [],
       "missed": [
         {
@@ -780,13 +517,6 @@
           ]
         },
         {
-          "item_id": "finance-q5-03",
-          "claim": "Hannah Cho withdrew her commitment to deliver the final FY27 headcount plan on Friday Jul 31 \u2014 legal wants another pass ",
-          "tricky_tags": [
-            "cancelled_commitment"
-          ]
-        },
-        {
           "item_id": "finance-q5-04",
           "claim": "The inventory obsolescence question landed at a $190K item-level booked adjustment plus expanded footnote disclosure, no",
           "tricky_tags": [
@@ -797,10 +527,10 @@
     },
     "q6_slipping_through_cracks": {
       "gold_items": 6,
-      "answers_returned": 0,
+      "answers_returned": 25,
       "covered": 0,
       "recall": 0.0,
-      "precision": null,
+      "precision": 0.0,
       "leaked": [],
       "missed": [
         {
@@ -850,17 +580,12 @@
   "hr": {
     "q1_needs_attention": {
       "gold_items": 6,
-      "answers_returned": 0,
-      "covered": 0,
-      "recall": 0.0,
-      "precision": null,
+      "answers_returned": 25,
+      "covered": 1,
+      "recall": 0.16666666666666666,
+      "precision": 0.04,
       "leaked": [],
       "missed": [
-        {
-          "item_id": "hr-q1-01",
-          "claim": "Checkr returned records on Maria Chen (Senior RN Case Manager) requiring an adverse-action review by Aug 14, and her off",
-          "tricky_tags": []
-        },
         {
           "item_id": "hr-q1-02",
           "claim": "Elaine decided on Aug 10 to hire Michael Tran for VP Clinical Ops and asked Marcus to have Rich Delacroix prep the offer",
@@ -898,27 +623,12 @@
     },
     "q2_forgetting": {
       "gold_items": 5,
-      "answers_returned": 0,
-      "covered": 0,
-      "recall": 0.0,
-      "precision": null,
+      "answers_returned": 16,
+      "covered": 3,
+      "recall": 0.6,
+      "precision": 0.1875,
       "leaked": [],
       "missed": [
-        {
-          "item_id": "hr-q2-01",
-          "claim": "Marcus told Josh Lieberman on Jul 31 he would send the revised New Mexico meal-break waiver section 'by Monday' (Aug 3);",
-          "tricky_tags": []
-        },
-        {
-          "item_id": "hr-q2-02",
-          "claim": "Marcus promised Priscilla Nam comp benchmarking against local travel and agency rates 'within two weeks' on Jul 16; it i",
-          "tricky_tags": []
-        },
-        {
-          "item_id": "hr-q2-03",
-          "claim": "Marcus told Doug Feinstein on Jul 15 he'd send the full exit-interview theme summary 'later this week'; it has never bee",
-          "tricky_tags": []
-        },
         {
           "item_id": "hr-q2-04",
           "claim": "Marcus committed in the Jul 13 Q3 performance-cycle kickoff to send manager-facing FAQ content to Claudia, Tim, Renata a",
@@ -933,26 +643,12 @@
     },
     "q3_waiting_on_me": {
       "gold_items": 7,
-      "answers_returned": 0,
-      "covered": 0,
-      "recall": 0.0,
-      "precision": null,
+      "answers_returned": 25,
+      "covered": 2,
+      "recall": 0.2857142857142857,
+      "precision": 0.08,
       "leaked": [],
       "missed": [
-        {
-          "item_id": "hr-q3-01",
-          "claim": "Elaine is waiting on Marcus to have Rich Delacroix prep Michael Tran's VP Clinical Ops offer and to work with Doug on ho",
-          "tricky_tags": [
-            "long_thread"
-          ]
-        },
-        {
-          "item_id": "hr-q3-02",
-          "claim": "Elaine asked Marcus on Aug 10 for the final FY27 headcount plan \u2014 finished numbers, not a draft \u2014 ahead of the board mee",
-          "tricky_tags": [
-            "implicit_deadline"
-          ]
-        },
         {
           "item_id": "hr-q3-03",
           "claim": "Elaine asked Marcus on Jul 27 to reopen the phlebotomist requisition and tell Tim the final approved req count is 6; six",
@@ -990,29 +686,12 @@
     },
     "q4_waiting_on_others": {
       "gold_items": 5,
-      "answers_returned": 0,
-      "covered": 0,
-      "recall": 0.0,
-      "precision": null,
+      "answers_returned": 25,
+      "covered": 3,
+      "recall": 0.6,
+      "precision": 0.12,
       "leaked": [],
       "missed": [
-        {
-          "item_id": "hr-q4-01",
-          "claim": "Angela Nwosu said on Aug 10 that the full plan comparison sheet is coming 'next week' once the carrier finalizes the sum",
-          "tricky_tags": [
-            "promised_attachment"
-          ]
-        },
-        {
-          "item_id": "hr-q4-02",
-          "claim": "Priscilla Nam has not sent her unit leads' input on the nurse retention survey questions \u2014 requested Jul 16 for that Fri",
-          "tricky_tags": []
-        },
-        {
-          "item_id": "hr-q4-03",
-          "claim": "Farida Bashir promised on Jul 20 to send Marcus redline shift-differential language for the multi-state handbook addendu",
-          "tricky_tags": []
-        },
         {
           "item_id": "hr-q4-04",
           "claim": "Marcus's Aug 5 question to Angela \u2014 is the draft SBC packet still on track for the 14th \u2014 reached only her out-of-office",
@@ -1029,10 +708,10 @@
     },
     "q5_what_changed": {
       "gold_items": 6,
-      "answers_returned": 0,
+      "answers_returned": 4,
       "covered": 0,
       "recall": 0.0,
-      "precision": null,
+      "precision": 0.0,
       "leaked": [],
       "missed": [
         {
@@ -1079,10 +758,10 @@
     },
     "q6_slipping_through_cracks": {
       "gold_items": 5,
-      "answers_returned": 0,
-      "covered": 0,
-      "recall": 0.0,
-      "precision": null,
+      "answers_returned": 25,
+      "covered": 1,
+      "recall": 0.2,
+      "precision": 0.04,
       "leaked": [],
       "missed": [
         {
@@ -1091,11 +770,6 @@
           "tricky_tags": [
             "quoted_text_only_task"
           ]
-        },
-        {
-          "item_id": "hr-q6-02",
-          "claim": "Six named employees still have no completed I-9 Section 2 and passed the Jul 31 remediation window twelve days ago, whil",
-          "tricky_tags": []
         },
         {
           "item_id": "hr-q6-03",
@@ -1124,10 +798,10 @@
   "consulting": {
     "q1_needs_attention": {
       "gold_items": 5,
-      "answers_returned": 0,
+      "answers_returned": 25,
       "covered": 0,
       "recall": 0.0,
-      "precision": null,
+      "precision": 0.0,
       "leaked": [],
       "missed": [
         {
@@ -1168,44 +842,19 @@
     },
     "q2_forgetting": {
       "gold_items": 4,
-      "answers_returned": 0,
-      "covered": 0,
-      "recall": 0.0,
-      "precision": null,
+      "answers_returned": 25,
+      "covered": 4,
+      "recall": 1.0,
+      "precision": 0.16,
       "leaked": [],
-      "missed": [
-        {
-          "item_id": "consulting-q2-01",
-          "claim": "Evelyn promised Owen McCabe the final Stratus SOW language by end of week on Jul 29; twelve days later it has not gone, ",
-          "tricky_tags": [
-            "conditional_promise"
-          ]
-        },
-        {
-          "item_id": "consulting-q2-02",
-          "claim": "The $12,500 Halberd change-order paperwork Evelyn promised Lucia Ferraro by Friday Jul 31 has never been sent \u2014 only the",
-          "tricky_tags": []
-        },
-        {
-          "item_id": "consulting-q2-03",
-          "claim": "Evelyn's conditional promise to Lucia \u2014 the updated Halberd SOW by Friday Jul 10 if Terrence signed off on the amended i",
-          "tricky_tags": [
-            "conditional_promise"
-          ]
-        },
-        {
-          "item_id": "consulting-q2-04",
-          "claim": "Evelyn told AME's Denise Whitcomb she would send a bio and headshot for the Sept 15 Fall Manufacturing Summit panel well",
-          "tricky_tags": []
-        }
-      ]
+      "missed": []
     },
     "q3_waiting_on_me": {
       "gold_items": 5,
-      "answers_returned": 0,
-      "covered": 0,
-      "recall": 0.0,
-      "precision": null,
+      "answers_returned": 25,
+      "covered": 2,
+      "recall": 0.4,
+      "precision": 0.08,
       "leaked": [],
       "missed": [
         {
@@ -1213,13 +862,6 @@
           "claim": "Owen McCabe is waiting for confirmation that Kyle can do the Stratus plant walkthrough the week of Aug 24 before he fina",
           "tricky_tags": [
             "quoted_text_only_task"
-          ]
-        },
-        {
-          "item_id": "consulting-q3-02",
-          "claim": "Bob Vandergriff needs a two-page executive summary with headline findings and ROI numbers before Meridian's board meetin",
-          "tricky_tags": [
-            "implicit_deadline"
           ]
         },
         {
@@ -1235,22 +877,15 @@
           "tricky_tags": [
             "conditional_promise"
           ]
-        },
-        {
-          "item_id": "consulting-q3-05",
-          "claim": "Sheila Park needs Evelyn's sign-off on the $446.15 Expensify batch by EOD Friday Aug 14 or three staff reimbursements ro",
-          "tricky_tags": [
-            "task_in_attachment_only"
-          ]
         }
       ]
     },
     "q4_waiting_on_others": {
       "gold_items": 6,
-      "answers_returned": 0,
-      "covered": 0,
-      "recall": 0.0,
-      "precision": null,
+      "answers_returned": 25,
+      "covered": 3,
+      "recall": 0.5,
+      "precision": 0.12,
       "leaked": [],
       "missed": [
         {
@@ -1261,23 +896,8 @@
           ]
         },
         {
-          "item_id": "consulting-q4-02",
-          "claim": "Owen McCabe and CFO Preston Yao owe the signed Stratus SOW back by Friday Aug 14 to hold the week-of-Aug-24 kickoff slot",
-          "tricky_tags": []
-        },
-        {
-          "item_id": "consulting-q4-03",
-          "claim": "Kyle Brenner owes Bob and Doug Kessler the updated Meridian findings report with the retrofit-week footnote by Friday Au",
-          "tricky_tags": []
-        },
-        {
           "item_id": "consulting-q4-04",
           "claim": "Bob Vandergriff owes the countersigned Meridian Phase 2 SOW back from his procurement team; he said on Aug 5 he would co",
-          "tricky_tags": []
-        },
-        {
-          "item_id": "consulting-q4-05",
-          "claim": "Kyle Brenner (with Fiona) has never delivered the Stratus plant-systems data-pull outline that Anil needs as a starting ",
           "tricky_tags": []
         },
         {
@@ -1289,10 +909,10 @@
     },
     "q5_what_changed": {
       "gold_items": 5,
-      "answers_returned": 0,
-      "covered": 0,
-      "recall": 0.0,
-      "precision": null,
+      "answers_returned": 6,
+      "covered": 1,
+      "recall": 0.2,
+      "precision": 0.16666666666666666,
       "leaked": [],
       "missed": [
         {
@@ -1310,11 +930,6 @@
           ]
         },
         {
-          "item_id": "consulting-q5-03",
-          "claim": "Stratus payment terms moved from net-30 to net-45 at CFO Preston Yao's request, and the final $76K SOW went out on those",
-          "tricky_tags": []
-        },
-        {
           "item_id": "consulting-q5-04",
           "claim": "The fifth-consultant hire is Priya, not Nate Osgood \u2014 Nate accepted another offer, and Priya's approved offer is $145,00",
           "tricky_tags": [
@@ -1330,10 +945,10 @@
     },
     "q6_slipping_through_cracks": {
       "gold_items": 7,
-      "answers_returned": 0,
+      "answers_returned": 25,
       "covered": 0,
       "recall": 0.0,
-      "precision": null,
+      "precision": 0.0,
       "leaked": [],
       "missed": [
         {

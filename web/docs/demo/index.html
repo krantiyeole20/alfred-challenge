@@ -1,0 +1,79 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>alfred_ — live demo</title>
+<meta name="description" content="An evidence ledger built from 1,500 emails. Every answer carries its citation.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Figtree:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- boot -->
+<div class="boot" id="boot">
+  <div class="boot-inner">
+    <div class="boot-mark">a_</div>
+    <p class="boot-status" id="bootStatus">opening the ledger</p>
+    <div class="boot-bar"><span id="bootBar"></span></div>
+    <p class="boot-note">1,500 messages · 5 mailboxes · runs entirely in this tab</p>
+  </div>
+</div>
+
+<div class="shell" id="shell" hidden>
+
+  <aside class="side">
+    <div class="brand">
+      <div class="brand-mark">a_</div>
+      <div class="brand-name">alfred_ <span>/ demo</span></div>
+    </div>
+
+    <p class="side-label">Mailbox</p>
+    <div class="accounts" id="accounts"></div>
+
+    <p class="side-label">The six questions</p>
+    <nav class="queries" id="queries"></nav>
+
+    <div class="side-foot">
+      <button class="ghost" id="btnSchema">schema</button>
+      <a class="ghost" href="../index.html">design doc</a>
+    </div>
+  </aside>
+
+  <main class="main">
+    <header class="topbar">
+      <div class="who" id="who"></div>
+      <div class="asof">as of <time id="asof"></time></div>
+    </header>
+
+    <section class="stage" id="stage"></section>
+
+    <div class="composer">
+      <div class="composer-inner">
+        <input id="ask" type="text" autocomplete="off" spellcheck="false"
+               placeholder="Ask anything about this mailbox…">
+        <button id="send" aria-label="Ask">
+          <svg viewBox="0 0 24 24" width="17" height="17" fill="none"
+               stroke="currentColor" stroke-width="2" stroke-linecap="round"
+               stroke-linejoin="round"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
+        </button>
+      </div>
+      <p class="composer-note" id="composerNote"></p>
+    </div>
+  </main>
+
+  <aside class="drawer" id="drawer" aria-hidden="true">
+    <header class="drawer-head">
+      <p class="side-label">Source message</p>
+      <button class="ghost" id="drawerClose" aria-label="Close">close</button>
+    </header>
+    <div class="drawer-body" id="drawerBody"></div>
+  </aside>
+</div>
+
+<script src="https://cdn.jsdelivr.net/npm/sql.js@1.11.0/dist/sql-wasm.js"></script>
+<script type="module" src="app.js"></script>
+</body>
+</html>

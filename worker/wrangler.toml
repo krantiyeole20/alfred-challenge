@@ -1,0 +1,21 @@
+name = "alfred-demo-proxy"
+main = "src/index.js"
+compatibility_date = "2026-08-01"
+
+# D1 holds the rate-limit counters. The Rate Limiting binding is free but is
+# per-location and documented as "not an accurate accounting system" -- fine
+# for stopping abuse, useless as a spend ceiling. A counter row is exact.
+#
+# Create it once, then paste the returned id below:
+#   npx wrangler d1 create alfred-demo
+[[d1_databases]]
+binding = "DB"
+database_name = "alfred-demo"
+database_id = "PASTE_D1_DATABASE_ID_HERE"
+
+# The API key is a secret, never a var -- vars are readable in the dashboard
+# and end up in `wrangler.toml`, which is committed.
+#   npx wrangler secret put GEMINI_API_KEY
+
+[observability]
+enabled = true
