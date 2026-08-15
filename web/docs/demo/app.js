@@ -27,6 +27,7 @@ const state = {
   account: null,
   accounts: [],
   busy: false,
+  inChat: false,
 };
 
 // ── boot ────────────────────────────────────────────────────────────
@@ -110,6 +111,7 @@ function selectAccount(a) {
 // ── intro ───────────────────────────────────────────────────────────
 
 function renderIntro() {
+  state.inChat = false;
   const s = state.ledger.stats(state.account.user_id);
   const stage = $("stage");
   stage.replaceChildren();
@@ -158,6 +160,7 @@ function renderIntro() {
 // ── the six ─────────────────────────────────────────────────────────
 
 function showQuestion(key) {
+  state.inChat = false;
   for (const b of document.querySelectorAll(".q")) {
     b.classList.toggle("on", b.dataset.key === key);
   }
@@ -351,60 +354,146 @@ async function askAgent(question) {
   state.busy = true;
   $("send").disabled = true;
 
+  // The transcript persists: a chat you cannot scroll back through is a
+  // search box that forgets. Questions append rather than replace.
   const stage = $("stage");
+  if (!state.inChat) {
+    stage.replaceChildren();
+    state.inChat = true;
+    for (const b of document.querySelectorAll(".q")) b.classList.remove("on");
+  }
+
   const turn = el("div", "turn");
   const you = el("div", "turn-you");
-  you.append(el("b", null, "you "), document.createTextNode(" " + question));
+  you.append(el("b", null, "You asked"));
+  you.append(el("span", "turn-you-text", question));
   turn.append(you);
 
+  const reply = el("div", "turn-reply");
   const trace = el("div", "tool-trace");
-  turn.append(trace);
+  reply.append(trace);
 
-  const thinking = el("div", "thinking", "thinking");
-  turn.append(thinking);
+  const status = el("div", "thinking", "reading the ledger");
+  reply.append(status);
+
+  const say = el("div", "turn-say");
+  reply.append(say);
+  turn.append(reply);
   stage.append(turn);
   turn.scrollIntoView({ block: "start", behavior: "smooth" });
+
+  let streamed = "";
+  const chips = new Map();
 
   try {
     const { text, citations, remaining } = await state.agent.ask(question, {
       onTool: (name) => {
-        const t = el("span", "trace");
-        t.append(el("b", null, name));
-        trace.append(t);
-        // trace grows in place; no scroll needed
+        status.textContent = "querying the ledger";
+        const chip = el("span", "trace running");
+        chip.append(el("b", null, name.replace(/_/g, " ")));
+        chips.set(name, chip);
+        trace.append(chip);
+      },
+      onToolDone: (name, n) => {
+        const chip = chips.get(name);
+        if (!chip) return;
+        chip.classList.remove("running");
+        chip.classList.add("done");
+        chip.append(el("span", "trace-n", n === 1 ? "1 row" : `${n} rows`));
+      },
+      onText: (delta) => {
+        status.remove();
+        streamed += delta;
+        say.textContent = streamed;
+        // Follow the text only while the reader is already at the bottom, so
+        // scrolling back mid-answer is not yanked forward.
+        const nearBottom =
+          window.innerHeight + window.scrollY >= document.body.scrollHeight - 140;
+        if (nearBottom) say.scrollIntoView({ block: "end", behavior: "smooth" });
       },
     });
 
-    thinking.remove();
-    const say = el("div", "turn-say");
-    for (const para of text.split(/\n{2,}/)) {
-      if (para.trim()) say.append(el("p", null, para.trim()));
-    }
-    turn.append(say);
+    status.remove();
+    // Re-render once complete; streaming used a single text node so partial
+    // output never reflows into half-formed blocks mid-answer.
+    say.classList.add("done");
+    renderMarkdown(say, text || streamed);
 
-    // Citations are rendered by the interface from tool results, never from
-    // model text — so a quote on screen is always one the pipeline verified.
+    // Citations are rendered by the interface from tool results, never parsed
+    // out of model text — so a quote on screen is always one the pipeline
+    // verified against its source.
     const seen = new Set();
     const cited = citations.filter((c) => {
       if (!c.evidence_quote || seen.has(c.work_item_id)) return false;
       seen.add(c.work_item_id);
       return true;
     });
-    if (cited.length) turn.append(renderRows(cited.slice(0, 6), "agent"));
+    if (cited.length) {
+      reply.append(el("p", "cited-label", "Evidence for this answer"));
+      reply.append(renderRows(cited.slice(0, 5), "agent"));
+    }
 
     if (remaining?.today != null) {
       $("composerNote").textContent =
         `${remaining.today} questions left in today's shared demo budget.`;
     }
   } catch (err) {
-    thinking.remove();
+    status.remove();
     const note = el("div", "note warn");
     note.textContent = friendlyError(err);
-    turn.append(note);
+    reply.append(note);
   } finally {
     state.busy = false;
     $("send").disabled = false;
-    turn.scrollIntoView({ block: "nearest", behavior: "smooth" });
+    $("ask").focus();
+  }
+}
+
+
+/**
+ * Minimal markdown for model output: paragraphs, bullets, bold, inline code.
+ *
+ * Deliberately not a markdown library — the model emits a narrow subset, and
+ * everything is inserted as text nodes rather than innerHTML, so nothing in a
+ * model response can inject markup into the page.
+ */
+function renderMarkdown(target, src) {
+  target.replaceChildren();
+  const lines = String(src ?? "").split("\n");
+  let list = null;
+
+  const inline = (node, text) => {
+    // **bold** and `code`, applied as real elements, never as HTML.
+    const re = /(\*\*[^*]+\*\*|`[^`]+`)/g;
+    let last = 0, m;
+    while ((m = re.exec(text))) {
+      if (m.index > last) node.append(text.slice(last, m.index));
+      const tok = m[0];
+      node.append(
+        tok.startsWith("**")
+          ? el("strong", null, tok.slice(2, -2))
+          : el("code", null, tok.slice(1, -1))
+      );
+      last = m.index + tok.length;
+    }
+    if (last < text.length) node.append(text.slice(last));
+  };
+
+  for (const raw of lines) {
+    const line = raw.trim();
+    if (!line) { list = null; continue; }
+    const bullet = line.match(/^[-*\u2022]\s+(.*)$/);
+    if (bullet) {
+      if (!list) target.append((list = el("ul", "md-list")));
+      const li = el("li");
+      inline(li, bullet[1]);
+      list.append(li);
+    } else {
+      list = null;
+      const p = el("p");
+      inline(p, line);
+      target.append(p);
+    }
   }
 }
 
@@ -422,6 +511,7 @@ function friendlyError(err) {
 // ── schema peek ─────────────────────────────────────────────────────
 
 function showSchema() {
+  state.inChat = false;
   const stage = $("stage");
   stage.replaceChildren();
   const wrap = el("div", "answer");

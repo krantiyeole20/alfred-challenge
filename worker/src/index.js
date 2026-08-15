@@ -44,6 +44,7 @@ function cors(origin) {
     "Access-Control-Allow-Origin": allowed,
     "Access-Control-Allow-Methods": "POST, OPTIONS",
     "Access-Control-Allow-Headers": "Content-Type",
+    "Access-Control-Expose-Headers": "X-Alfred-Remaining-Today, X-Alfred-Remaining-Hour",
     "Access-Control-Max-Age": "86400",
     Vary: "Origin",
   };
@@ -203,8 +204,11 @@ export default {
     if (payload.systemInstruction) body.systemInstruction = payload.systemInstruction;
     if (payload.tools) body.tools = payload.tools;
 
+    // Stream by default: the page renders tokens as they arrive, and a
+    // multi-hop agent turn is slow enough that a blank wait reads as broken.
     const upstream = await fetch(
-      `https://generativelanguage.googleapis.com/v1beta/models/${model}:generateContent`,
+      "https://generativelanguage.googleapis.com/v1beta/models/" +
+        `${model}:streamGenerateContent?alt=sse`,
       {
         method: "POST",
         headers: {
@@ -226,7 +230,15 @@ export default {
       );
     }
 
-    const data = await upstream.json();
-    return json({ ...data, _remaining: gate.remaining }, 200, origin);
+    return new Response(upstream.body, {
+      status: 200,
+      headers: {
+        "Content-Type": "text/event-stream",
+        "Cache-Control": "no-cache",
+        "X-Alfred-Remaining-Today": String(gate.remaining.today),
+        "X-Alfred-Remaining-Hour": String(gate.remaining.thisHour),
+        ...cors(origin),
+      },
+    });
   },
 };

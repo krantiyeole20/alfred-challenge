@@ -182,12 +182,18 @@ export class Agent {
   }
 
   /**
-   * One user turn. Calls back as tools run so the UI can show the trace.
+   * One user turn, streamed.
+   *
+   * Emits as it goes so the page can render tokens the moment they arrive:
+   *   onText(delta)   a chunk of the answer
+   *   onTool(name)    a tool call starting
+   *   onToolDone(n)   that tool returned n rows
    * Loops until the model stops asking for tools.
    */
-  async ask(question, { onTool = () => {} } = {}) {
+  async ask(question, { onText = () => {}, onTool = () => {}, onToolDone = () => {} } = {}) {
     this.contents.push({ role: "user", parts: [{ text: question }] });
     const citations = [];
+    let remaining = null;
 
     for (let hop = 0; hop < 6; hop++) {
       const res = await fetch(`${CONFIG.WORKER_URL}/api/chat`, {
@@ -201,18 +207,62 @@ export class Agent {
         }),
       });
 
-      const data = await res.json().catch(() => ({}));
+      const today = res.headers.get("X-Alfred-Remaining-Today");
+      if (today != null) remaining = { today: Number(today) };
+
       if (!res.ok) {
-        throw new Error(data.error ?? `proxy error ${res.status}`);
+        let detail = `proxy error ${res.status}`;
+        try {
+          detail = (await res.json()).error ?? detail;
+        } catch { /* non-JSON error body */ }
+        throw new Error(detail);
       }
 
-      const parts = data.candidates?.[0]?.content?.parts ?? [];
-      const calls = parts.filter((p) => p.functionCall);
+      // Gemini's SSE: one `data: {...}` per chunk, each a partial
+      // GenerateContentResponse. Text arrives incrementally; a functionCall
+      // part arrives whole.
+      const reader = res.body.getReader();
+      const decoder = new TextDecoder();
+      let buffer = "";
+      const parts = [];
+      let textPart = null;
 
+      while (true) {
+        const { value, done } = await reader.read();
+        if (done) break;
+        buffer += decoder.decode(value, { stream: true });
+
+        let nl;
+        while ((nl = buffer.indexOf("\n")) >= 0) {
+          const line = buffer.slice(0, nl).trim();
+          buffer = buffer.slice(nl + 1);
+          if (!line.startsWith("data:")) continue;
+          const payload = line.slice(5).trim();
+          if (!payload || payload === "[DONE]") continue;
+
+          let chunk;
+          try {
+            chunk = JSON.parse(payload);
+          } catch {
+            continue;
+          }
+          for (const part of chunk.candidates?.[0]?.content?.parts ?? []) {
+            if (part.text) {
+              onText(part.text);
+              if (textPart) textPart.text += part.text;
+              else parts.push((textPart = { text: part.text }));
+            } else if (part.functionCall) {
+              parts.push(part);
+            }
+          }
+        }
+      }
+
+      const calls = parts.filter((p) => p.functionCall);
       if (!calls.length) {
         const text = parts.map((p) => p.text ?? "").join("").trim();
-        this.contents.push({ role: "model", parts: [{ text }] });
-        return { text, citations, remaining: data._remaining };
+        this.contents.push({ role: "model", parts: parts.length ? parts : [{ text }] });
+        return { text, citations, remaining };
       }
 
       this.contents.push({ role: "model", parts });
@@ -220,17 +270,17 @@ export class Agent {
       const responses = [];
       for (const { functionCall } of calls) {
         const { name, args } = functionCall;
-        onTool(name, args);
+        onTool(name);
         let out;
         try {
           out = this.run(name, args ?? {});
         } catch (err) {
           out = { rows: [], result: { error: String(err.message ?? err) } };
         }
+        const n = Array.isArray(out.result) ? out.result.length : out.rows.length;
+        onToolDone(name, n);
         citations.push(...out.rows);
-        responses.push({
-          functionResponse: { name, response: { result: out.result } },
-        });
+        responses.push({ functionResponse: { name, response: { result: out.result } } });
       }
       this.contents.push({ role: "user", parts: responses });
     }
@@ -238,6 +288,7 @@ export class Agent {
     return {
       text: "I wasn't able to settle that within the tool budget for one question.",
       citations,
+      remaining,
     };
   }
 }

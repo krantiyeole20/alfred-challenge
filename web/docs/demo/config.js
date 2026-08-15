@@ -1,13 +1,21 @@
 // Deployment config for the demo.
 //
-// WORKER_URL is the Cloudflare Worker that holds the Gemini key. Until it is
-// deployed the page still works completely for browsing, search and the six
-// deterministic questions — only the conversational agent needs the proxy.
-// That split is deliberate: the parts that prove the design are the parts
-// that never needed a server.
+// The agent needs a proxy because an API key cannot ship in a static page.
+// Which proxy depends on where the page is being served from:
+//
+//   localhost  ->  tools/serve_demo.py, same origin, no CORS, no account
+//   Pages      ->  the Cloudflare Worker in worker/
+//
+// Everything else — the six questions, search, the evidence drawer — runs
+// entirely in the tab and needs no proxy at all.
+
+const LOCAL = ["localhost", "127.0.0.1"].includes(location.hostname);
 
 export const CONFIG = {
-  WORKER_URL: "https://alfred-demo-proxy.workers.dev",
+  // Same origin locally; the deployed Worker otherwise. Replace the Worker
+  // URL with your own after `npx wrangler deploy`.
+  WORKER_URL: LOCAL ? "" : "https://alfred-demo-proxy.krantiyeole20.workers.dev",
+
   DB_URL: "data/alfred.db.gz",
   QUESTIONS_URL: "data/questions.json",
   MODEL: "gemini-3.5-flash-lite",

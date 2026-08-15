@@ -109,7 +109,8 @@ body {
   padding: 8px 0 8px 10px; font-size: 14px; font-weight: 500;
 }
 .q:hover { color: var(--ink); }
-.q.on { border-left-color: var(--accent); color: var(--accent); }
+.q.on { border-left-color: var(--accent); color: var(--ink); }
+.q.on .q-text { color: var(--accent); }
 .q-num { font-family: var(--mono); font-size: 10.5px; color: var(--ink-faint); }
 .q.on .q-num { color: var(--accent); }
 .q-text { line-height: 1.4; }
@@ -131,19 +132,26 @@ body {
 
 .topbar {
   position: sticky; top: 0; z-index: 40; background: var(--bg);
-  display: flex; align-items: baseline; justify-content: space-between;
-  gap: 16px; padding: 18px 48px 14px; border-bottom: 1px solid var(--line);
+  display: flex; align-items: baseline; gap: 16px;
+  padding: 16px 56px 14px; border-bottom: 1px solid var(--line);
   flex-wrap: wrap;
 }
 .who-addr {
   font-family: var(--mono); font-size: 11.5px; color: var(--ink-faint);
   margin-left: 10px;
 }
-.who { font-size: 15px; color: var(--ink-soft); }
+.backlink {
+  display: inline-flex; align-items: center; gap: 6px; text-decoration: none;
+  font-family: var(--mono); font-size: 11px; color: var(--ink-faint);
+  padding: 4px 9px 4px 7px; border: 1px solid var(--line);
+  border-radius: 4px; white-space: nowrap;
+}
+.backlink:hover { color: var(--accent); border-color: var(--accent); }
+.who { font-size: 15px; color: var(--ink-soft); margin-right: auto; }
 .who b { color: var(--ink); font-weight: 600; }
 .asof { font-family: var(--mono); font-size: 11.5px; color: var(--ink-faint); }
 
-.stage { flex: 1; padding: 34px 48px 40px; min-width: 0; }
+.stage { flex: 1; padding: 40px 56px 40px; min-width: 0; }
 
 /* intro */
 .intro { max-width: 720px; }
@@ -178,7 +186,7 @@ body {
   font-size: 21px; font-weight: 700; letter-spacing: -.02em;
   margin: 0 0 4px; display: flex; align-items: baseline; gap: 11px;
 }
-.answer h2 .snum { font-family: var(--mono); font-size: 12px; color: var(--ink-faint); font-weight: 500; }
+.answer h2 .snum { font-family: var(--mono); font-size: 13px; color: var(--accent); font-weight: 500; }
 .answer-why { color: var(--ink-soft); margin: 4px 0 0; max-width: 62ch; font-size: 14.5px; }
 
 /* rows — one bordered list with hairline separators */
@@ -219,13 +227,13 @@ body {
 
 /* the citation — indented quotation, one hairline rule, no tint */
 .cite {
-  display: block; width: 100%; text-align: left; cursor: pointer;
-  margin-top: 11px; padding: 2px 0 2px 14px;
-  background: none; border: none; border-left: 2px solid var(--line-strong);
+  display: block; width: 100%; max-width: 76ch; text-align: left; cursor: pointer;
+  margin-top: 11px; padding: 2px 0 2px 16px; text-indent: -8px;
+  background: none; border: none;
   font-family: var(--mono); font-size: 12px; line-height: 1.65;
   color: var(--ink-soft);
 }
-.cite:hover { border-left-color: var(--accent); color: var(--ink); }
+.cite:hover { color: var(--ink); }
 
 .cite-q {
   display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical;
@@ -291,33 +299,89 @@ body {
   margin-top: 12px;
 }
 
-/* ---------------------------------------------------------------- agent */
+/* ---------------------------------------------------------------- chat */
 
-.turn { max-width: 940px; margin-bottom: 30px; }
+.turn { max-width: 800px; padding-bottom: 30px; }
+.turn + .turn { border-top: 1px solid var(--line); padding-top: 26px; }
+
+/* Your question and the answer must never be mistakable for one another:
+   the question is indented, mono-labelled and set on soft ground; the answer
+   is full-measure body text. */
 .turn-you {
-  font-size: 15px; margin-bottom: 14px; color: var(--ink);
+  margin-bottom: 20px; padding: 12px 16px;
+  background: var(--bg-soft); border: 1px solid var(--line);
+  border-radius: var(--radius);
 }
 .turn-you b {
   display: block; font-family: var(--mono); font-size: 10px;
   text-transform: uppercase; letter-spacing: .09em; color: var(--ink-faint);
-  font-weight: 500; margin-bottom: 2px;
+  font-weight: 500; margin-bottom: 3px;
 }
-.turn-say { font-size: 15.5px; line-height: 1.7; max-width: 70ch; }
-.turn-say p { margin: 0 0 10px; }
+.turn-you-text { font-size: 15px; color: var(--ink); font-weight: 500; }
 
+.turn-reply { padding-left: 2px; }
+.turn-say { font-size: 15.5px; line-height: 1.7; max-width: 68ch; white-space: pre-wrap; }
+.turn-say p { margin: 0 0 10px; }
+.turn-say:empty { display: none; }
+
+.cited-label {
+  font-family: var(--mono); font-size: 10px; text-transform: uppercase;
+  letter-spacing: .09em; color: var(--ink-faint); margin: 24px 0 -10px;
+}
+
+/* tool chips: running vs returned, so progress is legible mid-answer */
 .tool-trace {
-  display: flex; flex-wrap: wrap; align-items: center; margin-bottom: 14px;
-  font-family: var(--mono); font-size: 10.5px; text-transform: uppercase;
-  letter-spacing: .06em; color: var(--ink-faint);
+  display: flex; flex-wrap: wrap; align-items: center; gap: 6px;
+  margin-bottom: 14px; font-family: var(--mono); font-size: 10.5px;
+  letter-spacing: .04em;
 }
 .tool-trace:empty { display: none; }
-.trace { white-space: nowrap; }
-.trace + .trace::before { content: "·"; margin: 0 8px; color: var(--rule-faint); }
-.trace b { color: var(--ok); font-weight: 600; }
+.trace {
+  white-space: nowrap; padding: 3px 9px; border-radius: 4px;
+  border: 1px solid var(--line); color: var(--ink-faint);
+  animation: fade .25s ease both;
+}
+.trace b { font-weight: 600; text-transform: uppercase; }
+.trace-n { margin-left: 7px; color: var(--ink-faint); }
+.trace.running { border-color: var(--line-strong); color: var(--ink-soft); }
+.trace.running b { color: var(--accent); }
+.trace.running::after {
+  content: ""; display: inline-block; width: 5px; height: 5px; margin-left: 7px;
+  border-radius: 50%; background: var(--accent); vertical-align: middle;
+  animation: blink 1s ease-in-out infinite;
+}
+.trace.done b { color: var(--ok); }
+@keyframes blink { 0%,100% { opacity: .25 } 50% { opacity: 1 } }
 
-.thinking { font-family: var(--mono); font-size: 12px; color: var(--ink-faint); }
+/* waiting state: a moving rule, not a spinner */
+.thinking {
+  font-family: var(--mono); font-size: 12px; color: var(--ink-faint);
+  padding-bottom: 10px; position: relative;
+}
 .thinking::after { content: ""; animation: dots 1.4s steps(4,end) infinite; }
+.thinking::before {
+  content: ""; position: absolute; left: 0; bottom: 0; height: 1px; width: 100%;
+  background: linear-gradient(90deg, transparent, var(--accent), transparent);
+  background-size: 40% 100%; background-repeat: no-repeat;
+  animation: sweepline 1.5s ease-in-out infinite;
+}
 @keyframes dots { 0%{content:""} 25%{content:"."} 50%{content:".."} 75%{content:"..."} }
+@keyframes sweepline {
+  0%   { background-position: -40% 0; }
+  100% { background-position: 140% 0; }
+}
+
+/* the caret while text streams in */
+.turn-say:not(:empty):not(.done)::after {
+  content: "\258D"; color: var(--accent); animation: blink 1s step-end infinite;
+}
+.turn-say.done { white-space: normal; }
+.md-list { margin: 0 0 10px; padding-left: 20px; }
+.md-list li { margin-bottom: 5px; }
+.turn-say strong { font-weight: 600; color: var(--ink); }
+.turn-say code {
+  font-family: var(--mono); font-size: 13px; color: var(--accent);
+}
 
 .note {
   font-size: 14px; line-height: 1.6; padding: 14px 16px;
@@ -338,7 +402,7 @@ body {
 
 .composer {
   position: sticky; bottom: 0; background: var(--bg);
-  border-top: 1px solid var(--line); padding: 14px 48px 18px;
+  border-top: 1px solid var(--line); padding: 14px 56px 18px;
 }
 .composer-inner {
   display: flex; align-items: center; gap: 8px; max-width: 940px;
@@ -374,9 +438,9 @@ body {
 .drawer.open { transform: none; box-shadow: -8px 0 28px rgba(26,31,54,.10); }
 .drawer-head {
   display: flex; align-items: center; justify-content: space-between;
-  padding: 22px 26px 0;
+  padding: 22px 26px 12px; border-bottom: 1px solid var(--line);
 }
-.drawer-head .side-label { margin: 0; flex: 1; }
+.drawer-head .side-label { margin: 0; flex: 1; padding: 0; border-bottom: 0; }
 .drawer-head .ghost { padding: 10px 12px; margin: -10px -12px 0 0; }
 .drawer-body { overflow-y: auto; padding: 20px 26px 60px; }
 
