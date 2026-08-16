@@ -518,3 +518,103 @@ body {
 @media (prefers-reduced-motion: reduce) {
   * { animation-duration: .01ms !important; transition-duration: .01ms !important; }
 }
+
+
+/* ---------------------------------------------------------------- guide */
+
+/* The landing view when no mailbox is open. Deliberately not a dashboard:
+   one instruction per step, and arrows doing the pointing instead of prose
+   describing where to look. */
+.guide { max-width: 640px; padding-top: 8px; }
+.guide-title {
+  font-size: 32px; line-height: 1.16; letter-spacing: -.022em;
+  margin: 10px 0 12px; font-weight: 600;
+}
+.guide-sub {
+  font-size: 15px; line-height: 1.65; color: var(--ink-soft);
+  max-width: 60ch; margin: 0 0 34px;
+}
+
+.guide-steps { display: flex; flex-direction: column; gap: 4px; }
+.guide-step {
+  display: grid; grid-template-columns: 30px minmax(0, 1fr);
+  gap: 14px; padding: 15px 0; position: relative;
+  border-top: 1px solid var(--line);
+}
+.guide-n {
+  font-family: var(--mono); font-size: 10.5px; color: var(--accent);
+  border: 1px solid var(--line-strong); border-radius: 50%;
+  width: 26px; height: 26px; display: grid; place-items: center;
+}
+.guide-step-title { font-size: 15px; font-weight: 600; margin-bottom: 3px; }
+.guide-step-text {
+  font-size: 13.5px; line-height: 1.6; color: var(--ink-soft); max-width: 52ch;
+}
+
+/* the hand-drawn arrows */
+.guide-arrow {
+  position: absolute; pointer-events: none; overflow: visible;
+  fill: none; stroke: var(--accent); stroke-width: 1.7;
+  stroke-linecap: round; stroke-linejoin: round; opacity: .5;
+}
+.guide-arrow path {
+  stroke-dasharray: 260; stroke-dashoffset: 260;
+  animation: draw 1.1s ease-out forwards;
+}
+.guide-arrow path:nth-child(2) { animation-delay: .5s; }
+.guide-arrow path:nth-child(3) { animation-delay: .58s; }
+@keyframes draw { to { stroke-dashoffset: 0; } }
+
+.arrow-left  { width: 150px; height: 64px; left: -176px; top: 4px; }
+.guide-step:nth-child(2) .arrow-left { top: 2px; }
+.arrow-down  { width: 64px; height: 92px; left: 300px; top: 46px; }
+
+/* Arrows point at furniture that moves or vanishes on small screens, so
+   they go rather than point at nothing. */
+@media (max-width: 1180px) { .arrow-left { display: none; } }
+@media (max-width: 900px)  { .arrow-down { display: none; } }
+
+.guide-note {
+  margin-top: 30px; padding: 15px 17px; font-size: 13.5px; line-height: 1.65;
+  color: var(--ink-soft); background: var(--bg-soft);
+  border: 1px solid var(--line); border-radius: var(--radius);
+}
+.guide-note b { color: var(--ink); font-weight: 600; }
+
+/* ------------------------------------------------- composer, armed or not */
+
+/* Off until a mailbox is chosen: an input that takes typing and has nothing
+   to answer about is worse than one that says what it is waiting for. */
+.composer #ask:disabled {
+  background: var(--bg-soft); color: var(--ink-faint); cursor: not-allowed;
+}
+.composer.armed #ask {
+  border-color: var(--line-strong);
+  box-shadow: 0 1px 2px rgba(31, 30, 46, .05);
+}
+.composer.armed #ask:focus {
+  border-color: var(--accent);
+  box-shadow: 0 0 0 3px rgba(76, 74, 168, .12);
+}
+.composer.armed #send { background: var(--accent); color: #fff; border-color: var(--accent); }
+.composer.armed #send:hover { filter: brightness(1.08); }
+
+/* a mailbox is open: say how to close it */
+.acct.on::after {
+  content: "double-click to close"; display: block;
+  font-family: var(--mono); font-size: 9px; letter-spacing: .04em;
+  color: var(--ink-faint); margin-top: 3px;
+}
+
+/* someone reached for a question with no mailbox open */
+.nudge { animation: nudge .5s ease; }
+@keyframes nudge {
+  0%, 100% { transform: translateX(0); }
+  25%      { transform: translateX(4px); }
+  60%      { transform: translateX(-2px); }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .guide-arrow path { animation: none; stroke-dashoffset: 0; }
+  .nudge { animation: none; }
+}

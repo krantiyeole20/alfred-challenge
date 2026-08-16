@@ -52,7 +52,8 @@ async function boot() {
 
   renderAccounts();
   renderQuestions();
-  selectAccount(state.accounts[0]);
+  setComposer(false);
+  renderGuide();
 
   $("asof").textContent = AS_OF.toLocaleDateString("en-US", {
     year: "numeric", month: "short", day: "numeric",
@@ -83,14 +84,14 @@ function applyDeepLink() {
   // ?ask=... runs a question on load, so a link can carry the whole
   // demonstration rather than instructions for reproducing it.
   const ask = params.get("ask");
-  if (ask) {
+  if (ask && state.account) {
     $("ask").value = "";
     askAgent(ask);
     return;
   }
 
   const q = params.get("q");
-  if (q && state.ledger.questions[q]) {
+  if (q && state.account && state.ledger.questions[q]) {
     showQuestion(q, false, false);
     // Deep-link straight into a panel, so a link can point at the exact thing
     // being discussed rather than "the demo, go find it".
@@ -109,7 +110,14 @@ function renderAccounts() {
     const b = el("button", "acct");
     b.append(el("span", "acct-name", a.name));
     b.append(el("span", "acct-role", `${a.role.replace(/_/g, " ")} · ${a.mail_count}`));
+    // Single click selects. Double-click on the ACTIVE mailbox clears it and
+    // returns to the guide -- discoverable only once you are already there,
+    // which is why the active row also carries a visible hint.
     b.onclick = () => selectAccount(a);
+    b.ondblclick = () => {
+      if (state.account?.user_id === a.user_id) deselectAccount();
+    };
+    b.title = "Click to open · double-click to close";
     b.dataset.id = a.user_id;
     box.append(b);
   }
@@ -125,7 +133,10 @@ function renderQuestions() {
     b.append(el("span", "q-num", String(i++).padStart(2, "0")));
     b.append(el("span", "q-text", q.label));
     b.dataset.key = key;
-    b.onclick = () => showQuestion(key);
+    b.onclick = () => {
+      if (!state.account) return flashRail();
+      showQuestion(key);
+    };
     box.append(b);
   }
 }
@@ -141,9 +152,133 @@ function selectAccount(a) {
   $("who").innerHTML = "";
   $("who").append(el("b", null, a.name), el("span", "who-addr", a.address));
   $("ask").placeholder = `Ask about ${a.name.split(" ")[0]}'s mailbox…`;
-
+  setComposer(true);
   renderIntro();
 }
+
+/** Back to the guide. The agent has no mailbox to answer about, so it stops. */
+function deselectAccount() {
+  state.account = null;
+  state.inChat = false;
+  for (const b of document.querySelectorAll(".acct")) b.classList.remove("on");
+  for (const b of document.querySelectorAll(".q")) b.classList.remove("on");
+  $("who").replaceChildren();
+  setComposer(false);
+  const u = new URL(location.href);
+  u.search = "";
+  history.replaceState(null, "", u);
+  renderGuide();
+}
+
+/**
+ * The composer is only live once a mailbox is chosen.
+ *
+ * A chat box that accepts typing and then has nothing to answer about is
+ * worse than one that plainly says what it is waiting for.
+ */
+function setComposer(on) {
+  $("composer").classList.toggle("armed", on);
+  $("ask").disabled = !on;
+  $("send").disabled = !on;
+  if (!on) {
+    $("ask").value = "";
+    $("ask").placeholder = "Pick a mailbox to ask about…";
+    $("composerNote").textContent = "";
+  }
+}
+
+// ── guide ───────────────────────────────────────────────────────────
+
+/**
+ * The guide. What a first-time visitor sees before choosing anything.
+ *
+ * Three things have to land in a few seconds: pick a mailbox, then either
+ * take one of the six or ask in your own words. The fourth -- that those six
+ * ARE the agent's tools, one per question, running the same SQL the scorer
+ * is measured against -- is the actual thesis, so it gets its own line
+ * rather than a footnote.
+ *
+ * The arrows are drawn by hand rather than set in type because they are
+ * scaffolding: annotation over an interface, the kind you stop seeing once
+ * you know where things are.
+ */
+function renderGuide() {
+  state.inChat = false;
+  const stage = $("stage");
+  stage.replaceChildren();
+
+  const g = el("div", "guide");
+  g.append(el("span", "doc-kicker", "live demo \u00b7 evidence ledger"));
+  g.append(el("h1", "guide-title", "Start by picking a mailbox."));
+  g.append(
+    el("p", "guide-sub",
+      "Five people, 300 messages each, frozen at Aug 12 2026. Everything here runs " +
+      "in this tab against a 2.6 MB copy of the database \u2014 your questions go to the " +
+      "model, but the mail never leaves your browser.")
+  );
+
+  const steps = el("div", "guide-steps");
+  const STEPS = [
+    ["01", "Pick a mailbox", "Five on the left. Each is a different job, so each has a different kind of mess.", "left"],
+    ["02", "Take one of the six", "The questions an inbox can\u2019t answer by searching. Answers come back ranked, every line carrying the sentence it came from.", "left"],
+    ["03", "Or just ask", "Plain language, in the bar at the bottom. \u201cWhat am I forgetting?\u201d \u00b7 \u201canything from Marcus?\u201d \u00b7 \u201cis any of this a scam?\u201d", "down"],
+  ];
+  for (const [n, title, body, dir] of STEPS) {
+    const step = el("div", `guide-step to-${dir}`);
+    step.append(el("div", "guide-n", n));
+    const col = el("div", "guide-step-body");
+    col.append(el("div", "guide-step-title", title));
+    col.append(el("div", "guide-step-text", body));
+    step.append(col);
+    step.append(handArrow(dir));
+    steps.append(step);
+  }
+  g.append(steps);
+
+  const note = el("div", "guide-note");
+  note.append(el("b", null, "The six questions are the agent\u2019s tools."));
+  note.append(document.createTextNode(
+    " Not instructions in a prompt \u2014 one tool per question, each running the same " +
+    "SQL the scorer is measured against. Ask in your own words and the model picks " +
+    "between them, but the answer is still a query over the ledger rather than " +
+    "something generated. Open \u201cHow this answer is produced\u201d on any answer to " +
+    "see the job behind it."
+  ));
+  g.append(note);
+
+  stage.append(g);
+}
+
+/** A slightly loose hand-drawn arrow. Two directions is all the guide needs. */
+function handArrow(dir) {
+  const svg = document.createElementNS("http://www.w3.org/2000/svg", "svg");
+  svg.setAttribute("class", `guide-arrow arrow-${dir}`);
+  svg.setAttribute("viewBox", dir === "down" ? "0 0 64 92" : "0 0 150 64");
+  svg.setAttribute("aria-hidden", "true");
+  const paths =
+    dir === "down"
+      // curls down and left, toward the composer
+      ? ["M46 5c5 22 3 39-8 51-7 8-16 13-25 16",
+         "M13 72c-1-6-1-11-1-16", "M13 72c5-2 10-4 14-7"]
+      // sweeps left toward the mailbox rail
+      : ["M144 10c-30 4-55 11-76 21-14 7-26 15-41 24",
+         "M27 55c-1-7-1-13 0-19", "M27 55c6-1 12-3 17-5"];
+  for (const d of paths) {
+    const path = document.createElementNS("http://www.w3.org/2000/svg", "path");
+    path.setAttribute("d", d);
+    svg.append(path);
+  }
+  return svg;
+}
+
+/** Nudge the rail when someone picks a question with no mailbox open. */
+function flashRail() {
+  const rail = $("accounts");
+  rail.classList.remove("nudge");
+  void rail.offsetWidth;
+  rail.classList.add("nudge");
+}
+
 
 // ── intro ───────────────────────────────────────────────────────────
 
@@ -435,6 +570,7 @@ function closeDrawer() {
 
 async function askAgent(question) {
   if (state.busy || !question.trim()) return;
+  if (!state.account) return flashRail();
   state.busy = true;
   $("send").disabled = true;
 
@@ -639,9 +775,21 @@ function wire() {
 
   // On narrow screens the rail is a collapsible header; choosing from it must
   // close it, otherwise the answer renders below the fold and nothing moves.
+  //
+  // Desktop has to be forced back open rather than merely left alone: a
+  // <details> that gets collapsed while narrow stays collapsed after the
+  // window widens, and the summary that would reopen it is display:none at
+  // that width — so the entire rail disappears with no way back.
+  const narrow = window.matchMedia("(max-width: 1000px)");
+  const nav = document.querySelector(".side-nav");
+  const syncRail = () => {
+    if (nav && !narrow.matches) nav.open = true;
+  };
+  syncRail();
+  narrow.addEventListener("change", syncRail);
+
   const collapseRail = () => {
-    const nav = document.querySelector(".side-nav");
-    if (nav && window.matchMedia("(max-width: 1000px)").matches) nav.open = false;
+    if (nav && narrow.matches) nav.open = false;
   };
   document.querySelector(".side").addEventListener("click", (e) => {
     if (e.target.closest(".q, .acct")) collapseRail();
