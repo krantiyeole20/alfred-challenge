@@ -1,0 +1,255 @@
+{
+  "profile_id": "marketing",
+  "accepted": [
+    {
+      "question": "q1_needs_attention",
+      "type": "missed_item",
+      "severity": "high",
+      "summary": "DTC Growth Summit confirmed an Oct 14 speaking slot with a hard Aug 25 deliverables deadline and Sept 1 program lock, filed among CATEGORY_PROMOTIONS mail; the exact archetype of Q1's 'deadline wearing promotional styling' criterion.",
+      "action_taken": "Added marketing-q1-12 (acceptable, medium consequence, due 2026-08-25). Also added the same underlying obligation to Q6 (marketing-q6-12) since it independently passes the burial test there. Noted in curator_notes that a differently-named, differently-domained 'DTC Summit' (dtcsummit.co) declined an Oct 14 panel in June; the corpus never states whether it's the same event, so gold treats them as unrelated rather than inventing a resolution."
+    },
+    {
+      "question": "q1_needs_attention",
+      "type": "misranked",
+      "severity": "medium",
+      "summary": "Google sign-in alert (attacker used the account's current password) was ranked last (11th), below items with no due date, inverting Q1's irreversibility-first ranking principle.",
+      "action_taken": "Promoted marketing-q1-11 to rank 7 (right after the phishing hazard) and raised its consequence field from medium to high, given the account holds Klaviyo/Meta/Google Ads access."
+    },
+    {
+      "question": "q1_needs_attention",
+      "type": "false_positive",
+      "severity": "medium",
+      "summary": "marketing-q1-09 (Fold & Field retainer counter) satisfies none of Q1's four inclusion criteria: Jordan already acted and her own next step is gated on Tessa's reply — this is a Q4 chase-list shape, not a Q1 attention item.",
+      "action_taken": "Moved out of Q1 items/ranked into must_not_include with trap 'waiting-on-counterparty-not-attention'. The underlying obligation remains correctly represented in Q4 (marketing-q4-03)."
+    },
+    {
+      "question": "q1_needs_attention",
+      "type": "bad_quote",
+      "severity": "low",
+      "summary": "marketing-q1-08's claim that 'Alan Chetty still needs to review it' is not attested by the item's cited message_ids, which never mention Alan.",
+      "action_taken": "Added b10f18c2e4b60006, b10f18c2e4b60007, b10f18c2e4b60008 to message_ids and tightened the why_it_qualifies wording. Applied the same fix to the parallel Q3 item (marketing-q3-03), which shares the identical defect."
+    },
+    {
+      "question": "q2_forgetting",
+      "type": "stale_fact",
+      "severity": "high",
+      "summary": "marketing-q2-01's framing implied 'Sept 1' is simply the outdated figure and Aug 17 is the real date, but Jordan's own Aug 10 and Jul 13 messages to Denise still treat Sept 1 as the live target — the corpus itself is split.",
+      "action_taken": "Rewrote the claim to keep the lapsed-promise fact (solid regardless of which date is correct) while stating the Aug17-vs-Sept1 contradiction plainly, per instructions not to invent a resolution. Did NOT adopt the validator's suggested wording that asserts Aug 17 as 'the real date' — that assertion is itself contradicted elsewhere in the corpus (see below)."
+    },
+    {
+      "question": "q2_forgetting",
+      "type": "missed_item",
+      "severity": "medium",
+      "summary": "Jordan's Jun 23 SENT promise to send Sofia a recap after the Fold & Field renewal call was never fulfilled — the most stale unfulfilled owner commitment in the mailbox (~50 days), clean engagement-test pass.",
+      "action_taken": "Added marketing-q2-10 (acceptable, low consequence, included in ranked)."
+    },
+    {
+      "question": "q2_forgetting",
+      "type": "bad_quote",
+      "severity": "medium",
+      "summary": "marketing-q2-03's claim conflates the $18,400 catering/TikTok PO Wes closed Aug 12 with a separate, smaller (~$6,400) lighting-tech/expedited-shipping overage that is the actual, still-unexplained subject of Jordan's unsent draft to Sofia.",
+      "action_taken": "Rewrote the claim to explicitly separate the two overages and added b10f18c2e4b60050 to message_ids so the distinction is evidenced."
+    },
+    {
+      "question": "q2_forgetting",
+      "type": "stale_fact",
+      "severity": "medium",
+      "summary": "marketing-q2-04's 'the renewal is still unresolved' risks conflating the already-executed FY27 base SOW (DocuSigned Jul 23) with the Studio-Day-drift retainer discussion Jordan actually promised to route to Sofia.",
+      "action_taken": "Rewrote the claim to name the specific ($18,500/mo) terms this thread discusses and to explicitly flag that this is a different document from the fully-executed FY27 SOW, with a pointer to curator_notes on the mailbox's several inconsistent retainer figures."
+    },
+    {
+      "question": "q2_forgetting",
+      "type": "missed_item",
+      "severity": "low",
+      "summary": "Jordan's SENT personal commitment to pick a Saturday dinner spot for Meg was never followed up on — structurally identical to the founder-mailbox 'self-directed intention' example.",
+      "action_taken": "Added marketing-q2-11 (borderline, low consequence, excluded from ranked)."
+    },
+    {
+      "question": "q3_waiting_on_me",
+      "type": "missed_item",
+      "severity": "high",
+      "summary": "Tessa Brandt is blocked on Jordan's countersignature of the redlined Q4 2026 SOW she sent Jul 30 (net +$400/mo effective the August billing cycle); the client signature line is still blank and no later message closes it.",
+      "action_taken": "Added marketing-q3-11 (must_include, high consequence, due 2026-08-01 implicit), ranked 2nd. Scoped narrowly to this specific document and flagged in curator_notes that it is distinct from the FY27 base SOW and the Studio-Day-drift retainer discussion, given how many different Fold & Field dollar figures appear across independent threads in this mailbox."
+    },
+    {
+      "question": "q3_waiting_on_me",
+      "type": "stale_fact",
+      "severity": "medium",
+      "summary": "marketing-q3-07's implicit deadline resolved to 2026-08-14, a week too late; the message is dated Thursday Aug 6 and 'Friday' resolves to Aug 7 (meta.due_date confirms 2026-08-07).",
+      "action_taken": "Corrected due_date to 2026-08-07 and reworded the claim to state the ask is now five days overdue rather than upcoming."
+    },
+    {
+      "question": "q3_waiting_on_me",
+      "type": "misranked",
+      "severity": "low",
+      "summary": "Amara's contract (blocked 1 day, no due date, 'whenever you're ready') was ranked above Wes's Q4 budget template (blocked 15 days, hard Aug 21 5pm deadline) and both Sofia asks, inverting the stated ranking principle.",
+      "action_taken": "Reordered: Wes's budget template, Cam's $2,800 approval and Sofia's positioning deck now all rank above Amara's contract."
+    },
+    {
+      "question": "q4_waiting_on_others",
+      "type": "missed_item",
+      "severity": "medium",
+      "summary": "Hollis Grant never produced a backup location for the fall lifestyle shoot after the East Austin warehouse fell through Jun 19; Jordan's Jul 28 chase drew only an out-of-office reply, open 54 days.",
+      "action_taken": "Added marketing-q4-13 (acceptable, medium consequence, included in ranked), while noting in why_it_qualifies that the eventual Aug 4-5 shoot at Hollis's own studio may have mooted the need for an external location — the corpus does not confirm this either way."
+    },
+    {
+      "question": "q4_waiting_on_others",
+      "type": "missed_item",
+      "severity": "low",
+      "summary": "Klaviyo billing never answered Jordan's Aug 6 question about a ~$400 month-over-month SMS credit-line increase; the invoice auto-charged on schedule Aug 12.",
+      "action_taken": "Added marketing-q4-14 (borderline, low consequence, excluded from ranked)."
+    },
+    {
+      "question": "q4_waiting_on_others",
+      "type": "missed_item",
+      "severity": "low",
+      "summary": "Nina never gave her read on the soft TikTok repeat-purchase rate Jordan asked about Jul 22 ahead of a Thursday presentation.",
+      "action_taken": "Added marketing-q4-15 (borderline, low consequence, excluded from ranked)."
+    },
+    {
+      "question": "q4_waiting_on_others",
+      "type": "missed_item",
+      "severity": "low",
+      "summary": "Cam Okafor, made point person for a sustainability trade-press feature needing quotes/photography by Aug 10, never delivered or acknowledged it.",
+      "action_taken": "Added marketing-q4-16 (borderline, medium consequence, excluded from ranked)."
+    },
+    {
+      "question": "q4_waiting_on_others",
+      "type": "missed_item",
+      "severity": "low",
+      "summary": "Wes never started the weekly Q4 actuals-vs-plan reporting Jordan asked for starting in August; the first August Friday has passed with no report.",
+      "action_taken": "Added marketing-q4-17 (borderline, low consequence, excluded from ranked)."
+    },
+    {
+      "question": "q4_waiting_on_others",
+      "type": "false_positive",
+      "severity": "medium",
+      "summary": "marketing-q4-07's claim that Hollis 'never answered' about the fall studio day and the week 'passed unbooked' is overstated: a parallel thread sent the next day got a substantive human reply about the same shoot's logistics.",
+      "action_taken": "Retiered to borderline (removed from ranked), narrowed the claim to the specific unanswered date question, and added b60f18c2e4b60030/031 to message_ids so the partial answer is visible."
+    },
+    {
+      "question": "q4_waiting_on_others",
+      "type": "bad_distractor",
+      "severity": "medium",
+      "summary": "The distractor excluding Tessa's conditional Meta-approval promise cited the wrong closing evidence (a BFCM landing-page congratulation, not the Meta creative review) — the real closer is Chris Baumann's Aug 6 confirmation that the creatives are back live.",
+      "action_taken": "Corrected the must_not_include entry's why_excluded to cite b10f18c2e4b60041 instead."
+    },
+    {
+      "question": "q4_waiting_on_others",
+      "type": "misranked",
+      "severity": "low",
+      "summary": "Cam's lookbook copy (hard, imminent deadline, 29 days stale, re-issued chase) ranked below a five-day-old invoice chase and an undated item, inverting the ranking principle.",
+      "action_taken": "Promoted marketing-q4-08 above marketing-q4-06 and marketing-q4-07."
+    },
+    {
+      "question": "q4_waiting_on_others",
+      "type": "bad_quote",
+      "severity": "low",
+      "summary": "marketing-q4-12's claim and out_of_office tag rest on an auto-reply message that is not in its message_ids.",
+      "action_taken": "Added b40f18c2e4b60046 to message_ids. Applied the same-pattern fix to marketing-q4-11 by removing its unsupported 'promised_attachment' tricky_tag, since neither cited message carries that tag in the corpus meta."
+    },
+    {
+      "question": "q5_what_changed",
+      "type": "stale_current_value",
+      "severity": "high",
+      "summary": "marketing-q5-06 asserted 'August 17' as the current, settled replatform launch date, but Jordan's own Aug 10 and Jul 13 messages to Denise still reference 'the Sept 1 date' as the live target — a genuine, persistent corpus self-contradiction, not a clean supersession chain.",
+      "action_taken": "Per explicit task instruction not to invent a resolution: retiered marketing-q5-06 to borderline (removed from ranked), rewrote claim and current_value to state the Aug17-vs-Sept1 contradiction plainly rather than picking a winner, and documented the reasoning in curator_notes. Did not adopt the validator's suggested 're-anchor to Aug 10 and assert Sept 1' fix, since that would just invert which false-precision error is committed."
+    },
+    {
+      "question": "q6_slipping_through_cracks",
+      "type": "false_positive",
+      "severity": "high",
+      "summary": "marketing-q6-08's claim that the fall studio day 'died in an auto-responder' and 'was never re-sent' is contradicted the next day: Jordan re-sent logistics for the same shoot in a parallel thread and Hollis answered substantively.",
+      "action_taken": "Removed from items/ranked; moved to must_not_include with trap 'already-resolved-in-another-thread'."
+    },
+    {
+      "question": "q6_slipping_through_cracks",
+      "type": "false_positive",
+      "severity": "high",
+      "summary": "marketing-q6-05's claim that 'the entire Fold & Field retainer negotiation' is buried under a misleading subject line fails the burial test: the negotiation is loudly attested across roughly five accurately-titled threads, and Jordan visibly engaged with several directly.",
+      "action_taken": "Removed from items/ranked; moved to must_not_include with trap 'loudly-attested-not-buried'."
+    },
+    {
+      "question": "q6_slipping_through_cracks",
+      "type": "missed_item",
+      "severity": "high",
+      "summary": "Same DTC Growth Summit finding as Q1 (see above) — filed under CATEGORY_PROMOTIONS, never replied to or chased, independently passes Q6's consequence+burial test.",
+      "action_taken": "Added marketing-q6-12 (acceptable, medium consequence, included in ranked)."
+    },
+    {
+      "question": "q6_slipping_through_cracks",
+      "type": "missed_item",
+      "severity": "medium",
+      "summary": "Sofia's Q4 brand positioning deck ask carries an implicit deadline recoverable only from a separate message sent five days earlier; the email itself is unread and undated.",
+      "action_taken": "Added marketing-q6-13 (acceptable, medium consequence, included in ranked). Noted in why_it_qualifies that it is already represented in Q1 and Q3; kept because it independently passes Q6's own burial test, mirroring the existing precedent of other items (e.g. Cam's $2,800 approval) appearing in three questions."
+    },
+    {
+      "question": "q6_slipping_through_cracks",
+      "type": "missed_item",
+      "severity": "medium",
+      "summary": "A Google Ads policy disapproval has paused part of the Fall Sale campaign since Jul 22 for misleading urgency language and remains unread, risking a policy-standing downgrade before the Q4 holiday launch.",
+      "action_taken": "Added marketing-q6-14 (acceptable, medium consequence, included in ranked). NOTE: corrected the validator's supporting evidence — the cited 'second disapproval' (b40f18c2e4b60026) is actually a Meta ad rejection on a different platform, not a second Google Ads disapproval, so it does not compound toward Google's 90-day policy-standing warning. The item is scoped to the one confirmed Google disapproval only."
+    },
+    {
+      "question": "q6_slipping_through_cracks",
+      "type": "false_positive",
+      "severity": "medium",
+      "summary": "marketing-q6-07's claim that the hgrant@ bounce 'was never re-sent' and 'nothing shows the content ever reaching Hollis' is contradicted by the corpus's own annotation marking it a harmless mistype that was resent correctly, plus normal correspondence with Hollis two days later.",
+      "action_taken": "Removed from items/ranked; moved to must_not_include with trap 'harmless-mistype-bounce'."
+    },
+    {
+      "question": "q6_slipping_through_cracks",
+      "type": "false_positive",
+      "severity": "medium",
+      "summary": "marketing-q6-04's priyanka.rao@ bounce fails the consequence test: the corpus annotates it as a harmless mistype, and Priyanka corresponded normally with Jordan on Aug 6 and Aug 10.",
+      "action_taken": "Removed from items/ranked; moved to must_not_include with trap 'harmless-mistype-bounce'."
+    },
+    {
+      "question": "q6_slipping_through_cracks",
+      "type": "stale_fact",
+      "severity": "medium",
+      "summary": "marketing-q6-01's claim overstated the Aug 12 bounce's reach, implying it also swallowed the retainer counter and invoice chase — both of those were sent before the mailbox went over quota.",
+      "action_taken": "Narrowed the claim to the one attested fact: the Aug 12 creative-files email never arrived."
+    },
+    {
+      "question": "q6_slipping_through_cracks",
+      "type": "false_positive",
+      "severity": "medium",
+      "summary": "marketing-q6-10's bcc item is anchored on a decision window (a Jul 10 leadership review) that closed five weeks before the as-of date, with no live reply-all loop to be excluded from and the referenced figure independently reconfirmed elsewhere.",
+      "action_taken": "Retiered to borderline (removed from ranked) and reworded the claim to be honest about there being no live risk from this specific thread."
+    },
+    {
+      "question": "q6_slipping_through_cracks",
+      "type": "misranked",
+      "severity": "low",
+      "summary": "Two consequence:high items (Q4 budget deadline, Amara rights addendum) ranked below consequence:medium items, inverting the stated ranking principle.",
+      "action_taken": "Reordered so marketing-q6-03 and marketing-q6-06 rank above marketing-q6-02 (which remains a strong item but is medium consequence)."
+    }
+  ],
+  "rejected": [
+    {
+      "question": "q1_needs_attention",
+      "type": "missed_item",
+      "summary": "Sofia's Aug 5 'Q4 Planning Priorities' OKR-draft ask (b60f18c2e4b60046) is missing from Q1 despite the set treating the identically-dated Aug 21 budget template as must_include.",
+      "reason_rejected": "This message is already the anchor of marketing-q3-06 (Q3, acceptable). Unlike the budget template, it carries no explicit exclusion penalty and is phrased collaboratively ('I'd like', 'want this to be a conversation') rather than as a hard deliverable with a stated consequence. Q3 items are candidates for Q1, not automatic entrants (QUESTIONS.md: 'a low-stakes question... is Q3 but may not crack the Q1 list'); this one doesn't independently clear Q1's higher irreversibility bar. Recorded as a judgment call in Q1 curator_notes is not needed since it was never added, but the reasoning is preserved here."
+    },
+    {
+      "question": "q1_needs_attention",
+      "type": "missed_item",
+      "summary": "The Aug 14 half-day school pickup (b10f18c2e4b60035) is an unmovable personal commitment two days out, colliding with the board-deck deadline, and is absent from the answer set.",
+      "reason_rejected": "Real and dated, but it is a low-stakes logistics reminder, not an obligation with a counterparty, hazard, or closing decision window — it does not fit any of Q1's four inclusion criteria, and its inclusion would be a matter of taste rather than a defensible gap. Personal scheduling notes of this kind are better matched to Q2's 'self-directed intention' pattern if anything, and even there the stakes are too low to be worth a slot (see the Meg-dinner item added to Q2 at borderline for a genuinely comparable case)."
+    },
+    {
+      "question": "q1_needs_attention",
+      "type": "missed_item",
+      "summary": "Cam's Q4 editorial strategy (b60f18c2e4b60047) carries a hard Aug 22 content-lock constraint and is absent from Q1.",
+      "reason_rejected": "Fully captured by marketing-q3-07 in Q3, whose due date this reconciliation corrected to Aug 7. Its consequence (losing a back-to-school SEO window) is a marketing-metrics miss, not the kind of near-term catastrophe Q1 is meant to triage first; adding it here would crowd Q1 without changing what a reader should do differently."
+    },
+    {
+      "question": "q2_forgetting",
+      "type": "missed_item",
+      "summary": "Jordan's Jul 15 SENT promise to check the sitewide banner color with Kyle at Anchor & Vine and reply to Rachel by Thursday was never followed up on.",
+      "reason_rejected": "The validator itself flagged only 'moderate confidence,' noting the holiday creative direction changed substantially by Round 3 (Aug 3+), which plausibly mooted the original Cranberry-palette question. Given that uncertainty is unresolved in the corpus, this is a matter-of-taste inclusion rather than a defensible gap, and the mailbox already has comparable low-stakes personal/lapsed-thread items (Meg dinner) covering the same pattern at borderline tier."
+    }
+  ]
+}

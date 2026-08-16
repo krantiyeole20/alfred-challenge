@@ -1,0 +1,37 @@
+{
+  "profile_id": "marketing",
+  "question": "q5_what_changed",
+  "items_reviewed": 11,
+  "verdict": "issues",
+  "findings": [
+    {
+      "type": "stale_current_value",
+      "severity": "high",
+      "item_id": "marketing-q5-06",
+      "message_ids": [
+        "b60f18c2e4b60006",
+        "b60f18c2e4b60007",
+        "b50f18c2e4b60003",
+        "b50f18c2e4b60004",
+        "b60f18c2e4b60046",
+        "b50f18c2e4b60040"
+      ],
+      "problem": "The item cites 'August 17, QA week Aug 10-14' as the current replatform launch date, anchored on Nina's Jul 8 message, but a later thread on the exact same subject (curator-tagged action_summary: 'Confirm whether the Sept 1 replatform launch date is still on track' / 'Give Denise a firm go/no-go on the Sept 1 replatform launch') shows the owner still tracking a Sept 1 date as of Jul 20-21, and Jordan's own Aug 10 SENT message — the single latest dated message on this topic in the mailbox — states she needs an engineer 'on replatform QA through the end of August' 'with the Sept 1 date this tight,' which is incompatible with a launch that already happened on Aug 17 with QA wrapping Aug 10-14.",
+      "evidence": "\"Denise — I know Marco's technically your headcount, but with the Sept 1 date this tight I need him on replatform QA through the end of August instead of rolling back to the ecommerce ops queue next week as planned.\" (b50f18c2e4b60040, Aug 10 2026, SENT)",
+      "recommended_action": "Re-anchor to the latest message on this subject (b50f18c2e4b60040, Aug 10) and either fix current_value to reflect that Jordan is still working a Sept 1 target with QA running through end of August, or — if Aug 17 and Sept 1 genuinely describe two different milestones (e.g. theme flip vs. full cutover) — split into two items or add the qualifying detail; as written the single 'August 17' current_value is contradicted by the owner's own later statement on what the curator's own metadata labels the same 'replatform launch date.'"
+    }
+  ],
+  "checked_and_sound": [
+    "marketing-q5-01",
+    "marketing-q5-02",
+    "marketing-q5-03",
+    "marketing-q5-04",
+    "marketing-q5-05",
+    "marketing-q5-07",
+    "marketing-q5-08",
+    "marketing-q5-09",
+    "marketing-q5-10",
+    "marketing-q5-11"
+  ],
+  "notes": "Deep-checked the assignment's specific target, the canonical shifting-number case (marketing-q5-02, Q4 paid social budget): confirmed it is genuinely ONE item spanning b60f18c2e4b60011 -> 12 -> 13 ($100K -> $150K -> $120K, Jul 15/20/24), that no message after Jul 24 (the to_message_id) revises the figure again, and that Sofia's Aug 5 'Q4 Planning Priorities' email ('you saw Wes's note on paid social') and the Aug 25 offsite invite ('leave with a locked paid social budget') both confirm $120K is still the unresolved-but-current operative number as of Aug 12 — the offsite that would finally 'lock' it falls after the as-of date. Also noted, but did not treat as a formal finding, a separate same-day thread (b50f18c2e4b60001/02, Jul 15) where Jordan tells Sofia the number is '$120K... down from $150K I floated back in June planning' — a framing that doesn't line up cleanly with the Nina/Wes chain's own dates (Nina's $150K wasn't proposed until Jul 20, five days after Jordan's email). Since that thread carries no shifting_number tag or superseded_by annotation and both narratives converge on the same final $120K figure, I read it as background texture rather than a second, contradictory chain — flagging it here only so a human reviewer can weigh in if they read it differently. Verified all 11 items' evidence_quotes are verbatim in their anchor message body_text, all message_ids resolve to real corpus messages, no anchor has an unfollowed superseded_by_message_id, and all five must_not_include distractors (duplicate_resend, two new-information-not-change cases, an already-held calendar mutation, and a newsletter) are correctly excluded. Ranking order has one soft irregularity worth a second look: marketing-q5-05 (Tessa's mailbox going over quota, dated literally today, Aug 12) sits at rank 5, behind marketing-q5-02 (Jul 24, 19 days stale) at rank 2 — defensible on magnitude grounds given q5-02 is the flagship shifting-number case, but not a 'clean' recency-first ordering, so I did not file it as a hard finding."
+}

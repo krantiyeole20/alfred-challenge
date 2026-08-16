@@ -16,7 +16,7 @@ from pathlib import Path
 
 from . import config
 from .db import connect, init_schema, j, new_id, now_iso, run_record
-from .identity import may_merge
+from .identity import LOOKALIKE_RELATIONS, domain_relation, may_merge
 
 # Persona metadata. Timezones come from docs/personas.md; "due tomorrow" needs
 # an owner's midnight, so this is load-bearing, not decoration.
@@ -211,6 +211,55 @@ def load_profile(conn: sqlite3.Connection, profile_id: str, stats: dict) -> None
             ),
         )
         person_of_address[email] = person_id
+
+    # ---- domain-level impersonation
+    #
+    # The name-collision check above only fires when an impersonator reuses a
+    # real person's display name. The more dangerous case reuses a real
+    # DOMAIN under a new name -- "Kettle Compliance Certification" writing
+    # from kettlehq-billing.com. Nothing collides, so nothing was flagged, and
+    # the mailbox owner is told there is no fraud. Scan domains directly.
+    domain_counts: dict[str, int] = defaultdict(int)
+    for email, info in observed.items():
+        if "@" in email:
+            domain_counts[email.split("@")[1]] += info["count"]
+
+    owner_domain = owner_address.split("@")[1]
+    # A domain the owner genuinely corresponds with: their own, or one seen
+    # often enough to be an established counterparty rather than a stranger.
+    established = {
+        d for d, n in domain_counts.items() if n >= 3 or d == owner_domain
+    }
+
+    for domain, count in sorted(domain_counts.items()):
+        if domain in established:
+            continue
+        for known in established:
+            relation = domain_relation(domain, known)
+            if relation not in LOOKALIKE_RELATIONS:
+                continue
+            sender = next(
+                (e for e in observed if e.endswith("@" + domain)), f"?@{domain}"
+            )
+            anchor_addr = next(
+                (e for e in observed if e.endswith("@" + known)), f"?@{known}"
+            )
+            already = conn.execute(
+                "SELECT 1 FROM identity_conflicts WHERE user_id=? AND address_b=?",
+                (user_id, sender),
+            ).fetchone()
+            if not already:
+                conn.execute(
+                    "INSERT INTO identity_conflicts (id, user_id, observed_name, "
+                    "address_a, address_b, relation, message_count_a, message_count_b, "
+                    "detected_at, resolver_version) VALUES (?,?,?,?,?,?,?,?,?,?)",
+                    (
+                        new_id(), user_id, observed.get(sender, {}).get("name"),
+                        anchor_addr, sender, relation,
+                        domain_counts[known], count, ts, config.RESOLVER_VERSION,
+                    ),
+                )
+            break
 
     # ---- threads
     threads: dict[str, list[dict]] = defaultdict(list)

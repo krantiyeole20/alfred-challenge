@@ -1,144 +1,182 @@
-# alfred-challenge
+<div align="center">
 
-**→ [Read the design doc: Email Indexing for alfred_](https://krantiyeole20.github.io/alfred-challenge/)**
+# alfred_
 
-That doc is the full approach plan — why the six questions alfred_ has to
-answer ("what's waiting on me", "what changed", "what's slipping"...) are
-temporal/relational rather than semantic, why that rules out a plain
-chunk-embed-retrieve pipeline in favour of a ledger of LLM-extracted claims
-folded by a deterministic reducer, the 35-table Postgres schema, the
-end-to-end dataflows, job breakdown, failure modes, evaluation plan, and a
-SQL reference. Source lives at [web/docs/](web/docs/index.html); it's
-rebuilt automatically on every push via [.github/workflows/pages.yml](.github/workflows/pages.yml).
+### An evidence ledger for email
 
-This repo also contains the mock Gmail corpus the design is built and
-evaluated against: a synthetic but structurally faithful Gmail dataset for
-five people with very different jobs, built to stress-test anything that
-reads a mailbox and tries to work out what the owner actually has to do.
+**Six questions an inbox can't answer by searching — answered from 1,500 messages, every claim traceable to the sentence it came from.**
 
-**1,500 messages · 5 mailboxes · 300 each · window 2026-06-13 → 2026-08-12**
-(≈75 % of each mailbox falls in the last 30 days, mirroring how real inbox
-attention is distributed.)
+[**Live demo**](https://krantiyeole20.github.io/alfred-challenge/demo/) · [**Design doc**](https://krantiyeole20.github.io/alfred-challenge/) · [Build plan](docs/build-plan.md) · [Semantics](docs/QUESTIONS.md)
 
-## The five mailboxes
+</div>
 
-| `profile_id` | who | org |
-|---|---|---|
-| `founder` | Maya Rodriguez, founder & CEO | Kettle — 28-person Series A dev-tooling startup |
-| `marketing` | Jordan Feld, VP Marketing | Habitat Goods — 180-person DTC brand |
-| `finance` | Aditi Sharma, VP Finance | Northwind Robotics — 50 people |
-| `hr` | Marcus Bell, Head of People | Vireo Health Systems — 200 people |
-| `consulting` | Evelyn Thorne, President | Thorne & Cadwell Advisory — 10-person consultancy |
+---
 
-Full cast lists, domains and running storylines: [docs/personas.md](docs/personas.md).
+<div align="center">
+<img src="docs/img/demo-question.png" alt="The demo answering &quot;What needs my attention?&quot; with ranked work items, each carrying a verbatim citation" width="900">
+</div>
+
+---
+
+## The problem
+
+The six questions alfred_ has to answer look like search problems. They are not.
+
+| Question | What it actually requires |
+|---|---|
+| What is waiting on me? | A state that has persisted |
+| What am I waiting on? | The same state, ownership inverted |
+| What changed? | A comparison between two points in time |
+| What am I forgetting? | The **absence** of an expected event |
+| What needs attention? | A ranking over open state |
+| What's slipping? | Open state plus unusual silence |
+
+All six are temporal or relational. None is semantic. A chunk-embed-retrieve pipeline is stateless per query — there is nothing to compare against, so "what changed" gets invented.
+
+So this stores a **ledger of claims over time** instead, and the six questions become indexed queries.
+
+> **The LLM proposes. A deterministic layer disposes.**
+
+The model reads one email and emits structured claims with verbatim quotes. It never decides current state, never updates, never deletes. A plain, testable reducer folds those claims into answers. "What changed" is a range scan, not a generation task.
+
+## What's actually built
+
+```
+1,500 emails  →  signals  →  extraction  →  reducer  →  six questions
+   5 mailboxes    no LLM      1 LLM call     no LLM      pure SQL
+                              per message
+```
+
+| | |
+|---|---|
+| Messages processed | **1,500** across 5 mailboxes |
+| Claims extracted | **1,198** — every one quote-verified |
+| Quarantined as unverifiable | **1** |
+| Work items after the fold | 1,069 (1,007 open) |
+| Impersonation attempts caught | **10** |
+| Total extraction cost | **$0.78** |
+| Tests | **49 passing** |
+
+## Every answer carries its citation
+
+Not by prompting — by construction. A claim whose quote cannot be found verbatim in its source never enters the ledger. Click any citation and the source message opens with the quote highlighted **exactly where it was found**.
+
+<div align="center">
+<img src="docs/img/demo-evidence.png" alt="Clicking a citation opens the source message with the quoted sentence highlighted in place" width="900">
+</div>
+
+## Every answer shows its work
+
+Each question exposes the job that produced it — the trigger, the pipeline stages, what each stage writes, and the SQL that actually ran.
+
+<div align="center">
+<img src="docs/img/demo-how.png" alt="The How this answer is produced panel showing trigger, pipeline stages and the SQL that ran" width="900">
+</div>
+
+## Ask in your own words
+
+The agent has six fixed tools (one per question, identical SQL to what the scorer measures), a participant lookup, and a read-only SQL escape hatch. Tool calls execute **in your browser** against a local SQLite copy — the proxy never sees the mail.
+
+<div align="center">
+<img src="docs/img/demo-chat.png" alt="The agent identifying two impersonation attempts, including a lookalike of the company's own domain" width="900">
+</div>
+
+All six questions route correctly when asked indirectly:
+
+| Asked as | Tool chosen |
+|---|---|
+| "catch me up, what should I look at first?" | `needs_attention` |
+| "did I drop anything?" | `forgetting` |
+| "what's on my plate right now?" | `waiting_on_me` |
+| "who hasn't gotten back to me?" | `waiting_on_others` |
+| "anything move or shift recently?" | `what_changed` |
+| "what's quietly falling through the cracks?" | `slipping` |
+
+## Two findings worth reading
+
+**Merging people on display name destroys the fraud signal.** Resolving two addresses to one person when the display name matches is how `same_person_two_addresses` gets solved. It also folds an impersonator into the very person they're impersonating — `billing@klaviyo-billing.com` merged silently into the real `billing@klaviyo.com`. The discriminator is registrable domain at a **token boundary**: `email.united.com` sits under `united.com` (merge), while `klaviyo-billing.com` merely appends a word to the brand (never merge). A bare substring test also flags `vanta.com` against `vantageassurance.com`, which is nothing at all. See [`identity.py`](src/pipeline/identity.py).
+
+**The noise gate wasn't worth what it cost.** Measured across four variants over the whole corpus:
+
+| Gate rule | Real work lost | Noise gated | Extraction cost |
+|---|---|---|---|
+| Gmail category OR bulk headers | **6** | 202 | $1.42 |
+| List-ID OR (promo AND automated) | 2 | 134 | $1.50 |
+| List-ID only | 0 | 35 | $1.61 |
+| No gate | 0 | 0 | $1.65 |
+
+The aggressive gate saves **$0.23** and loses six real obligations — among them a speaking-slot confirmation and a "your plan renews in 5 days, update your payment method" notice. The gate is now narrow, with a transactional-subject override. See [`signals.py`](src/pipeline/signals.py).
+
+## Run it
+
+```bash
+python3 -m venv .venv && .venv/bin/pip install pydantic python-dotenv google-genai pytest
+```
+
+Create `.env`:
+
+```bash
+GEMINI_API_KEY=AIza...
+```
+
+Then:
+
+```bash
+.venv/bin/python -m src.pipeline.run all
+```
+
+Stages are idempotent and independently re-runnable. Only `extract` costs money, and it aborts at `ALFRED_BUDGET_USD`.
+
+```bash
+.venv/bin/python -m src.pipeline.run list-models      # confirm model ids
+.venv/bin/python -m src.pipeline.run extract --limit 25    # cheap smoke test
+.venv/bin/python -m src.pipeline.run extract --profile founder
+.venv/bin/python -m src.pipeline.run extract --retry-failures  # escalate misses
+.venv/bin/python -m src.pipeline.run score
+```
+
+Serve the demo locally, agent included:
+
+```bash
+.venv/bin/python tools/serve_demo.py     # http://localhost:8899/demo/
+```
+
+## How the demo is free to run
+
+The corpus is read-only and small, so it ships as a **2.6 MB SQLite file the browser queries in WASM**. No database server, no cold starts, nothing to keep alive. A Cloudflare Worker exists for exactly one reason — an API key cannot live in a static page — and enforces a per-IP rate limit plus a hard global daily cap in D1.
+
+Tool calls run in the tab. The freeform SQL tool is therefore safe by construction: it queries a disposable copy in the visitor's own browser, with no backend to attack.
+
+## Honest numbers
+
+Recall against the gold sets is **~35%**, and the breakdown matters more than the headline:
+
+```
+q2_forgetting              88.5%      q1_needs_attention      11.8%
+q3_waiting_on_me           51.7%      q5_what_changed         18.5%
+q4_waiting_on_others       35.7%      q6_slipping              7.7%
+```
+
+**88% of gold items do reach a work item; only ~35% surface in the top 12.** Extraction works — the gap is ranking and the question filters, which is a tuning problem rather than an architecture one, and costs nothing in API calls to close. It is the most obvious next piece of work and it is not done.
+
+Also not done: the demo exercises the read path but does not yet surface the ledger itself — the append-only evidence chain, superseded values, and the quarantine are the parts of the schema that most distinguish it, and they aren't visible.
 
 ## Layout
 
 ```
-data/
-  raw/                       30 generator batches, <profile>_b<1..6>.json
-  profiles/
-    <profile>.canonical.jsonl    one Email record per line
-    <profile>.gmail.jsonl        users.messages.get shape, one per line
-    <profile>.threads.json       users.threads.get shape
-  ground_truth.jsonl         every message carrying a deliberate tricky tag
-docs/
-  research/gmail-email-data-model.md   how Gmail actually models a message
-  personas.md                          the five owners and their casts
-  generation-spec.md                   the spec the generator agents followed
-src/
-  schema.py                  Pydantic models + Gmail API projection
-  build.py                   validate 30 batches, emit the corpus
-  load.py                    loader helpers
-results/
-  corpus_report.md           coverage tables
-  stats.json                 the same numbers, machine-readable
-web/docs/
-  index.html                 the design doc (approach, schema, dataflows, jobs, evaluation, SQL reference)
-  data/schema.sql            the schema referenced by the doc, as runnable SQL
-  assets/, data/             doc styling and rendering data
-```
-
-## Two representations of every message
-
-Each message is authored once and serialised twice.
-
-**Canonical** — flat, typed, easy to consume:
-
-```python
-from load import load_profile
-mailbox = load_profile("founder")
-e = mailbox[0]
-e.from_.email, e.subject, e.body_text, e.attachments[0].extracted_text
-e.meta.is_actionable_for_user, e.meta.action_owner
-```
-
-**Gmail-API-faithful** — what `users.messages.get` really returns, with a nested
-MIME `payload`, a `headers` list, `labelIds`, `internalDate` as a string of epoch
-milliseconds, `historyId` and `sizeEstimate`:
-
-```python
-from load import load_gmail
-msg = next(load_gmail("founder"))
-msg["payload"]["mimeType"]                      # multipart/mixed
-[h["name"] for h in msg["payload"]["headers"]]  # Delivered-To, Date, Message-ID, ...
-```
-
-Attachments are metadata plus `extracted_text` — the text a parser would recover
-from the file, kept consistent with the email body.
-
-## What the corpus deliberately contains
-
-Beyond ordinary work mail, every mailbox carries noise (newsletters with real
-RFC 8058 unsubscribe headers, promotional blasts, cold outreach, spam and one
-phishing attempt), automated traffic (calendar `REQUEST`/`REPLY`/`CANCEL` with
-ICS bodies, SaaS notifications, security alerts, bounces), the owner's own sent
-mail and drafts, and long multi-party threads.
-
-It also contains eleven **planted adversarial cases in every mailbox**, each
-tagged in `meta.tricky_tags` and indexed in `data/ground_truth.jsonl`:
-
-1. a forwarded email whose task belongs to a third party, not the owner
-2. two emails from the same human via two different addresses
-3. a conditional promise ("if legal approves, Friday")
-4. a number that changes across three emails, with `superseded_by_message_id` chained forward
-5. "can someone handle this?" sent to six people including the owner
-6. a newsletter with a working unsubscribe link and `List-Unsubscribe-Post`
-7. an out-of-office auto-reply, with the owner's originating message
-8. a thread of 8+ genuine back-and-forth messages
-9. a thread that silently switches topic halfway, subject line unchanged
-10. a promise to send a file, and the later email that actually carries it
-11. correct `In-Reply-To` / `References` chains throughout, machine-verified
-
-Plus lookalike-domain invoice fraud, duplicate resends, moved deadlines,
-retracted commitments, tasks that exist only inside an attachment, tasks that
-survive only in quoted text, bcc-invisible recipients, `Reply-To` mismatches,
-ambiguous pronoun ownership, and implicit deadlines.
-
-## Rebuilding
-
-```bash
-python3 -m venv .venv && .venv/bin/pip install pydantic python-dotenv anthropic
-```
-
-```bash
-.venv/bin/python src/build.py
-```
-
-`build.py` re-validates all 30 batch files and refuses to emit if anything is
-wrong — duplicate ids, a broken `References` chain, a reply predating its parent,
-a date outside the window, a `SENT` message carrying a category, a missing
-required tricky case. It then writes `data/profiles/`, `data/ground_truth.jsonl`
-and `results/`.
-
-Validate a single batch on its own:
-
-```bash
-.venv/bin/python src/schema.py data/raw/founder_b1.json
+src/pipeline/     load → signals → extract → reduce → score, behind one CLI
+  questions.py    the six questions as SQL — one source of truth for the
+                  scorer and the demo agent, so they cannot drift
+  identity.py     registrable-domain comparison; the impersonation guard
+  schema_sqlite.sql   the shipped read-path subset of the 35-table design
+tests/            49 invariant tests
+web/docs/         the design doc (GitHub Pages)
+web/docs/demo/    the demo, sharing the doc's skin
+worker/           Cloudflare Worker: key proxy, rate limit, budget cap
+tools/            local streaming proxy, so the agent runs without a deploy
+data/             the corpus, ground truth, and gold sets
 ```
 
 ## A note on the data
 
-Every person, company, domain and dollar figure here is invented. Any resemblance
-to a real organisation is coincidental. The mail is written to read like a leak
-rather than a template — that is what makes it useful — but none of it is real.
+Every person, company, domain and dollar figure is invented. The mail is written to read like a leak rather than a template — that is what makes it useful — but none of it is real.

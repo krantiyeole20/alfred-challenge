@@ -10,20 +10,24 @@
   "answers": {
     "q1_needs_attention": {
       "question": "What needs my attention?",
-      "prose_answer": "Three things can't wait until tomorrow. Wendy's Ramp card was declined on the AWS renewal — decide today whether to raise the limit or use the backup card. The SOC2 evidence deadline moved up to Aug 13, tomorrow, not the 20th you have in your head; that same move is what cost you the Sept 1 SSO date with Dana. And the Ramp renewal call is tomorrow at 2pm: the actual asks — $85K card limit, Luis and Sana as cardholders — are only in Wendy's attachment, not her email. Then: the Lumenpay MSA amendment has been sitting unsigned since Aug 7, and you promised Dana that countersignature back on July 3. Your $86,400 Q3 invoice to Lumenpay bounced — you typo'd Dana's address, so it was never delivered. And the $4,850 'compliance certificate' invoice is from kettlehq-billing.com. It's fake — warn Wendy, don't pay it.",
+      "prose_answer": "Four things can't wait until tomorrow. Wendy's Ramp card was declined on the AWS renewal — decide today whether to raise the limit or use the backup card. Someone had your actual Google password two weeks ago (a blocked sign-in from Lagos); you still haven't changed it. The SOC2 evidence deadline moved up to Aug 13, tomorrow, not the 20th you have in your head, and that same collision is what cost you the Sept 1 SSO date with Dana. The Ramp renewal call is also tomorrow at 2pm: the actual asks — $85K card limit, Luis and Sana as cardholders — live only in Wendy's attachment. Then: the Lumenpay DPA addendum is a week overdue against the Aug 5 date you gave Dana, and the separate MSA amendment has sat unsigned since Aug 7 — you promised that countersignature back on July 3. Your $86,400 Q3 invoice to Lumenpay bounced; it was never delivered. And the $4,850 'compliance certificate' invoice is fake — warn Wendy, don't pay it.",
       "ranked": [
         "founder-q1-01",
+        "founder-q1-13",
         "founder-q1-02",
         "founder-q1-03",
+        "founder-q1-14",
         "founder-q1-04",
         "founder-q1-05",
         "founder-q1-06",
         "founder-q1-07",
+        "founder-q1-15",
+        "founder-q1-12",
         "founder-q1-08",
         "founder-q1-09",
+        "founder-q1-16",
         "founder-q1-10",
-        "founder-q1-11",
-        "founder-q1-12"
+        "founder-q1-11"
       ],
       "items": [
         {
@@ -46,9 +50,28 @@
           "tricky_tags": []
         },
         {
-          "item_id": "founder-q1-02",
+          "item_id": "founder-q1-13",
           "rank": 2,
           "tier": "must_include",
+          "claim": "A suspicious sign-in to maya@kettlehq.com using her real password was blocked on Jul 28 from Lagos, Nigeria; two weeks later she still has not changed the password or reviewed recent account activity.",
+          "thread_id": "a40f18c2e4b60026",
+          "anchor_message_id": "a40f18c2e4b60026",
+          "message_ids": [
+            "a40f18c2e4b60026"
+          ],
+          "evidence_quote": "Someone just used your password to try to sign in to your account. Google blocked them, but you should check your recent activity and consider changing your password.",
+          "why_it_qualifies": "A genuine security hazard requiring awareness even with no task attached: someone had Maya's actual password, and nothing in the mailbox shows her changing it or reviewing activity since. QUESTIONS.md names this exact message as the example of a hazard that qualifies with no requester behind it.",
+          "counterparty": null,
+          "due_date": null,
+          "due_basis": "none",
+          "days_open": 15,
+          "consequence": "high",
+          "tricky_tags": []
+        },
+        {
+          "item_id": "founder-q1-02",
+          "rank": 3,
+          "tier": "acceptable",
           "claim": "The SOC2 Type II evidence submission deadline was moved up from Aug 20 to Aug 13 — that is tomorrow, and it is the collision that already cost Kettle the Sept 1 Lumenpay SSO date.",
           "thread_id": "a60f18c2e4b60034",
           "anchor_message_id": "a60f18c2e4b60035",
@@ -57,7 +80,7 @@
             "a60f18c2e4b60035"
           ],
           "evidence_quote": "the evidence submission deadline is moving up to August 13th, not the 20th we discussed",
-          "why_it_qualifies": "Hard external deadline landing tomorrow that Maya is cc'd on and that gates the whole audit; the moved date makes it far more urgent than the original message suggests. Wendy executes, but the audit is Maya's exposure and Priya already traded SSO engineering time for it.",
+          "why_it_qualifies": "Hard external deadline landing tomorrow; both Certiva messages are addressed to Wendy as the action owner with Maya only cc'd, so the honest framing is hazard-awareness rather than a personal Maya obligation. It is the schedule collision that already cost Kettle the Sept 1 SSO date, and the parallel Vantage Assurance engagement independently describes fieldwork as 'substantially complete' by Aug 4 — a discrepancy the corpus does not resolve (see curator_notes).",
           "counterparty": "rachel.kim@certiva-assurance.com",
           "due_date": "2026-08-13",
           "due_basis": "explicit",
@@ -69,7 +92,7 @@
         },
         {
           "item_id": "founder-q1-03",
-          "rank": 3,
+          "rank": 4,
           "tier": "must_include",
           "claim": "Before Thursday Aug 13's 2pm Ramp renewal call, Maya must approve raising the corporate card limit from $50K to $85K/mo, confirm Luis Ferreira and Sana Iqbal as cardholders, and sign off on sub-$500 auto-approval — all of which exist only in the attached PDF.",
           "thread_id": "a60f18c2e4b60038",
@@ -89,8 +112,30 @@
           ]
         },
         {
+          "item_id": "founder-q1-14",
+          "rank": 5,
+          "tier": "must_include",
+          "claim": "The Lumenpay DPA addendum covering SSO metadata, which Maya told Dana would be signed by Aug 5, is still unsigned a week later — Lumenpay's exec sponsor wants it buttoned up before the Aug 17 go-live Maya just committed to.",
+          "thread_id": "a20f18c2e4b60001",
+          "anchor_message_id": "a20f18c2e4b60010",
+          "message_ids": [
+            "a40f18c2e4b60017",
+            "a20f18c2e4b60009",
+            "a20f18c2e4b60010",
+            "a10f18c2e4b60048"
+          ],
+          "evidence_quote": "Beth Ranganathan, our outside counsel, is already on the DPA addendum and is targeting Aug 5 for a signed version, so that should line up fine with go-live.",
+          "why_it_qualifies": "Distinct from the MSA amendment (indemnification, founder-q1-04) and the security addendum (founder-q1-07) — a third, separate Lumenpay legal instrument. Dana's procurement team is explicitly blocking on it before go-live, no message in the mailbox reports it signed or sent, and the go-live it gates has since moved to Aug 17.",
+          "counterparty": "dana.kowalski@lumenpay.io",
+          "due_date": "2026-08-05",
+          "due_basis": "explicit",
+          "days_open": 7,
+          "consequence": "high",
+          "tricky_tags": []
+        },
+        {
           "item_id": "founder-q1-04",
-          "rank": 4,
+          "rank": 6,
           "tier": "must_include",
           "claim": "The Kettle–Lumenpay MSA amendment is sitting unsigned in a Hoyt & Grieve e-signature envelope since Aug 7; Maya promised Dana the countersigned version by Friday Jul 3 once Beth cleared the indemnification language, and Beth has now cleared it.",
           "thread_id": "a60f18c2e4b60042",
@@ -114,7 +159,7 @@
         },
         {
           "item_id": "founder-q1-05",
-          "rank": 5,
+          "rank": 7,
           "tier": "must_include",
           "claim": "The $86,400 Q3 invoice to Lumenpay never reached Dana — Maya typo'd the address as dana.kowaslki@lumenpay.io on Aug 4 and it hard-bounced; nobody at Kettle knows the invoice was never delivered.",
           "thread_id": "a40f18c2e4b60023",
@@ -134,7 +179,7 @@
         },
         {
           "item_id": "founder-q1-06",
-          "rank": 6,
+          "rank": 8,
           "tier": "must_include",
           "claim": "A $4,850 'Annual Compliance Certificate Renewal' invoice addressed to AP is a fraud: it comes from kettlehq-billing.com, a lookalike of Kettle's own domain, for a product Kettle does not buy. Warn Wendy; do not pay.",
           "thread_id": "a60f18c2e4b60031",
@@ -155,7 +200,7 @@
         },
         {
           "item_id": "founder-q1-07",
-          "rank": 7,
+          "rank": 9,
           "tier": "must_include",
           "claim": "Maya told Beth on Jul 27 she wanted the Lumenpay security addendum executed by August 14 via an interim SOC2 attestation, and committed to loop in Dana herself — neither the Halcyon letter nor the Dana conversation has surfaced since.",
           "thread_id": "a10f18c2e4b60015",
@@ -178,28 +223,69 @@
           ]
         },
         {
+          "item_id": "founder-q1-15",
+          "rank": 10,
+          "tier": "acceptable",
+          "claim": "Maya's promised weekly Friday status update to Dana has been missed twice since it was last honored on Jul 31 — no email went out Aug 7 despite her re-promising it that same day — and the next occurrence, Friday Aug 14, lands three days before the Aug 17 go-live she just committed to.",
+          "thread_id": "a50f18c2e4b60016",
+          "anchor_message_id": "a10f18c2e4b60027",
+          "message_ids": [
+            "a50f18c2e4b60016",
+            "a50f18c2e4b60017",
+            "a10f18c2e4b60027"
+          ],
+          "evidence_quote": "I'll personally check in with you Friday either way.",
+          "why_it_qualifies": "Q1 material because Dana is actively escalating (she demanded a firm date on Aug 10) and the trust-rebuilding mechanism Maya offered instead of asking Dana to just believe her keeps lapsing; the next lapse would land right before the go-live date Maya has now staked her credibility on twice.",
+          "counterparty": "dana.kowalski@lumenpay.io",
+          "due_date": "2026-08-07",
+          "due_basis": "implicit",
+          "days_open": 5,
+          "consequence": "medium",
+          "tricky_tags": []
+        },
+        {
+          "item_id": "founder-q1-12",
+          "rank": 11,
+          "tier": "acceptable",
+          "claim": "A DocuSign board consent increasing the option pool by 800,000 shares needs Maya's signature before the Aug 27 board meeting; only 2 of 4 board signatures are collected, and the Head of Marketing offer depends on it.",
+          "thread_id": "a40f18c2e4b60050",
+          "anchor_message_id": "a40f18c2e4b60050",
+          "message_ids": [
+            "a40f18c2e4b60050"
+          ],
+          "evidence_quote": "This needs all board members' signatures before the Aug 27 meeting so the increase is effective for the Head of Marketing offer.",
+          "why_it_qualifies": "Signature workflow acting for a real requester (Beth), directly to Maya, with a hard downstream dependency on the Naomi Chen offer. Unread and starred but not yet actioned.",
+          "counterparty": "branganathan@hoytgrieve.com",
+          "due_date": "2026-08-26",
+          "due_basis": "implicit",
+          "days_open": 6,
+          "consequence": "medium",
+          "tricky_tags": []
+        },
+        {
           "item_id": "founder-q1-08",
-          "rank": 8,
-          "tier": "must_include",
-          "claim": "Maya promised Ellen Barsotti and Greg Whitfield draft board financials by August 15 — three days out — and the finished deck by August 20.",
+          "rank": 12,
+          "tier": "acceptable",
+          "claim": "Maya delivered the 'draft financials' Ellen asked for early, on Aug 1 with a metrics CSV — so the Aug 15 milestone is done. What's still open is the finished board deck she promised by August 20, which Sana is now assembling from the sections leadership owes her.",
           "thread_id": "a50f18c2e4b60032",
           "anchor_message_id": "a50f18c2e4b60033",
           "message_ids": [
             "a50f18c2e4b60032",
-            "a50f18c2e4b60033"
+            "a50f18c2e4b60033",
+            "a50f18c2e4b60035"
           ],
-          "evidence_quote": "You and Greg will have draft financials by August 15, a full 12 days out, and the finished deck by August 20",
-          "why_it_qualifies": "Firm, self-imposed commitment to two board members with a date inside the seven-day window; Ellen asked for exactly this because last quarter's deck was late.",
+          "evidence_quote": "and the finished deck by August 20",
+          "why_it_qualifies": "Keeps the still-live Aug 20 external commitment to Kettle's lead investor visible after the Aug 15 milestone (correctly) drops out — a validator found the original claim stale, since the Aug 1 pre-read (a50f18c2e4b60035) already satisfied Ellen's 'rough numbers' ask.",
           "counterparty": "ellen@northbridge.vc",
-          "due_date": "2026-08-15",
+          "due_date": "2026-08-20",
           "due_basis": "explicit",
           "days_open": 15,
-          "consequence": "high",
+          "consequence": "medium",
           "tricky_tags": []
         },
         {
           "item_id": "founder-q1-09",
-          "rank": 9,
+          "rank": 13,
           "tier": "acceptable",
           "claim": "Wendy is blocked on Maya's sign-off on the updated cap table numbers; Ellen wants them locked before the Aug 27 board meeting, and the option-pool model is due in the Aug 20 pre-read.",
           "thread_id": "a60f18c2e4b60044",
@@ -219,8 +305,27 @@
           ]
         },
         {
+          "item_id": "founder-q1-16",
+          "rank": 14,
+          "tier": "acceptable",
+          "claim": "Maya told Raj Malhotra she'd have an externally-formatted numbers packet to him by end of this week ahead of their Thursday Aug 13 call; the internal draft she asked Sana for was due today, Aug 12, and nothing shows it arriving.",
+          "thread_id": "a50f18c2e4b60047",
+          "anchor_message_id": "a50f18c2e4b60047",
+          "message_ids": [
+            "a50f18c2e4b60047"
+          ],
+          "evidence_quote": "I told Raj end of week, so if you can get me a draft by Wednesday that'd help.",
+          "why_it_qualifies": "A real external commitment to Kettle's most active Series B prospect, with the internal handoff due the same day as the as-of moment and a call the next day.",
+          "counterparty": "raj.malhotra@foundryline.com",
+          "due_date": "2026-08-14",
+          "due_basis": "implicit",
+          "days_open": 5,
+          "consequence": "medium",
+          "tricky_tags": []
+        },
+        {
           "item_id": "founder-q1-10",
-          "rank": 10,
+          "rank": 15,
           "tier": "acceptable",
           "claim": "Datadog auto-renews Kettle onto the Pro tier at $4,200/mo (up from $2,850/mo) on Aug 30; the only window to trim hosts and avoid the ~47% increase closes Aug 25.",
           "thread_id": "a30f18c2e4b60038",
@@ -239,7 +344,7 @@
         },
         {
           "item_id": "founder-q1-11",
-          "rank": 11,
+          "rank": 16,
           "tier": "acceptable",
           "claim": "Maya's SaaStr Annual slide deck, headshot and bio are due in the speaker portal by Aug 25 for her Sept 22 solo session.",
           "thread_id": "a30f18c2e4b60039",
@@ -253,25 +358,6 @@
           "due_date": "2026-08-25",
           "due_basis": "explicit",
           "days_open": 2,
-          "consequence": "medium",
-          "tricky_tags": []
-        },
-        {
-          "item_id": "founder-q1-12",
-          "rank": 12,
-          "tier": "acceptable",
-          "claim": "A DocuSign board consent increasing the option pool by 800,000 shares needs Maya's signature before the Aug 27 board meeting; only 2 of 4 board signatures are collected, and the Head of Marketing offer depends on it.",
-          "thread_id": "a40f18c2e4b60050",
-          "anchor_message_id": "a40f18c2e4b60050",
-          "message_ids": [
-            "a40f18c2e4b60050"
-          ],
-          "evidence_quote": "This needs all board members' signatures before the Aug 27 meeting so the increase is effective for the Head of Marketing offer.",
-          "why_it_qualifies": "Signature workflow acting for a real requester (Beth), directly to Maya, with a hard downstream dependency on the Naomi Chen offer. Unread and starred but not yet actioned.",
-          "counterparty": "branganathan@hoytgrieve.com",
-          "due_date": "2026-08-26",
-          "due_basis": "implicit",
-          "days_open": 6,
           "consequence": "medium",
           "tricky_tags": []
         }
@@ -326,22 +412,23 @@
           "trap": "newsletter_unsubscribe"
         }
       ],
-      "curator_notes": "Departures from the loose framing in QUESTIONS.md, all corpus-driven: (a) Dana's Aug 10 go-live demand was answered the same day (a10f18c2e4b60048, firm Aug 17 date), so it is not an open Q1 item — it appears in Q5 as the date change instead; (b) the Aug 14 payroll lock was approved on Aug 11 and is a distractor, not the top item; (c) Raj's data-room bump was answered Aug 5. The SOC2 evidence deadline is nominally Wendy's action but is included because Maya is cc'd, it is the hardest external date in the window, and the schedule collision is the stated cause of the Lumenpay slip. The lookalike invoice is included strictly as a hazard."
+      "curator_notes": "Departures from the loose framing in QUESTIONS.md, all corpus-driven: (a) Dana's Aug 10 go-live demand was answered the same day (a10f18c2e4b60048, firm Aug 17 date), so it is not an open Q1 item — it appears in Q5 as the date change instead; (b) the Aug 14 payroll lock was approved on Aug 11 and is a distractor, not the top item; (c) Raj's data-room bump was answered Aug 5. The lookalike invoice is included strictly as a hazard.\n\nAdjudication changes after adversarial review: added the Lumenpay DPA addendum (founder-q1-14, distinct from the MSA amendment and the security addendum — three separate legal instruments in the same relationship) and the unactioned Google security alert (founder-q1-13), both genuine misses. Added the missed Friday-status-update escalation (founder-q1-15) and Maya's own numbers-packet promise to Raj (founder-q1-16). Retiered founder-q1-08 from must_include to acceptable and rescoped its claim: the Aug 15 'draft financials' were delivered early on Aug 1 (a50f18c2e4b60035); what remains open is the Aug 20 finished deck. Retiered founder-q1-02 from must_include to acceptable and reworded it to lead with hazard-awareness rather than owner-obligation, since both Certiva messages name Wendy as action_owner with Maya only cc'd. Re-ranked founder-q1-12 (board consent) above the Datadog/SaaStr items per the board-vs-vendor counterparty tiebreak.\n\nRejected: promoting Wendy's Ramp expense-report approval into Q1 — it stays adequately covered, at low consequence, in Q3 (founder-q3-07); it does not clear Q1's 'top three, nothing catastrophic' bar. Also rejected adding the Foundry Line technical-diligence-call thread here: Maya in fact looped Dev in the same day via a separate intro email (a50f18c2e4b60028), which the original finding missed — see Q6 must_not_include for the full reasoning.\n\nCorpus note: the SOC2 Type II audit is narrated inconsistently across three vendor names (Certiva/Rachel Kim, Vantage Assurance/Owen Fitch then Grace Liu, Halcyon Assurance/Meredith Voss) with materially different, overlapping timelines — Certiva's Aug 13 evidence deadline versus Vantage's 'fieldwork substantially complete' as of Aug 4. This looks like a corpus-generation artifact rather than something to resolve; founder-q1-02's tier was softened for exactly this reason rather than silently reconciling the two timelines."
     },
     "q2_forgetting": {
       "question": "What am I forgetting?",
-      "prose_answer": "The big one is Dana. On July 14 you promised her a written status update from you personally every Friday until the migration closed out — Jul 17, 24, 31 and Aug 7 have all gone by with nothing. You also promised Lumenpay a 100% August fee credit and said Wendy would get the memo to their AP contact 'that week'; there's no memo. And the countersigned MSA amendment you promised Dana by July 3 if Beth cleared the language — Beth cleared it, the envelope has been waiting since Aug 7, and you haven't signed. Smaller but real: Alice Yun never got the updated Head of Marketing JD you promised by July 20; Marcus Ito never got confirmation that the rate-limit patch went live; Beth is still waiting on Dev's SOC2 language sign-off you promised by Friday. Ellen's draft financials are due Aug 15, your board sections Aug 20. And Leo's vet refill.",
+      "prose_answer": "The big one is Dana. On July 14 you promised her a written status update from you personally every Friday until the migration closed out — you kept it once, on Jul 31, but Jul 17, Jul 24 and Aug 7 have gone by with nothing. You also promised Lumenpay a 100% August fee credit and said Wendy would get the memo to their AP contact 'that week'; there's no memo. And the countersigned MSA amendment you promised Dana by July 3 if Beth cleared the language — Beth cleared it, the envelope has been waiting since Aug 7, and you haven't signed. You also owe Wendy the updated hiring-plan assumptions you promised Jul 22 — the board pack now has three conflicting runway numbers partly because of it. Smaller but real: Alice Yun never got the updated Head of Marketing JD you promised by July 20; Marcus Ito never got confirmation the rate-limit patch went live; Beth is still waiting on Dev's SOC2 language sign-off; you never looped finance in on Tarrow pricing, 54 days on now; your board sections are due Aug 20; the Thursday pricing sync you promised starts tomorrow with no invite out; and Leo's vet refill is still open.",
       "ranked": [
         "founder-q2-01",
         "founder-q2-02",
         "founder-q2-03",
+        "founder-q2-13",
         "founder-q2-04",
         "founder-q2-05",
         "founder-q2-06",
         "founder-q2-07",
-        "founder-q2-08",
         "founder-q2-09",
         "founder-q2-10",
+        "founder-q2-14",
         "founder-q2-11"
       ],
       "items": [
@@ -349,12 +436,13 @@
           "item_id": "founder-q2-01",
           "rank": 1,
           "tier": "must_include",
-          "claim": "Maya promised Dana Kowalski a written status update from her personally every Friday until the Lumenpay migration closed out; four Fridays have passed (Jul 17, 24, 31, Aug 7) with no such email sent.",
+          "claim": "Maya promised Dana a written status update from her personally every Friday until the Lumenpay migration closed out; she kept it once, on Jul 31, but three other Fridays (Jul 17, Jul 24, Aug 7) have passed with no such email, including the Aug 7 check-in she explicitly re-promised on Jul 31.",
           "thread_id": "a50f18c2e4b60016",
           "anchor_message_id": "a50f18c2e4b60017",
           "message_ids": [
             "a50f18c2e4b60016",
-            "a50f18c2e4b60017"
+            "a50f18c2e4b60017",
+            "a10f18c2e4b60027"
           ],
           "evidence_quote": "you'll get a written status update from me — not Dev, not support — every Friday until this is closed out, whether or not there's news",
           "why_it_qualifies": "Self-authored, unconditional, recurring commitment made specifically to rebuild trust after a missed date — and the mechanism Maya offered instead of asking Dana to just believe her. Zero occurrences delivered; Dana has since escalated twice (Jul 30, Aug 10), which is positive evidence the lapse is visible on her side.",
@@ -410,8 +498,27 @@
           "tricky_tags": []
         },
         {
-          "item_id": "founder-q2-04",
+          "item_id": "founder-q2-13",
           "rank": 4,
+          "tier": "acceptable",
+          "claim": "Maya promised Wendy the updated hiring-plan assumptions for the runway model by Wednesday Jul 22 and never sent them; the board pack now carries three different runway figures (14, 22 and 11.5 months) with no reconciliation.",
+          "thread_id": "a50f18c2e4b60024",
+          "anchor_message_id": "a50f18c2e4b60024",
+          "message_ids": [
+            "a50f18c2e4b60024"
+          ],
+          "evidence_quote": "I'll get you the updated hiring plan assumptions by Wednesday so you're not guessing.",
+          "why_it_qualifies": "Owner-authored, explicit date, no later message to Wendy on hiring-plan assumptions anywhere in the mailbox — and the gap is visible in the wildly inconsistent runway numbers circulating for the Aug 27 board deck.",
+          "counterparty": "wendy@kettlehq.com",
+          "due_date": "2026-07-22",
+          "due_basis": "explicit",
+          "days_open": 21,
+          "consequence": "high",
+          "tricky_tags": []
+        },
+        {
+          "item_id": "founder-q2-04",
+          "rank": 5,
           "tier": "must_include",
           "claim": "Maya told Alice Yun on Jul 18 she would send an updated Head of Marketing JD reflecting the hands-on PLG requirement 'by Monday' (Jul 20); it was never sent, and Maya later chased Alice for search progress without noticing the gap was hers.",
           "thread_id": "a50f18c2e4b60020",
@@ -431,7 +538,7 @@
         },
         {
           "item_id": "founder-q2-05",
-          "rank": 5,
+          "rank": 6,
           "tier": "must_include",
           "claim": "Maya told Marcus Ito the API rate-limit patch would ship by Aug 6 and that someone would confirm directly with Tarrow's team once it was live; six days on, no confirmation has gone out.",
           "thread_id": "a50f18c2e4b60038",
@@ -452,7 +559,7 @@
         },
         {
           "item_id": "founder-q2-06",
-          "rank": 6,
+          "rank": 7,
           "tier": "must_include",
           "claim": "Maya told Beth Ranganathan she would have Dev confirm the SOC2 report contract language by Friday Aug 7 before Beth sends the indemnification counter back to Lumenpay's legal team; Friday passed with nothing sent.",
           "thread_id": "a50f18c2e4b60043",
@@ -472,7 +579,7 @@
         },
         {
           "item_id": "founder-q2-07",
-          "rank": 7,
+          "rank": 8,
           "tier": "must_include",
           "claim": "Maya told Beth on Jul 27 she would personally loop Dana in on the interim SOC2 attestation approach so it wouldn't land on her cold; no such message to Dana exists, and the addendum Maya wants executed by Aug 14 depends on Lumenpay's legal accepting it.",
           "thread_id": "a10f18c2e4b60015",
@@ -492,26 +599,6 @@
           "tricky_tags": [
             "conditional_promise"
           ]
-        },
-        {
-          "item_id": "founder-q2-08",
-          "rank": 8,
-          "tier": "acceptable",
-          "claim": "Maya promised Ellen and Greg draft board financials by Aug 15 and the finished deck by Aug 20; with three days left there is no sign the draft has been assembled.",
-          "thread_id": "a50f18c2e4b60032",
-          "anchor_message_id": "a50f18c2e4b60033",
-          "message_ids": [
-            "a50f18c2e4b60032",
-            "a50f18c2e4b60033"
-          ],
-          "evidence_quote": "You and Greg will have draft financials by August 15, a full 12 days out, and the finished deck by August 20",
-          "why_it_qualifies": "Accepted obligation to board members with a self-set date now imminent. Wendy's numbers exist ($2.14M ARR, finalized Aug 10) but nothing shows them packaged and sent to Ellen and Greg.",
-          "counterparty": "ellen@northbridge.vc",
-          "due_date": "2026-08-15",
-          "due_basis": "explicit",
-          "days_open": 15,
-          "consequence": "high",
-          "tricky_tags": []
         },
         {
           "item_id": "founder-q2-09",
@@ -538,7 +625,7 @@
           "item_id": "founder-q2-10",
           "rank": 10,
           "tier": "acceptable",
-          "claim": "Maya said she would set up a standing Thursday pricing/packaging sync starting the week of Aug 10 to stop pricing decisions playing out over five-person CC threads; no invite has gone out and the first Thursday has passed.",
+          "claim": "Maya said she would set up a standing Thursday pricing/packaging sync starting the week of Aug 10 to stop pricing decisions playing out over five-person CC threads; the first occurrence — Thursday Aug 13 — is tomorrow and no invite has gone out.",
           "thread_id": "a20f18c2e4b60035",
           "anchor_message_id": "a20f18c2e4b60039",
           "message_ids": [
@@ -548,15 +635,34 @@
           "evidence_quote": "I'll set that up for Thursdays starting next week.",
           "why_it_qualifies": "A small, self-assigned process commitment made in writing to four reports; it has a date (the week of Aug 10) that has now passed with nothing on the calendar. Low individual stakes, but it is exactly the class of promise a CEO's team notices.",
           "counterparty": "tom@kettlehq.com",
-          "due_date": "2026-08-10",
+          "due_date": "2026-08-13",
           "due_basis": "implicit",
           "days_open": 9,
           "consequence": "low",
           "tricky_tags": []
         },
         {
-          "item_id": "founder-q2-11",
+          "item_id": "founder-q2-14",
           "rank": 11,
+          "tier": "acceptable",
+          "claim": "Maya told Tom on Jun 18 she would loop finance in on Tarrow Health pricing flexibility by Friday Jun 19 so he wasn't negotiating blind; 54 days later there is no evidence finance was ever looped in, and the $186K renewal has since moved into active redlines without them.",
+          "thread_id": "a50f18c2e4b60003",
+          "anchor_message_id": "a50f18c2e4b60003",
+          "message_ids": [
+            "a50f18c2e4b60003"
+          ],
+          "evidence_quote": "I'll loop finance in on pricing flexibility by Friday so you're not negotiating blind.",
+          "why_it_qualifies": "The oldest live owner commitment in the mailbox with a tagged commitment_made_by_user and an explicit passed date; the renewal it was meant to inform is now Kettle's second-largest contract by ACV and already in redline, which is exactly the scenario the promise was meant to prevent.",
+          "counterparty": "tom@kettlehq.com",
+          "due_date": "2026-06-19",
+          "due_basis": "explicit",
+          "days_open": 54,
+          "consequence": "medium",
+          "tricky_tags": []
+        },
+        {
+          "item_id": "founder-q2-11",
+          "rank": 12,
           "tier": "acceptable",
           "claim": "Maya's own note-to-self from Jul 16 — book Leo's checkup before the Tahoe trip and call the vet about the refill — has produced nothing since.",
           "thread_id": "a50f18c2e4b60019",
@@ -575,7 +681,7 @@
         },
         {
           "item_id": "founder-q2-12",
-          "rank": 12,
+          "rank": 13,
           "tier": "borderline",
           "claim": "Maya started a note to Greg Whitfield on Aug 2 sketching a post-round equity refresh to discuss before the board meeting, and never finished or sent it.",
           "thread_id": "a50f18c2e4b60037",
@@ -635,22 +741,28 @@
           "subject": "Payroll setup — new hire start date",
           "why_excluded": "Approved on Aug 11 ahead of the Aug 14 pay-cycle lock. Closed.",
           "trap": "already-completed"
+        },
+        {
+          "message_id": "a50f18c2e4b60035",
+          "subject": "Board pre-read — numbers for Aug 27",
+          "why_excluded": "Promised draft financials by Aug 15; Maya delivered them early on Aug 1 with a metrics CSV attached, explicitly framed as 'the rough numbers early like we discussed'. Nothing was forgotten here — the only open piece is the Aug 20 finished deck, tracked in Q1 (founder-q1-08).",
+          "trap": "already-completed"
         }
       ],
-      "curator_notes": "Deliberately excluded the unfinished 'Lumenpay - where things stand' draft that QUESTIONS.md offers as a Q2 example: the corpus shows Maya rewrote and sent a fuller version the next day, so it is a distractor rather than a forgetting. The Foundry Line diligence-call ask is excluded here and placed in Q6, per the engagement test — her reply demonstrates she never registered the ask. The Friday-updates obligation is reported as one item with a miss count of four, per the recurring-commitment rule. The fee credit is split from the Friday updates because they are independent deliverables from the same message."
+      "curator_notes": "Deliberately excluded the unfinished 'Lumenpay - where things stand' draft that QUESTIONS.md offers as a Q2 example: the corpus shows Maya rewrote and sent a fuller version the next day, so it is a distractor rather than a forgetting. The Foundry Line diligence-call ask is excluded here — per adversarial review Maya did loop Dev in the same day via a separate intro email (a50f18c2e4b60028), so it does not read as a dropped commitment; see Q6 must_not_include. The Friday-updates obligation is reported as one item with a corrected miss count: Jul 31 was honored, so the true gap is three Fridays, not four. The fee credit is split from the Friday updates because they are independent deliverables from the same message.\n\nAdjudication changes after adversarial review: removed founder-q2-08 (Ellen/Greg draft financials) — Maya delivered rough numbers early on Aug 1, so the Aug 15 promise was discharged before it could be forgotten; the still-open Aug 20 finished deck lives in Q1 instead (founder-q1-08). Added founder-q2-13 (Wendy's hiring-plan assumptions, never sent) and founder-q2-14 (Tarrow finance loop-in, the oldest live commitment in the mailbox). Fixed founder-q2-01's miss count and founder-q2-10's first-occurrence date (Aug 13, not Aug 10 — Aug 3, 2026 is a Monday).\n\nConsidered and excluded: the Lumenpay DPA-addendum thread (Maya told Dana on Jul 30 that Beth was targeting Aug 5 for a signed version). It reads as Beth's/counsel's delivery relayed by Maya rather than Maya's own personal promise — closer to the Priya-SSO-link pattern that lives in Q4 than to a true Q2 forgetting — so it is tracked as a Q1 hazard (founder-q1-14) instead of duplicated here."
     },
     "q3_waiting_on_me": {
       "question": "What is waiting on me?",
-      "prose_answer": "Beth's office is holding the finalized Lumenpay MSA amendment for your countersignature — it arrived Aug 7 and Dana has been waiting since July 3. Alice Yun has been blocked longest: she sent the four-candidate Head of Marketing slate on Jul 27 and resent it Jul 29 asking if it reached you. Wendy needs three things: a decision today on the declined Ramp card for the AWS renewal, the $85K limit and two new cardholders before tomorrow's Ramp call, and your cap-table sign-off so Investor Relations can close the deck. The option-pool board consent is in DocuSign with 2 of 4 signatures — it has to be effective before Aug 27 for Naomi Chen's offer. Also pending: Wendy's $3,180.44 expense report from Jul 29, Dev wants 90 minutes on the Q4 offsite, and your mom is waiting on Labor Day.",
+      "prose_answer": "Beth's office is holding the finalized Lumenpay MSA amendment for your countersignature — it arrived Aug 7, tied to the countersignature you promised Dana back on July 3 once Beth cleared the language. Wendy needs three things: a decision today on the declined Ramp card for the AWS renewal, the $85K limit and two new cardholders before tomorrow's Ramp call, and your cap-table sign-off so Investor Relations can close the deck. The option-pool board consent is in DocuSign with 2 of 4 signatures — it has to be effective before Aug 27 for Naomi Chen's offer. Also pending: Wendy's $3,180.44 expense report from Jul 29, Dev wants 90 minutes on the Q4 offsite, Marcus Webb at Solvane has been waiting 48 days for any reply to his acquisition feeler, and your mom is waiting on Labor Day.",
       "ranked": [
         "founder-q3-01",
-        "founder-q3-02",
         "founder-q3-03",
         "founder-q3-04",
         "founder-q3-05",
         "founder-q3-06",
         "founder-q3-07",
         "founder-q3-08",
+        "founder-q3-13",
         "founder-q3-09"
       ],
       "items": [
@@ -658,7 +770,7 @@
           "item_id": "founder-q3-01",
           "rank": 1,
           "tier": "must_include",
-          "claim": "Beth Ranganathan's office sent the finalized Kettle–Lumenpay MSA amendment for Maya's countersignature on Aug 7; it is still unsigned, and Dana has been waiting on it since Maya promised it by Jul 3.",
+          "claim": "Beth Ranganathan's office sent the finalized Kettle–Lumenpay MSA amendment for Maya's countersignature on Aug 7; it is still unsigned. Maya's Jul 3 date to Dana was conditional on Beth's sign-off, which only arrived with this Aug 7 envelope.",
           "thread_id": "a60f18c2e4b60042",
           "anchor_message_id": "a60f18c2e4b60042",
           "message_ids": [
@@ -674,34 +786,13 @@
           "days_open": 5,
           "consequence": "high",
           "tricky_tags": [
-            "reply_to_mismatch"
-          ]
-        },
-        {
-          "item_id": "founder-q3-02",
-          "rank": 2,
-          "tier": "must_include",
-          "claim": "Alice Yun is waiting for Maya to review the four-candidate Head of Marketing slate and say who to prioritize; she sent it Jul 27 and resent it Jul 29 after no reply.",
-          "thread_id": "a60f18c2e4b60032",
-          "anchor_message_id": "a60f18c2e4b60033",
-          "message_ids": [
-            "a60f18c2e4b60032",
-            "a60f18c2e4b60033"
-          ],
-          "evidence_quote": "Resending — did this reach you? Wanted to make sure you saw the candidate slate before Friday's interviews since I hadn't heard back.",
-          "why_it_qualifies": "Sole recipient, external requester, explicit unanswered ask, and a resend that proves she still considers it open. One obligation, not two — the resend raises urgency rather than creating a second item. Sixteen days blocked, the longest wait on this list.",
-          "counterparty": "alice@vectortalent.co",
-          "due_date": "2026-07-31",
-          "due_basis": "explicit",
-          "days_open": 16,
-          "consequence": "medium",
-          "tricky_tags": [
-            "duplicate_resend"
+            "reply_to_mismatch",
+            "conditional_promise"
           ]
         },
         {
           "item_id": "founder-q3-03",
-          "rank": 3,
+          "rank": 2,
           "tier": "must_include",
           "claim": "Wendy Osei needs Maya to decide whether to raise the Ramp card limit or switch to the backup card after the AWS renewal payment was declined; asked Aug 11, unanswered.",
           "thread_id": "a60f18c2e4b60049",
@@ -720,7 +811,7 @@
         },
         {
           "item_id": "founder-q3-04",
-          "rank": 4,
+          "rank": 3,
           "tier": "must_include",
           "claim": "Wendy needs three sign-offs from Maya before Thursday Aug 13's Ramp renewal call: the $50K→$85K card-limit increase, Luis Ferreira and Sana Iqbal as new cardholders, and sub-$500 spend-policy auto-approval.",
           "thread_id": "a60f18c2e4b60038",
@@ -729,7 +820,7 @@
             "a60f18c2e4b60038"
           ],
           "evidence_quote": "Confirm two additional cardholders: Luis Ferreira (design vendor spend) and Sana Iqbal (travel/events).",
-          "why_it_qualifies": "A named individual asking Maya alone, with a dated call she cannot walk into unprepared. The ask is real even though the body only says 'please see attached' — it survives entirely in the attachment's extracted text.",
+          "why_it_qualifies": "A named individual asking Maya alone, with a dated call she cannot walk into unprepared. The ask is real even though the body only says 'please see attached' — it survives entirely in the attachment's extracted text. Same underlying card-limit decision as founder-q3-03 (forced early by the AWS-payment decline); this item additionally covers the two new cardholders and the sub-$500 auto-approval policy, so answering the limit question once resolves both.",
           "counterparty": "wendy@kettlehq.com",
           "due_date": "2026-08-13",
           "due_basis": "explicit",
@@ -741,7 +832,7 @@
         },
         {
           "item_id": "founder-q3-05",
-          "rank": 5,
+          "rank": 4,
           "tier": "must_include",
           "claim": "Wendy is blocked on Maya's sign-off on the updated cap table numbers so Investor Relations can finalize the board deck; Ellen wants them locked before the Aug 27 meeting.",
           "thread_id": "a60f18c2e4b60044",
@@ -762,7 +853,7 @@
         },
         {
           "item_id": "founder-q3-06",
-          "rank": 6,
+          "rank": 5,
           "tier": "must_include",
           "claim": "A DocuSign envelope from Beth Ranganathan needs Maya's signature on the board consent increasing the option pool by 800,000 shares — 2 of 4 board signatures collected, and it must be effective before the Aug 27 meeting for the Head of Marketing offer.",
           "thread_id": "a40f18c2e4b60050",
@@ -781,7 +872,7 @@
         },
         {
           "item_id": "founder-q3-07",
-          "rank": 7,
+          "rank": 6,
           "tier": "acceptable",
           "claim": "Maya is the designated approver for Wendy Osei's $3,180.44 expense report (SOC 2 auditor travel plus the July offsite deposit), submitted Jul 29 and still pending.",
           "thread_id": "a40f18c2e4b60041",
@@ -800,7 +891,7 @@
         },
         {
           "item_id": "founder-q3-08",
-          "rank": 8,
+          "rank": 7,
           "tier": "acceptable",
           "claim": "Dev Patel asked Maya on Aug 5 to pick a 90-minute slot this week to sketch the Q4 offsite agenda before Sana starts booking venues; the week he offered has passed with no reply.",
           "thread_id": "a10f18c2e4b60037",
@@ -814,6 +905,29 @@
           "due_date": "2026-08-08",
           "due_basis": "implicit",
           "days_open": 7,
+          "consequence": "medium",
+          "tricky_tags": []
+        },
+        {
+          "item_id": "founder-q3-13",
+          "rank": 8,
+          "tier": "acceptable",
+          "claim": "Marcus Webb, VP Corporate Development at Solvane, asked Maya directly on Jun 25 for an exploratory 'joining forces' call; Dev and Greg both weighed in internally, but nobody ever replied to Marcus himself — he has been waiting 48 days, the longest of anyone in this mailbox.",
+          "thread_id": "a20f18c2e4b60046",
+          "anchor_message_id": "a20f18c2e4b60046",
+          "message_ids": [
+            "a20f18c2e4b60046",
+            "a20f18c2e4b60047",
+            "a20f18c2e4b60048",
+            "a20f18c2e4b60049",
+            "a20f18c2e4b60050"
+          ],
+          "evidence_quote": "Would you be open to a call in the next couple weeks?",
+          "why_it_qualifies": "Sole recipient, explicit direct ask, and — despite an active internal conversation about how to handle it (Dev, then Greg, both consulted) — nobody ever sent Marcus a reply. Greg's advice to 'take the 30 minutes' has itself gone unactioned for five weeks.",
+          "counterparty": "marcus.webb@solvane.com",
+          "due_date": null,
+          "due_basis": "none",
+          "days_open": 48,
           "consequence": "medium",
           "tricky_tags": []
         },
@@ -939,21 +1053,36 @@
           "subject": "🎉 Your Datadog plan is leveling up!",
           "why_excluded": "A real decision window (Q1 material), but it is an automated billing notice with no human requester. Nobody at Datadog is waiting on Maya.",
           "trap": "automated-not-human"
+        },
+        {
+          "message_id": "a40f18c2e4b60019",
+          "subject": "Any movement on the Head of Marketing search?",
+          "why_excluded": "Alice's original candidate-slate ask (Jul 27/29) looks unanswered, but Maya chased her again on Aug 5 asking for a status update — the ball moved to Alice, who hit her own vacation auto-reply and, as of Aug 12, still hasn't answered since returning. This is 'waiting on Alice', already tracked in Q4 (founder-q4-06), not 'waiting on me'.",
+          "trap": "already-completed"
+        },
+        {
+          "message_id": "a40f18c2e4b60038",
+          "subject": "Dev Patel mentioned you in \"SOC 2 Evidence Tracker\"",
+          "why_excluded": "A named human's dated ask ('@Maya can you confirm the access review cadence for the auditors by Friday?') addressed to Maya by name, never answered directly — but the substance was resolved in the parallel SOC2 fieldwork thread (Grace's Aug 4 exception ruling, closed by Maya's Aug 6 reply confirming the move to Rippling). Left in as a trap for systems that only check for a direct reply.",
+          "trap": "automated-not-human"
         }
       ],
-      "curator_notes": "Excluded Raj Malhotra's data-room bump despite QUESTIONS.md naming it the Q3 archetype — the corpus shows Maya answered it on Aug 5 with data room access and metrics, so the obligation is closed. Excluded Dana's Aug 10 go-live demand for the same reason (answered the same afternoon). The bcc board-demo item and Greg's option-pool question are marked borderline because in both cases someone else already carried the substance; they are deliberately kept out of ranked. The e-signature envelope is included despite its Reply-To mismatch: the requester resolves to Beth and the underlying document is real, but the item is flagged so a system that verifies before signing is not penalised."
+      "curator_notes": "Excluded Raj Malhotra's data-room bump despite QUESTIONS.md naming it the Q3 archetype — the corpus shows Maya answered it on Aug 5 with data room access and metrics, so the obligation is closed. Excluded Dana's Aug 10 go-live demand for the same reason (answered the same afternoon). The bcc board-demo item and Greg's option-pool question are marked borderline because in both cases someone else already carried the substance; they are deliberately kept out of ranked. The e-signature envelope is included despite its Reply-To mismatch: the requester resolves to Beth and the underlying document is real, but the item is flagged so a system that verifies before signing is not penalised.\n\nAdjudication changes after adversarial review: moved founder-q3-02 (Alice Yun's candidate slate) to must_not_include — Maya did chase Alice again on Aug 5 asking for a status update, which shifts this from 'waiting on me' to 'waiting on Alice' (already tracked correctly in Q4, founder-q4-06); the original 'blocked longest' framing was false. Added founder-q3-13, Marcus Webb (Solvane) — a genuine 48-day-old unanswered direct ask that the original set had missed entirely. Added the Notion @-mention about SOC2 access-review cadence to must_not_include: it looks like an unanswered direct ask but the substance was resolved in the parallel audit thread without ever answering Dev directly — a useful trap to leave in. Tagged founder-q3-01 conditional_promise and reworded its claim: the Jul 3 date was conditional on Beth's sign-off, not a flat deadline stated in the anchor message. Noted the overlap between founder-q3-03 and founder-q3-04 (same underlying Ramp card-limit decision, different framing) in why_it_qualifies so a single correct answer isn't scored as a partial miss.\n\nRejected: adding the Foundry Line technical-diligence-call/ARR-export thread here — Maya's same-day intro connecting Raj and Dev (a50f18c2e4b60028) means she is not the one blocking it; see Q6 must_not_include."
     },
     "q4_waiting_on_others": {
       "question": "What am I waiting on someone else for?",
-      "prose_answer": "Chase Beth first. She promised the interim SOC2 attestation request to Halcyon by Jul 31 and word back from Lumenpay's counsel — fifteen days of silence, and your Aug 14 addendum date depends entirely on it. She also owes Tarrow's answer on the $350K counter she sent Aug 5. Priya was supposed to send Dana the test SSO link on Aug 11; without it Lumenpay can't validate before the Aug 17 go-live you just committed to. Tom said Lumenpay's redlines on the 450-seat renewal were coming 'this week' — that was Jul 15. Dev owes you the SOC2 language confirmation you promised Beth by Friday, plus the Tarrow rate-limit check from Aug 4. Alice Yun is back from vacation as of Monday with no update. Sana's Raj packet was due today. And Greg never sent the runway-slide feedback — it died in his June out-of-office and you never re-sent it.",
+      "prose_answer": "Chase Beth first. She promised the interim SOC2 attestation request to Halcyon by Jul 31 and word back from Lumenpay's counsel — fifteen days of silence, and your Aug 14 addendum date depends entirely on it. She also owes Tarrow's answer on the $350K counter she sent Aug 5. Priya was supposed to send Dana the test SSO link on Aug 11; without it Lumenpay can't validate before the Aug 17 go-live you just committed to. Tom's Lumenpay redlines did arrive, but you asked him on Aug 10 to get the 450-seat figure confirmed in writing from Dana before it goes in the board deck — nothing back yet, and he separately still owes an updated Tarrow forecast from three weeks ago. Wendy hasn't sent Lumenpay's AP contact the August fee-credit memo you promised Dana. Dev owes you the SOC2 language confirmation you promised Beth by Friday, plus the Tarrow rate-limit check from Aug 4. Alice Yun is back from vacation as of Monday with no update. Peter at Brightline never answered your question about an unexplained invoice line item. Sana's Raj packet was due today. And Greg never sent the runway-slide feedback — it died in his June out-of-office and you never re-sent it.",
       "ranked": [
         "founder-q4-01",
         "founder-q4-02",
-        "founder-q4-03",
-        "founder-q4-04",
+        "founder-q4-13",
         "founder-q4-05",
+        "founder-q4-04",
+        "founder-q4-16",
         "founder-q4-06",
+        "founder-q4-15",
         "founder-q4-07",
+        "founder-q4-14",
         "founder-q4-08",
         "founder-q4-09",
         "founder-q4-10",
@@ -1005,29 +1134,49 @@
           "tricky_tags": []
         },
         {
-          "item_id": "founder-q4-03",
+          "item_id": "founder-q4-13",
           "rank": 3,
           "tier": "must_include",
-          "claim": "Tom Ashford said on Jul 15 that redlines on the 450-seat Lumenpay renewal were coming from their legal team 'this week'; four weeks later there is no sign of them.",
-          "thread_id": "a60f18c2e4b60021",
-          "anchor_message_id": "a60f18c2e4b60023",
+          "claim": "Tom Ashford owes Maya written confirmation from Dana of the 450-seat Lumenpay renewal figure before it goes into the Aug 27 board deck; Maya asked on Aug 10 and nothing has come back.",
+          "thread_id": "a60f18c2e4b60050",
+          "anchor_message_id": "a60f18c2e4b60050",
           "message_ids": [
-            "a60f18c2e4b60023"
+            "a60f18c2e4b60050"
           ],
-          "evidence_quote": "Redlines coming from their legal team this week.",
-          "why_it_qualifies": "A promise made to Maya with a one-week horizon that has quietly gone four weeks stale, on the largest revenue event in the pipeline. Wait on the current version — 450 seats including the EU growth buffer, not the earlier 400 or 320 figures.",
+          "evidence_quote": "Tom, can you get something in writing from Dana before it goes in the deck.",
+          "why_it_qualifies": "A direct, named ask inside a recent all-hands email, on the number most likely to be quoted wrong in the board deck after three revisions (400, then 320, then 450). Replaces the closed Jul 15 redlines wait — those redlines did arrive and are already in counsel review.",
           "counterparty": "tom@kettlehq.com",
-          "due_date": "2026-07-17",
+          "due_date": "2026-08-20",
           "due_basis": "implicit",
-          "days_open": 28,
+          "days_open": 2,
           "consequence": "high",
           "tricky_tags": [
             "shifting_number"
           ]
         },
         {
-          "item_id": "founder-q4-04",
+          "item_id": "founder-q4-05",
           "rank": 4,
+          "tier": "must_include",
+          "claim": "Dev Patel owes a technical confirmation on the SOC2 report language in the Lumenpay contract — Maya committed it to Beth by Friday Aug 7, and Beth cannot send the counter to Lumenpay's legal team until it lands.",
+          "thread_id": "a50f18c2e4b60043",
+          "anchor_message_id": "a50f18c2e4b60045",
+          "message_ids": [
+            "a50f18c2e4b60043",
+            "a50f18c2e4b60045"
+          ],
+          "evidence_quote": "I'll have Dev confirm the SOC2 report language makes sense technically by Friday, then it's yours to send back to their side.",
+          "why_it_qualifies": "A directed expectation Maya created herself: she volunteered Dev, named the date, and made counsel's next move conditional on it. Nothing in the mailbox shows Dev was even asked. This edge points both ways — she owes Beth, and she is waiting on Dev.",
+          "counterparty": "dev@kettlehq.com",
+          "due_date": "2026-08-07",
+          "due_basis": "explicit",
+          "days_open": 6,
+          "consequence": "high",
+          "tricky_tags": []
+        },
+        {
+          "item_id": "founder-q4-04",
+          "rank": 5,
           "tier": "must_include",
           "claim": "Beth Ranganathan is due back on Tarrow Health's response to Kettle's $350K liability-cap counter; she sent it Aug 5 and said it shouldn't take more than a week, which is now up.",
           "thread_id": "a10f18c2e4b60029",
@@ -1047,37 +1196,37 @@
           "tricky_tags": []
         },
         {
-          "item_id": "founder-q4-05",
-          "rank": 5,
-          "tier": "must_include",
-          "claim": "Dev Patel owes a technical confirmation on the SOC2 report language in the Lumenpay contract — Maya committed it to Beth by Friday Aug 7, and Beth cannot send the counter to Lumenpay's legal team until it lands.",
-          "thread_id": "a50f18c2e4b60043",
-          "anchor_message_id": "a50f18c2e4b60045",
+          "item_id": "founder-q4-16",
+          "rank": 6,
+          "tier": "acceptable",
+          "claim": "Wendy Osei owes Lumenpay's AP contact the August 100%-fee-credit memo Maya promised Dana on Jul 14 'this week'; no message shows it was ever sent.",
+          "thread_id": "a50f18c2e4b60016",
+          "anchor_message_id": "a50f18c2e4b60017",
           "message_ids": [
-            "a50f18c2e4b60043",
-            "a50f18c2e4b60045"
+            "a50f18c2e4b60016",
+            "a50f18c2e4b60017"
           ],
-          "evidence_quote": "I'll have Dev confirm the SOC2 report language makes sense technically by Friday, then it's yours to send back to their side.",
-          "why_it_qualifies": "A directed expectation Maya created herself: she volunteered Dev, named the date, and made counsel's next move conditional on it. Nothing in the mailbox shows Dev was even asked. This edge points both ways — she owes Beth, and she is waiting on Dev.",
-          "counterparty": "dev@kettlehq.com",
-          "due_date": "2026-08-07",
-          "due_basis": "explicit",
-          "days_open": 6,
-          "consequence": "high",
+          "evidence_quote": "Wendy will get the credit memo to your AP contact this week so it's not just something I said in an email.",
+          "why_it_qualifies": "A directed delegation Maya made in writing to the customer, structurally identical to the SSO test-link delegation (founder-q4-02) and the EDP call scheduling (founder-q4-10) already tracked here; the underlying promise itself is tracked separately in Q2 as Maya's own commitment.",
+          "counterparty": "wendy@kettlehq.com",
+          "due_date": "2026-07-17",
+          "due_basis": "implicit",
+          "days_open": 29,
+          "consequence": "medium",
           "tricky_tags": []
         },
         {
           "item_id": "founder-q4-06",
-          "rank": 6,
+          "rank": 7,
           "tier": "must_include",
           "claim": "Alice Yun still owes Maya a Head of Marketing search update; Maya asked Aug 5, hit Alice's vacation auto-responder (back Aug 11), and Alice has now been back a full day with no reply.",
           "thread_id": "a40f18c2e4b60019",
-          "anchor_message_id": "a40f18c2e4b60020",
+          "anchor_message_id": "a40f18c2e4b60019",
           "message_ids": [
             "a40f18c2e4b60019",
             "a40f18c2e4b60020"
           ],
-          "evidence_quote": "I'm on vacation with no email access until Monday, August 11th.",
+          "evidence_quote": "Board meeting is Aug 27 and I'd like to have a name to bring. Where do things stand with the two candidates from the shortlist?",
           "why_it_qualifies": "The auto-reply is not a human response — the thread is still unanswered — but it does put a floor under the wait and names a delegate (Ravi Sethi) as the workaround. Maya wants a name to bring to the Aug 27 board meeting, so the clock matters.",
           "counterparty": "alice@vectortalent.co",
           "due_date": "2026-08-11",
@@ -1089,8 +1238,27 @@
           ]
         },
         {
+          "item_id": "founder-q4-15",
+          "rank": 8,
+          "tier": "acceptable",
+          "claim": "Peter Nkemelu has not answered Maya's Aug 3 question about an unexplained 'catch-up bookkeeping, Q2' line item on Brightline's July invoice, which she is holding payment on until he explains it.",
+          "thread_id": "a50f18c2e4b60040",
+          "anchor_message_id": "a50f18c2e4b60040",
+          "message_ids": [
+            "a50f18c2e4b60040"
+          ],
+          "evidence_quote": "Can you send me what that covers before I pay it?",
+          "why_it_qualifies": "Sole-recipient question with a payment explicitly gated on the answer, and no reply anywhere in the mailbox in the nine days since.",
+          "counterparty": "peter@brightline-cpa.com",
+          "due_date": null,
+          "due_basis": "none",
+          "days_open": 9,
+          "consequence": "medium",
+          "tricky_tags": []
+        },
+        {
           "item_id": "founder-q4-07",
-          "rank": 7,
+          "rank": 9,
           "tier": "acceptable",
           "claim": "Sana Iqbal owes Maya a draft of the externally-formatted numbers packet for Raj Malhotra; Maya asked for it by Wednesday Aug 12 because she told Raj end of week.",
           "thread_id": "a50f18c2e4b60047",
@@ -1108,8 +1276,27 @@
           "tricky_tags": []
         },
         {
+          "item_id": "founder-q4-14",
+          "rank": 10,
+          "tier": "acceptable",
+          "claim": "Tom Ashford owes Maya the updated Tarrow Health forecast covering their three-clinic Q4 expansion (~$150K ARR bump), promised for Friday Jul 24 and never sent.",
+          "thread_id": "a60f18c2e4b60048",
+          "anchor_message_id": "a60f18c2e4b60048",
+          "message_ids": [
+            "a60f18c2e4b60048"
+          ],
+          "evidence_quote": "Will send an updated forecast Friday once I've run the numbers by finance.",
+          "why_it_qualifies": "Explicit promise with a stated date, three weeks stale, on real incremental revenue that would matter to the runway story going into the board meeting.",
+          "counterparty": "tom@kettlehq.com",
+          "due_date": "2026-07-24",
+          "due_basis": "implicit",
+          "days_open": 26,
+          "consequence": "medium",
+          "tricky_tags": []
+        },
+        {
           "item_id": "founder-q4-08",
-          "rank": 8,
+          "rank": 11,
           "tier": "acceptable",
           "claim": "Wendy Osei owes Maya the outcome of the AWS support case and credit request on July's $38,412 invoice — Maya approved opening it Aug 6 and asked to be looped in either way.",
           "thread_id": "a10f18c2e4b60038",
@@ -1130,7 +1317,7 @@
         },
         {
           "item_id": "founder-q4-09",
-          "rank": 9,
+          "rank": 12,
           "tier": "acceptable",
           "claim": "Dev Patel never answered Maya's two Aug 4 questions: whether the Tarrow rate-limit config actually checks out before she tells Marcus it's fixed, and whether the Raj call was still on for Thursday.",
           "thread_id": "a50f18c2e4b60042",
@@ -1149,7 +1336,7 @@
         },
         {
           "item_id": "founder-q4-10",
-          "rank": 10,
+          "rank": 13,
           "tier": "acceptable",
           "claim": "The AWS Enterprise Discount Program is stalled: Maya told Katie Sloane on Jul 27 that Wendy would coordinate a call 'next week', and as of Jul 31 the EDP paperwork was sitting with Peter Nkemelu for review with no call booked since.",
           "thread_id": "a20f18c2e4b60028",
@@ -1169,7 +1356,7 @@
         },
         {
           "item_id": "founder-q4-11",
-          "rank": 11,
+          "rank": 14,
           "tier": "acceptable",
           "claim": "Greg Whitfield never sent the board-deck runway-slide feedback Maya asked for on Jun 25 — her request hit his out-of-office (back Jul 6) and she never re-sent it.",
           "thread_id": "a60f18c2e4b60027",
@@ -1191,7 +1378,7 @@
         },
         {
           "item_id": "founder-q4-12",
-          "rank": 12,
+          "rank": 15,
           "tier": "acceptable",
           "claim": "Greg Whitfield said on Jul 6 he would make background calls about Solvane's corp dev team before Maya's exploratory call with Marcus Webb; no readout has come back.",
           "thread_id": "a20f18c2e4b60046",
@@ -1207,6 +1394,44 @@
           "due_basis": "implicit",
           "days_open": 37,
           "consequence": "medium",
+          "tricky_tags": []
+        },
+        {
+          "item_id": "founder-q4-17",
+          "rank": 16,
+          "tier": "borderline",
+          "claim": "Beth Ranganathan never answered whether the 12-month non-solicit in the Head of Marketing offer letter is enforceable in California; Maya asked Jul 8 and the offer process is still live.",
+          "thread_id": "a50f18c2e4b60011",
+          "anchor_message_id": "a50f18c2e4b60011",
+          "message_ids": [
+            "a50f18c2e4b60011"
+          ],
+          "evidence_quote": "Can you confirm that actually holds up here, or whether we should just drop it?",
+          "why_it_qualifies": "Borderline: a genuine unanswered question to counsel with no reply anywhere in the mailbox, but low individual stakes and Beth has since been extremely active on Maya's other legal matters, so this one may simply have been resolved by phone or dropped once the offer moved past the point of no return.",
+          "counterparty": "branganathan@hoytgrieve.com",
+          "due_date": null,
+          "due_basis": "none",
+          "days_open": 35,
+          "consequence": "low",
+          "tricky_tags": []
+        },
+        {
+          "item_id": "founder-q4-18",
+          "rank": 17,
+          "tier": "borderline",
+          "claim": "Dev Patel has not delivered the Lumenpay migration runbook Maya asked him to own on Jul 13 ahead of the (since-passed) Jul 31 cutover.",
+          "thread_id": "a50f18c2e4b60013",
+          "anchor_message_id": "a50f18c2e4b60013",
+          "message_ids": [
+            "a50f18c2e4b60013"
+          ],
+          "evidence_quote": "can you own writing the migration runbook?",
+          "why_it_qualifies": "Borderline: no message shows it delivered, but the migration itself has been through enough re-planning (July 31, then Aug 8, Aug 10, Aug 17) that the runbook's own trigger date may simply have moved with it rather than being dropped.",
+          "counterparty": "dev@kettlehq.com",
+          "due_date": "2026-07-31",
+          "due_basis": "explicit",
+          "days_open": 30,
+          "consequence": "low",
           "tricky_tags": []
         }
       ],
@@ -1252,84 +1477,72 @@
           "subject": "Re: Option pool refresh — Aug 27 agenda",
           "why_excluded": "Sana said she'd have the cap table model in the pre-read by Aug 20 — but she said it to Greg, answering his question, not as a commitment to Maya. Maya is not the promisee here.",
           "trap": "cc-not-addressed"
+        },
+        {
+          "message_id": "a60f18c2e4b60023",
+          "subject": "Lumenpay renewal — seat count",
+          "why_excluded": "Tom promised Lumenpay's legal redlines 'this week' on Jul 15 — but they arrived: Maya forwarded Lumenpay's requested changes to Beth on Jul 20 (a40f18c2e4b60017), and Beth was actively negotiating the resulting indemnification language by Aug 5 (a50f18c2e4b60043), leading to the MSA amendment now out for signature (Aug 7). The live Tom wait as of Aug 12 is the written seat-count confirmation, tracked separately (founder-q4-13).",
+          "trap": "already-completed"
         }
       ],
-      "curator_notes": "Peter's June financials and Tom's cancelled Tarrow beta are the two planted closures and are listed as distractors, not waits. The 320-seat figure is a distractor because the wait is on the current 450-seat redlines. Alice's and Greg's auto-replies are treated as wait floors, not answers — Alice's raises urgency now that Aug 11 has passed, Greg's produced a wait nobody ever restarted (also a Q6 crack). Wendy's Lumenpay credit memo is folded into the Q2 fee-credit item rather than duplicated here, since the obligation Maya owes Dana is the reportable unit."
+      "curator_notes": "Peter's June financials and Tom's cancelled Tarrow beta are the two planted closures and are listed as distractors, not waits. The 320-seat figure is a distractor because the wait is on the current 450-seat figure. Alice's and Greg's auto-replies are treated as wait floors, not answers — Alice's raises urgency now that Aug 11 has passed, Greg's produced a wait nobody ever restarted (also a Q6 crack).\n\nAdjudication changes after adversarial review: removed founder-q4-03 (Tom's Lumenpay redlines) — the redlines did arrive (Maya forwarded Lumenpay's changes to Beth on Jul 20, and Beth was actively negotiating the indemnification language by Aug 5), so this wait was closed and listing it as open was a genuine false positive. Replaced it with founder-q4-13, the live Aug 10 ask for Tom to get the 450-seat figure confirmed in writing from Dana before the board deck. Added founder-q4-14 (Tom's undelivered Tarrow forecast), founder-q4-15 (Peter Nkemelu's unanswered Brightline invoice question) and founder-q4-16 (Wendy's undelivered Lumenpay fee-credit memo — previously folded into Q2 only; now also tracked here since it is Wendy's outstanding deliverable, structurally identical to the SSO-link and EDP-call delegations already in this set — the underlying promise remains tracked in Q2 as Maya's own commitment, so this is not double-counted). Added two borderline items that don't clear the bar for ranked but are worth recording: founder-q4-17 (Beth's unanswered California non-solicit question) and founder-q4-18 (Dev's undelivered migration runbook, whose trigger date may have simply moved with the migration's own re-planning). Fixed founder-q4-06's evidence_quote, which previously quoted Alice's auto-reply instead of Maya's actual ask.\n\nCorpus note: the SOC2 auditor is variously Halcyon Assurance (Meredith Voss), Vantage Assurance (Owen Fitch / Grace Liu) and Certiva Assurance (Rachel Kim), with different observation periods — see Q1's curator_notes for the same issue. founder-q4-01's claim tracks the Halcyon thread consistently and is unaffected."
     },
     "q5_what_changed": {
       "question": "What changed?",
-      "prose_answer": "Five things you probably still believe are wrong. Lumenpay's SSO go-live is Aug 17, not Aug 10 — you moved it yourself on Monday. Tarrow's early alerting-API access isn't delayed, it's cancelled: Tom walked back the Aug 1 promise entirely until the audit closes. The SOC2 evidence deadline is Aug 13, tomorrow, not Aug 20 — Certiva pulled it forward a week and that's what cost you the Sept 1 SSO date, which is now Oct 15. Lumenpay's renewal is 450 seats, not 400 and not the 320 Tom corrected it to in June; the 450 includes their EU buffer. Board-deck ARR finalized at $2.14M, up from the soft $2.1M, with $340K from Lumenpay. And the Aug 27 board meeting is 10am–12pm now, not 9–11am. Smaller: Grace Liu replaced Owen Fitch on the audit, and Dana sometimes writes from a gmail address.",
+      "prose_answer": "The Q4 engineering roadmap changed today: after pushback, you accepted Priya's compromise to split the team between RBAC/SSO hardening and self-serve onboarding rather than picking one. Lumenpay's SSO go-live is Aug 17, not Aug 10 (it passed through Aug 8 first) — you moved it yourself. Tarrow's early alerting-API access isn't delayed, it's cancelled until after the audit closes. The SOC2 evidence deadline is Aug 13, tomorrow, not Aug 20 — that's what cost you the Sept 1 SSO/SAML date, now Oct 15. Lumenpay's renewal is 450 seats, not 400 or the 320 Tom corrected it to in June. Board-deck ARR finalized at $2.14M, up from the soft $2.1M — though Wendy's own board-deck draft separately says $6.1M and 22 months of runway against your 14- and 11.5-month figures, a real inconsistency worth resolving before Aug 27, not one this answer can settle for you. Kettle's own pricing went hybrid on Aug 3. The 409A share price jumped from $1.38 to $2.14. And the Aug 27 board meeting is 10am–12pm now, not 9–11am.",
       "ranked": [
+        "founder-q5-13",
+        "founder-q5-03",
         "founder-q5-01",
         "founder-q5-02",
-        "founder-q5-03",
         "founder-q5-04",
         "founder-q5-05",
         "founder-q5-06",
         "founder-q5-07",
+        "founder-q5-16",
+        "founder-q5-19",
         "founder-q5-08",
+        "founder-q5-15",
         "founder-q5-09",
         "founder-q5-10",
         "founder-q5-11",
+        "founder-q5-17",
+        "founder-q5-18",
         "founder-q5-12"
       ],
       "items": [
         {
-          "item_id": "founder-q5-01",
+          "item_id": "founder-q5-13",
           "rank": 1,
           "tier": "must_include",
-          "claim": "The Lumenpay SSO production go-live is now Monday Aug 17 with a rollback window through Aug 21 — not the Aug 10 date Maya gave Dana on Jul 31.",
-          "thread_id": "a10f18c2e4b60046",
-          "anchor_message_id": "a10f18c2e4b60048",
+          "claim": "Kettle's Q4 engineering roadmap changed twice in three days: Maya rejected Dev's push to make RBAC/SSO hardening the top priority on Aug 10, then on Aug 12 accepted Priya's compromise to split the team between RBAC/SSO and self-serve onboarding, with a 3-week checkpoint instead of Dev's original 6.",
+          "thread_id": "a20f18c2e4b60041",
+          "anchor_message_id": "a20f18c2e4b60045",
           "message_ids": [
-            "a10f18c2e4b60027",
-            "a10f18c2e4b60046",
-            "a10f18c2e4b60048"
+            "a20f18c2e4b60041",
+            "a20f18c2e4b60042",
+            "a20f18c2e4b60044",
+            "a20f18c2e4b60045"
           ],
-          "evidence_quote": "We're targeting Monday, August 17 for production go-live, with a rollback window through that Friday",
-          "why_it_qualifies": "A firm date Maya gave the flagship customer replaced a previous firm date from the same relationship. The Aug 10 belief is precisely wrong now, and it is the date most likely to be repeated in error — Dana escalated on Aug 10 because it had already passed.",
-          "counterparty": "dana.kowalski@lumenpay.io",
-          "due_date": null,
-          "due_basis": "none",
-          "days_open": null,
-          "consequence": "high",
-          "tricky_tags": [],
-          "changed_field": "Lumenpay SSO production go-live date",
-          "previous_value": "Monday, August 10",
-          "current_value": "Monday, August 17 (rollback window through Aug 21)",
-          "from_message_id": "a10f18c2e4b60027",
-          "to_message_id": "a10f18c2e4b60048"
-        },
-        {
-          "item_id": "founder-q5-02",
-          "rank": 2,
-          "tier": "must_include",
-          "claim": "Tarrow Health's early access to the new alerting API is cancelled, not delayed — Tom promised Aug 1 access on Jul 18 and retracted it outright on Aug 1 pending the SOC2 audit.",
-          "thread_id": "a60f18c2e4b60036",
-          "anchor_message_id": "a60f18c2e4b60037",
-          "message_ids": [
-            "a60f18c2e4b60036",
-            "a60f18c2e4b60037"
-          ],
-          "evidence_quote": "We can't do August 1st anymore — need to wait until after the audit closes out.",
-          "why_it_qualifies": "A retracted commitment to a customer: the prior belief ('Tarrow is a design partner from Aug 1') is now false, and the replacement is not a new date but 'not until after the audit'. Maya was cc'd on both and Marcus Ito is the one holding the stale expectation.",
-          "counterparty": "m.ito@tarrowhealth.com",
+          "evidence_quote": "Fine — Priya's split. But I want a checkpoint in 3 weeks, not 6, given the board meeting is the 27th.",
+          "why_it_qualifies": "The most recent decision reversal in the entire mailbox — decided on the as-of day itself — and it changes what Sana should say on the roadmap slide she is locking for the Aug 27 board deck.",
+          "counterparty": "dev@kettlehq.com",
           "due_date": null,
           "due_basis": "none",
           "days_open": null,
           "consequence": "high",
           "tricky_tags": [
-            "cancelled_commitment"
+            "long_thread"
           ],
-          "changed_field": "Tarrow Health alerting-API early access",
-          "previous_value": "Private beta from August 1",
-          "current_value": "Cancelled until after the SOC2 audit closes",
-          "from_message_id": "a60f18c2e4b60036",
-          "to_message_id": "a60f18c2e4b60037"
+          "changed_field": "Q4 engineering roadmap sequencing",
+          "previous_value": "Self-serve onboarding stays the priority; Maya disagreed with Dev's push to lead with RBAC/SSO hardening (Aug 10)",
+          "current_value": "Team split — two engineers on RBAC/SSO hardening, two on self-serve onboarding, with a 3-week checkpoint",
+          "from_message_id": "a20f18c2e4b60042",
+          "to_message_id": "a20f18c2e4b60045"
         },
         {
           "item_id": "founder-q5-03",
-          "rank": 3,
+          "rank": 2,
           "tier": "must_include",
           "claim": "The SOC2 Type II evidence submission deadline moved a week earlier, from Aug 20 to Aug 13 — Certiva's lead assessor had a conflict and pulled fieldwork forward.",
           "thread_id": "a60f18c2e4b60034",
@@ -1355,8 +1568,63 @@
           "to_message_id": "a60f18c2e4b60035"
         },
         {
-          "item_id": "founder-q5-04",
+          "item_id": "founder-q5-01",
+          "rank": 3,
+          "tier": "must_include",
+          "claim": "The Lumenpay SSO production go-live is now Monday Aug 17 with a rollback window through Aug 21 — not the Aug 10 date Maya gave Dana on Jul 31.",
+          "thread_id": "a10f18c2e4b60046",
+          "anchor_message_id": "a10f18c2e4b60048",
+          "message_ids": [
+            "a20f18c2e4b60008",
+            "a20f18c2e4b60010",
+            "a10f18c2e4b60027",
+            "a10f18c2e4b60046",
+            "a10f18c2e4b60048"
+          ],
+          "evidence_quote": "We're targeting Monday, August 17 for production go-live, with a rollback window through that Friday",
+          "why_it_qualifies": "A firm date Maya gave the flagship customer replaced a chain of previous dates from the same relationship (Jul 25 -> Aug 8 -> Aug 10 -> Aug 17), cited here in full per the chain rule already applied to the seat count. The Aug 10 belief is precisely wrong now, and it is the date most likely to be repeated in error — Dana escalated on Aug 10 because it had already passed.",
+          "counterparty": "dana.kowalski@lumenpay.io",
+          "due_date": null,
+          "due_basis": "none",
+          "days_open": null,
+          "consequence": "high",
+          "tricky_tags": [],
+          "changed_field": "Lumenpay SSO production go-live date",
+          "previous_value": "July 25, then August 8, then Monday, August 10",
+          "current_value": "Monday, August 17 (rollback window through Aug 21)",
+          "from_message_id": "a20f18c2e4b60008",
+          "to_message_id": "a10f18c2e4b60048"
+        },
+        {
+          "item_id": "founder-q5-02",
           "rank": 4,
+          "tier": "must_include",
+          "claim": "Tarrow Health's early access to the new alerting API is cancelled, not delayed — Tom promised Aug 1 access on Jul 18 and retracted it outright on Aug 1 pending the SOC2 audit.",
+          "thread_id": "a60f18c2e4b60036",
+          "anchor_message_id": "a60f18c2e4b60037",
+          "message_ids": [
+            "a60f18c2e4b60036",
+            "a60f18c2e4b60037"
+          ],
+          "evidence_quote": "We can't do August 1st anymore — need to wait until after the audit closes out.",
+          "why_it_qualifies": "A retracted commitment to a customer: the prior belief ('Tarrow is a design partner from Aug 1') is now false, and the replacement is not a new date but 'not until after the audit'. Maya was cc'd on both and Marcus Ito is the one holding the stale expectation.",
+          "counterparty": "m.ito@tarrowhealth.com",
+          "due_date": null,
+          "due_basis": "none",
+          "days_open": null,
+          "consequence": "high",
+          "tricky_tags": [
+            "cancelled_commitment"
+          ],
+          "changed_field": "Tarrow Health alerting-API early access",
+          "previous_value": "Private beta from August 1",
+          "current_value": "Cancelled until after the SOC2 audit closes",
+          "from_message_id": "a60f18c2e4b60036",
+          "to_message_id": "a60f18c2e4b60037"
+        },
+        {
+          "item_id": "founder-q5-04",
+          "rank": 5,
           "tier": "must_include",
           "claim": "Kettle's SSO/SAML enforcement date for enterprise workspaces slipped from the firm Sept 1 Maya committed to on Jul 16 to Oct 15, decided at the end of the same thread on Jul 30.",
           "thread_id": "a60f18c2e4b60001",
@@ -1387,7 +1655,7 @@
         },
         {
           "item_id": "founder-q5-05",
-          "rank": 5,
+          "rank": 6,
           "tier": "must_include",
           "claim": "The Lumenpay renewal seat count is 450, not 400 and not 320 — it went 400 (Jun 18) to 320 after their budget freeze (Jun 29) to 450 including an EU growth buffer once their VP approved it (Jul 15).",
           "thread_id": "a60f18c2e4b60021",
@@ -1416,7 +1684,7 @@
         },
         {
           "item_id": "founder-q5-06",
-          "rank": 6,
+          "rank": 7,
           "tier": "must_include",
           "claim": "The board-deck ARR figure is final at $2.14M, up from the $2.1M Wendy flagged as soft on Aug 6; $340K of it is Lumenpay, just under 16% customer concentration.",
           "thread_id": "a20f18c2e4b60011",
@@ -1444,7 +1712,7 @@
         },
         {
           "item_id": "founder-q5-07",
-          "rank": 7,
+          "rank": 8,
           "tier": "must_include",
           "claim": "The Aug 27 board meeting moved an hour later and got longer: it is now 10am–12pm PT, not 9–11am, so Greg can join from the airport lounge and there is room for the Series B discussion.",
           "thread_id": "a40f18c2e4b60004",
@@ -1468,8 +1736,58 @@
           "to_message_id": "a40f18c2e4b60004"
         },
         {
+          "item_id": "founder-q5-16",
+          "rank": 9,
+          "tier": "acceptable",
+          "claim": "Kettle's 409A fair market value per common share increased from $1.38 to $2.14, effective Jul 31 2026; new option grants issued after Aug 2 use the higher strike price, which bears on the option-pool refresh being voted at the Aug 27 board meeting.",
+          "thread_id": "a40f18c2e4b60044",
+          "anchor_message_id": "a40f18c2e4b60044",
+          "message_ids": [
+            "a40f18c2e4b60044"
+          ],
+          "evidence_quote": "Fair market value per share (common): $2.14 (previous: $1.38)",
+          "why_it_qualifies": "The message states both the old and new values in one place, which the spec explicitly allows (from_message_id: null); it directly affects the economics of the option-pool increase already on Maya's plate for board sign-off.",
+          "counterparty": null,
+          "due_date": null,
+          "due_basis": "none",
+          "days_open": null,
+          "consequence": "medium",
+          "tricky_tags": [],
+          "changed_field": "409A fair market value per common share",
+          "previous_value": "$1.38",
+          "current_value": "$2.14 (effective Jul 31 2026, valid through Jan 31 2027)",
+          "from_message_id": null,
+          "to_message_id": "a40f18c2e4b60044"
+        },
+        {
+          "item_id": "founder-q5-19",
+          "rank": 10,
+          "tier": "acceptable",
+          "claim": "Kettle's own pricing model changed from pure seat-based to a hybrid base-plus-metered structure — $499/mo base for up to 15 seats plus $0.02 per API call above 500K/month — decided Aug 3 after weeks of losing deals like Fenwick on the old mechanic.",
+          "thread_id": "a20f18c2e4b60035",
+          "anchor_message_id": "a20f18c2e4b60039",
+          "message_ids": [
+            "a20f18c2e4b60035",
+            "a20f18c2e4b60039",
+            "a20f18c2e4b60040"
+          ],
+          "evidence_quote": "Tiers: $499/mo base (up to 15 seats), $0.02 per API call above 500K/mo, enterprise tier unchanged",
+          "why_it_qualifies": "A decisive, dated change to how Kettle prices new deals, with Tom explicitly changing his sales behavior because of it ('I'll hold off on Fenwick-style deals until the new tiers are live') — a stale belief here would mean quoting the wrong price to a prospect.",
+          "counterparty": "tom@kettlehq.com",
+          "due_date": null,
+          "due_basis": "none",
+          "days_open": null,
+          "consequence": "medium",
+          "tricky_tags": [],
+          "changed_field": "Kettle pricing model",
+          "previous_value": "Pure seat-based pricing",
+          "current_value": "Hybrid — $499/mo base up to 15 seats plus $0.02/API call above 500K/mo, grandfathering existing customers two renewal cycles",
+          "from_message_id": "a20f18c2e4b60035",
+          "to_message_id": "a20f18c2e4b60039"
+        },
+        {
           "item_id": "founder-q5-08",
-          "rank": 8,
+          "rank": 11,
           "tier": "acceptable",
           "claim": "The missing Q1 access-review evidence is no longer an open risk: Grace Liu confirmed on Aug 4 it will be reported as a single disclosed exception, remediated in Q2, with the draft report due Aug 20.",
           "thread_id": "a20f18c2e4b60020",
@@ -1496,8 +1814,33 @@
           "to_message_id": "a20f18c2e4b60026"
         },
         {
+          "item_id": "founder-q5-15",
+          "rank": 12,
+          "tier": "acceptable",
+          "claim": "Board pre-read timing changed from 'about two days before the meeting' (last quarter's practice, per Ellen) to draft financials 12 days out and a finished deck a week out — Maya committed to the new cadence on Jul 28.",
+          "thread_id": "a50f18c2e4b60032",
+          "anchor_message_id": "a50f18c2e4b60033",
+          "message_ids": [
+            "a50f18c2e4b60032",
+            "a50f18c2e4b60033"
+          ],
+          "evidence_quote": "You and Greg will have draft financials by August 15, a full 12 days out, and the finished deck by August 20 so there's real time to prep questions instead of skimming it the night before.",
+          "why_it_qualifies": "QUESTIONS.md names this exact message as a worked Q5 example (board-financials timing pulled earlier); it survives a full read as a genuine, dated change in practice rather than ordinary thread progress.",
+          "counterparty": "ellen@northbridge.vc",
+          "due_date": null,
+          "due_basis": "none",
+          "days_open": null,
+          "consequence": "medium",
+          "tricky_tags": [],
+          "changed_field": "Board pre-read / draft-financials delivery timing",
+          "previous_value": "Deck reached the board about two days before the meeting (last quarter's practice)",
+          "current_value": "Draft financials 12 days out (Aug 15), finished deck a week out (Aug 20)",
+          "from_message_id": "a50f18c2e4b60032",
+          "to_message_id": "a50f18c2e4b60033"
+        },
+        {
           "item_id": "founder-q5-09",
-          "rank": 9,
+          "rank": 13,
           "tier": "acceptable",
           "claim": "The Lumenpay enterprise migration completion date moved from June 30 to July 31, with the cutover weekend of Jul 25 — Maya's replacement date after the original was missed.",
           "thread_id": "a50f18c2e4b60016",
@@ -1522,7 +1865,7 @@
         },
         {
           "item_id": "founder-q5-10",
-          "rank": 10,
+          "rank": 14,
           "tier": "acceptable",
           "claim": "The SOC2 engagement lead at Vantage Assurance changed from Owen Fitch to Grace Liu on Jul 21; Owen has not reappeared on the thread.",
           "thread_id": "a20f18c2e4b60020",
@@ -1547,7 +1890,7 @@
         },
         {
           "item_id": "founder-q5-11",
-          "rank": 11,
+          "rank": 15,
           "tier": "acceptable",
           "claim": "The Jul 28 Design Review for the new onboarding flow was cancelled, not rescheduled — Luis pulled it because the empty-state illustrations weren't ready and said he'd re-send.",
           "thread_id": "a40f18c2e4b60007",
@@ -1571,8 +1914,57 @@
           "to_message_id": "a40f18c2e4b60007"
         },
         {
+          "item_id": "founder-q5-17",
+          "rank": 16,
+          "tier": "acceptable",
+          "claim": "The Head of Marketing finalist pool narrowed from two onsite candidates to one: James Whitcombe withdrew for another offer, leaving only Naomi Chen in the final loop.",
+          "thread_id": "a10f18c2e4b60005",
+          "anchor_message_id": "a10f18c2e4b60028",
+          "message_ids": [
+            "a10f18c2e4b60006",
+            "a10f18c2e4b60028"
+          ],
+          "evidence_quote": "we're down to Naomi Chen for the final loop (James dropped out, took an offer elsewhere)",
+          "why_it_qualifies": "A real, dated change to who Maya can actually bring a name on to the Aug 27 board meeting about, and a belief that appears to have stayed cached even in Maya's own later mail.",
+          "counterparty": null,
+          "due_date": null,
+          "due_basis": "none",
+          "days_open": null,
+          "consequence": "medium",
+          "tricky_tags": [],
+          "changed_field": "Head of Marketing finalist pool",
+          "previous_value": "Two finalists advanced to onsite — Naomi Chen and James Whitcombe",
+          "current_value": "Naomi Chen only; James withdrew for another offer",
+          "from_message_id": "a10f18c2e4b60006",
+          "to_message_id": "a10f18c2e4b60028"
+        },
+        {
+          "item_id": "founder-q5-18",
+          "rank": 17,
+          "tier": "acceptable",
+          "claim": "Datadog's monthly rate is increasing from $2,850 to $4,200 at the Aug 30 renewal, reflecting Kettle's current usage; the window to trim hosts and avoid the jump closes Aug 25.",
+          "thread_id": "a30f18c2e4b60038",
+          "anchor_message_id": "a30f18c2e4b60038",
+          "message_ids": [
+            "a30f18c2e4b60038"
+          ],
+          "evidence_quote": "your plan will automatically renew at the Pro tier rate reflecting your current usage: $4,200/mo, up from your current $2,850/mo",
+          "why_it_qualifies": "The message states its own prior value in-line, which the spec permits as a Q5 entry (from_message_id: null) even though it's a single automated notice; it is already tracked as a Q1 deadline (founder-q1-10) and belongs here too as the delta itself.",
+          "counterparty": null,
+          "due_date": null,
+          "due_basis": "none",
+          "days_open": null,
+          "consequence": "medium",
+          "tricky_tags": [],
+          "changed_field": "Datadog monthly plan rate",
+          "previous_value": "$2,850/mo",
+          "current_value": "$4,200/mo from the Aug 30 billing cycle (window to avoid it closes Aug 25)",
+          "from_message_id": null,
+          "to_message_id": "a30f18c2e4b60038"
+        },
+        {
           "item_id": "founder-q5-12",
-          "rank": 12,
+          "rank": 18,
           "tier": "acceptable",
           "claim": "Dana Kowalski now also writes from a personal address, dkowalski@gmail.com — mail from her will not all arrive under the lumenpay.io domain.",
           "thread_id": "a60f18c2e4b60018",
@@ -1596,6 +1988,33 @@
           "current_value": "Also dkowalski@gmail.com (same person)",
           "from_message_id": "a60f18c2e4b60017",
           "to_message_id": "a60f18c2e4b60018"
+        },
+        {
+          "item_id": "founder-q5-14",
+          "rank": 19,
+          "tier": "borderline",
+          "claim": "Kettle's runway figure is inconsistent across the corpus and cannot be resolved to a single current number: 14 months (Maya, Jul 20 and again Aug 1 to the board), 22 months (Wendy's Aug 6 board-deck draft), and 11.5 months (Maya's Aug 10 team-wide update) are three mutually contradictory 'current' statements with no supersession chain connecting them.",
+          "thread_id": "a50f18c2e4b60024",
+          "anchor_message_id": "a60f18c2e4b60050",
+          "message_ids": [
+            "a50f18c2e4b60024",
+            "a50f18c2e4b60035",
+            "a10f18c2e4b60039",
+            "a60f18c2e4b60050"
+          ],
+          "evidence_quote": "we're sitting around 11.5 months at current burn, which is fine but not generous",
+          "why_it_qualifies": "Borderline by construction: this is a genuine corpus contradiction, not a clean diff. Maya's own Aug 10 figure (11.5 months) is the most recent and most likely to be operative, but Wendy's Aug 6 board-deck slide independently states 22 months and was never corrected in the mailbox — a system citing either 14 or 22 as current would be wrong by the other's standard, so this is flagged rather than resolved. See curator_notes.",
+          "counterparty": null,
+          "due_date": null,
+          "due_basis": "none",
+          "days_open": null,
+          "consequence": "high",
+          "tricky_tags": [],
+          "changed_field": "Runway at current burn",
+          "previous_value": "14 months (Jul 20 model, repeated to the board Aug 1); Wendy's separate, uncorrected Aug 6 board-deck draft states 22 months",
+          "current_value": "~11.5 months per Maya's Aug 10 team update",
+          "from_message_id": "a50f18c2e4b60035",
+          "to_message_id": "a60f18c2e4b60050"
         }
       ],
       "must_not_include": [
@@ -1642,23 +2061,18 @@
           "trap": "automated-not-human"
         }
       ],
-      "curator_notes": "Ranked by recency first (Aug 1 onward), then magnitude, with two exceptions promoted because their stale belief is still strongly operative: the SOC2 evidence date (the real deadline is tomorrow) and the Sept 1→Oct 15 SSO slip (Dana printed Sept 1 in her board deck). The seat-count chain cites all three links per the chain rule. The two AWS spike threads state mutually inconsistent June baselines ($11,200 vs $27,100); rather than manufacture a delta from what looks like corpus noise, the AWS invoice is left in Q1 and named as a distractor here."
+      "curator_notes": "Ranked by recency first (Aug 1 onward), then magnitude, with two exceptions promoted because their stale belief is still strongly operative: the SOC2 evidence date (the real deadline is tomorrow) and the Sept 1→Oct 15 SSO slip (Dana printed Sept 1 in her board deck). The seat-count chain cites all three links per the chain rule.\n\nAdjudication changes after adversarial review: added founder-q5-13, the Aug 12 roadmap-split reversal — the single most recent change in the corpus. Fixed founder-q5-01's chain, which previously skipped the Aug 8 intermediate go-live date; it now cites all four links (Jul 25 -> Aug 8 -> Aug 10 -> Aug 17) per the chain rule already applied to the seat count. Added founder-q5-15 (board pre-read timing pulled earlier — the exact example QUESTIONS.md names for this question), founder-q5-16 (409A FMV $1.38 -> $2.14), founder-q5-17 (Head of Marketing finalist pool: James withdrew, leaving only Naomi) and founder-q5-18 (Datadog's stated rate increase, admissible because the message carries its own prior value in-line). Also added founder-q5-19 (Kettle's own pricing model going hybrid).\n\nCorpus contradiction, not resolved: added founder-q5-14 at tier borderline rather than accepting a clean '14 -> 11.5 months' framing, because a third figure — 22 months, in Wendy's Aug 6 board-deck draft (a10f18c2e4b60039) — is never reconciled with either the 14-month or 11.5-month statements. All three read as independent 'current' claims rather than a supersession chain, so no resolution is invented; the item states the contradiction and is excluded from `ranked`. The same three-way pattern shows up in ARR ($2.3M in the Aug 1 board pre-read vs. $2.14M in the finalized deck-model thread vs. $6.1M in Wendy's Aug 6 draft slide, which reuses the same $6.1M figure Maya separately quoted to Foundry Line). founder-q5-06's own $2.1M -> $2.14M chain is internally clean and unaffected by this, so it stays must_include, but the wider ARR conflict is flagged here for a human rather than silently absorbed — the same class of batch-generated inconsistency Q1's curator_notes documents for the AWS spend baseline.\n\nGiven the volume of validated corrections, this set is now larger than the general 5-12 sizing guidance (18 ranked + 1 borderline); every addition traces to a specific, verified finding rather than loosened inclusion criteria."
     },
     "q6_slipping_through_cracks": {
       "question": "What important thing might be slipping through the cracks?",
-      "prose_answer": "The $86,400 Q3 invoice never reached Lumenpay. You typed dana.kowaslki@lumenpay.io on Aug 4 and it bounced — everyone here thinks it was sent and net-30 is running against a date Dana never saw. Second: Raj asked you to loop Dev in for Foundry Line's technical diligence call before Friday Jul 24. Your reply was about dinner in Hayes Valley; the ask only survives in the quoted text below it. Third: Sana's parental leave — mid-September to early December — and the whole coverage plan live under the subject 'Board deck — Aug 27', untouched since Jul 22. Also: tomorrow's Ramp decisions exist only in Wendy's attachment; Sana has committed you to a 15-minute live board demo on a thread where you're bcc'd; Greg's runway-slide feedback died in his June out-of-office and was never re-sent; and the signed Lumenpay MSA amendment is waiting behind an envelope that looks like phishing.",
+      "prose_answer": "The $86,400 Q3 invoice never reached Lumenpay. You typed dana.kowaslki@lumenpay.io on Aug 4 and it bounced — everyone here thinks it was sent and net-30 is running against a date Dana never saw. Second: tomorrow's Ramp decisions — the $85K card limit, two new cardholders — exist only in Wendy's attachment. Third: Sana's parental leave and coverage plan live under the subject 'Board deck — Aug 27' — though you personally engaged with that one, so it's a lapsed follow-through more than an invisible crack. Also: the kettlehq-billing.com invoice is a lookalike-domain fraud sitting unread in AP's inbox with a 24-hour payment threat; Sana has committed you to a 15-minute live board demo on a thread where you're bcc'd, invisible to any reply-all; Greg's runway-slide feedback died in his June out-of-office and was never re-sent; and nobody can say for certain whether Dev or Tom actually updated the Lumenpay onboarding doc they agreed 'he' would handle.",
       "ranked": [
         "founder-q6-01",
-        "founder-q6-02",
-        "founder-q6-03",
         "founder-q6-04",
         "founder-q6-05",
-        "founder-q6-06",
-        "founder-q6-07",
-        "founder-q6-08",
         "founder-q6-09",
-        "founder-q6-10",
-        "founder-q6-11"
+        "founder-q6-06",
+        "founder-q6-08"
       ],
       "items": [
         {
@@ -1682,53 +2096,8 @@
           "tricky_tags": []
         },
         {
-          "item_id": "founder-q6-02",
-          "rank": 2,
-          "tier": "must_include",
-          "claim": "Raj Malhotra asked Maya to loop Dev in for Foundry Line's technical diligence call before Friday Jul 24 — his tech-review partner's only window before two weeks out. Maya's reply talked about dinner in Hayes Valley and never addressed it; the ask now survives only inside the quoted block.",
-          "thread_id": "a60f18c2e4b60039",
-          "anchor_message_id": "a60f18c2e4b60040",
-          "message_ids": [
-            "a60f18c2e4b60039",
-            "a60f18c2e4b60040"
-          ],
-          "evidence_quote": "> One more thing — could you loop in Dev for a quick technical diligence call",
-          "why_it_qualifies": "Consequence is the Series B itself, and the burial is total: Maya technically replied, so every 'unanswered thread' heuristic marks it handled, while her own words prove she never registered the ask. It was buried mid-paragraph after softer framing in a long email, and the Friday it named passed nineteen days ago.",
-          "counterparty": "raj.malhotra@foundryline.com",
-          "due_date": "2026-07-24",
-          "due_basis": "explicit",
-          "days_open": 20,
-          "consequence": "high",
-          "tricky_tags": [
-            "quoted_text_only_task"
-          ]
-        },
-        {
-          "item_id": "founder-q6-03",
-          "rank": 3,
-          "tier": "must_include",
-          "claim": "Sana Iqbal is going on parental leave from mid-September to early December and the coverage plan — Priya absorbing board/investor coordination, Wendy taking the ops calendar, plus a transition doc — is filed entirely under the subject line 'Board deck — Aug 27' and has had no activity since Jul 22.",
-          "thread_id": "a60f18c2e4b60010",
-          "anchor_message_id": "a60f18c2e4b60015",
-          "message_ids": [
-            "a60f18c2e4b60013",
-            "a60f18c2e4b60014",
-            "a60f18c2e4b60015"
-          ],
-          "evidence_quote": "That split makes sense to me. Go ahead and loop in Wendy on a transition doc",
-          "why_it_qualifies": "The Chief of Staff — the person holding board prep, the deck, logistics and the Head of Marketing search — disappears for eleven weeks starting in roughly four, and the only record of the plan sits under a subject about a board deck. Anyone searching 'leave' or 'coverage' finds nothing. Three weeks of silence since Maya said 'let's get ahead of it instead of doing this in week two of your leave'.",
-          "counterparty": "sana@kettlehq.com",
-          "due_date": "2026-09-15",
-          "due_basis": "implicit",
-          "days_open": 21,
-          "consequence": "high",
-          "tricky_tags": [
-            "topic_drift"
-          ]
-        },
-        {
           "item_id": "founder-q6-04",
-          "rank": 4,
+          "rank": 2,
           "tier": "must_include",
           "claim": "Three decisions Maya owes before tomorrow's 2pm Ramp renewal call — the $50K→$85K card-limit increase, Luis and Sana as new cardholders, and sub-$500 auto-approval — exist nowhere in Wendy's email body, only in the attached PDF.",
           "thread_id": "a60f18c2e4b60038",
@@ -1749,7 +2118,7 @@
         },
         {
           "item_id": "founder-q6-05",
-          "rank": 5,
+          "rank": 3,
           "tier": "must_include",
           "claim": "Sana has told Ellen that Maya wants 15 minutes at the top of the Aug 27 board meeting for a live product demo — and Maya only exists on that thread as a bcc, so she appears on no recipient list and any reply-all will drop her.",
           "thread_id": "a60f18c2e4b60041",
@@ -1769,75 +2138,8 @@
           ]
         },
         {
-          "item_id": "founder-q6-06",
-          "rank": 6,
-          "tier": "must_include",
-          "claim": "Maya's Jun 25 request for Greg Whitfield's feedback on the board-deck runway slide never reached a human — it hit his out-of-office (back Jul 6) and was never re-sent. Greg is an independent board member and the deck goes out Aug 20.",
-          "thread_id": "a60f18c2e4b60027",
-          "anchor_message_id": "a60f18c2e4b60028",
-          "message_ids": [
-            "a60f18c2e4b60027",
-            "a60f18c2e4b60028"
-          ],
-          "evidence_quote": "Could you send your feedback on the runway slide by end of day Thursday?",
-          "why_it_qualifies": "The request died in an auto-responder seven weeks ago. The thread shows a reply, which is exactly what makes it invisible — every 'did anyone answer?' check passes. Greg has since complained that board pre-reads reach him too late to prepare good questions.",
-          "counterparty": "greg.whitfield@whitfieldadvisory.com",
-          "due_date": "2026-07-06",
-          "due_basis": "explicit",
-          "days_open": 48,
-          "consequence": "medium",
-          "tricky_tags": [
-            "out_of_office"
-          ]
-        },
-        {
-          "item_id": "founder-q6-07",
-          "rank": 7,
-          "tier": "must_include",
-          "claim": "The condition on Maya's Jul 3 promise to Dana — Beth's sign-off on the indemnification language — resolved silently. The only evidence is an e-signature envelope from Aug 7 whose Reply-To points at hg-legalservices.com, a different domain from the firm's, so it reads like phishing and has been left alone.",
-          "thread_id": "a60f18c2e4b60042",
-          "anchor_message_id": "a60f18c2e4b60042",
-          "message_ids": [
-            "a60f18c2e4b60019",
-            "a60f18c2e4b60020",
-            "a60f18c2e4b60042"
-          ],
-          "evidence_quote": "Maya — the finalized MSA amendment (indemnification language as discussed with Beth) is ready for your signature.",
-          "why_it_qualifies": "Nobody announced that the condition cleared: Beth never replied on the Jul 22 chase, and the closure arrives disguised as a vendor e-signature notice with a domain mismatch that actively discourages action. The result is a contract with the flagship customer sitting unsigned for reasons nobody has articulated.",
-          "counterparty": "dana.kowalski@lumenpay.io",
-          "due_date": "2026-07-03",
-          "due_basis": "explicit",
-          "days_open": 43,
-          "consequence": "high",
-          "tricky_tags": [
-            "conditional_promise",
-            "reply_to_mismatch"
-          ]
-        },
-        {
-          "item_id": "founder-q6-08",
-          "rank": 8,
-          "tier": "must_include",
-          "claim": "The Lumenpay onboarding doc was supposed to be updated before Friday Jul 31 by either Dev or Tom — the message says 'he said he'd handle it' and never says which — and neither is on record having done it, two weeks after the enterprise cohort deadline.",
-          "thread_id": "a60f18c2e4b60043",
-          "anchor_message_id": "a60f18c2e4b60043",
-          "message_ids": [
-            "a60f18c2e4b60043"
-          ],
-          "evidence_quote": "He said he'd handle it before Friday, so I think we're fine — just flagging in case it comes up at standup.",
-          "why_it_qualifies": "Ownership was never resolvable from the text, and 'so I think we're fine' is precisely the sentence that stops anyone checking. The Friday has long passed, the doc gates onboarding for Lumenpay's next enterprise cohort, and no message anywhere shows the work happening. The correct treatment is unresolvable ownership, not assigning it to a name the text cannot support.",
-          "counterparty": null,
-          "due_date": "2026-07-31",
-          "due_basis": "explicit",
-          "days_open": 14,
-          "consequence": "medium",
-          "tricky_tags": [
-            "ambiguous_pronoun_owner"
-          ]
-        },
-        {
           "item_id": "founder-q6-09",
-          "rank": 9,
+          "rank": 4,
           "tier": "acceptable",
           "claim": "A fraudulent $4,850 invoice from kettlehq-billing.com is sitting in Accounts Payable's inbox addressed to Wendy, threatening suspension and board escalation within 24 hours — and it is still unread by Maya, who is only cc'd.",
           "thread_id": "a60f18c2e4b60031",
@@ -1857,52 +2159,51 @@
           ]
         },
         {
-          "item_id": "founder-q6-10",
-          "rank": 10,
-          "tier": "acceptable",
-          "claim": "Solvane's inbound acquisition approach has gone quiet: Greg advised taking the call on Jul 6 and promised background checks on Marcus Webb's authority, and nothing has happened in either direction since.",
-          "thread_id": "a20f18c2e4b60046",
-          "anchor_message_id": "a20f18c2e4b60050",
+          "item_id": "founder-q6-06",
+          "rank": 5,
+          "tier": "must_include",
+          "claim": "Maya's Jun 25 request for Greg Whitfield's feedback on the board-deck runway slide never reached a human — it hit his out-of-office (back Jul 6) and was never re-sent. Greg is an independent board member and the deck goes out Aug 20.",
+          "thread_id": "a60f18c2e4b60027",
+          "anchor_message_id": "a60f18c2e4b60028",
           "message_ids": [
-            "a20f18c2e4b60046",
-            "a20f18c2e4b60049",
-            "a20f18c2e4b60050"
+            "a60f18c2e4b60027",
+            "a60f18c2e4b60028"
           ],
-          "evidence_quote": "Should have something for you before your call with him, which will help you calibrate how much runway to give the conversation.",
-          "why_it_qualifies": "Maximum consequence, minimum surface area by design: the thread is deliberately confined to three people, marked confidential, and has no deadline, no subject-line signal and no chaser. Greg explicitly warned that declining to respond itself sends a signal — and five weeks of silence is a response.",
-          "counterparty": "marcus.webb@solvane.com",
-          "due_date": null,
-          "due_basis": "none",
-          "days_open": 37,
-          "consequence": "high",
-          "tricky_tags": []
+          "evidence_quote": "Could you send your feedback on the runway slide by end of day Thursday?",
+          "why_it_qualifies": "The request died in an auto-responder seven weeks ago. The thread shows a reply, which is exactly what makes it invisible — every 'did anyone answer?' check passes. Greg is an independent board member and the deck goes out Aug 20.",
+          "counterparty": "greg.whitfield@whitfieldadvisory.com",
+          "due_date": "2026-07-06",
+          "due_basis": "explicit",
+          "days_open": 48,
+          "consequence": "medium",
+          "tricky_tags": [
+            "out_of_office"
+          ]
         },
         {
-          "item_id": "founder-q6-11",
-          "rank": 11,
-          "tier": "acceptable",
-          "claim": "SOC2 PBC item 8 — data processing agreement templates — is assigned to Maya in the auditor's spreadsheet with a Jul 29 due date, and the version currently sitting in the audit sample is stale; Beth flagged it on Jul 29 and nothing confirms the correct version was ever re-sent.",
-          "thread_id": "a20f18c2e4b60020",
-          "anchor_message_id": "a20f18c2e4b60025",
+          "item_id": "founder-q6-08",
+          "rank": 6,
+          "tier": "must_include",
+          "claim": "The Lumenpay onboarding doc was supposed to be updated before Friday Jul 31 by either Dev or Tom — the message says 'he said he'd handle it' and never says which — and neither is on record having done it, two weeks after the enterprise cohort deadline.",
+          "thread_id": "a60f18c2e4b60043",
+          "anchor_message_id": "a60f18c2e4b60043",
           "message_ids": [
-            "a20f18c2e4b60020",
-            "a20f18c2e4b60024",
-            "a20f18c2e4b60025"
+            "a60f18c2e4b60043"
           ],
-          "evidence_quote": "I want to make sure what's in the audit sample reflects the current version, not the stale one that was still floating around some shared drives",
-          "why_it_qualifies": "The assignment to Maya exists only inside an .xlsx attachment; the defect exists only in a mid-thread lawyer's aside; and the fix was delegated to Wendy in a sentence nobody acknowledged. With evidence due Aug 13, a stale DPA in the sample is the kind of thing that surfaces as an audit finding rather than an email.",
-          "counterparty": "grace.liu@vantageassurance.com",
-          "due_date": "2026-08-13",
-          "due_basis": "implicit",
+          "evidence_quote": "He said he'd handle it before Friday, so I think we're fine — just flagging in case it comes up at standup.",
+          "why_it_qualifies": "Ownership was never resolvable from the text, and 'so I think we're fine' is precisely the sentence that stops anyone checking. The Friday has long passed, the doc gates onboarding for Lumenpay's next enterprise cohort, and no message anywhere shows the work happening. The correct treatment is unresolvable ownership, not assigning it to a name the text cannot support.",
+          "counterparty": null,
+          "due_date": "2026-07-31",
+          "due_basis": "explicit",
           "days_open": 14,
           "consequence": "medium",
           "tricky_tags": [
-            "task_in_attachment_only"
+            "ambiguous_pronoun_owner"
           ]
         },
         {
           "item_id": "founder-q6-12",
-          "rank": 12,
+          "rank": 7,
           "tier": "borderline",
           "claim": "Linear ticket KET-441, 'Approve Q3 infra budget line', was assigned to Maya by Wendy on Jun 18 and has never been acknowledged in any message.",
           "thread_id": "a40f18c2e4b60029",
@@ -1956,9 +2257,39 @@
           "subject": "TechCrunch AM: AI infra funding surges, plus today's top stories",
           "why_excluded": "Bulk newsletter. Anything buried in it fails the consequence test outright.",
           "trap": "newsletter-deadline"
+        },
+        {
+          "message_id": "a60f18c2e4b60040",
+          "subject": "Re: Foundry Line — next steps",
+          "why_excluded": "Looks like Maya ignored Raj's request to loop in Dev and changed the subject to dinner instead — but seven hours after Raj's message she sent a separate intro connecting Raj directly with Dev (a50f18c2e4b60028), which substantively fulfills 'loop in Dev before Friday'. Whether the actual technical-diligence call ever happened is a smaller, harder-to-verify loose end, not a crack.",
+          "trap": "quoted_text_only_task"
+        },
+        {
+          "message_id": "a60f18c2e4b60015",
+          "subject": "Board deck — Aug 27",
+          "why_excluded": "Sana's parental-leave coverage plan is filed under a board-deck subject line, which looks like classic topic-drift burial — but Maya herself raised the leave-coverage question, approved the split, and delegated the transition doc to Sana. That owner-authored engagement moves this to Q2/Q4 territory (a lapsed follow-through, not an invisible crack); it does not belong in Q6.",
+          "trap": "topic_drift"
+        },
+        {
+          "message_id": "a60f18c2e4b60042",
+          "subject": "Signature requested: Kettle–Lumenpay MSA Amendment",
+          "why_excluded": "The condition on Maya's Jul 3 promise to Dana (Beth's sign-off) did not resolve silently — Beth and Maya actively corresponded about this exact indemnification language on Aug 5-6 (a50f18c2e4b60043 / a50f18c2e4b60045). The unsigned envelope is a live signature item, already tracked in Q1 (founder-q1-04) and Q3 (founder-q3-01), not an invisible crack.",
+          "trap": "reply_to_mismatch"
+        },
+        {
+          "message_id": "a20f18c2e4b60050",
+          "subject": "Re: Confidential – exploratory conversation",
+          "why_excluded": "Maya authored two of the five messages in this thread and explicitly said she owed Marcus a response before deciding how to proceed — owner-authored engagement, which fails the Q6 test. Greg's undelivered background-check readout is already tracked in Q4 (founder-q4-12); Marcus's own unanswered ask is tracked in Q3 (founder-q3-13).",
+          "trap": "owner-engaged-not-buried"
+        },
+        {
+          "message_id": "a20f18c2e4b60025",
+          "subject": "Re: SOC 2 Type II – fieldwork kickoff",
+          "why_excluded": "Wendy delivered PBC item 8 (DPA templates) on Jul 23; Beth's Jul 29 note asks her to re-send a corrected template version, and Grace's Aug 4 status update lists fieldwork as 'otherwise substantially complete' with only item 4 and a handful of change tickets outstanding — item 8 is not named as open again. The due date previously used for this item (Aug 13) was also imported from an unrelated audit thread (Certiva, not Vantage).",
+          "trap": "already-completed"
         }
       ],
-      "curator_notes": "Every item pairs a real consequence with a specific burial factor, per the two conjunctive tests. The Q2/Q6 line was drawn with the engagement test: the Foundry Line diligence ask is here rather than in Q2 because Maya's reply proves she never registered it, while her promises to Dana, Alice and Beth are in Q2 because she authored them. Two bounces are deliberately listed as distractors alongside the one real bounce to make the consequence test discriminating. Sana's parental-leave coverage is the topic-drift entry: topic B of the 'Board deck — Aug 27' thread, judged on its own merits."
+      "curator_notes": "Every remaining item pairs a real consequence with a specific burial factor, per the two conjunctive tests. Two bounces are deliberately listed as distractors alongside the one real bounce to make the consequence test discriminating.\n\nAdjudication changes after adversarial review — this question shrank substantially, from 11 ranked items to 6, because five items did not survive a full read against the engagement test:\n- founder-q6-02 (Foundry Line diligence call): removed. Maya sent a same-day intro connecting Raj and Dev (a50f18c2e4b60028) — she did not fail to register the ask.\n- founder-q6-03 (Sana's parental leave under 'Board deck — Aug 27'): removed. Maya herself raised the coverage question and delegated the transition doc — owner-authored engagement, so this is Q2/Q4 material, not a Q6 crack. Not added to those sets here, per scope discipline; noting the correct home for a future pass.\n- founder-q6-07 (MSA amendment 'condition resolved silently'): removed. Beth and Maya actively corresponded about the exact indemnification clause on Aug 5-6, so the condition did not resolve silently; the residual unsigned envelope is a live signature item, already covered in Q1 and Q3.\n- founder-q6-10 (Solvane inbound gone quiet): removed. Maya authored two of the five thread messages and explicitly said she owed Marcus a response — owner engagement disqualifies this from Q6. Greg's undelivered background calls are tracked in Q4 (founder-q4-12); Marcus's own unanswered ask is now tracked in Q3 (founder-q3-13).\n- founder-q6-11 (SOC2 PBC item 8): removed. Wendy delivered it, Beth's note only asked for a reissue of a corrected version, and Grace's Aug 4 status marks fieldwork 'substantially complete' without naming item 8 as outstanding.\n\nAlso reordered founder-q6-09 (the lookalike invoice) above founder-q6-06 and founder-q6-08 — a wire that cannot be recalled outranks a stale feedback ask and an unowned doc update under the stated (consequence) x (invisibility) x (time elapsed) principle. Fixed founder-q6-06's why_it_qualifies, which asserted an unattested complaint from Greg about late board pre-reads.\n\nRejected: adding the Notion @-mention about SOC2 access-review cadence (a40f18c2e4b60038) — the substance was addressed via Maya's Aug 6 reply to Grace confirming the move to Rippling, even though Dev's direct mention was never answered; it is left as a Q3 distractor instead, where the same reasoning applies more cleanly. Rejected adding the buried pricing-flexibility sub-ask inside the SSO long_thread (a60f18c2e4b60001) — Dana's own words call it 'not urgent, just flagging it exists', which fails Q6's consequence test even though it passes the burial test, and the message is addressed to Dev with Maya only cc'd."
     }
   }
 }

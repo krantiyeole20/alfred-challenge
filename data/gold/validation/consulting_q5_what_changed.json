@@ -1,0 +1,48 @@
+{
+  "profile_id": "consulting",
+  "question": "q5_what_changed",
+  "items_reviewed": 11,
+  "verdict": "issues",
+  "findings": [
+    {
+      "type": "stale_current_value",
+      "severity": "high",
+      "item_id": "consulting-q5-01",
+      "message_ids": ["e60f18c2e4b60008", "e60f18c2e4b60050"],
+      "problem": "Item 01 anchors the Stratus diagnostic fee chain to Owen's Jul 30 counter-offer of $91,000 (to_message_id e60f18c2e4b60008) and claims it is 'still awaiting Evelyn's yes,' but a later message from Evelyn herself — e60f18c2e4b60050, sent Aug 11 16:20, twelve days after the counter and the single latest Stratus-diagnostic status statement in the mailbox — describes the deal as essentially settled and moving to signature, not open for her decision.",
+      "evidence": "Stratus is close — Owen's board approved roughly $90K for the supply chain diagnostic and we're finalizing scope now (Terre Haute handled as a remote review rather than a full on-site to make the number work). That should sign by mid-August and start the week after. (e60f18c2e4b60050, 2026-08-11 16:20)",
+      "recommended_action": "fix current_value to reflect the Aug 11 status ('~$90K approved by Owen's board, Terre Haute as remote review, scope finalizing, expected to sign by mid-August') and update to_message_id to e60f18c2e4b60050; also soften why_it_qualifies, which is contradicted by this later message ('still awaiting Evelyn's yes' vs. 'approved... finalizing scope')"
+    },
+    {
+      "type": "stale_current_value",
+      "severity": "high",
+      "item_id": null,
+      "message_ids": ["e50f18c2e4b60045", "e60f18c2e4b60050"],
+      "problem": "The mailbox itself contradicts about the state of 'Stratus' in its two most recent messages on the topic, sent by Evelyn ten minutes apart on Aug 11 to overlapping recipients (Ana is on both): one says the deal is a done '$340K' win starting 'the 10th' (a date already in the past by the time the email was sent), the other says it is a not-yet-signed '~$90K' diagnostic expected to start 'the week after' mid-August signing. Neither the gold item nor curator_notes surfaces this direct same-day, same-sender contradiction, even though the curator's own notes flag the '$340K recap' as one of three parallel Stratus threads worth investigating.",
+      "evidence": "Owen's board approved it, we're a go on Stratus. $340K, diagnostic starting the 10th. I'll get the contract out tomorrow and loop you in on staffing once it's signed. (e50f18c2e4b60045, Aug 11 16:10, to Ana) -- versus -- Stratus is close — Owen's board approved roughly $90K for the supply chain diagnostic and we're finalizing scope now... That should sign by mid-August and start the week after. (e60f18c2e4b60050, Aug 11 16:20, to Gordon & Ana)",
+      "recommended_action": "add a note (or a low-tier item) documenting the corpus's own internal contradiction on the Stratus '$340K' figure, since it directly undermines confidence in what 'current' means for any Stratus dollar figure as of the as-of moment; at minimum flag e50f18c2e4b60045 and e60f18c2e4b60050 as inconsistent with each other so a downstream system doesn't silently pick one"
+    },
+    {
+      "type": "missed_item",
+      "severity": "medium",
+      "item_id": null,
+      "message_ids": ["e20f18c2e4b60037", "e20f18c2e4b60041"],
+      "problem": "A second, distinct Ridgefield invoice (#4417, $14,200) follows the identical belief-correcting shape already used to justify item 06 (#4471, $22,400): repeatedly bumped as '90+ days overdue' with silence from AP, then resolved on Aug 10 by the same AP-migration explanation, with a payment date given. This is current, evidenced, and not a duplicate of item 06 (different invoice number and amount), yet it is absent from both items and must_not_include.",
+      "evidence": "Evelyn — truly sorry about the silence, we were mid-migration to a new AP system and a batch of vendor invoices got stuck in limbo, yours included. Confirmed it's processed now, check for $14,200 goes out this week. (e20f18c2e4b60041, Marta Klein, 2026-08-10 15:05)",
+      "recommended_action": "add new item with these fields: changed_field 'Ridgefield invoice #4417 collection status', previous_value '90+ days past due, two reminders and a bump with no response', current_value 'Confirmed processed, payment expected this week (week of Aug 10)', thread_id e20f18c2e4b60037, anchor_message_id e20f18c2e4b60041, from_message_id e20f18c2e4b60037 (or the Jul 28 bump e20f18c2e4b60040-equivalent), counterparty marta.klein@ridgefieldmfg.com"
+    }
+  ],
+  "checked_and_sound": [
+    "consulting-q5-02",
+    "consulting-q5-03",
+    "consulting-q5-04",
+    "consulting-q5-05",
+    "consulting-q5-06",
+    "consulting-q5-07",
+    "consulting-q5-08",
+    "consulting-q5-09",
+    "consulting-q5-10",
+    "consulting-q5-11"
+  ],
+  "notes": "On the specific question posed: the three named Stratus threads ($85K/$102K/$91K three-plant-plus-Terre-Haute diagnostic in e60f18c2e4b60006, and the $95K-to-$76K four-DC diagnostic in e20f18c2e4b60019) are genuinely distinct engagements — they name non-overlapping facilities (Rockford/Peoria/Gary/Terre Haute vs. Denver/Columbus/Allentown/Reno), run on separate timelines, and were never conflated in the gold item text, so curator's decision not to merge them is correct. But the mailbox has more Stratus proposal traffic than the curator_notes account for: a third proposal (line-balancing across 'two Ohio lines,' priced $148K-168K in e10f18c2e4b60009, still 'finishing internally' per e10f18c2e4b60007 as of Jul 29 2:10pm) and a fourth (a 'distribution network redesign' phase-1 priced $210,000 in the Jul 23 Zoom-recording summary e40f18c2e4b60024). The '$340K recap' the curator dismisses in one line is not merely an internal aside — it originates in a real, SENT-to-Owen commitment email (e50f18c2e4b60034, Jul 29 8:50am) promising a signed SOW by Aug 1 and a kickoff the week of Aug 10, and is reaffirmed twice more (Aug 5 to Gordon, Aug 11 to Ana). That Jul 29 8:50am email directly contradicts a same-day 2:10pm email in a different thread saying the pricing is still being finalized internally and won't reach Owen as a full proposal until Aug 3 — i.e., the corpus itself, not just the curator's scoping choice, is internally inconsistent about what Stratus deal is actually landed and when. Combined with the Aug 11 same-day contradiction described in the second finding above, my conclusion is that this is a genuine corpus inconsistency around the Stratus relationship's dollar figures and status, not merely five cleanly-distinct parallel engagements — and the gold set's treatment (silently including only the cleanest of the threads, item 01, and saying nothing about the others) under-reports that mess rather than resolving or flagging it. Given the scale of the ambiguity, I did not attempt to add items for the Ohio-lines or network-redesign threads myself (their own internal evidence is too self-contradictory to state a confident current_value), but a human curator should decide whether to (a) exclude Stratus dollar figures from Q5 entirely pending corpus cleanup, or (b) add an explicit must_not_include / notes entry warning that '$340K' and 'the Stratus diagnostic is signing at ~$90-91K' cannot both be treated as current."
+}

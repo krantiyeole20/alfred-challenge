@@ -1,0 +1,39 @@
+{
+  "profile_id": "consulting",
+  "question": "q6_slipping_through_cracks",
+  "items_reviewed": 12,
+  "verdict": "issues",
+  "findings": [
+    {
+      "type": "false_positive",
+      "severity": "high",
+      "item_id": "consulting-q6-09",
+      "message_ids": ["e40f18c2e4b60035", "e40f18c2e4b60045"],
+      "problem": "The AME Great Lakes speaker-prep bounce is closed before the as-of moment: a later message shows the exact content that would have been lost (Kyle's co-presenter status) was successfully communicated to AME through the alternate events@ame.org channel, so nothing is currently slipping.",
+      "evidence": "We received your co-presenter request for Kyle Brenner to join for the Q&A portion — that's approved, and we've added him to the program as a contributing panelist. (from e40f18c2e4b60045, dated Aug 7, which also lists the same 'four deliverables due by Aug 21' the item cites as its consequence)",
+      "recommended_action": "remove item (or move to must_not_include with trap 'already-resolved') — the bounce did real damage to nothing; the underlying request reached AME through a different address before Aug 12. If the Aug 21 speaker-logistics deliverables in e40f18c2e4b60045 are worth surfacing at all, they belong in Q1 (loud, dated, plainly-worded email), not Q6 — they fail the burial test."
+    },
+    {
+      "type": "bad_quote",
+      "severity": "medium",
+      "item_id": "consulting-q6-01",
+      "message_ids": ["e40f18c2e4b60034", "e60f18c2e4b60016"],
+      "problem": "One of the two message_ids cited for the Meridian invoice item is wrong: 'e60f18c2e4b60016' is a Meridian Phase 2 staffing-plan message from Gordon about Kyle's Ridgefield conflict, unrelated to invoice #1092 or its bounce. The intended citation is almost certainly 'e40f18c2e4b60016' ('Invoice #1092 was sent to Meridian Castings LLC'), a single hex digit off, which is also the message that explains the false confidence ('everyone believes it was sent') the claim depends on.",
+      "evidence": "e60f18c2e4b60016 body: \"Before we confirm to Bob — Kyle's also got the Ridgefield close-out those same weeks. Might make more sense for Ana to lead on-site and Kyle to stay remote/backup.\" — this has nothing to do with the invoice or the bounce.",
+      "recommended_action": "fix message_ids to ['e40f18c2e4b60034', 'e40f18c2e4b60016']"
+    }
+  ],
+  "checked_and_sound": [
+    "consulting-q6-02",
+    "consulting-q6-03",
+    "consulting-q6-04",
+    "consulting-q6-05",
+    "consulting-q6-06",
+    "consulting-q6-07",
+    "consulting-q6-08",
+    "consulting-q6-10",
+    "consulting-q6-11",
+    "consulting-q6-12"
+  ],
+  "notes": "Full-thread reads and mailbox-wide follow-up searches confirmed closure/ownership/quotes for items 02-08 and 10-12, and for all six must_not_include distractors (the Halberd duplicate-resend is genuinely closed by a signed change order; the conference-room diffused ask was claimed by Fiona 17 minutes later; Ana's forward is genuinely Kyle-owned and visible; the Jun 26 Ridgefield bounce is genuinely benign since Marta has since answered on two other threads; the AME newsletter and the expense-approval confirmation are correctly excluded). Item consulting-q6-01 (Meridian invoice #1092 bounce) is otherwise sound and is the mailbox's strongest crack, but should have its bad citation fixed. Item consulting-q6-05 (Halberd fraud domain) is sound on its central claim (nobody but Halberd's AP has been warned), but its why_it_qualifies text leans on Evelyn's own SENT promise ('I'll loop in our attorney') as supporting color — that specific sub-thread is only two days old and too fresh to independently qualify as a Q2 miss yet, but a future validator pass should watch it: if Terrence still hasn't been looped in by his Aug 17 return, that piece becomes Q2 material, not Q6, under the engagement test. No other missed items were found after sweeping all bounces/OOO auto-replies, all attachment extracted_text, all quoted-reply blocks (including several not tricky-tagged), every long_thread and topic_drift message, and every dormant June thread in the mailbox — the twelve items already cover the mailbox's genuine cracks well."
+}

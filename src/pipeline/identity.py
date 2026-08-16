@@ -19,6 +19,8 @@ The discriminator is registrable domain:
 
 from __future__ import annotations
 
+import re
+
 # Public suffixes that need three labels to reach the registrable domain.
 # Only the ones this corpus can plausibly hit; not a full PSL.
 _TWO_PART_SUFFIXES = {
@@ -40,6 +42,11 @@ def registrable(domain: str) -> str:
 def sld(domain: str) -> str:
     """The name label of the registrable domain, without its suffix."""
     return registrable(domain).split(".")[0]
+
+
+def _has_token(haystack: str, needle: str) -> bool:
+    """Is `needle` a whole hyphen/dot-delimited token inside `haystack`?"""
+    return needle in [t for t in re.split(r"[-_.]+", haystack) if t]
 
 
 def _edit_distance(a: str, b: str, cap: int = 3) -> int:
@@ -75,11 +82,16 @@ def domain_relation(a: str, b: str) -> str:
     sa, sb = sld(ra), sld(rb)
     longer, shorter = (sa, sb) if len(sa) >= len(sb) else (sb, sa)
 
-    # One brand name embedded in another registrable domain:
-    # klaviyo-billing / klaviyo, harborlinebank-support / harborlinebank,
-    # kettlehq-billing / kettlehq. Strongest signal — this is the shape
-    # invoice-fraud domains actually take.
-    if sa != sb and len(shorter) >= 4 and shorter in longer:
+    # One brand name embedded in another registrable domain, AT A TOKEN
+    # BOUNDARY: klaviyo-billing / klaviyo, harborlinebank-support /
+    # harborlinebank, kettlehq-billing / kettlehq. Strongest signal — this is
+    # the shape invoice-fraud domains actually take.
+    #
+    # The boundary matters. A bare substring test also fires on vanta.com vs
+    # vantageassurance.com and google.com vs googlemail.com — one unrelated,
+    # one legitimately the same company. Real impersonation appends a word to
+    # the brand; it does not bury the brand inside a longer one.
+    if sa != sb and len(shorter) >= 4 and _has_token(longer, shorter):
         return "embedded_brand"
 
     # Near-miss spellings: a transposition or a dropped letter.

@@ -1,0 +1,273 @@
+{
+  "profile_id": "finance",
+  "accepted": [
+    {
+      "question": "q1_needs_attention",
+      "type": "missed_item",
+      "severity": "high",
+      "summary": "Ferrocraft bounce (c40f18c2e4b60015, $118,240 invoice) never appeared in items or must_not_include.",
+      "action_taken": "Added finance-q1-13 (must_include, rank 5) and moved the two fraud hazards (Solent, Harborline reply-to mismatch) to ranks 2-3 so the ranking principle is applied consistently across all three hazard-class items."
+    },
+    {
+      "question": "q1_needs_attention",
+      "type": "stale_fact",
+      "severity": "medium",
+      "summary": "finance-q1-04 still listed 'the executed amendment' as outstanding; DocuSign confirmed all parties signed Aug 12.",
+      "action_taken": "Rewrote claim/why_it_qualifies to drop the amendment and keep only the still-open FY27 financials and June AR aging; added c40f18c2e4b60046 to message_ids."
+    },
+    {
+      "question": "q1_needs_attention",
+      "type": "missed_item",
+      "severity": "medium",
+      "summary": "Unread NetSuite 'new sign-in' security alert (c40f18c2e4b60024) absent from items and must_not_include.",
+      "action_taken": "Added finance-q1-15 (borderline, not ranked) — real signal but unconfirmed compromise, unlike the blocked Google alert already excluded."
+    },
+    {
+      "question": "q1_needs_attention",
+      "type": "missed_item",
+      "severity": "low",
+      "summary": "Avalara 2-year order form (c10f18c2e4b60033) expiring Aug 15 was a genuine open decision window, absent from the set.",
+      "action_taken": "Added finance-q1-14 (acceptable, rank 13)."
+    },
+    {
+      "question": "q1_needs_attention",
+      "type": "misranked",
+      "severity": "low",
+      "summary": "finance-q1-07 (Harborline wire-fraud, reply-to mismatch) ranked 7th, below a $4,230 expense approval, inconsistent with the Solent hazard's rank 2.",
+      "action_taken": "Moved to rank 3, immediately after the Solent hazard; renumbered ranks 1-13 contiguously."
+    },
+    {
+      "question": "q2_forgetting",
+      "type": "false_positive",
+      "severity": "high",
+      "summary": "finance-q2-07 (conditional promise to Frank re: executed amendment) is closed — DocuSign shows all parties signed Aug 12, before the promise's own Friday deadline check date.",
+      "action_taken": "Removed from items/ranked; added to must_not_include with trap 'already-completed', citing c40f18c2e4b60046."
+    },
+    {
+      "question": "q2_forgetting",
+      "type": "stale_fact",
+      "severity": "medium",
+      "summary": "finance-q2-02 claimed the lease amortization schedule was still hers and 6 days overdue; it was re-dated to Aug 14 and delegated to Miles on Aug 10.",
+      "action_taken": "Narrowed claim to the related-party disclosures only, added c10f18c2e4b60044/c10f18c2e4b60045 to message_ids, reworded why_it_qualifies to note the lease schedule is tracked separately now."
+    },
+    {
+      "question": "q2_forgetting",
+      "type": "stale_fact",
+      "severity": "medium",
+      "summary": "finance-q2-01 claimed the revenue-recognition memo 'still does not exist'; the base memo was delivered to Nadia on Jul 25 — only the Jul 29 Vantage Foundries update is open.",
+      "action_taken": "Rewrote claim to cover only the still-open update, replaced message_ids with c50f18c2e4b60009/10/c50f18c2e4b60024."
+    },
+    {
+      "question": "q2_forgetting",
+      "type": "missed_item",
+      "severity": "medium",
+      "summary": "Signed D&O/property renewal application Aditi promised Gail Underwood by Jul 10 (c10f18c2e4b60002) was never returned — absent from the set.",
+      "action_taken": "Added finance-q2-14 (acceptable, rank 10)."
+    },
+    {
+      "question": "q2_forgetting",
+      "type": "misranked",
+      "severity": "low",
+      "summary": "finance-q2-04 (covenant certificate, 15 days overdue, blocker cleared) ranked below finance-q2-03 (5 days overdue), inverting the stated ranking principle.",
+      "action_taken": "Reordered q2-04 above q2-03; renumbered ranks 1-10 contiguously."
+    },
+    {
+      "question": "q2_forgetting",
+      "type": "double_counted",
+      "severity": "low",
+      "summary": "finance-q2-05 (Ironforge) merged Aditi's own unsent apology (Q2) with the vendor's outstanding W-9 (a Q4-direction wait).",
+      "action_taken": "Dropped the W-9 clause from claim/why_it_qualifies/message_ids; the W-9 wait is left for Q4 (see finance-q4-10)."
+    },
+    {
+      "question": "q3_waiting_on_me",
+      "type": "missed_item",
+      "severity": "high",
+      "summary": "Gail Underwood's FY27 warehouse P&C renewal (c60f18c2e4b60010/11), resent once, no answer, Aug 15 bind deadline — the planted duplicate_resend for this question — was absent.",
+      "action_taken": "Added finance-q3-13 (must_include, rank 3)."
+    },
+    {
+      "question": "q3_waiting_on_me",
+      "type": "false_positive",
+      "severity": "high",
+      "summary": "finance-q3-09 (JE-2291 approval) is closed — Aditi's own Aug 7 recap and Karen's Aug 7 trial balance both confirm July close finalized Aug 6.",
+      "action_taken": "Removed from items/ranked; added to must_not_include with trap 'already-completed'."
+    },
+    {
+      "question": "q3_waiting_on_me",
+      "type": "double_counted",
+      "severity": "medium",
+      "summary": "finance-q3-10 (VB-33107, Suffolk Steel $12,060) is the same payable that appears the next day inside the Bill.com batch (finance-q3-04).",
+      "action_taken": "Removed the standalone item; folded c40f18c2e4b60029 into finance-q3-04's message_ids and updated its why_it_qualifies."
+    },
+    {
+      "question": "q3_waiting_on_me",
+      "type": "stale_fact",
+      "severity": "medium",
+      "summary": "finance-q3-02 still listed 'the executed amendment' as outstanding for Frank; it was signed Aug 12.",
+      "action_taken": "Rewrote claim to drop the amendment; added c40f18c2e4b60046 to message_ids."
+    },
+    {
+      "question": "q3_waiting_on_me",
+      "type": "missed_item",
+      "severity": "medium",
+      "summary": "Derek's smaller $2,184.19 Detroit Auto Show expense report (c40f18c2e4b60035), over the VP-Finance threshold since Jul 17, was absent — same pattern as the included $4,230 report.",
+      "action_taken": "Added finance-q3-14 (acceptable, rank 8)."
+    },
+    {
+      "question": "q3_waiting_on_me",
+      "type": "missed_item",
+      "severity": "medium",
+      "summary": "Chris Doyle at Avalara answered Aditi's counter-offer and is waiting on her signature (c10f18c2e4b60033), expiring Aug 15 — absent from the set.",
+      "action_taken": "Added finance-q3-15 (borderline, not ranked) — his message is an intent-to-send rather than an explicit ask, and the routine renewal was separately blessed, so borderline rather than must_include."
+    },
+    {
+      "question": "q3_waiting_on_me",
+      "type": "bad_quote",
+      "severity": "low",
+      "summary": "finance-q3-12 (Ruth's Ramp limit increase) carried due_date 2026-08-08/due_basis explicit, but the cited message states no date at all.",
+      "action_taken": "Fixed due_date to null and due_basis to 'none'."
+    },
+    {
+      "question": "q3_waiting_on_me",
+      "type": "misranked",
+      "severity": "low",
+      "summary": "finance-q3-11 (Sam's board-package promise to Tomás, high consequence) ranked 11th, below two routine internal approval items.",
+      "action_taken": "Moved to rank 8, directly after the must_include block (the two items it was ranked below are now removed)."
+    },
+    {
+      "question": "q4_waiting_on_others",
+      "type": "missed_item",
+      "severity": "high",
+      "summary": "Miles's AGV-250 bundled-warranty rev rec memo, delegated Jul 14 and cleared by Nadia Jul 27, was absent from Q4 despite the matching Q2/Q3 items already in the set.",
+      "action_taken": "Added finance-q4-13 (must_include, rank 4)."
+    },
+    {
+      "question": "q4_waiting_on_others",
+      "type": "missed_item",
+      "severity": "medium",
+      "summary": "A second, earlier Kenji out-of-office question (Jul 27, Q2 federal estimate safe-harbor vs. true-up) was missing; only the later Aug 3 Q3 question was captured.",
+      "action_taken": "Merged into finance-q4-03: added c40f18c2e4b60018/19 to message_ids, widened claim to cover both unanswered questions, moved days_open to 16 (measured from the earlier Jul 27 ask)."
+    },
+    {
+      "question": "q4_waiting_on_others",
+      "type": "missed_item",
+      "severity": "medium",
+      "summary": "Karen's $62,000 Bristow deferred-revenue reclass, conditional on Sam's sign-off (c60f18c2e4b60012), never resolved on record — the planted conditional_promise-by-another for this question.",
+      "action_taken": "Added finance-q4-14 (borderline, not ranked) — genuinely unresolved, but July close being finalized makes silent resolution plausible without proof."
+    },
+    {
+      "question": "q4_waiting_on_others",
+      "type": "stale_fact",
+      "severity": "medium",
+      "summary": "finance-q4-01 presented Friday Aug 7 as the live deadline for Derek/Ruth's budget inputs; Aditi's own Aug 7 all-hands note reset it to Aug 14.",
+      "action_taken": "Fixed due_date to 2026-08-14, added c50f18c2e4b60022 to message_ids, reworded claim to describe the Aug 7 date as superseded."
+    },
+    {
+      "question": "q4_waiting_on_others",
+      "type": "stale_fact",
+      "severity": "medium",
+      "summary": "finance-q4-04 anchored on the July accrued-payroll accrual as still blocked by Hannah's numbers, but July close was declared final Aug 6; the live wait is the FY27 headcount-actuals ask.",
+      "action_taken": "Dropped the payroll-accrual clause, re-anchored on c50f18c2e4b60022 (the freshest reconfirmation), added it to message_ids."
+    },
+    {
+      "question": "q4_waiting_on_others",
+      "type": "stale_fact",
+      "severity": "low",
+      "summary": "finance-q4-04's claim resolved 'by Friday' to Jul 20, but Jul 20, 2026 is a Monday; the ask was sent Fri Jul 17, so 'Friday' resolves to Jul 24.",
+      "action_taken": "Fixed due_date to 2026-07-24 with due_basis 'implicit' (combined with the accrual fix above in the same item)."
+    },
+    {
+      "question": "q4_waiting_on_others",
+      "type": "misranked",
+      "severity": "low",
+      "summary": "finance-q4-06 (Miles's $190K audit memo, an explicit sign-off condition, consequence high) ranked below finance-q4-05 (a $1,240 trace, consequence medium, no due date).",
+      "action_taken": "Reordered above finance-q4-05 and promoted tier to must_include — it gates an auditor sign-off, the same class of dependency as finance-q4-02/13."
+    },
+    {
+      "question": "q4_waiting_on_others",
+      "type": "missed_item",
+      "severity": "low",
+      "summary": "Chris Doyle (Avalara) promised the revised 2-year order form on Jul 29; it never arrived, expiring Aug 15.",
+      "action_taken": "Added finance-q4-15 (acceptable, rank 11)."
+    },
+    {
+      "question": "q4_waiting_on_others",
+      "type": "missed_item",
+      "severity": "low",
+      "summary": "Karen never confirmed the board-deck financials slide sanity-check Aditi asked for Aug 6 (cash runway figure in question).",
+      "action_taken": "Added finance-q4-16 (borderline, not ranked)."
+    },
+    {
+      "question": "q4_waiting_on_others",
+      "type": "stale_fact",
+      "severity": "low",
+      "summary": "finance-q4-10 (Ironforge W-9) framed the vendor as the blocker, but Aditi's own Aug 1 draft attributes the delay to her unapproved invoice queue and says she is releasing payment.",
+      "action_taken": "Retiered to borderline and reworded why_it_qualifies to state the ambiguity explicitly."
+    },
+    {
+      "question": "q5_what_changed",
+      "type": "missed_item",
+      "severity": "medium",
+      "summary": "The Q2 commission accelerator methodology reversal (long_thread: quarterly average -> deal-by-deal, +$8,400 for Owen Castillo) was absent from Q5 despite matching the pattern of two included long_thread items.",
+      "action_taken": "Added finance-q5-12 (acceptable, rank 5)."
+    },
+    {
+      "question": "q5_what_changed",
+      "type": "missed_item",
+      "severity": "medium",
+      "summary": "The mailbox states two irreconcilable versions of the Harborline facility terms ($2.5M/SOFR+250 vs $3M/SOFR+275, minimum-cash covenant) from the same source 6 days apart, and Aditi is later shown repeating the earlier figures in a live board email; absent from items and must_not_include.",
+      "action_taken": "Per instructions on corpus self-contradictions: added finance-q5-15 as tier borderline (excluded from ranked), claim states the contradiction plainly and does not pick a winner, documented at length in curator_notes rather than resolved."
+    },
+    {
+      "question": "q5_what_changed",
+      "type": "missed_item",
+      "severity": "low",
+      "summary": "AGV-200 chassis/SM-40 servo cost chain ($286 -> attempted $312 -> negotiated $298, NetSuite standard-cost update) is a clean two-endpoint delta absent from the set.",
+      "action_taken": "Added finance-q5-13 (acceptable, rank 12)."
+    },
+    {
+      "question": "q5_what_changed",
+      "type": "missed_item",
+      "severity": "low",
+      "summary": "AGV-250 bundled-warranty rev-rec treatment the owner agreed to on Jul 14 was revised Jul 20 and auditor-confirmed Jul 27 — a belief-diff absent from the set.",
+      "action_taken": "Added finance-q5-14 (borderline, not ranked) — reads as ordinary technical refinement rather than a correction requiring action."
+    },
+    {
+      "question": "q5_what_changed",
+      "type": "bad_quote",
+      "severity": "low",
+      "summary": "finance-q5-04's previous_value ($340K) was sourced to Sam's reaction message rather than Nadia's originating estimate.",
+      "action_taken": "Added c20f18c2e4b60005 to message_ids and set from_message_id to it."
+    },
+    {
+      "question": "q5_what_changed",
+      "type": "missed_item",
+      "severity": "low",
+      "summary": "The two fraudulent 'your details have changed' messages (Solent lookalike, Harborline spam wire fraud) are the sharpest Q5 false positives in this mailbox and were absent from must_not_include.",
+      "action_taken": "Added both to must_not_include with trap 'lookalike_domain'."
+    },
+    {
+      "question": "q6_slipping_through_cracks",
+      "type": "missed_item",
+      "severity": "high",
+      "summary": "The Harborline wire-fraud phishing message (c30f18c2e4b60046) — spam-foldered, unstarred, and the only fraud message in the mailbox with zero tricky_tags annotation — was entirely absent from Q6.",
+      "action_taken": "Added finance-q6-11 (must_include, rank 1 — the most invisible item in the mailbox, riding on the live credit-facility closing). Also confirmed it is already present in Q1 as a borderline hazard (finance-q1-12), which is legitimate overlap per QUESTIONS.md, not double-counting."
+    }
+  ],
+  "rejected": [
+    {
+      "question": "q1_needs_attention",
+      "type": "missed_item",
+      "severity": "medium",
+      "summary": "Validator proposed adding the JE-2291 / July-2026-GL-close approval task as a missed Q1 item.",
+      "reason_rejected": "Verified the obligation is closed, not missed: Aditi's own Aug 7 SENT recap ('July close is final as of yesterday,' c50f18c2e4b60022) and Karen's Aug 7 trial balance ('ties out to the $1.92M opex figure ... and everything else on the close checklist,' c60f18c2e4b60049) both confirm the July period locked before the as-of moment. This is the same conclusion the Q3 validator independently reached about the identical obligation (their false_positive finding against finance-q3-09). Added to must_not_include instead of items in both Q1 and Q3."
+    },
+    {
+      "question": "q1_needs_attention",
+      "type": "missed_item",
+      "severity": "medium",
+      "summary": "Validator proposed adding the overdue Pemberton & Wells PBC deliverables (lease amortization schedule, related-party disclosures) to Q1, hedging that it might belong to Q2 instead.",
+      "reason_rejected": "This is owner-authored-promise-gone-quiet material — the defining shape of Q2 forgetting, not Q1 attention (no imminent hazard or fresh escalation attaches to it the way the Meridian lease amendment, a different obligation, does in Q3/Q1). It is already captured and corrected in Q2 (finance-q2-02, stale_fact fix accepted above). Adding it a second time to Q1 would duplicate the same obligation across questions without meeting Q1's stricter urgency framing. Noted in Q1's curator_notes that this was considered and routed to Q2 instead, per the validator's own suggested fallback."
+    }
+  ]
+}

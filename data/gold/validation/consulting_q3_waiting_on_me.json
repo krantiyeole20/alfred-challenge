@@ -1,0 +1,38 @@
+{
+  "profile_id": "consulting",
+  "question": "q3_waiting_on_me",
+  "items_reviewed": 19,
+  "verdict": "issues",
+  "findings": [
+    {
+      "type": "false_positive",
+      "severity": "medium",
+      "item_id": "consulting-q3-08",
+      "message_ids": ["e60f18c2e4b60023", "e60f18c2e4b60024", "e60f18c2e4b60025", "e60f18c2e4b60026", "e60f18c2e4b60027", "e60f18c2e4b60028", "e60f18c2e4b60029"],
+      "problem": "The 'still good for 2pm Wednesday?' logistics question Lucia asked resolves to Wed Aug 12 2026 — the as-of date itself — so by 23:59 Aug 12 the 2pm slot has already come and gone one way or the other; it is not a live, forward-looking wait at the as-of instant.",
+      "evidence": "\"And just to close the loop on Wednesday — still good for 2pm? Can send the QBR deck Tuesday night.\" (e60f18c2e4b60029, sent Wed 05 Aug 2026 14:35 -05:00). The send timestamp is itself 2:35pm on a Wednesday, i.e. after 2pm that same day, so 'Wednesday' cannot mean the send-day — the only later Wednesday before the Aug 12 23:59 as-of cutoff is Aug 12 itself.",
+      "recommended_action": "move to must_not_include (meeting time referenced has already passed by the as-of moment — per QUESTIONS.md's rule that 'a meeting already held kills its RSVP/logistics asks'; if anything this is a Q6/Q2-shaped concern about whether the meeting happened at all given nobody confirmed, not an open Q3 wait)"
+    },
+    {
+      "type": "stale_fact",
+      "severity": "low",
+      "item_id": "consulting-q3-05",
+      "message_ids": ["e60f18c2e4b60040"],
+      "problem": "The anchor message's own `date` field (14 Jul 2026) contradicts its attachment's internal content, which is headed '08/11/2026' and itemizes an expense from 'Stratus Industrial site visit (7/21)' — an expense dated a week AFTER the email's claimed send date, which is impossible. The item's `days_open: 29` is computed from the Jul 14 date field, but the attachment's own content (batch dated 08/11, deadline 'Friday, August 14') indicates this ask really originates around Aug 11, making true days_open close to 1, not 29.",
+      "evidence": "Message date: \"2026-07-14T15:45:00-05:00\"; attachment extracted_text: \"EXPENSIFY BATCH APPROVAL — 08/11/2026 ... 1. K. Brenner — mileage + parking, Stratus Industrial site visit (7/21): $186.40 ... ACTION NEEDED: Please approve this batch by EOD Friday, August 14\" (e60f18c2e4b60040, attachment Expensify_Batch_Approval_0811.pdf).",
+      "recommended_action": "fix days_open to reflect the attachment's true batch date (~1 day open, not 29) or flag the message date as a probable corpus data error to the pipeline owner; the inclusion, tier, and Aug 14 due_date remain correct and should not change"
+    }
+  ],
+  "checked_and_sound": [
+    "consulting-q3-01",
+    "consulting-q3-02",
+    "consulting-q3-03",
+    "consulting-q3-04",
+    "consulting-q3-06",
+    "consulting-q3-07",
+    "consulting-q3-09",
+    "consulting-q3-10",
+    "consulting-q3-11"
+  ],
+  "notes": "Bob Vandergriff merge verified: he emails from bob.vandergriff@meridiancastings.com (11 messages) and once from rvandergriff58@yahoo.com (e60f18c2e4b60003, 'quick one before tomorrow', Jul 19, tagged same_person_two_addresses). The yahoo message's two questions (Kyle's on-site week, Anil's data-pull timeline) both got resolved through the corporate-address staffing thread (e60f18c2e4b60014 family) and the Aug 6 Anil data-model-sync meeting — the gold set correctly treats this as one merged requester and does not spawn a second Bob item or double-count him, which is the right outcome. Swept every thread whose last message is inbound to Evelyn (127 threads) plus every attachment's extracted_text, all tricky-tag-carrying messages, and the one bcc'd message (e60f18c2e4b60043, doesn't name Evelyn, correctly excluded) — found no additional missed obligations beyond the two findings above. Also flag as low-confidence/non-actionable: item consulting-q3-01's why_it_qualifies claims Owen's 22 days is 'the longest any live counterparty has been blocked here,' but consulting-q3-07 (AME National, 43 days) and consulting-q3-11 (Nora Bishop, borderline, 53 days) are both longer — the rank-1 placement itself is still defensible (requester weight/urgency, per the question's multiplicative ranking principle), only the superlative in the rationale text overreaches; not worth a formal finding since no scored field is affected."
+}

@@ -1,0 +1,37 @@
+{
+  "profile_id": "consulting",
+  "question": "q2_forgetting",
+  "items_reviewed": 15,
+  "verdict": "issues",
+  "findings": [
+    {
+      "type": "missed_item",
+      "severity": "high",
+      "item_id": null,
+      "message_ids": ["e10f18c2e4b60001", "e10f18c2e4b60002", "e10f18c2e4b60003"],
+      "problem": "Evelyn made two explicit, dated promises to Bob Vandergriff (Meridian) on Aug 4 — a clean redlined SOW 'this afternoon' and Anil Bose's MES login by Friday Aug 7 — and neither shows up anywhere else in the mailbox as sent; this qualifying item is entirely missing from the gold set.",
+      "evidence": "\"I'll send his username and a backup contact by Friday so your IT can provision ahead of kickoff.\" (e10f18c2e4b60002, also promising \"I'll send the clean PDF this afternoon once Sheila finishes the redline pass\" in the same message)",
+      "recommended_action": "add new item with these fields: item_id consulting-q2-10, tier must_include, claim 'Evelyn told Bob Vandergriff on Aug 4 she would send the clean redlined Meridian Phase 2 SOW that afternoon and Anil Bose's MES username/access by Friday Aug 7 so his IT could provision ahead of kickoff; twelve days later neither has gone, and Bob's follow-up reply sits unread.', thread_id e10f18c2e4b60001, anchor_message_id e10f18c2e4b60002, message_ids [e10f18c2e4b60001, e10f18c2e4b60002, e10f18c2e4b60003], evidence_quote 'I'll send his username and a backup contact by Friday so your IT can provision ahead of kickoff.', why_it_qualifies 'Two owner-authored SENT commitments with explicit near-term dates, both passed with no delivery message anywhere in the mailbox; blocks procurement countersignature before the 15th and Anil's day-one data access on a signed $185K engagement; the counterparty's confirming reply (e10f18c2e4b60003) is unread, meaning Evelyn has not even seen that Bob is waiting on procurement.', counterparty bob.vandergriff@meridiancastings.com, due_date 2026-08-07, due_basis explicit, days_open 8, consequence high, tricky_tags []. This message carries no meta.commitment_made_by_user annotation at all, which is exactly the kind of unannotated case lazy parsing skips."
+    },
+    {
+      "type": "misranked",
+      "severity": "high",
+      "item_id": "consulting-q2-09",
+      "message_ids": ["e50f18c2e4b60020", "e50f18c2e4b60021", "e50f18c2e4b60022", "e50f18c2e4b60048", "e60f18c2e4b60023", "e60f18c2e4b60029"],
+      "problem": "The Halberd org-design deck item is tiered 'borderline' (and so excluded from the scored `ranked` list) on the reasoning that 'the Halberd QBR happened on Jul 29 and Lucia has not raised it again' — but the Jul 29-Aug 5 'Quick call this week?' thread is a *different*, later Halberd QBR (Q3 numbers/board-update prep, then drifting into the AME conference talk and a headshot request) that never once mentions the org-design deck Lucia needed for her own board prep. No message anywhere shows that deck was delivered, so the 'silent completion is plausible' rationale rests on conflating two unrelated Halberd threads, which is exactly the assumption the spec forbids ('never assume silent completion').",
+      "evidence": "Lucia's board-prep ask, 'Evelyn — my board prep starts Monday and I was expecting a draft of the org-design deck by now' (e50f18c2e4b60020), is never mentioned again in any later Lucia thread; the entire 'Quick call this week?' thread (e60f18c2e4b60023 onward, tricky_tags: topic_drift) only ever discusses Q3 numbers, the AME conference talk, and a headshot/bio — never the deck.",
+      "recommended_action": "retier to acceptable and add to `ranked`; also add message_id e50f18c2e4b60048 (an unsent DRAFT dated Jul 19, subject 'Halberd deck', addressed to Lucia: \"I know we said Wednesday for the revised deck and I want to get ahead of this before you have to ask, because Fiona had the interview synthesis ready last week and I'm the one who sat on turning it into something presentable... I keep saying I'll carve out real time for Halberd and then Meridian or Stratus—\") as additional engagement evidence — it is a second, independent, self-authored admission of the exact same lapse, which strengthens the case for inclusion rather than exclusion."
+    }
+  ],
+  "checked_and_sound": [
+    "consulting-q2-01",
+    "consulting-q2-02",
+    "consulting-q2-03",
+    "consulting-q2-04",
+    "consulting-q2-05",
+    "consulting-q2-06",
+    "consulting-q2-07",
+    "consulting-q2-08"
+  ],
+  "notes": "Distractors 1-6 in must_not_include all verified sound (Ridgefield #4417/#4471 are genuinely different invoices from #10412 that resolved separately and correctly stay out of Q2; the Meridian phase-1 report, Utilization draft, and Callahan draft are all correctly superseded by later sent mail; the timesheet-approval ask closed same-day; the inventory-turns forward is correctly Kyle's, not Evelyn's). Item consulting-q2-01 (Stratus final SOW language) initially looked like it might conflate two separate Stratus engagements — the $340K operations diagnostic and a distinct 'line-balancing across two Ohio lines' proposal (e10f18c2e4b60007, also due and unmet) — but meta.action_summary on e50f18c2e4b60035 (the MSA/indemnification chase, which explicitly cites 'the scope of the predictive-maintenance work') confirms Kyle's e60f18c2e4b60005 is about the same $340K deal, so the item is sound as anchored. Worth a human's attention, though not a hard defect: as of Aug 11 (e50f18c2e4b60045) Evelyn told Ana the Stratus contract was going out 'tomorrow' (Aug 12, the as-of date itself) — the item's 'has not gone' framing could go stale within hours of the as-of moment, but since no message actually confirms delivery, leaving it open is the correct call per the no-silent-completion rule. Also checked and explicitly rejected as candidates: the 'I'll fill Gordon in after Thursday's [Marcus Ohene] interview' aside (e50f18c2e4b60042) — the fifth-consultant hire resolved via a different candidate (Priya) days later, making this too tangled/low-value to assert as a clean miss; and Evelyn's own timesheet-discipline promise (e50f18c2e4b60043) — a genuine self-directed Q2-shaped commitment, but the corpus has no message either confirming or contradicting follow-through, so there is no verbatim evidence of non-closure to cite."
+}

@@ -1,0 +1,49 @@
+{
+  "profile_id": "hr",
+  "question": "q4_waiting_on_others",
+  "items_reviewed": 11,
+  "verdict": "issues",
+  "findings": [
+    {
+      "type": "missed_item",
+      "severity": "medium",
+      "item_id": null,
+      "message_ids": ["d50f18c2e4b60031"],
+      "problem": "Marcus's Aug 4 request to Omar Haddix for a call to hand off the Unit 4B badge-access-log date range (part of the active ER complaint investigation) has no reply anywhere in the mailbox and is not captured as a Q4 item, even though it is a directed, individually-addressed ask tied to the same sensitive matter already anchoring hr-q4-09.",
+      "evidence": "Let me know when you're free for a two-minute call and I'll give you the date range. (d50f18c2e4b60031, 'Badge access log -- confidential, just us for now', Aug 4 2026)",
+      "recommended_action": "add new item with these fields: thread_id/anchor_message_id/message_ids = d50f18c2e4b60031; claim ~ 'Omar Haddix has not confirmed he pulled the Unit 4B badge access log Marcus asked to hand off by phone on Aug 4'; counterparty omar.haddix@vireohealth.com; due_date null; due_basis none; days_open 8; consequence high (active ER/legal matter, same investigation as hr-q4-09); tricky_tags []; tier acceptable or borderline given the deliberately off-email handoff makes silent completion plausible but unproven"
+    },
+    {
+      "type": "missed_item",
+      "severity": "medium",
+      "item_id": null,
+      "message_ids": ["d50f18c2e4b60005", "d50f18c2e4b60006", "d50f18c2e4b60018"],
+      "problem": "Marcus re-forwarded Rich Delacroix's $18,500 second-installment invoice to Jenna Wu on Jul 13 asking her to process it 'this week' (already past the Net-15 window from the Jun 25 invoice date); no confirmation from Jenna appears anywhere in the mailbox, and this delegated payment task is missing from the Q4 set even though it matches the canonical Q4(a) pattern ('Have Wendy schedule the EDP call') exactly.",
+      "evidence": "please process once you've confirmed the PO against the engagement letter, see thread below. Net 15 from June 25, so we're already close -- can you get this out this week? (d50f18c2e4b60018, 'Fwd: VP Clinical Ops (West) search -- second installment due ($18,500)', Jul 13 2026)",
+      "recommended_action": "add new item with these fields: thread_id/anchor_message_id = d50f18c2e4b60018; message_ids = [d50f18c2e4b60005, d50f18c2e4b60006, d50f18c2e4b60018]; claim ~ 'Jenna Wu has not confirmed processing the $18,500 Summit Executive Search second-installment invoice Marcus re-forwarded Jul 13, already past its Net-15 window'; counterparty jenna.wu@vireohealth.com; due_date null (Net-15 window already lapsed by the ask itself); due_basis implicit; days_open 30; consequence medium; tricky_tags []; tier acceptable"
+    },
+    {
+      "type": "false_positive",
+      "severity": "low",
+      "item_id": "hr-q4-01",
+      "message_ids": ["d20f18c2e4b60049"],
+      "problem": "message_ids for hr-q4-01 includes d20f18c2e4b60049 (Renata Vlasov's room-booking confirmation for the benefits fair), which has nothing to do with the plan-comparison-sheet promise the item is about; it neither evidences the promise nor its non-delivery.",
+      "evidence": "Both rooms booked — main conference room downtown for the 22nd, and the Aurora clinic community room same day, staggered 10am/2pm. (d20f18c2e4b60049, 'Re: Open enrollment 2026 — kickoff & timeline', Jul 22 2026) — this is the full content of the cited message, unrelated to the plan comparison sheet.",
+      "recommended_action": "drop d20f18c2e4b60049 from message_ids (does not affect the claim, quote, or tier — cosmetic only)"
+    }
+  ],
+  "checked_and_sound": [
+    "hr-q4-01",
+    "hr-q4-02",
+    "hr-q4-03",
+    "hr-q4-04",
+    "hr-q4-05",
+    "hr-q4-06",
+    "hr-q4-07",
+    "hr-q4-08",
+    "hr-q4-09",
+    "hr-q4-10",
+    "hr-q4-11"
+  ],
+  "notes": "The specific narrowing the curator flagged was verified directly: Angela Nwosu's Aug 10 message (d20f18c2e4b60050) delivers only 'headline' renewal numbers and explicitly defers the 'full plan comparison sheet' to 'next week once the carrier finalizes the summary of benefits document' — no later message in the mailbox (checked all 29 Angela-touching messages) delivers that sheet, so hr-q4-01 is correctly still open. The rest of the 'Open enrollment 2026 — kickoff & timeline' thread (d20f18c2e4b60046) is otherwise fully resolved: comms dates confirmed Jul 17, rooms booked Jul 22 — nothing else in that thread is outstanding, confirming the narrowing was done correctly. Separately verified hr-q4-01 and hr-q4-10 are not a double-count: they are two distinct Angela promises (an employee-facing SBC/plan-comparison document vs. a competitive-carrier remarketing comparison for negotiating leverage) evidenced in different threads. All 6 must_not_include distractors were independently re-traced to their closing messages and hold up (including two cross-thread closures not obvious from the anchor thread alone: the Perioperative Nurse Manager invoice dispute closes in a differently-subject-lined thread d50f18c2e4b60037, and the E-Verify bump closes via Marcus's Aug 6 report to Farida, d50f18c2e4b60025, referencing an off-thread reply from Omar). All evidence_quotes verified as verbatim substrings of their cited message bodies. Ranking order is defensible under the stated (dependency criticality × staleness × chase count) formula; no clear inversions found, though hr-q4-09 (rank 5, tier must_include, consequence high, most sensitive matter in the mailbox) ranking below hr-q4-04 and hr-q4-01 (both lower consequence) is a judgment call worth a second look, not a violation."
+}

@@ -1,0 +1,39 @@
+{
+  "profile_id": "hr",
+  "question": "q2_forgetting",
+  "items_reviewed": 24,
+  "verdict": "issues",
+  "findings": [
+    {
+      "type": "missed_item",
+      "severity": "medium",
+      "item_id": null,
+      "message_ids": ["d50f18c2e4b60036"],
+      "problem": "Marcus's Aug 3 SENT promise to Angela Nwosu to review the open-enrollment guide proofs and return corrections 'by Monday' (Aug 10) is a clean owner commitment with no delivery message anywhere in the mailbox, and it is missing from both items and must_not_include.",
+      "evidence": "Received the enrollment guide proofs, thanks -- will review and get back to you by Monday with any corrections. First flip-through looks good. (d50f18c2e4b60036, standalone thread, meta.commitment_made_by_user='Review the enrollment guide proofs and get back to Angela by Monday.', meta.due_date=2026-08-10)",
+      "recommended_action": "add new item with these fields: claim='Marcus told Angela Nwosu on Aug 3 he would review the open enrollment guide proofs and send corrections by Monday (Aug 10); no corrections or follow-up message exists.', thread_id/anchor_message_id/message_ids=['d50f18c2e4b60036'], counterparty='angela.nwosu@keystonebenefits.com', due_date='2026-08-10', due_basis='implicit', days_open=9, consequence='medium', tier='acceptable'"
+    },
+    {
+      "type": "missed_item",
+      "severity": "low",
+      "item_id": null,
+      "message_ids": ["d10f18c2e4b60012", "d10f18c2e4b60014"],
+      "problem": "Marcus's Jul 14 SENT promise to Doug to send Q3 calibration rating-distribution guardrails 'Monday' (Jul 20), ahead of the Jul 28 clinical-ops calibration session, has no later message confirming it was sent, and it is missing from both items and must_not_include.",
+      "evidence": "I'll send the rating distribution guardrails Monday so there's no surprise on the 'no more than 20% top-box' guidance. (d10f18c2e4b60012, meta.commitment_made_by_user='Marcus committed to send rating distribution guardrails Monday.', meta.due_date=2026-07-20; thread ends d10f18c2e4b60014 'I'll ping them directly today' with no further guardrails message anywhere in the mailbox)",
+      "recommended_action": "add new item with these fields: claim='Marcus told Doug on Jul 14 he would send Q3 calibration rating-distribution guardrails by Monday Jul 20, ahead of the Jul 28 calibration session; no such message was ever sent.', thread_id/anchor_message_id='d10f18c2e4b60012', message_ids=['d10f18c2e4b60012','d10f18c2e4b60013','d10f18c2e4b60014'], counterparty='doug.feinstein@vireohealth.com', due_date='2026-07-20', due_basis='explicit', days_open=29, consequence='low', tier='acceptable' (low priority, defensible to omit given the calibration meeting has already passed without documented fallout)"
+    }
+  ],
+  "checked_and_sound": [
+    "hr-q2-01",
+    "hr-q2-02",
+    "hr-q2-03",
+    "hr-q2-04",
+    "hr-q2-05",
+    "hr-q2-06",
+    "hr-q2-07",
+    "hr-q2-08",
+    "hr-q2-09",
+    "hr-q2-10"
+  ],
+  "notes": "On the specific question posed for this validation pass -- whether Marcus's habit of moving sensitive matters to a call ('let's discuss live') discharges a commitment or leaves it open: I swept every instance of verbal-deferral language in the mailbox ('happy to brief you verbally', 'call you in 5', 'give you the date range... by phone, not email', 'want to walk through... before I put anything in writing'). Only one is treated as closing a Q2-relevant commitment: must_not_include entry for d50f18c2e4b60033, where Marcus's Aug 5 offer to Elaine ('happy to brief you verbally whenever works, ideally before Josh and I talk again this week') is closed by d50f18c2e4b60046, sent Aug 10: 'Call you in 5 -- want to talk through Unit 4B before my 2pm with Josh so I'm not the last one caught up.' I verified this is sound rather than a false closure: the Aug 10 message is dated inside the promised window, its stated purpose ('before my 2pm with Josh') matches the Aug 5 plan word-for-word in intent, and Unit 4B is independently established (via the deliberately-unsent draft d50f18c2e4b60050) as a matter Marcus is intentionally keeping off email on counsel's advice. An intent-to-call message is the strongest evidence an email corpus can produce for a legitimately verbal handoff of privileged HR-investigation material, and there is no later message casting doubt on whether the call happened. Ruling: this specific 'let's discuss live' discharges the commitment and is correctly excluded from Q2. The general rule the gold set should follow (and does, here): a bare 'let's discuss live' with no later corroborating message stays OPEN under the engagement test's absence-of-evidence standard -- silence does not close an obligation, even a verbal one -- but a later message whose timing and stated purpose specifically match the deferred plan is legitimate closing evidence. I found no case in this mailbox's Q2 items or distractors where a bare, uncorroborated 'let's talk live' was used to wrongly close something.\n\nSeparately, I want to flag as sound (not a defect) the three-way VP Clinical Ops confusion: the mailbox actually runs three concurrent, unconnected VP Clinical Ops searches under near-identical subject lines -- 'VP Clinical Operations (West)' (Castillo/Vogel, via Tim Osei), 'VP Clinical Ops -- finalist decision' (Castellano/Tran, via Rich Delacroix), and 'VP Clinical Ops -- finalist scorecards' (Dana Callahan/Grace Whitcomb, also via Rich Delacroix). Q1's curator_notes only mention the first two; item hr-q2-08 correctly treats the third (Callahan/Whitcomb onsite scheduling) as an independent, never-followed-up commitment. I confirmed no message anywhere connects the three storylines or explains the recruiter presenting an entirely different candidate pair a week apart, so hr-q2-08 is sound as an isolated forgetting rather than a duplicate of the other two threads.\n\nAll ten items' evidence_quote strings verified as verbatim substrings of their anchor message body_text; all commitment/due-date/days_open arithmetic checked against the 2026-08-12T23:59:00-06:00 as-of moment and confirmed correct (days_open is consistently measured from the promise's origin message, not the due date). All seven must_not_include entries verified against the corpus, including the two that looked riskiest on first pass: the 'delivered_attachment' comp-bands claim (confirmed via d60f18c2e4b60031, a message the body-text keyword search initially missed because the delivery note doesn't repeat the phrase 'comp band') and the E-Verify chase-and-close claim (confirmed via the Jul 28/Aug 3/Aug 6 thread). No false positives, no closed items still marked open, no ownership problems, and no bad distractors found among the existing content."
+}

@@ -1,0 +1,47 @@
+{
+  "profile_id": "consulting",
+  "question": "q4_waiting_on_others",
+  "items_reviewed": 16,
+  "verdict": "issues",
+  "findings": [
+    {
+      "type": "false_positive",
+      "severity": "high",
+      "item_id": "consulting-q4-04",
+      "message_ids": ["e10f18c2e4b60003", "e50f18c2e4b60046"],
+      "problem": "The item claims Bob Vandergriff still owes the countersigned Meridian Phase 2 SOW back from procurement as of Aug 12, but a later SENT message in a different thread shows the contract is signed and the engagement has been running for two weeks by the as-of date.",
+      "evidence": "Subject: \"Contract signed — let's kick off\"; body: \"workplan's holding up well on our end, two weeks into phase 2.\" (e50f18c2e4b60046, sent 2026-08-12 09:30 -05:00, Evelyn to Bob). This is corroborated by the Aug 11 partner update: \"Meridian phase 2 is underway, Ana leading on-site with Kyle supporting remotely alongside Anil — that's a six-week engagement running through late September.\" (e60f18c2e4b60050).",
+      "recommended_action": "remove item (or move to must_not_include as an already-resolved trap: procurement returned the countersigned SOW sometime between Aug 5 and Aug 12, and phase 2 is confirmed underway); re-rank items 5-10 up by one position to fill the gap left at rank 4"
+    },
+    {
+      "type": "missed_item",
+      "severity": "medium",
+      "item_id": null,
+      "message_ids": ["e50f18c2e4b60005", "e50f18c2e4b60006"],
+      "problem": "Evelyn asked Gordon whether Ana should take an APICS Chicago panel slot, and separately asked Ana directly whether she'd take it — both directed, single-recipient asks requiring a yes/no answer. Neither Gordon nor Ana ever replied anywhere in the mailbox, and the panel is Sept 17, now five weeks out as of the as-of date.",
+      "evidence": "\"I'm buried with Meridian and Stratus that week. Thoughts on Ana taking it instead?\" (e50f18c2e4b60005, Evelyn to Gordon, 2026-06-22); \"Ana — APICS wants one of us on a panel Sept 17. Can you take it?\" (e50f18c2e4b60006, Evelyn to Ana, 2026-06-23). No reply from either recipient exists anywhere in the 300-message corpus through Aug 12.",
+      "recommended_action": "add new item with these fields: claim describing the unanswered APICS panel decision owed by Gordon/Ana; counterparty could name both (or Ana as the more direct addressee); due_basis implicit (event Sept 17); tier acceptable or borderline given low stakes; days_open ~51 as of Aug 12"
+    },
+    {
+      "type": "missed_item",
+      "severity": "low",
+      "item_id": null,
+      "message_ids": ["e50f18c2e4b60022"],
+      "problem": "Evelyn delegated the client-facing Halberd org-design deck to Ana with an explicit EOD-Wednesday deadline (per the curator's own action_owner/action_summary annotation on the message) and promised the client Lucia a revised draft by that date. No message anywhere in the mailbox shows Ana confirming receipt or delivering the deck. Silence does not close an obligation per the gold-set-spec, so this is a candidate missed item, though lower confidence: Evelyn's Aug 11 partner note that Halberd is \"basically closed out\" and wrapping in three weeks suggests the engagement is healthy overall and this specific hand-off likely didn't stay stuck for three-plus weeks.",
+      "evidence": "\"Ana — can you own the Halberd deck from here? Told Lucia she'll have a revised draft from you by EOD Wednesday.\" (e50f18c2e4b60022, 2026-07-20, Evelyn to Ana). No reply from Ana in this thread or any other thread confirming the deck was sent to Lucia.",
+      "recommended_action": "human review before adding — check whether this is truly open or was superseded by the general Halberd wrap-up narrative; if added, low tier/consequence given the circumstantial evidence the engagement is on track"
+    }
+  ],
+  "checked_and_sound": [
+    "consulting-q4-01",
+    "consulting-q4-02",
+    "consulting-q4-03",
+    "consulting-q4-05",
+    "consulting-q4-06",
+    "consulting-q4-07",
+    "consulting-q4-08",
+    "consulting-q4-09",
+    "consulting-q4-10"
+  ],
+  "notes": "Ridgefield scrutiny (the assigned focus): the four invoice numbers are NOT a corpus inconsistency — they are four genuinely distinct, independently evidenced receivables, each with its own amount, origin story, and message trail. #4417 ($14,200, 'March follow-on work') is correctly excluded from Q4 (paid, confirmed by Marta on Aug 10: 'Confirmed it's processed now, check for $14,200 goes out this week', e20f18c2e4b60041). #10412 ($18,400, 'the Ridgefield efficiency assessment we closed out in February', due May 18) and #4471 ($22,400, 'Q1 engagement', issued May 8) are both correctly in Q4 (items 06/07) with distinct threads, amounts, and chase histories. #0987 ($9,750, invoice date and due date both May 12) is attested only by a single automated QuickBooks notice (e40f18c2e4b60018) that was never escalated into a human ask by Sheila or Evelyn — it correctly fails Q4's directed-expectation test (no SENT ask exists, no promise was made to Evelyn) and is instead placed in Q1 as a hazard needing attention, which the gold set already does correctly (Q1 item cites e40f18c2e4b60018 directly). The Q6 curator_notes even reference 'three other Ridgefield invoice threads' beyond #10412, confirming the four-invoice reading is intentional and consistent across the whole gold file, not an error. No finding needed on this axis — the curator's reading holds up. Separately and lower-priority: the mailbox contains at least three overlapping, only partially reconciled 'Stratus Industrial supply chain diagnostic' proposal narratives with different site names and dollar figures (DCs Denver/Columbus/Allentown at $76K in the thread cited by item consulting-q4-02; plants Rockford/Peoria/Gary + Terre Haute shifting $85K->$102K->$91K in e60f18c2e4b60006, left unanswered by Evelyn since Jul 30 — that's Q3-shaped, not Q4, so correctly absent here; and an Ohio-lines line-balancing track at $148-168K already handled via the existing must_not_include OOO entry). None of this invalidates item consulting-q4-02's core claim (an explicit, dated, still-unanswered 'sign by Friday 8/14' SOW ask exists in its own right), but a human should sanity-check which Stratus thread the ranking/prose narrative should lean on, since Evelyn's own Aug 11 partner summary (e60f18c2e4b60050) describes the live deal using the Terre-Haute/~$90K language rather than the $76K SOW sent that same morning. All ten evidence_quotes verified as verbatim substrings of their cited messages' body_text. All six must_not_include entries checked and confirmed legitimate traps (delivered_attachment, two already-resolved chases, out_of_office, forwarded_task_not_users, diffused_group_ask). due_date/days_open arithmetic verified correct across all ten items."
+}

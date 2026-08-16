@@ -10,7 +10,7 @@
   "answers": {
     "q1_needs_attention": {
       "question": "What needs my attention?",
-      "prose_answer": "Priyanka's sustainability press release is the one that bites: she sent it Jul 25, resent Jul 27 asking for edits by end of day, and the reclaimed-wood line launches Aug 15 — your edits to the sourcing claims and Sofia's quote are 16 days late. Second, your 8:14am email to Tessa with the final holiday campaign files bounced this morning — Fold & Field's mailbox is over quota, so the agency does not have them. Wes needs the board-deck attribution number by Friday Aug 14 and Nina still owes the methodology paragraph she promised Aug 3. Then: the Q4 budget template Wes sent is due Aug 21 at 5pm (that deadline is only inside the spreadsheet), Klaviyo auto-renews Aug 20 at $17,940 instead of $14,400, and the 'klaviyo-billing.com' payment-failure email is a fake — flag it to Wes, don't pay it.",
+      "prose_answer": "Priyanka's sustainability press release is the one that bites: she sent it Jul 25, resent Jul 27 asking for edits by end of day, and the reclaimed-wood line launches Aug 15 \u2014 your edits to the sourcing claims and Sofia's quote are 16 days late. Second, your 8:14am email to Tessa with the final holiday campaign files bounced this morning \u2014 Fold & Field's mailbox is over quota, so the agency does not have them. Wes needs the board-deck attribution number by Friday Aug 14 and Nina still owes the methodology paragraph she promised Aug 3. Then: the Q4 budget template Wes sent is due Aug 21 at 5pm (that deadline is only inside the spreadsheet), Klaviyo auto-renews Aug 20 at $17,940 instead of $14,400, and the 'klaviyo-billing.com' payment-failure email is a fake \u2014 flag it to Wes, don't pay it.",
       "ranked": [
         "marketing-q1-01",
         "marketing-q1-02",
@@ -18,11 +18,11 @@
         "marketing-q1-04",
         "marketing-q1-05",
         "marketing-q1-06",
+        "marketing-q1-11",
         "marketing-q1-07",
         "marketing-q1-08",
-        "marketing-q1-09",
         "marketing-q1-10",
-        "marketing-q1-11"
+        "marketing-q1-12"
       ],
       "items": [
         {
@@ -36,7 +36,7 @@
             "b60f18c2e4b60039",
             "b60f18c2e4b60040"
           ],
-          "evidence_quote": "Resending — did this reach you? Need your edits by end of day today.",
+          "evidence_quote": "Resending \u2014 did this reach you? Need your edits by end of day today.",
           "why_it_qualifies": "Open owner obligation 16 days past its stated date, external PR counterparty has already chased once, and the release is gated to an Aug 15 product launch that is now three days out.",
           "counterparty": "priyanka@vaultedpr.com",
           "due_date": "2026-07-27",
@@ -51,13 +51,13 @@
           "item_id": "marketing-q1-02",
           "rank": 2,
           "tier": "must_include",
-          "claim": "Jordan's Aug 12 email carrying the final holiday campaign round files never reached Tessa Brandt — Fold & Field's mailbox is over quota and the message bounced permanently, so the agency is working without the files.",
+          "claim": "Jordan's Aug 12 email carrying the final holiday campaign round files never reached Tessa Brandt \u2014 Fold & Field's mailbox is over quota and the message bounced permanently, so the agency is working without the files.",
           "thread_id": "b40f18c2e4b60044",
           "anchor_message_id": "b40f18c2e4b60044",
           "message_ids": [
             "b40f18c2e4b60044"
           ],
-          "evidence_quote": "The message you sent on Aug 12, 2026 8:14 AM CDT, subject \"Holiday Campaign Creative — Final Round Files,\" was not delivered.",
+          "evidence_quote": "The message you sent on Aug 12, 2026 8:14 AM CDT, subject \"Holiday Campaign Creative \u2014 Final Round Files,\" was not delivered.",
           "why_it_qualifies": "Hazard requiring awareness today: delivery failed silently, the holiday campaign just reversed to Direction C, and every party assumes the files were sent. Fixable only if Jordan notices the bounce.",
           "counterparty": "tessa@foldandfield.agency",
           "due_date": "2026-08-12",
@@ -79,7 +79,7 @@
             "b20f18c2e4b60035",
             "b20f18c2e4b60036"
           ],
-          "evidence_quote": "Can do — I'll have the appendix paragraph to you both by Monday.",
+          "evidence_quote": "Can do \u2014 I'll have the appendix paragraph to you both by Monday.",
           "why_it_qualifies": "Hard deadline in two days with an internal finance counterparty who cannot file the slide without it; 31% vs 48% paid-revenue gap goes in front of the board either way.",
           "counterparty": "wes.duffy@habitatgoods.com",
           "due_date": "2026-08-14",
@@ -92,7 +92,7 @@
           "item_id": "marketing-q1-04",
           "rank": 4,
           "tier": "must_include",
-          "claim": "Marketing's completed Q4 budget submission template is due to Wes Duffy and finance-planning by Friday Aug 21 at 5:00pm CT — a deadline that appears nowhere in the email body, only inside the attached spreadsheet.",
+          "claim": "Marketing's completed Q4 budget submission template is due to Wes Duffy and finance-planning by Friday Aug 21 at 5:00pm CT \u2014 a deadline that appears nowhere in the email body, only inside the attached spreadsheet.",
           "thread_id": "b60f18c2e4b60041",
           "anchor_message_id": "b60f18c2e4b60041",
           "message_ids": [
@@ -132,7 +132,7 @@
           "item_id": "marketing-q1-06",
           "rank": 6,
           "tier": "must_include",
-          "claim": "The 'Action Required: Payment Failed' Klaviyo notice is a phishing attempt from the lookalike domain klaviyo-billing.com — it must not be paid, and Wes/AP should be warned, especially with a genuine Klaviyo renewal notice also in the inbox.",
+          "claim": "The 'Action Required: Payment Failed' Klaviyo notice is a phishing attempt from the lookalike domain klaviyo-billing.com \u2014 it must not be paid, and Wes/AP should be warned, especially with a genuine Klaviyo renewal notice also in the inbox.",
           "thread_id": "b60f18c2e4b60008",
           "anchor_message_id": "b60f18c2e4b60008",
           "message_ids": [
@@ -151,9 +151,9 @@
         },
         {
           "item_id": "marketing-q1-07",
-          "rank": 7,
+          "rank": 8,
           "tier": "acceptable",
-          "claim": "Cam Okafor's request to approve the $2,800 budget bump for Amara Diallo's whitelisting spend, due before Monday Aug 3, is still unapproved — Jordan's reply answered only the homepage-banner compliment in the same email.",
+          "claim": "Cam Okafor's request to approve the $2,800 budget bump for Amara Diallo's whitelisting spend, due before Monday Aug 3, is still unapproved \u2014 Jordan's reply answered only the homepage-banner compliment in the same email.",
           "thread_id": "b60f18c2e4b60042",
           "anchor_message_id": "b60f18c2e4b60042",
           "message_ids": [
@@ -173,7 +173,7 @@
         },
         {
           "item_id": "marketing-q1-08",
-          "rank": 8,
+          "rank": 9,
           "tier": "acceptable",
           "claim": "Amara Diallo accepted $4,800 plus the 60-day usage extension for the holiday gifting collab on Aug 11 and is waiting on the contract; Alan Chetty still needs to review it before it goes to her.",
           "thread_id": "b10f18c2e4b60044",
@@ -181,7 +181,10 @@
           "message_ids": [
             "b10f18c2e4b60044",
             "b10f18c2e4b60045",
-            "b10f18c2e4b60046"
+            "b10f18c2e4b60046",
+            "b10f18c2e4b60006",
+            "b10f18c2e4b60007",
+            "b10f18c2e4b60008"
           ],
           "evidence_quote": "$4,800 with the 60-day usage extension works for me. Send the contract whenever you're ready!",
           "why_it_qualifies": "Deal terms are agreed and the only thing between Habitat and an early-October shoot is paper Jordan owes; the counterparty spoke last and is unblocked only by her.",
@@ -193,29 +196,10 @@
           "tricky_tags": []
         },
         {
-          "item_id": "marketing-q1-09",
-          "rank": 9,
-          "tier": "acceptable",
-          "claim": "Jordan's Aug 5 counter on the Fold & Field retainer (11% with a 14-month term, or flat at current scope, instead of the proposed 18%) has gone a week without a reply, and Sofia wants the agency renewal closed out before Q1.",
-          "thread_id": "b50f18c2e4b60019",
-          "anchor_message_id": "b50f18c2e4b60019",
-          "message_ids": [
-            "b50f18c2e4b60019"
-          ],
-          "evidence_quote": "18% on the retainer is more than I can defend internally given our total marketing budget is only growing 9% next year.",
-          "why_it_qualifies": "Live negotiation with the agency that carries the holiday production load, silent for seven days, and on the Aug 25 offsite agenda; the agency mailbox being over quota makes the silence worth checking rather than assuming.",
-          "counterparty": "tessa@foldandfield.agency",
-          "due_date": null,
-          "due_basis": "none",
-          "days_open": 7,
-          "consequence": "medium",
-          "tricky_tags": []
-        },
-        {
           "item_id": "marketing-q1-10",
           "rank": 10,
           "tier": "acceptable",
-          "claim": "Sofia asked for the Q4 brand positioning deck 'before the leadership offsite', which the calendar fixes at Aug 25 — the same day the team is meant to leave with positioning, budget and creative locked.",
+          "claim": "Sofia asked for the Q4 brand positioning deck 'before the leadership offsite', which the calendar fixes at Aug 25 \u2014 the same day the team is meant to leave with positioning, budget and creative locked.",
           "thread_id": "b60f18c2e4b60045",
           "anchor_message_id": "b60f18c2e4b60045",
           "message_ids": [
@@ -235,9 +219,9 @@
         },
         {
           "item_id": "marketing-q1-11",
-          "rank": 11,
+          "rank": 7,
           "tier": "acceptable",
-          "claim": "Google blocked a sign-in attempt on Jordan's account from Kyiv on Aug 11 that used her actual password, three days after her Google password was changed — the credential should be treated as compromised and checked.",
+          "claim": "Google blocked a sign-in attempt on Jordan's account from Kyiv on Aug 11 that used her actual password, three days after her Google password was changed \u2014 the credential should be treated as compromised and checked.",
           "thread_id": "b40f18c2e4b60040",
           "anchor_message_id": "b40f18c2e4b60040",
           "message_ids": [
@@ -245,11 +229,30 @@
             "b40f18c2e4b60034"
           ],
           "evidence_quote": "Someone just used your password to try to sign in to your Google Account jordan.feld@habitatgoods.com.",
-          "why_it_qualifies": "Genuine security alert (attacker had the password, not just an unrecognised-device notice) on the account that owns Klaviyo, Meta and Google Ads access; awareness is required even though nobody is waiting on a reply.",
+          "why_it_qualifies": "Genuine security alert (attacker had the current, post-rotation password, not just an unrecognised-device notice) on the account that owns Klaviyo, Meta and Google Ads access; Q1's ranking principle puts irreversibility first, and an account takeover here is the most irreversible loss available in this mailbox even though nobody is waiting on a reply.",
           "counterparty": null,
           "due_date": null,
           "due_basis": "none",
           "days_open": 1,
+          "consequence": "high",
+          "tricky_tags": []
+        },
+        {
+          "item_id": "marketing-q1-12",
+          "rank": 11,
+          "tier": "acceptable",
+          "claim": "The DTC Growth Summit confirmed Jordan's Oct 14 retention-panel session on Jul 30 and needs a speaker bio, headshot, session-title confirmation, three discussion questions and A/V requirements by Aug 25; the printed program locks Sept 1.",
+          "thread_id": "b30f18c2e4b60024",
+          "anchor_message_id": "b30f18c2e4b60024",
+          "message_ids": [
+            "b30f18c2e4b60024"
+          ],
+          "evidence_quote": "What we need from you by August 25:",
+          "why_it_qualifies": "Genuine, agreed-to commitment with a hard deliverable list and a real Sept 1 program lock \u2014 the exact archetype of Q1 criterion 4, a deadline wearing promotional styling, filed among CATEGORY_PROMOTIONS mail where it is easy to skim past.",
+          "counterparty": "priya@dtcgrowthsummit.com",
+          "due_date": "2026-08-25",
+          "due_basis": "explicit",
+          "days_open": 13,
           "consequence": "medium",
           "tricky_tags": []
         }
@@ -263,14 +266,14 @@
         },
         {
           "message_id": "b60f18c2e4b60044",
-          "subject": "Habitat Goods — Exclusive Q4 Spark Ads Incentive",
+          "subject": "Habitat Goods \u2014 Exclusive Q4 Spark Ads Incentive",
           "why_excluded": "Cold outreach whose Reply-To (growth-leads@tt-adpartners.net) is a different domain from the From address; not a real TikTok offer and not an obligation. Verify, do not act.",
           "trap": "reply_to_mismatch"
         },
         {
           "message_id": "b60f18c2e4b60014",
           "subject": "Can Someone Jump on the Vendor Spend Audit?",
-          "why_excluded": "'Can someone' to six recipients with nobody named — no owner is established for Jordan, and Nina explicitly claimed it the next morning ('I'll take this').",
+          "why_excluded": "'Can someone' to six recipients with nobody named \u2014 no owner is established for Jordan, and Nina explicitly claimed it the next morning ('I'll take this').",
           "trap": "diffused_group_ask"
         },
         {
@@ -288,15 +291,21 @@
         {
           "message_id": "b10f18c2e4b60047",
           "subject": "Approval needed: End-of-summer sale email/SMS",
-          "why_excluded": "Ben's sign-off request was answered the same afternoon ('Approved, go ahead and send') — closed, not pending.",
+          "why_excluded": "Ben's sign-off request was answered the same afternoon ('Approved, go ahead and send') \u2014 closed, not pending.",
           "trap": "already-completed"
+        },
+        {
+          "message_id": "b50f18c2e4b60019",
+          "subject": "SOW renewal \u2014 the 18% increase is too much",
+          "why_excluded": "Jordan already acted (she sent the Aug 5 counter) and her own next step is explicitly gated on Tessa replying first ('Let me know which direction works on your end and I'll take it to Wes') \u2014 no open obligation of Jordan's, no counterparty escalating at her, no hazard, no closing decision window. This is a Q4 chase-list item (see marketing-q4-03), not a Q1 attention item.",
+          "trap": "waiting-on-counterparty-not-attention"
         }
       ],
-      "curator_notes": "Ranked by irreversibility, then time pressure, then counterparty weight. The press release edges out the bounced Tessa email because it is 16 days overdue against an Aug 15 external launch, while the bounce is recoverable the moment Jordan sees it. The Klaviyo price increase is kept in Q1 rather than Q5: the only message stating the old $14,400 rate is the same message announcing the new one. The lookalike-domain phishing note is included strictly as a hazard — any payable framing would be disqualifying."
+      "curator_notes": "Ranked by irreversibility, then time pressure, then counterparty weight. The press release edges out the bounced Tessa email because it is 16 days overdue against an Aug 15 external launch, while the bounce is recoverable the moment Jordan sees it. The Klaviyo price increase is kept in Q1 rather than Q5: the only message stating the old $14,400 rate is the same message announcing the new one. The lookalike-domain phishing note is included strictly as a hazard; any payable framing would be disqualifying. The Google sign-in alert is ranked high (not last): the attacker used the account's current, just-rotated password, and the account holds Klaviyo, Meta and Google Ads access, which makes it the most irreversible item in the set if ignored. The Fold & Field retainer counter (Jordan waiting on Tessa) was removed from this question \u2014 Jordan has already acted and her own next step is gated on Tessa's reply, which is a Q4 chase-list shape, not a Q1 attention item; it remains in Q4. The DTC Growth Summit booking is a genuine agreed-to commitment buried in promotional-category mail; note that a differently-named, differently-domained 'DTC Summit' (dtcsummit.co) declined an Oct 14 panel back in June \u2014 the corpus never states whether these are the same event, so gold treats them as two separate organizations rather than inventing a resolution."
     },
     "q2_forgetting": {
       "question": "What am I forgetting?",
-      "prose_answer": "Five of your own promises have gone quiet. You told Denise on Jul 21 you'd give her a firm yes/no on the Sept 1 replatform go-live by Friday close of business — she needed it for the BFCM freeze window and never got it. You told Alan Chetty you'd send him the Amara Diallo draft contract 'early next week' on Jul 17; Amara has since agreed to $4,800 and is waiting on that paper. You promised Wes you'd walk Sofia through the $20K shoot overage yourself — the explanation is still sitting in an unsent draft while Wes closed the $18,400 PO today. You told Tessa on Jul 31 you were sending the SOW to Sofia and would follow up early the next week. And the conditional brief you promised Sofia — 'if legal signs off today' — was never delivered or withdrawn. Also outstanding: the Q4 paid social deck promised to Sofia by Jul 16 and Q3 actuals promised to Wes by Jul 10.",
+      "prose_answer": "Five of your own promises have gone quiet, plus one more just surfaced. You told Denise on Jul 21 you'd give her a firm yes/no on the replatform go-live by Friday close of business \u2014 she needed it for the BFCM freeze window and never got it (note: our own records disagree on whether that date is Aug 17 or Sept 1 \u2014 worth settling before you answer her). You told Alan Chetty you'd send him the Amara Diallo draft contract 'early next week' on Jul 17; Amara has since agreed to $4,800 and is waiting on that paper. You promised Wes you'd walk Sofia through the photoshoot overage yourself \u2014 the explanation is still sitting in an unsent draft; a separate, smaller catering/TikTok PO overage closed today, but that isn't the one Sofia is owed an explanation for. You told Tessa on Jul 31 you were sending retainer terms to Sofia and would follow up early the next week \u2014 no follow-up exists. The conditional Amara brief you promised Sofia \u2014 'if legal signs off today' \u2014 was never delivered or withdrawn. And you owe Sofia a recap of the June Fold & Field call that never went out. Also outstanding: the Q4 paid social deck promised Jul 16 and Q3 actuals promised Jul 10.",
       "ranked": [
         "marketing-q2-01",
         "marketing-q2-02",
@@ -304,19 +313,23 @@
         "marketing-q2-04",
         "marketing-q2-05",
         "marketing-q2-06",
-        "marketing-q2-07"
+        "marketing-q2-07",
+        "marketing-q2-10"
       ],
       "items": [
         {
           "item_id": "marketing-q2-01",
           "rank": 1,
           "tier": "must_include",
-          "claim": "Jordan promised Denise Aoki a firm yes/no on the Sept 1 replatform go-live by Friday Jul 24 close of business, in time for the BFCM freeze decision; no answer was ever sent and Denise's freeze window is still open.",
+          "claim": "Jordan promised Denise Aoki a firm yes/no on the replatform go-live (Denise's ask names 'Sept 1') by Friday Jul 24 close of business, in time for the BFCM freeze decision; no answer was ever sent and Denise's freeze window is still open. Note: the mailbox is internally inconsistent about the actual go-live date \u2014 Nina told Jordan on Jul 8 it had moved to Aug 17, and Sofia's Aug 5 note treats Aug 17 as settled, but Jordan's own Aug 10 message to Denise still refers to 'the Sept 1 date' as tight. It is unclear which date, if either, Denise is meant to be tracking.",
           "thread_id": "b50f18c2e4b60003",
           "anchor_message_id": "b50f18c2e4b60004",
           "message_ids": [
             "b50f18c2e4b60003",
-            "b50f18c2e4b60004"
+            "b50f18c2e4b60004",
+            "b60f18c2e4b60006",
+            "b60f18c2e4b60007",
+            "b50f18c2e4b60040"
           ],
           "evidence_quote": "What I can commit to: I'll have a firm yes/no on Sept 1 to you by Friday close of business, in time for your BFCM freeze decision.",
           "why_it_qualifies": "Owner-authored commitment with an explicit date now 19 days past, no delivery message anywhere in the mailbox, and a downstream ops decision (BFCM freeze) that Denise said she could not make without it.",
@@ -351,14 +364,15 @@
           "item_id": "marketing-q2-03",
           "rank": 3,
           "tier": "must_include",
-          "claim": "Jordan told Wes on Jul 27 she would personally walk Sofia through the extra $20K on the Aug 4-5 shoot; the explanation exists only as an unsent draft from Aug 4, and Wes booked the $18,400 photoshoot PO on Aug 12.",
+          "claim": "Jordan told Wes on Jul 27 she would personally walk Sofia through the extra photoshoot spend on the Aug 4-5 shoot (approved at $20K, an added lighting tech and expedited shipping) before Sofia saw it in the budget review; the explanation exists only as an unsent draft from Aug 4, which puts the actual overage at about $6,400. This is a separate matter from the $18,400 catering/TikTok-half-day PO overage that Wes closed with Jordan's sign-off on Aug 12 \u2014 a different line item Jordan approved the same morning, not the explanation she still owes Sofia.",
           "thread_id": "b50f18c2e4b60047",
           "anchor_message_id": "b50f18c2e4b60047",
           "message_ids": [
             "b50f18c2e4b60027",
-            "b50f18c2e4b60047"
+            "b50f18c2e4b60047",
+            "b10f18c2e4b60050"
           ],
-          "evidence_quote": "Sofia — I want to get ahead of this before the Amex statement lands on your desk.",
+          "evidence_quote": "Sofia \u2014 I want to get ahead of this before the Amex statement lands on your desk.",
           "why_it_qualifies": "Classic engagement-then-silence: Jordan wrote the promise to Wes, started the note to Sofia, and never sent it. The books close this week, so Sofia now learns about the overage from the statement instead of from Jordan.",
           "counterparty": "sofia.marchetti@habitatgoods.com",
           "due_date": null,
@@ -371,14 +385,14 @@
           "item_id": "marketing-q2-04",
           "rank": 4,
           "tier": "must_include",
-          "claim": "Jordan told Tessa on Jul 31 she was routing the agency SOW to Sofia for sign-off and would follow up 'early next week'; twelve days later there is no follow-up, no Sofia sign-off in the mailbox, and the renewal is still unresolved.",
+          "claim": "Jordan told Tessa on Jul 31 she was sending the retainer terms discussed in this thread ($18,500/mo, up from $14,200) to Sofia for sign-off and would follow up 'early next week'; twelve days later there is no follow-up and no Sofia sign-off anywhere in the mailbox. This is a different, and numerically inconsistent, document from the FY27 base SOW, which was separately DocuSigned as fully executed at $34,500/mo on Jul 23 \u2014 the mailbox contains several mutually inconsistent Fold & Field retainer figures across independent threads (see curator_notes); this item concerns only the follow-up Jordan herself promised and never sent.",
           "thread_id": "b60f18c2e4b60030",
           "anchor_message_id": "b60f18c2e4b60036",
           "message_ids": [
             "b60f18c2e4b60035",
             "b60f18c2e4b60036"
           ],
-          "evidence_quote": "Sending the SOW to Sofia for sign-off — I'll follow up early next week.",
+          "evidence_quote": "Sending the SOW to Sofia for sign-off \u2014 I'll follow up early next week.",
           "why_it_qualifies": "Owner-authored commitment with a self-set date that has passed; the agency has been waiting on the renewal since July and Sofia lists closing it as a Q4 priority.",
           "counterparty": "tessa@foldandfield.agency",
           "due_date": "2026-08-07",
@@ -393,14 +407,14 @@
           "item_id": "marketing-q2-05",
           "rank": 5,
           "tier": "must_include",
-          "claim": "Jordan's conditional promise to Sofia — the Amara campaign brief by Friday EOD if legal cleared the influencer contract that day — never resolved either way: no brief was sent and no 'keeping you posted' update followed.",
+          "claim": "Jordan's conditional promise to Sofia \u2014 the Amara campaign brief by Friday EOD if legal cleared the influencer contract that day \u2014 never resolved either way: no brief was sent and no 'keeping you posted' update followed.",
           "thread_id": "b60f18c2e4b60017",
           "anchor_message_id": "b60f18c2e4b60017",
           "message_ids": [
             "b60f18c2e4b60017"
           ],
           "evidence_quote": "if legal signs off on the Amara Diallo influencer contract today, I'll have the campaign brief over to you by Friday EOD",
-          "why_it_qualifies": "Conditional promise whose stated date passed unresolved. It must be reported as conditional, not as a flat missed deadline — but Jordan also promised 'Will keep you posted either way', and that update was never sent.",
+          "why_it_qualifies": "Conditional promise whose stated date passed unresolved. It must be reported as conditional, not as a flat missed deadline \u2014 but Jordan also promised 'Will keep you posted either way', and that update was never sent.",
           "counterparty": "sofia.marchetti@habitatgoods.com",
           "due_date": "2026-07-17",
           "due_basis": "explicit",
@@ -414,14 +428,14 @@
           "item_id": "marketing-q2-06",
           "rank": 6,
           "tier": "acceptable",
-          "claim": "Jordan promised Sofia the full Q4 paid social deck — channel breakdown, prior-year comp, creative calendar and a one-page screen-share version — by end of day Jul 16, ahead of Sofia's Thursday leadership presentation; there is no send in the mailbox.",
+          "claim": "Jordan promised Sofia the full Q4 paid social deck \u2014 channel breakdown, prior-year comp, creative calendar and a one-page screen-share version \u2014 by end of day Jul 16, ahead of Sofia's Thursday leadership presentation; there is no send in the mailbox.",
           "thread_id": "b50f18c2e4b60001",
           "anchor_message_id": "b50f18c2e4b60002",
           "message_ids": [
             "b50f18c2e4b60001",
             "b50f18c2e4b60002"
           ],
-          "evidence_quote": "I'll have the full deck — channel-by-channel, comp to last year, the creative calendar, and a one-page version you can screen-share cold — in your inbox by end of day tomorrow",
+          "evidence_quote": "I'll have the full deck \u2014 channel-by-channel, comp to last year, the creative calendar, and a one-page version you can screen-share cold \u2014 in your inbox by end of day tomorrow",
           "why_it_qualifies": "Owner commitment with an explicit next-day date, made to her own manager before a leadership review; nothing in the corpus shows the deck being delivered, and the same material is now needed for the Aug 25 offsite.",
           "counterparty": "sofia.marchetti@habitatgoods.com",
           "due_date": "2026-07-16",
@@ -434,13 +448,13 @@
           "item_id": "marketing-q2-07",
           "rank": 7,
           "tier": "acceptable",
-          "claim": "Jordan apologised to Wes for late Q3 marketing actuals on Jul 8 and committed to delivering them — spend by channel, reconciled against the Klaviyo and Meta invoices — by end of day Friday Jul 10; no delivery message exists.",
+          "claim": "Jordan apologised to Wes for late Q3 marketing actuals on Jul 8 and committed to delivering them \u2014 spend by channel, reconciled against the Klaviyo and Meta invoices \u2014 by end of day Friday Jul 10; no delivery message exists.",
           "thread_id": "b50f18c2e4b60021",
           "anchor_message_id": "b50f18c2e4b60021",
           "message_ids": [
             "b50f18c2e4b60021"
           ],
-          "evidence_quote": "I'll have the finalized Q3 actuals — spend by channel, reconciled against the Klaviyo and Meta invoices — to you by end of day Friday.",
+          "evidence_quote": "I'll have the finalized Q3 actuals \u2014 spend by channel, reconciled against the Klaviyo and Meta invoices \u2014 to you by end of day Friday.",
           "why_it_qualifies": "Explicit self-imposed deadline more than a month stale, already once apologised for; silence does not close it, and Wes is still reconciling Q3 numbers for the Aug 14 board deck.",
           "counterparty": "wes.duffy@habitatgoods.com",
           "due_date": "2026-07-10",
@@ -451,7 +465,7 @@
         },
         {
           "item_id": "marketing-q2-08",
-          "rank": 8,
+          "rank": 9,
           "tier": "borderline",
           "claim": "Jordan's July expenses (the Fold & Field lunch and the SOW-meeting Ubers) are still unsubmitted in Expensify and were flagged on Jul 8 as aging out of the reimbursement window in about three weeks.",
           "thread_id": "b10f18c2e4b60034",
@@ -470,7 +484,7 @@
         },
         {
           "item_id": "marketing-q2-09",
-          "rank": 9,
+          "rank": 10,
           "tier": "borderline",
           "claim": "Jordan told Tessa on Jul 28 that holiday creative notes would go to Rachel by Friday Jul 31 so the Monday sign-off would hold; only a single hero-shot tweak was sent to Rachel on Aug 3.",
           "thread_id": "b50f18c2e4b60005",
@@ -487,25 +501,66 @@
           "days_open": 15,
           "consequence": "low",
           "tricky_tags": []
+        },
+        {
+          "item_id": "marketing-q2-10",
+          "rank": 8,
+          "tier": "acceptable",
+          "claim": "Jordan promised Sofia on Jun 23 she would send a recap after Thursday's Fold & Field renewal call; no recap was ever sent to Sofia, and the retainer renewal has since fragmented across several later threads with inconsistent terms.",
+          "thread_id": "b10f18c2e4b60011",
+          "anchor_message_id": "b10f18c2e4b60013",
+          "message_ids": [
+            "b10f18c2e4b60011",
+            "b10f18c2e4b60012",
+            "b10f18c2e4b60013"
+          ],
+          "evidence_quote": "Will do. I'll send a recap after the call.",
+          "why_it_qualifies": "Owner-authored commitment in SENT mail with a clean engagement-test pass; the most stale unfulfilled owner promise in the mailbox (~50 days), and no later message to Sofia mentions a Fold & Field call recap.",
+          "counterparty": "sofia.marchetti@habitatgoods.com",
+          "due_date": null,
+          "due_basis": "none",
+          "days_open": 50,
+          "consequence": "low",
+          "tricky_tags": []
+        },
+        {
+          "item_id": "marketing-q2-11",
+          "rank": 11,
+          "tier": "borderline",
+          "claim": "Jordan told her friend Meg on Aug 2 she'd pick a restaurant for their Saturday Aug 8 dinner; no later message names a spot.",
+          "thread_id": "b10f18c2e4b60037",
+          "anchor_message_id": "b10f18c2e4b60038",
+          "message_ids": [
+            "b10f18c2e4b60037",
+            "b10f18c2e4b60038"
+          ],
+          "evidence_quote": "Saturday works! Let's do 7pm, I'll pick the spot.",
+          "why_it_qualifies": "Borderline: a genuine self-directed personal intention with a date, structurally identical to the founder mailbox's vet-refill example, but purely personal and low stakes \u2014 included for completeness, not scored either way.",
+          "counterparty": null,
+          "due_date": null,
+          "due_basis": "none",
+          "days_open": 4,
+          "consequence": "low",
+          "tricky_tags": []
         }
       ],
       "must_not_include": [
         {
           "message_id": "b60f18c2e4b60005",
-          "subject": "Re: PDP Template — July 4th Sale Timeline",
-          "why_excluded": "Denise's commitment, and she explicitly retracted it ('we're not going to make it before the 4th after all'). A cancelled commitment is a change, not something Jordan forgot — and the template went live Aug 7 anyway.",
+          "subject": "Re: PDP Template \u2014 July 4th Sale Timeline",
+          "why_excluded": "Denise's commitment, and she explicitly retracted it ('we're not going to make it before the 4th after all'). A cancelled commitment is a change, not something Jordan forgot \u2014 and the template went live Aug 7 anyway.",
           "trap": "cancelled_commitment"
         },
         {
           "message_id": "b60f18c2e4b60037",
-          "subject": "Q3 Paid Social Wrap-Up — Recap Coming",
+          "subject": "Q3 Paid Social Wrap-Up \u2014 Recap Coming",
           "why_excluded": "Nina's promise, not Jordan's, and it was delivered with the attached recap on Jul 23. Nothing owed by the owner here.",
           "trap": "delivered_attachment"
         },
         {
           "message_id": "b60f18c2e4b60010",
-          "subject": "Abandoned Cart Flow — Status Check",
-          "why_excluded": "'He said he'd have it ready' resolves to Cam or Ben, never to Jordan — and the flow shipped on Aug 8. Nothing forgotten, nothing owed.",
+          "subject": "Abandoned Cart Flow \u2014 Status Check",
+          "why_excluded": "'He said he'd have it ready' resolves to Cam or Ben, never to Jordan \u2014 and the flow shipped on Aug 8. Nothing forgotten, nothing owed.",
           "trap": "ambiguous_pronoun_owner"
         },
         {
@@ -516,30 +571,31 @@
         },
         {
           "message_id": "b50f18c2e4b60010",
-          "subject": "Re: Partnership proposal — Linen & Co x Habitat Goods",
+          "subject": "Re: Partnership proposal \u2014 Linen & Co x Habitat Goods",
           "why_excluded": "Jordan answered Amara's capsule proposal with a clear no-for-now and a spring revisit. Deliberately closed, not forgotten.",
           "trap": "already-completed"
         },
         {
           "message_id": "b60f18c2e4b60001",
           "subject": "Fwd: Business Insider wants comment + assets by Thursday",
-          "why_excluded": "Never Jordan's deliverable — Cam owed Priyanka the assets. Forwarded for visibility only, so there is nothing here for Jordan to have forgotten.",
+          "why_excluded": "Never Jordan's deliverable \u2014 Cam owed Priyanka the assets. Forwarded for visibility only, so there is nothing here for Jordan to have forgotten.",
           "trap": "forwarded_task_not_users"
         }
       ],
-      "curator_notes": "Q2 vs Q6 was decided by the engagement test: everything here is attested by Jordan's own SENT or DRAFT text. The unsent Sofia draft about the shoot overage (b50f18c2e4b60047) is the archetypal case — she wrote the promise to Wes and started the note. The second unsent draft, 'for Nina —' (b50f18c2e4b60050), was left out because the question it was going to ask (Q3 attribution by channel) was in fact worked through in the b20f18c2e4b60032 thread days later, so the intent was not dropped. The Alan contract promise and the Amara-is-waiting item in Q3 are one chain but two obligations (draft to legal, contract to creator) and are scored in different questions, not twice in one."
+      "curator_notes": "Q2 vs Q6 was decided by the engagement test: everything here is attested by Jordan's own SENT or DRAFT text. The unsent Sofia draft about the shoot overage (b50f18c2e4b60047) is the archetypal case \u2014 she wrote the promise to Wes and started the note; note that draft's ~$6,400 figure is a different, smaller shortfall than the separate $18,400 catering/TikTok PO Wes closed on Aug 12, which this item's claim now makes explicit. The second unsent draft, 'for Nina \u2014' (b50f18c2e4b60050), was left out because the question it was going to ask (Q3 attribution by channel) was in fact worked through in the b20f18c2e4b60032 thread days later, so the intent was not dropped. The Alan contract promise and the Amara-is-waiting item in Q3 are one chain but two obligations (draft to legal, contract to creator) and are scored in different questions, not twice in one. Two corpus-wide contradictions bear on items here and are recorded rather than resolved: (1) the replatform go-live date is stated as both Aug 17 (Nina, Jul 8; Sofia, Aug 5) and Sept 1 (Jordan's own Jul 21 and Aug 10 messages) \u2014 marketing-q2-01's claim states this plainly instead of picking a winner; the equivalent Q5 item (marketing-q5-06) has been moved to borderline for the same reason. (2) The Fold & Field retainer is stated at several mutually inconsistent dollar figures across independent threads ($22K\u2192$25.5K FY27 proposal; $34.5K FY27 SOW DocuSigned as executed; $42K Q4 SOW Scope redline awaiting countersignature, see marketing-q3-11; $14.2K\u2192$18.5K in the Studio-Day-drift thread that produced marketing-q2-04's promise; an '18% increase' counter in yet another thread) \u2014 these read as independent-generator-batch artifacts rather than one evolving number, and no single figure is asserted as canonical anywhere in this gold set."
     },
     "q3_waiting_on_me": {
       "question": "What is waiting on me?",
-      "prose_answer": "Seven people are genuinely blocked on you. Priyanka Rao has been waiting since Jul 25 — resent Jul 27 — for your edits on the sustainability press release, and the line launches Aug 15. Cam Okafor still needs the $2,800 Amara whitelisting approval he asked for before Aug 3; your reply that day answered only his compliment about the homepage banner. Amara Diallo accepted $4,800 plus 60-day usage on Aug 11 and is waiting on the contract. Wes needs your completed Q4 budget template by Aug 21 at 5pm. Sofia is waiting on two things: the Q4 brand positioning deck before the Aug 25 offsite, and a draft of the department OKRs by Aug 21 — plus the note to the team that Nov 4 is final. Cam wants your read on the Q4 editorial plan before Friday's sync, and Rachel needs a yes on the Nordstrom logo sizing.",
+      "prose_answer": "Eight people are genuinely blocked on you. Priyanka Rao has been waiting since Jul 25 \u2014 resent Jul 27 \u2014 for your edits on the sustainability press release, and the line launches Aug 15. Tessa Brandt is waiting on your countersignature on the Q4 SOW redline she signed and sent back on Jul 30. Wes needs your completed Q4 budget template by Aug 21 at 5pm. Cam Okafor still needs the $2,800 Amara whitelisting approval he asked for before Aug 3; your reply that day answered only his compliment about the homepage banner. Sofia is waiting on two things: the Q4 brand positioning deck before the Aug 25 offsite, and a draft of the department OKRs by Aug 21 \u2014 plus the note to the team that Nov 4 is final. Amara Diallo accepted $4,800 plus 60-day usage on Aug 11 and is waiting on the contract. Cam's read on the Q4 editorial plan was due before Friday Aug 7's sync and is now overdue, and Rachel needs a yes on the Nordstrom logo sizing.",
       "ranked": [
         "marketing-q3-01",
-        "marketing-q3-02",
-        "marketing-q3-03",
+        "marketing-q3-11",
         "marketing-q3-04",
+        "marketing-q3-02",
         "marketing-q3-05",
-        "marketing-q3-06",
+        "marketing-q3-03",
         "marketing-q3-07",
+        "marketing-q3-06",
         "marketing-q3-08",
         "marketing-q3-09",
         "marketing-q3-10"
@@ -549,15 +605,15 @@
           "item_id": "marketing-q3-01",
           "rank": 1,
           "tier": "must_include",
-          "claim": "Priyanka Rao is blocked on Jordan's edits to the sustainability-line press release — specifically the paragraph-2 sourcing claims and Sofia's attributed quote — asked Jul 25, resent Jul 27, still unanswered.",
+          "claim": "Priyanka Rao is blocked on Jordan's edits to the sustainability-line press release \u2014 specifically the paragraph-2 sourcing claims and Sofia's attributed quote \u2014 asked Jul 25, resent Jul 27, still unanswered.",
           "thread_id": "b60f18c2e4b60039",
           "anchor_message_id": "b60f18c2e4b60040",
           "message_ids": [
             "b60f18c2e4b60039",
             "b60f18c2e4b60040"
           ],
-          "evidence_quote": "Resending — did this reach you? Need your edits by end of day today.",
-          "why_it_qualifies": "Named external requester, sole recipient, explicit ask of Jordan, she spoke last and has already bumped once — the strongest 'still open' signal in the mailbox. Counted once despite the resend.",
+          "evidence_quote": "Resending \u2014 did this reach you? Need your edits by end of day today.",
+          "why_it_qualifies": "Named external requester, sole recipient, explicit ask of Jordan, she spoke last and has already bumped once \u2014 the strongest 'still open' signal in the mailbox. Counted once despite the resend.",
           "counterparty": "priyanka@vaultedpr.com",
           "due_date": "2026-07-27",
           "due_basis": "explicit",
@@ -569,17 +625,17 @@
         },
         {
           "item_id": "marketing-q3-02",
-          "rank": 2,
+          "rank": 4,
           "tier": "must_include",
-          "claim": "Cam Okafor is waiting on Jordan's approval of the $2,800 budget bump for Amara Diallo's whitelisting spend, asked Jul 30 for a decision before Monday Aug 3 — Jordan's reply addressed only his aside about the homepage banner.",
+          "claim": "Cam Okafor is waiting on Jordan's approval of the $2,800 budget bump for Amara Diallo's whitelisting spend, asked Jul 30 for a decision before Monday Aug 3 \u2014 Jordan's reply addressed only his aside about the homepage banner.",
           "thread_id": "b60f18c2e4b60042",
           "anchor_message_id": "b60f18c2e4b60042",
           "message_ids": [
             "b60f18c2e4b60042",
             "b60f18c2e4b60043"
           ],
-          "evidence_quote": "Hey Jordan — quick one, can you approve the $2,800 budget bump for the Amara Diallo influencer whitelisting spend before Monday?",
-          "why_it_qualifies": "Direct, individually addressed spend approval from a named colleague, past its date and unanswered. Touching the thread is not answering the ask — the reply proves Jordan never registered it.",
+          "evidence_quote": "Hey Jordan \u2014 quick one, can you approve the $2,800 budget bump for the Amara Diallo influencer whitelisting spend before Monday?",
+          "why_it_qualifies": "Direct, individually addressed spend approval from a named colleague, past its date and unanswered. Touching the thread is not answering the ask \u2014 the reply proves Jordan never registered it.",
           "counterparty": "cam.okafor@habitatgoods.com",
           "due_date": "2026-08-03",
           "due_basis": "explicit",
@@ -591,7 +647,7 @@
         },
         {
           "item_id": "marketing-q3-03",
-          "rank": 3,
+          "rank": 6,
           "tier": "must_include",
           "claim": "Amara Diallo accepted $4,800 with the 60-day usage extension for the holiday gifting collab on Aug 11 and is waiting on Habitat Goods to send the contract before the early-October shoot.",
           "thread_id": "b10f18c2e4b60044",
@@ -599,10 +655,13 @@
           "message_ids": [
             "b10f18c2e4b60044",
             "b10f18c2e4b60045",
-            "b10f18c2e4b60046"
+            "b10f18c2e4b60046",
+            "b10f18c2e4b60006",
+            "b10f18c2e4b60007",
+            "b10f18c2e4b60008"
           ],
           "evidence_quote": "$4,800 with the 60-day usage extension works for me. Send the contract whenever you're ready!",
-          "why_it_qualifies": "External creator, sole recipient thread, terms agreed, and she explicitly hands the next step to Jordan. Nothing moves until the contract goes out (and through Alan's review).",
+          "why_it_qualifies": "External creator, sole recipient thread, terms agreed, and she explicitly hands the next step to Jordan. Nothing moves until the contract goes out \u2014 and Jordan still owes Alan Chetty the draft contract she promised him on Jul 17 before it can go to Amara for signature.",
           "counterparty": "amara@thelinencut.com",
           "due_date": null,
           "due_basis": "none",
@@ -612,9 +671,9 @@
         },
         {
           "item_id": "marketing-q3-04",
-          "rank": 4,
+          "rank": 3,
           "tier": "must_include",
-          "claim": "Wes Duffy is waiting on marketing's completed Q4 budget submission template, due to him and finance-planning by Friday Aug 21 at 5:00pm CT — the deadline lives only in the attached spreadsheet.",
+          "claim": "Wes Duffy is waiting on marketing's completed Q4 budget submission template, due to him and finance-planning by Friday Aug 21 at 5:00pm CT \u2014 the deadline lives only in the attached spreadsheet.",
           "thread_id": "b60f18c2e4b60041",
           "anchor_message_id": "b60f18c2e4b60041",
           "message_ids": [
@@ -655,7 +714,7 @@
         },
         {
           "item_id": "marketing-q3-06",
-          "rank": 6,
+          "rank": 8,
           "tier": "acceptable",
           "claim": "Sofia is waiting on a draft of the marketing department OKRs by Aug 21, plus 45 minutes this week to talk through her five Q4 priorities before Jordan finalises them.",
           "thread_id": "b60f18c2e4b60046",
@@ -676,16 +735,16 @@
           "item_id": "marketing-q3-07",
           "rank": 7,
           "tier": "acceptable",
-          "claim": "Cam Okafor is waiting on Jordan's read of the Q4 editorial strategy before Friday's sync, including a decision on the UGC budget line and his flag that September content must lock by Aug 22.",
+          "claim": "Cam Okafor is waiting on Jordan's read of the Q4 editorial strategy that was due before the Aug 7 sync \u2014 now five days overdue \u2014 including a decision on the UGC budget line and his flag that September content must lock by Aug 22.",
           "thread_id": "b60f18c2e4b60047",
           "anchor_message_id": "b60f18c2e4b60047",
           "message_ids": [
             "b60f18c2e4b60047"
           ],
-          "evidence_quote": "Let me know if any of this conflicts with where you and Sofia are landing on overall priorities — happy to adjust before Friday.",
+          "evidence_quote": "Let me know if any of this conflicts with where you and Sofia are landing on overall priorities \u2014 happy to adjust before Friday.",
           "why_it_qualifies": "Direct one-to-one ask, unanswered since Aug 6, with a hard downstream constraint (Aug 22 September-content lock) that Cam cannot resolve alone.",
           "counterparty": "cam.okafor@habitatgoods.com",
-          "due_date": "2026-08-14",
+          "due_date": "2026-08-07",
           "due_basis": "implicit",
           "days_open": 6,
           "consequence": "medium",
@@ -693,7 +752,7 @@
         },
         {
           "item_id": "marketing-q3-08",
-          "rank": 8,
+          "rank": 9,
           "tier": "acceptable",
           "claim": "Sofia asked Jordan on Aug 3 to tell the rest of the marketing team that the site launch date is final at Nov 4 so nobody keeps planning around Nov 1; no such note has gone out.",
           "thread_id": "b20f18c2e4b60011",
@@ -703,7 +762,7 @@
             "b20f18c2e4b60018"
           ],
           "evidence_quote": "Jordan, can you let the rest of the marketing team know the date is final so nobody's planning around Nov 1 anymore.",
-          "why_it_qualifies": "Named directly in the body by the CMO, last substantive move is toward Jordan, and the whole team is still working from a superseded date — Jordan's Aug 11 asset reminder to the team never mentions Nov 4.",
+          "why_it_qualifies": "Named directly in the body by the CMO, last substantive move is toward Jordan, and the whole team is still working from a superseded date \u2014 Jordan's Aug 11 asset reminder to the team never mentions Nov 4.",
           "counterparty": "sofia.marchetti@habitatgoods.com",
           "due_date": null,
           "due_basis": "none",
@@ -713,7 +772,7 @@
         },
         {
           "item_id": "marketing-q3-09",
-          "rank": 9,
+          "rank": 10,
           "tier": "acceptable",
           "claim": "The DTC Growth Summit needs Jordan's speaker bio, headshot, session-title confirmation, three moderator questions and A/V requirements by Aug 25 for her confirmed Oct 14 retention panel.",
           "thread_id": "b30f18c2e4b60024",
@@ -722,7 +781,7 @@
             "b30f18c2e4b60024"
           ],
           "evidence_quote": "What we need from you by August 25:",
-          "why_it_qualifies": "A named human organiser with a real commitment behind it — Jordan agreed to speak — and a hard program lock on Sept 1. Conference-shaped mail, but not a newsletter deadline.",
+          "why_it_qualifies": "A named human organiser with a real commitment behind it \u2014 Jordan agreed to speak \u2014 and a hard program lock on Sept 1. Conference-shaped mail, but not a newsletter deadline.",
           "counterparty": "priya@dtcgrowthsummit.com",
           "due_date": "2026-08-25",
           "due_basis": "explicit",
@@ -732,7 +791,7 @@
         },
         {
           "item_id": "marketing-q3-10",
-          "rank": 10,
+          "rank": 11,
           "tier": "acceptable",
           "claim": "Rachel Lindqvist sent the Nordstrom co-branding logo pack on Aug 11 and is waiting on Jordan to confirm the sizing works before it goes to the partner.",
           "thread_id": "b60f18c2e4b60050",
@@ -740,7 +799,7 @@
           "message_ids": [
             "b60f18c2e4b60050"
           ],
-          "evidence_quote": "Logo files (all formats) attached for the Nordstrom co-branding ask — let me know if sizing works.",
+          "evidence_quote": "Logo files (all formats) attached for the Nordstrom co-branding ask \u2014 let me know if sizing works.",
           "why_it_qualifies": "Small but genuine: named sender, sole recipient, explicit request for confirmation, no reply. Low stakes, so it sits at the bottom of the queue rather than off it.",
           "counterparty": "rachel.lindqvist@habitatgoods.com",
           "due_date": null,
@@ -748,13 +807,38 @@
           "days_open": 1,
           "consequence": "low",
           "tricky_tags": []
+        },
+        {
+          "item_id": "marketing-q3-11",
+          "rank": 2,
+          "tier": "must_include",
+          "claim": "Tessa Brandt sent the redlined Q4 2026 Fold & Field SOW (net +$400/month, effective the August billing cycle) on Jul 30 with her signature already on it; Jordan never returned a countersigned copy and the client signature line is still blank.",
+          "thread_id": "b20f18c2e4b60019",
+          "anchor_message_id": "b20f18c2e4b60025",
+          "message_ids": [
+            "b20f18c2e4b60019",
+            "b20f18c2e4b60021",
+            "b20f18c2e4b60023",
+            "b20f18c2e4b60024",
+            "b20f18c2e4b60025"
+          ],
+          "evidence_quote": "NET CHANGE: +$400/month, effective August billing cycle.",
+          "why_it_qualifies": "Named external requester, sole thread, agency already signed and waiting on Habitat's countersignature before the new terms take effect (Jordan herself asked 'Can you send the redlined SOW by Friday?'). Distinct from the separately-executed FY27 base SOW and from the Studio-Day-drift retainer discussion \u2014 see curator_notes on this mailbox's several inconsistent Fold & Field dollar figures.",
+          "counterparty": "tessa@foldandfield.agency",
+          "due_date": "2026-08-01",
+          "due_basis": "implicit",
+          "days_open": 13,
+          "consequence": "high",
+          "tricky_tags": [
+            "task_in_attachment_only"
+          ]
         }
       ],
       "must_not_include": [
         {
           "message_id": "b60f18c2e4b60014",
           "subject": "Can Someone Jump on the Vendor Spend Audit?",
-          "why_excluded": "Six recipients, nobody named, 'can someone' framing — no owner established for Jordan. Nina claimed it the next morning, which closes it entirely.",
+          "why_excluded": "Six recipients, nobody named, 'can someone' framing \u2014 no owner established for Jordan. Nina claimed it the next morning, which closes it entirely.",
           "trap": "diffused_group_ask"
         },
         {
@@ -765,8 +849,8 @@
         },
         {
           "message_id": "b60f18c2e4b60010",
-          "subject": "Abandoned Cart Flow — Status Check",
-          "why_excluded": "'He said he'd have it ready' cannot be resolved to Jordan — it points at Cam or Ben — and Ben shipped the flow on Aug 8. Correct treatment is unresolvable ownership, then closed.",
+          "subject": "Abandoned Cart Flow \u2014 Status Check",
+          "why_excluded": "'He said he'd have it ready' cannot be resolved to Jordan \u2014 it points at Cam or Ben \u2014 and Ben shipped the flow on Aug 8. Correct treatment is unresolvable ownership, then closed.",
           "trap": "ambiguous_pronoun_owner"
         },
         {
@@ -777,7 +861,7 @@
         },
         {
           "message_id": "b60f18c2e4b60029",
-          "subject": "Re: Holiday Campaign Creative — Final Concept",
+          "subject": "Re: Holiday Campaign Creative \u2014 Final Concept",
           "why_excluded": "Sofia's Direction C decision assigns the updated creative brief to Rachel, due to Tessa by Wednesday. Jordan is on the thread but owes nothing here.",
           "trap": "cc-not-addressed"
         },
@@ -789,25 +873,25 @@
         },
         {
           "message_id": "b40f18c2e4b60030",
-          "subject": "Please DocuSign: Fold & Field — FY27 Agency SOW",
-          "why_excluded": "A signature workflow can create a real Q3 item, but this envelope was completed on Jul 23 — 'All parties have signed', Jordan on 2026-07-23. Nothing outstanding.",
+          "subject": "Please DocuSign: Fold & Field \u2014 FY27 Agency SOW",
+          "why_excluded": "A signature workflow can create a real Q3 item, but this envelope was completed on Jul 23 \u2014 'All parties have signed', Jordan on 2026-07-23. Nothing outstanding.",
           "trap": "already-completed"
         }
       ],
-      "curator_notes": "Every item here has a named human (or a person's workflow) whose next step depends on Jordan, and in each case the counterparty spoke last. The press release resend is one item with elevated urgency, never two. The DTC Growth Summit entry is kept as 'acceptable' rather than must_include because it wears conference-promotion styling and a system that treats it as noise is making a defensible, if wrong, call. Sofia appears three times because she raised three genuinely separate deliverables (positioning deck, OKR draft, Nov 4 announcement) in three separate threads."
+      "curator_notes": "Every item here has a named human (or a person's workflow) whose next step depends on Jordan, and in each case the counterparty spoke last. The press release resend is one item with elevated urgency, never two. The DTC Growth Summit entry is kept as 'acceptable' rather than must_include because it wears conference-promotion styling and a system that treats it as noise is making a defensible, if wrong, call; note that a differently-named, differently-domained 'DTC Summit' (dtcsummit.co) declined an Oct 14 panel back in June, and the corpus never states whether these are the same event \u2014 gold treats them as two separate organizations rather than inventing a resolution. Sofia appears three times because she raised three genuinely separate deliverables (positioning deck, OKR draft, Nov 4 announcement) in three separate threads. The Q4 SOW countersignature (marketing-q3-11) is a distinct document from the FY27 base SOW (already fully executed Jul 23, see must_not_include) and from the Studio-Day-drift retainer discussion in Q2/Q4/Q6 \u2014 the mailbox states several mutually inconsistent Fold & Field dollar figures across independent threads, and this item is scoped narrowly to what its own thread shows: an unsigned, agency-countersigned redline. Cam's editorial-strategy due date was corrected from Aug 14 to Aug 7 (the message is dated Thursday Aug 6 and references 'our sync Friday') \u2014 it is five days overdue, not upcoming, which also moved its rank."
     },
     "q4_waiting_on_others": {
       "question": "What am I waiting on someone else for?",
-      "prose_answer": "Chase list, in order. Nina owes the attribution methodology paragraph she promised 'by Monday' on Jul 31 — Wes needs it for the Aug 14 board deck. Wes owes the FY27 marketing budget model you asked for on Jul 1 and bumped on Jul 15; that is six weeks. Tessa has not answered your Aug 5 counter on the retainer (11% with a 14-month term, or flat) — and note her agency mailbox bounced today as over quota, so try tessa.brandt@gmail.com. Chris Baumann never came back with anything concrete on Meta volume rates, which you said you needed before locking $68K/month. Amara still has not returned the signed photo usage rights addendum from Jun 17, and legal is asking. Also open: Tessa's corrected July invoice (Wes is holding payment), Hollis on the fall studio date, Cam's lookbook copy, and Denise on keeping Marco for QA.",
+      "prose_answer": "Chase list, in order. Nina owes the attribution methodology paragraph she promised 'by Monday' on Jul 31 \u2014 Wes needs it for the Aug 14 board deck. Wes owes the FY27 marketing budget model you asked for on Jul 1 and bumped on Jul 15; that is six weeks. Tessa has not answered your Aug 5 counter on the retainer (11% with a 14-month term, or flat) \u2014 note her agency mailbox bounced today as over quota, so try tessa.brandt@gmail.com. Chris Baumann never came back with anything concrete on Meta volume rates, which you said you needed before locking $68K/month. Amara still has not returned the signed photo usage rights addendum from Jun 17, and legal is asking. Cam's lookbook copy is now folded into Friday's hard Q4 asset deadline. Also open: Tessa's corrected July invoice (Wes is holding payment), Hollis on a fall-shoot backup location, and Denise on keeping Marco for QA.",
       "ranked": [
         "marketing-q4-01",
         "marketing-q4-02",
         "marketing-q4-03",
         "marketing-q4-04",
         "marketing-q4-05",
-        "marketing-q4-06",
-        "marketing-q4-07",
         "marketing-q4-08",
+        "marketing-q4-06",
+        "marketing-q4-13",
         "marketing-q4-09",
         "marketing-q4-10"
       ],
@@ -823,8 +907,8 @@
             "b20f18c2e4b60035",
             "b20f18c2e4b60036"
           ],
-          "evidence_quote": "Can do — I'll have the appendix paragraph to you both by Monday.",
-          "why_it_qualifies": "Explicit promise to the owner, nine days past its date, and it directly gates a deliverable of Jordan's own with a hard Aug 14 deadline — the highest dependency criticality in the mailbox.",
+          "evidence_quote": "Can do \u2014 I'll have the appendix paragraph to you both by Monday.",
+          "why_it_qualifies": "Explicit promise to the owner, nine days past its date, and it directly gates a deliverable of Jordan's own with a hard Aug 14 deadline \u2014 the highest dependency criticality in the mailbox.",
           "counterparty": "nina.sokolov@habitatgoods.com",
           "due_date": "2026-08-03",
           "due_basis": "explicit",
@@ -843,8 +927,8 @@
             "b50f18c2e4b60043",
             "b50f18c2e4b60044"
           ],
-          "evidence_quote": "Wes — bumping this. Sofia's asking and I have nothing to show her. Today if possible?",
-          "why_it_qualifies": "Owner-sent request with no responsive reply anywhere in the mailbox, already chased once, six weeks stale — and it feeds the scenario planning Sofia expects plus the Aug 21 Q4 budget submission.",
+          "evidence_quote": "Wes \u2014 bumping this. Sofia's asking and I have nothing to show her. Today if possible?",
+          "why_it_qualifies": "Owner-sent request with no responsive reply anywhere in the mailbox, already chased once, six weeks stale \u2014 and it feeds the scenario planning Sofia expects plus the Aug 21 Q4 budget submission.",
           "counterparty": "wes.duffy@habitatgoods.com",
           "due_date": "2026-07-15",
           "due_basis": "implicit",
@@ -856,14 +940,14 @@
           "item_id": "marketing-q4-03",
           "rank": 3,
           "tier": "must_include",
-          "claim": "Tessa Brandt has not responded to Jordan's Aug 5 counter on the FY27 retainer — 11% with a 14-month term, or flat at the current rate with unchanged scope — and Fold & Field's mailbox bounced as over quota on Aug 12.",
+          "claim": "Tessa Brandt has not responded to Jordan's Aug 5 counter on the retainer renewal \u2014 11% with a 14-month term, or flat at current rate with unchanged scope \u2014 and Fold & Field's mailbox bounced as over quota on Aug 12. (Note: the mailbox states several mutually inconsistent Fold & Field retainer figures across independent threads \u2014 see curator_notes \u2014 so 'the retainer' here refers only to whichever document this specific counter is replying to, not a single reconciled number.)",
           "thread_id": "b50f18c2e4b60019",
           "anchor_message_id": "b50f18c2e4b60019",
           "message_ids": [
             "b50f18c2e4b60019"
           ],
           "evidence_quote": "What I can do: 11% if we lock a 14-month term instead of 12, or flat at current rate if the scope stays exactly as-is with no added channels.",
-          "why_it_qualifies": "Owner-sent ask, seven days silent, and the renewal must close before Q1 per Sofia. The wait may be structurally broken rather than slow — Tessa's agency address is rejecting mail, and she also writes from tessa.brandt@gmail.com.",
+          "why_it_qualifies": "Owner-sent ask, seven days silent, and the renewal must close before Q1 per Sofia. The wait may be structurally broken rather than slow \u2014 Tessa's agency address is rejecting mail, and she also writes from tessa.brandt@gmail.com.",
           "counterparty": "tessa@foldandfield.agency",
           "due_date": null,
           "due_basis": "none",
@@ -901,7 +985,7 @@
             "b50f18c2e4b60045",
             "b50f18c2e4b60046"
           ],
-          "evidence_quote": "Amara — did the signed contract come through? Legal's asking.",
+          "evidence_quote": "Amara \u2014 did the signed contract come through? Legal's asking.",
           "why_it_qualifies": "Nearly two months open with one chase and no reply in the thread; Habitat is running that content in paid without the executed rights, and Amara is mid-negotiation on a new collab, which makes the ask easy to raise again.",
           "counterparty": "amara@thelinencut.com",
           "due_date": null,
@@ -912,9 +996,9 @@
         },
         {
           "item_id": "marketing-q4-06",
-          "rank": 6,
+          "rank": 7,
           "tier": "acceptable",
-          "claim": "Tessa owes a corrected July invoice — 38 hours of paid social management were billed at the strategy rate instead of the standard SOW rate — and Wes is holding payment until it is reissued.",
+          "claim": "Tessa owes a corrected July invoice \u2014 38 hours of paid social management were billed at the strategy rate instead of the standard SOW rate \u2014 and Wes is holding payment until it is reissued.",
           "thread_id": "b50f18c2e4b60030",
           "anchor_message_id": "b50f18c2e4b60030",
           "message_ids": [
@@ -931,17 +1015,19 @@
         },
         {
           "item_id": "marketing-q4-07",
-          "rank": 7,
-          "tier": "acceptable",
-          "claim": "Hollis Grant never answered whether the week of Aug 10 works for the fall lifestyle studio day — Jordan's Jul 21 request drew only an out-of-office reply, and it was never re-sent after his Aug 3 return.",
+          "rank": 11,
+          "tier": "borderline",
+          "claim": "Whether the week of Aug 10 works for the fall studio day was never explicitly reconfirmed after Hollis's out-of-office reply to that specific question \u2014 though a parallel 'Studio Day' thread sent the next day covers call time and equipment for what may be the same shoot, so this is narrower and less certain than 'nobody answered.'",
           "thread_id": "b60f18c2e4b60019",
           "anchor_message_id": "b60f18c2e4b60020",
           "message_ids": [
             "b60f18c2e4b60019",
-            "b60f18c2e4b60020"
+            "b60f18c2e4b60020",
+            "b60f18c2e4b60030",
+            "b60f18c2e4b60031"
           ],
           "evidence_quote": "I'm out of the studio through August 3rd, largely offline. For anything urgent, contact my studio manager Priya at studio@northlightstudio.co.",
-          "why_it_qualifies": "The auto-reply is not a human response, so the thread is still unanswered; the wait had a floor of Aug 3 and a named delegate, and the week being asked about has now passed unbooked.",
+          "why_it_qualifies": "Borderline: the literal date question in this thread drew only an auto-reply and no message ever restates 'week of Aug 10' as confirmed, but a same-week parallel thread with Hollis about the same shoot's logistics did get a substantive human reply, so treating this as a clean open wait would overstate what the corpus shows.",
           "counterparty": "hollis@northlightstudio.co",
           "due_date": null,
           "due_basis": "none",
@@ -953,9 +1039,9 @@
         },
         {
           "item_id": "marketing-q4-08",
-          "rank": 8,
+          "rank": 6,
           "tier": "acceptable",
-          "claim": "Cam Okafor owes the November lookbook copy — headlines, product blurbs and the intro letter — with a rough draft due Jul 24 and the final now folded into the Friday Aug 14 Q4 asset deadline.",
+          "claim": "Cam Okafor owes the November lookbook copy \u2014 headlines, product blurbs and the intro letter \u2014 with a rough draft due Jul 24 and the final now folded into the Friday Aug 14 Q4 asset deadline.",
           "thread_id": "b50f18c2e4b60034",
           "anchor_message_id": "b50f18c2e4b60034",
           "message_ids": [
@@ -963,7 +1049,7 @@
             "b50f18c2e4b60034"
           ],
           "evidence_quote": "all Q4 hero assets (lookbook, homepage takeover, email headers) are due to Sofia's review queue by Friday EOD",
-          "why_it_qualifies": "Explicit delegation by the owner with a date that passed, no draft in the mailbox, and Jordan has since had to re-issue it as a team-wide reminder — evidence the original never landed.",
+          "why_it_qualifies": "Explicit delegation by the owner with a date that passed, no draft in the mailbox, and Jordan has since had to re-issue it as a team-wide reminder \u2014 evidence the original never landed.",
           "counterparty": "cam.okafor@habitatgoods.com",
           "due_date": "2026-08-14",
           "due_basis": "explicit",
@@ -994,7 +1080,7 @@
           "item_id": "marketing-q4-10",
           "rank": 10,
           "tier": "acceptable",
-          "claim": "Nina has not answered Jordan's Aug 7 question about whether the Q1 2027 packaging dates could realistically slip — and the statement citing those specific percentages went to the Fast Company reporter on Aug 10 regardless.",
+          "claim": "Nina has not answered Jordan's Aug 7 question about whether the Q1 2027 packaging dates could realistically slip \u2014 and the statement citing those specific percentages went to the Fast Company reporter on Aug 10 regardless.",
           "thread_id": "b20f18c2e4b60042",
           "anchor_message_id": "b20f18c2e4b60049",
           "message_ids": [
@@ -1013,7 +1099,7 @@
         },
         {
           "item_id": "marketing-q4-11",
-          "rank": 11,
+          "rank": 12,
           "tier": "borderline",
           "claim": "Chris Baumann said Meta's text-overlay guidance doc was coming 'in a separate email' on Aug 10 so Q4 creative is built compliant from the start; no such email has arrived.",
           "thread_id": "b10f18c2e4b60041",
@@ -1029,19 +1115,18 @@
           "due_basis": "none",
           "days_open": 2,
           "consequence": "low",
-          "tricky_tags": [
-            "promised_attachment"
-          ]
+          "tricky_tags": []
         },
         {
           "item_id": "marketing-q4-12",
-          "rank": 12,
+          "rank": 13,
           "tier": "borderline",
           "claim": "Priyanka Rao never sent the current media list Jordan asked for on Jul 20; the request landed in her out-of-office window and was not re-sent after her Aug 4 return.",
           "thread_id": "b40f18c2e4b60045",
           "anchor_message_id": "b40f18c2e4b60045",
           "message_ids": [
-            "b40f18c2e4b60045"
+            "b40f18c2e4b60045",
+            "b40f18c2e4b60046"
           ],
           "evidence_quote": "Can you send the current media list when you get a chance?",
           "why_it_qualifies": "Borderline: genuinely unanswered for three weeks, but Jordan framed it as low-priority ('when you get a chance') and the two of them have since worked several live press items together.",
@@ -1053,25 +1138,126 @@
           "tricky_tags": [
             "out_of_office"
           ]
+        },
+        {
+          "item_id": "marketing-q4-13",
+          "rank": 8,
+          "tier": "acceptable",
+          "claim": "Hollis Grant never produced a backup location for the fall lifestyle shoot after the East Austin warehouse fell through on Jun 19; Jordan's Jul 28 chase drew only an out-of-office reply and was never re-sent.",
+          "thread_id": "b40f18c2e4b60004",
+          "anchor_message_id": "b40f18c2e4b60049",
+          "message_ids": [
+            "b40f18c2e4b60004",
+            "b40f18c2e4b60005",
+            "b40f18c2e4b60049",
+            "b40f18c2e4b60050"
+          ],
+          "evidence_quote": "Any luck finding something in the same budget range?",
+          "why_it_qualifies": "Directed expectation with no responsive reply in 54 days; Hollis promised a new invite once he found a site and none has ever arrived, though it is possible (not confirmed) the eventual Aug 4-5 shoot at Hollis's own studio mooted the need for an external location.",
+          "counterparty": "hollis@northlightstudio.co",
+          "due_date": null,
+          "due_basis": "none",
+          "days_open": 54,
+          "consequence": "medium",
+          "tricky_tags": [
+            "out_of_office"
+          ]
+        },
+        {
+          "item_id": "marketing-q4-14",
+          "rank": 14,
+          "tier": "borderline",
+          "claim": "Klaviyo billing never answered why the July SMS credit line rose about $400 month-over-month, and the invoice auto-charged as scheduled on Aug 12.",
+          "thread_id": "b10f18c2e4b60039",
+          "anchor_message_id": "b10f18c2e4b60040",
+          "message_ids": [
+            "b10f18c2e4b60039",
+            "b10f18c2e4b60040"
+          ],
+          "evidence_quote": "did our per-message rate change, or did we just send more volume?",
+          "why_it_qualifies": "Borderline: a real directed question to a vendor with no reply, but low dollar stakes and the charge has already gone through regardless.",
+          "counterparty": "billing@klaviyo.com",
+          "due_date": "2026-08-12",
+          "due_basis": "explicit",
+          "days_open": 6,
+          "consequence": "low",
+          "tricky_tags": []
+        },
+        {
+          "item_id": "marketing-q4-15",
+          "rank": 15,
+          "tier": "borderline",
+          "claim": "Nina has not given her read on the soft TikTok 90-day repeat-purchase rate (11.2% vs Meta's 15.4%) that Jordan asked for on Jul 22 ahead of a Thursday presentation.",
+          "thread_id": "b50f18c2e4b60015",
+          "anchor_message_id": "b50f18c2e4b60015",
+          "message_ids": [
+            "b50f18c2e4b60015"
+          ],
+          "evidence_quote": "Want your take before I present Thursday \u2014 is this a real quality gap or a cohort-size artifact?",
+          "why_it_qualifies": "Borderline: a directed ask with no reply, but the presentation it was needed for has long since passed and Nina has since written to Jordan several times on other topics.",
+          "counterparty": "nina.sokolov@habitatgoods.com",
+          "due_date": "2026-07-24",
+          "due_basis": "implicit",
+          "days_open": 21,
+          "consequence": "low",
+          "tricky_tags": []
+        },
+        {
+          "item_id": "marketing-q4-16",
+          "rank": 16,
+          "tier": "borderline",
+          "claim": "Cam Okafor was made point person for a sustainability trade-press feature needing quotes and product photography by Aug 10; the date has passed with no delivery or acknowledgment in the thread.",
+          "thread_id": "b50f18c2e4b60017",
+          "anchor_message_id": "b50f18c2e4b60017",
+          "message_ids": [
+            "b50f18c2e4b60017"
+          ],
+          "evidence_quote": "wants quotes and product photography by Aug 10",
+          "why_it_qualifies": "Borderline: Jordan delegated this and the primary counterparty (Priyanka) would normally chase Cam directly, but Jordan made the introduction and has a stake in the placement going well.",
+          "counterparty": "cam.okafor@habitatgoods.com",
+          "due_date": "2026-08-10",
+          "due_basis": "explicit",
+          "days_open": 13,
+          "consequence": "medium",
+          "tricky_tags": []
+        },
+        {
+          "item_id": "marketing-q4-17",
+          "rank": 17,
+          "tier": "borderline",
+          "claim": "Wes has not produced the weekly Q4 actuals-vs-plan number Jordan asked for starting in August; the first August Friday has already passed with no such report in the mailbox.",
+          "thread_id": "b50f18c2e4b60038",
+          "anchor_message_id": "b50f18c2e4b60038",
+          "message_ids": [
+            "b50f18c2e4b60038"
+          ],
+          "evidence_quote": "Wes: budget tracking, I want a weekly actuals-vs-plan number starting in August, not a surprise in January",
+          "why_it_qualifies": "Borderline: a recurring commitment by someone else with a real miss count, but low individual stakes per occurrence and distinct from the one-off FY27 budget model in marketing-q4-02.",
+          "counterparty": "wes.duffy@habitatgoods.com",
+          "due_date": null,
+          "due_basis": "none",
+          "days_open": 30,
+          "consequence": "low",
+          "tricky_tags": []
         }
       ],
       "must_not_include": [
         {
           "message_id": "b60f18c2e4b60037",
-          "subject": "Q3 Paid Social Wrap-Up — Recap Coming",
+          "subject": "Q3 Paid Social Wrap-Up \u2014 Recap Coming",
           "why_excluded": "Nina promised the Q3 paid social recap and delivered it with the attachment on Jul 23 ('finally sending this over'). Still listing this as an outstanding wait is a stale-state failure.",
           "trap": "delivered_attachment"
         },
         {
           "message_id": "b60f18c2e4b60005",
-          "subject": "Re: PDP Template — July 4th Sale Timeline",
-          "why_excluded": "Denise retracted the pre-July-4th PDP template commitment outright. A retracted promise leaves Q4 and becomes a Q5 change — and the template shipped Aug 7 regardless.",
+          "subject": "Re: PDP Template \u2014 July 4th Sale Timeline",
+          "why_excluded": "Denise retracted the pre-July-4th PDP template commitment outright. A retracted promise leaves Q4 and becomes a Q5 change \u2014 and the template shipped Aug 7 regardless.",
           "trap": "cancelled_commitment"
         },
         {
           "message_id": "b60f18c2e4b60018",
-          "subject": "Meta Creative Review — Launch Timing",
-          "why_excluded": "Tessa's conditional promise on Meta creative approval resolved — the campaign launched, and Jordan congratulated the team on Aug 1. Nothing left to wait for.",
+          "subject": "Meta Creative Review \u2014 Launch Timing",
+          "why_excluded": "Tessa's conditional promise on Meta creative approval resolved: Chris Baumann's Aug 6 message confirms the 4 flagged creatives are back live and mid-flight ('All 4 are back live as of this morning'), so the campaign cleared review and launched. Nothing left to wait for.",
           "trap": "conditional_promise"
         },
         {
@@ -1088,23 +1274,22 @@
         },
         {
           "message_id": "b60f18c2e4b60049",
-          "subject": "Cart Abandonment Flow — Live!",
+          "subject": "Cart Abandonment Flow \u2014 Live!",
           "why_excluded": "Ben shipped the abandoned cart flow on Aug 8. This is the delivery message that closes the July copy-refresh question, not an open wait.",
           "trap": "already-completed"
         }
       ],
-      "curator_notes": "Ranked by dependency criticality, then staleness, then chases already spent. Tessa appears twice because the retainer counter and the mis-billed July invoice are independent obligations in separate threads; both are additionally exposed to the Aug 12 over-quota bounce, which is why the identity merge with tessa.brandt@gmail.com matters operationally rather than cosmetically. Hollis's out-of-office is treated as a floor on the wait, not as an answer. The Meta guidance doc and Priyanka's media list are held at borderline: both are real unmet expectations, but low enough stakes that a system should be neither rewarded nor punished."
+      "curator_notes": "Ranked by dependency criticality, then staleness, then chases already spent. Tessa appears twice because the retainer counter and the mis-billed July invoice are independent obligations in separate threads; both are additionally exposed to the Aug 12 over-quota bounce, which is why the identity merge with tessa.brandt@gmail.com matters operationally rather than cosmetically. 'The retainer' in marketing-q4-03 is deliberately left unlabeled as FY27-vs-Q4-vs-any-other term: the mailbox states several mutually inconsistent Fold & Field dollar figures across independent threads ($22K\u2192$25.5K proposal, $34.5K FY27 SOW executed Jul 23, $42K Q4 SOW Scope redline \u2014 see marketing-q3-11, $14.2K\u2192$18.5K in the Studio-Day-drift thread), which read as independent-generator-batch artifacts rather than one evolving number; gold does not assert any single figure as canonical. marketing-q4-07 (Hollis, fall studio day) has been retiered to borderline and narrowed: the literal 'week of Aug 10' question drew only an auto-reply, but a parallel same-week thread with Hollis about the same shoot's logistics (call time, equipment) did get a substantive human reply the next day, so 'nobody answered' would overstate the case; a separate, more clearly still-open item about the backup *location* (as opposed to date) is added at marketing-q4-13. Hollis's terracotta paint-color decision (b60f18c2e4b60003) is not listed even though it is unanswered, because the Aug 4-5 shoot it fed has already happened. Five low-stakes items surfaced by a full-mailbox sweep are included at borderline tier for completeness rather than scored: the Klaviyo SMS billing question, Nina's TikTok read, Cam's sustainability-feature deliverable, and Wes's weekly-actuals commitment."
     },
     "q5_what_changed": {
       "question": "What changed?",
-      "prose_answer": "Six beliefs to update. The holiday campaign is Direction C, not Direction B — Tessa's set build came in 40% over and Sofia reversed the July decision on Aug 10; Rachel owes the new brief. Q4 paid social is $120K: Nina proposed $100K, revised to $150K, and Wes cut it to $120K on Jul 24 for the 8% company-wide margin trim. There is no hero A/B test any more — Sofia shipped bright hero plus moody PDP tiles on Aug 10 and released Hollis's Aug 14 reshoot hold. The site launch is Nov 4, not Nov 1, which makes Oct 28 a hard creative lock. The replatform moved from Aug 3 to Aug 17, so QA week is this week. And Tessa's agency mailbox is over quota as of today — reach her at tessa.brandt@gmail.com. Also: the shoot is Oct 12-13 and 15, and the agency wants $18,500/month.",
+      "prose_answer": "Six beliefs to update, plus one that needs settling rather than trusting. The holiday campaign is Direction C, not Direction B \u2014 Tessa's set build came in 40% over and Sofia reversed the July decision on Aug 10; Rachel owes the new brief. Q4 paid social is $120K: Nina proposed $100K, revised to $150K, and Wes cut it to $120K on Jul 24 for the 8% company-wide margin trim. There is no hero A/B test any more \u2014 Sofia shipped bright hero plus moody PDP tiles on Aug 10 and released Hollis's Aug 14 reshoot hold. The site launch is Nov 4, not Nov 1, which makes Oct 28 a hard creative lock. Tessa's agency mailbox is over quota as of today \u2014 reach her at tessa.brandt@gmail.com. The shoot is Oct 12-13 and 15, and Fold & Field's proposed retainer moved to $18,500/month (Jordan countered Aug 5, still open). One thing we can't tell you cleanly: the website replatform launch date. Our own records disagree \u2014 Aug 17 in one thread, Sept 1 in your own more recent messages to Denise \u2014 and nothing in the mailbox reconciles them, so don't repeat either date without checking first.",
       "ranked": [
         "marketing-q5-01",
         "marketing-q5-02",
         "marketing-q5-03",
         "marketing-q5-04",
         "marketing-q5-05",
-        "marketing-q5-06",
         "marketing-q5-07",
         "marketing-q5-08",
         "marketing-q5-09",
@@ -1189,7 +1374,7 @@
             "b20f18c2e4b60009",
             "b20f18c2e4b60010"
           ],
-          "evidence_quote": "let's not wait on a full test cycle — going with Variant B (bright) for the hero banner",
+          "evidence_quote": "let's not wait on a full test cycle \u2014 going with Variant B (bright) for the hero banner",
           "why_it_qualifies": "Mid-thread agreement (test both, let data decide) contradicted by the final position; Nina's team no longer needs to set up the split, and Hollis's Aug 14 half-day reshoot hold is released.",
           "counterparty": null,
           "due_date": null,
@@ -1199,7 +1384,7 @@
           "tricky_tags": [],
           "changed_field": "Holiday hero creative decision process",
           "previous_value": "Build both variants, split holiday traffic 50/50 for a week, winner ships",
-          "current_value": "No test — Variant B (bright) as hero, Variant A (moody) on PDP lifestyle tiles, no reshoot, Aug 14 studio hold released",
+          "current_value": "No test \u2014 Variant B (bright) as hero, Variant A (moody) on PDP lifestyle tiles, no reshoot, Aug 14 studio hold released",
           "from_message_id": "b20f18c2e4b60005",
           "to_message_id": "b20f18c2e4b60009"
         },
@@ -1215,7 +1400,7 @@
             "b20f18c2e4b60017",
             "b20f18c2e4b60018"
           ],
-          "evidence_quote": "Locking Nov 4 — thanks all for working through this.",
+          "evidence_quote": "Locking Nov 4 \u2014 thanks all for working through this.",
           "why_it_qualifies": "A date the whole marketing team is still planning around changed, and it carries a derived constraint (Oct 28 creative lock, or CPA runs 15-20% hot in week one) that nobody outside this thread has been told.",
           "counterparty": null,
           "due_date": null,
@@ -1233,7 +1418,7 @@
           "item_id": "marketing-q5-05",
           "rank": 5,
           "tier": "must_include",
-          "claim": "Mail to tessa@foldandfield.agency is currently being rejected as over quota, so the working route to Tessa Brandt is her second address, tessa.brandt@gmail.com — the same person who has written from both since June.",
+          "claim": "Mail to tessa@foldandfield.agency is currently being rejected as over quota, so the working route to Tessa Brandt is her second address, tessa.brandt@gmail.com \u2014 the same person who has written from both since June.",
           "thread_id": "b40f18c2e4b60044",
           "anchor_message_id": "b40f18c2e4b60044",
           "message_ids": [
@@ -1259,17 +1444,22 @@
         },
         {
           "item_id": "marketing-q5-06",
-          "rank": 6,
-          "tier": "acceptable",
-          "claim": "The website replatform launch moved from August 3 to August 17 because of a Recharge subscription-app integration problem, which also moved marketing QA week from Jul 27-31 to Aug 10-14 — i.e. this week.",
+          "rank": 11,
+          "tier": "borderline",
+          "claim": "The website replatform launch date is stated inconsistently across this mailbox and is not resolved here: Nina told Jordan on Jul 8 the date moved from Aug 3 to Aug 17 (QA week Aug 10-14, which is this week), and Sofia's Aug 5 note treats Aug 17 as settled \u2014 but Jordan's own Aug 10 message to Denise still refers to 'the Sept 1 date' as tight, and her Jul 13 Q4 kickoff brief also frames Sept 1 as the risk to watch. The two figures cannot both be current and the corpus never reconciles them.",
           "thread_id": "b60f18c2e4b60006",
           "anchor_message_id": "b60f18c2e4b60007",
           "message_ids": [
             "b60f18c2e4b60006",
-            "b60f18c2e4b60007"
+            "b60f18c2e4b60007",
+            "b50f18c2e4b60003",
+            "b50f18c2e4b60004",
+            "b60f18c2e4b60046",
+            "b50f18c2e4b60040",
+            "b50f18c2e4b60038"
           ],
-          "evidence_quote": "Update — replatform launch is moving to August 17th.",
-          "why_it_qualifies": "A moved date whose stale version is still operative: anyone holding the Aug 3 launch in their head also has QA scheduled in July and would miss the marketing review window that is running right now.",
+          "evidence_quote": "Update \u2014 replatform launch is moving to August 17th.",
+          "why_it_qualifies": "Borderline by design: this is a genuine corpus self-contradiction (independent generator batches producing two irreconcilable 'current' dates for the same launch), not a clean supersession chain. Reporting either date as simply 'current' would be false precision; the honest answer is that the mailbox disagrees with itself and a human should resolve it before acting.",
           "counterparty": "nina.sokolov@habitatgoods.com",
           "due_date": null,
           "due_basis": "none",
@@ -1280,13 +1470,13 @@
           ],
           "changed_field": "Website replatform launch date",
           "previous_value": "August 3, QA week Jul 27-31",
-          "current_value": "August 17, QA week Aug 10-14",
+          "current_value": "Contradictory: Aug 17 (QA week Aug 10-14) per Nina's Jul 8 update and Sofia's Aug 5 note, vs Sept 1 per Jordan's own Jul 13 and Aug 10 messages \u2014 unresolved in the corpus",
           "from_message_id": "b60f18c2e4b60006",
           "to_message_id": "b60f18c2e4b60007"
         },
         {
           "item_id": "marketing-q5-07",
-          "rank": 7,
+          "rank": 6,
           "tier": "acceptable",
           "claim": "The Gather shoot dates changed from a straight Oct 12-14 block to Oct 12-13 plus Oct 15, because Oct 14 collides with another Northlight client booking.",
           "thread_id": "b20f18c2e4b60037",
@@ -1314,7 +1504,7 @@
         },
         {
           "item_id": "marketing-q5-08",
-          "rank": 8,
+          "rank": 7,
           "tier": "acceptable",
           "claim": "Fold & Field's proposed retainer went from $14,200/month to $18,500/month starting Q1 (adding a 15-hour monthly content block on top of unchanged 20 strategy hours); Jordan countered on Aug 5 and the number is not agreed.",
           "thread_id": "b60f18c2e4b60030",
@@ -1325,7 +1515,7 @@
             "b50f18c2e4b60019"
           ],
           "evidence_quote": "New total retainer would be $18,500/month starting Q1, up from $14,200.",
-          "why_it_qualifies": "A material change to a recurring cost line that is currently in dispute — the correct current state is 'proposed and countered', not 'agreed', which is exactly what a budget model would get wrong.",
+          "why_it_qualifies": "A material change to a recurring cost line that is currently in dispute \u2014 the correct current state is 'proposed and countered', not 'agreed', which is exactly what a budget model would get wrong.",
           "counterparty": "tessa@foldandfield.agency",
           "due_date": null,
           "due_basis": "none",
@@ -1336,13 +1526,13 @@
           ],
           "changed_field": "Fold & Field monthly retainer (FY27 proposal)",
           "previous_value": "$14,200/month",
-          "current_value": "$18,500/month proposed; Jordan countered Aug 5 at 11% with a 14-month term, or flat at current scope — unresolved",
+          "current_value": "$18,500/month proposed; Jordan countered Aug 5 at 11% with a 14-month term, or flat at current scope \u2014 unresolved",
           "from_message_id": "b60f18c2e4b60034",
           "to_message_id": "b60f18c2e4b60035"
         },
         {
           "item_id": "marketing-q5-09",
-          "rank": 9,
+          "rank": 8,
           "tier": "acceptable",
           "claim": "Jordan's Klaviyo role was escalated from Admin to Account Owner by Ben Trujillo on Aug 7, which puts billing, API keys and all user permissions under her account eight business days before the Aug 20 renewal.",
           "thread_id": "b40f18c2e4b60041",
@@ -1366,7 +1556,7 @@
         },
         {
           "item_id": "marketing-q5-10",
-          "rank": 10,
+          "rank": 9,
           "tier": "acceptable",
           "claim": "The redesigned PDP template promised live before the Jul 1 July-4th sale was cancelled on Jun 29 over a checkout bug and pushed to the week of Jul 13; it finally went live and is converting slightly better on mobile as of Aug 7.",
           "thread_id": "b60f18c2e4b60004",
@@ -1377,7 +1567,7 @@
             "b60f18c2e4b60048"
           ],
           "evidence_quote": "we're not going to make it before the 4th after all",
-          "why_it_qualifies": "A commitment retracted outright rather than delayed in the abstract — the July 4th sale creative had to run on the old template — and the chain now closes with the template live, which is the current state.",
+          "why_it_qualifies": "A commitment retracted outright rather than delayed in the abstract \u2014 the July 4th sale creative had to run on the old template \u2014 and the chain now closes with the template live, which is the current state.",
           "counterparty": "denise.aoki@habitatgoods.com",
           "due_date": null,
           "due_basis": "none",
@@ -1394,7 +1584,7 @@
         },
         {
           "item_id": "marketing-q5-11",
-          "rank": 11,
+          "rank": 10,
           "tier": "acceptable",
           "claim": "The Jun 24 location scout for the East Austin warehouse was cancelled because the building is under a lease dispute; Hollis promised a new invite for a backup site and none has ever arrived.",
           "thread_id": "b40f18c2e4b60004",
@@ -1403,8 +1593,8 @@
             "b40f18c2e4b60004",
             "b40f18c2e4b60005"
           ],
-          "evidence_quote": "Landlord pulled access this morning — turns out the warehouse is under a lease dispute.",
-          "why_it_qualifies": "A calendar CANCEL (method CANCEL, sequence 1) whose stale belief is still operative — the fall lifestyle set has no confirmed location, and Jordan's Jul 28 chase drew only an auto-reply.",
+          "evidence_quote": "Landlord pulled access this morning \u2014 turns out the warehouse is under a lease dispute.",
+          "why_it_qualifies": "A calendar CANCEL (method CANCEL, sequence 1) whose stale belief is still operative \u2014 the fall lifestyle set has no confirmed location, and Jordan's Jul 28 chase drew only an auto-reply.",
           "counterparty": "hollis@northlightstudio.co",
           "due_date": null,
           "due_basis": "none",
@@ -1421,14 +1611,14 @@
       "must_not_include": [
         {
           "message_id": "b60f18c2e4b60040",
-          "subject": "Re: Sustainability Line Press Release — Draft for Review",
+          "subject": "Re: Sustainability Line Press Release \u2014 Draft for Review",
           "why_excluded": "Identical content resent two days later with a new timestamp. A duplicate resend raises urgency; it changes nothing about the world, so it is not a delta.",
           "trap": "duplicate_resend"
         },
         {
           "message_id": "b60f18c2e4b60038",
           "subject": "Q3 Paid Social Performance Recap",
-          "why_excluded": "First statement of the Q3 numbers, not a revision of an earlier figure. New information is not a change — there is no prior belief being corrected.",
+          "why_excluded": "First statement of the Q3 numbers, not a revision of an earlier figure. New information is not a change \u2014 there is no prior belief being corrected.",
           "trap": "new-information-not-change"
         },
         {
@@ -1450,36 +1640,34 @@
           "trap": "newsletter_unsubscribe"
         }
       ],
-      "curator_notes": "Ranked by recency first, then magnitude, with older deltas admitted only where the stale belief is still operative (the replatform date, the cancelled location scout). The $100K/$150K figures and Direction B appear here in the history column only — citing either as current anywhere else is the exact failure this question exists to catch. The Tessa reachability entry is the same_person_two_addresses case reported as a delta: the merge only matters because her agency mailbox started bouncing today."
+      "curator_notes": "Ranked by recency first, then magnitude, with older deltas admitted only where the stale belief is still operative (the cancelled location scout). The $100K/$150K figures and Direction B appear here in the history column only \u2014 citing either as current anywhere else is the exact failure this question exists to catch. The Tessa reachability entry is the same_person_two_addresses case reported as a delta: the merge only matters because her agency mailbox started bouncing today. marketing-q5-06 (replatform launch date) has been moved to borderline rather than asserting Aug 17 as current: Jordan's own Jul 13 and Aug 10 messages to Denise still reference 'the Sept 1 date' as the live target, which directly contradicts Nina's Jul 8 update and Sofia's Aug 5 note that both treat Aug 17 as settled. This reads as an independent-generator-batch inconsistency rather than a real in-corpus change (compare the Fold & Field retainer, which shows the identical pattern across Q2/Q3/Q4/Q6 \u2014 see those curator_notes), and gold does not invent a resolution: the claim states the contradiction plainly and the item is excluded from ranked so a system is neither rewarded nor punished for picking either date."
     },
     "q6_slipping_through_cracks": {
       "question": "What important thing might be slipping through the cracks?",
-      "prose_answer": "Three of your emails never arrived and nobody knows. This morning's holiday campaign files bounced off Tessa's mailbox as over quota; on Aug 1 a message went to priyanka.rao@vaultedpr.com, which does not exist (she is priyanka@); on Jul 19 one went to hgrant@northlightstudio.co, also nonexistent. Cam's $2,800 whitelisting approval is still open because your reply answered only his compliment about the banner — the ask lives in the quoted block. Wes's Q4 budget deadline, Aug 21 at 5pm with a hard cutoff, appears nowhere in his email, only inside the spreadsheet. The entire Fold & Field retainer negotiation is filed under the subject 'Studio Day — Fall Lifestyle Shoot Logistics'. And Amara's photo usage rights addendum has been unsigned since Jun 17 while we run her spring content in paid. Also: the fall studio day was never booked — that ask died in Hollis's auto-responder.",
+      "prose_answer": "Four things nobody's watching, plus two more the mailbox just gave up. This morning's holiday campaign files bounced off Tessa's mailbox \u2014 she doesn't know they're missing and neither did you until now. Wes's Q4 budget deadline \u2014 Aug 21, 5pm, hard cutoff \u2014 exists only inside the spreadsheet, not the email. Amara's photo usage rights addendum has sat unsigned since Jun 17 while we run her spring content in paid. The 'klaviyo-billing.com' phishing note is still sitting in the inbox, one click from a real payment. Cam's $2,800 whitelisting approval is still open because your reply answered only his banner compliment \u2014 the ask survives in the quoted block. Two more just surfaced: the DTC Growth Summit confirmed your Oct 14 panel slot in a promo-folder email you never opened \u2014 bio and questions are due Aug 25 \u2014 and a Google Ads disapproval on the Fall Sale campaign has sat unread since Jul 22, one repeat away from a policy-standing downgrade right before the holiday launch. Sofia's positioning-deck ask is here too \u2014 its real deadline lives in a different email entirely.",
       "ranked": [
         "marketing-q6-01",
-        "marketing-q6-02",
         "marketing-q6-03",
-        "marketing-q6-04",
-        "marketing-q6-05",
         "marketing-q6-06",
-        "marketing-q6-07",
-        "marketing-q6-08",
         "marketing-q6-09",
-        "marketing-q6-10"
+        "marketing-q6-02",
+        "marketing-q6-12",
+        "marketing-q6-13",
+        "marketing-q6-14"
       ],
       "items": [
         {
           "item_id": "marketing-q6-01",
           "rank": 1,
           "tier": "must_include",
-          "claim": "Jordan's Aug 12 email 'Holiday Campaign Creative — Final Round Files' never reached Tessa Brandt — Fold & Field's mailbox is over quota — which means the retainer counter, the corrected invoice chase and the final creative files may all be sitting undelivered at the agency.",
+          "claim": "Jordan's Aug 12 email 'Holiday Campaign Creative \u2014 Final Round Files' never reached Tessa Brandt \u2014 Fold & Field's mailbox is over quota \u2014 so the final creative files the holiday timeline depends on are sitting undelivered, and both sides believe they were sent.",
           "thread_id": "b40f18c2e4b60044",
           "anchor_message_id": "b40f18c2e4b60044",
           "message_ids": [
             "b40f18c2e4b60044"
           ],
           "evidence_quote": "552 5.2.2 The email account that you tried to reach is over quota.",
-          "why_it_qualifies": "High consequence, zero visible urgency: a machine-mail bounce that looks like noise, while both sides believe the files were sent and the agency's silence on the Aug 5 counter now has an innocent explanation nobody has considered.",
+          "why_it_qualifies": "High consequence, zero visible urgency: a machine-mail bounce that looks like noise, while both sides believe the files were sent. (The Aug 5 retainer counter and Aug 7 invoice chase predate this bounce and were sent before the mailbox went over quota, so they are not shown to be affected by it.)",
           "counterparty": "tessa@foldandfield.agency",
           "due_date": "2026-08-12",
           "due_basis": "explicit",
@@ -1489,16 +1677,16 @@
         },
         {
           "item_id": "marketing-q6-02",
-          "rank": 2,
+          "rank": 5,
           "tier": "must_include",
-          "claim": "Cam Okafor's request to approve the $2,800 Amara whitelisting budget bump before Aug 3 is still open — Jordan replied to that email, but only to the homepage-banner compliment, leaving the approval buried in the quoted block.",
+          "claim": "Cam Okafor's request to approve the $2,800 Amara whitelisting budget bump before Aug 3 is still open \u2014 Jordan replied to that email, but only to the homepage-banner compliment, leaving the approval buried in the quoted block.",
           "thread_id": "b60f18c2e4b60043",
           "anchor_message_id": "b60f18c2e4b60043",
           "message_ids": [
             "b60f18c2e4b60042",
             "b60f18c2e4b60043"
           ],
-          "evidence_quote": "Ha, thanks — Rachel really did nail it. Hope you're having a good weekend!",
+          "evidence_quote": "Ha, thanks \u2014 Rachel really did nail it. Hope you're having a good weekend!",
           "why_it_qualifies": "The thread looks answered, which is precisely the crack: Jordan's own reply is evidence she never registered the ask. Real money, a past date, and no signal anywhere that anything is outstanding.",
           "counterparty": "cam.okafor@habitatgoods.com",
           "due_date": "2026-08-03",
@@ -1511,9 +1699,9 @@
         },
         {
           "item_id": "marketing-q6-03",
-          "rank": 3,
+          "rank": 2,
           "tier": "must_include",
-          "claim": "The Q4 budget submission has a hard deadline of Friday Aug 21 at 5:00pm CT with an explicit exclusion penalty, and that deadline exists only inside the attached spreadsheet — Wes's email body says nothing but 'please see attached'.",
+          "claim": "The Q4 budget submission has a hard deadline of Friday Aug 21 at 5:00pm CT with an explicit exclusion penalty, and that deadline exists only inside the attached spreadsheet \u2014 Wes's email body says nothing but 'please see attached'.",
           "thread_id": "b60f18c2e4b60041",
           "anchor_message_id": "b60f18c2e4b60041",
           "message_ids": [
@@ -1531,61 +1719,17 @@
           ]
         },
         {
-          "item_id": "marketing-q6-04",
-          "rank": 4,
-          "tier": "must_include",
-          "claim": "A message Jordan sent on Aug 1 to 'priyanka.rao@vaultedpr.com' was permanently rejected — that address does not exist; Priyanka Rao's real address is priyanka@vaultedpr.com — and nothing shows it was ever re-sent.",
-          "thread_id": "b40f18c2e4b60043",
-          "anchor_message_id": "b40f18c2e4b60043",
-          "message_ids": [
-            "b40f18c2e4b60043"
-          ],
-          "evidence_quote": "Technical details of permanent failure: 550 5.1.1 The email account that you tried to reach does not exist.",
-          "why_it_qualifies": "Silent delivery failure to the PR lead during an active press cycle: Jordan believes she sent it, Priyanka never saw it, and only the bounce notice — which looks like automated noise — records that anything is wrong.",
-          "counterparty": "priyanka@vaultedpr.com",
-          "due_date": null,
-          "due_basis": "none",
-          "days_open": 11,
-          "consequence": "medium",
-          "tricky_tags": []
-        },
-        {
-          "item_id": "marketing-q6-05",
-          "rank": 5,
-          "tier": "must_include",
-          "claim": "The entire Fold & Field retainer negotiation — the signature request, the $18,500/month terms, and Jordan's promise to send scope questions — is filed under the subject line 'Studio Day — Fall Lifestyle Shoot Logistics', which describes something else entirely.",
-          "thread_id": "b60f18c2e4b60030",
-          "anchor_message_id": "b60f18c2e4b60033",
-          "message_ids": [
-            "b60f18c2e4b60030",
-            "b60f18c2e4b60033",
-            "b60f18c2e4b60034",
-            "b60f18c2e4b60035",
-            "b60f18c2e4b60036"
-          ],
-          "evidence_quote": "Jordan, did you get a chance to look at the renewal SOW I sent last week? We need to get this signed before Q4 kicks off",
-          "why_it_qualifies": "The thread's label lies. Anyone searching for the SOW discussion — or scanning subjects for the agency renewal Sofia wants closed before Q1 — finds shoot logistics, and Jordan's unfulfilled 'will send specifics tomorrow' is buried four messages deep.",
-          "counterparty": "tessa@foldandfield.agency",
-          "due_date": "2026-07-29",
-          "due_basis": "explicit",
-          "days_open": 16,
-          "consequence": "high",
-          "tricky_tags": [
-            "topic_drift"
-          ]
-        },
-        {
           "item_id": "marketing-q6-06",
-          "rank": 6,
+          "rank": 3,
           "tier": "acceptable",
-          "claim": "Amara Diallo's photo usage rights addendum — covering Habitat's use of her Q2 spring capsule content across paid and organic through year end — has been unsigned since Jun 17, chased once on Jul 2, and untouched since.",
+          "claim": "Amara Diallo's photo usage rights addendum \u2014 covering Habitat's use of her Q2 spring capsule content across paid and organic through year end \u2014 has been unsigned since Jun 17, chased once on Jul 2, and untouched since.",
           "thread_id": "b50f18c2e4b60045",
           "anchor_message_id": "b50f18c2e4b60046",
           "message_ids": [
             "b50f18c2e4b60045",
             "b50f18c2e4b60046"
           ],
-          "evidence_quote": "Amara — did the signed contract come through? Legal's asking.",
+          "evidence_quote": "Amara \u2014 did the signed contract come through? Legal's asking.",
           "why_it_qualifies": "Legal exposure with no surfacing signal: Jordan framed it as low urgency herself, nobody has mentioned it in six weeks, and the two of them are now negotiating a new deal without anyone noticing the old paperwork is unexecuted.",
           "counterparty": "amara@thelinencut.com",
           "due_date": null,
@@ -1595,51 +1739,10 @@
           "tricky_tags": []
         },
         {
-          "item_id": "marketing-q6-07",
-          "rank": 7,
-          "tier": "acceptable",
-          "claim": "A message Jordan sent on Jul 19 to 'hgrant@northlightstudio.co' bounced permanently — that address does not exist; Hollis Grant is hollis@northlightstudio.co — and it was never re-sent.",
-          "thread_id": "b40f18c2e4b60042",
-          "anchor_message_id": "b40f18c2e4b60042",
-          "message_ids": [
-            "b40f18c2e4b60042"
-          ],
-          "evidence_quote": "The recipient server did not accept our requests to connect. 550 5.1.1 The email account that you tried to reach does not exist.",
-          "why_it_qualifies": "A second silent delivery failure, this one to the production partner in the same week the fall shoot was being scheduled — nothing in the corpus shows the content ever reaching Hollis.",
-          "counterparty": "hollis@northlightstudio.co",
-          "due_date": null,
-          "due_basis": "none",
-          "days_open": 24,
-          "consequence": "medium",
-          "tricky_tags": []
-        },
-        {
-          "item_id": "marketing-q6-08",
-          "rank": 8,
-          "tier": "acceptable",
-          "claim": "The fall lifestyle studio day was never booked: Jordan's Jul 21 request to hold the week of Aug 10 drew only Hollis's out-of-office, and it was never re-sent after his Aug 3 return — the week in question has now passed.",
-          "thread_id": "b60f18c2e4b60019",
-          "anchor_message_id": "b60f18c2e4b60020",
-          "message_ids": [
-            "b60f18c2e4b60019",
-            "b60f18c2e4b60020"
-          ],
-          "evidence_quote": "For anything urgent, contact my studio manager Priya at studio@northlightstudio.co.",
-          "why_it_qualifies": "The request died in an auto-responder, which reads as a reply in a threaded inbox. There is a named delegate (studio manager Priya) nobody used, and the location scout for the same shoot was cancelled in June without a replacement.",
-          "counterparty": "hollis@northlightstudio.co",
-          "due_date": null,
-          "due_basis": "none",
-          "days_open": 22,
-          "consequence": "medium",
-          "tricky_tags": [
-            "out_of_office"
-          ]
-        },
-        {
           "item_id": "marketing-q6-09",
-          "rank": 9,
+          "rank": 4,
           "tier": "acceptable",
-          "claim": "The fake 'payment failed' notice from klaviyo-billing.com is still sitting unreported in the inbox, threatening to pause abandoned-cart and post-purchase flows — exactly the pressure that gets a real payment made by someone in AP.",
+          "claim": "The fake 'payment failed' notice from klaviyo-billing.com is still sitting unreported in the inbox, threatening to pause abandoned-cart and post-purchase flows \u2014 exactly the pressure that gets a real payment made by someone in AP.",
           "thread_id": "b60f18c2e4b60008",
           "anchor_message_id": "b60f18c2e4b60008",
           "message_ids": [
@@ -1658,16 +1761,16 @@
         },
         {
           "item_id": "marketing-q6-10",
-          "rank": 10,
-          "tier": "acceptable",
-          "claim": "Jordan is only bcc'd on Sofia's Q4 spend note to Denise and Wes, so the To/Cc lists show her nowhere — any reply-all in that thread will exclude her from the conversation setting the $120K framing before the leadership review.",
+          "rank": 9,
+          "tier": "borderline",
+          "claim": "Jordan is only bcc'd on Sofia's Jul 6 note framing the $120K paid-social number ahead of a leadership review that has already passed; the underlying bcc-blind-spot pattern is real, but this specific thread has no live decision pending and the $120K figure was independently reconfirmed by Wes on Jul 24, so nothing is currently at risk from it.",
           "thread_id": "b60f18c2e4b60009",
           "anchor_message_id": "b60f18c2e4b60009",
           "message_ids": [
             "b60f18c2e4b60009"
           ],
           "evidence_quote": "Also bcc'ing Jordan so she has context if this comes up in her 1:1 with either of you before then.",
-          "why_it_qualifies": "Misdirected visibility: the message names Jordan in the body but no recipient field does, so a thread deciding her budget's framing will continue without her and she cannot reply without revealing the bcc.",
+          "why_it_qualifies": "Borderline: misdirected visibility is structurally real (no recipient field names Jordan), but the decision window this particular message warns about closed five weeks before the as-of date and the number it discusses was independently confirmed elsewhere, so there is no live reply-all loop to be excluded from right now.",
           "counterparty": "sofia.marchetti@habitatgoods.com",
           "due_date": null,
           "due_basis": "none",
@@ -1679,16 +1782,16 @@
         },
         {
           "item_id": "marketing-q6-11",
-          "rank": 11,
+          "rank": 10,
           "tier": "borderline",
-          "claim": "The 'Exclusive Q4 Spark Ads Incentive' from partnerships@tiktokforbusiness.com routes replies to growth-leads@tt-adpartners.net, a different domain — replying with the ads manager ID would hand account identifiers to an unverified third party.",
+          "claim": "The 'Exclusive Q4 Spark Ads Incentive' from partnerships@tiktokforbusiness.com routes replies to growth-leads@tt-adpartners.net, a different domain \u2014 replying with the ads manager ID would hand account identifiers to an unverified third party.",
           "thread_id": "b60f18c2e4b60044",
           "anchor_message_id": "b60f18c2e4b60044",
           "message_ids": [
             "b60f18c2e4b60044"
           ],
           "evidence_quote": "To claim, reply directly to this email with your ads manager ID and preferred activation date.",
-          "why_it_qualifies": "Borderline: fraud-adjacent and invisible unless someone checks the Reply-To header, but the consequence test is weak — nobody has engaged with it and the worst case is disclosing an ad account ID.",
+          "why_it_qualifies": "Borderline: fraud-adjacent and invisible unless someone checks the Reply-To header, but the consequence test is weak \u2014 nobody has engaged with it and the worst case is disclosing an ad account ID.",
           "counterparty": null,
           "due_date": null,
           "due_basis": "none",
@@ -1697,13 +1800,73 @@
           "tricky_tags": [
             "reply_to_mismatch"
           ]
+        },
+        {
+          "item_id": "marketing-q6-12",
+          "rank": 6,
+          "tier": "acceptable",
+          "claim": "The DTC Growth Summit is holding a confirmed Oct 14 speaking slot for Jordan with a hard Aug 25 deliverables deadline and a Sept 1 program lock \u2014 filed under CATEGORY_PROMOTIONS among conference spam, never replied to, never chased.",
+          "thread_id": "b30f18c2e4b60024",
+          "anchor_message_id": "b30f18c2e4b60024",
+          "message_ids": [
+            "b30f18c2e4b60024"
+          ],
+          "evidence_quote": "we lock the printed program on September 1 and can't make changes after that without an asterisk next to your name",
+          "why_it_qualifies": "Real consequence (a public-facing commitment with Habitat's name attached) plus a genuine burial factor (promotional-category filing, no chase, no bump from the organizer). A differently-named, differently-domained 'DTC Summit' declined an Oct 14 panel back in June; the corpus never states whether these are the same event, so this is noted rather than resolved.",
+          "counterparty": "priya@dtcgrowthsummit.com",
+          "due_date": "2026-08-25",
+          "due_basis": "explicit",
+          "days_open": 13,
+          "consequence": "medium",
+          "tricky_tags": []
+        },
+        {
+          "item_id": "marketing-q6-13",
+          "rank": 7,
+          "tier": "acceptable",
+          "claim": "Sofia's ask for the Q4 brand positioning deck carries an implicit deadline that appears nowhere in the message itself; the email is unread, two sentences long, has no reply, and the real due date (the Aug 25 offsite) is only recoverable from a different message sent five days earlier.",
+          "thread_id": "b60f18c2e4b60045",
+          "anchor_message_id": "b60f18c2e4b60045",
+          "message_ids": [
+            "b60f18c2e4b60045",
+            "b40f18c2e4b60013"
+          ],
+          "evidence_quote": "Can you have the Q4 brand positioning deck ready before the leadership offsite?",
+          "why_it_qualifies": "Consequence (a manager-level deliverable ahead of the Q4 offsite) plus burial (unread, no explicit date, resolvable only by cross-referencing a separate calendar-block message). Already surfaced as must_include in Q3 and acceptable in Q1; listed here too because it independently passes Q6's burial test on its own terms.",
+          "counterparty": "sofia.marchetti@habitatgoods.com",
+          "due_date": "2026-08-25",
+          "due_basis": "implicit",
+          "days_open": 8,
+          "consequence": "medium",
+          "tricky_tags": [
+            "implicit_deadline"
+          ]
+        },
+        {
+          "item_id": "marketing-q6-14",
+          "rank": 8,
+          "tier": "acceptable",
+          "claim": "A Google Ads policy disapproval has paused part of the Fall Sale campaign since Jul 22 for misleading urgency language, and it is still unread \u2014 two more borderline headlines in the same ad group risk a second disapproval, which would trigger a policy-standing downgrade right before the Q4 holiday launch.",
+          "thread_id": "b40f18c2e4b60024",
+          "anchor_message_id": "b40f18c2e4b60024",
+          "message_ids": [
+            "b40f18c2e4b60024"
+          ],
+          "evidence_quote": "two disapprovals within a 90-day window can trigger a policy standing downgrade, which can slow down approval times for future campaigns, including your planned Q4 holiday launch",
+          "why_it_qualifies": "Real consequence (a downgraded ad account slows every future review, including holiday creative) buried in an automated notification that reads as routine and remains unread three weeks later.",
+          "counterparty": null,
+          "due_date": "2026-07-25",
+          "due_basis": "explicit",
+          "days_open": 21,
+          "consequence": "medium",
+          "tricky_tags": []
         }
       ],
       "must_not_include": [
         {
           "message_id": "b60f18c2e4b60010",
-          "subject": "Abandoned Cart Flow — Status Check",
-          "why_excluded": "Ownership genuinely is unresolvable here ('he said he'd have it ready' points at Cam or Ben), but the flow shipped on Aug 8 with a 34% open rate. Nothing is slipping — it landed.",
+          "subject": "Abandoned Cart Flow \u2014 Status Check",
+          "why_excluded": "Ownership genuinely is unresolvable here ('he said he'd have it ready' points at Cam or Ben), but the flow shipped on Aug 8 with a 34% open rate. Nothing is slipping \u2014 it landed.",
           "trap": "ambiguous_pronoun_owner"
         },
         {
@@ -1714,8 +1877,8 @@
         },
         {
           "message_id": "b60f18c2e4b60040",
-          "subject": "Re: Sustainability Line Press Release — Draft for Review",
-          "why_excluded": "Overdue and important, but loudly attested — Priyanka has already chased it once. The requester is personally preventing this from slipping; it belongs in Q1 and Q3, not here.",
+          "subject": "Re: Sustainability Line Press Release \u2014 Draft for Review",
+          "why_excluded": "Overdue and important, but loudly attested \u2014 Priyanka has already chased it once. The requester is personally preventing this from slipping; it belongs in Q1 and Q3, not here.",
           "trap": "duplicate_resend"
         },
         {
@@ -1727,7 +1890,7 @@
         {
           "message_id": "b30f18c2e4b60046",
           "subject": "URGENT: Your Google Workspace account will be suspended",
-          "why_excluded": "Phishing that already landed in the spam folder and was never acted on. No consequence and no burial — the mail system surfaced it correctly.",
+          "why_excluded": "Phishing that already landed in the spam folder and was never acted on. No consequence and no burial \u2014 the mail system surfaced it correctly.",
           "trap": "unread-but-noise"
         },
         {
@@ -1735,9 +1898,33 @@
           "subject": "The retention play DTC brands keep getting wrong",
           "why_excluded": "Newsletter content fails the consequence test outright, however buried its takeaways are.",
           "trap": "newsletter_unsubscribe"
+        },
+        {
+          "message_id": "b40f18c2e4b60043",
+          "subject": "Delivery Status Notification (Failure): priyanka.rao@vaultedpr.com",
+          "why_excluded": "The mailbox's own annotation on this bounce marks it a harmless mistyped-domain attempt (priyanka.rao@ instead of priyanka@), not actionable. There is no matching SENT message showing lost content, and Priyanka corresponded normally with Jordan on Aug 6 and Aug 10 \u2014 nothing is unresolved.",
+          "trap": "harmless-mistype-bounce"
+        },
+        {
+          "message_id": "b40f18c2e4b60042",
+          "subject": "Delivery Status Notification (Failure): hgrant@northlightstudio.co",
+          "why_excluded": "The mailbox's own annotation marks this a one-off mistype (Hollis actually goes by hollis@) that Jordan resent correctly; a real reply from Hollis exists two days later in a related thread. Not a silent failure.",
+          "trap": "harmless-mistype-bounce"
+        },
+        {
+          "message_id": "b60f18c2e4b60019",
+          "subject": "Locking the Fall Shoot Date",
+          "why_excluded": "The specific 'week of Aug 10' question drew only an out-of-office auto-reply, but the claim that the ask 'died' and was 'never re-sent' is contradicted the very next day: Jordan sent studio-day logistics for what appears to be the same shoot in a parallel thread (b60f18c2e4b60030) and Hollis answered substantively on Jul 23, confirming call time and on-site equipment. Not a clean crack.",
+          "trap": "already-resolved-in-another-thread"
+        },
+        {
+          "message_id": "b60f18c2e4b60033",
+          "subject": "Re: Studio Day \u2014 Fall Lifestyle Shoot Logistics",
+          "why_excluded": "The Fold & Field retainer/SOW negotiation is loudly attested across at least five accurately-titled threads in this mailbox (Fold & Field FY27 SOW renewal; the DocuSign FY27 SOW; Fold & Field \u2014 Q4 SOW Scope; SOW renewal \u2014 the 18% increase is too much), and Jordan visibly engaged with several of them directly. The one topic-drifted aside in this thread ('Will send specifics tomorrow') was overtaken by Jordan's Aug 5 counter in a separate, correctly-titled thread \u2014 nothing here is genuinely buried under a misleading subject line.",
+          "trap": "loudly-attested-not-buried"
         }
       ],
-      "curator_notes": "Every item passes both tests: real consequence plus a burial factor (bounce, attachment-only, quote-only, misleading subject, auto-responder, bcc). The hardest call was the ambiguous-pronoun abandoned-cart case, which the trap matrix marks as Q6 material: it is excluded here because Ben's Aug 8 'Cart Abandonment Flow — Live!' closes it, and opening a closed obligation is a worse error than omitting a planted one. Priyanka's Jul 20 media-list request also died in an auto-responder, but it is scored as a low-stakes Q4 borderline rather than a crack. The three bounces are counted as three distinct failures because they are three different recipients and three different messages."
+      "curator_notes": "Every item passes both tests: real consequence plus a burial factor (bounce, attachment-only, quote-only, misleading subject, auto-responder, bcc, or promotional-category filing). Four items from the earlier draft did not survive a full-mailbox re-check and were moved to must_not_include: the fall studio day did not 'die in an auto-responder' \u2014 Jordan re-sent logistics the next day in a parallel thread and got a substantive reply; the Fold & Field retainer negotiation is loudly attested across roughly five correctly-titled threads and fails the burial test outright; and both typo'd-address bounces (priyanka.rao@, hgrant@) are annotated in the corpus itself as harmless mistypes that were resent correctly, with no evidence anything was lost. The bcc item (marketing-q6-10) is retiered to borderline: the specific decision window it warns about closed five weeks before the as-of date and the number it discusses was independently reconfirmed elsewhere, so the structural blind spot is real but nothing is currently at risk from it. The hardest call remains Amara's unsigned photo usage addendum: Jordan wrote both messages herself and chased once, which a strict reading of the engagement test pushes toward Q2/Q4, but six weeks of total silence during an active renegotiation with the same counterparty reads as a real orphaning, so it stays here. The Google Ads item is deliberately scoped to only the one confirmed Google disapproval (b40f18c2e4b60024); an earlier draft of this finding cited a second 'disapproval' that was actually a separate Meta ad rejection on a different platform, which does not actually compound toward Google's own policy-standing warning \u2014 that conflation has been dropped."
     }
   }
 }

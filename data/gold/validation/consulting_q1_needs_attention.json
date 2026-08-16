@@ -1,0 +1,65 @@
+{
+  "profile_id": "consulting",
+  "question": "q1_needs_attention",
+  "items_reviewed": 19,
+  "verdict": "issues",
+  "findings": [
+    {
+      "type": "false_positive",
+      "severity": "high",
+      "item_id": "consulting-q1-05",
+      "message_ids": ["e60f18c2e4b60040", "e50f18c2e4b60039"],
+      "problem": "The Expensify batch is closed, not open: Evelyn's only Jul 31 SENT reply to Sheila approves it and hands the next step to Sheila, and there is no second Expensify batch in the mailbox for that reply to refer to instead.",
+      "evidence": "e60f18c2e4b60040 (Sheila, Jul 14) is the ONLY 'Expensify batch — need your approval' request in the entire 300-message mailbox — a mailbox-wide grep for 'expensify' turns up nothing else that could be 'your batch'. e50f18c2e4b60039 (Evelyn to Sheila, Jul 31, subject 'Expensify approvals'): \"Sheila — approved your batch, go ahead and run payroll.\" That message's own meta annotation calls it explicitly: action_owner sheila.park@thornecadwell.com, action_summary \"Sheila owes running payroll now that expenses are approved.\" No Expensify correspondence exists anywhere after Jul 31, and Sheila — who elsewhere chases Evelyn hard on Ridgefield collections and timesheets — never once follows up on this 'still pending' batch even as the Aug 14 cutoff in the attachment approaches. The curator's own rationale for keeping it open ('predates the Aug 14 cutoff... names no batch') doesn't hold: approving two weeks ahead of a deadline is unremarkable, not evidence of a different batch, and a two-line reply between two people who share exactly one open batch needs no itemization to be understood.",
+      "recommended_action": "move to must_not_include with trap 'already-resolved', citing e50f18c2e4b60039 as the closing message and removing the corresponding line from prose_answer ('Expensify batch by Friday Aug 14')."
+    },
+    {
+      "type": "missed_item",
+      "severity": "medium",
+      "item_id": null,
+      "message_ids": ["e30f18c2e4b60047"],
+      "problem": "A genuine, dated speaker-deliverable deadline for the AME Chicago Summit (Oct 7 session) — final deck and bio due Aug 21, unread, unanswered — is absent from both items and must_not_include, even though the corpus's own annotation flags it as exactly this trap.",
+      "evidence": "e30f18c2e4b60047 (AME Events <speakers@ame.org>, Aug 7, still UNREAD): \"To finalize your listing in the printed program, please submit: 1. Final slide deck ... 2. A 100-word speaker bio and headshot. Deadline for both: August 21.\" Its own meta: is_actionable_for_user true, action_owner evelyn.thorne@thornecadwell.com, due_date 2026-08-21, notes \"reads like a routine automated confirmation from the events system but contains a real deliverable deadline tied to the firm's live speaking-circuit storyline.\" This is the same shape QUESTIONS.md names as canonical Q1 inclusion criterion 4 ('genuine deadlines wearing promotional styling') and is at least as concrete as the AME National item already included as consulting-q1-06.",
+      "recommended_action": "add new item with these fields — tier acceptable, anchor e30f18c2e4b60047, claim 'AME Chicago Summit needs Evelyn's final slide deck, 100-word bio and headshot for her Oct 7 session by Aug 21 or she drops out of the printed program', due_date 2026-08-21, due_basis explicit, consequence low-medium, counterparty speakers@ame.org, tricky_tags []. Note it is a distinct engagement from consulting-q1-06 (AME National, Oct 14 repeat slot, programs@ame.org) — different conference, different contact, different date — so adding it is not double counting."
+    },
+    {
+      "type": "missed_item",
+      "severity": "medium",
+      "item_id": null,
+      "message_ids": ["e40f18c2e4b60045"],
+      "problem": "A third, separate AME speaking commitment — the Great Lakes Regional Conference (Sep 16-18) — has slide deck, bio/headshot and AV logistics due Aug 21, plus Kyle's co-panelist registration and a hotel block that releases Aug 25, and none of it appears in items or must_not_include.",
+      "evidence": "e40f18c2e4b60045 (AME Conference Team <events@ame.org>, Aug 7, still UNREAD, cc Kyle Brenner): \"What we need from you by August 21: 1. Final slide deck ... 2. A 75-100 word speaker bio and a current headshot ... We received your co-presenter request for Kyle Brenner ... he'll need his own badge; please have him register separately.\" Its own meta: due_date 2026-08-21, action_owner evelyn.thorne@thornecadwell.com, action_summary \"Send final slide deck, bio, headshot, and AV requirements to AME by Aug 21; book hotel by Aug 25.\"",
+      "recommended_action": "add new item with these fields — tier acceptable, anchor e40f18c2e4b60045, claim 'AME Great Lakes Regional needs Evelyn's deck/bio/AV specs by Aug 21 and Kyle's separate co-presenter registration, with the discounted hotel block releasing Aug 25', due_date 2026-08-21, due_basis explicit, consequence low-medium, counterparty events@ame.org, tricky_tags []. Distinct from both consulting-q1-06 and the AME Chicago item above (three separate live speaking engagements piling up on the same Aug 15-21 window) — not double counting."
+    },
+    {
+      "type": "missed_item",
+      "severity": "medium",
+      "item_id": null,
+      "message_ids": ["e60f18c2e4b60036", "e60f18c2e4b60037"],
+      "problem": "The Ridgefield final recommendations deck — a real client deliverable ahead of their board meeting, with a deadline_moved trap exactly like the pattern QUESTIONS.md flags for inclusion — is undelivered as of Aug 12 and missing from both items and must_not_include, even though this same mailbox already includes two other, less-consequential Ridgefield items (consulting-q1-09, -10).",
+      "evidence": "e60f18c2e4b60036 (Marta Klein, Jul 30, tricky_tag deadline_moved): \"can you get the final recommendations deck to us by August 15? Board's meeting on the 18th.\" e60f18c2e4b60037 (Marta Klein, Aug 4, tricky_tag deadline_moved): \"Actually — board meeting got pushed to August 25, so no rush on the original date. Let's say August 22 for the deck now.\" No later message shows the deck delivered. QUESTIONS.md's own worked example treats a due date almost this far out (Aug 26/27, 'before the board meeting') as squarely inside Q1.",
+      "recommended_action": "add new item with these fields — tier acceptable, anchor e60f18c2e4b60037 (supersedes e60f18c2e4b60036 per deadline_moved), message_ids [e60f18c2e4b60036, e60f18c2e4b60037], claim 'Ridgefield's final recommendations deck is due Aug 22 (moved from Aug 15) ahead of their Aug 25 board meeting, and nothing shows it delivered', due_date 2026-08-22, due_basis explicit, consequence medium, counterparty marta.klein@ridgefieldmfg.com."
+    },
+    {
+      "type": "bad_quote",
+      "severity": "medium",
+      "item_id": "consulting-q1-02",
+      "message_ids": ["e40f18c2e4b60016"],
+      "problem": "The item's own cited evidence contradicts its central claim: e40f18c2e4b60016, listed as supporting evidence for 'never reached the client' / prose_answer's 'Bob has never seen it', actually reports the invoice being successfully emailed straight to Bob's own, actively-used address two days before the ap@ copy bounced.",
+      "evidence": "e40f18c2e4b60016 (QuickBooks, Aug 1): \"Invoice #1092 for $24,600.00 was emailed to bob.vandergriff@meridiancastings.com on Aug 1, 2026.\" bob.vandergriff@meridiancastings.com is Bob's real, daily-used mailbox (he sends and receives dozens of other messages from it, including e60f18c2e4b60046 on Aug 10). The bounce (e40f18c2e4b60034, Aug 3) only reports failure for a *different* address, ap@meridiancastings.com.",
+      "recommended_action": "fix quote/claim to 'invoice #1092 was successfully emailed to Bob's own address on Aug 1, but the parallel copy to the AP alias bounced, so it likely never reached whoever actually processes payment at Meridian even though Bob himself may have a copy sitting in his inbox' — drop the flat 'Bob has never seen it' line from prose_answer, which the corpus does not support."
+    }
+  ],
+  "checked_and_sound": [
+    "consulting-q1-01",
+    "consulting-q1-03",
+    "consulting-q1-04",
+    "consulting-q1-06",
+    "consulting-q1-07",
+    "consulting-q1-08",
+    "consulting-q1-09",
+    "consulting-q1-10",
+    "consulting-q1-11"
+  ],
+  "notes": "Ruling on the assignment's two specific questions: (1) the Expensify batch should NOT remain open — see the high-severity false_positive finding above; the curator's 'judgement call' does not survive the fact that this is the only Expensify batch in the mailbox and the closing message's own meta says the expenses are approved. (2) The lookalike-domain BEC attempt (consulting-q1-01, thread e60f18c2e4b60032) is correctly and cleanly framed as a hazard throughout: Evelyn's reply says 'that is NOT us, please don't act on it... Flag it to your IT/security team and ignore it entirely,' and nowhere in items, must_not_include, or prose_answer is it treated as payable — confirmed sound. Separately, all 8 must_not_include distractors were re-checked against the corpus (forwarded_task_not_users, already-resolved duplicate-resend, two lookalike-domain phishing attempts, newsletter-deadline, two automated-not-human notices, diffused_group_ask) and all hold up. The three missed AME/Ridgefield deadlines (Aug 21-22) cluster suspiciously close together and are all flagged in their own meta as 'looks automated but is real' — worth a second look at whether the curation pass systematically under-weighted messages in CATEGORY_UPDATES/CATEGORY_PROMOTIONS with is_unread=true, since all three missed items live there."
+}

@@ -1,0 +1,30 @@
+{
+  "profile_id": "finance",
+  "question": "q6_slipping_through_cracks",
+  "items_reviewed": 10,
+  "verdict": "issues",
+  "findings": [
+    {
+      "type": "missed_item",
+      "severity": "high",
+      "item_id": null,
+      "message_ids": ["c30f18c2e4b60046"],
+      "problem": "A wire-fraud phishing email impersonating Frank Mireles (Aditi's real Harborline banker) mid-way through the live $2.5M credit facility amendment/closing is missing from items entirely. It lands in SPAM, is unstarred and unflagged as important, and — unlike every other planted hazard in this mailbox — carries no `tricky_tags` annotation at all (its `meta.notes` confirms it is a lookalike-domain wire-fraud attempt, but `meta.tricky_tags` is empty), which is exactly the 'no meta annotation at all' burial pattern the brief calls out. It is dated Aug 11, one day before the DocuSign amendment completes (`c40f18c2e4b60046`, Aug 12) and while Frank's real financials deadline (Aug 18) is still open, so the underlying facility draw/close is still live and a wire could still be misdirected.",
+      "evidence": "\"Harborline Bank has updated the wire receiving instructions for your credit facility closing... New Receiving Bank: Harborline National Trust... reply to this email to confirm.\" (from frank.mireles@harborlinebank-support.com, a lookalike of the real fmireles@harborlinebank.com) — message c30f18c2e4b60046. Corroborating meta.notes on the same message: \"Invoice/wire-fraud phishing attempt impersonating Frank Mireles (real banker at harborlinebank.com) from lookalike domain harborlinebank-support.com, timed against the real credit-facility-extension storyline.\"",
+      "recommended_action": "add new item with these fields: claim ~ 'A phishing email impersonating Harborline banker Frank Mireles from lookalike domain harborlinebank-support.com demands new wire instructions for the $2.5M credit facility closing; it landed in SPAM with no star, no importance flag, and no tricky-tag annotation while the real amendment was still closing (DocuSign completed Aug 12, financials due Aug 18).' anchor_message_id: c30f18c2e4b60046; tricky_tags: [lookalike_domain]; consequence: high; tier: must_include; rank above finance-q6-01 given the facility size ($2.5M term sheet, c10f18c2e4b60018) exceeds every other item's dollar figure and the burial (SPAM + zero signals + zero meta tags) is the most total in the set."
+    }
+  ],
+  "checked_and_sound": [
+    "finance-q6-01",
+    "finance-q6-02",
+    "finance-q6-03",
+    "finance-q6-04",
+    "finance-q6-05",
+    "finance-q6-06",
+    "finance-q6-07",
+    "finance-q6-08",
+    "finance-q6-09",
+    "finance-q6-10"
+  ],
+  "notes": "Direct ruling on the flagged item (finance-q6-02, the $62K Bristow deferred-revenue reclass): it does NOT rest on unsupported silence — it rests on two positive facts plus an exhaustive negative search. (1) Karen's Jul 9 message (c60f18c2e4b60012) makes the $62K entry explicitly conditional: 'If Sam signs off... I'll book the entry before we close Friday... Haven't heard back from him yet.' (2) Karen's Jul 31 message (c60f18c2e4b60038), 'July close is locked. Financials going out to Sam and the board deck folder this afternoon,' shows the close proceeded without ever circling back to say the condition was met. I then swept the whole mailbox for closure: every message to/from Sam Greer (26 messages, none mention Bristow, the reclass, or a recognition-trigger sign-off), every message from Karen Voss from Jul 9 onward (including 'July close — status and open items' on Aug 3, which lists three different open items — AR write-off, payroll accrual, T&E — and never mentions the reclass either as done or still open), the Aug 3 'July trial balance export' and its Aug 7 delivery (the attached CSV shows only an aggregate Deferred Revenue balance, no line-item detail that would confirm or deny the entry), and the entire FY26 audit PBC correspondence (a different fiscal year's audit, no Bristow mention). No message anywhere closes, retracts, or confirms this obligation. Per QUESTIONS.md's own rule ('Silence does not close an obligation... stays open... until a message closes or retracts it'), the item is correctly open, correctly tiered must_include, and correctly anchored. Recommend no change to finance-q6-02.\n\nAll ten items' evidence_quotes verified as verbatim substrings of a cited message's body_text (or, for finance-q6-06, the attachment's extracted_text; for finance-q6-07, a message in the item's message_ids other than the anchor). Closure was independently re-verified for every item (Ferrocraft never resent, Titan letter never confirmed sent, Ruth's capex never re-raised, Derek's expense never approved/rejected in-corpus, Solent's two emails never followed up, the Bristow AR collections hold expired unremarked, Nadia's Meridian-lease escalation warning never resurfaces by name in any later PBC thread, Sam's board-package bcc promise is never referenced by exact date/scope in Aditi's own later board-prep email, and Kenji's Q3 tax OOO was never re-sent after his Aug 11 return). The five must_not_include distractors all check out (Miles claimed the insurance-cert ask the next morning; the two bounces are an internal alias and a recruiting message that is Hannah's, not Aditi's; the collections notice and newsletter are both non-obligations). No ranking inversions or double-counting found among the ten items — the Bristow revenue-recognition item (q6-02) and the separate Bristow AR-collections hold (q6-08) are genuinely distinct obligations on the same counterparty, not a split."
+}

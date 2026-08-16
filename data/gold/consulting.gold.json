@@ -10,18 +10,20 @@
   "answers": {
     "q1_needs_attention": {
       "question": "What needs my attention?",
-      "prose_answer": "Five things before anything else. Someone is impersonating our billing domain — 'thornecadwell-billing.com' tried to redirect Halberd's $18,400 payment to a new bank account. Lucia caught it, but nobody has warned Meridian's or Ridgefield's AP, and the attorney loop-in you promised is still sitting with Terrence, who is out until Aug 17. Second: invoice #1092 to Meridian, $24,600, bounced — ap@meridiancastings.com does not exist, so Bob has never seen it. Third, Bob wants a two-page exec summary before his board meeting and has waited two days. Fourth, the Stratus proposal is still frozen on Terrence's indemnification review and Kyle has been waiting since Aug 4 for your call. Then the hard dates: Expensify batch by Friday Aug 14, AME session title and bio by Aug 15, Owen's Aug 24 walkthrough question from Jul 21 still unanswered, and the expired Visa behind the Harvest renewal.",
+      "prose_answer": "Five things before anything else. Someone is impersonating our billing domain — 'thornecadwell-billing.com' tried to redirect Halberd's $18,400 payment to a new bank account. Lucia caught it, but nobody has warned Meridian's or Ridgefield's AP, and the attorney loop-in you promised is still sitting with Terrence, who is out until Aug 17. Second: invoice #1092 to Meridian, $24,600, only reached Bob's personal inbox — the AP alias bounced, so whoever actually pays it has never seen it. Third, Bob wants a two-page exec summary before his board meeting and has waited two days. Fourth, the Stratus proposal is still frozen on Terrence's indemnification review and Kyle has been waiting since Aug 4 for your call. Then the hard dates: Owen's Aug 24 walkthrough question from Jul 21 still unanswered, the expired Visa behind the Harvest renewal, AME's Aug 15 session bio, the Ridgefield deck now due Aug 22, and two more AME speaking deadlines (Aug 21) piling up behind it.",
       "ranked": [
         "consulting-q1-01",
         "consulting-q1-02",
         "consulting-q1-03",
         "consulting-q1-04",
-        "consulting-q1-05",
         "consulting-q1-06",
         "consulting-q1-07",
         "consulting-q1-08",
         "consulting-q1-09",
-        "consulting-q1-10"
+        "consulting-q1-12",
+        "consulting-q1-10",
+        "consulting-q1-13",
+        "consulting-q1-14"
       ],
       "items": [
         {
@@ -50,15 +52,15 @@
           "item_id": "consulting-q1-02",
           "rank": 2,
           "tier": "must_include",
-          "claim": "Invoice #1092 to Meridian Castings for $24,600 never reached the client: QuickBooks sent it to ap@meridiancastings.com, which does not exist, and the bounce has sat unactioned since Aug 3.",
+          "claim": "Invoice #1092 to Meridian Castings for $24,600 was emailed to Bob Vandergriff's own address on Aug 1, but the parallel copy sent to the AP alias — ap@meridiancastings.com, which does not exist — bounced on Aug 3, and nothing shows the invoice reaching whoever at Meridian actually processes payment.",
           "thread_id": "e40f18c2e4b60034",
           "anchor_message_id": "e40f18c2e4b60034",
           "message_ids": [
             "e40f18c2e4b60034",
             "e40f18c2e4b60016"
           ],
-          "evidence_quote": "Subject: Invoice #1092 — Meridian Castings LLC — Due Aug 31, 2026",
-          "why_it_qualifies": "Real money on the firm's largest account is silently uncollected — everyone believes the invoice was sent. Machine mail, but it carries a hard fact and an owner action (resend to a valid address before the Aug 31 due date).",
+          "evidence_quote": "Your message wasn't delivered because the recipient's email address wasn't found.",
+          "why_it_qualifies": "Real money on the firm's largest account is at risk of going uncollected: QuickBooks' own confirmation creates the false sense that Meridian was billed, but the address that actually processes payment never received it, and there is no evidence Bob forwarded his personal copy to AP.",
           "counterparty": "bob.vandergriff@meridiancastings.com",
           "due_date": "2026-08-31",
           "due_basis": "explicit",
@@ -113,29 +115,8 @@
           ]
         },
         {
-          "item_id": "consulting-q1-05",
-          "rank": 5,
-          "tier": "acceptable",
-          "claim": "Sheila's Expensify batch of $446.15 (Brenner, Dunne, Restrepo) must be approved by end of day Friday Aug 14 or the reimbursements slip a full payroll cycle — the deadline exists only in the attached PDF.",
-          "thread_id": "e60f18c2e4b60040",
-          "anchor_message_id": "e60f18c2e4b60040",
-          "message_ids": [
-            "e60f18c2e4b60040"
-          ],
-          "evidence_quote": "Please approve this batch by EOD Friday, August 14, so it posts to this payroll cycle.",
-          "why_it_qualifies": "Hard date inside the Q1 window with an irreversible consequence (two-week delay for three staff), and the body says only 'see attached', so the deadline is invisible without opening the PDF.",
-          "counterparty": "sheila.park@thornecadwell.com",
-          "due_date": "2026-08-14",
-          "due_basis": "explicit",
-          "days_open": 29,
-          "consequence": "medium",
-          "tricky_tags": [
-            "task_in_attachment_only"
-          ]
-        },
-        {
           "item_id": "consulting-q1-06",
-          "rank": 6,
+          "rank": 5,
           "tier": "acceptable",
           "claim": "AME National needs Evelyn's session title and short bio for the Oct 14 repeat speaking slot by Aug 15, and no confirmation has been sent to them.",
           "thread_id": "e60f18c2e4b60044",
@@ -156,7 +137,7 @@
         },
         {
           "item_id": "consulting-q1-07",
-          "rank": 7,
+          "rank": 6,
           "tier": "must_include",
           "claim": "Owen McCabe has been waiting since Jul 21 for confirmation that Kyle is available for the Stratus plant walkthrough the week of Aug 24 — Evelyn's reply thanked him for the demo and never answered the question.",
           "thread_id": "e60f18c2e4b60041",
@@ -178,7 +159,7 @@
         },
         {
           "item_id": "consulting-q1-08",
-          "rank": 8,
+          "rank": 7,
           "tier": "acceptable",
           "claim": "The Harvest Pro annual plan renewed on Aug 11 against a Visa ending 4471 that expired last month, putting Kyle, Ana, Fiona and Sheila's time tracking and invoicing at risk; the card has not been updated.",
           "thread_id": "e30f18c2e4b60046",
@@ -197,7 +178,7 @@
         },
         {
           "item_id": "consulting-q1-09",
-          "rank": 9,
+          "rank": 8,
           "tier": "acceptable",
           "claim": "Ridgefield invoice #10412 for $18,400 is unpaid with Evelyn's own deadline of Aug 19 approaching, and Marta Klein has never answered the Jul 16 demand letter.",
           "thread_id": "e50f18c2e4b60018",
@@ -238,7 +219,7 @@
         },
         {
           "item_id": "consulting-q1-11",
-          "rank": 11,
+          "rank": 13,
           "tier": "borderline",
           "claim": "Google blocked a sign-in attempt to Evelyn's account from Kyiv on Jul 30 and recommends turning on 2-Step Verification, which no later message shows was done.",
           "thread_id": "e40f18c2e4b60029",
@@ -252,6 +233,66 @@
           "due_date": null,
           "due_basis": "none",
           "days_open": 13,
+          "consequence": "medium",
+          "tricky_tags": []
+        },
+        {
+          "item_id": "consulting-q1-12",
+          "rank": 9,
+          "tier": "acceptable",
+          "claim": "The Ridgefield final recommendations deck — moved from Aug 15 to Aug 22 after Marta's board meeting shifted to Aug 25 — has not been delivered, and no message in the mailbox shows it sent.",
+          "thread_id": "e60f18c2e4b60036",
+          "anchor_message_id": "e60f18c2e4b60037",
+          "message_ids": [
+            "e60f18c2e4b60036",
+            "e60f18c2e4b60037"
+          ],
+          "evidence_quote": "Let's say August 22 for the deck now, gives me a few days same as before.",
+          "why_it_qualifies": "A real, dated client deliverable ahead of a board meeting, inside Q1's window even with the deadline_moved trap resolved to the later date; nothing shows Evelyn has started it.",
+          "counterparty": "marta.klein@ridgefieldmfg.com",
+          "due_date": "2026-08-22",
+          "due_basis": "explicit",
+          "days_open": 13,
+          "consequence": "medium",
+          "tricky_tags": [
+            "deadline_moved"
+          ]
+        },
+        {
+          "item_id": "consulting-q1-13",
+          "rank": 11,
+          "tier": "acceptable",
+          "claim": "AME Chicago Summit needs Evelyn's final slide deck plus a 100-word bio and headshot for her Oct 7 session by Aug 21 or she drops out of the printed program; the message is still unread.",
+          "thread_id": "e30f18c2e4b60047",
+          "anchor_message_id": "e30f18c2e4b60047",
+          "message_ids": [
+            "e30f18c2e4b60047"
+          ],
+          "evidence_quote": "Deadline for both: August 21. Submissions after this date won't make the printed program",
+          "why_it_qualifies": "A genuine, dated speaking-circuit deliverable dressed as routine event-system mail — the same shape as the AME National ask already included, but a distinct conference, contact, and date.",
+          "counterparty": "speakers@ame.org",
+          "due_date": "2026-08-21",
+          "due_basis": "explicit",
+          "days_open": 5,
+          "consequence": "medium",
+          "tricky_tags": []
+        },
+        {
+          "item_id": "consulting-q1-14",
+          "rank": 12,
+          "tier": "acceptable",
+          "claim": "AME Great Lakes Regional (Sept 16-18) needs Evelyn's deck, bio, headshot and AV requirements by Aug 21, plus Kyle's separate co-presenter registration, with the discounted hotel block releasing Aug 25; the message is still unread.",
+          "thread_id": "e40f18c2e4b60045",
+          "anchor_message_id": "e40f18c2e4b60045",
+          "message_ids": [
+            "e40f18c2e4b60045"
+          ],
+          "evidence_quote": "What we need from you by August 21:",
+          "why_it_qualifies": "A third, distinct live speaking commitment stacked into the same Aug 15-21 window as the AME National and AME Chicago asks — each has its own contact, date, and deliverables, so listing all three is not double counting.",
+          "counterparty": "events@ame.org",
+          "due_date": "2026-08-21",
+          "due_basis": "explicit",
+          "days_open": 5,
           "consequence": "medium",
           "tricky_tags": []
         }
@@ -304,13 +345,19 @@
           "subject": "Your antivirus subscription auto-renewed for $499.99",
           "why_excluded": "Spam-folder invoice fraud designed to trigger a call to a fake billing line. Not a payable and not a real renewal.",
           "trap": "lookalike_domain"
+        },
+        {
+          "message_id": "e60f18c2e4b60040",
+          "subject": "Expensify batch — need your approval",
+          "why_excluded": "This is the only Expensify batch-approval request anywhere in the mailbox, and Evelyn's Jul 31 SENT reply to Sheila ('approved your batch, go ahead and run payroll') approves it two weeks before the attachment's Aug 14 cutoff — there is no second batch for that reply to refer to instead.",
+          "trap": "already-resolved"
         }
       ],
-      "curator_notes": "Q1 is time-gated to the week of Aug 12-19 plus everything overdue. The lookalike-domain case leads as a hazard, never as a payable — Evelyn already told Lucia not to act on it, so what remains is the unfinished containment (warn other clients' AP, loop in counsel). The bounced Meridian invoice is included here as well as in Q6 because the money is real and the Aug 31 due date is fixed. Kyle's duplicate-resend Halberd ask is deliberately in must_not_include: reading the full corpus shows the overage was resolved by a signed change order in late July. The Expensify batch is kept open despite a Jul 31 SENT note to Sheila reading 'approved your batch' — that message predates the Aug 14 cutoff stated in the attachment and names no batch, so the attachment-only ask is treated as live; flagged as a judgement call."
+      "curator_notes": "Q1 is time-gated to the week of Aug 12-19 plus everything overdue, though genuinely consequential dated deliverables a little further out (the Ridgefield deck, the AME speaking deadlines) are included following the same precedent as the board-consent worked example in QUESTIONS.md. The lookalike-domain case leads as a hazard, never as a payable — Evelyn already told Lucia not to act on it, so what remains is the unfinished containment (warn other clients' AP, loop in counsel). The bounced Meridian invoice is included here as well as in Q6 because the money is real and the Aug 31 due date is fixed; corrected per validator finding to note the invoice did reach Bob's personal address even though the AP alias bounced — the risk is that AP proper never sees it, not that Bob is literally unaware an invoice exists. Kyle's duplicate-resend Halberd ask is deliberately in must_not_include: the overage was resolved by a signed change order in late July. Reconciler note: the Expensify batch, previously kept open as a judgement call, is now confirmed closed — it is the only Expensify batch anywhere in the mailbox, and Evelyn's Jul 31 'approved your batch, go ahead and run payroll' predates the Aug 14 cutoff with nothing left to approve; moved to must_not_include and dropped from Q3 and Q6 for the same reason. Three additional dated deliverables (Ridgefield final deck due Aug 22, AME Chicago and AME Great Lakes speaker packets due Aug 21) were added after adversarial review found them absent despite meeting Q1's own inclusion criteria."
     },
     "q2_forgetting": {
       "question": "What am I forgetting?",
-      "prose_answer": "The expensive one is Owen: you promised him final Stratus SOW language by Friday Jul 31 and it has not gone — Kyle says Owen is asking. Lucia is owed two things you wrote yourself: the $12,500 change-order paperwork promised by Friday Jul 31, which never went even though you told Ana to send the invoice, and the amended-SOW promise from Jul 9 that was conditional on Terrence's sign-off and has been silent for a month. AME never got the bio and headshot you promised well before August 1st. On Ridgefield #10412, you told Sheila to loop in Terrence if Marta went quiet past that Friday — that was Jul 24 and you also stopped her reminders, so $18,400 is sitting untouched. Smaller: Fiona's headshot and bio for Halberd, promised Aug 4; Sheila's 2024-25 origination pull; and Diane Ostrander's referral introduction.",
+      "prose_answer": "The expensive one is Owen: you promised him final Stratus SOW language by Friday Jul 31 and it has not gone — Kyle says Owen is asking. Lucia is owed three things you wrote yourself: the $12,500 change-order paperwork promised by Friday Jul 31, which never went even though you told Ana to send the invoice; the amended-SOW promise from Jul 9 that was conditional on Terrence's sign-off and has been silent for a month; and the org-design deck you handed to Ana on Jul 20 for delivery by that Wednesday, which no message shows ever went out. AME never got the bio and headshot you promised well before August 1st. On Ridgefield #10412, you told Sheila to loop in Terrence if Marta went quiet past that Friday — that was Jul 24 and you also stopped her reminders, so $18,400 is sitting untouched. Smaller: Fiona's headshot and bio for Halberd, promised Aug 4; Sheila's 2024-25 origination pull; and Diane Ostrander's referral introduction.",
       "ranked": [
         "consulting-q2-01",
         "consulting-q2-02",
@@ -319,7 +366,8 @@
         "consulting-q2-05",
         "consulting-q2-06",
         "consulting-q2-07",
-        "consulting-q2-08"
+        "consulting-q2-08",
+        "consulting-q2-09"
       ],
       "items": [
         {
@@ -490,17 +538,18 @@
         {
           "item_id": "consulting-q2-09",
           "rank": 9,
-          "tier": "borderline",
-          "claim": "Evelyn promised Lucia a revised org-design draft from Ana by end of day Wednesday Jul 22, personally reviewed first; no delivery message exists, though Lucia has not raised it again.",
+          "tier": "acceptable",
+          "claim": "Evelyn's own apology promised Lucia a revised Halberd org-design deck from Ana by EOD Wednesday Jul 22, personally reviewed first; no message anywhere shows it delivered, and the later 'Quick call this week?' thread that might look like a resolution never once mentions the deck — it only covers QBR-prep scheduling and a conference bio ask.",
           "thread_id": "e50f18c2e4b60020",
           "anchor_message_id": "e50f18c2e4b60021",
           "message_ids": [
             "e50f18c2e4b60021",
             "e50f18c2e4b60020",
-            "e50f18c2e4b60022"
+            "e50f18c2e4b60022",
+            "e50f18c2e4b60048"
           ],
           "evidence_quote": "You'll have a revised draft from her by end of day Wednesday, and I'll personally review it before it goes to you",
-          "why_it_qualifies": "Borderline: the date passed with no delivery message, which normally leaves it open — but the Halberd QBR happened on Jul 29 and Lucia has written five times since without chasing it, so it may have been handed over off-thread.",
+          "why_it_qualifies": "Owner-authored SENT promise with a passed date and no delivery message; a second, independent self-authored admission of the same lapse survives in an abandoned draft the night before. The QBR thread Lucia and Evelyn ran afterward is a genuinely separate topic, so 'she never raised it again' is not evidence of silent completion — it is evidence the deck fell out of view entirely.",
           "counterparty": "l.ferraro@halberdpackaging.com",
           "due_date": "2026-07-22",
           "due_basis": "implicit",
@@ -547,20 +596,18 @@
           "trap": "forwarded_task_not_users"
         }
       ],
-      "curator_notes": "Q2 is restricted to obligations Evelyn demonstrably registered herself — every item is anchored on an owner-authored SENT message. The Ridgefield escalation appears here (she wrote the trigger) while the underlying unpaid invoice sits in Q1/Q4/Q6. The Halberd org-design deck is marked borderline rather than acceptable: the date passed without a delivery message, but the QBR went ahead and Lucia never chased it, so silent completion is plausible. Both drafts that look like forgettings (Utilization, the Callahan reply) are superseded by sent mail and are listed as distractors. The cancelled September call with Marta is kept out by rule."
+      "curator_notes": "Q2 is restricted to obligations Evelyn demonstrably registered herself — every item is anchored on an owner-authored SENT message. The Ridgefield escalation appears here (she wrote the trigger) while the underlying unpaid invoice sits in Q1/Q4/Q6. The Halberd org-design deck, previously borderline on the theory that the Jul 29 QBR made it moot, is promoted to acceptable and ranked: the QBR thread (topic_drift, 'Quick call this week?') is a genuinely different conversation about Q3 numbers and a conference bio, never the deck, so there is no basis for assuming silent completion — the no-silent-completion rule governs. An abandoned draft (e50f18c2e4b60048) restates the same lapse independently and is kept as supporting evidence. Considered and rejected: a proposed item for Evelyn's Aug 4 promises to Bob Vandergriff (clean redlined Meridian Phase 2 SOW 'this afternoon', Anil's MES login by Friday Aug 7) — Evelyn's own Aug 12 note 'Contract signed — let's kick off' and the Aug 6 Anil/Kyle data-model-sync meeting confirm both went through; the promise did not survive a full mailbox read. Both drafts that look like forgettings (Utilization, the Callahan reply) are superseded by sent mail and are listed as distractors. The cancelled September call with Marta is kept out by rule."
     },
     "q3_waiting_on_me": {
       "question": "What is waiting on me?",
-      "prose_answer": "Owen McCabe has been waiting since Jul 21 for a yes on Kyle doing the Stratus plant walkthrough the week of Aug 24 — your reply thanked him for the demo and never answered him, and he says the engagement letter is gated on it. Bob Vandergriff wants a two-page exec summary before his board meeting, asked Aug 10. Marta Klein has asked twice for the Ridgefield final recommendations deck, now due Aug 22 since her board moved to the 25th, and has had no reply at all. Kyle needs your call on whether to stall Owen or chase Terrence on the indemnification cap. Sheila needs the $446.15 Expensify batch approved by Friday Aug 14. Also open: the Stratus mutual NDA unsigned since Jul 16, AME National's title and bio by Aug 15, Lucia's 'still good for 2pm Wednesday?', and two AME speaker packets due Aug 21.",
+      "prose_answer": "Owen McCabe has been waiting since Jul 21 for a yes on Kyle doing the Stratus plant walkthrough the week of Aug 24 — your reply thanked him for the demo and never answered him, and he says the engagement letter is gated on it. Bob Vandergriff wants a two-page exec summary before his board meeting, asked Aug 10. Marta Klein has asked twice for the Ridgefield final recommendations deck, now due Aug 22 since her board moved to the 25th, and has had no reply at all. Kyle needs your call on whether to stall Owen or chase Terrence on the indemnification cap. Also open: the Stratus mutual NDA unsigned since Jul 16, AME National's title and bio by Aug 15, and two AME speaker packets due Aug 21.",
       "ranked": [
         "consulting-q3-01",
         "consulting-q3-02",
         "consulting-q3-03",
         "consulting-q3-04",
-        "consulting-q3-05",
         "consulting-q3-06",
         "consulting-q3-07",
-        "consulting-q3-08",
         "consulting-q3-09",
         "consulting-q3-10"
       ],
@@ -652,29 +699,8 @@
           ]
         },
         {
-          "item_id": "consulting-q3-05",
-          "rank": 5,
-          "tier": "must_include",
-          "claim": "Sheila Park needs Evelyn's sign-off on the $446.15 Expensify batch by EOD Friday Aug 14 or three staff reimbursements roll to the next payroll cycle.",
-          "thread_id": "e60f18c2e4b60040",
-          "anchor_message_id": "e60f18c2e4b60040",
-          "message_ids": [
-            "e60f18c2e4b60040"
-          ],
-          "evidence_quote": "Evelyn — see attached, need your sign-off when you get a sec.",
-          "why_it_qualifies": "Named requester, addressed to Evelyn alone, and she is the only approver. The ask is real even though the body says nothing but 'see attached' — the itemisation and the hard date live in the PDF.",
-          "counterparty": "sheila.park@thornecadwell.com",
-          "due_date": "2026-08-14",
-          "due_basis": "explicit",
-          "days_open": 29,
-          "consequence": "medium",
-          "tricky_tags": [
-            "task_in_attachment_only"
-          ]
-        },
-        {
           "item_id": "consulting-q3-06",
-          "rank": 6,
+          "rank": 5,
           "tier": "acceptable",
           "claim": "The Stratus Industrial mutual NDA Owen sent for signature on Jul 16 is still unsigned; Evelyn asked Terrence to check the residuals clause first and his out-of-office swallowed the request.",
           "thread_id": "e40f18c2e4b60022",
@@ -697,7 +723,7 @@
         },
         {
           "item_id": "consulting-q3-07",
-          "rank": 7,
+          "rank": 6,
           "tier": "acceptable",
           "claim": "AME National is waiting for Evelyn's session title and short bio for the Oct 14 repeat slot, due Aug 15.",
           "thread_id": "e60f18c2e4b60044",
@@ -717,31 +743,8 @@
           ]
         },
         {
-          "item_id": "consulting-q3-08",
-          "rank": 8,
-          "tier": "acceptable",
-          "claim": "Lucia Ferraro asked on Aug 5 to confirm the 2pm Wednesday QBR-prep slot and offered to send the QBR deck the night before; she has had no reply.",
-          "thread_id": "e60f18c2e4b60023",
-          "anchor_message_id": "e60f18c2e4b60029",
-          "message_ids": [
-            "e60f18c2e4b60029",
-            "e60f18c2e4b60023",
-            "e60f18c2e4b60024"
-          ],
-          "evidence_quote": "And just to close the loop on Wednesday — still good for 2pm? Can send the QBR deck Tuesday night.",
-          "why_it_qualifies": "Client asked a direct yes/no and spoke last. The thread's subject still reads 'Quick call this week?' after drifting into conference-bio logistics, which is why this scheduling loop never got closed.",
-          "counterparty": "l.ferraro@halberdpackaging.com",
-          "due_date": null,
-          "due_basis": "none",
-          "days_open": 7,
-          "consequence": "medium",
-          "tricky_tags": [
-            "topic_drift"
-          ]
-        },
-        {
           "item_id": "consulting-q3-09",
-          "rank": 9,
+          "rank": 7,
           "tier": "acceptable",
           "claim": "AME's events team needs Evelyn's final slide deck plus a 100-word bio and headshot for the Oct 7 Chicago Summit session by Aug 21 or she drops out of the printed program.",
           "thread_id": "e30f18c2e4b60047",
@@ -760,7 +763,7 @@
         },
         {
           "item_id": "consulting-q3-10",
-          "rank": 10,
+          "rank": 8,
           "tier": "acceptable",
           "claim": "AME Great Lakes needs four things from Evelyn by Aug 21 for the Sept 17 session — deck, bio and headshot, AV requirements, and whether slides can be shared post-conference — plus Kyle registering separately as co-presenter.",
           "thread_id": "e40f18c2e4b60045",
@@ -779,7 +782,7 @@
         },
         {
           "item_id": "consulting-q3-11",
-          "rank": 11,
+          "rank": 9,
           "tier": "borderline",
           "claim": "Nora Bishop's dinner invitation from Jun 20 has never been answered.",
           "thread_id": "e10f18c2e4b60047",
@@ -845,23 +848,36 @@
           "subject": "Re: Halberd — hours overage, need your call",
           "why_excluded": "Kyle's resent request is one obligation, not two, and it is closed — the change order was agreed with Lucia and Ana confirmed on Aug 9 that the engagement closes clean.",
           "trap": "duplicate_resend"
+        },
+        {
+          "message_id": "e60f18c2e4b60040",
+          "subject": "Expensify batch — need your approval",
+          "why_excluded": "The only Expensify batch in the mailbox; Evelyn's Jul 31 SENT reply to Sheila ('approved your batch, go ahead and run payroll') closes it two weeks ahead of the attachment's Aug 14 cutoff. Nobody is waiting on Evelyn here.",
+          "trap": "already-resolved"
+        },
+        {
+          "message_id": "e60f18c2e4b60029",
+          "subject": "Re: Quick call this week?",
+          "why_excluded": "'Still good for 2pm Wednesday?' resolves to Wed Aug 12 — the as-of date itself: the message was sent Wednesday Aug 5 at 2:35pm (after that day's own 2pm), so the 'Wednesday' referenced can only be the next one. By 23:59 Aug 12 that slot has already come and gone one way or another, so this is not a live, forward-looking wait as of the as-of moment.",
+          "trap": "meeting-window-passed"
         }
       ],
-      "curator_notes": "Every item here has a named human (or a signature workflow acting for one) who spoke last with an open request directed at Evelyn personally. The lookalike-domain message is deliberately absent: Lucia's question was answered within the hour, and the fraudulent 'requester' behind the wire change is nobody legitimate. Owen's ask is ranked first on blocked duration even though Evelyn technically replied — her reply is the proof she never registered the question. Nora Bishop's dinner note is left borderline: structurally a perfect Q3 entry, practically stale."
+      "curator_notes": "Every item here has a named human (or a signature workflow acting for one) who spoke last with an open request directed at Evelyn personally. The lookalike-domain message is deliberately absent: Lucia's question was answered within the hour, and the fraudulent 'requester' behind the wire change is nobody legitimate. Owen's ask is ranked first on blocked duration even though Evelyn technically replied — her reply is the proof she never registered the question. Nora Bishop's dinner note is left borderline: structurally a perfect Q3 entry, practically stale. Reconciler corrections: the Expensify batch (consulting-q3-05) is removed — it is closed by Evelyn's Jul 31 approval, the same fact that closes it in Q1 and Q6. Lucia's 'still good for 2pm Wednesday?' (consulting-q3-08) is also removed: the message was sent Wed Aug 5 at 2:35pm asking about 'Wednesday', so the referenced slot is Wed Aug 12 — the as-of date itself — meaning that window has already closed by 23:59 Aug 12 regardless of whether anyone ever replied. It may be worth a future Q6/Q2 pass (did the meeting happen at all with no confirmation on record?), but per scope discipline it is not re-added to another question's set here."
     },
     "q4_waiting_on_others": {
       "question": "What am I waiting on someone else for?",
-      "prose_answer": "Terrence Boyle is the blocker that matters: you asked for counter-language on the Stratus liability cap on Jul 29, chased Aug 6, and his auto-reply says he is out until Aug 17 — Denise Okafor is the delegate if this cannot wait, and your own promise to Owen is stuck behind it. Owen and Preston owe the signed Stratus SOW back by Friday Aug 14 or the week-of-Aug-24 kickoff slips. Kyle owes Bob the updated Meridian report with the retrofit footnote by the same Friday, and he still has not produced the Stratus data-pull outline you first asked for on Jun 24. Bob's procurement has had the Phase 2 SOW for countersignature since Aug 5. On cash: Ridgefield owes $18,400 on #10412 with no answer since Jul 16, and $22,400 on #4471 which Marta promises by Aug 20. Fiona still owes the revised AME slide, and Gordon owes a call on Terrence's rate.",
+      "prose_answer": "Terrence Boyle is the blocker that matters: you asked for counter-language on the Stratus liability cap on Jul 29, chased Aug 6, and his auto-reply says he is out until Aug 17 — Denise Okafor is the delegate if this cannot wait, and your own promise to Owen is stuck behind it. Owen and Preston owe the signed Stratus SOW back by Friday Aug 14 or the week-of-Aug-24 kickoff slips. Kyle owes Bob the updated Meridian report with the retrofit footnote by the same Friday, and he still has not produced the Stratus data-pull outline you first asked for on Jun 24. On cash: Ridgefield owes $18,400 on #10412 with no answer since Jul 16, and $22,400 on #4471 which Marta promises by Aug 20. Fiona still owes the revised AME slide, Gordon owes a call on Terrence's rate, and two smaller asks — the APICS panel slot and Ana's Halberd deck for Lucia — have gone unanswered for weeks.",
       "ranked": [
         "consulting-q4-01",
         "consulting-q4-02",
         "consulting-q4-03",
-        "consulting-q4-04",
         "consulting-q4-05",
         "consulting-q4-06",
         "consulting-q4-07",
         "consulting-q4-08",
-        "consulting-q4-09"
+        "consulting-q4-09",
+        "consulting-q4-11",
+        "consulting-q4-12"
       ],
       "items": [
         {
@@ -929,29 +945,8 @@
           "tricky_tags": []
         },
         {
-          "item_id": "consulting-q4-04",
-          "rank": 4,
-          "tier": "must_include",
-          "claim": "Bob Vandergriff owes the countersigned Meridian Phase 2 SOW back from his procurement team; he said on Aug 5 he would confirm once it returned and has not.",
-          "thread_id": "e10f18c2e4b60001",
-          "anchor_message_id": "e10f18c2e4b60003",
-          "message_ids": [
-            "e10f18c2e4b60003",
-            "e10f18c2e4b60002",
-            "e10f18c2e4b60001"
-          ],
-          "evidence_quote": "Sending to procurement for countersignature this week — will confirm once it's back.",
-          "why_it_qualifies": "Promise made to Evelyn with a stated window that has passed; the engagement is already being staffed and billed against a contract that is not yet fully executed.",
-          "counterparty": "bob.vandergriff@meridiancastings.com",
-          "due_date": "2026-08-07",
-          "due_basis": "implicit",
-          "days_open": 7,
-          "consequence": "high",
-          "tricky_tags": []
-        },
-        {
           "item_id": "consulting-q4-05",
-          "rank": 5,
+          "rank": 4,
           "tier": "must_include",
           "claim": "Kyle Brenner (with Fiona) has never delivered the Stratus plant-systems data-pull outline that Anil needs as a starting point — first asked Jun 24, re-briefed Jul 22, chased the same day for 'something by Friday'.",
           "thread_id": "e50f18c2e4b60026",
@@ -972,7 +967,7 @@
         },
         {
           "item_id": "consulting-q4-06",
-          "rank": 6,
+          "rank": 5,
           "tier": "must_include",
           "claim": "Ridgefield still owes $18,400 on invoice #10412; Marta Klein has not answered Evelyn's Jul 16 demand letter asking for payment by Aug 19 or a firm date.",
           "thread_id": "e50f18c2e4b60018",
@@ -993,7 +988,7 @@
         },
         {
           "item_id": "consulting-q4-07",
-          "rank": 7,
+          "rank": 6,
           "tier": "acceptable",
           "claim": "Ridgefield's payment of invoice #4471, $22,400, is promised by Aug 20 after Marta found it stuck outside the new AP system; Evelyn said she will chase again if it has not landed by the 21st.",
           "thread_id": "e10f18c2e4b60025",
@@ -1014,7 +1009,7 @@
         },
         {
           "item_id": "consulting-q4-08",
-          "rank": 8,
+          "rank": 7,
           "tier": "acceptable",
           "claim": "Fiona Dunne owes the revised AME talk outline with the anonymised Halberd packaging-line case-study slide, due Jul 24 so Evelyn could rehearse.",
           "thread_id": "e10f18c2e4b60030",
@@ -1034,7 +1029,7 @@
         },
         {
           "item_id": "consulting-q4-09",
-          "rank": 9,
+          "rank": 8,
           "tier": "acceptable",
           "claim": "Gordon Cadwell has not answered whether the firm pushes back on or absorbs Terrence Boyle's rate increase from $450 to $525 an hour, effective September; Evelyn is holding her reply to Terrence until he does.",
           "thread_id": "e50f18c2e4b60037",
@@ -1053,7 +1048,7 @@
         },
         {
           "item_id": "consulting-q4-10",
-          "rank": 10,
+          "rank": 11,
           "tier": "borderline",
           "claim": "Harlan Voss at Ferris Tool has never responded to Evelyn's June introduction or her Aug 3 re-offer of a 30-minute call about their changeover-time problem.",
           "thread_id": "e50f18c2e4b60001",
@@ -1068,6 +1063,46 @@
           "due_date": null,
           "due_basis": "none",
           "days_open": 58,
+          "consequence": "low",
+          "tricky_tags": []
+        },
+        {
+          "item_id": "consulting-q4-11",
+          "rank": 9,
+          "tier": "acceptable",
+          "claim": "Evelyn asked Gordon whether Ana should take the APICS 'AI in the plant' panel slot, then asked Ana directly the next day — neither has ever replied, seven weeks on.",
+          "thread_id": "e50f18c2e4b60006",
+          "anchor_message_id": "e50f18c2e4b60006",
+          "message_ids": [
+            "e50f18c2e4b60005",
+            "e50f18c2e4b60006"
+          ],
+          "evidence_quote": "APICS wants one of us on a panel Sept 17. Can you take it?",
+          "why_it_qualifies": "Two directed, single-recipient asks with no responsive reply anywhere in the mailbox; low stakes on its own, but it cleanly satisfies Q4's directed-expectation test and the panel is five weeks out.",
+          "counterparty": "ana.restrepo@thornecadwell.com",
+          "due_date": "2026-09-17",
+          "due_basis": "explicit",
+          "days_open": 50,
+          "consequence": "low",
+          "tricky_tags": []
+        },
+        {
+          "item_id": "consulting-q4-12",
+          "rank": 10,
+          "tier": "acceptable",
+          "claim": "Ana never confirmed sending Lucia the revised Halberd org-design deck Evelyn delegated to her on Jul 20 for an EOD-Wednesday deadline; no message shows it went out.",
+          "thread_id": "e50f18c2e4b60020",
+          "anchor_message_id": "e50f18c2e4b60022",
+          "message_ids": [
+            "e50f18c2e4b60022",
+            "e50f18c2e4b60021"
+          ],
+          "evidence_quote": "Ana — can you own the Halberd deck from here? Told Lucia she'll have a revised draft from you by EOD Wednesday.",
+          "why_it_qualifies": "A clear internal delegation with an explicit date and no responsive message from Ana anywhere in the mailbox — the mirror image of Evelyn's own overdue promise to Lucia tracked in Q2. Lower confidence: Evelyn's Aug 11 partner note describes Halberd overall as healthy and wrapping, though that says nothing specific about this deliverable.",
+          "counterparty": "ana.restrepo@thornecadwell.com",
+          "due_date": "2026-07-22",
+          "due_basis": "explicit",
+          "days_open": 23,
           "consequence": "low",
           "tricky_tags": []
         }
@@ -1108,20 +1143,26 @@
           "subject": "Re: conference room speaker — McCabe call",
           "why_excluded": "Fiona claimed the unowned speaker task herself within twenty minutes. Nothing is pending for Evelyn to chase.",
           "trap": "diffused_group_ask"
+        },
+        {
+          "message_id": "e10f18c2e4b60003",
+          "subject": "Re: Meridian Castings — Phase 2 SOW redline",
+          "why_excluded": "Bob said procurement had the SOW for countersignature 'this week' on Aug 5, which looks like an open wait — but Evelyn's Aug 12 note to Bob ('Contract signed — let's kick off ... two weeks into phase 2') and the Aug 11 partner update both confirm the SOW came back signed days ago and the engagement is already running.",
+          "trap": "already-resolved"
         }
       ],
-      "curator_notes": "Ranked by what each dependency blocks, then staleness, then chases already spent. Terrence leads because he gates both the Stratus proposal and Evelyn's own lapsed promise to Owen — the same edge shows up in Q2 pointing the other way, which the contract explicitly allows. Two Ridgefield receivables are listed separately because they are separate invoices in separate threads (#10412 unanswered, #4471 promised by Aug 20); invoice #4417 is excluded because Marta answered it on Aug 10. Anil is absent by design: his promised final numbers landed inside the Aug 7 close-out report."
+      "curator_notes": "Ranked by what each dependency blocks, then staleness, then chases already spent. Terrence leads because he gates both the Stratus proposal and Evelyn's own lapsed promise to Owen — the same edge shows up in Q2 pointing the other way, which the contract explicitly allows. Two Ridgefield receivables are listed separately because they are separate invoices in separate threads (#10412 unanswered, #4471 promised by Aug 20); invoice #4417 is excluded because Marta answered it on Aug 10. Anil is absent by design: his promised final numbers landed inside the Aug 7 close-out report. Reconciler correction: consulting-q4-04 (Bob's Meridian Phase 2 SOW 'still with procurement') is removed — Evelyn's Aug 12 'Contract signed — let's kick off' and the Aug 11 partner update both confirm it came back signed and the engagement is two weeks in; the same closure already existed for the DocuSign envelope in Q3's must_not_include. Two low-stakes additions: the APICS panel slot (asked of Gordon, then Ana, neither replied — this is the same edge as the Q6 'slipping through the cracks' entry, legitimately double-listed since Q4 and Q6 are overlapping views) and Ana's still-unconfirmed Halberd deck, the mirror of Evelyn's own overdue promise to Lucia in Q2."
     },
     "q5_what_changed": {
       "question": "What changed?",
-      "prose_answer": "The Stratus number is not $102K any more. Owen's board capped this phase at $90K, so his counter is $91,000 with Terre Haute as a remote data review instead of an on-site week — that is the only figure to quote, not the $85K you opened with. On the separate diagnostic SOW, Preston moved you from net-30 to net-45 and the $76K document went out Aug 11 on those terms. Marta's board slipped to Aug 25, so the Ridgefield deck is due Aug 22, not Aug 15. The fifth hire is Priya at $145K starting Sept 8 — Nate took another offer. Anil settled at $11,000 flat instead of $12,500 and starts Monday. Ridgefield #4471 is finally released for payment by Aug 20. Halberd is now a $103K amended SOW. Terrence goes to $525/hr in September, and Ana, not Kyle, is Meridian's on-site lead.",
+      "prose_answer": "The Ridgefield deck is due Aug 22, not Aug 15 — Marta's board slipped to Aug 25. On the separate diagnostic SOW, Preston moved you from net-30 to net-45 and the $76K document went out Aug 11 on those terms. The fifth hire is Priya at $145K starting Sept 8 — Nate took another offer. Anil settled at $11,000 flat instead of $12,500 and starts Monday. Both Ridgefield invoices that were stuck in the AP migration are now released: #4471 ($22,400) by Aug 20, and #4417 ($14,200) confirmed paid this week. Halberd is now a $103K amended SOW. Terrence goes to $525/hr in September, and Ana, not Kyle, is Meridian's on-site lead. One honest flag: the Stratus diagnostic fee is not a clean update this time — your own Aug 11 messages contradict each other, one calling it a signed $340K win already underway, the other calling it a still-unsigned ~$90K deal finalizing scope. Don't repeat either number until you've sorted out which is true.",
       "ranked": [
-        "consulting-q5-01",
         "consulting-q5-02",
         "consulting-q5-03",
         "consulting-q5-04",
         "consulting-q5-05",
         "consulting-q5-06",
+        "consulting-q5-12",
         "consulting-q5-07",
         "consulting-q5-08",
         "consulting-q5-09",
@@ -1130,35 +1171,37 @@
       "items": [
         {
           "item_id": "consulting-q5-01",
-          "rank": 1,
-          "tier": "must_include",
-          "claim": "The Stratus supply-chain diagnostic fee on the table is now $91,000 with Terre Haute handled as a remote data review — it went $85,000, then $102,000 when Terre Haute was added on-site, then Owen's counter of $91,000 against a board ceiling of $90K.",
+          "rank": 11,
+          "tier": "borderline",
+          "claim": "The Stratus supply-chain diagnostic fee cannot be stated with confidence as of Aug 12. The negotiated chain runs $85,000 -> $102,000 -> Owen's Jul 30 counter of $91,000 (Terre Haute as a remote review, against a ~$90K board ceiling), unanswered by Evelyn since. But two of Evelyn's own messages, sent ten minutes apart on Aug 11, describe incompatible states of 'Stratus': one says the deal is a done $340,000 win that already started Aug 10; the other says this same diagnostic is still finalizing scope around $90K and expected to sign mid-August. The mailbox does not resolve which is true.",
           "thread_id": "e60f18c2e4b60006",
-          "anchor_message_id": "e60f18c2e4b60008",
+          "anchor_message_id": "e60f18c2e4b60050",
           "message_ids": [
             "e60f18c2e4b60006",
             "e60f18c2e4b60007",
-            "e60f18c2e4b60008"
+            "e60f18c2e4b60008",
+            "e50f18c2e4b60045",
+            "e60f18c2e4b60050"
           ],
           "evidence_quote": "can you land on $91,000? That works for us if you can make the numbers move.",
-          "why_it_qualifies": "A three-step figure chain days apart, each with a stated reason. Only the latest number may be quoted anywhere, and it is still awaiting Evelyn's yes.",
+          "why_it_qualifies": "Borderline and deliberately excluded from ranked: what would otherwise be a clean three-step shifting_number case is undermined by a same-sender, same-day contradiction the corpus never resolves. Reporting $91,000, ~$90,000, or $340,000 as 'the current figure' would state a fact the mailbox itself does not support — this is a data artifact (independent generator batches), not a real change, and no figure should be quoted as current anywhere in this gold set.",
           "counterparty": "omccabe@stratusindustrial.com",
           "due_date": null,
           "due_basis": "none",
-          "days_open": 13,
+          "days_open": 1,
           "consequence": "high",
           "tricky_tags": [
             "shifting_number"
           ],
           "changed_field": "Stratus supply-chain diagnostic fixed fee",
           "previous_value": "$102,000 (four plants, Terre Haute on-site)",
-          "current_value": "$91,000 proposed, Terre Haute as a remote data review",
+          "current_value": "Unresolved / contradictory as of Aug 12 — see claim. Do not cite $91,000, $90,000, or $340,000 as a confirmed current figure.",
           "from_message_id": "e60f18c2e4b60007",
-          "to_message_id": "e60f18c2e4b60008"
+          "to_message_id": "e60f18c2e4b60050"
         },
         {
           "item_id": "consulting-q5-02",
-          "rank": 2,
+          "rank": 1,
           "tier": "must_include",
           "claim": "The Ridgefield final recommendations deck is now due Aug 22, not Aug 15, because Marta's board meeting moved from Aug 18 to Aug 25.",
           "thread_id": "e60f18c2e4b60036",
@@ -1185,7 +1228,7 @@
         },
         {
           "item_id": "consulting-q5-03",
-          "rank": 3,
+          "rank": 2,
           "tier": "must_include",
           "claim": "Stratus payment terms moved from net-30 to net-45 at CFO Preston Yao's request, and the final $76K SOW went out on those terms on Aug 11.",
           "thread_id": "e20f18c2e4b60019",
@@ -1210,7 +1253,7 @@
         },
         {
           "item_id": "consulting-q5-04",
-          "rank": 4,
+          "rank": 3,
           "tier": "must_include",
           "claim": "The fifth-consultant hire is Priya, not Nate Osgood — Nate accepted another offer, and Priya's approved offer is $145,000 base plus up to 15% bonus with a Sept 8 start.",
           "thread_id": "e20f18c2e4b60042",
@@ -1240,7 +1283,7 @@
         },
         {
           "item_id": "consulting-q5-05",
-          "rank": 5,
+          "rank": 4,
           "tier": "must_include",
           "claim": "Anil Bose's Meridian predictive-maintenance build is now $11,000 flat rather than 40 hours at $312.50/hr ($12,500), and he starts Monday with a first look at failure probabilities in about two weeks.",
           "thread_id": "e20f18c2e4b60026",
@@ -1266,7 +1309,7 @@
         },
         {
           "item_id": "consulting-q5-06",
-          "rank": 6,
+          "rank": 5,
           "tier": "acceptable",
           "claim": "Ridgefield invoice #4471 ($22,400) is no longer stuck in silence — Marta found it outside the migrated AP queue and released it for payment by Aug 20.",
           "thread_id": "e10f18c2e4b60025",
@@ -1398,7 +1441,7 @@
         },
         {
           "item_id": "consulting-q5-11",
-          "rank": 11,
+          "rank": 12,
           "tier": "borderline",
           "claim": "Bob Vandergriff also writes from rvandergriff58@yahoo.com — he used it on Jul 19 during a Meridian email migration, and messages from that address are the same person and the same thread of obligations.",
           "thread_id": "e60f18c2e4b60003",
@@ -1422,6 +1465,32 @@
           "current_value": "Also rvandergriff58@yahoo.com — same person, one queue",
           "from_message_id": "e60f18c2e4b60002",
           "to_message_id": "e60f18c2e4b60003"
+        },
+        {
+          "item_id": "consulting-q5-12",
+          "rank": 6,
+          "tier": "acceptable",
+          "claim": "Ridgefield invoice #4417 ($14,200), 90+ days overdue through two ignored QuickBooks reminders and an Aug bump, is no longer silent — Marta found it stranded by the same AP-system migration and confirmed on Aug 10 that a check for $14,200 is going out that week.",
+          "thread_id": "e20f18c2e4b60037",
+          "anchor_message_id": "e20f18c2e4b60041",
+          "message_ids": [
+            "e20f18c2e4b60037",
+            "e20f18c2e4b60040",
+            "e20f18c2e4b60041"
+          ],
+          "evidence_quote": "Confirmed it's processed now, check for $14,200 goes out this week.",
+          "why_it_qualifies": "The belief 'Ridgefield is stonewalling this invoice' is now stale for #4417 specifically — a distinct invoice number, amount and thread from both #4471 (item 06) and #10412, resolved by the same AP-migration explanation days apart.",
+          "counterparty": "marta.klein@ridgefieldmfg.com",
+          "due_date": null,
+          "due_basis": "none",
+          "days_open": 2,
+          "consequence": "medium",
+          "tricky_tags": [],
+          "changed_field": "Ridgefield invoice #4417 collection status",
+          "previous_value": "90+ days past due, two automated reminders and a Jul 28 bump with no response",
+          "current_value": "Confirmed processed by Marta on Aug 10; check for $14,200 going out that week",
+          "from_message_id": "e20f18c2e4b60037",
+          "to_message_id": "e20f18c2e4b60041"
         }
       ],
       "must_not_include": [
@@ -1456,21 +1525,19 @@
           "trap": "automated-not-human"
         }
       ],
-      "curator_notes": "Each entry is a triple: prior belief, current truth, both endpoints cited. The Stratus fee chain is the core planted case and the $85K and $102K figures may never be quoted as current anywhere else in this set. Note the corpus carries three parallel Stratus commercial threads with different scopes and figures ($85K/$102K/$91K diagnostic, the $95K-to-$76K four-DC proposal, and a $340K recap); each item is therefore scoped to its own thread rather than merged. The Terrence rate item cites only the message that reports the increase, since the old rate is stated inside it. Bob's second address is kept borderline — an administrative delta, not a fact change."
+      "curator_notes": "Each entry is a triple: prior belief, current truth, both endpoints cited. The corpus carries several parallel Stratus commercial threads with different scopes and figures: the $85K/$102K/$91K three-plant-plus-Terre-Haute diagnostic (item 01, now borderline — see below), a separate $95K-to-$76K four-DC-then-three-DC SOW that went out net-45 on Aug 11 (item 03), and at least one more Ohio-lines pricing track still being scoped internally as of Jul 29 that never resolves cleanly enough to gold against. Reconciler finding on consulting-q5-01: two Evelyn-authored SENT messages, e50f18c2e4b60045 (Aug 11, 16:10, to Ana: 'we're a go on Stratus. $340K, diagnostic starting the 10th') and e60f18c2e4b60050 (Aug 11, 16:20, to Gordon & Ana: 'Stratus is close... roughly $90K... finalizing scope... should sign by mid-August'), describe incompatible states of what is recognizably the SAME diagnostic engagement (the ~$90K/Terre-Haute-remote-review language in the second message matches the $91K/remote-review language Owen proposed on Jul 30) ten minutes apart. Neither the $340K figure nor 'already started Aug 10' is corroborated anywhere else in the mailbox, and neither the $91K diagnostic nor the $76K SOW is confirmed signed as of Aug 12. This reads as an artifact of independent generation batches rather than a real event (a verbal 'yes' followed ten minutes later by a status update that contradicts it), so rather than silently pick a winner, item 01 is marked borderline, removed from ranked, and the contradiction is stated plainly in its claim. No downstream item, distractor, or prose line in this file cites $340,000, $91,000, or $90,000 as Stratus's confirmed current diagnostic fee. Ridgefield invoice #4417 is added (item 12) as a second, independently evidenced instance of the same AP-migration-stranded-invoice pattern already used for #4471 — different invoice number, amount, and thread, so not a duplicate. The Terrence rate item cites only the message that reports the increase, since the old rate is stated inside it. Bob's second address is kept borderline — an administrative delta, not a fact change."
     },
     "q6_slipping_through_cracks": {
       "question": "What important thing might be slipping through the cracks?",
-      "prose_answer": "Invoice #1092 to Meridian, $24,600, never reached anyone — QuickBooks sent it to ap@meridiancastings.com, which does not exist, and the bounce has sat since Aug 3. Everyone believes Meridian was billed. Owen's question about Kyle and the Aug 24 walkthrough now exists only in the quoted text under your own reply, so the thread looks answered. The Stratus NDA has been unsigned since Jul 16 because your review request hit Terrence's out-of-office and was never re-sent. Ridgefield #10412, $18,400, has nothing chasing it at all: you stopped Sheila's reminders and the 'loop in Terrence on Friday' trigger passed on Jul 24. The billing-fraud domain that targeted Halberd has not been flagged to Sheila or your other clients' AP. Also: the Expensify Aug 14 cutoff lives only in a PDF, nobody owns the Stratus flights, Bob's VPN question for Anil went unanswered, and Gordon's warm-up notes to Owen reach you only by bcc.",
+      "prose_answer": "Invoice #1092 to Meridian, $24,600, only reached Bob's personal inbox — QuickBooks' parallel copy to the AP alias bounced on Aug 3, and nothing shows it going anywhere AP would see it. Everyone believes Meridian was billed. Owen's question about Kyle and the Aug 24 walkthrough now exists only in the quoted text under your own reply, so the thread looks answered. The Stratus NDA has been unsigned since Jul 16 because your review request hit Terrence's out-of-office and was never re-sent. Ridgefield #10412, $18,400, has nothing chasing it at all: you stopped Sheila's reminders and the 'loop in Terrence on Friday' trigger passed on Jul 24. The billing-fraud domain that targeted Halberd has not been flagged to Sheila or your other clients' AP. Also: nobody owns the Stratus flights, Bob's VPN question for Anil went unanswered, and Gordon's warm-up notes to Owen reach you only by bcc.",
       "ranked": [
         "consulting-q6-01",
         "consulting-q6-02",
         "consulting-q6-03",
         "consulting-q6-04",
         "consulting-q6-05",
-        "consulting-q6-06",
         "consulting-q6-07",
         "consulting-q6-08",
-        "consulting-q6-09",
         "consulting-q6-10",
         "consulting-q6-11"
       ],
@@ -1479,7 +1546,7 @@
           "item_id": "consulting-q6-01",
           "rank": 1,
           "tier": "must_include",
-          "claim": "Meridian invoice #1092 for $24,600 was never delivered — QuickBooks emailed it to ap@meridiancastings.com, an address that does not exist, and the Aug 3 bounce has been ignored, so the firm is waiting on money the client has never been asked for.",
+          "claim": "Meridian invoice #1092 for $24,600 never reached anyone who processes payment — QuickBooks emailed a copy to Bob's personal inbox on Aug 1, but the parallel copy sent to the AP alias, ap@meridiancastings.com, bounced on Aug 3, and nothing shows Bob forwarding his copy internally or anyone flagging the bounce.",
           "thread_id": "e40f18c2e4b60034",
           "anchor_message_id": "e40f18c2e4b60034",
           "message_ids": [
@@ -1487,7 +1554,7 @@
             "e40f18c2e4b60016"
           ],
           "evidence_quote": "Your message wasn't delivered because the recipient's email address wasn't found.",
-          "why_it_qualifies": "High consequence, zero visible urgency: QuickBooks reported the invoice as sent, nothing in the thread looks like a task, and the Aug 31 due date will simply pass. This is the purest crack in the mailbox.",
+          "why_it_qualifies": "High consequence, near-zero visible urgency: QuickBooks' own 'invoice was sent' confirmation creates false confidence, Bob having a personal copy does not mean AP has one, and the Aug 31 due date will simply pass unless someone gets a valid AP contact from Bob and resends.",
           "counterparty": "bob.vandergriff@meridiancastings.com",
           "due_date": "2026-08-31",
           "due_basis": "explicit",
@@ -1585,29 +1652,8 @@
           ]
         },
         {
-          "item_id": "consulting-q6-06",
-          "rank": 6,
-          "tier": "must_include",
-          "claim": "The Expensify batch approval and its hard Aug 14 payroll cutoff exist only inside an attached PDF; the email body says nothing but 'see attached'.",
-          "thread_id": "e60f18c2e4b60040",
-          "anchor_message_id": "e60f18c2e4b60040",
-          "message_ids": [
-            "e60f18c2e4b60040"
-          ],
-          "evidence_quote": "ACTION NEEDED: Please approve this batch by EOD Friday, August 14",
-          "why_it_qualifies": "Consequence is modest but certain — three staff wait two extra weeks for $446.15 of out-of-pocket spend — and the deadline is invisible to anyone reading only the message body.",
-          "counterparty": "sheila.park@thornecadwell.com",
-          "due_date": "2026-08-14",
-          "due_basis": "explicit",
-          "days_open": 29,
-          "consequence": "medium",
-          "tricky_tags": [
-            "task_in_attachment_only"
-          ]
-        },
-        {
           "item_id": "consulting-q6-07",
-          "rank": 7,
+          "rank": 6,
           "tier": "must_include",
           "claim": "Nobody is confirmed to be booking flights for the Stratus site visit — Ana assumed 'he' would handle it after talking to Gordon and Kyle, and did not involve Sheila.",
           "thread_id": "e60f18c2e4b60045",
@@ -1628,7 +1674,7 @@
         },
         {
           "item_id": "consulting-q6-08",
-          "rank": 8,
+          "rank": 7,
           "tier": "acceptable",
           "claim": "Bob's question about how often Anil will need to loop in — and whether Meridian's IT security has to arrange VPN access for him — was asked on Jul 15 in the middle of a nine-message staffing thread and never answered.",
           "thread_id": "e60f18c2e4b60014",
@@ -1649,27 +1695,8 @@
           ]
         },
         {
-          "item_id": "consulting-q6-09",
-          "rank": 9,
-          "tier": "acceptable",
-          "claim": "A message to dokoro@ame-greatlakes.org bounced on Jul 28 with 'user unknown' — the AME Great Lakes speaker-prep contact never received whatever was sent, and no resend exists.",
-          "thread_id": "e40f18c2e4b60035",
-          "anchor_message_id": "e40f18c2e4b60035",
-          "message_ids": [
-            "e40f18c2e4b60035"
-          ],
-          "evidence_quote": "550 5.1.1 User unknown.",
-          "why_it_qualifies": "A silent delivery failure into the conference that has four deliverables due from Evelyn by Aug 21; the correct paralegal-style workaround is to route through events@ame.org, which is the address that has actually been answering.",
-          "counterparty": "events@ame.org",
-          "due_date": null,
-          "due_basis": "none",
-          "days_open": 15,
-          "consequence": "low",
-          "tricky_tags": []
-        },
-        {
           "item_id": "consulting-q6-10",
-          "rank": 10,
+          "rank": 8,
           "tier": "acceptable",
           "claim": "Nobody has ever confirmed who is taking the APICS 'AI in the plant' panel on Sept 17 — Evelyn asked Gordon on Jun 22 and Ana on Jun 23, and neither replied.",
           "thread_id": "e50f18c2e4b60006",
@@ -1689,7 +1716,7 @@
         },
         {
           "item_id": "consulting-q6-11",
-          "rank": 11,
+          "rank": 9,
           "tier": "acceptable",
           "claim": "Gordon is running a parallel relationship track with Owen McCabe that Evelyn only sees because he bcc'd her — she appears on no recipient list, so any reply-all from Owen drops her out of the conversation entirely.",
           "thread_id": "e60f18c2e4b60043",
@@ -1710,7 +1737,7 @@
         },
         {
           "item_id": "consulting-q6-12",
-          "rank": 12,
+          "rank": 10,
           "tier": "borderline",
           "claim": "Evelyn's request to Marta for permission to pass her on as a reference for a Fort Wayne plant manager hit an out-of-office on Jul 21 and was never re-sent, even though Marta has been back since Aug 3.",
           "thread_id": "e40f18c2e4b60041",
@@ -1767,9 +1794,21 @@
           "subject": "Expense report approved: Elkhart Plant Visit — $612.44",
           "why_excluded": "Informational confirmation that Gordon already approved Evelyn's own expense report. Nothing is owed by anyone.",
           "trap": "automated-not-human"
+        },
+        {
+          "message_id": "e60f18c2e4b60040",
+          "subject": "Expensify batch — need your approval",
+          "why_excluded": "Closed, not buried: this is the only Expensify batch anywhere in the mailbox, and Evelyn's Jul 31 SENT reply to Sheila ('approved your batch, go ahead and run payroll') approved it two weeks before the Aug 14 cutoff in the attachment.",
+          "trap": "already-resolved"
+        },
+        {
+          "message_id": "e40f18c2e4b60035",
+          "subject": "Delivery Status Notification (Failure) — dokoro@ame-greatlakes.org",
+          "why_excluded": "A typo'd secondary address bounced, but the same information reached AME through the real channel: events@ame.org's Aug 7 confirmation shows Kyle's co-presenter request was received and approved. Nothing is actually stranded behind this bounce.",
+          "trap": "already-resolved"
         }
       ],
-      "curator_notes": "Every entry pairs a real consequence with a burial factor: a bounce, an attachment, a quoted block, an auto-responder, an unresolvable pronoun, or a nine-message thread. The method was to cross-reference sends against bounces, asks against answers and promises against deliveries, then report the unmatched edges. Ridgefield #10412 appears here rather than only in Q4 because the burial is structural — three other Ridgefield invoice threads, two of them recently answered by Marta, make the account look resolved. The Jun 26 mailbox-full bounce to Marta is excluded as the deliberate contrast case: a bounce that stranded nothing. Gordon's bcc'd note to Owen is included as the misdirected-visibility case: it carries no ask, but Evelyn is invisible on a side channel into the account she owns."
+      "curator_notes": "Every entry pairs a real consequence with a burial factor: a bounce, an attachment, a quoted block, an auto-responder, an unresolvable pronoun, or a nine-message thread. The method was to cross-reference sends against bounces, asks against answers and promises against deliveries, then report the unmatched edges. Ridgefield #10412 appears here rather than only in Q4 because the burial is structural — three other Ridgefield invoice threads, two of them recently answered by Marta, make the account look resolved. The Jun 26 mailbox-full bounce to Marta is excluded as the deliberate contrast case: a bounce that stranded nothing. Gordon's bcc'd note to Owen is included as the misdirected-visibility case. Reconciler corrections: consulting-q6-01's citation had a one-digit typo (e60f18c2e4b60016, an unrelated Meridian-staffing message, should have been e40f18c2e4b60016, the QuickBooks 'invoice was sent' confirmation) — fixed, and its claim softened to reflect that Bob's own inbox did receive a copy even though the AP alias bounced. Consulting-q6-06 (the Expensify batch) is removed — it is closed by Evelyn's Jul 31 approval, the same fact that closes it in Q1 and Q3. Consulting-q6-09 (the AME Great Lakes bounce) is removed — the underlying co-presenter information reached AME through the events@ame.org channel before Aug 12, so nothing about it was actually slipping through a crack; if the Aug 21 speaker-logistics deliverables in that thread are worth surfacing, they belong in Q1 (now added), not here, since they fail the burial test."
     }
   }
 }

@@ -1,0 +1,33 @@
+{
+  "profile_id": "hr",
+  "question": "q3_waiting_on_me",
+  "items_reviewed": 13,
+  "verdict": "issues",
+  "findings": [
+    {
+      "type": "missed_item",
+      "severity": "medium",
+      "item_id": null,
+      "message_ids": ["d40f18c2e4b60014"],
+      "problem": "Renata Vlasov's Workday PTO approval request (3 days, Jul 6-8) has been sitting in Marcus's Workday inbox since Jun 19 with no approval/denial anywhere in the mailbox, and is missing from both items and must_not_include even though it is structurally identical to the Workday items that ARE included (hr-q3-07, hr-q3-08, hr-q3-09, hr-q3-10) -- a named requester, Marcus as sole designated approver, and a meta.due_date the curator set (Jun 22) that has passed by 51 days, the most overdue Workday item in the mailbox.",
+      "evidence": "You have a pending approval in Workday. Employee: Renata Vlasov. Request: Paid Time Off, 3 days (Jul 6-8, 2026)... This task will remain in your Workday inbox until action is taken. (d40f18c2e4b60014, 'Approval Required: Time Off Request -- Renata Vlasov', Jun 19 2026)",
+      "recommended_action": "add new item with these fields: thread_id/anchor_message_id/message_ids = d40f18c2e4b60014; claim ~ 'Renata Vlasov's 3-day PTO request (Jul 6-8) has been sitting unapproved in Marcus's Workday queue since Jun 19'; counterparty renata.vlasov@vireohealth.com; due_date 2026-06-22; due_basis explicit (per meta.due_date, same convention used for hr-q3-07/08/09/10); days_open 51; consequence low; tricky_tags []; tier borderline or acceptable (the underlying dates have already passed, which caps the urgency, but the workflow item itself is still genuinely open and unresolved, same as the other Workday entries already included)"
+    }
+  ],
+  "checked_and_sound": [
+    "hr-q3-01",
+    "hr-q3-02",
+    "hr-q3-03",
+    "hr-q3-04",
+    "hr-q3-05",
+    "hr-q3-06",
+    "hr-q3-07",
+    "hr-q3-08",
+    "hr-q3-09",
+    "hr-q3-10",
+    "hr-q3-11",
+    "hr-q3-12",
+    "hr-q3-13"
+  ],
+  "notes": "Swept all 195 threads for last-inbound-message-addressed-to-Marcus candidates (134 raw hits, mostly newsletters/vendor mail/machine notifications), then read every human-sender thread not already covered by an item or a distractor -- roughly 25 full-thread reads. Nothing else surfaced as a legitimate open Q3 item beyond the one Workday gap above. Confirmed Josh Lieberman's two-address merge is handled correctly: the Wednesday deadline for the Ridley shift logs exists only in the jlieberman@bramwell-law.com message (d60f18c2e4b60002, Jul 20) and the chase exists only in the josh.lieberman@vireohealth.com message (d60f18c2e4b60003, Jul 23); hr-q3-12 correctly treats these as one requester and cites both. Also checked and confirmed correctly excluded (not Q3, and not flagged as findings since the exclusion is right): the Aug 6 gift-card phishing email spoofing Elaine Ford from the lookalike domain vireo-health.net (d30f18c2e4b60047, meta.email_class=phishing) -- a fraudulent requester with no legitimate waiting party, same logic as the already-listed benefits-enrollment lookalike distractor, and arguably worth adding as an eighth must_not_include entry for completeness even though it isn't required for scoring; Rich Delacroix's Renée Aubry offer-letter ask (d60f18c2e4b60041) that Marcus's Jul 13 reply (d60f18c2e4b60042, tagged quoted_text_only_task) never actually answered -- this is out of Q3 on the letter of the rule because Marcus, not the counterparty, spoke last, and belongs to Q6 instead; and the Checkr adverse-action notice on Maria Chen (d40f18c2e4b60037) -- automated vendor mail with no specific human requester behind it, correctly Q1/Q6 territory rather than Q3. Verified all days_open figures: they are computed from the obligation's true origin (the first unanswered ask), not from the anchor message -- e.g. hr-q3-12's 23 days runs from Josh's Jul 20 original ask, not the Jul 23 anchor/chase message, and hr-q3-04/05/06 similarly measure from the first message in each thread rather than the resend/correction that anchors the item. This is a defensible and consistently-applied convention, just worth flagging as a convention rather than a literal anchor-to-as-of delta. All evidence_quotes verified by exact substring match against their anchor message bodies. Ranking checked against the stated (days blocked x requester weight x due date) formula: Josh (rank 1, 23 days) sits above Angela (rank 2, 44 days) and Doug (rank 3, 48 days), which is a real inversion on raw days-blocked but is defensible given outside-counsel weight and a legal response letter already past its target -- flagging as a judgment call, not a misranking, since the ranking principle is explicitly multiplicative on requester weight. Separately, the prose_answer's opening line ('Ten people are blocked on you') overcounts -- the ten ranked items resolve to seven distinct people (Josh, Angela, Doug, Farida, Elaine, Priscilla, Jenna), since Elaine appears on three items and Doug/Priscilla each appear on two; not raised as a formal finding since no finding type fits a prose-accuracy issue, but worth a human look since prose_answer is graded for usefulness separately from the ranked ids."
+}

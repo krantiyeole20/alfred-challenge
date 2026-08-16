@@ -10,7 +10,7 @@
   "answers": {
     "q1_needs_attention": {
       "question": "What needs my attention?",
-      "prose_answer": "Five things can't wait. Checkr came back on Maria Chen with records found and an adverse-action review due Aug 14 — her offer letter is already countersigned, so any step you take without the FCRA pre-adverse notice is the expensive one. Elaine overrode the committee on Aug 11 and wants Castillo's offer moving; nobody has been assigned the Anthony conversation, and he cannot hear it secondhand. She also asked Aug 10 for Rich to prep Michael Tran's offer. On compliance: six employees are still missing I-9 Section 2 past the Jul 31 window, and Farida needs your sign-off on the remediation package now due Aug 22. Angela has asked twice about the SBC cost-share numbers and finalizes Aug 14. Also overdue: Priscilla's merit increase sitting in Workday since Jul 24, and the PIP window that closed Aug 5.",
+      "prose_answer": "Five things can't wait. Checkr came back on Maria Chen with records found and an adverse-action review due Aug 14 — her offer letter is already countersigned, so any step you take without the FCRA pre-adverse notice is the expensive one, and your own Aug 4 offer note to her bounced off a typo'd gmail domain and was never resent. Elaine overrode the committee on Aug 11 and wants Castillo's offer moving; nobody has been assigned the Anthony conversation, and he cannot hear it secondhand. She also asked Aug 10 for Rich to prep Michael Tran's offer. On compliance: six employees are still missing I-9 Section 2 past the Jul 31 window, and Farida needs your sign-off on the remediation package now due Aug 22. Angela has asked twice about the SBC cost-share numbers and finalizes Aug 14. Also overdue: Priscilla's merit increase sitting in Workday since Jul 24, and the PIP window that closed Aug 5.",
       "ranked": [
         "hr-q1-01",
         "hr-q1-06",
@@ -22,6 +22,7 @@
         "hr-q1-07",
         "hr-q1-09",
         "hr-q1-10",
+        "hr-q1-14",
         "hr-q1-11",
         "hr-q1-12"
       ],
@@ -42,7 +43,7 @@
           "why_it_qualifies": "Hard statutory deadline two days out, irreversible if handled wrong, and it collides with an offer Marcus has already signed — the highest-cost mistake available in this mailbox this week.",
           "counterparty": "notifications@checkr.com",
           "due_date": "2026-08-14",
-          "due_basis": "explicit",
+          "due_basis": "implicit",
           "days_open": 5,
           "consequence": "high",
           "tricky_tags": []
@@ -240,7 +241,7 @@
         },
         {
           "item_id": "hr-q1-11",
-          "rank": 11,
+          "rank": 12,
           "tier": "acceptable",
           "claim": "Two lookalike-domain lures are sitting in the mailbox: a gift-card request signed 'Elaine' from elaine.ford@vireo-health.net on Aug 6, and a credential-harvest 'confirm your benefits enrollment' from notifications@vireohealth-benefits.com. Neither domain is vireohealth.com.",
           "thread_id": "d30f18c2e4b60047",
@@ -262,7 +263,7 @@
         },
         {
           "item_id": "hr-q1-12",
-          "rank": 12,
+          "rank": 13,
           "tier": "acceptable",
           "claim": "Google blocked a sign-in attempt on Marcus's account from Kyiv on Aug 2 and recommends a password change and recovery review — unresolved in the mailbox.",
           "thread_id": "d40f18c2e4b60043",
@@ -281,7 +282,7 @@
         },
         {
           "item_id": "hr-q1-13",
-          "rank": 13,
+          "rank": 14,
           "tier": "borderline",
           "claim": "Marcus agreed to speak on the Rocky Mountain HR retention panel Oct 15 and owes the conference his session title and a 75-100 word bio by Aug 25.",
           "thread_id": "d30f18c2e4b60034",
@@ -296,6 +297,25 @@
           "due_basis": "explicit",
           "days_open": 4,
           "consequence": "low",
+          "tricky_tags": []
+        },
+        {
+          "item_id": "hr-q1-14",
+          "rank": 11,
+          "tier": "acceptable",
+          "claim": "Marcus's own Aug 4 offer email to Maria Chen bounced off a typo'd address (maria.chen827@gmial.com) and nothing in the mailbox shows it was caught or resent -- a silent delivery failure on the same candidate whose FCRA adverse-action window closes Aug 14.",
+          "thread_id": "d40f18c2e4b60045",
+          "anchor_message_id": "d40f18c2e4b60045",
+          "message_ids": [
+            "d40f18c2e4b60045"
+          ],
+          "evidence_quote": "Recipient address rejected: Domain gmial.com does not exist",
+          "why_it_qualifies": "A hazard requiring awareness with no task explicitly attached: Marcus's own outreach never reached the candidate, and nobody has caught or fixed the typo eight days later, compounding the live Checkr FCRA deadline on the same person.",
+          "counterparty": null,
+          "due_date": null,
+          "due_basis": "none",
+          "days_open": 8,
+          "consequence": "medium",
           "tricky_tags": []
         }
       ],
@@ -343,11 +363,11 @@
           "trap": "task_in_attachment_only"
         }
       ],
-      "curator_notes": "Q1 horizon read as Aug 12-19 plus everything overdue. Two same-storyline VP Clinical Ops threads exist in this corpus with different casts (Castellano/Tran in d60f18c2e4b60014, Castillo/Vogel in d20f18c2e4b60001); both carry live, separately-attested CEO asks dated Aug 10 and Aug 11, so both are listed rather than merged. Tran's offer due date is resolved from Elaine's 'early next week' written Mon Aug 10 -> week of Aug 17, which is later than meta's Aug 14. The I-9 story splits in two: the internal 25-record self-audit is closed (d50f18c2e4b60025), but the I-9 Advantage Section 2 backlog and Farida's compliance-committee response package are both still open — a system that reads 'fully closed out' as global will miss two real deadlines. A Lattice auto-renewal on Sept 11 ($21,600 -> $26,400) was considered and dropped as outside the horizon; it is a live decision window if the question is re-asked in late August."
+      "curator_notes": "Q1 horizon read as Aug 12-19 plus everything overdue. Two same-storyline VP Clinical Ops threads exist in this corpus with different casts (Castellano/Tran in d60f18c2e4b60014, Castillo/Vogel in d20f18c2e4b60001); both carry live, separately-attested CEO asks dated Aug 10 and Aug 11, so both are listed rather than merged. Tran's offer due date is resolved from Elaine's 'early next week' written Mon Aug 10 -> week of Aug 17, which is later than meta's Aug 14. The I-9 story splits in two: the internal 25-record self-audit is closed (d50f18c2e4b60025), but the I-9 Advantage Section 2 backlog and Farida's compliance-committee response package are both still open — a system that reads 'fully closed out' as global will miss two real deadlines. A Lattice auto-renewal on Sept 11 ($21,600 -> $26,400) was considered and dropped as outside the horizon; it is a live decision window if the question is re-asked in late August. Reconciler pass: added hr-q1-14 (Marcus's own Aug 4 offer note to Maria Chen bounced on a typo'd gmail address and was never resent) -- a genuine silent-delivery hazard the original set missed, per meta.action_owner/action_summary confirming it was never corrected. Also corrected hr-q1-01's due_basis from explicit to implicit: Checkr's message only recommends a 5-business-day window rather than stating Aug 14 outright, so the date is derived, not stated."
     },
     "q2_forgetting": {
       "question": "What am I forgetting?",
-      "prose_answer": "Six things you said you'd do and haven't. You told Josh Lieberman on Jul 31 you'd have the revised New Mexico meal-break section to him by Monday — the Albuquerque office opened Aug 3 and that section is still the version he redlined. Your own notes on the Unit 3 PIP flag a question for Claudia that was never resolved before the window closed Aug 5. You promised Priscilla comp benchmarking 'within two weeks' on Jul 16 and Doug the exit-interview theme summary 'later this week' on Jul 15; neither has appeared, and both feed the retention case you want to take to Elaine. You told Claudia, Tim, Renata and Farida they'd have manager-facing Q3 FAQ content by Jul 18. You told Dana Ricci at BambooHR she'd have the roster export by Jul 10. And Elaine green-lit both VP finalist onsites on Jul 22 — never scheduled.",
+      "prose_answer": "Eight things you said you'd do and haven't. You told Josh Lieberman on Jul 31 you'd have the revised New Mexico meal-break section to him by Monday — the Albuquerque office opened Aug 3 and that section is still the version he redlined. Your own notes on the Unit 3 PIP flag a question for Claudia that was never resolved before the window closed Aug 5. You promised Priscilla comp benchmarking 'within two weeks' on Jul 16 and Doug the exit-interview theme summary 'later this week' on Jul 15; neither has appeared. You told Claudia, Tim, Renata and Farida they'd have manager-facing Q3 FAQ content by Jul 18, and Dana Ricci at BambooHR she'd have the roster export by Jul 10. Elaine green-lit both VP finalist onsites on Jul 22 — never scheduled. And two smaller ones: Angela's enrollment-guide corrections you promised by Aug 10, and the calibration rating-distribution guardrails you told Doug would go out by Jul 20.",
       "ranked": [
         "hr-q2-01",
         "hr-q2-05",
@@ -358,7 +378,9 @@
         "hr-q2-08",
         "hr-q2-06",
         "hr-q2-10",
-        "hr-q2-09"
+        "hr-q2-11",
+        "hr-q2-09",
+        "hr-q2-12"
       ],
       "items": [
         {
@@ -525,7 +547,7 @@
         },
         {
           "item_id": "hr-q2-09",
-          "rank": 10,
+          "rank": 11,
           "tier": "acceptable",
           "claim": "The updated attendance and call-out policy Marcus began drafting Jun 22 stops mid-sentence, still needs Elaine's and Farida's input and a real effective date from Jenna, and has sat untouched for seven weeks.",
           "thread_id": "d50f18c2e4b60048",
@@ -559,6 +581,46 @@
           "due_basis": "implicit",
           "days_open": 7,
           "consequence": "medium",
+          "tricky_tags": []
+        },
+        {
+          "item_id": "hr-q2-11",
+          "rank": 10,
+          "tier": "acceptable",
+          "claim": "Marcus told Angela Nwosu on Aug 3 he would review the open enrollment guide proofs and send corrections by Monday (Aug 10); no corrections or follow-up message exists.",
+          "thread_id": "d50f18c2e4b60036",
+          "anchor_message_id": "d50f18c2e4b60036",
+          "message_ids": [
+            "d50f18c2e4b60036"
+          ],
+          "evidence_quote": "will review and get back to you by Monday with any corrections",
+          "why_it_qualifies": "Explicit owner commitment to an external vendor with a stated date nine days past, and the open enrollment materials cannot finalize until the proofs are confirmed.",
+          "counterparty": "angela.nwosu@keystonebenefits.com",
+          "due_date": "2026-08-10",
+          "due_basis": "implicit",
+          "days_open": 9,
+          "consequence": "medium",
+          "tricky_tags": []
+        },
+        {
+          "item_id": "hr-q2-12",
+          "rank": 12,
+          "tier": "acceptable",
+          "claim": "Marcus told Doug Feinstein on Jul 14 he would send Q3 calibration rating-distribution guardrails by Monday Jul 20, ahead of the Jul 28 calibration session; no such message was ever sent.",
+          "thread_id": "d10f18c2e4b60012",
+          "anchor_message_id": "d10f18c2e4b60012",
+          "message_ids": [
+            "d10f18c2e4b60012",
+            "d10f18c2e4b60013",
+            "d10f18c2e4b60014"
+          ],
+          "evidence_quote": "I'll send the rating distribution guardrails Monday so there's no surprise on the 'no more than 20% top-box' guidance.",
+          "why_it_qualifies": "Owner-authored promise with a resolvable date; the thread continues twice more with no mention of the guardrails, and the calibration session it was meant to prevent surprises at has already passed.",
+          "counterparty": "doug.feinstein@vireohealth.com",
+          "due_date": "2026-07-20",
+          "due_basis": "explicit",
+          "days_open": 29,
+          "consequence": "low",
           "tricky_tags": []
         }
       ],
@@ -600,11 +662,11 @@
           "trap": "already-completed"
         }
       ],
-      "curator_notes": "Applied the engagement test throughout: every item here has owner-authored evidence that Marcus registered the obligation (a SENT promise, a self-authored draft, or a proposal the other side accepted). Items where Marcus never engaged at all are in Q6 instead. Four commitments that look open on a naive scan are actually closed and sit in must_not_include — the signing bonus (retracted), the handbook conditional promise (Josh signed off, sections circulated Aug 5), the comp bands (attachment delivered Jul 27) and the E-Verify check (closed Aug 6). The Unit 3 PIP item is deliberately described at process level only."
+      "curator_notes": "Applied the engagement test throughout: every item here has owner-authored evidence that Marcus registered the obligation (a SENT promise, a self-authored draft, or a proposal the other side accepted). Items where Marcus never engaged at all are in Q6 instead. Four commitments that look open on a naive scan are actually closed and sit in must_not_include — the signing bonus (retracted), the handbook conditional promise (Josh signed off, sections circulated Aug 5), the comp bands (attachment delivered Jul 27) and the E-Verify check (closed Aug 6). The Unit 3 PIP item is deliberately described at process level only. Reconciler pass: added two owner-authored, clearly-forgotten promises the original set missed -- hr-q2-11 (Angela Nwosu's enrollment guide proofs, promised Aug 3) and hr-q2-12 (Doug's Q3 calibration rating-distribution guardrails, promised Jul 14). Both pass the engagement test cleanly: Marcus wrote the commitment himself and nothing closes it."
     },
     "q3_waiting_on_me": {
       "question": "What is waiting on me?",
-      "prose_answer": "Ten people are blocked on you. Josh Lieberman still has no shift logs for the Ridley response letter — he asked Jul 20, chased Jul 23 from his Vireo address, and the Jul 24 target has gone by. Angela Nwosu has been waiting since Jun 29, and resent Jul 1, for your read on the SBC cost-share numbers; she finalizes the packet Aug 14. Doug has asked twice, most recently Jul 20, for fifteen minutes on Priscilla's three weeks of September PTO. Farida needs your sign-off on the I-9 remediation process and a named point of contact, due Aug 22. Elaine wants three things: the phlebotomist req reopened with Tim told the count is 6, Rich prepping Michael Tran's offer plus the Castellano conversation, and the final FY27 headcount plan before the Aug 27 board meeting. In Workday: Priscilla's merit increase is 12 days overdue, plus a nurse educator req and Jenna's PTO.",
+      "prose_answer": "Eight people are blocked on you. Josh Lieberman still has no shift logs for the Ridley response letter — he asked Jul 20, chased Jul 23 from his Vireo address, and the Jul 24 target has gone by. Angela Nwosu has been waiting since Jun 29, and resent Jul 1, for your read on the SBC cost-share numbers; she finalizes the packet Aug 14. Doug has asked twice, most recently Jul 20, for fifteen minutes on Priscilla's three weeks of September PTO. Farida needs your sign-off on the I-9 remediation process and a named point of contact, due Aug 22. Elaine wants three things: the phlebotomist req reopened with Tim told the count is 6, Rich prepping Michael Tran's offer plus the Castellano conversation, and the final FY27 headcount plan before the Aug 27 board meeting. In Workday: Priscilla's merit increase is 12 days overdue, a nurse educator req, Jenna's PTO, and Renata's PTO request untouched since Jun 19.",
       "ranked": [
         "hr-q3-12",
         "hr-q3-04",
@@ -615,7 +677,8 @@
         "hr-q3-02",
         "hr-q3-08",
         "hr-q3-07",
-        "hr-q3-09"
+        "hr-q3-09",
+        "hr-q3-14"
       ],
       "items": [
         {
@@ -808,7 +871,7 @@
         },
         {
           "item_id": "hr-q3-10",
-          "rank": 11,
+          "rank": 12,
           "tier": "borderline",
           "claim": "Doug's $1,240.55 conference-travel expense report has been awaiting Marcus's Workday approval since Jul 17, past its Jul 20 due date.",
           "thread_id": "d40f18c2e4b60028",
@@ -827,7 +890,7 @@
         },
         {
           "item_id": "hr-q3-11",
-          "rank": 12,
+          "rank": 13,
           "tier": "borderline",
           "claim": "Elaine's Aug 11 override on the VP Clinical Operations (West) hire leaves the conversation with Anthony Vogel unassigned; Marcus's reply to her exists only as an unsent draft.",
           "thread_id": "d20f18c2e4b60001",
@@ -871,7 +934,7 @@
         },
         {
           "item_id": "hr-q3-13",
-          "rank": 13,
+          "rank": 14,
           "tier": "borderline",
           "claim": "Renata asked Marcus on Jul 6 to sign Section 2 of the I-9 for a new hire starting that Monday; no reply exists in the mailbox.",
           "thread_id": "d60f18c2e4b60049",
@@ -886,6 +949,25 @@
           "due_basis": "implicit",
           "days_open": 37,
           "consequence": "medium",
+          "tricky_tags": []
+        },
+        {
+          "item_id": "hr-q3-14",
+          "rank": 11,
+          "tier": "acceptable",
+          "claim": "Renata Vlasov's 3-day PTO request (Jul 6-8) has been sitting unapproved in Marcus's Workday queue since Jun 19 -- the most overdue Workday approval in the mailbox, though the underlying dates have already passed.",
+          "thread_id": "d40f18c2e4b60014",
+          "anchor_message_id": "d40f18c2e4b60014",
+          "message_ids": [
+            "d40f18c2e4b60014"
+          ],
+          "evidence_quote": "This task will remain in your Workday inbox until action is taken.",
+          "why_it_qualifies": "A named requester and a Workday workflow with Marcus as sole approver, structurally identical to the other Workday items already included; the underlying dates have passed, which caps the urgency, but the record itself is still genuinely open.",
+          "counterparty": "renata.vlasov@vireohealth.com",
+          "due_date": "2026-06-22",
+          "due_basis": "explicit",
+          "days_open": 54,
+          "consequence": "low",
           "tricky_tags": []
         }
       ],
@@ -933,21 +1015,23 @@
           "trap": "already-answered"
         }
       ],
-      "curator_notes": "Ranked by how long each requester has been blocked, weighted by who they are and any stated date — which puts Angela (44 days, resent) and Doug (48 days, bumped) above two-day-old CEO asks, per the Raj-over-Wendy principle. Workday approval workflows are included because a named human sits behind each one; Greenhouse and Lattice reminder mail is not. Josh's Aug 7 status check is excluded because Marcus answered it the same day — a common false positive. Marcus's genuinely open obligations to Josh live in Q2 (the New Mexico meal-break section) and Q6 (the Aug 5 review request that hit his out-of-office). Josh Lieberman's two addresses are merged into one requester and one queue; the Wednesday deadline exists only in the Bramwell-address message, so a system that splits the identity loses the date. Renata's Jul 6 I-9 signature request is left borderline: it is textually unanswered, but the later remediation work makes silent in-person completion plausible."
+      "curator_notes": "Ranked by how long each requester has been blocked, weighted by who they are and any stated date — which puts Angela (44 days, resent) and Doug (48 days, bumped) above two-day-old CEO asks, per the Raj-over-Wendy principle. Workday approval workflows are included because a named human sits behind each one; Greenhouse and Lattice reminder mail is not. Josh's Aug 7 status check is excluded because Marcus answered it the same day — a common false positive. Marcus's genuinely open obligations to Josh live in Q2 (the New Mexico meal-break section) and Q6 (the Aug 5 review request that hit his out-of-office). Josh Lieberman's two addresses are merged into one requester and one queue; the Wednesday deadline exists only in the Bramwell-address message, so a system that splits the identity loses the date. Renata's Jul 6 I-9 signature request is left borderline: it is textually unanswered, but the later remediation work makes silent in-person completion plausible. Reconciler pass: added hr-q3-14 (Renata Vlasov's Jun 19 Workday PTO approval), structurally identical to the other included Workday items and missing from both items and must_not_include in the prior pass. Corrected the prose_answer's people-count: the ranked list resolves to eight distinct requesters (Josh, Angela, Doug, Farida, Elaine, Priscilla, Jenna, Renata), not ten as the prose previously claimed -- Elaine appears on three items and Doug/Priscilla each appear on two."
     },
     "q4_waiting_on_others": {
       "question": "What am I waiting on someone else for?",
-      "prose_answer": "Ten chases. Farida owes you the redline shift-differential language she promised 'by Monday' on Jul 20 — nothing goes out to staff without it and the new rates hit the Aug 24 pay period. Priscilla still hasn't sent her unit leads' input on the retention survey questions; you asked Jul 16 and bumped Jul 23. Angela owes two things: confirmation the SBC packet still holds for Aug 14 (your Aug 5 check-in only reached her auto-responder, and she came back Aug 10 without answering it) and the full plan comparison sheet she said was coming this week. Claudia owes the raw July exit-interview notes you asked for Jul 14 — which is what's blocking your summary to Doug — plus weekly Unit 4B updates and the Aug 21 findings memo. Also outstanding: Jenna's merit worksheet template, Tim's read on time-to-fill, and Rich on the Summit fee questions.",
+      "prose_answer": "Twelve chases. Farida owes you the redline shift-differential language she promised 'by Monday' on Jul 20 — nothing goes out to staff without it and the new rates hit the Aug 24 pay period. Priscilla still hasn't sent her unit leads' input on the retention survey questions; you asked Jul 16 and bumped Jul 23. Angela owes two things: confirmation the SBC packet still holds for Aug 14 (your Aug 5 check-in only reached her auto-responder, and she came back Aug 10 without answering it) and the full plan comparison sheet she said was coming this week. Claudia owes the raw July exit-interview notes you asked for Jul 14 — which is what's blocking your summary to Doug — plus weekly Unit 4B updates and the Aug 21 findings memo. Omar hasn't confirmed he pulled the Unit 4B badge log you asked him for by phone on Aug 4. Also outstanding: Jenna's merit worksheet template, her confirmation on the $18,500 Summit invoice, Tim's read on time-to-fill, and Rich on the Summit fee questions.",
       "ranked": [
         "hr-q4-03",
         "hr-q4-02",
         "hr-q4-04",
         "hr-q4-01",
         "hr-q4-09",
+        "hr-q4-12",
         "hr-q4-05",
         "hr-q4-10",
         "hr-q4-07",
         "hr-q4-08",
+        "hr-q4-13",
         "hr-q4-06"
       ],
       "items": [
@@ -960,7 +1044,6 @@
           "anchor_message_id": "d20f18c2e4b60050",
           "message_ids": [
             "d20f18c2e4b60046",
-            "d20f18c2e4b60049",
             "d20f18c2e4b60050"
           ],
           "evidence_quote": "Full plan comparison sheet is coming next week once the carrier finalizes the summary of benefits document",
@@ -1039,7 +1122,7 @@
         },
         {
           "item_id": "hr-q4-05",
-          "rank": 6,
+          "rank": 7,
           "tier": "must_include",
           "claim": "Claudia Reyes never sent the raw July exit-interview notes Marcus asked for on Jul 14, which is the input behind the theme summary he owes Doug.",
           "thread_id": "d50f18c2e4b60027",
@@ -1058,7 +1141,7 @@
         },
         {
           "item_id": "hr-q4-06",
-          "rank": 10,
+          "rank": 12,
           "tier": "acceptable",
           "claim": "Rich Delacroix owes answers on the Summit fee arrangements — the revised Q3 contingency structure Marcus raised Jul 13 and the Jul 20 question about how the placement fee on a $205K base should be coded, which landed in his out-of-office and was never re-sent after his Jul 27 return.",
           "thread_id": "d40f18c2e4b60047",
@@ -1081,7 +1164,7 @@
         },
         {
           "item_id": "hr-q4-07",
-          "rank": 8,
+          "rank": 9,
           "tier": "acceptable",
           "claim": "Jenna Wu has not delivered the payroll-system-ready merit worksheet template Marcus asked for on Jul 21 'by next week', which Doug and Priscilla need for their merit conversations.",
           "thread_id": "d50f18c2e4b60032",
@@ -1100,7 +1183,7 @@
         },
         {
           "item_id": "hr-q4-08",
-          "rank": 9,
+          "rank": 10,
           "tier": "acceptable",
           "claim": "Tim Osei owes Marcus a read on whether the 46-day average time-to-fill across 14 open clinical reqs is a sourcing problem or a hiring-manager-responsiveness problem, asked Jul 31 and needed for the board deck.",
           "thread_id": "d50f18c2e4b60040",
@@ -1140,7 +1223,7 @@
         },
         {
           "item_id": "hr-q4-10",
-          "rank": 7,
+          "rank": 8,
           "tier": "acceptable",
           "claim": "Angela was asked on Jun 19 to market the medical plan to other carriers and come back with a marketed comparison by the second week of July; the Aug 10 message delivered final renewal numbers but no competing quotes.",
           "thread_id": "d50f18c2e4b60003",
@@ -1161,7 +1244,7 @@
         },
         {
           "item_id": "hr-q4-11",
-          "rank": 11,
+          "rank": 13,
           "tier": "borderline",
           "claim": "Omar Haddix never confirmed that the New Mexico worksite and tax-jurisdiction configuration was completed in Workday, although Marcus gave him the final effective date and address on Jun 30 and the Albuquerque office opened Aug 3.",
           "thread_id": "d10f18c2e4b60007",
@@ -1176,6 +1259,46 @@
           "due_date": null,
           "due_basis": "none",
           "days_open": 43,
+          "consequence": "medium",
+          "tricky_tags": []
+        },
+        {
+          "item_id": "hr-q4-12",
+          "rank": 6,
+          "tier": "acceptable",
+          "claim": "Omar Haddix has not confirmed he pulled the Unit 4B badge access log Marcus asked to hand off by phone on Aug 4, part of the same active ER-complaint investigation as the Claudia findings memo.",
+          "thread_id": "d50f18c2e4b60031",
+          "anchor_message_id": "d50f18c2e4b60031",
+          "message_ids": [
+            "d50f18c2e4b60031"
+          ],
+          "evidence_quote": "Let me know when you're free for a two-minute call and I'll give you the date range.",
+          "why_it_qualifies": "A directed, individually-addressed ask on the most sensitive matter open, deliberately kept off email; no message anywhere confirms the call happened or the log was pulled.",
+          "counterparty": "omar.haddix@vireohealth.com",
+          "due_date": null,
+          "due_basis": "none",
+          "days_open": 8,
+          "consequence": "high",
+          "tricky_tags": []
+        },
+        {
+          "item_id": "hr-q4-13",
+          "rank": 11,
+          "tier": "acceptable",
+          "claim": "Jenna Wu has not confirmed processing the $18,500 Summit Executive Search second-installment invoice Marcus re-forwarded Jul 13, already past its Net-15 window from the Jun 25 invoice date.",
+          "thread_id": "d50f18c2e4b60018",
+          "anchor_message_id": "d50f18c2e4b60018",
+          "message_ids": [
+            "d50f18c2e4b60005",
+            "d50f18c2e4b60006",
+            "d50f18c2e4b60018"
+          ],
+          "evidence_quote": "Net 15 from June 25, so we're already close -- can you get this out this week?",
+          "why_it_qualifies": "Directed request to a named payee with stated urgency on an already-tight payment window; no confirmation of processing appears anywhere in the mailbox.",
+          "counterparty": "jenna.wu@vireohealth.com",
+          "due_date": "2026-07-17",
+          "due_basis": "implicit",
+          "days_open": 30,
           "consequence": "medium",
           "tricky_tags": []
         }
@@ -1218,7 +1341,7 @@
           "trap": "forwarded_task_not_users"
         }
       ],
-      "curator_notes": "Two out-of-office cases sit here rather than being read as answers: Angela (Aug 5-10, delegate Marta Diaz) and Rich (Jul 20-27, delegate Kim Alsup). In both the auto-reply set a floor on the wait and neither ask was re-sent after the return date. The Q4 renewal item is deliberately narrowed: Angela's Aug 10 message did deliver a revised renewal number, so only the marketed carrier comparison remains outstanding — claiming the whole thing is open would be wrong. Josh's call scheduling looks unanswered but Marcus's own Aug 11 draft shows the Aug 12 call was confirmed, so it is a distractor rather than an item."
+      "curator_notes": "Two out-of-office cases sit here rather than being read as answers: Angela (Aug 5-10, delegate Marta Diaz) and Rich (Jul 20-27, delegate Kim Alsup). In both the auto-reply set a floor on the wait and neither ask was re-sent after the return date. The Q4 renewal item is deliberately narrowed: Angela's Aug 10 message did deliver a revised renewal number, so only the marketed carrier comparison remains outstanding — claiming the whole thing is open would be wrong. Josh's call scheduling looks unanswered but Marcus's own Aug 11 draft shows the Aug 12 call was confirmed, so it is a distractor rather than an item. Reconciler pass: added hr-q4-12 (Omar Haddix, Unit 4B badge log handoff, same active investigation as hr-q4-09) and hr-q4-13 (Jenna Wu, $18,500 Summit invoice re-forwarded Jul 13, cross-thread from the original Rich Delacroix invoice and Marcus's own routing promise). Also dropped an unrelated message_id (d20f18c2e4b60049, a room-booking confirmation) from hr-q4-01 -- it evidenced nothing about the plan comparison sheet promise."
     },
     "q5_what_changed": {
       "question": "What changed?",
@@ -1231,8 +1354,8 @@
         "hr-q5-07",
         "hr-q5-02",
         "hr-q5-01",
-        "hr-q5-05",
         "hr-q5-12",
+        "hr-q5-05",
         "hr-q5-08",
         "hr-q5-10"
       ],
@@ -1351,7 +1474,7 @@
         },
         {
           "item_id": "hr-q5-05",
-          "rank": 8,
+          "rank": 9,
           "tier": "must_include",
           "claim": "The $5,000 signing bonus Marcus told Tim to offer the ICU nurse practitioner candidate on Jul 9 was withdrawn on Jul 16 after comp committee rejected it on precedent grounds; Tim is walking it back with the candidate.",
           "thread_id": "d60f18c2e4b60037",
@@ -1539,7 +1662,7 @@
         },
         {
           "item_id": "hr-q5-12",
-          "rank": 9,
+          "rank": 8,
           "tier": "acceptable",
           "claim": "Nursing engagement is 68% favorable in the Q3 survey, up 17 points from the 51% spring figure, though nursing is still the lowest department and 16 points behind Corporate/Admin.",
           "thread_id": "d40f18c2e4b60038",
@@ -1601,7 +1724,7 @@
           "trap": "automated-not-human"
         }
       ],
-      "curator_notes": "The planted shifting_number case in this mailbox is the open req count (8 -> 5 -> 6), not the merit pool: 3.2% is stated twice and never moves, so it is filed as a distractor. Two separate CEO reversals land within 24 hours of each other in two different VP Clinical Ops threads (Castellano->Tran on Aug 10, Vogel->Castillo on Aug 11); the corpus carries both as distinct threads with distinct casts, so both are reported. A third VP thread shows the requisition itself frozen on Aug 3 — that is reported as its own change rather than reconciled against the other two, because no message in the corpus reconciles them. Q5 entries cite both endpoints; the superseded values (8 reqs, 5 reqs, +14%, Aug 15, $3,200 deductible, Castellano, Vogel) may never be cited as current anywhere else."
+      "curator_notes": "The planted shifting_number case in this mailbox is the open req count (8 -> 5 -> 6), not the merit pool: 3.2% is stated twice and never moves, so it is filed as a distractor. Two separate CEO reversals land within 24 hours of each other in two different VP Clinical Ops threads (Castellano->Tran on Aug 10, Vogel->Castillo on Aug 11); the corpus carries both as distinct threads with distinct casts, so both are reported. A third VP thread shows the requisition itself frozen on Aug 3 — that is reported as its own change rather than reconciled against the other two, because no message in the corpus reconciles them. Q5 entries cite both endpoints; the superseded values (8 reqs, 5 reqs, +14%, Aug 15, $3,200 deductible, Castellano, Vogel) may never be cited as current anywhere else. Reconciler pass: reordered hr-q5-12 (engagement survey, Aug 4, inside the 14-day recency window) above hr-q5-05 (signing bonus withdrawal, Jul 16, already acted on) -- both are medium-consequence, and the recency-first ranking principle favors the more recent delta."
     },
     "q6_slipping_through_cracks": {
       "question": "What important thing might be slipping through the cracks?",
@@ -1846,7 +1969,7 @@
           "trap": "engagement-test-fails"
         }
       ],
-      "curator_notes": "Every item pairs a real consequence with a burial factor, and each burial factor is different: quote-only text, vendor automated mail masked by internal 'closed' declarations, an auto-responder, a bcc, an unresolvable pronoun, a bounce, a lying subject line, and a spam-foldered lookalike. Items Marcus visibly engaged with (the attendance policy draft, the PIP notes, the promises to Priscilla and Doug) are deliberately left to Q2 under the engagement test. Priscilla's stalled Workday merit increase is also a strong crack, but it is already carried in Q1 and Q3 and is not repeated here. Sensitive matters are described at process level only."
+      "curator_notes": "Every item pairs a real consequence with a burial factor, and each burial factor is different: quote-only text, vendor automated mail masked by internal 'closed' declarations, an auto-responder, a bcc, an unresolvable pronoun, a bounce, a lying subject line, and a spam-foldered lookalike. Items Marcus visibly engaged with (the attendance policy draft, the PIP notes, the promises to Priscilla and Doug) are deliberately left to Q2 under the engagement test. Priscilla's stalled Workday merit increase is also a strong crack, but it is already carried in Q1 and Q3 and is not repeated here. Sensitive matters are described at process level only. Reconciler pass: considered and rejected a proposed addition for the Ridley-complaint shift-log thread (d60f18c2e4b60002/03) -- Josh's Jul 23 message is a direct, personal chase ('did Renata get a chance to pull those shift logs?'), which is exactly the 'loudly attested' case QUESTIONS.md excludes from Q6 ('an ask that has been bumped ... is not slipping through cracks; the requester is personally preventing that'). This obligation is already captured, correctly, as hr-q3-12 under Q3."
     }
   }
 }

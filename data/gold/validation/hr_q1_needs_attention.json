@@ -1,0 +1,41 @@
+{
+  "profile_id": "hr",
+  "question": "q1_needs_attention",
+  "items_reviewed": 13,
+  "verdict": "issues",
+  "findings": [
+    {
+      "type": "missed_item",
+      "severity": "high",
+      "item_id": null,
+      "message_ids": ["d40f18c2e4b60045"],
+      "problem": "Marcus's own outreach email to new hire Maria Chen about her offer bounced on Aug 4 (typo'd to maria.chen827@gmial.com) and nothing in the mailbox shows the typo was caught or the message resent to a correct address as of Aug 12 — a silent-delivery-failure hazard of exactly the kind Q1 is supposed to catch, and the corpus's own ground truth marks it unresolved.",
+      "evidence": "The original message was received at Tue, 4 Aug 2026 15:12:03 -0600 ----- The following addresses had permanent fatal errors ----- <maria.chen827@gmial.com> (reason: 550 5.1.1 <maria.chen827@gmial.com>: Recipient address rejected: Domain gmial.com does not exist) ----- Original message ----- Subject: Your offer -- Senior RN Case Manager at Vireo Health Systems (message d40f18c2e4b60045)",
+      "recommended_action": "add new item with these fields: claim 'Marcus's own note to Maria Chen about her offer bounced Aug 4 to a typo'd address (maria.chen827@gmial.com) and was never resent'; thread_id/anchor_message_id d40f18c2e4b60045; why_it_qualifies 'silent delivery failure to a new hire mid-adverse-action-review, no evidence of correction'; consequence medium; due_basis none; tricky_tags []"
+    },
+    {
+      "type": "misfiled_question",
+      "severity": "low",
+      "item_id": "hr-q1-01",
+      "message_ids": ["d40f18c2e4b60037"],
+      "problem": "due_basis is set to 'explicit' but Checkr's message never states Aug 14 as a date — it only recommends 'a reasonable window (we recommend 5 business days)' from the Aug 7 notice, which is a derived/implicit date per the spec's own definitions (explicit = a date is stated, implicit = derivable).",
+      "evidence": "give Maria a reasonable window (we recommend 5 business days) to respond before finalizing a decision either way (message d40f18c2e4b60037)",
+      "recommended_action": "retier field only: change due_basis from 'explicit' to 'implicit' (due_date itself, Aug 14, is a correct derivation and does not need to change)"
+    }
+  ],
+  "checked_and_sound": [
+    "hr-q1-02",
+    "hr-q1-03",
+    "hr-q1-04",
+    "hr-q1-05",
+    "hr-q1-06",
+    "hr-q1-07",
+    "hr-q1-08",
+    "hr-q1-09",
+    "hr-q1-10",
+    "hr-q1-11",
+    "hr-q1-12",
+    "hr-q1-13"
+  ],
+  "notes": "Ruling on the curator's flagged concern, with evidence: the two 'fully closed' declarations Marcus makes (d50f18c2e4b60033, Aug 5, to Elaine: 'the self-audit Farida kicked off is fully closed out, including the E-Verify cross-check on the two flagged files'; and d50f18c2e4b60025, Aug 6, to Farida: 'I consider the I-9/E-Verify piece of the self-audit fully closed') are correctly scoped to the 25-record random-sample audit Farida requested on Jul 27 (d10f18c2e4b60024) and its two flagged records, VH-1290 and VH-1187. This is a genuinely distinct, third I-9 thread in the corpus, separate from (a) the Jan-2025-forward audit closed Jul 24 (d20f18c2e4b60045, 6 corrections filed) and (b) the compliance-committee response package (d60f18c2e4b60035/36, deadline moved to Aug 22, sign-off still owed) and (c) the I9Advantage vendor's monthly Section-2 scan (d40f18c2e4b60019/41, 6 named employees still overdue past Jul 31). Both 'fully closed' messages explicitly name 'the two flagged files' / 'the E-Verify cross-check' rather than claiming anything about the compliance-committee package or the vendor backlog, and the corpus's own meta annotation on d50f18c2e4b60025 confirms this scope directly: 'Closes the loop on the E-Verify follow-up thread; ties to the two files flagged in the earlier I-9 sample pull.' No message anywhere shows the Aug 22 package or the 6-employee vendor backlog closed before Aug 12. The gold set's treatment (hr-q1-04 and hr-q1-05 both open, curator_notes explaining the split) is correct and well-evidenced — a system that read 'fully closed' as covering the whole I-9 population would indeed miss two real, live deadlines, exactly as curator_notes warns.\n\nSecondary observation, not filed as a finding: the prose_answer's second and third sentences ('Elaine overrode the committee on Aug 11 and wants Castillo's offer moving... She also asked Aug 10 for Rich to prep Michael Tran's offer') run two genuinely distinct VP Clinical Ops searches together without flagging that they are different roles/candidate slates (Castillo/Vogel for the West-region build-out vs. Castellano/Tran for a separate VP Clinical Ops req) — a reader unfamiliar with the mailbox could momentarily read this as one decision. The underlying items (hr-q1-02, hr-q1-06) are independently correct and well-evidenced, and curator_notes already documents the judgment call to list both rather than merge them, so this is a readability note only.\n\nAlso swept and confirmed correctly excluded: a second Aug 9 bounce (d40f18c2e4b60046, to a typo'd internal alias benefits-qustions@) is explicitly annotated low-priority in the corpus's own ground truth, unlike the Maria Chen bounce above — the gold set was right to leave that one out, which is further evidence the Maria Chen bounce omission is a genuine miss rather than a stylistic choice. The Unit 4B / ER-complaint thread (sensitive employee-relations matter under active outside-counsel review) was checked for a missed deadline and found to be actively and appropriately managed on a regular cadence through Aug 12, with no evidence of neglect; consistent with professional handling of sensitive HR material, no message content from that investigation is quoted here."
+}

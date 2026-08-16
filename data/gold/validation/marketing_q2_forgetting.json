@@ -1,0 +1,71 @@
+{
+  "profile_id": "marketing",
+  "question": "q2_forgetting",
+  "items_reviewed": 15,
+  "verdict": "issues",
+  "findings": [
+    {
+      "type": "stale_fact",
+      "severity": "high",
+      "item_id": "marketing-q2-01",
+      "message_ids": ["b50f18c2e4b60003", "b50f18c2e4b60004", "b60f18c2e4b60006", "b60f18c2e4b60007", "b60f18c2e4b60046"],
+      "problem": "The item's claim and framing anchor entirely on 'Sept 1' as the still-live replatform go-live date, but the corpus shows the real date moved to Aug 17 more than a month before Denise's ask, and Jordan was told this directly but never relayed it to her -- the lapse is materially more urgent (go-live in 5 days, QA week Aug 10-14 already underway) than 'still waiting on a Sept 1 yes/no' suggests.",
+      "evidence": "Nina to Jordan, Jul 8 (b60f18c2e4b60007): \"Update — replatform launch is moving to August 17th. ... QA week is now Aug 10-14.\" Sofia to Jordan, Aug 5 (b60f18c2e4b60046): \"launch date has already moved once (now Aug 17 per Nina)\". Denise's Jul 20 ask (b50f18c2e4b60003) and Jordan's Jul 21 promise (b50f18c2e4b60004) both only ever reference 'Sept 1' -- Denise was cc'd on none of Nina's date-move emails, and no message shows Jordan ever telling her the date changed.",
+      "recommended_action": "fix claim to 'Jordan promised Denise a firm yes/no on the replatform go-live by Fri Jul 24 close of business for her BFCM freeze decision; he never answered, and separately never told her the real date (per Nina, Jul 8) had already moved from Sept 1 to Aug 17 -- a date now 5 days out with QA already running and Denise still planning around the wrong date' and update due_basis/urgency framing accordingly"
+    },
+    {
+      "type": "missed_item",
+      "severity": "medium",
+      "item_id": null,
+      "message_ids": ["b10f18c2e4b60011", "b10f18c2e4b60012", "b10f18c2e4b60013"],
+      "problem": "Jordan's Jun 23 SENT promise to Sofia to send a recap after the Fold & Field renewal call was never fulfilled -- no recap email to Sofia exists anywhere in the mailbox, making it the most stale unfulfilled owner commitment in the mailbox (~50 days as of Aug 12) and a clean pass of the engagement test, yet it is entirely absent from the gold set.",
+      "evidence": "Jordan to Sofia, Jun 23 (b10f18c2e4b60013): \"Will do. I'll send a recap after the call.\" A mailbox-wide search for any later message mentioning 'recap' or the Fold & Field call outcome sent to Sofia after Jun 25 (the Thursday call date) returns nothing.",
+      "recommended_action": "add new item with these fields: claim describing the unsent post-call recap owed to Sofia, anchor_message_id b10f18c2e4b60013, message_ids [b10f18c2e4b60011, b10f18c2e4b60012, b10f18c2e4b60013], due_basis implicit (after the Jun 25 call), consequence medium, tier acceptable or borderline given the underlying renewal did eventually proceed through other channels"
+    },
+    {
+      "type": "bad_quote",
+      "severity": "medium",
+      "item_id": "marketing-q2-03",
+      "message_ids": ["b10f18c2e4b60050"],
+      "problem": "The claim states 'Wes booked the $18,400 photoshoot PO on Aug 12' as if this is the same $20K overage Jordan owes Sofia an explanation for, but the Aug 12 PO Wes actually closed is a different, smaller overage ($2,800 over a $15,600 pre-approved PO, caused by catering and the TikTok UGC half-day) -- not the extra lighting tech / expedited shipping overage (~$20K per Jordan's Jul 27 message to Wes, ~$6,400 per the unsent draft) that is the actual subject of the unsent Sofia explanation.",
+      "evidence": "Wes to Jordan, Aug 12 (b10f18c2e4b60050): \"The Northlight photoshoot PO came in at $18,400 - that's the base production fee plus the catering add and the TikTok UGC half-day Rachel approved with you a few weeks back, all rolled into one invoice. Original PO was cut at $15,600\" -- no mention of the extra lighting tech or expedited shipping that the unsent draft (b50f18c2e4b60047) says caused the overage Jordan owes Sofia.",
+      "recommended_action": "fix claim to drop or correct the '$18,400 PO' reference so it doesn't conflate the catering/TikTok PO overage Wes closed on Aug 12 with the separate lighting-tech/expedited-shipping overage that is the actual, still-unexplained subject of Jordan's promise to Wes and the unsent draft to Sofia"
+    },
+    {
+      "type": "stale_fact",
+      "severity": "medium",
+      "item_id": "marketing-q2-04",
+      "message_ids": ["b40f18c2e4b60030", "b40f18c2e4b60031"],
+      "problem": "The claim's phrase 'the renewal is still unresolved' risks conflating the ALREADY fully-executed FY27 base retainer SOW (both parties signed by Jul 23, per the DocuSign completion) with the smaller Q4 scope change-order redline that Jordan actually promised to route to Sofia on Jul 31 -- the item never distinguishes these two separate documents, which is exactly the kind of confusion a system reading the DocuSign 'Completed' notice at face value could fall into (or conversely, could wrongly assume closes this item).",
+      "evidence": "DocuSign completion notice, Jul 23 (attachment extracted_text of b40f18c2e4b60031): \"HABITAT GOODS x FOLD & FIELD — STATEMENT OF WORK, FY27 ... Monthly retainer: $34,500 ... Status: FULLY EXECUTED / Signed: Jordan Feld (2026-07-23), Tessa Brandt (2026-07-19)\" -- a figure and completion status never referenced again by Jordan, Tessa, or Sofia in any later message, even as they keep discussing the retainer as open (Sofia, Aug 5: 'the Fold & Field retainer renewal needs to close out before Q1').",
+      "recommended_action": "fix claim to specify this item is about the Q4 scope amendment/redline (net +$400/mo, still lacking Habitat's countersignature) rather than 'the renewal' broadly, and add a curator_note explaining why the Jul 23 'Completed' FY27 SOW DocuSign does not close this obligation despite appearing fully executed"
+    },
+    {
+      "type": "missed_item",
+      "severity": "low",
+      "item_id": null,
+      "message_ids": ["b10f18c2e4b60037", "b10f18c2e4b60038"],
+      "problem": "Jordan's SENT personal commitment to pick a restaurant for Saturday Aug 8 dinner with Meg was never followed up on -- no later message confirms a chosen spot. Low stakes, but structurally identical to the founder mailbox's explicitly-cited 'self-directed intentions with dates' example (vet refill/checkup booking).",
+      "evidence": "Jordan to Meg, Aug 2 (b10f18c2e4b60038): \"Saturday works! Let's do 7pm, I'll pick the spot.\" No later message to Meg names a restaurant.",
+      "recommended_action": "add new item with these fields: low-consequence personal self-directed intention, anchor_message_id b10f18c2e4b60038, tier borderline, consequence low -- optional addition given how minor it is"
+    },
+    {
+      "type": "missed_item",
+      "severity": "low",
+      "item_id": null,
+      "message_ids": ["b10f18c2e4b60001", "b10f18c2e4b60002"],
+      "problem": "Jordan's Jul 15 SENT promise to Rachel to check the sitewide banner color with Kyle at Anchor & Vine and reply by Thursday (Jul 16) was never followed up on -- no outbound message to Kyle about banner color, and no reply to Rachel exists. Confidence is only moderate since the holiday hero creative direction visibly changed substantially by Round 3 (Aug 3+), which may have mooted the original Cranberry-palette concern.",
+      "evidence": "Jordan to Rachel, Jul 15 (b10f18c2e4b60002): \"I'll check the banner color with Kyle at Anchor & Vine this week and get back to you by Thursday.\" No later SENT message to kyle.fenn@anchorvine.dev or to Rachel resolves this.",
+      "recommended_action": "review for inclusion at borderline tier if the curator judges the Round 1 Cranberry-palette question still live; otherwise note as considered-and-excluded (superseded by later creative pivot) in curator_notes"
+    }
+  ],
+  "checked_and_sound": [
+    "marketing-q2-02",
+    "marketing-q2-05",
+    "marketing-q2-06",
+    "marketing-q2-07",
+    "marketing-q2-08",
+    "marketing-q2-09"
+  ],
+  "notes": "This mailbox has an unusually tangled Fold & Field / replatform storyline spread across many topic-drifted and cross-referencing threads (at least 4 distinct 'SOW' documents and 3 distinct replatform launch-date sub-threads: Aug 3->Aug 17 engineering go-live, Sept 1/no-answer per Denise, Nov 1->Nov 4 PDP-template-for-holiday). I traced all of it to check for closure and stale facts specific to Q2; items -01, -03, and -04 survive as real obligations but their claims need the corrections above to stay accurate. All must_not_include distractors were spot-checked and hold up (cancelled_commitment, delivered_attachment, ambiguous_pronoun_owner, already-completed x2, forwarded_task_not_users all verified against the corpus). All 9 evidence_quotes in items were verified as verbatim substrings of their cited messages' body_text."
+}

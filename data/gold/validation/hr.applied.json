@@ -1,0 +1,83 @@
+{
+  "profile_id": "hr",
+  "accepted": [
+    {
+      "question": "q1_needs_attention",
+      "type": "missed_item",
+      "severity": "high",
+      "summary": "Marcus's own Aug 4 offer email to Maria Chen bounced off a typo'd address (maria.chen827@gmial.com) and was never resent -- a silent-delivery hazard compounding the live Checkr FCRA deadline on the same candidate.",
+      "action_taken": "Added new item hr-q1-14 (tier acceptable, consequence medium, evidence_quote verified verbatim in d40f18c2e4b60045), inserted into ranked at position 11, and folded into the prose_answer."
+    },
+    {
+      "question": "q1_needs_attention",
+      "type": "bad_due_basis",
+      "severity": "low",
+      "summary": "hr-q1-01's due_basis was 'explicit' but Checkr's message only recommends a 5-business-day window from Aug 7, not a stated Aug 14 date.",
+      "action_taken": "Changed hr-q1-01's due_basis from explicit to implicit; due_date (2026-08-14) unchanged."
+    },
+    {
+      "question": "q2_forgetting",
+      "type": "missed_item",
+      "severity": "medium",
+      "summary": "Marcus's Aug 3 SENT promise to Angela Nwosu to review the open-enrollment guide proofs and return corrections by Monday (Aug 10) has no delivery message anywhere.",
+      "action_taken": "Added new item hr-q2-11 (tier acceptable, consequence medium, evidence_quote verified verbatim in d50f18c2e4b60036), inserted into ranked, and folded into the prose_answer (count updated Six -> Eight)."
+    },
+    {
+      "question": "q2_forgetting",
+      "type": "missed_item",
+      "severity": "low",
+      "summary": "Marcus's Jul 14 SENT promise to Doug to send Q3 calibration rating-distribution guardrails by Monday Jul 20 was never sent.",
+      "action_taken": "Added new item hr-q2-12 (tier acceptable, consequence low, evidence_quote verified verbatim in d10f18c2e4b60012), inserted into ranked, and folded into the prose_answer."
+    },
+    {
+      "question": "q3_waiting_on_me",
+      "type": "missed_item",
+      "severity": "medium",
+      "summary": "Renata Vlasov's Workday PTO approval request (Jun 19) has been sitting unapproved 54 days, structurally identical to the other included Workday items (hr-q3-07/08/09).",
+      "action_taken": "Added new item hr-q3-14 (tier acceptable, consequence low, due_basis explicit per meta.due_date convention, evidence_quote verified verbatim in d40f18c2e4b60014), inserted into ranked at the end, and folded into the prose_answer."
+    },
+    {
+      "question": "q4_waiting_on_others",
+      "type": "missed_item",
+      "severity": "medium",
+      "summary": "Marcus's Aug 4 request to Omar Haddix for a call to hand off the Unit 4B badge-access-log date range has no reply anywhere, and it is part of the same active ER-complaint investigation already anchoring hr-q4-09.",
+      "action_taken": "Added new item hr-q4-12 (tier acceptable, consequence high, evidence_quote verified verbatim in d50f18c2e4b60031), inserted into ranked directly after hr-q4-09, and folded into the prose_answer."
+    },
+    {
+      "question": "q4_waiting_on_others",
+      "type": "missed_item",
+      "severity": "medium",
+      "summary": "Marcus re-forwarded Rich Delacroix's $18,500 Summit invoice to Jenna Wu on Jul 13 asking her to process it that week; no confirmation from Jenna exists anywhere, matching the canonical Q4(a) delegation pattern.",
+      "action_taken": "Added new item hr-q4-13 (tier acceptable, consequence medium, cross-thread anchor on d50f18c2e4b60018, evidence_quote verified verbatim), inserted into ranked, and folded into the prose_answer (count updated Ten -> Twelve)."
+    },
+    {
+      "question": "q4_waiting_on_others",
+      "type": "false_positive",
+      "severity": "low",
+      "summary": "hr-q4-01's message_ids included d20f18c2e4b60049 (a room-booking confirmation), unrelated to the plan-comparison-sheet promise the item is about.",
+      "action_taken": "Removed d20f18c2e4b60049 from hr-q4-01's message_ids; claim, quote and tier unaffected."
+    },
+    {
+      "question": "q5_what_changed",
+      "type": "misranked",
+      "severity": "low",
+      "summary": "hr-q5-12 (engagement survey delta, Aug 4, inside the 14-day recency window) was ranked below hr-q5-05 (signing bonus withdrawal, Jul 16, already acted on), inverting the stated recency x magnitude principle for two equal-consequence items.",
+      "action_taken": "Swapped hr-q5-12 and hr-q5-05 in the ranked order (now ranks 8 and 9 respectively) and renumbered rank fields."
+    },
+    {
+      "question": "q3_waiting_on_me",
+      "type": "prose_accuracy",
+      "severity": "low",
+      "summary": "Q3's prose_answer opened with 'Ten people are blocked on you' but the ranked items resolved to seven distinct requesters (now eight after adding hr-q3-14).",
+      "action_taken": "Corrected the prose_answer to 'Eight people are blocked on you' and added a clause naming Renata's PTO request."
+    }
+  ],
+  "rejected": [
+    {
+      "question": "q6_slipping_through_cracks",
+      "type": "missed_item",
+      "summary": "Validator proposed adding the Ridley-complaint shift-log thread (Josh Lieberman, d60f18c2e4b60002/03) as a new Q6 crack, on the grounds that Marcus never replied and the Jul 24 opposing-counsel deadline passed with no follow-up.",
+      "reason_rejected": "This exact obligation is already captured, correctly, as hr-q3-12 in Q3 ('waiting on me'). It fails the Q6 burial test: Josh personally chased it on Jul 23 ('did Renata get a chance to pull those shift logs? Wednesday's come and gone...'), which is precisely the 'loudly attested' case QUESTIONS.md excludes from Q6 -- 'an ask that has been bumped ... is not slipping through cracks; the requester is personally preventing that.' Adding it to Q6 as well would misread that explicit boundary rule; Q3's own curator_notes already discuss this thread correctly."
+    }
+  ]
+}

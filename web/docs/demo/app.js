@@ -61,6 +61,43 @@ async function boot() {
   $("boot").classList.add("done");
   $("shell").hidden = false;
   wire();
+  applyDeepLink();
+}
+
+/**
+ * ?mailbox=finance&q=q2_forgetting
+ *
+ * Makes a particular answer linkable, which is what you want when sending
+ * someone "look at this one" — and lets the screenshots in the README be
+ * generated from the real page rather than staged by hand.
+ */
+function applyDeepLink() {
+  const params = new URLSearchParams(location.search);
+  const mailbox = params.get("mailbox");
+  if (mailbox) {
+    const found = state.accounts.find(
+      (a) => a.profile_id === mailbox || a.name.toLowerCase().startsWith(mailbox.toLowerCase())
+    );
+    if (found) selectAccount(found);
+  }
+  // ?ask=... runs a question on load, so a link can carry the whole
+  // demonstration rather than instructions for reproducing it.
+  const ask = params.get("ask");
+  if (ask) {
+    $("ask").value = "";
+    askAgent(ask);
+    return;
+  }
+
+  const q = params.get("q");
+  if (q && state.ledger.questions[q]) {
+    showQuestion(q, false, false);
+    // Deep-link straight into a panel, so a link can point at the exact thing
+    // being discussed rather than "the demo, go find it".
+    const open = params.get("open");
+    if (open === "how") document.querySelector(".action-btn")?.click();
+    else if (open === "cite") document.querySelector(".cite")?.click();
+  }
 }
 
 // ── rail ────────────────────────────────────────────────────────────
@@ -159,8 +196,14 @@ function renderIntro() {
 
 // ── the six ─────────────────────────────────────────────────────────
 
-function showQuestion(key) {
+function showQuestion(key, push = true, scroll = true) {
   state.inChat = false;
+  if (push) {
+    const u = new URL(location.href);
+    u.searchParams.set("mailbox", state.account.profile_id);
+    u.searchParams.set("q", key);
+    history.replaceState(null, "", u);
+  }
   for (const b of document.querySelectorAll(".q")) {
     b.classList.toggle("on", b.dataset.key === key);
   }
@@ -216,7 +259,7 @@ function showQuestion(key) {
   }
 
   stage.append(wrap);
-  wrap.scrollIntoView({ block: "start", behavior: "smooth" });
+  if (scroll) wrap.scrollIntoView({ block: "start", behavior: "smooth" });
 }
 
 /**

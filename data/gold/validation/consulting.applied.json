@@ -1,0 +1,117 @@
+{
+  "profile_id": "consulting",
+  "accepted": [
+    {
+      "question": "q1_needs_attention",
+      "type": "false_positive",
+      "severity": "high",
+      "summary": "consulting-q1-05 (Expensify batch) is closed: it is the only Expensify batch in the mailbox, and Evelyn's Jul 31 SENT reply to Sheila ('approved your batch, go ahead and run payroll') approves it two weeks before the Aug 14 cutoff.",
+      "action_taken": "Removed from q1 items/ranked, added to q1 must_not_include (trap: already-resolved). Same closure applied consistently to consulting-q3-05 and consulting-q6-06, which cited the identical obligation, and to their must_not_include lists, since the underlying fact is the same regardless of which question cites it."
+    },
+    {
+      "question": "q4_waiting_on_others",
+      "type": "false_positive",
+      "severity": "high",
+      "summary": "consulting-q4-04 (Bob Vandergriff owes the countersigned Meridian Phase 2 SOW) is closed: Evelyn's Aug 12 SENT message 'Contract signed — let's kick off' ('two weeks into phase 2') and the Aug 11 partner update both confirm the SOW came back signed and the engagement is running.",
+      "action_taken": "Removed from q4 items/ranked, added to q4 must_not_include (trap: already-resolved), ranks 5-9 shifted up to fill the gap."
+    },
+    {
+      "question": "q1_needs_attention",
+      "type": "missed_item",
+      "severity": "medium",
+      "summary": "AME Chicago Summit needs Evelyn's slide deck + bio/headshot by Aug 21 (e30f18c2e4b60047, unread) for a distinct Oct 7 session; absent from items and must_not_include.",
+      "action_taken": "Added consulting-q1-13, tier acceptable, to items and ranked."
+    },
+    {
+      "question": "q1_needs_attention",
+      "type": "missed_item",
+      "severity": "medium",
+      "summary": "AME Great Lakes Regional needs deck/bio/AV specs by Aug 21 plus Kyle's co-presenter registration (e40f18c2e4b60045, unread); a third, distinct AME speaking commitment absent from Q1.",
+      "action_taken": "Added consulting-q1-14, tier acceptable, to items and ranked."
+    },
+    {
+      "question": "q1_needs_attention",
+      "type": "missed_item",
+      "severity": "medium",
+      "summary": "Ridgefield final recommendations deck (moved Aug 15 -> Aug 22 per deadline_moved) is undelivered ahead of Marta's Aug 25 board meeting; absent from Q1 despite qualifying on Q1's own criteria.",
+      "action_taken": "Added consulting-q1-12, tier acceptable, to items and ranked."
+    },
+    {
+      "question": "q1_needs_attention",
+      "type": "bad_quote",
+      "severity": "medium",
+      "summary": "consulting-q1-02's claim ('Bob has never seen it') is contradicted by its own cited evidence: e40f18c2e4b60016 shows the invoice was successfully emailed to Bob's own, actively-used address on Aug 1; only the parallel copy to the AP alias bounced.",
+      "action_taken": "Rewrote claim, evidence_quote, and why_it_qualifies to state that Bob's personal copy arrived but the AP alias bounced, so payment processing (not Bob's literal awareness) is the real risk. Applied the same correction to consulting-q6-01 for internal consistency, since it made the identical over-claim."
+    },
+    {
+      "question": "q2_forgetting",
+      "type": "misranked",
+      "severity": "high",
+      "summary": "consulting-q2-09 (Halberd org-design deck) was kept borderline on the theory that the later 'Quick call this week?' QBR thread implies silent completion — but that thread (verified message-by-message) never once mentions the org-design deck; it only covers QBR-prep scheduling and a conference bio, so there is no basis for assuming completion.",
+      "action_taken": "Retiered to acceptable, added to ranked (rank 9). Added the abandoned draft e50f18c2e4b60048 (a second, independent self-authored admission of the same lapse) to message_ids as supporting evidence."
+    },
+    {
+      "question": "q3_waiting_on_me",
+      "type": "false_positive",
+      "severity": "medium",
+      "summary": "consulting-q3-08 (Lucia's 'still good for 2pm Wednesday?') resolves to Wed Aug 12 -- the as-of date itself, since the message was sent Wed Aug 5 at 2:35pm (after that day's own 2pm). By 23:59 Aug 12 the referenced meeting slot has already passed, so it is not a live, forward-looking wait.",
+      "action_taken": "Removed from q3 items/ranked, added to q3 must_not_include (trap: meeting-window-passed). Per scope discipline, not re-added to Q6/Q2 as the validator's own note speculated it might belong there -- noted in q3 curator_notes instead."
+    },
+    {
+      "question": "q4_waiting_on_others",
+      "type": "missed_item",
+      "severity": "medium",
+      "summary": "Evelyn asked Gordon, then Ana directly, whether Ana would take the APICS Sept 17 panel slot -- both single-recipient asks, neither ever answered.",
+      "action_taken": "Added consulting-q4-11, tier acceptable, consequence low, to items and ranked. Legitimately double-listed with the existing Q6 entry for the same edge, since Q4/Q6 are overlapping views."
+    },
+    {
+      "question": "q4_waiting_on_others",
+      "type": "missed_item",
+      "severity": "low",
+      "summary": "Evelyn delegated the Halberd org-design deck to Ana on Jul 20 for an EOD-Wednesday deadline ('Ana -- can you own the Halberd deck from here?'); no message shows Ana ever confirmed or delivered it.",
+      "action_taken": "Added consulting-q4-12, tier acceptable, consequence low, to items and ranked, as the Q4 mirror of the existing Q2 item (Evelyn owes Lucia / Ana owes Evelyn -- both legitimate edges of the same obligation per QUESTIONS.md's Q2-vs-Q4 boundary note)."
+    },
+    {
+      "question": "q5_what_changed",
+      "type": "stale_current_value",
+      "severity": "high",
+      "summary": "Corpus contradiction (per assignment brief): two Evelyn-authored SENT messages ten minutes apart on Aug 11 (e50f18c2e4b60045, e60f18c2e4b60050) describe incompatible states of the Stratus diagnostic -- one says a done $340K deal already started Aug 10, the other says a not-yet-signed ~$90K diagnostic still finalizing scope, expected to sign mid-August.",
+      "action_taken": "Did not invent a resolution or pick a figure. Set consulting-q5-01 to tier borderline (removed from ranked), rewrote its claim to state the contradiction plainly, set current_value to an explicit 'unresolved/contradictory' flag, added both Aug 11 messages to message_ids, and recorded the full reasoning in q5 curator_notes so no downstream item or prose line cites $340K/$91K/$90K as a confirmed current figure."
+    },
+    {
+      "question": "q5_what_changed",
+      "type": "missed_item",
+      "severity": "medium",
+      "summary": "Ridgefield invoice #4417 ($14,200) follows the identical belief-correcting shape already used for #4471 (item 06): 90+ days overdue and silent, then resolved Aug 10 by the same AP-migration explanation with a payment date given. Distinct invoice, absent from items and must_not_include.",
+      "action_taken": "Added consulting-q5-12, tier acceptable, to items and ranked."
+    },
+    {
+      "question": "q6_slipping_through_cracks",
+      "type": "false_positive",
+      "severity": "high",
+      "summary": "consulting-q6-09 (AME Great Lakes bounce to dokoro@ame-greatlakes.org) is closed before the as-of moment: the same co-presenter information reached AME through the real events@ame.org channel (e40f18c2e4b60045, Aug 7), which also confirms it was approved. The corpus's own meta annotation on the bounce already calls it 'not a real problem, harmless.'",
+      "action_taken": "Removed from q6 items/ranked, added to q6 must_not_include (trap: already-resolved)."
+    },
+    {
+      "question": "q6_slipping_through_cracks",
+      "type": "bad_quote",
+      "severity": "medium",
+      "summary": "consulting-q6-01's message_ids include e60f18c2e4b60016 (an unrelated Meridian-staffing message about Kyle's Ridgefield conflict) instead of e40f18c2e4b60016 (the QuickBooks 'invoice was sent' confirmation the claim actually depends on) -- a one-digit id typo.",
+      "action_taken": "Fixed message_ids to [e40f18c2e4b60034, e40f18c2e4b60016]. Also softened the claim/why_it_qualifies to match the corrected q1-02 framing (Bob's personal copy arrived; only the AP alias bounced) for internal consistency."
+    }
+  ],
+  "rejected": [
+    {
+      "question": "q2_forgetting",
+      "type": "missed_item",
+      "summary": "Proposed item for Evelyn's Aug 4 promises to Bob Vandergriff -- clean redlined Meridian Phase 2 SOW 'this afternoon' and Anil Bose's MES login by Friday Aug 7 -- claiming 'neither shows up anywhere else in the mailbox as sent.'",
+      "reason_rejected": "The premise does not survive a full mailbox read. Evelyn's Aug 12 SENT message 'Contract signed — let's kick off' ('workplan's holding up well ... two weeks into phase 2') and the Aug 11 partner update (e60f18c2e4b60050: 'Meridian phase 2 is underway, Ana leading on-site with Kyle supporting remotely alongside Anil') both confirm the SOW was in fact finalized, signed, and the engagement is running with Anil already active -- the Aug 6 Anil/Kyle 'Data Model Sync' calendar invite corroborates Anil's data access was sorted out around the promised window. The validator's own evidence search stopped before reaching these later messages, which is exactly the failure mode QUESTIONS.md's precedence rule warns against (worked examples/first impressions must yield to a full corpus read)."
+    },
+    {
+      "question": "q3_waiting_on_me",
+      "type": "stale_fact",
+      "summary": "consulting-q3-05's days_open (29) is miscalculated because the anchor message's `date` field (Jul 14) contradicts its attachment's internal content (headed '08/11/2026', itemizing a 7/21 expense) -- recommended fixing the date/day-count while keeping the item, tier, and Aug 14 due_date unchanged.",
+      "reason_rejected": "Superseded, not wrong. This finding's underlying data anomaly is real, but the item itself (consulting-q3-05) is being removed entirely: the Q1 validator independently established that the same Expensify batch is closed by Evelyn's Jul 31 approval (see accepted false_positive above), which applies regardless of which date field is used for day-counting. Recomputing days_open for an item that is being deleted is moot, so this recommendation was not applied as stated; the item was removed instead."
+    }
+  ]
+}

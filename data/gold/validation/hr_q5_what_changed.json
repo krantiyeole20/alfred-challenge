@@ -1,0 +1,31 @@
+{
+  "profile_id": "hr",
+  "question": "q5_what_changed",
+  "items_reviewed": 12,
+  "verdict": "issues",
+  "findings": [
+    {
+      "type": "misranked",
+      "severity": "low",
+      "item_id": "hr-q5-12",
+      "message_ids": ["d40f18c2e4b60018", "d40f18c2e4b60038", "d60f18c2e4b60037", "d60f18c2e4b60038"],
+      "problem": "hr-q5-12 (engagement survey, to_message_id d40f18c2e4b60038, dated Aug 4 — 8 days before as-of, inside the 14-day recency window) is ranked 9, below hr-q5-05 (signing bonus withdrawal, to_message_id d60f18c2e4b60038, dated Jul 16 — 27 days before as-of, well outside the window and already acted on), which is ranked 8. Both carry the same 'medium' consequence tier, so on the stated (recency) x (magnitude) principle the more recent, equal-magnitude item should rank above the older one, not below it.",
+      "evidence": "Nursing came in at 68% favorable -- still the lowest of any department, though up 17 points from spring's 51% (d40f18c2e4b60038, 2026-08-04) vs. Tim -- bad news, comp committee shot it down this morning. (d60f18c2e4b60038, 2026-07-16)",
+      "recommended_action": "reorder hr-q5-12 above hr-q5-05, or justify in why_it_qualifies why the 27-day-old, already-resolved bonus retraction should outrank the 8-day-old survey delta"
+    }
+  ],
+  "checked_and_sound": [
+    "hr-q5-01",
+    "hr-q5-02",
+    "hr-q5-03",
+    "hr-q5-04",
+    "hr-q5-05",
+    "hr-q5-06",
+    "hr-q5-07",
+    "hr-q5-08",
+    "hr-q5-09",
+    "hr-q5-10",
+    "hr-q5-11"
+  ],
+  "notes": "Scrutinised the triple-reversal question hard. Ruling: genuinely three distinct storylines, not a split or a contradiction requiring reconciliation. (1) Thread d20f18c2e4b60001 'VP Clinical Operations (West)' — candidates Dr. Renee Castillo vs. Anthony Vogel, an entirely new headcount ('The board approved this headcount specifically for the West region build-out' — d20f18c2e4b60010); committee voted 3-of-4 for Vogel on Aug 4 (d20f18c2e4b60009), Elaine overrode to Castillo on Aug 11 (d20f18c2e4b60010). (2) Thread d60f18c2e4b60014 'VP Clinical Ops — finalist decision' — candidates Dr. Renee Castellano vs. Michael Tran, no West qualifier, entirely separate candidate roster; group converged on Castellano Jul 29 (d60f18c2e4b60018), Elaine reversed to Tran on Aug 10 after references (d60f18c2e4b60022). (3) The frozen-req item (hr-q5-07) is a third, unrelated requisition: job #4471, candidate Dana Whitfield, no 'West' language anywhere in that message family, frozen Aug 3 pending FY27 budget re-approval. None of the three threads cross-references either of the others by name, req number, or explicit tie-back, so merging any pair would be fabricating a connection the text doesn't support; reporting all three separately (as gold does) is correct. The req-count drift (8 on Jul 16 -> 5 on Jul 20 -> 6 on Jul 27, thread d60f18c2e4b60006) is confirmed as ONE item: it is the only chain in this mailbox carrying curator-side meta.superseded_by_message_id annotations, the corpus has no message past d60f18c2e4b60008 (Jul 27) touching the req count, and 6 is correctly the current, uncontested figure — sound as hr-q5-01. Two things worth flagging to a human reviewer even though they don't rise to formal findings: (a) the corpus actually contains a FOURTH 'VP Clinical Ops' narrative — thread d10f18c2e4b60018/d10f18c2e4b60050, candidates Dana Callahan vs. Grace Whitcomb, last touched Jul 22 ('Let's get both in for onsites next week') with no resolution before Aug 12. It correctly does not need a Q5 entry (no reversal or superseded fact ever lands there — it's dangling process, not a belief-diff), but between it and the three reported threads, Vireo appears to be running four simultaneous same-titled VP Clinical Ops searches with overlapping panels (Tim/Doug/Priscilla/Elaine/Marcus/Rich Delacroix in nearly every thread) and no message anywhere acknowledging more than one search is in flight — this reads like an unintentional corpus-generation duplication of the same narrative template rather than a deliberately designed multi-search org, but nothing in the text contradicts gold's item-level claims, so it is a corpus-consistency observation, not a gold-set defect. (b) An unsent Aug 12 14:20 draft, d50f18c2e4b60049 ('Notes before I respond to Elaine -- Castillo override'), is squarely about the same override reported in hr-q5-04 — its own meta note calls it 'deliberately not threaded to the sibling decision thread' — but it isn't in hr-q5-04's message_ids. It doesn't change current_value (Castillo remains the CEO's stated decision, nothing retracts it), so this is not a stale_current_value defect, but it does contain material color a stronger answer would surface: Marcus hasn't yet acted on Elaine's Aug 11 directive, is weighing pushing back on process, and flags that recruiter Rich's 'she's off the market in 2-3 weeks' estimate is now two weeks stale — i.e., there's a live risk Castillo may no longer be available. Worth folding into hr-q5-04's message_ids/why_it_qualifies but not a correctness bug as written. All 12 items' evidence_quotes verified as verbatim exact substrings of their cited message (or attachment extracted_text for hr-q5-06's SBC packet figure). All message_ids, anchor/from/to ids resolve to real corpus messages. All six must_not_include distractors verified sound (duplicate resend, first-statement merit pool 3.2% stated twice never moving, new Oct-1 commitment, newsletter, RSVP at sequence 0, routine payroll confirmation)."
+}
