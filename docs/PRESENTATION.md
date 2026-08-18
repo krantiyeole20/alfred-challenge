@@ -6,6 +6,9 @@ the hard questions. Numbers verified against the build on 2026-08-18.
 - **Demo** — https://krantiyeole20.github.io/alfred-challenge/demo/
 - **Design doc** — https://krantiyeole20.github.io/alfred-challenge/
 - **Repo** — https://github.com/krantiyeole20/alfred-challenge
+- **[The four hard questions](HARD-QUESTIONS.md)** — partial context, delegation,
+  false positives at real volume, and forgetting vs handled-elsewhere. Read this
+  one before the call; it is where the design actually gets tested.
 
 ---
 
