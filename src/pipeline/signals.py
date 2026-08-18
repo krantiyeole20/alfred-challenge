@@ -95,12 +95,20 @@ def noise(
     is_automated: bool,
     subject: str | None = None,
 ) -> tuple[bool, str | None]:
+    # Transactional subject beats every other signal, including List-ID.
+    #
+    # Order matters and was measured. Checking List-ID first drops real
+    # obligations that happen to arrive over list infrastructure -- a plan
+    # renewal notice, a speaker-slot confirmation. tools/measure_noise_gate.py
+    # scores each ordering against the gold sets: List-ID first loses 3 gold
+    # items, this order loses 2, and the difference in extraction cost is
+    # $0.002. The override is worthless if it sits behind the rule that
+    # already dropped the mail.
+    if subject and _TRANSACTIONAL.search(subject):
+        return False, None
     # A true mailing list: List-ID means list traffic, not a person writing.
     if headers.get("List-ID"):
         return True, "list_archive"
-    # Transactional subject beats the provider's category label.
-    if subject and _TRANSACTIONAL.search(subject):
-        return False, None
     # Promotional/social AND machine-sent. The category alone is not enough --
     # Gmail files real speaking-slot confirmations under Promotions.
     if category == "CATEGORY_PROMOTIONS" and is_automated:

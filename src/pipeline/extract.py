@@ -295,6 +295,23 @@ def run(conn: sqlite3.Connection, stats: dict, limit: int | None = None,
     if profile:
         where += " AND a.provider_account_id = ?"
         params.append(profile)
+    # Record every attempt, not just the ones that produced claims.
+    #
+    # Resuming on "has no evidence rows" cannot tell "never attempted" from
+    # "attempted, correctly produced nothing" -- and most email correctly
+    # produces nothing. Without this, every re-run pays for the empty ones
+    # again: one resume re-processed 615 emails for $0.175 to add 61 claims.
+    conn.execute(
+        """CREATE TABLE IF NOT EXISTS extraction_attempts (
+             email_id          TEXT NOT NULL,
+             extractor_version TEXT NOT NULL,
+             claim_count       INTEGER NOT NULL DEFAULT 0,
+             attempted_at      TEXT NOT NULL,
+             PRIMARY KEY (email_id, extractor_version)
+           )"""
+    )
+    conn.commit()
+
     if not redo:
         # Resume: skip emails that already produced evidence or were
         # quarantined, so an interrupted batch can be restarted without
@@ -302,7 +319,10 @@ def run(conn: sqlite3.Connection, stats: dict, limit: int | None = None,
         where += (
             " AND e.id NOT IN (SELECT source_email_id FROM evidence)"
             " AND e.id NOT IN (SELECT source_email_id FROM evidence_quarantine)"
+            " AND e.id NOT IN (SELECT email_id FROM extraction_attempts"
+            "                  WHERE extractor_version = ?)"
         )
+        params.append(config.EXTRACTOR_VERSION)
 
     sql = f"""
         SELECT e.id, e.user_id, e.thread_id, e.subject, e.body_text_novel,
@@ -389,6 +409,7 @@ def _persist(conn, row, result, people_by_addr, model, stats) -> None:
 
     valid_attrs = {a for a, _, _ in VOCAB}
     act_of = {a: s for a, s, _ in VOCAB}
+    kept_here = 0
 
     for claim in result.get("claims", []):
         attribute = claim.get("attribute")
@@ -436,6 +457,23 @@ def _persist(conn, row, result, people_by_addr, model, stats) -> None:
             ),
         )
         stats["items_out"] += 1
+        kept_here += 1
+
+    _record_attempt(conn, row["id"], kept_here)
+
+
+def _record_attempt(conn, email_id: str, claim_count: int) -> None:
+    """Mark this email as processed at this extractor version.
+
+    Written whether or not the email produced claims, so a later resume can
+    tell "correctly produced nothing" from "not reached yet". Keyed on the
+    version so bumping the extractor re-runs the corpus deliberately.
+    """
+    conn.execute(
+        "INSERT OR REPLACE INTO extraction_attempts "
+        "(email_id, extractor_version, claim_count, attempted_at) VALUES (?,?,?,?)",
+        (email_id, config.EXTRACTOR_VERSION, claim_count, now_iso()),
+    )
 
 
 def _quarantine(conn, row, claim, reason, model) -> None:

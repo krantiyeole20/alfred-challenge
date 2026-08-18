@@ -1,0 +1,36 @@
+corpus: 1500 emails · 546 distinct gold source messages
+cost basis: $0.000524 per extracted email (from the recorded run)
+
+gate rule                               lost  gated     cost
+------------------------------------------------------------
+category OR bulk headers                  88    483     0.53
+List-ID OR (promo AND automated)           3    139     0.71
+shipped: + transactional override          3    138     0.71
+transactional checked FIRST                2    134     0.72
+List-ID only                               3     95     0.74
+no gate                                    0      0     0.79
+------------------------------------------------------------
+
+real work 'category OR bulk headers' would have dropped:
+  · KET-441 assigned to you: Approve Q3 infra budget line
+  · Automatic reply: Board deck feedback before the 27th
+  · Invitation: Design Review — New Onboarding Flow @ Tue Jul 28, 2p
+
+real work 'List-ID OR (promo AND automated)' would have dropped:
+  · You're confirmed: RMHR Conference Oct 14-15, Denver
+  · Your Harvest plan renews in 5 days — update your payment method
+  · AME Chicago Summit: your speaker session details
+
+real work 'shipped: + transactional override' would have dropped:
+  · You're confirmed: RMHR Conference Oct 14-15, Denver
+  · Your Harvest plan renews in 5 days — update your payment method
+  · AME Chicago Summit: your speaker session details
+
+real work 'transactional checked FIRST' would have dropped:
+  · You're confirmed: RMHR Conference Oct 14-15, Denver
+  · AME Chicago Summit: your speaker session details
+
+real work 'List-ID only' would have dropped:
+  · You're confirmed: RMHR Conference Oct 14-15, Denver
+  · Your Harvest plan renews in 5 days — update your payment method
+  · AME Chicago Summit: your speaker session details

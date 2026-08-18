@@ -50,11 +50,11 @@ The model reads one email and emits structured claims with verbatim quotes. It n
 | | |
 |---|---|
 | Messages processed | **1,500** across 5 mailboxes |
-| Claims extracted | **1,198** — every one quote-verified |
-| Quarantined as unverifiable | **1** |
-| Work items after the fold | 1,069 (1,007 open) |
+| Claims extracted | **1,259** — every one quote-verified |
+| Quarantined as unverifiable | **2** |
+| Work items after the fold | 1,126 (1,062 open) |
 | Impersonation attempts caught | **10** |
-| Total extraction cost | **$0.78** |
+| Total extraction cost | **$0.94** |
 | Tests | **49 passing** |
 
 ## Every answer carries its citation
@@ -96,16 +96,18 @@ All six questions route correctly when asked indirectly:
 
 **Merging people on display name destroys the fraud signal.** Resolving two addresses to one person when the display name matches is how `same_person_two_addresses` gets solved. It also folds an impersonator into the very person they're impersonating — `billing@klaviyo-billing.com` merged silently into the real `billing@klaviyo.com`. The discriminator is registrable domain at a **token boundary**: `email.united.com` sits under `united.com` (merge), while `klaviyo-billing.com` merely appends a word to the brand (never merge). A bare substring test also flags `vanta.com` against `vantageassurance.com`, which is nothing at all. See [`identity.py`](src/pipeline/identity.py).
 
-**The noise gate wasn't worth what it cost.** Measured across four variants over the whole corpus:
+**The noise gate wasn't worth what it cost.** Every candidate rule scored against the gold sets by [`tools/measure_noise_gate.py`](tools/measure_noise_gate.py) — "real work lost" counts gold items whose source email the rule would have discarded before extraction ever saw it:
 
-| Gate rule | Real work lost | Noise gated | Extraction cost |
+| Gate rule | Real work lost | Gated | Extraction cost |
 |---|---|---|---|
-| Gmail category OR bulk headers | **6** | 202 | $1.42 |
-| List-ID OR (promo AND automated) | 2 | 134 | $1.50 |
-| List-ID only | 0 | 35 | $1.61 |
-| No gate | 0 | 0 | $1.65 |
+| Gmail category OR bulk headers | **88** | 483 | $0.53 |
+| List-ID OR (promo AND automated) | 3 | 139 | $0.71 |
+| List-ID first, transactional override | 3 | 138 | $0.71 |
+| **shipped: transactional checked first** | **2** | 134 | $0.72 |
+| List-ID only | 3 | 95 | $0.74 |
+| No gate | 0 | 0 | $0.79 |
 
-The aggressive gate saves **$0.23** and loses six real obligations — among them a speaking-slot confirmation and a "your plan renews in 5 days, update your payment method" notice. The gate is now narrow, with a transactional-subject override. See [`signals.py`](src/pipeline/signals.py).
+The aggressive gate saves **$0.26** and destroys **88** real obligations. Ordering turned out to matter as much as the rules: checking List-ID before the transactional override still dropped a plan-renewal notice and a speaker-slot confirmation, because the override sat behind the rule that had already discarded them. Moving it first recovers one for $0.002. See [`signals.py`](src/pipeline/signals.py).
 
 ## Run it
 

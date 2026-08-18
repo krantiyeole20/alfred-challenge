@@ -92,9 +92,9 @@
     "q4_waiting_on_others": {
       "gold_items": 6,
       "answers_returned": 25,
-      "covered": 1,
-      "recall": 0.16666666666666666,
-      "precision": 0.04,
+      "covered": 0,
+      "recall": 0.0,
+      "precision": 0.0,
       "leaked": [],
       "missed": [
         {
@@ -122,6 +122,11 @@
           "tricky_tags": []
         },
         {
+          "item_id": "founder-q4-04",
+          "claim": "Beth Ranganathan is due back on Tarrow Health's response to Kettle's $350K liability-cap counter; she sent it Aug 5 and ",
+          "tricky_tags": []
+        },
+        {
           "item_id": "founder-q4-06",
           "claim": "Alice Yun still owes Maya a Head of Marketing search update; Maya asked Aug 5, hit Alice's vacation auto-responder (back",
           "tricky_tags": [
@@ -132,10 +137,10 @@
     },
     "q5_what_changed": {
       "gold_items": 8,
-      "answers_returned": 7,
-      "covered": 2,
-      "recall": 0.25,
-      "precision": 0.2857142857142857,
+      "answers_returned": 8,
+      "covered": 3,
+      "recall": 0.375,
+      "precision": 0.375,
       "leaked": [],
       "missed": [
         {
@@ -171,11 +176,6 @@
           "tricky_tags": [
             "shifting_number"
           ]
-        },
-        {
-          "item_id": "founder-q5-07",
-          "claim": "The Aug 27 board meeting moved an hour later and got longer: it is now 10am\u201312pm PT, not 9\u201311am, so Greg can join from t",
-          "tricky_tags": []
         }
       ]
     },
@@ -258,10 +258,10 @@
     },
     "q2_forgetting": {
       "gold_items": 5,
-      "answers_returned": 16,
+      "answers_returned": 18,
       "covered": 5,
       "recall": 1.0,
-      "precision": 0.3125,
+      "precision": 0.2777777777777778,
       "leaked": [],
       "missed": []
     },
@@ -451,10 +451,10 @@
     },
     "q2_forgetting": {
       "gold_items": 5,
-      "answers_returned": 17,
+      "answers_returned": 19,
       "covered": 4,
       "recall": 0.8,
-      "precision": 0.23529411764705882,
+      "precision": 0.21052631578947367,
       "leaked": [],
       "missed": [
         {
@@ -647,10 +647,10 @@
     },
     "q2_forgetting": {
       "gold_items": 5,
-      "answers_returned": 16,
+      "answers_returned": 17,
       "covered": 3,
       "recall": 0.6,
-      "precision": 0.1875,
+      "precision": 0.17647058823529413,
       "leaked": [],
       "missed": [
         {
